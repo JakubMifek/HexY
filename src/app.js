@@ -1,18 +1,21 @@
 import { createGame, transition } from './domain/game.js';
 import { randomStarter } from './domain/config.js';
-import { DomainError } from './domain/errors.js';
+import { DomainError, requireValue } from './domain/errors.js';
 import { message } from './messages.js';
 import { Workspace } from './workspace.js';
 import { RoundClock } from './runtime/clock.js';
-import { DuelKeyboard } from './runtime/keyboard.js';
-import { element } from './ui/dom.js';
+import { Inputs } from './runtime/inputs.js';
+import { Recovery } from './runtime/recovery.js';
+import { DUEL_SYMBOLS } from './runtime/symbols.js';
+import { applicationView } from './ui/application.js';
 import { strings } from './ui/strings.js';
-import { defaultSetup, setupView } from './ui/setup.js';
-import { gameView, transitionFeedback } from './ui/game.js';
-import { confirmNewGame, headerView } from './ui/header.js';
+import { defaultSetup } from './ui/setup.js';
+import { transitionFeedback } from './ui/game.js';
+import { confirmNewGame } from './ui/header.js';
 
 export class App {
   disposed = false;
+  lastObservedNow = 0;
   /** @type {import('./domain/types.js').Game | null} */
   state = null;
   /** @type {import('./domain/types.js').Language} */
@@ -49,18 +52,21 @@ export class App {
         }),
       (now) => this.displayTime(now),
     );
-    this.keyboard = new DuelKeyboard(
+    this.inputs = new Inputs(
       window,
       clock,
       (action) => this.send(action),
       () => this.interrupt(),
     );
+    this.keyboard = this.inputs.keyboard;
+    this.recovery = new Recovery();
+    this.restore();
     this.render();
   }
 
   /** @param {import('./ui/setup.js').Setup} settings */
   start(settings) {
-    if (this.disposed) return;
+    if (this.disposed || this.state) return;
     this.guard(() => {
       this.workspace.model.configure(settings);
       const pack = this.workspace.model.packForStart();
@@ -77,15 +83,16 @@ export class App {
             previewMs: 2000,
             symbolMs: 900,
             length: 5,
-            symbols: ['circle', 'triangle', 'square', 'star'],
+            symbols: Object.keys(DUEL_SYMBOLS),
           },
         },
-        this.clock.now(),
+        this.now(),
         this.sessionId(),
       );
       this.settings = settings;
       this.workspace.model.lock();
       this.savePreferences();
+      this.recovery.save(this.state);
       this.feedback = {};
       this.render();
       this.root.querySelector('.game')?.scrollIntoView({ block: 'start' });
@@ -106,11 +113,12 @@ export class App {
         action.revision === before.revision;
       if (restarting && !this.canRestart()) return;
       const result = transition(before, action, {
-        now: this.clock.now(),
+        now: this.now(),
         random: this.random,
       });
       if (result.outcome === 'ignored') return;
       this.state = result.state;
+      this.recovery.save(this.state);
       this.feedback = transitionFeedback(before, this.state, action);
       this.render();
       this.timer.bind(this.state);
@@ -125,7 +133,7 @@ export class App {
       state.stage.phase === 'duel-preview' ||
       state.stage.phase === 'duel-interrupted'
     ) {
-      this.keyboard.requireReleases();
+      this.inputs.requireReleases();
     }
     this.send({
       type: 'interrupt',
@@ -136,10 +144,7 @@ export class App {
 
   canRestart() {
     const blocked =
-      this.keyboard.held.size ||
-      this.keyboard.releasesRequired.size ||
-      document.hidden ||
-      !document.hasFocus();
+      !this.inputs.ready() || document.hidden || !document.hasFocus();
     if (!blocked) return true;
     const feedback = this.root.querySelector('#restart-feedback');
     if (feedback) feedback.textContent = strings[this.language].rearmNeeded;
@@ -171,49 +176,11 @@ export class App {
     this.viewListeners.abort();
     this.viewListeners = new AbortController();
     const signal = this.viewListeners.signal;
-    const t = strings[this.language];
     document.documentElement.lang = this.language;
     document.documentElement.dataset.theme = this.theme;
-    const header = headerView(
-      t,
-      this.language,
-      this.theme,
-      (language, theme) => this.changePresentation(language, theme),
-      this.state ? () => this.requestNew() : null,
-      signal,
-    );
-    const main = element('main');
-    const state = this.state;
-    if (state) {
-      const context = { sessionId: state.sessionId, revision: state.revision };
-      main.append(
-        gameView(
-          state,
-          this.settings,
-          t,
-          this.feedback,
-          (action) => this.send({ ...action, ...context }),
-          signal,
-        ),
-      );
-      main.append(this.workspace.view(signal, state.pack));
-    } else
-      main.append(
-        setupView(
-          t,
-          this.settings,
-          (settings) => this.start(settings),
-          signal,
-          () => this.setupChanged(),
-          this.workspace.view(signal, null),
-        ),
-      );
-    this.root.replaceChildren(
-      header,
-      main,
-      element('p', '', { id: 'error', role: 'alert' }),
-    );
-    this.keyboard.bind(state);
+    this.inputs.bind(this.state);
+    this.root.replaceChildren(...applicationView(this, signal));
+    this.inputs.releaseFeedback();
     this.displayTime(this.clock.now());
     this.restoreFocus(focused);
   }
@@ -239,6 +206,13 @@ export class App {
 
   /** @param {number} now */
   displayTime(now) {
+    if (now < this.lastObservedNow) {
+      this.guard(() => {
+        throw new DomainError('clockBackwards');
+      });
+      return;
+    }
+    this.lastObservedNow = now;
     const stage = this.state?.stage;
     const timer = this.root.querySelector('#timer');
     if (timer && stage?.phase === 'question') {
@@ -246,18 +220,67 @@ export class App {
     }
   }
 
+  now() {
+    const now = this.clock.now();
+    requireValue(now >= this.lastObservedNow, 'clockBackwards');
+    this.lastObservedNow = now;
+    return now;
+  }
+
   requestNew() {
-    if (this.dialog?.open) return;
+    if (this.disposed || this.dialog?.open) return;
     const phase = this.state?.stage.phase;
     if (phase === 'duel-active' || phase === 'duel-preview') this.interrupt();
     this.dialog = confirmNewGame(strings[this.language], () => {
+      if (this.disposed || !this.recovery.discard()) {
+        this.renderPresentation();
+        return;
+      }
       this.timer.dispose();
-      this.keyboard.bind(null);
+      this.inputs.bind(null);
       this.state = null;
       this.workspace.model.unlock();
       this.feedback = {};
       this.render();
     });
+  }
+
+  restore() {
+    this.state = this.recovery.load(this.clock.now(), this.sessionId()) ?? null;
+    if (!this.state) return;
+    this.workspace.model.lock();
+    this.recovery.save(this.state);
+    if (this.state.stage.phase === 'duel-interrupted')
+      this.inputs.requireReleases();
+    this.timer.bind(this.state);
+  }
+
+  retryRecovery() {
+    if (this.disposed) return;
+    if (this.state) {
+      this.recovery.retrySave(this.state, this.clock.now(), this.sessionId());
+    } else this.restore();
+    this.renderPresentation();
+  }
+
+  /** @param {File} file */
+  async importGame(file) {
+    if (this.disposed || this.state) return;
+    const state = await this.recovery.import(
+      file,
+      () => this.clock.now(),
+      this.sessionId,
+    );
+    if (this.disposed) return;
+    if (state) {
+      this.state = state;
+      this.workspace.model.lock();
+      this.recovery.save(state);
+      if (state.stage.phase === 'duel-interrupted')
+        this.inputs.requireReleases();
+      this.timer.bind(state);
+    }
+    this.renderPresentation();
   }
 
   setupChanged() {
@@ -294,7 +317,8 @@ export class App {
     this.disposed = true;
     this.state = null;
     this.timer.dispose();
-    this.keyboard.dispose();
+    this.inputs.dispose();
+    this.recovery.dispose();
     this.viewListeners.abort();
     this.dialog?.close();
     this.workspace.dispose();

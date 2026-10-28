@@ -71,8 +71,8 @@ solely to obtain a revision without permission.
 | 0 | Instructions and phased plan approved | User review | Cleared | User approved 2026-10-28 |
 | 1 | Tested domain foundation and contracts | 0 | Cleared and pushed: `0155d7c` | [CLEARED](reviews/phase-01.md) |
 | 2 | Playable local quiz with keyboard duels | 1 cleared | Cleared and pushed: `fbee41d` | [CLEARED after fixes](reviews/phase-02.md) |
-| 3 | Pack preparation and host answer sheets | 2 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-03.md) |
-| 4 | Recovery, controllers and tablet readiness | 3 cleared | Not started | Not started |
+| 3 | Pack preparation and host answer sheets | 2 cleared | Cleared and pushed: `9dfa3bc` | [CLEARED after fixes](reviews/phase-03.md) |
+| 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-04.md) |
 | 5 | General knowledge, Nature, Geography content | 4 cleared | Not started | Not started |
 | 6 | History, Politics, Science content | 5 cleared | Not started | Not started |
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Not started | Not started |
@@ -790,5 +790,108 @@ reran full `npm run check`, the documented Chromium suite and `git diff --check`
 All passed: 134 tests, 59 browser journeys, format/lint/types/build and both
 coverage gates. No code changed after re-review.
 
-Next action: commit/push phase 3 and verify the remote SHA before phase 4.
-No running-game recovery, gamepad/touch support or public deployment is claimed.
+Phase 3 committed and pushed as `9dfa3bcff2d4c90e60bc88b56ad85e6ed2e0abb5`;
+remote `main` verified. No running-game recovery, gamepad/touch support or public
+deployment is claimed yet.
+
+### Phase 4 starting snapshot
+
+Baseline: `9dfa3bcff2d4c90e60bc88b56ad85e6ed2e0abb5`. Next action: fresh
+phase-4 developer implements persisted game recovery, keyboard/gamepad mapping
+and usable tablet touch input, preserving prior flows and both coverage gates.
+Physical Xbox/tablet checks remain explicitly pending for release if unavailable;
+browser mocks/emulation cannot substitute for actual hardware evidence.
+
+### Phase 4 developer handoff — 2026-10-28
+
+The phase-4 candidate is implemented and **frozen for fresh independent review;
+not cleared**. Detailed acceptance mapping, design decisions, exact source
+inventory and limitations: [developer handoff](docs/phase-04-handoff.md).
+No commit/push/deployment, dependency install, later content work or instruction
+rule changes occurred. The reviewed 56 starter questions and phase-3 library
+exclusion/read-failure fixes are preserved.
+
+Final sequential pre-review `TMPDIR="$PWD/.artifacts" npm run check`, documented
+Chromium command and `git diff --check` passed: **167 unit/DOM tests**, **94 browser
+journeys**, format/lint/types/build and both separate coverage gates.
+Critical (25 files): 99.61% lines/statements, 100% functions, 97.61% branches.
+Remaining (20 files): 99.38% lines, 99.39% statements, 97.50% functions,
+94.19% branches. All 45 runtime modules are included, with only the existing
+type-only exclusion. Negative group/membership probes reject invalid reports.
+
+Evidence: `.artifacts/phase-04-{check,browser,coverage-enforcement}.log`,
+`coverage/`, 16 both-language/theme viewport screenshot combinations and actual
+recovery/native-emulated-touch/mocked-controller journeys. Preview 4182 is closed.
+The final changed/new manifest is `.artifacts/phase-04-snapshot.sha256`, generated
+after all writing. Physical Xbox/tablet remains explicitly pending for phase 8.
+Next: fresh reviewer, then fixes/re-review as needed; coordinator post-review
+verification remains mandatory before any clearance or commit.
+
+### Phase 4 review-fix handoff — 2026-10-28
+
+Reviewer `c74220e4-298d-42e3-bb31-8bd2e648d709` returned CHANGES REQUIRED:
+changed-record protection did not block later writes, unsupported saved symbols
+could break rendering, and gamepad diagnostics omitted releases. Initial findings
+and developer responses remain in [the review report](reviews/phase-04.md).
+
+All three corrections are implemented and **frozen for the same reviewer, not
+cleared**. Sequential full checks passed: **177 unit/DOM tests**, **103 Chromium
+journeys**, format/lint/types/build and both coverage groups. Critical, 26 files:
+99.61% lines, 99.62% statements, 100% functions, 97.66% branches. Remaining,
+20 files: 99.56% lines/statements, 97.47% functions, 95.25% branches. All 46
+runtime modules are included; only the existing type-only exclusion remains.
+
+Details, regression reproductions, evidence and source scope are appended to
+`docs/phase-04-handoff.md` and the review report. Final manifests:
+`.artifacts/phase-04-review-fixes-snapshot.sha256` and canonical
+`.artifacts/phase-04-snapshot.sha256`, generated after all writing. No commits,
+pushes, installs, deployment, delegation or shared-server changes. Preview 4182
+is closed. Same-reviewer re-review and coordinator post-review checks remain next.
+
+### Phase 4 P4-R4 correction handoff — 2026-10-28
+
+The same reviewer confirmed the three original reproductions fixed, then found
+failed recovery rereads granting saving from stale empty-state knowledge.
+`Recovery` now owns write permission; only a successful current empty read
+allows blocked memory-game retry saving. Failed rereads remain denied/unsaved,
+including the related discard reread path. Original review history is preserved
+in `reviews/phase-04.md`; detailed evidence and scope are in the phase-4 handoff.
+
+**Frozen for same-reviewer P4-R4 recheck; not cleared.** Full sequential gates
+passed: **184 unit/DOM tests**, **109 Chromium journeys**, format/lint/types/build.
+Critical 26 files: 99.61% lines, 99.62% statements, 100% functions, 97.67% branches.
+Remaining 20 files: 99.56% lines/statements, 97.47% functions, observed
+321/337 branches (95.25%). All 46 runtime sources included; coverage thresholds,
+membership requirements and prior flow assertions unchanged. Negative coverage
+probes reject altered reports. New regressions preserve exact unread replacement
+bytes through retry/gameplay in both languages and verify successful empty retry.
+
+Logs: `.artifacts/phase-04-r4-{check,browser,coverage-enforcement}.log`.
+After-all-writing manifests: `.artifacts/phase-04-r4-snapshot.sha256` and canonical
+`.artifacts/phase-04-snapshot.sha256`. Previous manifests/evidence preserved.
+No commits/pushes, installs, deployment, other-agent messages or shared-server
+changes. Preview stopped. Physical-device/release gates and mandatory coordinator
+post-review verification remain pending.
+
+### Phase 4 clearance and post-review verification
+
+The same independent reviewer cleared P4-R1 through P4-R4 with no new mandatory
+findings. Final snapshot fingerprint:
+`3e12b77e583adef179e65e94344a08091bb75101c18d7616605bd511c7670b67`.
+The full findings, failed re-review and final clearance are preserved in
+`reviews/phase-04.md`. Recovery now privately owns write permission; unread
+records cannot be overwritten through retry or subsequent gameplay.
+
+Coordinator verified the frozen snapshot before and after sequential full
+`TMPDIR="$PWD/.artifacts" npm run check`, documented Chromium suite and
+`git diff --check`. All passed: **184 unit/DOM tests**, **109 browser journeys**,
+format/lint/types/build and both coverage gates. Critical: 99.61% lines,
+99.62% statements, 100% functions, 879/900 branches (97.67%). Remaining:
+99.56% lines/statements, 97.47% functions, 322/338 branches (95.27%).
+All 46 runtime modules included. No source changes followed clearance.
+
+Logs: `.artifacts/phase-04-post-review-{check,browser}.log`.
+Only factual delivery documentation changes follow the frozen check. Commit/push
+and remote verification must precede phase 5. Physical Xbox/tablet, other browser
+engines, screen-reader devices, name clearance and public deployment remain
+explicit phase-8 gates.

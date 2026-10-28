@@ -103,6 +103,7 @@ for (const language of ['en', 'cs']) {
       .locator('.library-management')
       .screenshot({ path: info.outputPath('quota-recovered.png') });
     await page.reload();
+    await returnFromRecoveredGame(page, normal);
     expect(JSON.parse(await stored(page)).packs).toEqual([normal]);
     await expect(page.locator('#source-retained-normal')).toHaveCount(1);
     await expect(page.locator('#source-oversized-copy')).toHaveCount(0);
@@ -148,6 +149,20 @@ for (const language of ['en', 'cs']) {
     await page.reload();
     expect(JSON.parse(await stored(page)).packs).toEqual([normal, copy]);
   });
+}
+
+/** @param {import('@playwright/test').Page} page
+ * @param {import('../src/domain/types.js').Pack} pack */
+async function returnFromRecoveredGame(page, pack) {
+  await expect(page.locator('.game')).toHaveAttribute('data-phase', 'question');
+  await expect(page.locator('.question-text')).toHaveText(
+    pack.questions[0].text,
+  );
+  await expect(
+    page.locator('#import-packs,#edit-proposal,#prepare-board'),
+  ).toHaveCount(0);
+  await page.locator('#new-game').click();
+  await page.locator('#discard-new').click();
 }
 
 /** @param {import('@playwright/test').Page} page */

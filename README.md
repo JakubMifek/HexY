@@ -1,7 +1,7 @@
 # HexY
 
-Playable local quiz for two players sharing a screen. **Phase 3 preparation,
-library and answer sheets are independently reviewed, not a production release.**
+Playable local quiz for two players sharing a screen. **Phases 1–4, including
+recovery and input-device software, are independently cleared. Not a production release.**
 See [phase status](IMPLEMENTATION_PHASES.md) and [contracts](docs/contracts.md).
 
 ## Play
@@ -20,15 +20,17 @@ names/colors, starter (A, B or random), question duration (default 30 seconds,
   opponent attempt makes the field black. Answers appear only after resolution.
 - The opposite player to the actual recipient chooses next. If neither succeeds,
   the opposite player to the original chooser goes next.
-- Select black fields for keyboard duels: A uses **Left Shift**, B **Right Shift**.
+- Select black fields for reaction duels: default keys are **Left Shift** for A
+  and **Right Shift** for B. **Input controls and test** changes physical keys,
+  assigns controller buttons, and tests inputs without awarding a field.
   Memorize the target, release held keys, then press only when the target appears.
   Wrong symbols award the other player. Ties and missed targets replay.
-- Losing focus interrupts duels without an award. Return and **press and release
-  Left Shift, then Right Shift in this window**, even if you released them
-  outside it. These rearming presses cannot capture a field. Have both players
-  confirm readiness, then restart. A blocked restart explains the release/focus
-  requirement; losing focus again requires both releases again. Questions never
-  pause.
+- Losing focus, opening input controls, losing an assigned controller, or reloading
+  interrupts duels without an award or chooser change. Return and **press and
+  release both mapped keys or both touch buzzers in this window**. Release all
+  assigned controller buttons. Then both players confirm readiness and restart.
+  Rearming cannot capture; losing focus again requires new releases. The release
+  status explains when inputs are ready. Questions never pause.
 - Hosted corrections exist only between rounds or after a win. Cell changes and
   chooser changes are independent. Resetting a cell reuses its original question.
   Corrections immediately recompute victory and can reopen a won game.
@@ -42,12 +44,54 @@ Use Tab and Enter/Space for controls. Arrow keys move through selectable fields 
 row-major order. Ownership has A/B marks, black fields retain identifiers with ×,
 and winning connections have dashed outlines. Questions remain below the board;
 the question panel scrolls into view when necessary. Desktop/laptop and tablet
-layouts are supported; keyboard duels still require a physical keyboard.
+layouts are supported, including separate A/B touch buzzers during duels.
 
-**Reload/navigation still loses the running game.** Custom packs and settings
-are stored locally; game recovery, gamepads, remapping and touch buzzers belong
-to phase 4. Static downloaded content is inspectable; this is friendly local
-play, not anti-cheat.
+**A successfully saved game recovers on reload, including its original deadline.**
+Expired initial answers become the opponent's single opportunity. Selecting and
+won games recover unchanged; every saved duel recovers interrupted. Content stays
+locked after recovery and host resets. Unsent typed drafts are not saved.
+Static downloaded content is inspectable: this is friendly local play, not anti-cheat.
+
+### Local input compatibility
+
+Supported software setup: two players share a desktop/laptop keyboard, or a
+multi-touch tablet with one finger each on the separate A/B buzzers. A host uses
+the ordinary judging controls. Both players should preferably use the same input
+type. Tablet portrait and landscape layouts allow vertical scrolling; phones
+are not supported.
+
+- Physical keyboard mappings: separate `ShiftLeft`/`ShiftRight`, `Space`, or
+  `KeyA`–`KeyZ` positions. Labels describe physical positions, not a translated
+  keyboard character. Conflicts are rejected; Tab/Enter/arrows remain ordinary
+  navigation keys. Holds, repeats and presses begun in preview cannot capture.
+  Mapped keys do not steal input from ordinary focused form controls/buttons;
+  focus the board/question or a buzzer to play.
+- Touch/mouse: press a buzzer, then lift/release before the next press. Buzzers
+  are at least 72 px high; simultaneous rising edges replay ties. Pointer
+  cancellation clears pending input. Gestures on buzzers cannot scroll/repeat;
+  ordinary controls and page scrolling remain available elsewhere.
+- Gamepads: use a browser exposing `navigator.getGamepads` (HTTPS or localhost
+  recommended). Connect and press a controller button so the browser exposes it,
+  then explicitly assign a connected device and **zero-based button index** to
+  each player. Two controllers or two distinct buttons on one controller work.
+  No automatic player assignment, button capture or reconnect reassignment occurs.
+  Assignment requires a neutral observed sample before a press. Assignments are
+  session-only: reassign after reload/disconnection. Unsupported, denied and
+  disconnected states are reported; keyboard/touch remain explicit alternatives.
+- **Input controls and test** is a modal safe test, not a playable duel.
+  Opening it interrupts duels but never pauses a question. Close it or press
+  Escape to return; rearm and confirm readiness before restarting a duel.
+- **Fullscreen** uses the browser's Fullscreen API. Failure is reported; browser
+  fullscreen is an alternative. Fullscreen never changes a question deadline.
+- Events within **8 ms** share the existing tie window. Controllers are polled
+  every 16 ms and both players in one sample share a timestamp. Keyboard/pointer
+  dispatch, polling and OS/device latency differ: perfect cross-device timing
+  fairness is not promised. There is no flashing animation or sound cue.
+
+Chromium software behavior is tested with real UI/engine, native emulated
+multi-touch and mocked Gamepad boundaries. **Physical Xbox/tablet and other
+browser verification remain pending for phase 8**; screenshots/emulation are not
+hardware verification.
 
 ## Prepare packs and private answer sheets
 
@@ -93,7 +137,7 @@ and on its sheet. Imported text is rendered as text, never executable markup.
 The versioned `hexy.library.v1` localStorage record contains validated custom
 packs and interface/game-setup preferences. Imports, saved editor copies and
 accepted generated boards are saved automatically. Bundled assets are never
-modified. Unsaved editor drafts/proposals and running games are not persisted.
+modified. Unsaved editor drafts/proposals are not persisted.
 `localStorage` is sufficient for this small static, single-browser library:
 synchronous atomic replacement makes complete-record validation and
 failure-preservation straightforward, without a database framework or dependency.
@@ -118,7 +162,8 @@ previous stored value intact.
 - **Read access denied at startup:** saving is blocked to protect unread data,
   even after access is restored. Export your in-memory copies, allow site storage,
   reload to validate the original library, then reimport your exports. Retrying
-  edits without reloading cannot save. Running games still cannot survive reload.
+  edits without reloading cannot save. Game storage is separate; inspect its
+  own saved/unsaved status before reloading.
 - **Write access denied after a successful read:** allow site storage and retry
   saving (for example, a setting change), or export your copies first.
 
@@ -131,6 +176,59 @@ Preserve the raw `hexy.library.v1` value using browser site-storage tools before
 repairing/removing that site's data; use a compatible application for a newer
 format. Until then, work in memory and export. This is not running-game recovery.
 Use one editing tab: concurrent-tab merging is not implemented.
+
+### Saved-game recovery and backups
+
+`hexy.game.v1` is separate from the library: it stores the validated domain game,
+including locked questions/aliases/placement, board, chooser, phase and original
+deadline. Every accepted game transition saves synchronously **before rendering**.
+Library saving inclusion/exclusion never edits that snapshot. `hexy.inputs.v1`
+separately stores versioned keyboard mappings; it does not contain gamepad assignments.
+
+- Check **Game recovery**: **not saved** means the current state is only in
+  memory, even if an earlier game remains in storage. Quota/access failures never
+  claim success. Export the game, reduce the custom library using its existing
+  confirmed exclusion controls, then **Retry recovery / saving**.
+- **Export game / original save** downloads the current full game, or the raw
+  protected original when recovery failed. If playing in memory over an unread/
+  invalid original, **Export protected original save** keeps that original too.
+  Failed exports are reported; do not leave until the needed download succeeds.
+- Corrupt, incompatible, unread or backward-clock saves are never overwritten.
+  Retry after restoring storage access/the clock, or export the original and
+  explicitly **Discard stored game…** followed by confirmation. Cancel is safe.
+  No DevTools are required for these game-recovery paths. A different stored
+  value detected at confirmation is neither deleted nor overwritten by later
+  gameplay/retries: saving is blocked and the replacement is available as a raw
+  export. Retry inspects it without replacing it with the in-memory game.
+  Export current work and reload to recover that replacement, or export it and
+  confirm discard again to explicitly remove it. Close other tabs first.
+  If a retry cannot read storage, saving stays blocked even if storage was last
+  observed empty. Retry can resume memory-game saving only after a successful
+  current read establishes that no stored game remains.
+- You may start an in-memory game while recovery is blocked, but it cannot replace
+  the protected original automatically. Export that in-memory game before reload
+  to recover the original. Alternatively, export both, confirm discard, and import
+  the desired game. Read access restoration alone never overwrites unseen data.
+- After confirmed discard/with empty game storage, **Import saved game JSON**
+  validates and recovers an exported game. Invalid or superseded reads cannot
+  replace current play. Importing an expired question does not give extra time.
+  Game exports contain gameplay, not library or display preferences; names/colors
+  use this browser's setup preferences. Export custom packs separately as needed.
+- This browser version renders duel symbols named `circle`, `triangle`, `square`
+  and `star`. A save using other symbols is rejected before adoption or saving,
+  even between turns or during an interrupted duel. The original stays intact:
+  keep its export and use a compatible version, or explicitly discard it. Config
+  symbols are never silently substituted. This is a browser compatibility check,
+  not a change to the general domain save schema.
+- Confirmed **New game** removes the saved game before leaving play. If removal
+  fails, the current game stays open with an error rather than silently resurrecting
+  an older game on reload.
+
+Keep the device clock correct. Backward timestamps earlier than the runtime's
+last observed reading or a saved transition are rejected; the original deadline
+is never reset. A static offline application has no trusted external clock to
+authenticate clock changes across browser/device shutdown. Browser storage is
+not a backup, and clearing this site's data removes all three separate records.
 
 Original and imported rights remain distinct. Mixed boards preserve each
 question's source-pack attribution chain in the documented optional `origins`
@@ -223,7 +321,8 @@ journeys is **not** counted as statement coverage. Phase 1 did not measure cover
   orchestration; no gameplay rules duplicated here.
 - `src/workspace.js`: preparation I/O, localized errors, persistence and view
   coordination, separate from authoritative running-game state.
-- `src/runtime/`: deadline scheduling, release-filtered keyboard input,
+- `src/runtime/`: deadline scheduling, shared 8 ms input batching, keyboard,
+  controller/touch lifecycles and input-test coordination, game recovery storage,
   preparation invariants, local-library writes and download URL lifetimes.
 - `src/ui/`: setup, native SVG board, question/duel panel, host controls and
   Czech/English labels, preparation editor and escaped print-ready HTML.
@@ -231,8 +330,8 @@ journeys is **not** counted as statement coverage. Phase 1 did not measure cover
 - `tests/`, `browser/`: deterministic engine/adapter/DOM behavior and real-browser
   journeys, including both languages, themes, answer modes and board modes.
 
-No phase-2 physical Xbox/tablet or screen-reader-device verification is claimed.
-Name/trademark clearance, complete content inventory, recovery and public hosting
+No physical Xbox/tablet or screen-reader-device verification is claimed.
+Name/trademark clearance, complete content inventory and public hosting
 remain later-phase work. Passing tests alone never clears a phase.
 
 ## Rights

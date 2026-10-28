@@ -220,7 +220,7 @@ test('source selection, invalid drafts/imports, and export errors keep valid pri
   expect(app.workspace.model.custom).toHaveLength(1);
 });
 
-test('saved imports, custom copies and settings survive remount without saving a running game', async () => {
+test('saved imports, custom copies and settings survive remount independently of game storage', async () => {
   set('#ui-language', 'en');
   set('#theme', 'dark');
   set('#nameA', 'Ada');

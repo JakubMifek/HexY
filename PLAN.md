@@ -20,8 +20,9 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: phase 3 preparation, library and answer sheets cleared after
-independent re-review and post-review checks; commit/push pending before phase 4.**
+**Current stage: phase 4 recovery and input-device software independently cleared
+with passing post-review checks; phase 5 content follows verified delivery.**
+Physical Xbox/tablet checks remain pending for the phase-8 release gate.
 The name, broad visual direction, logo concept, stack, core rules, host overrides
 and recovery policy are selected. The user requested iterative development with
 a developer session and independent usability/readability/OOP/design-pattern
@@ -407,9 +408,10 @@ The user approved the recommended stack:
   font requests and additional asset licensing dependencies.
 
 Phase 1 installed the approved development tooling and a lockfile; there are
-still no runtime dependencies. The phase-3 candidate uses a validated, versioned
+still no runtime dependencies. The application uses a validated, versioned
 localStorage library for custom packs/settings, with explicit failures and JSON
-backups. Running-game recovery and deployment details remain later-phase work.
+backups. Phase 4 adds running-game recovery with original deadlines and protected
+unread records. Public deployment remains phase-8 work.
 
 On 2026-10-28 the user approved enforced coverage gates from phase 2 onward:
 critical rules/validation/timing/recovery >=95% lines, statements and functions,
@@ -421,11 +423,10 @@ Phase 1 did not measure coverage. See `AGENTS.md` and `REVIEW.md` for evidence r
 
 Remaining technical design work:
 
-- SVG board construction, accessibility and event handling.
-- Running-game persistence/recovery and save-format migration (phase 4);
-  custom-pack/settings storage is implemented for phase-3 review.
-- Browser/device support, Gamepad API limitations and HTTPS requirements.
-- Self-hosted or system fonts, icon assets and their licenses.
+- Release-level accessibility and physical browser/device verification;
+  the SVG board, persistence, recovery and input adapters are implemented.
+- Compatibility policy for future save versions; unsupported records are
+  currently rejected and preserved, not silently migrated.
 - Deployment under a root path versus subdirectory and cache/update behavior.
 
 Proposed architectural boundaries, not a mandatory file tree:

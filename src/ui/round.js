@@ -1,4 +1,5 @@
 import { opponent } from '../domain/outcomes.js';
+import { DUEL_SYMBOLS, symbolKey } from '../runtime/symbols.js';
 import { button, element, field, input } from './dom.js';
 
 /** @param {import('../domain/types.js').Game} state */
@@ -137,8 +138,7 @@ function answerForm(state, t, send, signal) {
 function duelView(panel, state, t) {
   const stage = state.stage;
   if (stage.phase !== 'duel-preview' && stage.phase !== 'duel-active') return;
-  const symbols = { circle: '●', triangle: '▲', square: '■', star: '★' };
-  const target = symbolName(stage.round.target, t);
+  const target = t[symbolKey(stage.round.target)];
   panel.append(
     element('p', `${t.target}: ${target}`, {
       class: 'target',
@@ -152,34 +152,18 @@ function duelView(panel, state, t) {
     stage.phase === 'duel-preview'
       ? stage.round.target
       : stage.round.sequence[index];
-  const glyph = symbols[/** @type {keyof typeof symbols} */ (symbol)];
+  const glyph = DUEL_SYMBOLS[symbolKey(symbol)];
   panel.append(
     element('div', glyph, { class: 'duel-symbol', 'aria-hidden': 'true' }),
     element(
       'p',
       stage.phase === 'duel-preview'
         ? t.waiting
-        : `${t.current}: ${symbolName(symbol, t)}`,
+        : `${t.current}: ${t[symbolKey(symbol)]}`,
       { id: 'duel-current' },
     ),
     element('p', t.duelHelp),
   );
-}
-
-/** @param {string} symbol @param {import('./strings.js').Texts} t */
-function symbolName(symbol, t) {
-  switch (symbol) {
-    case 'circle':
-      return t.circle;
-    case 'triangle':
-      return t.triangle;
-    case 'square':
-      return t.square;
-    case 'star':
-      return t.star;
-    default:
-      throw new Error('Unsupported duel symbol');
-  }
 }
 
 /** @param {HTMLElement} panel @param {import('./strings.js').Texts} t

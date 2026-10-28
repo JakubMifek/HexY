@@ -79,11 +79,11 @@ export const strings = {
     ready: 'Ready',
     restart: 'Restart duel',
     interruptHelp:
-      'Return to this window. Press and release Left Shift, then Right Shift here to re-arm both keys, even if you released them outside the window. These presses cannot award a field. Then each player confirms readiness.',
+      'Return to this window. Press and release both mapped keys (default: Left Shift and Right Shift), or both touch buzzers. Release assigned controller buttons. These presses cannot award a field. Then each player confirms readiness.',
     rearmNeeded:
-      'Restart blocked: keep this window focused and visible, press and release both Left Shift and Right Shift here, then try Restart duel again.',
+      'Restart blocked: keep this window focused and visible; press and release both mapped keys (default Left Shift and Right Shift) or both touch buzzers; release assigned controllers, then retry.',
     duelHelp:
-      'A: Left Shift · B: Right Shift. Release before every press. Wrong symbol awards the other player. Ties and missed targets replay.',
+      'Use the mapped keys, assigned controller buttons or A/B touch buzzers. Release before every press. Wrong symbol awards the other player. Ties and missed targets replay.',
     circle: 'Circle',
     triangle: 'Triangle',
     square: 'Square',
@@ -170,11 +170,11 @@ export const strings = {
     ready: 'Připraven',
     restart: 'Znovu spustit rozstřel',
     interruptHelp:
-      'Vraťte se do tohoto okna. Zde stiskněte a pusťte levý Shift a potom pravý Shift, i když jste je pustili mimo okno. Tím se obě klávesy znovu připraví; tyto stisky nemohou přidělit pole. Pak každý hráč potvrdí připravenost.',
+      'Vraťte se do tohoto okna. Stiskněte a pusťte obě přiřazené klávesy (výchozí: levý Shift a pravý Shift) nebo obě dotyková tlačítka. Uvolněte přiřazené ovladače. Tyto stisky nemohou přidělit pole. Pak každý hráč potvrdí připravenost.',
     rearmNeeded:
-      'Rozstřel nelze spustit: ponechte toto okno aktivní a viditelné, zde stiskněte a pusťte levý i pravý Shift a zkuste rozstřel spustit znovu.',
+      'Rozstřel nelze spustit: ponechte toto okno aktivní a viditelné; stiskněte a pusťte obě přiřazené klávesy (výchozí levý a pravý Shift) nebo obě dotyková tlačítka; uvolněte ovladače a opakujte akci.',
     duelHelp:
-      'A: levý Shift · B: pravý Shift. Před každým stiskem klávesu pusťte. Chybný symbol přidělí pole soupeři. Shoda a zmeškaný cíl rozstřel opakují.',
+      'Použijte přiřazené klávesy, tlačítka ovladačů nebo dotyková tlačítka A/B. Před dalším stiskem uvolněte. Chybný symbol přidělí pole soupeři. Shoda a zmeškaný cíl rozstřel opakují.',
     circle: 'Kruh',
     triangle: 'Trojúhelník',
     square: 'Čtverec',

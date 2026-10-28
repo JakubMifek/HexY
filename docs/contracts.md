@@ -1,8 +1,8 @@
 # Domain and playable-adapter contracts
 
 These are version 1 JSON contracts, backed by JSDoc in `src/domain/types.js` and
-runtime validators. Phase 3 adds a versioned local custom-pack/settings library;
-running-game storage/recovery remains a phase-4 adapter task. JSON serialization
+runtime validators. Phase 3 added the local custom-pack/settings library;
+phase 4 adds a separate game-recovery adapter and input preferences. JSON serialization
 is `JSON.stringify`; pack import is `importPack`, saved-game parsing and recovery
 is `recoverGame`. Validators reconstruct owned data and never mutate the supplied
 value or overwrite a caller's current valid game/pack.
@@ -246,7 +246,9 @@ Save validation cross-checks round ownership, chooser, deadlines, sequence timin
 and actual connected victories, not just field types. A black cell retains its
 pack position/ID and prefix. Owned cells also keep identity in data; the UI
 hides their labels and displays A/B ownership marks. Runtime resources and DOM
-objects never enter saves.
+objects never enter saves. `Recovery` stores this object directly under
+`hexy.game.v1`: no alternative board/turn adjudication or save envelope is used.
+Display names/colors remain in the separately versioned library preferences.
 
 `recoverGame(json, now, freshSessionId)` preserves original question deadlines,
 transfers already-expired questions to the opponent, and converts preview/active
@@ -255,6 +257,54 @@ duels to `duel-interrupted`. It never awards an interrupted field. Explicit
 readiness. Recovery changes the session scope and revision, so old input cannot
 apply even when numeric revisions happen to coincide. Keep the original file on
 validation failure. Browser-local data is not a backup.
+
+`Recovery.load` revokes write permission before reading and delegates all parsing
+and recovery to `recoverGame`. The app immediately saves a successfully recovered
+state with its fresh scope, before rendering. Each subsequent applied transition
+saves before rendering too, including initial selection/deadline, wrong answers,
+host edits and victory. Failure changes only explicit persistence feedback, not
+the valid game or original stored record. The adapter distinguishes denied reads,
+denied writes, quota, unsupported versions, malformed data and backwards clocks.
+
+The original raw string is retained for export, including invalid/newer records.
+Read failure never authorizes writes. Memory-only play may continue, but a retry
+cannot silently replace an existing protected game with that in-memory game.
+The UI offers retry, current/original export and confirmed discard; discarding
+compares the current raw record with the observed one before removal. Failed
+removal keeps play open. This is protection against accidental changed-record
+deletion, not multi-tab merging; only one editing tab is supported.
+
+When discard detects different bytes, it immediately revokes write permission
+and saved status and retains those replacement bytes for raw export. Subsequent
+gameplay is memory-only. An active-game retry reads/validates the replacement but
+does not adopt it or authorize overwriting it. Export current work and reload to
+recover the replacement, or explicitly confirm discard again against the newly
+observed record. A further change triggers the same protection again.
+
+`Recovery` owns write permission; orchestration can read but cannot assign it.
+Its `retrySave` authorizes blocked memory-game saving only when the current
+`load` succeeds with an empty result, never from cached `original` content.
+A failed reread retains the read error and unsaved/denied status, including when
+the previous successful observation was empty. A failed discard reread also
+revokes previously granted permission. Once access returns, nonempty records
+remain protected/exportable; a successful empty read permits memory-game saving.
+
+Saved-game file import is available with empty, writable game storage. It uses
+the same recovery validator and a fresh runtime ID, not an alternate engine.
+Reads carry a generation invalidated by save/load/discard/disposal and later
+imports; obsolete success/failure callbacks are ignored. Imported content locks
+preparation like a locally started/recovered game. Confirmed new-game removal
+precedes clearing runtime state; old callbacks cannot resave that game.
+
+Browser adoption additionally validates renderability of **all configured duel
+symbols**, including selecting/interrupted saves with no currently visible symbol.
+`runtime/symbols.js` defines the shared `circle`, `triangle`, `square`, `star`
+glyph alphabet; initial configuration, localized rendering and the recovery
+compatibility check all use it. Domain validation still accepts arbitrary distinct
+nonempty symbols, but an unsupported browser alphabet reports `duelCompatibility`
+before adoption/persistence. There is no config substitution or catch-and-continue
+render fallback. Startup keeps the exact original stored bytes; rejected file
+imports leave current state/storage untouched.
 
 ## Actions, time and input
 
@@ -293,11 +343,11 @@ takes priority even exactly at a symbol or replay boundary.
 Render the active symbol at index `floor((state.lastNow - startsAt) / symbolMs)`;
 advance via `tick` rather than independently changing the visible symbol.
 
-The phase-2 keyboard adapter binds Left Shift to A and Right Shift to B. It
+The keyboard adapter defaults to Left Shift for A and Right Shift for B. It
 tracks held keys across preview, visual revisions and focus loss, requiring an
 observed release before a fresh press. Every interruption (including repeated
 focus loss while already interrupted) requires an in-window, focused and visible
-keyup for each Shift key before restart. Users explicitly press/release both
+keyup for each mapped key before keyboard restart. Users explicitly press/release both
 keys to recover missed outside keyups. Rearming presses occur with no active
 duel context, cannot award fields, and never blindly clear the held-key filter.
 Presses with timestamps within 8 ms are
@@ -305,7 +355,8 @@ treated as indistinguishable and delivered atomically after an 8 ms collection
 window. Order does not favor either player. A boundary or interruption cancels
 pending input; timestamps classify ties but never replace the injected processing
 clock. This is a practical keyboard precision tolerance, not a claim of perfect
-device fairness. Remapping/gamepads arrive later.
+device fairness. `BuzzerBatch` is the one shared collection boundary for keyboard,
+gamepad and touch; it never adjudicates the result independently of `transition`.
 
 `RoundClock` owns one timeout, captures each scheduled state's session/revision,
 and rebinds after accepted actions without changing the engine deadline. Timer
@@ -314,14 +365,62 @@ decremented counter. Each rendered control captures the presented action context
 replaced listeners are aborted. `App.dispose()` stops clocks, aborts keyboard and
 view listeners, closes dialogs and rejects queued work. No animation frames exist.
 
-Focus/visibility loss invalidates a duel in memory. Restart requires separate
-readiness checkboxes, both observed Shift releases, no currently held Shift key,
-and a focused, visible document. Failed restart attempts give actionable localized
-feedback beside the readiness controls. New
-game confirmation also invalidates duels while leaving question deadlines
-unchanged. It does not expose host corrections during interruption. Reload
-recovery/game storage is deliberately not implemented until phase 4. Phase-3
-custom-pack/settings storage is separate and cannot restore a running game.
+Focus/visibility loss, assigned-controller loss, input controls and new-game
+confirmation invalidate duels while leaving question deadlines unchanged.
+Restart requires separate readiness checkboxes, a focused visible document, and
+observed releases of both mapped keys **or** both touch buzzers. No mapped key,
+touch pointer or assigned controller button may remain held; controllers require
+an observed neutral sample too. Failed restarts have actionable localized
+feedback. No corrections are exposed during interruption. Recovery similarly
+invalidates preview/active duels, never awarding a field or changing the chooser.
+
+`DuelKeyboard.remap` accepts distinct physical `ShiftLeft`, `ShiftRight`, `Space`
+or `KeyA`–`KeyZ` codes. It requires new releases and drops only irrelevant
+unmapped held codes, preventing an old missed keyup from deadlocking new bindings.
+Mapping errors leave the previous mapping intact, including the displayed value.
+Mapped keys do not capture while an ordinary form control/button has focus;
+the board/question and dedicated buzzers remain keyboard input surfaces.
+`hexy.inputs.v1` is `{schemaVersion: 1, keys: {A: code, B: code}}`, separate from
+game/library keys. Read/validation failure protects the original and reports
+session-only mappings; allow storage and reload before saving after a read
+failure. Write failures report session-only changes and permit a later retry.
+
+`DuelGamepads` polls `getGamepads` every 16 ms, with injectable samples and
+high-resolution sample timestamps. All edges in one poll share a timestamp.
+Each observed connection has a fresh token. Assignments bind a player to that
+connection and a valid zero-based button index; two players cannot share one
+button. Controllers must be explicitly assigned and observed neutral before
+rising edges can enter `BuzzerBatch`. Assignments are never persisted or
+automatically recreated after reload/disconnection/index reuse. Device loss
+removes affected assignments and interrupts any duel. Unsupported/denied,
+connected, unassigned and disconnected states are visible in input controls;
+duels also show assignments/loss and release status.
+
+Diagnostic feedback receives actual changed held/released edges separately from
+the gameplay rising-edge callback. Releases cannot dispatch a gameplay press.
+Initial assignment uses the sampled held state; the first neutral sample arms
+the assignment without inventing a release event. Unchanged polling samples do
+not rewrite or live-announce the input-test status.
+
+`DuelTouch` tracks pointer IDs and per-player holds across view replacements.
+Only fresh primary-button pointerdowns on dedicated A/B buzzers enter the shared
+batch. Global pointerup releases; pointercancel cancels pending input and does
+not certify restart readiness. Touch actions on the buzzers suppress native
+scroll/gesture repetition, not normal page navigation elsewhere. Emulated
+Chromium multi-touch and real `.tap()` UI paths are covered separately from
+synthetic pointer-boundary edge tests.
+
+`Inputs` composes these concrete lifetimes and owns the safe input-test dialog.
+The dialog binds no game input context; opening/closing it interrupts duels,
+requires fresh rearming and cleans up dialog listeners. Normal keyboard/tab/touch
+focus is retained; close returns focus to its launcher. Presentation rerenders
+cannot reconnect old batches. Fullscreen rejection carries its original game
+scope so it cannot report stale errors into a replacement game.
+
+Polling, OS/controller latency and keyboard/pointer event dispatch differ.
+The 8 ms tie window is retained, not a promise of perfect cross-device fairness.
+Prefer the same input type for both players. Physical Xbox/tablet verification
+remains a phase-8 dependency; only software emulation/mocks are claimed here.
 
 Unsent answer text is presentation-only DOM state, not part of the authoritative
 game. Theme/language changes briefly capture and restore it only if the exact
@@ -332,6 +431,11 @@ No canonical answer or alias is used to populate an input.
 There is no pause action. A clock refresh with no transition returns the same
 state; `remainingMs(state, now)` computes display time from the deadline.
 Neither opening future controls nor losing focus grants extra question time.
+The app also rejects clock readings earlier than its previous display/action
+reading, even if no gameplay transition happened in between; it never increases
+the displayed countdown after detecting rollback. Across reload the validated
+`lastNow` is the saved lower bound. Keep system clocks correct: an offline static
+app cannot authenticate clock adjustments across shutdown without trusted time.
 
 ## Host corrections
 

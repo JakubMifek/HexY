@@ -1,17 +1,20 @@
-const TIE_WINDOW_MS = 8;
+import { BuzzerBatch } from './buzzer.js';
+import { requireValue } from '../domain/errors.js';
 
-/** @typedef {Pick<import('../domain/types.js').Game, 'sessionId'|'revision'>} Context */
+export const KEY_CODES = [
+  'ShiftLeft',
+  'ShiftRight',
+  'Space',
+  ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map((letter) => `Key${letter}`),
+];
 
 export class DuelKeyboard {
-  /** @type {Context | null} */
-  context = null;
-  /** @type {{context: Context, players: import('../domain/types.js').Player[], stamp: number} | null} */
-  pending = null;
-  /** @type {number | undefined} */
-  timer;
+  mapping = { A: 'ShiftLeft', B: 'ShiftRight' };
   held = new Set();
   releasesRequired = new Set();
   listeners = new AbortController();
+  /** @type {(player: import('../domain/types.js').Player, held: boolean) => void} */
+  changed = () => {};
 
   /** @param {Window} target @param {import('./clock.js').Clock} clock
    * @param {(action: import('../domain/types.js').Action) => void} send
@@ -19,6 +22,7 @@ export class DuelKeyboard {
   constructor(target, clock, send, interrupt) {
     this.clock = clock;
     this.send = send;
+    this.batch = new BuzzerBatch(clock, send);
     this.document = target.document;
     const options = { signal: this.listeners.signal };
     target.addEventListener('keydown', (event) => this.down(event), options);
@@ -26,7 +30,7 @@ export class DuelKeyboard {
     target.addEventListener(
       'blur',
       () => {
-        this.clearPending();
+        this.batch.clear();
         interrupt();
       },
       options,
@@ -35,7 +39,7 @@ export class DuelKeyboard {
       'visibilitychange',
       () => {
         if (target.document.hidden) {
-          this.clearPending();
+          this.batch.clear();
           interrupt();
         }
       },
@@ -44,8 +48,23 @@ export class DuelKeyboard {
   }
 
   requireReleases() {
-    this.clearPending();
-    this.releasesRequired = new Set(['ShiftLeft', 'ShiftRight']);
+    this.batch.clear();
+    this.releasesRequired = new Set(Object.values(this.mapping));
+  }
+
+  /** @param {{A: string, B: string}} mapping */
+  remap(mapping) {
+    requireValue(
+      KEY_CODES.includes(mapping.A) &&
+        KEY_CODES.includes(mapping.B) &&
+        mapping.A !== mapping.B,
+      'inputConflict',
+    );
+    this.mapping = { ...mapping };
+    this.held = new Set(
+      [...this.held].filter((code) => Object.values(mapping).includes(code)),
+    );
+    this.requireReleases();
   }
 
   /** @param {string} code */
@@ -54,78 +73,50 @@ export class DuelKeyboard {
     if (!this.document.hidden && this.document.hasFocus()) {
       this.releasesRequired.delete(code);
     }
+    const player = this.player(code);
+    if (player) this.changed(player, false);
+  }
+
+  /** @param {string} code @returns {import('../domain/types.js').Player | null} */
+  player(code) {
+    if (code === this.mapping.A) return 'A';
+    return code === this.mapping.B ? 'B' : null;
   }
 
   /** @param {KeyboardEvent} event */
   down(event) {
-    if (event.code !== 'ShiftLeft' && event.code !== 'ShiftRight') return;
+    const player = this.player(event.code);
+    if (!player) return;
     if (event.repeat || this.held.has(event.code)) return;
     this.held.add(event.code);
-    const context = this.context;
-    if (!context) return;
+    this.changed(player, true);
+    if (!this.batch.context || this.releasesRequired.has(event.code)) return;
+    if (isControl(event.target)) return;
     event.preventDefault();
-    const player = event.code === 'ShiftLeft' ? 'A' : 'B';
-    const pending = this.pending;
-    if (this.isTie(event.timeStamp)) {
-      this.addPlayer(player);
-      return;
-    }
-
-    if (pending) this.flush();
-    this.pending = {
-      context,
-      players: [player],
-      stamp: event.timeStamp,
-    };
-    this.timer = this.clock.later(() => this.flush(), TIE_WINDOW_MS);
-  }
-
-  /** @param {number} stamp */
-  isTie(stamp) {
-    return (
-      this.pending !== null &&
-      Math.abs(stamp - this.pending.stamp) <= TIE_WINDOW_MS
-    );
-  }
-
-  /** @param {import('../domain/types.js').Player} player */
-  addPlayer(player) {
-    if (this.pending && !this.pending.players.includes(player))
-      this.pending.players.push(player);
-  }
-
-  flush() {
-    const pending = this.pending;
-    this.clearPending();
-    if (pending)
-      this.send({
-        type: 'press',
-        players: pending.players,
-        ...pending.context,
-      });
-  }
-
-  clearPending() {
-    if (this.timer !== undefined) this.clock.cancel(this.timer);
-    this.timer = undefined;
-    this.pending = null;
+    this.batch.press(player, event.timeStamp);
   }
 
   /** @param {import('../domain/types.js').Game | null} state */
   bind(state) {
-    this.clearPending();
+    this.batch.bind(state);
     if (!state) this.releasesRequired.clear();
-    this.context =
-      state?.stage.phase === 'duel-active'
-        ? { sessionId: state.sessionId, revision: state.revision }
-        : null;
   }
 
   dispose() {
     this.listeners.abort();
-    this.clearPending();
-    this.context = null;
+    this.batch.bind(null);
     this.held.clear();
     this.releasesRequired.clear();
   }
+}
+
+/** @param {EventTarget | null} target */
+function isControl(target) {
+  return (
+    target instanceof Element &&
+    !target.closest('.buzzer') &&
+    target.closest(
+      'input, select, textarea, button, [contenteditable="true"]',
+    ) !== null
+  );
 }

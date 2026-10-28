@@ -1,5 +1,37 @@
 /** @type {Record<string, {en: string, cs: string}>} */
 const messages = {
+  duelCompatibility: {
+    en: 'This saved game uses duel symbols this browser version cannot display. It was not adopted or saved. Keep the original export and use a compatible HexY version, or explicitly discard it to start a new game.',
+    cs: 'Uložená hra používá symboly rozstřelu, které tato verze neumí zobrazit. Hra nebyla převzata ani uložena. Zachovejte původní export a použijte kompatibilní verzi HexY, nebo ji výslovně smažte a začněte novou hru.',
+  },
+  recoveryRead: {
+    en: 'The stored game could not be read. Replacement saving is blocked; play is in memory only. Allow site storage and retry recovery.',
+    cs: 'Uloženou hru nelze přečíst. Nahrazení záznamu je zablokované; hraje se jen v paměti. Povolte úložiště webu a opakujte obnovení.',
+  },
+  recoveryWrite: {
+    en: 'The game could not be saved or removed. Allow site storage and retry. Export the current game before leaving.',
+    cs: 'Hru nelze uložit nebo smazat. Povolte úložiště webu a opakujte akci. Před odchodem exportujte aktuální hru.',
+  },
+  recoveryQuota: {
+    en: 'Storage is full: the current game is NOT saved. Export the game, reduce the custom library with Manage local saving, then retry saving.',
+    cs: 'Úložiště je plné: aktuální hra NENÍ uložená. Exportujte hru, zmenšete vlastní knihovnu pomocí správy místního ukládání a opakujte uložení.',
+  },
+  recoveryBlocked: {
+    en: 'Saving is blocked to protect the original game. Retry recovery or export and explicitly discard it.',
+    cs: 'Ukládání je zablokované kvůli ochraně původní hry. Opakujte obnovení nebo ji exportujte a výslovně smažte.',
+  },
+  recoveryChanged: {
+    en: 'The stored game changed since it was read. It was not removed. Close other HexY tabs and retry recovery before discarding.',
+    cs: 'Uložená hra se od načtení změnila. Nebyla smazána. Zavřete ostatní panely HexY a před smazáním opakujte obnovení.',
+  },
+  inputConflict: {
+    en: 'Choose two different supported physical keys or controller buttons.',
+    cs: 'Vyberte dvě různé podporované fyzické klávesy nebo tlačítka ovladače.',
+  },
+  inputAssignment: {
+    en: 'Select a connected controller and a button index it provides.',
+    cs: 'Vyberte připojený ovladač a číslo jeho existujícího tlačítka.',
+  },
   selectSources: {
     en: 'Select at least one source pack before generating.',
     cs: 'Před generováním vyberte alespoň jednu zdrojovou sadu.',
@@ -73,8 +105,8 @@ const messages = {
     cs: 'Soubor nelze přečíst. Vyberte dostupný místní soubor JSON a zkuste to znovu; původní sady se nezměnily.',
   },
   exportFailed: {
-    en: 'Download could not be created. Allow downloads and try again. Your pack is still in memory.',
-    cs: 'Stažený soubor nelze vytvořit. Povolte stahování a zkuste to znovu. Sada zůstává v paměti.',
+    en: 'Download could not be created. Allow downloads and try again. Your current work is still in memory.',
+    cs: 'Stažený soubor nelze vytvořit. Povolte stahování a zkuste to znovu. Aktuální práce zůstává v paměti.',
   },
   invalidObject: {
     en: 'Expected a JSON object.',
