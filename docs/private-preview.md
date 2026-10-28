@@ -4,7 +4,7 @@ This is the approved deployment interlude, **not** the final public release.
 Implementation and PV-A1 correction are independently cleared with passing
 post-review checks. The corrected installation now serves real private HTTPS
 and its persistent updater is enabled. See [review evidence](../reviews/private-preview.md).
-An actual after-push update is being observed before final operational sign-off.
+Actual after-push updates and preservation of an open game have been verified.
 The retained migration procedure documents the completed one-time correction;
 do not reinstall or rerun that migration over the working preview.
 

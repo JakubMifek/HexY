@@ -22,8 +22,9 @@ been approved.
 
 **Current stage: phase 5 General knowledge, Nature, Geography and travel is
 independently cleared and pushed as `7e01b7f`.**
-The user requested private automatic-main Tailscale deployment before further
-content phases; this is a preview, not phase-8 public-release clearance.
+The requested private automatic-main Tailscale preview is now operational:
+actual HTTPS and automatic-after-push updates were verified without disrupting
+an open game. Phase 6 content is next; this is not phase-8 public-release clearance.
 Physical Xbox/tablet checks remain pending for the phase-8 release gate.
 The name, broad visual direction, logo concept, stack, core rules, host overrides
 and recovery policy are selected. The user requested iterative development with

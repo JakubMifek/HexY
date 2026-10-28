@@ -1101,3 +1101,16 @@ tailnet Serve authorization. Private `/hexy/` HTTPS, actual browser gameplay,
 revision and hashed assets verified; automatic timer enabled. Admin unchanged.
 An open real game is being observed through the next automatic-after-push update
 before final operational sign-off and phase-6 start.
+
+### Private-preview interlude complete
+
+Actual private HTTPS automatically followed two real main pushes. Final
+end-to-end proof advanced `03a4aa3` to `f42e013` without manual updater start:
+no forced navigation or storage change, old/new assets verified, manual reload
+preserved exact locked pack/cells, no browser errors. Persistent timer and Docker
+restart policy verified; the separate admin is unchanged. Full evidence and
+limitations are in [the operational sign-off](reviews/private-preview.md#operational-sign-off--private-preview-complete).
+
+The requested private deployment is complete. Public-release, legal, physical
+device and actual shared-host reboot claims remain excluded. Phase 6 is next;
+its pushes will update the running preview automatically.

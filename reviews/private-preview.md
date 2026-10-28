@@ -239,3 +239,26 @@ The coordinator's extra probe then failed because it incorrectly accessed
 contract error, not an application/service failure. The artifact-only probe
 now checks the actual pack and cells and is repeating the complete observation
 through another real documentation push. No application/deployment code changed.
+
+## Operational sign-off — private preview complete
+
+The corrected probe passed end-to-end: enabled timer automatically advanced
+actual HTTPS from `03a4aa3` to pushed remote main
+`f42e0137f78ef3b81bf3a18da1cf03dd95043bcb`, without a manual update command.
+The open real game had no forced navigation or saved-byte mutation; prior
+asset URLs remained valid with exact hashes/immutable headers, new revision
+and no-store responses matched, and manual reload preserved the exact locked
+pack and cell ownership. No browser/request errors.
+
+Evidence: `.artifacts/private-preview-live-update.json`,
+`private-preview-live-before.png`, `private-preview-live-after.png` and the
+artifact-only `private-preview-live-update.mjs`. Actual service/timer and Docker
+restart configuration verified; admin identity/start/restart remained unchanged.
+No Tailscale Funnel, shared-user-manager changes, permission escalation or
+unrelated-server edits. The retained old runtime/stopped HexY container provide
+the documented migration fallback; serving/release history remains intact.
+
+This completes the approved private-preview interlude. It does not claim
+physical tablet/controller, a separate client-device test, an actual shared-host
+reboot, public availability or phase-8 release clearance. Phase 6 may proceed;
+each subsequent push continues to refresh this preview automatically.
