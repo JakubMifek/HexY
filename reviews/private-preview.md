@@ -224,3 +224,18 @@ admin container identity/start/restart count matches the pre-activation snapshot
 Actual shared-host reboot and access from a separate physical device are not
 claimed. A real game remains open while the next documentation push is
 automatically observed; this final update proof is still in progress.
+
+### First actual automatic update
+
+The enabled timer deployed real pushed documentation commit
+`03a4aa3b45e72d4da59cd8da81b8e2e1f1480d4b` from `26cb612` without a manual
+service start. The HTTPS revision matched freshly read remote main. Real
+Chromium retained its exact saved-game bytes, navigation count and owned field;
+old/new asset hashes and cache headers passed, and manual reload retained the
+owned field.
+
+The coordinator's extra probe then failed because it incorrectly accessed
+`saved.state.pack`; the actual v1 save has top-level `pack`. This was a probe
+contract error, not an application/service failure. The artifact-only probe
+now checks the actual pack and cells and is repeating the complete observation
+through another real documentation push. No application/deployment code changed.

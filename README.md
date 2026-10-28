@@ -359,9 +359,11 @@ remain later-phase work. Passing tests alone never clears a phase.
 
 ## Private preview operations
 
-The approved private Tailscale `/hexy/` preview follows pushed `main` using an
+The private Tailscale `/hexy/` preview is running and follows pushed `main` using an
 isolated Docker static server and user timer, without changing the separate
-8443 admin application. See [installation, safety gates, status and rollback](docs/private-preview.md)
+8443 admin application. Updates are checked 60 seconds after the preceding
+check/build finishes; failed updates keep the last working release. Already-open
+games are not forcibly reloaded. See [installation, safety gates, status and rollback](docs/private-preview.md)
 and the [interlude handoff](docs/private-preview-handoff.md).
 This is not phase-8 public release clearance.
 
