@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "id": "nature-cs-01",
+  "title": "Příroda · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-cs-01-01",
+      "text": "Jak se nazývá mořský pták z čeledi Diomedeidae, jejíž zástupci patří k ptákům s největším rozpětím křídel?",
+      "initial": "A",
+      "answer": "Albatros",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Albatrosovit%C3%AD"]
+    },
+    {
+      "id": "nature-cs-01-02",
+      "text": "Který velký polovodní hlodavec staví hráze z větví a bahna a má široký zploštělý ocas?",
+      "initial": "B",
+      "answer": "Bobr",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Bobr"]
+    },
+    {
+      "id": "nature-cs-01-03",
+      "text": "Jak se nazývá hmyz z čeledi Gryllidae, jehož samci vyluzují cvrčivý zvuk třením předních křídel o sebe?",
+      "initial": "C",
+      "answer": "Cvrček",
+      "language": "cs",
+      "aliases": ["cvrček polní"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Cvr%C4%8Dek_poln%C3%AD"]
+    },
+    {
+      "id": "nature-cs-01-04",
+      "text": "Který velký evropský pták s červeným zobákem a nohama mívá hnízdo na komíně a ozývá se klapáním zobáku?",
+      "initial": "Č",
+      "answer": "Čáp bílý",
+      "language": "cs",
+      "aliases": ["čáp", "Ciconia ciconia"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8C%C3%A1p_b%C3%ADl%C3%BD"]
+    },
+    {
+      "id": "nature-cs-01-05",
+      "text": "Který náš největší datlovitý pták má černé peří a samec výrazně červené temeno?",
+      "initial": "D",
+      "answer": "Datel černý",
+      "language": "cs",
+      "aliases": ["datel", "Dryocopus martius"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Datel_%C4%8Dern%C3%BD"]
+    },
+    {
+      "id": "nature-cs-01-06",
+      "text": "Jak nazýváme orientaci podle ozvěny vlastních zvuků, kterou využívají například netopýři?",
+      "initial": "E",
+      "answer": "Echolokace",
+      "language": "cs",
+      "aliases": ["biosonar"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Echolokace"]
+    },
+    {
+      "id": "nature-cs-01-07",
+      "text": "Jak se jmenuje domestikovaná forma tchoře, dříve využívaná mimo jiné k lovu králíků z nor?",
+      "initial": "F",
+      "answer": "Fretka",
+      "language": "cs",
+      "aliases": ["fretka domácí"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Fretka_dom%C3%A1c%C3%AD"]
+    },
+    {
+      "id": "nature-cs-01-08",
+      "text": "Který africký lidoop je největším žijícím primátem a dospělý samec mívá stříbřitý hřbet?",
+      "initial": "G",
+      "answer": "Gorila",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Gorila"]
+    },
+    {
+      "id": "nature-cs-01-09",
+      "text": "Jakým odborným slovem označujeme zimní spánek se silným snížením látkové výměny a tělesné teploty?",
+      "initial": "H",
+      "answer": "Hibernace",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Zimn%C3%AD_sp%C3%A1nek"]
+    },
+    {
+      "id": "nature-cs-01-10",
+      "text": "Který ještěr má vystřelovací jazyk, oči schopné pohybovat se nezávisle a u mnoha druhů chápavý ocas?",
+      "initial": "Ch",
+      "answer": "Chameleon",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chameleonovit%C3%AD",
+        "https://en.wikipedia.org/wiki/Chameleon"
+      ]
+    },
+    {
+      "id": "nature-cs-01-11",
+      "text": "Který brodivý pták s dlouhým dolů zahnutým zobákem má druh nazývaný posvátný, uctívaný ve starověkém Egyptě?",
+      "initial": "I",
+      "answer": "Ibis",
+      "language": "cs",
+      "aliases": ["ibis posvátný"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Ibis_posv%C3%A1tn%C3%BD"]
+    },
+    {
+      "id": "nature-cs-01-12",
+      "text": "Který malý savec z podčeledi Erinaceinae má hřbet pokrytý bodlinami a v nebezpečí se stáčí do klubíčka?",
+      "initial": "J",
+      "answer": "Ježek",
+      "language": "cs",
+      "aliases": ["ježek západní"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Je%C5%BEek_z%C3%A1padn%C3%AD"]
+    },
+    {
+      "id": "nature-cs-01-13",
+      "text": "Jak nazýváme drobného amerického ptáka, který dokáže při sání nektaru viset ve vzduchu a létat pozpátku?",
+      "initial": "K",
+      "answer": "Kolibřík",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Kolib%C5%99%C3%ADkovit%C3%AD"]
+    },
+    {
+      "id": "nature-cs-01-14",
+      "text": "Jak se nazývá společenství houby a řasy nebo sinice, které vytváří společnou stélku?",
+      "initial": "L",
+      "answer": "Lišejník",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Li%C5%A1ejn%C3%ADk"]
+    },
+    {
+      "id": "nature-cs-01-15",
+      "text": "Která velká šelma s bílou srstí loví v Arktidě hlavně tuleně a má vědecké jméno Ursus maritimus?",
+      "initial": "M",
+      "answer": "Medvěd lední",
+      "language": "cs",
+      "aliases": ["lední medvěd", "polární medvěd"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Medv%C4%9Bd_ledn%C3%AD"]
+    },
+    {
+      "id": "nature-cs-01-16",
+      "text": "Jak se nazývá létající savec, jehož křídlo tvoří kožní blána napnutá mezi prodlouženými prsty?",
+      "initial": "N",
+      "answer": "Netopýr",
+      "language": "cs",
+      "aliases": ["letoun"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Letouni"]
+    },
+    {
+      "id": "nature-cs-01-17",
+      "text": "Jakým běžným názvem označujeme rostlinu z čeledi vstavačovitých, do které patří také vanilka?",
+      "initial": "O",
+      "answer": "Orchidej",
+      "language": "cs",
+      "aliases": ["vstavačovitá rostlina"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Vstava%C4%8Dovit%C3%A9"]
+    },
+    {
+      "id": "nature-cs-01-18",
+      "text": "Který členovec z řádu Araneae má čtyři páry kráčivých nohou a snovací bradavky?",
+      "initial": "P",
+      "answer": "Pavouk",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Pavouci"]
+    },
+    {
+      "id": "nature-cs-01-19",
+      "text": "Která masožravá rostlina rodu Drosera chytá drobný hmyz pomocí lepkavých kapek na listech?",
+      "initial": "R",
+      "answer": "Rosnatka",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Rosnatka"]
+    },
+    {
+      "id": "nature-cs-01-20",
+      "text": "Jak označujeme různorodou skupinu převážně vodních fotosyntetizujících organismů, do které patří například chaluhy a rozsivky?",
+      "initial": "Ř",
+      "answer": "Řasy",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98asy"]
+    },
+    {
+      "id": "nature-cs-01-21",
+      "text": "Jak se česky nazývá přisedlý mořský žahavec z řádu Actiniaria, jehož chapadla připomínají květ?",
+      "initial": "S",
+      "answer": "Sasanka",
+      "language": "cs",
+      "aliases": ["mořská sasanka"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Sasanky"]
+    },
+    {
+      "id": "nature-cs-01-22",
+      "text": "Která sladkovodní dravá ryba má protáhlé tělo, zploštělý široký rypec a vědecké jméno Esox lucius?",
+      "initial": "Š",
+      "answer": "Štika obecná",
+      "language": "cs",
+      "aliases": ["štika"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0tika_obecn%C3%A1"]
+    },
+    {
+      "id": "nature-cs-01-23",
+      "text": "Jak se nazývá nelétavý mořský pták z čeledi Spheniscidae, jehož křídla slouží jako ploutve?",
+      "initial": "T",
+      "answer": "Tučňák",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Tu%C4%8D%C5%88%C3%A1kovit%C3%AD"
+      ]
+    },
+    {
+      "id": "nature-cs-01-24",
+      "text": "Který nejedovatý had, Natrix natrix, mívá za hlavou dvě světlé půlměsíčité skvrny?",
+      "initial": "U",
+      "answer": "Užovka obojková",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/U%C5%BEovka_obojkov%C3%A1"]
+    },
+    {
+      "id": "nature-cs-01-25",
+      "text": "Která lasicovitá šelma, Lutra lutra, je přizpůsobena lovu ve vodě a má plovací blány mezi prsty?",
+      "initial": "V",
+      "answer": "Vydra říční",
+      "language": "cs",
+      "aliases": ["vydra"],
+      "category": "nature",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Vydra_%C5%99%C3%AD%C4%8Dn%C3%AD"
+      ]
+    },
+    {
+      "id": "nature-cs-01-26",
+      "text": "Který vzácný australský jehličnan objevil David Noble v roce 1994 v národním parku Wollemi?",
+      "initial": "W",
+      "answer": "Wollemie vznešená",
+      "language": "cs",
+      "aliases": [
+        "wollemie",
+        "wolemie",
+        "wolemie vznešená",
+        "Wollemia nobilis"
+      ],
+      "category": "nature",
+      "sources": ["https://botany.cz/cs/wollemia-nobilis/"]
+    },
+    {
+      "id": "nature-cs-01-27",
+      "text": "Který evropský jedovatý had, Vipera berus, mívá na hřbetě výrazný klikatý pruh?",
+      "initial": "Z",
+      "answer": "Zmije obecná",
+      "language": "cs",
+      "aliases": ["zmije"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Zmije_obecn%C3%A1"]
+    },
+    {
+      "id": "nature-cs-01-28",
+      "text": "Který africký savec je nejvyšším žijícím suchozemským živočichem?",
+      "initial": "Ž",
+      "answer": "Žirafa",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDirafa"]
+    }
+  ]
+}

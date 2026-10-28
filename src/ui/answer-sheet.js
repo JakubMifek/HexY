@@ -40,7 +40,9 @@ table{width:100%;border-collapse:collapse;font-size:10pt}
 th,td{border:1px solid #555;padding:.4rem;text-align:left;white-space:pre-wrap;overflow-wrap:anywhere}
 thead{display:table-header-group}tr{break-inside:avoid}h1{font-size:18pt}
 th:first-child,td:first-child{min-width:2.5rem;white-space:nowrap}
-@page{size:landscape;margin:12mm}@media print{body{margin:0}.screen-only{display:none}}
+.source-entry{break-inside:avoid}.source-entry h3{font-size:11pt;margin-bottom:.3rem}
+.source-entry p{font-size:10pt;white-space:pre-wrap;margin-top:0}
+@page{size:landscape;margin:12mm}@media print{body{margin:0}.screen-only{display:none}#source-appendix{break-before:page}}
 </style>
 <h1>HexY · ${escape(t.privateSheet)}</h1>
 <p class="screen-only">${escape(t.sheetHelp)}</p>
@@ -50,7 +52,20 @@ th:first-child,td:first-child{min-width:2.5rem;white-space:nowrap}
 <tbody>${rows}</tbody></table>
 <p>${escape(pack.authors.join(', '))} · ${escape(pack.license)}</p>
 ${sheetAttribution(pack, t)}
+${sheetSources(pack, t)}
 </html>`;
+}
+
+/** @param {import('../domain/types.js').Pack} pack
+ * @param {import('./preparation-strings.js').PreparationTexts} t */
+function sheetSources(pack, t) {
+  const entries = pack.questions
+    .map(
+      (question, index) =>
+        `<section class="source-entry"><h3>${escape(t.number)}: ${index + 1} · ${escape(t.id)}: ${escape(question.id)}</h3><p>${escape(question.sources.join('\n'))}</p></section>`,
+    )
+    .join('\n');
+  return `<section id="source-appendix"><h2>${escape(t.provenance)}</h2>${entries}</section>`;
 }
 
 /** @param {import('../domain/types.js').Pack} pack

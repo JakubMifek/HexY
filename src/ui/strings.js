@@ -25,11 +25,11 @@ export const strings = {
     hosted: 'Spoken · host judges',
     automatic: 'Typed · automatic check',
     content: 'Question language',
-    starterPack:
-      'Two bundled general-knowledge starters. Choose or import your question content below.',
+    catalogHelp:
+      '12 fixed packs: General knowledge, Nature, Geography and travel, in Czech and English. Browse or import your question content below.',
     start: 'Start game',
     limit:
-      'Local play only. Custom packs and settings can be saved here, but reload still loses the running game. Controllers and game recovery come later.',
+      'Local play only. Successfully saved games recover after reload; check the recovery status. Export custom packs and games as backups, because browser data can be removed.',
     rules:
       'Wrong first answers do not end the turn. After timeout or give-up, the opponent has one untimed attempt. Black fields open a keyboard duel.',
     locked: 'Questions and placement are locked for this game.',
@@ -116,11 +116,11 @@ export const strings = {
     hosted: 'Ústní · hodnotí hostitel',
     automatic: 'Psané · automatická kontrola',
     content: 'Jazyk otázek',
-    starterPack:
-      'Dvě vestavěné úvodní sady všeobecných znalostí. Níže vyberte nebo importujte své otázky.',
+    catalogHelp:
+      '12 pevných sad: Všeobecné znalosti, Příroda, Zeměpis a cestování, česky i anglicky. Níže procházejte katalog nebo importujte své otázky.',
     start: 'Spustit hru',
     limit:
-      'Pouze místní hra. Vlastní sady a nastavení lze uložit, ale obnovením stránky se rozehraná hra stále ztratí. Ovladače a obnova hry přijdou později.',
+      'Pouze místní hra. Úspěšně uložená hra se po obnovení stránky obnoví; sledujte stav obnovy. Zálohujte vlastní sady i hry exportem, protože data prohlížeče mohou být smazána.',
     rules:
       'Chybná první odpověď tah neukončí. Po vypršení času nebo vzdání má soupeř jeden pokus bez časového limitu. Černá pole otevírají rozstřel na klávesnici.',
     locked: 'Otázky a jejich umístění jsou pro tuto hru uzamčené.',

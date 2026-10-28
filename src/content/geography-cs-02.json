@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "id": "geography-cs-02",
+  "title": "Zeměpis a cestování · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-cs-02-01",
+      "text": "Jak se jmenuje hlavní město Nizozemska, proslulé soustavou městských kanálů?",
+      "initial": "A",
+      "answer": "Amsterdam",
+      "language": "cs",
+      "aliases": ["Amsterodam"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Amsterdam"]
+    },
+    {
+      "id": "geography-cs-02-02",
+      "text": "Jak se nazývá sibiřské jezero, které je nejhlubším jezerem světa?",
+      "initial": "B",
+      "answer": "Bajkal",
+      "language": "cs",
+      "aliases": ["jezero Bajkal"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Bajkal"]
+    },
+    {
+      "id": "geography-cs-02-03",
+      "text": "Jak se česky nazývá největší město Švýcarska, ležící na řece Limmat?",
+      "initial": "C",
+      "answer": "Curych",
+      "language": "cs",
+      "aliases": ["Zürich"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Curych"]
+    },
+    {
+      "id": "geography-cs-02-04",
+      "text": "Který balkánský stát má hlavní město Podgorica a pobřeží u Jaderského moře?",
+      "initial": "Č",
+      "answer": "Černá Hora",
+      "language": "cs",
+      "aliases": ["Montenegro", "Crna Gora"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cern%C3%A1_Hora"]
+    },
+    {
+      "id": "geography-cs-02-05",
+      "text": "Které anglické přístavní město je známé blízkými bílými křídovými útesy a trajekty do Calais?",
+      "initial": "D",
+      "answer": "Dover",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Dover_(Anglie)"]
+    },
+    {
+      "id": "geography-cs-02-06",
+      "text": "Jak se jmenuje hlavní město Skotska, jehož hrad stojí na skalním útvaru Castle Rock?",
+      "initial": "E",
+      "answer": "Edinburgh",
+      "language": "cs",
+      "aliases": ["Edinburk", "Edinburg"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Edinburgh"]
+    },
+    {
+      "id": "geography-cs-02-07",
+      "text": "Který tichomořský ostrovní stát má hlavní město Suva?",
+      "initial": "F",
+      "answer": "Fidži",
+      "language": "cs",
+      "aliases": ["Fiji", "Republika Fidži"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Fid%C5%BEi"]
+    },
+    {
+      "id": "geography-cs-02-08",
+      "text": "Jak se nazývá britské zámořské území se známou vápencovou skálou na jihu Pyrenejského poloostrova?",
+      "initial": "G",
+      "answer": "Gibraltar",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Gibraltar"]
+    },
+    {
+      "id": "geography-cs-02-09",
+      "text": "Jak se česky jmenuje hlavní město Finska na pobřeží Finského zálivu?",
+      "initial": "H",
+      "answer": "Helsinky",
+      "language": "cs",
+      "aliases": ["Helsinki", "Helsingfors"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Helsinky"]
+    },
+    {
+      "id": "geography-cs-02-10",
+      "text": "Které město v Ústeckém kraji leží u Kamencového jezera na úpatí Krušných hor?",
+      "initial": "Ch",
+      "answer": "Chomutov",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Chomutov"]
+    },
+    {
+      "id": "geography-cs-02-11",
+      "text": "Které turecké město leží na obou březích Bosporu, tedy v Evropě i Asii?",
+      "initial": "I",
+      "answer": "Istanbul",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Istanbul"]
+    },
+    {
+      "id": "geography-cs-02-12",
+      "text": "Ve kterém dnešním státě leží skalní město Petra?",
+      "initial": "J",
+      "answer": "Jordánsko",
+      "language": "cs",
+      "aliases": ["Jordánské hášimovské království"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Petra_(m%C4%9Bsto)"]
+    },
+    {
+      "id": "geography-cs-02-13",
+      "text": "Jak se jmenuje hlavní město Nepálu?",
+      "initial": "K",
+      "answer": "Káthmándú",
+      "language": "cs",
+      "aliases": ["Katmandu"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/K%C3%A1thm%C3%A1nd%C3%BA"]
+    },
+    {
+      "id": "geography-cs-02-14",
+      "text": "Jak se česky nazývá průliv mezi jižní Anglií a severní Francií, pod jehož nejužší částí vede Eurotunel?",
+      "initial": "L",
+      "answer": "Lamanšský průliv",
+      "language": "cs",
+      "aliases": ["La Manche", "kanál La Manche"],
+      "category": "geography",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Laman%C5%A1sk%C3%BD_pr%C5%AFliv"
+      ]
+    },
+    {
+      "id": "geography-cs-02-15",
+      "text": "Která velká řeka jihovýchodní Asie protéká Kambodžou a vytváří deltu na jihu Vietnamu?",
+      "initial": "M",
+      "answer": "Mekong",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Mekong"]
+    },
+    {
+      "id": "geography-cs-02-16",
+      "text": "Který stát tvoří především Severní a Jižní ostrov, oddělené Cookovým průlivem?",
+      "initial": "N",
+      "answer": "Nový Zéland",
+      "language": "cs",
+      "aliases": ["Aotearoa"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Nov%C3%BD_Z%C3%A9land"]
+    },
+    {
+      "id": "geography-cs-02-17",
+      "text": "Která velká řeka teče převážně Venezuelou a ústí širokou deltou do Atlantského oceánu?",
+      "initial": "O",
+      "answer": "Orinoko",
+      "language": "cs",
+      "aliases": ["Orinoco"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Orinoko"]
+    },
+    {
+      "id": "geography-cs-02-18",
+      "text": "Která umělá vodní cesta protíná Panamskou šíji a spojuje Atlantský a Tichý oceán?",
+      "initial": "P",
+      "answer": "Panamský průplav",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Panamsk%C3%BD_pr%C5%AFplav"]
+    },
+    {
+      "id": "geography-cs-02-19",
+      "text": "Které hlavní město leží u zálivu Faxaflói na jihozápadě Islandu?",
+      "initial": "R",
+      "answer": "Reykjavík",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Reykjav%C3%ADk"]
+    },
+    {
+      "id": "geography-cs-02-20",
+      "text": "Jak se česky nazývá bavorské město Regensburg na Dunaji, známé středověkým Kamenným mostem?",
+      "initial": "Ř",
+      "answer": "Řezno",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98ezno"]
+    },
+    {
+      "id": "geography-cs-02-21",
+      "text": "Který asijský městský stát leží těsně u jižního cípu Malajského poloostrova?",
+      "initial": "S",
+      "answer": "Singapur",
+      "language": "cs",
+      "aliases": ["Singapore", "Singapurská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Singapur"]
+    },
+    {
+      "id": "geography-cs-02-22",
+      "text": "Který ze čtyř hlavních japonských ostrovů je rozlohou nejmenší?",
+      "initial": "Š",
+      "answer": "Šikoku",
+      "language": "cs",
+      "aliases": ["Shikoku"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0ikoku"]
+    },
+    {
+      "id": "geography-cs-02-23",
+      "text": "Který australský ostrovní stát leží jižně od pevniny za Bassovým průlivem?",
+      "initial": "T",
+      "answer": "Tasmánie",
+      "language": "cs",
+      "aliases": ["Tasmania"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Tasm%C3%A1nie"]
+    },
+    {
+      "id": "geography-cs-02-24",
+      "text": "Který jihoamerický stát mezi Argentinou a Brazílií má hlavní město Montevideo?",
+      "initial": "U",
+      "answer": "Uruguay",
+      "language": "cs",
+      "aliases": ["Uruguayská východní republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Uruguay"]
+    },
+    {
+      "id": "geography-cs-02-25",
+      "text": "Které město na Visle je hlavním městem Polska?",
+      "initial": "V",
+      "answer": "Varšava",
+      "language": "cs",
+      "aliases": ["Warszawa", "Warsaw"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Var%C5%A1ava"]
+    },
+    {
+      "id": "geography-cs-02-26",
+      "text": "Jak se jmenuje hlavní město kanadské provincie Manitoba?",
+      "initial": "W",
+      "answer": "Winnipeg",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Winnipeg"]
+    },
+    {
+      "id": "geography-cs-02-27",
+      "text": "Jak se nazývá autonomní část Tanzanie tvořená mimo jiné ostrovy Unguja a Pemba?",
+      "initial": "Z",
+      "answer": "Zanzibar",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Zanzibar"]
+    },
+    {
+      "id": "geography-cs-02-28",
+      "text": "Ve kterém českém městě stojí poutní kostel svatého Jana Nepomuckého na Zelené hoře zapsaný na seznamu UNESCO?",
+      "initial": "Ž",
+      "answer": "Žďár nad Sázavou",
+      "language": "cs",
+      "aliases": ["Žďár"],
+      "category": "geography",
+      "sources": ["https://whc.unesco.org/en/list/690/"]
+    }
+  ]
+}

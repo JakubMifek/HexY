@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "id": "general-cs-02",
+  "title": "Všeobecné znalosti · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-02-01",
+      "text": "Jak se nazývá hudební nástroj s měchem, který vhání vzduch přes jazýčky a ovládá se klávesami či knoflíky?",
+      "initial": "A",
+      "answer": "Akordeon",
+      "language": "cs",
+      "aliases": ["tahací harmonika"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Akordeon"]
+    },
+    {
+      "id": "general-cs-02-02",
+      "text": "Jak se nazývá zahnutý vrhací nástroj spojovaný s původními obyvateli Austrálie, jehož některé typy se vracejí k vrhači?",
+      "initial": "B",
+      "answer": "Bumerang",
+      "language": "cs",
+      "aliases": ["boomerang"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Bumerang"]
+    },
+    {
+      "id": "general-cs-02-03",
+      "text": "Jak se běžně označuje sladidlo získávané například z cukrové řepy nebo cukrové třtiny?",
+      "initial": "C",
+      "answer": "Cukr",
+      "language": "cs",
+      "aliases": ["sacharóza"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Cukr"]
+    },
+    {
+      "id": "general-cs-02-04",
+      "text": "Jak se jmenuje šestý měsíc gregoriánského kalendáře?",
+      "initial": "Č",
+      "answer": "Červen",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cerven"]
+    },
+    {
+      "id": "general-cs-02-05",
+      "text": "Jak se nazývá hra s obdélníkovými kameny rozdělenými na dvě poloviny, které nesou různý počet ok?",
+      "initial": "D",
+      "answer": "Domino",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Domino"]
+    },
+    {
+      "id": "general-cs-02-06",
+      "text": "Jak se nazývá švýcarský sýr pojmenovaný podle údolí řeky Emme, známý velkými oky?",
+      "initial": "E",
+      "answer": "Ementál",
+      "language": "cs",
+      "aliases": ["emmental", "ementálský sýr"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Ement%C3%A1l"]
+    },
+    {
+      "id": "general-cs-02-07",
+      "text": "Jak se nazývá dlouhá slovenská pastýřská píšťala se třemi hmatovými otvory?",
+      "initial": "F",
+      "answer": "Fujara",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Fujara"]
+    },
+    {
+      "id": "general-cs-02-08",
+      "text": "Jakým slovem převzatým z angličtiny označujeme vstřelenou branku například ve fotbale?",
+      "initial": "G",
+      "answer": "Gól",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/G%C3%B3l"]
+    },
+    {
+      "id": "general-cs-02-09",
+      "text": "Jaká jednotka plošného obsahu odpovídá 10 000 metrům čtverečním?",
+      "initial": "H",
+      "answer": "Hektar",
+      "language": "cs",
+      "aliases": ["ha"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Hektar"]
+    },
+    {
+      "id": "general-cs-02-10",
+      "text": "Jak se nazývá základní pečivo, které se tradičně peče z mouky, vody, soli a kvásku či droždí do podoby bochníku?",
+      "initial": "Ch",
+      "answer": "Chléb",
+      "language": "cs",
+      "aliases": ["chleba"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Chl%C3%A9b"]
+    },
+    {
+      "id": "general-cs-02-11",
+      "text": "Jak se běžně nazývá kupolovitý inuitský příbytek postavený ze sněhových bloků?",
+      "initial": "I",
+      "answer": "Iglú",
+      "language": "cs",
+      "aliases": ["igloo"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Igl%C3%BA"]
+    },
+    {
+      "id": "general-cs-02-12",
+      "text": "Které japonské bojové umění vytvořil Džigoró Kanó a jeho název se překládá jako jemná cesta?",
+      "initial": "J",
+      "answer": "Judo",
+      "language": "cs",
+      "aliases": ["džudo"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Judo"]
+    },
+    {
+      "id": "general-cs-02-13",
+      "text": "Jak se nazývá navigační pomůcka, jejíž magnetická střelka ukazuje směr k magnetickému severu?",
+      "initial": "K",
+      "answer": "Kompas",
+      "language": "cs",
+      "aliases": ["magnetický kompas"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Kompas"]
+    },
+    {
+      "id": "general-cs-02-14",
+      "text": "Jak se nazývá jednoduchá optická pomůcka tvořená spojnou čočkou, která zvětšuje blízké předměty?",
+      "initial": "L",
+      "answer": "Lupa",
+      "language": "cs",
+      "aliases": ["zvětšovací sklo"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Lupa"]
+    },
+    {
+      "id": "general-cs-02-15",
+      "text": "Jak se nazývá běžecký závod na silnici o standardní délce 42,195 kilometru?",
+      "initial": "M",
+      "answer": "Maraton",
+      "language": "cs",
+      "aliases": ["maratonský běh", "marathon"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Maratonsk%C3%BD_b%C4%9Bh"]
+    },
+    {
+      "id": "general-cs-02-16",
+      "text": "Jaký ruční stříhací nástroj má dvě čepele, které se při sevření rukojetí otáčejí kolem společného čepu?",
+      "initial": "N",
+      "answer": "Nůžky",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/N%C5%AF%C5%BEky",
+        "https://en.wikipedia.org/wiki/Scissors"
+      ]
+    },
+    {
+      "id": "general-cs-02-17",
+      "text": "Jak se jmenuje japonské umění skládání papíru do nejrůznějších tvarů?",
+      "initial": "O",
+      "answer": "Origami",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Origami"]
+    },
+    {
+      "id": "general-cs-02-18",
+      "text": "Jak se nazývá omáčka z Janova, jejíž tradiční složení zahrnuje bazalku, piniová semena, česnek, sýr a olivový olej?",
+      "initial": "P",
+      "answer": "Pesto",
+      "language": "cs",
+      "aliases": ["pesto alla genovese"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Pesto"]
+    },
+    {
+      "id": "general-cs-02-19",
+      "text": "Který sport s oválným míčem získal název podle anglického města a jeho školy Rugby?",
+      "initial": "R",
+      "answer": "Ragby",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Ragby"]
+    },
+    {
+      "id": "general-cs-02-20",
+      "text": "Jak se jmenuje desátý měsíc gregoriánského kalendáře?",
+      "initial": "Ř",
+      "answer": "Říjen",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98%C3%ADjen"]
+    },
+    {
+      "id": "general-cs-02-21",
+      "text": "Jak se jmenuje hlavolam, v jehož obvyklé podobě doplňujeme číslice 1 až 9 bez opakování v každém řádku, sloupci a čtverci 3 × 3?",
+      "initial": "S",
+      "answer": "Sudoku",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Sudoku"]
+    },
+    {
+      "id": "general-cs-02-22",
+      "text": "Jak se česky nazývá mnohoúhelník se šesti stranami?",
+      "initial": "Š",
+      "answer": "Šestiúhelník",
+      "language": "cs",
+      "aliases": ["hexagon"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0esti%C3%BAheln%C3%ADk"]
+    },
+    {
+      "id": "general-cs-02-23",
+      "text": "Jak se běžně nazývá nádoba s vakuovou izolací, která pomáhá udržet nápoj teplý nebo studený?",
+      "initial": "T",
+      "answer": "Termoska",
+      "language": "cs",
+      "aliases": ["vakuová láhev", "termos"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Termoska"]
+    },
+    {
+      "id": "general-cs-02-24",
+      "text": "Jak se jmenuje malý, zpravidla čtyřstrunný nástroj, který vznikl na Havaji z portugalských předloh?",
+      "initial": "U",
+      "answer": "Ukulele",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Ukulele"]
+    },
+    {
+      "id": "general-cs-02-25",
+      "text": "Ve kterém síťovém sportu nastupuje v běžné halové podobě šest hráčů na každé straně a míč se odbíjí rukama?",
+      "initial": "V",
+      "answer": "Volejbal",
+      "language": "cs",
+      "aliases": ["odbíjená"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Volejbal"]
+    },
+    {
+      "id": "general-cs-02-26",
+      "text": "Jak se nazývá hluboká pánev původem z Číny, tradičně s oblým dnem, vhodná k rychlému smažení za míchání?",
+      "initial": "W",
+      "answer": "Wok",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Wok",
+        "https://en.wikipedia.org/wiki/Wok"
+      ]
+    },
+    {
+      "id": "general-cs-02-27",
+      "text": "Jak se běžně nazývá zdrhovadlo, které jezdcem spojuje dvě řady zoubků na oděvu či tašce?",
+      "initial": "Z",
+      "answer": "Zip",
+      "language": "cs",
+      "aliases": ["zdrhovací uzávěr"],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/Zdrhovadlo"]
+    },
+    {
+      "id": "general-cs-02-28",
+      "text": "Jak se česky říká kartě označované anglicky jako joker, která v některých hrách nahrazuje jiné karty?",
+      "initial": "Ž",
+      "answer": "Žolík",
+      "language": "cs",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDol%C3%ADk"]
+    }
+  ]
+}

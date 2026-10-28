@@ -1,7 +1,9 @@
 # HexY
 
-Playable local quiz for two players sharing a screen. **Phases 1–4, including
-recovery and input-device software, are independently cleared. Not a production release.**
+Playable local quiz for two players sharing a screen. **Phases 1–5 are independently
+cleared, including a 12-pack / 336-question catalog. Not a production release.**
+General knowledge, Nature and Geography support both languages, catalog filtering
+and source-preserving printable answer sheets.
 See [phase status](IMPLEMENTATION_PHASES.md) and [contracts](docs/contracts.md).
 
 ## Play
@@ -99,8 +101,16 @@ Both spoken and typed games use the same preparation workflow:
 
 1. Choose question language and board mode. The matching bundled fixed-letter
    starter is initially ready. Changing language/mode resets the preparation to
-   that language's starter selection, never translates custom questions.
-2. Select packs, or **Import JSON files** (one or several). Imports stay in your
+   that language's **single starter**, not all catalog packs, and never translates
+   custom questions.
+2. Browse by category, question language and bundled/custom origin, or search
+   pack titles/IDs (case and diacritics are ignored). Filters only change what
+   you see: **hidden selected sources remain selected**, and the selected-source
+   summary always lists them. Filtering never edits or invalidates an accepted
+   board. Use **Clear source selection** before choosing a different fixed pack;
+   **Clear catalog filters** only restores the full list. Mixed-category custom
+   packs match each of their categories. Filters are session-only, not saved.
+   Select packs, or **Import JSON files** (one or several). Imports stay in your
    browser; there is no remote upload. A batch with any invalid/conflicting file
    is rejected without replacing the existing library, proposal or editor draft.
 3. For letters, select exactly one authored letter pack and **Use selected fixed
@@ -121,6 +131,10 @@ Both spoken and typed games use the same preparation workflow:
    self-contained downloaded file separately and use browser Print / Save as
    PDF. It contains all 28 row-major cell numbers, question IDs, explicit initials,
    questions, answers and aliases, without game controls or external fonts.
+   A factual-source appendix maps every citation/note to its exact cell number
+   and question ID, including shuffled number games. Sources are printed as
+   inert text, not clickable/executable URLs. Authors, licenses and source-pack
+   attribution remain included. The appendix begins on a separate printed page.
    Keep it on paper or another private device, not the players' shared screen.
 7. **Start game** locks content, even after a win or a host field reset. In-game
    JSON/sheet downloads use the played snapshot, not the preparation library.
@@ -235,16 +249,25 @@ question's source-pack attribution chain in the documented optional `origins`
 field, plus factual `sources`; generated license text does not relicense imports.
 See [format and duplicate-resolution rules](docs/contracts.md).
 
-## Starter content
+## Content catalog
 
-`src/content/general-cs-01.json` and `general-en-01.json` contain 28 original
-questions each, with explicit aliases and factual source URLs. They are
-independently adapted general-knowledge starter packs, not a full library.
-They count as **2 of the planned 36 packs / 56 of 1,008 entries**. Every source
-was accessed on 2026-10-28 (Wikipedia, NASA, NOAA, CDC and the BCcampus
-_Physical Geology_ textbook); source checks do not replace
-the independent review of every question's wording and factual accuracy.
-Both fixed alphabets and all 56 entries are validated by tests.
+The phase-5 candidate contains **12 packs / 336 entries**: two fixed 28-question
+packs per category and language for General knowledge, Nature, and Geography
+and travel. This includes the two unchanged, previously reviewed starter packs
+`general-cs-01` and `general-en-01`; ten packs / 280 questions are new.
+Later categories remain planned, not delivered. Each pack also works as a
+selected number-game source. Questions can recur across games; neither filtering
+nor generation promises permanent novelty.
+
+See the [inventory and editorial policy](docs/content-inventory.md) and the
+[336-entry source-check ledger](docs/content-sources.md). Original Czech and
+English questions use their own fixed alphabets, not forced translations.
+Sources were checked during authoring on 2026-10-28; the ledger identifies the
+temporarily unavailable BCcampus starter citation and its verified corroboration.
+Tests cover every pack's counts, category/language quota, identity, schema,
+prefix order, duplicate text/answers and fixed/number/export integration.
+Those checks do not replace independent factual and linguistic review of
+**every entry**.
 
 ## Development
 

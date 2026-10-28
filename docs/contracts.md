@@ -97,6 +97,15 @@ acceptance. Fixed boards never shuffle. Imported prepared number boards can be
 used unchanged. `validatePlayable` also rejects normalized repeated question text
 before acceptance/start/sheet export; ordinary source banks may contain repeats.
 
+The catalog's search/category/language/origin filters are a transient projection
+of the source library. They do not select sources, invalidate acceptance, alter
+content revisions, or enter persisted preferences. A mixed-category custom pack
+matches any category represented by its questions; custom category labels remain
+the author's text. The selected-source summary includes filtered-out packs.
+Changing setup language/mode selects only the original matching starter even
+when the catalog contains many packs. The generator still receives only explicit
+selected sources, never the current filter results.
+
 Editing creates an attributed custom copy with a fresh pack ID. The native editor
 changes question text, canonical answer, aliases, category and factual sources;
 number/source initials and ordering; pack ID/title/authors/license. Stable
@@ -186,6 +195,12 @@ changing the ID inside JSON. HTML sheets validate the accepted/played board,
 escape every imported string, require no scripts/fonts/network resources, and
 contain a header plus a row for each question in exact array order:
 cell number, question ID, initial, text, canonical answer, aliases.
+Every sheet also includes a factual-source appendix in the same question-array
+order. Each entry identifies its cell number and stable question ID and retains
+all `sources` strings, including non-URL host notes, as escaped plain text.
+No source string becomes an HTML link or executable URL. The appendix starts
+on a separate printed page, wraps long citations and keeps ordinary entries
+together; it does not add or renumber question-table rows.
 When origins exist, an attribution appendix preserves each source pack's declared
 authors/license with its applicable cell numbers, including original credits
 after an editor changes the custom pack's top-level authors/license.

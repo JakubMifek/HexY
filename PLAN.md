@@ -20,8 +20,10 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: phase 4 recovery and input-device software independently cleared
-with passing post-review checks; phase 5 content follows verified delivery.**
+**Current stage: phase 5 General knowledge, Nature, Geography and travel is
+independently cleared with passing post-review checks; commit/push is next.**
+The user requested private automatic-main Tailscale deployment before further
+content phases; this is a preview, not phase-8 public-release clearance.
 Physical Xbox/tablet checks remain pending for the phase-8 release gate.
 The name, broad visual direction, logo concept, stack, core rules, host overrides
 and recovery policy are selected. The user requested iterative development with

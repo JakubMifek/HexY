@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "id": "nature-cs-02",
+  "title": "Příroda · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-cs-02-01",
+      "text": "Který mexický obojživelník, Ambystoma mexicanum, obvykle zůstává i v dospělosti ve vodě a zachovává si vnější žábry?",
+      "initial": "A",
+      "answer": "Axolotl mexický",
+      "language": "cs",
+      "aliases": ["axolotl"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Axolotl_mexick%C3%BD"]
+    },
+    {
+      "id": "nature-cs-02-02",
+      "text": "Která žlutě kvetoucí rostlina z mokřadů má vědecké jméno Caltha palustris?",
+      "initial": "B",
+      "answer": "Blatouch bahenní",
+      "language": "cs",
+      "aliases": ["blatouch"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Blatouch_bahenn%C3%AD"]
+    },
+    {
+      "id": "nature-cs-02-03",
+      "text": "Která africká šelma, Civettictis civetta, má pachové žlázy produkující látku dříve užívanou v parfumerii?",
+      "initial": "C",
+      "answer": "Cibetka africká",
+      "language": "cs",
+      "aliases": ["cibetka"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Cibetka_africk%C3%A1"]
+    },
+    {
+      "id": "nature-cs-02-04",
+      "text": "Jak se jmenuje robustní, hustě ochlupený opylovač rodu Bombus, příbuzný včelám?",
+      "initial": "Č",
+      "answer": "Čmelák",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cmel%C3%A1k"]
+    },
+    {
+      "id": "nature-cs-02-05",
+      "text": "Který rod stromů, latinsky Quercus, vytváří plody zvané žaludy?",
+      "initial": "D",
+      "answer": "Dub",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Dub"]
+    },
+    {
+      "id": "nature-cs-02-06",
+      "text": "Listy kterého australského stromu tvoří hlavní potravu koal?",
+      "initial": "E",
+      "answer": "Eukalyptus",
+      "language": "cs",
+      "aliases": ["blahovičník", "Eucalyptus"],
+      "category": "nature",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Blahovi%C4%8Dn%C3%ADk",
+        "https://en.wikipedia.org/wiki/Koala"
+      ]
+    },
+    {
+      "id": "nature-cs-02-07",
+      "text": "Která aromatická rostlina z čeledi miříkovitých má vědecké jméno Foeniculum vulgare a její plody se užívají jako koření?",
+      "initial": "F",
+      "answer": "Fenykl obecný",
+      "language": "cs",
+      "aliases": ["fenykl"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Fenykl_obecn%C3%BD"]
+    },
+    {
+      "id": "nature-cs-02-08",
+      "text": "Který ještěr ze skupiny Gekkota dokáže u mnoha druhů šplhat po hladkém povrchu díky zvláštní stavbě prstů?",
+      "initial": "G",
+      "answer": "Gekon",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Gekoni"]
+    },
+    {
+      "id": "nature-cs-02-09",
+      "text": "Která jedlá houba má vědecké jméno Boletus edulis a patří mezi houby označované jako praváci?",
+      "initial": "H",
+      "answer": "Hřib smrkový",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/H%C5%99ib_smrkov%C3%BD"]
+    },
+    {
+      "id": "nature-cs-02-10",
+      "text": "Který mořský hlavonožec z řádu Octopoda má osm ramen opatřených přísavkami?",
+      "initial": "Ch",
+      "answer": "Chobotnice",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Chobotnice"]
+    },
+    {
+      "id": "nature-cs-02-11",
+      "text": "Která štíhlá africká antilopa má vědecké jméno Aepyceros melampus a u samců lyrovitě zahnuté rohy?",
+      "initial": "I",
+      "answer": "Impala",
+      "language": "cs",
+      "aliases": ["impala černočelá"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Impala"]
+    },
+    {
+      "id": "nature-cs-02-12",
+      "text": "Jak se nazývá hmyz řádu Ephemeroptera, jehož larvy žijí ve vodě a dospělci zpravidla velmi krátce?",
+      "initial": "J",
+      "answer": "Jepice",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Jepice"]
+    },
+    {
+      "id": "nature-cs-02-13",
+      "text": "Jak nazýváme mořského žahavce, jehož útesotvorné druhy vytvářejí vápenaté kostry a budují tropické útesy?",
+      "initial": "K",
+      "answer": "Korál",
+      "language": "cs",
+      "aliases": ["útesotvorný korál"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Kor%C3%A1li"]
+    },
+    {
+      "id": "nature-cs-02-14",
+      "text": "Jak se nazývá pomalu se pohybující stromový savec Střední a Jižní Ameriky, který se často zavěšuje hřbetem dolů?",
+      "initial": "L",
+      "answer": "Lenochod",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Lenochodi"]
+    },
+    {
+      "id": "nature-cs-02-15",
+      "text": "Který evropský ocasatý obojživelník má černé tělo se žlutými skvrnami a vědecké jméno Salamandra salamandra?",
+      "initial": "M",
+      "answer": "Mlok skvrnitý",
+      "language": "cs",
+      "aliases": ["mlok"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Mlok_skvrnit%C3%BD"]
+    },
+    {
+      "id": "nature-cs-02-16",
+      "text": "Který velký lichokopytník má na nose jeden či dva rohy tvořené keratinem, nikoli kostí?",
+      "initial": "N",
+      "answer": "Nosorožec",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Nosoro%C5%BEcovit%C3%AD"]
+    },
+    {
+      "id": "nature-cs-02-17",
+      "text": "Který lesní příbuzný žirafy žije v Demokratické republice Kongo a má na nohách pruhy připomínající zebru?",
+      "initial": "O",
+      "answer": "Okapi",
+      "language": "cs",
+      "aliases": ["Okapia johnstoni"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Okapi"]
+    },
+    {
+      "id": "nature-cs-02-18",
+      "text": "Který africký nelétavý pták rodu Struthio je největším žijícím ptákem?",
+      "initial": "P",
+      "answer": "Pštros",
+      "language": "cs",
+      "aliases": ["pštros dvouprstý", "Struthio camelus"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/P%C5%A1tros_dvouprst%C3%BD"]
+    },
+    {
+      "id": "nature-cs-02-19",
+      "text": "Která evropská kočkovitá šelma, Lynx lynx, má štětičky na uších a krátký ocas?",
+      "initial": "R",
+      "answer": "Rys ostrovid",
+      "language": "cs",
+      "aliases": ["rys"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Rys_ostrovid"]
+    },
+    {
+      "id": "nature-cs-02-20",
+      "text": "Která bylina s drobnými úbory v plochých květenstvích má vědecké jméno Achillea millefolium?",
+      "initial": "Ř",
+      "answer": "Řebříček obecný",
+      "language": "cs",
+      "aliases": ["řebříček"],
+      "category": "nature",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98eb%C5%99%C3%AD%C4%8Dek_obecn%C3%BD"
+      ]
+    },
+    {
+      "id": "nature-cs-02-21",
+      "text": "Který hlavonožec z řádu Sepiida má vnitřní schránku, osm krátkých ramen a dvě dlouhá lovná chapadla?",
+      "initial": "S",
+      "answer": "Sépie",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/S%C3%A9pie_(%C5%99%C3%A1d)"]
+    },
+    {
+      "id": "nature-cs-02-22",
+      "text": "Který africký lidoop má vědecké jméno Pan troglodytes a je blízce příbuzný bonobovi?",
+      "initial": "Š",
+      "answer": "Šimpanz učenlivý",
+      "language": "cs",
+      "aliases": ["šimpanz"],
+      "category": "nature",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0impanz_u%C4%8Denliv%C3%BD"
+      ]
+    },
+    {
+      "id": "nature-cs-02-23",
+      "text": "Jak se nazývá parazitický ploštěnec třídy Cestoda, jehož tělo bývá tvořeno řetězcem článků?",
+      "initial": "T",
+      "answer": "Tasemnice",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Tasemnice"]
+    },
+    {
+      "id": "nature-cs-02-24",
+      "text": "Který severoamerický stromový hlodavec, Erethizon dorsatum, má tělo chráněné ostny?",
+      "initial": "U",
+      "answer": "Urzon kanadský",
+      "language": "cs",
+      "aliases": ["urzon"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Urzon_kanadsk%C3%BD"]
+    },
+    {
+      "id": "nature-cs-02-25",
+      "text": "Který dravý hmyz z řádu Odonata má velké oči, dva páry křídel a larvy žijící ve vodě?",
+      "initial": "V",
+      "answer": "Vážka",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/V%C3%A1%C5%BEky"]
+    },
+    {
+      "id": "nature-cs-02-26",
+      "text": "Jak se nazývá velký jelen, Cervus canadensis, původem ze Severní Ameriky a východní Asie?",
+      "initial": "W",
+      "answer": "Wapiti",
+      "language": "cs",
+      "aliases": ["jelen wapiti"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Wapiti"]
+    },
+    {
+      "id": "nature-cs-02-27",
+      "text": "Který mohutný evropský turovitý savec má vědecké jméno Bison bonasus?",
+      "initial": "Z",
+      "answer": "Zubr evropský",
+      "language": "cs",
+      "aliases": ["zubr"],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/Zubr_evropsk%C3%BD"]
+    },
+    {
+      "id": "nature-cs-02-28",
+      "text": "Jak nazýváme půdního kroužkovce, který při přijímání organických zbytků promíchává a provzdušňuje půdu?",
+      "initial": "Ž",
+      "answer": "Žížala",
+      "language": "cs",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BD%C3%AD%C5%BEala"]
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "geography-en-02",
+  "title": "Geography and travel · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-en-02-01",
+      "text": "Which arm of the Mediterranean Sea lies between Italy and the Balkan Peninsula?",
+      "initial": "A",
+      "answer": "Adriatic Sea",
+      "language": "en",
+      "aliases": ["Adriatic", "the Adriatic"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Adriatic_Sea"]
+    },
+    {
+      "id": "geography-en-02-02",
+      "text": "Which large island is shared by Brunei, Malaysia and Indonesia?",
+      "initial": "B",
+      "answer": "Borneo",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Borneo"]
+    },
+    {
+      "id": "geography-en-02-03",
+      "text": "What is the world's largest enclosed inland body of water, bordered by countries including Kazakhstan and Iran?",
+      "initial": "C",
+      "answer": "Caspian Sea",
+      "language": "en",
+      "aliases": ["the Caspian", "Caspian"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Caspian_Sea"]
+    },
+    {
+      "id": "geography-en-02-04",
+      "text": "What railway tunnel beneath the Strait of Dover links Folkestone in England with Coquelles in France?",
+      "initial": "CH",
+      "answer": "Channel Tunnel",
+      "language": "en",
+      "aliases": ["the Channel Tunnel", "Chunnel", "Eurotunnel"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Channel_Tunnel"]
+    },
+    {
+      "id": "geography-en-02-05",
+      "text": "What very salty lake lies between Jordan to the east and Israel and the West Bank to the west?",
+      "initial": "D",
+      "answer": "Dead Sea",
+      "language": "en",
+      "aliases": ["the Dead Sea"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Dead_Sea"]
+    },
+    {
+      "id": "geography-en-02-06",
+      "text": "Which South American country administers the Galápagos Islands?",
+      "initial": "E",
+      "answer": "Ecuador",
+      "language": "en",
+      "aliases": ["Republic of Ecuador"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands"]
+    },
+    {
+      "id": "geography-en-02-07",
+      "text": "What geographical term describes a long, narrow sea inlet with steep sides carved by a glacier?",
+      "initial": "F",
+      "answer": "Fjord",
+      "language": "en",
+      "aliases": ["fiord"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Fjord"]
+    },
+    {
+      "id": "geography-en-02-08",
+      "text": "Which British Overseas Territory occupies a rocky headland at the southern end of the Iberian Peninsula?",
+      "initial": "G",
+      "answer": "Gibraltar",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Gibraltar"]
+    },
+    {
+      "id": "geography-en-02-09",
+      "text": "Which city on Oʻahu is the capital of the US state of Hawaii?",
+      "initial": "H",
+      "answer": "Honolulu",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Honolulu"]
+    },
+    {
+      "id": "geography-en-02-10",
+      "text": "Which Turkish city straddles the Bosporus, with parts in Europe and Asia?",
+      "initial": "I",
+      "answer": "Istanbul",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Istanbul"]
+    },
+    {
+      "id": "geography-en-02-11",
+      "text": "In which present-day country is the rock-cut archaeological city of Petra?",
+      "initial": "J",
+      "answer": "Jordan",
+      "language": "en",
+      "aliases": ["Hashemite Kingdom of Jordan"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Petra"]
+    },
+    {
+      "id": "geography-en-02-12",
+      "text": "What is the capital of Nepal?",
+      "initial": "K",
+      "answer": "Kathmandu",
+      "language": "en",
+      "aliases": ["Katmandu"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Kathmandu"]
+    },
+    {
+      "id": "geography-en-02-13",
+      "text": "Which Siberian lake is the deepest lake in the world?",
+      "initial": "L",
+      "answer": "Lake Baikal",
+      "language": "en",
+      "aliases": ["Baikal"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Lake_Baikal"]
+    },
+    {
+      "id": "geography-en-02-14",
+      "text": "Which major Southeast Asian river passes through Laos and Cambodia before forming a delta in southern Vietnam?",
+      "initial": "M",
+      "answer": "Mekong",
+      "language": "en",
+      "aliases": ["the Mekong", "Mekong River"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Mekong"]
+    },
+    {
+      "id": "geography-en-02-15",
+      "text": "Which country consists mainly of the North Island and the South Island, separated by Cook Strait?",
+      "initial": "N",
+      "answer": "New Zealand",
+      "language": "en",
+      "aliases": ["Aotearoa"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/New_Zealand"]
+    },
+    {
+      "id": "geography-en-02-16",
+      "text": "Which major river flows mainly through Venezuela and reaches the Atlantic in a broad delta?",
+      "initial": "O",
+      "answer": "Orinoco",
+      "language": "en",
+      "aliases": ["the Orinoco", "Orinoco River"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Orinoco"]
+    },
+    {
+      "id": "geography-en-02-17",
+      "text": "Which artificial waterway crosses the Isthmus of Panama to link the Atlantic and Pacific oceans?",
+      "initial": "P",
+      "answer": "Panama Canal",
+      "language": "en",
+      "aliases": ["the Panama Canal"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Panama_Canal"]
+    },
+    {
+      "id": "geography-en-02-18",
+      "text": "Which Canadian province has Montréal as its largest city and a predominantly French-speaking population?",
+      "initial": "Q",
+      "answer": "Quebec",
+      "language": "en",
+      "aliases": ["Province of Quebec"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Quebec"]
+    },
+    {
+      "id": "geography-en-02-19",
+      "text": "Which river flows through Basel and Cologne and reaches the North Sea through the Netherlands?",
+      "initial": "R",
+      "answer": "Rhine",
+      "language": "en",
+      "aliases": ["the Rhine", "Rhine River", "Rhein"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Rhine"]
+    },
+    {
+      "id": "geography-en-02-20",
+      "text": "Which Italian island, the largest in the Mediterranean Sea, is home to Mount Etna?",
+      "initial": "S",
+      "answer": "Sicily",
+      "language": "en",
+      "aliases": ["Sicilia"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Sicily"]
+    },
+    {
+      "id": "geography-en-02-21",
+      "text": "Which of Japan's four main islands is the smallest in area and lies south of Honshu across the Seto Inland Sea?",
+      "initial": "SH",
+      "answer": "Shikoku",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Shikoku"]
+    },
+    {
+      "id": "geography-en-02-22",
+      "text": "Which Australian island state lies south of the mainland across Bass Strait?",
+      "initial": "T",
+      "answer": "Tasmania",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Tasmania"]
+    },
+    {
+      "id": "geography-en-02-23",
+      "text": "Which South American country, between Argentina and Brazil, has Montevideo as its capital?",
+      "initial": "U",
+      "answer": "Uruguay",
+      "language": "en",
+      "aliases": ["Oriental Republic of Uruguay"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Uruguay"]
+    },
+    {
+      "id": "geography-en-02-24",
+      "text": "Which European capital has Schönbrunn Palace and is known locally as Wien?",
+      "initial": "V",
+      "answer": "Vienna",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Vienna"]
+    },
+    {
+      "id": "geography-en-02-25",
+      "text": "Which city on the Vistula is the capital of Poland?",
+      "initial": "W",
+      "answer": "Warsaw",
+      "language": "en",
+      "aliases": ["Warszawa"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Warsaw"]
+    },
+    {
+      "id": "geography-en-02-26",
+      "text": "Which Chinese port city in Fujian includes the island of Gulangyu?",
+      "initial": "X",
+      "answer": "Xiamen",
+      "language": "en",
+      "aliases": ["Amoy"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Xiamen"]
+    },
+    {
+      "id": "geography-en-02-27",
+      "text": "Which US national park, established in 1872, contains the Old Faithful geyser?",
+      "initial": "Y",
+      "answer": "Yellowstone",
+      "language": "en",
+      "aliases": ["Yellowstone National Park"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Yellowstone_National_Park"]
+    },
+    {
+      "id": "geography-en-02-28",
+      "text": "Which semi-autonomous part of Tanzania includes the islands of Unguja and Pemba?",
+      "initial": "Z",
+      "answer": "Zanzibar",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Zanzibar"]
+    }
+  ]
+}

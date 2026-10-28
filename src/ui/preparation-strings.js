@@ -4,6 +4,25 @@ export const preparationStrings = {
     privacy:
       'Prepare privately before players gather. The editor shows answers. Download your answer sheet and keep it on a separate private device or printout.',
     sources: 'Source packs',
+    search: 'Search pack title or ID',
+    allLanguages: 'All question languages',
+    allCategories: 'All categories',
+    allOrigins: 'All origins',
+    czech: 'Czech',
+    english: 'English',
+    origin: 'Pack origin',
+    matching: 'Matching packs',
+    noMatches: 'No packs match these filters. Clear filters or import a pack.',
+    selected: 'Selected sources (including hidden packs)',
+    clearSelection: 'Clear source selection',
+    resetFilters: 'Clear catalog filters',
+    filtersHelp:
+      'Browsing filters do not change selected sources or your accepted board. Hidden selected sources are still used. Clear selection to start a different selection.',
+    categories: {
+      general: 'General knowledge',
+      nature: 'Nature',
+      geography: 'Geography and travel',
+    },
     selectionHelp:
       'Select one fixed letter pack, or one or more same-language sources for 28 random number questions. Only selected sources are used; repeated question text is removed.',
     bundled: 'Bundled · immutable',
@@ -79,6 +98,26 @@ export const preparationStrings = {
     privacy:
       'Připravujte hru bez hráčů. Editor ukazuje odpovědi. List odpovědí si stáhněte a uchovejte na samostatném soukromém zařízení nebo jej vytiskněte.',
     sources: 'Zdrojové sady',
+    search: 'Hledat podle názvu nebo ID sady',
+    allLanguages: 'Všechny jazyky otázek',
+    allCategories: 'Všechny kategorie',
+    allOrigins: 'Všechny původy',
+    czech: 'Čeština',
+    english: 'Angličtina',
+    origin: 'Původ sady',
+    matching: 'Odpovídající sady',
+    noMatches:
+      'Filtrům neodpovídá žádná sada. Zrušte filtry nebo importujte sadu.',
+    selected: 'Vybrané zdroje (včetně skrytých)',
+    clearSelection: 'Zrušit výběr zdrojů',
+    resetFilters: 'Zrušit filtry katalogu',
+    filtersHelp:
+      'Filtry pro prohlížení nemění vybrané zdroje ani přijatou desku. Použijí se i skryté vybrané zdroje. Nový výběr začněte zrušením dosavadního výběru.',
+    categories: {
+      general: 'Všeobecné znalosti',
+      nature: 'Příroda',
+      geography: 'Zeměpis a cestování',
+    },
     selectionHelp:
       'Vyberte jednu pevnou písmennou sadu nebo více zdrojů ve stejném jazyce pro 28 náhodných číselných otázek. Použijí se jen vybrané zdroje; opakující se znění otázek se vynechá.',
     bundled: 'Vestavěná · neměnná',

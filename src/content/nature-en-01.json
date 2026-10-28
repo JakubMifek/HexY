@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "nature-en-01",
+  "title": "Nature · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-en-01-01",
+      "text": "Which nocturnal African mammal, Orycteropus afer, digs for ants and termites with powerful claws?",
+      "initial": "A",
+      "answer": "Aardvark",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Aardvark"]
+    },
+    {
+      "id": "nature-en-01-02",
+      "text": "Which large semiaquatic rodent is known for building dams from branches and mud?",
+      "initial": "B",
+      "answer": "Beaver",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Beaver"]
+    },
+    {
+      "id": "nature-en-01-03",
+      "text": "What is the usual name for the larval stage of a butterfly or moth?",
+      "initial": "C",
+      "answer": "Caterpillar",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Caterpillar"]
+    },
+    {
+      "id": "nature-en-01-04",
+      "text": "Which spotted African and Asian cat is the fastest land animal over short distances?",
+      "initial": "CH",
+      "answer": "Cheetah",
+      "language": "en",
+      "aliases": ["Acinonyx jubatus"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Cheetah"]
+    },
+    {
+      "id": "nature-en-01-05",
+      "text": "Which insect of the suborder Anisoptera has large eyes and usually holds its two pairs of wings out to the sides at rest?",
+      "initial": "D",
+      "answer": "Dragonfly",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Dragonfly"]
+    },
+    {
+      "id": "nature-en-01-06",
+      "text": "What process lets an animal locate objects by emitting sounds and detecting their returning echoes?",
+      "initial": "E",
+      "answer": "Echolocation",
+      "language": "en",
+      "aliases": ["biosonar"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Animal_echolocation"]
+    },
+    {
+      "id": "nature-en-01-07",
+      "text": "What type of vascular plant has fronds and reproduces by spores rather than flowers and seeds?",
+      "initial": "F",
+      "answer": "Fern",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Fern"]
+    },
+    {
+      "id": "nature-en-01-08",
+      "text": "What respiratory organs allow most fish to extract dissolved oxygen from water?",
+      "initial": "G",
+      "answer": "Gills",
+      "language": "en",
+      "aliases": ["gill"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Gill"]
+    },
+    {
+      "id": "nature-en-01-09",
+      "text": "What small bird of the Americas can hover while feeding at flowers and is named for the sound of its wings?",
+      "initial": "H",
+      "answer": "Hummingbird",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Hummingbird"]
+    },
+    {
+      "id": "nature-en-01-10",
+      "text": "What kind of arthropod has, as an adult, six legs and a body divided into head, thorax and abdomen?",
+      "initial": "I",
+      "answer": "Insect",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Insect"]
+    },
+    {
+      "id": "nature-en-01-11",
+      "text": "What common name describes a free-swimming cnidarian with a gelatinous bell and usually trailing tentacles?",
+      "initial": "J",
+      "answer": "Jellyfish",
+      "language": "en",
+      "aliases": ["jelly"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Jellyfish"]
+    },
+    {
+      "id": "nature-en-01-12",
+      "text": "What large brown seaweed forms underwater forests in cool coastal waters?",
+      "initial": "K",
+      "answer": "Kelp",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Kelp"]
+    },
+    {
+      "id": "nature-en-01-13",
+      "text": "What composite organism consists of a fungus living together with algae or cyanobacteria?",
+      "initial": "L",
+      "answer": "Lichen",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Lichen"]
+    },
+    {
+      "id": "nature-en-01-14",
+      "text": "What kind of mammal, exemplified by kangaroos, gives birth to very undeveloped young that often continue growing in a pouch?",
+      "initial": "M",
+      "answer": "Marsupial",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Marsupial"]
+    },
+    {
+      "id": "nature-en-01-15",
+      "text": "What sugary liquid do flowers produce to attract animal pollinators?",
+      "initial": "N",
+      "answer": "Nectar",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Nectar"]
+    },
+    {
+      "id": "nature-en-01-16",
+      "text": "What bird of prey belongs to the order Strigiformes and typically has forward-facing eyes in a facial disc?",
+      "initial": "O",
+      "answer": "Owl",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Owl"]
+    },
+    {
+      "id": "nature-en-01-17",
+      "text": "Which egg-laying Australian mammal has a duck-like bill, webbed feet and a broad, flat tail?",
+      "initial": "P",
+      "answer": "Platypus",
+      "language": "en",
+      "aliases": ["duck-billed platypus", "Ornithorhynchus anatinus"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Platypus"]
+    },
+    {
+      "id": "nature-en-01-18",
+      "text": "What common name is given to the stiff, sharp modified hairs that defend a porcupine?",
+      "initial": "Q",
+      "answer": "Quills",
+      "language": "en",
+      "aliases": ["quill", "spines"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Porcupine"]
+    },
+    {
+      "id": "nature-en-01-19",
+      "text": "What kind of hoofed mammal, such as a cow, regurgitates partly digested food to chew it again?",
+      "initial": "R",
+      "answer": "Ruminant",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Ruminant"]
+    },
+    {
+      "id": "nature-en-01-20",
+      "text": "What are the tiny pores in a leaf's epidermis, controlled by guard cells, that regulate gas exchange?",
+      "initial": "S",
+      "answer": "Stomata",
+      "language": "en",
+      "aliases": ["stoma"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Stoma"]
+    },
+    {
+      "id": "nature-en-01-21",
+      "text": "What cartilaginous fish typically has five to seven gill slits on each side of its head?",
+      "initial": "SH",
+      "answer": "Shark",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Shark"]
+    },
+    {
+      "id": "nature-en-01-22",
+      "text": "What is the common name for the aquatic larva of a frog or toad?",
+      "initial": "T",
+      "answer": "Tadpole",
+      "language": "en",
+      "aliases": ["polliwog", "pollywog"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Tadpole"]
+    },
+    {
+      "id": "nature-en-01-23",
+      "text": "What spiny marine animal is an echinoderm of the class Echinoidea?",
+      "initial": "U",
+      "answer": "Urchin",
+      "language": "en",
+      "aliases": ["sea urchin"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Sea_urchin"]
+    },
+    {
+      "id": "nature-en-01-24",
+      "text": "What is the common name for a large bird of prey specialized in feeding on carrion, often with a bare head?",
+      "initial": "V",
+      "answer": "Vulture",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Vulture"]
+    },
+    {
+      "id": "nature-en-01-25",
+      "text": "Which filter-feeding shark, Rhincodon typus, is the largest living species of fish?",
+      "initial": "W",
+      "answer": "Whale shark",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Whale_shark"]
+    },
+    {
+      "id": "nature-en-01-26",
+      "text": "What plant tissue transports water and dissolved minerals mainly from the roots towards the leaves?",
+      "initial": "X",
+      "answer": "Xylem",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Xylem"]
+    },
+    {
+      "id": "nature-en-01-27",
+      "text": "What single-celled fungus is used to make bread dough rise through fermentation?",
+      "initial": "Y",
+      "answer": "Yeast",
+      "language": "en",
+      "aliases": ["baker's yeast", "bakers yeast"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Yeast"]
+    },
+    {
+      "id": "nature-en-01-28",
+      "text": "What term describes plankton that feeds on other organisms, including copepods and many drifting animal larvae?",
+      "initial": "Z",
+      "answer": "Zooplankton",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Zooplankton"]
+    }
+  ]
+}

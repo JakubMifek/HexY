@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "general-en-02",
+  "title": "General knowledge · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-02-01",
+      "text": "Which portable instrument uses a bellows to push air through reeds and has keys or buttons on its sides?",
+      "initial": "A",
+      "answer": "Accordion",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Accordion"]
+    },
+    {
+      "id": "general-en-02-02",
+      "text": "What ring-shaped bread roll is traditionally boiled briefly before it is baked?",
+      "initial": "B",
+      "answer": "Bagel",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Bagel"]
+    },
+    {
+      "id": "general-en-02-03",
+      "text": "Which navigation instrument uses a magnetized needle to indicate magnetic north?",
+      "initial": "C",
+      "answer": "Compass",
+      "language": "en",
+      "aliases": ["magnetic compass"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Compass"]
+    },
+    {
+      "id": "general-en-02-04",
+      "text": "What pair of slender utensils is traditionally used to pick up food in China, Japan and Korea?",
+      "initial": "CH",
+      "answer": "Chopsticks",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Chopsticks"]
+    },
+    {
+      "id": "general-en-02-05",
+      "text": "Which tile game uses rectangular pieces divided into two ends, each marked with spots or left blank?",
+      "initial": "D",
+      "answer": "Dominoes",
+      "language": "en",
+      "aliases": ["dominos"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Dominoes"]
+    },
+    {
+      "id": "general-en-02-06",
+      "text": "What coffee is made by forcing hot water under pressure through finely ground coffee?",
+      "initial": "E",
+      "answer": "Espresso",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Espresso"]
+    },
+    {
+      "id": "general-en-02-07",
+      "text": "On which temperature scale does pure water freeze at 32 degrees at standard atmospheric pressure?",
+      "initial": "F",
+      "answer": "Fahrenheit",
+      "language": "en",
+      "aliases": ["Fahrenheit scale"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Fahrenheit"]
+    },
+    {
+      "id": "general-en-02-08",
+      "text": "What is the traditional flat-bottomed Venetian boat propelled by a standing rower?",
+      "initial": "G",
+      "answer": "Gondola",
+      "language": "en",
+      "aliases": ["Venetian gondola"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Gondola"]
+    },
+    {
+      "id": "general-en-02-09",
+      "text": "Which timekeeping device measures an interval as sand passes between two glass bulbs?",
+      "initial": "H",
+      "answer": "Hourglass",
+      "language": "en",
+      "aliases": ["sandglass", "sand timer"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Hourglass"]
+    },
+    {
+      "id": "general-en-02-10",
+      "text": "What name is commonly used for an Inuit snow-block shelter with a domed roof?",
+      "initial": "I",
+      "answer": "Igloo",
+      "language": "en",
+      "aliases": ["iglu"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Igloo"]
+    },
+    {
+      "id": "general-en-02-11",
+      "text": "What kind of puzzle forms a picture when its interlocking pieces are fitted together?",
+      "initial": "J",
+      "answer": "Jigsaw puzzle",
+      "language": "en",
+      "aliases": ["jigsaw"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Jigsaw_puzzle"]
+    },
+    {
+      "id": "general-en-02-12",
+      "text": "What entertainment activity involves singing along to recorded backing music while lyrics are displayed?",
+      "initial": "K",
+      "answer": "Karaoke",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Karaoke"]
+    },
+    {
+      "id": "general-en-02-13",
+      "text": "What looped rope, also called a lariat, is used to catch livestock?",
+      "initial": "L",
+      "answer": "Lasso",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Lasso"]
+    },
+    {
+      "id": "general-en-02-14",
+      "text": "Which road-running race has a standard distance of 42.195 kilometres?",
+      "initial": "M",
+      "answer": "Marathon",
+      "language": "en",
+      "aliases": ["marathon race"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Marathon"]
+    },
+    {
+      "id": "general-en-02-15",
+      "text": "What Japanese name is used for the dried edible seaweed sheets often wrapped around sushi rolls?",
+      "initial": "N",
+      "answer": "Nori",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Nori"]
+    },
+    {
+      "id": "general-en-02-16",
+      "text": "What Japanese art creates shapes by folding paper?",
+      "initial": "O",
+      "answer": "Origami",
+      "language": "en",
+      "aliases": ["paper folding"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Origami"]
+    },
+    {
+      "id": "general-en-02-17",
+      "text": "Which sauce from Genoa traditionally combines basil, pine nuts, garlic, cheese and olive oil?",
+      "initial": "P",
+      "answer": "Pesto",
+      "language": "en",
+      "aliases": ["pesto alla genovese"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Pesto"]
+    },
+    {
+      "id": "general-en-02-18",
+      "text": "What bed covering has a layer of padding stitched between an upper fabric and a backing?",
+      "initial": "Q",
+      "answer": "Quilt",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Quilt"]
+    },
+    {
+      "id": "general-en-02-19",
+      "text": "Which family of football sports takes its name from the English school where it developed?",
+      "initial": "R",
+      "answer": "Rugby",
+      "language": "en",
+      "aliases": ["rugby football"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Rugby_football"]
+    },
+    {
+      "id": "general-en-02-20",
+      "text": "Which number-placement puzzle usually asks you to fill a nine-by-nine grid so every row, column and three-by-three box contains 1 to 9?",
+      "initial": "S",
+      "answer": "Sudoku",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Sudoku"]
+    },
+    {
+      "id": "general-en-02-21",
+      "text": "What feathered or synthetic projectile is struck back and forth in badminton?",
+      "initial": "SH",
+      "answer": "Shuttlecock",
+      "language": "en",
+      "aliases": ["shuttle", "birdie"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Shuttlecock"]
+    },
+    {
+      "id": "general-en-02-22",
+      "text": "What familiar trademark-derived name is used for a vacuum flask that keeps drinks hot or cold?",
+      "initial": "T",
+      "answer": "Thermos",
+      "language": "en",
+      "aliases": ["Thermos flask"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Vacuum_flask"]
+    },
+    {
+      "id": "general-en-02-23",
+      "text": "Which small, typically four-stringed instrument developed in Hawaii from Portuguese instruments?",
+      "initial": "U",
+      "answer": "Ukulele",
+      "language": "en",
+      "aliases": ["ukelele"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Ukulele"]
+    },
+    {
+      "id": "general-en-02-24",
+      "text": "Which brand name is commonly used for a fastening system with tiny hooks on one strip and loops on the other?",
+      "initial": "V",
+      "answer": "Velcro",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Velcro"]
+    },
+    {
+      "id": "general-en-02-25",
+      "text": "Which deep, traditionally round-bottomed cooking pan is widely used for Chinese stir-frying?",
+      "initial": "W",
+      "answer": "Wok",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Wok"]
+    },
+    {
+      "id": "general-en-02-26",
+      "text": "What type of electromagnetic radiation is commonly used to make medical images of broken bones?",
+      "initial": "X",
+      "answer": "X-ray",
+      "language": "en",
+      "aliases": ["X ray", "X rays", "X-rays", "X-radiation"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/X-ray"]
+    },
+    {
+      "id": "general-en-02-27",
+      "text": "Which practice originating in ancient India combines physical postures with breathing and meditative disciplines?",
+      "initial": "Y",
+      "answer": "Yoga",
+      "language": "en",
+      "aliases": [],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Yoga"]
+    },
+    {
+      "id": "general-en-02-28",
+      "text": "What clothes fastener joins two rows of interlocking teeth using a sliding tab?",
+      "initial": "Z",
+      "answer": "Zipper",
+      "language": "en",
+      "aliases": ["zip", "zip fastener"],
+      "category": "general",
+      "sources": ["https://en.wikipedia.org/wiki/Zipper"]
+    }
+  ]
+}

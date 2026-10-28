@@ -1,4 +1,5 @@
 import { button, element, field, input } from './dom.js';
+import { catalogView } from './catalog.js';
 
 /** @typedef {import('./preparation-strings.js').PreparationTexts} Texts */
 
@@ -16,32 +17,10 @@ export function preparationView(t, model, run, importFiles, download, signal) {
     element('h2', t.preparation, { id: 'preparation-heading' }),
     element('p', t.privacy),
   );
-  const sources = element('fieldset', '', { class: 'pack-sources' });
-  sources.append(element('legend', t.sources), element('p', t.selectionHelp));
-  for (const pack of model.packs) {
-    const box = input(`source-${pack.id}`, 'checkbox', pack.id);
-    box.checked = model.selected.includes(pack.id);
-    box.addEventListener(
-      'change',
-      () =>
-        run(() => {
-          const ids = [...model.selected.filter((id) => id !== pack.id)];
-          if (box.checked) ids.push(pack.id);
-          model.select(ids);
-        }),
-      { signal },
-    );
-    const origin = model.bundled.some((item) => item.id === pack.id)
-      ? t.bundled
-      : t.custom;
-    sources.append(
-      field(
-        `${pack.title} · ${pack.language} · ${pack.questions.length} · ${origin}`,
-        box,
-      ),
-    );
-  }
-  panel.append(sources, sourceActions(t, model, run, download, signal));
+  panel.append(
+    catalogView(t, model, run, signal),
+    sourceActions(t, model, run, download, signal),
+  );
   const files = input('import-packs', 'file', '');
   files.multiple = true;
   files.accept = '.json,application/json';

@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "geography-cs-01",
+  "title": "Zeměpis a cestování · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-cs-01-01",
+      "text": "Jak se jmenuje pohoří táhnoucí se podél západního okraje Jižní Ameriky?",
+      "initial": "A",
+      "answer": "Andy",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Andy"]
+    },
+    {
+      "id": "geography-cs-01-02",
+      "text": "Jak se jmenuje hlavní město Thajska ležící na řece Čao-Praja?",
+      "initial": "B",
+      "answer": "Bangkok",
+      "language": "cs",
+      "aliases": ["Krung Thep"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Bangkok"]
+    },
+    {
+      "id": "geography-cs-01-03",
+      "text": "Které plánovitě vybudované vnitrozemské město je hlavním městem Austrálie?",
+      "initial": "C",
+      "answer": "Canberra",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Canberra"]
+    },
+    {
+      "id": "geography-cs-01-04",
+      "text": "Který vnitrozemský africký stát má hlavní město N'Djamena?",
+      "initial": "Č",
+      "answer": "Čad",
+      "language": "cs",
+      "aliases": ["Čadská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cad"]
+    },
+    {
+      "id": "geography-cs-01-05",
+      "text": "Jak se jmenuje hlavní město Irska ležící při ústí řeky Liffey?",
+      "initial": "D",
+      "answer": "Dublin",
+      "language": "cs",
+      "aliases": ["Baile Átha Cliath"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Dublin"]
+    },
+    {
+      "id": "geography-cs-01-06",
+      "text": "Kterému jihoamerickému státu patří Galapágy?",
+      "initial": "E",
+      "answer": "Ekvádor",
+      "language": "cs",
+      "aliases": ["Ekvádorská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Galap%C3%A1gy"]
+    },
+    {
+      "id": "geography-cs-01-07",
+      "text": "Jak se nazývá dlouhý úzký mořský záliv se strmými svahy, který vznikl zatopením ledovcového údolí?",
+      "initial": "F",
+      "answer": "Fjord",
+      "language": "cs",
+      "aliases": ["fiord"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Fjord"]
+    },
+    {
+      "id": "geography-cs-01-08",
+      "text": "Jak se jmenuje největší ostrov světa, pokud nepočítáme kontinenty jako Austrálii?",
+      "initial": "G",
+      "answer": "Grónsko",
+      "language": "cs",
+      "aliases": ["Kalaallit Nunaat"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Gr%C3%B3nsko"]
+    },
+    {
+      "id": "geography-cs-01-09",
+      "text": "Ve kterém asijském pohoří leží Mount Everest?",
+      "initial": "H",
+      "answer": "Himálaj",
+      "language": "cs",
+      "aliases": ["Himaláje"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Him%C3%A1laj"]
+    },
+    {
+      "id": "geography-cs-01-10",
+      "text": "Který dlouhý a úzký jihoamerický stát leží mezi Andami a Tichým oceánem a má hlavní město Santiago?",
+      "initial": "Ch",
+      "answer": "Chile",
+      "language": "cs",
+      "aliases": ["Chilská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Chile"]
+    },
+    {
+      "id": "geography-cs-01-11",
+      "text": "Ve kterém severoatlantickém ostrovním státě se nachází sopka Hekla?",
+      "initial": "I",
+      "answer": "Island",
+      "language": "cs",
+      "aliases": ["Islandská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Hekla"]
+    },
+    {
+      "id": "geography-cs-01-12",
+      "text": "Jakým kratším názvem označujeme moře mezi Apeninským a Balkánským poloostrovem?",
+      "initial": "J",
+      "answer": "Jadran",
+      "language": "cs",
+      "aliases": ["Jaderské moře"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Jadersk%C3%A9_mo%C5%99e"]
+    },
+    {
+      "id": "geography-cs-01-13",
+      "text": "Jak se jmenuje nejvyšší hora Afriky, která leží v Tanzanii?",
+      "initial": "K",
+      "answer": "Kilimandžáro",
+      "language": "cs",
+      "aliases": ["Kilimanjaro"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Kilimand%C5%BE%C3%A1ro"]
+    },
+    {
+      "id": "geography-cs-01-14",
+      "text": "Jak se česky jmenuje hlavní město Portugalska poblíž ústí řeky Tejo?",
+      "initial": "L",
+      "answer": "Lisabon",
+      "language": "cs",
+      "aliases": ["Lisboa"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Lisabon"]
+    },
+    {
+      "id": "geography-cs-01-15",
+      "text": "Který ostrovní stát v Indickém oceánu má hlavní město Antananarivo?",
+      "initial": "M",
+      "answer": "Madagaskar",
+      "language": "cs",
+      "aliases": ["Madagaskarská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Madagaskar"]
+    },
+    {
+      "id": "geography-cs-01-16",
+      "text": "Které východoafrické město je hlavním městem Keni?",
+      "initial": "N",
+      "answer": "Nairobi",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Nairobi"]
+    },
+    {
+      "id": "geography-cs-01-17",
+      "text": "Jak se jmenuje hlavní město Norska?",
+      "initial": "O",
+      "answer": "Oslo",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Oslo"]
+    },
+    {
+      "id": "geography-cs-01-18",
+      "text": "Ve kterém jihoamerickém státě leží incké sídlo Machu Picchu?",
+      "initial": "P",
+      "answer": "Peru",
+      "language": "cs",
+      "aliases": ["Peruánská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Machu_Picchu"]
+    },
+    {
+      "id": "geography-cs-01-19",
+      "text": "Která řeka protéká Basilejí a Kolínem v Německu a ústí do Severního moře v Nizozemsku?",
+      "initial": "R",
+      "answer": "Rýn",
+      "language": "cs",
+      "aliases": ["Rhein"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/R%C3%BDn"]
+    },
+    {
+      "id": "geography-cs-01-20",
+      "text": "Kterému evropskému státu patří ostrov Kréta?",
+      "initial": "Ř",
+      "answer": "Řecko",
+      "language": "cs",
+      "aliases": ["Řecká republika", "Helénská republika"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Kr%C3%A9ta"]
+    },
+    {
+      "id": "geography-cs-01-21",
+      "text": "Který italský ostrov je největším ostrovem Středozemního moře a leží na něm sopka Etna?",
+      "initial": "S",
+      "answer": "Sicílie",
+      "language": "cs",
+      "aliases": ["Sicilia"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Sic%C3%ADlie"]
+    },
+    {
+      "id": "geography-cs-01-22",
+      "text": "Které čínské velkoměsto na řece Chuang-pchu leží poblíž ústí Jang-c’-ťiang?",
+      "initial": "Š",
+      "answer": "Šanghaj",
+      "language": "cs",
+      "aliases": ["Shanghai"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0anghaj"]
+    },
+    {
+      "id": "geography-cs-01-23",
+      "text": "Která řeka protéká Oxfordem a Londýnem?",
+      "initial": "T",
+      "answer": "Temže",
+      "language": "cs",
+      "aliases": ["Thames"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Tem%C5%BEe"]
+    },
+    {
+      "id": "geography-cs-01-24",
+      "text": "Jak se česky jmenuje hlavní město Mongolska?",
+      "initial": "U",
+      "answer": "Ulánbátar",
+      "language": "cs",
+      "aliases": ["Ulaanbaatar", "Ulan Bator"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Ul%C3%A1nb%C3%A1tar"]
+    },
+    {
+      "id": "geography-cs-01-25",
+      "text": "Ve kterém evropském hlavním městě stojí zámek Schönbrunn?",
+      "initial": "V",
+      "answer": "Vídeň",
+      "language": "cs",
+      "aliases": ["Wien", "Vienna"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Sch%C3%B6nbrunn"]
+    },
+    {
+      "id": "geography-cs-01-26",
+      "text": "Které hlavní město leží na jižním cípu Severního ostrova Nového Zélandu?",
+      "initial": "W",
+      "answer": "Wellington",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Wellington"]
+    },
+    {
+      "id": "geography-cs-01-27",
+      "text": "Na které řece leží Viktoriiny vodopády na hranici Zambie a Zimbabwe?",
+      "initial": "Z",
+      "answer": "Zambezi",
+      "language": "cs",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/Viktoriiny_vodop%C3%A1dy"]
+    },
+    {
+      "id": "geography-cs-01-28",
+      "text": "Které švýcarské město leží tam, kde Rhôna vytéká ze Ženevského jezera?",
+      "initial": "Ž",
+      "answer": "Ženeva",
+      "language": "cs",
+      "aliases": ["Genève", "Geneva", "Genf"],
+      "category": "geography",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDeneva"]
+    }
+  ]
+}

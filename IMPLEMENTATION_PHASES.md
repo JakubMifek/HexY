@@ -72,8 +72,8 @@ solely to obtain a revision without permission.
 | 1 | Tested domain foundation and contracts | 0 | Cleared and pushed: `0155d7c` | [CLEARED](reviews/phase-01.md) |
 | 2 | Playable local quiz with keyboard duels | 1 cleared | Cleared and pushed: `fbee41d` | [CLEARED after fixes](reviews/phase-02.md) |
 | 3 | Pack preparation and host answer sheets | 2 cleared | Cleared and pushed: `9dfa3bc` | [CLEARED after fixes](reviews/phase-03.md) |
-| 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-04.md) |
-| 5 | General knowledge, Nature, Geography content | 4 cleared | Not started | Not started |
+| 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared and pushed: `92659db` | [CLEARED after fixes](reviews/phase-04.md) |
+| 5 | General knowledge, Nature, Geography content | 4 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-05.md) |
 | 6 | History, Politics, Science content | 5 cleared | Not started | Not started |
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Not started | Not started |
 | 8 | Integrated release and approved deployment | 7 cleared | Not started | Not started |
@@ -895,3 +895,108 @@ Only factual delivery documentation changes follow the frozen check. Commit/push
 and remote verification must precede phase 5. Physical Xbox/tablet, other browser
 engines, screen-reader devices, name clearance and public deployment remain
 explicit phase-8 gates.
+
+Phase 4 committed and pushed as `92659db1660856ade7c00b81952936f66d4c43e8`;
+remote `main` verified. Working tree was clean after delivery.
+
+### Phase 5 starting snapshot
+
+Baseline: `92659db1660856ade7c00b81952936f66d4c43e8`. Implement only General
+knowledge, Nature, Geography and travel: 12 packs / 336 entries, counting the
+existing two General knowledge starter packs (10 new packs / 280 new entries).
+Preserve existing IDs. Validate catalog browsing/filtering, fixed placement,
+selected-source number generation, duplicates and full schema/count coverage.
+Every entry requires factual/linguistic independent review with real sources;
+schema checks or sampling do not clear content. Later categories and release
+remain out of scope. Next: fresh bounded developer, then independent reviewer.
+
+### Phase 5 developer handoff — 2026-10-28
+
+Frozen candidate against `92659db1660856ade7c00b81952936f66d4c43e8`;
+**not independently reviewed or cleared, not committed/pushed**.
+See [complete handoff](docs/phase-05-handoff.md),
+[inventory and provenance](docs/content-inventory.md), and the
+[all-336-entry factual source ledger](docs/content-sources.md).
+
+- Added ten fixed packs / 280 original entries; both unchanged starters count
+  toward the exact 12-pack / 336-entry phase-5 quota. No later categories.
+- Catalog now supports metadata search, category/language/origin filters,
+  visible matching counts and explicit hidden-selection summaries. Default
+  setup still selects one original starter; filters never change content.
+- Full `npm run check`: PASS, 209 tests in 17 files, lint/metrics/types/build
+  and both coverage groups pass. Full Chromium suite: 139/139 PASS (4.6m).
+- Coverage discovers 47 runtime modules: 26 critical, 21 remaining. Ten
+  negative threshold/membership probes fail as required; original coverage
+  report restored byte-for-byte. Exact denominators are in the handoff.
+- Final catalog screenshots, fixed/number/recovery JSON exports and printable
+  sheets are retained under `.artifacts/playwright`; the source ledger maps
+  every entry to citations and pack hashes. BCcampus's preserved starter URL
+  was temporarily unavailable; its existing Basalt reference corroborates
+  the fact. UNESCO was verified with web-fetch when curl failed.
+- Snapshot manifest: `.artifacts/phase-05-snapshot.sha256`, generated after
+  final source/test/documentation writes. Preview port 4182 is closed.
+
+Next action: independent review of the frozen snapshot and **every one of the
+336 questions**, recording findings by ID. Developer stops writing.
+After any fixes and re-review, the coordinator must rerun the full gate,
+commit/push with the user's authorization, and verify the remote before phase 6.
+No review report has been fabricated. Physical device/release limitations stay
+at phase 8; passing this developer gate does not clear the phase.
+
+### Phase 5 initial independent review
+
+Reviewer `f9089207-b931-4419-b334-b0bb1f62771d` reviewed all 336 entries and
+the complete phase snapshot. Verdict **CHANGES REQUIRED**: four minor findings
+cover an ambiguous lichen clue, scope-incompatible aliases in two entries,
+missing factual sources in exported sheets and a Czech inflected answer giveaway.
+All findings/evidence and every-entry accounting: [review report](reviews/phase-05.md).
+Automated checks passed (209 tests, 139 journeys), but do not clear these defects.
+
+Next: the same developer corrects P5-R1–R4, adds focused regressions and updates
+source-ledger hashes, then freezes for the same independent reviewer. No commit,
+push or phase-6 work before re-review and coordinator post-review verification.
+
+### Phase 5 review corrections — developer handoff
+
+P5-R1–R4 implemented and frozen for the same reviewer's re-review; **not cleared**.
+The original report and all-336-entry accounting remain intact, with an appended
+developer response. Exactly four entries changed (two prompts, two alias arrays);
+the other 332 full entries, IDs, positions, references and both starters are
+unchanged. The source ledger has the four updated pack hashes.
+
+Standalone sheets now include an escaped, localized factual-source appendix
+mapped to all 28 cells/question IDs. All prior question rows and rights/origins
+remain. Actual fixed/generated HTML and eight decoded PDFs verify complete rows,
+citations, source association and hostile imported text in Czech and English.
+
+Final `npm run check`: PASS, **215 tests / 18 files**, format/lint/types/build and
+coverage. Full Chromium: **143/143 PASS (4.7m)**. All 47 executable modules
+included (26 critical / 21 remaining); eleven negative threshold/membership
+probes pass with exact report restoration. Maxima remain 294/60/10/3; no exceptions.
+Detailed correction mapping, exact coverage and failed iterations are in the
+[updated handoff](docs/phase-05-handoff.md#review-corrections).
+
+Original manifest retained at `.artifacts/phase-05-before-review-fixes-snapshot.sha256`.
+New after-writing manifests: `.artifacts/phase-05-review-fixes-snapshot.sha256`
+and `.artifacts/phase-05-snapshot.sha256`. Preview 4182 is closed.
+Next: same reviewer evaluates the corrected snapshot. Developer stops writing;
+no commit/push, subsequent phase or release claim.
+
+### Phase 5 clearance and post-review verification
+
+Same reviewer cleared P5-R1–R4 without new findings or exceptions. All 336
+entries accounted for: 332 unchanged and four directly rechecked, with original
+pack hashes independently reconstructed. Source-preserving exports independently
+verified in ten actual HTML/PDF sets. Full report: `reviews/phase-05.md`.
+
+Coordinator verified full frozen hashes before/after sequential `npm run check`,
+documented Chromium suite and `git diff --check`. All passed: **215 tests,
+143 browser journeys**, formatting/lint/types/build and both coverage groups.
+All 47 runtime sources included; measured fractions match final re-review.
+Logs: `.artifacts/phase-05-post-review-{check,browser}.log`.
+No source/content/test edits followed clearance.
+
+Commit/push and remote verification remain next. Before phase 6, the user has
+requested a persistent private Tailscale preview of pushed main, automatically
+updated after pushes. This newly approved operational interlude is not public
+release clearance; existing phase-8 hardware/legal/public-hosting gates remain.

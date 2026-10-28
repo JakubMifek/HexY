@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "nature-en-02",
+  "title": "Nature · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-en-02-01",
+      "text": "What marine animal of the order Actiniaria has a ring of stinging tentacles and often resembles a flower?",
+      "initial": "A",
+      "answer": "Anemone",
+      "language": "en",
+      "aliases": ["sea anemone"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Sea_anemone"]
+    },
+    {
+      "id": "nature-en-02-02",
+      "text": "What mammal belongs to the order Chiroptera and is capable of sustained powered flight?",
+      "initial": "B",
+      "answer": "Bat",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Bat"]
+    },
+    {
+      "id": "nature-en-02-03",
+      "text": "What colonial marine animal secretes the calcium carbonate skeletons that build tropical reefs?",
+      "initial": "C",
+      "answer": "Coral",
+      "language": "en",
+      "aliases": ["stony coral", "reef-building coral"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Coral"]
+    },
+    {
+      "id": "nature-en-02-04",
+      "text": "What green pigment absorbs light used in photosynthesis in plants?",
+      "initial": "CH",
+      "answer": "Chlorophyll",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Chlorophyll"]
+    },
+    {
+      "id": "nature-en-02-05",
+      "text": "What adjective describes trees that shed all their leaves seasonally, rather than remaining evergreen?",
+      "initial": "D",
+      "answer": "Deciduous",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Deciduous"]
+    },
+    {
+      "id": "nature-en-02-06",
+      "text": "What segmented burrowing worm helps mix and aerate soil as it feeds on organic matter?",
+      "initial": "E",
+      "answer": "Earthworm",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Earthworm"]
+    },
+    {
+      "id": "nature-en-02-07",
+      "text": "To which biological kingdom do mushrooms, moulds and yeasts belong?",
+      "initial": "F",
+      "answer": "Fungi",
+      "language": "en",
+      "aliases": ["Fungus"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Fungus"]
+    },
+    {
+      "id": "nature-en-02-08",
+      "text": "What lizard belonging to Gekkota often climbs smooth surfaces using specialized pads on its toes?",
+      "initial": "G",
+      "answer": "Gecko",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Gecko"]
+    },
+    {
+      "id": "nature-en-02-09",
+      "text": "What seasonal state of greatly reduced metabolism allows animals such as ground squirrels to survive cold periods?",
+      "initial": "H",
+      "answer": "Hibernation",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Hibernation"]
+    },
+    {
+      "id": "nature-en-02-10",
+      "text": "What wading bird of the family Threskiornithidae probes mud for food with a long downward-curving bill?",
+      "initial": "I",
+      "answer": "Ibis",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Ibis"]
+    },
+    {
+      "id": "nature-en-02-11",
+      "text": "Which big cat native to the Americas has the scientific name Panthera onca?",
+      "initial": "J",
+      "answer": "Jaguar",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Jaguar"]
+    },
+    {
+      "id": "nature-en-02-12",
+      "text": "What flightless New Zealand bird has nostrils near the tip of its long bill?",
+      "initial": "K",
+      "answer": "Kiwi",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Kiwi_(bird)"]
+    },
+    {
+      "id": "nature-en-02-13",
+      "text": "What primate native to Madagascar includes a ring-tailed species and takes its name from Latin spirits of the dead?",
+      "initial": "L",
+      "answer": "Lemur",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Lemur"]
+    },
+    {
+      "id": "nature-en-02-14",
+      "text": "What tree or shrub grows in tropical intertidal habitats and is adapted to salty water?",
+      "initial": "M",
+      "answer": "Mangrove",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Mangrove"]
+    },
+    {
+      "id": "nature-en-02-15",
+      "text": "Which Arctic whale is known for the long spiral tusk, an enlarged tooth, usually found in males?",
+      "initial": "N",
+      "answer": "Narwhal",
+      "language": "en",
+      "aliases": ["Monodon monoceros"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Narwhal"]
+    },
+    {
+      "id": "nature-en-02-16",
+      "text": "What flowering plant belongs to the family Orchidaceae, which also includes the vanilla genus?",
+      "initial": "O",
+      "answer": "Orchid",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Orchid"]
+    },
+    {
+      "id": "nature-en-02-17",
+      "text": "What powdery material produced by seed plants contains their male gametophytes?",
+      "initial": "P",
+      "answer": "Pollen",
+      "language": "en",
+      "aliases": ["pollen grains"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Pollen"]
+    },
+    {
+      "id": "nature-en-02-18",
+      "text": "Which small marsupial, Setonix brachyurus, is especially associated with Rottnest Island off Western Australia?",
+      "initial": "Q",
+      "answer": "Quokka",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Quokka"]
+    },
+    {
+      "id": "nature-en-02-19",
+      "text": "What plant organ usually anchors a plant in soil and absorbs water and mineral nutrients?",
+      "initial": "R",
+      "answer": "Root",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Root"]
+    },
+    {
+      "id": "nature-en-02-20",
+      "text": "In which fish of the genus Hippocampus does the male carry developing embryos in a brood pouch?",
+      "initial": "S",
+      "answer": "Seahorse",
+      "language": "en",
+      "aliases": ["sea horse", "sea-horse"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Seahorse"]
+    },
+    {
+      "id": "nature-en-02-21",
+      "text": "What small mammal of the family Soricidae has a pointed snout and resembles a mouse but is not a rodent?",
+      "initial": "SH",
+      "answer": "Shrew",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Shrew"]
+    },
+    {
+      "id": "nature-en-02-22",
+      "text": "What social insect belongs to the group Isoptera and often feeds on wood with the help of gut microorganisms?",
+      "initial": "T",
+      "answer": "Termite",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Termite"]
+    },
+    {
+      "id": "nature-en-02-23",
+      "text": "What is the name for the layer of vegetation growing beneath a forest's main canopy?",
+      "initial": "U",
+      "answer": "Understorey",
+      "language": "en",
+      "aliases": ["understory", "underbrush", "undergrowth"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Understory"]
+    },
+    {
+      "id": "nature-en-02-24",
+      "text": "What toxin-containing secretion is actively delivered into another animal by a bite or sting?",
+      "initial": "V",
+      "answer": "Venom",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Venom"]
+    },
+    {
+      "id": "nature-en-02-25",
+      "text": "Which burrowing Australian marsupial is famous for producing cube-shaped droppings?",
+      "initial": "W",
+      "answer": "Wombat",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Wombat"]
+    },
+    {
+      "id": "nature-en-02-26",
+      "text": "What term describes a plant adapted to environments where little water is available?",
+      "initial": "X",
+      "answer": "Xerophyte",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Xerophyte"]
+    },
+    {
+      "id": "nature-en-02-27",
+      "text": "What conifer of the genus Taxus has flat, narrow leaves and seeds often surrounded by red fleshy arils?",
+      "initial": "Y",
+      "answer": "Yew",
+      "language": "en",
+      "aliases": ["yew tree"],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Taxus"]
+    },
+    {
+      "id": "nature-en-02-28",
+      "text": "What is the name for the cell formed when two gametes fuse during fertilization?",
+      "initial": "Z",
+      "answer": "Zygote",
+      "language": "en",
+      "aliases": [],
+      "category": "nature",
+      "sources": ["https://en.wikipedia.org/wiki/Zygote"]
+    }
+  ]
+}

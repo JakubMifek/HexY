@@ -39,7 +39,7 @@ export function setupView(t, settings, start, signal, changed, preparation) {
     grid,
     error,
     element('p', t.colors, { class: 'muted' }),
-    element('p', t.starterPack),
+    element('p', t.catalogHelp),
     element('p', t.rules),
     preparation,
     submit,

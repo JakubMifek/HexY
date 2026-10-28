@@ -25,6 +25,7 @@ export class Preparation {
   /** @type {string} */
   language = '';
   mode = '';
+  filters = { search: '', category: '', language: '', origin: '' };
 
   /** @param {() => number} random @param {() => string} id */
   constructor(random, id) {
@@ -45,6 +46,7 @@ export class Preparation {
     this.mode = setup.mode;
     this.selected = this.bundled
       .filter((pack) => pack.language === setup.language)
+      .slice(0, 1)
       .map((pack) => pack.id);
     this.invalidate();
     this.proposal = null;

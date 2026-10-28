@@ -1,5 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { expect } from '@playwright/test';
+import { verifyPrintedSheet } from './pdf-helpers.js';
+import { preparationStrings } from '../src/ui/preparation-strings.js';
 
 /** @param {import('@playwright/test').Page} page
  * @param {'en'|'cs'} [language] */
@@ -81,6 +83,31 @@ export async function verifySheet(sheet, pack) {
   );
   for (const credit of credits)
     await expect(sheet.locator('ul')).toContainText(credit);
+  await verifySheetSources(sheet, pack);
+}
+
+/** @param {import('@playwright/test').Page} sheet @param {object} pack */
+export async function verifySheetSources(sheet, pack) {
+  const language = await sheet.locator('html').getAttribute('lang');
+  const t = preparationStrings[language];
+  await expect(sheet.locator('#source-appendix h2')).toHaveText(t.provenance);
+  const sources = await sheet
+    .locator('.source-entry')
+    .evaluateAll((entries) =>
+      entries.map((entry) => [
+        entry.querySelector('h3').textContent,
+        entry.querySelector('p').textContent,
+      ]),
+    );
+  expect(sources).toEqual(
+    pack.questions.map((q, index) => [
+      `${t.number}: ${index + 1} · ${t.id}: ${q.id}`,
+      q.sources.join('\n'),
+    ]),
+  );
+  await expect(
+    sheet.locator('#source-appendix a,img,iframe,object'),
+  ).toHaveCount(0);
 }
 
 /** @param {import('@playwright/test').Page} page */
@@ -116,6 +143,11 @@ export async function inspectPrintedSheet(context, info, path, pack) {
     path: info.outputPath('answer-sheet.pdf'),
     landscape: true,
   });
+  verifyPrintedSheet(
+    info.outputPath('answer-sheet.pdf'),
+    pack,
+    await sheet.locator('html').getAttribute('lang'),
+  );
   await sheet.close();
 }
 

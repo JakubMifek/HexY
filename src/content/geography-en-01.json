@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "geography-en-01",
+  "title": "Geography and travel · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-en-01-01",
+      "text": "What mountain range runs along the western side of South America?",
+      "initial": "A",
+      "answer": "Andes",
+      "language": "en",
+      "aliases": ["the Andes", "Andes Mountains"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Andes"]
+    },
+    {
+      "id": "geography-en-01-02",
+      "text": "What is the capital of Thailand, situated on the Chao Phraya River?",
+      "initial": "B",
+      "answer": "Bangkok",
+      "language": "en",
+      "aliases": ["Krung Thep", "Krung Thep Maha Nakhon"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Bangkok"]
+    },
+    {
+      "id": "geography-en-01-03",
+      "text": "Which planned inland city is Australia's national capital?",
+      "initial": "C",
+      "answer": "Canberra",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Canberra"]
+    },
+    {
+      "id": "geography-en-01-04",
+      "text": "Which long, narrow South American country lies between the Andes and the Pacific Ocean and has Santiago as its capital?",
+      "initial": "CH",
+      "answer": "Chile",
+      "language": "en",
+      "aliases": ["Republic of Chile"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Chile"]
+    },
+    {
+      "id": "geography-en-01-05",
+      "text": "Which river flows through Vienna, Bratislava and Budapest before reaching the Black Sea?",
+      "initial": "D",
+      "answer": "Danube",
+      "language": "en",
+      "aliases": ["the Danube", "Danube River"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Danube"]
+    },
+    {
+      "id": "geography-en-01-06",
+      "text": "Which Scottish capital is overlooked by a castle built on Castle Rock?",
+      "initial": "E",
+      "answer": "Edinburgh",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Edinburgh"]
+    },
+    {
+      "id": "geography-en-01-07",
+      "text": "Which Pacific island country has Suva as its capital?",
+      "initial": "F",
+      "answer": "Fiji",
+      "language": "en",
+      "aliases": ["Republic of Fiji"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Fiji"]
+    },
+    {
+      "id": "geography-en-01-08",
+      "text": "What is the world's largest island, excluding continental landmasses such as Australia?",
+      "initial": "G",
+      "answer": "Greenland",
+      "language": "en",
+      "aliases": ["Kalaallit Nunaat"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Greenland"]
+    },
+    {
+      "id": "geography-en-01-09",
+      "text": "Which Asian mountain range contains Mount Everest?",
+      "initial": "H",
+      "answer": "Himalayas",
+      "language": "en",
+      "aliases": ["the Himalayas", "Himalaya"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Himalayas"]
+    },
+    {
+      "id": "geography-en-01-10",
+      "text": "Which North Atlantic island country is home to the active volcano Hekla?",
+      "initial": "I",
+      "answer": "Iceland",
+      "language": "en",
+      "aliases": ["Republic of Iceland"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Hekla"]
+    },
+    {
+      "id": "geography-en-01-11",
+      "text": "Which large Indonesian city occupies the northwestern coast of Java at the mouth of the Ciliwung River?",
+      "initial": "J",
+      "answer": "Jakarta",
+      "language": "en",
+      "aliases": ["Djakarta"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Jakarta"]
+    },
+    {
+      "id": "geography-en-01-12",
+      "text": "Which Tanzanian mountain is the highest in Africa?",
+      "initial": "K",
+      "answer": "Kilimanjaro",
+      "language": "en",
+      "aliases": ["Mount Kilimanjaro"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Mount_Kilimanjaro"]
+    },
+    {
+      "id": "geography-en-01-13",
+      "text": "Which capital city stands near the mouth of the Tagus River in Portugal?",
+      "initial": "L",
+      "answer": "Lisbon",
+      "language": "en",
+      "aliases": ["Lisboa"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Lisbon"]
+    },
+    {
+      "id": "geography-en-01-14",
+      "text": "Which large island country in the Indian Ocean has Antananarivo as its capital?",
+      "initial": "M",
+      "answer": "Madagascar",
+      "language": "en",
+      "aliases": ["Republic of Madagascar"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Madagascar"]
+    },
+    {
+      "id": "geography-en-01-15",
+      "text": "Which East African capital is also the name of Kenya's nearby national park?",
+      "initial": "N",
+      "answer": "Nairobi",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Nairobi"]
+    },
+    {
+      "id": "geography-en-01-16",
+      "text": "What is the capital of Norway?",
+      "initial": "O",
+      "answer": "Oslo",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Oslo"]
+    },
+    {
+      "id": "geography-en-01-17",
+      "text": "In which South American country would you visit the Inca site of Machu Picchu?",
+      "initial": "P",
+      "answer": "Peru",
+      "language": "en",
+      "aliases": ["Republic of Peru"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Machu_Picchu"]
+    },
+    {
+      "id": "geography-en-01-18",
+      "text": "Which city high in the Andes is the capital of Ecuador?",
+      "initial": "Q",
+      "answer": "Quito",
+      "language": "en",
+      "aliases": ["San Francisco de Quito"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Quito"]
+    },
+    {
+      "id": "geography-en-01-19",
+      "text": "Which national capital lies on Faxaflói Bay in southwestern Iceland?",
+      "initial": "R",
+      "answer": "Reykjavík",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Reykjav%C3%ADk"]
+    },
+    {
+      "id": "geography-en-01-20",
+      "text": "Which Southeast Asian city-state lies just off the southern tip of the Malay Peninsula?",
+      "initial": "S",
+      "answer": "Singapore",
+      "language": "en",
+      "aliases": ["Republic of Singapore"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Singapore"]
+    },
+    {
+      "id": "geography-en-01-21",
+      "text": "Which Chinese city on the Huangpu River lies near the mouth of the Yangtze?",
+      "initial": "SH",
+      "answer": "Shanghai",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Shanghai"]
+    },
+    {
+      "id": "geography-en-01-22",
+      "text": "Which river flows through Oxford and London?",
+      "initial": "T",
+      "answer": "Thames",
+      "language": "en",
+      "aliases": ["the Thames", "River Thames"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/River_Thames"]
+    },
+    {
+      "id": "geography-en-01-23",
+      "text": "What is the capital of Mongolia?",
+      "initial": "U",
+      "answer": "Ulaanbaatar",
+      "language": "en",
+      "aliases": ["Ulan Bator", "Ulan-Bator"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Ulaanbaatar"]
+    },
+    {
+      "id": "geography-en-01-24",
+      "text": "Which Canadian city lies between Burrard Inlet and the Fraser River in British Columbia?",
+      "initial": "V",
+      "answer": "Vancouver",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Vancouver"]
+    },
+    {
+      "id": "geography-en-01-25",
+      "text": "Which New Zealand capital lies at the southern end of the North Island?",
+      "initial": "W",
+      "answer": "Wellington",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Wellington"]
+    },
+    {
+      "id": "geography-en-01-26",
+      "text": "Near which Chinese city would you visit the Terracotta Army of the first Qin emperor?",
+      "initial": "X",
+      "answer": "Xi'an",
+      "language": "en",
+      "aliases": ["Xian", "Xi’an"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Terracotta_Army"]
+    },
+    {
+      "id": "geography-en-01-27",
+      "text": "Which city, formerly known in English as Rangoon, was Myanmar's capital before the government moved to Naypyidaw?",
+      "initial": "Y",
+      "answer": "Yangon",
+      "language": "en",
+      "aliases": [],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Yangon"]
+    },
+    {
+      "id": "geography-en-01-28",
+      "text": "Which river forms Victoria Falls on the border of Zambia and Zimbabwe?",
+      "initial": "Z",
+      "answer": "Zambezi",
+      "language": "en",
+      "aliases": ["the Zambezi", "Zambezi River"],
+      "category": "geography",
+      "sources": ["https://en.wikipedia.org/wiki/Victoria_Falls"]
+    }
+  ]
+}
