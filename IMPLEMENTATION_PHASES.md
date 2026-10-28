@@ -1091,3 +1091,13 @@ inspection. Coordinator then passed both Docker/service integrations, 250 tests,
 frozen snapshot. [Review](reviews/private-preview.md) preserves exact evidence.
 Correction commit/push, guarded migration and actual private HTTPS/automatic
 updates remain next. No phase-6 work or live-deployment completion claimed yet.
+
+### Private-preview activation
+
+Corrective commit `26cb61291ac23ce8edebd338e7f5f5eb7dabb18c` pushed/verified.
+Guarded installed-runtime/container migration succeeded; the actual persistent
+user service now builds and serves main without Docker privileges. User approved
+tailnet Serve authorization. Private `/hexy/` HTTPS, actual browser gameplay,
+revision and hashed assets verified; automatic timer enabled. Admin unchanged.
+An open real game is being observed through the next automatic-after-push update
+before final operational sign-off and phase-6 start.

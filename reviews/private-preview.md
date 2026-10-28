@@ -201,3 +201,26 @@ Logs: `.artifacts/private-preview-pva1-post-review-{docker,service,check,browser
 No source edits after clearance; only factual report/status additions.
 Next: commit/push correction, guarded migration, actual HTTPS and automatic-push
 verification. Existing admin and shared user manager must remain untouched.
+
+## Live activation evidence
+
+Correction pushed as `26cb61291ac23ce8edebd338e7f5f5eb7dabb18c`; remote verified.
+The reviewed guarded migration retained the old runtime/stopped container and
+all release state. The actual persistent `hexy-preview-update.service` then
+exited successfully and published that exact remote revision through both
+loopback health endpoints. No shared-manager or permission changes.
+
+The user explicitly enabled the required tailnet Serve permission through
+Tailscale's authorization page. Only private HTTPS `/hexy/` proxies to 4183;
+candidate 4184 remains loopback-only, with no Funnel configuration. Actual
+certificate-verified HTTPS index/version/assets work. A first curl used the
+environment's proxy and timed out; direct `--noproxy '*'` succeeded without
+changing network configuration. Chromium accessed the real HTTPS origin and
+played/saved a question successfully.
+
+The user timer is enabled and active; Docker policy is `unless-stopped`, UID/GID
+101, read-only root, and both published ports bind only 127.0.0.1. Existing
+admin container identity/start/restart count matches the pre-activation snapshot.
+Actual shared-host reboot and access from a separate physical device are not
+claimed. A real game remains open while the next documentation push is
+automatically observed; this final update proof is still in progress.

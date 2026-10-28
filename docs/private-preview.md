@@ -1,12 +1,12 @@
 # Private automatic-main preview
 
 This is the approved deployment interlude, **not** the final public release.
-The original candidate was cleared, verified and pushed as `b4a2c75`, but actual
-activation exposed **PV-A1**: the lingering user manager cannot access Docker.
-The corrective candidate is pending re-review. See
-[review evidence](../reviews/private-preview.md). The existing container/state
-must use the migration below; do not reinstall over it. Tailscale and the timer
-remain disabled pending successful service-context activation.
+Implementation and PV-A1 correction are independently cleared with passing
+post-review checks. The corrected installation now serves real private HTTPS
+and its persistent updater is enabled. See [review evidence](../reviews/private-preview.md).
+An actual after-push update is being observed before final operational sign-off.
+The retained migration procedure documents the completed one-time correction;
+do not reinstall or rerun that migration over the working preview.
 
 ## Boundaries
 
@@ -115,6 +115,10 @@ tailscale serve status
 systemctl --user enable --now hexy-preview-update.timer
 systemctl --user list-timers hexy-preview-update.timer
 ```
+
+If the shell has an HTTP proxy that cannot reach tailnet addresses, add
+`--noproxy '*'` to these curl checks. This bypasses only that request's proxy;
+it does not change system networking or Tailscale access policy.
 
 Open the HTTPS page from an authorized tailnet device, play a game, and inspect
 its `/hexy/assets/...` requests. Verify the version equals freshly fetched main.
