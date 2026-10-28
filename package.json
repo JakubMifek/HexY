@@ -18,6 +18,7 @@
     "test:browser": "playwright test",
     "test:preview": "vitest run tests/private-preview.test.js",
     "test:preview:docker": "node tests/private-preview-docker.js",
+    "test:preview:service": "node tests/private-preview-docker.js --service-context",
     "test:coverage": "vitest run tests --coverage && node scripts/check-coverage.js",
     "check": "npm run format:check && npm run lint && npm run typecheck && npm run test:coverage && npm run build"
   },

@@ -91,3 +91,113 @@ Next: commit/push and remote verification, then approved private activation,
 actual HTTPS/assets/revision verification and automatic refresh after a real
 push. Hardware, actual shared-host reboot and public-release gates remain
 separate. This report does not claim live deployment yet.
+
+## Activation finding — PV-A1
+
+Implementation committed/pushed as `b4a2c75457d26cbad94c82949f827396f812d8d9`.
+Installation and isolated serving container start succeeded, but the first
+real user-service update failed during candidate HTTP probing through
+`docker exec`: permission denied on `/var/run/docker.sock`.
+
+The interactive process and configured account have Docker group 989; the
+already-running lingering user manager does not. Artifact-only unit verification
+and interactive Docker tests did not exercise this runtime distinction.
+Status correctly reports fetched upstream and `served: null`; no Tailscale
+route or timer was enabled. No release was falsely declared served.
+
+This reopens operational readiness. Correct only HexY's installation/probing
+arrangement, add focused regression and actual user-service evidence, then
+obtain same-reviewer re-review and post-review verification. Do not restart the
+shared user manager, alter Docker socket permissions or touch the admin service.
+Existing installed HexY state/container must be handled explicitly, not deleted
+or silently overwritten. Phase 6 remains paused.
+
+### PV-A1 developer response — corrective candidate
+
+Removed the updater's Docker dependency: candidate and current health now both
+use verified loopback HTTP bytes. Added a second host-loopback-only candidate
+mapping at 4184, conflict checks for both ports and no new privileges. Only 4183
+is eligible for the approved Tailscale route. The immutable release/asset store,
+promotion/rollback, timer unit and app remain unchanged.
+
+New `test:preview:service` reproduced the unchanged `b4a2c75` Docker probe's
+permission denial inside an actual bounded transient user service, then fetched/
+built/promoted real main using corrected HTTP checks in the same inherited
+groups. The service exited `0/SUCCESS`; the real open Chromium game/storage and
+old assets survived. No `sg`, manager restart, socket/group modification or live
+migration was used. Detailed evidence and final gates are recorded in
+`docs/private-preview-handoff.md`; log:
+`.artifacts/private-preview-pva1-service.log`.
+
+`docs/private-preview.md` documents the guarded, reversible existing-install
+migration for the coordinator after review, post-review checks and a verified
+push. Existing installed runtime/container/state are preserved; the timer and
+Tailscale remain disabled. **Operational readiness remains reopened/pending
+same-reviewer re-review**, not cleared by this developer response.
+
+Final corrective developer gates passed: 35 focused tests, real Docker and
+actual lingering-user-service integrations, then sequential full check
+(250 tests/19 files, unchanged 47-source coverage, format/lint/types/build)
+and 143 Chromium journeys. Migration shell syntax and `git diff --check` pass.
+Original installed runtime/config bytes, failed status and container/admin
+identities remain unchanged; timer inactive/disabled and no Serve configuration.
+Owned transient units/test containers are cleaned up. Corrective frozen hashes:
+`.artifacts/private-preview-pva1-snapshot.sha256`; canonical manifest updated
+with its prior version preserved. No live migration/commit/push was performed.
+
+## PV-A1 independent re-review — CLEARED
+
+Same reviewer `e7c0365b-20cc-4708-9db6-f2e5f95f7b2d` cleared the corrective
+implementation without new findings. This does not yet clear live activation.
+All 13 corrective files reviewed against `b4a2c75`; before/after hashes matched:
+
+- Correction: `b9a09d220aa23763bd70aaed1c71665f089421175dce3cf7ffd5250f97e1d37e`.
+- Coordinator full snapshot:
+  `1d0e839dddda00c0998da94bd1ea06c6870f9d1c0a8a51e60f21dde3ce478d3b`.
+- Complete canonical 19-file manifest:
+  `95456a28e7758c06d1efcd28c2188f2e3b45b2c4b9a802933f3e7ffac48ada0a`.
+
+Independently reproduced legacy permission denial inside the real lingering-user
+service, then fetched/built/verified/promoted successfully with identical
+credentials lacking Docker group 989. No grant, sg, manager restart or socket
+change. Service exited 0/SUCCESS in 59.947 seconds. HTTP candidate/live checks
+need no Docker privilege. Both ports bind only loopback; candidate refused LAN
+connections. Alternate-release/runtime/manifest requests returned 404.
+
+Independent real-HTTP probes rejected candidate 503, wrong revision and
+corrupted current responses while preserving/restoring last-good. Both Docker
+integrations retained active games, storage/navigation, old assets, exact
+recovery and rollback. Migration shell syntax and actual ownership/mount/port/
+path/disabled-timer guards passed; baseline installed bytes matched and recovery
+branches were traced, without executing migration.
+
+All six lenses pass: correctness proven under actual service credentials;
+fresh gameplay screenshot and full bilingual/theme/layout journeys inspected;
+health checks simplified with maxima 179 module lines/51 function lines/
+complexity 10/nesting 3, no exceptions; operator container management remains
+separate from privilege-free update checks; one loopback endpoint solves the
+actual need without framework/dependency; content/rights/pins and prior evidence
+unchanged, live/public-release limitations explicit.
+
+Independent focused suite 35/35, real Docker and actual service integrations,
+then full check (250 tests / 19 files, formatting/lint/types/build) and 143
+Chromium journeys all passed. Application coverage matches the original table:
+all 47 runtime files included, operational tests not misrepresented as app
+coverage. Logs:
+`.artifacts/private-preview-pva1-independent-{focused,docker,service,check,browser}.log`.
+
+Installed runtime/state bytes and both installed preview/admin identities,
+start/restart counts unchanged. Test resources cleaned up; only old preview
+4183 remains listening. Timer disabled/inactive; Serve empty.
+
+## PV-A1 coordinator post-review verification
+
+Frozen hashes verified before/after sequential real Docker and service-context
+integrations, full `npm run check`, documented Chromium suite and whitespace
+check. All passed: **250 tests**, **143 browser journeys**, type/lint/format/build,
+35 focused deployment cases and unchanged app coverage fractions above.
+
+Logs: `.artifacts/private-preview-pva1-post-review-{docker,service,check,browser}.log`.
+No source edits after clearance; only factual report/status additions.
+Next: commit/push correction, guarded migration, actual HTTPS and automatic-push
+verification. Existing admin and shared user manager must remain untouched.

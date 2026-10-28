@@ -2,7 +2,7 @@ import { spawnSync } from 'node:child_process';
 import { homedir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CONTAINER, PORT, run, stateRoot } from './io.js';
+import { CANDIDATE_PORT, CONTAINER, PORT, run, stateRoot } from './io.js';
 import { rollback, update } from './update.js';
 import { startServer } from './server.js';
 import { checkRoute, install } from './install.js';
@@ -21,7 +21,12 @@ async function main(args) {
   }
   stateRoot(root);
   if (action === 'start') {
-    await startServer(root, CONTAINER, PORT, true);
+    await startServer(
+      root,
+      CONTAINER,
+      { port: PORT, candidatePort: CANDIDATE_PORT },
+      true,
+    );
     return;
   }
   if (action === 'update' || action === 'rollback') {

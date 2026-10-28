@@ -7,7 +7,14 @@ import {
 } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CONTAINER, plainPath, PORT, run, stateRoot } from './io.js';
+import {
+  CANDIDATE_PORT,
+  CONTAINER,
+  plainPath,
+  PORT,
+  run,
+  stateRoot,
+} from './io.js';
 import { absentContainer, freePort } from './server.js';
 
 export const SERVICE = 'hexy-preview-update.service';
@@ -52,7 +59,9 @@ export async function install(
   root,
   unitDirectory,
   execute = run,
-  checkPort = () => freePort(PORT),
+  checkPort = async () => {
+    await Promise.all([freePort(PORT), freePort(CANDIDATE_PORT)]);
+  },
 ) {
   plainPath(root);
   plainPath(unitDirectory);

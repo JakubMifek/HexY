@@ -74,7 +74,7 @@ solely to obtain a revision without permission.
 | 3 | Pack preparation and host answer sheets | 2 cleared | Cleared and pushed: `9dfa3bc` | [CLEARED after fixes](reviews/phase-03.md) |
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared and pushed: `92659db` | [CLEARED after fixes](reviews/phase-04.md) |
 | 5 | General knowledge, Nature, Geography content | 4 cleared | Cleared and pushed: `7e01b7f` | [CLEARED after fixes](reviews/phase-05.md) |
-| Private preview | Docker/Tailscale automatic pushed-main interlude | User-approved arrangement | Frozen for fresh review; not activated | Not cleared |
+| Private preview | Docker/Tailscale automatic pushed-main interlude | User-approved arrangement | Activation blocked by PV-A1; corrective candidate frozen | Reopened; pending same-reviewer re-review |
 | 6 | History, Politics, Science content | 5 cleared | Not started | Not started |
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Not started | Not started |
 | 8 | Integrated release and approved deployment | 7 cleared | Not started | Not started |
@@ -1056,3 +1056,38 @@ Frozen changed-file manifest: `.artifacts/private-preview-snapshot.sha256`.
 Next: independent review, coordinator post-review checks, verified push, then
 activation and actual private HTTPS/automatic-push verification. Phase 6 remains
 not started; public release and physical-device gates are unchanged.
+
+### PV-A1 activation correction
+
+The original reviewed implementation was pushed as `b4a2c75`. Actual first
+user-service activation failed because the lingering manager lacks its account's
+Docker supplementary group; installed HexY state/container remain preserved.
+No Tailscale route or timer was enabled. The original clearance is retained as
+history, but operational readiness is **blocked pending corrective re-review**.
+
+The corrective candidate removes Docker from updater health checks, using
+separate current/candidate loopback HTTP ports with the same byte/revision
+verification. An actual owned transient user unit reproduced the legacy socket
+permission failure, then successfully fetched/built/promoted with unchanged
+credentials. No live migration or shared-manager/group/socket/admin changes.
+See the [PV-A1 handoff](docs/private-preview-handoff.md#pv-a1-corrective-handoff)
+and [review developer response](reviews/private-preview.md).
+Corrective gates passed: **35 focused cases, both real Docker/service-context
+integrations, 250 unit/DOM tests / 19 files, 143 Chromium journeys**, unchanged
+coverage groups, format/lint/JSDoc/build and diff checks. Full check/browser ran
+sequentially. Installed runtime/state/container and admin remain unchanged;
+owned test resources cleaned up. Frozen corrective manifest:
+`.artifacts/private-preview-pva1-snapshot.sha256`; old canonical preserved.
+Next: same-reviewer re-review and coordinator post-review checks/push before
+the documented existing-install migration. Phase 6 remains not started;
+timer/Tailscale remain disabled. Developer stops writing for re-review.
+
+### PV-A1 correction clearance and post-review verification
+
+Same reviewer cleared the correction with no findings, including successful
+real lingering-user execution without Docker credentials and guarded migration
+inspection. Coordinator then passed both Docker/service integrations, 250 tests,
+143 browser journeys, all code quality gates and unchanged coverage on the
+frozen snapshot. [Review](reviews/private-preview.md) preserves exact evidence.
+Correction commit/push, guarded migration and actual private HTTPS/automatic
+updates remain next. No phase-6 work or live-deployment completion claimed yet.

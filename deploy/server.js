@@ -1,7 +1,7 @@
 import { createServer } from 'node:net';
 import { createHash } from 'node:crypto';
 import { join } from 'node:path';
-import { CONTAINER, IMAGE, PORT, run } from './io.js';
+import { CANDIDATE_PORT, IMAGE, PORT, run } from './io.js';
 import { manifest } from './releases.js';
 
 /** @param {number} port */
@@ -26,11 +26,18 @@ export function absentContainer(name, execute = run) {
     throw new Error(`Container name occupied: ${name}`);
 }
 
-/** @param {string} root @param {string} name @param {number} port
+/** @param {string} root @param {string} name
+ * @param {{port: number, candidatePort: number}} ports
  * @param {boolean} persistent @param {import('./io.js').Runner} [execute] */
-export async function startServer(root, name, port, persistent, execute = run) {
+export async function startServer(
+  root,
+  name,
+  ports,
+  persistent,
+  execute = run,
+) {
   absentContainer(name, execute);
-  await freePort(port);
+  await Promise.all([freePort(ports.port), freePort(ports.candidatePort)]);
   execute('docker', [
     'run',
     '-d',
@@ -54,7 +61,9 @@ export async function startServer(root, name, port, persistent, execute = run) {
     '--tmpfs',
     '/run:rw,noexec,nosuid,size=4m,uid=101,gid=101',
     '--publish',
-    `127.0.0.1:${port}:8080`,
+    `127.0.0.1:${ports.port}:8080`,
+    '--publish',
+    `127.0.0.1:${ports.candidatePort}:8081`,
     '--mount',
     `type=bind,src=${join(root, 'site')},dst=/srv/site,readonly`,
     '--mount',
@@ -69,26 +78,14 @@ export async function startServer(root, name, port, persistent, execute = run) {
 
 /** @param {string} root @param {string} revision
  * @param {'current'|'candidate'} target
- * @param {{name?: string, port?: number, execute?: import('./io.js').Runner}} [options] */
+ * @param {{port?: number, candidatePort?: number}} [options] */
 export async function health(root, revision, target, options = {}) {
-  const { name = CONTAINER, port = PORT, execute = run } = options;
+  const { port = PORT, candidatePort = CANDIDATE_PORT } = options;
+  const endpoint = target === 'candidate' ? candidatePort : port;
   const expected = manifest(root, revision);
   /** @param {string} path */
   async function get(path) {
-    if (target === 'candidate') {
-      return Buffer.from(
-        execute('docker', [
-          'exec',
-          name,
-          'wget',
-          '-q',
-          '-O',
-          '-',
-          `http://127.0.0.1:8081/${path}`,
-        ]),
-      );
-    }
-    const response = await fetch(`http://127.0.0.1:${port}/${path}`, {
+    const response = await fetch(`http://127.0.0.1:${endpoint}/${path}`, {
       signal: AbortSignal.timeout(5000),
     });
     if (!response.ok)
@@ -97,7 +94,6 @@ export async function health(root, revision, target, options = {}) {
   }
   if (JSON.parse((await get('version.json')).toString()).revision !== revision)
     throw new Error('Served revision mismatch');
-  // wget's text output is unsuitable for binary assets; hash inside the container.
   for (const [path, hash] of [
     ['index.html', expected.index],
     ...Object.entries(expected.assets).map(([name, hash]) => [
@@ -105,26 +101,9 @@ export async function health(root, revision, target, options = {}) {
       hash,
     ]),
   ]) {
-    let actual;
-    if (target === 'candidate') {
-      actual = execute(
-        'docker',
-        [
-          'exec',
-          name,
-          'sh',
-          '-c',
-          'set -o pipefail; wget -T 5 -q -O - "$1" | sha256sum',
-          'probe',
-          `http://127.0.0.1:8081/${path}`,
-        ],
-        undefined,
-        10,
-      ).split(' ')[0];
-    } else
-      actual = createHash('sha256')
-        .update(await get(path))
-        .digest('hex');
+    const actual = createHash('sha256')
+      .update(await get(path))
+      .digest('hex');
     if (actual !== hash) throw new Error(`Served asset mismatch: ${path}`);
   }
 }

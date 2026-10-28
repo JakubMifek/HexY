@@ -12,7 +12,7 @@ import {
 import { join, resolve } from 'node:path';
 import { spawn, spawnSync } from 'node:child_process';
 import { createServer } from 'node:net';
-import { afterEach, expect, it } from 'vitest';
+import { afterEach, expect, it, vi } from 'vitest';
 import {
   atomicFile,
   files,
@@ -30,7 +30,12 @@ import {
   validateBuild,
 } from '../deploy/releases.js';
 import { promote, rollback, update } from '../deploy/update.js';
-import { absentContainer, freePort, startServer } from '../deploy/server.js';
+import {
+  absentContainer,
+  freePort,
+  health,
+  startServer,
+} from '../deploy/server.js';
 import {
   checkRoute,
   install,
@@ -54,8 +59,76 @@ function setup() {
   return value;
 }
 afterEach(() => {
+  vi.restoreAllMocks();
   for (const directory of owned.splice(0))
     rmSync(directory, { recursive: true });
+});
+
+it.each(['current', 'candidate'])(
+  'hash-checks %s over its own loopback HTTP endpoint without Docker',
+  async (target) => {
+    const { root } = setup();
+    const dist = join(root, 'work/dist');
+    const asset = buildFixture(dist);
+    writeFileSync(
+      join(dist, 'assets', asset),
+      new Uint8Array([0, 255, 13, 10]),
+    );
+    stage(root, FIRST, dist);
+    const fetcher = vi
+      .spyOn(globalThis, 'fetch')
+      .mockImplementation(async (input) => {
+        const path = new URL(String(input)).pathname.slice(1);
+        const file = path.startsWith('assets/')
+          ? join(root, 'site', path)
+          : join(root, 'site/releases', FIRST, path);
+        return new Response(new Uint8Array(readFileSync(file)));
+      });
+    const endpoint = target === 'current' ? '42000' : '42001';
+    await health(root, FIRST, /** @type {'current'|'candidate'} */ (target), {
+      port: 42000,
+      candidatePort: 42001,
+    });
+    expect(fetcher.mock.calls).toHaveLength(3);
+    expect(
+      fetcher.mock.calls.every(([url]) =>
+        String(url).startsWith(`http://127.0.0.1:${endpoint}/`),
+      ),
+    ).toBe(true);
+    fetcher.mockResolvedValueOnce(new Response('unavailable', { status: 503 }));
+    await expect(health(root, FIRST, 'candidate')).rejects.toThrow(
+      'Health HTTP 503',
+    );
+  },
+);
+
+it('rejects an occupied candidate listener before creating a container', async () => {
+  const { root } = setup();
+  const listener = createServer();
+  await new Promise((resolve) =>
+    listener.listen(0, '127.0.0.1', () => resolve(undefined)),
+  );
+  const { port } = /** @type {import('node:net').AddressInfo} */ (
+    listener.address()
+  );
+  const execute = vi.fn(
+    (/** @type {string} */ _command, /** @type {string[]} */ _args) => '',
+  );
+  try {
+    await expect(
+      startServer(
+        root,
+        'hexy-test',
+        { port: 0, candidatePort: port },
+        false,
+        execute,
+      ),
+    ).rejects.toThrow('EADDRINUSE');
+    expect(execute).toHaveBeenCalledTimes(1);
+    expect(execute.mock.calls[0]?.[0]).toBe('docker');
+  } finally {
+    await new Promise((resolve) => listener.close(resolve));
+  }
 });
 
 /** @param {string} root @param {string} revision */
@@ -442,19 +515,32 @@ it('refuses an occupied listener and pins a read-only loopback-only static conta
   );
   try {
     await expect(
-      startServer(root, 'hexy-test', address.port, false, () => ''),
+      startServer(
+        root,
+        'hexy-test',
+        { port: address.port, candidatePort: 0 },
+        false,
+        () => '',
+      ),
     ).rejects.toThrow('EADDRINUSE');
   } finally {
     await new Promise((resolve) => listener.close(resolve));
   }
   /** @type {string[][]} */
   const calls = [];
-  await startServer(root, 'hexy-test', 0, false, (_command, args) => {
-    calls.push(args);
-    return '';
-  });
+  await startServer(
+    root,
+    'hexy-test',
+    { port: 0, candidatePort: 0 },
+    false,
+    (_command, args) => {
+      calls.push(args);
+      return '';
+    },
+  );
   const args = calls[1];
   expect(args).toContain('127.0.0.1:0:8080');
+  expect(args).toContain('127.0.0.1:0:8081');
   expect(args).toContain('--read-only');
   expect(args).toContain('101:101');
   expect(args).toContain('--cap-drop=ALL');

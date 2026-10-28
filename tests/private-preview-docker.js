@@ -8,14 +8,17 @@ import { ORIGIN, removeOwned, run, stateRoot } from '../deploy/io.js';
 import { manifest, selected, stage } from '../deploy/releases.js';
 import { health, startServer } from '../deploy/server.js';
 import { promote, rollback, update } from '../deploy/update.js';
+import { serviceUpdate } from './private-preview-service.js';
 
 const directory = resolve('.artifacts', `preview-docker-${randomUUID()}`);
 const root = join(directory, 'state');
 const name = `hexy-preview-test-${randomUUID()}`;
 const port = 4185;
-const proxyPort = 4186;
+const candidatePort = 4186;
+const proxyPort = 4187;
+const serviceContext = process.argv.includes('--service-context');
 const probe = /** @type {import('../deploy/update.js').Probe} */ (
-  (revision, target) => health(root, revision, target, { name, port })
+  (revision, target) => health(root, revision, target, { port, candidatePort })
 );
 process.env.PLAYWRIGHT_BROWSERS_PATH ??= resolve('.artifacts/browsers');
 process.env.TMPDIR = resolve('.artifacts');
@@ -160,6 +163,15 @@ function containerBoundaries() {
   assert.deepEqual(info.HostConfig.CapDrop, ['ALL']);
   assert.equal(info.HostConfig.RestartPolicy.Name, 'no');
   assert.equal(info.HostConfig.PortBindings['8080/tcp'][0].HostIp, '127.0.0.1');
+  assert.equal(info.HostConfig.PortBindings['8081/tcp'][0].HostIp, '127.0.0.1');
+  assert.equal(
+    info.HostConfig.PortBindings['8081/tcp'][0].HostPort,
+    String(candidatePort),
+  );
+  assert.deepEqual(Object.keys(info.HostConfig.PortBindings).sort(), [
+    '8080/tcp',
+    '8081/tcp',
+  ]);
   assert.equal(
     info.Mounts.filter(/** @param {{RW: boolean}} mount */ (mount) => mount.RW)
       .length,
@@ -175,7 +187,8 @@ async function updateWhilePlaying(page, previous, upstream) {
   const navigations = [];
   page.on('framenavigated', (frame) => navigations.push(frame.url()));
   const oldHtml = await (await fetch(`http://127.0.0.1:${port}/`)).text();
-  await update(root, { probe });
+  if (serviceContext) serviceUpdate(root, name, { port, candidatePort });
+  else await update(root, { probe });
   assert.equal(selected(root, 'current'), upstream);
   assert.notEqual(previous, upstream);
   assert.deepEqual(navigations, []);
@@ -252,7 +265,7 @@ let started = false;
 /** @type {import('@playwright/test').Browser | undefined} */
 let browser;
 try {
-  await startServer(root, name, port, false);
+  await startServer(root, name, { port, candidatePort }, false);
   started = true;
   await waitForNginx();
   await new Promise((resolve, reject) => {

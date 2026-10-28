@@ -1,5 +1,13 @@
 # Private-preview interlude developer handoff
 
+**Current: PV-A1 corrective candidate frozen for same-reviewer re-review.** The
+original candidate was subsequently cleared and pushed as `b4a2c75`, then real
+activation failed on the lingering manager's missing Docker supplementary group.
+The existing installed container/runtime/state are preserved; timer and
+Tailscale remain disabled. See the corrective handoff appended below.
+
+## Original developer handoff (historical)
+
 Starting main: `7e01b7ff9b7427257651baaea7457d9ebe5d1b91`.
 Scope: user-approved private Docker/Tailscale automatic-main preview before
 phase 6, not public release. **Frozen for fresh review; not cleared or activated.**
@@ -103,3 +111,102 @@ were installed in the user manager and Serve remains unconfigured. The approved
 pinned NGINX image remains in Docker's cache; no global image cleanup was run.
 Final frozen manifest: `.artifacts/private-preview-snapshot.sha256`, generated
 after all tracked/untracked nonignored changes, including documentation.
+
+## PV-A1 corrective handoff
+
+Baseline: `b4a2c75457d26cbad94c82949f827396f812d8d9`. Only the coordinator's
+activation-finding append in `reviews/private-preview.md` was initially dirty;
+that append and all original clearance/post-review evidence are preserved.
+No app/content, dependency versions or coverage policy changed.
+
+### Fix and rationale
+
+Removed Docker from updater health checks rather than using `sg` to acquire a
+powerful, otherwise unnecessary group. Both candidate and current checks now
+use identical binary-safe HTTP revision/index/asset verification. Docker binds
+current to `127.0.0.1:4183` and candidate to `127.0.0.1:4184`; only current may
+be a Tailscale target. Both ports are checked for conflicts before installation/
+container creation. NGINX listens on 8081 inside its isolated container so the
+loopback host mapping reaches it. No Docker socket, capabilities or mutable
+serving mounts were added.
+
+Changed production files: `deploy/{io,server,install,cli}.js` and `nginx.conf`.
+`update.js`, release promotion/rollback, lock, timer/service definitions and all
+app code remain unchanged. Tests extend `private-preview.test.js` and
+`private-preview-docker.js`; `private-preview-service.js` adds the exact legacy
+failure and corrected real-service regression. One npm command selects it.
+No metric exception or additional dependency is needed.
+
+The [operations guide](private-preview.md#pv-a1-existing-install-migration-coordinator-only)
+contains a guarded, reversible migration for the failed existing installation:
+stage reviewed runtime, stop only HexY units/container, retain the old container
+and runtime under explicit names, replace runtime, recreate only HexY with both
+loopback mappings, and first verify the real user service. Keep all release/
+asset state; do not rerun `install`, restart the manager, alter groups/socket
+permissions, or enable timer/Tailscale before real activation checks.
+**The developer did not perform this live migration.**
+
+### Actual service-context evidence
+
+`npm run test:preview:service` used one named, bounded `systemd-run --user`
+transient service with the existing manager's inherited groups, not `sg`, root,
+or the interactive shell's Docker group. Inside that service:
+
+1. The original `b4a2c75` candidate probe, loaded unchanged from Git, failed
+   with Docker socket permission denied, reproducing PV-A1.
+2. The corrected candidate HTTP probe succeeded with exactly the same groups.
+3. The real updater fetched main, installed locked build tools, built, checked
+   candidate bytes, promoted and verified live bytes: `status=0/SUCCESS`.
+
+Real revisions: fetched main ancestor `7e01b7f` to main `b4a2c75`. The real
+Chromium game stayed open with no navigation or localStorage change; old assets,
+manual recovery, rollback and injected post-switch failure also passed.
+The service uses isolated test ports (4185/4186 and proxy 4187); only health
+endpoint numbers differ from production. No build/engine/Docker permission was
+mocked. The owned transient unit was collected and test container removed.
+This regression is explicitly host-specific: its original-failure assertion
+requires the stale-manager/no-Docker-access precondition.
+
+Log: `.artifacts/private-preview-pva1-service.log`. Final focused suite:
+**35/35 PASS**, including added current/candidate binary HTTP verification,
+HTTP failure rejection and occupied-candidate-port protection.
+Log: `.artifacts/private-preview-pva1-focused.log`.
+
+### Final corrective gates and freeze
+
+All passed on the final code, with the full application checks/browser suite
+run sequentially after deployment-specific validation:
+
+```sh
+npm run test:preview
+LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:preview:service
+LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:preview:docker
+TMPDIR="$PWD/.artifacts" npm run check
+LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:browser
+git diff --check
+```
+
+Results: **35 focused tests; both real Docker/service integrations; 250 unit/DOM
+tests in 19 files; 143 Chromium journeys (4.7m)**. Format/lint/JSDoc/build and
+all 47-source coverage gates pass, with exact fractions unchanged from the
+table above. Logs: `.artifacts/private-preview-pva1-{focused,service,docker,check,browser}.log`.
+Both documented migration/recovery shell blocks also passed `bash -n` via stdin
+without execution.
+
+Closure checks: all installed runtime/config bytes still exactly match pushed
+`b4a2c75`; original failed status remains `served: null` with its Docker permission
+error. Existing live container ID/start time and admin ID/start/restart count
+match their pre-correction evidence. Timer remains inactive/disabled; Serve
+remains `{}`. Owned transient units/test containers are gone. Ports 4182 and
+4184–4187 are closed; only the coordinator's unchanged 4183 container remains.
+No commits, pushes, live migration, new grants, socket changes, manager restart
+or admin operation occurred.
+
+After-writing manifests:
+`.artifacts/private-preview-pva1-snapshot.sha256` (changed/new corrective files)
+and `.artifacts/private-preview-snapshot.sha256` (complete canonical deliverable
+set). The preceding canonical manifest is preserved as
+`.artifacts/private-preview-before-pva1-snapshot.sha256`.
+Next: the same independent reviewer; coordinator post-review checks and push;
+only then the documented existing-install migration and real HTTPS/timer/push
+verification. PV-A1 operational clearance remains pending. Developer stops writing.

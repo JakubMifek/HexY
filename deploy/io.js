@@ -17,6 +17,7 @@ export const IMAGE =
   'nginx@sha256:dede8895648b461178c3bc604f7eed4423efe5220b2c4d839f5eb3d34ac3f8f7';
 export const CONTAINER = 'hexy-private-preview';
 export const PORT = 4183;
+export const CANDIDATE_PORT = 4184;
 export const REVISION = /^[a-f0-9]{40}$/;
 
 /** @param {string} path */

@@ -1,10 +1,12 @@
 # Private automatic-main preview
 
 This is the approved deployment interlude, **not** the final public release.
-Implementation is independently cleared and coordinator post-review checks
-passed; a verified push still precedes installation. See
-[review evidence](../reviews/private-preview.md). Live activation and actual
-Tailscale HTTPS/automatic-update verification remain pending.
+The original candidate was cleared, verified and pushed as `b4a2c75`, but actual
+activation exposed **PV-A1**: the lingering user manager cannot access Docker.
+The corrective candidate is pending re-review. See
+[review evidence](../reviews/private-preview.md). The existing container/state
+must use the migration below; do not reinstall over it. Tailscale and the timer
+remain disabled pending successful service-context activation.
 
 ## Boundaries
 
@@ -14,7 +16,15 @@ Tailscale HTTPS/automatic-update verification remain pending.
   restart it, change its mounts/certificates/restrictions, or proxy it.
 - A pinned official NGINX container serves only built files and its configuration,
   read-only as UID/GID 101, with no capabilities or Docker socket. Only
-  `127.0.0.1:4183` is published. Its internal candidate listener is not published.
+  `127.0.0.1:4183` (current) and `127.0.0.1:4184` (candidate) are published.
+  **Only 4183** is a Tailscale target; never proxy the candidate endpoint.
+- Both health checks use ordinary loopback HTTP with revision and byte-hash
+  verification. The updater needs **no Docker socket access**. Docker privileges
+  are needed only by the interactive installer/container operator, not the
+  lingering service. This avoids acquiring a powerful supplementary Docker group
+  merely to read static candidate bytes; no `sg`, new grants or manager restart.
+  NGINX listens on container port 8081 so Docker can forward to it, but its host
+  publication is strictly loopback, like 4183.
 - A lingering user timer checks **public HTTPS origin/main**, without credentials,
   60 seconds after the previous check/build finishes. No webhook or Actions runner.
   Fetch/install/build have 120/300/180-second limits; the unit has a 12-minute limit.
@@ -72,7 +82,7 @@ node deploy/cli.js install
 ```
 
 `install` only prepares runtime files and two user units. It refuses existing
-state, unit names, container names, symlinked paths and an occupied 4183; it does
+state, unit names, container names, symlinked paths and an occupied 4183 or 4184; it does
 not overwrite existing installations. If preparation fails partway, inspect the
 reported HexY paths before removing **only** those newly created files.
 
@@ -113,6 +123,90 @@ one check interval plus build time, with the already-open game unchanged.
 Confirm Docker restart policy/user timer persistence; actual reboot verification
 requires a separately authorized maintenance opportunity, not rebooting this
 shared host for a preview test.
+
+## PV-A1 existing-install migration (coordinator only)
+
+Run only after same-reviewer clearance, post-review checks and a verified push
+of the correction. This procedure is specifically for the failed initial
+activation: no current release, no `/hexy/` route, disabled timer. It preserves
+all `site/` release/assets and the old runtime/container. Unit files and the
+shared user manager are unchanged. Stop on any guard failure and inspect it;
+do not delete state, adjust socket permissions or restart the user manager.
+
+Run this block in one shell from the clean, reviewed/pushed checkout:
+
+```sh
+set -eu
+STATE="$HOME/.local/share/hexy-preview"
+test -z "$(git status --porcelain)"
+test "$(git rev-parse HEAD)" = "$(git ls-remote --exit-code origin refs/heads/main | cut -f1)"
+node --input-type=module -e 'import {stateRoot,plainPath} from "./deploy/io.js"; const root=stateRoot(process.argv[1]); for (const name of ["runtime","runtime-pva1-before","runtime-pva1-next","status-pva1-before.json"]) plainPath(root+"/"+name);' "$STATE"
+test "$(cat "$STATE/.hexy-preview")" = hexy-preview-v1
+test ! -L "$STATE/site/current"
+test ! -e "$STATE/site/current"
+test ! -e "$STATE/runtime-pva1-before"
+test ! -e "$STATE/runtime-pva1-next"
+test ! -e "$STATE/status-pva1-before.json"
+test "$(systemctl --user show hexy-preview-update.timer -p UnitFileState --value)" = disabled
+test "$(docker inspect hexy-private-preview --format '{{index .Config.Labels "org.hexy.preview"}}')" = 1
+test "$(docker inspect hexy-private-preview --format '{{len .Mounts}}')" = 2
+test "$(docker inspect hexy-private-preview --format '{{range .Mounts}}{{if eq .Destination "/srv/site"}}{{.Source}} {{.RW}}{{end}}{{end}}')" = "$STATE/site false"
+test "$(docker inspect hexy-private-preview --format '{{range .Mounts}}{{if eq .Destination "/etc/nginx/nginx.conf"}}{{.Source}} {{.RW}}{{end}}{{end}}')" = "$STATE/runtime/nginx.conf false"
+test "$(docker port hexy-private-preview 8080)" = 127.0.0.1:4183
+test -z "$(ss -H -ltn 'sport = :4184')"
+node deploy/cli.js check-route
+if docker inspect hexy-private-preview-pva1-before >/dev/null 2>&1; then
+  echo 'Refusing to replace the existing HexY rollback container' >&2
+  exit 1
+fi
+mkdir "$STATE/runtime-pva1-next"
+cp deploy/io.js deploy/releases.js deploy/server.js deploy/update.js deploy/install.js deploy/cli.js deploy/nginx.conf "$STATE/runtime-pva1-next/"
+printf '{"type":"module"}\n' > "$STATE/runtime-pva1-next/package.json"
+chmod 644 "$STATE/runtime-pva1-next/nginx.conf"
+systemctl --user stop hexy-preview-update.timer hexy-preview-update.service
+cp "$STATE/status.json" "$STATE/status-pva1-before.json"
+docker inspect hexy-private-preview > "$STATE/runtime-pva1-next/container-before.json"
+docker stop hexy-private-preview
+docker rename hexy-private-preview hexy-private-preview-pva1-before
+mv "$STATE/runtime" "$STATE/runtime-pva1-before"
+mv "$STATE/runtime-pva1-next" "$STATE/runtime"
+node "$STATE/runtime/cli.js" start
+systemctl --user start hexy-preview-update.service
+curl --fail --silent http://127.0.0.1:4184/version.json
+curl --fail --silent http://127.0.0.1:4183/version.json
+```
+
+Check the successful **real user unit** result, `status.json`, both endpoint
+revisions and all asset hashes against remote main before continuing with the
+Tailscale/automatic-update verification above. The service's ExecStart still
+references the same runtime path; no unit rewrite/daemon reload is needed.
+Do not enable the timer or route merely because container startup succeeded.
+
+If staging fails, leave the active runtime/container alone and inspect the
+newly created `runtime-pva1-next`. If replacement fails after the old container
+was renamed, stop the two HexY units, inspect/remove **only** the newly created
+`hexy-private-preview` container if present, move the failed runtime aside, and
+restore the saved runtime/name:
+
+```sh
+set -eu
+STATE="$HOME/.local/share/hexy-preview"
+systemctl --user stop hexy-preview-update.timer hexy-preview-update.service
+# Only after confirming this is the replacement container, if it exists:
+docker rm --force hexy-private-preview
+test ! -e "$STATE/runtime-pva1-failed"
+mv "$STATE/runtime" "$STATE/runtime-pva1-failed"
+mv "$STATE/runtime-pva1-before" "$STATE/runtime"
+docker rename hexy-private-preview-pva1-before hexy-private-preview
+docker start hexy-private-preview
+```
+
+For a failure between the two runtime renames, restore `runtime-pva1-before`
+directly if `runtime` is absent; do not blindly rerun either block. Keep
+`site/` and the actual latest status unchanged. This restores the original
+serving setup, **not** Docker permission for its legacy updater: leave the
+timer/route disabled and report the failure. Keep the stopped backup container
+and runtime until successful activation is recorded; no global cleanup.
 
 ## Status, rollback and disable
 
@@ -160,14 +254,23 @@ hexy-private-preview`; `cli.js start` intentionally refuses an occupied name.
 ```sh
 npm run test:preview
 LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:preview:docker
+LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:preview:service
 ```
 
 The second command uses named, non-restarting test containers on loopback
-4185/4186 and isolated `.artifacts/preview-*` state. It builds real fetched main
+4185/4186 (current/candidate), 4187 (path proxy) and isolated `.artifacts/preview-*` state. It builds real fetched main
 and its predecessor, serves the real UI in Chromium, updates/rolls back, checks
 old assets and saved-game recovery, and cleans up. Run sequentially with other
 browser suites. It needs network access, the pinned image and existing Chromium.
 The path-stripping proxy emulates Serve; it does **not** certify live Tailscale.
+The third command additionally creates one owned, bounded transient user unit.
+It reproduces the exact `b4a2c75` Docker-based candidate probe's permission error,
+then fetches/builds/promotes real main with the corrected HTTP probe in that
+same unprivileged service context, while the real browser game remains open.
+This host-specific regression requires a working user manager without Docker
+socket access (the PV-A1 condition); a manager that already has Docker access
+cannot reproduce that precondition. It cleans up only its named test unit and
+container. No persistent unit/timer/route or installed runtime is changed.
 
 - [Tailscale Serve CLI](https://tailscale.com/kb/1242/tailscale-serve):
   `--bg` persistence, private Serve, scoped `--set-path`.
