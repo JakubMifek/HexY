@@ -73,7 +73,8 @@ solely to obtain a revision without permission.
 | 2 | Playable local quiz with keyboard duels | 1 cleared | Cleared and pushed: `fbee41d` | [CLEARED after fixes](reviews/phase-02.md) |
 | 3 | Pack preparation and host answer sheets | 2 cleared | Cleared and pushed: `9dfa3bc` | [CLEARED after fixes](reviews/phase-03.md) |
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared and pushed: `92659db` | [CLEARED after fixes](reviews/phase-04.md) |
-| 5 | General knowledge, Nature, Geography content | 4 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-05.md) |
+| 5 | General knowledge, Nature, Geography content | 4 cleared | Cleared and pushed: `7e01b7f` | [CLEARED after fixes](reviews/phase-05.md) |
+| Private preview | Docker/Tailscale automatic pushed-main interlude | User-approved arrangement | Frozen for fresh review; not activated | Not cleared |
 | 6 | History, Politics, Science content | 5 cleared | Not started | Not started |
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Not started | Not started |
 | 8 | Integrated release and approved deployment | 7 cleared | Not started | Not started |
@@ -1000,3 +1001,58 @@ Commit/push and remote verification remain next. Before phase 6, the user has
 requested a persistent private Tailscale preview of pushed main, automatically
 updated after pushes. This newly approved operational interlude is not public
 release clearance; existing phase-8 hardware/legal/public-hosting gates remain.
+
+Phase 5 committed and pushed as `7e01b7ff9b7427257651baaea7457d9ebe5d1b91`;
+remote `main` verified and working tree clean after delivery.
+
+### Approved private-preview deployment interlude
+
+The user requested that pushed `main` always be available through Tailscale,
+and selected: “Reuse Docker approach; keep admin UI unchanged (recommended)”.
+Approved arrangement: isolated HexY Docker serving, private Tailscale HTTPS at
+`/hexy/`, persistent updater checking remote `main` every minute plus build time,
+isolated release builds and atomic last-good deployment. No public Funnel.
+
+The existing 8443 admin application is a separate LAN-restricted Docker service;
+do not change, restart, mount into or broaden access to that application.
+The host user has Docker access and lingering user services. No Tailscale Serve
+routes currently exist. Implement and independently review this operational
+addition before activation; verify actual HTTPS and automatic refresh after
+push. Phase 6 is paused until this requested interlude is complete.
+
+### Private-preview implementation clearance
+
+Reviewer `e7c0365b-20cc-4708-9db6-f2e5f95f7b2d` cleared the implementation
+without findings or exceptions. [Review](reviews/private-preview.md) records
+all six lenses, actual Docker integration, independent failure probes and
+manifest integrity. Coordinator then reran Docker integration, full check and
+Chromium sequentially on unchanged code: **247 tests, 143 browser journeys**,
+format/lint/types/build and both coverage groups passed.
+
+Commit/push and verified remote precede installation. Actual Tailscale HTTPS,
+revision/assets/cache, persistent service state and automatic-after-push evidence
+are still needed before declaring this interlude complete. Existing admin
+remained unchanged; no live routes or units activated during development/review.
+
+### Private-preview interlude developer handoff
+
+Implementation is frozen for a fresh independent review, **not cleared**.
+See [developer evidence](docs/private-preview-handoff.md) and
+[gated operations](docs/private-preview.md). Added only isolated deployment
+scripts/configuration, durable safety/integration tests and relevant tooling/docs;
+phase-5 app/content/review evidence is unchanged.
+
+Final focused safety suite: **32 PASS**. Real fetched-main Docker/Chromium
+integration: **PASS**, including `/hexy/` prefix-stripping simulation, cache/
+version headers, old assets, no forced reload, recovery and rollback. Real
+artifact-only installer and generated systemd unit verification passed.
+Final sequential `npm run check` and full Chromium: **247 tests / 19 files,
+143 journeys PASS**; formatting/lint/types/build and unchanged separate V8
+metrics pass. `git diff --check` passes. Logs: `.artifacts/preview-*`.
+
+No live container/timer/route activation, Funnel, commit or push. Test resources
+removed; 4182–4186 closed; existing admin identity/start/restart count unchanged.
+Frozen changed-file manifest: `.artifacts/private-preview-snapshot.sha256`.
+Next: independent review, coordinator post-review checks, verified push, then
+activation and actual private HTTPS/automatic-push verification. Phase 6 remains
+not started; public release and physical-device gates are unchanged.

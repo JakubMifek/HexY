@@ -21,7 +21,7 @@ records the conversation's decisions; do not assume that proposals below have
 been approved.
 
 **Current stage: phase 5 General knowledge, Nature, Geography and travel is
-independently cleared with passing post-review checks; commit/push is next.**
+independently cleared and pushed as `7e01b7f`.**
 The user requested private automatic-main Tailscale deployment before further
 content phases; this is a preview, not phase-8 public-release clearance.
 Physical Xbox/tablet checks remain pending for the phase-8 release gate.
@@ -562,13 +562,19 @@ review evidence so another session can resume without reconstructing the chat.
 
 ## Deployment and operational boundaries
 
-The user wants hosting on the current server, but domain, document root, reverse
-proxy, existing web server and deployment mechanism have NOT been investigated
-or selected. Do not invent these details or modify other hosted applications.
+The user approved bringing a private preview forward: pushed `main` is to remain
+available through Tailscale and refresh automatically after pushes. Reuse the
+existing server's Docker approach, but keep its separate LAN-only 8443 admin UI
+unchanged. Use an isolated HexY container behind private Tailscale HTTPS at
+`/hexy/`, with a persistent remote-main check every minute plus build time.
+Build separately from the development worktree and switch atomically only after
+success; retain the last working release if an update fails. Do not enable
+public Funnel or claim this preview satisfies the final public-release gate.
 
-When deployment is approved, inspect the existing arrangement, propose the
-smallest compatible setup, use HTTPS where available, and verify the actual
-public URL. A local development server alone is not public deployment.
+Private-preview implementation and independent review precede activation.
+Verify the actual Tailscale HTTPS route, revision, assets and automatic updates.
+The final public domain/hosting arrangement still requires separate approval;
+a local or tailnet-only preview is not public deployment.
 
 The user authorized committing and pushing the approved plans, starting phased
 implementation, and committing and pushing every phase after independent review

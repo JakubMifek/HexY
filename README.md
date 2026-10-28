@@ -357,6 +357,14 @@ No physical Xbox/tablet or screen-reader-device verification is claimed.
 Name/trademark clearance, complete content inventory and public hosting
 remain later-phase work. Passing tests alone never clears a phase.
 
+## Private preview operations
+
+The approved private Tailscale `/hexy/` preview follows pushed `main` using an
+isolated Docker static server and user timer, without changing the separate
+8443 admin application. See [installation, safety gates, status and rollback](docs/private-preview.md)
+and the [interlude handoff](docs/private-preview-handoff.md).
+This is not phase-8 public release clearance.
+
 ## Rights
 
 Original code is [MIT licensed](LICENSE). Original question wording and artwork

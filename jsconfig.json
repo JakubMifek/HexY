@@ -11,5 +11,5 @@
     "types": ["vitest/globals"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*.js", "tests/**/*.js"]
+  "include": ["src/**/*.js", "tests/**/*.js", "deploy/**/*.js"]
 }
