@@ -14,11 +14,13 @@ The repository was renamed from JakubMifek/azquiz with the user's approval.
 The local checkout was also renamed with the user's approval and is now at
 /home/jakubmifek/github/HexY. Its origin remote points to the renamed repository.
 
-The repository was empty when planning began. No application code has been
-implemented. This document records the conversation's decisions; do not assume
-that proposals below have been approved.
+The repository was empty when planning began. Phase 1 now contains a minimal
+shell and tested domain foundation, not a playable application. This document
+records the conversation's decisions; do not assume that proposals below have
+been approved.
 
-**Current stage: instructions approved; phase 1 starting.**
+**Current stage: phase 1 foundation cleared by independent review and post-review
+checks; commit/push pending before phase 2.**
 The name, broad visual direction, logo concept, stack, core rules, host overrides
 and recovery policy are selected. The user requested iterative development with
 a developer session and independent usability/readability/OOP/design-pattern
@@ -32,7 +34,7 @@ Read these companion documents:
 - `IMPLEMENTATION_PHASES.md`: bundled phases, acceptance gates and progress ledger.
 
 All three are approved. Follow the phase gates; the session-directory blocker
-is resolved. No application implementation has started.
+is resolved. See the phase ledger for the current foundation handoff.
 Name clearance, deployment details and technical refinements remain below.
 The user explicitly requested this order:
 
@@ -180,9 +182,15 @@ The user chose explicit host overrides instead of the proposed last-turn undo:
 - Preserve consistency of ownership, visible identifiers, eligibility, saved
   state and victory detection after changes.
 - Protect corrections against stale timer callbacks and queued input events.
-- Technical refinement: define safe UI/state transitions when correcting during
-  an active question/duel or after a declared win. Overrides must not accidentally
-  award an old question or create an unintended timer reset/pause mechanism.
+- Host cell and chooser edits are available only while choosing the next cell
+  or after a declared win. No edits during an active question, opponent attempt,
+  or duel (including preview/interruption/restart readiness).
+- Manual cell edits preserve the chooser; changing the chooser is an independent
+  host action. Ordinary gameplay still follows the recipient-based turn rules.
+- Evaluate winning conditions immediately after every host change. Removing a
+  winning connection after victory resumes cell selection, not an old round.
+- Returning a cell to default between rounds allows its question to be selected
+  again normally; host controls cannot pause/reset an active deadline.
 
 ## Answer modes
 
@@ -285,6 +293,11 @@ explicitly assigns the answer to its intended label.
 - From selected source packs, create and propose one randomized game pack.
 - The host can accept, regenerate or manually modify the proposal.
 - All packs, including generated ones, can be downloaded and reuploaded.
+- Starting a game locks its questions, answers, accepted aliases, initials and
+  prepared placement. Editing, regeneration or imports must not replace the
+  running game's content. This lock survives recovery and host corrections.
+- Host cell resets reuse the original question; they do not enable content edits.
+  Edit a separate preparation for a new game, not an already-started game.
 - Reuse authored letter-pack questions as the initial source banks for number
   games; no separate number-only question collection is required.
 - Questions reused across game modes can be familiar to returning players;
@@ -392,8 +405,8 @@ The user approved the recommended stack:
 - Initially use system fonts and original vector artwork to avoid external
   font requests and additional asset licensing dependencies.
 
-No dependencies have been installed and application implementation has not
-started. Browser storage and deployment details are still open.
+Phase 1 has installed the approved development tooling and a lockfile; there
+are no runtime dependencies. Browser storage and deployment details remain open.
 
 Remaining technical design work:
 

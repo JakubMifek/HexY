@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+.artifacts/
+package-lock.json
+AGENTS.md
+PLAN.md
+REVIEW.md
+IMPLEMENTATION_PHASES.md

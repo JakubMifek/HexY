@@ -69,7 +69,7 @@ solely to obtain a revision without permission.
 | Phase | Deliverable | Prerequisite | Status | Review |
 | --- | --- | --- | --- | --- |
 | 0 | Instructions and phased plan approved | User review | Cleared | User approved 2026-10-28 |
-| 1 | Tested domain foundation and contracts | 0 | Starting | Not started |
+| 1 | Tested domain foundation and contracts | 0 | Cleared; commit/push pending | [CLEARED](reviews/phase-01.md) |
 | 2 | Playable local quiz with keyboard duels | 1 cleared | Not started | Not started |
 | 3 | Pack preparation and host answer sheets | 2 cleared | Not started | Not started |
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Not started | Not started |
@@ -141,6 +141,8 @@ Deliver the full host preparation workflow:
 - Select/upload packs; generate number games from selected sources only.
 - Accept, regenerate and manually edit the proposed game.
 - Preserve fixed authored letter-board placement; edit via custom copies.
+- Lock questions/answers and placement once a game starts. Editing, import or
+  regeneration must not alter that game, including after recovery/host resets.
 - Validate imported data without destroying existing work.
 - Download/reimport every supported pack, including generated/edited packs.
 - Produce printable/downloadable HTML answer sheets matching the locked board.
@@ -253,9 +255,9 @@ Deployment is part of this phase, so local build success alone cannot clear it.
 ## Current handoff
 
 Phase 0 cleared by user approval: "Looks good. ... These are approved."
-Only planning/instruction Markdown files have been created or changed.
-No developer/reviewer sessions, installations, application code, commits or
-deployment have started.
+The approved planning/instruction files were committed and pushed to `main` as
+`5ca1f732c3d54103cac84356148b06596914cefd`; the remote SHA was verified.
+Phase 1 starts from that snapshot. No deployment has started.
 
 The user has now explicitly requested: commit and push the plans, start
 implementation, thoroughly test each phase after review, and commit and push
@@ -265,6 +267,109 @@ The directory/tool blocker was resolved on 2026-10-28 after the session working
 directory changed to `/home/jakubmifek/github/HexY`. A shell check verified this
 directory, branch `main`, and origin `https://github.com/JakubMifek/HexY.git`.
 
-Next action: commit and push the approved planning/instruction files, record the
-starting snapshot and launch the phase-1 developer. Use the required Copilot
-co-author trailer on commits.
+### Phase 1 developer handoff — 2026-10-28
+
+Starting revision: `5ca1f732c3d54103cac84356148b06596914cefd`. All implementation
+is uncommitted; no commit, push or deployment was performed. No later phase was
+started. Independent review has not occurred; this phase is **not cleared**.
+
+Changed files: `package.json`/lockfile, JavaScript/format/lint configuration,
+`.gitignore`, `.prettierignore`, `index.html`, `src/main.js`, `src/style.css`,
+`src/messages.js`, `src/domain/*.js`, `tests/*.js`, `README.md`, `LICENSE`,
+`docs/contracts.md`, and factual progress updates in this ledger/`PLAN.md`.
+Instruction rules and review criteria were not changed.
+
+Acceptance mapping:
+
+- Tooling/minimal shell: Vite, npm lockfile, strict JSDoc JavaScript checking,
+  ESLint metric ceilings and Prettier; no runtime dependencies or framework.
+- Geometry: 28 row-major cells, shared-side adjacency, seven cells per edge,
+  corner edge membership and connected-component wins; `tests/board.test.js`.
+- Turns: all three required chooser examples, unlimited initial guesses, one
+  untimed opponent attempt, late/stale rejection and immutable transitions;
+  `tests/game.test.js`.
+- Corrections: any cell can be reset/blackened/awarded between rounds; chooser
+  can be overridden; victory is recomputed after corrections, including after
+  a prior win. Active-round corrections are explicitly blocked pending the
+  decision below. This is an incomplete gate, not a reduced product scope.
+- Duels: injected bounded randomness, guaranteed target, correct/wrong-symbol
+  capture, atomic tie replay, missed-target replay, explicit interruption/restart,
+  symbol-context revisions and lightning wins; `tests/duels.test.js`.
+- Packs/answers: both exact fixed alphabets, normalization/aliases, explicit
+  initial validation, source/prepared pack contracts and invalid data rejection;
+  `tests/answers-packs.test.js`.
+- Saves: original question deadlines, selecting/opponent/won states and interrupted
+  duels, cross-field validation and fresh runtime session scopes on recovery;
+  `tests/saves.test.js`.
+- Boundary developer UX: actionable Czech/English codes with structural paths,
+  clock/random contracts, strict config/action inputs; `tests/boundaries.test.js`.
+
+Verification on the handoff snapshot:
+
+- `npm run format`: passed.
+- `npm run check` (`format:check`, `lint`, `typecheck`, `test`, `build`): passed;
+  six Vitest files, 69 tests. No skipped tests or metric exceptions.
+- `git diff --check`: passed.
+- `npm run preview -- --port 4179 --strictPort`, followed by
+  `curl --fail --silent http://127.0.0.1:4179/` and Node `fetch` checks of the
+  generated JS/CSS links: shell and both assets returned HTTP 200. Preview
+  process was stopped. This is HTTP/build evidence, not visual/browser gameplay
+  or deployment verification.
+
+Design: pure public transitions clone serializable state; small internal helpers
+operate only on that clone. No stateful resources require an artificial class.
+`DomainError` owns boundary error code/path. Time, randomness and unique runtime
+session IDs are supplied by callers. A session ID plus revision rejects queued
+events across rounds, corrections, recovery and new games. Timers must rebind to
+new revisions without changing original deadlines. Duel input adapters must
+provide normalized rising edges and atomic ties; physical input is not implemented.
+
+Host behavior already implemented: corrections themselves preserve the chooser
+unless the host overrides it; they recompute connected victory. Removing a win
+returns to selection with the existing chooser. They preserve question identity.
+No controls or pause action exist. Exact contracts are in `docs/contracts.md`.
+
+**Original decision blocker (resolved below):** active-cell reset must make the question fresh/selectable,
+but a new selection could grant fresh time, while ordinary controls must never
+pause/reset deadlines. Approve an explicit destructive-correction policy before
+implementing it. Proposed policy (not implemented): editing the active cell
+cancels its current opportunity; unrelated-cell/chooser changes preserve the
+current question and deadline; correction-created victory cancels any current
+round; removing victory returns to selection; chooser remains independently
+controlled. Clarify whether an active-cell award instead advances chooser by the
+recipient rule, and whether a chooser override affects only later selection.
+Until resolved, active-round corrections throw `correctionPolicyPending`.
+The contracts document the precise alternatives; this is not silent fallback.
+
+Limitations: shell only; no gameplay/browser/visual/device verification, storage
+adapter, preparation/editor/print UI, or content library. Fixtures are original
+synthetic test data only. Final duel timing/symbols remain caller configuration.
+Punctuation/hyphens stay significant unless an explicit alias is supplied;
+broader equivalence has not been approved. Name clearance and hosting remain
+later-phase work.
+
+User resolution: host edits (cell ownership/state and chooser) are allowed only
+while choosing the next cell or after a win, never during an active question,
+opponent attempt or duel. Cell edits and chooser selection remain independent.
+Evaluate wins immediately after each edit; removing a win resumes cell selection.
+The offered active-round cancellation policy was NOT approved.
+
+Coordinator follow-up: the runtime does not support follow-up messages to the
+synchronous developer session, so the coordinator completed the small policy
+update directly; the independent reviewer remains separate from both authors.
+The pending-policy error was replaced with the approved unavailable-during-round
+contract. Tests cover every active stage, post-win corrections, source-pack
+isolation and content preservation after resetting an owned field.
+
+Pre-review checks on the final candidate: `npm run format`, `npm run check`
+(format/lint/types, 71 tests in six files, build) and `git diff --check` all passed.
+Questions/answers are locked by the domain action contract and an isolated pack
+snapshot; the preparation UI must enforce the same rule in phase 3.
+
+Independent reviewer `0bfa91d1-db40-4ec5-987d-08e62e9c2316` cleared the phase
+without findings or exceptions; report: `reviews/phase-01.md`. All frozen file
+hashes matched after review. Mandatory post-review `npm run check` and
+`git diff --check` passed: formatting, lint, types, 71 tests and build.
+
+Next action: commit/push phase 1 and verify the remote SHA, then start phase 2.
+The implementation remains a nonplayable foundation; no later phase is claimed.
