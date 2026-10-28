@@ -157,6 +157,20 @@ status. Keep longer design rationale outside production source.
 
 ## Tests and verification
 
+User-approved coverage gates (2026-10-28), applicable from phase 2 onward:
+critical game rules, validation, timing and recovery require at least 95% lines,
+95% statements, 95% functions and 90% branches. Remaining production JavaScript
+requires at least 85% lines, 85% statements, 85% functions and 80% branches.
+Measure and enforce these as separate scope groups so core coverage cannot mask
+untested UI. Include untested production files in denominators; exclude only
+generated outputs, content data and truly type-only declarations such as
+`src/domain/types.js`. No runtime-module exclusions or blanket coverage ignores.
+Use meaningful behavior/invariant tests, without mocking away the engine to
+chase percentages. Run `test:coverage` as part of the phase gate and browser
+journeys separately. Browser-based coverage must genuinely instrument and merge
+executed sources; E2E success is not statement coverage. Report exact metrics
+and full file inclusion. Phase 1 did not measure coverage; do not claim otherwise.
+
 - Test behavior and invariants, not private implementation details.
 - Use deterministic clocks/randomness and isolated fixtures. Avoid real sleeps.
 - Cover happy paths, boundaries, rejected input and lifecycle cleanup.

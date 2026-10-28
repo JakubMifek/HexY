@@ -1,9 +1,5 @@
 /** @type {Record<string, {en: string, cs: string}>} */
 const messages = {
-  foundation: {
-    en: 'Domain foundation only. The playable game is coming in a later phase.',
-    cs: 'Pouze základ herní logiky. Hratelná hra vznikne v další fázi.',
-  },
   invalidObject: {
     en: 'Expected a JSON object.',
     cs: 'Je vyžadován objekt JSON.',

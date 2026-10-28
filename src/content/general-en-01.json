@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "general-en-01",
+  "title": "General knowledge · starter 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-01-01",
+      "initial": "A",
+      "text": "Which city is the capital of Greece?",
+      "answer": "Athens",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Athens"]
+    },
+    {
+      "id": "general-en-01-02",
+      "initial": "B",
+      "text": "Which dark, fine-grained volcanic rock typically forms when lava erupts and cools at mid-ocean ridges?",
+      "answer": "Basalt",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": [
+        "https://opentextbc.ca/physicalgeology2ed/chapter/18-2-the-geology-of-the-oceanic-crust/",
+        "https://en.wikipedia.org/wiki/Basalt"
+      ]
+    },
+    {
+      "id": "general-en-01-03",
+      "initial": "C",
+      "text": "Which bowed string instrument is larger than a viola, smaller than a double bass, and normally played seated with an endpin resting on the floor?",
+      "answer": "Cello",
+      "aliases": ["violoncello"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cello"]
+    },
+    {
+      "id": "general-en-01-04",
+      "initial": "CH",
+      "text": "In which board game do players try to checkmate the opposing king?",
+      "answer": "Chess",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chess"]
+    },
+    {
+      "id": "general-en-01-05",
+      "initial": "D",
+      "text": "Which crystalline form of carbon defines hardness 10 on the Mohs scale?",
+      "answer": "Diamond",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Mohs_scale"]
+    },
+    {
+      "id": "general-en-01-06",
+      "initial": "E",
+      "text": "What imaginary line at zero degrees latitude divides Earth into Northern and Southern Hemispheres?",
+      "answer": "Equator",
+      "aliases": ["the equator"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Equator"]
+    },
+    {
+      "id": "general-en-01-07",
+      "initial": "F",
+      "text": "Which Nordic country has Helsinki as its capital?",
+      "answer": "Finland",
+      "aliases": ["Republic of Finland"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Finland"]
+    },
+    {
+      "id": "general-en-01-08",
+      "initial": "G",
+      "text": "What was the surname of Johannes, the Mainz printer associated with the famous 42-line Bible of the 1450s?",
+      "answer": "Gutenberg",
+      "aliases": ["Johannes Gutenberg"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Gutenberg_Bible"]
+    },
+    {
+      "id": "general-en-01-09",
+      "initial": "H",
+      "text": "Which chemical element has atomic number 1?",
+      "answer": "Hydrogen",
+      "aliases": ["H"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hydrogen"]
+    },
+    {
+      "id": "general-en-01-10",
+      "initial": "I",
+      "text": "What colored part of the eye controls the size of the pupil?",
+      "answer": "Iris",
+      "aliases": ["the iris"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Iris_(anatomy)"]
+    },
+    {
+      "id": "general-en-01-11",
+      "initial": "J",
+      "text": "Which planet is the largest in our Solar System?",
+      "answer": "Jupiter",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://science.nasa.gov/jupiter/facts/"]
+    },
+    {
+      "id": "general-en-01-12",
+      "initial": "K",
+      "text": "Which Australian tree-dwelling marsupial mainly eats eucalyptus leaves?",
+      "answer": "Koala",
+      "aliases": ["koala bear"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Koala"]
+    },
+    {
+      "id": "general-en-01-13",
+      "initial": "L",
+      "text": "Which Paris museum displays Leonardo da Vinci's Mona Lisa?",
+      "answer": "Louvre",
+      "aliases": ["the Louvre", "Louvre Museum", "the Louvre Museum"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Louvre"]
+    },
+    {
+      "id": "general-en-01-14",
+      "initial": "M",
+      "text": "Which planet is home to the giant volcano Olympus Mons?",
+      "answer": "Mars",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://science.nasa.gov/mars/facts/"]
+    },
+    {
+      "id": "general-en-01-15",
+      "initial": "N",
+      "text": "Which major river flows through Cairo before reaching the Mediterranean Sea?",
+      "answer": "Nile",
+      "aliases": ["the Nile", "Nile River"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nile"]
+    },
+    {
+      "id": "general-en-01-16",
+      "initial": "O",
+      "text": "Which soft-bodied marine animal has eight arms and belongs to the order Octopoda?",
+      "answer": "Octopus",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Octopus"]
+    },
+    {
+      "id": "general-en-01-17",
+      "initial": "P",
+      "text": "Which ocean lies between Asia and the Americas and is Earth's largest?",
+      "answer": "Pacific Ocean",
+      "aliases": ["Pacific", "the Pacific", "the Pacific Ocean"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://oceanservice.noaa.gov/facts/biggestocean.html"]
+    },
+    {
+      "id": "general-en-01-18",
+      "initial": "Q",
+      "text": "Which mineral, made of silicon dioxide, defines hardness 7 on the Mohs scale?",
+      "answer": "Quartz",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Quartz"]
+    },
+    {
+      "id": "general-en-01-19",
+      "initial": "R",
+      "text": "Which city is Italy's capital?",
+      "answer": "Rome",
+      "aliases": ["Roma"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rome"]
+    },
+    {
+      "id": "general-en-01-20",
+      "initial": "S",
+      "text": "Which planet, sixth from the Sun, is surrounded by a conspicuous system of icy rings?",
+      "answer": "Saturn",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://science.nasa.gov/saturn/facts/"]
+    },
+    {
+      "id": "general-en-01-21",
+      "initial": "SH",
+      "text": "What is the surname of the playwright who wrote Hamlet and Macbeth?",
+      "answer": "Shakespeare",
+      "aliases": ["William Shakespeare"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/William_Shakespeare"]
+    },
+    {
+      "id": "general-en-01-22",
+      "initial": "T",
+      "text": "What is a polygon with exactly three sides called?",
+      "answer": "Triangle",
+      "aliases": ["a triangle"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Triangle"]
+    },
+    {
+      "id": "general-en-01-23",
+      "initial": "U",
+      "text": "Which chemical element has the symbol U and atomic number 92?",
+      "answer": "Uranium",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Uranium"]
+    },
+    {
+      "id": "general-en-01-24",
+      "initial": "V",
+      "text": "Which planet has the highest average surface temperature in our Solar System?",
+      "answer": "Venus",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://science.nasa.gov/venus/facts/"]
+    },
+    {
+      "id": "general-en-01-25",
+      "initial": "W",
+      "text": "What is the SI unit of power, equal to one joule per second?",
+      "answer": "Watt",
+      "aliases": ["W"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Watt"]
+    },
+    {
+      "id": "general-en-01-26",
+      "initial": "X",
+      "text": "Which percussion instrument has tuned wooden bars struck with mallets and a name meaning 'wood sound'?",
+      "answer": "Xylophone",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xylophone"]
+    },
+    {
+      "id": "general-en-01-27",
+      "initial": "Y",
+      "text": "What is the name of Japan's currency?",
+      "answer": "Yen",
+      "aliases": ["Japanese yen"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_yen"]
+    },
+    {
+      "id": "general-en-01-28",
+      "initial": "Z",
+      "text": "Which chemical element has the symbol Zn?",
+      "answer": "Zinc",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zinc"]
+    }
+  ]
+}

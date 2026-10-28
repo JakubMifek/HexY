@@ -1,4 +1,4 @@
-# Phase 1 contracts
+# Domain and playable-adapter contracts
 
 These are version 1 JSON contracts, backed by JSDoc in `src/domain/types.js` and
 runtime validators. No browser storage adapter is implemented. JSON serialization
@@ -49,7 +49,9 @@ matching or unapproved punctuation equivalence is introduced. Broader punctuatio
 handling remains a product choice; authors can supply explicit aliases meanwhile.
 
 Unknown extra fields are not part of version 1 and are discarded on validation.
-Only documented fields round-trip. No generation/editor/export UI is included.
+Only documented fields round-trip. Phase 2 chooses built-in starters and shuffles
+number boards; no custom/multi-source preparation, editor or import/export UI is
+included.
 
 Starting a game reconstructs its own pack snapshot. Later changes to the source
 pack cannot edit that game; there are no question/answer/pack editing actions.
@@ -70,15 +72,19 @@ could correct away.
   distinct nonempty `symbols`. `length` is at most 1,000, a resource safety bound,
   not a recommended game duration.
 
-Final symbol set and tuning are **not chosen**: the caller supplies them.
-Test fixtures use artificial 100 ms timings solely for deterministic tests.
+The phase-2 browser supplies a 2,000 ms preview, 900 ms symbol cadence and a
+maximum five-symbol sequence, using circle, triangle, square and star. There
+are no flashes, animated transitions or sound cues; the target is always last,
+at a uniformly selected position from one to five. This is conservative readable
+tuning, not new gameplay rules. Test fixtures also use artificial 100 ms timings
+solely for deterministic domain tests.
 
 The save is the game object itself:
 
 - `schemaVersion: 1`, complete `pack`, `config`, and 28 `cells`, each `unclaimed`,
   `black`, `A` or `B`.
 - `sessionId`: caller-supplied unique runtime scope; never reuse it for another
-  game or recovery. A later browser adapter can supply `crypto.randomUUID()`.
+  game or recovery. The browser supplies `crypto.randomUUID()`.
 - `chooser`: player choosing the current/next cell.
 - `revision`: nonnegative safe integer, incremented after accepted transitions.
 - `lastNow`: nonnegative safe integer timestamp of the last accepted transition.
@@ -96,8 +102,9 @@ sequence, startsAt}`. Preview ends at `startsAt`; each sequence symbol lasts
 
 Save validation cross-checks round ownership, chooser, deadlines, sequence timing
 and actual connected victories, not just field types. A black cell retains its
-pack position/ID and prefix. Owned cells also keep identity in data; eventual UI
-must hide their labels. Runtime resources and DOM objects never enter saves.
+pack position/ID and prefix. Owned cells also keep identity in data; the UI
+hides their labels and displays A/B ownership marks. Runtime resources and DOM
+objects never enter saves.
 
 `recoverGame(json, now, freshSessionId)` preserves original question deadlines,
 transfers already-expired questions to the opponent, and converts preview/active
@@ -143,6 +150,41 @@ presses, rejecting queued input from the old visual context. An interruption
 takes priority even exactly at a symbol or replay boundary.
 Render the active symbol at index `floor((state.lastNow - startsAt) / symbolMs)`;
 advance via `tick` rather than independently changing the visible symbol.
+
+The phase-2 keyboard adapter binds Left Shift to A and Right Shift to B. It
+tracks held keys across preview, visual revisions and focus loss, requiring an
+observed release before a fresh press. Every interruption (including repeated
+focus loss while already interrupted) requires an in-window, focused and visible
+keyup for each Shift key before restart. Users explicitly press/release both
+keys to recover missed outside keyups. Rearming presses occur with no active
+duel context, cannot award fields, and never blindly clear the held-key filter.
+Presses with timestamps within 8 ms are
+treated as indistinguishable and delivered atomically after an 8 ms collection
+window. Order does not favor either player. A boundary or interruption cancels
+pending input; timestamps classify ties but never replace the injected processing
+clock. This is a practical keyboard precision tolerance, not a claim of perfect
+device fairness. Remapping/gamepads arrive later.
+
+`RoundClock` owns one timeout, captures each scheduled state's session/revision,
+and rebinds after accepted actions without changing the engine deadline. Timer
+text is derived from the deadline (100 ms refresh, rounded up to seconds), not a
+decremented counter. Each rendered control captures the presented action context;
+replaced listeners are aborted. `App.dispose()` stops clocks, aborts keyboard and
+view listeners, closes dialogs and rejects queued work. No animation frames exist.
+
+Focus/visibility loss invalidates a duel in memory. Restart requires separate
+readiness checkboxes, both observed Shift releases, no currently held Shift key,
+and a focused, visible document. Failed restart attempts give actionable localized
+feedback beside the readiness controls. New
+game confirmation also invalidates duels while leaving question deadlines
+unchanged. It does not expose host corrections during interruption. Reload
+recovery/storage is deliberately not implemented until a later phase.
+
+Unsent answer text is presentation-only DOM state, not part of the authoritative
+game. Theme/language changes briefly capture and restore it only if the exact
+immutable game/opportunity object remains current. Transition renders do not
+restore it: a handover, resolved answer, new question or new game starts empty.
+No canonical answer or alias is used to populate an input.
 
 There is no pause action. A clock refresh with no transition returns the same
 state; `remainingMs(state, now)` computes display time from the deadline.

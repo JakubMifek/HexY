@@ -73,7 +73,6 @@ test('all boundary error codes have both language messages and unknown codes fai
     'invalidRound',
     'invalidDeadline',
     'invalidDuel',
-    'foundation',
     'sessionReused',
     'duelLength',
   ];

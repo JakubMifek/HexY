@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "general-cs-01",
+  "title": "Všeobecné znalosti · úvodní sada 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-01-01",
+      "initial": "A",
+      "text": "Která jihoamerická řeka má největší průměrný průtok vody na světě?",
+      "answer": "Amazonka",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amazon_River",
+        "https://cs.wikipedia.org/wiki/Amazonka"
+      ]
+    },
+    {
+      "id": "general-cs-01-02",
+      "initial": "B",
+      "text": "Jak se jmenuje hlavní město Německa?",
+      "answer": "Berlín",
+      "aliases": ["Berlin"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Berlin"]
+    },
+    {
+      "id": "general-cs-01-03",
+      "initial": "C",
+      "text": "Který chemický prvek má značku Sn?",
+      "answer": "Cín",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/C%C3%ADn"]
+    },
+    {
+      "id": "general-cs-01-04",
+      "initial": "Č",
+      "text": "Jaké je příjmení Karla, autora dramatu R.U.R. a románu Válka s mloky?",
+      "answer": "Čapek",
+      "aliases": ["Karel Čapek"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Karel_%C4%8Capek"]
+    },
+    {
+      "id": "general-cs-01-05",
+      "initial": "D",
+      "text": "Která řeka protéká Vídní, Bratislavou i Budapeští?",
+      "answer": "Dunaj",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Danube"]
+    },
+    {
+      "id": "general-cs-01-06",
+      "initial": "E",
+      "text": "Jak se jmenuje nejvyšší hora světa podle nadmořské výšky?",
+      "answer": "Everest",
+      "aliases": ["Mount Everest", "Čomolungma", "Sagarmatha"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Mount_Everest"]
+    },
+    {
+      "id": "general-cs-01-07",
+      "initial": "F",
+      "text": "Jak nazýváme proces, při němž zelené rostliny využívají světelnou energii k tvorbě organických látek z oxidu uhličitého a vody?",
+      "answer": "Fotosyntéza",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Fotosynt%C3%A9za"]
+    },
+    {
+      "id": "general-cs-01-08",
+      "initial": "G",
+      "text": "Jaká přitažlivá síla mezi Zemí a Měsícem udržuje Měsíc na oběžné dráze?",
+      "answer": "Gravitační síla",
+      "aliases": ["gravitace", "gravitační"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://spaceplace.nasa.gov/what-is-gravity/en/"]
+    },
+    {
+      "id": "general-cs-01-09",
+      "initial": "H",
+      "text": "Který čtyřstrunný smyčcový nástroj se obvykle ladí v kvintách g–d–a–e a při hře se opírá pod bradou?",
+      "answer": "Housle",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Housle"]
+    },
+    {
+      "id": "general-cs-01-10",
+      "initial": "Ch",
+      "text": "Který chemický prvek má značku Cl a používá se k dezinfekci vody?",
+      "answer": "Chlor",
+      "aliases": ["chlór"],
+      "category": "general",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chlor",
+        "https://www.cdc.gov/drinking-water/about/about-water-disinfection-with-chlorine-and-chloramine.html"
+      ]
+    },
+    {
+      "id": "general-cs-01-11",
+      "initial": "I",
+      "text": "Jak se nazývá barevná kapalina, kterou se plní plnicí pero?",
+      "answer": "Inkoust",
+      "aliases": ["inkoustová náplň"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Inkoust"]
+    },
+    {
+      "id": "general-cs-01-12",
+      "initial": "J",
+      "text": "Který ostrovní stát má hlavní město Tokio?",
+      "answer": "Japonsko",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Japan"]
+    },
+    {
+      "id": "general-cs-01-13",
+      "initial": "K",
+      "text": "Jak se běžně nazývá australský vačnatec se silnými zadními nohami, jehož samice nosí mládě ve vaku a který se pohybuje dlouhými skoky?",
+      "answer": "Klokan",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Klokan"]
+    },
+    {
+      "id": "general-cs-01-14",
+      "initial": "L",
+      "text": "Která velká kočkovitá šelma má u dospělých samců obvykle výraznou hřívu?",
+      "answer": "Lev",
+      "aliases": ["lev pustinný"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Lion"]
+    },
+    {
+      "id": "general-cs-01-15",
+      "initial": "M",
+      "text": "Která planeta obíhá nejblíže Slunci?",
+      "answer": "Merkur",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://science.nasa.gov/mercury/facts/"]
+    },
+    {
+      "id": "general-cs-01-16",
+      "initial": "N",
+      "text": "Jak se jmenuje elektricky neutrální částice, která spolu s protony tvoří většinu atomových jader?",
+      "answer": "Neutron",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Neutron"]
+    },
+    {
+      "id": "general-cs-01-17",
+      "initial": "O",
+      "text": "Jaké je hlavní město Kanady?",
+      "answer": "Ottawa",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Ottawa"]
+    },
+    {
+      "id": "general-cs-01-18",
+      "initial": "P",
+      "text": "Ve kterém českém městě stojí Karlův most?",
+      "answer": "Praha",
+      "aliases": ["v Praze", "Praze"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Karl%C5%AFv_most"]
+    },
+    {
+      "id": "general-cs-01-19",
+      "initial": "R",
+      "text": "Jak se nazývá kulturní období spojené s návratem k antice, jehož významnými umělci byli Leonardo da Vinci a Michelangelo?",
+      "answer": "Renesance",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Renaissance"]
+    },
+    {
+      "id": "general-cs-01-20",
+      "initial": "Ř",
+      "text": "Ve kterém italském městě stojí antický amfiteátr Koloseum?",
+      "answer": "Řím",
+      "aliases": ["v Římě", "Římě"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Colosseum"]
+    },
+    {
+      "id": "general-cs-01-21",
+      "initial": "S",
+      "text": "Jak se jmenuje největší horká poušť světa, která leží v severní Africe?",
+      "answer": "Sahara",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Sahara"]
+    },
+    {
+      "id": "general-cs-01-22",
+      "initial": "Š",
+      "text": "Ve které deskové hře může hráč provést rošádu a dát soupeřovu králi mat?",
+      "answer": "Šachy",
+      "aliases": ["šach"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0achy"]
+    },
+    {
+      "id": "general-cs-01-23",
+      "initial": "T",
+      "text": "Jak se česky nazývá největší oceán Země, který omývá západní pobřeží Ameriky?",
+      "answer": "Tichý oceán",
+      "aliases": ["Pacifik"],
+      "category": "general",
+      "language": "cs",
+      "sources": [
+        "https://oceanservice.noaa.gov/facts/biggestocean.html",
+        "https://cs.wikipedia.org/wiki/Tich%C3%BD_oce%C3%A1n"
+      ]
+    },
+    {
+      "id": "general-cs-01-24",
+      "initial": "U",
+      "text": "Který chemický prvek tvoří diamant i grafit?",
+      "answer": "Uhlík",
+      "aliases": ["C"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Uhl%C3%ADk"]
+    },
+    {
+      "id": "general-cs-01-25",
+      "initial": "V",
+      "text": "Která řeka protéká Českým Krumlovem i Prahou a u Mělníka se vlévá do Labe?",
+      "answer": "Vltava",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Vltava"]
+    },
+    {
+      "id": "general-cs-01-26",
+      "initial": "W",
+      "text": "Jak se nazývá jednotka výkonu v soustavě SI, která odpovídá jednomu joulu za sekundu?",
+      "answer": "Watt",
+      "aliases": ["W"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Watt"]
+    },
+    {
+      "id": "general-cs-01-27",
+      "initial": "Z",
+      "text": "Jak se běžně nazývá africký lichokopytník příbuzný koni, který má černobíle pruhovanou srst?",
+      "answer": "Zebra",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Zebra"]
+    },
+    {
+      "id": "general-cs-01-28",
+      "initial": "Ž",
+      "text": "Který kov má chemickou značku Fe a je hlavní složkou oceli?",
+      "answer": "Železo",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDelezo"]
+    }
+  ]
+}

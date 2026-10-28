@@ -69,8 +69,8 @@ solely to obtain a revision without permission.
 | Phase | Deliverable | Prerequisite | Status | Review |
 | --- | --- | --- | --- | --- |
 | 0 | Instructions and phased plan approved | User review | Cleared | User approved 2026-10-28 |
-| 1 | Tested domain foundation and contracts | 0 | Cleared; commit/push pending | [CLEARED](reviews/phase-01.md) |
-| 2 | Playable local quiz with keyboard duels | 1 cleared | Not started | Not started |
+| 1 | Tested domain foundation and contracts | 0 | Cleared and pushed: `0155d7c` | [CLEARED](reviews/phase-01.md) |
+| 2 | Playable local quiz with keyboard duels | 1 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-02.md) |
 | 3 | Pack preparation and host answer sheets | 2 cleared | Not started | Not started |
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Not started | Not started |
 | 5 | General knowledge, Nature, Geography content | 4 cleared | Not started | Not started |
@@ -371,5 +371,227 @@ without findings or exceptions; report: `reviews/phase-01.md`. All frozen file
 hashes matched after review. Mandatory post-review `npm run check` and
 `git diff --check` passed: formatting, lint, types, 71 tests and build.
 
-Next action: commit/push phase 1 and verify the remote SHA, then start phase 2.
-The implementation remains a nonplayable foundation; no later phase is claimed.
+Phase 1 committed and pushed as `0155d7c0e095fda640ae49319a304f72fdb440c8`;
+the remote `main` SHA was verified. The implementation is still a nonplayable
+foundation; no later phase is claimed.
+
+### Phase 2 starting snapshot
+
+While phase 2 was in progress, the user approved separate enforced coverage
+groups from this phase onward: critical rules/validation/timing/recovery
+>=95% lines/statements/functions and >=90% branches; remaining production JS
+>=85% lines/statements/functions and >=80% branches. Include untested production
+files; only generated outputs, content data and type-only declarations may be
+excluded. `test:coverage` joins the phase gate; browser journeys remain separate.
+No phase-1 coverage was measured or retroactively claimed.
+
+Baseline: `0155d7c0e095fda640ae49319a304f72fdb440c8`. Next action: a fresh
+phase-2 developer implements the playable interface, starter content and keyboard
+duels, runs applicable checks, then stops for an independent reviewer. No pack
+editor, persistent recovery or gamepad support is claimed at this phase.
+
+### Phase 2 developer handoff — 2026-10-28
+
+Baseline remains `0155d7c0e095fda640ae49319a304f72fdb440c8`; candidate changes
+are uncommitted. **Not cleared: stop edits for independent review.** No commit,
+push, deployment, nested agents or shared-server configuration changes occurred.
+Coordinator starting edits were preserved. `AGENTS.md`/`REVIEW.md` changed only
+to record the subsequent explicit user approval of coverage gates.
+
+Acceptance/evidence mapping:
+
+| Requirement | Implementation and evidence |
+| --- | --- |
+| Complete setup and local loop | `src/ui/setup.js`, `src/app.js`; names/colors, manual/random starter, default 30 s/configurable 1–3,600 s, both board/answer modes; `browser/game.spec.js` exercises all eight language/board/answer combinations |
+| Correct turns and timer | Existing domain engine unchanged; captured revisions, deadline-based `RoundClock`, unlimited initial attempts, exactly one untimed opponent attempt and all recipient/chooser cases; engine, DOM and browser tests |
+| Content lock and corrections | No running-game content edits. `src/ui/host.js` renders corrections only in selecting/won; black/reset/award/chooser controls, immediate wins and reopened selection. Browser test restores the original assigned question |
+| Visual identity and usability | Native beveled/glossy SVG triangle and original hexagon/Y logo; both themes/languages, panel below board, names/actions/timer together, A/B marks, × on black fields, dashed winning component, semantic keyboard controls and focus |
+| Keyboard duels | `src/runtime/keyboard.js`, `src/ui/round.js`; held/repeat filtering, fresh releases across preview, wrong symbols, guaranteed targets, missed targets/ties replay, stale symbol contexts and interruption/readiness |
+| Starter factual content | Two real general-knowledge pack-01 JSON files, cs/en, 28 unique original entries each in exact fixed order, aliases and sources. Number mode shuffles only its selected starter. `tests/content.test.js`; 56 entries count toward eventual 36 packs/1,008 entries |
+| Accessibility/layout | Keyboard SVG activation/arrows, localized errors, no answer hints/ARIA leaks, reduced-motion CSS, readable long Czech text, controls/hexagons at least 44 px in tested layouts, both-theme screenshots and actual browser interaction |
+| Lifecycle | Aborted view/input listeners, owned timeouts, captured processing context and disposed-session rejection; no animation frames. Focus/visibility/new-game overlay invalidates duels without awards; modal never pauses question time. Real pagehide and adapter tests |
+| Coverage | All 25 production JS files measured, plus membership enforcement; only type-only `src/domain/types.js` excluded. Separate critical and remaining thresholds enforced, not combined |
+
+Relevant changed files:
+
+- `src/app.js`, `src/main.js`, `src/style.css`, `index.html`.
+- `src/ui/{dom,strings,setup,board,game,round,host,header}.js`.
+- `src/runtime/{clock,keyboard}.js`.
+- `src/content/catalog.js`, `general-cs-01.json`, `general-en-01.json`.
+- `src/messages.js` / `tests/boundaries.test.js`: remove obsolete foundation-only
+  shell message; domain rules were not modified.
+- `tests/{content,keyboard,runtime,ui}.test.js`, `browser/{helpers,game.spec,duels.spec,visual.spec}.js`.
+- `package.json`/lockfile, `vitest.config.js`, `playwright.config.js`,
+  `scripts/check-coverage.js`, README/contracts/plan/ledger and the approved
+  coverage-only additions to coding/review instructions.
+
+Final code-bearing verification (run sequentially, not concurrent build writers):
+
+- `npm run format`: passed.
+- `npm run check`: passed formatting, lint/metrics, strict JSDoc types, **95 tests
+  in 10 Vitest files**, enforced coverage, and Vite production build.
+- `LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:browser`:
+  **29 passed**, Chromium, real production bundle, port **4182**. The managed
+  server was stopped after the run. `git diff --check`: passed.
+- `.artifacts/check.log` and `.artifacts/browser.log` contain exact final output.
+  `coverage/index.html` / `coverage/coverage-summary.json` contain measured
+  per-file coverage; no browser success was counted as statement coverage.
+
+Measured coverage on the candidate:
+
+| Group | Lines | Statements | Functions | Branches |
+| --- | --- | --- | --- | --- |
+| Critical: domain, runtime, application orchestration (14 files) | 1324/1330 = **99.55%** | 1342/1348 = **99.55%** | 79/79 = **100%** | 364/375 = **97.07%** |
+| Remaining: all UI, entry point, catalog, messages (11 files) | 1129/1143 = **98.78%** | 1134/1148 = **98.78%** | 49/50 = **98%** | 174/189 = **92.06%** |
+
+Full group membership is printed in `.artifacts/check.log`. jsdom tests exercise
+the real app/engine; only missing dialog and scroll browser primitives are
+adapted there. Chromium independently verifies real modal/SVG/focus/layout
+behavior. Phase-1 coverage was never measured or claimed.
+Negative gate checks also passed: zeroing either scope group's measured counts,
+or omitting a runtime file, caused exit 1 each time. The genuine coverage report
+was restored byte-for-byte; evidence: `.artifacts/coverage-enforcement.log`.
+
+Visual/factual evidence (local ignored artifacts, not publication):
+
+- `.artifacts/browser-report/index.html`; `.artifacts/playwright/visual-*`
+  contains full-page/viewport question screenshots and captured boards for
+  **1280×720, 1920×1080, 1024×768 and 768×1024**, in both themes.
+- Representative inspected images:
+  `visual-1280x720-dark-reada-6d462-long-question-and-ownership/question-viewport.png`,
+  `visual-1024x768-light-read-d4e31-long-question-and-ownership/question-full.png`,
+  `visual-768x1024-dark-reada-814c1-long-question-and-ownership/question-viewport.png`
+  (all beneath `.artifacts/playwright/`).
+- English setup/custom-white-player-color/number-board/black-field/duel images:
+  `.artifacts/playwright/visual-English-hosted-numb-cf322-lack-fields-distinguishable/`.
+- Win image:
+  `.artifacts/playwright/game-host-corrections-crea-77c01-he-original-locked-question/winning-connection.png`.
+- `.artifacts/content-audit.json`: all 56 question IDs/answers/prefixes and
+  **57 accessed factual URLs**, checked 2026-10-28, Wikipedia/NASA/NOAA/CDC.
+  Question wording is original; every shipped entry still needs independent
+  factual/linguistic review rather than relying on schema validity.
+- `.artifacts/phase-02-snapshot.sha256` records all changed/untracked source
+  snapshot hashes for the independent review.
+
+Design/tuning decisions:
+
+- Domain engine untouched; the application orchestrates one authoritative state.
+  Pure rendering helpers remain functions. `App`, `RoundClock` and
+  `DuelKeyboard` own actual resource lifetimes; no generic framework, runtime
+  dependency or speculative abstraction was introduced.
+- 2 s preview, 900 ms cadence, at most five circle/triangle/square/star symbols.
+  Stationary shapes with no flashing/animation/sound provide readable, restrained
+  timing. A target always occurs. Presses within 8 ms form an indistinguishable
+  tie batch; boundaries cancel pending input. This avoids keyboard-order bias,
+  but does not claim perfect cross-device timing fairness.
+- In-memory focus/visibility interruption is included for basic correctness.
+  Opening new-game confirmation similarly invalidates a duel, never awards an
+  unseen field, and does not reset/pause question time. Navigation loses the game;
+  returning through the browser's page cache starts a fresh page.
+- Scroll the below-board question into view as needed; repeat active player in
+  its heading so the actor remains clear even when the board header scrolls out.
+- No metric exceptions. Buttons/selects/text inputs are at least 44 px high;
+  readiness checkboxes have larger clickable labels. Measured field widths also
+  exceed 44 px at every inspected viewport.
+
+Environment limitations resolved without server changes:
+
+- The initial Vite dev-server browser run hit exhausted shared file watchers.
+  Browser verification now builds and uses Vite preview, requiring no watchers.
+- Chromium was initially missing; Playwright's Node downloader timed out.
+  The matching Chrome-for-Testing headless archive was downloaded with `curl`
+  from Google's public storage and extracted locally into `.artifacts/browsers/`.
+- Missing Debian browser libraries were downloaded with `apt-get download` and
+  extracted using `dpkg-deb -x` into `.artifacts/browser-libs/`; no global package
+  install, sudo, sysctl, service or shared configuration change was made.
+
+Actual remaining scope/limitations: independent phase review and mandatory
+coordinator post-review gates; only two starter packs rather than the full
+library; no persistence/reload recovery, editor/import/export/printing, remapping,
+gamepads or touchscreen buzzer support. Layouts are browser emulation, not
+physical tablet/Xbox verification. Screen-reader-device testing, name clearance
+and deployment remain pending later gates. No production release claim.
+
+### Phase 2 independent review and fixes
+
+Reviewer `a91c7cd7-25a2-448f-aaab-84a487c35802` returned CHANGES REQUIRED.
+Full initial report: `reviews/phase-02.md`. Findings:
+
+- P2-01: missed Shift keyup after blur can silently block duel restart.
+- P2-02: theme/language switching discards an in-progress answer draft.
+- P2-03: basalt question overstates its share of the oceanic crust.
+- P2-04: light-theme input border contrast is below 3:1.
+
+All initial automated checks passed, but they did not detect these defects.
+Next action: same developer fixes all four with regression evidence, then the
+same independent reviewer rechecks the frozen candidate. Only after clearance
+will the coordinator run mandatory post-review checks and commit/push.
+
+### Phase 2 finding corrections — developer handoff, 2026-10-28
+
+P2-01 through P2-04 are implemented and regression-tested. **Not cleared: stop
+edits for the same reviewer** (`a91c7cd7-25a2-448f-aaab-84a487c35802`).
+The original review verdict/findings remain preserved; per-finding developer
+responses are appended to `reviews/phase-02.md`.
+
+- P2-01: explicit press/release rearming for both Shift keys after every duel
+  interruption, including another focus loss while already interrupted. Only
+  focused/visible observed keyups satisfy it. Held/repeat filtering remains;
+  rearming cannot capture. Blocked restarts now give actionable cs/en feedback
+  beside the readiness controls. Stale restart actions stay silent.
+- P2-02: preserve unsent typed drafts only during presentation changes for the
+  same exact opportunity. Drafts stay outside authoritative game state. Handover,
+  resolution and next-question renders do not inherit text.
+- P2-03: narrow English B/Basalt to cooled erupted mid-ocean-ridge lava, retain
+  fixed identity/placement, add the verified BCcampus geology source. Audit now
+  includes 58 accessed URLs; the original volume claim is explicitly corrected.
+- P2-04: light identifying border `#6f8299`, with actual computed border/interior/
+  surroundings contrast checks in both themes. Panel ratios 3.940749:1 light and
+  3.875206:1 dark; header exterior ratios 3.373936:1 and 4.703012:1.
+
+Changed implementation in this correction round:
+`src/app.js`, `src/runtime/keyboard.js`, `src/ui/{round,strings}.js`,
+`src/style.css`, `src/content/general-en-01.json`. Tests:
+`tests/{keyboard,ui,content}.test.js`, `browser/duels.spec.js`,
+`browser/review-fixes.spec.js`. Documentation: README, contracts, this ledger and
+appended developer response in the review report. No instruction rules, domain
+rules, dependencies or unrelated implementation were changed.
+
+Final sequential `npm run format`, `npm run check`,
+`LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:browser`
+and `git diff --check` passed: formatting, lint/metrics, types, **100 tests in
+10 Vitest files**, enforced coverage, build, and **35 Chromium tests**. No skips
+or exceptions. No new browser/dependency installation was needed; preview port
+4182 is stopped.
+
+| Group | Lines | Statements | Functions | Branches |
+| --- | --- | --- | --- | --- |
+| Critical (14 files) | 1365/1369 = 99.71% | 1383/1387 = 99.71% | 83/83 = 100% | 392/399 = 98.25% |
+| Remaining (11 files) | 1135/1149 = 98.78% | 1140/1154 = 98.79% | 49/50 = 98% | 174/189 = 92.06% |
+
+All 25 runtime JS files remain included; only type-only `src/domain/types.js`
+is excluded. Coverage evidence is `.artifacts/review-fixes-check.log` and
+`coverage/`. Browser output is `.artifacts/review-fixes-browser.log`; new
+screenshots are `.artifacts/playwright/review-fixes-*/`. Recorded computed
+styles/ratios are `.artifacts/review-fixes-control-contrast.json`; source
+correction evidence is `.artifacts/content-audit.json`. Detailed reproductions
+and artifact names are in the appended review response. The new frozen
+candidate manifest is `.artifacts/phase-02-snapshot.sha256`.
+
+Headless blur/missed-keyup boundaries are simulated explicitly, not claimed as
+physical focus/device verification. The original later-phase scope limitations
+remain. No commit, push, deployment or shared-system changes. Next action is
+same-reviewer re-review, then coordinator-owned post-clearance checks.
+
+### Phase 2 clearance and post-review verification
+
+The same reviewer cleared all four findings without new issues or metric
+exceptions. Report and original review history: `reviews/phase-02.md`.
+Coordinator verified the frozen manifest, then reran `npm run check`, the
+documented Chromium command and `git diff --check`: all passed, including
+100 unit tests, 35 browser journeys and both separate coverage gates.
+Critical coverage: 99.71% lines/statements, 100% functions, 98.25% branches.
+Remaining: 98.78% lines, 98.79% statements, 98% functions, 92.06% branches.
+
+Next action: commit/push phase 2, verify the remote SHA and launch phase 3.
+No public deployment or later-phase feature is claimed.

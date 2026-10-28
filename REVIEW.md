@@ -35,6 +35,14 @@ a concrete explanation, such as a foundation-only phase without browser UI.
   interruption recovery and input races where applicable.
 - Check failure behavior, invalid imports/saves and cleanup of resources.
 - Confirm tests prove the actual requirement, not merely a convenient proxy.
+- From phase 2, verify the user-approved separate coverage gates: critical rules,
+  validation, timing and recovery >=95% lines/statements/functions and >=90%
+  branches; remaining production JS >=85% lines/statements/functions and >=80%
+  branches. Require exact measured metrics, full file inclusion (including
+  untested files), justified exclusions limited to generated outputs/content
+  data/type-only declarations, and enforced failures below either group's gate.
+  Do not accept E2E success as statement coverage or meaningless tests replacing
+  real behavior. Phase 1 coverage was not measured.
 - Detect missing scope, misleading completion claims and regressions.
 
 ### 2. Usability and accessibility

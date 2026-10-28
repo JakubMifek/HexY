@@ -14,13 +14,14 @@ The repository was renamed from JakubMifek/azquiz with the user's approval.
 The local checkout was also renamed with the user's approval and is now at
 /home/jakubmifek/github/HexY. Its origin remote points to the renamed repository.
 
-The repository was empty when planning began. Phase 1 now contains a minimal
-shell and tested domain foundation, not a playable application. This document
+The repository was empty when planning began. Phase 1 established a tested
+domain foundation; phase 2 now has an independently reviewed playable local game.
+This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: phase 1 foundation cleared by independent review and post-review
-checks; commit/push pending before phase 2.**
+**Current stage: phase 2 cleared after independent re-review and post-review
+checks; commit/push pending before phase 3.**
 The name, broad visual direction, logo concept, stack, core rules, host overrides
 and recovery policy are selected. The user requested iterative development with
 a developer session and independent usability/readability/OOP/design-pattern
@@ -407,6 +408,14 @@ The user approved the recommended stack:
 
 Phase 1 has installed the approved development tooling and a lockfile; there
 are no runtime dependencies. Browser storage and deployment details remain open.
+
+On 2026-10-28 the user approved enforced coverage gates from phase 2 onward:
+critical rules/validation/timing/recovery >=95% lines, statements and functions,
+>=90% branches; remaining production JS separately >=85% lines, statements and
+functions, >=80% branches. Include all production files, even untested ones;
+exclude only generated outputs, content data and type-only declarations. These
+are measured code-coverage gates in addition to behavior and real-browser gates.
+Phase 1 did not measure coverage. See `AGENTS.md` and `REVIEW.md` for evidence rules.
 
 Remaining technical design work:
 
