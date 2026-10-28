@@ -1,7 +1,7 @@
 # HexY
 
-Playable local quiz for two players sharing a screen. **Phase 2 independently
-reviewed and verified, not yet a production release.**
+Playable local quiz for two players sharing a screen. **Phase 3 preparation,
+library and answer sheets are independently reviewed, not a production release.**
 See [phase status](IMPLEMENTATION_PHASES.md) and [contracts](docs/contracts.md).
 
 ## Play
@@ -11,8 +11,8 @@ names/colors, starter (A, B or random), question duration (default 30 seconds,
 1–3,600 seconds), board, answer mode and question language.
 
 - Connect one group of your fields to all three edges. Corners touch two edges.
-- Fixed-letter boards preserve the authored alphabet; number boards shuffle all
-  28 questions from the selected language's starter pack, without repeats.
+- Fixed-letter boards preserve their authored placement. Number boards propose
+  28 distinct questions from only your selected, same-language source packs.
 - **Spoken:** a host judges answers. Incorrect initial answers leave the original
   timer running. **Typed:** case, spacing and missing diacritics are ignored;
   explicit aliases are accepted, but not fuzzy spelling corrections.
@@ -44,9 +44,98 @@ and winning connections have dashed outlines. Questions remain below the board;
 the question panel scrolls into view when necessary. Desktop/laptop and tablet
 layouts are supported; keyboard duels still require a physical keyboard.
 
-**No persistence yet:** reload/navigation loses the game. This phase has no
-editor, import/export, answer-sheet printing, gamepads or remapping. Static
-downloaded content is inspectable; this is friendly local play, not anti-cheat.
+**Reload/navigation still loses the running game.** Custom packs and settings
+are stored locally; game recovery, gamepads, remapping and touch buzzers belong
+to phase 4. Static downloaded content is inspectable; this is friendly local
+play, not anti-cheat.
+
+## Prepare packs and private answer sheets
+
+Both spoken and typed games use the same preparation workflow:
+
+1. Choose question language and board mode. The matching bundled fixed-letter
+   starter is initially ready. Changing language/mode resets the preparation to
+   that language's starter selection, never translates custom questions.
+2. Select packs, or **Import JSON files** (one or several). Imports stay in your
+   browser; there is no remote upload. A batch with any invalid/conflicting file
+   is rejected without replacing the existing library, proposal or editor draft.
+3. For letters, select exactly one authored letter pack and **Use selected fixed
+   board**. For numbers, select same-language sources and **Generate / regenerate
+   28 numbers**, then **Accept this board**. Insufficient distinct questions,
+   mixed languages and conflicting question IDs produce actionable errors.
+   **Use selected number board unchanged** restores an imported/prepared order.
+4. **Edit selected pack as a copy** or **Edit proposal as a copy** opens the
+   actual question/answer/alias/category/source and pack title/ID/authors/license
+   editor. Lists use one entry per line. Question IDs stay stable; fixed initials
+   and their authored order cannot move. Number/source positions can move.
+   **Validate and save custom copy**, then accept the final board.
+5. **Download pack JSON** exports every supported pack, including generated and
+   edited versions. **Export selected packs** downloads each selected source;
+   your browser may ask permission for multiple downloads. Reimport JSON to
+   restore the exact documented content and placement.
+6. After acceptance, **Download private answer sheet (HTML)**. Open the
+   self-contained downloaded file separately and use browser Print / Save as
+   PDF. It contains all 28 row-major cell numbers, question IDs, explicit initials,
+   questions, answers and aliases, without game controls or external fonts.
+   Keep it on paper or another private device, not the players' shared screen.
+7. **Start game** locks content, even after a win or a host field reset. In-game
+   JSON/sheet downloads use the played snapshot, not the preparation library.
+
+Prepare before players gather: the editor intentionally shows answers. Opening
+an editor, changing source selection or regenerating invalidates acceptance and
+sheet availability. Discard older downloaded sheets and download the newly
+accepted version; downloads are independent snapshots, not live documents.
+Each edited/generated board gets a new pack ID by default, displayed in setup
+and on its sheet. Imported text is rendered as text, never executable markup.
+
+### Local storage and backups
+
+The versioned `hexy.library.v1` localStorage record contains validated custom
+packs and interface/game-setup preferences. Imports, saved editor copies and
+accepted generated boards are saved automatically. Bundled assets are never
+modified. Unsaved editor drafts/proposals and running games are not persisted.
+`localStorage` is sufficient for this small static, single-browser library:
+synchronous atomic replacement makes complete-record validation and
+failure-preservation straightforward, without a database framework or dependency.
+There is no app-imposed pack-count limit; browser quotas vary.
+
+**Browser-local storage is not a backup. Export JSON and keep copies elsewhere.**
+Private browsing, site-data clearing, a different browser/profile/origin or quota
+limits can make this data unavailable. Errors are shown in the current UI
+language; a failed write leaves the current pack/game usable in memory and the
+previous stored value intact.
+
+- **Full storage / oversized copies:** use **Manage local saving** to export a
+  custom copy, open **Exclude from local saving**, then confirm exclusion.
+  Confirmation immediately retries saving only the included copies/settings.
+  Exclusion does not remove content from the current session: selected sources,
+  accepted preparation and a locked running game remain unchanged and exportable.
+  After a successful save, excluded copies disappear on reload; keep their JSON.
+  **Include again and retry saving** reverses the exclusion during this session.
+  If a write still fails, previously stored data remains intact. Do not clear
+  site storage to solve an oversized pack: it would not shrink the in-memory
+  library. Bundled packs cannot be excluded/deleted.
+- **Read access denied at startup:** saving is blocked to protect unread data,
+  even after access is restored. Export your in-memory copies, allow site storage,
+  reload to validate the original library, then reimport your exports. Retrying
+  edits without reloading cannot save. Running games still cannot survive reload.
+- **Write access denied after a successful read:** allow site storage and retry
+  saving (for example, a setting change), or export your copies first.
+
+Exclusion is a session-only, per-pack-ID saving choice, not a content edit or
+format change. A newly edited/generated copy is included by default. The storage
+management controls also remain available during play without unlocking content.
+
+Corrupt/incompatible libraries are never silently overwritten or cleared.
+Preserve the raw `hexy.library.v1` value using browser site-storage tools before
+repairing/removing that site's data; use a compatible application for a newer
+format. Until then, work in memory and export. This is not running-game recovery.
+Use one editing tab: concurrent-tab merging is not implemented.
+
+Original and imported rights remain distinct. Mixed boards preserve each
+question's source-pack attribution chain in the documented optional `origins`
+field, plus factual `sources`; generated license text does not relicense imports.
+See [format and duplicate-resolution rules](docs/contracts.md).
 
 ## Starter content
 
@@ -116,7 +205,7 @@ enumerates production files, fails on missing coverage, and reports exact counts
 
 | Separate group | Included files                                                           | Lines/statements/functions | Branches |
 | -------------- | ------------------------------------------------------------------------ | -------------------------- | -------- |
-| Critical       | `src/domain/*.js`, `src/runtime/*.js`, `src/app.js`                      | ≥95% each                  | ≥90%     |
+| Critical       | `src/domain/*.js`, `src/runtime/*.js`, `src/app.js`, `src/workspace.js`  | ≥95% each                  | ≥90%     |
 | Remaining      | All other production JS, including UI, entry point, catalog and messages | ≥85% each                  | ≥80%     |
 
 Coverage HTML and machine-readable metrics are in `coverage/`. The critical group
@@ -128,13 +217,17 @@ journeys is **not** counted as statement coverage. Phase 1 did not measure cover
 
 ## Implementation boundaries
 
-- `src/domain/`: unchanged pure engine, geometry, normalization and versioned
-  pack/save contracts.
+- `src/domain/`: pure engine, geometry, normalization, selected-source generation,
+  settings validation and versioned pack/save contracts.
 - `src/app.js`: application lifecycle, captured action contexts and state-to-view
   orchestration; no gameplay rules duplicated here.
-- `src/runtime/`: deadline scheduling and release-filtered keyboard input.
+- `src/workspace.js`: preparation I/O, localized errors, persistence and view
+  coordination, separate from authoritative running-game state.
+- `src/runtime/`: deadline scheduling, release-filtered keyboard input,
+  preparation invariants, local-library writes and download URL lifetimes.
 - `src/ui/`: setup, native SVG board, question/duel panel, host controls and
-  Czech/English labels. No UI framework or graphics dependency.
+  Czech/English labels, preparation editor and escaped print-ready HTML.
+  No UI framework or graphics dependency.
 - `tests/`, `browser/`: deterministic engine/adapter/DOM behavior and real-browser
   journeys, including both languages, themes, answer modes and board modes.
 

@@ -5,8 +5,10 @@
  * @typedef {'source'|'letters'|'numbers'} PackMode
  * @typedef {{
  * id: string, text: string, initial: string, answer: string,
- * aliases: string[], category: string, language: Language, sources: string[]
+ * aliases: string[], category: string, language: Language, sources: string[],
+ * origins?: Origin[]
  * }} Question
+ * @typedef {{packId: string, questionId: string, authors: string[], license: string}} Origin
  * @typedef {{
  * schemaVersion: 1, id: string, title: string, language: Language,
  * mode: PackMode, authors: string[], license: string, questions: Question[]

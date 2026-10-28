@@ -32,7 +32,27 @@ function parseQuestion(value, path) {
     aliases: strings(data.aliases, `${path}.aliases`),
     category: text(data.category, `${path}.category`),
     sources,
+    ...(data.origins === undefined
+      ? {}
+      : { origins: parseOrigins(data.origins, `${path}.origins`) }),
   };
+}
+
+/** @param {unknown} value @param {string} path */
+function parseOrigins(value, path) {
+  const origins = list(value, path).map((item, index) => {
+    const data = record(item, `${path}.${index}`);
+    const authors = strings(data.authors, `${path}.${index}.authors`);
+    requireValue(authors.length > 0, 'missingProvenance', path);
+    return {
+      packId: text(data.packId, `${path}.${index}.packId`),
+      questionId: text(data.questionId, `${path}.${index}.questionId`),
+      authors,
+      license: text(data.license, `${path}.${index}.license`),
+    };
+  });
+  requireValue(origins.length > 0, 'missingProvenance', path);
+  return origins;
 }
 
 /** @param {unknown} value @returns {import('./types.js').Pack} */

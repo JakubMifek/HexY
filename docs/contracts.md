@@ -1,7 +1,8 @@
 # Domain and playable-adapter contracts
 
 These are version 1 JSON contracts, backed by JSDoc in `src/domain/types.js` and
-runtime validators. No browser storage adapter is implemented. JSON serialization
+runtime validators. Phase 3 adds a versioned local custom-pack/settings library;
+running-game storage/recovery remains a phase-4 adapter task. JSON serialization
 is `JSON.stringify`; pack import is `importPack`, saved-game parsing and recovery
 is `recoverGame`. Validators reconstruct owned data and never mutate the supplied
 value or overwrite a caller's current valid game/pack.
@@ -48,10 +49,14 @@ trims and collapses whitespace. Punctuation/hyphens stay significant; no fuzzy
 matching or unapproved punctuation equivalence is introduced. Broader punctuation
 handling remains a product choice; authors can supply explicit aliases meanwhile.
 
-Unknown extra fields are not part of version 1 and are discarded on validation.
-Only documented fields round-trip. Phase 2 chooses built-in starters and shuffles
-number boards; no custom/multi-source preparation, editor or import/export UI is
-included.
+Phase 3 adds one **optional, additive version-1 field** on questions:
+`origins: [{packId, questionId, authors, license}]`. When present it is a nonempty
+list; all strings and each author list must be nonempty. These are the source
+pack's declared authors/rights, not independent verification of legal ownership.
+Existing v1 packs without `origins` remain valid and round-trip unchanged.
+Unknown extra fields are discarded; only documented fields round-trip.
+Pre-phase-3 readers do not preserve this extension: use this version or newer
+for attribution-preserving edits/exports, and keep original JSON backups.
 
 Starting a game reconstructs its own pack snapshot. Later changes to the source
 pack cannot edit that game; there are no question/answer/pack editing actions.
@@ -59,6 +64,143 @@ Host resets reuse the same assigned content. The saved game includes this locked
 snapshot; recovery must not substitute a newer source pack. The preparation UI
 must lock content editing once play starts, including after a win that the host
 could correct away.
+
+## Preparation, generation and editing
+
+`generateNumbers(sources, language, random, id, title)` validates selected packs,
+requires all to match the chosen language, and shuffles with injected randomness.
+It never reads the catalog or adds unselected fallback content. Exactly 28
+questions are drawn after deduplication; fewer than 28 yields
+`insufficientQuestions`. There is no arbitrary source-count/question-count cap.
+
+Question identity is preserved, not rewritten to positional IDs:
+
+- Across selected packs, the same question ID with different validated content
+  (including aliases/category/factual sources) is rejected with
+  `conflictingQuestionId`. Select one version, or assign distinct IDs to truly
+  different questions in imported JSON.
+- Equal IDs/content are deduplicated. Actual question text also uses the existing
+  case/diacritic/whitespace normalization to remove repeats with different IDs.
+  This is conservative textual deduplication, not a claim of semantic fact matching.
+- The first eligible occurrence in stable library order wins (bundled catalog,
+  then custom insertion order); no random choice resolves identity conflicts.
+  Its retained provenance is exported. Questions may recur in different games.
+- `attributedCopy` preserves prior `origins`, appending the current source pack's
+  declared metadata when not already represented. Generated authors/license text
+  aggregates selected sources; question origins identify the applicable source
+  declarations instead of assigning CC BY to private imports.
+
+`Preparation` owns source selection, proposal, accepted snapshot, editor draft
+and content revision. It is distinct from `Game`. Initial fixed starters are
+ready without an extra acceptance step; other proposals require explicit
+acceptance. Fixed boards never shuffle. Imported prepared number boards can be
+used unchanged. `validatePlayable` also rejects normalized repeated question text
+before acceptance/start/sheet export; ordinary source banks may contain repeats.
+
+Editing creates an attributed custom copy with a fresh pack ID. The native editor
+changes question text, canonical answer, aliases, category and factual sources;
+number/source initials and ordering; pack ID/title/authors/license. Stable
+question IDs and the pack language/mode are retained; fixed initials/order
+remain authored. Validation uses the same `validatePack`, not a parallel schema.
+All edits invalidate acceptance. Invalid saves retain the draft and previous
+valid proposal. Saved copies and accepted generated packs join the local library;
+different content may not overwrite an existing/bundled pack ID. A duplicate
+import of identical validated content is idempotent. Multi-file import is atomic
+in memory: validate/conflict-check the entire batch before adding anything.
+
+Starting snapshots the accepted pack through `createGame`, then locks preparation
+mutators and removes every editing/import/regeneration control. No win or host
+correction unlocks content. New-game confirmation is required to return to setup.
+Pending file reads carry both import sequence and content revision; later imports,
+selection/editor changes, start and disposal invalidate stale success/failure
+callbacks. Canceling a file chooser is not reported as a successful import.
+
+## Local library, exports and print
+
+`LocalLibrary` owns the storage availability/write-permission boundary. The
+localStorage key `hexy.library.v1` contains:
+
+```json
+{
+  "schemaVersion": 1,
+  "packs": [],
+  "preferences": {
+    "language": "en",
+    "theme": "dark",
+    "setup": {
+      "players": {
+        "A": { "name": "A", "color": "#0891b2" },
+        "B": { "name": "B", "color": "#d97706" }
+      },
+      "language": "en",
+      "mode": "letters",
+      "answerMode": "hosted",
+      "starter": "A",
+      "seconds": 30
+    }
+  }
+}
+```
+
+Pack entries use the existing contract and have unique pack IDs. Preferences
+validate language/theme/modes/starter, nonempty names up to 30 characters,
+six-digit hex colors and integer seconds 1–3,600. Invalid transient setup inputs
+do not replace the last valid stored configuration. No runtime resources, unsaved
+editor drafts, proposals or games enter this record.
+
+Imports, saved copies, accepted generated boards and valid preference changes
+write the complete validated snapshot. The small synchronous, atomic localStorage
+adapter was chosen over an additional database layer; quotas are browser-owned,
+and concurrent-tab merging is not supported. Read/access, malformed/version,
+quota and other write failures have distinct localized feedback. Corrupt/newer
+records block subsequent writes until reload after explicit external repair;
+the app never silently deletes them. Write failure preserves the prior stored
+record and current valid in-memory work. Export JSON, not browser-local data
+alone, is the backup. See README for preservation/retry steps.
+
+`Workspace.excluded` is a session-only set of custom pack IDs. A localized
+two-step confirmation excludes a copy from the **next saved record**, then
+retries the smaller record; canceling leaves persistence unchanged. Each custom
+copy has its own JSON export and explicit re-include/retry control. Filtering
+occurs only at the persistence boundary, never in `Preparation.packs`, selected
+sources, proposal/acceptance, editor drafts or `Game.pack`. Therefore exclusion
+does not invalidate a still-identical selected preparation or unlock a running
+game. Bundled/nonexistent IDs and disposed-workspace requests are ignored.
+Successful exclusion leaves the copy exportable in memory until reload; failed
+writes still leave the old stored record intact. Exclusion flags need not be
+serialized: successfully excluded copies are absent from the saved `packs`
+array. No schema change, content deletion, cap or database migration is involved.
+
+`storageReadUnavailable` distinguishes initial access/read failure from
+`storageUnavailable` after a validated read followed by a write failure. Initial
+read failure keeps writes blocked, including after access is restored or copies
+are excluded. The UI explicitly requires export → enable storage → reload
+(validated read) → reimport; it no longer promises an edit-only retry can save.
+This avoids overwriting unread existing copies. Corrupt/newer-library protection
+is unchanged. Write-access failures can be retried normally because the existing
+library was already read and validated.
+
+`Downloads` owns generated Blob URLs and revokes them on disposal. JSON exports
+validate/reconstruct the pack; filenames sanitize filesystem punctuation without
+changing the ID inside JSON. HTML sheets validate the accepted/played board,
+escape every imported string, require no scripts/fonts/network resources, and
+contain a header plus a row for each question in exact array order:
+cell number, question ID, initial, text, canonical answer, aliases.
+When origins exist, an attribution appendix preserves each source pack's declared
+authors/license with its applicable cell numbers, including original credits
+after an editor changes the custom pack's top-level authors/license.
+Print CSS repeats table headers, avoids splitting ordinary rows, hides explanatory
+screen-only text, and includes no app controls. The application itself is hidden
+when printing: use the downloaded private sheet instead.
+
+Before play, only accepted content can produce a sheet. Editing/selection/
+regeneration removes that availability and invalidates acceptance; previously
+downloaded documents cannot be revoked and must be replaced by the new accepted
+sheet. Fresh copy/generation IDs distinguish snapshots. During play both exports
+use `state.pack` exclusively, preserving exact content after host resets/wins.
+Downloading or changing presentation preserves a typed draft only while the same
+game opportunity remains current; it does not reset deadlines or reveal aliases
+on the shared screen.
 
 ## Game and save
 
@@ -178,7 +320,8 @@ and a focused, visible document. Failed restart attempts give actionable localiz
 feedback beside the readiness controls. New
 game confirmation also invalidates duels while leaving question deadlines
 unchanged. It does not expose host corrections during interruption. Reload
-recovery/storage is deliberately not implemented until a later phase.
+recovery/game storage is deliberately not implemented until phase 4. Phase-3
+custom-pack/settings storage is separate and cannot restore a running game.
 
 Unsent answer text is presentation-only DOM state, not part of the authoritative
 game. Theme/language changes briefly capture and restore it only if the exact

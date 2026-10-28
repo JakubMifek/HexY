@@ -10,6 +10,7 @@ let app;
 let root;
 
 beforeEach(() => {
+  localStorage.clear();
   vi.useFakeTimers();
   vi.setSystemTime(1000);
   root = document.createElement('div');
@@ -143,6 +144,8 @@ test('setup preserves edits through language/theme changes and locks content at 
     'value',
     '<b>Ada</b>',
   );
+  click('#prepare-board');
+  click('#accept-board');
   document.querySelector('form')?.requestSubmit();
   expect(app.state?.config).toMatchObject({
     answerMode: 'automatic',

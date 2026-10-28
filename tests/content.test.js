@@ -1,13 +1,13 @@
 import { expect, test } from 'vitest';
-import { prepareStarter } from '../src/content/catalog.js';
-import { defaultSetup } from '../src/ui/setup.js';
+import { bundledPacks } from '../src/content/catalog.js';
+import { generateNumbers } from '../src/domain/generation.js';
 import { ALPHABETS, acceptsAnswer } from '../src/domain/answers.js';
 import { strings } from '../src/ui/strings.js';
 
 test.each(/** @type {const} */ (['cs', 'en']))(
   'complete original %s starter has fixed labels, unique facts and provenance',
   (language) => {
-    const pack = prepareStarter(defaultSetup(language), () => 0);
+    const pack = bundledPacks()[language === 'cs' ? 0 : 1];
     expect(pack.questions).toHaveLength(28);
     expect(pack.questions.map((q) => q.initial)).toEqual(ALPHABETS[language]);
     expect(new Set(pack.questions.map((q) => q.id)).size).toBe(28);
@@ -31,15 +31,20 @@ test.each(/** @type {const} */ (['cs', 'en']))(
 );
 
 test('number preparation shuffles only its chosen starter and never mutates the fixed pack', () => {
-  const setup = defaultSetup('en');
-  const original = prepareStarter(setup, () => 0);
-  const shuffled = prepareStarter({ ...setup, mode: 'numbers' }, () => 0);
+  const original = bundledPacks()[1];
+  const shuffled = generateNumbers(
+    [original],
+    'en',
+    () => 0,
+    'numbers',
+    'Numbers',
+  );
   expect(shuffled.mode).toBe('numbers');
   expect(shuffled.questions).not.toEqual(original.questions);
   expect(shuffled.questions.map((q) => q.id).sort()).toEqual(
     original.questions.map((q) => q.id).sort(),
   );
-  expect(prepareStarter(setup, () => 0)).toEqual(original);
+  expect(bundledPacks()[1]).toEqual(original);
 });
 
 test('all UI messages exist in both languages', () => {
@@ -50,7 +55,7 @@ test('all UI messages exist in both languages', () => {
 });
 
 test('English B asks about erupted ridge lava, not the volume of the entire oceanic crust', () => {
-  const question = prepareStarter(defaultSetup('en'), () => 0).questions[1];
+  const question = bundledPacks()[1].questions[1];
   expect(question.id).toBe('general-en-01-02');
   expect(question.initial).toBe('B');
   expect(question.text).toBe(

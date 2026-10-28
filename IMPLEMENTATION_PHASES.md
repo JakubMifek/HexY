@@ -70,8 +70,8 @@ solely to obtain a revision without permission.
 | --- | --- | --- | --- | --- |
 | 0 | Instructions and phased plan approved | User review | Cleared | User approved 2026-10-28 |
 | 1 | Tested domain foundation and contracts | 0 | Cleared and pushed: `0155d7c` | [CLEARED](reviews/phase-01.md) |
-| 2 | Playable local quiz with keyboard duels | 1 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-02.md) |
-| 3 | Pack preparation and host answer sheets | 2 cleared | Not started | Not started |
+| 2 | Playable local quiz with keyboard duels | 1 cleared | Cleared and pushed: `fbee41d` | [CLEARED after fixes](reviews/phase-02.md) |
+| 3 | Pack preparation and host answer sheets | 2 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-03.md) |
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Not started | Not started |
 | 5 | General knowledge, Nature, Geography content | 4 cleared | Not started | Not started |
 | 6 | History, Politics, Science content | 5 cleared | Not started | Not started |
@@ -593,5 +593,202 @@ documented Chromium command and `git diff --check`: all passed, including
 Critical coverage: 99.71% lines/statements, 100% functions, 98.25% branches.
 Remaining: 98.78% lines, 98.79% statements, 98% functions, 92.06% branches.
 
-Next action: commit/push phase 2, verify the remote SHA and launch phase 3.
-No public deployment or later-phase feature is claimed.
+Phase 2 committed and pushed as `fbee41da9bb02390a3cbc72e9dca0109b302e4cf`;
+remote `main` SHA verified. No public deployment or later-phase feature claimed.
+
+### Phase 3 starting snapshot
+
+Baseline: `fbee41da9bb02390a3cbc72e9dca0109b302e4cf`. Next action: fresh
+developer implements preparation, validated imports/editor/generation/exports,
+answer sheets and custom-pack/settings storage, with both coverage gates and
+real browser tests. Lock started-game content and preserve all phase-2 flows.
+
+### Phase 3 developer handoff — 2026-10-28
+
+Baseline: `fbee41da9bb02390a3cbc72e9dca0109b302e4cf`. The candidate is
+uncommitted. **Implementation stopped for independent review; not cleared.**
+Coordinator phase-start changes are preserved. No commit, push, deployment,
+dependency installation, nested agent, shared-server change or phase-4 feature
+was performed. `reviews/phase-02.md`, `AGENTS.md` and `REVIEW.md` are unchanged.
+
+Acceptance and evidence:
+
+| Requirement | Implementation / evidence |
+| --- | --- |
+| Both-language/theme host and automatic preparation | Composed setup → source selection → proposal/editor → acceptance → start; `src/ui/{setup,preparation,editor,preparation-strings}.js`. Keyboard focus moves into a new editor and back to acceptance after saving; large labeled file-import target avoids browser-language file-control text. Eight preparation layout/theme journeys plus existing gameplay layouts |
+| Selected-source number generation | Pure `src/domain/generation.js`: 28 distinct normalized question texts, injected shuffle, no catalog fallback, mixed-language/insufficient-content/ID-conflict errors. `tests/preparation.test.js` and actual multi-file browser imports |
+| Fixed authored order and custom copies | `Preparation` owns validated drafts/accepted snapshots; fixed labels/order never shuffle. Question IDs stay stable, original assets remain unchanged. Number/source questions can move. Actual metadata/question/answer/alias/source editing is covered in DOM and Chromium tests |
+| Export/reimport and rights | Existing v1 validator plus optional, documented `origins` attribution extension. Existing packs remain compatible. Every supported pack exports via the same validator; generated and edited round trips retain IDs/order/content/aliases and original plus editor attribution. Conflicting pack IDs never overwrite existing content |
+| Content lock | Start uses a reconstructed accepted pack and locks preparation mutations; all content controls disappear for every game phase, including won. Async imports carry revision/sequence and reject stale results. Existing host corrections remain selecting/won only; reset/recovery-domain tests preserve the original pack |
+| Exact private printable sheet | Accepted or played snapshot only; escaped, self-contained HTML with all 28 row-major cell IDs/question IDs/initials/questions/answers/aliases. Downloads contain no executable imported markup, controls or external fonts. Real downloaded HTML was opened in Chromium, checked row-for-row and printed to PDF; active-screen downloads reveal no aliases or editor |
+| Local library/settings and failures | `LocalLibrary` validates the complete `hexy.library.v1` record before atomic localStorage replacement. Read/version/corruption failures block writes; quota/access failures preserve stored and in-memory work. Imports, saved copies, accepted generated boards and valid preferences persist. Explicit cs/en errors and JSON backup instructions; DOM/Chromium tests exercise unavailable, corrupt, incompatible and full storage |
+| Existing behavior/lifecycle | All prior domain/duel/focus-rearming/draft tests retained. Downloads now share opportunity-scoped draft preservation without touching deadlines. Aborted view handlers, stale file reads and Blob URL disposal are covered. No gameplay recovery/controller/touch implementation |
+
+Relevant changed/new files (complete hashes are in
+`.artifacts/phase-03-snapshot.sha256`):
+
+- `src/app.js`, `src/workspace.js`, `src/style.css`, `src/messages.js`.
+- `src/domain/{types,packs,generation,preferences}.js`,
+  `src/runtime/{preparation,library,downloads}.js`, `src/content/catalog.js`.
+- `src/ui/{setup,strings,preparation,preparation-strings,editor,answer-sheet}.js`.
+- `tests/{content,ui,preparation,library,workspace}.test.js`,
+  `browser/helpers.js`, `browser/preparation{,-storage,-visual}.spec.js`,
+  `browser/preparation-helpers.js`, `scripts/check-coverage.js`.
+- README, contracts, factual PLAN updates and this handoff. The two bundled
+  question JSON files are unchanged; content remains 2 packs / 56 starters.
+
+Exact final verification:
+
+- `npx prettier --write src tests browser/preparation*.js README.md docs/contracts.md PLAN.md IMPLEMENTATION_PHASES.md`:
+  formatted only the named implementation/test/progress-document scope.
+- `npm run check`: passed format, ESLint ceilings, strict JSDoc types,
+  **131 tests in 13 files**, separate measured coverage gates and Vite build.
+- `LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:browser`:
+  **55 Chromium journeys passed**, including all 35 phase-2 journeys and
+  20 preparation/storage/print/visual journeys. Browser-managed build/preview
+  ran sequentially after check, on existing port 4182; no dev watcher/sysctl
+  change, browser/library reinstall or competing build writer.
+- `git diff --check`: passed. Logs: `.artifacts/phase-03-check.log`,
+  `.artifacts/phase-03-browser.log`; report `.artifacts/browser-report/index.html`.
+
+Coverage on this candidate:
+
+| Group | Lines | Statements | Functions | Branches |
+| --- | --- | --- | --- | --- |
+| Critical (20 files) | 2052/2058 = **99.71%** | 2077/2083 = **99.71%** | 140/140 = **100%** | 585/599 = **97.66%** |
+| Remaining (15 files) | 1771/1785 = **99.22%** | 1775/1789 = **99.22%** | 67/68 = **98.53%** | 255/275 = **92.73%** |
+
+All 35 runtime JS files are included, including any untested paths. Only the
+type-only `src/domain/types.js` is excluded; JSON data/generated build outputs
+are not runtime JS. The checker now explicitly includes `workspace.js` in the
+critical group, alongside `app.js`, all runtime adapters and all domain modules.
+Remaining membership is catalog, entry point, messages and every UI module
+(answer-sheet, board, dom, editor, game, header, host, preparation,
+preparation-strings, round, setup, strings). Per-file/group membership and counts
+are in the final check log and `coverage/coverage-summary.json`; high core
+coverage cannot hide UI failures. Browser results are not statement coverage.
+Negative enforcement checks zeroed each scope separately and omitted
+`workspace.js`: each correctly exited 1; the original report was restored.
+Evidence: `.artifacts/phase-03-coverage-enforcement.log`.
+
+Inspected local artifacts (not publication):
+
+- `.artifacts/playwright/preparation-visual-prepara-3947d-ch-targets-bilingual-editor/preparation.png`:
+  Czech dark portrait preparation, spaced touch targets, visible acceptance,
+  private-sheet guidance and start after preparation.
+- `preparation-visual-prepara-d204f-ch-targets-bilingual-editor/editor-viewport.png`
+  and `preparation-visual-prepara-55ef0-ch-targets-bilingual-editor/editor-viewport.png`
+  beneath the same artifact directory: English light editor, readable long text,
+  preserved stable identity and visible keyboard focus.
+- `preparation-{en-fixed-custo-e55a4,cs-fixed-custo-62048}-print-mapping-and-game-lock/`:
+  edited and played JSON/HTML, `answer-sheet-print.png`, `answer-sheet.pdf`.
+  Both 28-row sheets were visually inspected; imported markup is literal text.
+- `preparation-multi-source-n-455d9-hts-through-edited-reimport/`:
+  `generated.json`, `edited-numbers.json`, `numbers-sheet.html`.
+- `preparation-storage-{quota--75171,unavai-d3399}-ever-destroys-a-custom-pack/unsaved-copy.json`:
+  successful real downloads despite failed storage.
+- `.artifacts/phase-03-artifacts.json` inventories the final browser artifacts;
+  `.artifacts/phase-03-snapshot.sha256` is generated after all source/docs writing.
+
+Design decisions / limitations:
+
+- `App` retains the authoritative game/lifecycle; `Workspace` handles preparation
+  I/O and feedback, `Preparation` owns preparation invariants, and pure generation
+  reuses normalization/validation. Resource-owning library/download classes are
+  concrete; no framework, generic form/state-machine system or runtime dependency.
+  No metric exceptions or new input/resource caps.
+- localStorage was chosen for a small static library and atomic whole-record
+  writes. Browser quotas vary; exports are the backup. One editing tab is
+  supported, not concurrent-tab merging. Corrupt data requires preserving and
+  repairing/removing it externally before reload; the app never silently repairs
+  or replaces it.
+- Text deduplication is deterministic normalization, not semantic fact analysis.
+  Source conflicts are rejected rather than silently reidentified/relicensed.
+  Optional v1 origins are backward-compatible for old data, but pre-phase-3
+  readers discard the extension; use this version for rights-preserving editing.
+- Editor drafts/proposals and games are not recovered on reload. Downloaded
+  sheets cannot be revoked; changes invalidate acceptance/availability and require
+  a newly downloaded sheet. Browser print/PDF and emulated tablet layout were
+  verified, not a physical printer/tablet/Xbox or screen-reader device.
+- Full content, recovery, remapping/gamepads/touch buzzers, name clearance and
+  deployment remain later-phase scope. There is no independent phase-3 clearance
+  or post-review coordinator verification yet.
+
+The sheet also prints original/source attribution grouped by applicable cells,
+so replacing a custom copy's top-level author/license does not strip its original
+credits. A storage reread revokes old write permission before validation; a newly
+corrupt record cannot be overwritten using a previously successful read.
+
+Next action: independent reviewer inspects this frozen candidate and complete
+manifest under `REVIEW.md`. Return concrete findings to this same developer;
+only the coordinator may mark clearance after review and post-review checks.
+
+### Phase 3 independent review
+
+Reviewer `7fa31573-f8b3-496d-9e4a-4f196ada4c13` returned CHANGES REQUIRED;
+report: `reviews/phase-03.md`. Main workflows and automated gates passed, but:
+
+- P3-R1: no way to reduce an oversized custom library after a real quota failure.
+- P3-R2: read-access failure advertises a retry that cannot save.
+
+Next action: same developer implements safe, usable recovery and regression
+evidence, then same-reviewer re-review. No phase-3 commit/push or progression yet.
+
+### Phase 3 storage findings — developer re-review handoff
+
+P3-R1 and P3-R2 are implemented; **not cleared, edits stopped for the same
+reviewer** `7fa31573-f8b3-496d-9e4a-4f196ada4c13`.
+The initial review and original handoff remain historical evidence. Developer
+responses and reproductions are appended to `reviews/phase-03.md`.
+
+- P3-R1: explicit per-custom-copy export, confirmed exclusion from the next local
+  save, cancellation and re-inclusion/retry. Filtering affects persistence only;
+  in-memory copies, selected/accepted preparation and locked gameplay are
+  unchanged. Successful saves omit excluded copies on reload; failed saves
+  preserve the old stored record. No bundled deletion, arbitrary cap, schema
+  change or new database. Real 6 MiB provenance-note quota failures in Chromium
+  recover by excluding the exported copy and reloading the unchanged normal pack.
+- P3-R2: distinct initial-read denial guidance in cs/en requires export, enabled
+  storage, validated reload and reimport. It no longer advertises impossible
+  edit-only retries. Both-language tests restore access, verify unread records
+  remain unchanged during retries, and complete the documented recovery.
+
+Final sequential commands:
+`TMPDIR="$PWD/.artifacts" npm run check`,
+`LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:browser`,
+`git diff --check`: all passed. **134 unit/DOM tests**, **59 Chromium journeys**,
+lint/format/types/build and both coverage groups. Logs:
+`.artifacts/phase-03-storage-fixes-check.log` and
+`.artifacts/phase-03-storage-fixes-browser.log`.
+
+| Group | Lines | Statements | Functions | Branches |
+| --- | --- | --- | --- | --- |
+| Critical (20 files) | 2075/2081 = 99.71% | 2100/2106 = 99.72% | 141/141 = 100% | 597/611 = 97.71% |
+| Remaining (16 files) | 1868/1882 = 99.26% | 1872/1886 = 99.26% | 69/70 = 98.57% | 270/290 = 93.10% |
+
+All 36 runtime JS files are included; only type-only `domain/types.js` is
+excluded. New `ui/library.js` is remaining UI, while filtering remains in critical
+`workspace.js`. No metric exceptions or runtime dependencies.
+
+Changed finding-specific scope and exact artifact paths are in the appended
+review response. The complete candidate manifest is
+`.artifacts/phase-03-snapshot.sha256`, regenerated after all writing; final browser
+evidence is inventoried in `.artifacts/phase-03-artifacts.json`.
+Initial reviewer probes, phase-2 history, instructions and bundled JSON are
+preserved. No installs, other agents, commits/pushes or deployment. Running-game
+recovery remains phase 4; exclusion is not gameplay editing or an unlock.
+
+Next action: same-reviewer re-review, followed only after clearance by the
+coordinator's post-review gates. This response does not clear either finding.
+
+### Phase 3 clearance and post-review verification
+
+Same independent reviewer cleared both storage findings without new issues or
+metric exceptions. Initial findings, fixes and final outcome are preserved in
+`reviews/phase-03.md`. Coordinator verified all frozen hashes, then sequentially
+reran full `npm run check`, the documented Chromium suite and `git diff --check`.
+All passed: 134 tests, 59 browser journeys, format/lint/types/build and both
+coverage gates. No code changed after re-review.
+
+Next action: commit/push phase 3 and verify the remote SHA before phase 4.
+No running-game recovery, gamepad/touch support or public deployment is claimed.

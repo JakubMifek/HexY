@@ -17,6 +17,7 @@ let failed = false;
 for (const file of files) {
   const group =
     file === 'app.js' ||
+    file === 'workspace.js' ||
     file.startsWith('domain/') ||
     file.startsWith('runtime/')
       ? 'critical'

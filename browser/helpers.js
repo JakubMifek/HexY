@@ -27,6 +27,10 @@ export async function start(page, options = {}) {
   await page.locator('#starter').selectOption(starter);
   await page.locator('#nameA').fill('Ada');
   await page.locator('#nameB').fill('Boris');
+  if (mode === 'numbers') {
+    await page.locator('#prepare-board').click();
+    await page.locator('#accept-board').click();
+  }
   await page.locator('#start').click();
   await phase(page, 'selecting');
 }

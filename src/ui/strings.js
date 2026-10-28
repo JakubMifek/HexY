@@ -25,10 +25,11 @@ export const strings = {
     hosted: 'Spoken · host judges',
     automatic: 'Typed · automatic check',
     content: 'Question language',
-    starterPack: 'General knowledge · starter pack 01',
+    starterPack:
+      'Two bundled general-knowledge starters. Choose or import your question content below.',
     start: 'Start game',
     limit:
-      'Local play only. Reload loses this game. Two starter packs; editor, answer sheets, saving and controllers come later.',
+      'Local play only. Custom packs and settings can be saved here, but reload still loses the running game. Controllers and game recovery come later.',
     rules:
       'Wrong first answers do not end the turn. After timeout or give-up, the opponent has one untimed attempt. Black fields open a keyboard duel.',
     locked: 'Questions and placement are locked for this game.',
@@ -115,10 +116,11 @@ export const strings = {
     hosted: 'Ústní · hodnotí hostitel',
     automatic: 'Psané · automatická kontrola',
     content: 'Jazyk otázek',
-    starterPack: 'Všeobecné znalosti · úvodní sada 01',
+    starterPack:
+      'Dvě vestavěné úvodní sady všeobecných znalostí. Níže vyberte nebo importujte své otázky.',
     start: 'Spustit hru',
     limit:
-      'Pouze místní hra. Obnovením stránky se hra ztratí. Dvě úvodní sady; editor, list odpovědí, ukládání a ovladače přijdou později.',
+      'Pouze místní hra. Vlastní sady a nastavení lze uložit, ale obnovením stránky se rozehraná hra stále ztratí. Ovladače a obnova hry přijdou později.',
     rules:
       'Chybná první odpověď tah neukončí. Po vypršení času nebo vzdání má soupeř jeden pokus bez časového limitu. Černá pole otevírají rozstřel na klávesnici.',
     locked: 'Otázky a jejich umístění jsou pro tuto hru uzamčené.',

@@ -23,8 +23,9 @@ export function defaultSetup(language) {
 }
 
 /** @param {import('./strings.js').Texts} t @param {Setup} settings
- * @param {(value: Setup) => void} start @param {AbortSignal} signal */
-export function setupView(t, settings, start, signal) {
+ * @param {(value: Setup) => void} start @param {AbortSignal} signal
+ * @param {() => void} changed @param {HTMLElement} preparation */
+export function setupView(t, settings, start, signal, changed, preparation) {
   const form = document.createElement('form');
   form.noValidate = true;
   form.className = 'setup panel';
@@ -40,12 +41,16 @@ export function setupView(t, settings, start, signal) {
     element('p', t.colors, { class: 'muted' }),
     element('p', t.starterPack),
     element('p', t.rules),
+    preparation,
     submit,
     element('p', t.limit, { class: 'muted' }),
   );
-  form.addEventListener(
+  grid.addEventListener(
     'input',
-    () => Object.assign(settings, readSetup(form)),
+    () => {
+      Object.assign(settings, readSetup(form));
+      changed();
+    },
     { signal },
   );
   form.addEventListener(

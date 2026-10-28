@@ -2,7 +2,7 @@ import { createGame, transition } from './domain/game.js';
 import { randomStarter } from './domain/config.js';
 import { DomainError } from './domain/errors.js';
 import { message } from './messages.js';
-import { prepareStarter } from './content/catalog.js';
+import { Workspace } from './workspace.js';
 import { RoundClock } from './runtime/clock.js';
 import { DuelKeyboard } from './runtime/keyboard.js';
 import { element } from './ui/dom.js';
@@ -32,6 +32,13 @@ export class App {
     this.clock = clock;
     this.random = random;
     this.sessionId = sessionId;
+    this.workspace = new Workspace(random, sessionId, () =>
+      this.renderPresentation(),
+    );
+    const preferences = this.workspace.preferences;
+    this.settings = preferences.setup;
+    this.language = preferences.language;
+    this.theme = preferences.theme;
     this.timer = new RoundClock(
       clock,
       (state) =>
@@ -55,7 +62,8 @@ export class App {
   start(settings) {
     if (this.disposed) return;
     this.guard(() => {
-      const pack = prepareStarter(settings, this.random);
+      this.workspace.model.configure(settings);
+      const pack = this.workspace.model.packForStart();
       this.state = createGame(
         pack,
         {
@@ -76,8 +84,11 @@ export class App {
         this.sessionId(),
       );
       this.settings = settings;
+      this.workspace.model.lock();
+      this.savePreferences();
       this.feedback = {};
       this.render();
+      this.root.querySelector('.game')?.scrollIntoView({ block: 'start' });
       this.timer.bind(this.state);
     });
   }
@@ -137,11 +148,16 @@ export class App {
 
   /** @param {string} language @param {string} theme */
   changePresentation(language, theme) {
+    this.language = language === 'cs' ? 'cs' : 'en';
+    this.theme = theme;
+    this.savePreferences();
+    this.renderPresentation();
+  }
+
+  renderPresentation() {
     const opportunity = this.state;
     const previous = this.root.querySelector('#answer');
     const draft = previous instanceof HTMLInputElement ? previous.value : '';
-    this.language = language === 'cs' ? 'cs' : 'en';
-    this.theme = theme;
     this.render();
     const answer = this.root.querySelector('#answer');
     if (this.state === opportunity && answer instanceof HTMLInputElement) {
@@ -180,9 +196,17 @@ export class App {
           signal,
         ),
       );
+      main.append(this.workspace.view(signal, state.pack));
     } else
       main.append(
-        setupView(t, this.settings, (settings) => this.start(settings), signal),
+        setupView(
+          t,
+          this.settings,
+          (settings) => this.start(settings),
+          signal,
+          () => this.setupChanged(),
+          this.workspace.view(signal, null),
+        ),
       );
     this.root.replaceChildren(
       header,
@@ -230,8 +254,27 @@ export class App {
       this.timer.dispose();
       this.keyboard.bind(null);
       this.state = null;
+      this.workspace.model.unlock();
       this.feedback = {};
       this.render();
+    });
+  }
+
+  setupChanged() {
+    const changed = this.workspace.model.configure(this.settings);
+    this.savePreferences();
+    if (changed) this.render();
+    else
+      this.root
+        .querySelector('.library-status')
+        ?.replaceWith(this.workspace.statusView());
+  }
+
+  savePreferences() {
+    this.workspace.savePreferences({
+      language: this.language,
+      theme: this.theme,
+      setup: this.settings,
     });
   }
 
@@ -254,6 +297,7 @@ export class App {
     this.keyboard.dispose();
     this.viewListeners.abort();
     this.dialog?.close();
+    this.workspace.dispose();
     this.root.replaceChildren();
   }
 }

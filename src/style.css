@@ -38,6 +38,108 @@ input,
 select {
   font: inherit;
 }
+textarea {
+  font: inherit;
+  background: var(--surface);
+  color: inherit;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 0.5rem;
+  min-height: 80px;
+  width: 100%;
+  resize: vertical;
+}
+.workspace {
+  margin-top: 1.5rem;
+}
+.library-management:empty {
+  display: none;
+}
+.library-management {
+  margin-block: 1rem;
+  overflow-wrap: anywhere;
+}
+.library-management article {
+  border-top: 1px solid var(--line);
+  padding-block: 0.75rem;
+}
+.library-management article > button {
+  margin: 0.35rem;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+.editor > button {
+  margin: 0.4rem;
+}
+.file-import {
+  position: relative;
+  display: inline-flex;
+  padding: 0.65rem 1rem;
+  min-height: 44px;
+  background: var(--button);
+  color: var(--button-text);
+  border-radius: 9px;
+  cursor: pointer;
+  font-weight: 650;
+}
+.file-import:focus-within {
+  outline: 3px solid var(--focus);
+  outline-offset: 4px;
+}
+.file-import input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  min-height: 0;
+  opacity: 0;
+  padding: 0;
+}
+.pack-sources {
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+.pack-sources label {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 44px;
+  overflow-wrap: anywhere;
+}
+.pack-sources input {
+  flex-shrink: 0;
+}
+.preparation,
+.editor {
+  margin-block: 1rem;
+}
+.preparation > *,
+.editor > * {
+  margin-block: 0.75rem;
+}
+.provenance {
+  grid-column: 1 / -1;
+  overflow-wrap: anywhere;
+}
+.proposal li,
+.proposal h3,
+.library-status,
+.proposal p {
+  overflow-wrap: anywhere;
+}
+summary {
+  min-height: 44px;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+@media print {
+  #app {
+    display: none;
+  }
+}
 button,
 select,
 input:not([type='checkbox']) {
