@@ -20,14 +20,32 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: phase 7 is independently cleared with passing post-review
-checks; final content delivery is next.**
+**Current stage: plan finished by owner decision; phase 8 accepted for private
+delivery, with public-release work retained as follow-ups.**
+On 2026-10-29 the owner instructed: "commit and push. keep these as followup work.
+Plan is finished". This explicitly closes the current plan and authorizes delivery
+without claiming the original public-release gate passed. The independent review
+found no implementation defects; its historical BLOCKED verdict is preserved.
+See the [follow-up register](docs/release-readiness.md#follow-up-work).
 The requested private automatic-main Tailscale preview is now operational:
 actual HTTPS and automatic-after-push updates were verified without disrupting
 an open game. This is not phase-8 public-release clearance. See
 `reviews/phase-07.md` for the final source audit and verification evidence.
-All 36 packs / 1,008 entries are independently cleared. Phase 8 has not started.
-Physical Xbox/tablet checks remain pending for the phase-8 release gate.
+All 36 packs / 1,008 entries are independently cleared. The owner chose to keep
+the preview private and retain HexY pending a proper conflict assessment.
+The owner authorized a future limited initial release with controller/tablet
+support explicitly unverified/experimental and the stated browser/accessibility
+gaps. This does not claim physical Xbox/tablet, human screen-reader, Safari/WebKit
+or remote Windows client verification, or authorize publication.
+The [phase-8 review](reviews/phase-08.md) found no implementation defects;
+public-hosting evidence and naming assessment remain future publication gates,
+not blockers to the owner-authorized private delivery.
+The [release decision brief](docs/release-readiness.md) records concrete
+Hexy-name uses and a potentially relevant EU class-9 record reported by TMview,
+with register/scope limitations; naming is not cleared. It also proposes an
+isolated public hostname/path for approval without exposing the private preview.
+The [phase-8 handoff](docs/phase-08-handoff.md) accounts for all acceptance
+criteria and distinguishes software evidence from blocked public/human gates.
 The name, broad visual direction, logo concept, stack, core rules, host overrides
 and recovery policy are selected. The user requested iterative development with
 a developer session and independent usability/readability/OOP/design-pattern

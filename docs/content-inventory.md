@@ -35,7 +35,8 @@ Each file is `src/content/<pack-id>.json`. Its question IDs run from
 `ALPHABETS` in `src/domain/answers.js` and `validatePack`. The catalog preserves
 the two starter positions for backwards-compatible initial preparation.
 All 36 packs can be played unchanged as letters or selected as number sources.
-The final inventory quota is present, not independently cleared or released.
+The final inventory quota and all entries are independently cleared. This does
+not constitute naming, hardware or public-release clearance.
 
 ## Authorship and review method
 

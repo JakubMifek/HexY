@@ -8,6 +8,10 @@ See [phase status](IMPLEMENTATION_PHASES.md) and [contracts](docs/contracts.md).
 The [phase-6 review](reviews/phase-06.md) records editorial coverage, corrections
 and independent/post-review verification. See the
 [phase-7 review](reviews/phase-07.md) for final content clearance.
+The owner has **closed the implementation plan and accepted private delivery**.
+The [phase-8 review](reviews/phase-08.md) found no implementation defects.
+Public release remains deferred; naming, public hosting and remaining device/
+browser/accessibility verification are [follow-up work](docs/release-readiness.md#follow-up-work).
 
 ## Play
 
@@ -49,7 +53,8 @@ Use Tab and Enter/Space for controls. Arrow keys move through selectable fields 
 row-major order. Ownership has A/B marks, black fields retain identifiers with ×,
 and winning connections have dashed outlines. Questions remain below the board;
 the question panel scrolls into view when necessary. Desktop/laptop and tablet
-layouts are supported, including separate A/B touch buzzers during duels.
+layouts are implemented, including separate A/B touch buzzers during duels;
+physical tablet support remains unverified/experimental.
 
 **A successfully saved game recovers on reload, including its original deadline.**
 Expired initial answers become the opponent's single opportunity. Selecting and
@@ -59,8 +64,8 @@ Static downloaded content is inspectable: this is friendly local play, not anti-
 
 ### Local input compatibility
 
-Supported software setup: two players share a desktop/laptop keyboard, or a
-multi-touch tablet with one finger each on the separate A/B buzzers. A host uses
+Desktop/laptop setup: two players share a keyboard. The unverified/experimental
+tablet setup uses one finger each on the separate A/B buzzers. A host uses
 the ordinary judging controls. Both players should preferably use the same input
 type. Tablet portrait and landscape layouts allow vertical scrolling; phones
 are not supported.
@@ -94,9 +99,13 @@ are not supported.
   fairness is not promised. There is no flashing animation or sound cue.
 
 Chromium software behavior is tested with real UI/engine, native emulated
-multi-touch and mocked Gamepad boundaries. **Physical Xbox/tablet and other
-browser verification remain pending for phase 8**; screenshots/emulation are not
-hardware verification.
+multi-touch and mocked Gamepad boundaries; selected real journeys also pass in
+Firefox. **Controller/tablet support is unverified/experimental.** The owner
+authorized a future limited initial release with these limitations, not a claim
+of hardware verification or permission to publish. Human screen-reader,
+Safari/WebKit and remote Windows Edge verification are also unavailable.
+Screenshots/emulation and headless Firefox do not establish physical-device
+support. See [release readiness and decisions](docs/release-readiness.md).
 
 ## Prepare packs and private answer sheets
 
@@ -254,14 +263,15 @@ See [format and duplicate-resolution rules](docs/contracts.md).
 
 ## Content catalog
 
-The phase-7 candidate contains **36 packs / 1,008 entries**: two fixed 28-question
+The independently cleared library contains **36 packs / 1,008 entries**: two fixed 28-question
 packs per category and language for General knowledge, Nature, Geography
 and travel, History, Politics and diplomacy, Science and technology, Programming,
 Arts and literature, and Entertainment.
 The 24 reviewed phase-6 packs remain byte-for-byte unchanged, including
 the original starters `general-cs-01` and `general-en-01`.
-Phase 7 adds the final twelve packs / 336 questions; all new entries await
-independent factual and linguistic review. Each pack also works as a
+Phase 7 added the final twelve packs / 336 questions, including the reviewed
+P7-01 surname-scope correction. Every entry has passed independent factual and
+linguistic review; earlier findings and re-reviews remain recorded. Each pack also works as a
 selected number-game source. Questions can recur across games; neither filtering
 nor generation promises permanent novelty.
 
@@ -324,6 +334,21 @@ completion. Browser reports, screenshots and failure traces are in
 started manually. Browser tests use Playwright's clock and seeded randomness
 at browser boundaries, never a substituted game engine.
 
+The portable cross-engine subset uses the same real game, duel, recovery,
+keyboard, layout and accessibility journeys:
+
+```sh
+PLAYWRIGHT_BROWSERS_PATH=.artifacts/browsers TMPDIR="$PWD/.artifacts" PLAYWRIGHT_SKIP_BROWSER_GC=1 npx playwright install firefox webkit
+npx playwright test --config playwright.cross-browser.config.js --project firefox
+npx playwright test --config playwright.cross-browser.config.js --project webkit
+```
+
+Only run an engine once its required libraries are available through an approved
+local/environment setup. The separate configuration intentionally excludes
+Chromium-only CDP multi-touch and PDF generation, rather than skipping failures
+or claiming those APIs exist in other engines. Full Chromium remains mandatory.
+See the [phase-8 handoff](docs/phase-08-handoff.md) for what actually ran here.
+
 ### Coverage gates
 
 `vitest.config.js` includes **all `src/**/*.js`**, including untested files;
@@ -361,8 +386,9 @@ journeys is **not** counted as statement coverage. Phase 1 did not measure cover
   journeys, including both languages, themes, answer modes and board modes.
 
 No physical Xbox/tablet or screen-reader-device verification is claimed.
-Name/trademark clearance, complete content inventory and public hosting
-remain later-phase work. Passing tests alone never clears a phase.
+The complete content inventory is independently cleared. Naming decisions,
+physical-device/assistive-technology evidence and approved public hosting remain
+release gates. Passing tests alone never clears a phase.
 
 ## Private preview operations
 
@@ -384,4 +410,8 @@ do not relicense those pages. Imported third-party content keeps its declared
 rights. Dependencies retain their licenses and notices.
 
 The hexagon/Y logo and SVG artwork are original; no television assets are used.
-“HexY” name/trademark clearance remains pending.
+See [rights, asset origins and dependency notices](NOTICE.md).
+The built HTML includes MIT and CC BY attribution notices, including Vite's
+bundled modulepreload helper. Preserve that document with its matching assets
+when distributing `dist/`. “HexY” name/trademark clearance remains pending;
+existing game/software uses require the [release naming decision](docs/release-readiness.md).

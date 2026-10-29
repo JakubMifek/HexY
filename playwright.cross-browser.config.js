@@ -1,0 +1,27 @@
+import { defineConfig } from '@playwright/test';
+import base from './playwright.config.js';
+
+export default defineConfig({
+  ...base,
+  outputDir: '.artifacts/playwright-cross-browser',
+  reporter: [
+    ['list'],
+    [
+      'html',
+      { outputFolder: '.artifacts/cross-browser-report', open: 'never' },
+    ],
+  ],
+  testMatch: [
+    'game.spec.js',
+    'duels.spec.js',
+    'review-fixes.spec.js',
+    'resilience.spec.js',
+    'recovery-review.spec.js',
+    'visual.spec.js',
+    'release.spec.js',
+  ],
+  projects: [
+    { name: 'firefox', use: { browserName: 'firefox' } },
+    { name: 'webkit', use: { browserName: 'webkit' } },
+  ],
+});

@@ -1,10 +1,10 @@
 # Per-entry factual source ledger — phases 5–7
 
-The full phase-7 candidate contains **36 packs / 1,008 entries**. The first
+The cleared phase-7 library contains **36 packs / 1,008 entries**. The first
 24 packs / 672 entries retain their exact independently cleared phase-6 files.
 The twelve additional Programming, Arts/literature and Entertainment packs
-were individually independently reviewed: **335 passed; P7-01 requires
-correction re-review**. The initial finding and developer response are recorded
+were individually independently reviewed: **335 passed initially; P7-01 passed
+correction re-review**. The original finding, correction and clearance are recorded
 in [the phase-7 review](../reviews/phase-07.md).
 Hashes identify exact JSON bytes; they are not evidence of factual truth.
 

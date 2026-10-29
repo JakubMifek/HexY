@@ -74,10 +74,10 @@ solely to obtain a revision without permission.
 | 3 | Pack preparation and host answer sheets | 2 cleared | Cleared and pushed: `9dfa3bc` | [CLEARED after fixes](reviews/phase-03.md) |
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared and pushed: `92659db` | [CLEARED after fixes](reviews/phase-04.md) |
 | 5 | General knowledge, Nature, Geography content | 4 cleared | Cleared and pushed: `7e01b7f` | [CLEARED after fixes](reviews/phase-05.md) |
-| Private preview | Docker/Tailscale automatic pushed-main interlude | User-approved arrangement | Activation blocked by PV-A1; corrective candidate frozen | Reopened; pending same-reviewer re-review |
+| Private preview | Docker/Tailscale automatic pushed-main interlude | User-approved arrangement | Cleared, active private HTTPS; automatic pushed-main updates verified | [CLEARED and operational](reviews/private-preview.md#operational-sign-off--private-preview-complete) |
 | 6 | History, Politics, Science content | 5 cleared | Cleared and pushed: `d717e2d` | [CLEARED after fixes](reviews/phase-06.md) |
-| 7 | Programming, Arts, Entertainment content | 6 cleared | Cleared; commit/push pending | [CLEARED after correction](reviews/phase-07.md) |
-| 8 | Integrated release and approved deployment | 7 cleared | Not started | Not started |
+| 7 | Programming, Arts, Entertainment content | 6 cleared | Cleared and pushed: `aa465b9` | [CLEARED after correction](reviews/phase-07.md) |
+| 8 | Integrated release and approved deployment | 7 cleared | Plan finished by owner; accepted for private delivery with release follow-ups | [No implementation defects; original public gate blocked](reviews/phase-08.md) |
 
 For each active phase, maintain a short handoff here: current snapshot, changed
 files, commands/results, report link, unresolved findings, decisions and exact
@@ -1289,3 +1289,88 @@ New manifests: `.artifacts/phase-07-review-fixes-snapshot.sha256` and
 unchanged. Owned 4182 preview stopped; live services untouched.
 **Frozen for reviewer `9027f5f9-bb72-48b3-88f6-1b1e85776bed`; not cleared.**
 Developer stops writing; coordinator post-review checks still follow re-review.
+
+### Phase 8 release-readiness developer handoff — 2026-10-29
+
+Phase 7 was independently cleared, post-review verified and delivered as
+`aa465b980eb0ec17d53fa89be8db1806ed2556d0`; that revision was already served by
+the approved private preview when this bounded phase-8 work began.
+The [phase-7 report](reviews/phase-07.md) preserves the actual clearance.
+
+Current candidate fixes missing license/attribution notices in the built HTML,
+corrects stale editorial/private-preview status summaries, adds five real-browser
+release regressions and a portable cross-engine configuration, and documents
+every PLAN acceptance criterion and the concrete remaining owner decisions.
+No gameplay/runtime/content JSON/dependency/deployment code changed. Every
+cleared pack and all 1,008 source-ledger IDs/hashes retain exact baseline bytes.
+
+Sequential full gates pass: **286 tests / 19 files**, **211 Chromium journeys**,
+**68 portable Firefox journeys**, formatting/lint/types/build, both coverage
+groups across all 47 runtime files, ten negative coverage probes and whitespace.
+Exact fractions remain 2831/2842 L, 2860/2871 S, 211/211 F, 880/901 B critical;
+2548/2558 L, 2587/2597 S, 85/87 F, 360/376 B remaining. No metric exception.
+Root and `/hexy/` production output, existing strict build validation, real local
+subpath refresh, 52 actual PDF outputs and representative UI visuals verified.
+
+Firefox 157 was made available using local browser/library extraction only.
+WebKit's actual missing-library launch failure is documented, not counted as a
+pass. No physical Xbox/tablet, human screen-reader or remote Windows Edge claim.
+Actual private HTTPS/version/assets/cache policy and existing service status
+were read without changing them; this is not public-deployment evidence.
+
+Naming research found existing Hexy! / hexy.games / Hexy Studio uses and an
+EUIPO HEXY application `017672437`, displayed by EUIPO-maintained TMview as
+registered for GPS Tuner Systems Kft., classes 9/12/25. Detailed goods/current
+authoritative register status could not be retrieved; no infringement or
+clearance opinion. Owner must decide naming assessment/alternative, device
+verification or explicit release limitations, and an exact public hostname/
+isolated-serving proposal. No Funnel, public exposure or shared-service changes.
+
+[Full acceptance/evidence handoff](docs/phase-08-handoff.md) and
+[bounded owner decision brief](docs/release-readiness.md).
+Snapshot `.artifacts/phase-08-snapshot.sha256` includes all changed/new nonignored
+files and coordinator edits. Owned 4182 test resources closed; live services
+untouched. No commit/push/deploy. **Developer stops for independent cross-phase
+review. Phase 8 remains BLOCKED for release**, even if the software candidate is
+accepted. Coordinator post-review checks and the missing owner/public/human
+gates must not be silently waived.
+
+### Phase 8 independent review and owner decisions
+
+Reviewer `e836edad-5c5a-40f3-b644-6c5c1fad4846` completed the fresh integrated
+review with verdict **BLOCKED**, no implementation findings and no metric
+exceptions. [Report](reviews/phase-08.md). The eleven-file candidate and full
+174-file checkout hashes matched before/after review. Independent verification
+passed 286 tests, 211 Chromium journeys, 68 Firefox journeys, both coverage gates,
+52 actual suite PDFs and additional root/subpath interactions.
+
+During the freeze the owner chose to keep HexY pending proper conflict
+assessment, retain private-only hosting with no public hostname selected, and
+authorize a future limited initial release with controller/tablet support
+unverified/experimental and the stated browser/accessibility gaps. That scope
+decision is not hardware verification or publication authorization.
+
+After review stopped, the coordinator persisted its report and reconciled only
+decision/status documentation. The original frozen manifests and historical
+developer evidence remain intact. No application, test, content, configuration
+or deployment changes followed review. No commit/push/deploy or phase clearance.
+Final coordinator post-review gates remain due on the eventual cleared snapshot;
+they were not represented as completed while the release gate is blocked.
+
+Next action: retain the existing private preview. Public release can resume only
+after a proper naming assessment and specific owner approval of public hosting,
+followed by actual public acceptance, independent review and post-review gates.
+
+### Owner-authorized plan closure — 2026-10-29
+
+The owner instructed: "commit and push. keep these as followup work. Plan is
+finished". This supersedes the earlier instruction to hold delivery while the
+public-release gate was blocked. The current plan is finished and accepted for
+private delivery; the reviewer verdict is not retroactively changed to CLEARED.
+No implementation defects remain. Naming assessment, concrete public hosting
+and its acceptance evidence, and unverified device/browser/accessibility work
+are retained in the [follow-up register](docs/release-readiness.md#follow-up-work).
+No new public exposure or shared-server changes are authorized.
+
+Coordinator final verification and delivery results are recorded in
+[the phase-8 report](reviews/phase-08.md#owner-authorized-closure-and-delivery).
