@@ -73,6 +73,52 @@ test('new multi-pack inventory retains one accepted starter on setup changes', (
 });
 
 test.each(/** @type {const} */ (['cs', 'en']))(
+  'full phase-six %s catalog localizes all six categories and keeps selection explicit',
+  (language) => {
+    const { model } = setup(language);
+    expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
+      24,
+    );
+    expect(document.getElementById('catalog-status')?.textContent).toContain(
+      '24 / 24',
+    );
+    filter('catalog-language', language);
+    expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
+      12,
+    );
+    const categories = [
+      'general',
+      'nature',
+      'geography',
+      'history',
+      'politics',
+      'science',
+    ];
+    expect(document.querySelectorAll('#catalog-category option')).toHaveLength(
+      7,
+    );
+    for (const category of categories) {
+      filter('catalog-category', category);
+      expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
+        2,
+      );
+      const label = /** @type {Record<string, string>} */ (
+        preparationStrings[language].categories
+      )[category];
+      expect(
+        document.querySelector(`#catalog-category option[value="${category}"]`)
+          ?.textContent,
+      ).toBe(label);
+      expect(document.getElementById('catalog-results')?.textContent).toContain(
+        label,
+      );
+    }
+    expect(model.selected).toEqual([`general-${language}-01`]);
+    expect(model.accepted?.id).toBe(`general-${language}-01`);
+  },
+);
+
+test.each(/** @type {const} */ (['cs', 'en']))(
   'catalog %s combines filters without changing accepted content or hidden selection',
   (language) => {
     const { model } = setup(language);
@@ -99,7 +145,7 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     const nature = model.accepted;
     filter('catalog-search', 'does not exist');
     expect(document.getElementById('catalog-status')?.textContent).toContain(
-      '0 / 12',
+      '0 / 24',
     );
     expect(document.getElementById('catalog-results')?.textContent).toBe(
       preparationStrings[language].noMatches,
@@ -107,7 +153,7 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     expect(model.accepted).toBe(nature);
     document.getElementById('reset-catalog')?.click();
     expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
-      12,
+      24,
     );
     check(`nature-${language}-02`, false);
     expect(model.selected).toEqual([]);

@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "science-cs-01",
+  "title": "Věda a technika · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-01-01",
+      "text": "Jak se nazývá základní jednotka SI pro elektrický proud, označovaná značkou A?",
+      "initial": "A",
+      "answer": "Ampér",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ampere",
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "id": "science-cs-01-02",
+      "text": "Jak se nazývá přístroj určený k měření atmosférického tlaku?",
+      "initial": "B",
+      "answer": "Barometr",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Barometer"]
+    },
+    {
+      "id": "science-cs-01-03",
+      "text": "Jaké příjmení měl švédský astronom Anders, podle něhož je pojmenována teplotní stupnice se stupněm označovaným °C?",
+      "initial": "C",
+      "answer": "Celsius",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Anders_Celsius"]
+    },
+    {
+      "id": "science-cs-01-04",
+      "text": "Jak se v optice nazývá průhledné těleso s alespoň jedním zakřiveným povrchem, které lomem mění sbíhavost světelných paprsků?",
+      "initial": "Č",
+      "answer": "Čočka",
+      "language": "cs",
+      "aliases": ["optická čočka"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Lens"]
+    },
+    {
+      "id": "science-cs-01-05",
+      "text": "Jaký odborný termín označuje ohyb vlnění kolem překážky nebo při průchodu otvorem?",
+      "initial": "D",
+      "answer": "Difrakce",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Diffraction"]
+    },
+    {
+      "id": "science-cs-01-06",
+      "text": "Jak se nazývá záporně nabitá elementární částice, která tvoří obal atomu?",
+      "initial": "E",
+      "answer": "Elektron",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electron"]
+    },
+    {
+      "id": "science-cs-01-07",
+      "text": "Jak se nazývá jednotka elektrické kapacity v soustavě SI, označovaná F?",
+      "initial": "F",
+      "answer": "Farad",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Farad"]
+    },
+    {
+      "id": "science-cs-01-08",
+      "text": "Jak se nazývá elektromechanický přístroj, který zjišťuje či měří elektrický proud pomocí vychýlení ukazatele v magnetickém poli?",
+      "initial": "G",
+      "answer": "Galvanometr",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Galvanometer"]
+    },
+    {
+      "id": "science-cs-01-09",
+      "text": "Jak se nazývá jednotka frekvence odpovídající jednomu cyklu za sekundu?",
+      "initial": "H",
+      "answer": "Hertz",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Hertz"]
+    },
+    {
+      "id": "science-cs-01-10",
+      "text": "Který chemický prvek se značkou Cr se přidává do oceli pro zvýšení odolnosti proti korozi?",
+      "initial": "Ch",
+      "answer": "Chrom",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Chromium"]
+    },
+    {
+      "id": "science-cs-01-11",
+      "text": "Jak se nazývá jedna z forem téhož chemického prvku, které mají shodný počet protonů, ale liší se počtem neutronů?",
+      "initial": "I",
+      "answer": "Izotop",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Isotope"]
+    },
+    {
+      "id": "science-cs-01-12",
+      "text": "Jak se nazývá jednotka energie a práce v SI, rovná práci síly jednoho newtonu na dráze jednoho metru ve směru síly?",
+      "initial": "J",
+      "answer": "Joule",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Joule"]
+    },
+    {
+      "id": "science-cs-01-13",
+      "text": "Jak se nazývá součástka, která uchovává energii v elektrickém poli mezi dvěma vodivými částmi oddělenými izolantem?",
+      "initial": "K",
+      "answer": "Kondenzátor",
+      "language": "cs",
+      "aliases": ["kapacitor"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Capacitor"]
+    },
+    {
+      "id": "science-cs-01-14",
+      "text": "Jak se nazývá zařízení vytvářející světlo pomocí stimulované emise záření?",
+      "initial": "L",
+      "answer": "Laser",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Laser"]
+    },
+    {
+      "id": "science-cs-01-15",
+      "text": "Jak se nazývá přístroj, který umožňuje pozorovat předměty příliš malé pro rozlišení pouhým okem?",
+      "initial": "M",
+      "answer": "Mikroskop",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Microscope"]
+    },
+    {
+      "id": "science-cs-01-16",
+      "text": "Jak se nazývá jednotka síly v SI, která udělí jednomu kilogramu zrychlení jeden metr za sekundu na druhou?",
+      "initial": "N",
+      "answer": "Newton",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Newton_(unit)"]
+    },
+    {
+      "id": "science-cs-01-17",
+      "text": "Jak se nazývá jednotka elektrického odporu v soustavě SI, označovaná řeckým písmenem Ω?",
+      "initial": "O",
+      "answer": "Ohm",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ohm"]
+    },
+    {
+      "id": "science-cs-01-18",
+      "text": "Jak se nazývá kladně nabitá částice atomového jádra, jejíž počet určuje chemický prvek?",
+      "initial": "P",
+      "answer": "Proton",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Proton"]
+    },
+    {
+      "id": "science-cs-01-19",
+      "text": "Jak se nazývá pasivní elektrická součástka navržená tak, aby měla určitou hodnotu odporu?",
+      "initial": "R",
+      "answer": "Rezistor",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Resistor"]
+    },
+    {
+      "id": "science-cs-01-20",
+      "text": "Jak se nazývá děj, při němž produkty jednoho reakčního kroku vyvolávají další kroky stejného druhu?",
+      "initial": "Ř",
+      "answer": "Řetězová reakce",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Chain_reaction"]
+    },
+    {
+      "id": "science-cs-01-21",
+      "text": "Jak se nazývá přímý přechod látky z pevného skupenství do plynného bez průchodu kapalným skupenstvím?",
+      "initial": "S",
+      "answer": "Sublimace",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sublimation_(phase_transition)"
+      ]
+    },
+    {
+      "id": "science-cs-01-22",
+      "text": "Který jednoduchý stroj lze popsat jako nakloněnou rovinu navinutou kolem válce?",
+      "initial": "Š",
+      "answer": "Šroub",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Screw_(simple_machine)"]
+    },
+    {
+      "id": "science-cs-01-23",
+      "text": "Jak se nazývá polovodičová součástka, která může zesilovat signál nebo pracovat jako elektronický spínač a obvykle má tři vývody?",
+      "initial": "T",
+      "answer": "Tranzistor",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Transistor"]
+    },
+    {
+      "id": "science-cs-01-24",
+      "text": "Který chemický prvek s protonovým číslem 92 se používá jako palivo v mnoha jaderných reaktorech?",
+      "initial": "U",
+      "answer": "Uran",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Uranium"]
+    },
+    {
+      "id": "science-cs-01-25",
+      "text": "Jak se nazývá jednotka elektrického napětí v soustavě SI, označovaná V?",
+      "initial": "V",
+      "answer": "Volt",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Volt"]
+    },
+    {
+      "id": "science-cs-01-26",
+      "text": "Který kov má chemickou značku W a z čistých kovů nejvyšší teplotu tání?",
+      "initial": "W",
+      "answer": "Wolfram",
+      "language": "cs",
+      "aliases": ["tungsten"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Tungsten"]
+    },
+    {
+      "id": "science-cs-01-27",
+      "text": "Jak se nazývá elektronické zařízení, které pomocí energie z napájecího zdroje zvětšuje výkon či amplitudu vstupního signálu?",
+      "initial": "Z",
+      "answer": "Zesilovač",
+      "language": "cs",
+      "aliases": ["elektronický zesilovač"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Amplifier"]
+    },
+    {
+      "id": "science-cs-01-28",
+      "text": "Jak se nazývá elektrický světelný zdroj, který svítí díky vláknu rozžhavenému průchodem proudu?",
+      "initial": "Ž",
+      "answer": "Žárovka",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Incandescent_light_bulb"]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "science-en-01",
+  "title": "Science and technology · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-01-01",
+      "text": "What instrument measures electric current in a circuit?",
+      "initial": "A",
+      "answer": "Ammeter",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ammeter"]
+    },
+    {
+      "id": "science-en-01-02",
+      "text": "What is the upward force exerted by a fluid on an immersed object called?",
+      "initial": "B",
+      "answer": "Buoyancy",
+      "language": "en",
+      "aliases": ["upthrust", "buoyant force"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Buoyancy"]
+    },
+    {
+      "id": "science-en-01-03",
+      "text": "What circuit component stores energy in an electric field between conductors separated by an insulator?",
+      "initial": "C",
+      "answer": "Capacitor",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Capacitor"]
+    },
+    {
+      "id": "science-en-01-04",
+      "text": "What family of laboratory techniques separates a mixture as its components travel differently between a stationary phase and a mobile phase?",
+      "initial": "CH",
+      "answer": "Chromatography",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Chromatography"]
+    },
+    {
+      "id": "science-en-01-05",
+      "text": "What two-terminal electronic component typically conducts current much more readily in one direction than the other?",
+      "initial": "D",
+      "answer": "Diode",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Diode"]
+    },
+    {
+      "id": "science-en-01-06",
+      "text": "What negatively charged elementary particle occupies the region around an atomic nucleus?",
+      "initial": "E",
+      "answer": "Electron",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electron"]
+    },
+    {
+      "id": "science-en-01-07",
+      "text": "What is the SI unit of electrical capacitance, symbol F?",
+      "initial": "F",
+      "answer": "Farad",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Farad"]
+    },
+    {
+      "id": "science-en-01-08",
+      "text": "What instrument detects ionizing radiation by registering electrical pulses produced in a gas-filled tube?",
+      "initial": "G",
+      "answer": "Geiger counter",
+      "language": "en",
+      "aliases": ["Geiger–Müller counter", "Geiger-Muller counter"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Geiger_counter"]
+    },
+    {
+      "id": "science-en-01-09",
+      "text": "What SI unit of frequency equals one cycle per second?",
+      "initial": "H",
+      "answer": "Hertz",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Hertz"]
+    },
+    {
+      "id": "science-en-01-10",
+      "text": "What term describes one of the forms of an element with the same proton number but a different neutron number?",
+      "initial": "I",
+      "answer": "Isotope",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Isotope"]
+    },
+    {
+      "id": "science-en-01-11",
+      "text": "What SI unit of work equals the energy transferred by a force of one newton acting through one metre in its direction?",
+      "initial": "J",
+      "answer": "Joule",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Joule"]
+    },
+    {
+      "id": "science-en-01-12",
+      "text": "What is the SI base unit of thermodynamic temperature?",
+      "initial": "K",
+      "answer": "Kelvin",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kelvin",
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "id": "science-en-01-13",
+      "text": "What device generates light by amplification through stimulated emission of radiation?",
+      "initial": "L",
+      "answer": "Laser",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Laser"]
+    },
+    {
+      "id": "science-en-01-14",
+      "text": "What vector quantity in classical mechanics equals an object's mass multiplied by its velocity?",
+      "initial": "M",
+      "answer": "Momentum",
+      "language": "en",
+      "aliases": ["linear momentum"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Momentum"]
+    },
+    {
+      "id": "science-en-01-15",
+      "text": "What SI unit of force accelerates a mass of one kilogram at one metre per second squared?",
+      "initial": "N",
+      "answer": "Newton",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Newton_(unit)"]
+    },
+    {
+      "id": "science-en-01-16",
+      "text": "What is the SI unit of electrical resistance, represented by the symbol Ω?",
+      "initial": "O",
+      "answer": "Ohm",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ohm"]
+    },
+    {
+      "id": "science-en-01-17",
+      "text": "What positively charged nuclear particle determines an atom's element through the number present in its nucleus?",
+      "initial": "P",
+      "answer": "Proton",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Proton"]
+    },
+    {
+      "id": "science-en-01-18",
+      "text": "What type of elementary particle combines in groups of three to form protons and neutrons?",
+      "initial": "Q",
+      "answer": "Quark",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Quark"]
+    },
+    {
+      "id": "science-en-01-19",
+      "text": "What technology locates objects by transmitting radio waves and detecting their echoes?",
+      "initial": "R",
+      "answer": "Radar",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Radar"]
+    },
+    {
+      "id": "science-en-01-20",
+      "text": "What phenomenon combines zero electrical resistance with expulsion of magnetic fields in certain materials below a critical temperature?",
+      "initial": "S",
+      "answer": "Superconductivity",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Superconductivity"]
+    },
+    {
+      "id": "science-en-01-21",
+      "text": "What mechanical quantity is force per unit area acting parallel to a surface, rather than perpendicular to it?",
+      "initial": "SH",
+      "answer": "Shear stress",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Shear_stress"]
+    },
+    {
+      "id": "science-en-01-22",
+      "text": "What semiconductor component, usually with three terminals, can amplify a signal or act as an electronic switch?",
+      "initial": "T",
+      "answer": "Transistor",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Transistor"]
+    },
+    {
+      "id": "science-en-01-23",
+      "text": "What is sound above roughly 20 kilohertz, beyond the usual upper limit of human hearing, called?",
+      "initial": "U",
+      "answer": "Ultrasound",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ultrasound"]
+    },
+    {
+      "id": "science-en-01-24",
+      "text": "What is the SI unit of electric potential difference?",
+      "initial": "V",
+      "answer": "Volt",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Volt"]
+    },
+    {
+      "id": "science-en-01-25",
+      "text": "What is the spatial distance between corresponding points on consecutive cycles of a wave, such as crest to crest, called?",
+      "initial": "W",
+      "answer": "Wavelength",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Wavelength"]
+    },
+    {
+      "id": "science-en-01-26",
+      "text": "Which noble gas has the chemical symbol Xe and atomic number 54?",
+      "initial": "X",
+      "answer": "Xenon",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Xenon"]
+    },
+    {
+      "id": "science-en-01-27",
+      "text": "What material property is the stress at which a solid begins to deform plastically rather than returning fully to its original shape?",
+      "initial": "Y",
+      "answer": "Yield strength",
+      "language": "en",
+      "aliases": ["yield stress"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Yield_(engineering)"]
+    },
+    {
+      "id": "science-en-01-28",
+      "text": "What semiconductor component is designed to operate in controlled reverse breakdown and is commonly used as a voltage reference?",
+      "initial": "Z",
+      "answer": "Zener diode",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Zener_diode"]
+    }
+  ]
+}

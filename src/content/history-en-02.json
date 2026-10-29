@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "id": "history-en-02",
+  "title": "History · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-en-02-01",
+      "text": "Near which promontory in western Greece did Octavian's fleet defeat Antony and Cleopatra in 31 BCE?",
+      "initial": "A",
+      "answer": "Actium",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Actium"]
+    },
+    {
+      "id": "history-en-02-02",
+      "text": "Which queen of the Iceni led a rebellion against Roman rule in Britain around 60–61 CE?",
+      "initial": "B",
+      "answer": "Boudica",
+      "language": "en",
+      "aliases": ["Boudicca", "Boadicea"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Boudica"]
+    },
+    {
+      "id": "history-en-02-03",
+      "text": "What wedge-shaped writing system was developed in ancient Mesopotamia and commonly impressed into clay tablets?",
+      "initial": "C",
+      "answer": "Cuneiform",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Cuneiform"]
+    },
+    {
+      "id": "history-en-02-04",
+      "text": "Which ancient Maya city on the Yucatán Peninsula contains the stepped pyramid known as El Castillo?",
+      "initial": "CH",
+      "answer": "Chichen Itza",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Chichen_Itza"]
+    },
+    {
+      "id": "history-en-02-05",
+      "text": "What name describes the French political scandal that began with the wrongful treason conviction of a Jewish army captain in 1894?",
+      "initial": "D",
+      "answer": "Dreyfus affair",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Dreyfus_affair"]
+    },
+    {
+      "id": "history-en-02-06",
+      "text": "Which executive order issued by Abraham Lincoln took effect on 1 January 1863 and declared enslaved people in designated rebellious areas to be free?",
+      "initial": "E",
+      "answer": "Emancipation Proclamation",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Emancipation_Proclamation"]
+    },
+    {
+      "id": "history-en-02-07",
+      "text": "Which Germanic people were ruled by the Merovingian dynasty before the Carolingians?",
+      "initial": "F",
+      "answer": "Franks",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Franks"]
+    },
+    {
+      "id": "history-en-02-08",
+      "text": "What disaster began in a Pudding Lane bakery in September 1666 and destroyed much of the English capital's medieval centre?",
+      "initial": "G",
+      "answer": "Great Fire of London",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Great_Fire_of_London"]
+    },
+    {
+      "id": "history-en-02-09",
+      "text": "Which female pharaoh of Egypt's Eighteenth Dynasty built a major mortuary temple at Deir el-Bahari?",
+      "initial": "H",
+      "answer": "Hatshepsut",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Hatshepsut"]
+    },
+    {
+      "id": "history-en-02-10",
+      "text": "Which Bronze Age civilization built the cities of Harappa and Mohenjo-daro in South Asia?",
+      "initial": "I",
+      "answer": "Indus Valley Civilisation",
+      "language": "en",
+      "aliases": [
+        "Indus Valley Civilization",
+        "Harappan civilisation",
+        "Harappan civilization"
+      ],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"]
+    },
+    {
+      "id": "history-en-02-11",
+      "text": "Which settlement founded in Virginia in 1607 became the first permanent English settlement in the Americas?",
+      "initial": "J",
+      "answer": "Jamestown",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Jamestown,_Virginia"]
+    },
+    {
+      "id": "history-en-02-12",
+      "text": "Which conflict began in June 1950 with an invasion across the 38th parallel and had an armistice signed in July 1953?",
+      "initial": "K",
+      "answer": "Korean War",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Korean_War"]
+    },
+    {
+      "id": "history-en-02-13",
+      "text": "What name is given to the Communist forces' strategic retreat across China in 1934–1935?",
+      "initial": "L",
+      "answer": "Long March",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Long_March"]
+    },
+    {
+      "id": "history-en-02-14",
+      "text": "What political transformation in Japan in 1868 restored governing authority to the emperor and ended the Tokugawa shogunate?",
+      "initial": "M",
+      "answer": "Meiji Restoration",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Meiji_Restoration"]
+    },
+    {
+      "id": "history-en-02-15",
+      "text": "What collective name is given to the postwar trials of leading Nazi figures held in a Bavarian city beginning in November 1945?",
+      "initial": "N",
+      "answer": "Nuremberg trials",
+      "language": "en",
+      "aliases": ["Nürnberg trials"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Nuremberg_trials"]
+    },
+    {
+      "id": "history-en-02-16",
+      "text": "What collective name describes the two nineteenth-century wars over trade and diplomacy between Qing China and Western powers, fought in 1839–1842 and 1856–1860?",
+      "initial": "O",
+      "answer": "Opium Wars",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Opium_Wars"]
+    },
+    {
+      "id": "history-en-02-17",
+      "text": "Which Russian tsar founded Saint Petersburg in 1703?",
+      "initial": "P",
+      "answer": "Peter the Great",
+      "language": "en",
+      "aliases": ["Peter I", "Peter I of Russia"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Peter_the_Great"]
+    },
+    {
+      "id": "history-en-02-18",
+      "text": "What term describes the knotted-cord recording device used in the pre-Columbian Andes?",
+      "initial": "Q",
+      "answer": "Quipu",
+      "language": "en",
+      "aliases": ["khipu"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Quipu"]
+    },
+    {
+      "id": "history-en-02-19",
+      "text": "What Spanish term is conventionally used for the centuries-long expansion of Christian kingdoms in the Iberian Peninsula, ending with Granada in 1492?",
+      "initial": "R",
+      "answer": "Reconquista",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Reconquista"]
+    },
+    {
+      "id": "history-en-02-20",
+      "text": "What international crisis followed Egypt's nationalization of a major canal in 1956 and an invasion by Israel, Britain and France?",
+      "initial": "S",
+      "answer": "Suez Crisis",
+      "language": "en",
+      "aliases": ["Suez War", "Second Arab–Israeli War"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Suez_Crisis"]
+    },
+    {
+      "id": "history-en-02-21",
+      "text": "What was the surname of the Union general who led the March to the Sea from Atlanta to Savannah in 1864?",
+      "initial": "SH",
+      "answer": "Sherman",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Sherman's_March_to_the_Sea"]
+    },
+    {
+      "id": "history-en-02-22",
+      "text": "Which European conflict began in 1618 with the revolt of the Bohemian estates and ended in 1648?",
+      "initial": "T",
+      "answer": "Thirty Years' War",
+      "language": "en",
+      "aliases": ["Thirty Years War"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Thirty_Years'_War"]
+    },
+    {
+      "id": "history-en-02-23",
+      "text": "Which caliphate ruled from Damascus from 661 to 750, before the Abbasids overthrew it in most of its territory?",
+      "initial": "U",
+      "answer": "Umayyad Caliphate",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Umayyad_Caliphate"]
+    },
+    {
+      "id": "history-en-02-24",
+      "text": "Which French fortified city gave its name to a prolonged battle between French and German armies from February to December 1916?",
+      "initial": "V",
+      "answer": "Verdun",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Verdun"]
+    },
+    {
+      "id": "history-en-02-25",
+      "text": "What name is given to the war fought between the Soviet Union and Finland from November 1939 to March 1940?",
+      "initial": "W",
+      "answer": "Winter War",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Winter_War"]
+    },
+    {
+      "id": "history-en-02-26",
+      "text": "Which revolution began in China in 1911 and led to the fall of the Qing dynasty?",
+      "initial": "X",
+      "answer": "Xinhai Revolution",
+      "language": "en",
+      "aliases": ["1911 Revolution", "Chinese Revolution of 1911"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/1911_Revolution"]
+    },
+    {
+      "id": "history-en-02-27",
+      "text": "At which February 1945 meeting in Crimea did Roosevelt, Churchill and Stalin discuss postwar Europe?",
+      "initial": "Y",
+      "answer": "Yalta Conference",
+      "language": "en",
+      "aliases": ["Crimea Conference"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Yalta_Conference"]
+    },
+    {
+      "id": "history-en-02-28",
+      "text": "What term describes the terraced temple tower built by ancient Mesopotamian civilizations?",
+      "initial": "Z",
+      "answer": "Ziggurat",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Ziggurat"]
+    }
+  ]
+}

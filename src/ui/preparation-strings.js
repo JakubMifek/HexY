@@ -22,6 +22,9 @@ export const preparationStrings = {
       general: 'General knowledge',
       nature: 'Nature',
       geography: 'Geography and travel',
+      history: 'History',
+      politics: 'Politics and diplomacy',
+      science: 'Science and technology',
     },
     selectionHelp:
       'Select one fixed letter pack, or one or more same-language sources for 28 random number questions. Only selected sources are used; repeated question text is removed.',
@@ -117,6 +120,9 @@ export const preparationStrings = {
       general: 'Všeobecné znalosti',
       nature: 'Příroda',
       geography: 'Zeměpis a cestování',
+      history: 'Historie',
+      politics: 'Politika a diplomacie',
+      science: 'Věda a technika',
     },
     selectionHelp:
       'Vyberte jednu pevnou písmennou sadu nebo více zdrojů ve stejném jazyce pro 28 náhodných číselných otázek. Použijí se jen vybrané zdroje; opakující se znění otázek se vynechá.',

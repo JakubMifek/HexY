@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "id": "history-cs-01",
+  "title": "Historie · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-cs-01-01",
+      "text": "Jak se označuje událost z 28. června 1914, při níž Gavrilo Princip smrtelně postřelil následníka rakousko-uherského trůnu a jeho manželku?",
+      "initial": "A",
+      "answer": "Atentát v Sarajevu",
+      "language": "cs",
+      "aliases": ["Sarajevský atentát"],
+      "category": "history",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+      ]
+    },
+    {
+      "id": "history-cs-01-02",
+      "text": "Na kterém místě u Prahy bylo 8. listopadu 1620 poraženo vojsko českých stavů?",
+      "initial": "B",
+      "answer": "Bílá hora",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_White_Mountain"]
+    },
+    {
+      "id": "history-cs-01-03",
+      "text": "Pod jakým řeholním jménem je znám Konstantin ze Soluně, tvůrce hlaholice?",
+      "initial": "C",
+      "answer": "Cyril",
+      "language": "cs",
+      "aliases": ["svatý Cyril"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Saints_Cyril_and_Methodius"]
+    },
+    {
+      "id": "history-cs-01-04",
+      "text": "Jaký titul a jméno získal Temüdžin roku 1206 při sjednocení mongolských kmenů?",
+      "initial": "Č",
+      "answer": "Čingischán",
+      "language": "cs",
+      "aliases": ["Čingis-chán", "Čingis chán"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Genghis_Khan"]
+    },
+    {
+      "id": "history-cs-01-05",
+      "text": "Která listina Václava IV. z roku 1409 změnila poměr hlasů univerzitních národů v Praze ve prospěch českého národa?",
+      "initial": "D",
+      "answer": "Dekret kutnohorský",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Decree_of_Kutn%C3%A1_Hora"]
+    },
+    {
+      "id": "history-cs-01-06",
+      "text": "Která dcera Václava II. se roku 1310 provdala za Jana Lucemburského a později se stala matkou Karla IV.?",
+      "initial": "E",
+      "answer": "Eliška Přemyslovna",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Elizabeth_of_Bohemia_(1292%E2%80%931330)"
+      ]
+    },
+    {
+      "id": "history-cs-01-07",
+      "text": "Který český historik napsal rozsáhlé Dějiny národu českého v Čechách a v Moravě?",
+      "initial": "F",
+      "answer": "František Palacký",
+      "language": "cs",
+      "aliases": ["Palacký"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Franti%C5%A1ek_Palack%C3%BD"]
+    },
+    {
+      "id": "history-cs-01-08",
+      "text": "U kterého místa porazil Alexandr Veliký roku 331 př. n. l. vojsko perského krále Dareia III.?",
+      "initial": "G",
+      "answer": "Gaugaméla",
+      "language": "cs",
+      "aliases": ["Gaugamely"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Gaugamela"]
+    },
+    {
+      "id": "history-cs-01-09",
+      "text": "Jak se nazývali stoupenci českého náboženského hnutí, jehož společný program představovaly čtyři pražské artikuly?",
+      "initial": "H",
+      "answer": "Husité",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Hussites"]
+    },
+    {
+      "id": "history-cs-01-10",
+      "text": "Který babylonský král dal v 18. století př. n. l. sepsat známý zákoník dochovaný na kamenné stéle?",
+      "initial": "Ch",
+      "answer": "Chammurapi",
+      "language": "cs",
+      "aliases": ["Chammurabi", "Hammurabi"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Hammurabi"]
+    },
+    {
+      "id": "history-cs-01-11",
+      "text": "Jak se nazývala církevní instituce, která v západní Evropě vyšetřovala a potírala kacířství?",
+      "initial": "I",
+      "answer": "Inkvizice",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Inquisition"]
+    },
+    {
+      "id": "history-cs-01-12",
+      "text": "Který husitský vojevůdce vedl obránce pražského Vítkova v bitvě roku 1420?",
+      "initial": "J",
+      "answer": "Jan Žižka",
+      "language": "cs",
+      "aliases": ["Žižka", "Jan Žižka z Trocnova"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_V%C3%ADtkov_Hill"]
+    },
+    {
+      "id": "history-cs-01-13",
+      "text": "Který český král založil roku 1348 pražskou univerzitu?",
+      "initial": "K",
+      "answer": "Karel IV.",
+      "language": "cs",
+      "aliases": ["Karel IV", "Karel čtvrtý"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Charles_University"]
+    },
+    {
+      "id": "history-cs-01-14",
+      "text": "Který český a uherský král zahynul při útěku po bitvě u Moháče roku 1526?",
+      "initial": "L",
+      "answer": "Ludvík Jagellonský",
+      "language": "cs",
+      "aliases": ["Ludvík II. Jagellonský"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Louis_II_of_Hungary"]
+    },
+    {
+      "id": "history-cs-01-15",
+      "text": "Která panovnice habsburské monarchie prosadila roku 1774 školní reformu požadující vzdělávání dětí od šesti do dvanácti let?",
+      "initial": "M",
+      "answer": "Marie Terezie",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Maria_Theresa"]
+    },
+    {
+      "id": "history-cs-01-16",
+      "text": "Který vojevůdce se roku 1804 stal francouzským císařem a roku 1821 zemřel na Svaté Heleně?",
+      "initial": "N",
+      "answer": "Napoleon Bonaparte",
+      "language": "cs",
+      "aliases": ["Napoleon", "Napoleon I.", "Napoleon I"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Napoleon"]
+    },
+    {
+      "id": "history-cs-01-17",
+      "text": "Jak se nazývalo athénské hlasování pomocí keramických střepů, které mohlo poslat občana na deset let do vyhnanství?",
+      "initial": "O",
+      "answer": "Ostrakismus",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Ostracism"]
+    },
+    {
+      "id": "history-cs-01-18",
+      "text": "Který český král zvaný železný a zlatý padl roku 1278 v bitvě na Moravském poli?",
+      "initial": "P",
+      "answer": "Přemysl Otakar II.",
+      "language": "cs",
+      "aliases": ["Přemysl Otakar II", "Přemysl Otakar druhý"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Ottokar_II_of_Bohemia"]
+    },
+    {
+      "id": "history-cs-01-19",
+      "text": "Který habsburský císař přesunul roku 1583 svou rezidenci z Vídně do Prahy?",
+      "initial": "R",
+      "answer": "Rudolf II.",
+      "language": "cs",
+      "aliases": ["Rudolf II", "Rudolf druhý"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor"]
+    },
+    {
+      "id": "history-cs-01-20",
+      "text": "Který papež vedl spor o investituru s Jindřichem IV., jenž za ním roku 1077 přišel do Canossy?",
+      "initial": "Ř",
+      "answer": "Řehoř VII.",
+      "language": "cs",
+      "aliases": ["Řehoř VII", "Řehoř sedmý"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Pope_Gregory_VII"]
+    },
+    {
+      "id": "history-cs-01-21",
+      "text": "Jak se běžně nazývá převážně nenásilná změna režimu v Československu v listopadu a prosinci 1989?",
+      "initial": "S",
+      "answer": "Sametová revoluce",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Velvet_Revolution"]
+    },
+    {
+      "id": "history-cs-01-22",
+      "text": "Kterému izraelskému králi připisuje biblická tradice stavbu prvního jeruzalémského chrámu?",
+      "initial": "Š",
+      "answer": "Šalomoun",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Solomon"]
+    },
+    {
+      "id": "history-cs-01-23",
+      "text": "Jak se jmenuje pevnostní město založené roku 1780 Josefem II. a pojmenované po jeho matce?",
+      "initial": "T",
+      "answer": "Terezín",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Terez%C3%ADn"]
+    },
+    {
+      "id": "history-cs-01-24",
+      "text": "Který papež na koncilu v Clermontu roku 1095 vyzval k první křížové výpravě?",
+      "initial": "U",
+      "answer": "Urbán II.",
+      "language": "cs",
+      "aliases": ["Urbán II"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Pope_Urban_II"]
+    },
+    {
+      "id": "history-cs-01-25",
+      "text": "Jak se nazývá raně středověká říše, v níž v 9. století vládl kníže Svatopluk I.?",
+      "initial": "V",
+      "answer": "Velká Morava",
+      "language": "cs",
+      "aliases": ["Velkomoravská říše"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Great_Moravia"]
+    },
+    {
+      "id": "history-cs-01-26",
+      "text": "Kdo se roku 1789 stal prvním prezidentem Spojených států amerických?",
+      "initial": "W",
+      "answer": "Washington",
+      "language": "cs",
+      "aliases": ["George Washington"],
+      "category": "history",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/George_Washington",
+        "https://www.archives.gov/milestone-documents/president-george-washingtons-first-inaugural-speech"
+      ]
+    },
+    {
+      "id": "history-cs-01-27",
+      "text": "Jak se nazývá listina vydaná Fridrichem II. roku 1212, která potvrdila dědičný královský titul českému panovníkovi?",
+      "initial": "Z",
+      "answer": "Zlatá bula sicilská",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Golden_Bull_of_Sicily"]
+    },
+    {
+      "id": "history-cs-01-28",
+      "text": "Jaké obrazné označení rozdělení Evropy použil Winston Churchill ve svém fultonském projevu roku 1946?",
+      "initial": "Ž",
+      "answer": "Železná opona",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Iron_Curtain"]
+    }
+  ]
+}

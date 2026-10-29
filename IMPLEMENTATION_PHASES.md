@@ -75,7 +75,7 @@ solely to obtain a revision without permission.
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared and pushed: `92659db` | [CLEARED after fixes](reviews/phase-04.md) |
 | 5 | General knowledge, Nature, Geography content | 4 cleared | Cleared and pushed: `7e01b7f` | [CLEARED after fixes](reviews/phase-05.md) |
 | Private preview | Docker/Tailscale automatic pushed-main interlude | User-approved arrangement | Activation blocked by PV-A1; corrective candidate frozen | Reopened; pending same-reviewer re-review |
-| 6 | History, Politics, Science content | 5 cleared | Not started | Not started |
+| 6 | History, Politics, Science content | 5 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-06.md) |
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Not started | Not started |
 | 8 | Integrated release and approved deployment | 7 cleared | Not started | Not started |
 
@@ -1114,3 +1114,111 @@ limitations are in [the operational sign-off](reviews/private-preview.md#operati
 The requested private deployment is complete. Public-release, legal, physical
 device and actual shared-host reboot claims remain excluded. Phase 6 is next;
 its pushes will update the running preview automatically.
+
+### Phase 6 starting snapshot
+
+Baseline: `5efcd7445202c67104d35d61e095f2bc5b8cb77a`, pushed and verified at
+the actual private HTTPS endpoint. Implement History, Politics and diplomacy,
+Science and technology: 12 additional packs / 336 entries, bringing the catalog
+to 24 packs / 672 entries. Preserve all reviewed existing IDs/content and the
+working deployment. Independently review every new entry, validate the full
+catalog, then post-review checks and commit/push as before. No phase-7 content.
+
+### Phase 6 developer handoff — frozen, not cleared
+
+The twelve new History, Politics/diplomacy and Science/technology packs contain
+336 independently authored entries; the full catalog is 24 packs / 672 entries.
+All twelve previously reviewed JSON files are byte-for-byte unchanged from
+`5efcd7445202c67104d35d61e095f2bc5b8cb77a`. Both languages retain their exact
+fixed alphabets and one-starter default. No gameplay, format, dependency,
+deployment or phase-7 changes.
+
+[Developer handoff](docs/phase-06-handoff.md) records the changed files,
+all-entry source audit, editorial decisions, exact commands, artifacts and
+reproduction. [Source ledger](docs/content-sources.md) covers every one of the
+672 entries and exact JSON hashes; all 336 new entries have developer-inspected
+support, with 284 distinct new-pack URLs. This is not independent clearance.
+
+Final developer checks: `npm run check` PASS (format/lint/types, 265 tests in
+19 files, V8 scope/threshold gates, production build); full Chromium PASS
+(161 flows, including the earlier 143); `git diff --check` PASS. Coverage:
+critical 2831/2842 lines, 2860/2871 statements, 211/211 functions, 880/901
+branches across 26 files; remaining 2518/2528, 2545/2555, 85/87, 360/376 across
+21 files. Ten negative coverage probes passed and restored the report exactly.
+Observed production maxima: 294 module lines, 60 function lines, complexity 10,
+nesting 3; no exceptions or threshold changes.
+
+Bilingual/light-dark desktop/tablet catalog screenshots and actual new fixed
+and mixed-source JSON/HTML/PDF outputs were inspected. Software evidence is not
+physical Xbox/tablet/screen-reader clearance. Owned test preview 4182 is closed;
+live 4183/4184 and admin 8443 remain untouched. No commit/push or deployment.
+
+Snapshot: `.artifacts/phase-06-snapshot.sha256`, containing every changed/new
+nonignored source/test/document, including the coordinator's initial plan
+updates. Developer stops writing here. Next: fresh independent review of
+all 336 new entries and the integration under `REVIEW.md`, same-phase fixes
+if needed, then coordinator full post-review verification before clearance,
+commit/push and remote verification.
+
+### Phase 6 initial independent review
+
+Reviewer `87f51b18-97a7-424f-bd5e-e42a3b9cc3a0` reviewed every new entry,
+prior-pack continuity and complete integration. **CHANGES REQUIRED**:
+four minor editorial findings concern an inflected-answer giveaway, an alias
+outside the requested language, an ambiguous confidence-motion clue and a
+missing standard Czech spelling with unsupported retained W-form.
+Full accounting/evidence: [phase-6 report](reviews/phase-06.md).
+
+Automated gates passed (265 tests, 161 browser journeys), but findings remain
+mandatory. Next: same-developer focused corrections/source-ledger updates,
+same-reviewer re-review, then coordinator post-review tests and delivery.
+
+### Phase 6 correction candidate — frozen for same-reviewer re-review
+
+P6-R1–R4 developer corrections change exactly four entries. Exekutiva no longer
+accepts its disclosed Czech alias; the English U-boat clue no longer accepts
+German Unterseeboot; the confidence-motion clue explicitly asks for the negative
+proposal and excludes the distinct vote; the unsupported Czech W-spelling entry
+is replaced with source-supported Washington / George Washington, retaining
+`history-cs-01-26` and its W position. Czech-language and US National Archives
+references support the first presidency in 1789. No alphabet/normalizer change.
+
+The other 332 new entries and all 336 old entries are unchanged; all twelve
+previously reviewed files remain byte-identical. Current source ledger covers
+672 entries and exact pack hashes, with 285 distinct new-pack URLs.
+The original review/accounting remains intact with only a developer response
+appended: [report](reviews/phase-06.md). Corrections are not self-cleared.
+
+Verification: focused 53 content/catalog tests and seven real automatic-play
+cases pass. Sequential full `npm run check` PASS (269 tests / 19 files,
+format/lint/types, coverage/build); full Chromium PASS (168 journeys);
+`git diff --check` PASS. All prior browser flows retained. Coverage remains
+26 critical / 21 remaining files with unchanged fractions and thresholds;
+ten negative probes restore the original report exactly. Metric maxima remain
+294 module lines / 60 function lines / complexity 10 / nesting 3.
+
+[Updated handoff](docs/phase-06-handoff.md) records exact corrections, source
+passages, original expected-failing regressions, test-harness fixes, final logs,
+actual JSON/HTML/PDF and screenshot evidence. Owned preview 4182 is closed;
+live 4183/4184 and admin 8443 remain untouched. No commit/push/deployment.
+
+Preserved original manifest and all 24 packs:
+`.artifacts/phase-06-before-review-fixes/`. Final 26-file manifests:
+`.artifacts/phase-06-review-fixes-snapshot.sha256` and
+`.artifacts/phase-06-snapshot.sha256`. Developer stops writing.
+Next: same reviewer rechecks these four corrections and unchanged-entry
+continuity; coordinator full post-review checks follow only after clearance.
+
+### Phase 6 clearance and post-review verification
+
+Original agent sessions were unavailable on resume. Replacement independent
+reviewer `e6325ff0-1dc8-420c-89e6-02a256df2bcf` cleared all four corrections
+and verified 332 unchanged new-entry judgments/source hashes plus all 336
+previous entries. No remaining findings or exceptions.
+
+Coordinator verified the complete frozen snapshot before/after sequential
+full check and browser suite: **269 tests, 168 journeys**, formatting/lint/types/
+build and both coverage groups pass, all 47 runtime sources included.
+No implementation/content changes after review. Exact evidence and preserved
+initial findings: [phase-6 report](reviews/phase-06.md).
+Next: commit/push, remote/live automatic-deployment verification, then phase 7.

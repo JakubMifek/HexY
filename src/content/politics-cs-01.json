@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "id": "politics-cs-01",
+  "title": "Politika a diplomacie · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-cs-01-01",
+      "text": "Jak se nazývá hromadné rozhodnutí státu, kterým se určitým skupinám osob promíjejí tresty nebo zastavuje trestní stíhání?",
+      "initial": "A",
+      "answer": "Amnestie",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Amnesty"]
+    },
+    {
+      "id": "politics-cs-01-02",
+      "text": "Jaký odborný termín označuje parlamentní uspořádání se dvěma komorami?",
+      "initial": "B",
+      "answer": "Bikameralismus",
+      "language": "cs",
+      "aliases": ["dvoukomorovost"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Bicameralism"]
+    },
+    {
+      "id": "politics-cs-01-03",
+      "text": "Jak se nazývá kontrola a potlačování zveřejňovaných informací státní nebo jinou autoritou?",
+      "initial": "C",
+      "answer": "Cenzura",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Censorship"]
+    },
+    {
+      "id": "politics-cs-01-04",
+      "text": "Jaké dvouslovné označení je součástí názvu mezinárodního humanitárního výboru založeného v Ženevě roku 1863, který pomáhá obětem ozbrojených konfliktů?",
+      "initial": "Č",
+      "answer": "Červený kříž",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross"
+      ]
+    },
+    {
+      "id": "politics-cs-01-05",
+      "text": "Jak se nazývá forma vlády, v níž politická moc vychází z lidu, který ji vykonává přímo nebo prostřednictvím zvolených zástupců?",
+      "initial": "D",
+      "answer": "Demokracie",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Democracy"]
+    },
+    {
+      "id": "politics-cs-01-06",
+      "text": "Jak se nazývá státem nařízený zákaz obchodu s určitou zemí nebo vývozu určitého druhu zboží?",
+      "initial": "E",
+      "answer": "Embargo",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Economic_sanctions"]
+    },
+    {
+      "id": "politics-cs-01-07",
+      "text": "Jak se nazývá princip uspořádání státu, který ústavně rozděluje pravomoci mezi společnou vládu a vlády členských jednotek?",
+      "initial": "F",
+      "answer": "Federalismus",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Federalism"]
+    },
+    {
+      "id": "politics-cs-01-08",
+      "text": "Jaký anglický termín označuje účelové překreslování volebních obvodů ve prospěch určité politické skupiny?",
+      "initial": "G",
+      "answer": "Gerrymandering",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Gerrymandering"]
+    },
+    {
+      "id": "politics-cs-01-09",
+      "text": "Jak se nazývá rozhodovací postup, při němž oprávnění účastníci vyjadřují podporu některé z nabízených možností a jejich projevy vůle se sčítají?",
+      "initial": "H",
+      "answer": "Hlasování",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Voting"]
+    },
+    {
+      "id": "politics-cs-01-10",
+      "text": "Jak se česky nazývá zakládající smlouva Organizace spojených národů podepsaná v San Francisku roku 1945?",
+      "initial": "Ch",
+      "answer": "Charta OSN",
+      "language": "cs",
+      "aliases": ["Charta Organizace spojených národů"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Charter_of_the_United_Nations"]
+    },
+    {
+      "id": "politics-cs-01-11",
+      "text": "Jak se nazývá zvláštní právní ochrana poslance či senátora, která v ústavou stanovených případech omezuje možnost jeho trestního stíhání?",
+      "initial": "I",
+      "answer": "Imunita",
+      "language": "cs",
+      "aliases": ["parlamentní imunita", "poslanecká imunita"],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Parliamentary_immunity",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-01-12",
+      "text": "Jak se označuje zákonodárný sbor, který na rozdíl od českého Parlamentu není rozdělen na dolní a horní komoru?",
+      "initial": "J",
+      "answer": "Jednokomorový parlament",
+      "language": "cs",
+      "aliases": ["jednokomorový zákonodárný sbor"],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Unicameralism",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-01-13",
+      "text": "Jak se v politice nazývá spojenectví více stran, které například společně sestavují vládu?",
+      "initial": "K",
+      "answer": "Koalice",
+      "language": "cs",
+      "aliases": ["vládní koalice"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Coalition_government"]
+    },
+    {
+      "id": "politics-cs-01-14",
+      "text": "Jaký přejatý termín označuje cílené prosazování zájmů u osob rozhodujících o veřejné politice, například u zákonodárců?",
+      "initial": "L",
+      "answer": "Lobbying",
+      "language": "cs",
+      "aliases": ["lobbování", "lobbing"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Lobbying"]
+    },
+    {
+      "id": "politics-cs-01-15",
+      "text": "Jak se nazývá forma státu, v jejímž čele stojí panovník, obvykle s dědičným nárokem na úřad?",
+      "initial": "M",
+      "answer": "Monarchie",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Monarchy"]
+    },
+    {
+      "id": "politics-cs-01-16",
+      "text": "Jak se nazývá postavení státu, který se neúčastní ozbrojeného konfliktu jiných států a vůči jeho stranám zachovává nestrannost?",
+      "initial": "N",
+      "answer": "Neutralita",
+      "language": "cs",
+      "aliases": ["neutralita státu"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Neutral_country"]
+    },
+    {
+      "id": "politics-cs-01-17",
+      "text": "Jakým mezinárodně užívaným označením se nazývá český veřejný ochránce práv?",
+      "initial": "O",
+      "answer": "Ombudsman",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://www.ochrance.cz/o-nas/"]
+    },
+    {
+      "id": "politics-cs-01-18",
+      "text": "Která komora Parlamentu České republiky má podle Ústavy 200 členů volených na čtyři roky?",
+      "initial": "P",
+      "answer": "Poslanecká sněmovna",
+      "language": "cs",
+      "aliases": ["Poslanecká sněmovna Parlamentu České republiky"],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chamber_of_Deputies_of_the_Czech_Republic",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-01-19",
+      "text": "Jak se nazývá přímé rozhodování oprávněných voličů o konkrétní veřejné otázce, nikoli o obsazení zastupitelských míst?",
+      "initial": "R",
+      "answer": "Referendum",
+      "language": "cs",
+      "aliases": ["plebiscit"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Referendum"]
+    },
+    {
+      "id": "politics-cs-01-20",
+      "text": "Jak se jmenuje nejvyšší státní vyznamenání České republiky?",
+      "initial": "Ř",
+      "answer": "Řád Bílého lva",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Order_of_the_White_Lion"]
+    },
+    {
+      "id": "politics-cs-01-21",
+      "text": "Která komora Parlamentu České republiky má 81 členů s šestiletým mandátem a každé dva roky se obměňuje její třetina?",
+      "initial": "S",
+      "answer": "Senát",
+      "language": "cs",
+      "aliases": ["Senát Parlamentu České republiky"],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Senate_of_the_Czech_Republic",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-01-22",
+      "text": "Jaký je úplný český název federálního státu s 26 kantony, jehož spolkové úřady sídlí v Bernu?",
+      "initial": "Š",
+      "answer": "Švýcarská konfederace",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Switzerland"]
+    },
+    {
+      "id": "politics-cs-01-23",
+      "text": "Jak se nazývá forma vlády, v níž je nejvyšší autorita přisuzována božstvu a politickou moc vykonávají jeho náboženští představitelé?",
+      "initial": "T",
+      "answer": "Teokracie",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Theocracy"]
+    },
+    {
+      "id": "politics-cs-01-24",
+      "text": "Jak se označuje stát, v němž územní části nemají vlastní státní suverenitu a nejvyšší pravomoc náleží ústřední moci?",
+      "initial": "U",
+      "answer": "Unitární stát",
+      "language": "cs",
+      "aliases": ["jednotný stát"],
+      "category": "politics",
+      "sources": ["https://cs.wikipedia.org/wiki/Unit%C3%A1rn%C3%AD_st%C3%A1t"]
+    },
+    {
+      "id": "politics-cs-01-25",
+      "text": "Jak se nazývá pravomoc zabránit přijetí nebo účinnosti rozhodnutí, například návrhu zákona?",
+      "initial": "V",
+      "answer": "Veto",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Veto"]
+    },
+    {
+      "id": "politics-cs-01-26",
+      "text": "Jak se nazývá model parlamentní vlády odvozený od britských institucí, v němž je kabinet odpovědný parlamentu?",
+      "initial": "W",
+      "answer": "Westminsterský systém",
+      "language": "cs",
+      "aliases": ["Westminsterský model"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Westminster_system"]
+    },
+    {
+      "id": "politics-cs-01-27",
+      "text": "Která ze tří tradičních složek státní moci přijímá zákony, zatímco další dvě je vykonávají a rozhodují soudní spory?",
+      "initial": "Z",
+      "answer": "Zákonodárná moc",
+      "language": "cs",
+      "aliases": ["legislativa"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Separation_of_powers"]
+    },
+    {
+      "id": "politics-cs-01-28",
+      "text": "Jak se nazývá soubor čtyř mezinárodních smluv z roku 1949 chránících raněné, trosečníky, válečné zajatce a civilisty za války?",
+      "initial": "Ž",
+      "answer": "Ženevské úmluvy",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Geneva_Conventions"]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "politics-cs-02",
+  "title": "Politika a diplomacie · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-cs-02-01",
+      "text": "Jak se nazývá předběžný souhlas přijímajícího státu s osobou navrženou za vedoucího diplomatické mise?",
+      "initial": "A",
+      "answer": "Agrément",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Agr%C3%A9ment"]
+    },
+    {
+      "id": "politics-cs-02-02",
+      "text": "Jak se nazývá vládní dokument, který předkládá konkrétní politické návrhy či záměry a používá v názvu barvu?",
+      "initial": "B",
+      "answer": "Bílá kniha",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/White_paper"]
+    },
+    {
+      "id": "politics-cs-02-03",
+      "text": "Jaký český panovnický titul nosí dědičná hlava japonského státu?",
+      "initial": "C",
+      "answer": "Císař",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Emperor_of_Japan"]
+    },
+    {
+      "id": "politics-cs-02-04",
+      "text": "Které číslované ustanovení Severoatlantické smlouvy stanoví, že ozbrojený útok proti jednomu nebo více členům bude považován za útok proti všem?",
+      "initial": "Č",
+      "answer": "Článek 5",
+      "language": "cs",
+      "aliases": ["článek pět", "čl. 5"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/North_Atlantic_Treaty"]
+    },
+    {
+      "id": "politics-cs-02-05",
+      "text": "Jak se nazývá vedení vztahů mezi státy především jednáním a prostřednictvím pověřených zástupců?",
+      "initial": "D",
+      "answer": "Diplomacie",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Diplomacy"]
+    },
+    {
+      "id": "politics-cs-02-06",
+      "text": "Jaký odborný název označuje výkonnou složku státní moci, k níž patří vláda?",
+      "initial": "E",
+      "answer": "Exekutiva",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Executive_(government)"]
+    },
+    {
+      "id": "politics-cs-02-07",
+      "text": "Jaký přejatý termín označuje parlamentní obstrukci založenou například na dlouhých projevech, která má oddálit nebo zablokovat hlasování?",
+      "initial": "F",
+      "answer": "Filibuster",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Filibuster"]
+    },
+    {
+      "id": "politics-cs-02-08",
+      "text": "Jak se česky nazývá úřad nejvyššího správního představitele Organizace spojených národů, jmenovaného Valným shromážděním na doporučení Rady bezpečnosti?",
+      "initial": "G",
+      "answer": "Generální tajemník OSN",
+      "language": "cs",
+      "aliases": ["generální tajemník Organizace spojených národů"],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Secretary-General_of_the_United_Nations"
+      ]
+    },
+    {
+      "id": "politics-cs-02-09",
+      "text": "Jak se nazývá převaha či vedoucí postavení jednoho státu nad ostatními v mezinárodním systému?",
+      "initial": "H",
+      "answer": "Hegemonie",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Hegemony"]
+    },
+    {
+      "id": "politics-cs-02-10",
+      "text": "Jaký francouzský diplomatický titul nese vedoucí zastupitelského úřadu pověřený u ministra zahraničí, nikoli u hlavy státu?",
+      "initial": "Ch",
+      "answer": "Chargé d'affaires",
+      "language": "cs",
+      "aliases": ["chargé d’affaires"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Charg%C3%A9_d'affaires"]
+    },
+    {
+      "id": "politics-cs-02-11",
+      "text": "Jak se nazývá formální dotaz člena parlamentu na vládu nebo jejího člena, který slouží k parlamentní kontrole?",
+      "initial": "I",
+      "answer": "Interpelace",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Interpellation_(politics)",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-02-12",
+      "text": "Jaký odborný termín označuje pravomoc soudu či jiného orgánu rozhodovat určitou věc nebo vykonávat autoritu na určitém území?",
+      "initial": "J",
+      "answer": "Jurisdikce",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Jurisdiction"]
+    },
+    {
+      "id": "politics-cs-02-13",
+      "text": "Jak se nazývá státní úředník působící v zahraničí, jehož úkoly zahrnují pomoc vlastním občanům a podporu obchodních vztahů?",
+      "initial": "K",
+      "answer": "Konzul",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Consul_(representative)"]
+    },
+    {
+      "id": "politics-cs-02-14",
+      "text": "Jak se nazývá prověřování minulých vazeb uchazečů o vybrané veřejné funkce na aparát bývalého komunistického režimu?",
+      "initial": "L",
+      "answer": "Lustrace",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Lustration"]
+    },
+    {
+      "id": "politics-cs-02-15",
+      "text": "Jak se nazývá oprávnění zvoleného zástupce vykonávat veřejnou funkci po stanovenou dobu?",
+      "initial": "M",
+      "answer": "Mandát",
+      "language": "cs",
+      "aliases": ["volební mandát"],
+      "category": "politics",
+      "sources": ["https://cs.wikipedia.org/wiki/Mand%C3%A1t_(politika)"]
+    },
+    {
+      "id": "politics-cs-02-16",
+      "text": "Jak se nazývá udělení státního občanství cizinci po splnění zákonných podmínek, například určité doby pobytu?",
+      "initial": "N",
+      "answer": "Naturalizace",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Naturalization"]
+    },
+    {
+      "id": "politics-cs-02-17",
+      "text": "Jak se nazývají politické strany či skupiny, které nejsou součástí vlády a politicky jí oponují?",
+      "initial": "O",
+      "answer": "Opozice",
+      "language": "cs",
+      "aliases": ["politická opozice"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Opposition_(politics)"]
+    },
+    {
+      "id": "politics-cs-02-18",
+      "text": "Jak se nazývá volební systém, který se snaží přidělit stranám podíl křesel odpovídající jejich podílu hlasů?",
+      "initial": "P",
+      "answer": "Poměrný volební systém",
+      "language": "cs",
+      "aliases": ["proporční volební systém", "poměrné zastoupení"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Proportional_representation"]
+    },
+    {
+      "id": "politics-cs-02-19",
+      "text": "Jak se nazývá formální potvrzení mezinárodní smlouvy příslušným orgánem státu po jejím podpisu?",
+      "initial": "R",
+      "answer": "Ratifikace",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Ratification"]
+    },
+    {
+      "id": "politics-cs-02-20",
+      "text": "Jak se nazývá smlouva přijatá roku 1998, kterou byl založen Mezinárodní trestní soud?",
+      "initial": "Ř",
+      "answer": "Římský statut",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Rome_Statute"]
+    },
+    {
+      "id": "politics-cs-02-21",
+      "text": "Jak se nazývá zásada, podle níž má veřejné rozhodování probíhat na nejnižší úrovni, která dokáže daný úkol účinně zvládnout?",
+      "initial": "S",
+      "answer": "Subsidiarita",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Subsidiarity"]
+    },
+    {
+      "id": "politics-cs-02-22",
+      "text": "Jak se česky nazývá islámský náboženský právní systém vycházející mimo jiné z Koránu a sunny?",
+      "initial": "Š",
+      "answer": "Šaría",
+      "language": "cs",
+      "aliases": ["šarí'a"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Sharia"]
+    },
+    {
+      "id": "politics-cs-02-23",
+      "text": "Jak se nazývá způsob volby, při němž nelze spojit odevzdanou volbu s totožností konkrétního voliče?",
+      "initial": "T",
+      "answer": "Tajné hlasování",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Secret_ballot"]
+    },
+    {
+      "id": "politics-cs-02-24",
+      "text": "Jak se nazývá konečný požadavek doprovázený lhůtou a hrozbou následků, nebude-li splněn?",
+      "initial": "U",
+      "answer": "Ultimátum",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Ultimatum"]
+    },
+    {
+      "id": "politics-cs-02-25",
+      "text": "Jak se česky nazývá diplomat nejvyšší běžné hodnosti, který reprezentuje svůj stát a je akreditován u hlavy přijímajícího státu?",
+      "initial": "V",
+      "answer": "Velvyslanec",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Ambassador"]
+    },
+    {
+      "id": "politics-cs-02-26",
+      "text": "Jaký název podle místa podpisu se používá pro smlouvu, která roku 1949 založila NATO?",
+      "initial": "W",
+      "answer": "Washingtonská smlouva",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/North_Atlantic_Treaty"]
+    },
+    {
+      "id": "politics-cs-02-27",
+      "text": "Jak se v Evropské unii nazývá konzultační dokument, který otevírá debatu o politickém tématu a má v názvu barvu?",
+      "initial": "Z",
+      "answer": "Zelená kniha",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Green_paper"]
+    },
+    {
+      "id": "politics-cs-02-28",
+      "text": "Jak se nazývá dohoda z roku 1925 zakazující ve válce použití dusivých a jedovatých plynů a bakteriologických metod boje?",
+      "initial": "Ž",
+      "answer": "Ženevský protokol",
+      "language": "cs",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Geneva_Protocol"]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "science-cs-02",
+  "title": "Věda a technika · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-02-01",
+      "text": "Jak se nazývá elektroda, na níž při elektrochemické reakci probíhá oxidace?",
+      "initial": "A",
+      "answer": "Anoda",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Anode"]
+    },
+    {
+      "id": "science-cs-02-02",
+      "text": "Jak se běžně nazývá přenosný zdroj elektrické energie tvořený jedním nebo více elektrochemickými články?",
+      "initial": "B",
+      "answer": "Baterie",
+      "language": "cs",
+      "aliases": ["elektrická baterie"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electric_battery"]
+    },
+    {
+      "id": "science-cs-02-03",
+      "text": "Jak se nazývá urychlovač, v němž nabité částice obíhají v magnetickém poli po spirálové dráze a opakovaně je urychluje elektrické pole?",
+      "initial": "C",
+      "answer": "Cyklotron",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Cyclotron"]
+    },
+    {
+      "id": "science-cs-02-04",
+      "text": "Jak se ve fyzice nazývá ideální objekt, který pohlcuje veškeré dopadající elektromagnetické záření bez ohledu na jeho vlnovou délku?",
+      "initial": "Č",
+      "answer": "Černé těleso",
+      "language": "cs",
+      "aliases": ["absolutně černé těleso"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Black_body"]
+    },
+    {
+      "id": "science-cs-02-05",
+      "text": "Jak se nazývá elektronická součástka se dvěma vývody, která obvykle vede proud výrazně lépe jedním směrem než opačným?",
+      "initial": "D",
+      "answer": "Dioda",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Diode"]
+    },
+    {
+      "id": "science-cs-02-06",
+      "text": "Jak se nazývá vyvolání chemické reakce průchodem stejnosměrného elektrického proudu elektrolytem?",
+      "initial": "E",
+      "answer": "Elektrolýza",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electrolysis"]
+    },
+    {
+      "id": "science-cs-02-07",
+      "text": "Jak se v jaderné fyzice nazývá slučování lehkých atomových jader do těžších?",
+      "initial": "F",
+      "answer": "Fúze",
+      "language": "cs",
+      "aliases": ["jaderná fúze"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Nuclear_fusion"]
+    },
+    {
+      "id": "science-cs-02-08",
+      "text": "Jak se nazývá zařízení s rotorem, jehož osa díky zachování momentu hybnosti odolává změně směru?",
+      "initial": "G",
+      "answer": "Gyroskop",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Gyroscope"]
+    },
+    {
+      "id": "science-cs-02-09",
+      "text": "Jak se nazývá metoda, která zaznamenává a rekonstruuje vlnoplochu světla a umožňuje vytvářet prostorově působící obrazy?",
+      "initial": "H",
+      "answer": "Holografie",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Holography"]
+    },
+    {
+      "id": "science-cs-02-10",
+      "text": "Jak se nazývá zařízení, které odvádí teplo ze zahřívané elektronické součástky do okolí, často pomocí kovových žeber?",
+      "initial": "Ch",
+      "answer": "Chladič",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Heat_sink"]
+    },
+    {
+      "id": "science-cs-02-11",
+      "text": "Jak se nazývá fyzikální veličina vyjadřující schopnost elektrického obvodu vytvářet při změně proudu indukované napětí, měřená v henry?",
+      "initial": "I",
+      "answer": "Indukčnost",
+      "language": "cs",
+      "aliases": ["vlastní indukčnost"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Inductance"]
+    },
+    {
+      "id": "science-cs-02-12",
+      "text": "Jak se nazývá centrální část atomu, která obsahuje protony a zpravidla i neutrony?",
+      "initial": "J",
+      "answer": "Jádro atomu",
+      "language": "cs",
+      "aliases": ["atomové jádro"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Atomic_nucleus"]
+    },
+    {
+      "id": "science-cs-02-13",
+      "text": "Jak se nazývá základní jednotka termodynamické teploty v soustavě SI?",
+      "initial": "K",
+      "answer": "Kelvin",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kelvin",
+        "https://www.nist.gov/pml/owm/metric-si/si-units"
+      ]
+    },
+    {
+      "id": "science-cs-02-14",
+      "text": "Jak se ve slévárenství nazývá výrobní postup, při němž se roztavený materiál vlévá do formy a nechá ztuhnout?",
+      "initial": "L",
+      "answer": "Lití",
+      "language": "cs",
+      "aliases": ["odlévání"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Casting"]
+    },
+    {
+      "id": "science-cs-02-15",
+      "text": "Jak se nazývá přístroj k měření tlaku kapalin nebo plynů, například pomocí rozdílu výšek kapalinových sloupců v trubici?",
+      "initial": "M",
+      "answer": "Manometr",
+      "language": "cs",
+      "aliases": ["tlakoměr"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Pressure_measurement"]
+    },
+    {
+      "id": "science-cs-02-16",
+      "text": "Jak se nazývá elektrická veličina vyjadřující rozdíl potenciálů mezi dvěma body obvodu?",
+      "initial": "N",
+      "answer": "Napětí",
+      "language": "cs",
+      "aliases": ["elektrické napětí"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Voltage"]
+    },
+    {
+      "id": "science-cs-02-17",
+      "text": "Jak se nazývá měřicí přístroj, který zobrazuje průběh elektrického signálu, obvykle napětí v závislosti na čase?",
+      "initial": "O",
+      "answer": "Osciloskop",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Oscilloscope"]
+    },
+    {
+      "id": "science-cs-02-18",
+      "text": "Který jednoduchý stroj tvoří tuhé těleso otáčivé kolem opěrného bodu?",
+      "initial": "P",
+      "answer": "Páka",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Lever"]
+    },
+    {
+      "id": "science-cs-02-19",
+      "text": "Jak se nazývá zařízení, které určuje polohu objektů vysíláním rádiových vln a vyhodnocováním jejich odrazů?",
+      "initial": "R",
+      "answer": "Radar",
+      "language": "cs",
+      "aliases": ["radiolokátor"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Radar"]
+    },
+    {
+      "id": "science-cs-02-20",
+      "text": "Jak se nazývá kolo na hřídeli, po jehož obvodu probíhá řemen přenášející pohyb na jiný hřídel?",
+      "initial": "Ř",
+      "answer": "Řemenice",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98emenice"]
+    },
+    {
+      "id": "science-cs-02-21",
+      "text": "Jak se nazývá stav některých materiálů, při němž pod kritickou teplotou klesne jejich elektrický odpor na nulu a vytlačují magnetické pole?",
+      "initial": "S",
+      "answer": "Supravodivost",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Superconductivity"]
+    },
+    {
+      "id": "science-cs-02-22",
+      "text": "Jak se nazývá jaderná reakce, při níž se těžké atomové jádro rozpadne na dvě nebo více lehčích částí?",
+      "initial": "Š",
+      "answer": "Štěpení jádra",
+      "language": "cs",
+      "aliases": ["jaderné štěpení"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Nuclear_fission"]
+    },
+    {
+      "id": "science-cs-02-23",
+      "text": "Jak se nazývá zařízení, které pomocí elektromagnetické indukce přenáší energii mezi obvody a běžně mění velikost střídavého napětí?",
+      "initial": "T",
+      "answer": "Transformátor",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Transformer"]
+    },
+    {
+      "id": "science-cs-02-24",
+      "text": "Jak se nazývá zvuk s frekvencí vyšší než přibližně 20 kilohertzů, tedy nad běžnou horní mezí lidského sluchu?",
+      "initial": "U",
+      "answer": "Ultrazvuk",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ultrasound"]
+    },
+    {
+      "id": "science-cs-02-25",
+      "text": "Jak se nazývá prostor bez hmoty, nebo v technické praxi prostor s tlakem plynu výrazně nižším než atmosférický?",
+      "initial": "V",
+      "answer": "Vakuum",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Vacuum"]
+    },
+    {
+      "id": "science-cs-02-26",
+      "text": "Jak se nazývá přístroj určený k měření elektrického činného výkonu?",
+      "initial": "W",
+      "answer": "Wattmetr",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Wattmeter"]
+    },
+    {
+      "id": "science-cs-02-27",
+      "text": "Jak se nazývá nežádoucí spojení bodů obvodu cestou s velmi malým odporem, které může vyvolat nadměrný proud?",
+      "initial": "Z",
+      "answer": "Zkrat",
+      "language": "cs",
+      "aliases": ["elektrický zkrat"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Short_circuit"]
+    },
+    {
+      "id": "science-cs-02-28",
+      "text": "Jak se nazývá stavební materiál, v němž jsou ocelové výztuže spojeny s betonem, aby společně odolávaly tlaku i tahu?",
+      "initial": "Ž",
+      "answer": "Železobeton",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Reinforced_concrete"]
+    }
+  ]
+}

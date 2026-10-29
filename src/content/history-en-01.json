@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "history-en-01",
+  "title": "History · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-en-01-01",
+      "text": "Which Mauryan emperor embraced Buddhism after the bloody conquest of Kalinga in the third century BCE?",
+      "initial": "A",
+      "answer": "Ashoka",
+      "language": "en",
+      "aliases": ["Asoka"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Ashoka"]
+    },
+    {
+      "id": "history-en-01-02",
+      "text": "Which Paris fortress-prison was stormed on 14 July 1789?",
+      "initial": "B",
+      "answer": "Bastille",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Storming_of_the_Bastille"]
+    },
+    {
+      "id": "history-en-01-03",
+      "text": "Which North African city-state fought Rome in the three Punic Wars?",
+      "initial": "C",
+      "answer": "Carthage",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Carthage"]
+    },
+    {
+      "id": "history-en-01-04",
+      "text": "Which king of the Franks was crowned emperor by Pope Leo III in Rome on Christmas Day in 800?",
+      "initial": "CH",
+      "answer": "Charlemagne",
+      "language": "en",
+      "aliases": ["Charles the Great"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Charlemagne"]
+    },
+    {
+      "id": "history-en-01-05",
+      "text": "What is the customary name of the record of William I's great land survey of England in 1086?",
+      "initial": "D",
+      "answer": "Domesday Book",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Domesday_Book",
+        "https://www.nationalarchives.gov.uk/education/teaching-resources/what-does-domesday-book-tell-us/"
+      ]
+    },
+    {
+      "id": "history-en-01-06",
+      "text": "What name is given to the agreement of 313 associated with Constantine and Licinius that granted religious toleration in the Roman Empire?",
+      "initial": "E",
+      "answer": "Edict of Milan",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Edict_of_Milan"]
+    },
+    {
+      "id": "history-en-01-07",
+      "text": "What event on 29 May 1453 ended the Byzantine Empire when Mehmed II captured its capital?",
+      "initial": "F",
+      "answer": "Fall of Constantinople",
+      "language": "en",
+      "aliases": ["capture of Constantinople", "conquest of Constantinople"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Fall_of_Constantinople"]
+    },
+    {
+      "id": "history-en-01-08",
+      "text": "On which peninsula did Allied forces land in 1915 in an unsuccessful attempt to force a passage through the Dardanelles?",
+      "initial": "G",
+      "answer": "Gallipoli",
+      "language": "en",
+      "aliases": ["Gallipoli Peninsula"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Gallipoli_campaign"]
+    },
+    {
+      "id": "history-en-01-09",
+      "text": "Which Carthaginian commander led an army, including war elephants, across the Alps in 218 BCE?",
+      "initial": "H",
+      "answer": "Hannibal",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Hannibal"]
+    },
+    {
+      "id": "history-en-01-10",
+      "text": "Which Andean empire, ruled from Cusco, was conquered by Spanish forces in the sixteenth century?",
+      "initial": "I",
+      "answer": "Inca Empire",
+      "language": "en",
+      "aliases": ["Incan Empire", "Tawantinsuyu"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Inca_Empire"]
+    },
+    {
+      "id": "history-en-01-11",
+      "text": "Which French military heroine was tried and executed at Rouen in 1431, then canonized in 1920?",
+      "initial": "J",
+      "answer": "Joan of Arc",
+      "language": "en",
+      "aliases": ["Jeanne d'Arc"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Joan_of_Arc"]
+    },
+    {
+      "id": "history-en-01-12",
+      "text": "Which grandson of Genghis Khan hosted Marco Polo according to the Venetian traveller's account?",
+      "initial": "K",
+      "answer": "Kublai Khan",
+      "language": "en",
+      "aliases": ["Khubilai Khan", "Kublai"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Kublai_Khan"]
+    },
+    {
+      "id": "history-en-01-13",
+      "text": "Which French monarch, known as the Sun King, made Versailles the principal royal residence in 1682?",
+      "initial": "L",
+      "answer": "Louis XIV",
+      "language": "en",
+      "aliases": ["Louis XIV of France", "Louis the Fourteenth"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Louis_XIV"]
+    },
+    {
+      "id": "history-en-01-14",
+      "text": "Which charter was sealed by King John at Runnymede in 1215?",
+      "initial": "M",
+      "answer": "Magna Carta",
+      "language": "en",
+      "aliases": ["Magna Carta Libertatum"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Magna_Carta"]
+    },
+    {
+      "id": "history-en-01-15",
+      "text": "What name is given to the invasion and takeover of England led by William of Normandy, who won the Battle of Hastings in 1066?",
+      "initial": "N",
+      "answer": "Norman Conquest",
+      "language": "en",
+      "aliases": ["Norman conquest of England"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Norman_Conquest"]
+    },
+    {
+      "id": "history-en-01-16",
+      "text": "Which empire entered the First World War on the Central Powers' side in 1914 and was ruled by a sultan in Constantinople?",
+      "initial": "O",
+      "answer": "Ottoman Empire",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Ottoman_Empire"]
+    },
+    {
+      "id": "history-en-01-17",
+      "text": "What war, fought from 431 to 404 BCE, pitted the Athenian alliance against the Spartan alliance?",
+      "initial": "P",
+      "answer": "Peloponnesian War",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Peloponnesian_War"]
+    },
+    {
+      "id": "history-en-01-18",
+      "text": "Which ruler unified China in 221 BCE and was buried near the army of terracotta soldiers?",
+      "initial": "Q",
+      "answer": "Qin Shi Huang",
+      "language": "en",
+      "aliases": ["Qin Shihuang", "Shi Huangdi"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Qin_Shi_Huang"]
+    },
+    {
+      "id": "history-en-01-19",
+      "text": "Which inscribed slab, found in Egypt in 1799, carried a decree in hieroglyphic, Demotic and Greek scripts?",
+      "initial": "R",
+      "answer": "Rosetta Stone",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Rosetta_Stone"]
+    },
+    {
+      "id": "history-en-01-20",
+      "text": "What conventional name describes the historical trade network linking China with regions to its west across Eurasia?",
+      "initial": "S",
+      "answer": "Silk Road",
+      "language": "en",
+      "aliases": ["Silk Roads"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Silk_Road"]
+    },
+    {
+      "id": "history-en-01-21",
+      "text": "What title was held by Japan's military rulers, including the Tokugawa leaders, while an emperor remained on the throne?",
+      "initial": "SH",
+      "answer": "Shogun",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Shogun"]
+    },
+    {
+      "id": "history-en-01-22",
+      "text": "Which peace treaty, signed on 28 June 1919, formally ended the state of war between Germany and most of the Allied powers?",
+      "initial": "T",
+      "answer": "Treaty of Versailles",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Versailles"]
+    },
+    {
+      "id": "history-en-01-23",
+      "text": "What English term, derived from German, describes the submarines Germany used to attack shipping during the world wars?",
+      "initial": "U",
+      "answer": "U-boat",
+      "language": "en",
+      "aliases": ["U boat"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/U-boat"]
+    },
+    {
+      "id": "history-en-01-24",
+      "text": "What term describes a Scandinavian seaborne raider or trader active during the early medieval age traditionally dated from 793 to 1066?",
+      "initial": "V",
+      "answer": "Viking",
+      "language": "en",
+      "aliases": ["Norse raider"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Vikings"]
+    },
+    {
+      "id": "history-en-01-25",
+      "text": "Near which village in present-day Belgium was Napoleon finally defeated in battle on 18 June 1815?",
+      "initial": "W",
+      "answer": "Waterloo",
+      "language": "en",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Waterloo"]
+    },
+    {
+      "id": "history-en-01-26",
+      "text": "Which Persian king invaded Greece in 480 BCE and commanded the forces that fought at Thermopylae?",
+      "initial": "X",
+      "answer": "Xerxes I",
+      "language": "en",
+      "aliases": ["Xerxes", "Xerxes the Great"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Xerxes_I"]
+    },
+    {
+      "id": "history-en-01-27",
+      "text": "What name identifies supporters of the white-rose dynasty in England's Wars of the Roses?",
+      "initial": "Y",
+      "answer": "Yorkists",
+      "language": "en",
+      "aliases": ["Yorkist faction"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/House_of_York"]
+    },
+    {
+      "id": "history-en-01-28",
+      "text": "What message, sent by Germany in 1917, proposed an alliance with Mexico if the United States entered the First World War?",
+      "initial": "Z",
+      "answer": "Zimmermann Telegram",
+      "language": "en",
+      "aliases": ["Zimmermann note"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Zimmermann_Telegram"]
+    }
+  ]
+}

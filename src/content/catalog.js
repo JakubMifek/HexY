@@ -10,6 +10,18 @@ import geographyCs1 from './geography-cs-01.json';
 import geographyCs2 from './geography-cs-02.json';
 import geographyEn1 from './geography-en-01.json';
 import geographyEn2 from './geography-en-02.json';
+import historyCs1 from './history-cs-01.json';
+import historyCs2 from './history-cs-02.json';
+import historyEn1 from './history-en-01.json';
+import historyEn2 from './history-en-02.json';
+import politicsCs1 from './politics-cs-01.json';
+import politicsCs2 from './politics-cs-02.json';
+import politicsEn1 from './politics-en-01.json';
+import politicsEn2 from './politics-en-02.json';
+import scienceCs1 from './science-cs-01.json';
+import scienceCs2 from './science-cs-02.json';
+import scienceEn1 from './science-en-01.json';
+import scienceEn2 from './science-en-02.json';
 import { validatePack } from '../domain/packs.js';
 import { normalizeAnswer } from '../domain/answers.js';
 
@@ -27,6 +39,18 @@ export function bundledPacks() {
     geographyCs2,
     geographyEn1,
     geographyEn2,
+    historyCs1,
+    historyCs2,
+    historyEn1,
+    historyEn2,
+    politicsCs1,
+    politicsCs2,
+    politicsEn1,
+    politicsEn2,
+    scienceCs1,
+    scienceCs2,
+    scienceEn1,
+    scienceEn2,
   ].map(validatePack);
 }
 

@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "politics-en-01",
+  "title": "Politics and diplomacy · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-en-01-01",
+      "text": "What legal measure grants a pardon to a category of people for past offences, often political ones?",
+      "initial": "A",
+      "answer": "Amnesty",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Amnesty"]
+    },
+    {
+      "id": "politics-en-01-02",
+      "text": "What term means that a legislature consists of two chambers?",
+      "initial": "B",
+      "answer": "Bicameralism",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Bicameralism"]
+    },
+    {
+      "id": "politics-en-01-03",
+      "text": "What is the term for the fundamental principles or basic law defining a state's institutions and powers?",
+      "initial": "C",
+      "answer": "Constitution",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Constitution"]
+    },
+    {
+      "id": "politics-en-01-04",
+      "text": "What phrase describes arrangements in which separate branches of government can limit one another's powers?",
+      "initial": "CH",
+      "answer": "Checks and balances",
+      "language": "en",
+      "aliases": ["checks & balances"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Separation_of_powers"]
+    },
+    {
+      "id": "politics-en-01-05",
+      "text": "What legal protection generally shields accredited foreign diplomats from the receiving state's criminal jurisdiction?",
+      "initial": "D",
+      "answer": "Diplomatic immunity",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Diplomatic_immunity"]
+    },
+    {
+      "id": "politics-en-01-06",
+      "text": "What term describes a government-imposed restriction or prohibition on trade with a particular country?",
+      "initial": "E",
+      "answer": "Embargo",
+      "language": "en",
+      "aliases": ["trade embargo"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Economic_sanctions"]
+    },
+    {
+      "id": "politics-en-01-07",
+      "text": "What system constitutionally divides governing power between a central authority and constituent political units?",
+      "initial": "F",
+      "answer": "Federalism",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Federalism"]
+    },
+    {
+      "id": "politics-en-01-08",
+      "text": "What term describes manipulating electoral district boundaries to give a political group an unfair advantage?",
+      "initial": "G",
+      "answer": "Gerrymandering",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Gerrymandering"]
+    },
+    {
+      "id": "politics-en-01-09",
+      "text": "What legal procedure allows a detainee to challenge the lawfulness of detention before a court?",
+      "initial": "H",
+      "answer": "Habeas corpus",
+      "language": "en",
+      "aliases": ["writ of habeas corpus"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Habeas_corpus"]
+    },
+    {
+      "id": "politics-en-01-10",
+      "text": "What constitutional process brings formal charges against a public official, without necessarily removing that official from office?",
+      "initial": "I",
+      "answer": "Impeachment",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Impeachment"]
+    },
+    {
+      "id": "politics-en-01-11",
+      "text": "What power allows courts to examine whether government acts or laws are compatible with a constitution?",
+      "initial": "J",
+      "answer": "Judicial review",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Judicial_review"]
+    },
+    {
+      "id": "politics-en-01-12",
+      "text": "What is the name of Israel's unicameral national legislature?",
+      "initial": "K",
+      "answer": "Knesset",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Knesset"]
+    },
+    {
+      "id": "politics-en-01-13",
+      "text": "What term describes efforts to influence public officials on policy or legislation on behalf of particular interests?",
+      "initial": "L",
+      "answer": "Lobbying",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Lobbying"]
+    },
+    {
+      "id": "politics-en-01-14",
+      "text": "What form of government has a sovereign such as a king or queen as head of state, usually by hereditary succession?",
+      "initial": "M",
+      "answer": "Monarchy",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Monarchy"]
+    },
+    {
+      "id": "politics-en-01-15",
+      "text": "What international grouping, founded at Belgrade in 1961, sought independence from the rival Cold War power blocs?",
+      "initial": "N",
+      "answer": "Non-aligned Movement",
+      "language": "en",
+      "aliases": ["NAM", "Nonaligned Movement"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Non-Aligned_Movement"]
+    },
+    {
+      "id": "politics-en-01-16",
+      "text": "What title describes an independent official who investigates complaints about maladministration by public authorities?",
+      "initial": "O",
+      "answer": "Ombudsman",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Ombudsman"]
+    },
+    {
+      "id": "politics-en-01-17",
+      "text": "What electoral principle aims to allocate seats in line with parties' shares of the vote?",
+      "initial": "P",
+      "answer": "Proportional representation",
+      "language": "en",
+      "aliases": ["PR"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Proportional_representation"]
+    },
+    {
+      "id": "politics-en-01-18",
+      "text": "What is the minimum number of members who must be present for an assembly to conduct valid business?",
+      "initial": "Q",
+      "answer": "Quorum",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Quorum"]
+    },
+    {
+      "id": "politics-en-01-19",
+      "text": "What is a direct vote by the electorate on a specific public question rather than on candidates for office?",
+      "initial": "R",
+      "answer": "Referendum",
+      "language": "en",
+      "aliases": ["plebiscite"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Referendum"]
+    },
+    {
+      "id": "politics-en-01-20",
+      "text": "What political concept means supreme authority within a territory and independence from outside control?",
+      "initial": "S",
+      "answer": "Sovereignty",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Sovereignty"]
+    },
+    {
+      "id": "politics-en-01-21",
+      "text": "What is the group of senior opposition politicians assigned to scrutinize corresponding government ministers in the British parliamentary model called?",
+      "initial": "SH",
+      "answer": "Shadow cabinet",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Shadow_cabinet"]
+    },
+    {
+      "id": "politics-en-01-22",
+      "text": "What form of government treats a deity as the supreme authority and has religious leaders exercise governing power?",
+      "initial": "T",
+      "answer": "Theocracy",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Theocracy"]
+    },
+    {
+      "id": "politics-en-01-23",
+      "text": "What term means that the right to vote extends to all adult citizens, subject to limited legal qualifications, rather than only to property owners or one sex?",
+      "initial": "U",
+      "answer": "Universal suffrage",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Universal_suffrage"]
+    },
+    {
+      "id": "politics-en-01-24",
+      "text": "What is the power to block a proposed decision or law called?",
+      "initial": "V",
+      "answer": "Veto",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Veto"]
+    },
+    {
+      "id": "politics-en-01-25",
+      "text": "What name is given to the parliamentary model derived from British institutions, with a cabinet accountable to parliament?",
+      "initial": "W",
+      "answer": "Westminster system",
+      "language": "en",
+      "aliases": ["Westminster model"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Westminster_system"]
+    },
+    {
+      "id": "politics-en-01-26",
+      "text": "What term describes fear or hostility toward people perceived as foreigners or outsiders?",
+      "initial": "X",
+      "answer": "Xenophobia",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Xenophobia"]
+    },
+    {
+      "id": "politics-en-01-27",
+      "text": "What political movement pressed for constitutional government in the Ottoman Empire and was associated with the revolution of 1908?",
+      "initial": "Y",
+      "answer": "Young Turks",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Young_Turks"]
+    },
+    {
+      "id": "politics-en-01-28",
+      "text": "What nationalist movement sought the establishment of a Jewish homeland in the historic region of Palestine?",
+      "initial": "Z",
+      "answer": "Zionism",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Zionism"]
+    }
+  ]
+}

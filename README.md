@@ -1,10 +1,13 @@
 # HexY
 
-Playable local quiz for two players sharing a screen. **Phases 1–5 are independently
-cleared, including a 12-pack / 336-question catalog. Not a production release.**
-General knowledge, Nature and Geography support both languages, catalog filtering
-and source-preserving printable answer sheets.
+Playable local quiz for two players sharing a screen. **Phases 1–6 are independently
+cleared, with 24 packs / 672 questions. Not a production release.**
+General knowledge, Nature, Geography, History, Politics/diplomacy and
+Science/technology support both languages, catalog filtering and
+source-preserving printable answer sheets.
 See [phase status](IMPLEMENTATION_PHASES.md) and [contracts](docs/contracts.md).
+The [phase-6 review](reviews/phase-06.md) records editorial coverage, corrections
+and independent/post-review verification.
 
 ## Play
 
@@ -251,16 +254,19 @@ See [format and duplicate-resolution rules](docs/contracts.md).
 
 ## Content catalog
 
-The phase-5 candidate contains **12 packs / 336 entries**: two fixed 28-question
-packs per category and language for General knowledge, Nature, and Geography
-and travel. This includes the two unchanged, previously reviewed starter packs
-`general-cs-01` and `general-en-01`; ten packs / 280 questions are new.
-Later categories remain planned, not delivered. Each pack also works as a
+The phase-6 candidate contains **24 packs / 672 entries**: two fixed 28-question
+packs per category and language for General knowledge, Nature, Geography
+and travel, History, Politics and diplomacy, and Science and technology.
+The twelve reviewed phase-5 packs remain byte-for-byte unchanged, including
+the original starters `general-cs-01` and `general-en-01`.
+Phase 6 adds twelve packs / 336 questions; all new entries await independent
+factual and linguistic review. Programming, Arts/literature and Entertainment
+remain planned for phase 7, not delivered. Each pack also works as a
 selected number-game source. Questions can recur across games; neither filtering
 nor generation promises permanent novelty.
 
 See the [inventory and editorial policy](docs/content-inventory.md) and the
-[336-entry source-check ledger](docs/content-sources.md). Original Czech and
+[672-entry source-check ledger](docs/content-sources.md). Original Czech and
 English questions use their own fixed alphabets, not forced translations.
 Sources were checked during authoring on 2026-10-28; the ledger identifies the
 temporarily unavailable BCcampus starter citation and its verified corroboration.

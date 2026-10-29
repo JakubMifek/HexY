@@ -56,8 +56,8 @@ test('all UI messages exist in both languages', () => {
     Object.keys(strings.en).sort(),
   );
   expect(Object.values(strings.cs).every(Boolean)).toBe(true);
-  expect(strings.en.catalogHelp).toContain('12 fixed packs');
-  expect(strings.cs.catalogHelp).toContain('12 pevných sad');
+  expect(strings.en.catalogHelp).toContain('24 fixed packs');
+  expect(strings.cs.catalogHelp).toContain('24 pevných sad');
   expect(strings.en.limit).toContain('saved games recover');
   expect(strings.cs.limit).toContain(
     'uložená hra se po obnovení stránky obnoví',
@@ -78,27 +78,34 @@ test('English B asks about erupted ridge lava, not the volume of the entire ocea
   expect(acceptsAnswer(question, 'gabbro')).toBe(false);
 });
 
-test('phase-five inventory includes exactly two packs per category/language and every shipped JSON', () => {
+test('phase-six inventory includes exactly two packs per category/language and every shipped JSON', () => {
   const packs = bundledPacks();
-  expect(packs).toHaveLength(12);
+  expect(packs).toHaveLength(24);
   expect(packs.map((pack) => `${pack.id}.json`).sort()).toEqual(
     readdirSync('src/content')
       .filter((name) => name.endsWith('.json'))
       .sort(),
   );
-  expect(new Set(packs.map((pack) => pack.id)).size).toBe(12);
+  expect(new Set(packs.map((pack) => pack.id)).size).toBe(24);
   const questions = packs.flatMap((pack) => pack.questions);
-  expect(questions).toHaveLength(336);
-  expect(new Set(questions.map((q) => q.id)).size).toBe(336);
+  expect(questions).toHaveLength(672);
+  expect(new Set(questions.map((q) => q.id)).size).toBe(672);
   for (const language of ['cs', 'en']) {
     const localized = questions.filter((q) => q.language === language);
     expect(new Set(localized.map((q) => normalizeAnswer(q.text))).size).toBe(
-      168,
+      336,
     );
     expect(new Set(localized.map((q) => normalizeAnswer(q.answer))).size).toBe(
-      168,
+      336,
     );
-    for (const category of ['general', 'nature', 'geography']) {
+    for (const category of [
+      'general',
+      'nature',
+      'geography',
+      'history',
+      'politics',
+      'science',
+    ]) {
       const matching = packs.filter(
         (pack) =>
           pack.language === language &&
@@ -193,19 +200,84 @@ test('new questions do not literally supply any automatically accepted answer', 
   }
 });
 
+test('phase-six resistor clue does not accept the inflected property disclosed in its prompt', () => {
+  const question = bundledPacks()
+    .flatMap((pack) => pack.questions)
+    .find((q) => q.id === 'science-cs-01-19');
+  if (!question) throw new Error('Missing resistor question');
+  expect(question.text).toContain('odporu');
+  expect(acceptsAnswer(question, 'rezistor')).toBe(true);
+  expect(acceptsAnswer(question, 'odpor')).toBe(false);
+});
+
+test.each([
+  {
+    id: 'politics-cs-02-06',
+    canonical: 'Exekutiva',
+    aliases: [],
+    rejected: ['výkonná moc'],
+    clue: 'výkonnou složku státní moci',
+  },
+  {
+    id: 'history-en-01-23',
+    canonical: 'U-boat',
+    aliases: ['U boat'],
+    rejected: ['Unterseeboot'],
+    clue: 'What English term',
+  },
+  {
+    id: 'politics-en-02-14',
+    canonical: 'Motion of no confidence',
+    aliases: ['no-confidence motion'],
+    rejected: ['Motion of confidence', 'vote of no confidence'],
+    clue: "no longer has the legislature's support to remain in office",
+  },
+  {
+    id: 'history-cs-01-26',
+    canonical: 'Washington',
+    aliases: ['George Washington'],
+    rejected: ['Westfálský mír', 'Vestfálský mír'],
+    clue: 'prvním prezidentem Spojených států amerických',
+  },
+])(
+  'P6 review correction $id accepts only answers in the revised scope',
+  (entry) => {
+    const question = bundledPacks()
+      .flatMap((pack) => pack.questions)
+      .find((q) => q.id === entry.id);
+    if (!question) throw new Error(`Missing ${entry.id}`);
+    for (const answer of [entry.canonical, ...entry.aliases])
+      expect(acceptsAnswer(question, answer)).toBe(true);
+    for (const answer of entry.rejected)
+      expect(acceptsAnswer(question, answer)).toBe(false);
+    expect(question.answer).toBe(entry.canonical);
+    expect(question.aliases).toEqual(entry.aliases);
+    expect(question.text).toContain(entry.clue);
+    expect(question.initial).toBe(entry.canonical[0]);
+  },
+);
+
 test('source evidence covers every shipped entry and the exact authored files', () => {
   const evidence = readFileSync('docs/content-sources.md', 'utf8');
+  const rows = evidence
+    .split('\n')
+    .filter((line) => line.startsWith('- `') && line.includes('` — **'));
+  expect(rows).toHaveLength(672);
   for (const pack of bundledPacks()) {
     const digest = createHash('sha256')
       .update(readFileSync(`src/content/${pack.id}.json`))
       .digest('hex');
     expect(evidence, pack.id).toContain(digest);
     for (const question of pack.questions) {
-      expect(evidence).toContain(
+      const matching = rows.filter((row) =>
+        row.startsWith(`- \`${question.id}\` —`),
+      );
+      expect(matching, question.id).toHaveLength(1);
+      expect(matching[0]).toContain(
         `\`${question.id}\` — **${question.answer}** (\`${question.initial}\`)`,
       );
       for (const source of question.sources)
-        expect(evidence, question.id).toContain(source);
+        expect(matching[0], question.id).toContain(source);
     }
   }
 });

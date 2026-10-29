@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "science-en-02",
+  "title": "Science and technology · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-02-01",
+      "text": "What type of electric current periodically reverses direction, unlike the output of an ordinary battery?",
+      "initial": "A",
+      "answer": "Alternating current",
+      "language": "en",
+      "aliases": ["AC"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Alternating_current"]
+    },
+    {
+      "id": "science-en-02-02",
+      "text": "Which gas law states that pressure is inversely proportional to volume for a fixed amount of ideal gas at constant temperature?",
+      "initial": "B",
+      "answer": "Boyle's law",
+      "language": "en",
+      "aliases": ["Boyle law", "Boyle–Mariotte law", "Boyle-Mariotte law"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Boyle's_law"]
+    },
+    {
+      "id": "science-en-02-03",
+      "text": "What electrode is defined as the site of reduction in an electrochemical cell, regardless of whether it is positive or negative?",
+      "initial": "C",
+      "answer": "Cathode",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Cathode"]
+    },
+    {
+      "id": "science-en-02-04",
+      "text": "What process occurs when products of one reaction step trigger further steps of the same kind?",
+      "initial": "CH",
+      "answer": "Chain reaction",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Chain_reaction"]
+    },
+    {
+      "id": "science-en-02-05",
+      "text": "What wave phenomenon causes spreading or bending around an obstacle or through an opening?",
+      "initial": "D",
+      "answer": "Diffraction",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Diffraction"]
+    },
+    {
+      "id": "science-en-02-06",
+      "text": "What process uses direct electric current to drive a chemical reaction that would not otherwise occur spontaneously?",
+      "initial": "E",
+      "answer": "Electrolysis",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electrolysis"]
+    },
+    {
+      "id": "science-en-02-07",
+      "text": "What nuclear process joins lighter atomic nuclei into heavier ones?",
+      "initial": "F",
+      "answer": "Fusion",
+      "language": "en",
+      "aliases": ["nuclear fusion"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Nuclear_fusion"]
+    },
+    {
+      "id": "science-en-02-08",
+      "text": "What device uses a spinning rotor's resistance to changes in orientation to help measure or maintain direction?",
+      "initial": "G",
+      "answer": "Gyroscope",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Gyroscope"]
+    },
+    {
+      "id": "science-en-02-09",
+      "text": "What technique records and reconstructs a light wavefront to produce an image that can appear three-dimensional?",
+      "initial": "H",
+      "answer": "Holography",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Holography"]
+    },
+    {
+      "id": "science-en-02-10",
+      "text": "What passive circuit component stores energy in a magnetic field when current flows through it?",
+      "initial": "I",
+      "answer": "Inductor",
+      "language": "en",
+      "aliases": ["coil"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Inductor"]
+    },
+    {
+      "id": "science-en-02-11",
+      "text": "What quantum effect allows an electric current to pass between two superconductors separated by a sufficiently thin barrier, even with no applied voltage?",
+      "initial": "J",
+      "answer": "Josephson effect",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Josephson_effect"]
+    },
+    {
+      "id": "science-en-02-12",
+      "text": "What is the energy an object possesses because of its motion called?",
+      "initial": "K",
+      "answer": "Kinetic energy",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Kinetic_energy"]
+    },
+    {
+      "id": "science-en-02-13",
+      "text": "What simple machine consists of a rigid body that can turn about a fixed support point?",
+      "initial": "L",
+      "answer": "Lever",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Lever"]
+    },
+    {
+      "id": "science-en-02-14",
+      "text": "What pressure-measuring instrument can use the height difference between liquid columns in a U-shaped tube?",
+      "initial": "M",
+      "answer": "Manometer",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Pressure_measurement"]
+    },
+    {
+      "id": "science-en-02-15",
+      "text": "What electrically neutral elementary particle has a very small mass and interacts through the weak force but not the electromagnetic or strong force?",
+      "initial": "N",
+      "answer": "Neutrino",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Neutrino"]
+    },
+    {
+      "id": "science-en-02-16",
+      "text": "What instrument displays the variation of an electrical signal, commonly voltage plotted against time?",
+      "initial": "O",
+      "answer": "Oscilloscope",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Oscilloscope"]
+    },
+    {
+      "id": "science-en-02-17",
+      "text": "What SI unit of pressure equals one newton per square metre?",
+      "initial": "P",
+      "answer": "Pascal",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Pascal_(unit)"]
+    },
+    {
+      "id": "science-en-02-18",
+      "text": "What phenomenon links quantum systems so that their joint state cannot be described as a separate independent state for each system?",
+      "initial": "Q",
+      "answer": "Quantum entanglement",
+      "language": "en",
+      "aliases": ["entanglement"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Quantum_entanglement"]
+    },
+    {
+      "id": "science-en-02-19",
+      "text": "What is the change in direction of a wave as it passes between media where its propagation speed differs called?",
+      "initial": "R",
+      "answer": "Refraction",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Refraction"]
+    },
+    {
+      "id": "science-en-02-20",
+      "text": "What phase change takes a substance directly from solid to gas without becoming liquid?",
+      "initial": "S",
+      "answer": "Sublimation",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sublimation_(phase_transition)"
+      ]
+    },
+    {
+      "id": "science-en-02-21",
+      "text": "What is a rapidly propagating disturbance characterized by an abrupt change in pressure, density and temperature, as in a sonic boom?",
+      "initial": "SH",
+      "answer": "Shock wave",
+      "language": "en",
+      "aliases": ["shockwave"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Shock_wave"]
+    },
+    {
+      "id": "science-en-02-22",
+      "text": "What device transfers electrical energy between circuits through electromagnetic induction and commonly changes an alternating voltage?",
+      "initial": "T",
+      "answer": "Transformer",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Transformer"]
+    },
+    {
+      "id": "science-en-02-23",
+      "text": "What band of electromagnetic radiation lies beyond the violet end of visible light but has longer wavelengths than X-rays?",
+      "initial": "U",
+      "answer": "Ultraviolet",
+      "language": "en",
+      "aliases": ["ultraviolet radiation", "UV"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ultraviolet"]
+    },
+    {
+      "id": "science-en-02-24",
+      "text": "What term describes a space devoid of matter, or in engineering a space with gas pressure well below atmospheric pressure?",
+      "initial": "V",
+      "answer": "Vacuum",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Vacuum"]
+    },
+    {
+      "id": "science-en-02-25",
+      "text": "What four-arm electrical circuit measures an unknown resistance by balancing two branches?",
+      "initial": "W",
+      "answer": "Wheatstone bridge",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Wheatstone_bridge"]
+    },
+    {
+      "id": "science-en-02-26",
+      "text": "What technique reveals crystal structure by measuring the pattern formed when short-wavelength electromagnetic radiation scatters from a crystal lattice?",
+      "initial": "X",
+      "answer": "X-ray diffraction",
+      "language": "en",
+      "aliases": ["X ray diffraction", "XRD"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/X-ray_crystallography"]
+    },
+    {
+      "id": "science-en-02-27",
+      "text": "What elastic modulus is the ratio of tensile stress to tensile strain within a material's linear elastic range?",
+      "initial": "Y",
+      "answer": "Young's modulus",
+      "language": "en",
+      "aliases": ["Young modulus", "modulus of elasticity", "tensile modulus"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Young's_modulus"]
+    },
+    {
+      "id": "science-en-02-28",
+      "text": "What metallic element has symbol Zr and is widely used in nuclear fuel cladding because of its low neutron absorption?",
+      "initial": "Z",
+      "answer": "Zirconium",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zirconium",
+        "https://periodic-table.rsc.org/element/40/zirconium"
+      ]
+    }
+  ]
+}

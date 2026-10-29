@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "id": "politics-en-02",
+  "title": "Politics and diplomacy · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-en-02-01",
+      "text": "What treaty-law term describes a state's agreement to become a party to an existing treaty without first signing it?",
+      "initial": "A",
+      "answer": "Accession",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": [
+        "https://treaties.un.org/Pages/Overview.aspx?path=overview/glossary/page1_en.xml"
+      ]
+    },
+    {
+      "id": "politics-en-02-02",
+      "text": "What term describes political or diplomatic relations conducted between two states rather than through a larger group?",
+      "initial": "B",
+      "answer": "Bilateralism",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Bilateralism"]
+    },
+    {
+      "id": "politics-en-02-03",
+      "text": "What term describes an alliance of political parties that cooperate to form or sustain a government?",
+      "initial": "C",
+      "answer": "Coalition",
+      "language": "en",
+      "aliases": ["coalition government"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Coalition_government"]
+    },
+    {
+      "id": "politics-en-02-04",
+      "text": "What French diplomatic title denotes a head of mission accredited to a foreign minister rather than a head of state?",
+      "initial": "CH",
+      "answer": "Chargé d'affaires",
+      "language": "en",
+      "aliases": ["chargé d’affaires"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Charg%C3%A9_d'affaires"]
+    },
+    {
+      "id": "politics-en-02-05",
+      "text": "What term describes the transfer of powers from a central government to regional or local bodies within a state?",
+      "initial": "D",
+      "answer": "Devolution",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Devolution"]
+    },
+    {
+      "id": "politics-en-02-06",
+      "text": "What legal process transfers an accused or convicted person from one jurisdiction to another for prosecution or punishment?",
+      "initial": "E",
+      "answer": "Extradition",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Extradition"]
+    },
+    {
+      "id": "politics-en-02-07",
+      "text": "What parliamentary tactic uses prolonged debate or other obstruction to delay or prevent a vote?",
+      "initial": "F",
+      "answer": "Filibuster",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Filibuster"]
+    },
+    {
+      "id": "politics-en-02-08",
+      "text": "What collective name identifies the four treaties of 1949 protecting wounded service personnel, shipwrecked personnel, prisoners of war and civilians?",
+      "initial": "G",
+      "answer": "Geneva Conventions",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Geneva_Conventions"]
+    },
+    {
+      "id": "politics-en-02-09",
+      "text": "What term describes the predominance or leadership of one state over others?",
+      "initial": "H",
+      "answer": "Hegemony",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Hegemony"]
+    },
+    {
+      "id": "politics-en-02-10",
+      "text": "What kind of organization is created by an agreement between states, as distinct from a private nongovernmental body?",
+      "initial": "I",
+      "answer": "Intergovernmental organization",
+      "language": "en",
+      "aliases": ["IGO", "intergovernmental organisation"],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Intergovernmental_organization"
+      ]
+    },
+    {
+      "id": "politics-en-02-11",
+      "text": "What term denotes a court's legal authority to hear a case or exercise power over a territory or person?",
+      "initial": "J",
+      "answer": "Jurisdiction",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Jurisdiction"]
+    },
+    {
+      "id": "politics-en-02-12",
+      "text": "What term describes a government whose rulers use public power to steal national wealth for themselves?",
+      "initial": "K",
+      "answer": "Kleptocracy",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Kleptocracy"]
+    },
+    {
+      "id": "politics-en-02-13",
+      "text": "What is the general name for the branch or body of government that makes laws?",
+      "initial": "L",
+      "answer": "Legislature",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Legislature"]
+    },
+    {
+      "id": "politics-en-02-14",
+      "text": "What parliamentary motion explicitly declares that a government no longer has the legislature's support to remain in office?",
+      "initial": "M",
+      "answer": "Motion of no confidence",
+      "language": "en",
+      "aliases": ["no-confidence motion"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Motion_of_no_confidence"]
+    },
+    {
+      "id": "politics-en-02-15",
+      "text": "What process grants citizenship on application to a foreign national who meets legal requirements such as residence?",
+      "initial": "N",
+      "answer": "Naturalization",
+      "language": "en",
+      "aliases": ["naturalisation"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Naturalization"]
+    },
+    {
+      "id": "politics-en-02-16",
+      "text": "What form of rule concentrates power in a small group rather than in the population as a whole?",
+      "initial": "O",
+      "answer": "Oligarchy",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Oligarchy"]
+    },
+    {
+      "id": "politics-en-02-17",
+      "text": "What Latin expression may a receiving state use to declare a foreign diplomat unacceptable and require recall?",
+      "initial": "P",
+      "answer": "Persona non grata",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Persona_non_grata"]
+    },
+    {
+      "id": "politics-en-02-18",
+      "text": "What term does the Council of the European Union use for the voting rule introduced in 2014 that normally requires 55% of member states representing at least 65% of the EU population?",
+      "initial": "Q",
+      "answer": "Qualified majority",
+      "language": "en",
+      "aliases": ["qualified majority voting", "QMV"],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Voting_in_the_Council_of_the_European_Union"
+      ]
+    },
+    {
+      "id": "politics-en-02-19",
+      "text": "What formal act confirms a state's consent to be bound by a signed international treaty through its competent authorities?",
+      "initial": "R",
+      "answer": "Ratification",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Ratification"]
+    },
+    {
+      "id": "politics-en-02-20",
+      "text": "What principle favours decisions at the lowest level of government capable of handling the matter effectively?",
+      "initial": "S",
+      "answer": "Subsidiarity",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Subsidiarity"]
+    },
+    {
+      "id": "politics-en-02-21",
+      "text": "What is the name of the Islamic religious legal tradition drawing on the Quran and the practices of the Prophet?",
+      "initial": "SH",
+      "answer": "Sharia",
+      "language": "en",
+      "aliases": ["shariah", "shari'a"],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Sharia"]
+    },
+    {
+      "id": "politics-en-02-22",
+      "text": "What is a written international agreement between states governed by international law commonly called?",
+      "initial": "T",
+      "answer": "Treaty",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty"]
+    },
+    {
+      "id": "politics-en-02-23",
+      "text": "What is a final demand with a deadline and a stated consequence for noncompliance called?",
+      "initial": "U",
+      "answer": "Ultimatum",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Ultimatum"]
+    },
+    {
+      "id": "politics-en-02-24",
+      "text": "Which 1961 treaty codifies the functions, privileges and immunities of permanent diplomatic missions?",
+      "initial": "V",
+      "answer": "Vienna Convention on Diplomatic Relations",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Convention_on_Diplomatic_Relations"
+      ]
+    },
+    {
+      "id": "politics-en-02-25",
+      "text": "What colour-named government document usually sets out detailed policy proposals or an official position?",
+      "initial": "W",
+      "answer": "White paper",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/White_paper"]
+    },
+    {
+      "id": "politics-en-02-26",
+      "text": "Who became general secretary of the Chinese Communist Party in November 2012?",
+      "initial": "X",
+      "answer": "Xi Jinping",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Xi_Jinping"]
+    },
+    {
+      "id": "politics-en-02-27",
+      "text": "What nineteenth-century Irish nationalist movement was associated with The Nation newspaper and an attempted rising in 1848?",
+      "initial": "Y",
+      "answer": "Young Ireland",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Young_Ireland"]
+    },
+    {
+      "id": "politics-en-02-28",
+      "text": "What term describes the division of land by public authorities into areas designated for uses such as housing, industry or commerce?",
+      "initial": "Z",
+      "answer": "Zoning",
+      "language": "en",
+      "aliases": [],
+      "category": "politics",
+      "sources": ["https://en.wikipedia.org/wiki/Zoning"]
+    }
+  ]
+}

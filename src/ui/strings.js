@@ -26,7 +26,7 @@ export const strings = {
     automatic: 'Typed · automatic check',
     content: 'Question language',
     catalogHelp:
-      '12 fixed packs: General knowledge, Nature, Geography and travel, in Czech and English. Browse or import your question content below.',
+      '24 fixed packs: General knowledge, Nature, Geography and travel, History, Politics and diplomacy, Science and technology, in Czech and English. Browse or import your question content below.',
     start: 'Start game',
     limit:
       'Local play only. Successfully saved games recover after reload; check the recovery status. Export custom packs and games as backups, because browser data can be removed.',
@@ -117,7 +117,7 @@ export const strings = {
     automatic: 'Psané · automatická kontrola',
     content: 'Jazyk otázek',
     catalogHelp:
-      '12 pevných sad: Všeobecné znalosti, Příroda, Zeměpis a cestování, česky i anglicky. Níže procházejte katalog nebo importujte své otázky.',
+      '24 pevných sad: Všeobecné znalosti, Příroda, Zeměpis a cestování, Historie, Politika a diplomacie, Věda a technika, česky i anglicky. Níže procházejte katalog nebo importujte své otázky.',
     start: 'Spustit hru',
     limit:
       'Pouze místní hra. Úspěšně uložená hra se po obnovení stránky obnoví; sledujte stav obnovy. Zálohujte vlastní sady i hry exportem, protože data prohlížeče mohou být smazána.',

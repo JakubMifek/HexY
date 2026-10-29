@@ -20,6 +20,22 @@ async function chooseBoard(page, id) {
   await page.locator('#accept-board').click();
 }
 
+async function verifySelectedNumbers(page, info, pack) {
+  await page.locator('#mode').selectOption('numbers');
+  await chooseBoard(page, pack.id);
+  const exported = await download(page, info, '#export-pack', 'numbers.json');
+  const numbers = JSON.parse(exported.text);
+  expect(numbers.mode).toBe('numbers');
+  expect(new Set(numbers.questions.map((q) => q.id))).toEqual(
+    new Set(pack.questions.map((q) => q.id)),
+  );
+  expect(numbers.questions.every((q) => q.origins[0].packId === pack.id)).toBe(
+    true,
+  );
+  await page.locator('#import-packs').setInputFiles(exported.path);
+  await expect(page.locator('#preparation-error')).toHaveText('');
+}
+
 for (const pack of packs) {
   test(`catalog ${pack.id}: fixed export, selected-only numbers, recovery and host-reset lock`, async ({
     page,
@@ -37,21 +53,13 @@ for (const pack of packs) {
     expect(JSON.parse(fixed.text)).toEqual(pack);
     await page.locator('#import-packs').setInputFiles(fixed.path);
     await expect(page.locator('#preparation-error')).toHaveText('');
-    await page.locator('#mode').selectOption('numbers');
-    await chooseBoard(page, pack.id);
-    const numbers = JSON.parse(
-      (await download(page, info, '#export-pack', 'numbers.json')).text,
-    );
-    expect(numbers.mode).toBe('numbers');
-    expect(new Set(numbers.questions.map((q) => q.id))).toEqual(
-      new Set(pack.questions.map((q) => q.id)),
-    );
-    expect(
-      numbers.questions.every((q) => q.origins[0].packId === pack.id),
-    ).toBe(true);
+    await verifySelectedNumbers(page, info, pack);
     await page.locator('#mode').selectOption('letters');
     await chooseBoard(page, pack.id);
-    if (pack.id === `geography-${pack.language}-02`) {
+    if (
+      pack.id === `geography-${pack.language}-02` ||
+      ['history', 'politics', 'science'].includes(pack.questions[0].category)
+    ) {
       const html = await download(
         page,
         info,
@@ -176,7 +184,7 @@ for (const viewport of [
         });
         await page.locator('#reset-catalog').focus();
         await page.keyboard.press('Enter');
-        await expect(page.locator('#catalog-results input')).toHaveCount(12);
+        await expect(page.locator('#catalog-results input')).toHaveCount(24);
       });
     }
   }

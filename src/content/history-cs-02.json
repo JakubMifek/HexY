@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "id": "history-cs-02",
+  "title": "Historie · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-cs-02-01",
+      "text": "Který makedonský král byl v mládí žákem Aristotela a zemřel roku 323 př. n. l. v Babylonu?",
+      "initial": "A",
+      "answer": "Alexandr Veliký",
+      "language": "cs",
+      "aliases": ["Alexandr Makedonský", "Alexandr III. Makedonský"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Alexander_the_Great"]
+    },
+    {
+      "id": "history-cs-02-02",
+      "text": "Jak historikové obvykle označují východní část římské říše, která přežila pád její západní části a měla centrum v Konstantinopoli?",
+      "initial": "B",
+      "answer": "Byzantská říše",
+      "language": "cs",
+      "aliases": ["Východořímská říše"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Byzantine_Empire"]
+    },
+    {
+      "id": "history-cs-02-03",
+      "text": "Jaké přízvisko nesl Gaius Julius, římský vojevůdce, který roku 49 př. n. l. překročil Rubikon?",
+      "initial": "C",
+      "answer": "Caesar",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Julius_Caesar"]
+    },
+    {
+      "id": "history-cs-02-04",
+      "text": "Který stát vznikl 28. října 1918 a jeho prvním prezidentem se stal Tomáš Garrigue Masaryk?",
+      "initial": "Č",
+      "answer": "Československo",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Czechoslovakia"]
+    },
+    {
+      "id": "history-cs-02-05",
+      "text": "Jaký historický termín označuje vyhození člověka z okna, k němuž došlo například na Pražském hradě roku 1618?",
+      "initial": "D",
+      "answer": "Defenestrace",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Defenestration"]
+    },
+    {
+      "id": "history-cs-02-06",
+      "text": "Ve které starověké zemi podle tradičního podání sjednotil král Meni Horní a Dolní zemi?",
+      "initial": "E",
+      "answer": "Egypt",
+      "language": "cs",
+      "aliases": ["starověký Egypt"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Menes"]
+    },
+    {
+      "id": "history-cs-02-07",
+      "text": "Který mořeplavec vedl na počátku výpravu z let 1519–1522, která jako první obeplula Zemi, ale sám zahynul na Filipínách?",
+      "initial": "F",
+      "answer": "Ferdinand Magellan",
+      "language": "cs",
+      "aliases": ["Fernão de Magalhães", "Magellan", "Fernando de Magallanes"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Ferdinand_Magellan"]
+    },
+    {
+      "id": "history-cs-02-08",
+      "text": "Který legendární sumerský král Uruku je hlavním hrdinou starověkého eposu o hledání nesmrtelnosti?",
+      "initial": "G",
+      "answer": "Gilgameš",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Gilgamesh"]
+    },
+    {
+      "id": "history-cs-02-09",
+      "text": "Která dynastie nastoupila na český trůn volbou Ferdinanda I. roku 1526?",
+      "initial": "H",
+      "answer": "Habsburkové",
+      "language": "cs",
+      "aliases": ["Habsburská dynastie"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Habsburg_monarchy"]
+    },
+    {
+      "id": "history-cs-02-10",
+      "text": "Jak se jmenovala československá občanská iniciativa, jejíž prohlášení z ledna 1977 upozorňovalo na nedodržování lidských práv?",
+      "initial": "Ch",
+      "answer": "Charta 77",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Charter_77"]
+    },
+    {
+      "id": "history-cs-02-11",
+      "text": "Která kastilská královna spolu se svým manželem Ferdinandem podpořila Kolumbovu výpravu přes Atlantik roku 1492?",
+      "initial": "I",
+      "answer": "Isabela Kastilská",
+      "language": "cs",
+      "aliases": ["Isabela I. Kastilská", "Isabela I."],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Isabella_I_of_Castile"]
+    },
+    {
+      "id": "history-cs-02-12",
+      "text": "Která francouzská dívka spojovaná s osvobozením Orléansu byla roku 1431 upálena v Rouenu?",
+      "initial": "J",
+      "answer": "Johana z Arku",
+      "language": "cs",
+      "aliases": ["Jana z Arku"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Joan_of_Arc"]
+    },
+    {
+      "id": "history-cs-02-13",
+      "text": "Která poslední vládnoucí královna ptolemaiovského Egypta zemřela roku 30 př. n. l.?",
+      "initial": "K",
+      "answer": "Kleopatra VII.",
+      "language": "cs",
+      "aliases": ["Kleopatra", "Kleopatra VII"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Cleopatra"]
+    },
+    {
+      "id": "history-cs-02-14",
+      "text": "Jak se nazývá středověké uspořádání vztahů, v němž vazal získával od seniora držbu půdy výměnou za věrnost a služby?",
+      "initial": "L",
+      "answer": "Lenní systém",
+      "language": "cs",
+      "aliases": ["feudální systém", "feudalismus"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Feudalism"]
+    },
+    {
+      "id": "history-cs-02-15",
+      "text": "Která dohoda podepsaná v září 1938 umožnila Německu zabrat československé pohraničí bez účasti československé vlády na jednání?",
+      "initial": "M",
+      "answer": "Mnichovská dohoda",
+      "language": "cs",
+      "aliases": ["Mnichovský diktát"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Munich_Agreement"]
+    },
+    {
+      "id": "history-cs-02-16",
+      "text": "Jak se nazývá mladší doba kamenná, spojená s rozšířením zemědělství a broušených kamenných nástrojů?",
+      "initial": "N",
+      "answer": "Neolit",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Neolithic"]
+    },
+    {
+      "id": "history-cs-02-17",
+      "text": "Jak se jmenoval první římský císař, který vládl od roku 27 př. n. l. a byl adoptivním synem Julia Caesara?",
+      "initial": "O",
+      "answer": "Oktavián Augustus",
+      "language": "cs",
+      "aliases": ["Augustus", "Octavianus Augustus", "Octavianus", "Oktavián"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Augustus"]
+    },
+    {
+      "id": "history-cs-02-18",
+      "text": "Jak se nazývá období politického uvolnění v Československu roku 1968 spojené s reformami Alexandra Dubčeka?",
+      "initial": "P",
+      "answer": "Pražské jaro",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Prague_Spring"]
+    },
+    {
+      "id": "history-cs-02-19",
+      "text": "Jak se nazývá náboženské hnutí 16. století spojené s vystoupením Martina Luthera a vznikem protestantských církví?",
+      "initial": "R",
+      "answer": "Reformace",
+      "language": "cs",
+      "aliases": ["protestantská reformace"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Reformation"]
+    },
+    {
+      "id": "history-cs-02-20",
+      "text": "Jak se v české historiografii nazývá bolševické převzetí moci v Rusku roku 1917, pojmenované podle tehdejšího ruského kalendáře?",
+      "initial": "Ř",
+      "answer": "Říjnová revoluce",
+      "language": "cs",
+      "aliases": ["Velká říjnová socialistická revoluce"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/October_Revolution"]
+    },
+    {
+      "id": "history-cs-02-21",
+      "text": "Který thrácký gladiátor vedl velké povstání otroků proti římské republice v letech 73–71 př. n. l.?",
+      "initial": "S",
+      "answer": "Spartakus",
+      "language": "cs",
+      "aliases": ["Spartacus"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Spartacus"]
+    },
+    {
+      "id": "history-cs-02-22",
+      "text": "Jak se nazývá konflikt z let 1936–1939 mezi republikány a nacionalisty, z něhož vzešla diktatura Francisca Franca?",
+      "initial": "Š",
+      "answer": "Španělská občanská válka",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Spanish_Civil_War"]
+    },
+    {
+      "id": "history-cs-02-23",
+      "text": "Jak se česky nazývalo spojenectví Německa, Rakouska-Uherska a Itálie uzavřené roku 1882?",
+      "initial": "T",
+      "answer": "Trojspolek",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Triple_Alliance_(1882)"]
+    },
+    {
+      "id": "history-cs-02-24",
+      "text": "Jak se česky nazývá historické království ve střední Evropě, jehož prvním králem byl kolem roku 1000 korunován Štěpán I.?",
+      "initial": "U",
+      "answer": "Uhersko",
+      "language": "cs",
+      "aliases": ["Uherské království"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Kingdom_of_Hungary"]
+    },
+    {
+      "id": "history-cs-02-25",
+      "text": "Jak se nazývá paleolitická keramická soška ženy nalezená roku 1925 na jižní Moravě?",
+      "initial": "V",
+      "answer": "Věstonická venuše",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venus_of_Doln%C3%AD_V%C4%9Bstonice"
+      ]
+    },
+    {
+      "id": "history-cs-02-26",
+      "text": "Jaké příjmení měl Nicholas, který před druhou světovou válkou pomohl zorganizovat záchranu 669 dětí z Československa?",
+      "initial": "W",
+      "answer": "Winton",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Nicholas_Winton"]
+    },
+    {
+      "id": "history-cs-02-27",
+      "text": "Který syn Karla IV. se stal roku 1387 uherským králem a roku 1433 římským císařem?",
+      "initial": "Z",
+      "answer": "Zikmund Lucemburský",
+      "language": "cs",
+      "aliases": ["Zikmund"],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Sigismund,_Holy_Roman_Emperor"]
+    },
+    {
+      "id": "history-cs-02-28",
+      "text": "Jak se nazývá profesionální bojovník najatý za odměnu, který neslouží především z loajality k vlastnímu státu?",
+      "initial": "Ž",
+      "answer": "Žoldnéř",
+      "language": "cs",
+      "aliases": [],
+      "category": "history",
+      "sources": ["https://en.wikipedia.org/wiki/Mercenary"]
+    }
+  ]
+}
