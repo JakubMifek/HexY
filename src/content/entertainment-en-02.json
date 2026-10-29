@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "id": "entertainment-en-02",
+  "title": "Entertainment · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "entertainment-en-02-01",
+      "text": "Which 2009 James Cameron film takes place largely on Pandora, inhabited by the Na'vi?",
+      "initial": "A",
+      "answer": "Avatar",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Avatar_(2009_film)"]
+    },
+    {
+      "id": "entertainment-en-02-02",
+      "text": "Which DC superhero is the masked identity of Gotham City's Bruce Wayne?",
+      "initial": "B",
+      "answer": "Batman",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Batman"]
+    },
+    {
+      "id": "entertainment-en-02-03",
+      "text": "Which 1950 Disney animated film follows a mistreated young woman who attends a royal ball and loses a glass slipper?",
+      "initial": "C",
+      "answer": "Cinderella",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Cinderella_(1950_film)"]
+    },
+    {
+      "id": "entertainment-en-02-04",
+      "text": "Which Wookiee is Han Solo's co-pilot aboard the Millennium Falcon in Star Wars?",
+      "initial": "CH",
+      "answer": "Chewbacca",
+      "language": "en",
+      "aliases": ["Chewie"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Chewbacca"]
+    },
+    {
+      "id": "entertainment-en-02-05",
+      "text": "What is the title of Denis Villeneuve's 2021 film adaptation of Frank Herbert's novel about Arrakis?",
+      "initial": "D",
+      "answer": "Dune",
+      "language": "en",
+      "aliases": ["Dune: Part One", "Dune Part One"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Dune_(2021_film)"]
+    },
+    {
+      "id": "entertainment-en-02-06",
+      "text": "Which American singer, often called the King of Rock and Roll, lived at Graceland?",
+      "initial": "E",
+      "answer": "Elvis Presley",
+      "language": "en",
+      "aliases": ["Elvis", "Presley"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Elvis_Presley"]
+    },
+    {
+      "id": "entertainment-en-02-07",
+      "text": "Which 2013 Disney animated film features the royal sisters Anna and Elsa in Arendelle?",
+      "initial": "F",
+      "answer": "Frozen",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Frozen_(2013_film)"]
+    },
+    {
+      "id": "entertainment-en-02-08",
+      "text": "Which Japanese giant monster first appeared in a 1954 Toho film directed by Ishirō Honda?",
+      "initial": "G",
+      "answer": "Godzilla",
+      "language": "en",
+      "aliases": ["Gojira"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Godzilla"]
+    },
+    {
+      "id": "entertainment-en-02-09",
+      "text": "Which actor won the leading-actor Oscar for Philadelphia and again the following year for Forrest Gump?",
+      "initial": "H",
+      "answer": "Hanks",
+      "language": "en",
+      "aliases": ["Tom Hanks"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Tom_Hanks"]
+    },
+    {
+      "id": "entertainment-en-02-10",
+      "text": "Which 2010 Christopher Nolan film follows a team that enters dreams to plant an idea in someone's mind?",
+      "initial": "I",
+      "answer": "Inception",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Inception"]
+    },
+    {
+      "id": "entertainment-en-02-11",
+      "text": "Which DC villain is known as the Clown Prince of Crime and is a recurring enemy of Batman?",
+      "initial": "J",
+      "answer": "Joker",
+      "language": "en",
+      "aliases": ["The Joker"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Joker_(character)"]
+    },
+    {
+      "id": "entertainment-en-02-12",
+      "text": "Which green Muppet, originally performed by Jim Henson, is a frog who hosts The Muppet Show?",
+      "initial": "K",
+      "answer": "Kermit",
+      "language": "en",
+      "aliases": ["Kermit the Frog"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Kermit_the_Frog"]
+    },
+    {
+      "id": "entertainment-en-02-13",
+      "text": "What is the name of the archaeologist-adventurer who stars in the Tomb Raider video-game series?",
+      "initial": "L",
+      "answer": "Lara Croft",
+      "language": "en",
+      "aliases": ["Croft"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Lara_Croft"]
+    },
+    {
+      "id": "entertainment-en-02-14",
+      "text": "Which sandbox video game, originally created by Markus Persson, lets players mine resources and build in a world of blocks?",
+      "initial": "M",
+      "answer": "Minecraft",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Minecraft"]
+    },
+    {
+      "id": "entertainment-en-02-15",
+      "text": "What alias does computer programmer Thomas Anderson use in the 1999 film The Matrix?",
+      "initial": "N",
+      "answer": "Neo",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Neo_(The_Matrix)"]
+    },
+    {
+      "id": "entertainment-en-02-16",
+      "text": "What trademarked name is used for the standard 8-by-8 version of the disc-flipping board game related to Reversi?",
+      "initial": "O",
+      "answer": "Othello",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Reversi"]
+    },
+    {
+      "id": "entertainment-en-02-17",
+      "text": "Which 1972 Atari arcade game simulates table tennis with two paddles and a moving ball?",
+      "initial": "P",
+      "answer": "Pong",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Pong"]
+    },
+    {
+      "id": "entertainment-en-02-18",
+      "text": "Which first-person shooter released by id Software in 1996 has an engine noted for fully three-dimensional environments and enemies?",
+      "initial": "Q",
+      "answer": "Quake",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Quake_(video_game)"]
+    },
+    {
+      "id": "entertainment-en-02-19",
+      "text": "Which 2007 Pixar film follows Rémy, a rat with a passion for cooking in Paris?",
+      "initial": "R",
+      "answer": "Ratatouille",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Ratatouille_(film)"]
+    },
+    {
+      "id": "entertainment-en-02-20",
+      "text": "Which fast blue hedgehog is Sega's video-game mascot?",
+      "initial": "S",
+      "answer": "Sonic",
+      "language": "en",
+      "aliases": ["Sonic the Hedgehog"],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)"
+      ]
+    },
+    {
+      "id": "entertainment-en-02-21",
+      "text": "Which fictional detective is played by Benedict Cumberbatch in the BBC series that began in 2010?",
+      "initial": "SH",
+      "answer": "Sherlock Holmes",
+      "language": "en",
+      "aliases": ["Holmes"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Sherlock_(TV_series)"]
+    },
+    {
+      "id": "entertainment-en-02-22",
+      "text": "Which 1997 James Cameron film tells the story of Jack and Rose aboard a doomed ocean liner?",
+      "initial": "T",
+      "answer": "Titanic",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Titanic_(1997_film)"]
+    },
+    {
+      "id": "entertainment-en-02-23",
+      "text": "Which 2009 Pixar film follows Carl Fredricksen as he lifts his house into the sky using balloons?",
+      "initial": "U",
+      "answer": "Up",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Up_(2009_film)"]
+    },
+    {
+      "id": "entertainment-en-02-24",
+      "text": "Which Italian composer wrote the four violin concertos collectively known as The Four Seasons?",
+      "initial": "V",
+      "answer": "Vivaldi",
+      "language": "en",
+      "aliases": ["Antonio Vivaldi"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Antonio_Vivaldi"]
+    },
+    {
+      "id": "entertainment-en-02-25",
+      "text": "Which stage musical, first performed on Broadway in 1957, features the rival Jets and Sharks gangs?",
+      "initial": "W",
+      "answer": "West Side Story",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/West_Side_Story"]
+    },
+    {
+      "id": "entertainment-en-02-26",
+      "text": "What name is commonly used for the extraterrestrial creature with an extending inner jaw in the Alien film franchise?",
+      "initial": "X",
+      "answer": "Xenomorph",
+      "language": "en",
+      "aliases": ["Xenomorph XX121"],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alien_(creature_in_Alien_franchise)"
+      ]
+    },
+    {
+      "id": "entertainment-en-02-27",
+      "text": "Which 1968 animated film features the Beatles travelling to Pepperland to oppose the Blue Meanies?",
+      "initial": "Y",
+      "answer": "Yellow Submarine",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Yellow_Submarine_(film)"]
+    },
+    {
+      "id": "entertainment-en-02-28",
+      "text": "What is the US title of Disney's 2016 animated film about rabbit police officer Judy Hopps and fox Nick Wilde?",
+      "initial": "Z",
+      "answer": "Zootopia",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Zootopia"]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "id": "entertainment-en-01",
+  "title": "Entertainment · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "entertainment-en-01-01",
+      "text": "Which Swedish pop group won the Eurovision Song Contest in 1974 with Waterloo?",
+      "initial": "A",
+      "answer": "ABBA",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/ABBA"]
+    },
+    {
+      "id": "entertainment-en-01-02",
+      "text": "Which Liverpool band consisted of John Lennon, Paul McCartney, George Harrison and Ringo Starr?",
+      "initial": "B",
+      "answer": "Beatles",
+      "language": "en",
+      "aliases": ["The Beatles"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/The_Beatles"]
+    },
+    {
+      "id": "entertainment-en-01-03",
+      "text": "Which 1942 film stars Humphrey Bogart as Rick Blaine and Ingrid Bergman as Ilsa Lund?",
+      "initial": "C",
+      "answer": "Casablanca",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Casablanca_(film)"]
+    },
+    {
+      "id": "entertainment-en-01-04",
+      "text": "Which silent-film comedian created the screen character known as the Tramp?",
+      "initial": "CH",
+      "answer": "Chaplin",
+      "language": "en",
+      "aliases": ["Charlie Chaplin", "Charles Chaplin"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Charlie_Chaplin"]
+    },
+    {
+      "id": "entertainment-en-01-05",
+      "text": "Which studio produced Snow White and the Seven Dwarfs in 1937 as its first full-length animated feature?",
+      "initial": "D",
+      "answer": "Disney",
+      "language": "en",
+      "aliases": ["Walt Disney Productions", "Walt Disney"],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+      ]
+    },
+    {
+      "id": "entertainment-en-01-06",
+      "text": "What abbreviated name is given to the stranded alien befriended by the boy Elliott in a 1982 Steven Spielberg film?",
+      "initial": "E",
+      "answer": "E.T.",
+      "language": "en",
+      "aliases": ["ET"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"]
+    },
+    {
+      "id": "entertainment-en-01-07",
+      "text": "Which 1940 Disney animated film presents sequences set to classical music, including The Sorcerer's Apprentice?",
+      "initial": "F",
+      "answer": "Fantasia",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Fantasia_(1940_film)"]
+    },
+    {
+      "id": "entertainment-en-01-08",
+      "text": "Which wizard in The Lord of the Rings returns as the White after previously being known as the Grey?",
+      "initial": "G",
+      "answer": "Gandalf",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Gandalf"]
+    },
+    {
+      "id": "entertainment-en-01-09",
+      "text": "Which film director made Psycho in 1960 and The Birds in 1963?",
+      "initial": "H",
+      "answer": "Hitchcock",
+      "language": "en",
+      "aliases": ["Alfred Hitchcock"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Alfred_Hitchcock"]
+    },
+    {
+      "id": "entertainment-en-01-10",
+      "text": "Which fictional archaeologist, first played in films by Harrison Ford, debuted in Raiders of the Lost Ark?",
+      "initial": "I",
+      "answer": "Indiana Jones",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Indiana_Jones_(character)"]
+    },
+    {
+      "id": "entertainment-en-01-11",
+      "text": "Which 1975 film follows a police chief, marine biologist and fisherman hunting a shark near Amity Island?",
+      "initial": "J",
+      "answer": "Jaws",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Jaws_(film)"]
+    },
+    {
+      "id": "entertainment-en-01-12",
+      "text": "Which director made 2001: A Space Odyssey and the 1980 film The Shining?",
+      "initial": "K",
+      "answer": "Kubrick",
+      "language": "en",
+      "aliases": ["Stanley Kubrick"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Stanley_Kubrick"]
+    },
+    {
+      "id": "entertainment-en-01-13",
+      "text": "Which Danish toy brand is known for interlocking plastic construction bricks?",
+      "initial": "L",
+      "answer": "Lego",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Lego"]
+    },
+    {
+      "id": "entertainment-en-01-14",
+      "text": "Which Nintendo game character is a plumber and the brother of Luigi?",
+      "initial": "M",
+      "answer": "Mario",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Mario"]
+    },
+    {
+      "id": "entertainment-en-01-15",
+      "text": "Which Japanese game company developed and released the Switch console in 2017?",
+      "initial": "N",
+      "answer": "Nintendo",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo"]
+    },
+    {
+      "id": "entertainment-en-01-16",
+      "text": "What popular nickname is used for the Academy Award statuette?",
+      "initial": "O",
+      "answer": "Oscar",
+      "language": "en",
+      "aliases": ["Oscars"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Academy_Awards"]
+    },
+    {
+      "id": "entertainment-en-01-17",
+      "text": "Which 1980 Namco arcade game has a character eating dots in a maze while avoiding ghosts?",
+      "initial": "P",
+      "answer": "Pac-Man",
+      "language": "en",
+      "aliases": ["Pac Man", "Pacman"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Pac-Man"]
+    },
+    {
+      "id": "entertainment-en-01-18",
+      "text": "Which British rock band recorded Bohemian Rhapsody with Freddie Mercury as its lead singer?",
+      "initial": "Q",
+      "answer": "Queen",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Queen_(band)"]
+    },
+    {
+      "id": "entertainment-en-01-19",
+      "text": "Which small astromech droid accompanies C-3PO in Star Wars?",
+      "initial": "R",
+      "answer": "R2-D2",
+      "language": "en",
+      "aliases": ["R2D2", "Artoo-Detoo"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/R2-D2"]
+    },
+    {
+      "id": "entertainment-en-01-20",
+      "text": "Which director made the 1993 film Jurassic Park, based on Michael Crichton's novel?",
+      "initial": "S",
+      "answer": "Spielberg",
+      "language": "en",
+      "aliases": ["Steven Spielberg"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Steven_Spielberg"]
+    },
+    {
+      "id": "entertainment-en-01-21",
+      "text": "Which 2001 animated film features an ogre, a talkative donkey and Princess Fiona?",
+      "initial": "SH",
+      "answer": "Shrek",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Shrek"]
+    },
+    {
+      "id": "entertainment-en-01-22",
+      "text": "Which falling-block puzzle video game was originally created by the Soviet programmer Alexey Pajitnov?",
+      "initial": "T",
+      "answer": "Tetris",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Tetris"]
+    },
+    {
+      "id": "entertainment-en-01-23",
+      "text": "In which card game do players traditionally announce that they have one card left by saying its Spanish-number title?",
+      "initial": "U",
+      "answer": "Uno",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Uno_(card_game)"]
+    },
+    {
+      "id": "entertainment-en-01-24",
+      "text": "What name does the Harry Potter antagonist born Tom Marvolo Riddle adopt?",
+      "initial": "V",
+      "answer": "Voldemort",
+      "language": "en",
+      "aliases": ["Lord Voldemort"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Lord_Voldemort"]
+    },
+    {
+      "id": "entertainment-en-01-25",
+      "text": "Which 2008 Pixar film follows a small waste-compacting robot left on an abandoned Earth?",
+      "initial": "W",
+      "answer": "WALL-E",
+      "language": "en",
+      "aliases": ["WALL E", "WALLE", "WALL·E"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/WALL-E"]
+    },
+    {
+      "id": "entertainment-en-01-26",
+      "text": "What was the name of Microsoft's first home video-game console, launched in 2001?",
+      "initial": "X",
+      "answer": "Xbox",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Xbox_(console)"]
+    },
+    {
+      "id": "entertainment-en-01-27",
+      "text": "Which small Jedi master trains Luke Skywalker on Dagobah in The Empire Strikes Back?",
+      "initial": "Y",
+      "answer": "Yoda",
+      "language": "en",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Yoda"]
+    },
+    {
+      "id": "entertainment-en-01-28",
+      "text": "What is the name of the princess of Hyrule whom Link often helps in Nintendo's fantasy adventure games?",
+      "initial": "Z",
+      "answer": "Zelda",
+      "language": "en",
+      "aliases": ["Princess Zelda"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Princess_Zelda"]
+    }
+  ]
+}

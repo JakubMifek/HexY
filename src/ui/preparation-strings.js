@@ -25,6 +25,9 @@ export const preparationStrings = {
       history: 'History',
       politics: 'Politics and diplomacy',
       science: 'Science and technology',
+      programming: 'Programming',
+      arts: 'Arts and literature',
+      entertainment: 'Entertainment',
     },
     selectionHelp:
       'Select one fixed letter pack, or one or more same-language sources for 28 random number questions. Only selected sources are used; repeated question text is removed.',
@@ -123,6 +126,9 @@ export const preparationStrings = {
       history: 'Historie',
       politics: 'Politika a diplomacie',
       science: 'Věda a technika',
+      programming: 'Programování',
+      arts: 'Umění a literatura',
+      entertainment: 'Zábava',
     },
     selectionHelp:
       'Vyberte jednu pevnou písmennou sadu nebo více zdrojů ve stejném jazyce pro 28 náhodných číselných otázek. Použijí se jen vybrané zdroje; opakující se znění otázek se vynechá.',

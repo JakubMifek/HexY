@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "entertainment-cs-01",
+  "title": "Zábava · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "entertainment-cs-01-01",
+      "text": "Která švédská popová skupina vyhrála Eurovizi v roce 1974 s písní Waterloo?",
+      "initial": "A",
+      "answer": "ABBA",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/ABBA"]
+    },
+    {
+      "id": "entertainment-cs-01-02",
+      "text": "Kterou liverpoolskou skupinu tvořili John Lennon, Paul McCartney, George Harrison a Ringo Starr?",
+      "initial": "B",
+      "answer": "Beatles",
+      "language": "cs",
+      "aliases": ["The Beatles"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/The_Beatles"]
+    },
+    {
+      "id": "entertainment-cs-01-03",
+      "text": "Který film z roku 1942 má v hlavních rolích Humphreyho Bogarta jako Ricka a Ingrid Bergmanovou jako Ilsu?",
+      "initial": "C",
+      "answer": "Casablanca",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Casablanca_(film)"]
+    },
+    {
+      "id": "entertainment-cs-01-04",
+      "text": "Jak zní český název francouzské komedie z roku 1964, v níž Louis de Funès poprvé hrál Ludovica Cruchota?",
+      "initial": "Č",
+      "answer": "Četník ze Saint-Tropez",
+      "language": "cs",
+      "aliases": ["Četník ze Saint Tropez"],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cetn%C3%ADk_ze_Saint-Tropez"
+      ]
+    },
+    {
+      "id": "entertainment-cs-01-05",
+      "text": "Které studio vytvořilo roku 1937 Sněhurku a sedm trpaslíků jako svůj první celovečerní animovaný film?",
+      "initial": "D",
+      "answer": "Disney",
+      "language": "cs",
+      "aliases": ["Walt Disney", "Walt Disney Productions"],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+      ]
+    },
+    {
+      "id": "entertainment-cs-01-06",
+      "text": "Jaké zkrácené jméno má mimozemšťan, s nímž se spřátelí chlapec Elliott ve filmu Stevena Spielberga z roku 1982?",
+      "initial": "E",
+      "answer": "E.T.",
+      "language": "cs",
+      "aliases": ["ET"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"]
+    },
+    {
+      "id": "entertainment-cs-01-07",
+      "text": "Jak zní český název Disneyho animovaného filmu z roku 1940, jehož sekvence doprovází klasická hudba včetně Čarodějova učně?",
+      "initial": "F",
+      "answer": "Fantazie",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Fantazie_(film)",
+        "https://en.wikipedia.org/wiki/Fantasia_(1940_film)"
+      ]
+    },
+    {
+      "id": "entertainment-cs-01-08",
+      "text": "Který čaroděj z Pána prstenů se po pádu v Morii vrací jako Bílý, ačkoli byl dříve znám jako Šedý?",
+      "initial": "G",
+      "answer": "Gandalf",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Gandalf"]
+    },
+    {
+      "id": "entertainment-cs-01-09",
+      "text": "Který režisér natočil Psycho v roce 1960 a Ptáky v roce 1963?",
+      "initial": "H",
+      "answer": "Hitchcock",
+      "language": "cs",
+      "aliases": ["Alfred Hitchcock"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Alfred_Hitchcock"]
+    },
+    {
+      "id": "entertainment-cs-01-10",
+      "text": "Který komik němého filmu vytvořil postavu Tuláka s buřinkou, hůlkou a malým knírkem?",
+      "initial": "Ch",
+      "answer": "Chaplin",
+      "language": "cs",
+      "aliases": ["Charlie Chaplin", "Charles Chaplin"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Charlie_Chaplin"]
+    },
+    {
+      "id": "entertainment-cs-01-11",
+      "text": "Jak se jmenuje filmový archeolog, kterého Harrison Ford poprvé ztvárnil v Dobyvatelích ztracené archy?",
+      "initial": "I",
+      "answer": "Indiana Jones",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Indiana_Jones_(character)"]
+    },
+    {
+      "id": "entertainment-cs-01-12",
+      "text": "Jak zní český název filmu z roku 1993 podle Michaela Crichtona, v němž genetici oživí dinosaury pro zábavní areál?",
+      "initial": "J",
+      "answer": "Jurský park",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://cs.wikipedia.org/wiki/Jursk%C3%BD_park_(film)"]
+    },
+    {
+      "id": "entertainment-cs-01-13",
+      "text": "Jak se jmenuje zelený žabák, kterého původně vodil a namlouval Jim Henson a který uvádí The Muppet Show?",
+      "initial": "K",
+      "answer": "Kermit",
+      "language": "cs",
+      "aliases": ["žabák Kermit"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Kermit_the_Frog"]
+    },
+    {
+      "id": "entertainment-cs-01-14",
+      "text": "Která dánská značka hraček je známá plastovými stavebnicovými kostkami, které do sebe zapadají?",
+      "initial": "L",
+      "answer": "Lego",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Lego"]
+    },
+    {
+      "id": "entertainment-cs-01-15",
+      "text": "Jak se jmenuje instalatér z videoher firmy Nintendo, jehož bratrem je Luigi?",
+      "initial": "M",
+      "answer": "Mario",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Mario"]
+    },
+    {
+      "id": "entertainment-cs-01-16",
+      "text": "Která japonská herní firma vyvinula a v roce 2017 vydala konzoli Switch?",
+      "initial": "N",
+      "answer": "Nintendo",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo"]
+    },
+    {
+      "id": "entertainment-cs-01-17",
+      "text": "Jakou přezdívku má soška udělovaná americkou Akademií filmového umění a věd?",
+      "initial": "O",
+      "answer": "Oscar",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Academy_Awards"]
+    },
+    {
+      "id": "entertainment-cs-01-18",
+      "text": "Která arkádová hra firmy Namco z roku 1980 má postavičku pojídající tečky v bludišti a vyhýbající se duchům?",
+      "initial": "P",
+      "answer": "Pac-Man",
+      "language": "cs",
+      "aliases": ["Pac Man", "Pacman"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Pac-Man"]
+    },
+    {
+      "id": "entertainment-cs-01-19",
+      "text": "Jak se jmenuje film studia Pixar z roku 2007 o krysákovi Rémym, který chce v Paříži vařit?",
+      "initial": "R",
+      "answer": "Ratatouille",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Ratatouille_(film)"]
+    },
+    {
+      "id": "entertainment-cs-01-20",
+      "text": "Jak se jmenuje česká filmová pohádka Marty Ferencové z roku 2016 s Denisou Pfauserovou v hlavní roli?",
+      "initial": "Ř",
+      "answer": "Řachanda",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98achanda"]
+    },
+    {
+      "id": "entertainment-cs-01-21",
+      "text": "Který americký režisér natočil v roce 1998 válečný film Zachraňte vojína Ryana?",
+      "initial": "S",
+      "answer": "Spielberg",
+      "language": "cs",
+      "aliases": ["Steven Spielberg"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Steven_Spielberg"]
+    },
+    {
+      "id": "entertainment-cs-01-22",
+      "text": "Jak se česky nazývají modré komiksové a animované postavičky belgického autora Peya, které pronásleduje Gargamel?",
+      "initial": "Š",
+      "answer": "Šmoulové",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0moulov%C3%A9"]
+    },
+    {
+      "id": "entertainment-cs-01-23",
+      "text": "Kterou počítačovou hru s padajícími dílky vytvořil sovětský programátor Alexej Pažitnov?",
+      "initial": "T",
+      "answer": "Tetris",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Tetris"]
+    },
+    {
+      "id": "entertainment-cs-01-24",
+      "text": "Ve které karetní hře hráč při poslední zbývající kartě tradičně hlásí španělskou číslovku, která je zároveň názvem hry?",
+      "initial": "U",
+      "answer": "Uno",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Uno_(card_game)"]
+    },
+    {
+      "id": "entertainment-cs-01-25",
+      "text": "Pod jakým jménem je znám hlavní protivník Harryho Pottera, původně Tom Rojvol Raddle v českém překladu?",
+      "initial": "V",
+      "answer": "Voldemort",
+      "language": "cs",
+      "aliases": ["Lord Voldemort"],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lord_Voldemort",
+        "https://cs.wikipedia.org/wiki/Lord_Voldemort"
+      ]
+    },
+    {
+      "id": "entertainment-cs-01-26",
+      "text": "Jak zní původní název filmu studia Pixar z roku 2008 o malém robotovi, který na opuštěné Zemi lisuje odpadky?",
+      "initial": "W",
+      "answer": "WALL-E",
+      "language": "cs",
+      "aliases": ["WALL E", "WALLE", "WALL·E"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/WALL-E"]
+    },
+    {
+      "id": "entertainment-cs-01-27",
+      "text": "Jak se jmenuje princezna království Hyrule, které v dobrodružných hrách firmy Nintendo pomáhá Link?",
+      "initial": "Z",
+      "answer": "Zelda",
+      "language": "cs",
+      "aliases": ["princezna Zelda"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Princess_Zelda"]
+    },
+    {
+      "id": "entertainment-cs-01-28",
+      "text": "Jak zní český název animovaného filmu Brada Birda z roku 1999 o chlapci Hogarthovi a obrovském robotovi?",
+      "initial": "Ž",
+      "answer": "Železný obr",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDelezn%C3%BD_obr",
+        "https://en.wikipedia.org/wiki/The_Iron_Giant"
+      ]
+    }
+  ]
+}

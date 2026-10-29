@@ -22,6 +22,18 @@ import scienceCs1 from './science-cs-01.json';
 import scienceCs2 from './science-cs-02.json';
 import scienceEn1 from './science-en-01.json';
 import scienceEn2 from './science-en-02.json';
+import programmingCs1 from './programming-cs-01.json';
+import programmingCs2 from './programming-cs-02.json';
+import programmingEn1 from './programming-en-01.json';
+import programmingEn2 from './programming-en-02.json';
+import artsCs1 from './arts-cs-01.json';
+import artsCs2 from './arts-cs-02.json';
+import artsEn1 from './arts-en-01.json';
+import artsEn2 from './arts-en-02.json';
+import entertainmentCs1 from './entertainment-cs-01.json';
+import entertainmentCs2 from './entertainment-cs-02.json';
+import entertainmentEn1 from './entertainment-en-01.json';
+import entertainmentEn2 from './entertainment-en-02.json';
 import { validatePack } from '../domain/packs.js';
 import { normalizeAnswer } from '../domain/answers.js';
 
@@ -51,6 +63,18 @@ export function bundledPacks() {
     scienceCs2,
     scienceEn1,
     scienceEn2,
+    programmingCs1,
+    programmingCs2,
+    programmingEn1,
+    programmingEn2,
+    artsCs1,
+    artsCs2,
+    artsEn1,
+    artsEn2,
+    entertainmentCs1,
+    entertainmentCs2,
+    entertainmentEn1,
+    entertainmentEn2,
   ].map(validatePack);
 }
 

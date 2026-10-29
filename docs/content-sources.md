@@ -1,10 +1,11 @@
-# Per-entry factual source ledger — phases 5 and 6
+# Per-entry factual source ledger — phases 5–7
 
-The full phase-6 candidate contains **24 packs / 672 entries**. The first
-twelve packs / 336 entries retain their exact phase-5 files and independent
-clearance. The twelve additional History, Politics/diplomacy and
-Science/technology packs below are **developer-checked, not independently
-cleared**. Each new entry must receive a fresh factual and linguistic review.
+The full phase-7 candidate contains **36 packs / 1,008 entries**. The first
+24 packs / 672 entries retain their exact independently cleared phase-6 files.
+The twelve additional Programming, Arts/literature and Entertainment packs
+were individually independently reviewed: **335 passed; P7-01 requires
+correction re-review**. The initial finding and developer response are recorded
+in [the phase-7 review](../reviews/phase-07.md).
 Hashes identify exact JSON bytes; they are not evidence of factual truth.
 
 ## Review corrections
@@ -963,3 +964,459 @@ Source JSON SHA-256: `1288863ac49c3ed7fd40bd4af0f48303d0ff4fc6aea499c4fe6cfa4da5
 - `science-en-02-26` — **X-ray diffraction** (`X`). [1](https://en.wikipedia.org/wiki/X-ray_crystallography). Locate: 1: Introduction / definition and explanatory body.
 - `science-en-02-27` — **Young's modulus** (`Y`). [1](https://en.wikipedia.org/wiki/Young's_modulus). Locate: 1: Introduction / definition and explanatory body.
 - `science-en-02-28` — **Zirconium** (`Z`). [1](https://en.wikipedia.org/wiki/Zirconium); [2](https://periodic-table.rsc.org/element/40/zirconium). Locate: 1: Introduction; Separation of zirconium and hafnium: symbol, cladding and low neutron absorption · 2: Chemistry in its element transcript: reactor use, fuel cladding and neutron absorption.
+
+## Phase 7 developer source audit — 2026-10-29
+
+The following twelve packs add 336 originally worded entries. All 233 distinct
+in-pack URLs were retrieved and their actual introductory definitions, named
+reference sections, film plots/casts, publication lists or specific body
+passages read. Python/C/C++ references use the language documentation or
+cppreference; web-language facts use MDN, JSON.org, the Unicode Consortium,
+YAML's specification and the language/tool maintainers. Wikipedia supplies
+general cultural reference coverage and Czech names/titles. Source reading,
+not HTTP status or token matching, underlies the developer check.
+
+The initial 1989 Czech Pet Sematary URL returned 404: research established that
+the intended Czech title belongs to the 2019 adaptation. The final question
+explicitly identifies its two directors and year, and cites the correct page.
+The attempted Merriam-Webster xylography page returned 403 and is not shipped:
+the retained Woodcut reference supports the revised printing-technique clue,
+which no longer asserts an unverified etymology. Git's history, SQL, JavaScript
+history and YAML references were tightened to pages supporting the exact facts.
+No final new-pack URL remains inaccessible in this authoring run. External
+pages may subsequently change; this statement is not a permanent availability
+guarantee. Earlier starter-access limitations above remain disclosed.
+
+Titles, names and code keywords are identifiers, not copied passages, lyrics
+or quiz-bank prose. CC BY 4.0 covers our original question wording, not the
+reference sites' text, images or trademarks. Every entry below still requires
+independent editorial review; the previous 672 judgments are preserved.
+Python questions explicitly use Python 3; JavaScript/C/C++ questions specify
+their language when behavior depends on it. No answer matching rules changed.
+Original-language film-title questions reject their disclosed translated title.
+
+## arts-cs-01
+
+[Umění a literatura · 01](../src/content/arts-cs-01.json) — cs, arts, 28 entries.
+
+Source JSON SHA-256: `1334a8fa4c50e21da435cde75b37071b1fa8544076f06793619db90e4f809076`.
+
+- `arts-cs-01-01` — **Aliterace** (`A`). [1](https://en.wikipedia.org/wiki/Alliteration). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-02` — **Baroko** (`B`). [1](https://cs.wikipedia.org/wiki/Baroko). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-03` — **Cervantes** (`C`). [1](https://en.wikipedia.org/wiki/Miguel_de_Cervantes). Locate: 1: Introduction; Don Quixote publication and Sancho Panza passage.
+- `arts-cs-01-04` — **Čech** (`Č`). [1](https://cs.wikipedia.org/wiki/Svatopluk_%C4%8Cech). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-05` — **Dostojevskij** (`D`). [1](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky). Locate: 1: Introduction; Crime and Punishment plot summary (former student Raskolnikov).
+- `arts-cs-01-06` — **Exlibris** (`E`). [1](https://cs.wikipedia.org/wiki/Exlibris). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-07` — **Freska** (`F`). [1](https://en.wikipedia.org/wiki/Fresco). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-08` — **Goethe** (`G`). [1](https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe); [2](https://en.wikipedia.org/wiki/Goethe%27s_Faust). Locate: 1: Literary work: Faust in two parts; supplementary play reference for the pact · 2: Introduction; Part One: Mephistopheles and the pact.
+- `arts-cs-01-09` — **Haiku** (`H`). [1](https://en.wikipedia.org/wiki/Haiku). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-10` — **Chagall** (`Ch`). [1](https://en.wikipedia.org/wiki/Marc_Chagall). Locate: 1: Paris Opera ceiling: unveiling on 23 September 1964; Vitebsk birthplace.
+- `arts-cs-01-11` — **Impresionismus** (`I`). [1](https://en.wikipedia.org/wiki/Impressionism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-12` — **Jirásek** (`J`). [1](https://cs.wikipedia.org/wiki/Alois_Jir%C3%A1sek). Locate: 1: Significant works; F. L. Věk and Staré pověsti české.
+- `arts-cs-01-13` — **Kafka** (`K`). [1](https://en.wikipedia.org/wiki/Franz_Kafka). Locate: 1: Introduction; Der Process / Josef K. discussion.
+- `arts-cs-01-14` — **Linoryt** (`L`). [1](https://en.wikipedia.org/wiki/Linocut). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-15` — **Mácha** (`M`). [1](https://cs.wikipedia.org/wiki/Karel_Hynek_M%C3%A1cha). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-16` — **Němcová** (`N`). [1](https://cs.wikipedia.org/wiki/Bo%C5%BEena_N%C4%9Bmcov%C3%A1). Locate: 1: Works: Babička subtitle Obrazy venkovského života.
+- `arts-cs-01-17` — **Orwell** (`O`). [1](https://en.wikipedia.org/wiki/George_Orwell). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-18` — **Perspektiva** (`P`). [1](<https://en.wikipedia.org/wiki/Perspective_(graphical)>). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-19` — **Rembrandt** (`R`). [1](https://en.wikipedia.org/wiki/Rembrandt). Locate: 1: Works: 1642 Night Watch; Night Watch commission.
+- `arts-cs-01-20` — **Řezbářství** (`Ř`). [1](https://en.wikipedia.org/wiki/Wood_carving). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-21` — **Sonet** (`S`). [1](https://en.wikipedia.org/wiki/Sonnet). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-22` — **Špála** (`Š`). [1](https://cs.wikipedia.org/wiki/V%C3%A1clav_%C5%A0p%C3%A1la). Locate: 1: Biography: Tvrdošíjní; work: characteristic blue.
+- `arts-cs-01-23` — **Tolstoj** (`T`). [1](https://en.wikipedia.org/wiki/Leo_Tolstoy). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-24` — **Utopie** (`U`). [1](<https://cs.wikipedia.org/wiki/Utopie_(kniha)>). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-01-25` — **Van Gogh** (`V`). [1](https://en.wikipedia.org/wiki/Vincent_van_Gogh). Locate: 1: Saint-Rémy (1889–1890); Cypresses / The Starry Night.
+- `arts-cs-01-26` — **Whitman** (`W`). [1](https://en.wikipedia.org/wiki/Walt_Whitman); [2](https://cs.wikipedia.org/wiki/Walt_Whitman). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `arts-cs-01-27` — **Zola** (`Z`). [1](https://en.wikipedia.org/wiki/%C3%89mile_Zola). Locate: 1: Novels and political literary activity: twenty-volume Rougon-Macquart cycle.
+- `arts-cs-01-28` — **Žáček** (`Ž`). [1](https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_%C5%BD%C3%A1%C4%8Dek). Locate: 1: Pro děti: Aprílová škola (1978).
+
+## arts-cs-02
+
+[Umění a literatura · 02](../src/content/arts-cs-02.json) — cs, arts, 28 entries.
+
+Source JSON SHA-256: `1db2c86a5d0f502d68bdac35eb6307a687655d0af0d7c87fa6f4e2fe6369e3ee`.
+
+- `arts-cs-02-01` — **Akrostich** (`A`). [1](https://en.wikipedia.org/wiki/Acrostic). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-02` — **Boccaccio** (`B`). [1](https://en.wikipedia.org/wiki/Giovanni_Boccaccio). Locate: 1: The Decameron: hundred tales and young storytellers.
+- `arts-cs-02-03` — **Caravaggio** (`C`). [1](https://en.wikipedia.org/wiki/Caravaggio). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-04` — **Černý** (`Č`). [1](https://cs.wikipedia.org/wiki/David_%C4%8Cern%C3%BD). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-05` — **Dante** (`D`). [1](https://en.wikipedia.org/wiki/Dante_Alighieri). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-06` — **Erben** (`E`). [1](https://cs.wikipedia.org/wiki/Karel_Jarom%C3%ADr_Erben). Locate: 1: Works: Kytice.
+- `arts-cs-02-07` — **Fitzgerald** (`F`). [1](https://en.wikipedia.org/wiki/F._Scott_Fitzgerald). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-08` — **Gvaš** (`G`). [1](https://en.wikipedia.org/wiki/Gouache). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-09` — **Hemingway** (`H`). [1](https://en.wikipedia.org/wiki/Ernest_Hemingway); [2](https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `arts-cs-02-10` — **Chaucer** (`Ch`). [1](https://en.wikipedia.org/wiki/Geoffrey_Chaucer). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-11` — **Ilias** (`I`). [1](https://en.wikipedia.org/wiki/Iliad). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-12` — **Joyce** (`J`). [1](https://en.wikipedia.org/wiki/James_Joyce). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-13` — **Kubismus** (`K`). [1](https://en.wikipedia.org/wiki/Cubism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-14` — **Limerik** (`L`). [1](<https://en.wikipedia.org/wiki/Limerick_(poetry)>). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-15` — **Mozaika** (`M`). [1](https://en.wikipedia.org/wiki/Mosaic). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-16` — **Novela** (`N`). [1](https://en.wikipedia.org/wiki/Novella). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-17` — **Odysseia** (`O`). [1](https://en.wikipedia.org/wiki/Odyssey). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-18` — **Pointilismus** (`P`). [1](https://en.wikipedia.org/wiki/Pointillism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-19` — **Rým** (`R`). [1](https://en.wikipedia.org/wiki/Rhyme). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-20` — **Řehoř Samsa** (`Ř`). [1](<https://cs.wikipedia.org/wiki/Prom%C4%9Bna_(pov%C3%ADdka)>). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-21` — **Surrealismus** (`S`). [1](https://en.wikipedia.org/wiki/Surrealism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-22` — **Škvorecký** (`Š`). [1](https://cs.wikipedia.org/wiki/Josef_%C5%A0kvoreck%C3%BD). Locate: 1: Introduction; Zbabělci and ’68 Publishers.
+- `arts-cs-02-23` — **Triptych** (`T`). [1](https://en.wikipedia.org/wiki/Triptych). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-24` — **Umberto Eco** (`U`). [1](https://en.wikipedia.org/wiki/Umberto_Eco). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-25` — **Virginia Woolfová** (`V`). [1](https://cs.wikipedia.org/wiki/Virginia_Woolfov%C3%A1). Locate: 1: Works / biography: Paní Dallowayová and K majáku.
+- `arts-cs-02-26` — **Wilde** (`W`). [1](https://en.wikipedia.org/wiki/Oscar_Wilde). Locate: 1: Introduction; The Importance of Being Earnest.
+- `arts-cs-02-27` — **Zátiší** (`Z`). [1](https://en.wikipedia.org/wiki/Still_life). Locate: 1: Introduction / definition and descriptive body.
+- `arts-cs-02-28` — **Žánr** (`Ž`). [1](https://en.wikipedia.org/wiki/Genre). Locate: 1: Introduction / definition and descriptive body.
+
+## arts-en-01
+
+[Arts and literature · 01](../src/content/arts-en-01.json) — en, arts, 28 entries.
+
+Source JSON SHA-256: `4bdd57a7dadc6fc800b45382d8453bccc324100f87eb3da39d667b5a5dcd98ac`.
+
+P7-01 correction: entry 16 now explicitly asks for Eric Arthur Blair's
+publishing surname, not his author identity. `Orwell` / `George Orwell` remain
+the scoped accepted answers; the disclosed real name is not an alias.
+Only that prompt changed; its O position and the other 27 entries are unchanged.
+Same-reviewer re-review is pending.
+
+- `arts-en-01-01` — **Alliteration** (`A`). [1](https://en.wikipedia.org/wiki/Alliteration). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-02` — **Baroque** (`B`). [1](https://en.wikipedia.org/wiki/Baroque). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-03` — **Cervantes** (`C`). [1](https://en.wikipedia.org/wiki/Miguel_de_Cervantes). Locate: 1: Introduction; Don Quixote publication and Sancho Panza passage.
+- `arts-en-01-04` — **Chaucer** (`CH`). [1](https://en.wikipedia.org/wiki/Geoffrey_Chaucer). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-05` — **Dostoevsky** (`D`). [1](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky). Locate: 1: Introduction; Crime and Punishment plot summary (former student Raskolnikov).
+- `arts-en-01-06` — **Ekphrasis** (`E`). [1](https://en.wikipedia.org/wiki/Ekphrasis). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-07` — **Fresco** (`F`). [1](https://en.wikipedia.org/wiki/Fresco). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-08` — **Goethe** (`G`). [1](https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe); [2](https://en.wikipedia.org/wiki/Goethe%27s_Faust). Locate: 1: Literary work: Faust in two parts; supplementary play reference for the pact · 2: Introduction; Part One: Mephistopheles and the pact.
+- `arts-en-01-09` — **Haiku** (`H`). [1](https://en.wikipedia.org/wiki/Haiku). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-10` — **Impressionism** (`I`). [1](https://en.wikipedia.org/wiki/Impressionism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-11` — **Jane Austen** (`J`). [1](https://en.wikipedia.org/wiki/Jane_Austen). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-12` — **Kafka** (`K`). [1](https://en.wikipedia.org/wiki/Franz_Kafka). Locate: 1: Introduction; Der Process / Josef K. discussion.
+- `arts-en-01-13` — **Linocut** (`L`). [1](https://en.wikipedia.org/wiki/Linocut). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-14` — **Moby-Dick** (`M`). [1](https://en.wikipedia.org/wiki/Moby-Dick). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-15` — **Neruda** (`N`). [1](https://en.wikipedia.org/wiki/Pablo_Neruda). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-16` — **Orwell** (`O`). [1](https://en.wikipedia.org/wiki/George_Orwell). Locate: 1: Introduction identifies Eric Arthur Blair's George Orwell pen name and Animal Farm / Nineteen Eighty-Four; Writing section confirms both novels.
+- `arts-en-01-17` — **Perspective** (`P`). [1](<https://en.wikipedia.org/wiki/Perspective_(graphical)>). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-18` — **Quatrain** (`Q`). [1](https://en.wikipedia.org/wiki/Quatrain). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-19` — **Rembrandt** (`R`). [1](https://en.wikipedia.org/wiki/Rembrandt). Locate: 1: Works: 1642 Night Watch; Night Watch commission.
+- `arts-en-01-20` — **Sonnet** (`S`). [1](https://en.wikipedia.org/wiki/Sonnet). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-21` — **Shelley** (`SH`). [1](https://en.wikipedia.org/wiki/Mary_Shelley). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-22` — **Tolstoy** (`T`). [1](https://en.wikipedia.org/wiki/Leo_Tolstoy). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-23` — **Ulysses** (`U`). [1](<https://en.wikipedia.org/wiki/Ulysses_(novel)>). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-24` — **Van Gogh** (`V`). [1](https://en.wikipedia.org/wiki/Vincent_van_Gogh). Locate: 1: Saint-Rémy (1889–1890); Cypresses / The Starry Night.
+- `arts-en-01-25` — **Whitman** (`W`). [1](https://en.wikipedia.org/wiki/Walt_Whitman). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-26` — **Xylography** (`X`). [1](https://en.wikipedia.org/wiki/Woodcut). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-27` — **Yeats** (`Y`). [1](https://en.wikipedia.org/wiki/W._B._Yeats). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-01-28` — **Zola** (`Z`). [1](https://en.wikipedia.org/wiki/%C3%89mile_Zola). Locate: 1: Novels and political literary activity: twenty-volume Rougon-Macquart cycle.
+
+## arts-en-02
+
+[Arts and literature · 02](../src/content/arts-en-02.json) — en, arts, 28 entries.
+
+Source JSON SHA-256: `23bb0243925219267fd7c79b89991f23f15fe807eec1cd4af71b3ec01b898f51`.
+
+- `arts-en-02-01` — **Acrostic** (`A`). [1](https://en.wikipedia.org/wiki/Acrostic). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-02` — **Brontë** (`B`). [1](https://en.wikipedia.org/wiki/Emily_Bront%C3%AB). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-03` — **Cubism** (`C`). [1](https://en.wikipedia.org/wiki/Cubism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-04` — **Chagall** (`CH`). [1](https://en.wikipedia.org/wiki/Marc_Chagall). Locate: 1: Paris Opera ceiling: unveiling on 23 September 1964; Vitebsk birthplace.
+- `arts-en-02-05` — **Dante** (`D`). [1](https://en.wikipedia.org/wiki/Dante_Alighieri). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-06` — **Etching** (`E`). [1](https://en.wikipedia.org/wiki/Etching). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-07` — **Fitzgerald** (`F`). [1](https://en.wikipedia.org/wiki/F._Scott_Fitzgerald). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-08` — **Gouache** (`G`). [1](https://en.wikipedia.org/wiki/Gouache). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-09` — **Hemingway** (`H`). [1](https://en.wikipedia.org/wiki/Ernest_Hemingway); [2](https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `arts-en-02-10` — **Iliad** (`I`). [1](https://en.wikipedia.org/wiki/Iliad). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-11` — **Jane Eyre** (`J`). [1](https://en.wikipedia.org/wiki/Jane_Eyre). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-12` — **Klimt** (`K`). [1](https://en.wikipedia.org/wiki/Gustav_Klimt). Locate: 1: Golden Phase: The Kiss and gold leaf.
+- `arts-en-02-13` — **Limerick** (`L`). [1](<https://en.wikipedia.org/wiki/Limerick_(poetry)>). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-14` — **Mosaic** (`M`). [1](https://en.wikipedia.org/wiki/Mosaic). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-15` — **Novella** (`N`). [1](https://en.wikipedia.org/wiki/Novella). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-16` — **Odyssey** (`O`). [1](https://en.wikipedia.org/wiki/Odyssey). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-17` — **Pointillism** (`P`). [1](https://en.wikipedia.org/wiki/Pointillism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-18` — **Quill** (`Q`). [1](https://en.wikipedia.org/wiki/Quill). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-19` — **Rhyme** (`R`). [1](https://en.wikipedia.org/wiki/Rhyme). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-20` — **Surrealism** (`S`). [1](https://en.wikipedia.org/wiki/Surrealism). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-21` — **Shakespeare's Globe** (`SH`). [1](https://en.wikipedia.org/wiki/Shakespeare's_Globe). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-22` — **Triptych** (`T`). [1](https://en.wikipedia.org/wiki/Triptych). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-23` — **Umberto Eco** (`U`). [1](https://en.wikipedia.org/wiki/Umberto_Eco). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-24` — **Virginia Woolf** (`V`). [1](https://en.wikipedia.org/wiki/Virginia_Woolf). Locate: 1: Introduction: Mrs Dalloway and To the Lighthouse.
+- `arts-en-02-25` — **Wilde** (`W`). [1](https://en.wikipedia.org/wiki/Oscar_Wilde). Locate: 1: Introduction; The Importance of Being Earnest.
+- `arts-en-02-26` — **Xenia** (`X`). [1](<https://en.wikipedia.org/wiki/Xenia_(Greek)>). Locate: 1: Definition; In Greek literature / In the Odyssey.
+- `arts-en-02-27` — **Yellow Book** (`Y`). [1](https://en.wikipedia.org/wiki/The_Yellow_Book). Locate: 1: Introduction / definition and descriptive body.
+- `arts-en-02-28` — **Zadig** (`Z`). [1](https://en.wikipedia.org/wiki/Zadig). Locate: 1: Introduction / definition and descriptive body.
+
+## entertainment-cs-01
+
+[Zábava · 01](../src/content/entertainment-cs-01.json) — cs, entertainment, 28 entries.
+
+Source JSON SHA-256: `f5b9b960001e8d6cbbef0d0458012fe42f14c6e1ad17c61d698b89fe59772604`.
+
+- `entertainment-cs-01-01` — **ABBA** (`A`). [1](https://en.wikipedia.org/wiki/ABBA). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-02` — **Beatles** (`B`). [1](https://en.wikipedia.org/wiki/The_Beatles). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-03` — **Casablanca** (`C`). [1](<https://en.wikipedia.org/wiki/Casablanca_(film)>). Locate: 1: Introduction; Plot and Cast: Rick Blaine and Ilsa Lund.
+- `entertainment-cs-01-04` — **Četník ze Saint-Tropez** (`Č`). [1](https://cs.wikipedia.org/wiki/%C4%8Cetn%C3%ADk_ze_Saint-Tropez). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-05` — **Disney** (`D`). [1](<https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-06` — **E.T.** (`E`). [1](https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-07` — **Fantazie** (`F`). [1](<https://cs.wikipedia.org/wiki/Fantazie_(film)>); [2](<https://en.wikipedia.org/wiki/Fantasia_(1940_film)>). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `entertainment-cs-01-08` — **Gandalf** (`G`). [1](https://en.wikipedia.org/wiki/Gandalf). Locate: 1: Introduction; death in Moria and return as the White.
+- `entertainment-cs-01-09` — **Hitchcock** (`H`). [1](https://en.wikipedia.org/wiki/Alfred_Hitchcock). Locate: 1: Introduction: Psycho (1960), The Birds (1963).
+- `entertainment-cs-01-10` — **Chaplin** (`Ch`). [1](https://en.wikipedia.org/wiki/Charlie_Chaplin). Locate: 1: Introduction; Tramp persona and costume.
+- `entertainment-cs-01-11` — **Indiana Jones** (`I`). [1](<https://en.wikipedia.org/wiki/Indiana_Jones_(character)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-12` — **Jurský park** (`J`). [1](<https://cs.wikipedia.org/wiki/Jursk%C3%BD_park_(film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-13` — **Kermit** (`K`). [1](https://en.wikipedia.org/wiki/Kermit_the_Frog). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-14` — **Lego** (`L`). [1](https://en.wikipedia.org/wiki/Lego). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-15` — **Mario** (`M`). [1](https://en.wikipedia.org/wiki/Mario). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-16` — **Nintendo** (`N`). [1](https://en.wikipedia.org/wiki/Nintendo). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-17` — **Oscar** (`O`). [1](https://en.wikipedia.org/wiki/Academy_Awards). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-18` — **Pac-Man** (`P`). [1](https://en.wikipedia.org/wiki/Pac-Man). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-19` — **Ratatouille** (`R`). [1](<https://en.wikipedia.org/wiki/Ratatouille_(film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-20` — **Řachanda** (`Ř`). [1](https://cs.wikipedia.org/wiki/%C5%98achanda). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-21` — **Spielberg** (`S`). [1](https://en.wikipedia.org/wiki/Steven_Spielberg). Locate: 1: Introduction; Jurassic Park and Saving Private Ryan.
+- `entertainment-cs-01-22` — **Šmoulové** (`Š`). [1](https://cs.wikipedia.org/wiki/%C5%A0moulov%C3%A9). Locate: 1: Introduction; characters and Gargamel.
+- `entertainment-cs-01-23` — **Tetris** (`T`). [1](https://en.wikipedia.org/wiki/Tetris). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-24` — **Uno** (`U`). [1](<https://en.wikipedia.org/wiki/Uno_(card_game)>). Locate: 1: Rules: calling Uno on playing the penultimate card; title definition.
+- `entertainment-cs-01-25` — **Voldemort** (`V`). [1](https://en.wikipedia.org/wiki/Lord_Voldemort); [2](https://cs.wikipedia.org/wiki/Lord_Voldemort). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `entertainment-cs-01-26` — **WALL-E** (`W`). [1](https://en.wikipedia.org/wiki/WALL-E). Locate: 1: Introduction; Cast: waste-compactor robot.
+- `entertainment-cs-01-27` — **Zelda** (`Z`). [1](https://en.wikipedia.org/wiki/Princess_Zelda). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-01-28` — **Železný obr** (`Ž`). [1](https://cs.wikipedia.org/wiki/%C5%BDelezn%C3%BD_obr); [2](https://en.wikipedia.org/wiki/The_Iron_Giant). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+
+## entertainment-cs-02
+
+[Zábava · 02](../src/content/entertainment-cs-02.json) — cs, entertainment, 28 entries.
+
+Source JSON SHA-256: `07ddb487c9a294e70707157f39e8b57a7ad0d01c9a7c1cea229d44d12bf064e3`.
+
+- `entertainment-cs-02-01` — **Avatar** (`A`). [1](<https://en.wikipedia.org/wiki/Avatar_(2009_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-02` — **Batman** (`B`). [1](https://en.wikipedia.org/wiki/Batman). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-03` — **Cesta do pravěku** (`C`). [1](https://cs.wikipedia.org/wiki/Cesta_do_prav%C4%9Bku). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-04` — **Čtyřlístek** (`Č`). [1](<https://cs.wikipedia.org/wiki/%C4%8Cty%C5%99l%C3%ADstek_(komiks)>). Locate: 1: Introduction; four main characters table.
+- `entertainment-cs-02-05` — **Duna** (`D`). [1](<https://cs.wikipedia.org/wiki/Duna_(film,_2021)>); [2](<https://en.wikipedia.org/wiki/Dune_(2021_film)>). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `entertainment-cs-02-06` — **Elvis Presley** (`E`). [1](https://en.wikipedia.org/wiki/Elvis_Presley). Locate: 1: Introduction; 1957 purchase of Graceland.
+- `entertainment-cs-02-07` — **Forrest Gump** (`F`). [1](https://en.wikipedia.org/wiki/Forrest_Gump). Locate: 1: Introduction; Plot: bus-stop bench narration.
+- `entertainment-cs-02-08` — **Godzilla** (`G`). [1](https://en.wikipedia.org/wiki/Godzilla). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-09` — **Hanks** (`H`). [1](https://en.wikipedia.org/wiki/Tom_Hanks). Locate: 1: Introduction; consecutive Oscars; Toy Story (1995) voice role.
+- `entertainment-cs-02-10` — **Chyť mě, když to dokážeš** (`Ch`). [1](https://cs.wikipedia.org/wiki/Chy%C5%A5_m%C4%9B,_kdy%C5%BE_to_dok%C3%A1%C5%BEe%C5%A1). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-11` — **Inception** (`I`). [1](https://en.wikipedia.org/wiki/Inception); [2](<https://cs.wikipedia.org/wiki/Po%C4%8D%C3%A1tek_(film)>). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `entertainment-cs-02-12` — **Joker** (`J`). [1](<https://en.wikipedia.org/wiki/Joker_(character)>). Locate: 1: Introduction; Characterization: Clown Prince of Crime.
+- `entertainment-cs-02-13` — **Kubrick** (`K`). [1](https://en.wikipedia.org/wiki/Stanley_Kubrick). Locate: 1: Introduction: 2001 and The Shining (1980).
+- `entertainment-cs-02-14` — **Lara Croft** (`L`). [1](https://en.wikipedia.org/wiki/Lara_Croft). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-15` — **Minecraft** (`M`). [1](https://en.wikipedia.org/wiki/Minecraft). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-16` — **Neo** (`N`). [1](<https://en.wikipedia.org/wiki/Neo_(The_Matrix)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-17` — **Othello** (`O`). [1](https://en.wikipedia.org/wiki/Reversi). Locate: 1: Introduction; Othello trademark and Rules.
+- `entertainment-cs-02-18` — **Pong** (`P`). [1](https://en.wikipedia.org/wiki/Pong). Locate: 1: Introduction; Gameplay: two paddles and table tennis.
+- `entertainment-cs-02-19` — **R2-D2** (`R`). [1](https://en.wikipedia.org/wiki/R2-D2). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-20` — **Řbitov zviřátek** (`Ř`). [1](<https://cs.wikipedia.org/wiki/%C5%98bitov_zvi%C5%99%C3%A1tek_(film,_2019)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-21` — **Sonic** (`S`). [1](<https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-22` — **Šíleně smutná princezna** (`Š`). [1](https://cs.wikipedia.org/wiki/%C5%A0%C3%ADlen%C4%9B_smutn%C3%A1_princezna). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-23` — **Titanic** (`T`). [1](<https://en.wikipedia.org/wiki/Titanic_(1997_film)>). Locate: 1: Introduction; Plot and Cast: Jack and Rose.
+- `entertainment-cs-02-24` — **Up** (`U`). [1](<https://en.wikipedia.org/wiki/Up_(2009_film)>); [2](https://cs.wikipedia.org/wiki/Vzh%C5%AFru_do_oblak). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `entertainment-cs-02-25` — **Vivaldi** (`V`). [1](https://en.wikipedia.org/wiki/Antonio_Vivaldi). Locate: 1: Introduction; Four Seasons: four violin concertos.
+- `entertainment-cs-02-26` — **West Side Story** (`W`). [1](https://en.wikipedia.org/wiki/West_Side_Story). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-cs-02-27` — **Zootopia** (`Z`). [1](https://en.wikipedia.org/wiki/Zootopia); [2](https://cs.wikipedia.org/wiki/Zootropolis:_M%C4%9Bsto_zv%C3%AD%C5%99at). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `entertainment-cs-02-28` — **Život brouka** (`Ž`). [1](https://cs.wikipedia.org/wiki/%C5%BDivot_brouka); [2](https://en.wikipedia.org/wiki/A_Bug%27s_Life). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+
+## entertainment-en-01
+
+[Entertainment · 01](../src/content/entertainment-en-01.json) — en, entertainment, 28 entries.
+
+Source JSON SHA-256: `ad9c4405781bcd222dc4c2cb07287a17621c97b0d98d68bb2fc0f2a71008c5b5`.
+
+- `entertainment-en-01-01` — **ABBA** (`A`). [1](https://en.wikipedia.org/wiki/ABBA). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-02` — **Beatles** (`B`). [1](https://en.wikipedia.org/wiki/The_Beatles). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-03` — **Casablanca** (`C`). [1](<https://en.wikipedia.org/wiki/Casablanca_(film)>). Locate: 1: Introduction; Plot and Cast: Rick Blaine and Ilsa Lund.
+- `entertainment-en-01-04` — **Chaplin** (`CH`). [1](https://en.wikipedia.org/wiki/Charlie_Chaplin). Locate: 1: Introduction; Tramp persona and costume.
+- `entertainment-en-01-05` — **Disney** (`D`). [1](<https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-06` — **E.T.** (`E`). [1](https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-07` — **Fantasia** (`F`). [1](<https://en.wikipedia.org/wiki/Fantasia_(1940_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-08` — **Gandalf** (`G`). [1](https://en.wikipedia.org/wiki/Gandalf). Locate: 1: Introduction; death in Moria and return as the White.
+- `entertainment-en-01-09` — **Hitchcock** (`H`). [1](https://en.wikipedia.org/wiki/Alfred_Hitchcock). Locate: 1: Introduction: Psycho (1960), The Birds (1963).
+- `entertainment-en-01-10` — **Indiana Jones** (`I`). [1](<https://en.wikipedia.org/wiki/Indiana_Jones_(character)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-11` — **Jaws** (`J`). [1](<https://en.wikipedia.org/wiki/Jaws_(film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-12` — **Kubrick** (`K`). [1](https://en.wikipedia.org/wiki/Stanley_Kubrick). Locate: 1: Introduction: 2001 and The Shining (1980).
+- `entertainment-en-01-13` — **Lego** (`L`). [1](https://en.wikipedia.org/wiki/Lego). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-14` — **Mario** (`M`). [1](https://en.wikipedia.org/wiki/Mario). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-15` — **Nintendo** (`N`). [1](https://en.wikipedia.org/wiki/Nintendo). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-16` — **Oscar** (`O`). [1](https://en.wikipedia.org/wiki/Academy_Awards). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-17` — **Pac-Man** (`P`). [1](https://en.wikipedia.org/wiki/Pac-Man). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-18` — **Queen** (`Q`). [1](<https://en.wikipedia.org/wiki/Queen_(band)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-19` — **R2-D2** (`R`). [1](https://en.wikipedia.org/wiki/R2-D2). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-20` — **Spielberg** (`S`). [1](https://en.wikipedia.org/wiki/Steven_Spielberg). Locate: 1: Introduction; Jurassic Park and Saving Private Ryan.
+- `entertainment-en-01-21` — **Shrek** (`SH`). [1](https://en.wikipedia.org/wiki/Shrek). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-22` — **Tetris** (`T`). [1](https://en.wikipedia.org/wiki/Tetris). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-23` — **Uno** (`U`). [1](<https://en.wikipedia.org/wiki/Uno_(card_game)>). Locate: 1: Rules: calling Uno on playing the penultimate card; title definition.
+- `entertainment-en-01-24` — **Voldemort** (`V`). [1](https://en.wikipedia.org/wiki/Lord_Voldemort). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-25` — **WALL-E** (`W`). [1](https://en.wikipedia.org/wiki/WALL-E). Locate: 1: Introduction; Cast: waste-compactor robot.
+- `entertainment-en-01-26` — **Xbox** (`X`). [1](<https://en.wikipedia.org/wiki/Xbox_(console)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-27` — **Yoda** (`Y`). [1](https://en.wikipedia.org/wiki/Yoda). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-01-28` — **Zelda** (`Z`). [1](https://en.wikipedia.org/wiki/Princess_Zelda). Locate: 1: Introduction / definition and descriptive body.
+
+## entertainment-en-02
+
+[Entertainment · 02](../src/content/entertainment-en-02.json) — en, entertainment, 28 entries.
+
+Source JSON SHA-256: `97374c12ca61258cf14d363a6cf30e56cdbfa3fa788575f35d52b4b974e9d5b4`.
+
+- `entertainment-en-02-01` — **Avatar** (`A`). [1](<https://en.wikipedia.org/wiki/Avatar_(2009_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-02` — **Batman** (`B`). [1](https://en.wikipedia.org/wiki/Batman). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-03` — **Cinderella** (`C`). [1](<https://en.wikipedia.org/wiki/Cinderella_(1950_film)>). Locate: 1: Introduction; Plot: ball and lost glass slipper.
+- `entertainment-en-02-04` — **Chewbacca** (`CH`). [1](https://en.wikipedia.org/wiki/Chewbacca). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-05` — **Dune** (`D`). [1](<https://en.wikipedia.org/wiki/Dune_(2021_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-06` — **Elvis Presley** (`E`). [1](https://en.wikipedia.org/wiki/Elvis_Presley). Locate: 1: Introduction; 1957 purchase of Graceland.
+- `entertainment-en-02-07` — **Frozen** (`F`). [1](<https://en.wikipedia.org/wiki/Frozen_(2013_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-08` — **Godzilla** (`G`). [1](https://en.wikipedia.org/wiki/Godzilla). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-09` — **Hanks** (`H`). [1](https://en.wikipedia.org/wiki/Tom_Hanks). Locate: 1: Introduction; consecutive Oscars; Toy Story (1995) voice role.
+- `entertainment-en-02-10` — **Inception** (`I`). [1](https://en.wikipedia.org/wiki/Inception). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-11` — **Joker** (`J`). [1](<https://en.wikipedia.org/wiki/Joker_(character)>). Locate: 1: Introduction; Characterization: Clown Prince of Crime.
+- `entertainment-en-02-12` — **Kermit** (`K`). [1](https://en.wikipedia.org/wiki/Kermit_the_Frog). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-13` — **Lara Croft** (`L`). [1](https://en.wikipedia.org/wiki/Lara_Croft). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-14` — **Minecraft** (`M`). [1](https://en.wikipedia.org/wiki/Minecraft). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-15` — **Neo** (`N`). [1](<https://en.wikipedia.org/wiki/Neo_(The_Matrix)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-16` — **Othello** (`O`). [1](https://en.wikipedia.org/wiki/Reversi). Locate: 1: Introduction; Othello trademark and Rules.
+- `entertainment-en-02-17` — **Pong** (`P`). [1](https://en.wikipedia.org/wiki/Pong). Locate: 1: Introduction; Gameplay: two paddles and table tennis.
+- `entertainment-en-02-18` — **Quake** (`Q`). [1](<https://en.wikipedia.org/wiki/Quake_(video_game)>). Locate: 1: Introduction; Development: polygonal models and full 3D levels.
+- `entertainment-en-02-19` — **Ratatouille** (`R`). [1](<https://en.wikipedia.org/wiki/Ratatouille_(film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-20` — **Sonic** (`S`). [1](<https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-21` — **Sherlock Holmes** (`SH`). [1](<https://en.wikipedia.org/wiki/Sherlock_(TV_series)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-22` — **Titanic** (`T`). [1](<https://en.wikipedia.org/wiki/Titanic_(1997_film)>). Locate: 1: Introduction; Plot and Cast: Jack and Rose.
+- `entertainment-en-02-23` — **Up** (`U`). [1](<https://en.wikipedia.org/wiki/Up_(2009_film)>). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-24` — **Vivaldi** (`V`). [1](https://en.wikipedia.org/wiki/Antonio_Vivaldi). Locate: 1: Introduction; Four Seasons: four violin concertos.
+- `entertainment-en-02-25` — **West Side Story** (`W`). [1](https://en.wikipedia.org/wiki/West_Side_Story). Locate: 1: Introduction / definition and descriptive body.
+- `entertainment-en-02-26` — **Xenomorph** (`X`). [1](<https://en.wikipedia.org/wiki/Alien_(creature_in_Alien_franchise)>). Locate: 1: Introduction; Design: extending pharyngeal jaws.
+- `entertainment-en-02-27` — **Yellow Submarine** (`Y`). [1](<https://en.wikipedia.org/wiki/Yellow_Submarine_(film)>). Locate: 1: Introduction; Plot: Pepperland and Blue Meanies.
+- `entertainment-en-02-28` — **Zootopia** (`Z`). [1](https://en.wikipedia.org/wiki/Zootopia). Locate: 1: Introduction / definition and descriptive body.
+
+## programming-cs-01
+
+[Programování · 01](../src/content/programming-cs-01.json) — cs, programming, 28 entries.
+
+Source JSON SHA-256: `b25b49c73cf334f112642f020d7d5920ccb09a77d2f3bcb782274f3eee4b9513`.
+
+- `programming-cs-01-01` — **Algoritmus** (`A`). [1](https://cs.wikipedia.org/wiki/Algoritmus). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-02` — **Boolean** (`B`). [1](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool). Locate: 1: Named reference section: boolean-type-bool.
+- `programming-cs-01-03` — **Cyklus** (`C`). [1](<https://cs.wikipedia.org/wiki/Cyklus_(programov%C3%A1n%C3%AD)>). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-04` — **Číslo** (`Č`). [1](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex). Locate: 1: Named reference section: numeric-types-int-float-complex.
+- `programming-cs-01-05` — **Databáze** (`D`). [1](https://cs.wikipedia.org/wiki/Datab%C3%A1ze). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-06` — **Enumerace** (`E`). [1](https://docs.python.org/3/library/enum.html). Locate: 1: Module introduction: symbolic names bound to values.
+- `programming-cs-01-07` — **Funkce** (`F`). [1](https://docs.python.org/3/tutorial/controlflow.html#defining-functions). Locate: 1: Named reference section: defining-functions.
+- `programming-cs-01-08` — **Git** (`G`). [1](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git). Locate: 1: 2005 creation by Linus Torvalds; fully distributed design goals.
+- `programming-cs-01-09` — **HTML** (`H`). [1](https://developer.mozilla.org/en-US/docs/Web/HTML). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-10` — **Chyba** (`Ch`). [1](https://docs.python.org/3/tutorial/errors.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-11` — **Iterátor** (`I`). [1](https://docs.python.org/3/glossary.html#term-iterator). Locate: 1: Named reference section: term-iterator.
+- `programming-cs-01-12` — **JavaScript** (`J`). [1](https://en.wikipedia.org/wiki/JavaScript). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-13` — **Kompilátor** (`K`). [1](https://en.wikipedia.org/wiki/Compiler). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-14` — **Lambda** (`L`). [1](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions). Locate: 1: Named reference section: lambda-expressions.
+- `programming-cs-01-15` — **Modul** (`M`). [1](https://docs.python.org/3/tutorial/modules.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-16` — **Null** (`N`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-17` — **Objekt** (`O`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-18` — **Pole** (`P`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-19` — **Rekurze** (`R`). [1](<https://cs.wikipedia.org/wiki/Rekurze_(programov%C3%A1n%C3%AD)>). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-20` — **Řetězec** (`Ř`). [1](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str). Locate: 1: Named reference section: text-sequence-type-str.
+- `programming-cs-01-21` — **Slovník** (`S`). [1](https://docs.python.org/3/tutorial/datastructures.html#dictionaries). Locate: 1: Named reference section: dictionaries.
+- `programming-cs-01-22` — **Šablona** (`Š`). [1](https://en.cppreference.com/w/cpp/language/templates.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-23` — **Třída** (`T`). [1](https://docs.python.org/3/tutorial/classes.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-24` — **Unicode** (`U`). [1](https://www.unicode.org/standard/WhatIsUnicode.html). Locate: 1: Unicode Characters.
+- `programming-cs-01-25` — **Výjimka** (`V`). [1](https://docs.python.org/3/tutorial/errors.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-26` — **While** (`W`). [1](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement). Locate: 1: Named reference section: the-while-statement.
+- `programming-cs-01-27` — **Zásobník** (`Z`). [1](<https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-01-28` — **Želva** (`Ž`). [1](https://docs.python.org/3/library/turtle.html). Locate: 1: Introduction: moving cursor; Logo origin.
+
+## programming-cs-02
+
+[Programování · 02](../src/content/programming-cs-02.json) — cs, programming, 28 entries.
+
+Source JSON SHA-256: `2cb9dfb5f47ad6e7988811d6391db27a5606ddbd7ae33764fe7d362b5350034f`.
+
+- `programming-cs-02-01` — **Aserce** (`A`). [1](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement). Locate: 1: Named reference section: the-assert-statement.
+- `programming-cs-02-02` — **Break** (`B`). [1](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements). Locate: 1: Named reference section: break-and-continue-statements.
+- `programming-cs-02-03` — **CSS** (`C`). [1](https://developer.mozilla.org/en-US/docs/Web/CSS). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-04` — **Čárka** (`Č`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#array_literals). Locate: 1: Named reference section: array_literals.
+- `programming-cs-02-05` — **Dědičnost** (`D`). [1](https://docs.python.org/3/tutorial/classes.html#inheritance). Locate: 1: Named reference section: inheritance.
+- `programming-cs-02-06` — **ECMAScript** (`E`). [1](https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript); [2](https://developer.mozilla.org/en-US/docs/Web/JavaScript). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
+- `programming-cs-02-07` — **Fronta** (`F`). [1](<https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-08` — **Generátor** (`G`). [1](https://docs.python.org/3/glossary.html#term-generator). Locate: 1: Named reference section: term-generator.
+- `programming-cs-02-09` — **Hashovací tabulka** (`H`). [1](https://en.wikipedia.org/wiki/Hash_table). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-10` — **Chrome** (`Ch`). [1](https://developer.chrome.com/docs/devtools/overview). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-11` — **Import** (`I`). [1](https://docs.python.org/3/reference/simple_stmts.html#the-import-statement). Locate: 1: Named reference section: the-import-statement.
+- `programming-cs-02-12` — **JSON** (`J`). [1](https://www.json.org/json-en.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-13` — **Kotlin** (`K`). [1](https://kotlinlang.org/docs/faq.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-14` — **Ladicí program** (`L`). [1](https://en.wikipedia.org/wiki/Debugger). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-15` — **Metoda** (`M`). [1](https://docs.python.org/3/tutorial/classes.html#method-objects). Locate: 1: Named reference section: method-objects.
+- `programming-cs-02-16` — **N-tice** (`N`). [1](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences). Locate: 1: Named reference section: tuples-and-sequences.
+- `programming-cs-02-17` — **Operátor** (`O`). [1](https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations). Locate: 1: Named reference section: binary-arithmetic-operations.
+- `programming-cs-02-18` — **Python** (`P`). [1](https://docs.python.org/3/faq/general.html#why-is-it-called-python). Locate: 1: Named reference section: why-is-it-called-python.
+- `programming-cs-02-19` — **Return** (`R`). [1](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement). Locate: 1: Named reference section: the-return-statement.
+- `programming-cs-02-20` — **Řazení** (`Ř`). [1](https://en.wikipedia.org/wiki/Sorting_algorithm). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-21` — **SQL** (`S`). [1](https://en.wikipedia.org/wiki/SQL). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-22` — **Šestnáctková soustava** (`Š`). [1](https://cs.wikipedia.org/wiki/%C5%A0estn%C3%A1ctkov%C3%A1_soustava). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-23` — **Test** (`T`). [1](https://en.wikipedia.org/wiki/Software_testing). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-24` — **UTF-8** (`U`). [1](https://www.unicode.org/faq/utf_bom.html). Locate: 1: Encoding forms and ASCII preservation.
+- `programming-cs-02-25` — **Verzování** (`V`). [1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control). Locate: 1: About Version Control: recorded changes and recall.
+- `programming-cs-02-26` — **WebAssembly** (`W`). [1](https://webassembly.org/). Locate: 1: Introduction / definition and descriptive body.
+- `programming-cs-02-27` — **Zkrácené vyhodnocování** (`Z`). [1](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not). Locate: 1: Named reference section: boolean-operations-and-or-not.
+- `programming-cs-02-28` — **Životnost objektu** (`Ž`). [1](https://en.cppreference.com/w/cpp/language/lifetime.html). Locate: 1: Introduction / definition and descriptive body.
+
+## programming-en-01
+
+[Programming · 01](../src/content/programming-en-01.json) — en, programming, 28 entries.
+
+Source JSON SHA-256: `1ec95f6e651bcddb5cd355f2fe728065f0cdf9f67ec1a12094667cc4d7ebcd71`.
+
+- `programming-en-01-01` — **Array** (`A`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-02` — **Boolean** (`B`). [1](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool). Locate: 1: Named reference section: boolean-type-bool.
+- `programming-en-01-03` — **Compiler** (`C`). [1](https://en.wikipedia.org/wiki/Compiler). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-04` — **Character** (`CH`). [1](https://en.cppreference.com/w/c/language/arithmetic_types.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-05` — **Dictionary** (`D`). [1](https://docs.python.org/3/tutorial/datastructures.html#dictionaries). Locate: 1: Named reference section: dictionaries.
+- `programming-en-01-06` — **Exception** (`E`). [1](https://docs.python.org/3/tutorial/errors.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-07` — **Function** (`F`). [1](https://docs.python.org/3/tutorial/controlflow.html#defining-functions). Locate: 1: Named reference section: defining-functions.
+- `programming-en-01-08` — **Git** (`G`). [1](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git). Locate: 1: 2005 creation by Linus Torvalds; fully distributed design goals.
+- `programming-en-01-09` — **Hash table** (`H`). [1](https://en.wikipedia.org/wiki/Hash_table). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-10` — **Iterator** (`I`). [1](https://docs.python.org/3/glossary.html#term-iterator). Locate: 1: Named reference section: term-iterator.
+- `programming-en-01-11` — **Java** (`J`). [1](https://www.oracle.com/java/technologies/introduction-to-java.html). Locate: 1: Java from Sun Microsystems; architecture-neutral bytecodes and virtual machine.
+- `programming-en-01-12` — **Kotlin** (`K`). [1](https://kotlinlang.org/docs/faq.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-13` — **Lambda** (`L`). [1](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions). Locate: 1: Named reference section: lambda-expressions.
+- `programming-en-01-14` — **Merge** (`M`). [1](https://git-scm.com/docs/git-merge). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-15` — **Null** (`N`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-16` — **Object** (`O`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-17` — **Python** (`P`). [1](https://docs.python.org/3/faq/general.html#why-is-it-called-python). Locate: 1: Named reference section: why-is-it-called-python.
+- `programming-en-01-18` — **Queue** (`Q`). [1](<https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-19` — **Recursion** (`R`). [1](<https://en.wikipedia.org/wiki/Recursion_(computer_science)>). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-20` — **Stack** (`S`). [1](<https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-21` — **Shell** (`SH`). [1](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-22` — **Tuple** (`T`). [1](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences). Locate: 1: Named reference section: tuples-and-sequences.
+- `programming-en-01-23` — **Unicode** (`U`). [1](https://www.unicode.org/standard/WhatIsUnicode.html). Locate: 1: Unicode Characters.
+- `programming-en-01-24` — **Variable** (`V`). [1](https://developer.mozilla.org/en-US/docs/Glossary/Variable). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-25` — **While** (`W`). [1](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement). Locate: 1: Named reference section: the-while-statement.
+- `programming-en-01-26` — **XOR** (`X`). [1](https://en.wikipedia.org/wiki/Exclusive_or). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-01-27` — **Yield** (`Y`). [1](https://docs.python.org/3/reference/expressions.html#yield-expressions). Locate: 1: Named reference section: yield-expressions.
+- `programming-en-01-28` — **Zero-based indexing** (`Z`). [1](https://en.wikipedia.org/wiki/Zero-based_numbering). Locate: 1: Introduction / definition and descriptive body.
+
+## programming-en-02
+
+[Programming · 02](../src/content/programming-en-02.json) — en, programming, 28 entries.
+
+Source JSON SHA-256: `5dbf8b6a2e2ce77438c05c03ba4a86e5f3e6e3d2a1a53569b747a9e9ce0d5fab`.
+
+- `programming-en-02-01` — **Assertion** (`A`). [1](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement). Locate: 1: Named reference section: the-assert-statement.
+- `programming-en-02-02` — **Break** (`B`). [1](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements). Locate: 1: Named reference section: break-and-continue-statements.
+- `programming-en-02-03` — **Closure** (`C`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-04` — **Chaining** (`CH`). [1](https://docs.python.org/3/reference/expressions.html#comparisons). Locate: 1: Named reference section: comparisons.
+- `programming-en-02-05` — **Debugger** (`D`). [1](https://en.wikipedia.org/wiki/Debugger). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-06` — **Enum** (`E`). [1](https://docs.python.org/3/library/enum.html). Locate: 1: Module introduction: symbolic names bound to values.
+- `programming-en-02-07` — **For** (`F`). [1](https://docs.python.org/3/tutorial/controlflow.html#for-statements). Locate: 1: Named reference section: for-statements.
+- `programming-en-02-08` — **Generator** (`G`). [1](https://docs.python.org/3/glossary.html#term-generator). Locate: 1: Named reference section: term-generator.
+- `programming-en-02-09` — **HTML** (`H`). [1](https://developer.mozilla.org/en-US/docs/Web/HTML). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-10` — **Inheritance** (`I`). [1](https://docs.python.org/3/tutorial/classes.html#inheritance). Locate: 1: Named reference section: inheritance.
+- `programming-en-02-11` — **JSON** (`J`). [1](https://www.json.org/json-en.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-12` — **Keyword** (`K`). [1](https://docs.python.org/3/reference/lexical_analysis.html#keywords). Locate: 1: Named reference section: keywords.
+- `programming-en-02-13` — **List** (`L`). [1](https://docs.python.org/3/tutorial/introduction.html#lists). Locate: 1: Named reference section: lists.
+- `programming-en-02-14` — **Module** (`M`). [1](https://docs.python.org/3/tutorial/modules.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-15` — **NaN** (`N`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN). Locate: 1: Description: failed number conversion and NaN inequality.
+- `programming-en-02-16` — **Overflow** (`O`). [1](https://en.wikipedia.org/wiki/Integer_overflow). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-17` — **Promise** (`P`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-18` — **Query** (`Q`). [1](https://www.postgresql.org/docs/current/tutorial-select.html). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-19` — **Return** (`R`). [1](https://docs.python.org/3/reference/simple_stmts.html#the-return-statement). Locate: 1: Named reference section: the-return-statement.
+- `programming-en-02-20` — **SQL** (`S`). [1](https://en.wikipedia.org/wiki/SQL). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-21` — **Short-circuit evaluation** (`SH`). [1](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not). Locate: 1: Named reference section: boolean-operations-and-or-not.
+- `programming-en-02-22` — **Test-driven development** (`T`). [1](https://en.wikipedia.org/wiki/Test-driven_development). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-23` — **UTF-8** (`U`). [1](https://www.unicode.org/faq/utf_bom.html). Locate: 1: Encoding forms and ASCII preservation.
+- `programming-en-02-24` — **Version control** (`V`). [1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control). Locate: 1: About Version Control: recorded changes and recall.
+- `programming-en-02-25` — **WebAssembly** (`W`). [1](https://webassembly.org/). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-26` — **XML** (`X`). [1](https://developer.mozilla.org/en-US/docs/Web/XML/Guides/XML_introduction). Locate: 1: Introduction / definition and descriptive body.
+- `programming-en-02-27` — **YAML** (`Y`). [1](https://yaml.org/spec/1.2.2/). Locate: 1: Abstract; 1.1 Goals; 2.1 Collections.
+- `programming-en-02-28` — **Zig** (`Z`). [1](https://ziglang.org/). Locate: 1: Overview / Comptime.

@@ -58,7 +58,14 @@ for (const pack of packs) {
     await chooseBoard(page, pack.id);
     if (
       pack.id === `geography-${pack.language}-02` ||
-      ['history', 'politics', 'science'].includes(pack.questions[0].category)
+      [
+        'history',
+        'politics',
+        'science',
+        'programming',
+        'arts',
+        'entertainment',
+      ].includes(pack.questions[0].category)
     ) {
       const html = await download(
         page,
@@ -184,7 +191,7 @@ for (const viewport of [
         });
         await page.locator('#reset-catalog').focus();
         await page.keyboard.press('Enter');
-        await expect(page.locator('#catalog-results input')).toHaveCount(24);
+        await expect(page.locator('#catalog-results input')).toHaveCount(36);
       });
     }
   }

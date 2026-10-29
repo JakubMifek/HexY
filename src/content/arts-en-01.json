@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "arts-en-01",
+  "title": "Arts and literature · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-en-01-01",
+      "text": "What literary device repeats the same initial consonant sound in nearby words?",
+      "initial": "A",
+      "answer": "Alliteration",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Alliteration"]
+    },
+    {
+      "id": "arts-en-01-02",
+      "text": "What elaborate European artistic style flourished in the seventeenth century, with dramatic movement and strong contrasts?",
+      "initial": "B",
+      "answer": "Baroque",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Baroque"]
+    },
+    {
+      "id": "arts-en-01-03",
+      "text": "Which Spanish writer created Don Quixote and his companion Sancho Panza?",
+      "initial": "C",
+      "answer": "Cervantes",
+      "language": "en",
+      "aliases": ["Miguel de Cervantes", "Miguel de Cervantes Saavedra"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Miguel_de_Cervantes"]
+    },
+    {
+      "id": "arts-en-01-04",
+      "text": "Which medieval English poet wrote The Canterbury Tales?",
+      "initial": "CH",
+      "answer": "Chaucer",
+      "language": "en",
+      "aliases": ["Geoffrey Chaucer"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Geoffrey_Chaucer"]
+    },
+    {
+      "id": "arts-en-01-05",
+      "text": "Which Russian novelist wrote Crime and Punishment, featuring the former student Raskolnikov?",
+      "initial": "D",
+      "answer": "Dostoevsky",
+      "language": "en",
+      "aliases": ["Fyodor Dostoevsky", "Dostoyevsky", "Fyodor Dostoyevsky"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"]
+    },
+    {
+      "id": "arts-en-01-06",
+      "text": "What term describes a vivid verbal description of a work of visual art, such as a poem about a painting?",
+      "initial": "E",
+      "answer": "Ekphrasis",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Ekphrasis"]
+    },
+    {
+      "id": "arts-en-01-07",
+      "text": "What painting technique applies pigments mixed with water onto freshly laid wet lime plaster?",
+      "initial": "F",
+      "answer": "Fresco",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Fresco"]
+    },
+    {
+      "id": "arts-en-01-08",
+      "text": "Which German writer's two-part dramatic work follows Faust's pact with Mephistopheles?",
+      "initial": "G",
+      "answer": "Goethe",
+      "language": "en",
+      "aliases": ["Johann Wolfgang von Goethe"],
+      "category": "arts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+        "https://en.wikipedia.org/wiki/Goethe%27s_Faust"
+      ]
+    },
+    {
+      "id": "arts-en-01-09",
+      "text": "What Japanese poetic form traditionally consists of 17 sound units arranged in groups of 5, 7 and 5?",
+      "initial": "H",
+      "answer": "Haiku",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Haiku"]
+    },
+    {
+      "id": "arts-en-01-10",
+      "text": "Which nineteenth-century painting movement took its name from a work by Claude Monet depicting sunrise?",
+      "initial": "I",
+      "answer": "Impressionism",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Impressionism"]
+    },
+    {
+      "id": "arts-en-01-11",
+      "text": "Which English novelist wrote Sense and Sensibility and Emma?",
+      "initial": "J",
+      "answer": "Jane Austen",
+      "language": "en",
+      "aliases": ["Austen"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Jane_Austen"]
+    },
+    {
+      "id": "arts-en-01-12",
+      "text": "Which Prague-born writer created Josef K., the accused protagonist of The Trial?",
+      "initial": "K",
+      "answer": "Kafka",
+      "language": "en",
+      "aliases": ["Franz Kafka"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Franz_Kafka"]
+    },
+    {
+      "id": "arts-en-01-13",
+      "text": "What printmaking technique cuts a design into a sheet of flooring material, inks the raised surface and prints it onto paper?",
+      "initial": "L",
+      "answer": "Linocut",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Linocut"]
+    },
+    {
+      "id": "arts-en-01-14",
+      "text": "What Herman Melville novel follows Captain Ahab's pursuit of a white whale?",
+      "initial": "M",
+      "answer": "Moby-Dick",
+      "language": "en",
+      "aliases": ["Moby Dick"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Moby-Dick"]
+    },
+    {
+      "id": "arts-en-01-15",
+      "text": "Which Chilean poet won the Nobel Prize in Literature in 1971?",
+      "initial": "N",
+      "answer": "Neruda",
+      "language": "en",
+      "aliases": ["Pablo Neruda"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Pablo_Neruda"]
+    },
+    {
+      "id": "arts-en-01-16",
+      "text": "Under which surname did Eric Arthur Blair publish Animal Farm and Nineteen Eighty-Four?",
+      "initial": "O",
+      "answer": "Orwell",
+      "language": "en",
+      "aliases": ["George Orwell"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/George_Orwell"]
+    },
+    {
+      "id": "arts-en-01-17",
+      "text": "What drawing technique represents three-dimensional depth on a flat surface, often using vanishing points?",
+      "initial": "P",
+      "answer": "Perspective",
+      "language": "en",
+      "aliases": ["linear perspective"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Perspective_(graphical)"]
+    },
+    {
+      "id": "arts-en-01-18",
+      "text": "What is the term for a stanza or complete poem consisting of four lines?",
+      "initial": "Q",
+      "answer": "Quatrain",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Quatrain"]
+    },
+    {
+      "id": "arts-en-01-19",
+      "text": "Which Dutch painter created The Night Watch in 1642?",
+      "initial": "R",
+      "answer": "Rembrandt",
+      "language": "en",
+      "aliases": ["Rembrandt van Rijn", "Rembrandt Harmenszoon van Rijn"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Rembrandt"]
+    },
+    {
+      "id": "arts-en-01-20",
+      "text": "What poetic form traditionally has fourteen lines and includes Petrarchan and English varieties?",
+      "initial": "S",
+      "answer": "Sonnet",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Sonnet"]
+    },
+    {
+      "id": "arts-en-01-21",
+      "text": "What was the married surname of Mary, the author of the 1818 novel Frankenstein?",
+      "initial": "SH",
+      "answer": "Shelley",
+      "language": "en",
+      "aliases": ["Mary Shelley"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Mary_Shelley"]
+    },
+    {
+      "id": "arts-en-01-22",
+      "text": "Which Russian novelist wrote War and Peace and Anna Karenina?",
+      "initial": "T",
+      "answer": "Tolstoy",
+      "language": "en",
+      "aliases": ["Leo Tolstoy", "Lev Tolstoy"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Leo_Tolstoy"]
+    },
+    {
+      "id": "arts-en-01-23",
+      "text": "Which James Joyce novel follows events in Dublin on 16 June 1904?",
+      "initial": "U",
+      "answer": "Ulysses",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Ulysses_(novel)"]
+    },
+    {
+      "id": "arts-en-01-24",
+      "text": "Which Dutch painter created The Starry Night while staying in Saint-Rémy in 1889?",
+      "initial": "V",
+      "answer": "Van Gogh",
+      "language": "en",
+      "aliases": ["Vincent van Gogh"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Vincent_van_Gogh"]
+    },
+    {
+      "id": "arts-en-01-25",
+      "text": "Which American poet first published the collection Leaves of Grass in 1855?",
+      "initial": "W",
+      "answer": "Whitman",
+      "language": "en",
+      "aliases": ["Walt Whitman"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Walt_Whitman"]
+    },
+    {
+      "id": "arts-en-01-26",
+      "text": "What technical term denotes making prints from a carved wooden block, especially pages combining text and images?",
+      "initial": "X",
+      "answer": "Xylography",
+      "language": "en",
+      "aliases": ["woodcut", "woodblock printing"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Woodcut"]
+    },
+    {
+      "id": "arts-en-01-27",
+      "text": "Which Irish poet won the Nobel Prize in Literature in 1923?",
+      "initial": "Y",
+      "answer": "Yeats",
+      "language": "en",
+      "aliases": ["W. B. Yeats", "William Butler Yeats", "WB Yeats"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/W._B._Yeats"]
+    },
+    {
+      "id": "arts-en-01-28",
+      "text": "Which French novelist created the twenty-volume Rougon-Macquart cycle?",
+      "initial": "Z",
+      "answer": "Zola",
+      "language": "en",
+      "aliases": ["Émile Zola"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/%C3%89mile_Zola"]
+    }
+  ]
+}

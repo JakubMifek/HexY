@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "arts-en-02",
+  "title": "Arts and literature · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-en-02-01",
+      "text": "What kind of poem hides a word or message in the first letters of successive lines?",
+      "initial": "A",
+      "answer": "Acrostic",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Acrostic"]
+    },
+    {
+      "id": "arts-en-02-02",
+      "text": "What was Emily's surname, shared with her writer sisters Charlotte and Anne, when she wrote Wuthering Heights?",
+      "initial": "B",
+      "answer": "Brontë",
+      "language": "en",
+      "aliases": ["Emily Brontë"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Emily_Bront%C3%AB"]
+    },
+    {
+      "id": "arts-en-02-03",
+      "text": "Which early twentieth-century art movement developed by Picasso and Braque depicts subjects through fragmented geometric forms?",
+      "initial": "C",
+      "answer": "Cubism",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Cubism"]
+    },
+    {
+      "id": "arts-en-02-04",
+      "text": "Which Belarus-born artist created the painted ceiling installed in the Paris Opéra Garnier in 1964?",
+      "initial": "CH",
+      "answer": "Chagall",
+      "language": "en",
+      "aliases": ["Marc Chagall"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Marc_Chagall"]
+    },
+    {
+      "id": "arts-en-02-05",
+      "text": "Which Italian poet wrote the Divine Comedy, journeying through Hell, Purgatory and Paradise?",
+      "initial": "D",
+      "answer": "Dante",
+      "language": "en",
+      "aliases": ["Dante Alighieri"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Dante_Alighieri"]
+    },
+    {
+      "id": "arts-en-02-06",
+      "text": "What printmaking method uses acid to bite exposed lines into a metal plate?",
+      "initial": "E",
+      "answer": "Etching",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Etching"]
+    },
+    {
+      "id": "arts-en-02-07",
+      "text": "Which American novelist wrote The Great Gatsby?",
+      "initial": "F",
+      "answer": "Fitzgerald",
+      "language": "en",
+      "aliases": ["F. Scott Fitzgerald", "Francis Scott Fitzgerald"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/F._Scott_Fitzgerald"]
+    },
+    {
+      "id": "arts-en-02-08",
+      "text": "What type of water-based paint is usually opaque rather than transparent like conventional watercolor?",
+      "initial": "G",
+      "answer": "Gouache",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Gouache"]
+    },
+    {
+      "id": "arts-en-02-09",
+      "text": "Which American author wrote The Old Man and the Sea, about the fisherman Santiago?",
+      "initial": "H",
+      "answer": "Hemingway",
+      "language": "en",
+      "aliases": ["Ernest Hemingway"],
+      "category": "arts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea"
+      ]
+    },
+    {
+      "id": "arts-en-02-10",
+      "text": "Which epic traditionally attributed to Homer centres on Achilles' anger during the Trojan War?",
+      "initial": "I",
+      "answer": "Iliad",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Iliad"]
+    },
+    {
+      "id": "arts-en-02-11",
+      "text": "Which Charlotte Brontë novel takes its title from a governess who works at Thornfield Hall?",
+      "initial": "J",
+      "answer": "Jane Eyre",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Jane_Eyre"]
+    },
+    {
+      "id": "arts-en-02-12",
+      "text": "Which Austrian painter created The Kiss, a work famous for its extensive use of gold leaf?",
+      "initial": "K",
+      "answer": "Klimt",
+      "language": "en",
+      "aliases": ["Gustav Klimt"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Gustav_Klimt"]
+    },
+    {
+      "id": "arts-en-02-13",
+      "text": "What humorous five-line verse form typically follows the rhyme scheme AABBA?",
+      "initial": "L",
+      "answer": "Limerick",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Limerick_(poetry)"]
+    },
+    {
+      "id": "arts-en-02-14",
+      "text": "What art form creates images by arranging many small pieces of stone, glass or similar materials?",
+      "initial": "M",
+      "answer": "Mosaic",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Mosaic"]
+    },
+    {
+      "id": "arts-en-02-15",
+      "text": "What prose-fiction form is generally longer than a short story but shorter than a novel?",
+      "initial": "N",
+      "answer": "Novella",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Novella"]
+    },
+    {
+      "id": "arts-en-02-16",
+      "text": "Which Homeric epic follows Odysseus on his long journey home after the Trojan War?",
+      "initial": "O",
+      "answer": "Odyssey",
+      "language": "en",
+      "aliases": ["The Odyssey"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Odyssey"]
+    },
+    {
+      "id": "arts-en-02-17",
+      "text": "What painting technique associated with Georges Seurat builds an image from many small, distinct dots of color?",
+      "initial": "P",
+      "answer": "Pointillism",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Pointillism"]
+    },
+    {
+      "id": "arts-en-02-18",
+      "text": "What traditional writing implement is made from a large bird feather with its tip cut to hold ink?",
+      "initial": "Q",
+      "answer": "Quill",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Quill"]
+    },
+    {
+      "id": "arts-en-02-19",
+      "text": "What poetic device matches sounds in the endings of words, often at the ends of lines?",
+      "initial": "R",
+      "answer": "Rhyme",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Rhyme"]
+    },
+    {
+      "id": "arts-en-02-20",
+      "text": "Which twentieth-century artistic movement associated with André Breton sought to express dreamlike imagery and the unconscious?",
+      "initial": "S",
+      "answer": "Surrealism",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Surrealism"]
+    },
+    {
+      "id": "arts-en-02-21",
+      "text": "What is the name of the reconstructed London theatre that opened in 1997 near the site of an Elizabethan playhouse?",
+      "initial": "SH",
+      "answer": "Shakespeare's Globe",
+      "language": "en",
+      "aliases": ["Shakespeares Globe", "Globe Theatre", "Globe"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Shakespeare's_Globe"]
+    },
+    {
+      "id": "arts-en-02-22",
+      "text": "What is a work of art consisting of three panels, often hinged together?",
+      "initial": "T",
+      "answer": "Triptych",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Triptych"]
+    },
+    {
+      "id": "arts-en-02-23",
+      "text": "Which Italian novelist and scholar wrote The Name of the Rose?",
+      "initial": "U",
+      "answer": "Umberto Eco",
+      "language": "en",
+      "aliases": ["Eco"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Umberto_Eco"]
+    },
+    {
+      "id": "arts-en-02-24",
+      "text": "Which English novelist wrote Mrs Dalloway and To the Lighthouse?",
+      "initial": "V",
+      "answer": "Virginia Woolf",
+      "language": "en",
+      "aliases": ["Woolf"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Virginia_Woolf"]
+    },
+    {
+      "id": "arts-en-02-25",
+      "text": "Which Irish writer wrote The Picture of Dorian Gray and The Importance of Being Earnest?",
+      "initial": "W",
+      "answer": "Wilde",
+      "language": "en",
+      "aliases": ["Oscar Wilde"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Oscar_Wilde"]
+    },
+    {
+      "id": "arts-en-02-26",
+      "text": "What ancient Greek concept of guest-friendship and hospitality is a recurring theme in the Odyssey?",
+      "initial": "X",
+      "answer": "Xenia",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Xenia_(Greek)"]
+    },
+    {
+      "id": "arts-en-02-27",
+      "text": "What color-named British literary and artistic periodical first appeared in 1894 with Aubrey Beardsley as its art editor?",
+      "initial": "Y",
+      "answer": "Yellow Book",
+      "language": "en",
+      "aliases": ["The Yellow Book"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/The_Yellow_Book"]
+    },
+    {
+      "id": "arts-en-02-28",
+      "text": "Which philosophical tale by Voltaire follows a young man in ancient Babylon and carries the subtitle The Book of Fate?",
+      "initial": "Z",
+      "answer": "Zadig",
+      "language": "en",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Zadig"]
+    }
+  ]
+}

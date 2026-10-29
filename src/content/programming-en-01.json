@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "id": "programming-en-01",
+  "title": "Programming · 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-en-01-01",
+      "text": "Which JavaScript built-in object holds an ordered collection whose elements are accessed using nonnegative integer indices?",
+      "initial": "A",
+      "answer": "Array",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      ]
+    },
+    {
+      "id": "programming-en-01-02",
+      "text": "What is the name of the Python 3 type whose two values are True and False?",
+      "initial": "B",
+      "answer": "Boolean",
+      "language": "en",
+      "aliases": ["bool"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/library/stdtypes.html#boolean-type-bool"
+      ]
+    },
+    {
+      "id": "programming-en-01-03",
+      "text": "What kind of program translates source code into another language, often machine code, before the resulting program is run?",
+      "initial": "C",
+      "answer": "Compiler",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Compiler"]
+    },
+    {
+      "id": "programming-en-01-04",
+      "text": "What kind of single textual unit is the C type char designed to represent?",
+      "initial": "CH",
+      "answer": "Character",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://en.cppreference.com/w/c/language/arithmetic_types.html"
+      ]
+    },
+    {
+      "id": "programming-en-01-05",
+      "text": "Which built-in Python 3 container associates unique keys with values?",
+      "initial": "D",
+      "answer": "Dictionary",
+      "language": "en",
+      "aliases": ["dict"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+      ]
+    },
+    {
+      "id": "programming-en-01-06",
+      "text": "What name does Python 3 give to an error detected during execution that can be handled using try and except?",
+      "initial": "E",
+      "answer": "Exception",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/errors.html"]
+    },
+    {
+      "id": "programming-en-01-07",
+      "text": "What reusable unit of Python 3 code is introduced by def and can receive arguments when called?",
+      "initial": "F",
+      "answer": "Function",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+      ]
+    },
+    {
+      "id": "programming-en-01-08",
+      "text": "Which distributed version-control system was initially created by Linus Torvalds in 2005?",
+      "initial": "G",
+      "answer": "Git",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"
+      ]
+    },
+    {
+      "id": "programming-en-01-09",
+      "text": "What data structure uses a computed value from a key to locate the bucket where an entry belongs?",
+      "initial": "H",
+      "answer": "Hash table",
+      "language": "en",
+      "aliases": ["hash map", "hashmap"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Hash_table"]
+    },
+    {
+      "id": "programming-en-01-10",
+      "text": "What Python 3 object supplies successive values through __next__ and signals exhaustion with StopIteration?",
+      "initial": "I",
+      "answer": "Iterator",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/glossary.html#term-iterator"]
+    },
+    {
+      "id": "programming-en-01-11",
+      "text": "Which programming language, originally developed at Sun Microsystems, typically runs compiled bytecode on a virtual machine abbreviated JVM?",
+      "initial": "J",
+      "answer": "Java",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://www.oracle.com/java/technologies/introduction-to-java.html"
+      ]
+    },
+    {
+      "id": "programming-en-01-12",
+      "text": "Which statically typed language developed by JetBrains interoperates with Java and is widely used for Android development?",
+      "initial": "K",
+      "answer": "Kotlin",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://kotlinlang.org/docs/faq.html"]
+    },
+    {
+      "id": "programming-en-01-13",
+      "text": "Which Python 3 keyword creates a small anonymous function restricted to a single expression?",
+      "initial": "L",
+      "answer": "Lambda",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions"
+      ]
+    },
+    {
+      "id": "programming-en-01-14",
+      "text": "Which Git command joins development histories, commonly integrating changes from another branch?",
+      "initial": "M",
+      "answer": "Merge",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://git-scm.com/docs/git-merge"]
+    },
+    {
+      "id": "programming-en-01-15",
+      "text": "Which JavaScript literal represents the intentional absence of any object value?",
+      "initial": "N",
+      "answer": "Null",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null"
+      ]
+    },
+    {
+      "id": "programming-en-01-16",
+      "text": "What is JavaScript's general name for a collection of properties, each associating a key with a value?",
+      "initial": "O",
+      "answer": "Object",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects"
+      ]
+    },
+    {
+      "id": "programming-en-01-17",
+      "text": "Which programming language did Guido van Rossum name after a British comedy troupe rather than a snake?",
+      "initial": "P",
+      "answer": "Python",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/faq/general.html#why-is-it-called-python"
+      ]
+    },
+    {
+      "id": "programming-en-01-18",
+      "text": "What data structure normally removes items in the same order in which they arrived, following FIFO?",
+      "initial": "Q",
+      "answer": "Queue",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Queue_(abstract_data_type)"]
+    },
+    {
+      "id": "programming-en-01-19",
+      "text": "What technique solves a problem using calls to the same function on smaller instances, with a base case to stop?",
+      "initial": "R",
+      "answer": "Recursion",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Recursion_(computer_science)"]
+    },
+    {
+      "id": "programming-en-01-20",
+      "text": "What data structure uses push and pop operations and normally follows last-in, first-out order?",
+      "initial": "S",
+      "answer": "Stack",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Stack_(abstract_data_type)"]
+    },
+    {
+      "id": "programming-en-01-21",
+      "text": "What kind of command interpreter is Bash, providing both interactive commands and a scripting language?",
+      "initial": "SH",
+      "answer": "Shell",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html"
+      ]
+    },
+    {
+      "id": "programming-en-01-22",
+      "text": "Which built-in Python 3 sequence type is immutable and is commonly written with comma-separated elements in parentheses?",
+      "initial": "T",
+      "answer": "Tuple",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+      ]
+    },
+    {
+      "id": "programming-en-01-23",
+      "text": "Which text-encoding standard assigns code points to characters from the world's writing systems?",
+      "initial": "U",
+      "answer": "Unicode",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://www.unicode.org/standard/WhatIsUnicode.html"]
+    },
+    {
+      "id": "programming-en-01-24",
+      "text": "What general programming term means a named reference to a value that code can use?",
+      "initial": "V",
+      "answer": "Variable",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://developer.mozilla.org/en-US/docs/Glossary/Variable"]
+    },
+    {
+      "id": "programming-en-01-25",
+      "text": "Which Python 3 keyword begins a loop that keeps executing its body as long as its condition is true?",
+      "initial": "W",
+      "answer": "While",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/compound_stmts.html#the-while-statement"
+      ]
+    },
+    {
+      "id": "programming-en-01-26",
+      "text": "Which Boolean operation is true when exactly one of its two inputs is true?",
+      "initial": "X",
+      "answer": "XOR",
+      "language": "en",
+      "aliases": ["exclusive OR", "exclusive disjunction"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Exclusive_or"]
+    },
+    {
+      "id": "programming-en-01-27",
+      "text": "Which Python 3 keyword suspends a generator and produces a value for its caller without finishing the generator?",
+      "initial": "Y",
+      "answer": "Yield",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#yield-expressions"
+      ]
+    },
+    {
+      "id": "programming-en-01-28",
+      "text": "What convention gives the first element of an array position 0 rather than position 1?",
+      "initial": "Z",
+      "answer": "Zero-based indexing",
+      "language": "en",
+      "aliases": ["zero based indexing"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Zero-based_numbering"]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "id": "entertainment-cs-02",
+  "title": "Zábava · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "entertainment-cs-02-01",
+      "text": "Který film Jamese Camerona z roku 2009 se odehrává převážně na Pandoře mezi příslušníky druhu Na'vi?",
+      "initial": "A",
+      "answer": "Avatar",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Avatar_(2009_film)"]
+    },
+    {
+      "id": "entertainment-cs-02-02",
+      "text": "Který superhrdina nakladatelství DC je maskovanou identitou Bruce Waynea z Gotham City?",
+      "initial": "B",
+      "answer": "Batman",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Batman"]
+    },
+    {
+      "id": "entertainment-cs-02-03",
+      "text": "Jak se jmenuje film Karla Zemana z roku 1955, v němž čtyři chlapci na lodi putují proti proudu času?",
+      "initial": "C",
+      "answer": "Cesta do pravěku",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://cs.wikipedia.org/wiki/Cesta_do_prav%C4%9Bku"]
+    },
+    {
+      "id": "entertainment-cs-02-04",
+      "text": "Jak se jmenuje český komiks Jaroslava Němečka s Myšpulínem, Fifinkou, Bobíkem a Pinďou?",
+      "initial": "Č",
+      "answer": "Čtyřlístek",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cty%C5%99l%C3%ADstek_(komiks)"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-05",
+      "text": "Jak zní český název filmu Denise Villeneuva z roku 2021 podle románu Franka Herberta o planetě Arrakis?",
+      "initial": "D",
+      "answer": "Duna",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Duna_(film,_2021)",
+        "https://en.wikipedia.org/wiki/Dune_(2021_film)"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-06",
+      "text": "Který americký zpěvák, přezdívaný král rokenrolu, žil v sídle Graceland?",
+      "initial": "E",
+      "answer": "Elvis Presley",
+      "language": "cs",
+      "aliases": ["Elvis", "Presley"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Elvis_Presley"]
+    },
+    {
+      "id": "entertainment-cs-02-07",
+      "text": "Jak se jmenuje film Roberta Zemeckise z roku 1994, jehož titulní hrdina vypráví svůj život na lavičce u autobusové zastávky?",
+      "initial": "F",
+      "answer": "Forrest Gump",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Forrest_Gump"]
+    },
+    {
+      "id": "entertainment-cs-02-08",
+      "text": "Které japonské obří monstrum se poprvé objevilo ve filmu studia Toho z roku 1954 v režii Iširóa Hondy?",
+      "initial": "G",
+      "answer": "Godzilla",
+      "language": "cs",
+      "aliases": ["Gojira", "Godžira"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Godzilla"]
+    },
+    {
+      "id": "entertainment-cs-02-09",
+      "text": "Který herec namluvil kovboje Woodyho v původním anglickém znění filmu Toy Story z roku 1995?",
+      "initial": "H",
+      "answer": "Hanks",
+      "language": "cs",
+      "aliases": ["Tom Hanks"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Tom_Hanks"]
+    },
+    {
+      "id": "entertainment-cs-02-10",
+      "text": "Jak zní český název Spielbergova filmu z roku 2002, v němž Leonardo DiCaprio hraje podvodníka Franka Abagnalea?",
+      "initial": "Ch",
+      "answer": "Chyť mě, když to dokážeš",
+      "language": "cs",
+      "aliases": ["Chyť mě když to dokážeš"],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chy%C5%A5_m%C4%9B,_kdy%C5%BE_to_dok%C3%A1%C5%BEe%C5%A1"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-11",
+      "text": "Jaký je původní anglický název Nolanova filmu Počátek z roku 2010 o pronikání do snů?",
+      "initial": "I",
+      "answer": "Inception",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inception",
+        "https://cs.wikipedia.org/wiki/Po%C4%8D%C3%A1tek_(film)"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-12",
+      "text": "Jak se jmenuje Batmanův protivník z komiksů DC, známý jako klaunský princ zločinu?",
+      "initial": "J",
+      "answer": "Joker",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Joker_(character)"]
+    },
+    {
+      "id": "entertainment-cs-02-13",
+      "text": "Který režisér natočil filmy 2001: Vesmírná odysea a Osvícení z roku 1980?",
+      "initial": "K",
+      "answer": "Kubrick",
+      "language": "cs",
+      "aliases": ["Stanley Kubrick"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Stanley_Kubrick"]
+    },
+    {
+      "id": "entertainment-cs-02-14",
+      "text": "Jak se jmenuje archeoložka a dobrodružka, hlavní hrdinka videoherní série Tomb Raider?",
+      "initial": "L",
+      "answer": "Lara Croft",
+      "language": "cs",
+      "aliases": ["Croft"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Lara_Croft"]
+    },
+    {
+      "id": "entertainment-cs-02-15",
+      "text": "Která sandboxová videohra, původně vytvořená Markusem Perssonem, umožňuje těžit suroviny a stavět ve světě z bloků?",
+      "initial": "M",
+      "answer": "Minecraft",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Minecraft"]
+    },
+    {
+      "id": "entertainment-cs-02-16",
+      "text": "Jakou přezdívku používá programátor Thomas Anderson ve filmu Matrix z roku 1999?",
+      "initial": "N",
+      "answer": "Neo",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Neo_(The_Matrix)"]
+    },
+    {
+      "id": "entertainment-cs-02-17",
+      "text": "Jaké obchodní jméno nese standardní varianta hry příbuzné reversi, hraná s obracenými kameny na desce 8 × 8?",
+      "initial": "O",
+      "answer": "Othello",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Reversi"]
+    },
+    {
+      "id": "entertainment-cs-02-18",
+      "text": "Která arkádová hra Atari z roku 1972 připomíná stolní tenis se dvěma pálkami a pohybujícím se míčkem?",
+      "initial": "P",
+      "answer": "Pong",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Pong"]
+    },
+    {
+      "id": "entertainment-cs-02-19",
+      "text": "Jaké označení má malý astromechanický droid, společník C-3PO ve Star Wars?",
+      "initial": "R",
+      "answer": "R2-D2",
+      "language": "cs",
+      "aliases": ["R2D2", "Artoo-Detoo"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/R2-D2"]
+    },
+    {
+      "id": "entertainment-cs-02-20",
+      "text": "Jak zní záměrně nespisovný český název hororu z roku 2019, který podle románu Stephena Kinga natočili Kevin Kölsch a Dennis Widmyer?",
+      "initial": "Ř",
+      "answer": "Řbitov zviřátek",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98bitov_zvi%C5%99%C3%A1tek_(film,_2019)"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-21",
+      "text": "Jak se jmenuje rychlý modrý ježek, videoherní maskot firmy Sega?",
+      "initial": "S",
+      "answer": "Sonic",
+      "language": "cs",
+      "aliases": ["Sonic the Hedgehog"],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-22",
+      "text": "Jak se jmenuje filmová hudební pohádka z roku 1968 s Helenou Vondráčkovou a Václavem Neckářem v hlavních rolích?",
+      "initial": "Š",
+      "answer": "Šíleně smutná princezna",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0%C3%ADlen%C4%9B_smutn%C3%A1_princezna"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-23",
+      "text": "Který film Jamese Camerona z roku 1997 vypráví o Jackovi a Rose na zaoceánském parníku odsouzeném ke zkáze?",
+      "initial": "T",
+      "answer": "Titanic",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Titanic_(1997_film)"]
+    },
+    {
+      "id": "entertainment-cs-02-24",
+      "text": "Jaký je původní anglický název filmu studia Pixar Vzhůru do oblak z roku 2009?",
+      "initial": "U",
+      "answer": "Up",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Up_(2009_film)",
+        "https://cs.wikipedia.org/wiki/Vzh%C5%AFru_do_oblak"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-25",
+      "text": "Který italský skladatel napsal čtveřici houslových koncertů známou jako Čtvero ročních dob?",
+      "initial": "V",
+      "answer": "Vivaldi",
+      "language": "cs",
+      "aliases": ["Antonio Vivaldi"],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/Antonio_Vivaldi"]
+    },
+    {
+      "id": "entertainment-cs-02-26",
+      "text": "Který muzikál poprvé uvedený na Broadwayi v roce 1957 vypráví o soupeřících gangech Jets a Sharks?",
+      "initial": "W",
+      "answer": "West Side Story",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": ["https://en.wikipedia.org/wiki/West_Side_Story"]
+    },
+    {
+      "id": "entertainment-cs-02-27",
+      "text": "Jaký je původní americký název Disneyho filmu Zootropolis: Město zvířat z roku 2016?",
+      "initial": "Z",
+      "answer": "Zootopia",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zootopia",
+        "https://cs.wikipedia.org/wiki/Zootropolis:_M%C4%9Bsto_zv%C3%AD%C5%99at"
+      ]
+    },
+    {
+      "id": "entertainment-cs-02-28",
+      "text": "Jak zní český název filmu studia Pixar z roku 1998 o mravenci Flikovi, který shání pomoc proti kobylkám?",
+      "initial": "Ž",
+      "answer": "Život brouka",
+      "language": "cs",
+      "aliases": [],
+      "category": "entertainment",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDivot_brouka",
+        "https://en.wikipedia.org/wiki/A_Bug%27s_Life"
+      ]
+    }
+  ]
+}

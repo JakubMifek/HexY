@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "id": "programming-cs-02",
+  "title": "Programování · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-cs-02-01",
+      "text": "Jakým přejatým odborným slovem nazýváme kontrolní tvrzení v programu, které v Pythonu 3 při zapnuté kontrole ověří podmínku a při její neplatnosti vyvolá výjimku?",
+      "initial": "A",
+      "answer": "Aserce",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement"
+      ]
+    },
+    {
+      "id": "programming-cs-02-02",
+      "text": "Které klíčové slovo Pythonu 3 okamžitě ukončí nejbližší obklopující cyklus for nebo while?",
+      "initial": "B",
+      "answer": "Break",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements"
+      ]
+    },
+    {
+      "id": "programming-cs-02-03",
+      "text": "Jaká zkratka označuje jazyk stylů používaný k nastavení barev, písma a rozložení webové stránky?",
+      "initial": "C",
+      "answer": "CSS",
+      "language": "cs",
+      "aliases": ["Cascading Style Sheets"],
+      "category": "programming",
+      "sources": ["https://developer.mozilla.org/en-US/docs/Web/CSS"]
+    },
+    {
+      "id": "programming-cs-02-04",
+      "text": "Jaké interpunkční znaménko odděluje prvky literálu pole v JavaScriptu, například mezi hodnotami 10 a 20?",
+      "initial": "Č",
+      "answer": "Čárka",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#array_literals"
+      ]
+    },
+    {
+      "id": "programming-cs-02-05",
+      "text": "Jak nazýváme mechanismus, kterým odvozená třída Pythonu 3 přebírá a může přepisovat chování základní třídy?",
+      "initial": "D",
+      "answer": "Dědičnost",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/classes.html#inheritance"]
+    },
+    {
+      "id": "programming-cs-02-06",
+      "text": "Jak se jmenuje standardizovaný skriptovací jazyk specifikovaný normou ECMA-262, z něhož vychází JavaScript?",
+      "initial": "E",
+      "answer": "ECMAScript",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ]
+    },
+    {
+      "id": "programming-cs-02-07",
+      "text": "Jak česky nazýváme datovou strukturu, z níž se běžně odebírají prvky ve stejném pořadí, v jakém byly vloženy, tedy FIFO?",
+      "initial": "F",
+      "answer": "Fronta",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Queue_(abstract_data_type)"]
+    },
+    {
+      "id": "programming-cs-02-08",
+      "text": "Jak Python 3 nazývá funkci, která pomocí yield postupně poskytuje hodnoty a při zavolání vrací iterátor?",
+      "initial": "G",
+      "answer": "Generátor",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/glossary.html#term-generator"]
+    },
+    {
+      "id": "programming-cs-02-09",
+      "text": "Jak česky nazýváme datovou strukturu, která z klíče vypočítá hodnotu určující přihrádku pro uložení záznamu?",
+      "initial": "H",
+      "answer": "Hashovací tabulka",
+      "language": "cs",
+      "aliases": ["hašovací tabulka", "hešovací tabulka"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Hash_table"]
+    },
+    {
+      "id": "programming-cs-02-10",
+      "text": "Jak se jmenuje webový prohlížeč od Googlu, jehož vestavěné DevTools umožňují ladit JavaScript a prohlížet DOM?",
+      "initial": "Ch",
+      "answer": "Chrome",
+      "language": "cs",
+      "aliases": ["Google Chrome"],
+      "category": "programming",
+      "sources": ["https://developer.chrome.com/docs/devtools/overview"]
+    },
+    {
+      "id": "programming-cs-02-11",
+      "text": "Které klíčové slovo Pythonu 3 načítá moduly do programu, například knihovnu math?",
+      "initial": "I",
+      "answer": "Import",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/simple_stmts.html#the-import-statement"
+      ]
+    },
+    {
+      "id": "programming-cs-02-12",
+      "text": "Jaká zkratka označuje textový formát pro výměnu dat, který zapisuje objekty do složených závorek a pole do hranatých?",
+      "initial": "J",
+      "answer": "JSON",
+      "language": "cs",
+      "aliases": ["JavaScript Object Notation"],
+      "category": "programming",
+      "sources": ["https://www.json.org/json-en.html"]
+    },
+    {
+      "id": "programming-cs-02-13",
+      "text": "Jak se jmenuje staticky typovaný jazyk firmy JetBrains, který spolupracuje s Javou a často slouží pro vývoj aplikací pro Android?",
+      "initial": "K",
+      "answer": "Kotlin",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://kotlinlang.org/docs/faq.html"]
+    },
+    {
+      "id": "programming-cs-02-14",
+      "text": "Jak česky nazýváme vývojářský nástroj, který umožňuje zastavit běh na breakpointu a prohlížet hodnoty proměnných?",
+      "initial": "L",
+      "answer": "Ladicí program",
+      "language": "cs",
+      "aliases": ["debugger", "debuger"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Debugger"]
+    },
+    {
+      "id": "programming-cs-02-15",
+      "text": "Jak nazýváme funkci spojenou s objektem, která v Pythonu 3 při volání přes instanci dostává tuto instanci jako první argument?",
+      "initial": "M",
+      "answer": "Metoda",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/classes.html#method-objects"
+      ]
+    },
+    {
+      "id": "programming-cs-02-16",
+      "text": "Jaký český matematický název používáme pro neměnnou posloupnost Pythonu 3 typu tuple, například (1, 2)?",
+      "initial": "N",
+      "answer": "N-tice",
+      "language": "cs",
+      "aliases": ["ntice"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences"
+      ]
+    },
+    {
+      "id": "programming-cs-02-17",
+      "text": "Jak obecně nazýváme symbol provádějící operaci nad hodnotami, například + nebo * v Pythonu 3?",
+      "initial": "O",
+      "answer": "Operátor",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#binary-arithmetic-operations"
+      ]
+    },
+    {
+      "id": "programming-cs-02-18",
+      "text": "Který programovací jazyk pojmenoval Guido van Rossum podle britské komediální skupiny, nikoli podle hada?",
+      "initial": "P",
+      "answer": "Python",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/faq/general.html#why-is-it-called-python"
+      ]
+    },
+    {
+      "id": "programming-cs-02-19",
+      "text": "Které klíčové slovo Pythonu 3 ukončí aktuální volání funkce a může vrátit hodnotu volajícímu?",
+      "initial": "R",
+      "answer": "Return",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/simple_stmts.html#the-return-statement"
+      ]
+    },
+    {
+      "id": "programming-cs-02-20",
+      "text": "Jak se nazývá uspořádávání prvků kolekce podle zvoleného klíče, například od nejmenšího čísla k největšímu?",
+      "initial": "Ř",
+      "answer": "Řazení",
+      "language": "cs",
+      "aliases": ["třídění"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Sorting_algorithm"]
+    },
+    {
+      "id": "programming-cs-02-21",
+      "text": "Jaká zkratka označuje standardizovaný jazyk relačních databází s příkazy SELECT a INSERT?",
+      "initial": "S",
+      "answer": "SQL",
+      "language": "cs",
+      "aliases": ["Structured Query Language"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/SQL"]
+    },
+    {
+      "id": "programming-cs-02-22",
+      "text": "Jak se nazývá poziční číselná soustava se základem 16, která kromě číslic 0 až 9 běžně používá písmena A až F?",
+      "initial": "Š",
+      "answer": "Šestnáctková soustava",
+      "language": "cs",
+      "aliases": ["hexadecimální soustava", "šestnáctková číselná soustava"],
+      "category": "programming",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0estn%C3%A1ctkov%C3%A1_soustava"
+      ]
+    },
+    {
+      "id": "programming-cs-02-23",
+      "text": "Jak nazýváme ověřovací případ, který spustí část programu a porovná skutečný výsledek s očekávaným?",
+      "initial": "T",
+      "answer": "Test",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Software_testing"]
+    },
+    {
+      "id": "programming-cs-02-24",
+      "text": "Jaké kódování Unicode používá jeden až čtyři bajty na kódový bod a zachovává jednobajtové zápisy ASCII?",
+      "initial": "U",
+      "answer": "UTF-8",
+      "language": "cs",
+      "aliases": ["UTF8"],
+      "category": "programming",
+      "sources": ["https://www.unicode.org/faq/utf_bom.html"]
+    },
+    {
+      "id": "programming-cs-02-25",
+      "text": "Jak stručně nazýváme průběžné zaznamenávání změn souborů, díky němuž lze obnovit jejich dřívější podoby?",
+      "initial": "V",
+      "answer": "Verzování",
+      "language": "cs",
+      "aliases": ["správa verzí", "řízení verzí"],
+      "category": "programming",
+      "sources": [
+        "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
+      ]
+    },
+    {
+      "id": "programming-cs-02-26",
+      "text": "Jak se jmenuje přenositelný binární formát instrukcí sloužící na webu jako cíl překladu například pro C a C++?",
+      "initial": "W",
+      "answer": "WebAssembly",
+      "language": "cs",
+      "aliases": ["Wasm"],
+      "category": "programming",
+      "sources": ["https://webassembly.org/"]
+    },
+    {
+      "id": "programming-cs-02-27",
+      "text": "Jak česky nazýváme strategii, při níž Python 3 u and nebo or nevyhodnotí druhý operand, pokud výsledek určuje už první?",
+      "initial": "Z",
+      "answer": "Zkrácené vyhodnocování",
+      "language": "cs",
+      "aliases": ["zkratové vyhodnocování"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not"
+      ]
+    },
+    {
+      "id": "programming-cs-02-28",
+      "text": "Jak česky nazýváme časový úsek běhu C++, po který objekt existuje, od svého vzniku do zániku, na rozdíl od oblasti viditelnosti jména?",
+      "initial": "Ž",
+      "answer": "Životnost objektu",
+      "language": "cs",
+      "aliases": ["doba života objektu"],
+      "category": "programming",
+      "sources": ["https://en.cppreference.com/w/cpp/language/lifetime.html"]
+    }
+  ]
+}

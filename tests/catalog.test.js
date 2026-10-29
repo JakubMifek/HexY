@@ -73,18 +73,18 @@ test('new multi-pack inventory retains one accepted starter on setup changes', (
 });
 
 test.each(/** @type {const} */ (['cs', 'en']))(
-  'full phase-six %s catalog localizes all six categories and keeps selection explicit',
+  'full %s catalog localizes all nine categories and keeps selection explicit',
   (language) => {
     const { model } = setup(language);
     expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
-      24,
+      36,
     );
     expect(document.getElementById('catalog-status')?.textContent).toContain(
-      '24 / 24',
+      '36 / 36',
     );
     filter('catalog-language', language);
     expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
-      12,
+      18,
     );
     const categories = [
       'general',
@@ -93,9 +93,12 @@ test.each(/** @type {const} */ (['cs', 'en']))(
       'history',
       'politics',
       'science',
+      'programming',
+      'arts',
+      'entertainment',
     ];
     expect(document.querySelectorAll('#catalog-category option')).toHaveLength(
-      7,
+      10,
     );
     for (const category of categories) {
       filter('catalog-category', category);
@@ -145,7 +148,7 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     const nature = model.accepted;
     filter('catalog-search', 'does not exist');
     expect(document.getElementById('catalog-status')?.textContent).toContain(
-      '0 / 24',
+      '0 / 36',
     );
     expect(document.getElementById('catalog-results')?.textContent).toBe(
       preparationStrings[language].noMatches,
@@ -153,7 +156,7 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     expect(model.accepted).toBe(nature);
     document.getElementById('reset-catalog')?.click();
     expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
-      24,
+      36,
     );
     check(`nature-${language}-02`, false);
     expect(model.selected).toEqual([]);

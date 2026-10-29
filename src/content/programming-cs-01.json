@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "programming-cs-01",
+  "title": "Programování · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-cs-01-01",
+      "text": "Jak nazýváme přesný postup složený z jednotlivých kroků, kterým lze vyřešit určitý typ úlohy?",
+      "initial": "A",
+      "answer": "Algoritmus",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://cs.wikipedia.org/wiki/Algoritmus"]
+    },
+    {
+      "id": "programming-cs-01-02",
+      "text": "Jaký anglický název má logický typ s hodnotami True a False, který se v Pythonu 3 zapisuje jako bool?",
+      "initial": "B",
+      "answer": "Boolean",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/library/stdtypes.html#boolean-type-bool"
+      ]
+    },
+    {
+      "id": "programming-cs-01-03",
+      "text": "Jak obecně nazýváme řídicí konstrukci, která v programu opakovaně provádí blok příkazů?",
+      "initial": "C",
+      "answer": "Cyklus",
+      "language": "cs",
+      "aliases": ["smyčka"],
+      "category": "programming",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Cyklus_(programov%C3%A1n%C3%AD)"
+      ]
+    },
+    {
+      "id": "programming-cs-01-04",
+      "text": "Jaký druh hodnoty v Pythonu 3 představuje literál 42, uložený jako int, na rozdíl od textu '42'?",
+      "initial": "Č",
+      "answer": "Číslo",
+      "language": "cs",
+      "aliases": ["celé číslo"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex"
+      ]
+    },
+    {
+      "id": "programming-cs-01-05",
+      "text": "Jak nazýváme organizovanou sbírku dat, nad níž lze například pomocí SQL vyhledávat záznamy?",
+      "initial": "D",
+      "answer": "Databáze",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://cs.wikipedia.org/wiki/Datab%C3%A1ze"]
+    },
+    {
+      "id": "programming-cs-01-06",
+      "text": "Jakým přejatým odborným názvem označujeme výčtový typ tvořený pojmenovanými konstantami, v Pythonu 3 vytvářený pomocí Enum?",
+      "initial": "E",
+      "answer": "Enumerace",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/library/enum.html"]
+    },
+    {
+      "id": "programming-cs-01-07",
+      "text": "Jak nazýváme pojmenovaný blok kódu definovaný v Pythonu 3 slovem def, který lze volat s argumenty?",
+      "initial": "F",
+      "answer": "Funkce",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+      ]
+    },
+    {
+      "id": "programming-cs-01-08",
+      "text": "Jak se jmenuje distribuovaný systém správy verzí, který v roce 2005 vytvořil Linus Torvalds?",
+      "initial": "G",
+      "answer": "Git",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"
+      ]
+    },
+    {
+      "id": "programming-cs-01-09",
+      "text": "Jaká zkratka označuje značkovací jazyk, kterým se popisuje struktura webových stránek včetně nadpisů a odstavců?",
+      "initial": "H",
+      "answer": "HTML",
+      "language": "cs",
+      "aliases": ["HyperText Markup Language"],
+      "category": "programming",
+      "sources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
+    },
+    {
+      "id": "programming-cs-01-10",
+      "text": "Jak obecným českým slovem označujeme problém v programu, například nesprávnou syntaxi nebo dělení nulou?",
+      "initial": "Ch",
+      "answer": "Chyba",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/errors.html"]
+    },
+    {
+      "id": "programming-cs-01-11",
+      "text": "Jak se nazývá objekt Pythonu 3, který metodou __next__ postupně poskytuje hodnoty a konec ohlásí výjimkou StopIteration?",
+      "initial": "I",
+      "answer": "Iterátor",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/glossary.html#term-iterator"]
+    },
+    {
+      "id": "programming-cs-01-12",
+      "text": "Jak se jmenuje skriptovací jazyk webových prohlížečů, který v roce 1995 vytvořil Brendan Eich?",
+      "initial": "J",
+      "answer": "JavaScript",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/JavaScript"]
+    },
+    {
+      "id": "programming-cs-01-13",
+      "text": "Jak nazýváme program, který před spuštěním výsledku překládá zdrojový kód do jiného jazyka, často do strojového kódu?",
+      "initial": "K",
+      "answer": "Kompilátor",
+      "language": "cs",
+      "aliases": ["překladač"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Compiler"]
+    },
+    {
+      "id": "programming-cs-01-14",
+      "text": "Které klíčové slovo Pythonu 3 vytváří malou anonymní funkci omezenou na jediný výraz?",
+      "initial": "L",
+      "answer": "Lambda",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions"
+      ]
+    },
+    {
+      "id": "programming-cs-01-15",
+      "text": "Jak Python 3 nazývá soubor s příponou .py obsahující vlastní definice funkcí a tříd?",
+      "initial": "M",
+      "answer": "Modul",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/modules.html"]
+    },
+    {
+      "id": "programming-cs-01-16",
+      "text": "Který literál JavaScriptu vyjadřuje úmyslnou nepřítomnost objektové hodnoty?",
+      "initial": "N",
+      "answer": "Null",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null"
+      ]
+    },
+    {
+      "id": "programming-cs-01-17",
+      "text": "Jak JavaScript obecně nazývá kolekci vlastností, z nichž každá spojuje klíč s hodnotou?",
+      "initial": "O",
+      "answer": "Objekt",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects"
+      ]
+    },
+    {
+      "id": "programming-cs-01-18",
+      "text": "Jak česky nazýváme uspořádanou kolekci prvků JavaScriptu vytvořenou například zápisem [10, 20, 30]?",
+      "initial": "P",
+      "answer": "Pole",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      ]
+    },
+    {
+      "id": "programming-cs-01-19",
+      "text": "Jak nazýváme techniku, při níž funkce řeší úlohu voláním sebe samé pro menší podúlohu, dokud nedosáhne ukončovacího případu?",
+      "initial": "R",
+      "answer": "Rekurze",
+      "language": "cs",
+      "aliases": ["rekurze funkce"],
+      "category": "programming",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Rekurze_(programov%C3%A1n%C3%AD)"
+      ]
+    },
+    {
+      "id": "programming-cs-01-20",
+      "text": "Jak česky nazýváme textovou posloupnost znaků, kterou v Pythonu 3 reprezentuje typ str?",
+      "initial": "Ř",
+      "answer": "Řetězec",
+      "language": "cs",
+      "aliases": ["textový řetězec"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"
+      ]
+    },
+    {
+      "id": "programming-cs-01-21",
+      "text": "Jak česky nazýváme vestavěnou kolekci Pythonu 3 typu dict, která přiřazuje jedinečným klíčům hodnoty?",
+      "initial": "S",
+      "answer": "Slovník",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+      ]
+    },
+    {
+      "id": "programming-cs-01-22",
+      "text": "Jak česky nazýváme konstrukci C++, která dovoluje parametrizovat funkci nebo třídu například typem a zapisuje se pomocí template?",
+      "initial": "Š",
+      "answer": "Šablona",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.cppreference.com/w/cpp/language/templates.html"]
+    },
+    {
+      "id": "programming-cs-01-23",
+      "text": "Jak česky nazýváme konstrukci definovanou v Pythonu 3 slovem class, která sdružuje data a chování svých instancí?",
+      "initial": "T",
+      "answer": "Třída",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/classes.html"]
+    },
+    {
+      "id": "programming-cs-01-24",
+      "text": "Jak se jmenuje standard, který přiřazuje kódové body znakům písem z celého světa?",
+      "initial": "U",
+      "answer": "Unicode",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://www.unicode.org/standard/WhatIsUnicode.html"]
+    },
+    {
+      "id": "programming-cs-01-25",
+      "text": "Jak se nazývá chyba zjištěná při běhu Pythonu 3, kterou lze zachytit konstrukcí try a except?",
+      "initial": "V",
+      "answer": "Výjimka",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/errors.html"]
+    },
+    {
+      "id": "programming-cs-01-26",
+      "text": "Které klíčové slovo Pythonu 3 zahajuje cyklus prováděný tak dlouho, dokud platí jeho podmínka?",
+      "initial": "W",
+      "answer": "While",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/compound_stmts.html#the-while-statement"
+      ]
+    },
+    {
+      "id": "programming-cs-01-27",
+      "text": "Jak nazýváme datovou strukturu, z níž se jako první odebírá naposledy vložený prvek, tedy podle pravidla LIFO?",
+      "initial": "Z",
+      "answer": "Zásobník",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Stack_(abstract_data_type)"]
+    },
+    {
+      "id": "programming-cs-01-28",
+      "text": "Jaké zvíře představuje pomyslný kreslicí kurzor ovládaný příkazy vpřed a otoč se v grafice známé z jazyka Logo?",
+      "initial": "Ž",
+      "answer": "Želva",
+      "language": "cs",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/library/turtle.html"]
+    }
+  ]
+}

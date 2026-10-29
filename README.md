@@ -1,13 +1,13 @@
 # HexY
 
-Playable local quiz for two players sharing a screen. **Phases 1–6 are independently
-cleared, with 24 packs / 672 questions. Not a production release.**
-General knowledge, Nature, Geography, History, Politics/diplomacy and
-Science/technology support both languages, catalog filtering and
+Playable local quiz for two players sharing a screen. **Phases 1–7 are independently
+cleared: 36 packs / 1,008 reviewed questions. Not yet a production release.**
+All nine categories support both languages, catalog filtering and
 source-preserving printable answer sheets.
 See [phase status](IMPLEMENTATION_PHASES.md) and [contracts](docs/contracts.md).
 The [phase-6 review](reviews/phase-06.md) records editorial coverage, corrections
-and independent/post-review verification.
+and independent/post-review verification. See the
+[phase-7 review](reviews/phase-07.md) for final content clearance.
 
 ## Play
 
@@ -254,22 +254,23 @@ See [format and duplicate-resolution rules](docs/contracts.md).
 
 ## Content catalog
 
-The phase-6 candidate contains **24 packs / 672 entries**: two fixed 28-question
+The phase-7 candidate contains **36 packs / 1,008 entries**: two fixed 28-question
 packs per category and language for General knowledge, Nature, Geography
-and travel, History, Politics and diplomacy, and Science and technology.
-The twelve reviewed phase-5 packs remain byte-for-byte unchanged, including
+and travel, History, Politics and diplomacy, Science and technology, Programming,
+Arts and literature, and Entertainment.
+The 24 reviewed phase-6 packs remain byte-for-byte unchanged, including
 the original starters `general-cs-01` and `general-en-01`.
-Phase 6 adds twelve packs / 336 questions; all new entries await independent
-factual and linguistic review. Programming, Arts/literature and Entertainment
-remain planned for phase 7, not delivered. Each pack also works as a
+Phase 7 adds the final twelve packs / 336 questions; all new entries await
+independent factual and linguistic review. Each pack also works as a
 selected number-game source. Questions can recur across games; neither filtering
 nor generation promises permanent novelty.
 
 See the [inventory and editorial policy](docs/content-inventory.md) and the
-[672-entry source-check ledger](docs/content-sources.md). Original Czech and
+[1,008-entry source-check ledger](docs/content-sources.md). Original Czech and
 English questions use their own fixed alphabets, not forced translations.
-Sources were checked during authoring on 2026-10-28; the ledger identifies the
-temporarily unavailable BCcampus starter citation and its verified corroboration.
+New sources were read during authoring on 2026-10-29; the ledger identifies
+the corrected source/adaptation choices and the earlier temporarily unavailable
+BCcampus starter citation with its verified corroboration.
 Tests cover every pack's counts, category/language quota, identity, schema,
 prefix order, duplicate text/answers and fixed/number/export integration.
 Those checks do not replace independent factual and linguistic review of

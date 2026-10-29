@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "id": "arts-cs-01",
+  "title": "Umění a literatura · 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-cs-01-01",
+      "text": "Jak se nazývá básnický prostředek založený na opakování stejné počáteční souhlásky v blízkých slovech?",
+      "initial": "A",
+      "answer": "Aliterace",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Alliteration"]
+    },
+    {
+      "id": "arts-cs-01-02",
+      "text": "Jak se nazývá umělecký sloh sedmnáctého století, typický dramatičností, pohybem a bohatou výzdobou?",
+      "initial": "B",
+      "answer": "Baroko",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Baroko"]
+    },
+    {
+      "id": "arts-cs-01-03",
+      "text": "Který španělský spisovatel vytvořil Dona Quijota a jeho společníka Sancha Panzu?",
+      "initial": "C",
+      "answer": "Cervantes",
+      "language": "cs",
+      "aliases": ["Miguel de Cervantes", "Miguel de Cervantes Saavedra"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Miguel_de_Cervantes"]
+    },
+    {
+      "id": "arts-cs-01-04",
+      "text": "Jaké příjmení měl Svatopluk, autor satirických próz o výletech pana Broučka?",
+      "initial": "Č",
+      "answer": "Čech",
+      "language": "cs",
+      "aliases": ["Svatopluk Čech"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Svatopluk_%C4%8Cech"]
+    },
+    {
+      "id": "arts-cs-01-05",
+      "text": "Který ruský romanopisec napsal Zločin a trest s hlavní postavou Raskolnikovem?",
+      "initial": "D",
+      "answer": "Dostojevskij",
+      "language": "cs",
+      "aliases": ["Fjodor Michajlovič Dostojevskij", "Fjodor Dostojevskij"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"]
+    },
+    {
+      "id": "arts-cs-01-06",
+      "text": "Jak se nazývá drobná grafická značka vlepená do knihy, která označuje jejího vlastníka?",
+      "initial": "E",
+      "answer": "Exlibris",
+      "language": "cs",
+      "aliases": ["ex libris"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Exlibris"]
+    },
+    {
+      "id": "arts-cs-01-07",
+      "text": "Jak se nazývá nástěnná malba prováděná vodou rozmíchanými pigmenty do čerstvé vlhké vápenné omítky?",
+      "initial": "F",
+      "answer": "Freska",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Fresco"]
+    },
+    {
+      "id": "arts-cs-01-08",
+      "text": "Který německý spisovatel napsal dvoudílné drama o Faustově smlouvě s Mefistofelem?",
+      "initial": "G",
+      "answer": "Goethe",
+      "language": "cs",
+      "aliases": ["Johann Wolfgang von Goethe"],
+      "category": "arts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+        "https://en.wikipedia.org/wiki/Goethe%27s_Faust"
+      ]
+    },
+    {
+      "id": "arts-cs-01-09",
+      "text": "Jak se jmenuje japonská básnická forma tradičně uspořádaná do skupin 5, 7 a 5 zvukových jednotek?",
+      "initial": "H",
+      "answer": "Haiku",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Haiku"]
+    },
+    {
+      "id": "arts-cs-01-10",
+      "text": "Který malíř narozený na území dnešního Běloruska vytvořil v roce 1964 novou malbu stropu pařížské opery Garnier?",
+      "initial": "Ch",
+      "answer": "Chagall",
+      "language": "cs",
+      "aliases": ["Marc Chagall"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Marc_Chagall"]
+    },
+    {
+      "id": "arts-cs-01-11",
+      "text": "Který malířský směr devatenáctého století získal jméno podle Monetova obrazu zachycujícího východ slunce?",
+      "initial": "I",
+      "answer": "Impresionismus",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Impressionism"]
+    },
+    {
+      "id": "arts-cs-01-12",
+      "text": "Který český spisovatel napsal Staré pověsti české a románovou kroniku F. L. Věk?",
+      "initial": "J",
+      "answer": "Jirásek",
+      "language": "cs",
+      "aliases": ["Alois Jirásek"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Alois_Jir%C3%A1sek"]
+    },
+    {
+      "id": "arts-cs-01-13",
+      "text": "Který pražský rodák vytvořil Josefa K., obviněného hrdinu románu Proces?",
+      "initial": "K",
+      "answer": "Kafka",
+      "language": "cs",
+      "aliases": ["Franz Kafka"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Franz_Kafka"]
+    },
+    {
+      "id": "arts-cs-01-14",
+      "text": "Jak se nazývá grafická technika, při níž se motiv vyřezává do linolea a tiskne se z ponechaných vyvýšených ploch?",
+      "initial": "L",
+      "answer": "Linoryt",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Linocut"]
+    },
+    {
+      "id": "arts-cs-01-15",
+      "text": "Jaké příjmení měl český romantický básník, který roku 1836 vydal Máj?",
+      "initial": "M",
+      "answer": "Mácha",
+      "language": "cs",
+      "aliases": ["Karel Hynek Mácha"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Karel_Hynek_M%C3%A1cha"]
+    },
+    {
+      "id": "arts-cs-01-16",
+      "text": "Která česká spisovatelka napsala Babičku s podtitulem Obrazy venkovského života?",
+      "initial": "N",
+      "answer": "Němcová",
+      "language": "cs",
+      "aliases": ["Božena Němcová"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Bo%C5%BEena_N%C4%9Bmcov%C3%A1"]
+    },
+    {
+      "id": "arts-cs-01-17",
+      "text": "Pod jakým příjmením publikoval Eric Arthur Blair romány Farma zvířat a 1984?",
+      "initial": "O",
+      "answer": "Orwell",
+      "language": "cs",
+      "aliases": ["George Orwell"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/George_Orwell"]
+    },
+    {
+      "id": "arts-cs-01-18",
+      "text": "Jak se nazývá způsob zobrazení prostorové hloubky na ploše, který v lineární podobě využívá úběžníky?",
+      "initial": "P",
+      "answer": "Perspektiva",
+      "language": "cs",
+      "aliases": ["lineární perspektiva"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Perspective_(graphical)"]
+    },
+    {
+      "id": "arts-cs-01-19",
+      "text": "Který nizozemský malíř vytvořil roku 1642 obraz Noční hlídka?",
+      "initial": "R",
+      "answer": "Rembrandt",
+      "language": "cs",
+      "aliases": ["Rembrandt van Rijn", "Rembrandt Harmenszoon van Rijn"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Rembrandt"]
+    },
+    {
+      "id": "arts-cs-01-20",
+      "text": "Jak se nazývá umělecké opracování dřeva nožem či dlátem do reliéfů a soch?",
+      "initial": "Ř",
+      "answer": "Řezbářství",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Wood_carving"]
+    },
+    {
+      "id": "arts-cs-01-21",
+      "text": "Jak se nazývá básnická forma o čtrnácti verších, známá například v petrarkovské a anglické podobě?",
+      "initial": "S",
+      "answer": "Sonet",
+      "language": "cs",
+      "aliases": ["znělka"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Sonnet"]
+    },
+    {
+      "id": "arts-cs-01-22",
+      "text": "Jaké příjmení měl Václav, český malíř spojený se skupinou Tvrdošíjní, známý výraznou modrou barvou?",
+      "initial": "Š",
+      "answer": "Špála",
+      "language": "cs",
+      "aliases": ["Václav Špála"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/V%C3%A1clav_%C5%A0p%C3%A1la"]
+    },
+    {
+      "id": "arts-cs-01-23",
+      "text": "Který ruský spisovatel napsal Vojnu a mír a Annu Kareninu?",
+      "initial": "T",
+      "answer": "Tolstoj",
+      "language": "cs",
+      "aliases": ["Lev Nikolajevič Tolstoj", "Lev Tolstoj"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Leo_Tolstoy"]
+    },
+    {
+      "id": "arts-cs-01-24",
+      "text": "Jak se jmenuje kniha Thomase Mora z roku 1516 popisující společnost na smyšleném ostrově?",
+      "initial": "U",
+      "answer": "Utopie",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Utopie_(kniha)"]
+    },
+    {
+      "id": "arts-cs-01-25",
+      "text": "Který nizozemský malíř vytvořil Hvězdnou noc během pobytu v Saint-Rémy v roce 1889?",
+      "initial": "V",
+      "answer": "Van Gogh",
+      "language": "cs",
+      "aliases": ["Vincent van Gogh"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Vincent_van_Gogh"]
+    },
+    {
+      "id": "arts-cs-01-26",
+      "text": "Který americký básník poprvé vydal sbírku Stébla trávy v roce 1855?",
+      "initial": "W",
+      "answer": "Whitman",
+      "language": "cs",
+      "aliases": ["Walt Whitman"],
+      "category": "arts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walt_Whitman",
+        "https://cs.wikipedia.org/wiki/Walt_Whitman"
+      ]
+    },
+    {
+      "id": "arts-cs-01-27",
+      "text": "Který francouzský romanopisec vytvořil dvacetidílný cyklus Rougon-Macquartové?",
+      "initial": "Z",
+      "answer": "Zola",
+      "language": "cs",
+      "aliases": ["Émile Zola"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/%C3%89mile_Zola"]
+    },
+    {
+      "id": "arts-cs-01-28",
+      "text": "Jaké příjmení má Jiří, český básník a autor dětské knihy Aprílová škola?",
+      "initial": "Ž",
+      "answer": "Žáček",
+      "language": "cs",
+      "aliases": ["Jiří Žáček"],
+      "category": "arts",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_%C5%BD%C3%A1%C4%8Dek"
+      ]
+    }
+  ]
+}

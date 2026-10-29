@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "arts-cs-02",
+  "title": "Umění a literatura · 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-cs-02-01",
+      "text": "Jak se nazývá báseň, v níž první písmena jednotlivých veršů tvoří slovo nebo zprávu?",
+      "initial": "A",
+      "answer": "Akrostich",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Acrostic"]
+    },
+    {
+      "id": "arts-cs-02-02",
+      "text": "Který italský autor napsal Dekameron, soubor sta novel vyprávěných skupinou mladých lidí?",
+      "initial": "B",
+      "answer": "Boccaccio",
+      "language": "cs",
+      "aliases": ["Giovanni Boccaccio"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Giovanni_Boccaccio"]
+    },
+    {
+      "id": "arts-cs-02-03",
+      "text": "Pod jakým jménem je znám italský malíř Michelangelo Merisi, proslulý dramatickým použitím světla a stínu?",
+      "initial": "C",
+      "answer": "Caravaggio",
+      "language": "cs",
+      "aliases": ["Michelangelo Merisi da Caravaggio"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Caravaggio"]
+    },
+    {
+      "id": "arts-cs-02-04",
+      "text": "Jaké příjmení má David, český sochař, který v roce 1991 natřel pražský sovětský tank narůžovo?",
+      "initial": "Č",
+      "answer": "Černý",
+      "language": "cs",
+      "aliases": ["David Černý"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/David_%C4%8Cern%C3%BD"]
+    },
+    {
+      "id": "arts-cs-02-05",
+      "text": "Který italský básník napsal Božskou komedii s putováním Peklem, Očistcem a Rájem?",
+      "initial": "D",
+      "answer": "Dante",
+      "language": "cs",
+      "aliases": ["Dante Alighieri"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Dante_Alighieri"]
+    },
+    {
+      "id": "arts-cs-02-06",
+      "text": "Který český básník je autorem sbírky balad Kytice?",
+      "initial": "E",
+      "answer": "Erben",
+      "language": "cs",
+      "aliases": ["Karel Jaromír Erben"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Karel_Jarom%C3%ADr_Erben"]
+    },
+    {
+      "id": "arts-cs-02-07",
+      "text": "Který americký spisovatel napsal román Velký Gatsby?",
+      "initial": "F",
+      "answer": "Fitzgerald",
+      "language": "cs",
+      "aliases": ["F. Scott Fitzgerald", "Francis Scott Fitzgerald"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/F._Scott_Fitzgerald"]
+    },
+    {
+      "id": "arts-cs-02-08",
+      "text": "Jak se nazývá krycí vodová barva, která je na rozdíl od běžného akvarelu zpravidla neprůhledná?",
+      "initial": "G",
+      "answer": "Gvaš",
+      "language": "cs",
+      "aliases": ["gouache"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Gouache"]
+    },
+    {
+      "id": "arts-cs-02-09",
+      "text": "Který americký autor napsal novelu Stařec a moře o rybáři Santiagovi?",
+      "initial": "H",
+      "answer": "Hemingway",
+      "language": "cs",
+      "aliases": ["Ernest Hemingway"],
+      "category": "arts",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea"
+      ]
+    },
+    {
+      "id": "arts-cs-02-10",
+      "text": "Který středověký anglický básník napsal Canterburské povídky?",
+      "initial": "Ch",
+      "answer": "Chaucer",
+      "language": "cs",
+      "aliases": ["Geoffrey Chaucer"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Geoffrey_Chaucer"]
+    },
+    {
+      "id": "arts-cs-02-11",
+      "text": "Který epos připisovaný Homérovi se soustředí na Achilleův hněv během trojské války?",
+      "initial": "I",
+      "answer": "Ilias",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Iliad"]
+    },
+    {
+      "id": "arts-cs-02-12",
+      "text": "Který irský autor napsal sbírku povídek Dubliňané?",
+      "initial": "J",
+      "answer": "Joyce",
+      "language": "cs",
+      "aliases": ["James Joyce"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/James_Joyce"]
+    },
+    {
+      "id": "arts-cs-02-13",
+      "text": "Jak se nazývá výtvarný směr počátku dvacátého století spojený s Picassem a Braquem, který rozkládá tvary do geometrických ploch?",
+      "initial": "K",
+      "answer": "Kubismus",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Cubism"]
+    },
+    {
+      "id": "arts-cs-02-14",
+      "text": "Jak se nazývá humorná pětiveršová báseň s obvyklým rýmovým schématem AABBA?",
+      "initial": "L",
+      "answer": "Limerik",
+      "language": "cs",
+      "aliases": ["limerick"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Limerick_(poetry)"]
+    },
+    {
+      "id": "arts-cs-02-15",
+      "text": "Jak se nazývá obraz sestavený z mnoha drobných kousků kamene, skla nebo podobného materiálu?",
+      "initial": "M",
+      "answer": "Mozaika",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Mosaic"]
+    },
+    {
+      "id": "arts-cs-02-16",
+      "text": "Jak se nazývá prozaický útvar zpravidla delší než povídka, ale kratší než román?",
+      "initial": "N",
+      "answer": "Novela",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Novella"]
+    },
+    {
+      "id": "arts-cs-02-17",
+      "text": "Který epos připisovaný Homérovi líčí dlouhý návrat ithackého krále domů po trojské válce?",
+      "initial": "O",
+      "answer": "Odysseia",
+      "language": "cs",
+      "aliases": ["Odyssea"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Odyssey"]
+    },
+    {
+      "id": "arts-cs-02-18",
+      "text": "Jak se nazývá malířská technika spojovaná s Georgesem Seuratem, která skládá obraz z drobných oddělených barevných bodů?",
+      "initial": "P",
+      "answer": "Pointilismus",
+      "language": "cs",
+      "aliases": ["pointillismus"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Pointillism"]
+    },
+    {
+      "id": "arts-cs-02-19",
+      "text": "Jak se nazývá zvuková shoda na koncích slov, často využívaná na koncích veršů?",
+      "initial": "R",
+      "answer": "Rým",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Rhyme"]
+    },
+    {
+      "id": "arts-cs-02-20",
+      "text": "Jak se jmenuje obchodní cestující, který se na začátku Kafkovy Proměny probudí v těle obrovského hmyzu?",
+      "initial": "Ř",
+      "answer": "Řehoř Samsa",
+      "language": "cs",
+      "aliases": ["Gregor Samsa", "Samsa"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Prom%C4%9Bna_(pov%C3%ADdka)"]
+    },
+    {
+      "id": "arts-cs-02-21",
+      "text": "Který umělecký směr spojovaný s André Bretonem usiloval o vyjádření snů a nevědomí?",
+      "initial": "S",
+      "answer": "Surrealismus",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Surrealism"]
+    },
+    {
+      "id": "arts-cs-02-22",
+      "text": "Jaké příjmení měl Josef, autor románu Zbabělci a spoluzakladatel exilového nakladatelství Sixty-Eight Publishers?",
+      "initial": "Š",
+      "answer": "Škvorecký",
+      "language": "cs",
+      "aliases": ["Josef Škvorecký"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Josef_%C5%A0kvoreck%C3%BD"]
+    },
+    {
+      "id": "arts-cs-02-23",
+      "text": "Jak nazýváme umělecké dílo složené ze tří panelů, často spojených panty?",
+      "initial": "T",
+      "answer": "Triptych",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Triptych"]
+    },
+    {
+      "id": "arts-cs-02-24",
+      "text": "Který italský spisovatel a sémiotik napsal román Jméno růže?",
+      "initial": "U",
+      "answer": "Umberto Eco",
+      "language": "cs",
+      "aliases": ["Eco"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Umberto_Eco"]
+    },
+    {
+      "id": "arts-cs-02-25",
+      "text": "Která anglická spisovatelka napsala romány Paní Dallowayová a K majáku?",
+      "initial": "V",
+      "answer": "Virginia Woolfová",
+      "language": "cs",
+      "aliases": ["Virginia Woolf", "Woolfová", "Woolf"],
+      "category": "arts",
+      "sources": ["https://cs.wikipedia.org/wiki/Virginia_Woolfov%C3%A1"]
+    },
+    {
+      "id": "arts-cs-02-26",
+      "text": "Který irský spisovatel napsal Obraz Doriana Graye a komedii Jak je důležité míti Filipa?",
+      "initial": "W",
+      "answer": "Wilde",
+      "language": "cs",
+      "aliases": ["Oscar Wilde"],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Oscar_Wilde"]
+    },
+    {
+      "id": "arts-cs-02-27",
+      "text": "Jak se nazývá výtvarný žánr zobrazující uspořádané neživé předměty, například ovoce nebo nádoby?",
+      "initial": "Z",
+      "answer": "Zátiší",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Still_life"]
+    },
+    {
+      "id": "arts-cs-02-28",
+      "text": "Jak nazýváme druh uměleckého díla vymezený společnými obsahovými či formálními znaky, například detektivku nebo komedii?",
+      "initial": "Ž",
+      "answer": "Žánr",
+      "language": "cs",
+      "aliases": [],
+      "category": "arts",
+      "sources": ["https://en.wikipedia.org/wiki/Genre"]
+    }
+  ]
+}

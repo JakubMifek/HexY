@@ -106,11 +106,11 @@ for (const language of ['cs', 'en']) {
       });
       await setupPreparation(page, language);
       await page.locator('#theme').selectOption(theme);
-      await expect(page.locator('#catalog-status')).toContainText('24 / 24');
-      await expect(page.locator('#catalog-results input')).toHaveCount(24);
+      await expect(page.locator('#catalog-status')).toContainText('36 / 36');
+      await expect(page.locator('#catalog-results input')).toHaveCount(36);
       await page.locator('#catalog-language').selectOption(language);
-      await expect(page.locator('#catalog-results input')).toHaveCount(12);
-      await expect(page.locator('#catalog-category option')).toHaveCount(7);
+      await expect(page.locator('#catalog-results input')).toHaveCount(18);
+      await expect(page.locator('#catalog-category option')).toHaveCount(10);
       for (const category of [
         'general',
         'nature',
@@ -121,7 +121,7 @@ for (const language of ['cs', 'en']) {
       ]) {
         await page.locator('#catalog-category').selectOption(category);
         await expect(page.locator('#catalog-results input')).toHaveCount(2);
-        await expect(page.locator('#catalog-status')).toContainText('2 / 24');
+        await expect(page.locator('#catalog-status')).toContainText('2 / 36');
         await expect(page.locator('#catalog-results')).toContainText(
           preparationStrings[language].categories[category],
         );
@@ -140,7 +140,7 @@ for (const language of ['cs', 'en']) {
       );
       expect(pack.id).toBe(`general-${language}-01`);
       await page.locator('#reset-catalog').click();
-      await expect(page.locator('#catalog-results input')).toHaveCount(24);
+      await expect(page.locator('#catalog-results input')).toHaveCount(36);
       await expect(page.locator('#catalog-results input:checked')).toHaveCount(
         1,
       );

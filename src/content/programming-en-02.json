@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "programming-en-02",
+  "title": "Programming · 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-en-02-01",
+      "text": "What debugging check in Python 3 states a condition that should hold at a particular point, and raises an error if that condition is false when the check is enabled?",
+      "initial": "A",
+      "answer": "Assertion",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement"
+      ]
+    },
+    {
+      "id": "programming-en-02-02",
+      "text": "Which Python 3 keyword immediately exits the innermost enclosing for or while loop?",
+      "initial": "B",
+      "answer": "Break",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements"
+      ]
+    },
+    {
+      "id": "programming-en-02-03",
+      "text": "What term means a function together with references to the lexical environment in which it was created?",
+      "initial": "C",
+      "answer": "Closure",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures"
+      ]
+    },
+    {
+      "id": "programming-en-02-04",
+      "text": "What is the English name for combining Python 3 comparisons as in a < b < c, so that the middle expression is evaluated only once?",
+      "initial": "CH",
+      "answer": "Chaining",
+      "language": "en",
+      "aliases": ["comparison chaining"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/expressions.html#comparisons"
+      ]
+    },
+    {
+      "id": "programming-en-02-05",
+      "text": "What development tool lets a programmer stop at breakpoints and inspect a running program's state?",
+      "initial": "D",
+      "answer": "Debugger",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Debugger"]
+    },
+    {
+      "id": "programming-en-02-06",
+      "text": "What Python 3 standard-library module defines named constants grouped into enumerations?",
+      "initial": "E",
+      "answer": "Enum",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/library/enum.html"]
+    },
+    {
+      "id": "programming-en-02-07",
+      "text": "Which Python 3 keyword begins a loop that visits items of an iterable in turn?",
+      "initial": "F",
+      "answer": "For",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/tutorial/controlflow.html#for-statements"
+      ]
+    },
+    {
+      "id": "programming-en-02-08",
+      "text": "What name does Python 3 give to a function that returns an iterator whose execution can resume with its local state preserved between successive values?",
+      "initial": "G",
+      "answer": "Generator",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/glossary.html#term-generator"]
+    },
+    {
+      "id": "programming-en-02-09",
+      "text": "What standard markup language describes the structure of a web page using elements such as headings and paragraphs?",
+      "initial": "H",
+      "answer": "HTML",
+      "language": "en",
+      "aliases": ["HyperText Markup Language"],
+      "category": "programming",
+      "sources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
+    },
+    {
+      "id": "programming-en-02-10",
+      "text": "What object-oriented mechanism lets a derived Python 3 class reuse and override behavior from a base class?",
+      "initial": "I",
+      "answer": "Inheritance",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/classes.html#inheritance"]
+    },
+    {
+      "id": "programming-en-02-11",
+      "text": "What lightweight text data-interchange format represents objects with braces and arrays with square brackets?",
+      "initial": "J",
+      "answer": "JSON",
+      "language": "en",
+      "aliases": ["JavaScript Object Notation"],
+      "category": "programming",
+      "sources": ["https://www.json.org/json-en.html"]
+    },
+    {
+      "id": "programming-en-02-12",
+      "text": "What do we call a reserved Python 3 word such as if or else that cannot be used as an ordinary identifier?",
+      "initial": "K",
+      "answer": "Keyword",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/lexical_analysis.html#keywords"
+      ]
+    },
+    {
+      "id": "programming-en-02-13",
+      "text": "Which built-in mutable Python 3 sequence is commonly created by putting comma-separated values in square brackets?",
+      "initial": "L",
+      "answer": "List",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/introduction.html#lists"]
+    },
+    {
+      "id": "programming-en-02-14",
+      "text": "What does Python 3 call a file containing definitions and statements that can be imported by another program?",
+      "initial": "M",
+      "answer": "Module",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://docs.python.org/3/tutorial/modules.html"]
+    },
+    {
+      "id": "programming-en-02-15",
+      "text": "Which JavaScript numeric value is produced by Number('hello') and is unequal to itself under ===?",
+      "initial": "N",
+      "answer": "NaN",
+      "language": "en",
+      "aliases": ["Not a Number"],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN"
+      ]
+    },
+    {
+      "id": "programming-en-02-16",
+      "text": "What problem occurs when an integer calculation produces a result outside the range representable by its allotted bits?",
+      "initial": "O",
+      "answer": "Overflow",
+      "language": "en",
+      "aliases": ["integer overflow"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Integer_overflow"]
+    },
+    {
+      "id": "programming-en-02-17",
+      "text": "Which JavaScript object represents the eventual completion or failure of an asynchronous operation?",
+      "initial": "P",
+      "answer": "Promise",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+      ]
+    },
+    {
+      "id": "programming-en-02-18",
+      "text": "What general database term describes a request such as SQL SELECT that retrieves specified information?",
+      "initial": "Q",
+      "answer": "Query",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://www.postgresql.org/docs/current/tutorial-select.html"
+      ]
+    },
+    {
+      "id": "programming-en-02-19",
+      "text": "Which Python 3 keyword leaves the current function call and optionally passes a value back to its caller?",
+      "initial": "R",
+      "answer": "Return",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/reference/simple_stmts.html#the-return-statement"
+      ]
+    },
+    {
+      "id": "programming-en-02-20",
+      "text": "What standardized language is used to define and query relational databases, with commands including SELECT and INSERT?",
+      "initial": "S",
+      "answer": "SQL",
+      "language": "en",
+      "aliases": ["Structured Query Language"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/SQL"]
+    },
+    {
+      "id": "programming-en-02-21",
+      "text": "What evaluation strategy allows Python 3's and and or to skip the second operand when the first already determines the result?",
+      "initial": "SH",
+      "answer": "Short-circuit evaluation",
+      "language": "en",
+      "aliases": ["short circuit evaluation"],
+      "category": "programming",
+      "sources": [
+        "https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not"
+      ]
+    },
+    {
+      "id": "programming-en-02-22",
+      "text": "What software-development practice repeats a cycle of writing a failing test, making it pass, and refactoring the code?",
+      "initial": "T",
+      "answer": "Test-driven development",
+      "language": "en",
+      "aliases": ["TDD", "test driven development"],
+      "category": "programming",
+      "sources": ["https://en.wikipedia.org/wiki/Test-driven_development"]
+    },
+    {
+      "id": "programming-en-02-23",
+      "text": "Which Unicode encoding uses one to four bytes per code point and preserves ASCII's single-byte encodings?",
+      "initial": "U",
+      "answer": "UTF-8",
+      "language": "en",
+      "aliases": ["UTF8"],
+      "category": "programming",
+      "sources": ["https://www.unicode.org/faq/utf_bom.html"]
+    },
+    {
+      "id": "programming-en-02-24",
+      "text": "What kind of system records changes to files over time so earlier versions can be recalled?",
+      "initial": "V",
+      "answer": "Version control",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": [
+        "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
+      ]
+    },
+    {
+      "id": "programming-en-02-25",
+      "text": "What portable binary instruction format is designed as a compilation target for languages such as C and C++ on the web?",
+      "initial": "W",
+      "answer": "WebAssembly",
+      "language": "en",
+      "aliases": ["Wasm"],
+      "category": "programming",
+      "sources": ["https://webassembly.org/"]
+    },
+    {
+      "id": "programming-en-02-26",
+      "text": "What markup format allows users to define their own tags to describe structured data?",
+      "initial": "X",
+      "answer": "XML",
+      "language": "en",
+      "aliases": ["Extensible Markup Language"],
+      "category": "programming",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/XML/Guides/XML_introduction"
+      ]
+    },
+    {
+      "id": "programming-en-02-27",
+      "text": "What human-friendly data-serialization language commonly uses indentation and is often found in configuration files?",
+      "initial": "Y",
+      "answer": "YAML",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://yaml.org/spec/1.2.2/"]
+    },
+    {
+      "id": "programming-en-02-28",
+      "text": "Which systems programming language and toolchain uses the keyword comptime for compile-time execution?",
+      "initial": "Z",
+      "answer": "Zig",
+      "language": "en",
+      "aliases": [],
+      "category": "programming",
+      "sources": ["https://ziglang.org/"]
+    }
+  ]
+}

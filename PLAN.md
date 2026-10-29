@@ -2,7 +2,7 @@
 
 ## Status and instructions for the next session
 
-Last updated: 2026-10-28.
+Last updated: 2026-10-29.
 
 This is the handoff document for a new, publicly hosted, browser-based quiz
 inspired by the mechanics of the Czech television show AZ-kviz. The selected
@@ -20,12 +20,13 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: phase 6 History, Politics/diplomacy and Science/technology
-is independently cleared with passing post-review checks; delivery is next.**
+**Current stage: phase 7 is independently cleared with passing post-review
+checks; final content delivery is next.**
 The requested private automatic-main Tailscale preview is now operational:
 actual HTTPS and automatic-after-push updates were verified without disrupting
 an open game. This is not phase-8 public-release clearance. See
-`docs/phase-06-handoff.md` for the full source audit and verification evidence.
+`reviews/phase-07.md` for the final source audit and verification evidence.
+All 36 packs / 1,008 entries are independently cleared. Phase 8 has not started.
 Physical Xbox/tablet checks remain pending for the phase-8 release gate.
 The name, broad visual direction, logo concept, stack, core rules, host overrides
 and recovery policy are selected. The user requested iterative development with

@@ -56,8 +56,8 @@ test('all UI messages exist in both languages', () => {
     Object.keys(strings.en).sort(),
   );
   expect(Object.values(strings.cs).every(Boolean)).toBe(true);
-  expect(strings.en.catalogHelp).toContain('24 fixed packs');
-  expect(strings.cs.catalogHelp).toContain('24 pevných sad');
+  expect(strings.en.catalogHelp).toContain('36 fixed packs');
+  expect(strings.cs.catalogHelp).toContain('36 pevných sad');
   expect(strings.en.limit).toContain('saved games recover');
   expect(strings.cs.limit).toContain(
     'uložená hra se po obnovení stránky obnoví',
@@ -78,25 +78,25 @@ test('English B asks about erupted ridge lava, not the volume of the entire ocea
   expect(acceptsAnswer(question, 'gabbro')).toBe(false);
 });
 
-test('phase-six inventory includes exactly two packs per category/language and every shipped JSON', () => {
+test('final inventory includes exactly two packs per category/language and every shipped JSON', () => {
   const packs = bundledPacks();
-  expect(packs).toHaveLength(24);
+  expect(packs).toHaveLength(36);
   expect(packs.map((pack) => `${pack.id}.json`).sort()).toEqual(
     readdirSync('src/content')
       .filter((name) => name.endsWith('.json'))
       .sort(),
   );
-  expect(new Set(packs.map((pack) => pack.id)).size).toBe(24);
+  expect(new Set(packs.map((pack) => pack.id)).size).toBe(36);
   const questions = packs.flatMap((pack) => pack.questions);
-  expect(questions).toHaveLength(672);
-  expect(new Set(questions.map((q) => q.id)).size).toBe(672);
+  expect(questions).toHaveLength(1008);
+  expect(new Set(questions.map((q) => q.id)).size).toBe(1008);
   for (const language of ['cs', 'en']) {
     const localized = questions.filter((q) => q.language === language);
     expect(new Set(localized.map((q) => normalizeAnswer(q.text))).size).toBe(
-      336,
+      504,
     );
     expect(new Set(localized.map((q) => normalizeAnswer(q.answer))).size).toBe(
-      336,
+      504,
     );
     for (const category of [
       'general',
@@ -105,6 +105,9 @@ test('phase-six inventory includes exactly two packs per category/language and e
       'history',
       'politics',
       'science',
+      'programming',
+      'arts',
+      'entertainment',
     ]) {
       const matching = packs.filter(
         (pack) =>
@@ -178,6 +181,108 @@ test('mixed-category number games include only explicitly selected same-language
   expect(new Set(generated.questions.map((q) => q.category))).toEqual(
     new Set(['nature', 'geography']),
   );
+});
+
+test.each(/** @type {const} */ (['cs', 'en']))(
+  'final %s catalog and old/new selections preserve every chosen question and origin',
+  (language) => {
+    const available = bundledPacks().filter(
+      (pack) => pack.language === language,
+    );
+    for (const sources of [
+      available,
+      available.filter((pack) =>
+        ['general', 'programming', 'arts', 'entertainment'].some(
+          (category) => pack.id === `${category}-${language}-02`,
+        ),
+      ),
+    ]) {
+      const original = structuredClone(sources);
+      const generated = generateNumbers(
+        sources,
+        language,
+        () => 0.41,
+        'mix',
+        'Mix',
+      );
+      expect(generated.questions).toHaveLength(28);
+      expect(new Set(generated.questions.map((q) => q.id)).size).toBe(28);
+      for (const question of generated.questions) {
+        const source = sources.find(
+          (pack) => pack.id === question.origins?.[0].packId,
+        );
+        const originalQuestion = source?.questions.find(
+          (q) => q.id === question.id,
+        );
+        if (!originalQuestion) throw new Error(`Missing ${question.id}`);
+        expect(question).toMatchObject(originalQuestion);
+        expect(question.origins?.[0]).toMatchObject({
+          authors: ['HexY contributors'],
+          license: 'CC BY 4.0',
+        });
+      }
+      expect(importPack(JSON.stringify(generated))).toEqual(generated);
+      expect(sources).toEqual(original);
+    }
+  },
+);
+
+test('P7-01 asks for the publishing surname rather than the author identity', () => {
+  const pack = bundledPacks().find((pack) => pack.id === 'arts-en-01');
+  const question = pack?.questions[15];
+  if (!question) throw new Error('Missing arts-en-01-16');
+  expect(question.id).toBe('arts-en-01-16');
+  expect(question.initial).toBe('O');
+  expect(question.text).toBe(
+    'Under which surname did Eric Arthur Blair publish Animal Farm and Nineteen Eighty-Four?',
+  );
+  expect(question.answer).toBe('Orwell');
+  expect(question.aliases).toEqual(['George Orwell']);
+  for (const answer of ['Orwell', 'George Orwell', ' george   orwell '])
+    expect(acceptsAnswer(question, answer)).toBe(true);
+  for (const answer of ['Eric Arthur Blair', 'Eric Blair', 'Blair'])
+    expect(acceptsAnswer(question, answer)).toBe(false);
+  expect(normalizeAnswer(question.text)).not.toContain('orwell');
+});
+
+test('phase-seven language-specific titles and terms reject disclosed or out-of-scope aliases', () => {
+  const questions = bundledPacks().flatMap((pack) => pack.questions);
+  const scopes = /** @type {const} */ ([
+    ['entertainment-en-02-28', 'Zootopia', ['Zootropolis']],
+    ['entertainment-cs-02-11', 'Inception', ['Počátek']],
+    ['entertainment-cs-02-24', 'Up', ['Vzhůru do oblak']],
+    ['entertainment-cs-01-26', 'WALL·E', ['VALL-I']],
+    ['programming-cs-01-02', 'Boolean', ['logický typ']],
+    ['programming-cs-01-06', 'Enumerace', ['výčtový typ']],
+  ]);
+  for (const [id, accepted, rejected] of scopes) {
+    const question = questions.find((q) => q.id === id);
+    if (!question) throw new Error(`Missing ${id}`);
+    expect(acceptsAnswer(question, accepted)).toBe(true);
+    for (const answer of rejected)
+      expect(acceptsAnswer(question, answer)).toBe(false);
+  }
+});
+
+test('phase-seven clues avoid embedded identifier giveaways and reciprocal vocabulary examples', () => {
+  const questions = bundledPacks().flatMap((pack) => pack.questions);
+  for (const [id, forbidden] of [
+    ['programming-en-02-28', '.zig'],
+    ['programming-en-02-01', 'AssertionError'],
+    ['programming-en-02-26', 'extensible markup language'],
+    ['programming-cs-01-15', 'import'],
+    ['programming-en-02-12', 'return'],
+    ['programming-en-01-07', 'return'],
+  ]) {
+    const question = questions.find((q) => q.id === id);
+    if (!question) throw new Error(`Missing ${id}`);
+    expect(normalizeAnswer(question.text)).not.toContain(
+      normalizeAnswer(forbidden),
+    );
+  }
+  const film = questions.find((q) => q.id === 'entertainment-cs-02-20');
+  expect(film?.text).toContain('2019');
+  expect(film?.text).not.toContain('1989');
 });
 
 test('new questions do not literally supply any automatically accepted answer', () => {
@@ -262,7 +367,7 @@ test('source evidence covers every shipped entry and the exact authored files', 
   const rows = evidence
     .split('\n')
     .filter((line) => line.startsWith('- `') && line.includes('` — **'));
-  expect(rows).toHaveLength(672);
+  expect(rows).toHaveLength(1008);
   for (const pack of bundledPacks()) {
     const digest = createHash('sha256')
       .update(readFileSync(`src/content/${pack.id}.json`))

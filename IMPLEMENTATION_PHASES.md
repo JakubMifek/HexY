@@ -75,8 +75,8 @@ solely to obtain a revision without permission.
 | 4 | Recovery, controllers and tablet readiness | 3 cleared | Cleared and pushed: `92659db` | [CLEARED after fixes](reviews/phase-04.md) |
 | 5 | General knowledge, Nature, Geography content | 4 cleared | Cleared and pushed: `7e01b7f` | [CLEARED after fixes](reviews/phase-05.md) |
 | Private preview | Docker/Tailscale automatic pushed-main interlude | User-approved arrangement | Activation blocked by PV-A1; corrective candidate frozen | Reopened; pending same-reviewer re-review |
-| 6 | History, Politics, Science content | 5 cleared | Cleared; commit/push pending | [CLEARED after fixes](reviews/phase-06.md) |
-| 7 | Programming, Arts, Entertainment content | 6 cleared | Not started | Not started |
+| 6 | History, Politics, Science content | 5 cleared | Cleared and pushed: `d717e2d` | [CLEARED after fixes](reviews/phase-06.md) |
+| 7 | Programming, Arts, Entertainment content | 6 cleared | Cleared; commit/push pending | [CLEARED after correction](reviews/phase-07.md) |
 | 8 | Integrated release and approved deployment | 7 cleared | Not started | Not started |
 
 For each active phase, maintain a short handoff here: current snapshot, changed
@@ -1222,3 +1222,70 @@ build and both coverage groups pass, all 47 runtime sources included.
 No implementation/content changes after review. Exact evidence and preserved
 initial findings: [phase-6 report](reviews/phase-06.md).
 Next: commit/push, remote/live automatic-deployment verification, then phase 7.
+
+Phase 6 delivered as `d717e2d45c0438a108528afdabdf2c0da245fb39`; remote main
+and actual private HTTPS revision matched after automatic deployment.
+
+### Phase 7 starting snapshot
+
+Baseline: `d717e2d45c0438a108528afdabdf2c0da245fb39`.
+Implement Programming, Arts and literature, Entertainment: twelve final packs /
+336 entries, bringing the required inventory to nine categories, 36 packs /
+1,008 entries. Preserve all reviewed content and IDs; check full-library
+duplicates, selected-source generation and real exports. Specify programming
+language/version context where needed. All new entries require independent
+factual/linguistic review. No public-release or physical-device clearance yet.
+
+### Phase 7 developer handoff — 2026-10-29
+
+Candidate based on `d717e2d45c0438a108528afdabdf2c0da245fb39`, uncommitted.
+Twelve new packs / 336 entries bring the catalog to 36 packs / 1,008 entries,
+nine categories, exactly two packs per language/category. All 24 prior JSON
+files remain byte-identical to the baseline. Every new factual source was read;
+all 336 new entries still require independent factual/linguistic review.
+
+Runtime changes only register the new packs and localize their categories/help.
+Generation, gameplay, persistence, printing and deployment contracts are unchanged.
+Final developer gates: `TMPDIR="$PWD/.artifacts" npm run check` passed
+(285 tests, including the unchanged 35 private-preview tests), then
+`LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" npm run test:browser`
+passed all 204 journeys. `git diff --check` passed. Both coverage scopes pass
+with all 47 runtime sources included; ten negative enforcement probes passed
+and restored the generated report byte-for-byte. No metric exception was added.
+
+Exact files, source ledger, coverage fractions/membership, earlier iteration
+failures, inspected screenshots, real JSON/HTML/PDF evidence and reproduction:
+[developer handoff](docs/phase-07-handoff.md).
+Snapshot: `.artifacts/phase-07-snapshot.sha256`, generated after final writes.
+The owned 4182 test preview stopped; live preview/admin services were untouched.
+No commit, push, deployment, independent-clearance claim or phase-8 work.
+
+**Next action: fresh independent review of this frozen snapshot, including all
+336 new questions, aliases and cited facts. Developer stops writing.** Do not
+advance until review and coordinator post-review checks clear the same snapshot.
+
+### Phase 7 P7-01 correction handoff — 2026-10-29
+
+The initial reviewer individually examined all 336 new entries: 335 passed,
+one minor author/answer-scope mismatch required correction. The full 1,008-entry
+semantic comparison passed. Original findings and independent evidence remain
+preserved in [the review](reviews/phase-07.md).
+
+Only `arts-en-01-16.text` changed: it now explicitly asks for Eric Arthur Blair's
+publishing surname. O placement, `Orwell` / `George Orwell`, sources and every
+other content byte are unchanged. The other 335 new entries and all 672 old
+entries retain exact bytes. No gameplay/matching/dependency/deployment change.
+
+Correction gates: 70 focused tests and four focused browser flows passed, then
+full sequential `check` (**286 tests**, format/lint/types/build/coverage) and
+browser suite (**206 journeys**) passed. All 47 runtime files remain included;
+coverage fractions and production maxima are unchanged. Ten negative probes
+passed and restored the report byte-for-byte; `git diff --check` passed.
+Actual fixed/number automatic play and standalone HTML/PDF rows were checked.
+
+Exact evidence and reproduction: [correction handoff](docs/phase-07-handoff.md#p7-01-correction-handoff--2026-10-29).
+New manifests: `.artifacts/phase-07-review-fixes-snapshot.sha256` and
+`.artifacts/phase-07-review-fixes-canonical.sha256`; the original manifest remains
+unchanged. Owned 4182 preview stopped; live services untouched.
+**Frozen for reviewer `9027f5f9-bb72-48b3-88f6-1b1e85776bed`; not cleared.**
+Developer stops writing; coordinator post-review checks still follow re-review.
