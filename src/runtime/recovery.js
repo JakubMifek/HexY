@@ -21,8 +21,8 @@ export class Recovery {
   downloads = new Downloads();
   /** @type {import('../ui/setup.js').Setup | null} */
   settings = null;
-  /** @type {{A: string, B: string} | null} */
-  keys = null;
+  /** @type {import('../domain/controls.js').Bindings | null} */
+  bindings = null;
 
   /** @param {() => Storage} [storage] */
   constructor(storage = () => window.localStorage) {
@@ -50,7 +50,7 @@ export class Recovery {
           : recoverPortable(this.original, now, sessionId, true);
       const state = restored ? browserGame(restored.game) : null;
       this.settings = restored?.settings ?? null;
-      this.keys = restored?.keys ?? null;
+      this.bindings = restored?.bindings ?? null;
       this.#writable = true;
       return state;
     });
@@ -61,11 +61,11 @@ export class Recovery {
     if (this.disposed) return;
     if (!this.#writable) {
       const settings = this.settings;
-      const keys = this.keys;
+      const bindings = this.bindings;
       const recovered = this.load(now, sessionId);
       this.#writable = recovered === null;
       this.settings = settings;
-      this.keys = keys;
+      this.bindings = bindings;
     }
     this.save(state);
   }
@@ -80,7 +80,7 @@ export class Recovery {
       const game = browserGame(validateSave(state));
       const json = JSON.stringify(
         this.settings
-          ? portableGame(game, this.settings, this.keys ?? undefined)
+          ? portableGame(game, this.settings, this.bindings ?? undefined)
           : game,
       );
       this.write(json);
@@ -92,9 +92,16 @@ export class Recovery {
   /** @param {string | null} json */
   write(json) {
     try {
+      const current = this.storage().getItem(GAME_KEY);
+      if (current !== this.original) {
+        this.original = current;
+        this.#writable = false;
+        throw new DomainError('recoveryChanged');
+      }
       if (json === null) this.storage().removeItem(GAME_KEY);
       else this.storage().setItem(GAME_KEY, json);
     } catch (error) {
+      if (error instanceof DomainError) throw error;
       if (error instanceof DOMException && error.name === 'QuotaExceededError')
         throw new DomainError('recoveryQuota');
       throw new DomainError('recoveryWrite');
@@ -115,6 +122,7 @@ export class Recovery {
           this.saved = false;
           throw new DomainError('recoveryRead');
         }
+
         if (current !== this.original) {
           this.original = current;
           this.#writable = false;
@@ -128,6 +136,14 @@ export class Recovery {
         return true;
       }) === true
     );
+  }
+
+  discardCurrent() {
+    if (!this.writable) {
+      if (!this.error) this.error = 'recoveryBlocked';
+      return false;
+    }
+    return this.discard();
   }
 
   /** @param {Pick<File, 'text'> & {size?: number}} file @param {() => number} now @param {() => string} sessionId */
@@ -151,7 +167,7 @@ export class Recovery {
       const restored = recoverPortable(json, now(), sessionId());
       const game = browserGame(restored.game);
       this.settings = restored.settings;
-      this.keys = restored.keys;
+      this.bindings = restored.bindings;
       return game;
     });
   }
@@ -164,7 +180,7 @@ export class Recovery {
       const json = state
         ? JSON.stringify(
             this.settings
-              ? portableGame(state, this.settings, this.keys ?? undefined)
+              ? portableGame(state, this.settings, this.bindings ?? undefined)
               : validateSave(state),
           )
         : this.original;
@@ -177,6 +193,7 @@ export class Recovery {
       return true;
     });
     if (exported) this.error = previous;
+    return exported === true;
   }
 
   /** @template T @param {() => T} action @returns {T | undefined} */

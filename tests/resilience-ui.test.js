@@ -47,6 +47,7 @@ function mount() {
 }
 /** @param {string} selector */
 function click(selector) {
+  dismissExitBefore(selector);
   if (selector === '#input-controls' && !app.state)
     app.navigation.go('options');
   if (
@@ -65,6 +66,15 @@ function click(selector) {
     click('#close-recovery');
     node = document.querySelector(selector);
   }
+
+  /** @param {string} selector */
+  function dismissExitBefore(selector) {
+    const exit = document.querySelector('#discard-title')?.closest('dialog');
+    if (exit && !exit.querySelector(selector))
+      document
+        .querySelector('#cancel-new')
+        ?.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+  }
   if (!node) throw new Error(selector);
   node.dispatchEvent(new MouseEvent('click', { bubbles: true }));
 }
@@ -75,6 +85,13 @@ function select(selector, value) {
   if (!(node instanceof HTMLSelectElement)) throw new Error(selector);
   node.value = value;
   node.dispatchEvent(new Event('change'));
+}
+
+/** @param {'A'|'B'} player @param {string} code */
+function recordKey(player, code) {
+  click(`#record-${player}`);
+  window.dispatchEvent(new KeyboardEvent('keydown', { code }));
+  window.dispatchEvent(new KeyboardEvent('keyup', { code }));
 }
 
 test.each([30_999, 31_000, 31_001])(
@@ -288,23 +305,23 @@ test('keyboard preferences persist physical mappings; conflicts and storage fail
   mount();
   select('#ui-language', 'en');
   click('#input-controls');
-  select('#key-A', 'KeyQ');
-  select('#key-B', 'KeyQ');
+  recordKey('A', 'KeyQ');
+  recordKey('B', 'KeyQ');
   expect(app.keyboard.mapping).toEqual({ A: 'KeyQ', B: 'ShiftRight' });
   expect(document.querySelector('#input-error')?.textContent).toContain(
     'different',
   );
-  select('#key-B', 'KeyP');
-  expect(JSON.parse(localStorage.getItem(INPUT_KEY) ?? '{}').keys).toEqual({
-    A: 'KeyQ',
-    B: 'KeyP',
+  recordKey('B', 'KeyP');
+  expect(JSON.parse(localStorage.getItem(INPUT_KEY) ?? '{}').bindings).toEqual({
+    A: { kind: 'keyboard', code: 'KeyQ' },
+    B: { kind: 'keyboard', code: 'KeyP' },
   });
   const write = vi
     .spyOn(Storage.prototype, 'setItem')
     .mockImplementation(() => {
       throw new DOMException('denied');
     });
-  select('#key-A', 'KeyA');
+  recordKey('A', 'KeyA');
   expect(document.querySelector('#input-error')?.textContent).toContain(
     'could not',
   );
@@ -324,7 +341,7 @@ test.each([
   mount();
   click('#input-controls');
   expect(document.querySelector('#input-error')?.textContent).not.toBe('');
-  select('#key-A', 'KeyQ');
+  recordKey('A', 'KeyQ');
   expect(localStorage.getItem(INPUT_KEY)).toBe(json);
   click('#close-inputs');
 });
@@ -348,15 +365,22 @@ test('mocked controller assignment UI validates buttons and exposes disconnect/r
   mount();
   select('#ui-language', 'en');
   click('#input-controls');
-  select('#device-A', '1');
-  click('#assign-A');
+  click('#record-A');
+  device.buttons[0].pressed = true;
   vi.advanceTimersByTime(16);
-  select('#device-B', '1');
-  click('#assign-B');
+  device.buttons[0].pressed = false;
+  vi.advanceTimersByTime(16);
+  click('#record-B');
+  device.buttons[0].pressed = true;
+  vi.advanceTimersByTime(16);
   expect(document.querySelector('#input-error')?.textContent).toContain(
     'different',
   );
-  app.inputs.assign('B', '1', 1);
+  device.buttons[0].pressed = false;
+  device.buttons[1].pressed = true;
+  vi.advanceTimersByTime(16);
+  device.buttons[1].pressed = false;
+  vi.advanceTimersByTime(16);
   device.buttons[0].pressed = true;
   vi.advanceTimersByTime(16);
   expect(document.querySelector('#input-test-status')?.textContent).toContain(
@@ -364,10 +388,10 @@ test('mocked controller assignment UI validates buttons and exposes disconnect/r
   );
   devices = [];
   vi.advanceTimersByTime(16);
-  expect(document.querySelector('#gamepad-settings')?.textContent).toContain(
+  expect(document.querySelector('#controller-status')?.textContent).toContain(
     'disconnected',
   );
-  app.inputs.assign('A', '', 0);
+  recordKey('A', 'ShiftLeft');
   click('#close-inputs');
   const timer = app.inputs.gamepads.timer;
   const cancel = vi.spyOn(browserClock, 'cancel');
@@ -423,6 +447,9 @@ test.each([
     click('#cancel-new');
     expect(localStorage.getItem(GAME_KEY)).toBe(replacement);
     app.requestNew();
+    click('#discard-new');
+    expect(localStorage.getItem(GAME_KEY)).toBe(replacement);
+    click('#discard-save');
     click('#discard-new');
     expect(localStorage.getItem(GAME_KEY)).toBeNull();
     app.start(defaultSetup('en'));
@@ -494,8 +521,8 @@ test.each(['en', 'cs'])(
     select('#ui-language', language);
     const game = app.state;
     click('#input-controls');
-    app.inputs.assign('A', '1', 0);
-    app.inputs.assign('B', '1', 1);
+    app.inputs.controls.set('A', { kind: 'gamepad', button: 0 }, '1');
+    app.inputs.controls.set('B', { kind: 'gamepad', button: 1 }, '1');
     vi.advanceTimersByTime(16);
     for (const [index, player] of ['A', 'B'].entries()) {
       const press = vi.spyOn(app.keyboard.batch, 'press');

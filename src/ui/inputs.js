@@ -1,5 +1,4 @@
-import { button, element, field, input, select } from './dom.js';
-import { KEY_CODES } from '../runtime/keyboard.js';
+import { button, element } from './dom.js';
 import { deviceStrings } from './device-strings.js';
 
 /** @param {import('../runtime/inputs.js').Inputs} inputs @param {AbortSignal} signal */
@@ -22,7 +21,7 @@ export function duelInputs(inputs, signal) {
   panel.append(
     element(
       'p',
-      `A · ${inputs.keyboard.mapping.A} / B · ${inputs.keyboard.mapping.B}`,
+      `A · ${inputs.controls.label('A')} / B · ${inputs.controls.label('B')}`,
     ),
     touchView(deviceStrings[inputs.language], inputs, signal),
     element('p', '', { id: 'release-status', role: 'status' }),
@@ -31,6 +30,15 @@ export function duelInputs(inputs, signal) {
       role: 'status',
     }),
   );
+  if (inputs.controls.needsConnection())
+    panel.append(
+      button(
+        deviceStrings[inputs.language].record,
+        'rebind-controls',
+        () => inputs.open(),
+        signal,
+      ),
+    );
   return panel;
 }
 
@@ -60,76 +68,38 @@ export function touchView(t, inputs, signal) {
  * @param {import('../runtime/inputs.js').Inputs} inputs @param {AbortSignal} signal */
 export function inputView(t, inputs, signal) {
   const panel = element('div', '', { class: 'input-panel' });
-  panel.append(
-    element('h2', t.controls, { id: 'input-title' }),
-    button(t.close, 'close-inputs', () => inputs.close(), signal),
-    element('p', t.test),
-    element('p', t.keyHelp),
-  );
+  panel.append(element('h2', t.controls, { id: 'input-title' }));
   for (const player of /** @type {const} */ (['A', 'B'])) {
-    const key = select(
-      `key-${player}`,
-      KEY_CODES.map((code) => [code, code]),
-      inputs.keyboard.mapping[player],
-    );
-    key.addEventListener('change', () => inputs.remap(player, key.value), {
-      signal,
-    });
-    panel.append(field(`${player} · ${t.key}`, key));
-  }
-  panel.append(
-    element('p', t.connect),
-    element('div', '', { id: 'gamepad-settings' }),
-    element('p', t.touchHelp),
-    touchView(t, inputs, signal),
-    element('p', t.testIdle, { id: 'input-test-status', role: 'status' }),
-    element('p', '', { id: 'input-error', role: 'alert' }),
-    element('p', t.fairness),
-  );
-  return panel;
-}
-
-/** @param {import('./device-strings.js').DeviceTexts} t
- * @param {import('../runtime/inputs.js').Inputs} inputs @param {AbortSignal} signal */
-export function gamepadView(t, inputs, signal) {
-  const panel = element('div');
-  const pads = inputs.gamepads;
-  panel.append(element('h3', t.devices));
-  if (pads.status)
-    panel.append(
-      element(
-        'p',
-        t[/** @type {'unsupported'|'denied'|'disconnected'} */ (pads.status)],
-        { role: 'status' },
+    const row = element('div', '', { class: 'binding-row' });
+    row.append(
+      element('strong', player),
+      element('span', inputs.controls.label(player), {
+        id: `binding-${player}`,
+      }),
+      button(
+        `${t.record} ${player}`,
+        `record-${player}`,
+        () => inputs.controls.recorder.start(player),
+        signal,
       ),
     );
-  for (const player of /** @type {const} */ (['A', 'B'])) {
-    const assigned = pads.assignments[player];
-    const choices = [
-      ['', t.none],
-      ...[...pads.devices.values()].map(({ token, pad }) => [
-        token,
-        `${pad.index} · ${pad.id}`,
-      ]),
-    ];
-    const device = select(`device-${player}`, choices, assigned?.token);
-    const index = input(
-      `button-${player}`,
-      'number',
-      String(assigned?.button ?? 0),
-    );
-    index.min = '0';
-    const assign = button(
-      `${player} · ${t.assign}`,
-      `assign-${player}`,
-      () => inputs.assign(player, device.value, Number(index.value)),
-      signal,
-    );
-    panel.append(
-      field(`${player} · ${t.device}`, device),
-      field(`${player} · ${t.button}`, index),
-      assign,
-    );
+    panel.append(row);
   }
+  panel.append(
+    element('p', '', { id: 'record-status', role: 'status' }),
+    element('p', '', { id: 'input-test-status', role: 'status' }),
+    button(
+      t.cancelRecord,
+      'cancel-record',
+      () => inputs.controls.recorder.cancel(),
+      signal,
+    ),
+    element('p', inputs.controllerStatus(), {
+      id: 'controller-status',
+      role: 'status',
+    }),
+    element('p', '', { id: 'input-error', role: 'alert' }),
+    button(t.close, 'close-inputs', () => inputs.close(), signal),
+  );
   return panel;
 }

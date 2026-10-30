@@ -64,12 +64,14 @@ export class Workspace {
       });
       this.saved = true;
       this.storageError = '';
+      return true;
     } catch (error) {
       if (!(error instanceof DomainError)) throw error;
       this.saved = false;
       // Keep the original read failure visible; blocked writes do not repair corrupt data.
       if (error.code !== 'storageBlocked' || !this.storageError)
         this.storageError = error.code;
+      return false;
     }
   }
 
@@ -144,7 +146,10 @@ export class Workspace {
       return;
     if (included) this.excluded.delete(id);
     else this.excluded.add(id);
-    this.persist();
+    if (!this.persist()) {
+      if (included) this.excluded.add(id);
+      else this.excluded.delete(id);
+    }
     this.changed();
     document.getElementById(`library-export-${id}`)?.focus();
   }
@@ -198,18 +203,20 @@ export class Workspace {
       section.append(
         editorView(t, this.model, run, () => this.saveEditor(), signal),
       );
-    section.append(
-      libraryView(
-        t,
-        this.model.custom,
-        this.excluded,
-        download,
-        (id, included) => this.setIncluded(id, included),
-        signal,
-      ),
-      this.statusView(),
-    );
+    section.append(this.libraryView(signal), this.statusView());
     return section;
+  }
+
+  /** @param {AbortSignal} signal */
+  libraryView(signal) {
+    return libraryView(
+      preparationStrings[this.preferences.language],
+      this.model.custom,
+      this.excluded,
+      (pack) => this.download(pack),
+      (id, included) => this.setIncluded(id, included),
+      signal,
+    );
   }
 
   statusView() {

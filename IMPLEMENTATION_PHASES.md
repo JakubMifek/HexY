@@ -79,6 +79,9 @@ solely to obtain a revision without permission.
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Cleared and pushed: `aa465b9` | [CLEARED after correction](reviews/phase-07.md) |
 | 8 | Integrated release and approved deployment | 7 cleared | Plan finished by owner; accepted for private delivery with release follow-ups | [No implementation defects; original public gate blocked](reviews/phase-08.md) |
 | 9 | Guided UI, portable saves, continuous duels and tile flips | Owner-approved redesign after plan closure | Cleared after fixes; complete coordinator post-review gates passed | [CLEARED; P9-IR1/P9-IR2 resolved](reviews/phase-09.md) |
+| 10 | Temporary mixes, final export and recorded controls | Phase 9 delivered `4cd16af`; owner-approved follow-up | Independently cleared; complete coordinator post-review gates passed; delivery next | [CLEARED after P10-IR1–4 corrections](reviews/phase-10.md) |
+| 11 | Two-deck difficulty library and folder catalog: 132 decks / 3,696 questions | Phase 10 reviewed, verified and delivered | Approved; not started | Pending |
+| 12 | Five-deck expansion: 330 decks / 9,240 questions total | Phase 11 reviewed, verified and delivered | Approved; not started | Pending |
 
 For each active phase, maintain a short handoff here: current snapshot, changed
 files, commands/results, report link, unresolved findings, decisions and exact
@@ -1469,3 +1472,110 @@ Exact commands, coverage and independent disposition are in
 The phase is ready for authorized commit/push and automatic private-preview
 delivery. No public exposure, deployment configuration or phase-8 follow-up
 scope change is included.
+
+### Phase 10 developer candidate — temporary mixes and recorded controls
+
+Baseline: `4cd16af9e8f9a40dab5163d3f65a2af3ce58f894`. The implementation is
+limited to the owner's approved follow-ups, preserving the guided UI and all
+36 packs / 1,008 entries. [Acceptance and evidence handoff](docs/phase-10-handoff.md).
+
+Historical automatic acceptance and explicit import produced byte-identical
+library pack records, without a provenance discriminator. The baseline probe
+passed in `.artifacts/phase-10-origin-probe.log`. On 2026-10-30 the owner approved
+preserving ambiguous entries and providing selective removal instead. Options
+now exposes the existing confirmed per-copy storage removal; there is no
+destructive automatic migration or title/origin heuristic.
+
+Future generated mixes are temporary; full game recovery/export includes their
+locked content. Final departure offers export/return, return without saving and
+cancel for finished and unfinished games. Recorded keyboard-or-controller
+bindings replace previous assignments; standard controller navigation shares
+keyboard board focus semantics. Input/portable envelopes are v2 with v1 reads;
+runtime controller identities never become durable assignments.
+
+Formatting/lint/types/build and **351 unit tests / 25 files** pass, with all
+**55 runtime modules** included in the two enforced coverage groups. **63 negative
+coverage probes** pass with exact report restoration. Final focused Chromium
+passes **19 journeys**, including original native-dialog race regressions.
+Complete sequential gates pass **365 Chromium journeys (11.7m)** and
+**222 Firefox journeys (9.0m)**. Targeted legacy-test contract corrections
+preserve their original content/storage/visual assertions; the handoff records
+the earlier failed attempts. Final code hashes match the tested tree, content
+is unchanged, and the owned preview port 4182 is closed. Representative final
+screenshots from both engines were opened and inspected.
+
+The frozen candidate is recorded in `.artifacts/phase-10-snapshot.sha256`,
+covering **50 changed/new nonignored files**, including coordinator amendments.
+Only status/handoff documentation changed after the complete gates; final
+formatting and whitespace checks passed. The developer has stopped editing.
+
+No phase clearance, commit, push, deployment, dependency, nested agent or
+shared-service change. Independent review and coordinator post-review gates
+remain required.
+
+### Phase 10 initial review and bounded correction work
+
+The independent initial verdict is **CHANGES REQUIRED**, preserved in
+[the coordinator-persisted report](reviews/phase-10.md) and original ignored
+review artifacts. P10-IR1 concerns a controller held between polls before Record;
+P10-IR2 concerns exporting the wrong protected original after write-time
+replacement detection. P10-IR3/P10-IR4 concern stale quota action wording and
+contradictory format documentation. Original probes were rerun unchanged before
+correction: **10 passed / 4 failed**, reproducing both major findings in both
+engines. The original 50-file snapshot is immutable.
+
+The owner additionally requested **Delete / Smazat** directly beside each saved
+copy's JSON download, without an expandable removal header, while retaining
+explicit confirmation and safe failed-storage behavior. This is the only current
+UI amendment. Focused regressions and full final gates precede a separate frozen
+re-review snapshot; no independent clearance is inferred.
+
+After the owner-authorized logout handoff, the new sole coordinator verified
+all disconnect/code/review-input hashes and reran outstanding full correction
+browser suites: **371 Chromium / 228 Firefox passed**, sequentially. Original
+interrupted logs remain intact. Existing correction quality (**357 tests**),
+63 negative coverage probes and 14 original independent probes cover unchanged
+code; detailed results and fractions are in `docs/phase-10-handoff.md`.
+No content changed; owned port 4182 is closed. New manifest
+`.artifacts/phase-10-rereview.sha256` freezes 53 files. Next: replacement
+independent reviewer with preserved initial report/probes/delta, then mandatory
+coordinator post-review gates. No clearance or delivery yet.
+
+Replacement independent review **P10-REPLACEMENT-IR-20261030** cleared all four
+findings and the owner Delete/Smazat amendment without new issues/exceptions.
+Coordinator then ran complete post-review quality (**357 tests / 25 files**),
+63 negative coverage probes, 14 original independent probes, **371 Chromium**
+and **228 Firefox** journeys sequentially: all passed on unchanged code.
+Exact commands/fractions and original review history are in `reviews/phase-10.md`.
+Both previews responsive during runs and 4182 closed afterward. Phase 10 clears
+its implementation gate; authorized scoped delivery and actual private HTTPS
+verification precede phase 11.
+
+### Phases 11 and 12 approved scope — not started
+
+Latest owner clarification in `.artifacts/continuation/HANDOFF.md` supersedes
+older queued wording. Phase 11 depends on completed phase-10 delivery and delivers
+exactly eleven categories × three difficulties × two decks × two languages:
+**132 decks / 3,696 questions**. Retain the eight non-Entertainment categories;
+replace Entertainment with exactly Games, Movies/Series and Sports (no Music).
+Games includes video/board/card games; Movies/Series includes animation.
+Easy/Medium/Hard target a general adult audience, as defined in PLAN.
+
+Use expandable category folders, individual/folder selection with matching counts
+and partial state, visible difficulty and a separate custom/uploaded folder.
+Only Origin and Difficulty remain main filters. Remove Language and Category
+filters; prefilter by Options' unified UI/game language. Folder selection changes
+only currently matching decks. Alphabetical play requires one authored deck;
+number play mixes eligible selected sources.
+
+Imported difficulty is mandatory; missing metadata produces localized actionable
+errors, with no Unrated or arbitrary legacy-import inference. Preserve protected
+old browser data and active-game recovery/export. Explicit known-bundled migration
+is permissible; format compatibility must be documented. Every new entry and
+reclassification needs complete factual/editorial independent review and ledger
+accounting. No content or software work has started.
+
+Phase 12 begins only after phase-11 reviewed delivery, adding three decks per
+combination for **330 decks / 9,240 questions** total. Both phases retain complete
+independent review, coordinator post-review gates, scoped commit/push and actual
+automatic private-preview verification. No public or shared-service changes.

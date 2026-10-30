@@ -6,6 +6,7 @@ import {
   inspectPrintedSheet,
   setupPreparation,
   nextPreparation,
+  acceptPack,
 } from './preparation-helpers.js';
 import { answer, phase, setCell, setTheme } from './helpers.js';
 
@@ -57,6 +58,7 @@ for (const [mode, accepted] of [
     await nextPreparation(page, mode, 'automatic');
     await page.locator('#import-packs').setInputFiles(exported.path);
     await expect(page.locator('#preparation-error')).toHaveText('');
+    await acceptPack(page, pack.id, mode);
     await page.locator('#start').click();
     await phase(page, 'selecting');
     await page.locator(`#cell-${index + 1}`).click();

@@ -31,6 +31,17 @@ export async function nextPreparation(page, mode, answers) {
   await page.locator(`#mode-${mode}`).click();
 }
 
+/** @param {import('@playwright/test').Page} page @param {string} id @param {string} mode */
+export async function acceptPack(page, id, mode) {
+  await page.locator('#reset-catalog').click();
+  await page.locator('#clear-sources').click();
+  await page.locator(`#source-${id}`).check();
+  await page
+    .locator(mode === 'numbers' ? '#use-numbers' : '#prepare-board')
+    .click();
+  await page.locator('#accept-board').click();
+}
+
 /** @param {import('@playwright/test').Page} page @param {string} [mode] */
 export async function enterPreparation(page, mode = 'letters') {
   await page.locator('#new-game').click();

@@ -112,9 +112,13 @@ const messages = {
     en: 'Local saving is blocked after a library read failure. Original data is untouched. Export your packs and reload after resolving the storage problem.',
     cs: 'Místní ukládání je po chybě čtení zablokované. Původní data zůstávají nedotčená. Exportujte sady a po vyřešení problému obnovte stránku.',
   },
+  storageChanged: {
+    en: 'The local library changed in another tab. Nothing was replaced. Reload before managing saved decks.',
+    cs: 'Místní knihovna se změnila v jiné kartě. Nic nebylo nahrazeno. Před správou balíčků obnovte stránku.',
+  },
   storageQuota: {
-    en: 'Browser storage is full. Export large custom copies, then confirm “Exclude from local saving” below to retry saving a smaller library. Excluded copies remain exportable in memory until reload. Do not clear site storage to fix an oversized pack.',
-    cs: 'Úložiště prohlížeče je plné. Exportujte velké vlastní kopie a níže potvrďte „Vynechat z místního ukládání“; tím zkusíte uložit menší knihovnu. Vynechané kopie lze až do obnovení stránky exportovat z paměti. Kvůli příliš velké sadě nemažte úložiště webu.',
+    en: 'Browser storage is full. Export large custom copies, then use “Delete” in “Saved decks” and confirm “Delete” to retry saving a smaller library. Deleted copies remain exportable in memory until reload. Do not clear site storage to fix an oversized pack.',
+    cs: 'Úložiště prohlížeče je plné. Exportujte velké vlastní kopie, pak použijte „Smazat“ v části „Uložené balíčky“ a potvrďte „Smazat“; tím zkusíte uložit menší knihovnu. Smazané kopie lze až do obnovení stránky exportovat z paměti. Kvůli příliš velké sadě nemažte úložiště webu.',
   },
   fileRead: {
     en: 'The file could not be read. Select a readable local JSON file and retry; previous packs are unchanged.',

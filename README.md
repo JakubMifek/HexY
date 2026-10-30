@@ -15,6 +15,9 @@ browser/accessibility verification are [follow-up work](docs/release-readiness.m
 The owner-approved phase-9 guided redesign is independently cleared after fixes,
 with complete coordinator post-review checks passed. See the
 [phase-9 review](reviews/phase-09.md). It does not reopen public-release scope.
+The owner-approved phase-10 follow-up adds temporary mixes, final export and
+recorded controls; its [developer handoff](docs/phase-10-handoff.md) records
+verification and the pending independent review.
 
 ## Play
 
@@ -42,8 +45,9 @@ theme without rerolling names, regenerating content or resetting time.
 - The opposite player to the actual recipient chooses next. If neither succeeds,
   the opposite player to the original chooser goes next.
 - Select black fields for reaction duels: default keys are **Left Shift** for A
-  and **Right Shift** for B. In Options, **Input controls and test** changes physical keys,
-  assigns controller buttons, and tests inputs without awarding a field.
+  and **Right Shift** for B. In Options, **Duel controls** has one **Record** row
+  per player: press a fresh key or controller button to replace that player's
+  previous binding. Escape cancels. Duplicate bindings are rejected.
   Memorize the target, release held keys, then press only when the target appears.
   Wrong symbols award the other player. The exact pool is circle, star, square,
   triangle, hexagon, heart and sun. One target stays fixed throughout uninterrupted
@@ -61,13 +65,19 @@ theme without rerolling names, regenerating content or resetting time.
 - Hosted corrections exist only between rounds or after a win. Cell changes and
   chooser changes are independent. Resetting a cell reuses its original question.
   Corrections immediately recompute victory and can reopen a won game.
-- **Exit Game** asks before discarding and returns to Menu. Its dialog does not pause question time;
+- **Exit Game**, both before and after victory, offers **Save and return to menu**,
+  **Return without saving**, and **Cancel**. Save initiates a complete JSON download
+  before clearing recovery; it cannot verify that the file reached disk.
+  Failed downloads/deletions keep the game and show an actionable error. Victory
+  alone never deletes recovery or disables valid host corrections.
+  The dialog does not pause question time;
   opening it during a duel invalidates that duel, rather than allowing unseen
   input to award a field.
 - Theme changes preserve an unsent typed draft only in its current
   question opportunity. Handover, resolution and the next question clear it.
-  Language and input settings are preparation-only; changing them cannot
-  translate a locked game.
+  Language settings remain preparation-only. Disconnected/imported controller
+  bindings can also be recorded from the duel's **Record** action; this interrupts
+  the duel and requires fresh press/release readiness afterward.
 
 Use Tab and Enter/Space for controls. Arrow keys move through selectable fields in
 row-major order. Won fields use player colors only; black fields retain their
@@ -98,10 +108,11 @@ code units, canonical answers 120, and player names 30; invalid lengths produce
 localized errors before adoption. Long questions use 18px type; ordinary questions
 use 20px. These bounds do not alter the 1,008 reviewed entries.
 
-- Physical keyboard mappings: separate `ShiftLeft`/`ShiftRight`, `Space`, or
-  `KeyA`–`KeyZ` positions. Labels describe physical positions, not a translated
+- Physical keyboard mappings: separate `ShiftLeft`/`ShiftRight`, `Space`,
+  letters, digits, punctuation and ordinary numpad positions. Labels describe physical positions, not a translated
   keyboard character. Conflicts are rejected; Tab/Enter/arrows remain ordinary
-  navigation keys. Holds, repeats and presses begun in preview cannot capture.
+  navigation keys. Escape, modifier shortcuts and function keys cannot be recorded.
+  Holds, repeats and presses begun in preview cannot capture.
   Mapped keys do not steal input from editable form controls; ordinary buttons
   do not swallow duel input after keyboard navigation.
 - Touch/mouse: press a buzzer, then lift/release before the next press. Buzzers
@@ -109,15 +120,24 @@ use 20px. These bounds do not alter the 1,008 reviewed entries.
   cancellation interrupts and requires fresh rearming. Gestures cannot scroll/repeat.
 - Gamepads: use a browser exposing `navigator.getGamepads` (HTTPS or localhost
   recommended). Connect and press a controller button so the browser exposes it,
-  then explicitly assign a connected device and **zero-based button index** to
-  each player. Two controllers or two distinct buttons on one controller work.
-  No automatic player assignment, button capture or reconnect reassignment occurs.
-  Assignment requires a neutral observed sample before a press. Assignments are
-  session-only: reassign after reload/disconnection. Unsupported, denied and
-  disconnected states are reported. A disconnected assigned controller blocks
-  restart: Save Game, Exit, reassign in Options, then Import Game.
-- **Input controls and test** is a preparation-only modal safe test.
-  Close it or press Escape to return. It is not exposed during play.
+  then click **Record** and press the desired button. Two controllers or two
+  distinct buttons on one controller work. Each player has exactly one keyboard
+  **or** controller binding, never both. Touch buzzers remain available.
+  Held/newly exposed buttons must be released before recording. Connection
+  identities are session-only: reload, import and disconnect leave controller
+  bindings unassigned, with explicit re-record guidance. In a duel, **Record**
+  reconnects them; touch can also rearm and play without a controller.
+- Any connected **standard-mapped** controller can navigate while selecting:
+  D-pad buttons 12–15 or left stick axes 0/1 move through the same selectable
+  row-major cells as keyboard arrows; A (button 0) confirms, like Enter.
+  First A focuses a field if none is focused. Navigation does not require a duel
+  assignment and never overrides focused form/header controls. It is disabled
+  during questions, duels, victory, modals and hidden/unfocused tabs.
+  Neutral samples gate transitions; stick thresholds are 0.6/0.3, with a 350 ms
+  initial hold delay and 110 ms repeats, observed on the 16 ms poll.
+  Nonstandard mappings may record duel buttons but do not navigate.
+- **Duel controls** is a two-row modal with safe edge feedback.
+  Escape cancels an active recording; otherwise it closes the dialog.
 - Use browser **F11** if desired; the application has no fullscreen controls/API.
 - Events within **8 ms** share the existing tie window. Controllers are polled
   every 16 ms and both players in one sample share a timestamp. Keyboard/pointer
@@ -190,9 +210,13 @@ and on its sheet. Imported text is rendered as text, never executable markup.
 ### Local storage and backups
 
 The versioned `hexy.library.v1` localStorage record contains validated custom
-packs and interface/game-setup preferences. Imports, saved editor copies and
-accepted generated boards are saved automatically. Bundled assets are never
-modified. Unsaved editor drafts/proposals are not persisted.
+packs and interface/game-setup preferences. Explicit imports and saved editor
+copies are persisted. Generated mixes are temporary, even after acceptance/start;
+the complete active-game recovery/save still includes its locked pack.
+Bundled assets are never modified. Unsaved editor drafts/proposals are not persisted.
+Older auto-saved mixes cannot be distinguished from explicit imports: both used
+the same record without origin metadata. They are preserved, not guessed from
+titles or question attribution. The owner approved selective removal instead.
 `localStorage` is sufficient for this small static, single-browser library:
 synchronous atomic replacement makes complete-record validation and
 failure-preservation straightforward, without a database framework or dependency.
@@ -204,14 +228,15 @@ limits can make this data unavailable. Errors are shown in the current UI
 language; a failed write leaves the current pack/game usable in memory and the
 previous stored value intact.
 
-- **Full storage / oversized copies:** use **Manage local saving** to export a
-  custom copy, open **Exclude from local saving**, then confirm exclusion.
+- **Older mixes / full storage / unwanted copies:** in Options or preparation,
+  use **Saved decks** to export a copy. **Delete** is beside **Download pack JSON**;
+  it opens a confirmation with **Cancel** and **Delete** (Czech: **Smazat**).
   Confirmation immediately retries saving only the included copies/settings.
   Exclusion does not remove content from the current session: selected sources,
   accepted preparation and a locked running game remain unchanged and exportable.
   After a successful save, excluded copies disappear on reload; keep their JSON.
   **Include again and retry saving** reverses the exclusion during this session.
-  If a write still fails, previously stored data remains intact. Do not clear
+  If a write fails, stored data and the inclusion selection remain intact. Do not clear
   site storage to solve an oversized pack: it would not shrink the in-memory
   library. Bundled packs cannot be excluded/deleted.
 - **Read access denied at startup:** saving is blocked to protect unread data,
@@ -223,23 +248,27 @@ previous stored value intact.
   saving (for example, a setting change), or export your copies first.
 
 Exclusion is a session-only, per-pack-ID saving choice, not a content edit or
-format change. A newly edited/generated copy is included by default. Library
+format change. An explicitly saved editor copy/import is included by default; generated
+mixes are not added. Library
 management is preparation-only; export a running game before exiting to manage it.
 
 Corrupt/incompatible libraries are never silently overwritten or cleared.
 Preserve the raw `hexy.library.v1` value using browser site-storage tools before
 repairing/removing that site's data; use a compatible application for a newer
 format. Until then, work in memory and export. This is not running-game recovery.
-Use one editing tab: concurrent-tab merging is not implemented.
+Use one editing tab: writes compare the last-read record and reject concurrent
+replacement rather than overwriting it. Concurrent-tab merging is not implemented.
 
 ### Saved-game recovery and backups
 
 `hexy.game.v1` is separate from the library: it stores the versioned complete-game envelope,
 including locked questions/aliases/placement, board, chooser, phase and original
-deadline, names, colors, language, host/time/board settings and keyboard mappings.
+deadline, names, colors, language, host/time/board settings and duel bindings.
 Every accepted game transition saves synchronously **before rendering**.
 Library saving inclusion/exclusion never edits that snapshot. `hexy.inputs.v1`
-separately stores versioned keyboard mappings; it does not contain gamepad assignments.
+separately stores version-2 keyboard-or-controller binding choices, without
+durable controller identities. Version-1 keyboard preferences and portable games
+remain readable; new complete-game envelopes are version 2 (domain games stay v2).
 
 - During play, **! Not saved** opens **Game recovery** controls in a readable
   dialog rather than covering the question/board. Close returns to play; timers
@@ -260,7 +289,8 @@ separately stores versioned keyboard mappings; it does not contain gamepad assig
   gameplay/retries: saving is blocked and the replacement is available as a raw
   export. Retry inspects it without replacing it with the in-memory game.
   Export current work and reload to recover that replacement, or export it and
-  confirm discard again to explicitly remove it. Close other tabs first.
+  use recovery's **Discard stored game…** to explicitly remove it. Ordinary Exit
+  never deletes a protected original, even after a second click. Close other tabs first.
   If a retry cannot read storage, saving stays blocked even if storage was last
   observed empty. Retry can resume memory-game saving only after a successful
   current read establishes that no stored game remains.

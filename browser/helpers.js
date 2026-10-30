@@ -44,9 +44,15 @@ export async function start(page, options = {}) {
 async function setKeys(page, keys) {
   if (!keys) return;
   await page.locator('#input-controls').click();
-  await page.locator('#key-A').selectOption(keys.A);
-  await page.locator('#key-B').selectOption(keys.B);
+  await recordKey(page, 'A', keys.A);
+  await recordKey(page, 'B', keys.B);
   await page.locator('#close-inputs').click();
+}
+
+/** @param {import('@playwright/test').Page} page @param {string} player @param {string} code */
+export async function recordKey(page, player, code) {
+  await page.locator(`#record-${player}`).click();
+  await page.keyboard.press(code);
 }
 
 /** @param {import('@playwright/test').Page} page @param {string} theme */

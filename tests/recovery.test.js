@@ -6,6 +6,7 @@ import { validateSave } from '../src/domain/saves.js';
 import { DUEL_SYMBOLS, browserGame } from '../src/runtime/symbols.js';
 import { MAX_GAME_BYTES, recoverPortable } from '../src/domain/portable.js';
 import { act, duel, game, question, savedGame } from './fixtures.js';
+import { keysToBindings } from '../src/domain/controls.js';
 
 /** @type {Recovery} */
 let recovery;
@@ -26,7 +27,7 @@ test('near-limit full-game downloads remain importable after round growth withou
     'W'.repeat(MAX_GAME_BYTES - base - 700),
   ];
   recovery.settings = data.settings;
-  recovery.keys = data.keys;
+  recovery.bindings = keysToBindings(data.keys);
   const state = act(data.game, { type: 'select', cell: 1 });
   const download = vi
     .spyOn(recovery.downloads, 'save')
@@ -139,6 +140,54 @@ test.each([
     expect(recovery.discard()).toBe(true);
     recovery.save(game());
     expect(recovery.saved).toBe(true);
+  },
+);
+
+test.each([
+  JSON.stringify({ ...game(), sessionId: 'other-tab' }, null, 2) + '\n',
+  '{ corrupt replacement\n',
+  '{ "format": "hexy-game", "schemaVersion": 99 }\n',
+  null,
+])(
+  'write-detected replacement %# is retained verbatim without granting cleanup permission',
+  (bytes) => {
+    recovery.load(1000, 'fresh');
+    recovery.save(game());
+    if (bytes === null) localStorage.removeItem(GAME_KEY);
+    else localStorage.setItem(GAME_KEY, bytes);
+    recovery.save(question());
+    expect(recovery.original).toBe(bytes);
+    expect(recovery.error).toBe('recoveryChanged');
+    expect(recovery.writable).toBe(false);
+    expect(recovery.saved).toBe(false);
+    const download = vi
+      .spyOn(recovery.downloads, 'save')
+      .mockImplementation(() => {});
+    expect(recovery.export(null)).toBe(bytes !== null);
+    if (bytes === null) expect(download).not.toHaveBeenCalled();
+    else
+      expect(download).toHaveBeenLastCalledWith(
+        bytes,
+        'hexy-original-save.json',
+        'application/json',
+      );
+    recovery.save(question());
+    expect(recovery.discardCurrent()).toBe(false);
+    expect(recovery.discardCurrent()).toBe(false);
+    expect(localStorage.getItem(GAME_KEY)).toBe(bytes);
+    const next = '{ subsequent protected replacement\n';
+    localStorage.setItem(GAME_KEY, next);
+    expect(recovery.discard()).toBe(false);
+    expect(recovery.original).toBe(next);
+    expect(recovery.writable).toBe(false);
+    expect(recovery.export(null)).toBe(true);
+    expect(download).toHaveBeenLastCalledWith(
+      next,
+      'hexy-original-save.json',
+      'application/json',
+    );
+    expect(recovery.discardCurrent()).toBe(false);
+    expect(localStorage.getItem(GAME_KEY)).toBe(next);
   },
 );
 

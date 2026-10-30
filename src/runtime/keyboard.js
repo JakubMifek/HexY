@@ -1,8 +1,9 @@
 import { BuzzerBatch } from './buzzer.js';
-import { validateKeys } from '../domain/controls.js';
-export { KEY_CODES } from '../domain/controls.js';
+import { KEY_CODES } from '../domain/controls.js';
+import { requireValue } from '../domain/errors.js';
 
 export class DuelKeyboard {
+  /** @type {{A: string | null, B: string | null}} */
   mapping = { A: 'ShiftLeft', B: 'ShiftRight' };
   held = new Set();
   releasesRequired = new Set();
@@ -48,9 +49,19 @@ export class DuelKeyboard {
     this.freshPresses.clear();
   }
 
-  /** @param {{A: string, B: string}} mapping */
+  /** @param {{A: string | null, B: string | null}} mapping */
   remap(mapping) {
-    this.mapping = validateKeys(mapping);
+    requireValue(
+      Object.values(mapping).every(
+        (code) => code === null || KEY_CODES.includes(code),
+      ),
+      'inputConflict',
+    );
+    requireValue(
+      mapping.A === null || mapping.A !== mapping.B,
+      'inputConflict',
+    );
+    this.mapping = { ...mapping };
     this.held = new Set(
       [...this.held].filter((code) => Object.values(mapping).includes(code)),
     );
@@ -79,6 +90,7 @@ export class DuelKeyboard {
 
   /** @param {KeyboardEvent} event */
   down(event) {
+    if (preservesNativeInput(event)) return;
     const player = this.player(event.code);
     if (!player) return;
     if (
@@ -91,7 +103,6 @@ export class DuelKeyboard {
       this.freshPresses.add(event.code);
     this.changed(player, true);
     if (!this.batch.context || this.releasesRequired.has(event.code)) return;
-    if (isControl(event.target)) return;
     event.preventDefault();
     this.batch.press(player, event.timeStamp);
   }
@@ -117,5 +128,12 @@ function isControl(target) {
     target instanceof Element &&
     !target.closest('.buzzer') &&
     target.closest('input, select, textarea, [contenteditable="true"]') !== null
+  );
+}
+
+/** @param {KeyboardEvent} event */
+function preservesNativeInput(event) {
+  return (
+    event.ctrlKey || event.altKey || event.metaKey || isControl(event.target)
   );
 }

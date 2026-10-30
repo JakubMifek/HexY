@@ -116,7 +116,7 @@ function openRecovery(app) {
         },
         () => {
           close();
-          app.requestNew();
+          app.navigation.requestExit(true);
         },
         refresh,
         signal,

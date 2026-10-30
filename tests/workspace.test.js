@@ -26,6 +26,12 @@ beforeEach(() => {
   root = document.createElement('div');
   document.body.append(root);
   Element.prototype.scrollIntoView = vi.fn();
+  HTMLDialogElement.prototype.showModal = function () {
+    this.open = true;
+  };
+  HTMLDialogElement.prototype.close = function () {
+    this.open = false;
+  };
   vi.stubGlobal('Blob', NodeBlob);
   const OriginalURL = URL;
   vi.stubGlobal(
@@ -387,15 +393,15 @@ test('unknown programmer errors are not swallowed by synchronous boundaries', ()
   ).toThrow('Bug');
 });
 
-test('accepted generated boards are stored, and active-game downloads preserve the typed draft and deadline', async () => {
+test('accepted generated boards are temporary, and active-game downloads preserve the locked pack, typed draft and deadline', async () => {
   set('#mode', 'numbers');
   click('#prepare-board');
   click('#accept-board');
   const pack = app.workspace.model.accepted;
-  expect(app.workspace.model.custom).toEqual([pack]);
-  expect(JSON.parse(localStorage.getItem(LIBRARY_KEY) ?? '{}').packs).toEqual([
-    pack,
-  ]);
+  expect(app.workspace.model.custom).toEqual([]);
+  expect(JSON.parse(localStorage.getItem(LIBRARY_KEY) ?? '{}').packs).toEqual(
+    [],
+  );
   set('#answerMode', 'automatic');
   click('#start');
   click('#cell-1');
@@ -432,9 +438,11 @@ test('confirmed saving exclusion retains exports, selected acceptance and the lo
   const retained = { ...bundledPacks()[1], id: 'retained' };
   await app.workspace.importFiles([file(JSON.stringify(retained))]);
   const original = localStorage.getItem(LIBRARY_KEY);
-  click(`#library-keep-${accepted.id}`);
+  click(`#library-delete-${accepted.id}`);
+  click(`#library-cancel-delete-${accepted.id}`);
   expect(localStorage.getItem(LIBRARY_KEY)).toBe(original);
-  click(`#library-exclude-${accepted.id}`);
+  click(`#library-delete-${accepted.id}`);
+  click(`#library-confirm-delete-${accepted.id}`);
   expect(JSON.parse(localStorage.getItem(LIBRARY_KEY) ?? '{}').packs).toEqual([
     retained,
   ]);

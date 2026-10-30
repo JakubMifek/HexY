@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { start, phase, blackDuel } from './helpers.js';
+import { start, phase, blackDuel, recordKey } from './helpers.js';
 import { enterPreparation } from './preparation-helpers.js';
 
 async function controls(page) {
@@ -43,10 +43,10 @@ test('remapping preserves physical sides, rejects conflicts and blocks held/repe
 }) => {
   await start(page);
   await controls(page);
-  await page.locator('#key-A').selectOption('KeyQ');
-  await page.locator('#key-B').selectOption('KeyQ');
+  await recordKey(page, 'A', 'KeyQ');
+  await recordKey(page, 'B', 'KeyQ');
   await expect(page.locator('#input-error')).toContainText('different');
-  await page.locator('#key-B').selectOption('KeyP');
+  await recordKey(page, 'B', 'KeyP');
   await page.keyboard.press('KeyQ');
   await expect(page.locator('#input-test-status')).toContainText('A');
   await page.keyboard.press('KeyP');
@@ -65,8 +65,8 @@ test('remapping preserves physical sides, rejects conflicts and blocks held/repe
   await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'A');
   await page.reload();
   await controls(page);
-  await expect(page.locator('#key-A')).toHaveValue('KeyQ');
-  await expect(page.locator('#key-B')).toHaveValue('KeyP');
+  await expect(page.locator('#binding-A')).toContainText('KeyQ');
+  await expect(page.locator('#binding-B')).toContainText('KeyP');
 });
 
 test('touch multi-pointer ties, cancel, preview holds and release readiness use the actual engine', async ({
@@ -178,11 +178,8 @@ test('mocked Gamepad API assigns buttons explicitly, suppresses holds and interr
   await start(page);
   await page.clock.runFor(16);
   await controls(page);
-  await page.locator('#device-A').selectOption('1');
-  await page.locator('#assign-A').click();
-  await page.locator('#device-B').selectOption('1');
-  await page.locator('#button-B').fill('1');
-  await page.locator('#assign-B').click();
+  await recordPad(page, 'A', 0);
+  await recordPad(page, 'B', 1);
   await page.clock.runFor(16);
   await page.locator('#close-inputs').click();
   await playAfterControls(page);
@@ -213,9 +210,11 @@ test('mocked Gamepad API assigns buttons explicitly, suppresses holds and interr
   await page.keyboard.press('ShiftRight');
   await phase(page, 'duel-interrupted');
   await controls(page);
-  await expect(page.locator('#device-A')).toHaveValue('');
-  await expect(page.locator('#device-B')).toHaveValue('');
-  await expect(page.locator('#gamepad-settings')).toContainText('disconnected');
+  await expect(page.locator('#binding-A')).toContainText('Record again');
+  await expect(page.locator('#binding-B')).toContainText('Record again');
+  await expect(page.locator('#controller-status')).toContainText(
+    'disconnected',
+  );
 });
 
 /** @param {import('@playwright/test').Page} page @param {number} button @param {boolean} pressed */
@@ -225,6 +224,14 @@ async function mockButton(page, button, pressed) {
       window.dispatchEvent(new CustomEvent('mock-button', { detail })),
     { button, pressed },
   );
+}
+
+async function recordPad(page, player, button) {
+  await page.locator(`#record-${player}`).click();
+  await mockButton(page, button, true);
+  await page.clock.runFor(16);
+  await mockButton(page, button, false);
+  await page.clock.runFor(16);
 }
 
 /** @param {import('@playwright/test').Page} page */
@@ -252,11 +259,8 @@ for (const language of /** @type {const} */ (['en', 'cs'])) {
     await start(page, { language });
     await page.clock.runFor(16);
     await controls(page);
-    await page.locator('#device-A').selectOption('1');
-    await page.locator('#assign-A').click();
-    await page.locator('#device-B').selectOption('1');
-    await page.locator('#button-B').fill('1');
-    await page.locator('#assign-B').click();
+    await recordPad(page, 'A', 0);
+    await recordPad(page, 'B', 1);
     await page.clock.runFor(16);
     for (const [index, player] of ['A', 'B'].entries()) {
       await mockButton(page, index, true);

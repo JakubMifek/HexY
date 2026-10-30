@@ -20,9 +20,11 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: the original plan is finished; phase 9, the owner-requested
-guided UI redesign, is independently CLEARED after P9-IR1/P9-IR2 fixes and
-has passed the coordinator's complete post-review gates.** The initial
+**Current stage: phase 9 is cleared and delivered as `4cd16af`; phase 10
+temporary mixes, final export and simplified recorded controls is independently
+cleared after corrections, with complete coordinator post-review gates passed
+and authorized private delivery next.** Phase 9 passed independent review and complete
+coordinator post-review gates. The initial
 CHANGES REQUIRED verdict and subsequent clearance are preserved in
 [the phase-9 review](reviews/phase-09.md). Phase 8 was accepted for
 private delivery, with public-release work retained as follow-ups.
@@ -78,6 +80,89 @@ preserve unrelated changes. Ask for product decisions with context, not for the
 user to perform development tasks.
 
 ## Product constraints: confirmed
+
+### Phase 10: temporary mixes and simple controls — approved 2026-10-30
+
+- Stop automatically saving generated mixed decks into the local library.
+  Preserve ambiguous historical entries and provide explicit selective removal,
+  while preserving all unselected custom decks, bundled content, settings and
+  active game recovery. The owner approved this fallback on 2026-10-30: legacy
+  automatic acceptance and explicit reimport produce identical stored records
+  without an origin flag. Do not infer deletion from titles or question provenance.
+- Owner amendment during review: place **Delete / Smazat** beside each saved
+  copy's JSON download, without an expandable removal header. Require an
+  explicit localized confirmation; cancellation and storage failures preserve
+  protected data.
+- Victory retains its screen and valid host corrections until the user leaves.
+  For both finished and early-exited games, offer Save and return to menu,
+  Return without saving, and Cancel. Save initiates a complete portable JSON
+  download before cleanup; failed initiation must not discard the game.
+  Only confirmed departure clears the current game's local recovery and
+  temporary mix. Reload before departure still restores the game.
+- Add visible spacing between Back and Controls in Options.
+- Replace the verbose controls editor with two duel-binding rows, one per
+  player. Click Record, then press a keyboard key or controller button.
+  Recording replaces that player's previous binding, including its device
+  kind; keep only one keyboard-or-controller binding per player. Retain the
+  on-screen touch buzzers as the existing accessible alternative.
+- Escape cancels capture; reject duplicate bindings with localized feedback.
+  Opening/closing/cancelling recording must not capture the initiating click,
+  a held/repeated input, stale input, or trigger gameplay. Preserve safe fresh
+  press/release duel rearming and device-disconnect handling.
+- Keyboard arrows and controller D-pad/left stick move the board selection;
+  Enter and controller A confirm it. Navigation is active only when selecting
+  playable cells, never while typing, in a modal, during a question or duel.
+  Require neutral/release edges and suitable stick deadzone/repeat handling.
+  Both controller and keyboard paths use the same board selection semantics.
+- Version and validate changed control preferences and portable-game metadata;
+  preserve compatible legacy saves and explicit failure reporting. Browser
+  controller connections are not durable device identities; do not silently
+  assign a replacement device or claim physical-device verification.
+
+The owner explicitly chose temporary generated mixes with historical cleanup,
+the final-export dialog for both finish and early exit, one replacement binding
+per player, and both D-pad/left-stick navigation. Prior public-release follow-ups
+remain deferred. Use the existing developer/reviewer/post-review delivery loop.
+
+### Phases 11 and 12: difficulty library and folder catalog — approved 2026-10-30
+
+Begin phase 11 only after phase-10 reviewed delivery. Keep the eight categories
+other than Entertainment; replace Entertainment with exactly Games,
+Movies/Series and Sports, giving eleven categories. Games includes video, board
+and card games; Movies/Series includes animation. Do not add Music.
+
+Use localized Easy, Medium and Hard levels for a general adult audience:
+common general knowledge, informed general knowledge, and specialist but fair,
+unambiguous knowledge respectively. Do not fabricate or force obscure clues
+to satisfy initials. Phase 11 delivers exactly **132 decks / 3,696 questions**:
+11 categories × 3 difficulties × 2 decks × 2 languages, 28 questions per deck.
+After phase-11 reviewed delivery, phase 12 adds three decks per combination,
+giving exactly **330 decks / 9,240 questions** (five per combination).
+Existing reviewed entries may be retained and reclassified; changed category,
+difficulty or wording requires explicit review and ledger accounting.
+Every shipped new entry requires complete factual-source, natural-language,
+initial, alias and independent editorial review, not sampling or schema checks.
+
+Use expandable category folders instead of a category filter, with whole-folder
+or individual-deck selection, matching counts, partial-selection state and clear
+difficulty markings. Put manually uploaded/custom decks in a separate folder.
+Folder selection affects only decks matching the current visible filters.
+Alphabetical mode still requires exactly one authored deck; number mode mixes
+eligible selected sources. Folder selection must not enable an invalid
+multi-deck alphabetical start.
+
+The only main filters are **Origin and Difficulty**. Remove the Language filter:
+questions are prefiltered by the unified game/UI language chosen in Options.
+These latest decisions supersede the earlier queued Language/Origin/Difficulty
+wording.
+
+Imported decks must declare difficulty; missing difficulty is an actionable
+localized validation error. The owner declined Unrated and legacy import
+compatibility. This does not authorize deleting old browser records or
+invalidating active games without explicit protected recovery/export.
+Known bundled legacy snapshots may have an explicit migration; never guess
+difficulty for arbitrary uploads. Document format compatibility deliberately.
+No phase-11/12 implementation or content clearance is implied by this approval.
 
 ### Phase 9: guided UI redesign — approved 2026-10-29
 

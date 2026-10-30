@@ -200,7 +200,6 @@ export class Preparation {
       pack.mode === this.mode && pack.language === this.language,
       'preparationMismatch',
     );
-    this.add([pack]);
     this.accepted = pack;
   }
 

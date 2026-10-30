@@ -20,6 +20,11 @@ export function menuView(app, signal) {
       signal,
     );
     panel.append(inputControls(app.inputs, signal));
+    if (app.workspace.model.custom.length || app.workspace.storageError)
+      panel.append(
+        app.workspace.libraryView(signal),
+        app.workspace.statusView(),
+      );
     return panel;
   }
   if (nav.page === 'import') return importView(app, signal);

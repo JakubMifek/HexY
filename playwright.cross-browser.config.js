@@ -23,6 +23,7 @@ export default defineConfig({
     'tile-flip.spec.js',
     'modal-readiness.spec.js',
     'clock-error-fit.spec.js',
+    'phase-ten*.spec.js',
   ],
   projects: [
     { name: 'firefox', use: { browserName: 'firefox' } },

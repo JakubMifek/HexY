@@ -2,25 +2,26 @@ import { requireValue, DomainError } from './errors.js';
 import { record } from './validation.js';
 import { validatePreferences } from './preferences.js';
 import { recoverGame, validateSave } from './saves.js';
-import { validateKeys } from './controls.js';
+import {
+  defaultBindings,
+  keysToBindings,
+  validateBindings,
+} from './controls.js';
 
 export const MAX_GAME_BYTES = 2_000_000;
 const MIN_ROUND_RESERVE_BYTES = 512;
 const ROUND_METADATA_BYTES = 256;
 
 /** @param {import('./types.js').Game} game @param {import('../ui/setup.js').Setup} settings
- * @param {{A: string, B: string}} [keys] */
-export function portableGame(
-  game,
-  settings,
-  keys = { A: 'ShiftLeft', B: 'ShiftRight' },
-) {
+ * @param {import('./controls.js').Bindings | {A: string, B: string}} [bindings] */
+export function portableGame(game, settings, bindings = defaultBindings()) {
   return validatePortable({
     format: 'hexy-game',
-    schemaVersion: 1,
+    schemaVersion: 2,
     game,
     settings,
-    keys,
+    bindings:
+      typeof bindings.A === 'string' ? keysToBindings(bindings) : bindings,
   });
 }
 
@@ -28,9 +29,15 @@ export function portableGame(
 export function validatePortable(value) {
   const data = record(value, 'game-file');
   requireValue(data.format === 'hexy-game', 'gameFormat');
-  requireValue(data.schemaVersion === 1, 'saveVersion');
+  requireValue(
+    data.schemaVersion === 1 || data.schemaVersion === 2,
+    'saveVersion',
+  );
   const game = validateSave(data.game);
-  const keys = validateKeys(data.keys);
+  const bindings =
+    data.schemaVersion === 1
+      ? keysToBindings(data.keys)
+      : validateBindings(data.bindings);
   const settings = validatePreferences({
     language: game.pack.language,
     theme: 'light',
@@ -47,10 +54,10 @@ export function validatePortable(value) {
   );
   const portable = {
     format: 'hexy-game',
-    schemaVersion: 1,
+    schemaVersion: 2,
     game,
     settings,
-    keys,
+    bindings,
   };
   validateSize(portable);
   return portable;
@@ -100,13 +107,13 @@ export function recoverPortable(json, now, sessionId, legacy = false) {
     return {
       game: recoverGame(json, now, sessionId),
       settings: null,
-      keys: null,
+      bindings: null,
     };
   }
   const result = validatePortable(data);
   return {
     game: recoverGame(JSON.stringify(result.game), now, sessionId),
     settings: result.settings,
-    keys: result.keys,
+    bindings: result.bindings,
   };
 }

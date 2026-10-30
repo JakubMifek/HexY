@@ -18,8 +18,8 @@ async function stored(page) {
 
 /** @param {import('@playwright/test').Page} page @param {string} id */
 async function exclude(page, id) {
-  await page.locator(`[data-pack-id="${id}"] summary`).click();
-  await page.locator(`#library-exclude-${id}`).click();
+  await page.locator(`#library-delete-${id}`).click();
+  await page.locator(`#library-confirm-delete-${id}`).click();
 }
 
 /** @param {import('@playwright/test').Page} page @param {'en'|'cs'} language */
@@ -64,11 +64,20 @@ for (const language of ['en', 'cs']) {
     page,
   }, info) => {
     const normal = await exhaustQuota(page, language, info);
-    await page.locator('[data-pack-id="oversized-copy"] summary').click();
-    await page.locator('#library-keep-oversized-copy').click();
+    const label = language === 'en' ? 'Delete' : 'Smazat';
+    await expect(page.locator('#storage-error')).toContainText(
+      await page.locator('#library-heading').innerText(),
+    );
+    await expect(page.locator('#storage-error')).toContainText(label);
+    await expect(page.locator('#storage-error')).toContainText(
+      language === 'en' ? 'Do not clear site storage' : 'nemažte úložiště webu',
+    );
+    await page.locator('#library-delete-oversized-copy').click();
     await expect(
-      page.locator('[data-pack-id="oversized-copy"] details'),
-    ).not.toHaveAttribute('open');
+      page.locator('#library-confirm-delete-oversized-copy'),
+    ).toHaveText(label);
+    await page.locator('#library-cancel-delete-oversized-copy').click();
+    await expect(page.locator('dialog')).toHaveCount(0);
     await expect(page.locator('#storage-error')).toBeVisible();
     const before = await download(
       page,
@@ -82,7 +91,9 @@ for (const language of ['en', 'cs']) {
     await expect(page.locator('#library-include-oversized-copy')).toBeVisible();
     await page.locator('#library-include-oversized-copy').click();
     await expect(page.locator('#storage-error')).toBeVisible();
-    await exclude(page, 'oversized-copy');
+    await expect(page.locator('#library-include-oversized-copy')).toBeVisible();
+    await expect(page.locator('#library-delete-oversized-copy')).toHaveCount(0);
+    expect(JSON.parse(await stored(page)).packs).toEqual([normal]);
     const after = await download(
       page,
       info,

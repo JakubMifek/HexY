@@ -1,5 +1,6 @@
 import { button, element, svg } from './dom.js';
 import { mountGameDialog } from './game-dialog.js';
+import { message } from '../messages.js';
 
 /** @param {import('./strings.js').Texts} t @param {string} language @param {string} theme
  * @param {(language: string, theme: string) => void} change
@@ -52,24 +53,31 @@ export function headerView(t, language, theme, change, newGame, signal, save) {
 }
 
 /** @param {import('../app.js').App} app
- * @param {import('./strings.js').Texts} t @param {() => void} discard */
-export function confirmNewGame(app, t, discard) {
+ * @param {import('./strings.js').Texts} t @param {(save: boolean) => boolean} depart */
+export function confirmNewGame(app, t, depart) {
   const lifecycle = new AbortController();
   const signal = lifecycle.signal;
   const dialog = document.createElement('dialog');
   dialog.setAttribute('aria-labelledby', 'discard-title');
+  const error = element('p', '', { role: 'alert', id: 'exit-error' });
+  const finish = (/** @type {boolean} */ save) => {
+    if (app.disposed) return;
+    if (depart(save)) {
+      close();
+      app.render();
+    } else {
+      error.textContent = message(app.language, app.recovery.error);
+      app.renderPresentation();
+    }
+  };
   dialog.append(
     element('h2', t.confirmNew, { id: 'discard-title' }),
     button(t.cancel, 'cancel-new', () => close(), signal),
-    button(
-      t.discard,
-      'discard-new',
-      () => {
-        close();
-        discard();
-      },
-      signal,
-    ),
+    ...(app.state
+      ? [button(t.saveReturn, 'save-return', () => finish(true), signal)]
+      : []),
+    button(t.discard, 'discard-new', () => finish(false), signal),
+    error,
   );
   const close = mountGameDialog(app, dialog, lifecycle, 'exit-game');
   dialog.querySelector('button')?.focus();

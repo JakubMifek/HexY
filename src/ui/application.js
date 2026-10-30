@@ -43,7 +43,8 @@ export function applicationView(app, signal) {
     main.append(menuView(app, signal));
     if (
       (app.workspace.storageError || app.workspace.error) &&
-      app.navigation.page !== 'desk'
+      app.navigation.page !== 'desk' &&
+      app.navigation.page !== 'options'
     )
       main.append(app.workspace.statusView());
   }
@@ -67,7 +68,7 @@ function attachRecovery(app, header, main, signal) {
           state,
           app.language,
           () => app.retryRecovery(),
-          () => app.requestNew(),
+          () => app.navigation.requestExit(true),
           () => app.renderPresentation(),
           signal,
         ),

@@ -1,7 +1,7 @@
 import { requireValue } from '../domain/errors.js';
 
 /** @typedef {import('../domain/types.js').Player} Player */
-/** @typedef {Pick<Gamepad, 'index'|'id'|'connected'|'buttons'>} Pad */
+/** @typedef {Pick<Gamepad, 'index'|'id'|'connected'|'buttons'> & {mapping?: string, axes?: readonly number[]}} Pad */
 /** @typedef {{token: string, button: number, held: boolean, armed: boolean}} Assignment */
 
 export class DuelGamepads {
@@ -19,6 +19,7 @@ export class DuelGamepads {
   listeners = new AbortController();
   /** @type {(player: Player, held: boolean) => void} */
   feedback = () => {};
+  sampled = () => {};
 
   /** @param {Window} target @param {import('./clock.js').Clock} clock
    * @param {(player: Player, stamp: number) => void} press
@@ -54,6 +55,12 @@ export class DuelGamepads {
 
   poll() {
     if (this.disposed) return;
+    this.refresh();
+    this.timer = this.clock.later(() => this.poll(), 16);
+  }
+
+  refresh() {
+    if (this.disposed || this.status === 'unsupported') return;
     let pads;
     try {
       pads = this.read();
@@ -64,7 +71,6 @@ export class DuelGamepads {
       if (previous !== this.status) this.changed();
     }
     if (pads) this.sample(pads);
-    this.timer = this.clock.later(() => this.poll(), 16);
   }
 
   /** @param {(Pad | null)[]} pads */
@@ -84,6 +90,7 @@ export class DuelGamepads {
     const stamp = this.stamp();
     for (const player of /** @type {const} */ (['A', 'B']))
       this.button(player, stamp);
+    this.sampled();
   }
 
   /** @param {Pad} pad */
@@ -185,11 +192,8 @@ export class DuelGamepads {
   }
 
   ready() {
-    return (
-      this.missing.size === 0 &&
-      Object.values(this.assignments).every(
-        (assignment) => assignment.armed && !assignment.held,
-      )
+    return Object.values(this.assignments).every(
+      (assignment) => assignment.armed && !assignment.held,
     );
   }
 

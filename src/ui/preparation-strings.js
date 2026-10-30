@@ -72,16 +72,16 @@ export const preparationStrings = {
     id: 'Question ID',
     generated: 'Prepared number game',
     copy: 'Custom copy',
-    storageManagement: 'Manage local saving',
+    storageManagement: 'Saved decks',
     storageHelp:
-      'Export before excluding a custom copy. Exclusion changes saving only: selected preparation and locked-game content stay unchanged. After a successful save, excluded copies stay only in memory and disappear on reload unless you reimport their exported JSON. Failed saves leave previous stored data untouched.',
+      'Older mixes cannot be distinguished from imported decks. Keep them or remove individual copies below. Export first if needed. Removal clears local storage; the copy stays available this session until reload. Other decks and game recovery are unchanged.',
     included: 'Included in local saving (subject to storage errors)',
     excluded: 'Excluded from future local saves · keep an export',
-    exclude: 'Exclude from local saving',
-    confirmExclude: 'Confirm exclusion and retry saving',
-    excludeWarning:
+    delete: 'Delete',
+    deleteTitle: 'Delete saved copy?',
+    deleteWarning:
       'Have you exported this copy? Confirming removes it from the next saved library, not from this session. Reload will lose the in-memory copy. Other packs and the running game are unchanged.',
-    keepIncluded: 'Keep included',
+    cancelDelete: 'Cancel',
     include: 'Include again and retry saving',
     stored:
       'Included custom packs and settings saved in this browser. Excluded copies are memory-only. Export JSON as a backup; browser data can be removed.',
@@ -173,16 +173,16 @@ export const preparationStrings = {
     id: 'ID otázky',
     generated: 'Připravená číselná hra',
     copy: 'Vlastní kopie',
-    storageManagement: 'Správa místního ukládání',
+    storageManagement: 'Uložené balíčky',
     storageHelp:
-      'Před vynecháním vlastní kopii exportujte. Vynechání mění pouze ukládání: vybraná příprava a obsah uzamčené hry zůstávají stejné. Po úspěšném uložení zůstanou vynechané kopie jen v paměti a obnovením stránky zmizí, pokud znovu neimportujete jejich exportovaný JSON. Neúspěšné uložení zachová dosavadní uložená data.',
+      'Starší směsi nelze odlišit od importovaných balíčků. Ponechte je nebo níže odeberte jednotlivé kopie. Podle potřeby je nejprve exportujte. Odebrání vymaže místní záznam; kopie zůstane dostupná do obnovení stránky. Ostatní balíčky a obnovení hry se nezmění.',
     included: 'Zahrnuto do místního ukládání (pokud nenastala chyba úložiště)',
     excluded: 'Vynecháno z příštího místního ukládání · uchovejte export',
-    exclude: 'Vynechat z místního ukládání',
-    confirmExclude: 'Potvrdit vynechání a opakovat uložení',
-    excludeWarning:
+    delete: 'Smazat',
+    deleteTitle: 'Smazat uloženou kopii?',
+    deleteWarning:
       'Exportovali jste tuto kopii? Potvrzení ji odebere z příští uložené knihovny, ne z této relace. Obnovením stránky se kopie v paměti ztratí. Ostatní sady a rozehraná hra zůstávají stejné.',
-    keepIncluded: 'Ponechat zahrnuté',
+    cancelDelete: 'Zrušit',
     include: 'Znovu zahrnout a opakovat uložení',
     stored:
       'Zahrnuté vlastní sady a nastavení jsou uložené v tomto prohlížeči. Vynechané kopie jsou pouze v paměti. Zálohujte je exportem JSON; data prohlížeče mohou být smazána.',

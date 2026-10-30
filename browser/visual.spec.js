@@ -85,6 +85,8 @@ test('English hosted numbers keep custom white ownership and black fields distin
   });
   await page.locator('#next-setup').click();
   await page.locator('#mode-numbers').click();
+  await page.locator('#prepare-board').click();
+  await page.locator('#accept-board').click();
   await page.locator('#start').click();
   await setCell(page, 1, 'A');
   await setCell(page, 2, 'B');

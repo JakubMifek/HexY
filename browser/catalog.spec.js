@@ -6,6 +6,7 @@ import {
   verifySheet,
   inspectPrintedSheet,
   nextPreparation,
+  acceptPack,
 } from './preparation-helpers.js';
 import { phase, setCell, setTheme } from './helpers.js';
 
@@ -111,9 +112,13 @@ for (const language of ['cs', 'en']) {
     await expect(page.locator('#catalog-results input')).toHaveCount(0);
     await page.locator('#prepare-board').click();
     await page.locator('#accept-board').click();
-    const generated = JSON.parse(
-      (await download(page, info, '#export-pack', 'chosen-mix.json')).text,
+    const exported = await download(
+      page,
+      info,
+      '#export-pack',
+      'chosen-mix.json',
     );
+    const generated = JSON.parse(exported.text);
     const expectedIds = [`nature-${language}-02`, `geography-${language}-02`];
     expect(
       new Set(
@@ -128,6 +133,9 @@ for (const language of ['cs', 'en']) {
     await sheet.close();
     await nextPreparation(page, 'numbers', 'automatic');
     await page.locator('#reset-catalog').click();
+    await expect(page.locator(`#source-${generated.id}`)).toHaveCount(0);
+    await page.locator('#import-packs').setInputFiles(exported.path);
+    await acceptPack(page, generated.id, 'numbers');
     await expect(page.locator('#answer-sheet')).toHaveCount(0);
     await page.locator('#start').click();
     await page.locator('#cell-1').click();

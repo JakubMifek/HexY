@@ -6,6 +6,7 @@ import {
   MAX_GAME_BYTES,
 } from '../src/domain/portable.js';
 import { importPack } from '../src/domain/packs.js';
+import { keysToBindings } from '../src/domain/controls.js';
 import { game, question, duel, savedGame } from './fixtures.js';
 
 test.each(['hosted', 'automatic'])(
@@ -28,7 +29,10 @@ test.each(['hosted', 'automatic'])(
     expect(restored.game.stage).toEqual(original.stage);
     expect(restored.game.sessionId).not.toBe(original.sessionId);
     expect(portableGame(restored.game, data.settings)).toEqual({
-      ...data,
+      format: 'hexy-game',
+      schemaVersion: 2,
+      settings: data.settings,
+      bindings: keysToBindings(data.keys),
       game: restored.game,
     });
   },
@@ -36,7 +40,7 @@ test.each(['hosted', 'automatic'])(
 
 test.each([
   ['format', 'question-pack'],
-  ['schemaVersion', 2],
+  ['schemaVersion', 99],
   ['settings', null],
   ['settings.language', 'cs'],
   ['settings.mode', 'letters'],

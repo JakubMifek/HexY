@@ -458,3 +458,13 @@
     font-size: 1rem;
   }
 }
+.device-controls {
+  margin-block-start: 1rem;
+}
+.binding-row {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  margin-block: 1rem;
+}

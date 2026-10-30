@@ -1,4 +1,6 @@
 import { randomPlayers } from '../ui/setup.js';
+import { confirmNewGame } from '../ui/header.js';
+import { strings } from '../ui/strings.js';
 
 export class Navigation {
   /** @type {'menu'|'options'|'players'|'desk'|'import'} */
@@ -27,6 +29,52 @@ export class Navigation {
     this.app.settings.players = randomPlayers(this.app.random, this.app.theme);
     this.boardChosen = false;
     this.go('players');
+  }
+
+  /** @param {boolean} [protectedOriginal] */
+  requestExit(protectedOriginal = false) {
+    const app = this.app;
+    if (app.disposed || app.dialog) return;
+    app.interrupt();
+    confirmNewGame(app, strings[app.language], (save) =>
+      this.finish(save, protectedOriginal),
+    );
+  }
+
+  /** @param {boolean} save @param {boolean} protectedOriginal */
+  finish(save, protectedOriginal) {
+    const app = this.app;
+    if (app.disposed) return false;
+    if (save && app.state) {
+      const now = app.clock.now();
+      if (!Number.isFinite(now) || now < app.lastObservedNow) {
+        app.recovery.error = 'clockBackwards';
+        return false;
+      }
+      app.send({
+        type: 'tick',
+        sessionId: app.state.sessionId,
+        revision: app.state.revision,
+      });
+      if (!app.recovery.export(app.state)) return false;
+    }
+    const cleared = protectedOriginal
+      ? app.recovery.discard()
+      : app.recovery.discardCurrent();
+    if (!cleared) return false;
+    app.timer.dispose();
+    app.inputs.requireReleases();
+    app.inputs.bind(null);
+    app.state = null;
+    const model = app.workspace.model;
+    model.unlock();
+    model.proposal = null;
+    model.accepted = null;
+    model.editing = null;
+    model.language = '';
+    app.feedback = {};
+    this.page = 'menu';
+    return true;
   }
 
   optionsChanged() {
@@ -89,8 +137,9 @@ export class Navigation {
     };
     app.language = app.settings.language;
     app.recovery.settings = app.settings;
-    if (app.recovery.keys) app.keyboard.remap(app.recovery.keys);
-    app.recovery.keys = { ...app.keyboard.mapping };
+    if (app.recovery.bindings)
+      app.inputs.controls.restore(app.recovery.bindings);
+    app.recovery.bindings = app.inputs.controls.bindings;
     app.savePreferences();
   }
 }

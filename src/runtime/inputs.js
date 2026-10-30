@@ -1,22 +1,15 @@
 import { DuelKeyboard } from './keyboard.js';
 import { DuelGamepads } from './gamepad.js';
 import { DuelTouch } from './touch.js';
-import { DomainError } from '../domain/errors.js';
+import { InputSettings } from './input-settings.js';
+import { BoardNavigation } from './board-navigation.js';
 import { deviceStrings } from '../ui/device-strings.js';
-import { gamepadView, inputView } from '../ui/inputs.js';
+export { INPUT_KEY } from './input-settings.js';
 
-export const INPUT_KEY = 'hexy.inputs.v1';
 /** @typedef {import('../domain/types.js').Player} Player */
-
 export class Inputs {
-  /** @type {HTMLDialogElement | null} */
-  dialog = null;
   /** @type {import('../domain/types.js').Language} */
   language = 'cs';
-  listeners = new AbortController();
-  padListeners = new AbortController();
-  storageError = false;
-  writable = false;
   disposed = false;
   /** @type {import('../domain/types.js').Game | null} */
   state = null;
@@ -41,7 +34,7 @@ export class Inputs {
       target,
       (player, stamp) => this.keyboard.batch.press(player, stamp),
       (player, held) => this.feedback(player, held, 'touch'),
-      () => this.interrupt(),
+      interrupt,
     );
     this.gamepads = new DuelGamepads(
       target,
@@ -57,79 +50,35 @@ export class Inputs {
         'pad',
         this.gamepads.assignments[player]?.armed ?? false,
       );
-    this.load();
+    this.controls = new InputSettings(this);
+    this.board = new BoardNavigation(this, clock);
+    this.gamepads.sampled = () => {
+      this.controls.recorder.sample(this.gamepads.devices);
+      this.board.sample(this.gamepads.devices);
+    };
+    this.controls.recorder.sample(this.gamepads.devices);
   }
 
-  load() {
-    try {
-      const json = window.localStorage.getItem(INPUT_KEY);
-      if (json !== null) {
-        const data = JSON.parse(json);
-        if (data?.schemaVersion !== 1) throw new DomainError('inputConflict');
-        this.keyboard.remap(data.keys);
-      }
-      this.writable = true;
-    } catch {
-      this.storageError = true;
-    }
+  get dialog() {
+    return this.controls.dialog;
   }
-
-  /** @param {Player} player @param {string} code */
-  remap(player, code) {
-    try {
-      this.keyboard.remap({ ...this.keyboard.mapping, [player]: code });
-      this.interrupt();
-      if (this.writable) {
-        window.localStorage.setItem(
-          INPUT_KEY,
-          JSON.stringify({ schemaVersion: 1, keys: this.keyboard.mapping }),
-        );
-        this.storageError = false;
-      }
-      this.error(this.storageError ? this.mappingNotice() : '');
-    } catch (error) {
-      if (!(error instanceof DomainError)) this.storageError = true;
-      const control = document.getElementById(`key-${player}`);
-      if (control instanceof HTMLSelectElement)
-        control.value = this.keyboard.mapping[player];
-      this.error(
-        error instanceof DomainError
-          ? deviceStrings[this.language].conflict
-          : this.mappingNotice(),
-      );
-    }
+  get storageError() {
+    return this.controls.storageError;
   }
-
   mappingNotice() {
-    const t = deviceStrings[this.language];
-    return this.writable ? t.mappingError : t.mappingReadError;
+    return this.controls.notice();
   }
-
-  /** @param {Player} player @param {string} token @param {number} index */
-  assign(player, token, index) {
-    try {
-      this.gamepads.assign(player, token, index);
-      this.padChanged();
-      this.error('');
-    } catch (error) {
-      if (!(error instanceof DomainError)) throw error;
-      const t = deviceStrings[this.language];
-      this.error(
-        error.code === 'inputConflict' ? t.conflict : t.assignmentError,
-      );
-    }
+  open() {
+    this.controls.open();
   }
-
-  /** @param {string} text */
-  error(text) {
-    const node = this.dialog?.querySelector('#input-error');
-    if (node) node.textContent = text;
+  close() {
+    this.controls.close();
   }
 
   /** @param {Player} player @param {boolean} held @param {string} source @param {boolean} [fresh] */
   feedback(player, held, source, fresh = true) {
-    const t = deviceStrings[this.language];
     const node = this.dialog?.querySelector('#input-test-status');
+    const t = deviceStrings[this.language];
     if (node) node.textContent = `${player} · ${held ? t.pressed : t.released}`;
     this.rearm(player, held, source, fresh);
     this.releaseFeedback();
@@ -160,7 +109,7 @@ export class Inputs {
     const state = this.state;
     if (state?.stage.phase !== 'duel-interrupted' || !this.ready()) return;
     const generation = this.generation;
-    // Resume outside the releasing adapter callback; queued presses keep their old context.
+    // Releasing callbacks must finish before the next duel context is armed.
     queueMicrotask(() => {
       if (
         this.disposed ||
@@ -201,39 +150,12 @@ export class Inputs {
           this.gamepads.status
         )
       ];
-    if (Object.keys(this.gamepads.assignments).length === 0) return '';
-    return /** @type {const} */ (['A', 'B'])
-      .map((player) => {
-        const assignment = this.gamepads.assignments[player];
-        return `${player} · ${assignment ? `${t.device} ${assignment.token} · ${t.button} ${assignment.button}` : t.none}`;
-      })
-      .join(' / ');
+    return '';
   }
 
   padChanged() {
-    if (!this.gamepads) return;
-    const node = this.dialog?.querySelector('#gamepad-settings');
-    const identity = JSON.stringify([
-      [...this.gamepads.devices.keys()],
-      this.gamepads.status,
-      Object.entries(this.gamepads.assignments).map(([player, assignment]) => [
-        player,
-        assignment.token,
-        assignment.button,
-      ]),
-    ]);
-    if (node && node.getAttribute('data-identity') !== identity) {
-      this.padListeners.abort();
-      this.padListeners = new AbortController();
-      node.setAttribute('data-identity', identity);
-      node.replaceChildren(
-        gamepadView(
-          deviceStrings[this.language],
-          this,
-          this.padListeners.signal,
-        ),
-      );
-    }
+    if (!this.controls) return;
+    this.controls.refresh();
     this.releaseFeedback();
   }
 
@@ -244,6 +166,7 @@ export class Inputs {
     this.keyboard.requireReleases();
     this.gamepads.requireReleases();
     this.touch.requireReleases();
+    this.board?.reset();
   }
 
   ready() {
@@ -267,53 +190,18 @@ export class Inputs {
 
   /** @param {import('../domain/types.js').Game | null} state */
   bind(state) {
+    if (this.state !== state) this.board.reset();
     this.state = state;
     this.keyboard.bind(state);
-    if (this.dialog?.open) this.keyboard.batch.bind(null);
-  }
-
-  open() {
-    if (this.disposed || this.dialog?.open) return;
-    this.interrupt();
-    this.keyboard.batch.bind(null);
-    this.dialog = document.createElement('dialog');
-    this.dialog.setAttribute('aria-labelledby', 'input-title');
-    this.listeners = new AbortController();
-    this.dialog.append(
-      inputView(deviceStrings[this.language], this, this.listeners.signal),
-    );
-    this.dialog.addEventListener(
-      'close',
-      () => {
-        this.listeners.abort();
-        this.padListeners.abort();
-        this.dialog?.remove();
-        this.dialog = null;
-        if (!this.disposed) {
-          this.interrupt();
-          this.keyboard.batch.bind(this.state);
-          document.getElementById('input-controls')?.focus();
-        }
-      },
-      { signal: this.listeners.signal },
-    );
-    document.body.append(this.dialog);
-    this.dialog.showModal();
-    this.padChanged();
-    this.error(this.storageError ? this.mappingNotice() : '');
-  }
-
-  close() {
-    this.dialog?.close();
+    if (this.dialog) this.keyboard.batch.bind(null);
   }
 
   dispose() {
     this.disposed = true;
-    this.close();
-    this.listeners.abort();
-    this.padListeners.abort();
+    this.controls.dispose();
     this.keyboard.dispose();
     this.gamepads.dispose();
     this.touch.dispose();
+    this.board.reset();
   }
 }

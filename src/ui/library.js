@@ -24,6 +24,9 @@ export function libraryView(t, packs, excluded, download, include, signal) {
       element('h3', pack.title),
       element('p', `${t.packId}: ${pack.id}`),
       element('p', memoryOnly ? t.excluded : t.included, { role: 'status' }),
+    );
+    const actions = element('div', '', { class: 'actions' });
+    actions.append(
       button(
         t.export,
         `library-export-${pack.id}`,
@@ -32,7 +35,7 @@ export function libraryView(t, packs, excluded, download, include, signal) {
       ),
     );
     if (memoryOnly)
-      row.append(
+      actions.append(
         button(
           t.include,
           `library-include-${pack.id}`,
@@ -40,35 +43,63 @@ export function libraryView(t, packs, excluded, download, include, signal) {
           signal,
         ),
       );
-    else row.append(exclusionConfirmation(t, pack.id, include, signal));
+    else actions.append(removalControl(t, pack, include, signal));
+    row.append(actions);
     section.append(row);
   }
   return section;
 }
 
-/** @param {Texts} t @param {string} id
+/** @param {Texts} t @param {Pack} pack
  * @param {(id: string, included: boolean) => void} include
  * @param {AbortSignal} signal */
-function exclusionConfirmation(t, id, include, signal) {
-  const details = document.createElement('details');
-  details.append(element('summary', t.exclude), element('p', t.excludeWarning));
+function removalControl(t, pack, include, signal) {
+  const { id } = pack;
+  const dialog = document.createElement('dialog');
+  dialog.setAttribute('aria-labelledby', `library-delete-title-${id}`);
+  const control = button(
+    t.delete,
+    `library-delete-${id}`,
+    () => {
+      control.after(dialog);
+      dialog.showModal();
+    },
+    signal,
+  );
+  const close = () => {
+    if (!dialog.isConnected) return;
+    dialog.close();
+    dialog.remove();
+    control.focus();
+  };
+  dialog.addEventListener(
+    'cancel',
+    (event) => {
+      event.preventDefault();
+      close();
+    },
+    { signal },
+  );
+  signal.addEventListener('abort', close, { once: true });
   const actions = element('div', '', { class: 'actions' });
   actions.append(
+    button(t.cancelDelete, `library-cancel-delete-${id}`, close, signal),
     button(
-      t.confirmExclude,
-      `library-exclude-${id}`,
-      () => include(id, false),
-      signal,
-    ),
-    button(
-      t.keepIncluded,
-      `library-keep-${id}`,
+      t.delete,
+      `library-confirm-delete-${id}`,
       () => {
-        details.open = false;
+        if (!dialog.open) return;
+        close();
+        include(id, false);
       },
       signal,
     ),
   );
-  details.append(actions);
-  return details;
+  dialog.append(
+    element('h2', t.deleteTitle, { id: `library-delete-title-${id}` }),
+    element('p', pack.title),
+    element('p', t.deleteWarning),
+    actions,
+  );
+  return control;
 }

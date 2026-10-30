@@ -1,7 +1,8 @@
 # Domain and playable-adapter contracts
 
-Packs/library/input preferences remain version 1; domain games are now version 2,
-inside version-1 complete-game envelopes. Contracts are backed by `src/domain/types.js` and
+Packs/library remain version 1; input preferences, portable complete-game envelopes
+and domain games are version 2. Version-1 input preferences and complete-game
+envelopes remain supported legacy reads. Contracts are backed by `src/domain/types.js` and
 runtime validators. Phase 3 added the local custom-pack/settings library;
 phase 4 adds a separate game-recovery adapter and input preferences. JSON serialization
 is `JSON.stringify`; pack import is `importPack`, saved-game parsing and recovery
@@ -117,7 +118,8 @@ number/source initials and ordering; pack ID/title/authors/license. Stable
 question IDs and the pack language/mode are retained; fixed initials/order
 remain authored. Validation uses the same `validatePack`, not a parallel schema.
 All edits invalidate acceptance. Invalid saves retain the draft and previous
-valid proposal. Saved copies and accepted generated packs join the local library;
+valid proposal. Explicitly saved copies and imports join the local library;
+accepted generated packs remain temporary;
 different content may not overwrite an existing/bundled pack ID. A duplicate
 import of identical validated content is idempotent. Multi-file import is atomic
 in memory: validate/conflict-check the entire batch before adding anything.
@@ -162,7 +164,7 @@ six-digit hex colors and integer seconds 1–3,600. Invalid transient setup inpu
 do not replace the last valid stored configuration. No runtime resources, unsaved
 editor drafts, proposals or games enter this record.
 
-Imports, saved copies, accepted generated boards and valid preference changes
+Imports, saved copies and valid preference changes
 write the complete validated snapshot. The small synchronous, atomic localStorage
 adapter was chosen over an additional database layer; quotas are browser-owned,
 and concurrent-tab merging is not supported. Read/access, malformed/version,
@@ -181,9 +183,18 @@ sources, proposal/acceptance, editor drafts or `Game.pack`. Therefore exclusion
 does not invalidate a still-identical selected preparation or unlock a running
 game. Bundled/nonexistent IDs and disposed-workspace requests are ignored.
 Successful exclusion leaves the copy exportable in memory until reload; failed
-writes still leave the old stored record intact. Exclusion flags need not be
+writes leave both the old stored record and inclusion choice intact. Exclusion flags need not be
 serialized: successfully excluded copies are absent from the saved `packs`
 array. No schema change, content deletion, cap or database migration is involved.
+
+Options exposes the same selective-removal controls as preparation. Historical
+automatic acceptance and explicit import used identical `add`/validation paths,
+without an origin field; their serialized packs are indistinguishable. The owner
+approved preserving ambiguous entries instead of automatic migration. Titles and
+question origins are never deletion criteria. `.artifacts/phase-10-origin-probe.log`
+records the baseline equality proof; `final-export.test.js` retains the regression.
+Every library write compares current raw storage with the last successfully read/
+written bytes; a mismatch blocks writing and reports `storageChanged`.
 
 `storageReadUnavailable` distinguishes initial access/read failure from
 `storageUnavailable` after a validated read followed by a write failure. Initial
@@ -280,7 +291,7 @@ Runtime resources and DOM objects never enter saves.
 ```json
 {
   "format": "hexy-game",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "game": { "schemaVersion": 2 },
   "settings": {
     "players": {
@@ -293,13 +304,19 @@ Runtime resources and DOM objects never enter saves.
     "starter": "random",
     "seconds": 30
   },
-  "keys": { "A": "ShiftLeft", "B": "ShiftRight" }
+  "bindings": {
+    "A": { "kind": "keyboard", "code": "ShiftLeft" },
+    "B": { "kind": "gamepad", "button": 0 }
+  }
 }
 ```
 
 The abbreviated `game` above must contain every domain field described here.
 `validatePortable` reconstructs and validates game, settings and distinct supported
-keyboard mappings before adoption. Language/board/host/time must match the game;
+keyboard-or-gamepad bindings before adoption. Envelope-v1 `keys` migrate to keyboard
+bindings without changing game progress, names, colors or deadlines. Gamepad choices
+store only an integer button 0–63, never connection IDs/tokens; recovery/import
+requires explicit re-recording. Language/board/host/time must match the game;
 starter must be random or match its configured starter. Names allow 30 UTF-16
 code units, colors require six-digit hex. Complete JSON is limited to 2,000,000
 UTF-8 bytes, including an early File-size check. Validation reserves at least
@@ -362,8 +379,21 @@ When discard detects different bytes, it immediately revokes write permission
 and saved status and retains those replacement bytes for raw export. Subsequent
 gameplay is memory-only. An active-game retry reads/validates the replacement but
 does not adopt it or authorize overwriting it. Export current work and reload to
-recover the replacement, or explicitly confirm discard again against the newly
-observed record. A further change triggers the same protection again.
+recover the replacement, or use recovery's explicit **Discard stored game…**
+confirmation against the newly observed record. A further change triggers the
+same protection again. Ordinary final departure uses `discardCurrent`, which
+cannot remove a protected/unread original. Writes also compare current bytes
+before replacement, so a deadline tick cannot erase a concurrent save.
+
+Final departure has Save and return, Return without saving and Cancel paths for
+both won and unfinished games. Save first processes the click-time tick using the
+authoritative transition/deadline, then initiates portable JSON download; only a
+successful initiation permits cleanup. Download or deletion failure retains
+the game and localized dialog. This cannot guarantee a disk write. Victory and
+Cancel do not clear recovery. Successful departure stops the round timer, clears
+input context/readiness and temporary preparation, then renders a fresh menu.
+Native dialog ownership remains `mountGameDialog`, including synchronous
+readiness revocation and aborted late-close callbacks.
 
 `Recovery` owns write permission; orchestration can read but cannot assign it.
 Its `retrySave` authorizes blocked memory-game saving only when the current
@@ -460,16 +490,42 @@ feedback. Repeated interruption, disposal, focus loss or state changes invalidat
 queued restart work. No corrections are exposed during interruption. Recovery similarly
 invalidates preview/active duels, never awarding a field or changing the chooser.
 
-`DuelKeyboard.remap` accepts distinct physical `ShiftLeft`, `ShiftRight`, `Space`
-or `KeyA`–`KeyZ` codes. It requires new releases and drops only irrelevant
+`DuelKeyboard.remap` accepts distinct supported physical codes or null for a
+player whose sole binding is a controller. Supported codes include separate
+Shifts, Space, letters, digits, punctuation and numpad operations/digits.
+Navigation, Escape, function keys and Ctrl/Alt/Meta shortcuts are reserved.
+It requires new releases and drops only irrelevant
 unmapped held codes, preventing an old missed keyup from deadlocking new bindings.
 Mapping errors leave the previous mapping intact, including the displayed value.
 Mapped keys do not capture while an editable form control has focus;
 the board/question and dedicated buzzers remain keyboard input surfaces.
-`hexy.inputs.v1` is `{schemaVersion: 1, keys: {A: code, B: code}}`, separate from
+`hexy.inputs.v1` now stores `{schemaVersion: 2, bindings: {A: binding, B: binding}}`,
+using the portable union above. Version-1 `{keys: {A: code, B: code}}` records
+are validated and migrated in memory, then written as v2 on explicit recording.
+This is separate from
 game/library keys. Read/validation failure protects the original and reports
 session-only mappings; allow storage and reload before saving after a read
 failure. Write failures report session-only changes and permit a later retry.
+Raw-byte comparison prevents overwriting concurrent changes.
+
+`BindingRecorder` owns key subscriptions and observed gamepad button snapshots.
+It captures only during explicit recording, rejects held/repeated/stale events,
+and cancels on Escape, blur, hidden state, disconnect or modal disposal. Rejected
+duplicates/reserved keys retain the prior binding. `InputSettings` owns the union,
+storage and native modal lifetime; closing aborts handlers and revokes readiness
+synchronously before native close can dispatch. An imported/disconnected
+controller has a concise re-record action in the duel; touch remains available.
+Changed bindings update complete-game metadata, not domain ownership/rules.
+
+`BoardNavigation` consumes the existing injected-clock gamepad poll, with no second
+timer. Any standard-mapped pad may navigate selectable cells, using the same DOM
+focus function as keyboard arrows. D-pad 12/14 moves backward, 13/15 forward;
+left-stick axes 0/1 use dominant direction, 0.6 activation/0.3 release hysteresis,
+350 ms initial and 110 ms subsequent repeats. A/button 0 confirms one focused
+playable field. No focused field means first A only focuses the first field.
+All pad edges are sampled before at most one action per poll. Phase/state changes,
+modal dismissal, blur/hidden state and unsupported mappings require neutral again.
+Questions, duels, won states and ordinary form/header focus never accept navigation.
 
 `DuelGamepads` polls `getGamepads` every 16 ms, with injectable samples and
 high-resolution sample timestamps. All edges in one poll share a timestamp.

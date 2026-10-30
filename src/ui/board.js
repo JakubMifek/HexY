@@ -152,7 +152,12 @@ function wireCell(group, id, available, choose, signal) {
   group.addEventListener(
     'keydown',
     (event) => {
-      if (available && (event.key === 'Enter' || event.key === ' ')) {
+      if (!boardKeyboardAvailable()) return;
+      if (
+        available &&
+        !event.repeat &&
+        (event.key === 'Enter' || event.key === ' ')
+      ) {
         event.preventDefault();
         choose(id);
       }
@@ -163,16 +168,31 @@ function wireCell(group, id, available, choose, signal) {
 
 /** @param {KeyboardEvent} event @param {SVGElement} board */
 function moveFocus(event, board) {
+  if (!boardKeyboardAvailable()) return;
   const delta = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[
     event.key
   ];
   if (!delta) return;
+  event.preventDefault();
+  moveBoardSelection(board, delta);
+}
+
+/** @param {SVGElement} board @param {number} delta */
+export function moveBoardSelection(board, delta) {
   const cells = Array.from(board.querySelectorAll('[tabindex="0"]'));
+  if (!cells.length) return;
   const index = document.activeElement
     ? cells.indexOf(document.activeElement)
     : -1;
-  if (index < 0) return;
-  event.preventDefault();
-  const next = cells[(index + delta + cells.length) % cells.length];
+  const next =
+    cells[index < 0 ? 0 : (index + delta + cells.length) % cells.length];
   if (next instanceof SVGElement) next.focus();
+}
+
+function boardKeyboardAvailable() {
+  return (
+    !document.hidden &&
+    document.hasFocus() &&
+    !document.querySelector('dialog[open]')
+  );
 }

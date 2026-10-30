@@ -22,6 +22,7 @@ for (const kind of ['valid', 'corrupt', 'newer']) {
       { key, replacement },
     );
     await page.locator('#discard-new').click();
+    await page.locator('#cancel-new').click();
     await page.locator('#open-recovery').click();
     await expect(page.locator('#recovery-error')).toContainText(
       'changed since',
@@ -48,7 +49,8 @@ for (const kind of ['valid', 'corrupt', 'newer']) {
     await page.locator('#exit-game').click();
     await page.locator('#cancel-new').click();
     expect(await rawSave(page)).toBe(replacement);
-    await page.locator('#exit-game').click();
+    await page.locator('#open-recovery').click();
+    await page.locator('#discard-save').click();
     await page.locator('#discard-new').click();
     expect(await rawSave(page)).toBeNull();
     await enterPreparation(page);
@@ -76,6 +78,7 @@ for (const language of ['en', 'cs']) {
       await page.locator('#exit-game').click();
       await page.evaluate((key) => localStorage.removeItem(key), key);
       await page.locator('#discard-new').click();
+      await page.locator('#cancel-new').click();
       await page.locator('#open-recovery').click();
       await expect(page.locator('#recovery-error')).toContainText(
         language === 'en' ? 'changed since' : 'se od načtení změnila',

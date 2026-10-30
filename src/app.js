@@ -11,7 +11,6 @@ import { applicationView } from './ui/application.js';
 import { strings } from './ui/strings.js';
 import { defaultSetup } from './ui/setup.js';
 import { transitionFeedback } from './ui/game.js';
-import { confirmNewGame } from './ui/header.js';
 import { Navigation } from './runtime/navigation.js';
 import { portableGame } from './domain/portable.js';
 
@@ -65,6 +64,11 @@ export class App {
     );
     this.keyboard = this.inputs.keyboard;
     this.recovery = new Recovery();
+    this.inputs.controls.changed = (bindings) => {
+      this.recovery.bindings = bindings;
+      if (this.state) this.recovery.save(this.state);
+      this.renderPresentation();
+    };
     this.restore();
     this.render();
   }
@@ -94,12 +98,12 @@ export class App {
         this.now(),
         this.sessionId(),
       );
-      portableGame(state, settings, this.keyboard.mapping);
+      portableGame(state, settings, this.inputs.controls.bindings);
       this.state = state;
       this.settings = settings;
       this.language = settings.language;
       this.recovery.settings = settings;
-      this.recovery.keys = { ...this.keyboard.mapping };
+      this.recovery.bindings = this.inputs.controls.bindings;
       this.workspace.model.lock();
       this.savePreferences();
       this.recovery.save(this.state);
@@ -137,6 +141,7 @@ export class App {
   interrupt() {
     const state = this.state;
     if (!state) return;
+    this.inputs.board.reset();
     if (
       state.stage.phase === 'duel-active' ||
       state.stage.phase === 'duel-preview' ||
@@ -236,22 +241,7 @@ export class App {
   }
 
   requestNew() {
-    if (this.disposed || this.dialog) return;
-    const phase = this.state?.stage.phase;
-    if (phase === 'duel-active' || phase === 'duel-preview') this.interrupt();
-    this.dialog = confirmNewGame(this, strings[this.language], () => {
-      if (this.disposed || !this.recovery.discard()) {
-        this.renderPresentation();
-        return;
-      }
-      this.timer.dispose();
-      this.inputs.bind(null);
-      this.state = null;
-      this.workspace.model.unlock();
-      this.feedback = {};
-      this.navigation.page = 'menu';
-      this.render();
-    });
+    this.navigation.requestExit();
   }
 
   restore() {

@@ -26,6 +26,8 @@ export function validateLibrary(value) {
 
 export class LocalLibrary {
   writable = false;
+  /** @type {string | null | undefined} */
+  original;
 
   /** @param {() => Storage} [storage] */
   constructor(storage = () => window.localStorage) {
@@ -37,6 +39,7 @@ export class LocalLibrary {
     let json;
     try {
       json = this.storage().getItem(LIBRARY_KEY);
+      this.original = json;
     } catch {
       throw new DomainError('storageReadUnavailable');
     }
@@ -62,8 +65,14 @@ export class LocalLibrary {
     requireValue(this.writable, 'storageBlocked');
     const json = JSON.stringify(validateLibrary(data));
     try {
+      if (this.storage().getItem(LIBRARY_KEY) !== this.original) {
+        this.writable = false;
+        throw new DomainError('storageChanged');
+      }
       this.storage().setItem(LIBRARY_KEY, json);
+      this.original = json;
     } catch (error) {
+      if (error instanceof DomainError) throw error;
       if (error instanceof DOMException && error.name === 'QuotaExceededError')
         throw new DomainError('storageQuota');
       throw new DomainError('storageUnavailable');

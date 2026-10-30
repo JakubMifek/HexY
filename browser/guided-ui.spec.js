@@ -175,7 +175,10 @@ for (const answers of ['hosted', 'automatic']) {
     );
     const original = JSON.parse(await readFile(saved.path, 'utf8'));
     expect(original.game.cells[0]).toBe('A');
-    expect(original.keys).toEqual({ A: 'KeyQ', B: 'KeyP' });
+    expect(original.bindings).toEqual({
+      A: { kind: 'keyboard', code: 'KeyQ' },
+      B: { kind: 'keyboard', code: 'KeyP' },
+    });
     await exit(page);
     await page.reload();
     await expect(page.locator('.game')).toHaveCount(0);
@@ -187,7 +190,7 @@ for (const answers of ['hosted', 'automatic']) {
       (await download(page, info, '#save-game', 'restored-game.json')).text,
     );
     expect(restored.settings).toEqual(original.settings);
-    expect(restored.keys).toEqual(original.keys);
+    expect(restored.bindings).toEqual(original.bindings);
     expect(restored.game.pack).toEqual(original.game.pack);
     expect(restored.game.cells).toEqual(original.game.cells);
     expect(restored.game.stage).toEqual(original.game.stage);

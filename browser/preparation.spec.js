@@ -10,6 +10,7 @@ import {
   inspectPrintedSheet,
   importTwoBanks,
   nextPreparation,
+  acceptPack,
 } from './preparation-helpers.js';
 import { phase, setCell, setTheme } from './helpers.js';
 
@@ -109,6 +110,7 @@ test('multi-source numbers use only eligible selected content and preserve priva
   await verifySheet(sheet, pack);
   await sheet.close();
   await nextPreparation(page, 'numbers', 'automatic');
+  await acceptPack(page, pack.id, 'numbers');
   await page.locator('#start').click();
   await page.locator('#cell-2').click();
   await page.locator('#answer').fill('custom typed alias');
