@@ -5,8 +5,9 @@ import {
   download,
   inspectPrintedSheet,
   setupPreparation,
+  nextPreparation,
 } from './preparation-helpers.js';
-import { answer, phase, setCell } from './helpers.js';
+import { answer, phase, setCell, setTheme } from './helpers.js';
 
 const categories = [
   'general',
@@ -32,8 +33,7 @@ for (const [mode, accepted] of [
     context,
   }, info) => {
     await setupPreparation(page, 'en');
-    await page.locator('#answerMode').selectOption('automatic');
-    await page.locator('#mode').selectOption(mode);
+    await page.locator(`#mode-${mode}`).click();
     await page.locator('#clear-sources').click();
     await page.locator('#source-arts-en-01').check();
     await page.locator('#prepare-board').click();
@@ -52,8 +52,9 @@ for (const [mode, accepted] of [
     expect(pack.questions[index].text).toBe(
       'Under which surname did Eric Arthur Blair publish Animal Farm and Nineteen Eighty-Four?',
     );
-    const html = await download(page, info, '#answer-sheet', 'corrected.html');
+    const html = await download(page, info, '#start', 'corrected.html');
     await inspectPrintedSheet(context, info, html.path, pack);
+    await nextPreparation(page, mode, 'automatic');
     await page.locator('#import-packs').setInputFiles(exported.path);
     await expect(page.locator('#preparation-error')).toHaveText('');
     await page.locator('#start').click();
@@ -85,7 +86,7 @@ for (const source of packs) {
     context,
   }, info) => {
     await setupPreparation(page, source.language);
-    await page.locator('#mode').selectOption('numbers');
+    await page.locator('#mode-numbers').click();
     await page.locator('#clear-sources').click();
     await page.locator(`#source-${source.id}`).check();
     await page.locator('#prepare-board').click();
@@ -101,19 +102,18 @@ for (const source of packs) {
       expect(question).toMatchObject(original);
       expect(question.origins[0].packId).toBe(source.id);
     }
-    const html = await download(page, info, '#answer-sheet', 'numbers.html');
-    await inspectPrintedSheet(context, info, html.path, pack);
     await page.locator('#import-packs').setInputFiles(exported.path);
     await expect(page.locator('#preparation-error')).toHaveText('');
-    await page.locator('#start').click();
+    const html = await download(page, info, '#start', 'numbers.html');
+    await inspectPrintedSheet(context, info, html.path, pack);
     await phase(page, 'selecting');
     await page.reload();
     await phase(page, 'selecting');
     expect(
       JSON.parse(
-        (await download(page, info, '#export-pack', 'recovered-numbers.json'))
+        (await download(page, info, '#save-game', 'recovered-numbers.json'))
           .text,
-      ),
+      ).game.pack,
     ).toEqual(pack);
     await expect(page.locator('#import-packs,#prepare-board')).toHaveCount(0);
     await setCell(page, 1, 'A');
@@ -139,7 +139,7 @@ for (const language of ['cs', 'en']) {
           return (state - 1) / 2147483646;
         };
       });
-      await page.locator('#mode').selectOption('numbers');
+      await page.locator('#mode-numbers').click();
       await page.locator('#clear-sources').click();
       const selected =
         scope === 'full'
@@ -171,19 +171,17 @@ for (const language of ['cs', 'en']) {
       expect(new Set(pack.questions.map((q) => q.category))).toEqual(
         new Set(selected.map((id) => id.split('-')[0])),
       );
-      const html = await download(page, info, '#answer-sheet', `${scope}.html`);
-      await inspectPrintedSheet(context, info, html.path, pack);
       await page.locator('#import-packs').setInputFiles(exported.path);
       await expect(page.locator('#preparation-error')).toHaveText('');
-      await page.locator('#start').click();
+      const html = await download(page, info, '#start', `${scope}.html`);
+      await inspectPrintedSheet(context, info, html.path, pack);
       await phase(page, 'selecting');
       await page.reload();
       await phase(page, 'selecting');
       expect(
         JSON.parse(
-          (await download(page, info, '#export-pack', 'recovered-mix.json'))
-            .text,
-        ),
+          (await download(page, info, '#save-game', 'recovered-mix.json')).text,
+        ).game.pack,
       ).toEqual(pack);
     });
   }
@@ -198,7 +196,7 @@ for (const language of ['cs', 'en']) {
       }, info) => {
         await page.setViewportSize(viewport);
         await setupPreparation(page, language);
-        await page.locator('#theme').selectOption(theme);
+        await setTheme(page, theme);
         await expect(page.locator('#catalog-status')).toContainText('36 / 36');
         await expect(page.locator('#catalog-results input')).toHaveCount(36);
         await page.locator('.catalog').scrollIntoViewIfNeeded();

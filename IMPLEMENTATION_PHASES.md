@@ -78,6 +78,7 @@ solely to obtain a revision without permission.
 | 6 | History, Politics, Science content | 5 cleared | Cleared and pushed: `d717e2d` | [CLEARED after fixes](reviews/phase-06.md) |
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Cleared and pushed: `aa465b9` | [CLEARED after correction](reviews/phase-07.md) |
 | 8 | Integrated release and approved deployment | 7 cleared | Plan finished by owner; accepted for private delivery with release follow-ups | [No implementation defects; original public gate blocked](reviews/phase-08.md) |
+| 9 | Guided UI, portable saves, continuous duels and tile flips | Owner-approved redesign after plan closure | Cleared after fixes; complete coordinator post-review gates passed | [CLEARED; P9-IR1/P9-IR2 resolved](reviews/phase-09.md) |
 
 For each active phase, maintain a short handoff here: current snapshot, changed
 files, commands/results, report link, unresolved findings, decisions and exact
@@ -1374,3 +1375,97 @@ No new public exposure or shared-server changes are authorized.
 
 Coordinator final verification and delivery results are recorded in
 [the phase-8 report](reviews/phase-08.md#owner-authorized-closure-and-delivery).
+
+### Phase 9 guided redesign — initial developer candidate
+
+Baseline: `b757e872fb2c8b350d8cea73a74adbb923812de1`. This is the owner's
+new approved UI phase after accepted private delivery, not a reopening of public
+release. The later owner amendment requires exactly circle, star, square,
+triangle, hexagon, heart and sun, with one fixed target and indefinite random
+bounded cycles. PLAN records that amendment explicitly.
+The owner's subsequent tile-flip amendment reveals the full authored initial
+on accepted question selection without changing deadlines, repeating on render,
+or animating in reduced-motion mode.
+
+The candidate implements Menu/Options/player/board preparation, human-host sheet
+gating, complete portable save/import, focused non-scrolling gameplay, the
+approved color-only ownership exception and automatic safe input rearming.
+Domain-v2 saves distinguish continuous cycles; validated legacy local games
+remain recoverable. All 36 packs / 1,008 entries are byte-identical.
+
+Detailed acceptance map, root causes, formats/limits, changed files, exact
+coverage membership and limitations: [phase-9 handoff](docs/phase-09-handoff.md).
+Initial full check: **327 tests in 23 files**, formatting/lint/types/build and
+both coverage gates passed. Fourteen negative coverage probes passed with exact
+report restoration. Final Chromium: **266 passed**. Firefox: **123 passed** on
+final production code, plus **44 guided journeys passed** after test-helper
+extraction. Representative screenshots were opened and inspected, including
+both themes/languages, all required viewport sizes, maximum text, native symbols
+and tile initials.
+
+Initial frozen manifest: `.artifacts/phase-09-snapshot.sha256` covers all **78**
+changed/new nonignored files. The developer stopped editing for independent
+review of that snapshot; its findings and correction response follow below.
+
+No commit, push, deployment, new dependency, nested agent or shared-service
+change. Phase-8 naming/public/device/browser/accessibility follow-ups remain.
+**Not cleared:** fresh independent review and coordinator post-review gates are
+still required.
+
+### Phase 9 developer correction response — P9-IR1/P9-IR2
+
+The initial independent CHANGES REQUIRED verdict remains unchanged. Corrections
+are limited to its two findings and their regressions:
+
+- **P9-IR1:** Exit/recovery dismissal now synchronously revokes readiness and
+  detaches owned listeners before native dialog closure. Inputs cannot rearm
+  while an owned modal exists, including its closing interval. Native close
+  callbacks from a previous dialog cannot interrupt a later opportunity.
+- **P9-IR2:** blocking gameplay errors use the existing reserved feedback strip
+  rather than covering required actions. They temporarily replace DOM feedback,
+  retaining the authoritative result and original question deadline.
+
+Both native close-gap reproductions and the portrait clock-error overlap failed
+before the fixes. Focused Chromium passed 86 cases; final focused Firefox passed
+88, including two additional held-key regressions. Focused units passed 66 cases;
+lint and types passed. Full quality passed 331 tests in 23 files, with all 52
+runtime modules included in separate coverage groups. Fifteen negative probes
+passed, restoring the measured report byte-for-byte.
+Final complete Chromium passed **354 journeys (11.3 minutes)**, including all
+52 generated answer-sheet PDFs. Final complete Firefox passed **211 journeys
+(8.3 minutes)**. Both ran sequentially against owned production previews; port
+4182 was closed afterward. Corrective screenshots in both engines were opened
+and inspected. Only documentation changed after these final code-bearing gates;
+final formatting and whitespace checks passed.
+
+Exact final browser gates, fractions, screenshots and changed-file delta are
+recorded in [the correction handoff](docs/phase-09-handoff.md#developer-response-to-initial-review).
+The original `.artifacts/phase-09-snapshot.sha256` remains immutable. The new
+candidate uses `.artifacts/phase-09-rereview.sha256`; next action is the same
+independent reviewer's follow-up, then coordinator post-review gates if cleared.
+It covers **82 changed/new nonignored files**; the correction delta is ten
+modified and four additional files relative to the original manifest.
+The developer has stopped editing for re-review.
+No self-clearance, commit, push, deployment, dependency or shared-service change.
+
+### Phase 9 independent clearance and coordinator post-review
+
+Reviewer `9778527f-5fa3-4f2f-b037-b3a28cb0892c` independently cleared the corrected
+82-file snapshot, fingerprint
+`d5dcfdc527bd3b83887bbf402d83ccfd6611419cc5758bde2fd0ce9f8bf9535b`.
+Original native-dialog race reproductions now pass without waiting away the
+race, and both-engine failure-state geometry checks show readable errors and
+reachable actions. P9-IR1/P9-IR2 are resolved; no new findings or metric exceptions.
+
+The coordinator then ran the complete final suite on the unchanged snapshot:
+**331 tests / 23 files**, **354 Chromium journeys**, **211 Firefox journeys**,
+formatting/lint/types/build and **15 negative coverage probes**, all passing.
+All 52 runtime modules remain in the coverage denominator. Snapshot hashes and
+whitespace checks passed; owned test port 4182 is closed. Only status/report
+documentation was updated afterward.
+
+Exact commands, coverage and independent disposition are in
+[the phase-9 report](reviews/phase-09.md#independent-re-review-cleared).
+The phase is ready for authorized commit/push and automatic private-preview
+delivery. No public exposure, deployment configuration or phase-8 follow-up
+scope change is included.

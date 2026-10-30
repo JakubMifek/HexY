@@ -1,6 +1,33 @@
 import { createGame, transition } from '../src/domain/game.js';
 import { ALPHABETS } from '../src/domain/answers.js';
 import { DEFAULT_QUESTION_TIME_MS } from '../src/domain/config.js';
+import { defaultSetup as defaults } from '../src/ui/setup.js';
+
+/** @param {import('../src/domain/types.js').Language} language */
+export function defaultSetup(language) {
+  return {
+    ...defaults(language),
+    mode: /** @type {const} */ ('letters'),
+    starter: /** @type {const} */ ('A'),
+  };
+}
+
+/** @param {import('../src/domain/types.js').Game} game */
+export function savedGame(game) {
+  return JSON.stringify({
+    format: 'hexy-game',
+    schemaVersion: 1,
+    keys: { A: 'ShiftLeft', B: 'ShiftRight' },
+    game,
+    settings: {
+      ...defaultSetup(game.pack.language),
+      mode: game.pack.mode,
+      answerMode: game.config.answerMode,
+      seconds: game.config.timeLimitMs / 1000,
+      starter: game.config.starter,
+    },
+  });
+}
 
 /** @param {import('../src/domain/types.js').Language} [language]
  * @returns {import('../src/domain/types.js').Pack} */
@@ -51,8 +78,16 @@ export function config(answerMode = 'hosted') {
     duel: {
       previewMs: 100,
       symbolMs: 100,
-      length: 3,
-      symbols: ['circle', 'star', 'square'],
+      length: 7,
+      symbols: [
+        'circle',
+        'star',
+        'square',
+        'triangle',
+        'hexagon',
+        'heart',
+        'sun',
+      ],
     },
   };
 }

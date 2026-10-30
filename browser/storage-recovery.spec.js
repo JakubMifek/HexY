@@ -5,6 +5,7 @@ import {
   setupPreparation,
   starter,
   upload,
+  enterPreparation,
 } from './preparation-helpers.js';
 import { setCell } from './helpers.js';
 
@@ -69,7 +70,6 @@ for (const language of ['en', 'cs']) {
       page.locator('[data-pack-id="oversized-copy"] details'),
     ).not.toHaveAttribute('open');
     await expect(page.locator('#storage-error')).toBeVisible();
-    await page.locator('#start').click();
     const before = await download(
       page,
       info,
@@ -90,6 +90,10 @@ for (const language of ['en', 'cs']) {
       'locked-after.json',
     );
     expect(after.text).toBe(before.text);
+    await page
+      .locator('.library-management')
+      .screenshot({ path: info.outputPath('quota-recovered.png') });
+    await page.locator('#start').click();
     await expect(
       page.locator('#import-packs,#edit-proposal,#prepare-board'),
     ).toHaveCount(0);
@@ -99,9 +103,6 @@ for (const language of ['en', 'cs']) {
     await expect(page.locator('.question-text')).toHaveText(
       normal.questions[0].text,
     );
-    await page
-      .locator('.library-management')
-      .screenshot({ path: info.outputPath('quota-recovered.png') });
     await page.reload();
     await returnFromRecoveredGame(page, normal);
     expect(JSON.parse(await stored(page)).packs).toEqual([normal]);
@@ -115,8 +116,10 @@ for (const language of ['en', 'cs']) {
     const normal = await prepareNormal(page, language);
     const before = await stored(page);
     await denyInitialRead(page);
-    await page.locator('#ui-language').selectOption(language);
+    await page.locator('#options').click();
     await page.locator('#language').selectOption(language);
+    await page.locator('#back-menu').click();
+    await enterPreparation(page);
     const guidance =
       language === 'en'
         ? 'reload, then reimport'
@@ -133,7 +136,9 @@ for (const language of ['en', 'cs']) {
     );
     const copy = JSON.parse(exported.text);
     await page.evaluate(() => sessionStorage.setItem('read-denied', 'no'));
+    await page.locator('#back-players').click();
     await page.locator('#nameA').fill('Retry without reload');
+    await page.locator('#next-setup').click();
     await expect(page.locator('#storage-error')).toContainText(guidance);
     expect(await stored(page)).toBe(before);
     await page
@@ -142,6 +147,7 @@ for (const language of ['en', 'cs']) {
     await page.reload();
     await expect(page.locator('#storage-error')).toHaveCount(0);
     expect(JSON.parse(await stored(page)).packs).toEqual([normal]);
+    await enterPreparation(page);
     await page.locator('#import-packs').setInputFiles(exported.path);
     await expect(page.locator('#storage-error')).toHaveCount(0);
     await expect(page.locator('#preparation-error')).toHaveText('');
@@ -161,8 +167,9 @@ async function returnFromRecoveredGame(page, pack) {
   await expect(
     page.locator('#import-packs,#edit-proposal,#prepare-board'),
   ).toHaveCount(0);
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
+  await enterPreparation(page);
 }
 
 /** @param {import('@playwright/test').Page} page */

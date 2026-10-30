@@ -1,5 +1,10 @@
 import { DomainError, requireValue } from '../domain/errors.js';
-import { recoverGame, validateSave } from '../domain/saves.js';
+import { validateSave } from '../domain/saves.js';
+import {
+  recoverPortable,
+  portableGame,
+  MAX_GAME_BYTES,
+} from '../domain/portable.js';
 import { Downloads } from './downloads.js';
 import { browserGame } from './symbols.js';
 
@@ -14,6 +19,10 @@ export class Recovery {
   /** @type {string | null | undefined} */
   original;
   downloads = new Downloads();
+  /** @type {import('../ui/setup.js').Setup | null} */
+  settings = null;
+  /** @type {{A: string, B: string} | null} */
+  keys = null;
 
   /** @param {() => Storage} [storage] */
   constructor(storage = () => window.localStorage) {
@@ -35,10 +44,13 @@ export class Recovery {
       } catch {
         throw new DomainError('recoveryRead');
       }
-      const state =
+      const restored =
         this.original === null
           ? null
-          : browserGame(recoverGame(this.original, now, sessionId));
+          : recoverPortable(this.original, now, sessionId, true);
+      const state = restored ? browserGame(restored.game) : null;
+      this.settings = restored?.settings ?? null;
+      this.keys = restored?.keys ?? null;
       this.#writable = true;
       return state;
     });
@@ -48,8 +60,12 @@ export class Recovery {
   retrySave(state, now, sessionId) {
     if (this.disposed) return;
     if (!this.#writable) {
+      const settings = this.settings;
+      const keys = this.keys;
       const recovered = this.load(now, sessionId);
       this.#writable = recovered === null;
+      this.settings = settings;
+      this.keys = keys;
     }
     this.save(state);
   }
@@ -61,7 +77,12 @@ export class Recovery {
     this.saved = false;
     this.attempt(() => {
       requireValue(this.writable, 'recoveryBlocked');
-      const json = JSON.stringify(browserGame(validateSave(state)));
+      const game = browserGame(validateSave(state));
+      const json = JSON.stringify(
+        this.settings
+          ? portableGame(game, this.settings, this.keys ?? undefined)
+          : game,
+      );
       this.write(json);
       this.original = json;
       this.saved = true;
@@ -109,21 +130,29 @@ export class Recovery {
     );
   }
 
-  /** @param {Pick<File, 'text'>} file @param {() => number} now @param {() => string} sessionId */
+  /** @param {Pick<File, 'text'> & {size?: number}} file @param {() => number} now @param {() => string} sessionId */
   async import(file, now, sessionId) {
     const generation = ++this.generation;
     let json;
     try {
+      requireValue(
+        file.size === undefined || file.size <= MAX_GAME_BYTES,
+        'gameSize',
+      );
       json = await file.text();
-    } catch {
+    } catch (error) {
       if (!this.disposed && generation === this.generation)
-        this.error = 'fileRead';
+        this.error = error instanceof DomainError ? error.code : 'fileRead';
       return;
     }
     if (this.disposed || generation !== this.generation) return;
     return this.attempt(() => {
       requireValue(this.writable && this.original === null, 'recoveryBlocked');
-      return browserGame(recoverGame(json, now(), sessionId()));
+      const restored = recoverPortable(json, now(), sessionId());
+      const game = browserGame(restored.game);
+      this.settings = restored.settings;
+      this.keys = restored.keys;
+      return game;
     });
   }
 
@@ -133,7 +162,11 @@ export class Recovery {
     const previous = this.error;
     const exported = this.attempt(() => {
       const json = state
-        ? JSON.stringify(validateSave(state), null, 2)
+        ? JSON.stringify(
+            this.settings
+              ? portableGame(state, this.settings, this.keys ?? undefined)
+              : validateSave(state),
+          )
         : this.original;
       requireValue(typeof json === 'string', 'recoveryRead');
       this.downloads.save(

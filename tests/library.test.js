@@ -6,7 +6,7 @@ import {
   validateLibrary,
 } from '../src/runtime/library.js';
 import { validatePreferences } from '../src/domain/preferences.js';
-import { defaultSetup } from '../src/ui/setup.js';
+import { defaultSetup } from './fixtures.js';
 import { bundledPacks } from '../src/content/catalog.js';
 
 function data() {

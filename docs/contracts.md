@@ -1,6 +1,7 @@
 # Domain and playable-adapter contracts
 
-These are version 1 JSON contracts, backed by JSDoc in `src/domain/types.js` and
+Packs/library/input preferences remain version 1; domain games are now version 2,
+inside version-1 complete-game envelopes. Contracts are backed by `src/domain/types.js` and
 runtime validators. Phase 3 added the local custom-pack/settings library;
 phase 4 adds a separate game-recovery adapter and input preferences. JSON serialization
 is `JSON.stringify`; pack import is `importPack`, saved-game parsing and recovery
@@ -30,6 +31,10 @@ Every question has nonempty `id`, `text`, `initial`, `answer`, `category`;
 and nonempty `sources` (source URLs or human-readable provenance notes).
 Each alias itself must be nonempty. Provenance validation checks structure, not
 factual accuracy. Category is an extensible text identifier for custom content.
+Question text is limited to 600 UTF-16 code units and canonical answers to 120.
+The same boundary validates imports, custom edits and recovered packs. Existing
+reviewed content fits unchanged. Oversized older custom data is explicitly rejected,
+preserved for export and must be shortened in a compatible editor; never truncated.
 
 `source` is a source bank of any positive size, not a playable board.
 `numbers` and `letters` are locked preparations with exactly 28 questions;
@@ -119,7 +124,7 @@ in memory: validate/conflict-check the entire batch before adding anything.
 
 Starting snapshots the accepted pack through `createGame`, then locks preparation
 mutators and removes every editing/import/regeneration control. No win or host
-correction unlocks content. New-game confirmation is required to return to setup.
+correction unlocks content. Confirmed Exit Game is required to return to Menu.
 Pending file reads carry both import sequence and content revision; later imports,
 selection/editor changes, start and disposal invalidate stale success/failure
 callbacks. Canceling a file chooser is not reported as a successful import.
@@ -211,8 +216,10 @@ when printing: use the downloaded private sheet instead.
 Before play, only accepted content can produce a sheet. Editing/selection/
 regeneration removes that availability and invalidates acceptance; previously
 downloaded documents cannot be revoked and must be replaced by the new accepted
-sheet. Fresh copy/generation IDs distinguish snapshots. During play both exports
-use `state.pack` exclusively, preserving exact content after host resets/wins.
+sheet. Fresh copy/generation IDs distinguish snapshots. Human-host start/import
+must initiate that exact sheet's download; failures block adoption. Browser APIs
+cannot confirm a disk write. Digital mode offers no sheet. During play only
+complete Save Game is available, using `state.pack`, not the preparation library.
 Downloading or changing presentation preserves a typed draft only while the same
 game opportunity remains current; it does not reset deadlines or reveal aliases
 on the shared screen.
@@ -229,16 +236,18 @@ on the shared screen.
   distinct nonempty `symbols`. `length` is at most 1,000, a resource safety bound,
   not a recommended game duration.
 
-The phase-2 browser supplies a 2,000 ms preview, 900 ms symbol cadence and a
-maximum five-symbol sequence, using circle, triangle, square and star. There
-are no flashes, animated transitions or sound cues; the target is always last,
-at a uniformly selected position from one to five. This is conservative readable
-tuning, not new gameplay rules. Test fixtures also use artificial 100 ms timings
+The browser supplies a 2,000 ms preview and 900 ms symbol cadence with exactly
+circle, star, square, triangle, hexagon, heart and sun. One preselected target
+stays fixed until resolution or interruption. Each bounded random cycle is a
+permutation of all seven; cycles repeat indefinitely without preview/readiness.
+Missed targets do not award or change turns. Ties begin another active random
+cycle with the same target. There are no flashes or sound cues.
+Test fixtures also use artificial 100 ms timings
 solely for deterministic domain tests.
 
-The save is the game object itself:
+The domain game object is:
 
-- `schemaVersion: 1`, complete `pack`, `config`, and 28 `cells`, each `unclaimed`,
+- `schemaVersion: 2`, complete `pack`, `config`, and 28 `cells`, each `unclaimed`,
   `black`, `A` or `B`.
 - `sessionId`: caller-supplied unique runtime scope; never reuse it for another
   game or recovery. The browser supplies `crypto.randomUUID()`.
@@ -252,18 +261,73 @@ deadline}`. Deadline is exactly start + configured limit, even in opponent
     phase; opponent has no countdown.
   - `duel-preview` or `duel-active`, with `round: {cell, originalChooser, target,
 sequence, startsAt}`. Preview ends at `startsAt`; each sequence symbol lasts
-    `symbolMs`. The target appears once at the final position, chosen randomly
-    between one and `length`; prior symbols exclude the target.
+    `symbolMs`. The target appears exactly once at a randomized position in each
+    complete permutation. `length` equals the symbol count. At cycle rollover,
+    `startsAt` advances by complete cycle durations and only the current new
+    permutation is retained. A delayed tick skips elapsed cycles in constant
+    work, preserving cadence; it does not allocate elapsed history.
   - `duel-interrupted`, with `round: {cell, originalChooser}` only.
   - `won`, with `winner` and the sorted IDs of its connected `winningCells`.
 
 Save validation cross-checks round ownership, chooser, deadlines, sequence timing
 and actual connected victories, not just field types. A black cell retains its
 pack position/ID and prefix. Owned cells also keep identity in data; the UI
-hides their labels and displays A/B ownership marks. Runtime resources and DOM
-objects never enter saves. `Recovery` stores this object directly under
-`hexy.game.v1`: no alternative board/turn adjudication or save envelope is used.
-Display names/colors remain in the separately versioned library preferences.
+hides their labels and uses color alone (the approved accessibility exception).
+Runtime resources and DOM objects never enter saves.
+
+`hexy.game.v1` and Save Game now use the same complete portable envelope:
+
+```json
+{
+  "format": "hexy-game",
+  "schemaVersion": 1,
+  "game": { "schemaVersion": 2 },
+  "settings": {
+    "players": {
+      "A": { "name": "Frodo", "color": "#0891b2" },
+      "B": { "name": "Samwise", "color": "#d97706" }
+    },
+    "language": "en",
+    "mode": "letters",
+    "answerMode": "hosted",
+    "starter": "random",
+    "seconds": 30
+  },
+  "keys": { "A": "ShiftLeft", "B": "ShiftRight" }
+}
+```
+
+The abbreviated `game` above must contain every domain field described here.
+`validatePortable` reconstructs and validates game, settings and distinct supported
+keyboard mappings before adoption. Language/board/host/time must match the game;
+starter must be random or match its configured starter. Names allow 30 UTF-16
+code units, colors require six-digit hex. Complete JSON is limited to 2,000,000
+UTF-8 bytes, including an early File-size check. Validation reserves at least
+512 bytes for round data (more for larger generic symbol alphabets), full-width
+future counters/timestamps and a fresh UUID. This prevents a valid pack from
+becoming unexportable when progress grows. Exports are compact JSON, not a
+larger pretty-printed file that would violate the import limit.
+Theme, unsent answers, unrelated
+library packs and runtime controller assignments are not portable.
+
+Tile-flip presentation is also not serialized. An accepted selecting→question
+transition emits a one-render cue for a 480-ms native SVG/CSS flip. The board
+derives the full authored initial from the active question/opponent state,
+including existing alphabet digraphs, and therefore recovers it without replay.
+The deadline starts in the domain transition, not at animation completion;
+there are no animation callbacks driving state. Reduced motion immediately
+reveals the initial. Owned tiles remain color-only; black tiles retain their
+original board identifier. Existing alphabet validation bounds initials without
+adding another text limit or modifying reviewed content.
+
+Only local recovery accepts historical raw domain games. Domain-v1 finite saves
+are first validated with their original sequence/timing rules, then browser
+recovery upgrades known old circle/triangle/square/star configurations to v2 and
+the exact seven-symbol pool. Active duels recover interrupted, preserving board,
+chooser and deadlines; the next safe preview chooses a new target. No shape-name
+substitution is needed. Unknown legacy symbols or invalid v2 pools fail explicitly.
+Future versions are rejected. Raw game files/question-pack JSON are not complete
+portable games and are rejected by Menu Import Game with actionable guidance.
 
 `recoverGame(json, now, freshSessionId)` preserves original question deadlines,
 transfers already-expired questions to the opponent, and converts preview/active
@@ -274,7 +338,7 @@ apply even when numeric revisions happen to coincide. Keep the original file on
 validation failure. Browser-local data is not a backup.
 
 `Recovery.load` revokes write permission before reading and delegates all parsing
-and recovery to `recoverGame`. The app immediately saves a successfully recovered
+and recovery to `recoverPortable`/`recoverGame`. The app immediately saves a successfully recovered
 state with its fresh scope, before rendering. Each subsequent applied transition
 saves before rendering too, including initial selection/deadline, wrong answers,
 host edits and victory. Failure changes only explicit persistence feedback, not
@@ -288,6 +352,11 @@ The UI offers retry, current/original export and confirmed discard; discarding
 compares the current raw record with the observed one before removal. Failed
 removal keeps play open. This is protection against accidental changed-record
 deletion, not multi-tab merging; only one editing tab is supported.
+In gameplay, an explicit unsaved/recovery header action opens these controls
+in a modal instead of obscuring required question text or playable fields.
+The dialog does not pause question time; its export reads the current game,
+not its opening snapshot. Neither this dialog nor Exit confirmation permits
+automatic duel restart while open; closing revokes readiness again.
 
 When discard detects different bytes, it immediately revokes write permission
 and saved status and retains those replacement bytes for raw export. Subsequent
@@ -308,12 +377,13 @@ Saved-game file import is available with empty, writable game storage. It uses
 the same recovery validator and a fresh runtime ID, not an alternate engine.
 Reads carry a generation invalidated by save/load/discard/disposal and later
 imports; obsolete success/failure callbacks are ignored. Imported content locks
-preparation like a locally started/recovered game. Confirmed new-game removal
+preparation like a locally started/recovered game. Hosted imports wait for the
+exact sheet download without entering the setup wizard. Confirmed Exit Game removal
 precedes clearing runtime state; old callbacks cannot resave that game.
 
 Browser adoption additionally validates renderability of **all configured duel
 symbols**, including selecting/interrupted saves with no currently visible symbol.
-`runtime/symbols.js` defines the shared `circle`, `triangle`, `square`, `star`
+`runtime/symbols.js` defines the exact seven-symbol
 glyph alphabet; initial configuration, localized rendering and the recovery
 compatibility check all use it. Domain validation still accepts arbitrary distinct
 nonempty symbols, but an unsupported browser alphabet reports `duelCompatibility`
@@ -351,7 +421,7 @@ The duel input boundary accepts one player's **fresh rising edge** or an atomic
 two-player batch for indistinguishable ties. Release/repeat/held-button filtering,
 timestamp grouping, keyboard mappings and gamepad polling belong to phase-2/4
 adapters, not raw domain actions. A tie replays regardless of player array order.
-Wrong-symbol presses award the opponent; missed targets replay. Preview presses
+Wrong-symbol presses award the opponent; missed targets keep rotating. Preview presses
 are ignored. A symbol boundary advances state/revision before accepting further
 presses, rejecting queued input from the old visual context. An interruption
 takes priority even exactly at a symbol or replay boundary.
@@ -359,11 +429,11 @@ Render the active symbol at index `floor((state.lastNow - startsAt) / symbolMs)`
 advance via `tick` rather than independently changing the visible symbol.
 
 The keyboard adapter defaults to Left Shift for A and Right Shift for B. It
-tracks held keys across preview, visual revisions and focus loss, requiring an
-observed release before a fresh press. Every interruption (including repeated
-focus loss while already interrupted) requires an in-window, focused and visible
-keyup for each mapped key before keyboard restart. Users explicitly press/release both
-keys to recover missed outside keyups. Rearming presses occur with no active
+tracks held keys across preview, visual revisions and focus loss. Every interruption
+(including repeated focus loss while already interrupted) requires fresh in-window,
+focused/visible presses followed by releases from both players. Lone keyups cannot
+authorize restart. A nonrepeating fresh keydown can recover a missed outside keyup;
+physical autorepeat cannot. Rearming presses occur with no active
 duel context, cannot award fields, and never blindly clear the held-key filter.
 Presses with timestamps within 8 ms are
 treated as indistinguishable and delivered atomically after an 8 ms collection
@@ -380,20 +450,21 @@ decremented counter. Each rendered control captures the presented action context
 replaced listeners are aborted. `App.dispose()` stops clocks, aborts keyboard and
 view listeners, closes dialogs and rejects queued work. No animation frames exist.
 
-Focus/visibility loss, assigned-controller loss, input controls and new-game
+Focus/visibility loss, assigned-controller loss and Exit Game
 confirmation invalidate duels while leaving question deadlines unchanged.
-Restart requires separate readiness checkboxes, a focused visible document, and
-observed releases of both mapped keys **or** both touch buzzers. No mapped key,
+Restart is automatic, deferred to a generation- and state-scoped microtask after
+both players' matching fresh press/release gestures. No mapped key,
 touch pointer or assigned controller button may remain held; controllers require
 an observed neutral sample too. Failed restarts have actionable localized
-feedback. No corrections are exposed during interruption. Recovery similarly
+feedback. Repeated interruption, disposal, focus loss or state changes invalidate
+queued restart work. No corrections are exposed during interruption. Recovery similarly
 invalidates preview/active duels, never awarding a field or changing the chooser.
 
 `DuelKeyboard.remap` accepts distinct physical `ShiftLeft`, `ShiftRight`, `Space`
 or `KeyA`–`KeyZ` codes. It requires new releases and drops only irrelevant
 unmapped held codes, preventing an old missed keyup from deadlocking new bindings.
 Mapping errors leave the previous mapping intact, including the displayed value.
-Mapped keys do not capture while an ordinary form control/button has focus;
+Mapped keys do not capture while an editable form control has focus;
 the board/question and dedicated buzzers remain keyboard input surfaces.
 `hexy.inputs.v1` is `{schemaVersion: 1, keys: {A: code, B: code}}`, separate from
 game/library keys. Read/validation failure protects the original and reports
@@ -420,17 +491,16 @@ not rewrite or live-announce the input-test status.
 `DuelTouch` tracks pointer IDs and per-player holds across view replacements.
 Only fresh primary-button pointerdowns on dedicated A/B buzzers enter the shared
 batch. Global pointerup releases; pointercancel cancels pending input and does
-not certify restart readiness. Touch actions on the buzzers suppress native
+not certify restart readiness and interrupts the duel. Touch actions on the buzzers suppress native
 scroll/gesture repetition, not normal page navigation elsewhere. Emulated
 Chromium multi-touch and real `.tap()` UI paths are covered separately from
 synthetic pointer-boundary edge tests.
 
 `Inputs` composes these concrete lifetimes and owns the safe input-test dialog.
-The dialog binds no game input context; opening/closing it interrupts duels,
-requires fresh rearming and cleans up dialog listeners. Normal keyboard/tab/touch
+The preparation-only dialog binds no game input context and cleans up listeners.
+Normal keyboard/tab/touch
 focus is retained; close returns focus to its launcher. Presentation rerenders
-cannot reconnect old batches. Fullscreen rejection carries its original game
-scope so it cannot report stale errors into a replacement game.
+cannot reconnect old batches. There is no application fullscreen API.
 
 Polling, OS/controller latency and keyboard/pointer event dispatch differ.
 The 8 ms tie window is retained, not a promise of perfect cross-device fairness.

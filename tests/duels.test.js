@@ -3,14 +3,14 @@ import { randomStarter } from '../src/domain/config.js';
 import { transition } from '../src/domain/game.js';
 import { act, duel, game } from './fixtures.js';
 
-test('the target is guaranteed within a bounded sequence from injected randomness', () => {
+test('all seven symbols and the target occur exactly once per bounded randomized cycle', () => {
   for (const sample of [0, 0.1, 0.5, 0.999999]) {
     const state = duel(() => sample);
     expect(state.stage.phase).toBe('duel-preview');
     if (state.stage.phase !== 'duel-preview') throw new Error('test setup');
     const round = state.stage.round;
-    expect(round.sequence.length).toBeLessThanOrEqual(3);
-    expect(round.sequence.at(-1)).toBe(round.target);
+    expect(new Set(round.sequence)).toEqual(new Set(state.config.duel.symbols));
+    expect(round.sequence).toHaveLength(7);
     expect(round.sequence.filter((s) => s === round.target)).toHaveLength(1);
   }
 });
@@ -36,7 +36,13 @@ test('a wrong-symbol press awards the opponent, not the original chooser by defa
 test('indistinguishable ties replay without an award or chooser change', () => {
   const active = act(duel(), { type: 'tick' }, 1_100);
   const state = act(active, { type: 'press', players: ['B', 'A'] }, 1_101);
-  expect(state.stage.phase).toBe('duel-preview');
+  expect(state.stage.phase).toBe('duel-active');
+  if (
+    state.stage.phase !== 'duel-active' ||
+    active.stage.phase !== 'duel-active'
+  )
+    throw new Error('active cycle expected');
+  expect(state.stage.round.target).toBe(active.stage.round.target);
   expect(state.cells[0]).toBe('black');
   expect(state.chooser).toBe('A');
   expect(state.revision).toBeGreaterThan(active.revision);
@@ -45,7 +51,7 @@ test('indistinguishable ties replay without an award or chooser change', () => {
 test('a missed target repeats and late presses cannot capture the expired target', () => {
   const active = act(duel(), { type: 'tick' }, 1_100);
   const state = act(active, { type: 'press', players: ['A'] }, 1_200);
-  expect(state.stage.phase).toBe('duel-preview');
+  expect(state.stage.phase).toBe('duel-active');
   expect(state.cells[0]).toBe('black');
   expect(state.chooser).toBe('A');
 });

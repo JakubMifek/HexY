@@ -1,9 +1,10 @@
 import { element } from './dom.js';
 import { strings } from './strings.js';
-import { setupView } from './setup.js';
+import { menuView } from './menu.js';
 import { gameView } from './game.js';
 import { headerView } from './header.js';
-import { recoveryView } from './recovery.js';
+import { recoveryView, recoveryLauncher } from './recovery.js';
+import { duelInputs } from './inputs.js';
 
 /** @param {import('../app.js').App} app @param {AbortSignal} signal */
 export function applicationView(app, signal) {
@@ -15,9 +16,12 @@ export function applicationView(app, signal) {
     (language, theme) => app.changePresentation(language, theme),
     app.state ? () => app.requestNew() : null,
     signal,
+    () => {
+      app.recovery.export(app.state);
+      app.renderPresentation();
+    },
   );
   const main = element('main');
-  main.append(app.inputs.controls(app.language, signal));
   const state = app.state;
   if (state) {
     const context = { sessionId: state.sessionId, revision: state.revision };
@@ -32,33 +36,41 @@ export function applicationView(app, signal) {
       ),
     );
     if (state.stage.phase.startsWith('duel-'))
-      main.querySelector('.question-panel')?.append(app.inputs.buzzers(signal));
-    main.append(app.workspace.view(signal, state.pack));
+      main
+        .querySelector('.question-panel')
+        ?.append(duelInputs(app.inputs, signal));
   } else {
-    main.append(
-      setupView(
-        t,
-        app.settings,
-        (settings) => app.start(settings),
-        signal,
-        () => app.setupChanged(),
-        app.workspace.view(signal, null),
-      ),
-    );
+    main.append(menuView(app, signal));
+    if (
+      (app.workspace.storageError || app.workspace.error) &&
+      app.navigation.page !== 'desk'
+    )
+      main.append(app.workspace.statusView());
   }
-  main.append(
-    recoveryView(
-      app.recovery,
-      state,
-      app.language,
-      () => app.retryRecovery(),
-      () => app.requestNew(),
-      () => app.renderPresentation(),
-      signal,
-      (file) => {
-        void app.importGame(file);
-      },
-    ),
-  );
+  attachRecovery(app, header, main, signal);
   return [header, main, element('p', '', { id: 'error', role: 'alert' })];
+}
+
+/** @param {import('../app.js').App} app @param {HTMLElement} header
+ * @param {HTMLElement} main @param {AbortSignal} signal */
+function attachRecovery(app, header, main, signal) {
+  const state = app.state;
+  if (app.recovery.error || !app.recovery.writable) {
+    if (state)
+      header
+        .querySelector('.header-controls')
+        ?.prepend(recoveryLauncher(app, signal));
+    else
+      main.append(
+        recoveryView(
+          app.recovery,
+          state,
+          app.language,
+          () => app.retryRecovery(),
+          () => app.requestNew(),
+          () => app.renderPresentation(),
+          signal,
+        ),
+      );
+  }
 }

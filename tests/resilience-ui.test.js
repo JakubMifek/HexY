@@ -4,8 +4,8 @@ import { App } from '../src/app.js';
 import { browserClock } from '../src/runtime/clock.js';
 import { GAME_KEY } from '../src/runtime/recovery.js';
 import { INPUT_KEY } from '../src/runtime/inputs.js';
-import { defaultSetup } from '../src/ui/setup.js';
-import { act, duel, question } from './fixtures.js';
+import { act, duel, question, defaultSetup, savedGame } from './fixtures.js';
+import { setting } from './ui-helpers.js';
 
 /** @type {App} */
 let app;
@@ -47,12 +47,30 @@ function mount() {
 }
 /** @param {string} selector */
 function click(selector) {
-  const node = document.querySelector(selector);
+  if (selector === '#input-controls' && !app.state)
+    app.navigation.go('options');
+  if (
+    !document.querySelector(selector) &&
+    [
+      '#retry-recovery',
+      '#discard-save',
+      '#export-original',
+      '#export-game',
+    ].includes(selector)
+  )
+    click('#open-recovery');
+  let node = document.querySelector(selector);
+  const recovery = document.querySelector('.recovery-dialog[open]');
+  if (recovery && node && !recovery.contains(node)) {
+    click('#close-recovery');
+    node = document.querySelector(selector);
+  }
   if (!node) throw new Error(selector);
   node.dispatchEvent(new MouseEvent('click', { bubbles: true }));
 }
 /** @param {string} selector @param {string} value */
 function select(selector, value) {
+  if (setting(app, selector, value)) return;
   const node = document.querySelector(selector);
   if (!(node instanceof HTMLSelectElement)) throw new Error(selector);
   node.value = value;
@@ -76,9 +94,9 @@ test.each([30_999, 31_000, 31_001])(
     expect(app.workspace.model.locked).toBe(true);
     click('#judge-correct');
     expect(app.state?.cells[0]).toBe(now < 31_000 ? 'A' : 'B');
-    expect(JSON.parse(localStorage.getItem(GAME_KEY) ?? '{}').cells[0]).toBe(
-      app.state?.cells[0],
-    );
+    expect(
+      JSON.parse(localStorage.getItem(GAME_KEY) ?? '{}').game.cells[0],
+    ).toBe(app.state?.cells[0]);
   },
 );
 
@@ -99,33 +117,25 @@ test('a backwards clock after display-only elapsed time cannot accept an answer 
   click('#judge-correct');
   expect(app.state).toBe(before);
   expect(document.querySelector('#timer')?.textContent).toBe(timer);
-  expect(document.querySelector('#error')?.textContent).toContain('Hodiny');
+  expect(document.querySelector('#error')?.textContent).toContain('clock');
   vi.setSystemTime(31_000);
   click('#judge-correct');
   expect(app.state?.stage.phase).toBe('opponent');
 });
 
-test('recovered duels require readiness and observed releases; safe input test cannot play', () => {
+test('recovered duels require fresh presses and releases without gameplay control settings', async () => {
   localStorage.setItem(GAME_KEY, JSON.stringify(duel()));
   mount();
   expect(app.state?.stage.phase).toBe('duel-interrupted');
-  click('#input-controls');
+  expect(document.querySelector('#input-controls')).toBeNull();
   window.dispatchEvent(new KeyboardEvent('keydown', { code: 'ShiftLeft' }));
   window.dispatchEvent(new KeyboardEvent('keyup', { code: 'ShiftLeft' }));
-  expect(document.querySelector('#input-test-status')?.textContent).toContain(
-    'A',
-  );
-  click('#close-inputs');
   expect(app.state?.cells[0]).toBe('black');
   for (const code of ['ShiftLeft', 'ShiftRight']) {
     window.dispatchEvent(new KeyboardEvent('keydown', { code }));
     window.dispatchEvent(new KeyboardEvent('keyup', { code }));
   }
-  click('#ready-A');
-  click('#ready-B');
-  document.querySelector('#ready-A')?.dispatchEvent(new Event('change'));
-  document.querySelector('#ready-B')?.dispatchEvent(new Event('change'));
-  click('#restart');
+  await Promise.resolve();
   expect(app.state?.stage.phase).toBe('duel-preview');
 });
 
@@ -164,6 +174,7 @@ test('read retry protects unread originals and deletion failure retains the curr
   read.mockRestore();
   click('#retry-recovery');
   expect(app.recovery.saved).toBe(true);
+  click('#close-recovery');
   const before = app.state;
   const remove = vi
     .spyOn(Storage.prototype, 'removeItem')
@@ -210,11 +221,12 @@ test.each([
     expect(nativeRead.call(localStorage, GAME_KEY)).toBe(bytes);
     expect(app.recovery.saved).toBe(false);
     expect(app.recovery.writable).toBe(false);
+    click('#open-recovery');
     expect(document.querySelector('#game-save-status')?.textContent).toContain(
-      'není uložena',
+      'not saved',
     );
     expect(document.querySelector('#recovery-error')?.textContent).toContain(
-      'nelze přečíst',
+      'could not be read',
     );
     read.mockRestore();
     click('#retry-recovery');
@@ -223,9 +235,9 @@ test.each([
     localStorage.removeItem(GAME_KEY);
     click('#retry-recovery');
     expect(app.recovery.saved).toBe(true);
-    expect(JSON.parse(localStorage.getItem(GAME_KEY) ?? '{}').cells[0]).toBe(
-      'A',
-    );
+    expect(
+      JSON.parse(localStorage.getItem(GAME_KEY) ?? '{}').game.cells[0],
+    ).toBe('A');
   },
 );
 
@@ -235,20 +247,27 @@ test('import recovery uses validation, locks content, and rejects late work afte
   expect(app.state).toBeNull();
   expect(document.querySelector('#recovery-error')).not.toBeNull();
   const interrupted = act(duel(), { type: 'interrupt' });
+  interrupted.pack.questions.forEach((question, index) => {
+    question.text += ` ${index}`;
+  });
+  vi.spyOn(app.workspace.downloads, 'save').mockImplementation(() => {});
   await app.importGame(
-    /** @type {File} */ ({ text: async () => JSON.stringify(interrupted) }),
+    /** @type {File} */ ({ text: async () => savedGame(interrupted) }),
   );
+  expect(app.recovery.error).toBe('');
+  app.navigation.adoptImport();
   expect(app.state?.stage.phase).toBe('duel-interrupted');
   await app.importGame(
-    /** @type {File} */ ({ text: async () => JSON.stringify(question()) }),
+    /** @type {File} */ ({ text: async () => savedGame(question()) }),
   );
   expect(app.state?.stage.phase).toBe('duel-interrupted');
   app.requestNew();
   click('#discard-new');
+  click('#open-import');
   const control = document.querySelector('#import-game');
   control?.dispatchEvent(new Event('change'));
   Object.defineProperty(control, 'files', {
-    value: [{ text: async () => JSON.stringify(question()) }],
+    value: [{ text: async () => savedGame(question('automatic')) }],
   });
   control?.dispatchEvent(new Event('change'));
   await Promise.resolve();
@@ -257,7 +276,7 @@ test('import recovery uses validation, locks content, and rejects late work afte
   app.requestNew();
   click('#discard-new');
   const pending = app.importGame(
-    /** @type {File} */ ({ text: async () => JSON.stringify(question()) }),
+    /** @type {File} */ ({ text: async () => savedGame(question()) }),
   );
   app.dispose();
   await pending;
@@ -359,30 +378,15 @@ test('mocked controller assignment UI validates buttons and exposes disconnect/r
   expect(vi.getTimerCount()).toBe(0);
 });
 
-test('fullscreen success/exit and failure do not mutate game timing or update disposed UI', async () => {
+test('gameplay omits fullscreen and input settings while theme changes preserve timing', () => {
   mount();
   app.start(defaultSetup('en'));
   click('#cell-1');
   const state = app.state;
-  click('#fullscreen');
-  await Promise.resolve();
-  expect(document.querySelector('#device-error')?.textContent).not.toBe('');
-  document.documentElement.requestFullscreen = vi.fn(async () => {});
-  await app.inputs.fullscreen();
-  expect(document.documentElement.requestFullscreen).toHaveBeenCalledOnce();
-  Object.defineProperty(document, 'fullscreenElement', {
-    configurable: true,
-    get: () => document.documentElement,
-  });
-  document.exitFullscreen = vi.fn(async () => {});
-  await app.inputs.fullscreen();
-  expect(document.exitFullscreen).toHaveBeenCalledOnce();
+  expect(document.querySelector('#fullscreen, #input-controls')).toBeNull();
+  click('#theme');
   expect(app.state).toBe(state);
-  document.exitFullscreen = vi.fn(async () => {
-    throw new Error('denied');
-  });
   app.dispose();
-  await app.inputs.fullscreen();
   expect(root.childElementCount).toBe(0);
 });
 
@@ -414,6 +418,7 @@ test.each([
     expect(app.recovery.saved).toBe(false);
     click('#export-original');
     expect(exportFile.mock.calls[1][0]).toBe(replacement);
+    click('#close-recovery');
     app.requestNew();
     click('#cancel-new');
     expect(localStorage.getItem(GAME_KEY)).toBe(replacement);
@@ -435,12 +440,14 @@ test.each([
   async (source, phase) => {
     const state = act(duel(), { type: 'interrupt' });
     if (phase === 'selecting') state.stage = { phase: 'selecting' };
-    state.config.duel.symbols = ['hexagon', 'diamond'];
+    state.config.duel.symbols[0] = 'diamond';
     const json = JSON.stringify(state, null, 2);
     if (source === 'startup') localStorage.setItem(GAME_KEY, json);
     mount();
     if (source === 'file')
-      await app.importGame(/** @type {File} */ ({ text: async () => json }));
+      await app.importGame(
+        /** @type {File} */ ({ text: async () => savedGame(state) }),
+      );
     expect(app.state).toBeNull();
     expect(app.recovery.error).toBe('duelCompatibility');
     expect(localStorage.getItem(GAME_KEY)).toBe(
@@ -485,7 +492,6 @@ test.each(['en', 'cs'])(
     });
     mount();
     select('#ui-language', language);
-    app.start(defaultSetup('en'));
     const game = app.state;
     click('#input-controls');
     app.inputs.assign('A', '1', 0);

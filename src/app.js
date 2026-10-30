@@ -12,6 +12,8 @@ import { strings } from './ui/strings.js';
 import { defaultSetup } from './ui/setup.js';
 import { transitionFeedback } from './ui/game.js';
 import { confirmNewGame } from './ui/header.js';
+import { Navigation } from './runtime/navigation.js';
+import { portableGame } from './domain/portable.js';
 
 export class App {
   disposed = false;
@@ -42,6 +44,8 @@ export class App {
     this.settings = preferences.setup;
     this.language = preferences.language;
     this.theme = preferences.theme;
+    this.settings.language = this.language;
+    this.navigation = new Navigation(this);
     this.timer = new RoundClock(
       clock,
       (state) =>
@@ -57,6 +61,7 @@ export class App {
       clock,
       (action) => this.send(action),
       () => this.interrupt(),
+      () => this.dialog === null,
     );
     this.keyboard = this.inputs.keyboard;
     this.recovery = new Recovery();
@@ -70,7 +75,7 @@ export class App {
     this.guard(() => {
       this.workspace.model.configure(settings);
       const pack = this.workspace.model.packForStart();
-      this.state = createGame(
+      const state = createGame(
         pack,
         {
           answerMode: settings.answerMode,
@@ -82,20 +87,24 @@ export class App {
           duel: {
             previewMs: 2000,
             symbolMs: 900,
-            length: 5,
+            length: 7,
             symbols: Object.keys(DUEL_SYMBOLS),
           },
         },
         this.now(),
         this.sessionId(),
       );
+      portableGame(state, settings, this.keyboard.mapping);
+      this.state = state;
       this.settings = settings;
+      this.language = settings.language;
+      this.recovery.settings = settings;
+      this.recovery.keys = { ...this.keyboard.mapping };
       this.workspace.model.lock();
       this.savePreferences();
       this.recovery.save(this.state);
       this.feedback = {};
       this.render();
-      this.root.querySelector('.game')?.scrollIntoView({ block: 'start' });
       this.timer.bind(this.state);
     });
   }
@@ -143,17 +152,18 @@ export class App {
   }
 
   canRestart() {
-    const blocked =
-      !this.inputs.ready() || document.hidden || !document.hasFocus();
-    if (!blocked) return true;
-    const feedback = this.root.querySelector('#restart-feedback');
-    if (feedback) feedback.textContent = strings[this.language].rearmNeeded;
-    return false;
+    return (
+      this.inputs.ready() && !this.dialog?.open && !this.inputs.dialog?.open
+    );
   }
 
   /** @param {string} language @param {string} theme */
   changePresentation(language, theme) {
-    this.language = language === 'cs' ? 'cs' : 'en';
+    if (!this.state) {
+      this.language = language === 'cs' ? 'cs' : 'en';
+      this.settings.language = this.language;
+      this.workspace.model.configure(this.settings);
+    }
     this.theme = theme;
     this.savePreferences();
     this.renderPresentation();
@@ -178,8 +188,11 @@ export class App {
     const signal = this.viewListeners.signal;
     document.documentElement.lang = this.language;
     document.documentElement.dataset.theme = this.theme;
+    document.documentElement.dataset.playing = String(!!this.state);
+    this.inputs.language = this.language;
     this.inputs.bind(this.state);
     this.root.replaceChildren(...applicationView(this, signal));
+    delete this.feedback.flipCell;
     this.inputs.releaseFeedback();
     this.displayTime(this.clock.now());
     this.restoreFocus(focused);
@@ -190,17 +203,12 @@ export class App {
     if (this.dialog?.open) return;
     const prior = previous ? document.getElementById(previous) : null;
     if (prior && prior.getAttribute('aria-disabled') !== 'true') {
-      prior.focus();
+      prior.focus({ preventScroll: true });
       return;
     }
     const next = this.root.querySelector('#answer, #phase-heading, #nameA');
     if (next instanceof HTMLElement) {
       next.focus({ preventScroll: true });
-      if (this.state && this.state.stage.phase !== 'selecting') {
-        this.root
-          .querySelector('.question-panel')
-          ?.scrollIntoView({ block: 'nearest' });
-      }
     }
   }
 
@@ -228,10 +236,10 @@ export class App {
   }
 
   requestNew() {
-    if (this.disposed || this.dialog?.open) return;
+    if (this.disposed || this.dialog) return;
     const phase = this.state?.stage.phase;
     if (phase === 'duel-active' || phase === 'duel-preview') this.interrupt();
-    this.dialog = confirmNewGame(strings[this.language], () => {
+    this.dialog = confirmNewGame(this, strings[this.language], () => {
       if (this.disposed || !this.recovery.discard()) {
         this.renderPresentation();
         return;
@@ -241,6 +249,7 @@ export class App {
       this.state = null;
       this.workspace.model.unlock();
       this.feedback = {};
+      this.navigation.page = 'menu';
       this.render();
     });
   }
@@ -248,6 +257,7 @@ export class App {
   restore() {
     this.state = this.recovery.load(this.clock.now(), this.sessionId()) ?? null;
     if (!this.state) return;
+    this.navigation.restoreSettings();
     this.workspace.model.lock();
     this.recovery.save(this.state);
     if (this.state.stage.phase === 'duel-interrupted')
@@ -272,14 +282,7 @@ export class App {
       this.sessionId,
     );
     if (this.disposed) return;
-    if (state) {
-      this.state = state;
-      this.workspace.model.lock();
-      this.recovery.save(state);
-      if (state.stage.phase === 'duel-interrupted')
-        this.inputs.requireReleases();
-      this.timer.bind(state);
-    }
+    if (state) this.navigation.imported(state);
     this.renderPresentation();
   }
 
@@ -308,6 +311,7 @@ export class App {
     } catch (error) {
       if (!(error instanceof DomainError)) throw error;
       const alert = this.root.querySelector('#error');
+      this.root.querySelector('#feedback')?.replaceChildren();
       if (alert)
         alert.textContent = `${message(this.language, error.code)} ${strings[this.language].retry}`;
     }

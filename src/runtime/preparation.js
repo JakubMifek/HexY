@@ -43,6 +43,7 @@ export class Preparation {
       return false;
     this.assertEditable();
     this.language = setup.language;
+    this.filters.language = setup.language;
     this.mode = setup.mode;
     this.selected = this.bundled
       .filter((pack) => pack.language === setup.language)

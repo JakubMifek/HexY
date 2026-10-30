@@ -4,7 +4,8 @@ import { Recovery, GAME_KEY } from '../src/runtime/recovery.js';
 import { DomainError } from '../src/domain/errors.js';
 import { validateSave } from '../src/domain/saves.js';
 import { DUEL_SYMBOLS, browserGame } from '../src/runtime/symbols.js';
-import { act, duel, game, question } from './fixtures.js';
+import { MAX_GAME_BYTES, recoverPortable } from '../src/domain/portable.js';
+import { act, duel, game, question, savedGame } from './fixtures.js';
 
 /** @type {Recovery} */
 let recovery;
@@ -15,6 +16,29 @@ beforeEach(() => {
 afterEach(() => {
   recovery.dispose();
   vi.restoreAllMocks();
+});
+
+test('near-limit full-game downloads remain importable after round growth without pretty-print expansion', () => {
+  const data = JSON.parse(savedGame(game()));
+  data.game.pack.questions[0].sources = [''];
+  const base = new TextEncoder().encode(JSON.stringify(data)).length;
+  data.game.pack.questions[0].sources = [
+    'W'.repeat(MAX_GAME_BYTES - base - 700),
+  ];
+  recovery.settings = data.settings;
+  recovery.keys = data.keys;
+  const state = act(data.game, { type: 'select', cell: 1 });
+  const download = vi
+    .spyOn(recovery.downloads, 'save')
+    .mockImplementation(() => {});
+  recovery.export(state);
+  expect(download).toHaveBeenCalledOnce();
+  const json = download.mock.calls[0][0];
+  expect(new TextEncoder().encode(json).length).toBeLessThan(MAX_GAME_BYTES);
+  expect(
+    recoverPortable(json, 1000, '00000000-0000-0000-0000-000000000001').game
+      .stage,
+  ).toEqual(state.stage);
 });
 
 test('browser symbol compatibility shares the default alphabet and guards persistence without changing domain validity', () => {
@@ -29,6 +53,7 @@ test('browser symbol compatibility shares the default alphabet and guards persis
     ['toString', '__proto__'],
   ]) {
     state.config.duel.symbols = symbols;
+    state.config.duel.length = symbols.length;
     expect(validateSave(state).config.duel.symbols).toEqual(symbols);
     recovery.save(state);
     expect(recovery.error).toBe('duelCompatibility');
@@ -89,7 +114,7 @@ test('between-turns, opponent, victory and every duel phase recover through the 
 
 test.each([
   '{',
-  '{"schemaVersion":2}',
+  '{"schemaVersion":3}',
   JSON.stringify({ ...game(), cells: [] }),
 ])(
   'invalid original %s stays exportable and protected until explicit discard',
@@ -255,7 +280,7 @@ test('game export validates real state; failed export is actionable; disposal re
 
 test('saved-game imports are validated, reject occupied storage, and cancel late reads', async () => {
   recovery.load(1000, 'empty');
-  const file = { text: async () => JSON.stringify(question()) };
+  const file = { text: async () => savedGame(question()) };
   const imported = await recovery.import(
     /** @type {File} */ (file),
     () => 31_000,

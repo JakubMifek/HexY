@@ -1,5 +1,20 @@
 import { test, expect } from '@playwright/test';
 import { start, phase, blackDuel } from './helpers.js';
+import { enterPreparation } from './preparation-helpers.js';
+
+async function controls(page) {
+  await expect(page.locator('#input-controls')).toHaveCount(0);
+  await page.locator('#exit-game').click();
+  await page.locator('#discard-new').click();
+  await page.locator('#options').click();
+  await page.locator('#input-controls').click();
+}
+
+async function playAfterControls(page) {
+  await page.locator('#back-menu').click();
+  await enterPreparation(page);
+  await page.locator('#start').click();
+}
 
 /** @param {import('@playwright/test').Page} page @param {string} type
  * @param {{player: string, id: number}[]} touches */
@@ -27,7 +42,7 @@ test('remapping preserves physical sides, rejects conflicts and blocks held/repe
   page,
 }) => {
   await start(page);
-  await page.locator('#input-controls').click();
+  await controls(page);
   await page.locator('#key-A').selectOption('KeyQ');
   await page.locator('#key-B').selectOption('KeyQ');
   await expect(page.locator('#input-error')).toContainText('different');
@@ -36,6 +51,7 @@ test('remapping preserves physical sides, rejects conflicts and blocks held/repe
   await expect(page.locator('#input-test-status')).toContainText('A');
   await page.keyboard.press('KeyP');
   await page.locator('#close-inputs').click();
+  await playAfterControls(page);
   await blackDuel(page);
   await page.keyboard.down('KeyQ');
   await page.clock.runFor(2000);
@@ -48,7 +64,7 @@ test('remapping preserves physical sides, rejects conflicts and blocks held/repe
   await phase(page, 'selecting');
   await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'A');
   await page.reload();
-  await page.locator('#input-controls').click();
+  await controls(page);
   await expect(page.locator('#key-A')).toHaveValue('KeyQ');
   await expect(page.locator('#key-B')).toHaveValue('KeyP');
 });
@@ -70,20 +86,16 @@ test('touch multi-pointer ties, cancel, preview holds and release readiness use 
   ];
   await pointers(page, 'pointerdown', both);
   await page.clock.runFor(8);
-  await phase(page, 'duel-preview');
+  await phase(page, 'duel-active');
   await pointers(page, 'pointerup', both);
-  await page.clock.runFor(2000);
   await pointers(page, 'pointerdown', [{ player: 'A', id: 4 }]);
   await pointers(page, 'pointercancel', [{ player: 'A', id: 4 }]);
   await page.clock.runFor(8);
-  await phase(page, 'duel-active');
+  await phase(page, 'duel-interrupted');
   await page.evaluate(() => window.dispatchEvent(new Event('blur')));
   await phase(page, 'duel-interrupted');
   await pointers(page, 'pointerdown', both);
   await pointers(page, 'pointerup', both);
-  await page.locator('#ready-A').check();
-  await page.locator('#ready-B').check();
-  await page.locator('#restart').click();
   await phase(page, 'duel-preview');
   await page.clock.runFor(2000);
   await page.locator('#buzzer-A').tap();
@@ -100,7 +112,6 @@ test('native Chromium multi-touch starts replay a tie and cancelled gestures do 
   await start(page);
   await blackDuel(page);
   await page.clock.runFor(2000);
-  await page.locator('.touch-controls').scrollIntoViewIfNeeded();
   const points = [];
   for (const [id, player] of ['A', 'B'].entries()) {
     const box = await page.locator(`#buzzer-${player}`).boundingBox();
@@ -113,11 +124,16 @@ test('native Chromium multi-touch starts replay a tie and cancelled gestures do 
     touchPoints: points,
   });
   await page.clock.runFor(8);
-  await phase(page, 'duel-preview');
+  await phase(page, 'duel-active');
   await session.send('Input.dispatchTouchEvent', {
     type: 'touchCancel',
     touchPoints: [],
   });
+  await page.clock.runFor(2000);
+  await phase(page, 'duel-interrupted');
+  await page.keyboard.press('ShiftLeft');
+  await page.keyboard.press('ShiftRight');
+  await phase(page, 'duel-preview');
   await page.clock.runFor(2000);
   await phase(page, 'duel-active');
   await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'black');
@@ -161,7 +177,7 @@ test('mocked Gamepad API assigns buttons explicitly, suppresses holds and interr
   await installGamepad(page);
   await start(page);
   await page.clock.runFor(16);
-  await page.locator('#input-controls').click();
+  await controls(page);
   await page.locator('#device-A').selectOption('1');
   await page.locator('#assign-A').click();
   await page.locator('#device-B').selectOption('1');
@@ -169,6 +185,7 @@ test('mocked Gamepad API assigns buttons explicitly, suppresses holds and interr
   await page.locator('#assign-B').click();
   await page.clock.runFor(16);
   await page.locator('#close-inputs').click();
+  await playAfterControls(page);
   await blackDuel(page);
   await mockButton(page, 0, true);
   await page.clock.runFor(2000);
@@ -182,7 +199,8 @@ test('mocked Gamepad API assigns buttons explicitly, suppresses holds and interr
       );
   });
   await page.clock.runFor(24);
-  await phase(page, 'duel-preview');
+  await phase(page, 'duel-active');
+  await rearmPads(page);
   await page.evaluate(() => window.dispatchEvent(new Event('mock-disconnect')));
   await page.clock.runFor(16);
   await phase(page, 'duel-interrupted');
@@ -191,7 +209,10 @@ test('mocked Gamepad API assigns buttons explicitly, suppresses holds and interr
   );
   await page.evaluate(() => window.dispatchEvent(new Event('mock-connect')));
   await page.clock.runFor(16);
-  await page.locator('#input-controls').click();
+  await page.keyboard.press('ShiftLeft');
+  await page.keyboard.press('ShiftRight');
+  await phase(page, 'duel-interrupted');
+  await controls(page);
   await expect(page.locator('#device-A')).toHaveValue('');
   await expect(page.locator('#device-B')).toHaveValue('');
   await expect(page.locator('#gamepad-settings')).toContainText('disconnected');
@@ -206,6 +227,23 @@ async function mockButton(page, button, pressed) {
   );
 }
 
+/** @param {import('@playwright/test').Page} page */
+async function rearmPads(page) {
+  await page.evaluate(() => window.dispatchEvent(new Event('blur')));
+  for (const button of [0, 1]) await mockButton(page, button, false);
+  await page.clock.runFor(16);
+  await phase(page, 'duel-interrupted');
+  for (const button of [0, 1]) await mockButton(page, button, true);
+  await page.clock.runFor(16);
+  await mockButton(page, 1, false);
+  await page.clock.runFor(16);
+  await phase(page, 'duel-interrupted');
+  await mockButton(page, 0, false);
+  await page.clock.runFor(16);
+  await phase(page, 'duel-preview');
+  await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'black');
+}
+
 for (const language of /** @type {const} */ (['en', 'cs'])) {
   test(`${language} safe gamepad test announces releases for both players only on edges`, async ({
     page,
@@ -213,7 +251,7 @@ for (const language of /** @type {const} */ (['en', 'cs'])) {
     await installGamepad(page);
     await start(page, { language });
     await page.clock.runFor(16);
-    await page.locator('#input-controls').click();
+    await controls(page);
     await page.locator('#device-A').selectOption('1');
     await page.locator('#assign-A').click();
     await page.locator('#device-B').selectOption('1');
@@ -236,8 +274,9 @@ for (const language of /** @type {const} */ (['en', 'cs'])) {
     await page
       .locator('#input-test-status')
       .screenshot({ path: info.outputPath('released-status.png') });
-    await phase(page, 'selecting');
+    await expect(page.locator('.game')).toHaveCount(0);
     await page.locator('#close-inputs').click();
+    await playAfterControls(page);
     await expect(page.locator('#cell-1')).toHaveAttribute(
       'data-owner',
       'unclaimed',

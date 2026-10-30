@@ -1,5 +1,21 @@
 /** @type {Record<string, {en: string, cs: string}>} */
 const messages = {
+  gameFormat: {
+    en: 'Import Game needs a complete HexY game file (hexy-game), not a question pack or an old game without player settings. Import question packs during board preparation. Keep older exports and open them in their original HexY version.',
+    cs: 'Import hry vyžaduje úplný soubor HexY (hexy-game), ne sadu otázek ani starou hru bez nastavení hráčů. Sady importujte při přípravě desky. Starší export zachovejte a otevřete v původní verzi HexY.',
+  },
+  gameMetadata: {
+    en: 'Game settings do not match its locked questions or rules. Nothing was restored. Use an unmodified Save Game export.',
+    cs: 'Nastavení hry neodpovídá uzamčeným otázkám nebo pravidlům. Nic nebylo obnoveno. Použijte nezměněný export Uložit hru.',
+  },
+  gameSize: {
+    en: 'A complete game must fit within 2 MB, including room for progress. Reduce imported metadata or use a smaller pack. Nothing was restored.',
+    cs: 'Celá hra se musí vejít do 2 MB včetně místa pro průběh hry. Zkraťte importovaná metadata nebo použijte menší sadu. Nic nebylo obnoveno.',
+  },
+  playTextLimit: {
+    en: 'Questions may contain at most 600 characters and canonical answers 120, so gameplay stays readable without scrolling. Shorten custom content in preparation. An incompatible local save remains protected; export it before discarding.',
+    cs: 'Otázka smí mít nejvýše 600 znaků a hlavní odpověď 120, aby hra zůstala čitelná bez posouvání. Vlastní obsah zkraťte v přípravě. Nekompatibilní místní hra zůstává chráněná; před smazáním ji exportujte.',
+  },
   duelCompatibility: {
     en: 'This saved game uses duel symbols this browser version cannot display. It was not adopted or saved. Keep the original export and use a compatible HexY version, or explicitly discard it to start a new game.',
     cs: 'Uložená hra používá symboly rozstřelu, které tato verze neumí zobrazit. Hra nebyla převzata ani uložena. Zachovejte původní export a použijte kompatibilní verzi HexY, nebo ji výslovně smažte a začněte novou hru.',
@@ -13,8 +29,8 @@ const messages = {
     cs: 'Hru nelze uložit nebo smazat. Povolte úložiště webu a opakujte akci. Před odchodem exportujte aktuální hru.',
   },
   recoveryQuota: {
-    en: 'Storage is full: the current game is NOT saved. Export the game, reduce the custom library with Manage local saving, then retry saving.',
-    cs: 'Úložiště je plné: aktuální hra NENÍ uložená. Exportujte hru, zmenšete vlastní knihovnu pomocí správy místního ukládání a opakujte uložení.',
+    en: 'Storage is full: the current game is NOT saved. Export before Exit Game. Manage local saving during preparation, then import your saved game.',
+    cs: 'Úložiště je plné: aktuální hra NENÍ uložená. Před ukončením ji exportujte. V přípravě upravte místní ukládání a pak importujte uloženou hru.',
   },
   recoveryBlocked: {
     en: 'Saving is blocked to protect the original game. Retry recovery or export and explicitly discard it.',

@@ -17,13 +17,18 @@ import {
 /** @param {unknown} value @returns {import('./types.js').Game} */
 export function validateSave(value) {
   const data = record(value, 'save');
-  requireValue(data.schemaVersion === 1, 'saveVersion', 'schemaVersion');
+  requireValue(
+    data.schemaVersion === 1 || data.schemaVersion === 2,
+    'saveVersion',
+    'schemaVersion',
+  );
+  const version = /** @type {1 | 2} */ (data.schemaVersion);
   const pack = validatePack(data.pack);
   requireValue(pack.mode !== 'source', 'boardCount', 'pack.mode');
   const cells = list(data.cells, 'cells').map((item) => owner(item, 'cells'));
   requireValue(cells.length === 28, 'boardCount', 'cells');
   const state = {
-    schemaVersion: /** @type {const} */ (1),
+    schemaVersion: /** @type {1 | 2} */ (version),
     sessionId: text(data.sessionId, 'sessionId'),
     pack,
     cells,
@@ -33,6 +38,12 @@ export function validateSave(value) {
     lastNow: integer(data.lastNow, 'lastNow'),
     stage: parseStage(data.stage),
   };
+  if (version === 2)
+    requireValue(
+      state.config.duel.length === state.config.duel.symbols.length,
+      'invalidDuel',
+      'config.duel.length',
+    );
   validateStage(state);
   return state;
 }
@@ -169,12 +180,20 @@ function validateDuelRound(state, stage) {
     'invalidDuel',
     'stage.round.sequence',
   );
-  requireValue(
-    round.sequence.at(-1) === round.target &&
-      round.sequence.filter((symbol) => symbol === round.target).length === 1,
-    'invalidDuel',
-    'stage.round.target',
-  );
+  if (state.schemaVersion === 1)
+    requireValue(
+      round.sequence.at(-1) === round.target &&
+        round.sequence.filter((symbol) => symbol === round.target).length === 1,
+      'invalidDuel',
+      'stage.round.target',
+    );
+  else
+    requireValue(
+      round.sequence.length === config.symbols.length &&
+        new Set(round.sequence).size === config.symbols.length,
+      'invalidDuel',
+      'stage.round.sequence',
+    );
   const endsAt = round.startsAt + round.sequence.length * config.symbolMs;
   requireValue(
     Number.isSafeInteger(endsAt) && state.lastNow < endsAt,

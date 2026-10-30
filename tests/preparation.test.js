@@ -7,7 +7,7 @@ import {
 import { importPack, validatePack } from '../src/domain/packs.js';
 import { Preparation } from '../src/runtime/preparation.js';
 import { bundledPacks } from '../src/content/catalog.js';
-import { defaultSetup } from '../src/ui/setup.js';
+import { defaultSetup } from './fixtures.js';
 import { createGame } from '../src/domain/game.js';
 import { recoverGame } from '../src/domain/saves.js';
 import { act, config } from './fixtures.js';

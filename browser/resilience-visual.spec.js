@@ -44,6 +44,10 @@ for (const viewport of [
         );
         await page.reload();
         await phase(page, 'selecting');
+        await expect(page.locator('#input-controls')).toHaveCount(0);
+        await page.locator('#exit-game').click();
+        await page.locator('#discard-new').click();
+        await page.locator('#options').click();
         await page.locator('#input-controls').click();
         await expect(page.locator('dialog')).toBeVisible();
         const dialog = await page.locator('dialog').boundingBox();

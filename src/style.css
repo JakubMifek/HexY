@@ -396,19 +396,8 @@ main {
   fill: #142638;
   pointer-events: none;
 }
-.cell.black .cell-label,
-.cell.black .black-mark {
+.cell.black .cell-label {
   fill: white;
-}
-.cell .black-mark {
-  font-size: 12px;
-}
-.cell .owner-mark {
-  fill: #142638;
-  stroke: #fff;
-  stroke-width: 5px;
-  paint-order: stroke;
-  stroke-linejoin: round;
 }
 .cell.winning .hex-base {
   stroke: var(--focus);

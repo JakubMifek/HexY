@@ -29,7 +29,7 @@
  * {phase: 'duel-interrupted', round: Round} |
  * {phase: 'won', winner: Player, winningCells: number[]}} Stage
  * @typedef {{
- * schemaVersion: 1, sessionId: string, pack: Pack, config: GameConfig, cells: Owner[],
+ * schemaVersion: 1 | 2, sessionId: string, pack: Pack, config: GameConfig, cells: Owner[],
  * chooser: Player, revision: number, lastNow: number, stage: Stage
  * }} Game
  * @typedef {{

@@ -6,7 +6,7 @@ import { LocalLibrary } from './runtime/library.js';
 import { Downloads } from './runtime/downloads.js';
 import { defaultSetup } from './ui/setup.js';
 import { preparationStrings } from './ui/preparation-strings.js';
-import { preparationView, downloadControls } from './ui/preparation.js';
+import { preparationView } from './ui/preparation.js';
 import { editorView } from './ui/editor.js';
 import { answerSheet } from './ui/answer-sheet.js';
 import { element } from './ui/dom.js';
@@ -151,10 +151,11 @@ export class Workspace {
 
   /** @param {import('./domain/types.js').Pack} pack @param {boolean} [sheet] */
   download(pack, sheet = false) {
-    if (this.disposed) return;
+    if (this.disposed) return false;
+    let success = false;
     try {
       const content = sheet
-        ? answerSheet(pack, this.preferences.language)
+        ? answerSheet(pack, pack.language)
         : JSON.stringify(validatePack(pack), null, 2);
       const extension = sheet ? 'html' : 'json';
       this.downloads.save(
@@ -163,45 +164,40 @@ export class Workspace {
         sheet ? 'text/html;charset=utf-8' : 'application/json',
       );
       this.error = '';
+      success = true;
     } catch (error) {
       if (!(error instanceof DomainError)) throw error;
       this.error = error.code;
     }
     this.changed();
+    return success;
   }
 
-  /** @param {AbortSignal} signal @param {import('./domain/types.js').Pack | null} lockedPack */
-  view(signal, lockedPack) {
+  /** @param {AbortSignal} signal */
+  view(signal) {
     const t = preparationStrings[this.preferences.language];
     const section = element('div', '', { class: 'workspace' });
     const download = (
       /** @type {import('./domain/types.js').Pack} */ pack,
       sheet = false,
     ) => this.download(pack, sheet);
-    if (lockedPack) {
+    const run = (/** @type {() => void} */ action) => this.run(action);
+    section.append(
+      preparationView(
+        t,
+        this.model,
+        run,
+        (files) => {
+          void this.importFiles(files);
+        },
+        download,
+        signal,
+      ),
+    );
+    if (this.model.editing)
       section.append(
-        element('p', t.locked),
-        downloadControls(t, lockedPack, download, signal),
+        editorView(t, this.model, run, () => this.saveEditor(), signal),
       );
-    } else {
-      const run = (/** @type {() => void} */ action) => this.run(action);
-      section.append(
-        preparationView(
-          t,
-          this.model,
-          run,
-          (files) => {
-            void this.importFiles(files);
-          },
-          download,
-          signal,
-        ),
-      );
-      if (this.model.editing)
-        section.append(
-          editorView(t, this.model, run, () => this.saveEditor(), signal),
-        );
-    }
     section.append(
       libraryView(
         t,

@@ -4,10 +4,10 @@ import { start, phase, setCell, blackDuel } from './helpers.js';
 const KEY = 'hexy.game.v1';
 /** @param {import('@playwright/test').Page} page */
 async function saved(page) {
-  return page.evaluate(
-    (key) => JSON.parse(localStorage.getItem(key) ?? '{}'),
-    KEY,
-  );
+  return page.evaluate((key) => {
+    const value = JSON.parse(localStorage.getItem(key) ?? '{}');
+    return value.game ?? value;
+  }, KEY);
 }
 
 for (const delta of [-1, 0, 1]) {
@@ -41,8 +41,7 @@ test('selection, host-created win and post-win removal recover locked content an
   page,
 }) => {
   await start(page);
-  await page.locator('#host-chooser').selectOption('B');
-  await page.locator('#set-chooser').click();
+  await page.locator('#choose-B').click();
   for (const cell of [1, 2, 4, 7, 11, 16, 22]) await setCell(page, cell, 'A');
   await phase(page, 'won');
   const before = await saved(page);
@@ -75,47 +74,45 @@ for (const stage of ['duel-preview', 'duel-active', 'duel-interrupted']) {
     const recovered = await saved(page);
     expect(recovered.cells).toEqual(before.cells);
     expect(recovered.chooser).toBe(before.chooser);
-    await page.locator('#ready-A').check();
-    await page.locator('#ready-B').check();
-    await page.locator('#restart').click();
+    await expect(page.locator('#restart, #ready-A, #ready-B')).toHaveCount(0);
     await phase(page, 'duel-interrupted');
-    await expect(page.locator('#restart-feedback')).not.toBeEmpty();
+    await expect(page.locator('.question-panel')).toContainText(
+      'press and release',
+    );
     for (const code of ['ShiftLeft', 'ShiftRight'])
       await page.keyboard.press(code);
-    await page.locator('#restart').click();
     await phase(page, 'duel-preview');
     expect((await saved(page)).cells).toEqual(before.cells);
   });
 }
 
-test('controls, focus loss, fullscreen and reload never add time; new-game confirmation removes recovery', async ({
+test('theme, focus loss and reload never add time; exit confirmation removes recovery', async ({
   page,
 }) => {
   await start(page);
   await page.locator('#cell-1').click();
   const before = await saved(page);
-  await page.locator('#input-controls').click();
+  await page.locator('#theme').click();
   await page.clock.runFor(10_000);
-  await page.locator('#close-inputs').click();
   await page.evaluate(() => window.dispatchEvent(new Event('blur')));
-  await page.locator('#fullscreen').click();
+  await expect(page.locator('#fullscreen, #input-controls')).toHaveCount(0);
   expect((await saved(page)).stage.round.deadline).toBe(
     before.stage.round.deadline,
   );
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.clock.runFor(20_000);
   await phase(page, 'opponent');
   await page.locator('#cancel-new').click();
   await page.reload();
   await phase(page, 'opponent');
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
   expect(
     await page.evaluate((key) => localStorage.getItem(key), KEY),
   ).toBeNull();
   await page.clock.runFor(60_000);
   await page.reload();
-  await expect(page.locator('#start')).toBeVisible();
+  await expect(page.locator('#new-game')).toBeVisible();
   await expect(page.locator('.game')).toHaveCount(0);
 });
 
@@ -151,7 +148,9 @@ for (const language of ['en', 'cs']) {
       expect(
         await page.evaluate((key) => localStorage.getItem(key), KEY),
       ).toBeNull();
+      await page.locator('#open-import').click();
       await expect(page.locator('#import-game')).toBeAttached();
+      await page.locator('#back-menu').click();
     }
   });
 }
@@ -163,13 +162,15 @@ test('game export/reimport uses the actual format, retains deadline, and does no
   await page.locator('#cell-1').click();
   const before = await saved(page);
   const pending = page.waitForEvent('download');
-  await page.locator('#export-game').click();
+  await page.locator('#save-game').click();
   const path = info.outputPath('saved-game.json');
   await (await pending).saveAs(path);
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
   await page.clock.setSystemTime(before.stage.round.deadline);
+  await page.locator('#open-import').click();
   await page.locator('#import-game').setInputFiles(path);
+  await page.locator('#import-play').click();
   await phase(page, 'opponent');
   expect((await saved(page)).pack).toEqual(before.pack);
   await page.reload();
@@ -189,6 +190,7 @@ test('write quota failure keeps the saved deadline/original and reports unsaved 
     };
   }, KEY);
   await page.locator('#cell-1').click();
+  await page.locator('#open-recovery').click();
   await expect(page.locator('#game-save-status')).toContainText('not saved');
   await expect(page.locator('#recovery-error')).toContainText('NOT saved');
   expect(await page.evaluate((key) => localStorage.getItem(key), KEY)).toBe(
@@ -197,9 +199,7 @@ test('write quota failure keeps the saved deadline/original and reports unsaved 
   await page.reload();
   await phase(page, 'selecting');
   await page.locator('#cell-1').click();
-  await expect(page.locator('#game-save-status')).toContainText(
-    'saved locally',
-  );
+  await expect(page.locator('#recovery-error')).toHaveCount(0);
 });
 
 test('clock rollback on reload preserves the original save until the clock is restored', async ({
@@ -244,8 +244,12 @@ for (const language of /** @type {const} */ (['en', 'cs'])) {
     await expect(page.locator('#recovery-error')).toContainText(
       language === 'en' ? 'could not be read' : 'nelze přečíst',
     );
+    await page.locator('#new-game').click();
+    await page.locator('#next-setup').click();
+    await page.locator('#mode-letters').click();
     await page.locator('#start').click();
     await phase(page, 'selecting');
+    await page.locator('#open-recovery').click();
     await expect(page.locator('#game-save-status')).toContainText(
       language === 'en' ? 'not saved' : 'není uložena',
     );

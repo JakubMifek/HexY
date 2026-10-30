@@ -5,8 +5,9 @@ import {
   setupPreparation,
   verifySheet,
   inspectPrintedSheet,
+  nextPreparation,
 } from './preparation-helpers.js';
-import { phase, setCell } from './helpers.js';
+import { phase, setCell, setTheme } from './helpers.js';
 
 const packs = readdirSync('src/content')
   .filter((name) => name.endsWith('.json'))
@@ -21,7 +22,7 @@ async function chooseBoard(page, id) {
 }
 
 async function verifySelectedNumbers(page, info, pack) {
-  await page.locator('#mode').selectOption('numbers');
+  await page.locator('#mode-numbers').click();
   await chooseBoard(page, pack.id);
   const exported = await download(page, info, '#export-pack', 'numbers.json');
   const numbers = JSON.parse(exported.text);
@@ -54,7 +55,7 @@ for (const pack of packs) {
     await page.locator('#import-packs').setInputFiles(fixed.path);
     await expect(page.locator('#preparation-error')).toHaveText('');
     await verifySelectedNumbers(page, info, pack);
-    await page.locator('#mode').selectOption('letters');
+    await page.locator('#mode-letters').click();
     await chooseBoard(page, pack.id);
     if (
       pack.id === `geography-${pack.language}-02` ||
@@ -67,23 +68,16 @@ for (const pack of packs) {
         'entertainment',
       ].includes(pack.questions[0].category)
     ) {
-      const html = await download(
-        page,
-        info,
-        '#answer-sheet',
-        'fixed-sheet.html',
-      );
+      const html = await download(page, info, '#start', 'fixed-sheet.html');
       await inspectPrintedSheet(context, info, html.path, pack);
-    }
-    await page.locator('#start').click();
+    } else await page.locator('#start').click();
     await phase(page, 'selecting');
     await page.reload();
     await phase(page, 'selecting');
     expect(
       JSON.parse(
-        (await download(page, info, '#export-pack', 'recovered-fixed.json'))
-          .text,
-      ),
+        (await download(page, info, '#save-game', 'recovered-fixed.json')).text,
+      ).game.pack,
     ).toEqual(pack);
     await expect(
       page.locator('#catalog-results,#import-packs,#prepare-board'),
@@ -103,7 +97,7 @@ for (const language of ['cs', 'en']) {
     context,
   }, info) => {
     await setupPreparation(page, language);
-    await page.locator('#mode').selectOption('numbers');
+    await page.locator('#mode-numbers').click();
     await page.locator('#clear-sources').click();
     await page.locator('#catalog-language').selectOption(language);
     await page.locator('#catalog-category').selectOption('nature');
@@ -127,14 +121,14 @@ for (const language of ['cs', 'en']) {
       ),
     ).toEqual(new Set(expectedIds));
     expect(new Set(generated.questions.map((q) => q.id)).size).toBe(28);
-    const html = await download(page, info, '#answer-sheet', 'chosen-mix.html');
+    const html = await download(page, info, '#start', 'chosen-mix.html');
     const sheet = await context.newPage();
     await sheet.goto(`file://${html.path}`);
     await verifySheet(sheet, generated);
     await sheet.close();
+    await nextPreparation(page, 'numbers', 'automatic');
     await page.locator('#reset-catalog').click();
-    await expect(page.locator('#answer-sheet')).toBeEnabled();
-    await page.locator('#answerMode').selectOption('automatic');
+    await expect(page.locator('#answer-sheet')).toHaveCount(0);
     await page.locator('#start').click();
     await page.locator('#cell-1').click();
     await page.locator('#answer').fill(generated.questions[0].answer);
@@ -156,7 +150,7 @@ for (const viewport of [
       }, info) => {
         await page.setViewportSize(viewport);
         await setupPreparation(page, language);
-        await page.locator('#theme').selectOption(theme);
+        await setTheme(page, theme);
         await page.locator('#catalog-search').focus();
         await page.keyboard.type('geography');
         await expect(page.locator('#catalog-search')).toBeFocused();
@@ -169,7 +163,7 @@ for (const viewport of [
           (await page.locator('#catalog-results label').first().boundingBox())
             ?.height,
         ).toBeGreaterThanOrEqual(44);
-        await expect(page.locator('#answer-sheet')).toBeEnabled();
+        await expect(page.locator('#start')).toBeEnabled();
         await page.locator('.catalog').scrollIntoViewIfNeeded();
         for (const id of [
           'catalog-search',

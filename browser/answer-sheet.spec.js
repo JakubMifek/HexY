@@ -27,7 +27,7 @@ for (const language of ['cs', 'en']) {
         'https://example.org/last',
       ];
       await upload(page, [source]);
-      await page.locator('#mode').selectOption(mode);
+      await page.locator(`#mode-${mode}`).click();
       await selectSources(page, [source.id]);
       await page.locator('#prepare-board').click();
       await page.locator('#accept-board').click();
@@ -37,14 +37,9 @@ for (const language of ['cs', 'en']) {
       expect(pack.mode).toBe(mode);
       if (mode === 'numbers')
         expect(pack.questions[0].id).not.toBe(source.questions[0].id);
-      const sheet = await download(
-        page,
-        info,
-        '#answer-sheet',
-        'source-sheet.html',
-      );
+      const sheet = await download(page, info, '#start', 'source-sheet.html');
       await inspectPrintedSheet(context, info, sheet.path, pack);
-      await expect(page.locator('#answer-sheet')).toBeEnabled();
+      await expect(page.locator('#answer-sheet, #export-pack')).toHaveCount(0);
     });
   }
 }

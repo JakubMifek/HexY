@@ -59,9 +59,10 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
           'B',
         );
         await chooser(page, 'A');
-        await expect(page.locator('#mode')).toHaveCount(0);
-        await expect(page.locator('#language')).toHaveCount(0);
-        await expect(page.locator('.content-lock')).toBeVisible();
+        await expect(page.locator('#mode, #language')).toHaveCount(0);
+        await expect(
+          page.locator('.workspace, #export-pack, #answer-sheet'),
+        ).toHaveCount(0);
       });
     }
   }
@@ -74,10 +75,10 @@ test('deadline is exact after wrong answers, theme/language changes, focus loss 
   await page.locator('#cell-1').click();
   await page.clock.runFor(1000);
   await page.locator('#judge-wrong').click();
-  await page.locator('#theme').selectOption('dark');
-  await page.locator('#ui-language').selectOption('cs');
+  await page.locator('#theme').click();
+  await expect(page.locator('#ui-language')).toHaveCount(0);
   await page.evaluate(() => window.dispatchEvent(new Event('blur')));
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.clock.runFor(1999);
   await phase(page, 'question');
   await expect(page.locator('#timer')).toHaveText('1 s');
@@ -102,8 +103,7 @@ test('host corrections create/reopen victory, preserve chooser, restore the orig
     path: info.outputPath('winning-connection.png'),
     fullPage: true,
   });
-  await page.locator('#host-chooser').selectOption('B');
-  await page.locator('#set-chooser').click();
+  await page.locator('#choose-B').click();
   await phase(page, 'won');
   await setCell(page, 1, 'unclaimed');
   await phase(page, 'selecting');
@@ -115,9 +115,9 @@ test('host corrections create/reopen victory, preserve chooser, restore the orig
   await page.locator('#judge-correct').click();
   await chooser(page, 'A');
   await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'B');
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
-  await expect(page.locator('#start')).toBeVisible();
+  await expect(page.locator('#new-game')).toBeVisible();
   await page.clock.runFor(60_000);
   await expect(page.locator('.game')).toHaveCount(0);
 });
@@ -161,9 +161,15 @@ test('late queued initial action cannot answer on behalf of the opponent', async
 test('manual and random starters honor configuration', async ({ page }) => {
   await start(page, { starter: 'random', random: 0.99 });
   await chooser(page, 'B');
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
+  await page.locator('#options').click();
   await page.locator('#starter').selectOption('B');
+  await page.locator('#back-menu').click();
+  await page.locator('#new-game').click();
+  await page.locator('#nameB').fill('Boris');
+  await page.locator('#next-setup').click();
+  await page.locator('#mode-letters').click();
   await page.locator('#start').click();
   await chooser(page, 'B');
 });

@@ -9,8 +9,9 @@ import {
   editFixed,
   inspectPrintedSheet,
   importTwoBanks,
+  nextPreparation,
 } from './preparation-helpers.js';
-import { phase, setCell } from './helpers.js';
+import { phase, setCell, setTheme } from './helpers.js';
 
 for (const language of ['en', 'cs']) {
   test(`${language}: fixed custom editor, real exports/reimports, print mapping and game lock`, async ({
@@ -19,9 +20,7 @@ for (const language of ['en', 'cs']) {
   }, info) => {
     await setupPreparation(page, language);
     const original = await starter(language);
-    await page
-      .locator('#theme')
-      .selectOption(language === 'en' ? 'dark' : 'light');
+    await setTheme(page, language === 'en' ? 'dark' : 'light');
     await editFixed(page);
     const exported = await download(
       page,
@@ -34,18 +33,12 @@ for (const language of ['en', 'cs']) {
       original.questions.map((q) => q.initial),
     );
     expect(pack.questions[0].id).toBe(original.questions[0].id);
-    const html = await download(
-      page,
-      info,
-      '#answer-sheet',
-      'edited-fixed.html',
-    );
-    await inspectPrintedSheet(context, info, html.path, pack);
     await page.locator('#import-packs').setInputFiles(exported.path);
     await selectSources(page, [pack.id]);
     await page.locator('#prepare-board').click();
     await page.locator('#accept-board').click();
-    await page.locator('#start').click();
+    const html = await download(page, info, '#start', 'edited-fixed.html');
+    await inspectPrintedSheet(context, info, html.path, pack);
     await phase(page, 'selecting');
     await expect(
       page.locator(
@@ -56,10 +49,10 @@ for (const language of ['en', 'cs']) {
     const locked = await download(
       page,
       info,
-      '#export-pack',
+      '#save-game',
       'played-fixed.json',
     );
-    expect(JSON.parse(locked.text)).toEqual(pack);
+    expect(JSON.parse(locked.text).game.pack).toEqual(pack);
     await setCell(page, 1, 'A');
     await setCell(page, 1, 'unclaimed');
     await page.locator('#cell-1').click();
@@ -67,9 +60,7 @@ for (const language of ['en', 'cs']) {
       pack.questions[0].text,
     );
     await expect(page.locator('.question-text img')).toHaveCount(0);
-    expect(
-      (await download(page, info, '#answer-sheet', 'played-fixed.html')).text,
-    ).toBe(html.text);
+    await expect(page.locator('#answer-sheet, #export-pack')).toHaveCount(0);
   });
 }
 
@@ -79,7 +70,7 @@ test('multi-source numbers use only eligible selected content and preserve priva
 }, info) => {
   await setupPreparation(page);
   await importTwoBanks(page);
-  await page.locator('#mode').selectOption('numbers');
+  await page.locator('#mode-numbers').click();
   await selectSources(page, ['private-one', 'private-two']);
   await page.locator('#prepare-board').click();
   await expect(page.locator('#acceptance')).toContainText('Not accepted');
@@ -112,17 +103,12 @@ test('multi-source numbers use only eligible selected content and preserve priva
   await selectSources(page, [pack.id]);
   await page.locator('#use-numbers').click();
   await page.locator('#accept-board').click();
-  const html = await download(
-    page,
-    info,
-    '#answer-sheet',
-    'numbers-sheet.html',
-  );
+  const html = await download(page, info, '#start', 'numbers-sheet.html');
   const sheet = await context.newPage();
   await sheet.goto(`file://${html.path}`);
   await verifySheet(sheet, pack);
   await sheet.close();
-  await page.locator('#answerMode').selectOption('automatic');
+  await nextPreparation(page, 'numbers', 'automatic');
   await page.locator('#start').click();
   await page.locator('#cell-2').click();
   await page.locator('#answer').fill('custom typed alias');
@@ -139,7 +125,7 @@ test('insufficient, mixed-language, repeated text and conflicting IDs cannot sil
   short.mode = 'source';
   short.questions = short.questions.slice(0, 27);
   await upload(page, [short]);
-  await page.locator('#mode').selectOption('numbers');
+  await page.locator('#mode-numbers').click();
   await selectSources(page, [short.id]);
   await page.locator('#prepare-board').click();
   await expect(page.locator('#preparation-error')).toContainText(

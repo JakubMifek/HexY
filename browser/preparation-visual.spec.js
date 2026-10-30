@@ -1,5 +1,6 @@
 import { expect, test } from '@playwright/test';
 import { setupPreparation } from './preparation-helpers.js';
+import { setTheme } from './helpers.js';
 
 for (const viewport of [
   { width: 1280, height: 720 },
@@ -13,7 +14,7 @@ for (const viewport of [
     }, info) => {
       await page.setViewportSize(viewport);
       await setupPreparation(page, viewport.width < 1280 ? 'cs' : 'en');
-      await page.locator('#theme').selectOption(theme);
+      await setTheme(page, theme);
       await page.locator('.preparation').scrollIntoViewIfNeeded();
       await page.screenshot({
         path: info.outputPath('preparation.png'),
@@ -52,7 +53,7 @@ for (const viewport of [
       await page.locator('#cancel-edit').click();
       await expect(page.locator('#answer-sheet')).toHaveCount(0);
       await page.locator('#accept-board').click();
-      await expect(page.locator('#answer-sheet')).toBeEnabled();
+      await expect(page.locator('#start')).toBeEnabled();
     });
   }
 }

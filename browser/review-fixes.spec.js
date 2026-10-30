@@ -19,11 +19,8 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
       ),
     );
     await page.keyboard.up('ShiftLeft');
-    await page.locator('#ready-A').check();
-    await page.locator('#ready-B').check();
-    await page.locator('#restart').click();
     await phase(page, 'duel-interrupted');
-    await expect(page.locator('#restart-feedback')).toContainText(
+    await expect(page.locator('.question-panel')).toContainText(
       language === 'en' ? 'press and release' : 'stiskněte a pusťte',
     );
     await page.screenshot({
@@ -31,7 +28,6 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
       fullPage: true,
     });
     await page.keyboard.press('ShiftLeft');
-    await page.locator('#restart').click();
     await phase(page, 'duel-interrupted');
     await page.keyboard.press('ShiftRight');
     await page.clock.runFor(8);
@@ -39,11 +35,6 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
       'data-owner',
       'black',
     );
-    await page.keyboard.down('ShiftLeft');
-    await page.locator('#restart').click();
-    await phase(page, 'duel-interrupted');
-    await page.keyboard.up('ShiftLeft');
-    await page.locator('#restart').click();
     await phase(page, 'duel-preview');
     await page.keyboard.down('ShiftRight');
     await page.clock.runFor(2000);
@@ -69,9 +60,9 @@ for (const opportunity of ['question', 'opponent']) {
     if (opportunity === 'opponent') await page.locator('#give-up').click();
     await page.locator('#answer').fill('  Ath? <draft>  ');
     await page.clock.runFor(1000);
-    await page.locator('#theme').selectOption('dark');
+    await page.locator('#theme').click();
     await expect(page.locator('#answer')).toHaveValue('  Ath? <draft>  ');
-    await page.locator('#ui-language').selectOption('cs');
+    await page.locator('#theme').click();
     await expect(page.locator('#answer')).toHaveValue('  Ath? <draft>  ');
     await expect(page.locator('body')).not.toContainText('Athens');
     await page.screenshot({
@@ -148,10 +139,11 @@ for (const theme of ['light', 'dark']) {
     page,
   }, info) => {
     await start(page, { theme, answers: 'automatic' });
-    await page.locator('#new-game').click();
+    await page.locator('#exit-game').click();
     await page.locator('#discard-new').click();
+    await page.locator('#options').click();
     const measured = [];
-    for (const selector of ['#nameA', '#seconds', '#mode', '#ui-language']) {
+    for (const selector of ['#seconds', '#starter', '#language']) {
       const colors = await controlColors(page.locator(selector));
       expect(colors.width).toBeGreaterThanOrEqual(1);
       expect(contrast(colors.border, colors.inside)).toBeGreaterThanOrEqual(3);
@@ -163,6 +155,17 @@ for (const theme of ['light', 'dark']) {
         outsideRatio: contrast(colors.border, colors.outside),
       });
     }
+    await page.locator('#back-menu').click();
+    await page.locator('#new-game').click();
+    const nameColors = await controlColors(page.locator('#nameA'));
+    expect(
+      contrast(nameColors.border, nameColors.inside),
+    ).toBeGreaterThanOrEqual(3);
+    expect(
+      contrast(nameColors.border, nameColors.outside),
+    ).toBeGreaterThanOrEqual(3);
+    await page.locator('#next-setup').click();
+    await page.locator('#mode-letters').click();
     await page.locator('#start').click();
     await page.locator('#cell-1').click();
     const colors = await controlColors(page.locator('#answer'));

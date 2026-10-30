@@ -1,13 +1,14 @@
 import { message } from '../messages.js';
-import { button, element, field, input } from './dom.js';
+import { button, element } from './dom.js';
 import { deviceStrings } from './device-strings.js';
+import { mountGameDialog } from './game-dialog.js';
 
 /** @param {import('../runtime/recovery.js').Recovery} recovery
  * @param {import('../domain/types.js').Game | null} state
  * @param {import('../domain/types.js').Language} language
  * @param {() => void} retry @param {() => void} discard
  * @param {() => void} changed @param {AbortSignal} signal
- * @param {(file: File) => void} importGame */
+ * @param {() => import('../domain/types.js').Game | null} [current] */
 export function recoveryView(
   recovery,
   state,
@@ -16,7 +17,7 @@ export function recoveryView(
   discard,
   changed,
   signal,
-  importGame,
+  current = () => state,
 ) {
   const t = deviceStrings[language];
   const panel = element('section', '', { class: 'recovery panel' });
@@ -34,21 +35,20 @@ export function recoveryView(
         role: 'alert',
       }),
     );
-  panel.append(exportControls(recovery, state, t, changed, signal));
+  panel.append(exportControls(recovery, current, t, changed, signal));
   if (!recovery.writable || recovery.error)
     panel.append(button(t.retryRecovery, 'retry-recovery', retry, signal));
   if (recovery.original !== null && !recovery.writable)
     panel.append(button(t.discardSave, 'discard-save', discard, signal));
-  if (!state && recovery.writable && recovery.original === null)
-    panel.append(importControl(t, importGame, signal));
   return panel;
 }
 
 /** @param {import('../runtime/recovery.js').Recovery} recovery
- * @param {import('../domain/types.js').Game | null} state
+ * @param {() => import('../domain/types.js').Game | null} current
  * @param {import('./device-strings.js').DeviceTexts} t
  * @param {() => void} changed @param {AbortSignal} signal */
-function exportControls(recovery, state, t, changed, signal) {
+function exportControls(recovery, current, t, changed, signal) {
+  const state = current();
   const panel = element('div', '', { class: 'actions' });
   if (state || typeof recovery.original === 'string')
     panel.append(
@@ -56,7 +56,7 @@ function exportControls(recovery, state, t, changed, signal) {
         t.exportGame,
         'export-game',
         () => {
-          recovery.export(state);
+          recovery.export(current());
           changed();
         },
         signal,
@@ -77,20 +77,53 @@ function exportControls(recovery, state, t, changed, signal) {
   return panel;
 }
 
-/** @param {import('./device-strings.js').DeviceTexts} t
- * @param {(file: File) => void} importGame @param {AbortSignal} signal */
-function importControl(t, importGame, signal) {
-  const file = input('import-game', 'file', '');
-  file.accept = '.json,application/json';
-  file.addEventListener(
-    'change',
-    () => {
-      const chosen = file.files?.[0];
-      if (chosen) importGame(chosen);
-    },
-    { signal },
+/** @param {import('../app.js').App} app @param {AbortSignal} signal */
+export function recoveryLauncher(app, signal) {
+  const t = deviceStrings[app.language];
+  const control = button(
+    `! ${app.recovery.saved ? t.recovery : t.unsavedShort}`,
+    'open-recovery',
+    () => openRecovery(app),
+    signal,
   );
-  const label = field(t.importGame, file);
-  label.className = 'file-import';
-  return label;
+  control.setAttribute(
+    'aria-label',
+    `${t.recovery}: ${app.recovery.saved ? t.saved : t.unsaved}`,
+  );
+  control.setAttribute('aria-live', 'polite');
+  return control;
+}
+
+/** @param {import('../app.js').App} app */
+function openRecovery(app) {
+  if (app.disposed || app.dialog) return;
+  app.interrupt();
+  const dialog = document.createElement('dialog');
+  const lifecycle = new AbortController();
+  const t = deviceStrings[app.language];
+  const signal = lifecycle.signal;
+  dialog.setAttribute('aria-label', t.recovery);
+  dialog.className = 'recovery-dialog';
+  const refresh = () =>
+    dialog.replaceChildren(
+      recoveryView(
+        app.recovery,
+        app.state,
+        app.language,
+        () => {
+          app.retryRecovery();
+          refresh();
+        },
+        () => {
+          close();
+          app.requestNew();
+        },
+        refresh,
+        signal,
+        () => app.state,
+      ),
+      button(t.close, 'close-recovery', () => close(), signal),
+    );
+  refresh();
+  const close = mountGameDialog(app, dialog, lifecycle, 'open-recovery');
 }

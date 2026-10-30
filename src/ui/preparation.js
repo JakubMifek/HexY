@@ -13,10 +13,7 @@ export function preparationView(t, model, run, importFiles, download, signal) {
     class: 'preparation panel',
     'aria-labelledby': 'preparation-heading',
   });
-  panel.append(
-    element('h2', t.preparation, { id: 'preparation-heading' }),
-    element('p', t.privacy),
-  );
+  panel.append(element('h2', t.preparation, { id: 'preparation-heading' }));
   panel.append(
     catalogView(t, model, run, signal),
     sourceActions(t, model, run, download, signal),
@@ -33,7 +30,14 @@ export function preparationView(t, model, run, importFiles, download, signal) {
   );
   const importLabel = field(t.import, files);
   importLabel.className = 'file-import';
-  panel.append(importLabel, element('p', t.importHelp));
+  const tools = element('details', '', { class: 'preparation-tools' });
+  tools.append(
+    element('summary', t.import),
+    importLabel,
+    element('p', t.importHelp),
+    element('p', t.privacy),
+  );
+  panel.append(tools);
   if (model.proposal)
     panel.append(proposalView(t, model, run, download, signal));
   return panel;
@@ -123,12 +127,14 @@ function proposalView(t, model, run, download, signal) {
       signal,
     ),
   );
-  if (model.accepted)
-    actions.append(downloadControls(t, model.accepted, download, signal));
-  else
-    actions.append(
-      button(t.export, 'export-pack', () => download(pack), signal),
-    );
+  actions.append(
+    button(
+      t.export,
+      'export-pack',
+      () => download(model.accepted ?? pack),
+      signal,
+    ),
+  );
   const details = document.createElement('details');
   details.append(
     element('summary', `${t.proposal} · ${pack.questions.length}`),
@@ -141,16 +147,4 @@ function proposalView(t, model, run, download, signal) {
   details.append(list);
   section.append(actions, details);
   return section;
-}
-
-/** @param {Texts} t @param {import('../domain/types.js').Pack} pack
- * @param {(pack: import('../domain/types.js').Pack, sheet?: boolean) => void} download
- * @param {AbortSignal} signal */
-export function downloadControls(t, pack, download, signal) {
-  const controls = element('div', '', { class: 'actions downloads' });
-  controls.append(
-    button(t.export, 'export-pack', () => download(pack), signal),
-    button(t.sheet, 'answer-sheet', () => download(pack, true), signal),
-  );
-  return controls;
 }

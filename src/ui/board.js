@@ -5,8 +5,8 @@ const HEX = '0,-28 24.25,-14 24.25,14 0,28 -24.25,14 -24.25,-14';
 
 /** @param {import('../domain/types.js').Game} state
  * @param {import('./setup.js').Setup} settings @param {import('./strings.js').Texts} t
- * @param {(cell: number) => void} choose @param {AbortSignal} signal */
-export function boardView(state, settings, t, choose, signal) {
+ * @param {(cell: number) => void} choose @param {AbortSignal} signal @param {number} [flipCell] */
+export function boardView(state, settings, t, choose, signal, flipCell) {
   const board = svg('svg', {
     viewBox: '-190 -36 380 354',
     role: 'group',
@@ -15,7 +15,7 @@ export function boardView(state, settings, t, choose, signal) {
   });
   board.append(boardDefs());
   for (const cell of BOARD) {
-    const group = cellView(state, settings, t, cell);
+    const group = cellView(state, settings, t, cell, flipCell);
     wireCell(
       group,
       cell.id,
@@ -33,14 +33,11 @@ export function boardView(state, settings, t, choose, signal) {
 
 /** @param {import('../domain/types.js').Game} state
  * @param {import('./setup.js').Setup} settings @param {import('./strings.js').Texts} t
- * @param {typeof BOARD[number]} cell */
-function cellView(state, settings, t, cell) {
+ * @param {typeof BOARD[number]} cell @param {number | undefined} flipCell */
+function cellView(state, settings, t, cell, flipCell) {
   const owner = state.cells[cell.id - 1];
   const owned = owner === 'A' || owner === 'B';
-  const label =
-    state.pack.mode === 'letters'
-      ? state.pack.questions[cell.id - 1].initial
-      : String(cell.id);
+  const { label, initial } = tileLabels(state, cell.id);
   const available = !owned && state.stage.phase === 'selecting';
   const group = svg('g', {
     transform: `translate(${cell.x * 29},${cell.y * 29})`,
@@ -48,36 +45,61 @@ function cellView(state, settings, t, cell) {
     role: 'button',
     tabindex: available ? '0' : '-1',
     'aria-disabled': String(!available),
-    'aria-label': `${t.cell} ${cell.id} · ${cellDescription(owner, label, settings, t)}`,
+    'aria-label': `${t.cell} ${cell.id} · ${cellDescription(owner, initial ?? label, settings, t)}`,
     class: `cell ${owner}${isWinning(state, cell.id) ? ' winning' : ''}`,
     'data-owner': owner,
   });
   const fill = owned ? settings.players[owner].color : `var(--cell-${owner})`;
   group.append(
+    tileFace(fill, owned ? null : label, initial, flipCell === cell.id),
+  );
+  return group;
+}
+
+/** @param {import('../domain/types.js').Game} state @param {number} id */
+function tileLabels(state, id) {
+  const question = state.pack.questions[id - 1];
+  const label = state.pack.mode === 'letters' ? question.initial : String(id);
+  const stage = state.stage;
+  const selected =
+    (stage.phase === 'question' || stage.phase === 'opponent') &&
+    stage.round.cell === id;
+  return { label, initial: selected ? question.initial : null };
+}
+
+/** @param {string} fill @param {string | null} label @param {string | null} initial @param {boolean} flip */
+function tileFace(fill, label, initial, flip) {
+  const flipping = flip && initial !== null;
+  const face = svg('g', {
+    class: `tile-face${flipping ? ' flipping' : ''}`,
+    'aria-hidden': 'true',
+  });
+  face.append(
     svg('polygon', { points: HEX, fill, class: 'hex-base' }),
     svg('polygon', { points: HEX, fill: 'url(#gloss)', class: 'hex-gloss' }),
     svg('path', { d: 'M-22,-13 L0,-26 L22,-13', class: 'bevel' }),
   );
-  group.append(
-    svg(
-      'text',
-      {
-        y: '7',
-        'text-anchor': 'middle',
-        class: owned ? 'owner-mark' : 'cell-label',
-      },
-      owned ? owner : label,
-    ),
-  );
-  if (owner === 'black')
-    group.append(
+  if (label !== null)
+    face.append(
       svg(
         'text',
-        { y: '20', 'text-anchor': 'middle', class: 'black-mark' },
-        '×',
+        {
+          y: initial === null ? '7' : '9',
+          'text-anchor': 'middle',
+          class: `cell-label${initial === null ? '' : ' revealed-initial'}`,
+        },
+        initial ?? label,
       ),
     );
-  return group;
+  if (flipping)
+    face.append(
+      svg(
+        'text',
+        { y: '7', 'text-anchor': 'middle', class: 'tile-before' },
+        label ?? '',
+      ),
+    );
+  return face;
 }
 
 function boardDefs() {

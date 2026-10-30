@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { setCell, start } from './helpers.js';
+import { blackDuel, setCell, start } from './helpers.js';
 
 for (const viewport of [
   { width: 1280, height: 720 },
@@ -22,6 +22,7 @@ for (const viewport of [
       const panel = await page.locator('.question-panel').boundingBox();
       if (!board || !panel) throw new Error('Missing layout');
       expect(panel.y).toBeGreaterThanOrEqual(board.y + board.height);
+      expect(panel.y + panel.height).toBeLessThanOrEqual(viewport.height);
       await expect(page.locator('.question-text')).toContainText(
         'organických látek',
       );
@@ -38,12 +39,21 @@ for (const viewport of [
       await page.screenshot({ path: info.outputPath('question-viewport.png') });
       await page.locator('#answer').fill('fotosynteza');
       await page.locator('#submit-answer').click();
-      await expect(page.locator('#cell-7 .owner-mark')).toHaveText('A');
-      await page.locator('.board').scrollIntoViewIfNeeded();
+      await expect(page.locator('#cell-7 text')).toHaveCount(0);
+      await expect(page.locator('#cell-7')).toHaveAccessibleName(/Vlastník A/);
       await page.screenshot({
         path: info.outputPath('board-captured.png'),
         fullPage: true,
       });
+      await blackDuel(page);
+      await page.clock.runFor(2000);
+      const duelBoard = await page.locator('.board').boundingBox();
+      const duelPanel = await page.locator('.question-panel').boundingBox();
+      if (!duelBoard || !duelPanel) throw new Error('Missing duel layout');
+      expect(duelPanel.y).toBeGreaterThanOrEqual(
+        duelBoard.y + duelBoard.height,
+      );
+      await page.screenshot({ path: info.outputPath('duel-whole-board.png') });
     });
   }
 }
@@ -64,20 +74,24 @@ test('English hosted numbers keep custom white ownership and black fields distin
   page,
 }, info) => {
   await start(page, { mode: 'numbers', theme: 'dark' });
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
+  await page.locator('#new-game').click();
   await page.locator('#colorA').fill('#ffffff');
   await page.locator('#colorB').fill('#ffffff');
   await page.screenshot({
     path: info.outputPath('setup-english-dark.png'),
     fullPage: true,
   });
+  await page.locator('#next-setup').click();
+  await page.locator('#mode-numbers').click();
   await page.locator('#start').click();
   await setCell(page, 1, 'A');
   await setCell(page, 2, 'B');
   await setCell(page, 3, 'black');
-  await expect(page.locator('#cell-1 .owner-mark')).toHaveText('A');
-  await expect(page.locator('#cell-2 .owner-mark')).toHaveText('B');
+  await expect(page.locator('#cell-1 text, #cell-2 text')).toHaveCount(0);
+  await expect(page.locator('#cell-1')).toHaveAccessibleName(/Owned by A/);
+  await expect(page.locator('#cell-2')).toHaveAccessibleName(/Owned by B/);
   await expect(page.locator('#cell-1 .hex-base')).toHaveAttribute(
     'fill',
     '#ffffff',
@@ -87,7 +101,6 @@ test('English hosted numbers keep custom white ownership and black fields distin
     '#ffffff',
   );
   await expect(page.locator('#cell-3')).toHaveAccessibleName(/3.*Black/);
-  await page.locator('.board').scrollIntoViewIfNeeded();
   await page.screenshot({
     path: info.outputPath('custom-colors-numbers.png'),
     fullPage: true,

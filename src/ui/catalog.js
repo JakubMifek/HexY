@@ -161,8 +161,16 @@ function sourceRow(t, model, pack, bundledIds) {
       ),
     ),
   ].join(', ');
-  return field(
-    `${pack.title} · ${pack.language} · ${categories} · ${pack.questions.length} · ${origin}`,
-    box,
+  const label = element('label');
+  const description = element('span', '', { class: 'deck-description' });
+  description.append(
+    element('strong', pack.title),
+    element(
+      'span',
+      ` · ${pack.language} · ${categories} · ${pack.questions.length} · ${origin}`,
+      { class: 'deck-meta' },
+    ),
   );
+  label.append(box, description);
+  return label;
 }

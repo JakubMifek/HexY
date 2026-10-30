@@ -4,14 +4,38 @@ import { verifyPrintedSheet } from './pdf-helpers.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
 
 /** @param {import('@playwright/test').Page} page
- * @param {'en'|'cs'} [language] */
-export async function setupPreparation(page, language = 'en') {
+ * @param {'en'|'cs'} [language] @param {number} [seconds] */
+export async function setupPreparation(page, language = 'en', seconds = 30) {
   await page.addInitScript(() => {
     Math.random = () => 0;
   });
   await page.goto('/');
-  await page.locator('#ui-language').selectOption(language);
+  await page.locator('#options').click();
   await page.locator('#language').selectOption(language);
+  await page.locator('#starter').selectOption('A');
+  await page.locator('#seconds').fill(String(seconds));
+  await page.locator('#back-menu').click();
+  await page.locator('#new-game').click();
+  await page.locator('#next-setup').click();
+  await page.locator('#mode-letters').click();
+  await page.locator('#catalog-language').selectOption('');
+}
+
+/** @param {import('@playwright/test').Page} page @param {string} mode @param {string} answers */
+export async function nextPreparation(page, mode, answers) {
+  await page.locator('#exit-game').click();
+  await page.locator('#discard-new').click();
+  await page.locator('#new-game').click();
+  await page.locator('#answerMode').selectOption(answers);
+  await page.locator('#next-setup').click();
+  await page.locator(`#mode-${mode}`).click();
+}
+
+/** @param {import('@playwright/test').Page} page @param {string} [mode] */
+export async function enterPreparation(page, mode = 'letters') {
+  await page.locator('#new-game').click();
+  await page.locator('#next-setup').click();
+  await page.locator(`#mode-${mode}`).click();
 }
 
 /** @param {'cs'|'en'} language */
@@ -35,6 +59,7 @@ export async function upload(page, packs) {
 
 /** @param {import('@playwright/test').Page} page @param {string[]} ids */
 export async function selectSources(page, ids) {
+  await page.locator('#catalog-language').selectOption('');
   const selected = await page
     .locator('.pack-sources input:checked')
     .evaluateAll((nodes) => nodes.map((node) => node.getAttribute('id')));

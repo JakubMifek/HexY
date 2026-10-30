@@ -134,6 +134,10 @@ or promise browser-local data is a backup. Keep bundled assets immutable.
 - Use semantic controls, keyboard navigation, visible focus and appropriate
   accessible names for the SVG board and host controls.
 - Distinguish ownership and black/unclaimed states by more than color alone.
+  Phase 9 has an explicit owner-approved exception: no visible owner symbols or
+  player-specific border styles, and no black ×. Preserve accessible ownership
+  names, focus and win feedback; disclose the reduced color-vision accessibility
+  as specified in `PLAN.md`.
 - Target WCAG 2.2 AA contrast; controls should have at least 44 CSS-pixel touch
   targets where feasible. Record and justify any constrained exception.
 - Respect reduced motion. Do not announce every timer tick to screen readers.

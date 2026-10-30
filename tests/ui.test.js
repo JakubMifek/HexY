@@ -2,7 +2,8 @@
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { App } from '../src/app.js';
 import { browserClock } from '../src/runtime/clock.js';
-import { defaultSetup } from '../src/ui/setup.js';
+import { defaultSetup } from './fixtures.js';
+import { prepare, setting } from './ui-helpers.js';
 
 /** @type {App} */
 let app;
@@ -43,10 +44,9 @@ test('the entry point mounts the real app and pagehide disposes its resources', 
   app.dispose();
   root.id = 'app';
   await import('../src/main.js');
-  expect(document.querySelector('#start')).not.toBeNull();
-  document.querySelector('form')?.requestSubmit();
-  click('#cell-1');
-  expect(document.querySelector('#timer')).not.toBeNull();
+  expect(document.querySelector('#new-game')).not.toBeNull();
+  click('#new-game');
+  expect(document.querySelector('#nameA')).not.toBeNull();
   window.dispatchEvent(new Event('pagehide'));
   vi.advanceTimersByTime(60_000);
   expect(root.childElementCount).toBe(0);
@@ -54,20 +54,16 @@ test('the entry point mounts the real app and pagehide disposes its resources', 
 });
 
 test('invalid setup and empty typed answers have localized errors without advancing play', () => {
-  set('#seconds', '0');
-  document.querySelector('form')?.requestSubmit();
+  click('#options');
+  const seconds = document.querySelector('#seconds');
+  if (!(seconds instanceof HTMLInputElement)) throw new Error('seconds');
+  seconds.value = '0';
+  seconds.dispatchEvent(new Event('input'));
   expect(app.state).toBeNull();
   expect(document.querySelector('#setup-error')?.textContent).toContain(
     'Zadejte',
   );
-  set('#ui-language', 'en');
-  document.querySelector('form')?.requestSubmit();
-  expect(document.querySelector('#setup-error')?.textContent).toContain(
-    'Enter',
-  );
-  set('#seconds', '30');
-  set('#answerMode', 'automatic');
-  document.querySelector('form')?.requestSubmit();
+  app.start({ ...defaultSetup('en'), answerMode: 'automatic' });
   click('#cell-1');
   document.querySelector('form')?.requestSubmit();
   expect(app.state?.stage.phase).toBe('question');
@@ -97,6 +93,7 @@ test('a delayed distinguishable second key retains its old context after the fir
 
 /** @param {string} selector */
 function click(selector) {
+  if (selector === '#new-game' && app.state) selector = '#exit-game';
   const node = document.querySelector(selector);
   if (!node) throw new Error(`Missing control ${selector}`);
   node.dispatchEvent(new MouseEvent('click', { bubbles: true }));
@@ -104,6 +101,7 @@ function click(selector) {
 
 /** @param {string} selector @param {string} value */
 function set(selector, value) {
+  if (setting(app, selector, value)) return;
   const node = document.querySelector(selector);
   if (!(node instanceof HTMLInputElement || node instanceof HTMLSelectElement))
     throw new Error(selector);
@@ -127,6 +125,7 @@ function correct(cell, owner) {
 }
 
 test('setup preserves edits through language/theme changes and locks content at start', () => {
+  prepare(app);
   set('#nameA', '<b>Ada</b>');
   set('#nameB', 'Boris');
   set('#colorA', '#ffffff');
@@ -140,13 +139,10 @@ test('setup preserves edits through language/theme changes and locks content at 
   set('#theme', 'dark');
   expect(document.documentElement.lang).toBe('en');
   expect(document.documentElement.dataset.theme).toBe('dark');
-  expect(document.querySelector('#nameA')).toHaveProperty(
-    'value',
-    '<b>Ada</b>',
-  );
+  expect(app.settings.players.A.name).toBe('<b>Ada</b>');
   click('#prepare-board');
   click('#accept-board');
-  document.querySelector('form')?.requestSubmit();
+  click('#start');
   expect(app.state?.config).toMatchObject({
     answerMode: 'automatic',
     timeLimitMs: 5000,
@@ -168,7 +164,7 @@ test('hosted wrong attempts retain deadline, opponent gets one untimed opportuni
   click('#judge-wrong');
   expect(app.state?.stage).toEqual(stage);
   expect(document.querySelector('#feedback')?.textContent).toContain(
-    'Nepřijato',
+    'Not accepted',
   );
   expect(document.querySelector('#set-cell')).toBeNull();
   vi.advanceTimersByTime(20_000);
@@ -199,7 +195,7 @@ test('typed aliases, unsuccessful attempts and give-up follow recipient-based tu
   expect(app.state?.chooser).toBe('A');
   expect(
     document.querySelector('#cell-2')?.getAttribute('aria-label'),
-  ).toContain('Černé');
+  ).toContain('Black');
 });
 
 test('host corrections are independent, immediately detect wins, reopen and reuse questions', () => {
@@ -207,8 +203,7 @@ test('host corrections are independent, immediately detect wins, reopen and reus
   for (const cell of [1, 2, 4, 7, 11, 16, 22]) correct(cell, 'A');
   expect(app.state?.stage.phase).toBe('won');
   expect(document.querySelectorAll('.winning')).toHaveLength(7);
-  set('#host-chooser', 'B');
-  click('#set-chooser');
+  click('#choose-B');
   correct(28, 'B');
   expect(app.state?.stage.phase).toBe('won');
   correct(1, 'unclaimed');
@@ -220,39 +215,33 @@ test('host corrections are independent, immediately detect wins, reopen and reus
   );
   click('#judge-correct');
   expect(app.state?.cells[0]).toBe('B');
-  expect(document.querySelector('#cell-1 text')?.textContent).toBe('B');
+  expect(document.querySelector('#cell-1 text')).toBeNull();
 });
 
-test('duel interruption never awards; readiness must be separate, released and focused', () => {
+test('duel interruption automatically restarts after genuine focused press and release by both players', async () => {
   app.start(defaultSetup('en'));
   correct(1, 'black');
   click('#cell-1');
-  expect(document.querySelector('#duel-target')?.textContent).toContain('Kruh');
+  expect(document.querySelector('#duel-target')?.textContent).toContain(
+    'Circle',
+  );
   vi.advanceTimersByTime(2000);
   expect(document.querySelector('#duel-current')?.textContent).toContain(
-    'Kruh',
+    'Circle',
   );
   window.dispatchEvent(new Event('blur'));
   expect(app.state?.stage.phase).toBe('duel-interrupted');
   expect(document.querySelector('#set-cell')).toBeNull();
-  const a = document.querySelector('#ready-A');
-  const b = document.querySelector('#ready-B');
-  if (!(a instanceof HTMLInputElement) || !(b instanceof HTMLInputElement))
-    throw new Error('readiness');
-  a.checked = true;
-  a.dispatchEvent(new Event('change'));
-  expect(document.querySelector('#restart')).toHaveProperty('disabled', true);
-  b.checked = true;
-  b.dispatchEvent(new Event('change'));
+  expect(document.querySelector('#ready-A, #ready-B, #restart')).toBeNull();
   vi.spyOn(document, 'hasFocus').mockReturnValue(false);
-  click('#restart');
+  send({ type: 'restart' });
   expect(app.state?.stage.phase).toBe('duel-interrupted');
   vi.spyOn(document, 'hasFocus').mockReturnValue(true);
   for (const code of ['ShiftLeft', 'ShiftRight']) {
     window.dispatchEvent(new KeyboardEvent('keydown', { code }));
     window.dispatchEvent(new KeyboardEvent('keyup', { code }));
   }
-  click('#restart');
+  await Promise.resolve();
   expect(app.state?.stage.phase).toBe('duel-preview');
   expect(app.state?.cells[0]).toBe('black');
 });
@@ -271,7 +260,7 @@ test.each(['question', 'opponent'])(
       '  Ath? <test>  ',
     );
 
-    set('#ui-language', 'en');
+    set('#theme', 'light');
     expect(document.querySelector('#answer')).toHaveProperty(
       'value',
       '  Ath? <test>  ',
@@ -302,19 +291,17 @@ test('another focus loss invalidates release confirmations even while already in
     sessionId: previous.sessionId,
     revision: previous.revision,
   });
-  expect(document.querySelector('#restart-feedback')?.textContent).toBe('');
+  expect(document.querySelector('#error')?.textContent).toBe('');
   vi.spyOn(document, 'hasFocus').mockReturnValue(true);
   for (const code of ['ShiftLeft', 'ShiftRight']) {
     window.dispatchEvent(new KeyboardEvent('keydown', { code }));
     window.dispatchEvent(new KeyboardEvent('keyup', { code }));
   }
   window.dispatchEvent(new Event('blur'));
-  click('#ready-A');
-  click('#ready-B');
-  click('#restart');
+  send({ type: 'restart' });
   expect(app.state?.stage.phase).toBe('duel-interrupted');
-  expect(document.querySelector('#restart-feedback')?.textContent).toContain(
-    'stiskněte a pusťte',
+  expect(document.querySelector('.question-panel')?.textContent).toContain(
+    'press and release',
   );
   expect(app.state?.cells[0]).toBe('black');
 });
@@ -335,7 +322,7 @@ test('new game confirmation does not pause questions and discarded callbacks can
   oldJudge?.dispatchEvent(new MouseEvent('click'));
   vi.advanceTimersByTime(60_000);
   expect(app.state).toBeNull();
-  expect(document.querySelector('#start')).not.toBeNull();
+  expect(document.querySelector('#new-game')).not.toBeNull();
   expect(vi.getTimerCount()).toBe(0);
 });
 
@@ -355,13 +342,11 @@ test('unavailable corrections and backwards clock errors are localized without c
   const state = app.state;
   send({ type: 'set-cell', cell: 1, owner: 'A' });
   expect(app.state).toBe(state);
-  expect(document.querySelector('#error')?.textContent).toContain(
-    'Úpravy hostitele',
-  );
+  expect(document.querySelector('#error')?.textContent).toContain('Host');
   vi.setSystemTime(999);
   click('#judge-correct');
   expect(app.state).toBe(state);
-  expect(document.querySelector('#error')?.textContent).toContain('Hodiny');
+  expect(document.querySelector('#error')?.textContent).toContain('clock');
   vi.setSystemTime(1000);
   click('#judge-correct');
   expect(app.state?.cells[0]).toBe('A');

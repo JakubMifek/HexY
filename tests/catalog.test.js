@@ -2,7 +2,7 @@
 import { afterEach, expect, test } from 'vitest';
 import { bundledPacks, filterPacks } from '../src/content/catalog.js';
 import { Preparation } from '../src/runtime/preparation.js';
-import { defaultSetup } from '../src/ui/setup.js';
+import { defaultSetup } from './fixtures.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
 import { catalogView } from '../src/ui/catalog.js';
 
@@ -77,10 +77,10 @@ test.each(/** @type {const} */ (['cs', 'en']))(
   (language) => {
     const { model } = setup(language);
     expect(document.querySelectorAll('#catalog-results input')).toHaveLength(
-      36,
+      18,
     );
     expect(document.getElementById('catalog-status')?.textContent).toContain(
-      '36 / 36',
+      '18 / 36',
     );
     filter('catalog-language', language);
     expect(document.querySelectorAll('#catalog-results input')).toHaveLength(

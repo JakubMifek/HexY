@@ -1,5 +1,38 @@
 import { button, element, field, input, select } from './dom.js';
 import { KEY_CODES } from '../runtime/keyboard.js';
+import { deviceStrings } from './device-strings.js';
+
+/** @param {import('../runtime/inputs.js').Inputs} inputs @param {AbortSignal} signal */
+export function inputControls(inputs, signal) {
+  const t = deviceStrings[inputs.language];
+  const panel = element('div', '', { class: 'device-controls' });
+  panel.append(
+    button(t.controls, 'input-controls', () => inputs.open(), signal),
+    element('p', inputs.storageError ? inputs.mappingNotice() : '', {
+      id: 'device-error',
+      role: 'alert',
+    }),
+  );
+  return panel;
+}
+
+/** @param {import('../runtime/inputs.js').Inputs} inputs @param {AbortSignal} signal */
+export function duelInputs(inputs, signal) {
+  const panel = element('div', '', { class: 'duel-inputs' });
+  panel.append(
+    element(
+      'p',
+      `A · ${inputs.keyboard.mapping.A} / B · ${inputs.keyboard.mapping.B}`,
+    ),
+    touchView(deviceStrings[inputs.language], inputs, signal),
+    element('p', '', { id: 'release-status', role: 'status' }),
+    element('p', inputs.controllerStatus(), {
+      id: 'controller-status',
+      role: 'status',
+    }),
+  );
+  return panel;
+}
 
 /** @param {import('./device-strings.js').DeviceTexts} t
  * @param {import('../runtime/inputs.js').Inputs} inputs @param {AbortSignal} signal */

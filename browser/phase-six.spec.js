@@ -5,10 +5,10 @@ import {
   inspectPrintedSheet,
   setupPreparation,
 } from './preparation-helpers.js';
-import { phase } from './helpers.js';
+import { phase, setAnswers, setTheme } from './helpers.js';
 
 async function selectMixedSources(page, language) {
-  await page.locator('#mode').selectOption('numbers');
+  await page.locator('#mode-numbers').click();
   await page.locator('#clear-sources').click();
   const selected = ['geography', 'history', 'politics', 'science'].map(
     (category) => `${category}-${language}-02`,
@@ -63,8 +63,7 @@ for (const entry of [
       const language = entry.pack.includes('-cs-') ? 'cs' : 'en';
       await setupPreparation(page, language);
       await page.clock.pauseAt(new Date('2026-10-28T12:01:00Z'));
-      await page.locator('#answerMode').selectOption('automatic');
-      await page.locator('#starter').selectOption('A');
+      await setAnswers(page, 'automatic');
       await page.locator('#clear-sources').click();
       await page.locator(`#source-${entry.pack}`).check();
       await page.locator('#prepare-board').click();
@@ -105,7 +104,7 @@ for (const language of ['cs', 'en']) {
         height: theme === 'light' ? 720 : 1024,
       });
       await setupPreparation(page, language);
-      await page.locator('#theme').selectOption(theme);
+      await setTheme(page, theme);
       await expect(page.locator('#catalog-status')).toContainText('36 / 36');
       await expect(page.locator('#catalog-results input')).toHaveCount(36);
       await page.locator('#catalog-language').selectOption(language);
@@ -176,24 +175,18 @@ for (const language of ['cs', 'en']) {
       expect(question.origins[0].authors).toEqual(['HexY contributors']);
       expect(question.origins[0].license).toBe('CC BY 4.0');
     }
-    const html = await download(
-      page,
-      info,
-      '#answer-sheet',
-      'phase-six-mixed.html',
-    );
-    await inspectPrintedSheet(context, info, html.path, pack);
     await page.locator('#import-packs').setInputFiles(exported.path);
     await expect(page.locator('#preparation-error')).toHaveText('');
-    await page.locator('#start').click();
+    const html = await download(page, info, '#start', 'phase-six-mixed.html');
+    await inspectPrintedSheet(context, info, html.path, pack);
     await phase(page, 'selecting');
     await page.reload();
     await phase(page, 'selecting');
     expect(
       JSON.parse(
-        (await download(page, info, '#export-pack', 'phase-six-recovered.json'))
+        (await download(page, info, '#save-game', 'phase-six-recovered.json'))
           .text,
-      ),
+      ).game.pack,
     ).toEqual(pack);
     await page.locator('#cell-1').click();
     await expect(page.locator('.question-text')).toHaveText(

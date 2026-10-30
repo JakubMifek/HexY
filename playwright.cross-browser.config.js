@@ -19,6 +19,10 @@ export default defineConfig({
     'recovery-review.spec.js',
     'visual.spec.js',
     'release.spec.js',
+    'guided-ui.spec.js',
+    'tile-flip.spec.js',
+    'modal-readiness.spec.js',
+    'clock-error-fit.spec.js',
   ],
   projects: [
     { name: 'firefox', use: { browserName: 'firefox' } },

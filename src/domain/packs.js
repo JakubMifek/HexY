@@ -14,6 +14,11 @@ function parseQuestion(value, path) {
   const initial = choice(data.initial, ALPHABETS[language], `${path}.initial`);
   const answer = text(data.answer, `${path}.answer`);
   requireValue(
+    answer.length <= 120 && text(data.text, `${path}.text`).length <= 600,
+    'playTextLimit',
+    path,
+  );
+  requireValue(
     answer
       .normalize('NFC')
       .toLocaleUpperCase(language)

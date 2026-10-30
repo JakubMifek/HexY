@@ -14,8 +14,9 @@ export function createGame(packValue, configValue, now, sessionId) {
   const pack = validatePack(packValue);
   requireValue(pack.mode !== 'source', 'boardCount', 'pack.mode');
   const config = validateConfig(configValue);
+  config.duel.length = config.duel.symbols.length;
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     sessionId: text(sessionId, 'sessionId'),
     pack,
     config,

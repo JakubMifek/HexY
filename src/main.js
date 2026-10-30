@@ -1,6 +1,7 @@
 import { App } from './app.js';
 import { browserClock } from './runtime/clock.js';
 import './style.css';
+import './studio.css';
 
 const root = document.querySelector('#app');
 if (!(root instanceof HTMLElement)) throw new Error('Missing application root');

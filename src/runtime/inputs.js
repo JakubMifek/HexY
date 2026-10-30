@@ -3,8 +3,7 @@ import { DuelGamepads } from './gamepad.js';
 import { DuelTouch } from './touch.js';
 import { DomainError } from '../domain/errors.js';
 import { deviceStrings } from '../ui/device-strings.js';
-import { gamepadView, inputView, touchView } from '../ui/inputs.js';
-import { button, element } from '../ui/dom.js';
+import { gamepadView, inputView } from '../ui/inputs.js';
 
 export const INPUT_KEY = 'hexy.inputs.v1';
 /** @typedef {import('../domain/types.js').Player} Player */
@@ -21,19 +20,28 @@ export class Inputs {
   disposed = false;
   /** @type {import('../domain/types.js').Game | null} */
   state = null;
+  /** @type {Map<Player, string>} */
+  rearming = new Map();
+  /** @type {Set<Player>} */
+  rearmed = new Set();
+  generation = 0;
 
   /** @param {Window} target @param {import('./clock.js').Clock} clock
    * @param {(action: import('../domain/types.js').Action) => void} send
-   * @param {() => void} interrupt */
-  constructor(target, clock, send, interrupt) {
+   * @param {() => void} interrupt @param {() => boolean} [available] */
+  constructor(target, clock, send, interrupt, available = () => true) {
+    this.available = available;
     this.interrupt = interrupt;
+    this.send = send;
+    this.target = target;
     this.keyboard = new DuelKeyboard(target, clock, send, interrupt);
-    this.keyboard.changed = (player, held) => this.feedback(player, held);
+    this.keyboard.changed = (player, held) =>
+      this.feedback(player, held, 'key');
     this.touch = new DuelTouch(
       target,
       (player, stamp) => this.keyboard.batch.press(player, stamp),
-      (player, held) => this.feedback(player, held),
-      () => this.keyboard.batch.clear(),
+      (player, held) => this.feedback(player, held, 'touch'),
+      () => this.interrupt(),
     );
     this.gamepads = new DuelGamepads(
       target,
@@ -42,7 +50,13 @@ export class Inputs {
       interrupt,
       () => this.padChanged(),
     );
-    this.gamepads.feedback = (player, held) => this.feedback(player, held);
+    this.gamepads.feedback = (player, held) =>
+      this.feedback(
+        player,
+        held,
+        'pad',
+        this.gamepads.assignments[player]?.armed ?? false,
+      );
     this.load();
   }
 
@@ -112,19 +126,66 @@ export class Inputs {
     if (node) node.textContent = text;
   }
 
-  /** @param {Player} player @param {boolean} held */
-  feedback(player, held) {
+  /** @param {Player} player @param {boolean} held @param {string} source @param {boolean} [fresh] */
+  feedback(player, held, source, fresh = true) {
     const t = deviceStrings[this.language];
     const node = this.dialog?.querySelector('#input-test-status');
     if (node) node.textContent = `${player} · ${held ? t.pressed : t.released}`;
+    this.rearm(player, held, source, fresh);
     this.releaseFeedback();
+    this.restartWhenReady();
+  }
+
+  /** @param {Player} player @param {boolean} held @param {string} source @param {boolean} fresh */
+  rearm(player, held, source, fresh) {
+    if (
+      this.state?.stage.phase === 'duel-interrupted' &&
+      this.available() &&
+      !this.dialog &&
+      !this.target.document.hidden &&
+      this.target.document.hasFocus()
+    ) {
+      if (held) {
+        if (fresh) this.rearming.set(player, source);
+        else this.rearming.delete(player);
+        this.rearmed.delete(player);
+      } else if (this.rearming.get(player) === source) {
+        this.rearming.delete(player);
+        this.rearmed.add(player);
+      }
+    }
+  }
+
+  restartWhenReady() {
+    const state = this.state;
+    if (state?.stage.phase !== 'duel-interrupted' || !this.ready()) return;
+    const generation = this.generation;
+    // Resume outside the releasing adapter callback; queued presses keep their old context.
+    queueMicrotask(() => {
+      if (
+        this.disposed ||
+        generation !== this.generation ||
+        this.state !== state ||
+        !this.ready()
+      )
+        return;
+      this.send({
+        type: 'restart',
+        sessionId: state.sessionId,
+        revision: state.revision,
+      });
+    });
   }
 
   releaseFeedback() {
     const node = document.getElementById('release-status');
     if (node) {
       const t = deviceStrings[this.language];
-      const text = this.ready() ? t.released : t.rearm;
+      const ready =
+        this.state?.stage.phase === 'duel-interrupted'
+          ? this.ready()
+          : this.released();
+      const text = ready ? t.released : t.rearm;
       if (node.textContent !== text) node.textContent = text;
     }
     const controller = document.getElementById('controller-status');
@@ -140,6 +201,7 @@ export class Inputs {
           this.gamepads.status
         )
       ];
+    if (Object.keys(this.gamepads.assignments).length === 0) return '';
     return /** @type {const} */ (['A', 'B'])
       .map((player) => {
         const assignment = this.gamepads.assignments[player];
@@ -176,16 +238,27 @@ export class Inputs {
   }
 
   requireReleases() {
+    this.generation += 1;
+    this.rearming.clear();
+    this.rearmed.clear();
     this.keyboard.requireReleases();
     this.gamepads.requireReleases();
     this.touch.requireReleases();
   }
 
   ready() {
-    const keysReleased = this.keyboard.releasesRequired.size === 0;
-    const touchReleased = this.touch.released.size === 2;
     return (
-      (keysReleased || touchReleased) &&
+      this.rearmed.size === 2 &&
+      this.available() &&
+      !this.dialog &&
+      !this.target.document.hidden &&
+      this.target.document.hasFocus() &&
+      this.released()
+    );
+  }
+
+  released() {
+    return (
       this.keyboard.held.size === 0 &&
       this.touch.held.size === 0 &&
       this.gamepads.ready()
@@ -197,50 +270,6 @@ export class Inputs {
     this.state = state;
     this.keyboard.bind(state);
     if (this.dialog?.open) this.keyboard.batch.bind(null);
-  }
-
-  /** @param {import('../domain/types.js').Language} language @param {AbortSignal} signal */
-  controls(language, signal) {
-    this.language = language;
-    const t = deviceStrings[language];
-    const panel = element('div', '', { class: 'device-controls' });
-    panel.append(
-      button(t.controls, 'input-controls', () => this.open(), signal),
-      button(
-        t.fullscreen,
-        'fullscreen',
-        () => {
-          void this.fullscreen();
-        },
-        signal,
-      ),
-      element('p', this.storageError ? this.mappingNotice() : '', {
-        id: 'device-error',
-        role: 'alert',
-      }),
-    );
-    return panel;
-  }
-
-  /** @param {AbortSignal} signal */
-  buzzers(signal) {
-    const panel = element('div');
-    const t = deviceStrings[this.language];
-    panel.append(
-      element(
-        'p',
-        `A · ${this.keyboard.mapping.A} / B · ${this.keyboard.mapping.B}`,
-      ),
-      touchView(t, this, signal),
-      element('p', '', { id: 'release-status', role: 'status' }),
-      element('p', this.controllerStatus(), {
-        id: 'controller-status',
-        role: 'status',
-      }),
-    );
-    if (this.state?.stage.phase === 'duel-interrupted')
-      panel.append(element('p', t.readyHelp));
-    return panel;
   }
 
   open() {
@@ -276,20 +305,6 @@ export class Inputs {
 
   close() {
     this.dialog?.close();
-  }
-
-  async fullscreen() {
-    const scope = this.state;
-    try {
-      if (document.fullscreenElement) await document.exitFullscreen();
-      else await document.documentElement.requestFullscreen();
-    } catch {
-      if (!this.disposed && this.state === scope) {
-        const node = document.getElementById('device-error');
-        if (node)
-          node.textContent = deviceStrings[this.language].fullscreenError;
-      }
-    }
   }
 
   dispose() {

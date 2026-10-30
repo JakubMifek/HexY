@@ -15,152 +15,188 @@ export function defaultSetup(language) {
       B: { name: 'B', color: '#d97706' },
     },
     language,
-    mode: 'letters',
+    mode: 'numbers',
     answerMode: 'hosted',
-    starter: 'A',
+    starter: 'random',
     seconds: 30,
   };
 }
 
+const NAMES = [
+  'Aragorn',
+  'Arwen',
+  'Bilbo',
+  'Boromir',
+  'Éowyn',
+  'Faramir',
+  'Frodo',
+  'Galadriel',
+  'Gandalf',
+  'Gimli',
+  'Legolas',
+  'Merry',
+  'Pippin',
+  'Samwise',
+];
+
+/** @param {() => number} random @param {string} theme */
+export function randomPlayers(random, theme) {
+  const pool = [...NAMES];
+  const take = () => pool.splice(Math.floor(random() * pool.length), 1)[0];
+  return {
+    A: { name: take(), color: theme === 'dark' ? '#22d3ee' : '#0891b2' },
+    B: { name: take(), color: theme === 'dark' ? '#fbbf24' : '#d97706' },
+  };
+}
+
 /** @param {import('./strings.js').Texts} t @param {Setup} settings
- * @param {(value: Setup) => void} start @param {AbortSignal} signal
- * @param {() => void} changed @param {HTMLElement} preparation */
-export function setupView(t, settings, start, signal, changed, preparation) {
+ * @param {() => void} next @param {() => void} back @param {AbortSignal} signal */
+export function playerSetup(t, settings, next, back, signal) {
   const form = document.createElement('form');
-  form.noValidate = true;
   form.className = 'setup panel';
-  form.append(element('h1', t.setup), element('p', t.intro));
-  const grid = element('div', '', { class: 'setup-grid' });
-  grid.append(...playerFields(t, settings), ...gameFields(t, settings));
-  const submit = button(t.start, 'start', () => {}, signal);
-  const error = element('p', '', { role: 'alert', id: 'setup-error' });
-  submit.type = 'submit';
+  form.noValidate = true;
   form.append(
-    grid,
-    error,
-    element('p', t.colors, { class: 'muted' }),
-    element('p', t.catalogHelp),
-    element('p', t.rules),
-    preparation,
-    submit,
-    element('p', t.limit, { class: 'muted' }),
+    element('p', t.stepPlayers, { class: 'eyebrow' }),
+    element('h1', t.setup),
   );
-  grid.addEventListener(
-    'input',
+  const grid = element('div', '', { class: 'setup-grid' });
+  grid.append(...playerFields(t, settings, signal));
+  const host = select(
+    'answerMode',
+    [
+      ['hosted', t.hosted],
+      ['automatic', t.automatic],
+    ],
+    settings.answerMode,
+  );
+  host.addEventListener(
+    'change',
     () => {
-      Object.assign(settings, readSetup(form));
-      changed();
+      settings.answerMode = host.value === 'hosted' ? 'hosted' : 'automatic';
     },
     { signal },
+  );
+  const submit = button(t.next, 'next-setup', () => {}, signal);
+  submit.type = 'submit';
+  const error = element('p', '', { id: 'setup-error', role: 'alert' });
+  form.append(
+    grid,
+    field(t.answerMode, host),
+    element('p', t.colors, { class: 'muted' }),
+    error,
+    button(t.back, 'back-menu', back, signal),
+    submit,
   );
   form.addEventListener(
     'submit',
     (event) => {
       event.preventDefault();
-      if (!form.checkValidity()) {
+      if (
+        !form.checkValidity() ||
+        Object.values(settings.players).some((p) => !p.name.trim())
+      ) {
         error.textContent = t.invalidSetup;
-        const invalid = form.querySelector(':invalid');
-        if (invalid instanceof HTMLElement) invalid.focus();
         return;
       }
-      start(readSetup(form));
+      next();
     },
     { signal },
   );
   return form;
 }
 
-/** @param {import('./strings.js').Texts} t @param {Setup} settings */
-function playerFields(t, settings) {
-  const fields = [];
-  for (const player of /** @type {const} */ (['A', 'B'])) {
-    const name = input(`name${player}`, 'text', settings.players[player].name);
-    name.required = true;
-    name.maxLength = 30;
-    fields.push(
-      field(t[`player${player}`], name),
-      field(
-        t[`color${player}`],
-        input(`color${player}`, 'color', settings.players[player].color),
-      ),
-    );
-  }
-  return fields;
-}
-
-/** @param {import('./strings.js').Texts} t @param {Setup} settings */
-function gameFields(t, settings) {
+/** @param {import('./strings.js').Texts} t @param {Setup} settings
+ * @param {() => void} changed @param {() => void} back @param {AbortSignal} signal */
+export function optionsView(t, settings, changed, back, signal) {
+  const panel = element('section', '', { class: 'setup panel' });
   const seconds = input('seconds', 'number', String(settings.seconds));
   Object.assign(seconds, { min: '1', max: '3600', step: '1', required: true });
-  return [
-    field(
-      t.starter,
-      select(
-        'starter',
-        [
-          ['A', t.playerA],
-          ['B', t.playerB],
-          ['random', t.random],
-        ],
-        settings.starter,
-      ),
-    ),
-    field(t.seconds, seconds),
-    field(
-      t.board,
-      select(
-        'mode',
-        [
-          ['letters', t.letters],
-          ['numbers', t.numbers],
-        ],
-        settings.mode,
-      ),
-    ),
-    field(
-      t.answerMode,
-      select(
-        'answerMode',
-        [
-          ['hosted', t.hosted],
-          ['automatic', t.automatic],
-        ],
-        settings.answerMode,
-      ),
-    ),
-    field(
-      t.content,
-      select(
-        'language',
-        [
-          ['cs', 'Čeština'],
-          ['en', 'English'],
-        ],
-        settings.language,
-      ),
-    ),
-  ];
-}
-
-/** @param {HTMLFormElement} form @returns {Setup} */
-function readSetup(form) {
-  const data = new FormData(form);
-  const value = (/** @type {string} */ name) => String(data.get(name));
-  return {
-    players: {
-      A: { name: value('nameA').trim() || 'A', color: value('colorA') },
-      B: { name: value('nameB').trim() || 'B', color: value('colorB') },
+  const starter = select(
+    'starter',
+    [
+      ['random', t.random],
+      ['A', t.playerA],
+      ['B', t.playerB],
+    ],
+    settings.starter,
+  );
+  const language = select(
+    'language',
+    [
+      ['cs', 'Čeština'],
+      ['en', 'English'],
+    ],
+    settings.language,
+  );
+  const error = element('p', '', { id: 'setup-error', role: 'alert' });
+  seconds.addEventListener(
+    'input',
+    () => {
+      error.textContent = seconds.checkValidity() ? '' : t.invalidSetup;
+      if (seconds.checkValidity()) {
+        settings.seconds = Number(seconds.value);
+        changed();
+      }
     },
-    language: value('language') === 'cs' ? 'cs' : 'en',
-    mode: value('mode') === 'numbers' ? 'numbers' : 'letters',
-    answerMode: value('answerMode') === 'automatic' ? 'automatic' : 'hosted',
-    starter: readStarter(value('starter')),
-    seconds: Number(value('seconds')),
-  };
+    { signal },
+  );
+  starter.addEventListener(
+    'change',
+    () => {
+      settings.starter = readStarter(starter.value);
+      changed();
+    },
+    { signal },
+  );
+  language.addEventListener(
+    'change',
+    () => {
+      settings.language = language.value === 'cs' ? 'cs' : 'en';
+      changed();
+    },
+    { signal },
+  );
+  panel.append(
+    element('h1', t.options),
+    field(t.seconds, seconds),
+    field(t.starter, starter),
+    field(t.language, language),
+    error,
+    button(t.back, 'back-menu', back, signal),
+  );
+  return panel;
 }
 
-/** @param {string} value @returns {'A'|'B'|'random'} */
+/** @param {string} value @returns {'random'|'A'|'B'} */
 function readStarter(value) {
   if (value === 'random') return 'random';
-  return value === 'B' ? 'B' : 'A';
+  return value === 'A' ? 'A' : 'B';
+}
+
+/** @param {import('./strings.js').Texts} t @param {Setup} settings @param {AbortSignal} signal */
+function playerFields(t, settings, signal) {
+  return /** @type {const} */ (['A', 'B']).map((id) => {
+    const player = settings.players[id];
+    const name = input(`name${id}`, 'text', player.name);
+    name.required = true;
+    name.maxLength = 30;
+    const color = input(`color${id}`, 'color', player.color);
+    name.addEventListener(
+      'input',
+      () => {
+        player.name = name.value;
+      },
+      { signal },
+    );
+    color.addEventListener(
+      'input',
+      () => {
+        player.color = color.value;
+      },
+      { signal },
+    );
+    const card = element('div', '', { class: 'player-setup' });
+    card.append(field(t[`player${id}`], name), field(t[`color${id}`], color));
+    return card;
+  });
 }

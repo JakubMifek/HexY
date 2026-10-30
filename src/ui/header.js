@@ -1,9 +1,10 @@
-import { button, element, field, select, svg } from './dom.js';
+import { button, element, svg } from './dom.js';
+import { mountGameDialog } from './game-dialog.js';
 
 /** @param {import('./strings.js').Texts} t @param {string} language @param {string} theme
  * @param {(language: string, theme: string) => void} change
- * @param {(() => void) | null} newGame @param {AbortSignal} signal */
-export function headerView(t, language, theme, change, newGame, signal) {
+ * @param {(() => void) | null} newGame @param {AbortSignal} signal @param {() => void} save */
+export function headerView(t, language, theme, change, newGame, signal, save) {
   const header = element('header', '', { class: 'header' });
   const brand = element('div', '', { class: 'brand' });
   const logo = svg('svg', {
@@ -29,60 +30,48 @@ export function headerView(t, language, theme, change, newGame, signal) {
   );
   brand.append(logo, element('strong', 'HexY'), element('span', t.tagline));
   const controls = element('div', '', { class: 'header-controls' });
-  const languages = select(
-    'ui-language',
-    [
-      ['cs', 'Čeština'],
-      ['en', 'English'],
-    ],
-    language,
-  );
-  const themes = select(
+  const toggle = button(
+    theme === 'light' ? '☾' : '☀',
     'theme',
-    [
-      ['light', t.light],
-      ['dark', t.dark],
-    ],
-    theme,
+    () => change(language, theme === 'light' ? 'dark' : 'light'),
+    signal,
   );
-  const update = () => change(languages.value, themes.value);
-  languages.addEventListener('change', update, { signal });
-  themes.addEventListener('change', update, { signal });
-  controls.append(field(t.language, languages), field(t.theme, themes));
-  if (newGame) controls.append(button(t.newGame, 'new-game', newGame, signal));
+  toggle.setAttribute(
+    'aria-label',
+    `${t.theme}: ${theme === 'light' ? t.dark : t.light}`,
+  );
+  toggle.className = 'theme-toggle';
+  controls.append(toggle);
+  if (newGame)
+    controls.append(
+      button(t.exit, 'exit-game', newGame, signal),
+      button(t.save, 'save-game', save, signal),
+    );
   header.append(brand, controls);
   return header;
 }
 
-/** @param {import('./strings.js').Texts} t @param {() => void} discard */
-export function confirmNewGame(t, discard) {
+/** @param {import('../app.js').App} app
+ * @param {import('./strings.js').Texts} t @param {() => void} discard */
+export function confirmNewGame(app, t, discard) {
   const lifecycle = new AbortController();
   const signal = lifecycle.signal;
   const dialog = document.createElement('dialog');
   dialog.setAttribute('aria-labelledby', 'discard-title');
   dialog.append(
     element('h2', t.confirmNew, { id: 'discard-title' }),
-    button(t.cancel, 'cancel-new', () => dialog.close(), signal),
+    button(t.cancel, 'cancel-new', () => close(), signal),
     button(
       t.discard,
       'discard-new',
       () => {
-        dialog.close();
+        close();
         discard();
       },
       signal,
     ),
   );
-  dialog.addEventListener(
-    'close',
-    () => {
-      lifecycle.abort();
-      dialog.remove();
-    },
-    { signal },
-  );
-  document.body.append(dialog);
-  dialog.showModal();
+  const close = mountGameDialog(app, dialog, lifecycle, 'exit-game');
   dialog.querySelector('button')?.focus();
   return dialog;
 }

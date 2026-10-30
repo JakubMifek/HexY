@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 import { start, phase, setCell } from './helpers.js';
+import { enterPreparation } from './preparation-helpers.js';
 
 const key = 'hexy.game.v1';
 /** @param {import('@playwright/test').Page} page */
@@ -13,23 +14,28 @@ for (const kind of ['valid', 'corrupt', 'newer']) {
   }, info) => {
     await start(page);
     const prior = JSON.parse(await rawSave(page));
-    prior.sessionId = 'replacement-scope';
+    prior.game.sessionId = 'replacement-scope';
     const replacement = replacementBytes(kind, prior);
-    await page.locator('#new-game').click();
+    await page.locator('#exit-game').click();
     await page.evaluate(
       ({ key, replacement }) => localStorage.setItem(key, replacement),
       { key, replacement },
     );
     await page.locator('#discard-new').click();
+    await page.locator('#open-recovery').click();
     await expect(page.locator('#recovery-error')).toContainText(
       'changed since',
     );
     await expect(page.locator('#game-save-status')).toContainText('not saved');
+    await page.locator('#close-recovery').click();
     await page.locator('#cell-1').click();
     expect(await rawSave(page)).toBe(replacement);
+    await page.locator('#open-recovery').click();
     await page.locator('#retry-recovery').click();
+    await page.locator('#close-recovery').click();
     await page.locator('#judge-wrong').click();
     expect(await rawSave(page)).toBe(replacement);
+    await page.locator('#open-recovery').click();
     const pending = page.waitForEvent('download');
     await page.locator('#export-original').click();
     const file = info.outputPath('protected-replacement.json');
@@ -38,12 +44,14 @@ for (const kind of ['valid', 'corrupt', 'newer']) {
     await page
       .locator('.recovery')
       .screenshot({ path: info.outputPath('protected-replacement.png') });
-    await page.locator('#new-game').click();
+    await page.locator('#close-recovery').click();
+    await page.locator('#exit-game').click();
     await page.locator('#cancel-new').click();
     expect(await rawSave(page)).toBe(replacement);
-    await page.locator('#new-game').click();
+    await page.locator('#exit-game').click();
     await page.locator('#discard-new').click();
     expect(await rawSave(page)).toBeNull();
+    await enterPreparation(page);
     await page.locator('#start').click();
     await phase(page, 'selecting');
     expect(await rawSave(page)).not.toBe(replacement);
@@ -65,18 +73,21 @@ for (const language of ['en', 'cs']) {
     }, info) => {
       await start(page, { language });
       const bytes = replacementBytes(kind, JSON.parse(await rawSave(page)));
-      await page.locator('#new-game').click();
+      await page.locator('#exit-game').click();
       await page.evaluate((key) => localStorage.removeItem(key), key);
       await page.locator('#discard-new').click();
+      await page.locator('#open-recovery').click();
       await expect(page.locator('#recovery-error')).toContainText(
         language === 'en' ? 'changed since' : 'se od načtení změnila',
       );
       await denyGameRead(page, bytes);
       await page.locator('#retry-recovery').click();
       await expectUnread(page, language, bytes);
+      await page.locator('#close-recovery').click();
       await page.locator('#cell-1').click();
       await page.locator('#judge-correct').click();
       await phase(page, 'selecting');
+      await page.locator('#open-recovery').click();
       await expectUnread(page, language, bytes);
       await page.locator('.recovery').screenshot({
         path: info.outputPath('unread-replacement.png'),
@@ -89,20 +100,18 @@ for (const language of ['en', 'cs']) {
       const file = info.outputPath('unread-replacement.json');
       await (await download).saveAs(file);
       expect(await readFile(file, 'utf8')).toBe(bytes);
-      await page.locator('#new-game').click();
+      await page.locator('#close-recovery').click();
+      await page.locator('#exit-game').click();
       await page.locator('#cancel-new').click();
       expect(await rawSave(page)).toBe(bytes);
       await page.evaluate((key) => localStorage.removeItem(key), key);
+      await page.locator('#open-recovery').click();
       await page.locator('#retry-recovery').click();
-      await expect(page.locator('#game-save-status')).toHaveText(
-        language === 'en'
-          ? 'Current game saved locally. Export is your backup.'
-          : 'Aktuální hra je uložena místně. Zálohou je export.',
-      );
-      expect(JSON.parse(await rawSave(page)).cells[0]).toBe('A');
+      await expect(page.locator('#recovery-error')).toHaveCount(0);
+      expect(JSON.parse(await rawSave(page)).game.cells[0]).toBe('A');
       await page.reload();
       await phase(page, 'selecting');
-      expect(JSON.parse(await rawSave(page)).cells[0]).toBe('A');
+      expect(JSON.parse(await rawSave(page)).game.cells[0]).toBe('A');
     });
   }
 }
@@ -148,11 +157,11 @@ for (const source of ['startup', 'file']) {
       await start(page, { language });
       await setCell(page, 1, 'black');
       const state = JSON.parse(await rawSave(page));
-      state.config.duel.symbols = ['hexagon', 'diamond'];
+      state.game.config.duel.symbols[0] = 'diamond';
       if (stage === 'duel-interrupted')
-        state.stage = {
+        state.game.stage = {
           phase: stage,
-          round: { cell: 1, originalChooser: state.chooser },
+          round: { cell: 1, originalChooser: state.game.chooser },
         };
       const json = JSON.stringify(state, null, 2);
       const errors = [];
@@ -172,6 +181,8 @@ for (const source of ['startup', 'file']) {
         await page.locator('#discard-save').click();
         await page.locator('#discard-new').click();
       }
+      if (source === 'file') await page.locator('#back-menu').click();
+      await enterPreparation(page);
       await page.locator('#start').click();
       await setCell(page, 1, 'black');
       await page.locator('#cell-1').click();
@@ -192,8 +203,9 @@ async function tryUnsupported(page, source, json) {
     await page.reload();
     return;
   }
-  await page.locator('#new-game').click();
+  await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
+  await page.locator('#open-import').click();
   await page.locator('#import-game').setInputFiles({
     name: 'unsupported-game.json',
     mimeType: 'application/json',

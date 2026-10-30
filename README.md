@@ -12,16 +12,28 @@ The owner has **closed the implementation plan and accepted private delivery**.
 The [phase-8 review](reviews/phase-08.md) found no implementation defects.
 Public release remains deferred; naming, public hosting and remaining device/
 browser/accessibility verification are [follow-up work](docs/release-readiness.md#follow-up-work).
+The owner-approved phase-9 guided redesign is independently cleared after fixes,
+with complete coordinator post-review checks passed. See the
+[phase-9 review](reviews/phase-09.md). It does not reopen public-release scope.
 
 ## Play
 
-Choose interface language and light/dark theme at the top. Setup selects player
-names/colors, starter (A, B or random), question duration (default 30 seconds,
-1–3,600 seconds), board, answer mode and question language.
+Fresh entry opens **Menu**: **New Game**, **Options**, or **Import Game**.
+Options sets one language for both interface and questions, question duration
+(default 30 seconds, 1–3,600 seconds), starter (default random), and input controls.
+New Game opens editable player names/colors and human/digital host selection,
+then Number/Alphabetical tiles and deck preparation. Default player names are
+distinct randomly selected Lord of the Rings character names; no artwork or
+narrative is included. Back preserves choices. The header sun/moon button changes
+theme without rerolling names, regenerating content or resetting time.
 
 - Connect one group of your fields to all three edges. Corners touch two edges.
 - Fixed-letter boards preserve their authored placement. Number boards propose
   28 distinct questions from only your selected, same-language source packs.
+- Selecting a question tile flips it to its full answer initial (`Ch`, `CH` and
+  `SH` stay intact). The initial remains through the opponent's opportunity.
+  Reduced motion reveals immediately. This animation never delays the timer,
+  replays on theme/reload, or changes black-duel identifiers.
 - **Spoken:** a host judges answers. Incorrect initial answers leave the original
   timer running. **Typed:** case, spacing and missing diacritics are ignored;
   explicit aliases are accepted, but not fuzzy spelling corrections.
@@ -30,29 +42,41 @@ names/colors, starter (A, B or random), question duration (default 30 seconds,
 - The opposite player to the actual recipient chooses next. If neither succeeds,
   the opposite player to the original chooser goes next.
 - Select black fields for reaction duels: default keys are **Left Shift** for A
-  and **Right Shift** for B. **Input controls and test** changes physical keys,
+  and **Right Shift** for B. In Options, **Input controls and test** changes physical keys,
   assigns controller buttons, and tests inputs without awarding a field.
   Memorize the target, release held keys, then press only when the target appears.
-  Wrong symbols award the other player. Ties and missed targets replay.
-- Losing focus, opening input controls, losing an assigned controller, or reloading
+  Wrong symbols award the other player. The exact pool is circle, star, square,
+  triangle, hexagon, heart and sun. One target stays fixed throughout uninterrupted
+  play. Randomized seven-symbol cycles continue indefinitely; missing a target
+  never stops rotation or changes turns. Ties start another active cycle with
+  the same target. Each cycle guarantees every symbol, including the target.
+- Losing focus, opening Exit/recovery controls, losing an assigned controller, or reloading
   interrupts duels without an award or chooser change. Return and **press and
   release both mapped keys or both touch buzzers in this window**. Release all
-  assigned controller buttons. Then both players confirm readiness and restart.
-  Rearming cannot capture; losing focus again requires new releases. The release
+  assigned controller buttons. The preview restarts automatically after both
+  players' fresh press-and-release gestures; no checkbox or restart click.
+  Assigned controller buttons can also rearm. Rearming cannot capture; losing focus
+  again revokes readiness. A lone release does not authorize restart. The release
   status explains when inputs are ready. Questions never pause.
 - Hosted corrections exist only between rounds or after a win. Cell changes and
   chooser changes are independent. Resetting a cell reuses its original question.
   Corrections immediately recompute victory and can reopen a won game.
-- **New game** asks before discarding. Its dialog does not pause question time;
+- **Exit Game** asks before discarding and returns to Menu. Its dialog does not pause question time;
   opening it during a duel invalidates that duel, rather than allowing unseen
   input to award a field.
-- Theme/language changes preserve an unsent typed draft only in its current
+- Theme changes preserve an unsent typed draft only in its current
   question opportunity. Handover, resolution and the next question clear it.
+  Language and input settings are preparation-only; changing them cannot
+  translate a locked game.
 
 Use Tab and Enter/Space for controls. Arrow keys move through selectable fields in
-row-major order. Ownership has A/B marks, black fields retain identifiers with ×,
-and winning connections have dashed outlines. Questions remain below the board;
-the question panel scrolls into view when necessary. Desktop/laptop and tablet
+row-major order. Won fields use player colors only; black fields retain their
+original identifiers without ×. Accessible cell names still state ownership,
+and winning connections retain feedback. Color-only ownership is an explicit
+owner-approved color-vision accessibility exception, not a universal WCAG claim.
+Questions normally remain below the board; maximum-length questions can overlap
+part of the board while required text and actions remain visible without scrolling.
+Desktop/laptop and tablet
 layouts are implemented, including separate A/B touch buzzers during duels;
 physical tablet support remains unverified/experimental.
 
@@ -67,19 +91,22 @@ Static downloaded content is inspectable: this is friendly local play, not anti-
 Desktop/laptop setup: two players share a keyboard. The unverified/experimental
 tablet setup uses one finger each on the separate A/B buzzers. A host uses
 the ordinary judging controls. Both players should preferably use the same input
-type. Tablet portrait and landscape layouts allow vertical scrolling; phones
-are not supported.
+type. Gameplay has no outer or internal scrolling at tested 1280×720, 1366×768,
+1920×1080, 1024×768 and 768×1024 viewports. Preparation can scroll. Phones and
+smaller viewports are not supported. Imported questions allow up to 600 UTF-16
+code units, canonical answers 120, and player names 30; invalid lengths produce
+localized errors before adoption. Long questions use 18px type; ordinary questions
+use 20px. These bounds do not alter the 1,008 reviewed entries.
 
 - Physical keyboard mappings: separate `ShiftLeft`/`ShiftRight`, `Space`, or
   `KeyA`–`KeyZ` positions. Labels describe physical positions, not a translated
   keyboard character. Conflicts are rejected; Tab/Enter/arrows remain ordinary
   navigation keys. Holds, repeats and presses begun in preview cannot capture.
-  Mapped keys do not steal input from ordinary focused form controls/buttons;
-  focus the board/question or a buzzer to play.
+  Mapped keys do not steal input from editable form controls; ordinary buttons
+  do not swallow duel input after keyboard navigation.
 - Touch/mouse: press a buzzer, then lift/release before the next press. Buzzers
-  are at least 72 px high; simultaneous rising edges replay ties. Pointer
-  cancellation clears pending input. Gestures on buzzers cannot scroll/repeat;
-  ordinary controls and page scrolling remain available elsewhere.
+  are at least 48 px high; simultaneous rising edges replay ties. Pointer
+  cancellation interrupts and requires fresh rearming. Gestures cannot scroll/repeat.
 - Gamepads: use a browser exposing `navigator.getGamepads` (HTTPS or localhost
   recommended). Connect and press a controller button so the browser exposes it,
   then explicitly assign a connected device and **zero-based button index** to
@@ -87,12 +114,11 @@ are not supported.
   No automatic player assignment, button capture or reconnect reassignment occurs.
   Assignment requires a neutral observed sample before a press. Assignments are
   session-only: reassign after reload/disconnection. Unsupported, denied and
-  disconnected states are reported; keyboard/touch remain explicit alternatives.
-- **Input controls and test** is a modal safe test, not a playable duel.
-  Opening it interrupts duels but never pauses a question. Close it or press
-  Escape to return; rearm and confirm readiness before restarting a duel.
-- **Fullscreen** uses the browser's Fullscreen API. Failure is reported; browser
-  fullscreen is an alternative. Fullscreen never changes a question deadline.
+  disconnected states are reported. A disconnected assigned controller blocks
+  restart: Save Game, Exit, reassign in Options, then Import Game.
+- **Input controls and test** is a preparation-only modal safe test.
+  Close it or press Escape to return. It is not exposed during play.
+- Use browser **F11** if desired; the application has no fullscreen controls/API.
 - Events within **8 ms** share the existing tie window. Controllers are polled
   every 16 ms and both players in one sample share a timestamp. Keyboard/pointer
   dispatch, polling and OS/device latency differ: perfect cross-device timing
@@ -139,7 +165,10 @@ Both spoken and typed games use the same preparation workflow:
    edited versions. **Export selected packs** downloads each selected source;
    your browser may ask permission for multiple downloads. Reimport JSON to
    restore the exact documented content and placement.
-6. After acceptance, **Download private answer sheet (HTML)**. Open the
+6. For a human host, **Download answers and play** must initiate the exact
+   accepted board's HTML answer-sheet download before play starts. Failure leaves
+   preparation intact. The browser cannot confirm a disk write: verify the file.
+   Digital host mode does not offer a sheet. Open the
    self-contained downloaded file separately and use browser Print / Save as
    PDF. It contains all 28 row-major cell numbers, question IDs, explicit initials,
    questions, answers and aliases, without game controls or external fonts.
@@ -148,8 +177,8 @@ Both spoken and typed games use the same preparation workflow:
    inert text, not clickable/executable URLs. Authors, licenses and source-pack
    attribution remain included. The appendix begins on a separate printed page.
    Keep it on paper or another private device, not the players' shared screen.
-7. **Start game** locks content, even after a win or a host field reset. In-game
-   JSON/sheet downloads use the played snapshot, not the preparation library.
+7. Starting locks content, even after a win or a host field reset. During play,
+   **Save Game** is the only content export; there is no library/editor/sheet access.
 
 Prepare before players gather: the editor intentionally shows answers. Opening
 an editor, changing source selection or regenerating invalidates acceptance and
@@ -194,8 +223,8 @@ previous stored value intact.
   saving (for example, a setting change), or export your copies first.
 
 Exclusion is a session-only, per-pack-ID saving choice, not a content edit or
-format change. A newly edited/generated copy is included by default. The storage
-management controls also remain available during play without unlocking content.
+format change. A newly edited/generated copy is included by default. Library
+management is preparation-only; export a running game before exiting to manage it.
 
 Corrupt/incompatible libraries are never silently overwritten or cleared.
 Preserve the raw `hexy.library.v1` value using browser site-storage tools before
@@ -205,17 +234,21 @@ Use one editing tab: concurrent-tab merging is not implemented.
 
 ### Saved-game recovery and backups
 
-`hexy.game.v1` is separate from the library: it stores the validated domain game,
+`hexy.game.v1` is separate from the library: it stores the versioned complete-game envelope,
 including locked questions/aliases/placement, board, chooser, phase and original
-deadline. Every accepted game transition saves synchronously **before rendering**.
+deadline, names, colors, language, host/time/board settings and keyboard mappings.
+Every accepted game transition saves synchronously **before rendering**.
 Library saving inclusion/exclusion never edits that snapshot. `hexy.inputs.v1`
 separately stores versioned keyboard mappings; it does not contain gamepad assignments.
 
-- Check **Game recovery**: **not saved** means the current state is only in
+- During play, **! Not saved** opens **Game recovery** controls in a readable
+  dialog rather than covering the question/board. Close returns to play; timers
+  never pause, and interrupted duels require new gestures after closing.
+  **Not saved** means the current state is only in
   memory, even if an earlier game remains in storage. Quota/access failures never
-  claim success. Export the game, reduce the custom library using its existing
-  confirmed exclusion controls, then **Retry recovery / saving**.
-- **Export game / original save** downloads the current full game, or the raw
+  claim success. Save Game before exiting to reduce library storage, or
+  use **Retry recovery / saving** after restoring access.
+- **Save Game** downloads the current full game; recovery controls export the raw
   protected original when recovery failed. If playing in memory over an unread/
   invalid original, **Export protected original save** keeps that original too.
   Failed exports are reported; do not leave until the needed download succeeds.
@@ -238,15 +271,27 @@ separately stores versioned keyboard mappings; it does not contain gamepad assig
 - After confirmed discard/with empty game storage, **Import saved game JSON**
   validates and recovers an exported game. Invalid or superseded reads cannot
   replace current play. Importing an expired question does not give extra time.
-  Game exports contain gameplay, not library or display preferences; names/colors
-  use this browser's setup preferences. Export custom packs separately as needed.
-- This browser version renders duel symbols named `circle`, `triangle`, `square`
-  and `star`. A save using other symbols is rejected before adoption or saving,
+  Menu **Import Game** restores directly, without the setup wizard. Human-host
+  imports require the exact sheet download first. Active duels import interrupted;
+  questions keep their absolute deadlines. All metadata is validated before adoption.
+  Complete files are limited to 2,000,000 UTF-8 bytes, including reserved space
+  for later rounds. Exports use compact JSON so formatting cannot exceed the
+  import limit. Theme and runtime controller
+  assignments are not portable. Export other custom library packs separately.
+  Legacy raw local games still recover using browser player preferences; saving
+  upgrades them to the complete envelope. Legacy raw game exports and question-pack
+  JSON are rejected by Import Game with guidance, not silently guessed/migrated.
+  Keep originals; use a compatible version to recover an old raw game locally.
+- New domain-v2 games use exactly `circle`, `star`, `square`, `triangle`,
+  `hexagon`, `heart` and `sun`. Historical domain-v1 saves using the original
+  four-symbol alphabet are validated under their original rules, then upgraded
+  to seven-symbol continuous rotation. Active duels become interrupted; ownership
+  and question deadlines remain unchanged. Other symbols are rejected,
   even between turns or during an interrupted duel. The original stays intact:
   keep its export and use a compatible version, or explicitly discard it. Config
-  symbols are never silently substituted. This is a browser compatibility check,
-  not a change to the general domain save schema.
-- Confirmed **New game** removes the saved game before leaving play. If removal
+  invalid symbols are never silently substituted. The generic domain accepts other
+  alphabets; the browser additionally enforces the supported versioned pool.
+- Confirmed **Exit Game** removes the saved game before returning to Menu. If removal
   fails, the current game stays open with an error rather than silently resurrecting
   an older game on reload.
 

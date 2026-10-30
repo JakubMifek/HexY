@@ -1,7 +1,7 @@
 import { expect } from '@playwright/test';
 
 /** @param {import('@playwright/test').Page} page
- * @param {{language?: 'cs'|'en', mode?: 'letters'|'numbers', answers?: 'hosted'|'automatic', theme?: string, seconds?: number, random?: number, starter?: string}} [options] */
+ * @param {{language?: 'cs'|'en', mode?: 'letters'|'numbers', answers?: 'hosted'|'automatic', theme?: string, seconds?: number, random?: number, starter?: string, keys?: {A: string, B: string}}} [options] */
 export async function start(page, options = {}) {
   const {
     language = 'en',
@@ -18,21 +18,48 @@ export async function start(page, options = {}) {
   }, random);
   await page.goto('/');
   await page.clock.pauseAt(new Date('2026-10-28T12:01:00Z'));
-  await page.locator('#ui-language').selectOption(language);
+  await page.locator('#options').click();
   await page.locator('#language').selectOption(language);
-  await page.locator('#theme').selectOption(theme);
-  await page.locator('#mode').selectOption(mode);
-  await page.locator('#answerMode').selectOption(answers);
+  await setTheme(page, theme);
   await page.locator('#seconds').fill(String(seconds));
   await page.locator('#starter').selectOption(starter);
+  await setKeys(page, options.keys);
+  await page.locator('#back-menu').click();
+  await page.locator('#new-game').click();
+  await page.locator('#answerMode').selectOption(answers);
   await page.locator('#nameA').fill('Ada');
   await page.locator('#nameB').fill('Boris');
+  await page.locator('#next-setup').click();
+  await page.locator(`#mode-${mode}`).click();
   if (mode === 'numbers') {
     await page.locator('#prepare-board').click();
     await page.locator('#accept-board').click();
   }
+
   await page.locator('#start').click();
   await phase(page, 'selecting');
+}
+
+/** @param {import('@playwright/test').Page} page @param {{A: string, B: string} | undefined} keys */
+async function setKeys(page, keys) {
+  if (!keys) return;
+  await page.locator('#input-controls').click();
+  await page.locator('#key-A').selectOption(keys.A);
+  await page.locator('#key-B').selectOption(keys.B);
+  await page.locator('#close-inputs').click();
+}
+
+/** @param {import('@playwright/test').Page} page @param {string} theme */
+export async function setTheme(page, theme) {
+  if ((await page.locator('html').getAttribute('data-theme')) !== theme)
+    await page.locator('#theme').click();
+}
+
+/** @param {import('@playwright/test').Page} page @param {string} mode */
+export async function setAnswers(page, mode) {
+  await page.locator('#back-players').click();
+  await page.locator('#answerMode').selectOption(mode);
+  await page.locator('#next-setup').click();
 }
 
 /** @param {import('@playwright/test').Page} page @param {string} value */

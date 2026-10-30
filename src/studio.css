@@ -1,0 +1,460 @@
+:root {
+  background:
+    radial-gradient(ellipse at 20% 0%, #d8edf8, transparent 65%) fixed no-repeat,
+    #e8eef5;
+}
+:root[data-theme='dark'] {
+  background:
+    radial-gradient(ellipse at 20% 0%, #203954, transparent 65%) fixed no-repeat,
+    #101c2d;
+}
+.header {
+  height: 88px;
+  max-width: 1280px;
+}
+.brand span {
+  width: auto;
+  margin-left: 1rem;
+}
+.theme-toggle {
+  width: 48px;
+  font-size: 1.5rem;
+  padding: 0;
+}
+.menu {
+  max-width: 700px;
+  margin: 8vh auto 0;
+  padding: 3rem;
+  display: grid;
+  gap: 1rem;
+}
+.menu h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.04em;
+}
+.menu > button {
+  text-align: left;
+  padding: 1.1rem 1.5rem;
+}
+.menu > button:not(#new-game) {
+  background: transparent;
+  color: inherit;
+  border-color: var(--line);
+}
+.setup {
+  padding: 2rem;
+}
+.setup > label {
+  margin-block: 1rem;
+}
+.setup > button {
+  margin-right: 0.75rem;
+}
+.setup-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.player-setup {
+  display: grid;
+  gap: 1rem;
+}
+.desk {
+  padding-block: 1rem 3rem;
+}
+.desk > button {
+  margin: 1rem 1rem 1rem 0;
+}
+.board-choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+.board-choice {
+  background: var(--surface);
+  color: inherit;
+  border: 2px solid var(--line);
+  display: grid;
+  gap: 0.8rem;
+  text-align: left;
+  padding: 1.5rem;
+}
+.board-choice[aria-pressed='true'] {
+  border-color: var(--focus);
+  box-shadow: 0 0 0 2px var(--focus);
+}
+.board-choice strong {
+  font-size: 1.4rem;
+}
+.board-choice > span:last-child {
+  font-weight: 400;
+}
+.tile-preview {
+  border-radius: 14px;
+  padding: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  color: #17283c;
+  background: linear-gradient(160deg, #fff, #bfdfea 49%, #89b2c7 50%, #def3ff);
+  text-align: center;
+}
+.board-choice:nth-child(2) .tile-preview {
+  background: linear-gradient(160deg, #fff, #efd9b2 49%, #cfa969 50%, #fff0d5);
+}
+#catalog-results {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+#catalog-results label {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.65rem;
+  font-weight: 500;
+  flex-direction: row;
+  align-items: start;
+}
+.deck-description {
+  display: grid;
+  gap: 0.5rem;
+}
+.deck-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+#catalog-selection {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+#catalog-selection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+#catalog-selection p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+#catalog-selection > p:nth-last-child(2) {
+  flex-basis: 100%;
+  color: var(--muted);
+}
+#catalog-results label:has(:checked) {
+  box-shadow: inset 0 0 0 2px var(--focus);
+}
+.pack-sources {
+  border: 0;
+  padding: 0;
+}
+.preparation {
+  padding: 1.5rem;
+}
+.preparation-tools {
+  border-top: 1px solid var(--line);
+  padding-top: 0.5rem;
+}
+.player {
+  position: relative;
+  padding-right: 3.5rem;
+}
+.player > button {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.5rem;
+  padding: 0.4rem;
+  width: 44px;
+}
+.player strong {
+  font-size: 1rem;
+  word-break: break-all;
+}
+.game .long-question .question-text {
+  font-size: 18px;
+  line-height: 1.35;
+  word-break: break-all;
+}
+
+:root[data-playing='true'] body {
+  min-width: 768px;
+}
+:root[data-playing='true'] #app {
+  height: 100dvh;
+}
+:root[data-playing='true'] main {
+  height: calc(100dvh - 88px);
+  padding: 8px 24px 12px;
+  max-width: 1280px;
+  position: relative;
+}
+.game {
+  height: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  grid-template-rows: 76px 1fr;
+  gap: 12px 24px;
+}
+.game:not(:has(.host)) {
+  grid-template-columns: 1fr;
+}
+.player-bar {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  align-self: start;
+}
+.game .board {
+  grid-column: 1;
+  grid-row: 2;
+  height: min(100dvh - 340px, 490px);
+  width: 100%;
+  margin: 0 auto;
+  align-self: start;
+}
+.game[data-phase='question'] .board,
+.game[data-phase='opponent'] .board {
+  height: min(100dvh - 520px, 440px);
+}
+.game[data-phase^='duel-'] .board {
+  height: min(100dvh - 560px, 420px);
+}
+.tile-face {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.tile-face.flipping {
+  animation: tile-flip 480ms ease-in-out;
+}
+.cell .revealed-initial {
+  font-size: 26px;
+}
+.flipping .revealed-initial {
+  animation: tile-reveal 480ms step-end;
+}
+.tile-before {
+  display: none;
+}
+.flipping .tile-before {
+  display: block;
+  animation: tile-front 480ms step-end forwards;
+}
+@keyframes tile-flip {
+  0%,
+  100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0);
+  }
+}
+@keyframes tile-reveal {
+  0% {
+    opacity: 0;
+  }
+  50%,
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tile-front {
+  0% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tile-face.flipping,
+  .flipping .revealed-initial,
+  .flipping .tile-before {
+    animation: none;
+  }
+  .flipping .tile-before {
+    display: none;
+  }
+}
+.game .host {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+  padding: 1rem;
+  width: 200px;
+  align-self: start;
+  z-index: 2;
+}
+.game:has(.host) .long-question {
+  display: flow-root;
+}
+.game:has(.host) .long-question::before {
+  content: '';
+  float: right;
+  width: 224px;
+  height: 200px;
+}
+.game:has(.host) .long-question .timer {
+  right: 240px;
+}
+.host .controls {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.6rem;
+}
+.host button {
+  margin-block: 0.25rem;
+  width: 100%;
+}
+.host h2 {
+  font-size: 1rem;
+}
+.host p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+.game .question-panel {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: none;
+  padding: 1rem 1.25rem;
+  z-index: 1;
+  box-shadow: 0 8px 30px #001c3d24;
+}
+.question-panel h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.question-panel p {
+  margin-bottom: 0.5rem;
+}
+.question-panel .question-text {
+  font-size: 20px;
+  line-height: 1.35;
+}
+.question-panel .eyebrow {
+  padding-right: 65px;
+  margin-bottom: 0.5rem;
+}
+.timer {
+  position: absolute;
+  right: 1.25rem;
+  top: 2.4rem;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.game .feedback {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.3;
+  max-width: none;
+}
+.feedback:empty {
+  display: none;
+}
+.game[data-feedback='long'] .question-panel {
+  bottom: 80px;
+}
+.game[data-feedback='long'] .board {
+  height: min(100dvh - 380px, 490px);
+}
+.duel-symbol {
+  font-family: Arial, sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+}
+.duel-inputs {
+  position: relative;
+}
+.duel-inputs > p {
+  font-size: 0.85rem;
+  text-align: center;
+}
+.touch-controls {
+  margin: 0.5rem 0;
+  gap: 1rem;
+}
+.buzzer {
+  min-height: 48px;
+  flex: 1;
+  border-style: solid;
+}
+.game .target {
+  margin-bottom: 0.25rem;
+}
+:root[data-playing='true'] #error:not(:empty) {
+  position: fixed;
+  left: 24px;
+  right: 24px;
+  bottom: 8px;
+  padding: 0 0.5rem;
+  font-size: 14px;
+  line-height: 1.3;
+  background: var(--surface);
+  border-left: 3px solid var(--focus);
+  z-index: 3;
+}
+.recovery-dialog {
+  width: min(640px, calc(100vw - 48px));
+}
+.recovery-dialog .recovery {
+  margin: 0 0 1rem;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+}
+.recovery-dialog .recovery .actions {
+  margin-bottom: 0.75rem;
+}
+@media (min-height: 900px) {
+  .game .board {
+    height: min(100dvh - 420px, 560px);
+  }
+}
+@media (max-width: 850px) {
+  #catalog-results {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header {
+    padding-inline: 16px;
+  }
+  .brand span {
+    display: none;
+  }
+  :root[data-playing='true'] main {
+    padding-inline: 16px;
+  }
+  .game {
+    grid-template-columns: minmax(0, 1fr) 180px;
+    gap: 12px;
+  }
+  .game .host {
+    width: 180px;
+    padding: 0.75rem;
+  }
+  .game:has(.host) .long-question::before {
+    width: 192px;
+  }
+  .game:has(.host) .long-question .timer {
+    right: 208px;
+  }
+  .game .question-panel {
+    padding: 1rem;
+  }
+  .player {
+    padding-left: 0.75rem;
+  }
+  .player strong {
+    font-size: 1rem;
+  }
+}

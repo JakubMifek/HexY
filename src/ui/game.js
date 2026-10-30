@@ -1,9 +1,9 @@
 import { boardView } from './board.js';
-import { element } from './dom.js';
+import { button, element } from './dom.js';
 import { hostView } from './host.js';
 import { answeringPlayer, roundView } from './round.js';
 
-/** @typedef {{answer?: string, recipient?: 'A'|'B'|'black', wrong?: boolean}} Feedback */
+/** @typedef {{answer?: string, recipient?: 'A'|'B'|'black', wrong?: boolean, flipCell?: number}} Feedback */
 
 /** @param {import('../domain/types.js').Game} state @param {import('./setup.js').Setup} settings
  * @param {import('./strings.js').Texts} t @param {Feedback} feedback
@@ -12,15 +12,18 @@ export function gameView(state, settings, t, feedback, send, signal) {
   const game = element('div', '', {
     class: 'game',
     'data-phase': state.stage.phase,
+    'data-feedback':
+      feedback.answer && feedback.answer.length > 80 ? 'long' : '',
   });
   game.append(
-    playerBar(state, settings, t),
+    playerBar(state, settings, t, send, signal),
     boardView(
       state,
       settings,
       t,
       (cell) => send({ type: 'select', cell }),
       signal,
+      feedback.flipCell,
     ),
     roundView(state, settings.players, t, send, signal),
   );
@@ -42,15 +45,16 @@ export function gameView(state, settings, t, feedback, send, signal) {
         }),
       );
   }
-  game.append(result, element('p', t.locked, { class: 'muted content-lock' }));
+  game.append(result);
   if (state.config.answerMode === 'hosted')
     game.append(hostView(state, t, send, signal));
   return game;
 }
 
 /** @param {import('../domain/types.js').Game} state @param {import('./setup.js').Setup} settings
- * @param {import('./strings.js').Texts} t */
-function playerBar(state, settings, t) {
+ * @param {import('./strings.js').Texts} t
+ * @param {(action: import('../domain/types.js').ActionBody) => void} send @param {AbortSignal} signal */
+function playerBar(state, settings, t, send, signal) {
   const bar = element('section', '', {
     class: 'player-bar',
     'aria-label': t.chooser,
@@ -68,6 +72,19 @@ function playerBar(state, settings, t) {
       panel.append(
         element('span', playerRole(state, t), { class: 'player-role' }),
       );
+    if (
+      state.config.answerMode === 'hosted' &&
+      (state.stage.phase === 'selecting' || state.stage.phase === 'won')
+    ) {
+      const chooser = button(
+        '↗',
+        `choose-${id}`,
+        () => send({ type: 'set-chooser', player: id }),
+        signal,
+      );
+      chooser.setAttribute('aria-label', `${t.setChooser}: ${player.name}`);
+      panel.append(chooser);
+    }
     bar.append(panel);
   }
   return bar;
@@ -85,6 +102,8 @@ function playerRole(state, t) {
  * @param {import('../domain/types.js').Action} action @returns {Feedback} */
 export function transitionFeedback(before, after, action) {
   const stage = before.stage;
+  if (stage.phase === 'selecting' && after.stage.phase === 'question')
+    return { flipCell: after.stage.round.cell };
   if (!('round' in stage)) return {};
   const recipient = after.cells[stage.round.cell - 1];
   if (recipient === 'unclaimed') {

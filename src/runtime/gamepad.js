@@ -7,6 +7,8 @@ import { requireValue } from '../domain/errors.js';
 export class DuelGamepads {
   /** @type {Map<number, {token: string, pad: Pad}>} */
   devices = new Map();
+  /** @type {Set<Player>} */
+  missing = new Set();
   /** @type {Partial<Record<Player, Assignment>>} */
   assignments = {};
   sequence = 0;
@@ -103,6 +105,7 @@ export class DuelGamepads {
     for (const player of /** @type {const} */ (['A', 'B'])) {
       if (this.assignments[player]?.token === device.token) {
         delete this.assignments[player];
+        this.missing.add(player);
         this.status = 'disconnected';
         this.interrupt();
       }
@@ -114,6 +117,7 @@ export class DuelGamepads {
   assign(player, token, button) {
     if (!token) {
       delete this.assignments[player];
+      this.missing.delete(player);
       this.interrupt();
       return;
     }
@@ -138,6 +142,7 @@ export class DuelGamepads {
       held: device.pad.buttons[button].pressed,
       armed: false,
     };
+    this.missing.delete(player);
     this.status = '';
     this.interrupt();
     this.changed();
@@ -180,8 +185,11 @@ export class DuelGamepads {
   }
 
   ready() {
-    return Object.values(this.assignments).every(
-      (assignment) => assignment.armed && !assignment.held,
+    return (
+      this.missing.size === 0 &&
+      Object.values(this.assignments).every(
+        (assignment) => assignment.armed && !assignment.held,
+      )
     );
   }
 

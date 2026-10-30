@@ -20,8 +20,12 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: plan finished by owner decision; phase 8 accepted for private
-delivery, with public-release work retained as follow-ups.**
+**Current stage: the original plan is finished; phase 9, the owner-requested
+guided UI redesign, is independently CLEARED after P9-IR1/P9-IR2 fixes and
+has passed the coordinator's complete post-review gates.** The initial
+CHANGES REQUIRED verdict and subsequent clearance are preserved in
+[the phase-9 review](reviews/phase-09.md). Phase 8 was accepted for
+private delivery, with public-release work retained as follow-ups.
 On 2026-10-29 the owner instructed: "commit and push. keep these as followup work.
 Plan is finished". This explicitly closes the current plan and authorizes delivery
 without claiming the original public-release gate passed. The independent review
@@ -74,6 +78,81 @@ preserve unrelated changes. Ask for product decisions with context, not for the
 user to perform development tasks.
 
 ## Product constraints: confirmed
+
+### Phase 9: guided UI redesign — approved 2026-10-29
+
+This amendment supersedes conflicting earlier presentation requirements and
+the finite duel rotation described below, not other game rules, immutable started
+content, timing safeguards or quality gates.
+The original plan's public-release follow-ups remain deferred.
+
+- Fresh entry shows a simple menu: New Game, Options, Import Game. Reload of an
+  active game still restores it. Options contains question duration (30 seconds
+  by default), starting player (random by default), game controls and a single
+  game language applied to both UI and newly selected questions.
+- Keep the theme toggle in its existing header position, using sun/moon icons
+  with no visible text; retain a localized accessible name. Remove fullscreen
+  controls everywhere; users can use the browser's own fullscreen shortcut.
+- New Game opens player setup: A/B names default to distinct randomly chosen
+  Lord of the Rings character names; colors default appropriately for the theme.
+  Allow names/colors and human or digital host selection.
+- Next is board/deck setup: two visual choices, Number tiles (primary) and
+  Alphabetical tiles, followed by a dynamic, polished deck-selection form.
+  This is the last setup page; preserve eligible-source generation and fixed
+  authored placement. No question-set access during gameplay.
+- A human-host session must initiate its exact HTML answer-sheet download before
+  starting; digital-host sessions do not offer it. A browser cannot verify
+  whether the user actually saved a download to disk.
+- Import Game accepts a complete saved-game JSON, not question-pack JSON, and
+  restores players, settings, board and progress directly without setup.
+  Validate the complete portable format, preserve current valid data on failure,
+  keep original deadlines and explicitly restart imported interrupted duels.
+- Gameplay is centered. Header actions are Exit Game and Save Game (complete
+  portable JSON download), with no input-controls or fullscreen button.
+  Exit confirms ending the game and returns to the menu; use the downloaded
+  save to resume later. Reload continues to recover an active local game.
+- Human-host commands sit to the right of the grid. Put the host's chooser
+  override in each player's name box; preserve existing phase restrictions.
+  Questions remain below the board in ordinary layouts.
+- No page or panel scrolling in gameplay. Define generous validated text limits
+  and supported viewport constraints; unusually long questions may cover part
+  of the board instead of clipping text or hiding actions. Test actual fitting
+  at supported laptop/tablet viewports, not just overflow suppression.
+- Use exactly circle, star, square, triangle, hexagon, heart and sun in duels.
+  Preselect and show one target before the duel. Keep that target fixed throughout
+  uninterrupted random rotation, including missed targets and ties. Randomized
+  bounded cycles include all seven symbols and continue indefinitely without
+  returning to readiness/preview when a target is missed. A tie restarts a random
+  active cycle without an award; a real interruption requires fresh readiness.
+  Preserve the 2-second preview, 900-ms cadence, wrong-symbol awards, tie window
+  and stale-event protection. Bound saved state and guarantee target appearances;
+  do not pre-generate an unbounded sequence. Version/validate new saves and
+  explicitly handle the earlier four-symbol saved-game format.
+  Remove verbose duel instructions;
+  retain target/current-symbol presentation, concise control hints, on-screen
+  buzzers and necessary localized failure/status feedback.
+- Restart the preview automatically once both players press and release their
+  assigned controls after an interruption. No readiness checkboxes or extra
+  restart click. Preserve release/hold suppression, focus/device safety and stale
+  event guards; the rearming press must never award a tile.
+- Won tiles show only their owner's color, with no A/B symbols or player-specific
+  border styles. Black tiles retain their identifier without the ×. The owner
+  explicitly accepts reduced color-vision accessibility for this presentation;
+  retain accessible ownership names, keyboard focus and winning-group feedback.
+- Selecting an unclaimed question tile flips it to reveal its full authored
+  answer initial on the tile, including Czech `Ch` and English `CH`/`SH`.
+  Alphabetical tiles also flip, retaining their known initial. The initial stays
+  throughout the question and opponent opportunity. Black-duel selection keeps
+  the original identifier; resolved owned/black tiles retain the rules above.
+  Native presentational animation must not delay the question/deadline or drive
+  game transitions. Renders, theme changes, ticks and recovery do not replay it;
+  reduced motion reveals immediately. Pointer and keyboard selection both work.
+
+These behaviors were confirmed with the owner, including full-save-only import,
+automatic press/release restart, color-only ownership, non-scrolling layouts with
+generous text constraints/board overlap, and reload recovery versus confirmed exit.
+Implementation must include focused regressions, real browser visual evidence,
+independent review and coordinator post-review gates before private delivery.
 
 - One static JavaScript-based webpage, organized into multiple files.
 - Public source repository and public hosting on the user's existing server.

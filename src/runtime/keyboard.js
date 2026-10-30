@@ -1,17 +1,12 @@
 import { BuzzerBatch } from './buzzer.js';
-import { requireValue } from '../domain/errors.js';
-
-export const KEY_CODES = [
-  'ShiftLeft',
-  'ShiftRight',
-  'Space',
-  ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map((letter) => `Key${letter}`),
-];
+import { validateKeys } from '../domain/controls.js';
+export { KEY_CODES } from '../domain/controls.js';
 
 export class DuelKeyboard {
   mapping = { A: 'ShiftLeft', B: 'ShiftRight' };
   held = new Set();
   releasesRequired = new Set();
+  freshPresses = new Set();
   listeners = new AbortController();
   /** @type {(player: import('../domain/types.js').Player, held: boolean) => void} */
   changed = () => {};
@@ -50,17 +45,12 @@ export class DuelKeyboard {
   requireReleases() {
     this.batch.clear();
     this.releasesRequired = new Set(Object.values(this.mapping));
+    this.freshPresses.clear();
   }
 
   /** @param {{A: string, B: string}} mapping */
   remap(mapping) {
-    requireValue(
-      KEY_CODES.includes(mapping.A) &&
-        KEY_CODES.includes(mapping.B) &&
-        mapping.A !== mapping.B,
-      'inputConflict',
-    );
-    this.mapping = { ...mapping };
+    this.mapping = validateKeys(mapping);
     this.held = new Set(
       [...this.held].filter((code) => Object.values(mapping).includes(code)),
     );
@@ -69,12 +59,16 @@ export class DuelKeyboard {
 
   /** @param {string} code */
   up(code) {
-    this.held.delete(code);
-    if (!this.document.hidden && this.document.hasFocus()) {
+    const held = this.held.delete(code);
+    if (
+      this.freshPresses.delete(code) &&
+      !this.document.hidden &&
+      this.document.hasFocus()
+    ) {
       this.releasesRequired.delete(code);
     }
     const player = this.player(code);
-    if (player) this.changed(player, false);
+    if (player && held) this.changed(player, false);
   }
 
   /** @param {string} code @returns {import('../domain/types.js').Player | null} */
@@ -87,8 +81,14 @@ export class DuelKeyboard {
   down(event) {
     const player = this.player(event.code);
     if (!player) return;
-    if (event.repeat || this.held.has(event.code)) return;
+    if (
+      event.repeat ||
+      (this.held.has(event.code) && this.freshPresses.has(event.code))
+    )
+      return;
     this.held.add(event.code);
+    if (!this.document.hidden && this.document.hasFocus())
+      this.freshPresses.add(event.code);
     this.changed(player, true);
     if (!this.batch.context || this.releasesRequired.has(event.code)) return;
     if (isControl(event.target)) return;
@@ -107,6 +107,7 @@ export class DuelKeyboard {
     this.batch.bind(null);
     this.held.clear();
     this.releasesRequired.clear();
+    this.freshPresses.clear();
   }
 }
 
@@ -115,8 +116,6 @@ function isControl(target) {
   return (
     target instanceof Element &&
     !target.closest('.buzzer') &&
-    target.closest(
-      'input, select, textarea, button, [contenteditable="true"]',
-    ) !== null
+    target.closest('input, select, textarea, [contenteditable="true"]') !== null
   );
 }

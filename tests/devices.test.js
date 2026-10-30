@@ -246,9 +246,9 @@ test('physical remaps reject conflicts, preserve held/repeat filtering and requi
   );
 });
 
-test('mapped keys do not steal input from ordinary controls, but work with buzzer focus', () => {
+test('mapped keys preserve editable input but work with ordinary button and buzzer focus', () => {
   keyboard.bind(act(duel(), { type: 'tick' }, 1100));
-  for (const tag of ['select', 'input', 'button']) {
+  for (const tag of ['select', 'input', 'textarea']) {
     const control = document.createElement(tag);
     document.body.append(control);
     const event = new KeyboardEvent('keydown', {
@@ -264,7 +264,6 @@ test('mapped keys do not steal input from ordinary controls, but work with buzze
   vi.advanceTimersByTime(8);
   expect(send).not.toHaveBeenCalled();
   const buzzer = document.createElement('button');
-  buzzer.className = 'buzzer';
   document.body.append(buzzer);
   buzzer.dispatchEvent(
     new KeyboardEvent('keydown', { code: 'ShiftLeft', bubbles: true }),

@@ -29,7 +29,8 @@ export function roundView(state, players, t, send, signal) {
   if (phase === 'selecting') panel.append(element('p', t.choose));
   else if (phase === 'question' || phase === 'opponent')
     questionView(panel, state, t, send, signal);
-  else if (phase === 'duel-interrupted') readinessView(panel, t, send, signal);
+  else if (phase === 'duel-interrupted')
+    panel.append(element('p', t.interruptHelp));
   else if (phase === 'duel-preview' || phase === 'duel-active')
     duelView(panel, state, t);
   return panel;
@@ -55,6 +56,7 @@ function questionView(panel, state, t, send, signal) {
   const stage = state.stage;
   if (stage.phase !== 'question' && stage.phase !== 'opponent') return;
   const question = state.pack.questions[stage.round.cell - 1];
+  if (question.text.length > 240) panel.classList.add('long-question');
   panel.append(
     element(
       'p',
@@ -65,7 +67,6 @@ function questionView(panel, state, t, send, signal) {
       class: 'question-text',
       lang: question.language,
     }),
-    element('p', stage.phase === 'question' ? t.remaining : t.untimed),
   );
   if (stage.phase === 'question')
     panel.append(
@@ -77,22 +78,8 @@ function questionView(panel, state, t, send, signal) {
       }),
     );
   const controls = element('div', '', { class: 'controls' });
-  if (state.config.answerMode === 'hosted') {
-    controls.append(
-      button(
-        t.correct,
-        'judge-correct',
-        () => send({ type: 'judge', correct: true }),
-        signal,
-      ),
-      button(
-        t.wrong,
-        'judge-wrong',
-        () => send({ type: 'judge', correct: false }),
-        signal,
-      ),
-    );
-  } else controls.append(answerForm(state, t, send, signal));
+  if (state.config.answerMode === 'automatic')
+    controls.append(answerForm(state, t, send, signal));
   controls.append(
     button(t.giveUp, 'give-up', () => send({ type: 'give-up' }), signal),
   );
@@ -162,35 +149,5 @@ function duelView(panel, state, t) {
         : `${t.current}: ${t[symbolKey(symbol)]}`,
       { id: 'duel-current' },
     ),
-    element('p', t.duelHelp),
-  );
-}
-
-/** @param {HTMLElement} panel @param {import('./strings.js').Texts} t
- * @param {(action: import('../domain/types.js').ActionBody) => void} send @param {AbortSignal} signal */
-function readinessView(panel, t, send, signal) {
-  panel.append(element('p', t.interruptHelp, { id: 'rearm-help' }));
-  const a = input('ready-A', 'checkbox', 'A');
-  const b = input('ready-B', 'checkbox', 'B');
-  const restart = button(
-    t.restart,
-    'restart',
-    () => {
-      if (a.checked && b.checked) send({ type: 'restart' });
-    },
-    signal,
-  );
-  restart.disabled = true;
-  restart.setAttribute('aria-describedby', 'rearm-help restart-feedback');
-  const update = () => {
-    restart.disabled = !a.checked || !b.checked;
-  };
-  a.addEventListener('change', update, { signal });
-  b.addEventListener('change', update, { signal });
-  panel.append(
-    field(`${t.playerA} · ${t.ready}`, a),
-    field(`${t.playerB} · ${t.ready}`, b),
-    restart,
-    element('p', '', { id: 'restart-feedback', role: 'alert' }),
   );
 }

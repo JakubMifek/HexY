@@ -16,7 +16,9 @@ export function validateConfig(value) {
     'config.duel.length',
   );
   requireValue(
-    symbols.length >= 2 && new Set(symbols).size === symbols.length,
+    symbols.length >= 2 &&
+      symbols.length <= MAX_DUEL_SEQUENCE_LENGTH &&
+      new Set(symbols).size === symbols.length,
     'duelSymbols',
     'config.duel.symbols',
   );

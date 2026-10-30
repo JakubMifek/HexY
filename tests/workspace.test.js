@@ -9,6 +9,7 @@ import { bundledPacks } from '../src/content/catalog.js';
 import { importPack } from '../src/domain/packs.js';
 import { answerSheet } from '../src/ui/answer-sheet.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
+import { prepare, setting } from './ui-helpers.js';
 
 /** @type {App} */
 let app;
@@ -39,6 +40,7 @@ beforeEach(() => {
   );
   vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(() => {});
   app = new App(root, browserClock, () => 0, id);
+  prepare(app);
 });
 
 afterEach(() => {
@@ -57,6 +59,7 @@ function click(selector) {
 
 /** @param {string} selector @param {string} value */
 function set(selector, value) {
+  if (setting(app, selector, value)) return;
   const node = root.querySelector(selector);
   if (!(
     node instanceof HTMLInputElement ||
@@ -129,7 +132,7 @@ test('real editor makes an immutable custom fixed copy with aliases, metadata an
     before.questions.map((q) => q.initial),
   );
   expect(bundledPacks()[1]).toEqual(before);
-  click('#answer-sheet');
+  app.workspace.download(pack, true);
   const sheet = new DOMParser().parseFromString(
     await downloads[1].text(),
     'text/html',
@@ -142,7 +145,7 @@ test('real editor makes an immutable custom fixed copy with aliases, metadata an
   expect(app.state?.pack).toEqual(pack);
   expect(root.querySelector('#edit-proposal')).toBeNull();
   expect(root.querySelector('#import-packs')).toBeNull();
-  click('#answer-sheet');
+  expect(root.querySelector('#answer-sheet')).toBeNull();
   expect(await downloads[2].text()).toBe(await downloads[1].text());
 });
 
@@ -233,11 +236,12 @@ test('saved imports, custom copies and settings survive remount independently of
   expect(app.language).toBe('en');
   expect(app.theme).toBe('dark');
   expect(app.settings.players.A.name).toBe('Ada');
+  prepare(app);
   expect(app.workspace.model.custom).toEqual([copy]);
   expect(root.textContent).toContain('Saved local copy');
   expect(app.state).toBeNull();
   click('#export-sources');
-  expect(importPack(await downloads[0].text())).toEqual(bundledPacks()[0]);
+  expect(importPack(await downloads[0].text())).toEqual(bundledPacks()[1]);
 });
 
 test.each(['{', '{"schemaVersion":2}'])(
@@ -246,6 +250,7 @@ test.each(['{', '{"schemaVersion":2}'])(
     app.dispose();
     localStorage.setItem(LIBRARY_KEY, json);
     app = new App(root, browserClock, () => 0, id);
+    prepare(app);
     expect(root.querySelector('#storage-error')?.textContent).toContain(
       'nebyla',
     );
@@ -282,6 +287,7 @@ test('storage quota and unavailable storage are visible while custom packs remai
     throw new Error('Denied');
   });
   app = new App(root, browserClock, () => 0, id);
+  prepare(app);
   expect(root.querySelector('#storage-error')?.textContent).toContain(
     'nelze přečíst',
   );
@@ -395,21 +401,21 @@ test('accepted generated boards are stored, and active-game downloads preserve t
   click('#cell-1');
   set('#answer', 'Still composing');
   const stage = app.state?.stage;
-  click('#answer-sheet');
-  click('#export-pack');
+  expect(root.querySelector('#answer-sheet, #export-pack')).toBeNull();
+  click('#save-game');
   expect(root.querySelector('#answer')).toHaveProperty(
     'value',
     'Still composing',
   );
   expect(app.state?.stage).toEqual(stage);
-  expect(importPack(await downloads[1].text())).toEqual(pack);
+  expect(JSON.parse(await downloads[0].text()).game.pack).toEqual(pack);
 });
 
 test('cancelled import is silent and disposal releases every downloaded Blob URL', async () => {
   await app.workspace.importFiles([]);
   expect(app.workspace.notice).toBe('');
   click('#export-pack');
-  click('#answer-sheet');
+  app.workspace.download(bundledPacks()[0], true);
   expect(app.workspace.downloads.urls.size).toBe(2);
   app.dispose();
   expect(URL.revokeObjectURL).toHaveBeenCalledWith('blob:1');
@@ -438,12 +444,13 @@ test('confirmed saving exclusion retains exports, selected acceptance and the lo
   expect(importPack(await downloads[0].text())).toEqual(accepted);
   click('#start');
   const game = app.state;
-  click(`#library-include-${accepted.id}`);
+  expect(root.querySelector(`#library-include-${accepted.id}`)).toBeNull();
+  app.workspace.setIncluded(accepted.id, true);
   expect(JSON.parse(localStorage.getItem(LIBRARY_KEY) ?? '{}').packs).toEqual([
     accepted,
     retained,
   ]);
-  click(`#library-exclude-${accepted.id}`);
+  app.workspace.setIncluded(accepted.id, false);
   expect(app.state).toBe(game);
   expect(app.workspace.model.locked).toBe(true);
   expect(root.querySelector('#edit-proposal')).toBeNull();
@@ -467,6 +474,7 @@ test.each(/** @type {const} */ (['en', 'cs']))(
         throw new DOMException('Denied', 'SecurityError');
       });
     app = new App(root, browserClock, () => 0, id);
+    prepare(app);
     set('#ui-language', language);
     click('#edit-proposal');
     click('#save-pack');

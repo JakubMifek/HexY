@@ -8,11 +8,27 @@ export function hostView(state, t, send, signal) {
     'aria-label': t.host,
   });
   section.append(element('h2', t.host));
+  if (state.stage.phase === 'question' || state.stage.phase === 'opponent') {
+    section.append(
+      button(
+        t.correct,
+        'judge-correct',
+        () => send({ type: 'judge', correct: true }),
+        signal,
+      ),
+      button(
+        t.wrong,
+        'judge-wrong',
+        () => send({ type: 'judge', correct: false }),
+        signal,
+      ),
+    );
+    return section;
+  }
   if (state.stage.phase !== 'selecting' && state.stage.phase !== 'won') {
     section.append(element('p', t.hostUnavailable));
     return section;
   }
-  section.append(element('p', t.hostHelp, { class: 'muted' }));
   const cell = select(
     'host-cell',
     Array.from({ length: 28 }, (_, i) => [String(i + 1), String(i + 1)]),
@@ -39,36 +55,8 @@ export function hostView(state, t, send, signal) {
       signal,
     ),
   );
-  section.append(cells, chooserControls(state.chooser, t, send, signal));
+  section.append(cells);
   return section;
-}
-
-/** @param {import('../domain/types.js').Player} player @param {import('./strings.js').Texts} t
- * @param {(action: import('../domain/types.js').ActionBody) => void} send @param {AbortSignal} signal */
-function chooserControls(player, t, send, signal) {
-  const chooser = select(
-    'host-chooser',
-    [
-      ['A', t.playerA],
-      ['B', t.playerB],
-    ],
-    player,
-  );
-  const turns = element('div', '', { class: 'controls' });
-  turns.append(
-    field(t.chooser, chooser),
-    button(
-      t.setChooser,
-      'set-chooser',
-      () =>
-        send({
-          type: 'set-chooser',
-          player: chooser.value === 'A' ? 'A' : 'B',
-        }),
-      signal,
-    ),
-  );
-  return turns;
 }
 
 /** @param {string} value @returns {import('../domain/types.js').Owner} */

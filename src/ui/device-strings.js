@@ -3,6 +3,7 @@ export const deviceStrings = {
     recovery: 'Game recovery',
     saved: 'Current game saved locally. Export is your backup.',
     unsaved: 'Current game is not saved.',
+    unsavedShort: 'Not saved',
     recoveryHelp:
       'The original stored game has not been replaced. Export it before discarding; retry after allowing storage or restoring the clock. A newer format needs a compatible HexY version.',
     exportGame: 'Export game / original save',
@@ -25,7 +26,7 @@ export const deviceStrings = {
     connect:
       'Connect a controller and press a button to make it visible. No device is assigned automatically.',
     disconnected:
-      'Assigned controller disconnected. Duel interrupted. Explicitly assign a connected device again.',
+      'Assigned controller disconnected. Save game, exit, reassign in Options, then import your saved game.',
     none: 'Not assigned',
     device: 'Controller',
     button: 'Button index (starting at 0)',
@@ -40,11 +41,6 @@ export const deviceStrings = {
     buzzer: 'Touch buzzer',
     touchHelp:
       'Two players may touch separate A/B buzzers simultaneously. Hold is ignored; lift your finger before buzzing again. Use keyboard or touch unless controllers are explicitly assigned.',
-    readyHelp:
-      'After interruption, press and release both mapped keyboard keys, or both touch buzzers. Assigned controllers must be released. Then both players confirm readiness.',
-    fullscreen: 'Fullscreen',
-    fullscreenError:
-      'Fullscreen failed or is unavailable. Use the browser fullscreen command instead.',
     mappingError:
       'Keyboard preferences could not be saved. Existing data is preserved; mappings work for this session. Allow storage and change a mapping again to retry.',
     mappingReadError:
@@ -56,6 +52,7 @@ export const deviceStrings = {
     recovery: 'Obnovení hry',
     saved: 'Aktuální hra je uložena místně. Zálohou je export.',
     unsaved: 'Aktuální hra není uložena.',
+    unsavedShort: 'Neuloženo',
     recoveryHelp:
       'Původní uložená hra nebyla nahrazena. Před smazáním ji exportujte; po povolení úložiště nebo opravě hodin opakujte obnovení. Novější formát vyžaduje kompatibilní verzi HexY.',
     exportGame: 'Exportovat hru / původní záznam',
@@ -78,7 +75,7 @@ export const deviceStrings = {
     connect:
       'Připojte ovladač a stiskněte tlačítko, aby byl viditelný. Žádný ovladač se nepřiřazuje automaticky.',
     disconnected:
-      'Přiřazený ovladač byl odpojen. Duel je přerušen. Znovu výslovně přiřaďte připojené zařízení.',
+      'Přiřazený ovladač byl odpojen. Uložte a ukončete hru, přiřaďte ovladač v Možnostech a importujte uloženou hru.',
     none: 'Nepřiřazeno',
     device: 'Ovladač',
     button: 'Číslo tlačítka (od 0)',
@@ -93,11 +90,6 @@ export const deviceStrings = {
     buzzer: 'Dotykové tlačítko',
     touchHelp:
       'Dva hráči mohou současně stisknout samostatná tlačítka A/B. Držení se ignoruje; před dalším stiskem zvedněte prst. Bez výslovného přiřazení ovladačů použijte klávesnici nebo dotyk.',
-    readyHelp:
-      'Po přerušení stiskněte a uvolněte obě přiřazené klávesy nebo obě dotyková tlačítka. Přiřazené ovladače musí být uvolněné. Pak oba hráči potvrdí připravenost.',
-    fullscreen: 'Celá obrazovka',
-    fullscreenError:
-      'Celá obrazovka není dostupná nebo selhala. Použijte příkaz prohlížeče pro celou obrazovku.',
     mappingError:
       'Předvolby kláves nelze uložit. Původní data zůstávají; přiřazení platí pro tuto relaci. Povolte úložiště a dalším přiřazením klávesy opakujte uložení.',
     mappingReadError:
