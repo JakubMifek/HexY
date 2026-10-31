@@ -1,5 +1,6 @@
 import { BOARD } from '../domain/board.js';
 import { svg } from './dom.js';
+import { countdownView } from './countdown.js';
 
 const HEX = '0,-28 24.25,-14 24.25,14 0,28 -24.25,14 -24.25,-14';
 
@@ -25,6 +26,8 @@ export function boardView(state, settings, t, choose, signal, flipCell) {
     );
     board.append(group);
   }
+  const selected = board.querySelector('.question-tile');
+  if (selected) board.append(selected);
   board.addEventListener('keydown', (event) => moveFocus(event, board), {
     signal,
   });
@@ -39,6 +42,8 @@ function cellView(state, settings, t, cell, flipCell) {
   const owned = owner === 'A' || owner === 'B';
   const { label, initial } = tileLabels(state, cell.id);
   const available = !owned && state.stage.phase === 'selecting';
+  const timed =
+    state.stage.phase === 'question' && state.stage.round.cell === cell.id;
   const group = svg('g', {
     transform: `translate(${cell.x * 29},${cell.y * 29})`,
     id: `cell-${cell.id}`,
@@ -50,9 +55,17 @@ function cellView(state, settings, t, cell, flipCell) {
     'data-owner': owner,
   });
   const fill = owned ? settings.players[owner].color : `var(--cell-${owner})`;
-  group.append(
-    tileFace(fill, owned ? null : label, initial, flipCell === cell.id),
+  const face = tileFace(
+    fill,
+    owned ? null : label,
+    initial,
+    flipCell === cell.id,
   );
+  group.append(face);
+  if (timed) {
+    group.classList.add('question-tile');
+    face.append(countdownView(settings.players[state.chooser].color));
+  }
   return group;
 }
 

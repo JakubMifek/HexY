@@ -36,7 +36,7 @@ test('number selection visibly flips to the initial without delaying or replayin
   const first = await seekFlip(face, 0);
   expect(first).toMatchObject({ before: '1', initial: '0' });
   expect((await seekFlip(face, 240)).transform).toBe(
-    'matrix(0, 0, 0, 1, 0, 0)',
+    'matrix(0, 0, 0, 1.16, 0, 0)',
   );
   const back = await seekFlip(face, 400);
   expect(back).toMatchObject({ before: '0', initial: '1' });

@@ -19,7 +19,7 @@ The owner-approved phase-10 follow-up adds temporary mixes, final export and
 recorded controls; its [developer handoff](docs/phase-10-handoff.md) records
 verification; phase 10 is cleared and privately delivered as `54b34b1`.
 
-**Phase 11 is independently cleared with complete post-review gates passed:**
+**Phase 11 is independently cleared and privately delivered as `893b984`:**
 the catalog
 has **132 decks / 3,696 questions**, eleven categories with exactly two decks
 per language/difficulty. Version-2 difficulty, language-scoped folders and
@@ -46,6 +46,13 @@ receipts are preserved; all 72 prior category-fit findings were independently
 reassessed and resolved under that scope. Factual, alias, disclosure and
 difficulty corrections passed separate rechecks, not automatic clearance.
 
+The separate reviewed visual bundle is integrated and independently cleared:
+tile growth during the flip, deadline-derived clockwise countdown and consistent
+new-player colors. Full postreview872unit/1451native/66negative-probe gates pass;
+authorized private delivery receipts follow in the continuation handoff.
+See [visual review](reviews/visual-bundle.md) and
+[visual handoff](docs/visual-bundle-handoff.md). Phase12 remains paused.
+
 ## Play
 
 Fresh entry opens **Menu**: **New Game**, **Options**, or **Import Game**.
@@ -54,16 +61,21 @@ Options sets one language for both interface and questions, question duration
 New Game opens editable player names/colors and human/digital host selection,
 then Number/Alphabetical tiles and deck preparation. Default player names are
 distinct randomly selected Lord of the Rings character names; no artwork or
-narrative is included. Back preserves choices. The header sun/moon button changes
+narrative is included. New players use A `#129FB5` and B `#FBA123` in either theme.
+Custom choices and saved/imported colors are retained. Back preserves choices.
+The header sun/moon button changes
 theme without rerolling names, regenerating content or resetting time.
 
 - Connect one group of your fields to all three edges. Corners touch two edges.
 - Fixed-letter boards preserve their authored placement. Number boards propose
   28 distinct questions from only your selected, same-language source packs.
-- Selecting a question tile flips it to its full answer initial (`Ch`, `CH` and
-  `SH` stay intact). The initial remains through the opponent's opportunity.
-  Reduced motion reveals immediately. This animation never delays the timer,
-  replays on theme/reload, or changes black-duel identifiers.
+- Selecting a question tile enlarges it during its flip to the full answer
+  initial (`Ch`, `CH` and `SH` stay intact). While the initial player answers,
+  a ring in their configured color disappears clockwise from twelve o'clock,
+  reaching empty at the existing deadline. The readable time remains below.
+  The initial remains through the opponent's untimed opportunity, without a ring.
+  Reduced motion reveals the enlarged tile immediately. Neither presentation
+  delays the timer, replays the flip on theme/reload, or changes black duels.
 - **Spoken:** a host judges answers. Incorrect initial answers leave the original
   timer running. **Typed:** case, spacing and missing diacritics are ignored;
   explicit aliases are accepted, but not fuzzy spelling corrections.

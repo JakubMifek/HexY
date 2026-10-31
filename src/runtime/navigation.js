@@ -26,7 +26,7 @@ export class Navigation {
   }
 
   newGame() {
-    this.app.settings.players = randomPlayers(this.app.random, this.app.theme);
+    this.app.settings.players = randomPlayers(this.app.random);
     this.boardChosen = false;
     this.go('players');
   }

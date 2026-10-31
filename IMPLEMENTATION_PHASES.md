@@ -12,8 +12,10 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
-**Authoritative bounded-delivery checkpoint, 2026-10-31:** phase11 independent
-final review CLEARED, coordinator full postreview quality867tests/34files,
+**Authoritative bounded-delivery checkpoint, 2026-10-31:** phase11 CLEARED and
+privately delivered `893b984638acb14a4871343cd00f082054e74832`, verified
+origin/main/actual HTTPS and exact protected old-data upgrade canary.
+Coordinator full postreview quality867tests/34files,
 format/lint/types/build/both57-module coverage groups,1433nativecases and65negative
 probes PASS. Exact132/3696/all11quotas and all accepted content/support/alias
 receipts retained. Authorized commit/push/private HTTPS delivery follows these
@@ -23,8 +25,13 @@ Sole new coordinator session `8bcfc276-2d9b-4c1a-bfb9-911a6eda1686`,
 browser workers=1. All historical worker tables below are preserved history,
 not current active ownership. Phase12 artifacts are paused and untouched;
 Generaloriginalc2ac2e6b remains independently ACTIVE and exclusively owned.
-Next only: exact reviewed visualpatch88d2b3ad integration, separate independent
-review/postreview/private delivery, then durable handoff and stop.
+Exact reviewed visualpatch88d2b3ad is now adopted without code/test reauthoring:
+twelve accepted candidate files exact; later phase11 docs preserved.
+Integrated quality872tests/35files/all58runtime modules PASS. Next only: separate
+private delivery after completed independent integration CLEARED and full
+postreview872unit/1451native/66negativeprobes PASS, then durable handoff and STOP.
+No code/test reauthoring, phase12 authoring or category review.
+See `docs/visual-bundle-handoff.md` and `reviews/visual-bundle.md`.
 
 **Owner decision, 2026-10-30 17:15:** broaden the category to Computing and
 Programming while retaining general-adult difficulty, as recorded in PLAN.md.
@@ -195,6 +202,12 @@ The separate bounded preparation session owns phase-12 General knowledge
 `.artifacts/continuation/PARALLEL-PREPARATION-STATUS.md` before assigning these
 again. This overrides the earlier phase-12/visual sequential-start requirement,
 not independent review or final phase gates.
+
+**Isolated visual preparation 2026-10-30:** the reserved visual worktree implements
+the selected-tile growth, authoritative clockwise countdown and new-player colors.
+This is a candidate bundle against the frozen 20:07:26.153Z baseline, not primary
+checkout integration or phase clearance. Independent visual review, coordinator
+adoption, affected-flow verification and normal delivery gates remain required.
 
 **Owner follow-up 2026-10-30 15:37:** immutable 2–4 completed-deck batches may
 enter independent review while their author continues separate mutable work.

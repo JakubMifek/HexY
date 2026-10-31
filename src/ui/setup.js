@@ -1,5 +1,7 @@
 import { button, element, field, input, select } from './dom.js';
 
+const PLAYER_COLORS = { A: '#129FB5', B: '#FBA123' };
+
 /** @typedef {{name: string, color: string}} PlayerDetails
  * @typedef {{
  * players: Record<import('../domain/types.js').Player, PlayerDetails>,
@@ -11,8 +13,8 @@ import { button, element, field, input, select } from './dom.js';
 export function defaultSetup(language) {
   return {
     players: {
-      A: { name: 'A', color: '#0891b2' },
-      B: { name: 'B', color: '#d97706' },
+      A: { name: 'A', color: PLAYER_COLORS.A },
+      B: { name: 'B', color: PLAYER_COLORS.B },
     },
     language,
     mode: 'numbers',
@@ -39,13 +41,13 @@ const NAMES = [
   'Samwise',
 ];
 
-/** @param {() => number} random @param {string} theme */
-export function randomPlayers(random, theme) {
+/** @param {() => number} random */
+export function randomPlayers(random) {
   const pool = [...NAMES];
   const take = () => pool.splice(Math.floor(random() * pool.length), 1)[0];
   return {
-    A: { name: take(), color: theme === 'dark' ? '#22d3ee' : '#0891b2' },
-    B: { name: take(), color: theme === 'dark' ? '#fbbf24' : '#d97706' },
+    A: { name: take(), color: PLAYER_COLORS.A },
+    B: { name: take(), color: PLAYER_COLORS.B },
   };
 }
 

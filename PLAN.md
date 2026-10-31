@@ -50,9 +50,15 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage, bounded recovery 2026-10-31: phase11 independently CLEARED,
-complete coordinator postreview gates passed; authorized private delivery is
-next.** Exact catalog132/3696, all eleven categories12/336/two per language/
+**Current stage, bounded recovery 2026-10-31: phase11 CLEARED and privately
+delivered as `893b984`; the exact reviewed visual integration is independently
+CLEARED with complete postreview gates passed, ready for its separate authorized
+private delivery.** Visual872unit/35files/all58runtime coverage,1451native and
+66negativeprobes PASS; no phase12 work started. Final private served revision
+and compatible-game canary are recorded in the durable continuation handoff.
+Origin/main and actual private HTTPS match the full phase11 revision; the
+protected upgrade canary passed exact original data/deadline/color exports.
+Exact catalog132/3696, all eleven categories12/336/two per language/
 difficulty; all2,800 additions/ratings and historical corrections retain complete
 independent acceptance. Four Entertainment archives contribute zero quota.
 Final review preserves original findings, sealed factual/support/semantic
@@ -65,10 +71,12 @@ Sole integrator is new low-memory session `8bcfc276-2d9b-4c1a-bfb9-911a6eda1686`
 retired coordinator/worker IDs are historical, not active. Phase12 retained work
 is paused; General's independently ACTIVE originalsessionc2ac2e6b remains its
 exclusive owner. No category fanout or quota reduction is authorized.
-After phase11 delivery, adopt exact reviewed visualpatch88d2b3ad through separate
-integration/review/postreview/private delivery, then stop before phase12.
+Adopted exact reviewed visualpatch88d2b3ad, preserving twelve candidate code/test
+files byte-for-byte and later phase11 documentation. Separate independent
+integration review and full postreview gates are complete; finish private
+delivery, then stop before phase12.
 See [current handoff](docs/phase-11-handoff.md) and
-[review history](reviews/phase-11.md).
+[review history](reviews/phase-11.md), plus [visual handoff](docs/visual-bundle-handoff.md).
 Phase 9 passed independent review and complete
 coordinator post-review gates. The initial
 CHANGES REQUIRED verdict and subsequent clearance are preserved in

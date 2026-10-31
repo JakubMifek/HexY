@@ -121,7 +121,7 @@ test('guided menu, options, players and Back preserve choices with icon-only acc
   await page.locator('#new-game').click();
   await expect(page.locator('#nameA')).toHaveValue('Aragorn');
   await expect(page.locator('#nameB')).toHaveValue('Arwen');
-  await expect(page.locator('#colorA')).toHaveValue('#22d3ee');
+  await expect(page.locator('#colorA')).toHaveValue('#129fb5');
   await page.locator('#nameA').fill('Éowyn');
   await page.locator('#answerMode').selectOption('automatic');
   await page.screenshot({ path: info.outputPath('players.png') });

@@ -71,7 +71,7 @@ test('fresh menu, unified options, random names and draft navigation never rerol
   click('new-game');
   expect(document.querySelector('#nameA')).toHaveProperty('value', 'Aragorn');
   expect(document.querySelector('#nameB')).toHaveProperty('value', 'Arwen');
-  expect(document.querySelector('#colorA')).toHaveProperty('value', '#22d3ee');
+  expect(document.querySelector('#colorA')).toHaveProperty('value', '#129fb5');
   fill('nameA', 'Éowyn');
   fill('colorB', '#ffffff');
   fill('answerMode', 'automatic');
@@ -96,10 +96,10 @@ test('fresh menu, unified options, random names and draft navigation never rerol
 });
 
 test('blank names block players while random defaults are distinct in either theme', () => {
-  for (const theme of ['light', 'dark']) {
-    const names = randomPlayers(() => 0.99, theme);
-    expect(names.A.name).not.toBe(names.B.name);
-  }
+  const names = randomPlayers(() => 0.99);
+  expect(names.A.name).not.toBe(names.B.name);
+  expect(names.A.color).toBe('#129FB5');
+  expect(names.B.color).toBe('#FBA123');
   click('new-game');
   fill('nameA', '  ');
   click('next-setup');

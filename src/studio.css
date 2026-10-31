@@ -229,6 +229,12 @@
 .tile-face.flipping {
   animation: tile-flip 480ms ease-in-out;
 }
+.question-tile .tile-face {
+  transform: scale(1.22);
+}
+.tile-countdown {
+  pointer-events: none;
+}
 .cell .revealed-initial {
   font-size: 26px;
 }
@@ -243,12 +249,14 @@
   animation: tile-front 480ms step-end forwards;
 }
 @keyframes tile-flip {
-  0%,
-  100% {
-    transform: scaleX(1);
+  0% {
+    transform: scale(1);
   }
   50% {
-    transform: scaleX(0);
+    transform: scale(0, 1.16);
+  }
+  100% {
+    transform: scale(1.22);
   }
 }
 @keyframes tile-reveal {

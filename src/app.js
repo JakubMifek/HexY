@@ -13,6 +13,7 @@ import { defaultSetup } from './ui/setup.js';
 import { transitionFeedback } from './ui/game.js';
 import { Navigation } from './runtime/navigation.js';
 import { portableGame } from './domain/portable.js';
+import { displayCountdown } from './ui/countdown.js';
 
 export class App {
   disposed = false;
@@ -226,6 +227,7 @@ export class App {
       return;
     }
     this.lastObservedNow = now;
+    displayCountdown(this.root, this.state, now);
     const stage = this.state?.stage;
     const timer = this.root.querySelector('#timer');
     if (timer && stage?.phase === 'question') {
