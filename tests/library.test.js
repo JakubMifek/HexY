@@ -14,6 +14,7 @@ function data() {
     schemaVersion: /** @type {const} */ (1),
     packs: [bundledPacks()[1]],
     preferences: {
+      sound: true,
       language: /** @type {const} */ ('en'),
       theme: 'dark',
       setup: defaultSetup('en'),

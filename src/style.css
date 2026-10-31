@@ -168,9 +168,13 @@ dialog {
   overflow-wrap: anywhere;
   margin-block: 1rem;
 }
+.question-panel h2 {
+  overflow-wrap: anywhere;
+}
 .pack-sources label {
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0;
   align-items: center;
   min-height: 44px;
   overflow-wrap: anywhere;
@@ -527,18 +531,87 @@ dialog button {
   }
 }
 .catalog-folder {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
   border: 1px solid var(--line);
   border-radius: 0.6rem;
-  padding: 0.6rem;
-  margin-block: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-block: 0.4rem;
+  text-align: left;
 }
 .catalog-folder summary {
   min-height: 44px;
-  display: list-item;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
   cursor: pointer;
+}
+.catalog-folder summary::-webkit-details-marker {
+  display: none;
+}
+.catalog-folder details {
+  min-width: 0;
 }
 .folder-selection {
   min-height: 44px;
+  align-self: start;
+}
+.folder-name {
   font-weight: 700;
+}
+.folder-count {
+  color: var(--muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.folder-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  color: var(--button);
+}
+.folder-flap {
+  display: none;
+  fill: var(--surface);
+  stroke: currentColor;
+}
+details[open] > summary .folder-flap {
+  display: block;
+}
+.catalog-folder .deck-row {
+  margin-left: -44px;
+  padding-block: 0.2rem;
+}
+.deck-description {
+  min-width: 0;
+}
+.deck-meta {
+  display: block;
+  color: var(--muted);
+}
+.difficulty-symbols {
+  display: inline-flex;
+  flex-direction: column;
+  width: 24px;
+  flex: none;
+  margin-right: 0.5rem;
+}
+.difficulty-easy {
+  color: #17653b;
+}
+.difficulty-medium {
+  color: #825000;
+}
+.difficulty-hard {
+  color: #a52939;
+}
+:root[data-theme='dark'] .difficulty-easy {
+  color: #77dfab;
+}
+:root[data-theme='dark'] .difficulty-medium {
+  color: #ffce75;
+}
+:root[data-theme='dark'] .difficulty-hard {
+  color: #ff9eae;
 }

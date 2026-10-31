@@ -7,6 +7,7 @@ import { preparationStrings } from '../src/ui/preparation-strings.js';
 import { catalogView } from '../src/ui/catalog.js';
 import { answerSheet } from '../src/ui/answer-sheet.js';
 import { editorView } from '../src/ui/editor.js';
+import { DIFFICULTIES } from '../src/domain/difficulty.js';
 
 /** @type {AbortController[]} */
 const controllers = [];
@@ -123,10 +124,15 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     expect(
       [...document.querySelectorAll('select')].map((node) => node.id),
     ).toEqual(['catalog-origin', 'catalog-difficulty']);
-    expect(document.querySelectorAll('input[id^="source-"]')).toHaveLength(66);
-    expect(document.querySelectorAll('details')).toHaveLength(11);
+    const localized = model.packs.filter((pack) => pack.language === language);
+    expect(document.querySelectorAll('input[id^="source-"]')).toHaveLength(
+      localized.length,
+    );
+    expect(document.querySelectorAll('details')).toHaveLength(
+      new Set(localized.map((pack) => pack.questions[0].category)).size,
+    );
     expect(document.getElementById('catalog-status')?.textContent).toContain(
-      '66 / 66',
+      `${localized.length} / ${localized.length}`,
     );
     for (const [category, label] of Object.entries(
       preparationStrings[language].categories,
@@ -179,18 +185,28 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     expect(model.revision).toBe(revision);
     expect(box('folder-general').indeterminate).toBe(false);
     check('folder-general', true);
-    expect(model.selected.sort()).toEqual([
-      `general-${language}-01`,
-      `general-${language}-02`,
-      `general-${language}-${second.difficulty}-01`,
-    ]);
+    expect(model.selected.sort()).toEqual(
+      [
+        `general-${language}-01`,
+        ...model.packs
+          .filter(
+            (pack) =>
+              pack.language === language &&
+              pack.questions[0].category === 'general' &&
+              pack.difficulty === second.difficulty,
+          )
+          .map((pack) => pack.id),
+      ].sort(),
+    );
     expect(model.accepted).toBeNull();
     expect(document.activeElement?.id).toBe('folder-general');
     check('folder-general', false);
     expect(model.selected).toEqual([`general-${language}-01`]);
     document.getElementById('reset-catalog')?.click();
     expect(box('folder-general').indeterminate).toBe(true);
-    expect(document.querySelectorAll('input[id^="source-"]')).toHaveLength(66);
+    expect(document.querySelectorAll('input[id^="source-"]')).toHaveLength(
+      model.packs.filter((pack) => pack.language === language).length,
+    );
     check(`source-general-${language}-02`, true);
     expect(box('folder-general').checked).toBe(false);
     expect(box('folder-general').indeterminate).toBe(true);
@@ -234,26 +250,86 @@ test('folder expansion survives filter refresh and selection rerenders', () => {
   const { model } = setup();
   const details = document.getElementById('decks-general');
   if (!(details instanceof HTMLDetailsElement)) throw new Error('No folder');
-  details.open = false;
+  expect(details.open).toBe(false);
+  details.open = true;
   details.dispatchEvent(new Event('toggle'));
-  expect(model.collapsedFolders.has('general')).toBe(true);
+  expect(model.expandedFolders.has('general')).toBe(true);
   filter('origin', 'bundled');
-  expect(document.getElementById('decks-general')).toHaveProperty(
-    'open',
-    false,
-  );
+  expect(document.getElementById('decks-general')).toHaveProperty('open', true);
   check('folder-general', true);
-  expect(document.getElementById('decks-general')).toHaveProperty(
-    'open',
-    false,
-  );
+  expect(document.getElementById('decks-general')).toHaveProperty('open', true);
   const current = document.getElementById('decks-general');
   if (!(current instanceof HTMLDetailsElement)) throw new Error('No folder');
-  current.open = true;
+  current.open = false;
   current.dispatchEvent(new Event('toggle'));
-  expect(model.collapsedFolders.has('general')).toBe(false);
+  expect(model.expandedFolders.has('general')).toBe(false);
   details.dispatchEvent(new Event('toggle'));
-  expect(model.collapsedFolders.has('general')).toBe(false);
+  expect(model.expandedFolders.has('general')).toBe(false);
+});
+
+test.each(/** @type {const} */ (['cs', 'en']))(
+  '%s folders start collapsed with one compact heading and safe difficulty symbols',
+  (language) => {
+    const { model } = setup(language);
+    const general = model.packs.filter(
+      (pack) =>
+        pack.language === language && pack.questions[0].category === 'general',
+    );
+    expect(document.querySelectorAll('details[open]')).toHaveLength(0);
+    const folder = document.getElementById('decks-general');
+    const t = preparationStrings[language];
+    expect(folder?.querySelector('summary')?.textContent).toBe(
+      `${t.categories.general}1 / ${general.length}`,
+    );
+    expect(
+      folder?.parentElement?.querySelector('.folder-selection')?.textContent,
+    ).toBe('');
+    expect(box('folder-general').getAttribute('aria-label')).toBe(
+      t.categories.general,
+    );
+    expect(folder?.querySelectorAll('svg[aria-hidden="true"]')).toHaveLength(1);
+    expect(
+      [...document.querySelectorAll('#decks-general .difficulty-symbols')].map(
+        (node) => node.textContent,
+      ),
+    ).toEqual(
+      DIFFICULTIES.flatMap((level) =>
+        general
+          .filter((pack) => pack.difficulty === level)
+          .map(() => ({ easy: '●', medium: '◆', hard: '▲' })[level]),
+      ),
+    );
+    const first = folder?.querySelector(
+      '.deck-description strong',
+    )?.textContent;
+    filter('difficulty', 'easy');
+    expect(
+      document.querySelector('#decks-general .deck-description strong')
+        ?.textContent,
+    ).toBe(first);
+  },
+);
+
+test('new imported folder stays collapsed and keeps custom title and mixed-level badges', () => {
+  const { model, render } = setup();
+  const custom = bundledPacks()[1];
+  custom.id = 'custom-mixed';
+  custom.title = '<b>Original title</b>';
+  custom.mode = 'numbers';
+  custom.difficulty = ['easy', 'hard'];
+  custom.questions.forEach((question, index) => {
+    question.difficulty = index % 2 ? 'easy' : 'hard';
+  });
+  model.add([custom]);
+  render();
+  const folder = document.getElementById('decks-custom');
+  expect(folder).toHaveProperty('open', false);
+  expect(folder?.querySelector('strong')?.textContent).toBe(custom.title);
+  expect(folder?.querySelector('.difficulty-symbols')?.textContent).toBe('●▲');
+  expect(folder?.querySelector('.deck-meta')?.textContent).toContain(
+    'Easy / Hard',
+  );
+  expect(folder?.querySelector('b')).toBeNull();
 });
 
 test('aborted folder, deck, filter and expansion listeners cannot mutate preparation', () => {
@@ -295,30 +371,11 @@ test('filtering is a pure language-scoped projection, including multi-level numb
       { origin: 'bundled', difficulty: 'easy' },
       'cs',
     ).map((pack) => pack.id),
-  ).toEqual([
-    'general-cs-01',
-    'geography-cs-easy-01',
-    'geography-cs-easy-02',
-    'history-cs-easy-01',
-    'history-cs-easy-02',
-    'politics-cs-easy-01',
-    'politics-cs-easy-02',
-    'science-cs-easy-01',
-    'science-cs-easy-02',
-    'arts-cs-easy-01',
-    'arts-cs-easy-02',
-    'general-cs-easy-01',
-    'nature-cs-easy-01',
-    'nature-cs-easy-02',
-    'programming-cs-easy-01',
-    'programming-cs-easy-02',
-    'games-cs-easy-01',
-    'games-cs-easy-02',
-    'movies-cs-easy-01',
-    'movies-cs-easy-02',
-    'sports-cs-easy-01',
-    'sports-cs-easy-02',
-  ]);
+  ).toEqual(
+    packs
+      .filter((pack) => pack.language === 'cs' && pack.difficulty === 'easy')
+      .map((pack) => pack.id),
+  );
   const mixed = structuredClone(packs[1]);
   mixed.id = 'mixed';
   mixed.difficulty = ['easy', 'hard'];

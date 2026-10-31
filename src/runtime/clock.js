@@ -14,7 +14,8 @@ export const browserClock = {
 /** @param {import('../domain/types.js').Game} state */
 export function nextBoundary(state) {
   const stage = state.stage;
-  if (stage.phase === 'question') return stage.round.deadline;
+  if (stage.phase === 'question' || stage.phase === 'opponent')
+    return stage.round.deadline;
   if (stage.phase === 'duel-preview') return stage.round.startsAt;
   if (stage.phase !== 'duel-active') return null;
   const { symbolMs } = state.config.duel;
@@ -40,7 +41,10 @@ export class RoundClock {
     this.dispose();
     const boundary = nextBoundary(state);
     if (boundary === null) return;
-    const refresh = state.stage.phase === 'question' ? 100 : Infinity;
+    const refresh =
+      state.stage.phase === 'question' || state.stage.phase === 'opponent'
+        ? 100
+        : Infinity;
     this.timer = this.clock.later(
       () => {
         const now = this.clock.now();

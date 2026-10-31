@@ -106,6 +106,7 @@ export function recoverPortable(json, now, sessionId, legacy = false) {
   if (legacy && data.format === undefined) {
     return {
       game: recoverGame(json, now, sessionId),
+      legacySymbols: data.schemaVersion === 1,
       settings: null,
       bindings: null,
     };
@@ -113,6 +114,7 @@ export function recoverPortable(json, now, sessionId, legacy = false) {
   const result = validatePortable(data);
   return {
     game: recoverGame(JSON.stringify(result.game), now, sessionId),
+    legacySymbols: result.game.schemaVersion === 1,
     settings: result.settings,
     bindings: result.bindings,
   };

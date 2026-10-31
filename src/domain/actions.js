@@ -22,6 +22,8 @@ export function validateAction(value) {
       'answer',
       'judge',
       'give-up',
+      'accept-opponent',
+      'decline-opponent',
       'tick',
       'interrupt',
       'restart',

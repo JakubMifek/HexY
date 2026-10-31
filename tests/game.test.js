@@ -9,9 +9,9 @@ test('A captures directly, therefore B chooses next', () => {
   expect(state.stage.phase).toBe('selecting');
 });
 
-test('A fails and B fails, therefore black retains its ID and B chooses', () => {
+test('A gives up and B declines, therefore black retains its ID and B chooses', () => {
   const handed = act(question(), { type: 'give-up' });
-  const state = act(handed, { type: 'judge', correct: false });
+  const state = act(handed, { type: 'decline-opponent' });
   expect(state.cells[0]).toBe('black');
   expect(state.pack.questions[0].id).toBe(handed.pack.questions[0].id);
   expect(state.chooser).toBe('B');
@@ -19,7 +19,8 @@ test('A fails and B fails, therefore black retains its ID and B chooses', () => 
 
 test('A fails and B captures, therefore A chooses next', () => {
   const handed = act(question(), { type: 'give-up' });
-  const state = act(handed, { type: 'judge', correct: true });
+  const accepted = act(handed, { type: 'accept-opponent' });
+  const state = act(accepted, { type: 'judge', correct: true });
   expect(state.cells[0]).toBe('B');
   expect(state.chooser).toBe('A');
 });
@@ -48,7 +49,7 @@ test('host wrong guesses preserve time, while timeout transfers exactly at deadl
   expect(remainingMs(wrong, 30_999)).toBe(1);
   expect(remainingMs(wrong, 31_000)).toBe(0);
   const expired = act(wrong, { type: 'tick' }, 31_000);
-  expect(expired.stage.phase).toBe('opponent');
+  expect(expired.stage.phase).toBe('opponent-offer');
   expect(remainingMs(expired, 40_000)).toBeNull();
 });
 
@@ -67,21 +68,29 @@ test.each([31_000, 99_000])(
       { now, random: () => 0 },
     );
     expect(result.reason).toBe('expired');
-    expect(result.state.stage.phase).toBe('opponent');
+    expect(result.state.stage.phase).toBe('opponent-offer');
     expect(result.state.cells[0]).toBe('unclaimed');
   },
 );
 
-test('the opponent has one untimed opportunity and original chooser cannot answer for them', () => {
+test('the opponent must accept and original chooser cannot answer for them', () => {
   let state = act(question('automatic'), { type: 'give-up' });
   const before = state;
   state = act(state, { type: 'answer', player: 'A', text: 'Alpha' }, 100_000);
   expect(state).toBe(before);
   state = act(state, { type: 'answer', player: 'B', text: 'wrong' }, 100_000);
-  expect(state.cells[0]).toBe('black');
+  expect(state).toBe(before);
+  state = act(state, { type: 'accept-opponent' }, 100_000);
+  const accepted = state;
   expect(
-    act(state, { type: 'answer', player: 'B', text: 'Alpha' }, 100_001),
-  ).toBe(state);
+    act(state, { type: 'answer', player: 'A', text: 'Alpha' }, 100_001),
+  ).toBe(accepted);
+  state = act(state, { type: 'answer', player: 'B', text: 'wrong' }, 100_001);
+  expect(state.cells[0]).toBe('unclaimed');
+  expect(
+    act(state, { type: 'answer', player: 'B', text: 'Alpha' }, 100_002)
+      .cells[0],
+  ).toBe('B');
 });
 
 test('answer-mode commands do not cross hosted/automatic boundaries', () => {

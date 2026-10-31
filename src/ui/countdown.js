@@ -29,14 +29,17 @@ export function countdownView(color) {
 /** @param {ParentNode} root @param {import('../domain/types.js').Game | null} state
  * @param {number} now */
 export function displayCountdown(root, state, now) {
-  if (state?.stage.phase !== 'question') return;
+  if (state?.stage.phase !== 'question' && state?.stage.phase !== 'opponent')
+    return;
   const ring = root.querySelector('.tile-countdown');
   if (!ring) return;
   const remaining = Math.min(
     100,
     Math.max(
       0,
-      ((state.stage.round.deadline - now) / state.config.timeLimitMs) * 100,
+      ((state.stage.round.deadline - now) /
+        (state.stage.round.deadline - state.stage.round.startedAt)) *
+        100,
     ),
   );
   ring.setAttribute('stroke-dasharray', `${remaining} 100`);

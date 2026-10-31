@@ -6,6 +6,7 @@ import {
   inspectPrintedSheet,
   nextPreparation,
   acceptPack,
+  setSource,
   catalogPacks as packs,
 } from './preparation-helpers.js';
 import { phase, setCell, setTheme } from './helpers.js';
@@ -13,7 +14,7 @@ import { phase, setCell, setTheme } from './helpers.js';
 /** @param {import('@playwright/test').Page} page @param {string} id */
 async function chooseBoard(page, id) {
   await page.locator('#clear-sources').click();
-  await page.locator(`#source-${id}`).check();
+  await setSource(page, id);
   await page.locator('#prepare-board').click();
   await page.locator('#accept-board').click();
 }
@@ -110,11 +111,11 @@ for (const language of ['cs', 'en']) {
     await setupPreparation(page, language);
     await page.locator('#mode-numbers').click();
     await page.locator('#clear-sources').click();
-    await page.locator(`#source-nature-${language}-02`).check();
+    await setSource(page, `nature-${language}-02`);
     await expect(page.locator('#catalog-selection')).toContainText(
       `nature-${language}-02`,
     );
-    await page.locator(`#source-geography-${language}-02`).check();
+    await setSource(page, `geography-${language}-02`);
     await page.locator('#catalog-origin').selectOption('custom');
     await expect(
       page.locator('#catalog-results input[id^="source-"]'),

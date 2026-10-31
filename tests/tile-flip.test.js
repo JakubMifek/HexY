@@ -44,8 +44,8 @@ function required(selector) {
 test('accepted selection alone emits a flip; ticks, wrong judgments, theme and opponent never replay it', () => {
   app.start(defaultSetup('en'));
   click('#cell-4');
-  const face = document.querySelector('#cell-4 .flipping');
-  expect(face?.querySelector('.revealed-initial')?.textContent).toBe('CH');
+  const face = required('#cell-4 .flipping');
+  expect(face.querySelector('.revealed-initial')?.textContent).toBe('CH');
   expect(app.state?.stage).toMatchObject({
     phase: 'question',
     round: { cell: 4, deadline: 31000 },
@@ -54,15 +54,19 @@ test('accepted selection alone emits a flip; ticks, wrong judgments, theme and o
   vi.advanceTimersByTime(500);
   expect(document.querySelector('#cell-4 .flipping')).toBe(face);
   click('#theme');
-  expect(face?.isConnected).toBe(false);
+  expect(face.isConnected).toBe(false);
   expect(document.querySelector('.flipping')).toBeNull();
   click('#judge-wrong');
   expect(document.querySelector('.flipping')).toBeNull();
   expect(document.querySelector('.revealed-initial')?.textContent).toBe('CH');
   click('#give-up');
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   expect(document.querySelector('.revealed-initial')?.textContent).toBe('CH');
   expect(document.querySelector('.flipping')).toBeNull();
+  expect(document.querySelector('#cell-4.selected-tile')).not.toBeNull();
+  click('#accept-opponent');
+  expect(app.state?.stage.phase).toBe('opponent');
+  expect(document.querySelector('#cell-4.selected-tile')).not.toBeNull();
   click('#give-up');
   expect(document.querySelector('.revealed-initial')).toBeNull();
   expect(document.querySelector('#cell-4 .cell-label')?.textContent).toBe('CH');
@@ -95,10 +99,14 @@ test('recovered question retains full initial and original deadline without pers
   expect(document.querySelector('.revealed-initial')?.textContent).toBe('Ch');
   expect(document.querySelector('.flipping')).toBeNull();
   vi.advanceTimersByTime(30000);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   expect(document.querySelector('.revealed-initial')?.textContent).toBe('Ch');
+  click('#accept-opponent');
   click('#judge-correct');
-  expect(document.querySelector('#cell-10 text')).toBeNull();
+  expect(document.querySelector('#cell-10 .return-back text')).toBeNull();
+  expect(
+    document.querySelector('#cell-10 .return-front text')?.textContent,
+  ).toBe('Ch');
   expect(app.state?.cells[9]).toBe('B');
 });
 
@@ -128,11 +136,19 @@ test('countdown follows actual configured player, existing clock and rerenders w
   expect(replacement.getAttribute('stroke-dasharray')).toBe('50 100');
   expect(ring.getAttribute('stroke-dasharray')).toBe('75 100');
   vi.advanceTimersByTime(15000);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   expect(document.querySelector('.tile-countdown, .question-tile')).toBeNull();
   expect(replacement.isConnected).toBe(false);
   vi.advanceTimersByTime(90000);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
+  click('#accept-opponent');
+  expect(
+    required('.tile-countdown circle:last-child').getAttribute('stroke'),
+  ).toBe(settings.players.A.color);
+  vi.advanceTimersByTime(7500);
+  expect(required('.tile-countdown').getAttribute('stroke-dasharray')).toBe(
+    '50 100',
+  );
   click('#give-up');
   click('#cell-28');
   expect(app.state?.stage.phase).toBe('duel-preview');
@@ -163,6 +179,6 @@ test('recovery resumes elapsed progress and legacy custom colors; disposal remov
   expect(document.querySelector('.flipping')).toBeNull();
   expect(app.state?.stage).toMatchObject({ round: { deadline: 31000 } });
   vi.advanceTimersByTime(18000);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   expect(document.querySelector('.tile-countdown')).toBeNull();
 });

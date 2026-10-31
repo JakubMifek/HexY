@@ -6,6 +6,18 @@ import { headerView } from './header.js';
 import { recoveryView, recoveryLauncher } from './recovery.js';
 import { duelInputs } from './inputs.js';
 
+/** @param {import('../app.js').App} app @param {string | undefined} previous */
+export function restoreFocus(app, previous) {
+  if (app.dialog?.open) return;
+  const prior = previous ? document.getElementById(previous) : null;
+  if (prior && prior.getAttribute('aria-disabled') !== 'true') {
+    prior.focus({ preventScroll: true });
+    return;
+  }
+  const next = app.root.querySelector('#answer, #phase-heading, #nameA');
+  if (next instanceof HTMLElement) next.focus({ preventScroll: true });
+}
+
 /** @param {import('../app.js').App} app @param {AbortSignal} signal */
 export function applicationView(app, signal) {
   const t = strings[app.language];
@@ -21,6 +33,9 @@ export function applicationView(app, signal) {
       app.renderPresentation();
     },
   );
+  header
+    .querySelector('.header-controls')
+    ?.prepend(element('p', '', { id: 'sound-status', role: 'status' }));
   const main = element('main');
   const state = app.state;
   if (state) {

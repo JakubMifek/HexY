@@ -1,13 +1,23 @@
 import { BOARD } from '../domain/board.js';
 import { svg } from './dom.js';
 import { countdownView } from './countdown.js';
+import { opponent } from '../domain/outcomes.js';
 
 const HEX = '0,-28 24.25,-14 24.25,14 0,28 -24.25,14 -24.25,-14';
 
 /** @param {import('../domain/types.js').Game} state
  * @param {import('./setup.js').Setup} settings @param {import('./strings.js').Texts} t
- * @param {(cell: number) => void} choose @param {AbortSignal} signal @param {number} [flipCell] */
-export function boardView(state, settings, t, choose, signal, flipCell) {
+ * @param {(cell: number) => void} choose @param {AbortSignal} signal
+ * @param {number} [flipCell] @param {number} [returnCell] */
+export function boardView(
+  state,
+  settings,
+  t,
+  choose,
+  signal,
+  flipCell,
+  returnCell,
+) {
   const board = svg('svg', {
     viewBox: '-190 -36 380 354',
     role: 'group',
@@ -16,7 +26,7 @@ export function boardView(state, settings, t, choose, signal, flipCell) {
   });
   board.append(boardDefs());
   for (const cell of BOARD) {
-    const group = cellView(state, settings, t, cell, flipCell);
+    const group = cellView(state, settings, t, cell, flipCell, returnCell);
     wireCell(
       group,
       cell.id,
@@ -26,7 +36,7 @@ export function boardView(state, settings, t, choose, signal, flipCell) {
     );
     board.append(group);
   }
-  const selected = board.querySelector('.question-tile');
+  const selected = board.querySelector('.selected-tile, .returning-tile');
   if (selected) board.append(selected);
   board.addEventListener('keydown', (event) => moveFocus(event, board), {
     signal,
@@ -36,14 +46,13 @@ export function boardView(state, settings, t, choose, signal, flipCell) {
 
 /** @param {import('../domain/types.js').Game} state
  * @param {import('./setup.js').Setup} settings @param {import('./strings.js').Texts} t
- * @param {typeof BOARD[number]} cell @param {number | undefined} flipCell */
-function cellView(state, settings, t, cell, flipCell) {
+ * @param {typeof BOARD[number]} cell @param {number | undefined} flipCell
+ * @param {number | undefined} returnCell */
+function cellView(state, settings, t, cell, flipCell, returnCell) {
   const owner = state.cells[cell.id - 1];
   const owned = owner === 'A' || owner === 'B';
   const { label, initial } = tileLabels(state, cell.id);
   const available = !owned && state.stage.phase === 'selecting';
-  const timed =
-    state.stage.phase === 'question' && state.stage.round.cell === cell.id;
   const group = svg('g', {
     transform: `translate(${cell.x * 29},${cell.y * 29})`,
     id: `cell-${cell.id}`,
@@ -62,11 +71,33 @@ function cellView(state, settings, t, cell, flipCell) {
     flipCell === cell.id,
   );
   group.append(face);
-  if (timed) {
-    group.classList.add('question-tile');
-    face.append(countdownView(settings.players[state.chooser].color));
-  }
+  decorateCell(group, face, state, settings, cell.id, returnCell);
   return group;
+}
+
+/** @param {SVGElement} group @param {SVGElement} face
+ * @param {import('../domain/types.js').Game} state
+ * @param {import('./setup.js').Setup} settings @param {number} cell
+ * @param {number | undefined} returnCell */
+function decorateCell(group, face, state, settings, cell, returnCell) {
+  if (tileLabels(state, cell).initial !== null)
+    group.classList.add('selected-tile');
+  if (returnCell === cell) {
+    group.classList.add('returning-tile');
+    addReturnFaces(face, state.pack.questions[cell - 1].initial);
+  }
+  const stage = state.stage;
+  if (
+    (stage.phase === 'question' || stage.phase === 'opponent') &&
+    stage.round.cell === cell
+  ) {
+    group.classList.add('question-tile');
+    const player =
+      stage.phase === 'opponent'
+        ? opponent(stage.round.originalChooser)
+        : stage.round.originalChooser;
+    face.append(countdownView(settings.players[player].color));
+  }
 }
 
 /** @param {import('../domain/types.js').Game} state @param {number} id */
@@ -75,9 +106,19 @@ function tileLabels(state, id) {
   const label = state.pack.mode === 'letters' ? question.initial : String(id);
   const stage = state.stage;
   const selected =
-    (stage.phase === 'question' || stage.phase === 'opponent') &&
-    stage.round.cell === id;
+    'round' in stage && 'deadline' in stage.round && stage.round.cell === id;
   return { label, initial: selected ? question.initial : null };
+}
+
+/** @param {SVGElement} face @param {string} initial */
+function addReturnFaces(face, initial) {
+  const back = svg('g', { class: 'return-back' });
+  back.append(...Array.from(face.childNodes));
+  const front = tileFace('var(--cell-unclaimed)', initial, initial, false);
+  front.setAttribute('class', 'return-front');
+  front.querySelector('text')?.setAttribute('class', 'return-initial');
+  face.classList.add('returning');
+  face.append(back, front);
 }
 
 /** @param {string} fill @param {string | null} label @param {string | null} initial @param {boolean} flip */

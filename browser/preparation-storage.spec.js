@@ -152,6 +152,11 @@ test('downloads during a typed opportunity retain the unsent draft and original 
   await download(page, info, '#save-game', 'active-game.json');
   await expect(page.locator('#answer')).toHaveValue('Unsent answer');
   await page.clock.runFor(30_000);
-  await expect(page.locator('.game')).toHaveAttribute('data-phase', 'opponent');
+  await expect(page.locator('.game')).toHaveAttribute(
+    'data-phase',
+    'opponent-offer',
+  );
+  await expect(page.locator('#answer')).toHaveCount(0);
+  await page.locator('#accept-opponent').click();
   await expect(page.locator('#answer')).toHaveValue('');
 });

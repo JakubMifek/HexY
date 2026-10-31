@@ -104,8 +104,9 @@ test('legacy four-symbol active saves validate before safe seven-symbol migratio
   expect(browserGame(validateSave(state)).stage.phase).toBe('duel-interrupted');
   const restored = browserGame(
     recoverGame(JSON.stringify(state), 3000, 'legacy'),
+    true,
   );
-  expect(restored.schemaVersion).toBe(2);
+  expect(restored.schemaVersion).toBe(3);
   expect(restored.config.duel.symbols).toEqual(Object.keys(DUEL_SYMBOLS));
   expect(restored.stage.phase).toBe('duel-interrupted');
   expect(restored.cells).toEqual(state.cells);

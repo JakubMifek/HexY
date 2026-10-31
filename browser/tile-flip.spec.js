@@ -35,9 +35,17 @@ test('number selection visibly flips to the initial without delaying or replayin
   const face = page.locator('#cell-1 .flipping');
   const first = await seekFlip(face, 0);
   expect(first).toMatchObject({ before: '1', initial: '0' });
-  expect((await seekFlip(face, 240)).transform).toBe(
-    'matrix(0, 0, 0, 1.16, 0, 0)',
+  const midpoint = (await seekFlip(face, 240)).transform;
+  const middleScale = await page.evaluate(
+    ([beginning, middle]) => {
+      const before = new DOMMatrix(beginning);
+      const after = new DOMMatrix(middle);
+      return { width: after.a, growth: after.d / before.d };
+    },
+    [first.transform, midpoint],
   );
+  expect(middleScale.width).toBeCloseTo(0.001, 7);
+  expect(middleScale.growth).toBeCloseTo(1.11, 4);
   const back = await seekFlip(face, 400);
   expect(back).toMatchObject({ before: '0', initial: '1' });
   await expect(page.locator('#cell-1 .cell-label')).toHaveText(initial);
@@ -48,9 +56,11 @@ test('number selection visibly flips to the initial without delaying or replayin
   await expect(page.locator('.flipping')).toHaveCount(0);
   await expect(page.locator('#cell-1 .revealed-initial')).toHaveText(initial);
   await page.locator('#give-up').click();
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   await expect(page.locator('#cell-1 .revealed-initial')).toHaveText(initial);
   await expect(page.locator('.flipping')).toHaveCount(0);
+  await page.locator('#accept-opponent').click();
+  await phase(page, 'opponent');
   await page.locator('#give-up').click();
   await expect(page.locator('#cell-1 .cell-label')).toHaveText('1');
   await page.locator('#cell-1').click();
@@ -86,7 +96,12 @@ for (const [language, initial, mode] of [
     await page.screenshot({ path: info.outputPath('digraph-flip.png') });
     await expect(page.locator('#phase-heading')).toBeFocused();
     await page.locator('#judge-correct').click();
-    await expect(page.locator(`#cell-${cell} text`)).toHaveCount(0);
+    await expect(page.locator(`#cell-${cell} .return-back text`)).toHaveCount(
+      0,
+    );
+    await expect(page.locator(`#cell-${cell} .return-front text`)).toHaveText(
+      initial,
+    );
     await setCell(page, cell, 'unclaimed');
     await expect(page.locator(`#cell-${cell} .cell-label`)).toHaveText(
       mode === 'letters' ? initial : String(cell),
@@ -112,7 +127,7 @@ test('reloading during a native flip restores the revealed tile, never an animat
     current.stage.round.deadline,
   );
   await page.clock.runFor(30000);
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   await expect(page.locator('.flipping')).toHaveCount(0);
 });
 

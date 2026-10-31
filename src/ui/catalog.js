@@ -1,6 +1,7 @@
 import { filterPacks } from '../content/catalog.js';
 import { button, element, field, select } from './dom.js';
 import { catalogFolders } from './catalog-folders.js';
+import { catalogNames } from './catalog-names.js';
 import { DIFFICULTIES } from '../domain/difficulty.js';
 
 /** @typedef {import('./preparation-strings.js').PreparationTexts} Texts */
@@ -15,6 +16,7 @@ export function catalogView(t, model, run, signal) {
   const results = element('div', '', { id: 'catalog-results' });
   const status = element('p', '', { id: 'catalog-status', role: 'status' });
   const bundledIds = new Set(model.bundled.map((pack) => pack.id));
+  const names = catalogNames(t, model.bundled);
   const refresh = () => {
     const visible = filterPacks(
       model.packs,
@@ -23,7 +25,7 @@ export function catalogView(t, model, run, signal) {
       model.language,
     );
     results.replaceChildren(
-      ...catalogFolders(t, model, visible, bundledIds, run, signal),
+      ...catalogFolders(t, model, visible, names, run, signal),
     );
     const total = model.packs.filter(
       (pack) => pack.language === model.language,
@@ -34,7 +36,7 @@ export function catalogView(t, model, run, signal) {
   sources.append(status, results);
   section.append(
     filterControls(t, model, refresh, signal),
-    selection(t, model, run, signal),
+    selection(t, model, names, run, signal),
     sources,
   );
   refresh();
@@ -42,13 +44,19 @@ export function catalogView(t, model, run, signal) {
 }
 
 /** @param {Texts} t @param {Preparation} model
+ * @param {Map<string, string>} names
  * @param {(action: () => void) => void} run @param {AbortSignal} signal */
-function selection(t, model, run, signal) {
+function selection(t, model, names, run, signal) {
   const selected = element('div', '', { id: 'catalog-selection' });
   selected.append(element('p', `${t.selected}: ${model.selected.length}`));
   const list = element('ul');
   for (const pack of model.selectedPacks())
-    list.append(element('li', `${pack.title} · ${pack.language} · ${pack.id}`));
+    list.append(
+      element(
+        'li',
+        `${names.get(pack.id) ?? pack.title} · ${pack.language} · ${pack.id}`,
+      ),
+    );
   const clear = button(
     t.clearSelection,
     'clear-sources',

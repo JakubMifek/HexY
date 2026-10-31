@@ -6,6 +6,7 @@ import {
   nextPreparation,
   acceptPack,
   catalogPacks,
+  setSource,
 } from './preparation-helpers.js';
 import { phase, setTheme } from './helpers.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
@@ -18,7 +19,7 @@ const additions = catalogPacks.filter((pack) =>
 
 async function prepare(page, ids) {
   await page.locator('#clear-sources').click();
-  for (const id of ids) await page.locator(`#source-${id}`).check();
+  for (const id of ids) await setSource(page, id);
   await page.locator('#prepare-board').click();
   await page.locator('#accept-board').click();
 }

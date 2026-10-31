@@ -2,6 +2,20 @@ export const strings = {
   en: {
     menu: 'Your next connection',
     options: 'Options',
+    sound: 'Game sounds',
+    soundOn: 'Game sounds: on',
+    soundOff: 'Game sounds: off',
+    soundPaused: 'Audio paused · click to retry',
+    soundUnsupported: 'Audio unsupported · silent play',
+    soundError: 'Audio unavailable · check device',
+    soundHelp:
+      'Original synthesized sounds. Browser audio may require a click, tap or key press; a gamepad alone cannot unlock it.',
+    soundBlocked:
+      'Audio is suspended or waiting for browser permission. Check browser/device audio and click, tap or press a key to retry. Game timing is unchanged.',
+    soundUnavailable:
+      'This browser does not support game audio. You can continue silently or turn sounds off in Options.',
+    soundFailed:
+      'Game audio could not play. Check your browser audio settings or turn sounds off in Options. Gameplay continues.',
     importGame: 'Import game',
     importHelp:
       'Open a complete Save Game JSON to continue directly. Question packs belong in board preparation.',
@@ -48,7 +62,7 @@ export const strings = {
     limit:
       'Local play only. Successfully saved games recover after reload; check the recovery status. Export custom packs and games as backups, because browser data can be removed.',
     rules:
-      'Wrong first answers do not end the turn. After timeout or give-up, the opponent has one untimed attempt. Black fields open a keyboard duel.',
+      'Wrong answers do not end a timed turn. After timeout or give-up, the opponent may accept half the configured time, spending their turn, or decline and choose the next field. Black fields open a keyboard duel.',
     locked: 'Questions and placement are locked for this game.',
     newGame: 'New game',
     confirmNew: 'Return to menu?',
@@ -57,7 +71,13 @@ export const strings = {
     discard: 'Return without saving',
     selecting: 'Choose a field',
     question: 'Answer before time runs out',
-    opponent: 'Opponent · one attempt, no timer',
+    'opponent-offer': 'Opponent · answer or choose the next field?',
+    acceptOpponent: 'Answer · use my turn',
+    declineOpponent: 'Decline · choose next field',
+    opponentOfferHelp:
+      'Accept for half the configured time ({seconds} seconds) with unlimited attempts. Accepting spends your turn even if you fail or give up; the original chooser selects next. Decline to turn this field black and choose the next field yourself.',
+    opponent: 'Opponent · answer before time runs out',
+    deciding: 'Deciding',
     'duel-preview': 'Duel · remember the target',
     'duel-active': 'Duel · press only on the target',
     'duel-interrupted': 'Duel interrupted · no field awarded',
@@ -73,7 +93,7 @@ export const strings = {
     giveUp: 'Give up',
     wrongAgain: 'Not accepted. Try again; the original timer is still running.',
     remaining: 'Time remaining',
-    untimed: 'One attempt · untimed',
+    untimed: 'Choose whether to answer · timer starts on acceptance',
     resolved: 'Answer',
     captured: 'Field awarded to',
     blackResult: 'Neither player captured the field.',
@@ -109,6 +129,20 @@ export const strings = {
   cs: {
     menu: 'Další vítězné spojení',
     options: 'Možnosti',
+    sound: 'Herní zvuky',
+    soundOn: 'Herní zvuky: zapnuté',
+    soundOff: 'Herní zvuky: vypnuté',
+    soundPaused: 'Zvuk pozastaven · klepněte znovu',
+    soundUnsupported: 'Zvuk nepodporován · tichá hra',
+    soundError: 'Zvuk nedostupný · ověřte zařízení',
+    soundHelp:
+      'Původní syntetizované zvuky. Prohlížeč může vyžadovat kliknutí, klepnutí nebo stisk klávesy; samotný gamepad zvuk nepovolí.',
+    soundBlocked:
+      'Zvuk je pozastavený nebo čeká na povolení prohlížeče. Zkontrolujte zvuk prohlížeče či zařízení a zkuste kliknout, klepnout nebo stisknout klávesu. Herní čas běží beze změny.',
+    soundUnavailable:
+      'Tento prohlížeč nepodporuje herní zvuk. Můžete pokračovat potichu nebo zvuky vypnout v Možnostech.',
+    soundFailed:
+      'Herní zvuk se nepodařilo přehrát. Zkontrolujte nastavení zvuku prohlížeče nebo zvuky vypněte v Možnostech. Hra pokračuje.',
     importGame: 'Importovat hru',
     importHelp:
       'Úplný JSON z volby Uložit hru obnoví rozehranou partii přímo. Sady otázek patří do přípravy desky.',
@@ -155,7 +189,7 @@ export const strings = {
     limit:
       'Pouze místní hra. Úspěšně uložená hra se po obnovení stránky obnoví; sledujte stav obnovy. Zálohujte vlastní sady i hry exportem, protože data prohlížeče mohou být smazána.',
     rules:
-      'Chybná první odpověď tah neukončí. Po vypršení času nebo vzdání má soupeř jeden pokus bez časového limitu. Černá pole otevírají rozstřel na klávesnici.',
+      'Chybné odpovědi časovaný tah neukončí. Po vypršení času nebo vzdání může soupeř přijmout polovinu nastaveného času a využít svůj tah, nebo odmítnout a vybrat další pole. Černá pole otevírají rozstřel na klávesnici.',
     locked: 'Otázky a jejich umístění jsou pro tuto hru uzamčené.',
     newGame: 'Nová hra',
     confirmNew: 'Přejít do menu?',
@@ -164,7 +198,13 @@ export const strings = {
     discard: 'Vrátit se bez uložení',
     selecting: 'Vyberte pole',
     question: 'Odpovězte před vypršením času',
-    opponent: 'Soupeř · jeden pokus bez časového limitu',
+    'opponent-offer': 'Soupeř · odpovědět, nebo vybrat další pole?',
+    acceptOpponent: 'Odpovědět · využít svůj tah',
+    declineOpponent: 'Odmítnout · vybrat další pole',
+    opponentOfferHelp:
+      'Přijetím získáte polovinu nastaveného času ({seconds} sekund) a neomezený počet pokusů. Přijetí spotřebuje váš tah i při neúspěchu nebo vzdání; další pole vybírá původní hráč. Odmítnutím pole zčerná a další pole vyberete vy.',
+    opponent: 'Soupeř · odpovězte před vypršením času',
+    deciding: 'Rozhoduje se',
     'duel-preview': 'Rozstřel · zapamatujte si cíl',
     'duel-active': 'Rozstřel · stiskněte jen při cíli',
     'duel-interrupted': 'Rozstřel přerušen · pole nebylo přiděleno',
@@ -180,7 +220,7 @@ export const strings = {
     giveUp: 'Vzdát se',
     wrongAgain: 'Nepřijato. Zkuste to znovu; původní čas běží dál.',
     remaining: 'Zbývající čas',
-    untimed: 'Jeden pokus · bez časového limitu',
+    untimed: 'Rozhodněte se, zda odpovíte · čas začne běžet přijetím',
     resolved: 'Odpověď',
     captured: 'Pole získává',
     blackResult: 'Pole nezískal ani jeden hráč.',

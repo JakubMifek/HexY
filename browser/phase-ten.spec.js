@@ -197,14 +197,14 @@ test('final export downloads click-time state and reimports new bindings without
   );
   const data = JSON.parse(exported.text);
   expect(data.schemaVersion).toBe(2);
-  expect(data.game.stage.phase).toBe('opponent');
+  expect(data.game.stage.phase).toBe('opponent-offer');
   expect(data.bindings.A).toEqual({ kind: 'keyboard', code: 'Digit5' });
   expect(
     await page.evaluate(() => localStorage.getItem('hexy.game.v1')),
   ).toBeNull();
   await page.locator('#open-import').click();
   await page.locator('#import-game').setInputFiles(exported.path);
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   const recovered = JSON.parse(
     await page.evaluate(() => localStorage.getItem('hexy.game.v1')),
   );

@@ -38,7 +38,7 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
       await page.keyboard.press('Enter');
       await phase(page, 'question');
       await page.clock.runFor(3000);
-      await phase(page, 'opponent');
+      await phase(page, 'opponent-offer');
       expect(await page.locator('body').ariaSnapshot()).not.toContain(answer);
       await page.screenshot({
         path: info.outputPath('opponent-accessible.png'),
@@ -47,6 +47,8 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
         body: await page.locator('body').ariaSnapshot(),
         contentType: 'text/plain',
       });
+      await page.locator('#accept-opponent').click();
+      await phase(page, 'opponent');
       await page.locator('#answer').fill(answer);
       await page.keyboard.press('Enter');
       await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'B');

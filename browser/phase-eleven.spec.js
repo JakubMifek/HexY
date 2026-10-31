@@ -6,6 +6,7 @@ import {
   upload,
   verifySheet,
   catalogPacks,
+  setSource,
 } from './preparation-helpers.js';
 import { setTheme, phase } from './helpers.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
@@ -24,7 +25,10 @@ async function selectCollapsedFolder(page, language) {
     true,
   );
   const summary = page.locator('#decks-general summary');
+  await expect(page.locator('#decks-general')).not.toHaveAttribute('open');
   await summary.focus();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#decks-general')).toHaveAttribute('open', '');
   await page.keyboard.press('Enter');
   await expect(page.locator('#decks-general')).not.toHaveAttribute('open');
   await expect(summary).toBeFocused();
@@ -94,7 +98,7 @@ for (const language of ['cs', 'en']) {
       ).toBeLessThanOrEqual((await page.viewportSize()).width);
       await page.locator('#reset-catalog').click();
       await page.locator('#clear-sources').click();
-      await page.locator(`#source-general-${language}-${other}`).check();
+      await setSource(page, `general-${language}-${other}`);
       await page.locator('#prepare-board').click();
       await page.locator('#accept-board').click();
       expect(
@@ -231,8 +235,8 @@ test('phase-eleven: actual mixed JSON, printed sheet and active deadline recover
   });
   await page.locator('#mode-numbers').click();
   await page.locator('#clear-sources').click();
-  await page.locator('#source-general-en-01').check();
-  await page.locator('#source-general-en-02').check();
+  await setSource(page, 'general-en-01');
+  await setSource(page, 'general-en-02');
   await page.locator('#prepare-board').click();
   await page.locator('#accept-board').click();
   const pack = JSON.parse(

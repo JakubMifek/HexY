@@ -26,19 +26,19 @@
  * target: string, sequence: string[], startsAt: number
  * }} DuelRound
  * @typedef {{phase: 'selecting'} |
- * {phase: 'question'|'opponent', round: QuestionRound} |
+ * {phase: 'question'|'opponent-offer'|'opponent', round: QuestionRound} |
  * {phase: 'duel-preview'|'duel-active', round: DuelRound} |
  * {phase: 'duel-interrupted', round: Round} |
  * {phase: 'won', winner: Player, winningCells: number[]}} Stage
  * @typedef {{
- * schemaVersion: 1 | 2, sessionId: string, pack: Pack, config: GameConfig, cells: Owner[],
+ * schemaVersion: 1 | 2 | 3, sessionId: string, pack: Pack, config: GameConfig, cells: Owner[],
  * chooser: Player, revision: number, lastNow: number, stage: Stage
  * }} Game
  * @typedef {{
  * type: 'select', cell: number
  * } | {type: 'answer', player: Player, text: string}
  * | {type: 'judge', correct: boolean}
- * | {type: 'give-up'|'tick'|'interrupt'|'restart'}
+ * | {type: 'give-up'|'accept-opponent'|'decline-opponent'|'tick'|'interrupt'|'restart'}
  * | {type: 'press', players: Player[]}
  * | {type: 'set-cell', cell: number, owner: Owner}
  * | {type: 'set-chooser', player: Player}} ActionBody

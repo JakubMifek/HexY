@@ -7,6 +7,7 @@ import {
   nextPreparation,
   acceptPack,
   catalogPacks,
+  setSource,
 } from './preparation-helpers.js';
 import { answer, phase, setCell, setTheme } from './helpers.js';
 
@@ -30,7 +31,7 @@ for (const [mode, accepted] of [
     await setupPreparation(page, 'en');
     await page.locator(`#mode-${mode}`).click();
     await page.locator('#clear-sources').click();
-    await page.locator('#source-arts-en-01').check();
+    await setSource(page, 'arts-en-01');
     await page.locator('#prepare-board').click();
     await page.locator('#accept-board').click();
     const exported = await download(
@@ -84,7 +85,7 @@ for (const source of packs) {
     await setupPreparation(page, source.language);
     await page.locator('#mode-numbers').click();
     await page.locator('#clear-sources').click();
-    await page.locator(`#source-${source.id}`).check();
+    await setSource(page, source.id);
     await page.locator('#prepare-board').click();
     await page.locator('#accept-board').click();
     const exported = await download(page, info, '#export-pack', 'numbers.json');
@@ -162,7 +163,7 @@ for (const language of ['cs', 'en']) {
         (pack) => pack.language === language,
       );
       const selected = mixedSourceIds(localized, language, scope);
-      for (const id of selected) await page.locator(`#source-${id}`).check();
+      for (const id of selected) await setSource(page, id);
       await page.locator('#catalog-origin').selectOption('custom');
       for (const id of selected)
         await expect(page.locator('#catalog-selection')).toContainText(id);

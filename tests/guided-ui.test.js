@@ -381,16 +381,16 @@ test('recovery controls do not pause time and export the current opportunity, no
     ?.dispatchEvent(new MouseEvent('click', { bubbles: true }));
   click('open-recovery');
   vi.advanceTimersByTime(30_000);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   const download = vi
     .spyOn(app.recovery.downloads, 'save')
     .mockImplementation(() => {});
   click('export-game');
   expect(JSON.parse(download.mock.calls[0][0]).game.stage.phase).toBe(
-    'opponent',
+    'opponent-offer',
   );
   click('close-recovery');
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
 });
 
 test('native cancel, fallback close and disposal release only the owned game dialog', () => {

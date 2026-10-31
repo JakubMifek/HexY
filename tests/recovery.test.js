@@ -99,7 +99,7 @@ test.each([30_999, 31_000, 31_001])(
     localStorage.setItem(GAME_KEY, JSON.stringify(initial));
     const restored = recovery.load(now, 'new-scope');
     expect(restored?.stage).toMatchObject({
-      phase: now < 31_000 ? 'question' : 'opponent',
+      phase: now < 31_000 ? 'question' : 'opponent-offer',
       round: { deadline: 31_000, originalChooser: 'A' },
     });
     expect(restored?.sessionId).toBe('new-scope');
@@ -364,7 +364,7 @@ test('saved-game imports are validated, reject occupied storage, and cancel late
     () => 31_000,
     () => 'import',
   );
-  expect(imported?.stage.phase).toBe('opponent');
+  expect(imported?.stage.phase).toBe('opponent-offer');
   recovery.save(game());
   expect(
     await recovery.import(

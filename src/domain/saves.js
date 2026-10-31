@@ -1,7 +1,8 @@
 import { winningGroup } from './board.js';
-import { validateConfig } from './config.js';
+import { validateConfig, opponentTimeMs } from './config.js';
 import { DomainError, requireValue } from './errors.js';
 import { validatePack } from './packs.js';
+import { resolveRound } from './outcomes.js';
 import {
   cellId,
   choice,
@@ -18,17 +19,19 @@ import {
 export function validateSave(value) {
   const data = record(value, 'save');
   requireValue(
-    data.schemaVersion === 1 || data.schemaVersion === 2,
+    data.schemaVersion === 1 ||
+      data.schemaVersion === 2 ||
+      data.schemaVersion === 3,
     'saveVersion',
     'schemaVersion',
   );
-  const version = /** @type {1 | 2} */ (data.schemaVersion);
+  const version = /** @type {1 | 2 | 3} */ (data.schemaVersion);
   const pack = validatePack(data.pack);
   requireValue(pack.mode !== 'source', 'boardCount', 'pack.mode');
   const cells = list(data.cells, 'cells').map((item) => owner(item, 'cells'));
   requireValue(cells.length === 28, 'boardCount', 'cells');
   const state = {
-    schemaVersion: /** @type {1 | 2} */ (version),
+    schemaVersion: version,
     sessionId: text(data.sessionId, 'sessionId'),
     pack,
     cells,
@@ -38,7 +41,12 @@ export function validateSave(value) {
     lastNow: integer(data.lastNow, 'lastNow'),
     stage: parseStage(data.stage),
   };
-  if (version === 2)
+  requireValue(
+    version === 3 || state.stage.phase !== 'opponent-offer',
+    'saveVersion',
+    'stage.phase',
+  );
+  if (version !== 1)
     requireValue(
       state.config.duel.length === state.config.duel.symbols.length,
       'invalidDuel',
@@ -56,6 +64,7 @@ function parseStage(value) {
     /** @type {const} */ ([
       'selecting',
       'question',
+      'opponent-offer',
       'opponent',
       'duel-preview',
       'duel-active',
@@ -82,7 +91,11 @@ function parseStage(value) {
     ),
   };
   if (phase === 'duel-interrupted') return { phase, round: common };
-  if (phase === 'question' || phase === 'opponent')
+  if (
+    phase === 'question' ||
+    phase === 'opponent' ||
+    phase === 'opponent-offer'
+  )
     return {
       phase,
       round: {
@@ -91,6 +104,12 @@ function parseStage(value) {
         deadline: integer(round.deadline, 'stage.round.deadline'),
       },
     };
+  return parseDuelStage(phase, round, common);
+}
+
+/** @param {'duel-preview'|'duel-active'} phase
+ * @param {Record<string, unknown>} round @param {import('./types.js').Round} common */
+function parseDuelStage(phase, round, common) {
   return {
     phase,
     round: {
@@ -134,7 +153,11 @@ function validateStage(state) {
     'invalidRound',
     'chooser',
   );
-  if (stage.phase === 'question' || stage.phase === 'opponent') {
+  if (
+    stage.phase === 'question' ||
+    stage.phase === 'opponent' ||
+    stage.phase === 'opponent-offer'
+  ) {
     validateQuestionRound(state, stage);
     return;
   }
@@ -149,7 +172,7 @@ function validateStage(state) {
 }
 
 /** @param {import('./types.js').Game} state
- * @param {{phase: 'question'|'opponent', round: import('./types.js').QuestionRound}} stage */
+ * @param {{phase: 'question'|'opponent-offer'|'opponent', round: import('./types.js').QuestionRound}} stage */
 function validateQuestionRound(state, stage) {
   const { round } = stage;
   requireValue(
@@ -157,13 +180,17 @@ function validateQuestionRound(state, stage) {
     'invalidRound',
     'cells',
   );
+  const timedOpponent = stage.phase === 'opponent' && state.schemaVersion === 3;
+  const duration = timedOpponent
+    ? opponentTimeMs(state.config)
+    : state.config.timeLimitMs;
   requireValue(
     round.startedAt <= state.lastNow &&
-      round.deadline - round.startedAt === state.config.timeLimitMs,
+      round.deadline - round.startedAt === duration,
     'invalidDeadline',
     'stage.round.deadline',
   );
-  if (stage.phase === 'question') {
+  if (stage.phase === 'question' || timedOpponent) {
     requireValue(state.lastNow < round.deadline, 'invalidDeadline', 'lastNow');
   }
 }
@@ -228,9 +255,24 @@ export function recoverGame(json, now, sessionId) {
   requireValue(nextSession !== state.sessionId, 'sessionReused', 'sessionId');
   integer(now, 'now');
   requireValue(now >= state.lastNow, 'clockBackwards', 'now');
+  recoverStage(state, now);
+  state.schemaVersion = 3;
+  state.config.duel.length = state.config.duel.symbols.length;
+  state.revision = integer(state.revision + 1, 'revision');
+  state.lastNow = now;
+  state.sessionId = nextSession;
+  return state;
+}
+
+/** @param {import('./types.js').Game} state @param {number} now */
+function recoverStage(state, now) {
   const stage = state.stage;
-  if (stage.phase === 'question' && now >= stage.round.deadline) {
-    state.stage = { phase: 'opponent', round: stage.round };
+  if (stage.phase === 'opponent' && state.schemaVersion !== 3) {
+    state.stage = { phase: 'opponent-offer', round: stage.round };
+  } else if (stage.phase === 'opponent' && now >= stage.round.deadline) {
+    resolveRound(state, stage.round, 'black');
+  } else if (stage.phase === 'question' && now >= stage.round.deadline) {
+    state.stage = { phase: 'opponent-offer', round: stage.round };
   }
   if (stage.phase === 'duel-preview' || stage.phase === 'duel-active') {
     state.stage = {
@@ -241,8 +283,4 @@ export function recoverGame(json, now, sessionId) {
       },
     };
   }
-  state.revision = integer(state.revision + 1, 'revision');
-  state.lastNow = now;
-  state.sessionId = nextSession;
-  return state;
 }

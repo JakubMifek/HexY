@@ -102,20 +102,20 @@
 }
 #catalog-results {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.6rem;
+  grid-template-columns: minmax(0, 1fr);
 }
 #catalog-results label {
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 0.65rem;
+  border: 0;
+  border-radius: 6px;
+  padding: 0;
   font-weight: 500;
   flex-direction: row;
-  align-items: start;
+  align-items: center;
 }
 .deck-description {
-  display: grid;
-  gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.6rem;
 }
 .deck-meta {
   font-size: 0.8rem;
@@ -142,7 +142,7 @@
   flex-basis: 100%;
   color: var(--muted);
 }
-#catalog-results label:has(:checked) {
+#catalog-results .deck-row:has(:checked) {
   box-shadow: inset 0 0 0 2px var(--focus);
 }
 .pack-sources {
@@ -190,6 +190,8 @@
   position: relative;
 }
 .game {
+  --board-height: min(100dvh - 340px, 490px);
+  --question-board-height: min(100dvh - 520px, 440px);
   height: 100%;
   position: relative;
   display: grid;
@@ -210,17 +212,62 @@
 .game .board {
   grid-column: 1;
   grid-row: 2;
-  height: min(100dvh - 340px, 490px);
+  height: var(--board-height);
   width: 100%;
   margin: 0 auto;
   align-self: start;
 }
 .game[data-phase='question'] .board,
+.game[data-phase='opponent-offer'] .board,
 .game[data-phase='opponent'] .board {
-  height: min(100dvh - 520px, 440px);
+  height: calc(var(--question-board-height) + 48px);
+  padding-block: 24px;
+  /* atan2 supplies a unitless height ratio in both supported engines. */
+  --grid-scale: tan(atan2(var(--board-height), var(--question-board-height)));
+  --selected-scale: calc(1.22 * var(--grid-scale));
 }
 .game[data-phase^='duel-'] .board {
   height: min(100dvh - 560px, 420px);
+}
+.game:is(
+    [data-phase='question'],
+    [data-phase='opponent-offer'],
+    [data-phase='opponent']
+  ):not(:has(.long-question)) {
+  /* Ordinary text owns its row; the board yields space as text and names wrap. */
+  /* Half a highlighted hexagon, including stroke, in the 354-unit viewBox. */
+  --highlight-clearance: calc(var(--board-height) * 1.22 * 32 / 354);
+  grid-template-rows:
+    minmax(76px, max-content) minmax(min-content, 1fr)
+    max-content;
+  padding-bottom: 40px;
+}
+.game:is(
+    [data-phase='question'],
+    [data-phase='opponent-offer'],
+    [data-phase='opponent']
+  ):not(:has(.long-question))
+  .board {
+  container-type: size;
+  min-height: 0;
+  height: 100%;
+  max-height: calc(
+    var(--question-board-height) + 2 * var(--highlight-clearance)
+  );
+  padding-block: var(--highlight-clearance);
+  /* Keep the physical highlight size when the available board track shrinks. */
+  --grid-scale: tan(atan2(var(--board-height), 100cqh));
+}
+.game:is(
+    [data-phase='question'],
+    [data-phase='opponent-offer'],
+    [data-phase='opponent']
+  ):not(:has(.long-question))
+  .question-panel {
+  position: relative;
+  inset: auto;
+  grid-column: 1 / -1;
+  grid-row: 3;
 }
 .tile-face {
   transform-box: fill-box;
@@ -229,8 +276,45 @@
 .tile-face.flipping {
   animation: tile-flip 480ms ease-in-out;
 }
-.question-tile .tile-face {
-  transform: scale(1.22);
+.selected-tile .tile-face {
+  transform: scale(var(--selected-scale, 1.22));
+}
+.tile-face.returning {
+  animation: tile-return 560ms ease-in-out;
+}
+.return-front {
+  display: none;
+}
+.returning .return-front {
+  display: block;
+  animation: tile-front 560ms step-end forwards;
+}
+.returning .return-back {
+  animation: tile-reveal 560ms step-end;
+}
+.cell .return-initial {
+  fill: #142638;
+  font-size: 26px;
+}
+@keyframes tile-return {
+  0% {
+    transform: translate(var(--return-x, 0px), var(--return-y, 0px))
+      scale(
+        var(--return-width-scale, var(--return-scale, 1.22)),
+        var(--return-scale, 1.22)
+      );
+  }
+  50% {
+    /* Keep the SVG matrix invertible in Firefox at the edge-on midpoint. */
+    transform: translate(
+        calc(var(--return-x, 0px) / 2),
+        calc(var(--return-y, 0px) / 2)
+      )
+      scale(0.001, calc((var(--return-scale, 1.22) + 1) / 2));
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
 }
 .tile-countdown {
   pointer-events: none;
@@ -250,13 +334,13 @@
 }
 @keyframes tile-flip {
   0% {
-    transform: scale(1);
+    transform: scale(var(--grid-scale, 1));
   }
   50% {
-    transform: scale(0, 1.16);
+    transform: scale(0.001, calc(var(--grid-scale, 1) * 1.11));
   }
   100% {
-    transform: scale(1.22);
+    transform: scale(var(--selected-scale, 1.22));
   }
 }
 @keyframes tile-reveal {
@@ -280,12 +364,26 @@
 @media (prefers-reduced-motion: reduce) {
   .tile-face.flipping,
   .flipping .revealed-initial,
-  .flipping .tile-before {
+  .flipping .tile-before,
+  .tile-face.returning,
+  .returning .return-front,
+  .returning .return-back {
     animation: none;
   }
-  .flipping .tile-before {
+  .flipping .tile-before,
+  .returning .return-front {
     display: none;
   }
+}
+#sound-status {
+  max-width: clamp(100px, 15vw, 180px);
+  margin: 0;
+  align-self: center;
+  font-size: 0.75rem;
+  line-height: 1.25;
+}
+#sound-status:empty {
+  display: none;
 }
 .game .host {
   grid-column: 2;
@@ -304,6 +402,9 @@
   float: right;
   width: 224px;
   height: 200px;
+}
+.game[data-phase='opponent-offer']:has(.host) .long-question::before {
+  height: 160px;
 }
 .game:has(.host) .long-question .timer {
   right: 240px;
@@ -425,14 +526,14 @@
   margin-bottom: 0.75rem;
 }
 @media (min-height: 900px) {
+  .game {
+    --board-height: min(100dvh - 420px, 560px);
+  }
   .game .board {
-    height: min(100dvh - 420px, 560px);
+    height: var(--board-height);
   }
 }
 @media (max-width: 850px) {
-  #catalog-results {
-    grid-template-columns: 1fr 1fr;
-  }
   .header {
     padding-inline: 16px;
   }

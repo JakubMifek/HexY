@@ -33,7 +33,7 @@ test('reload preserves the exact original deadline rather than granting extra ti
     'recovered-session',
   );
   expect(expired.stage).toMatchObject({
-    phase: 'opponent',
+    phase: 'opponent-offer',
     round: { startedAt: 1_000, deadline: 31_000 },
   });
   expect(expired.cells[0]).toBe('unclaimed');

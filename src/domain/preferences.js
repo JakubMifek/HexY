@@ -2,7 +2,7 @@ import { choice, integer, record, text } from './validation.js';
 import { requireValue } from './errors.js';
 
 /** @typedef {{language: import('./types.js').Language, theme: string,
- * setup: import('../ui/setup.js').Setup}} Preferences */
+ * setup: import('../ui/setup.js').Setup, sound?: boolean}} Preferences */
 
 /** @param {unknown} value @returns {Preferences} */
 export function validatePreferences(value) {
@@ -11,7 +11,13 @@ export function validatePreferences(value) {
   const players = record(setup.players, 'players');
   const seconds = integer(setup.seconds, 'seconds', 1);
   requireValue(seconds <= 3600, 'invalidNumber', 'seconds');
+  requireValue(
+    data.sound === undefined || typeof data.sound === 'boolean',
+    'invalidChoice',
+    'preferences.sound',
+  );
   return {
+    sound: data.sound === undefined ? true : data.sound,
     language: choice(data.language, ['cs', 'en'], 'preferences.language'),
     theme: choice(data.theme, ['light', 'dark'], 'theme'),
     setup: {

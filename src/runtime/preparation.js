@@ -27,7 +27,7 @@ export class Preparation {
   mode = '';
   filters = { difficulty: '', origin: '' };
   /** @type {Set<string>} */
-  collapsedFolders = new Set();
+  expandedFolders = new Set();
 
   /** @param {() => number} random @param {() => string} id */
   constructor(random, id) {

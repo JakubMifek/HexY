@@ -16,9 +16,9 @@ export function symbolKey(symbol) {
   return /** @type {keyof typeof DUEL_SYMBOLS} */ (symbol);
 }
 
-/** @param {import('../domain/types.js').Game} state */
-export function browserGame(state) {
-  if (state.schemaVersion === 1) return upgradeLegacy(state);
+/** @param {import('../domain/types.js').Game} state @param {boolean} [legacySymbols] */
+export function browserGame(state, legacySymbols = state.schemaVersion === 1) {
+  if (legacySymbols) return upgradeLegacy(state);
   for (const symbol of state.config.duel.symbols) symbolKey(symbol);
   requireValue(state.config.duel.symbols.length === 7, 'duelCompatibility');
   return state;
@@ -34,7 +34,7 @@ function upgradeLegacy(state) {
   const { stage } = state;
   return {
     ...state,
-    schemaVersion: /** @type {const} */ (2),
+    schemaVersion: /** @type {const} */ (3),
     config: {
       ...state.config,
       duel: {
@@ -52,6 +52,8 @@ function upgradeLegacy(state) {
               originalChooser: stage.round.originalChooser,
             },
           }
-        : stage,
+        : stage.phase === 'opponent'
+          ? { ...stage, phase: /** @type {const} */ ('opponent-offer') }
+          : stage,
   };
 }

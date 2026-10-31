@@ -197,7 +197,7 @@ for (const answers of ['hosted', 'automatic']) {
     expect(restored.game.sessionId).not.toBe(original.game.sessionId);
     await page.clock.setSystemTime(original.game.stage.round.deadline);
     await page.reload();
-    await phase(page, 'opponent');
+    await phase(page, 'opponent-offer');
   });
 }
 

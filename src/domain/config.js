@@ -4,6 +4,11 @@ import { choice, integer, player, record, strings } from './validation.js';
 export const DEFAULT_QUESTION_TIME_MS = 30_000;
 export const MAX_DUEL_SEQUENCE_LENGTH = 1_000;
 
+/** @param {import('./types.js').GameConfig} config */
+export function opponentTimeMs(config) {
+  return Math.ceil(config.timeLimitMs / 2);
+}
+
 /** @param {unknown} value @returns {import('./types.js').GameConfig} */
 export function validateConfig(value) {
   const data = record(value, 'config');

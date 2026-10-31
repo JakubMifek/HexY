@@ -122,12 +122,22 @@ for (const theme of ['light', 'dark']) {
     await phase(page, 'question');
     await expect(ring).toHaveAttribute('stroke-dasharray', '2.5 100');
     await page.clock.runFor(100);
-    await phase(page, 'opponent');
+    await phase(page, 'opponent-offer');
     await expect(
       page.locator('.tile-countdown, #timer, .question-tile'),
     ).toHaveCount(0);
     await page.clock.runFor(60000);
+    await phase(page, 'opponent-offer');
+    await page.locator('#accept-opponent').click();
     await phase(page, 'opponent');
+    await expect(
+      page.locator('.tile-countdown circle:last-child'),
+    ).toHaveAttribute('stroke', '#FBA123');
+    await page.clock.runFor(1000);
+    await expect(page.locator('.tile-countdown')).toHaveAttribute(
+      'stroke-dasharray',
+      '50 100',
+    );
     await page.locator('#give-up').click();
     await page.locator('#cell-1').click();
     await phase(page, 'duel-preview');
@@ -209,7 +219,7 @@ for (const [theme, language, player, color, viewport] of [
       path: info.outputPath('custom-recovered-fit.png'),
     });
     await page.clock.runFor(18000);
-    await phase(page, 'opponent');
+    await phase(page, 'opponent-offer');
     await expect(page.locator('.tile-countdown')).toHaveCount(0);
   });
 }

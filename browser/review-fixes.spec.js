@@ -57,7 +57,10 @@ for (const opportunity of ['question', 'opponent']) {
   }, info) => {
     await start(page, { answers: 'automatic', seconds: 3 });
     await page.locator('#cell-1').click();
-    if (opportunity === 'opponent') await page.locator('#give-up').click();
+    if (opportunity === 'opponent') {
+      await page.locator('#give-up').click();
+      await page.locator('#accept-opponent').click();
+    }
     await page.locator('#answer').fill('  Ath? <draft>  ');
     await page.clock.runFor(1000);
     await page.locator('#theme').click();
@@ -74,10 +77,12 @@ for (const opportunity of ['question', 'opponent']) {
       await phase(page, 'question');
       await expect(page.locator('#answer')).toHaveValue('  Ath? <draft>  ');
       await page.clock.runFor(1);
-      await phase(page, 'opponent');
+      await phase(page, 'opponent-offer');
+      await expect(page.locator('#answer')).toHaveCount(0);
+      await page.locator('#accept-opponent').click();
       await expect(page.locator('#answer')).toHaveValue('');
     } else {
-      await page.clock.runFor(60_000);
+      await page.clock.runFor(499);
       await phase(page, 'opponent');
       await expect(page.locator('#answer')).toHaveValue('  Ath? <draft>  ');
     }

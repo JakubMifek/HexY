@@ -96,7 +96,7 @@ for (const [width, height] of [
       await page.screenshot({ path: info.outputPath('clock-error.png') });
       await page.clock.setSystemTime(now + 1000);
       await page.locator('#give-up').click();
-      await phase(page, 'opponent');
+      await phase(page, 'opponent-offer');
       await expect(page.locator('#error')).toBeEmpty();
       const restored = await page.evaluate(
         () => JSON.parse(localStorage.getItem('hexy.game.v1')).game,

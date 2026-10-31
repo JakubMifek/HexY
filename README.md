@@ -70,19 +70,30 @@ theme without rerolling names, regenerating content or resetting time.
 - Fixed-letter boards preserve their authored placement. Number boards propose
   28 distinct questions from only your selected, same-language source packs.
 - Selecting a question tile enlarges it during its flip to the full answer
-  initial (`Ch`, `CH` and `SH` stay intact). While the initial player answers,
+  initial (`Ch`, `CH` and `SH` stay intact). While either player answers,
   a ring in their configured color disappears clockwise from twelve o'clock,
   reaching empty at the existing deadline. The readable time remains below.
-  The initial remains through the opponent's untimed opportunity, without a ring.
-  Reduced motion reveals the enlarged tile immediately. Neither presentation
-  delays the timer, replays the flip on theme/reload, or changes black duels.
+  The tile stays enlarged while the opponent decides whether to answer, without
+  a ring. On resolution it flips again, revealing its awarded or black face as
+  it shrinks back to normal size. Reduced motion shows the final face immediately.
+  Presentation never delays ownership, victory or deadlines, replays on
+  theme/reload, or changes black-duel rules.
 - **Spoken:** a host judges answers. Incorrect initial answers leave the original
   timer running. **Typed:** case, spacing and missing diacritics are ignored;
   explicit aliases are accepted, but not fuzzy spelling corrections.
-- Timeout or **Give up** gives the opponent exactly one untimed attempt. A failed
-  opponent attempt makes the field black. Answers appear only after resolution.
-- The opposite player to the actual recipient chooses next. If neither succeeds,
-  the opposite player to the original chooser goes next.
+- Timeout or **Give up** offers the opponent a choice. **Answer** starts half the
+  configured time (15 seconds with a 30-second limit), with unlimited attempts.
+  Accepting spends their turn: success, timeout or giving up all return the next
+  field selection to the original chooser unless the opponent wins the game.
+  Failure turns the field black. **Decline** turns it black without spending the
+  opponent's turn, so the opponent chooses next. Answers appear only after resolution.
+- A direct capture gives the next selection to the other player. Black-duel
+  captures still give the next selection to the recipient's opponent.
+- Original synthesized sounds distinguish selection, capture, black-field
+  resolution, timeout/give-up and victory, with quiet once-per-second deadline
+  ticks during either timed answer. Options has a saved sound toggle.
+  Audio requires browser permission/user activation
+  and does not change game timing. No television audio or downloaded audio is used.
 - Select black fields for reaction duels: default keys are **Left Shift** for A
   and **Right Shift** for B. In Options, **Duel controls** has one **Record** row
   per player: press a fresh key or controller button to replace that player's
@@ -130,7 +141,10 @@ layouts are implemented, including separate A/B touch buzzers during duels;
 physical tablet support remains unverified/experimental.
 
 **A successfully saved game recovers on reload, including its original deadline.**
-Expired initial answers become the opponent's single opportunity. Selecting and
+Expired initial answers become an opponent offer; accepted opponent attempts keep
+their own exact deadline and expire to black with the original chooser next.
+Compatible old untimed opponent saves become an explicit offer under these rules,
+not an already-expired timed attempt. Selecting and
 won games recover unchanged; every saved duel recovers interrupted. Content stays
 locked after recovery and host resets. Unsent typed drafts are not saved.
 Static downloaded content is inspectable: this is friendly local play, not anti-cheat.
@@ -200,10 +214,17 @@ Both spoken and typed games use the same preparation workflow:
    starter is initially ready. Changing language/mode resets the preparation to
    that language's **single starter**, not all catalog packs, and never translates
    custom questions.
-2. Browse expandable category folders; uploaded/custom decks have a separate
+2. Browse initially collapsed category folders; uploaded/custom decks have a separate
    folder. **Origin** and **Difficulty** are the only filters. Options determines
    the question language; clearing filters never adds other-language questions.
-   Each deck shows its localized difficulty. A folder checkbox selects/deselects
+   Checkboxes and text align left. Each compact folder header shows its icon,
+   category and selected/matching counts. Decks sort Easy, Medium, Hard, then
+   by localized name (mixed custom decks use their easiest included level).
+   Difficulty uses both a colored symbol and a localized text label.
+   Bundled catalog names follow Category · Difficulty · Number, consistently
+   numbered within each language/category/level before filtering; custom titles
+   and all original pack/export metadata remain unchanged.
+   A folder checkbox selects/deselects
    only its currently matching decks, shows selected/matching counts and a
    partial-selection state. The summary opens/closes with Enter/Space; the separate
    checkbox also works when the folder is closed. Filters only change what

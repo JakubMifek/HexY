@@ -1,11 +1,12 @@
 import { opponent } from '../domain/outcomes.js';
+import { opponentTimeMs } from '../domain/config.js';
 import { DUEL_SYMBOLS, symbolKey } from '../runtime/symbols.js';
 import { button, element, field, input } from './dom.js';
 
 /** @param {import('../domain/types.js').Game} state */
 export function answeringPlayer(state) {
   const stage = state.stage;
-  return stage.phase === 'opponent'
+  return stage.phase === 'opponent' || stage.phase === 'opponent-offer'
     ? opponent(stage.round.originalChooser)
     : state.chooser;
 }
@@ -27,7 +28,11 @@ export function roundView(state, players, t, send, signal) {
   );
   const phase = state.stage.phase;
   if (phase === 'selecting') panel.append(element('p', t.choose));
-  else if (phase === 'question' || phase === 'opponent')
+  else if (
+    phase === 'question' ||
+    phase === 'opponent' ||
+    phase === 'opponent-offer'
+  )
     questionView(panel, state, t, send, signal);
   else if (phase === 'duel-interrupted')
     panel.append(element('p', t.interruptHelp));
@@ -40,7 +45,11 @@ export function roundView(state, players, t, send, signal) {
  * @param {import('./setup.js').Setup['players']} players @param {import('./strings.js').Texts} t */
 function roundTitle(state, players, t) {
   const stage = state.stage;
-  if (stage.phase === 'question' || stage.phase === 'opponent') {
+  if (
+    stage.phase === 'question' ||
+    stage.phase === 'opponent' ||
+    stage.phase === 'opponent-offer'
+  ) {
     const id = answeringPlayer(state);
     return `${id} · ${players[id].name} — ${t[stage.phase]}`;
   }
@@ -54,7 +63,12 @@ function roundTitle(state, players, t) {
  * @param {(action: import('../domain/types.js').ActionBody) => void} send @param {AbortSignal} signal */
 function questionView(panel, state, t, send, signal) {
   const stage = state.stage;
-  if (stage.phase !== 'question' && stage.phase !== 'opponent') return;
+  if (
+    stage.phase !== 'question' &&
+    stage.phase !== 'opponent' &&
+    stage.phase !== 'opponent-offer'
+  )
+    return;
   const question = state.pack.questions[stage.round.cell - 1];
   if (question.text.length > 240) panel.classList.add('long-question');
   panel.append(
@@ -68,15 +82,18 @@ function questionView(panel, state, t, send, signal) {
       lang: question.language,
     }),
   );
-  if (stage.phase === 'question')
-    panel.append(
-      element('output', '', {
-        id: 'timer',
-        'aria-label': t.remaining,
-        'aria-live': 'off',
-        class: 'timer',
-      }),
-    );
+  if (stage.phase === 'opponent-offer') {
+    panel.append(opponentChoice(state, t, send, signal));
+    return;
+  }
+  panel.append(
+    element('output', '', {
+      id: 'timer',
+      'aria-label': t.remaining,
+      'aria-live': 'off',
+      class: 'timer',
+    }),
+  );
   const controls = element('div', '', { class: 'controls' });
   if (state.config.answerMode === 'automatic')
     controls.append(answerForm(state, t, send, signal));
@@ -84,6 +101,38 @@ function questionView(panel, state, t, send, signal) {
     button(t.giveUp, 'give-up', () => send({ type: 'give-up' }), signal),
   );
   panel.append(controls);
+}
+
+/** @param {import('../domain/types.js').Game} state @param {import('./strings.js').Texts} t
+ * @param {(action: import('../domain/types.js').ActionBody) => void} send @param {AbortSignal} signal */
+function opponentChoice(state, t, send, signal) {
+  const choice = element('div', '', { class: 'opponent-choice' });
+  const controls = element('div', '', { class: 'controls' });
+  controls.append(
+    button(
+      t.acceptOpponent,
+      'accept-opponent',
+      () => send({ type: 'accept-opponent' }),
+      signal,
+    ),
+    button(
+      t.declineOpponent,
+      'decline-opponent',
+      () => send({ type: 'decline-opponent' }),
+      signal,
+    ),
+  );
+  choice.append(
+    element(
+      'p',
+      t.opponentOfferHelp.replace(
+        '{seconds}',
+        String(opponentTimeMs(state.config) / 1000),
+      ),
+    ),
+    controls,
+  );
+  return choice;
 }
 
 /** @param {import('../domain/types.js').Game} state @param {import('./strings.js').Texts} t

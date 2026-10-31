@@ -22,9 +22,10 @@ export function updateVictory(state) {
  * @param {import('./types.js').Player|'black'} recipient */
 export function resolveRound(state, round, recipient) {
   state.cells[round.cell - 1] = recipient;
-  state.chooser = opponent(
-    recipient === 'black' ? round.originalChooser : recipient,
-  );
+  state.chooser =
+    state.stage.phase === 'opponent'
+      ? round.originalChooser
+      : opponent(recipient === 'black' ? round.originalChooser : recipient);
   state.stage = { phase: 'selecting' };
   updateVictory(state);
 }

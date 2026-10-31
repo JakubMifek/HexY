@@ -11,7 +11,6 @@ export const preparationStrings = {
     difficulties: { easy: 'Easy', medium: 'Medium', hard: 'Hard' },
     mixedDifficulty: 'Mixed source levels',
     customFolder: 'Uploaded and custom decks',
-    selectFolder: 'Select matching decks',
     exportOriginalLibrary: 'Export protected original library JSON',
     matching: 'Matching packs',
     noMatches: 'No packs match these filters. Clear filters or import a pack.',
@@ -116,7 +115,6 @@ export const preparationStrings = {
     difficulties: { easy: 'Lehká', medium: 'Střední', hard: 'Těžká' },
     mixedDifficulty: 'Směs úrovní zdrojů',
     customFolder: 'Importované a vlastní balíčky',
-    selectFolder: 'Vybrat odpovídající balíčky',
     exportOriginalLibrary: 'Exportovat chráněný původní JSON knihovny',
     matching: 'Odpovídající sady',
     noMatches:

@@ -48,7 +48,9 @@ export class Recovery {
         this.original === null
           ? null
           : recoverPortable(this.original, now, sessionId, true);
-      const state = restored ? browserGame(restored.game) : null;
+      const state = restored
+        ? browserGame(restored.game, restored.legacySymbols)
+        : null;
       this.settings = restored?.settings ?? null;
       this.bindings = restored?.bindings ?? null;
       this.#writable = true;
@@ -165,7 +167,7 @@ export class Recovery {
     return this.attempt(() => {
       requireValue(this.writable && this.original === null, 'recoveryBlocked');
       const restored = recoverPortable(json, now(), sessionId());
-      const game = browserGame(restored.game);
+      const game = browserGame(restored.game, restored.legacySymbols);
       this.settings = restored.settings;
       this.bindings = restored.bindings;
       return game;

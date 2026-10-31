@@ -7,13 +7,16 @@ import { RoundClock } from './runtime/clock.js';
 import { Inputs } from './runtime/inputs.js';
 import { Recovery } from './runtime/recovery.js';
 import { DUEL_SYMBOLS } from './runtime/symbols.js';
-import { applicationView } from './ui/application.js';
+import { applicationView, restoreFocus } from './ui/application.js';
 import { strings } from './ui/strings.js';
 import { defaultSetup } from './ui/setup.js';
 import { transitionFeedback } from './ui/game.js';
 import { Navigation } from './runtime/navigation.js';
 import { portableGame } from './domain/portable.js';
 import { displayCountdown } from './ui/countdown.js';
+import { GameSounds } from './runtime/game-sounds.js';
+import { updateSoundStatus } from './ui/sound.js';
+import { positionReturn, returnOrigin } from './ui/tile-return.js';
 
 export class App {
   disposed = false;
@@ -44,6 +47,9 @@ export class App {
     this.settings = preferences.setup;
     this.language = preferences.language;
     this.theme = preferences.theme;
+    this.sounds = new GameSounds(preferences.sound ?? true, () =>
+      updateSoundStatus(this),
+    );
     this.settings.language = this.language;
     this.navigation = new Navigation(this);
     this.timer = new RoundClock(
@@ -134,6 +140,7 @@ export class App {
       this.state = result.state;
       this.recovery.save(this.state);
       this.feedback = transitionFeedback(before, this.state, action);
+      this.sounds.accepted(before, this.state, action);
       this.render();
       this.timer.bind(this.state);
     });
@@ -188,6 +195,7 @@ export class App {
 
   render() {
     if (this.disposed) return;
+    const origin = returnOrigin(this.root, this.feedback.returnCell);
     const focused = document.activeElement?.id;
     this.viewListeners.abort();
     this.viewListeners = new AbortController();
@@ -198,24 +206,13 @@ export class App {
     this.inputs.language = this.language;
     this.inputs.bind(this.state);
     this.root.replaceChildren(...applicationView(this, signal));
+    positionReturn(this.root, origin, signal);
     delete this.feedback.flipCell;
+    delete this.feedback.returnCell;
+    updateSoundStatus(this);
     this.inputs.releaseFeedback();
     this.displayTime(this.clock.now());
-    this.restoreFocus(focused);
-  }
-
-  /** @param {string | undefined} previous */
-  restoreFocus(previous) {
-    if (this.dialog?.open) return;
-    const prior = previous ? document.getElementById(previous) : null;
-    if (prior && prior.getAttribute('aria-disabled') !== 'true') {
-      prior.focus({ preventScroll: true });
-      return;
-    }
-    const next = this.root.querySelector('#answer, #phase-heading, #nameA');
-    if (next instanceof HTMLElement) {
-      next.focus({ preventScroll: true });
-    }
+    restoreFocus(this, focused);
   }
 
   /** @param {number} now */
@@ -228,9 +225,10 @@ export class App {
     }
     this.lastObservedNow = now;
     displayCountdown(this.root, this.state, now);
+    this.sounds.display(this.state, now);
     const stage = this.state?.stage;
     const timer = this.root.querySelector('#timer');
-    if (timer && stage?.phase === 'question') {
+    if (timer && (stage?.phase === 'question' || stage?.phase === 'opponent')) {
       timer.textContent = `${Math.ceil(Math.max(0, stage.round.deadline - now) / 1000)} s`;
     }
   }
@@ -293,6 +291,7 @@ export class App {
       language: this.language,
       theme: this.theme,
       setup: this.settings,
+      sound: this.sounds.enabled,
     });
   }
 
@@ -313,6 +312,7 @@ export class App {
     this.disposed = true;
     this.state = null;
     this.timer.dispose();
+    this.sounds.dispose();
     this.inputs.dispose();
     this.recovery.dispose();
     this.viewListeners.abort();

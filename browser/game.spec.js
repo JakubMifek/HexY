@@ -40,11 +40,10 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
         await chooser(page, 'B');
         await page.locator('#cell-2').click();
         await page.locator('#give-up').click();
-        await phase(page, 'opponent');
+        await phase(page, 'opponent-offer');
         await expect(page.locator('#timer')).toHaveCount(0);
         await expect(page.locator('#feedback')).toBeEmpty();
-        if (answers === 'hosted') await page.locator('#judge-wrong').click();
-        else await answer(page, 'wrong');
+        await page.locator('#decline-opponent').click();
         await expect(page.locator('#cell-2')).toHaveAttribute(
           'data-owner',
           'black',
@@ -52,6 +51,7 @@ for (const language of /** @type {const} */ (['cs', 'en'])) {
         await chooser(page, 'A');
         await page.locator('#cell-3').click();
         await page.locator('#give-up').click();
+        await page.locator('#accept-opponent').click();
         if (answers === 'hosted') await page.locator('#judge-correct').click();
         else await answer(page, values[2 + offset]);
         await expect(page.locator('#cell-3')).toHaveAttribute(
@@ -83,11 +83,12 @@ test('deadline is exact after wrong answers, theme/language changes, focus loss 
   await phase(page, 'question');
   await expect(page.locator('#timer')).toHaveText('1 s');
   await page.clock.runFor(1);
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   await page.locator('#cancel-new').click();
   await page.clock.runFor(60_000);
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   await expect(page.locator('.question-panel')).not.toContainText('Athens');
+  await page.locator('#accept-opponent').click();
   await page.locator('#judge-correct').click();
   await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'B');
 });
@@ -132,7 +133,7 @@ test('keyboard field navigation, long text and non-color black cues', async ({
   await page.keyboard.press('Enter');
   await phase(page, 'question');
   await page.locator('#give-up').click();
-  await page.locator('#give-up').click();
+  await page.locator('#decline-opponent').click();
   await expect(page.locator('#cell-2')).toHaveAccessibleName(/Černé/);
   await page.locator('#cell-7').click();
   await expect(page.locator('.question-text')).toContainText(
@@ -150,7 +151,7 @@ test('late queued initial action cannot answer on behalf of the opponent', async
   const oldSubmit = await page.locator('#submit-answer').elementHandle();
   await page.clock.runFor(1000);
   await oldSubmit?.evaluate((node) => node.click());
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   await expect(page.locator('#cell-1')).toHaveAttribute(
     'data-owner',
     'unclaimed',

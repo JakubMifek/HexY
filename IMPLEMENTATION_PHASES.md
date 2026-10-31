@@ -12,6 +12,30 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Owner-requested parallel follow-ups, 2026-10-31:** compact catalog folders,
+return-flip/audio and explicit half-time opponent turns are independently CLEARED in the
+isolated `catalog-worktree`, with disjoint developer ownership. The owner
+confirmed unlimited opponent attempts; declining blackens the field with the
+opponent choosing next, while any accepted attempt spends their turn.
+The primary phase-12 content coordinator remains the sole integrator.
+Combined corrections pass 939 units, both 63-module coverage groups, formatting,
+lint, types, build and the 376-case requested native regression; catalog90 and
+maximum-text244 native selectors also pass. See
+`docs/interface-followups-handoff.md` for exact evidence and limitations.
+Independent review found IF-01 (non-activating keys can strand audio resume) and
+IF-02 (responsive board growth can make the return grow instead of shrink).
+Both corrections now have 957-unit/all63-module coverage and 382-distinct-case
+native developer evidence; see `reviews/interface-followups.md`. Independent re-review resolved IF-01/02 but found IF-03: longer ordinary opponent
+offers obscure enlarged bottom-row tiles, outside the approved long-text
+exception. Its intrinsic-grid layout correction now passes 466 native cases and
+45 focused units without changing production JavaScript or the long-text
+threshold. The same reviewer independently closed IF-03; all three findings are
+resolved. Coordinator post-review passed 957 units/all63 runtime coverage,
+format/lint/types/build and 664 native cases with all77 reviewed hashes unchanged.
+The owner approved a controlled Phase-12 pause for separate delivery, preserving
+34 dirty files and all review evidence. Safe primary integration/delivery and
+resuming that coordinator remain pending; no deployment is claimed here.
+
 **Authoritative bounded-delivery checkpoint, 2026-10-31:** phase11 CLEARED and
 privately delivered `893b984638acb14a4871343cd00f082054e74832`, verified
 origin/main/actual HTTPS and exact protected old-data upgrade canary.

@@ -19,16 +19,17 @@ for (const delta of [-1, 0, 1]) {
     const before = await saved(page);
     await page.clock.setSystemTime(before.stage.round.deadline + delta);
     await page.reload();
-    await phase(page, delta < 0 ? 'question' : 'opponent');
+    await phase(page, delta < 0 ? 'question' : 'opponent-offer');
     const recovered = await saved(page);
     expect(recovered.sessionId).not.toBe(before.sessionId);
     expect(recovered.stage.round.deadline).toBe(before.stage.round.deadline);
     expect(recovered.pack).toEqual(before.pack);
     await expect(page.locator('#pack-editor')).toHaveCount(0);
     if (delta < 0) await page.clock.runFor(1);
-    await phase(page, 'opponent');
+    await phase(page, 'opponent-offer');
     await page.reload();
-    await phase(page, 'opponent');
+    await phase(page, 'opponent-offer');
+    await page.locator('#accept-opponent').click();
     await page.locator('#answer').fill('Athens');
     await page.locator('#submit-answer').click();
     await phase(page, 'selecting');
@@ -101,10 +102,10 @@ test('theme, focus loss and reload never add time; exit confirmation removes rec
   );
   await page.locator('#exit-game').click();
   await page.clock.runFor(20_000);
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   await page.locator('#cancel-new').click();
   await page.reload();
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   await page.locator('#exit-game').click();
   await page.locator('#discard-new').click();
   expect(
@@ -171,10 +172,10 @@ test('game export/reimport uses the actual format, retains deadline, and does no
   await page.locator('#open-import').click();
   await page.locator('#import-game').setInputFiles(path);
   await page.locator('#import-play').click();
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
   expect((await saved(page)).pack).toEqual(before.pack);
   await page.reload();
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
 });
 
 test('write quota failure keeps the saved deadline/original and reports unsaved status until successful retry', async ({
@@ -218,7 +219,7 @@ test('clock rollback on reload preserves the original save until the clock is re
   expect(await saved(page)).toEqual(original);
   await page.clock.setSystemTime(original.stage.round.deadline);
   await page.locator('#retry-recovery').click();
-  await phase(page, 'opponent');
+  await phase(page, 'opponent-offer');
 });
 
 for (const language of /** @type {const} */ (['en', 'cs'])) {

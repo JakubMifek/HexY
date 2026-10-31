@@ -156,7 +156,7 @@ test('setup preserves edits through language/theme changes and locks content at 
   );
 });
 
-test('hosted wrong attempts retain deadline, opponent gets one untimed opportunity', () => {
+test('hosted wrong attempts retain deadline, opponent chooses a half-time opportunity', () => {
   app.start(defaultSetup('en'));
   click('#cell-1');
   const stage = app.state?.stage;
@@ -168,9 +168,12 @@ test('hosted wrong attempts retain deadline, opponent gets one untimed opportuni
   );
   expect(document.querySelector('#set-cell')).toBeNull();
   vi.advanceTimersByTime(20_000);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   expect(document.querySelector('#timer')).toBeNull();
   expect(root.textContent).not.toContain('Athens');
+  expect(document.querySelector('#judge-correct')).toBeNull();
+  click('#accept-opponent');
+  expect(document.querySelector('#timer')?.textContent).toBe('15 s');
   click('#judge-correct');
   expect(app.state?.cells[0]).toBe('B');
   expect(app.state?.chooser).toBe('A');
@@ -189,10 +192,13 @@ test('typed aliases, unsuccessful attempts and give-up follow recipient-based tu
   expect(app.state?.chooser).toBe('B');
   click('#cell-2');
   click('#give-up');
+  click('#accept-opponent');
   set('#answer', 'wrong');
   document.querySelector('form')?.requestSubmit();
+  expect(app.state).toMatchObject({ stage: { phase: 'opponent' } });
+  click('#give-up');
   expect(app.state?.cells[1]).toBe('black');
-  expect(app.state?.chooser).toBe('A');
+  expect(app.state?.chooser).toBe('B');
   expect(
     document.querySelector('#cell-2')?.getAttribute('aria-label'),
   ).toContain('Black');
@@ -215,7 +221,7 @@ test('host corrections are independent, immediately detect wins, reopen and reus
   );
   click('#judge-correct');
   expect(app.state?.cells[0]).toBe('B');
-  expect(document.querySelector('#cell-1 text')).toBeNull();
+  expect(document.querySelector('#cell-1 .cell-label')).toBeNull();
 });
 
 test('duel interruption automatically restarts after genuine focused press and release by both players', async () => {
@@ -251,7 +257,10 @@ test.each(['question', 'opponent'])(
   (phase) => {
     app.start({ ...defaultSetup('en'), answerMode: 'automatic' });
     click('#cell-1');
-    if (phase === 'opponent') click('#give-up');
+    if (phase === 'opponent') {
+      click('#give-up');
+      click('#accept-opponent');
+    }
     const opportunity = app.state;
     set('#answer', '  Ath? <test>  ');
     set('#theme', 'dark');
@@ -271,8 +280,8 @@ test.each(['question', 'opponent'])(
     ).not.toContain('Athens');
     click('#give-up');
     if (phase === 'question') {
-      expect(document.querySelector('#answer')).toHaveProperty('value', '');
-      click('#give-up');
+      expect(document.querySelector('#answer')).toBeNull();
+      click('#decline-opponent');
     }
     click('#cell-2');
     expect(document.querySelector('#answer')).toHaveProperty('value', '');
@@ -314,7 +323,7 @@ test('new game confirmation does not pause questions and discarded callbacks can
   app.requestNew();
   expect(document.querySelectorAll('dialog')).toHaveLength(1);
   vi.advanceTimersByTime(30_000);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   click('#cancel-new');
   expect(document.querySelector('dialog')).toBeNull();
   click('#new-game');

@@ -39,11 +39,21 @@ export async function nextPreparation(page, mode, answers) {
 export async function acceptPack(page, id, mode) {
   await page.locator('#reset-catalog').click();
   await page.locator('#clear-sources').click();
-  await page.locator(`#source-${id}`).check();
+  await setSource(page, id);
   await page
     .locator(mode === 'numbers' ? '#use-numbers' : '#prepare-board')
     .click();
   await page.locator('#accept-board').click();
+}
+
+/** @param {import('@playwright/test').Page} page @param {string} id
+ * @param {boolean} [checked] */
+export async function setSource(page, id, checked = true) {
+  const box = page.locator(`[id="source-${id}"]`);
+  const folder = box.locator('xpath=ancestor::details');
+  if (!(await folder.evaluate((node) => node.hasAttribute('open'))))
+    await folder.locator('summary').click();
+  await box.setChecked(checked);
 }
 
 /** @param {import('@playwright/test').Page} page @param {string} [mode] */
@@ -77,8 +87,9 @@ export async function selectSources(page, ids) {
   const selected = await page
     .locator('.pack-sources input[id^="source-"]:checked')
     .evaluateAll((nodes) => nodes.map((node) => node.getAttribute('id')));
-  for (const id of selected) await page.locator(`[id="${id}"]`).uncheck();
-  for (const id of ids) await page.locator(`[id="source-${id}"]`).check();
+  for (const id of selected)
+    await setSource(page, id.slice('source-'.length), false);
+  for (const id of ids) await setSource(page, id);
 }
 
 /** @param {import('@playwright/test').Page} page @param {import('@playwright/test').TestInfo} info

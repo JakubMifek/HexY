@@ -5,6 +5,7 @@ import {
   catalogPacks,
   acceptPack,
   inspectPrintedSheet,
+  setSource,
 } from './preparation-helpers.js';
 import { phase, setTheme } from './helpers.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
@@ -36,7 +37,7 @@ for (const language of ['cs', 'en']) {
       fullPage: true,
     });
     await page.locator('#clear-sources').click();
-    await page.locator(`#source-${source.id}`).check();
+    await setSource(page, source.id);
     await page.locator('#edit-source').click();
     await expect(
       page.getByLabel(`${preparationStrings[language].category} · ${name}`, {

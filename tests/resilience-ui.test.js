@@ -106,9 +106,12 @@ test.each([30_999, 31_000, 31_001])(
     mount();
     expect(current().pack).toEqual(saved.pack);
     expect(current().sessionId).not.toBe(saved.sessionId);
-    expect(current().stage.phase).toBe(now < 31_000 ? 'question' : 'opponent');
+    expect(current().stage.phase).toBe(
+      now < 31_000 ? 'question' : 'opponent-offer',
+    );
     expect(document.querySelector('#edit-proposal')).toBeNull();
     expect(app.workspace.model.locked).toBe(true);
+    if (now >= 31_000) click('#accept-opponent');
     click('#judge-correct');
     expect(app.state?.cells[0]).toBe(now < 31_000 ? 'A' : 'B');
     expect(
@@ -137,7 +140,7 @@ test('a backwards clock after display-only elapsed time cannot accept an answer 
   expect(document.querySelector('#error')?.textContent).toContain('clock');
   vi.setSystemTime(31_000);
   click('#judge-correct');
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
 });
 
 test('recovered duels require fresh presses and releases without gameplay control settings', async () => {

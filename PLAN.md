@@ -136,6 +136,30 @@ user to perform development tasks.
 
 ## Product constraints: confirmed
 
+### Catalog, return-flip/audio and opponent turns — owner follow-ups 2026-10-31
+
+These amendments are being implemented together in an isolated worktree while
+the sole main-checkout coordinator continues phase 12. They do not clear a review
+gate or authorize competing primary-checkout writers.
+
+- Catalog folders start closed, with left-aligned checkboxes/text, folder icons,
+  category names and selected/matching counts only in the compact header.
+  Sort decks by difficulty, then natural localized name. Normalize bundled
+  display names without changing immutable content, source IDs, exported titles
+  or custom-authored titles. Difficulty uses both color and symbols.
+- Resolved highlighted cells flip to the recipient's color or black while shrinking
+  back into the board; preserve immediate authoritative ownership and victory,
+  reduced motion and stale-resource protections.
+- Add original synthesized selection, tile-win, black-tile, ongoing timer,
+  timeout/give-up and game-end cues with a localized sound toggle. Do not copy
+  television audio or add audio/network dependencies.
+- After the first player gives up or times out, the opponent must explicitly
+  accept or decline. Acceptance starts half the configured duration with
+  unlimited attempts and spends the opponent's turn even on failure. The original
+  chooser selects next after accepted success, give-up or expiry, unless victory
+  ends the game. Declining turns the field black and lets the opponent choose next.
+  This supersedes historical untimed/single-attempt statements below.
+
 ### Phase 10: temporary mixes and simple controls — approved 2026-10-30
 
 - Stop automatically saving generated mixed decks into the local library.
@@ -194,7 +218,8 @@ selected tiles during their existing initial-reveal flip, a full-to-empty clockw
 countdown in the answering player's configured color derived from the authoritative
 deadline, and consistent defaults A `#129FB5` / B `#FBA123` in both themes.
 Preserve explicit custom and saved/imported colors, reduced motion, focus/fit,
-untimed opponent/duel behavior and timing/recovery/stale-resource invariants.
+untimed duel behavior and timing/recovery/stale-resource invariants; the later
+owner opponent-turn amendment supersedes the former untimed opponent rule.
 
 Owner scheduling amendment, 2026-10-30: remaining category authors and independent
 frozen-bundle reviewers may run meaningfully in parallel in category-specific
@@ -369,11 +394,14 @@ Local imports must not be described as public uploads.
 4. A wrong initial attempt does NOT immediately hand over the question.
 5. A correct answer awards the cell to that player. It takes their color and
    loses its number/letter.
-6. Timeout or giving up hands the same question to the opponent.
-7. The opponent gets exactly one attempt, with no specified countdown.
-8. A correct opponent answer awards them the cell; otherwise it becomes black.
-9. After a capture, the opponent of the receiving player chooses next.
-10. If neither player captures it, turns switch relative to the original chooser.
+6. Timeout or giving up offers the same question to the opponent.
+7. The opponent deliberately accepts or declines. Accepting starts half the
+   configured question time, with unlimited attempts, and spends their next turn.
+8. A correct opponent answer awards them the cell; expiry or give-up makes it black.
+9. After any accepted opponent outcome, the original chooser selects next unless
+   the game has been won. The decision itself is untimed, without an answer input.
+10. Declining makes the field black and the opponent chooses next. Direct
+    captures still pass selection to the recipient's opponent.
 11. Check for victory after every capture, including lightning-round captures.
 
 Required turn examples:
@@ -381,7 +409,8 @@ Required turn examples:
 | Original chooser | Outcome | Next chooser |
 | --- | --- | --- |
 | A | A answers correctly | B |
-| A | A fails, B answers incorrectly; cell turns black | B |
+| A | A fails, B declines; cell turns black | B |
+| A | A fails, B accepts then gives up/times out; cell turns black | A |
 | A | A fails, B answers correctly | A |
 
 Do not reveal the correct answer to players while the opponent's opportunity is
@@ -472,8 +501,9 @@ The user chose explicit host overrides instead of the proposed last-turn undo:
 - The host decides how to keep that sheet on a device or medium not visible to
   players. The app does not need a separate private host window.
 - The host judges spoken answers through appropriate game controls.
-- Incorrect initial attempts must leave the active player's timer running;
-  timeout/give-up hands over. Incorrect opponent attempts resolve to black.
+- Incorrect attempts leave either answering player's deadline running.
+  Initial timeout/give-up offers the opponent a choice; accepted opponent
+  timeout/give-up resolves to black and consumes that opponent's turn.
 - Do not add speech recognition.
 
 Use the approved print-friendly HTML answer sheet with browser printing / Save

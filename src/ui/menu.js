@@ -2,6 +2,7 @@ import { button, element, field, input } from './dom.js';
 import { strings } from './strings.js';
 import { optionsView, playerSetup } from './setup.js';
 import { inputControls } from './inputs.js';
+import { soundOptions } from './sound.js';
 
 /** @param {import('../app.js').App} app @param {AbortSignal} signal */
 export function menuView(app, signal) {
@@ -19,7 +20,7 @@ export function menuView(app, signal) {
       back,
       signal,
     );
-    panel.append(inputControls(app.inputs, signal));
+    panel.append(soundOptions(app, signal), inputControls(app.inputs, signal));
     if (app.workspace.model.custom.length || app.workspace.storageError)
       panel.append(
         app.workspace.libraryView(signal),

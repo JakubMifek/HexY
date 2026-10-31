@@ -3,7 +3,7 @@ import { button, element } from './dom.js';
 import { hostView } from './host.js';
 import { answeringPlayer, roundView } from './round.js';
 
-/** @typedef {{answer?: string, recipient?: 'A'|'B'|'black', wrong?: boolean, flipCell?: number}} Feedback */
+/** @typedef {{answer?: string, recipient?: 'A'|'B'|'black', wrong?: boolean, flipCell?: number, returnCell?: number}} Feedback */
 
 /** @param {import('../domain/types.js').Game} state @param {import('./setup.js').Setup} settings
  * @param {import('./strings.js').Texts} t @param {Feedback} feedback
@@ -24,6 +24,7 @@ export function gameView(state, settings, t, feedback, send, signal) {
       (cell) => send({ type: 'select', cell }),
       signal,
       feedback.flipCell,
+      feedback.returnCell,
     ),
     roundView(state, settings.players, t, send, signal),
   );
@@ -93,6 +94,7 @@ function playerBar(state, settings, t, send, signal) {
 /** @param {import('../domain/types.js').Game} state @param {import('./strings.js').Texts} t */
 function playerRole(state, t) {
   if (state.stage.phase === 'won') return t.winner;
+  if (state.stage.phase === 'opponent-offer') return t.deciding;
   if (state.stage.phase === 'question' || state.stage.phase === 'opponent')
     return t.turn;
   return t.chooser;
@@ -107,18 +109,28 @@ export function transitionFeedback(before, after, action) {
   if (!('round' in stage)) return {};
   const recipient = after.cells[stage.round.cell - 1];
   if (recipient === 'unclaimed') {
+    return wrongFeedback(after, action);
+  }
+
+  /** @param {import('../domain/types.js').Game} state
+   * @param {import('../domain/types.js').Action} action @returns {Feedback} */
+  function wrongFeedback(state, action) {
+    const timed =
+      state.stage.phase === 'question' || state.stage.phase === 'opponent';
     return {
-      wrong:
-        after.stage.phase === 'question' &&
-        (action.type === 'judge' || action.type === 'answer'),
+      wrong: timed && (action.type === 'judge' || action.type === 'answer'),
     };
   }
   if (recipient !== before.cells[stage.round.cell - 1]) {
     const answer =
-      stage.phase === 'question' || stage.phase === 'opponent'
+      'deadline' in stage.round
         ? before.pack.questions[stage.round.cell - 1].answer
         : undefined;
-    return { recipient, answer };
+    return {
+      recipient,
+      answer,
+      ...('deadline' in stage.round ? { returnCell: stage.round.cell } : {}),
+    };
   }
   return {};
 }

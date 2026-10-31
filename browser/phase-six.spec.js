@@ -5,6 +5,7 @@ import {
   inspectPrintedSheet,
   setupPreparation,
   catalogPacks,
+  setSource,
 } from './preparation-helpers.js';
 import { phase, setAnswers, setTheme } from './helpers.js';
 
@@ -15,7 +16,7 @@ async function selectMixedSources(page, language) {
     (category) => `${category}-${language}-02`,
   );
   for (const id of selected) {
-    await page.locator(`#source-${id}`).check();
+    await setSource(page, id);
   }
   await page.locator('#catalog-origin').selectOption('custom');
   await expect(
@@ -66,7 +67,7 @@ for (const entry of [
       await page.clock.pauseAt(new Date('2026-10-28T12:01:00Z'));
       await setAnswers(page, 'automatic');
       await page.locator('#clear-sources').click();
-      await page.locator(`#source-${entry.pack}`).check();
+      await setSource(page, entry.pack);
       await page.locator('#prepare-board').click();
       await page.locator('#accept-board').click();
       await page.locator('#start').click();

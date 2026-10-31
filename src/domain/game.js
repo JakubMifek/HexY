@@ -1,6 +1,6 @@
 import { acceptsAnswer } from './answers.js';
 import { validateAction } from './actions.js';
-import { validateConfig, deadlineAfter } from './config.js';
+import { validateConfig, deadlineAfter, opponentTimeMs } from './config.js';
 import { advanceDuel, pressDuel, startDuel } from './duels.js';
 import { requireValue } from './errors.js';
 import { opponent, resolveRound, updateVictory } from './outcomes.js';
@@ -16,7 +16,7 @@ export function createGame(packValue, configValue, now, sessionId) {
   const config = validateConfig(configValue);
   config.duel.length = config.duel.symbols.length;
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     sessionId: text(sessionId, 'sessionId'),
     pack,
     config,
@@ -59,9 +59,14 @@ export function transition(current, actionValue, env) {
 
 /** @param {import('./types.js').Game} state @param {number} now */
 function expireQuestion(state, now) {
-  if (state.stage.phase !== 'question' || now < state.stage.round.deadline)
+  const stage = state.stage;
+  if (
+    (stage.phase !== 'question' && stage.phase !== 'opponent') ||
+    now < stage.round.deadline
+  )
     return false;
-  state.stage = { phase: 'opponent', round: state.stage.round };
+  if (stage.phase === 'opponent') resolveRound(state, stage.round, 'black');
+  else state.stage = { phase: 'opponent-offer', round: stage.round };
   return true;
 }
 
@@ -78,6 +83,9 @@ function applyAction(state, action, env) {
       return judge(state, action.correct);
     case 'give-up':
       return giveUp(state);
+    case 'accept-opponent':
+    case 'decline-opponent':
+      return decideOpponent(state, action.type, env.now);
     case 'press':
       return pressDuel(state, action.players, env);
     case 'set-cell':
@@ -138,12 +146,12 @@ function judge(state, correct) {
 function resolveAnswer(state, correct) {
   const stage = state.stage;
   if (stage.phase !== 'question' && stage.phase !== 'opponent') return false;
-  if (!correct && stage.phase === 'question') return true;
+  if (!correct) return true;
   const recipient =
     stage.phase === 'question'
       ? stage.round.originalChooser
       : opponent(stage.round.originalChooser);
-  resolveRound(state, stage.round, correct ? recipient : 'black');
+  resolveRound(state, stage.round, recipient);
   return true;
 }
 
@@ -152,7 +160,27 @@ function giveUp(state) {
   const stage = state.stage;
   if (stage.phase !== 'question' && stage.phase !== 'opponent') return false;
   if (stage.phase === 'opponent') resolveRound(state, stage.round, 'black');
-  else state.stage = { phase: 'opponent', round: stage.round };
+  else state.stage = { phase: 'opponent-offer', round: stage.round };
+  return true;
+}
+
+/** @param {import('./types.js').Game} state
+ * @param {'accept-opponent'|'decline-opponent'} type @param {number} now */
+function decideOpponent(state, type, now) {
+  const stage = state.stage;
+  if (stage.phase !== 'opponent-offer') return false;
+  if (type === 'decline-opponent') {
+    resolveRound(state, stage.round, 'black');
+  } else {
+    state.stage = {
+      phase: 'opponent',
+      round: {
+        ...stage.round,
+        startedAt: now,
+        deadline: deadlineAfter(now, opponentTimeMs(state.config)),
+      },
+    };
+  }
   return true;
 }
 
@@ -199,7 +227,7 @@ function lifecycle(state, type, env) {
 export function remainingMs(state, now) {
   integer(now, 'now');
   requireValue(now >= state.lastNow, 'clockBackwards', 'now');
-  return state.stage.phase === 'question'
+  return state.stage.phase === 'question' || state.stage.phase === 'opponent'
     ? Math.max(0, state.stage.round.deadline - now)
     : null;
 }

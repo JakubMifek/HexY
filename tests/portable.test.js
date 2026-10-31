@@ -85,7 +85,7 @@ test('interrupted imported duels never award and elapsed question imports never 
   expect(interrupted.game.cells[0]).toBe('black');
   const expired = recoverPortable(savedGame(question()), 31_000, 'new');
   expect(expired.game.stage).toMatchObject({
-    phase: 'opponent',
+    phase: 'opponent-offer',
     round: { deadline: 31_000 },
   });
 });

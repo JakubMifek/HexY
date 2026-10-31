@@ -101,7 +101,7 @@ export async function chooser(page, owner) {
 export async function blackDuel(page) {
   await page.locator('#cell-1').click();
   await page.locator('#give-up').click();
-  await page.locator('#give-up').click();
+  await page.locator('#decline-opponent').click();
   await expect(page.locator('#cell-1')).toHaveAttribute('data-owner', 'black');
   await page.locator('#cell-1').click();
   await phase(page, 'duel-preview');

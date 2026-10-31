@@ -70,7 +70,7 @@ test('final export uses click-time expired state before clearing; cancel preserv
   click('save-return');
   expect(download).toHaveBeenCalledOnce();
   const output = JSON.parse(download.mock.calls[0][0]);
-  expect(output.game.stage.phase).toBe('opponent');
+  expect(output.game.stage.phase).toBe('opponent-offer');
   expect(output.game.stage.round.deadline).toBe(31_000);
   expect(
     recoverPortable(JSON.stringify(output), 32_000, 'reimport').game.stage,
@@ -127,7 +127,7 @@ test('concurrent record replacement cannot be overwritten by export tick or dele
   click('save-return');
   expect(download).toHaveBeenCalledOnce();
   expect(app.state).not.toBe(original);
-  expect(app.state?.stage.phase).toBe('opponent');
+  expect(app.state?.stage.phase).toBe('opponent-offer');
   expect(localStorage.getItem(GAME_KEY)).toBe('{ protected replacement');
   expect(app.recovery.writable).toBe(false);
   click('discard-new');
@@ -201,7 +201,7 @@ test('ambiguous legacy mixes and explicit imports survive startup; only confirme
   click('library-confirm-delete-legacy-mix');
   const stored = JSON.parse(localStorage.getItem(LIBRARY_KEY) ?? '{}');
   expect(stored.packs).toEqual([legacy.packs[1]]);
-  expect(stored.preferences).toEqual(legacy.preferences);
+  expect(stored.preferences).toEqual({ ...legacy.preferences, sound: true });
   expect(localStorage.getItem(GAME_KEY)).toBe('{ protected active game');
   const bundled = app.workspace.model.bundled;
   app.dispose();

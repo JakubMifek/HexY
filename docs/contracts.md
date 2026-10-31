@@ -1,7 +1,8 @@
 # Domain and playable-adapter contracts
 
-Packs are version 2; the library envelope remains version 1. Input preferences,
-portable complete-game envelopes and domain games remain version 2.
+Packs are version 2; the library envelope remains version 1. Input preferences
+and portable complete-game envelopes remain version 2; nested domain games are
+version 3, with compatible domain-v1/v2 recovery as described below.
 Version-1 input preferences and complete-game envelopes remain supported legacy
 reads **only when their nested pack satisfies the current pack contract**.
 Pre-difficulty packs are rejected, not assigned an inferred level.
@@ -183,6 +184,7 @@ localStorage key `hexy.library.v1` contains:
   "preferences": {
     "language": "en",
     "theme": "dark",
+    "sound": true,
     "setup": {
       "players": {
         "A": { "name": "A", "color": "#0891b2" },
@@ -200,7 +202,10 @@ localStorage key `hexy.library.v1` contains:
 
 Pack entries use the existing contract and have unique pack IDs. Preferences
 validate language/theme/modes/starter, nonempty names up to 30 characters,
-six-digit hex colors and integer seconds 1–3,600. Invalid transient setup inputs
+six-digit hex colors and integer seconds 1–3,600. The optional local `sound`
+preference must be boolean when present; absence defaults to enabled, preserving
+compatible old settings. It is not part of portable game setup.
+Invalid transient setup inputs
 do not replace the last valid stored configuration. No runtime resources, unsaved
 editor drafts, proposals or games enter this record.
 
@@ -294,13 +299,13 @@ circle, star, square, triangle, hexagon, heart and sun. One preselected target
 stays fixed until resolution or interruption. Each bounded random cycle is a
 permutation of all seven; cycles repeat indefinitely without preview/readiness.
 Missed targets do not award or change turns. Ties begin another active random
-cycle with the same target. There are no flashes or sound cues.
+cycle with the same target. There are no target flashes or target-timed sound cues.
 Test fixtures also use artificial 100 ms timings
 solely for deterministic domain tests.
 
 The domain game object is:
 
-- `schemaVersion: 2`, complete `pack`, `config`, and 28 `cells`, each `unclaimed`,
+- `schemaVersion: 3`, complete `pack`, `config`, and 28 `cells`, each `unclaimed`,
   `black`, `A` or `B`.
 - `sessionId`: caller-supplied unique runtime scope; never reuse it for another
   game or recovery. The browser supplies `crypto.randomUUID()`.
@@ -309,9 +314,12 @@ The domain game object is:
 - `lastNow`: nonnegative safe integer timestamp of the last accepted transition.
 - `stage`: one explicit variant:
   - `selecting`.
-  - `question` or `opponent`, with `round: {cell, originalChooser, startedAt,
-deadline}`. Deadline is exactly start + configured limit, even in opponent
-    phase; opponent has no countdown.
+  - `question`, `opponent-offer` or `opponent`, with
+    `round: {cell, originalChooser, startedAt, deadline}`. A question deadline
+    is start + configured limit. An offer retains that original round for identity
+    but has no timer/answer controls. Explicit acceptance starts a new opponent
+    deadline at acceptance time + `ceil(timeLimitMs / 2)`; rounding is only to the
+    next whole millisecond. Both timed stages allow unlimited attempts.
   - `duel-preview` or `duel-active`, with `round: {cell, originalChooser, target,
 sequence, startsAt}`. Preview ends at `startsAt`; each sequence symbol lasts
     `symbolMs`. The target appears exactly once at a randomized position in each
@@ -334,7 +342,7 @@ Runtime resources and DOM objects never enter saves.
 {
   "format": "hexy-game",
   "schemaVersion": 2,
-  "game": { "schemaVersion": 2 },
+  "game": { "schemaVersion": 3 },
   "settings": {
     "players": {
       "A": { "name": "Frodo", "color": "#0891b2" },
@@ -371,25 +379,33 @@ library packs and runtime controller assignments are not portable.
 
 Tile-flip presentation is also not serialized. An accepted selecting→question
 transition emits a one-render cue for a 480-ms native SVG/CSS flip. The board
-derives the full authored initial from the active question/opponent state,
+derives the full authored initial from the question/offer/opponent state,
 including existing alphabet digraphs, and therefore recovers it without replay.
 The deadline starts in the domain transition, not at animation completion;
 there are no animation callbacks driving state. Reduced motion immediately
-reveals the initial. Owned tiles remain color-only; black tiles retain their
+reveals the initial. Resolution emits a separate transient flip/shrink cue,
+showing the recipient/black face on the return half; it never defers game state.
+Owned tiles remain color-only; black tiles retain their
 original board identifier. Existing alphabet validation bounds initials without
 adding another text limit or modifying reviewed content.
 
 Only local recovery accepts historical raw domain games. Domain-v1 finite saves
 are first validated with their original sequence/timing rules, then browser
-recovery upgrades known old circle/triangle/square/star configurations to v2 and
+recovery upgrades known old circle/triangle/square/star configurations to v3 and
 the exact seven-symbol pool. Active duels recover interrupted, preserving board,
 chooser and deadlines; the next safe preview chooses a new target. No shape-name
-substitution is needed. Unknown legacy symbols or invalid v2 pools fail explicitly.
+substitution is needed. A runtime-only `legacySymbols` receipt from the validated
+original version preserves this browser-specific migration after domain recovery
+upgrades the game version; it is not serialized. Unknown legacy symbols or invalid
+modern pools fail explicitly. Compatible v1/v2 untimed opponent saves become an
+explicit offer, preserving cell identity and chooser instead of inventing elapsed
+opponent answering time. Pack compatibility requirements are unchanged.
 Future versions are rejected. Raw game files/question-pack JSON are not complete
 portable games and are rejected by Menu Import Game with actionable guidance.
 
-`recoverGame(json, now, freshSessionId)` preserves original question deadlines,
-transfers already-expired questions to the opponent, and converts preview/active
+`recoverGame(json, now, freshSessionId)` preserves both timed answering deadlines,
+transfers already-expired initial questions to the opponent offer, resolves expired
+accepted opponent attempts to black with the original chooser next, and converts preview/active
 duels to `duel-interrupted`. It never awards an interrupted field. Explicit
 `restart` represents both players being ready; the adapter must collect that
 readiness. Recovery changes the session scope and revision, so old input cannot
@@ -472,7 +488,7 @@ After each applied transition, adapters must bind pending callbacks to the new
 revision without changing deadlines. This includes wrong initial guesses.
 
 Actions: `select(cell)`, `answer(player,text)`, `judge(correct)`, `give-up`,
-`tick`, `press(players)`, `interrupt`, `restart`, `set-cell(cell,owner)` and
+`accept-opponent`, `decline-opponent`, `tick`, `press(players)`, `interrupt`, `restart`, `set-cell(cell,owner)` and
 `set-chooser(player)`. Hosted judgments and typed answers are mode-specific;
 only hosted mode permits corrections.
 
@@ -484,10 +500,13 @@ Do not pass a queued event's older timestamp as the processing clock.
 Pure rules never call `Date.now`, `Math.random`, timers, storage or device APIs.
 
 At `now >= deadline`, expiry precedes input. A late initial answer cannot become
-an opponent answer; the caller must render the new revision first. Wrong initial
-guesses remain unlimited. The opponent gets exactly one untimed opportunity.
-Capture switches chooser to the actual recipient's opponent; double failure
-switches relative to the original chooser.
+an opponent answer; the caller must render the new revision first. Wrong guesses
+remain unlimited in both timed stages. Offer acceptance creates the half-length
+deadline and spends the opponent's next turn: success, timeout and give-up return
+selection to the original chooser unless victory ends the game. Declining instead
+blackens the field and passes selection to the opponent. No answer or judgment is
+accepted while deciding. Direct captures and duel captures continue switching
+selection to the actual recipient's opponent.
 
 The duel input boundary accepts one player's **fresh rising edge** or an atomic
 two-player batch for indistinguishable ties. Release/repeat/held-button filtering,
@@ -520,7 +539,26 @@ and rebinds after accepted actions without changing the engine deadline. Timer
 text is derived from the deadline (100 ms refresh, rounded up to seconds), not a
 decremented counter. Each rendered control captures the presented action context;
 replaced listeners are aborted. `App.dispose()` stops clocks, aborts keyboard and
-view listeners, closes dialogs and rejects queued work. No animation frames exist.
+view listeners, closes dialogs and rejects queued work.
+
+Original game sounds use native Web Audio oscillators and envelopes, without
+assets or network dependencies. A concrete sound adapter owns its audio context,
+voices and trusted-gesture listeners; it stops/disconnects them on mute, hide and
+disposal. Accepted before/after transitions determine cues, not raw input names.
+Question and accepted-opponent ticks derive from the authoritative deadline, at
+most once per changed second without a catch-up burst. Offers and duels do not
+tick. Winning and timeout/black combinations use one composed cue rather than
+overlapping independent outcomes. Sound never drives game transitions.
+
+Audio initialization/resumption requires current browser user activation and an
+eligible trusted gesture; trusted modifier-only/repeated/composing keys are not
+sufficient, and a gamepad alone cannot unlock it. Fresh activating gestures may
+retry unresolved resumes. Attempt IDs reject obsolete promise settlements after
+a newer attempt, mute, hide or disposal, without replaying old cues.
+Unsupported, suspended or failed audio produces localized
+header feedback and never delays a deadline or fabricates successful playback.
+The Options toggle persists locally. Muting and reduced motion are independent;
+reduced motion suppresses flips, not requested audio.
 
 Focus/visibility loss, assigned-controller loss and Exit Game
 confirmation invalidate duels while leaving question deadlines unchanged.
