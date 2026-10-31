@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "movies-cs-easy-01",
+  "title": "Filmy a seriály · Lehká 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-cs-easy-01-01",
+      "text": "Který seriál sleduje agenty FBI Muldera a Scullyovou při vyšetřování paranormálních jevů?",
+      "initial": "A",
+      "answer": "Akta X",
+      "language": "cs",
+      "aliases": ["The X-Files", "X-Files"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Akta_X",
+        "https://en.wikipedia.org/wiki/The_X-Files"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-02",
+      "text": "Jaké příjmení má filmový tajný agent James, jehož služební označení je 007?",
+      "initial": "B",
+      "answer": "Bond",
+      "language": "cs",
+      "aliases": ["James Bond"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/James_Bond"]
+    },
+    {
+      "id": "movies-cs-easy-01-03",
+      "text": "Ve kterém animovaném filmu se dívka Čihiro ocitne v lázních pro duchy?",
+      "initial": "C",
+      "answer": "Cesta do fantazie",
+      "language": "cs",
+      "aliases": [
+        "Spirited Away",
+        "Sen to Chihiro no kamikakushi",
+        "Sen to Čihiro no kamikakuši",
+        "Sen and Chihiro's Spiriting Away",
+        "Sen and Chihiro’s Spiriting Away"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Cesta_do_fantazie",
+        "https://en.wikipedia.org/wiki/Spirited_Away"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-04",
+      "text": "Který Spielbergův film z roku 1975 líčí útoky velkého bílého žraloka u ostrova Amity?",
+      "initial": "Č",
+      "answer": "Čelisti",
+      "language": "cs",
+      "aliases": ["Jaws"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Celisti_(film)",
+        "https://en.wikipedia.org/wiki/Jaws_%28film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-05",
+      "text": "Ve kterém sitcomu bydleli bratři Charlie a Alan Harperovi s Alanovým synem Jakem?",
+      "initial": "D",
+      "answer": "Dva a půl chlapa",
+      "language": "cs",
+      "aliases": ["Two and a Half Men"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Dva_a_p%C5%AFl_chlapa",
+        "https://en.wikipedia.org/wiki/Two_and_a_Half_Men"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-06",
+      "text": "Jak se jmenuje starší ze dvou královských sester v Ledovém království, která dokáže vytvářet led?",
+      "initial": "E",
+      "answer": "Elsa",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ledov%C3%A9_kr%C3%A1lovstv%C3%AD",
+        "https://en.wikipedia.org/wiki/Elsa_%28Frozen%29"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-07",
+      "text": "Jak se jmenuje obří pes z českého večerníčku o holčičce Áje a jejím psovi?",
+      "initial": "F",
+      "answer": "Fík",
+      "language": "cs",
+      "aliases": ["Maxipes Fík"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Maxipes_F%C3%ADk"]
+    },
+    {
+      "id": "movies-cs-easy-01-08",
+      "text": "Jak se jmenuje napravený padouch z filmů Já, padouch, který adoptoval dívky Margo, Edith a Agnes?",
+      "initial": "G",
+      "answer": "Gru",
+      "language": "cs",
+      "aliases": [
+        "Felonius Gru",
+        "Felonious Gru",
+        "Felonious Gru Sr.",
+        "Felonious Gru Sr",
+        "Felonius Gru Sr.",
+        "Felonius Gru Sr"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/J%C3%A1,_padouch",
+        "https://en.wikipedia.org/wiki/Felonius_Gru"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-09",
+      "text": "Jak se jmenuje otec Barta, Lízy a Maggie v seriálu Simpsonovi?",
+      "initial": "H",
+      "answer": "Homer Simpson",
+      "language": "cs",
+      "aliases": ["Homer", "Homer Jay Simpson"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Homer_Simpson"]
+    },
+    {
+      "id": "movies-cs-easy-01-10",
+      "text": "Kterou postavu v seriálu Přátelé hrál Matthew Perry?",
+      "initial": "Ch",
+      "answer": "Chandler Bing",
+      "language": "cs",
+      "aliases": ["Chandler", "Chandler Muriel Bing"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chandler_Bing",
+        "https://en.wikipedia.org/wiki/Chandler_Bing"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-11",
+      "text": "Pod jakým superhrdinským jménem vystupuje ve filmech Marvelu Tony Stark?",
+      "initial": "I",
+      "answer": "Iron Man",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Iron_Man_(film,_2008)",
+        "https://en.wikipedia.org/wiki/Iron_Man_%282008_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-12",
+      "text": "Který dobrodružný film z roku 1995 ukazuje deskovou hru, jejíž nebezpečí pronikají do skutečného světa?",
+      "initial": "J",
+      "answer": "Jumanji",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Jumanji_(film)"]
+    },
+    {
+      "id": "movies-cs-easy-01-13",
+      "text": "Jak se jmenuje hlavní postavička Milerovy animované série o malém podzemním savci?",
+      "initial": "K",
+      "answer": "Krteček",
+      "language": "cs",
+      "aliases": [
+        "Krtek",
+        "The Little Mole",
+        "Little Mole",
+        "Mole",
+        "The Mole"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/O_krtkovi",
+        "https://en.wikipedia.org/wiki/Mole_%28Zden%C4%9Bk_Miler_character%29"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-14",
+      "text": "Ve kterém animovaném filmu Disneyho z roku 1994 dospívá lev Simba?",
+      "initial": "L",
+      "answer": "Lví král",
+      "language": "cs",
+      "aliases": ["The Lion King", "Lion King"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Lv%C3%AD_kr%C3%A1l_(film,_1994)",
+        "https://en.wikipedia.org/wiki/The_Lion_King"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-15",
+      "text": "Která dvojice žáků třetí B používá v českém animovaném seriálu kouzelné telefonní sluchátko?",
+      "initial": "M",
+      "answer": "Mach a Šebestová",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Mach_a_%C5%A0ebestov%C3%A1"]
+    },
+    {
+      "id": "movies-cs-easy-01-16",
+      "text": "Jak se jmenuje malá rybka, kterou její otec Marlin hledá v animovaném filmu Pixaru z roku 2003?",
+      "initial": "N",
+      "answer": "Nemo",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Hled%C3%A1_se_Nemo",
+        "https://www.pixar.com/finding-nemo"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-17",
+      "text": "Jak se jmenuje oživlý sněhulák z Ledového království?",
+      "initial": "O",
+      "answer": "Olaf",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Olaf_%28Frozen%29",
+        "https://cs.wikipedia.org/wiki/Ledov%C3%A9_kr%C3%A1lovstv%C3%AD"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-18",
+      "text": "Ve kterém sitcomu se setkávají Rachel, Ross, Monica, Chandler, Joey a Phoebe?",
+      "initial": "P",
+      "answer": "Přátelé",
+      "language": "cs",
+      "aliases": ["Friends"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/P%C5%99%C3%A1tel%C3%A9",
+        "https://en.wikipedia.org/wiki/Friends"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-19",
+      "text": "Pod jakou přezdívkou je známý filmový boxer Balboa, kterého hraje Sylvester Stallone?",
+      "initial": "R",
+      "answer": "Rocky",
+      "language": "cs",
+      "aliases": [
+        "Rocky Balboa",
+        "Robert \"Rocky\" Balboa",
+        "Robert „Rocky“ Balboa",
+        "Robert “Rocky” Balboa",
+        "Robert Rocky Balboa",
+        "The Italian Stallion",
+        "Italian Stallion",
+        "Italský hřebec"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Rocky",
+        "https://en.wikipedia.org/wiki/Rocky",
+        "https://www.themoviedb.org/movie/1366?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-20",
+      "text": "Který historický seriál HBO z let 2005–2007 sleduje mimo jiné vojáky Lucia Vorena a Tita Pulla?",
+      "initial": "Ř",
+      "answer": "Řím",
+      "language": "cs",
+      "aliases": ["Rome"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98%C3%ADm_(seri%C3%A1l)",
+        "https://en.wikipedia.org/wiki/Rome_%28TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-21",
+      "text": "Který animovaný seriál vytvořil Matt Groening a zasadil jeho děj do fiktivního města Springfield?",
+      "initial": "S",
+      "answer": "Simpsonovi",
+      "language": "cs",
+      "aliases": ["The Simpsons", "Simpsons"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Simpsonovi"]
+    },
+    {
+      "id": "movies-cs-easy-01-22",
+      "text": "Jak se jmenuje český večerníček, jehož hlavními postavami jsou dva psi a vrána?",
+      "initial": "Š",
+      "answer": "Štaflík a Špagetka",
+      "language": "cs",
+      "aliases": ["Psí život"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0tafl%C3%ADk_a_%C5%A0pagetka"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-23",
+      "text": "Ve kterém sitcomu vystupují fyzici Sheldon Cooper a Leonard Hofstadter?",
+      "initial": "T",
+      "answer": "Teorie velkého třesku",
+      "language": "cs",
+      "aliases": ["The Big Bang Theory", "Big Bang Theory"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Teorie_velk%C3%A9ho_t%C5%99esku",
+        "https://en.wikipedia.org/wiki/The_Big_Bang_Theory"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-24",
+      "text": "Který český denní nekonečný seriál začala TV Nova vysílat v roce 2005?",
+      "initial": "U",
+      "answer": "Ulice",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Ulice_(seri%C3%A1l)"]
+    },
+    {
+      "id": "movies-cs-easy-01-25",
+      "text": "Jak se jmenuje malá včelka, která v animovaném seriálu zažívá dobrodružství s Vilíkem?",
+      "initial": "V",
+      "answer": "Včelka Mája",
+      "language": "cs",
+      "aliases": ["Mája", "Maya", "Maya the Bee"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/V%C4%8Delka_M%C3%A1ja_%28postava%29",
+        "https://en.wikipedia.org/wiki/Maya_the_Bee"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-26",
+      "text": "Která dcera rodiny Addamsových je hlavní postavou stejnojmenného seriálu s Jennou Ortegovou?",
+      "initial": "W",
+      "answer": "Wednesday",
+      "language": "cs",
+      "aliases": [
+        "Wednesday Addams",
+        "Wednesday Friday Addams",
+        "Wednesday Addamsová",
+        "Wednesday Friday Addamsová"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Wednesday_(seri%C3%A1l)",
+        "https://en.wikipedia.org/wiki/Wednesday_Addams"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-01-27",
+      "text": "Pod jakým jménem vystupuje maskovaný šermíř Don Diego de la Vega?",
+      "initial": "Z",
+      "answer": "Zorro",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_Mask_of_Zorro"]
+    },
+    {
+      "id": "movies-cs-easy-01-28",
+      "text": "Jak se souhrnně jmenují animovaní bojovníci Leonardo, Donatello, Raphael a Michelangelo?",
+      "initial": "Ž",
+      "answer": "Želvy ninja",
+      "language": "cs",
+      "aliases": [
+        "Teenage Mutant Ninja Turtles",
+        "Ninja Turtles",
+        "TMNT",
+        "Teenage Mutant Hero Turtles"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDelvy_Ninja",
+        "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+      ]
+    }
+  ]
+}

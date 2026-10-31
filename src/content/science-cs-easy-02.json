@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 2,
+  "id": "science-cs-easy-02",
+  "title": "Věda a technika · Snadné · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-easy-02-01",
+      "text": "Jak se nazývá část rádiového zařízení určená k vysílání nebo přijímání elektromagnetických vln?",
+      "initial": "A",
+      "answer": "Anténa",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Antenna_(radio)",
+        "https://cs.wikipedia.org/wiki/Ant%C3%A9na"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-02",
+      "text": "Jak se nazývá zařízení, které zpomaluje vozidlo například přeměnou pohybové energie na teplo třením?",
+      "initial": "B",
+      "answer": "Brzda",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brake",
+        "https://cs.wikipedia.org/wiki/Brzda"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-03",
+      "text": "Jak se nazývá běžný pravoúhlý stavební dílec, tradičně vyráběný vypalováním hlíny?",
+      "initial": "C",
+      "answer": "Cihla",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brick",
+        "https://cs.wikipedia.org/wiki/Cihla"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-04",
+      "text": "Jak se česky obecně nazývá součást, která zjišťuje fyzikální veličinu, například teplotu, a převádí ji na použitelný signál?",
+      "initial": "Č",
+      "answer": "Čidlo",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Senzor", "Snímač"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sensor",
+        "https://cs.wikipedia.org/wiki/Senzor"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-05",
+      "text": "Jak se nazývá optický přístroj určený k pozorování vzdálených předmětů, například hvězd?",
+      "initial": "D",
+      "answer": "Dalekohled",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Teleskop"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Telescope",
+        "https://cs.wikipedia.org/wiki/Dalekohled"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-06",
+      "text": "Jakým běžným souhrnným slovem označujeme jevy spojené s přítomností a pohybem elektrického náboje?",
+      "initial": "E",
+      "answer": "Elektřina",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electricity",
+        "https://cs.wikipedia.org/wiki/Elekt%C5%99ina"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-07",
+      "text": "Jak se běžně nazývá elektrický přístroj, který suší vlasy proudem ohřátého vzduchu?",
+      "initial": "F",
+      "answer": "Fén",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Vysoušeč vlasů"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hair_dryer",
+        "https://cs.wikipedia.org/wiki/Vysou%C5%A1e%C4%8D_vlas%C5%AF"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-08",
+      "text": "Jak se běžně nazývá pružný materiál z kaučuku, používaný například k výrobě pneumatik?",
+      "initial": "G",
+      "answer": "Guma",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Pryž"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rubber",
+        "https://cs.wikipedia.org/wiki/Pry%C5%BE",
+        "https://en.wikipedia.org/wiki/Tire"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-09",
+      "text": "Jak se nazývá spojovací součást s hrotem a hlavičkou, kterou obvykle zatloukáme kladivem do dřeva?",
+      "initial": "H",
+      "answer": "Hřebík",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Hřeb", "Hřebíček"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nail_(fastener)",
+        "https://cs.wikipedia.org/wiki/H%C5%99eb%C3%ADk"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-10",
+      "text": "Která sodná sloučenina se vzorcem NaClO je běžnou účinnou látkou chlorových bělidel?",
+      "initial": "Ch",
+      "answer": "Chlornan sodný",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Hypochlorit sodný"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sodium_hypochlorite",
+        "https://cs.wikipedia.org/wiki/Chlornan_sodn%C3%BD"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-11",
+      "text": "Jak se nazývá lepicí páska určená například k elektrickému zaizolování spojů vodičů?",
+      "initial": "I",
+      "answer": "Izolační páska",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Elektroizolační páska"],
+      "sources": ["https://en.wikipedia.org/wiki/Electrical_tape"]
+    },
+    {
+      "id": "science-cs-easy-02-12",
+      "text": "Jak se nazývá elektrárna, jejíž tepelný zdroj tvoří jaderný reaktor?",
+      "initial": "J",
+      "answer": "Jaderná elektrárna",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nuclear_power_plant",
+        "https://cs.wikipedia.org/wiki/Jadern%C3%A1_elektr%C3%A1rna"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-13",
+      "text": "Který ruční nástroj s násadou a těžkou hlavou používáme například k zatloukání hřebíků?",
+      "initial": "K",
+      "answer": "Kladivo",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Kladívko"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hammer",
+        "https://cs.wikipedia.org/wiki/Kladivo"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-14",
+      "text": "Jak se nazývá látka nanášená mezi dva povrchy, aby po spojení držely pohromadě?",
+      "initial": "L",
+      "answer": "Lepidlo",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Lep"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Adhesive",
+        "https://cs.wikipedia.org/wiki/Lepidlo"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-15",
+      "text": "Jak se obecně nazývá stroj, který převádí jiný druh energie na mechanický pohyb?",
+      "initial": "M",
+      "answer": "Motor",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Motor",
+        "https://cs.wikipedia.org/wiki/Motor"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-16",
+      "text": "Pod jakým názvem proslul syntetický polyamid vyvinutý v DuPontu, používaný například na punčochy a vlasce?",
+      "initial": "N",
+      "answer": "Nylon",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nylon",
+        "https://cs.wikipedia.org/wiki/Nylon"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-17",
+      "text": "Jak se nazývá zařízení, které rychlým otáčením odděluje složky směsi podle jejich chování v odstředivém poli?",
+      "initial": "O",
+      "answer": "Odstředivka",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Centrifuga"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Centrifuge",
+        "https://cs.wikipedia.org/wiki/Odst%C5%99edivka"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-18",
+      "text": "Jak se nazývá vzduchem plněná pružná součást kola osobního automobilu, která se přímo dotýká vozovky?",
+      "initial": "P",
+      "answer": "Pneumatika",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Pneumatický plášť", "Plášť", "Obruč"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tire",
+        "https://cs.wikipedia.org/wiki/Pneumatika"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-19",
+      "text": "Jak se nazývá zařízení, které převádí elektrický zvukový signál na slyšitelný zvuk?",
+      "initial": "R",
+      "answer": "Reproduktor",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Amplion", "Tlampač", "Hlasadlo"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Loudspeaker",
+        "https://cs.wikipedia.org/wiki/Reproduktor"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-20",
+      "text": "Jak se nazývá část jízdního kola, kterou jezdec drží a natáčením řídí přední kolo?",
+      "initial": "Ř",
+      "answer": "Řídítka",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bicycle_handlebar",
+        "https://cs.wikipedia.org/wiki/%C5%98%C3%ADd%C3%ADtka"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-21",
+      "text": "Jak se nazývá spojování kovových dílů, při němž se vytváří pevný spoj působením tepla, tlaku nebo obojího?",
+      "initial": "S",
+      "answer": "Svařování",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Welding",
+        "https://cs.wikipedia.org/wiki/Sva%C5%99ov%C3%A1n%C3%AD"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-22",
+      "text": "Jak se běžně nazývají kleště s břity určené k přestřihování drátů?",
+      "initial": "Š",
+      "answer": "Štípačky",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Štípací kleště", "Boční štípací kleště"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Diagonal_pliers",
+        "https://cs.wikipedia.org/wiki/Kle%C5%A1t%C4%9B"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-23",
+      "text": "Jak se nazývá fyzikální veličina vyjadřující kolmou sílu připadající na jednotku plochy?",
+      "initial": "T",
+      "answer": "Tlak",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pressure",
+        "https://cs.wikipedia.org/wiki/Tlak"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-24",
+      "text": "Jak se nazývá lehké a pevné vlákno tvořené převážně atomy prvku C, používané v kompozitech závodních kol?",
+      "initial": "U",
+      "answer": "Uhlíkové vlákno",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Karbonové vlákno", "Karbon"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carbon_fibers",
+        "https://cs.wikipedia.org/wiki/Uhl%C3%ADkov%C3%A9_vl%C3%A1kno"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-25",
+      "text": "Jak se nazývá zařízení s kabinou, které v budově přepravuje osoby mezi podlažími?",
+      "initial": "V",
+      "answer": "Výtah",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Lift", "Zdviž", "Vytahovadlo"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Elevator",
+        "https://cs.wikipedia.org/wiki/V%C3%BDtah"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-26",
+      "text": "Jak se podle svého konstruktéra nazývá spalovací motor s rotujícím, přibližně trojúhelníkovým pístem?",
+      "initial": "W",
+      "answer": "Wankelův motor",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Wankel", "Rotační Wankelův motor"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wankel_engine",
+        "https://cs.wikipedia.org/wiki/Wankel%C5%AFv_motor"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-27",
+      "text": "Která součást zážehového motoru vytváří ve válci elektrickou jiskru pro zapálení směsi?",
+      "initial": "Z",
+      "answer": "Zapalovací svíčka",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Svíčka"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spark_plug",
+        "https://cs.wikipedia.org/wiki/Zapalovac%C3%AD_sv%C3%AD%C4%8Dka"
+      ]
+    },
+    {
+      "id": "science-cs-easy-02-28",
+      "text": "Jak se nazývá ochrana oceli proti korozi ponořením do lázně roztaveného zinku?",
+      "initial": "Ž",
+      "answer": "Žárové zinkování",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Žárové pozinkování"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hot-dip_galvanization",
+        "https://cs.wikipedia.org/wiki/Zinkov%C3%A1n%C3%AD",
+        "https://www.eurometal.cz/zarove-zinkovani/"
+      ]
+    }
+  ]
+}

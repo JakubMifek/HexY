@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 2,
+  "id": "history-en-medium-01",
+  "title": "History · Medium · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-en-medium-01-01",
+      "text": "Which Mughal emperor, who ruled from 1556 to 1605, sponsored the religious fellowship known as Din-i Ilahi?",
+      "initial": "A",
+      "answer": "Akbar",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Akbar the Great",
+        "Jalal-ud-din Muhammad Akbar",
+        "Jalaluddin Muhammad Akbar",
+        "Jalal ud Din Muhammad Akbar"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Akbar"]
+    },
+    {
+      "id": "history-en-medium-01-02",
+      "text": "Which embroidered cloth narrates events leading to the Norman conquest of England and the Battle of Hastings?",
+      "initial": "B",
+      "answer": "Bayeux Tapestry",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Bayeux Tapestry"],
+      "sources": ["https://en.wikipedia.org/wiki/Bayeux_Tapestry"]
+    },
+    {
+      "id": "history-en-medium-01-03",
+      "text": "Which diplomatic gathering of 1814–1815 sought to reorganize Europe after Napoleon's defeat?",
+      "initial": "C",
+      "answer": "Congress of Vienna",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Vienna Congress", "The Congress of Vienna"],
+      "sources": ["https://en.wikipedia.org/wiki/Congress_of_Vienna"]
+    },
+    {
+      "id": "history-en-medium-01-04",
+      "text": "What were supporters of the six-point People's Charter of 1838, including universal male suffrage, called?",
+      "initial": "CH",
+      "answer": "Chartists",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Chartist"],
+      "sources": ["https://en.wikipedia.org/wiki/Chartism"]
+    },
+    {
+      "id": "history-en-medium-01-05",
+      "text": "From which French port were Allied troops evacuated in Operation Dynamo in 1940?",
+      "initial": "D",
+      "answer": "Dunkirk",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Dunkerque"],
+      "sources": ["https://en.wikipedia.org/wiki/Dunkirk_evacuation"]
+    },
+    {
+      "id": "history-en-medium-01-06",
+      "text": "Which family of cipher machines was used by Nazi Germany and attacked by Allied codebreakers, including those at Bletchley Park?",
+      "initial": "E",
+      "answer": "Enigma",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Enigma machine"],
+      "sources": ["https://en.wikipedia.org/wiki/Enigma_machine"]
+    },
+    {
+      "id": "history-en-medium-01-07",
+      "text": "What conventional term describes the medieval European system of landholding obligations linking lords and vassals?",
+      "initial": "F",
+      "answer": "Feudalism",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The feudal system", "Feudal system"],
+      "sources": ["https://en.wikipedia.org/wiki/Feudalism"]
+    },
+    {
+      "id": "history-en-medium-01-08",
+      "text": "What name is given to the events of 1688–1689 that removed James II and brought William III and Mary II to the English throne?",
+      "initial": "G",
+      "answer": "Glorious Revolution",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Glorious Revolution", "Revolution of 1688"],
+      "sources": ["https://en.wikipedia.org/wiki/Glorious_Revolution"]
+    },
+    {
+      "id": "history-en-medium-01-09",
+      "text": "Which association of trading towns dominated much of northern European commerce in the late Middle Ages, with Lübeck as a leading centre?",
+      "initial": "H",
+      "answer": "Hanseatic League",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Hansa", "Hanse", "The Hanseatic League"],
+      "sources": ["https://en.wikipedia.org/wiki/Hanseatic_League"]
+    },
+    {
+      "id": "history-en-medium-01-10",
+      "text": "Which phrase did Winston Churchill use in his 1946 Fulton speech for the division stretching “from Stettin in the Baltic to Trieste in the Adriatic”?",
+      "initial": "I",
+      "answer": "Iron Curtain",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Iron Curtain"],
+      "sources": ["https://en.wikipedia.org/wiki/Iron_Curtain"]
+    },
+    {
+      "id": "history-en-medium-01-11",
+      "text": "What name was given to supporters of the restoration of James II and his Stuart descendants to the British thrones?",
+      "initial": "J",
+      "answer": "Jacobites",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Jacobite"],
+      "sources": ["https://en.wikipedia.org/wiki/Jacobitism"]
+    },
+    {
+      "id": "history-en-medium-01-12",
+      "text": "What Japanese term is commonly used for the suicide pilots who deliberately crashed aircraft into Allied ships in the final part of the Pacific War?",
+      "initial": "K",
+      "answer": "Kamikaze",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Kamikaze pilots",
+        "Shinpu",
+        "Shinpū Tokubetsu Kōgekitai",
+        "Divine Wind Special Attack Unit"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Kamikaze"]
+    },
+    {
+      "id": "history-en-medium-01-13",
+      "text": "Which international organization began work in 1920 and preceded the United Nations?",
+      "initial": "L",
+      "answer": "League of Nations",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The League of Nations", "LN", "LoN"],
+      "sources": ["https://en.wikipedia.org/wiki/League_of_Nations"]
+    },
+    {
+      "id": "history-en-medium-01-14",
+      "text": "What common name is given to the US aid initiative launched in 1948 to help rebuild the economies of Western Europe?",
+      "initial": "M",
+      "answer": "Marshall Plan",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "The Marshall Plan",
+        "European Recovery Program",
+        "European Recovery Programme",
+        "ERP"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Marshall_Plan"]
+    },
+    {
+      "id": "history-en-medium-01-15",
+      "text": "What name is given to Franklin D. Roosevelt's domestic programs launched from 1933 to address the Great Depression?",
+      "initial": "N",
+      "answer": "New Deal",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The New Deal"],
+      "sources": ["https://en.wikipedia.org/wiki/New_Deal"]
+    },
+    {
+      "id": "history-en-medium-01-16",
+      "text": "What was the German codename for the invasion of the Soviet Union launched on 22 June 1941?",
+      "initial": "O",
+      "answer": "Operation Barbarossa",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Barbarossa"],
+      "sources": ["https://en.wikipedia.org/wiki/Operation_Barbarossa"]
+    },
+    {
+      "id": "history-en-medium-01-17",
+      "text": "What common name is given to the Irish catastrophe of 1845–1852, when blight destroyed a staple food?",
+      "initial": "P",
+      "answer": "Potato Famine",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Great Famine",
+        "Irish Potato Famine",
+        "Great Irish Famine",
+        "The Great Hunger",
+        "Great Hunger",
+        "An Gorta Mór",
+        "The Famine"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Great_Famine_(Ireland)"]
+    },
+    {
+      "id": "history-en-medium-01-18",
+      "text": "What common name describes members of the religious movement founded by George Fox in seventeenth-century England, known for silent worship and opposition to war?",
+      "initial": "Q",
+      "answer": "Quakers",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Quaker",
+        "Friends",
+        "Religious Society of Friends",
+        "Society of Friends"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Quakers"]
+    },
+    {
+      "id": "history-en-medium-01-19",
+      "text": "What name is given to the religious movement associated with Martin Luther's challenge to Catholic authority in sixteenth-century Europe?",
+      "initial": "R",
+      "answer": "Reformation",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Protestant Reformation",
+        "The Reformation",
+        "European Reformation"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Reformation"]
+    },
+    {
+      "id": "history-en-medium-01-20",
+      "text": "What term was used for an Indian infantry soldier employed by the British East India Company?",
+      "initial": "S",
+      "answer": "Sepoy",
+      "language": "en",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sepoy"]
+    },
+    {
+      "id": "history-en-medium-01-21",
+      "text": "What Persian royal title was borne by Iran's Pahlavi rulers before the 1979 revolution?",
+      "initial": "SH",
+      "answer": "Shah",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Shahanshah"],
+      "sources": ["https://en.wikipedia.org/wiki/Shah"]
+    },
+    {
+      "id": "history-en-medium-01-22",
+      "text": "Which Japanese leader became shogun in 1603 and founded the dynasty that ruled from Edo?",
+      "initial": "T",
+      "answer": "Tokugawa Ieyasu",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Ieyasu", "Tokugawa", "Matsudaira Takechiyo"],
+      "sources": ["https://en.wikipedia.org/wiki/Tokugawa_Ieyasu"]
+    },
+    {
+      "id": "history-en-medium-01-23",
+      "text": "What nineteenth-century process brought states such as Piedmont, the Two Sicilies and the Papal States together into one kingdom?",
+      "initial": "U",
+      "answer": "Unification of Italy",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Italian unification",
+        "The unification of Italy",
+        "Risorgimento"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Unification_of_Italy"]
+    },
+    {
+      "id": "history-en-medium-01-24",
+      "text": "What common name is given to the French regime headed by Marshal Pétain after the defeat of 1940?",
+      "initial": "V",
+      "answer": "Vichy France",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Vichy regime",
+        "Vichy government",
+        "French State",
+        "État français",
+        "Pétainist regime",
+        "Pétainist France"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Vichy_France"]
+    },
+    {
+      "id": "history-en-medium-01-25",
+      "text": "Which British parliamentarian was a leading campaigner for the abolition of the slave trade, achieved by an act in 1807?",
+      "initial": "W",
+      "answer": "William Wilberforce",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Wilberforce"],
+      "sources": ["https://en.wikipedia.org/wiki/William_Wilberforce"]
+    },
+    {
+      "id": "history-en-medium-01-26",
+      "text": "Which Greek author wrote the Anabasis about Cyrus the Younger's expedition and the retreat of the Ten Thousand?",
+      "initial": "X",
+      "answer": "Xenophon",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Xenophon of Athens"],
+      "sources": ["https://en.wikipedia.org/wiki/Xenophon"]
+    },
+    {
+      "id": "history-en-medium-01-27",
+      "text": "What common name is given to the Arab–Israeli war that began with Egyptian and Syrian attacks on 6 October 1973?",
+      "initial": "Y",
+      "answer": "Yom Kippur War",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "October War",
+        "Ramadan War",
+        "1973 Arab–Israeli War",
+        "Fourth Arab–Israeli War",
+        "1973 Arab-Israeli War",
+        "Fourth Arab-Israeli War",
+        "Arab-Israeli War of 1973"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Yom_Kippur_War"]
+    },
+    {
+      "id": "history-en-medium-01-28",
+      "text": "Which African kingdom defeated British forces at Isandlwana in January 1879?",
+      "initial": "Z",
+      "answer": "Zulu",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Zulu Kingdom",
+        "The Zulu Kingdom",
+        "Zululand",
+        "Kingdom of Zululand"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Isandlwana"]
+    }
+  ]
+}

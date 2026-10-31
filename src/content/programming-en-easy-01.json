@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-en-easy-01",
+  "title": "Computing and Programming · Easy · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-en-easy-01-01",
+      "text": "What everyday short word means a program on your phone, such as one for checking the weather or bus times?",
+      "initial": "A",
+      "answer": "App",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Application",
+        "Application software",
+        "Application program",
+        "Software application"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Application_software"]
+    },
+    {
+      "id": "programming-en-easy-01-02",
+      "text": "What do you call a spare copy of your files made so you can recover them if the originals are lost?",
+      "initial": "B",
+      "answer": "Backup",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Back-up", "Backup copy", "Data backup"],
+      "sources": ["https://en.wikipedia.org/wiki/Backup"]
+    },
+    {
+      "id": "programming-en-easy-01-03",
+      "text": "Which editing command puts selected text on the clipboard while leaving the original text in place?",
+      "initial": "C",
+      "answer": "Copy",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Copying"],
+      "sources": [
+        "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+        "https://support.apple.com/en-us/102650"
+      ]
+    },
+    {
+      "id": "programming-en-easy-01-04",
+      "text": "What is an online conversation called when people exchange short typed messages almost immediately?",
+      "initial": "CH",
+      "answer": "Chat",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Online chat", "Text chat"],
+      "sources": ["https://en.wikipedia.org/wiki/Online_chat"]
+    },
+    {
+      "id": "programming-en-easy-01-05",
+      "text": "Which Windows File Explorer command sends a selected file to the Recycle Bin?",
+      "initial": "D",
+      "answer": "Delete",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Deleting"],
+      "sources": [
+        "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec"
+      ]
+    },
+    {
+      "id": "programming-en-easy-01-06",
+      "text": "What kind of electronic message do you send to an address such as person@example.com, using a program like Outlook?",
+      "initial": "E",
+      "answer": "Email",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["E-mail", "Electronic mail"],
+      "sources": ["https://en.wikipedia.org/wiki/Email"]
+    },
+    {
+      "id": "programming-en-easy-01-07",
+      "text": "What named container in a file manager can hold documents and other such containers to keep them organised?",
+      "initial": "F",
+      "answer": "Folder",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Directory", "File folder"],
+      "sources": ["https://en.wikipedia.org/wiki/Directory_(computing)"]
+    },
+    {
+      "id": "programming-en-easy-01-08",
+      "text": "Which search engine is known for a mostly plain homepage with its logo above a search box?",
+      "initial": "G",
+      "answer": "Google",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Google Search"],
+      "sources": ["https://en.wikipedia.org/wiki/Google_Search"]
+    },
+    {
+      "id": "programming-en-easy-01-09",
+      "text": "Which part of a program's menu would you normally open to read instructions about using its features?",
+      "initial": "H",
+      "answer": "Help",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Online help", "User help"],
+      "sources": ["https://en.wikipedia.org/wiki/Online_help"]
+    },
+    {
+      "id": "programming-en-easy-01-10",
+      "text": "What is a small picture in a program's interface called when it represents a file, application or command?",
+      "initial": "I",
+      "answer": "Icon",
+      "language": "en",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Icon_(computing)"]
+    },
+    {
+      "id": "programming-en-easy-01-11",
+      "text": "Which common digital-photograph format takes its name from the Joint Photographic Experts Group?",
+      "initial": "J",
+      "answer": "JPEG",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["JPG"],
+      "sources": ["https://en.wikipedia.org/wiki/JPEG"]
+    },
+    {
+      "id": "programming-en-easy-01-12",
+      "text": "What do you call pressing keys such as Command+C to issue an application command without choosing it from a menu?",
+      "initial": "K",
+      "answer": "Keyboard shortcut",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Shortcut",
+        "Key combination",
+        "Keyboard command",
+        "Key shortcut",
+        "Hotkey",
+        "Hot key"
+      ],
+      "sources": ["https://support.apple.com/en-us/102650"]
+    },
+    {
+      "id": "programming-en-easy-01-13",
+      "text": "What is the process of entering your username and password to access an account in an app called?",
+      "initial": "L",
+      "answer": "Login",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Log-in",
+        "Log in",
+        "Sign-in",
+        "Sign in",
+        "Logging in",
+        "Logging on",
+        "Signing in",
+        "Signing on",
+        "Logon",
+        "Log-on",
+        "Log on",
+        "Sign-on",
+        "Sign on",
+        "Signon"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Login"]
+    },
+    {
+      "id": "programming-en-easy-01-14",
+      "text": "What do you call a list of commands in an application, such as the one that appears when you click File?",
+      "initial": "M",
+      "answer": "Menu",
+      "language": "en",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Menu_(computing)"]
+    },
+    {
+      "id": "programming-en-easy-01-15",
+      "text": "What do you call a message from an app that pops up to tell you about an event, such as a new message?",
+      "initial": "N",
+      "answer": "Notification",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Alert", "App notification", "Push notification"],
+      "sources": ["https://en.wikipedia.org/wiki/Push_technology"]
+    },
+    {
+      "id": "programming-en-easy-01-16",
+      "text": "Which File-menu command loads an existing document into an editor so you can work on it?",
+      "initial": "O",
+      "answer": "Open",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Opening"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-en-easy-01-17",
+      "text": "What secret account credential should you keep private when an app asks for it alongside your username?",
+      "initial": "P",
+      "answer": "Password",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Passphrase", "Passcode"],
+      "sources": ["https://en.wikipedia.org/wiki/Password"]
+    },
+    {
+      "id": "programming-en-easy-01-18",
+      "text": "Which command, commonly invoked with Command-Q on macOS, ends an application rather than just minimising its window?",
+      "initial": "Q",
+      "answer": "Quit",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Exit", "Close application"],
+      "sources": ["https://support.apple.com/en-us/102650"]
+    },
+    {
+      "id": "programming-en-easy-01-19",
+      "text": "What is starting a computer's system again called, for example after a software installation?",
+      "initial": "R",
+      "answer": "Restart",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Reboot", "Restarting", "Rebooting"],
+      "sources": ["https://en.wikipedia.org/wiki/Reboot"]
+    },
+    {
+      "id": "programming-en-easy-01-20",
+      "text": "Which editor command writes your changes to a file so they remain after you close the program?",
+      "initial": "S",
+      "answer": "Save",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Saving"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-en-easy-01-21",
+      "text": "Which common app action sends a photo or link to another person or makes it available to others?",
+      "initial": "SH",
+      "answer": "Share",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Sharing"],
+      "sources": ["https://en.wikipedia.org/wiki/Share_icon"]
+    },
+    {
+      "id": "programming-en-easy-01-22",
+      "text": "What is the macOS container called where discarded files normally go before they are permanently removed by emptying it?",
+      "initial": "T",
+      "answer": "Trash",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Trash folder", "Bin", "Trash bin", "Trash can"],
+      "sources": [
+        "https://support.apple.com/guide/mac-help/delete-files-and-folders-on-mac-mchlp1093/mac"
+      ]
+    },
+    {
+      "id": "programming-en-easy-01-23",
+      "text": "What do you call a newer software release installed to fix problems or add improvements to the version you have?",
+      "initial": "U",
+      "answer": "Update",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Software update"],
+      "sources": ["https://en.wikipedia.org/wiki/Software_update"]
+    },
+    {
+      "id": "programming-en-easy-01-24",
+      "text": "Which playback control do you increase to make a program's sound louder?",
+      "initial": "V",
+      "answer": "Volume",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Sound level", "Audio level"],
+      "sources": [
+        "https://support.apple.com/guide/quicktime-player/keyboard-shortcuts-and-gestures-qtpa4808515d/mac"
+      ]
+    },
+    {
+      "id": "programming-en-easy-01-25",
+      "text": "Which Microsoft operating-system family features a Start menu and a desktop taskbar?",
+      "initial": "W",
+      "answer": "Windows",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Microsoft Windows"],
+      "sources": ["https://en.wikipedia.org/wiki/Microsoft_Windows"]
+    },
+    {
+      "id": "programming-en-easy-01-26",
+      "text": "Which letter-shaped symbol appears on the far-right title-bar button of a typical Windows application window?",
+      "initial": "X",
+      "answer": "X",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Cross"],
+      "sources": [
+        "https://learn.microsoft.com/en-us/windows/win32/learnwin32/what-is-a-window-",
+        "https://learn.microsoft.com/en-us/windows/win32/learnwin32/images/window01.png"
+      ]
+    },
+    {
+      "id": "programming-en-easy-01-27",
+      "text": "Which Google-owned video platform lets users upload videos and watch channels through an app or a browser?",
+      "initial": "Y",
+      "answer": "YouTube",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["You Tube"],
+      "sources": ["https://en.wikipedia.org/wiki/YouTube"]
+    },
+    {
+      "id": "programming-en-easy-01-28",
+      "text": "What is the viewing control called that makes a document look larger or smaller on screen?",
+      "initial": "Z",
+      "answer": "Zoom",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Zooming", "Magnification"],
+      "sources": ["https://en.wikipedia.org/wiki/Zooming_user_interface"]
+    }
+  ]
+}

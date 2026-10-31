@@ -1,0 +1,39 @@
+{
+  "ownerDecision": "2026-10-30 17:15: Broaden to Computing and Programming; keep general-adult difficulty.",
+  "categoryId": "programming",
+  "scope": "Title-only rename of four inherited packs; question objects, sources, IDs and difficulty unchanged.",
+  "changes": [
+    {
+      "id": "programming-cs-01",
+      "previousSha256": "604b8e14542058e5092668a6adb57f4c114811dd812f6f4e47bb6bb160da2836",
+      "currentSha256": "369d349119f8a17b52ce09a5969a24811d9a7304cd71b89310c909c964075535",
+      "previousTitle": "Programování · 01",
+      "title": "Informatika a programování · 01",
+      "unchangedQuestionsSha256": "56fcebe3ab83b0423ce1137969480b7cff1deff4539025607cfcc42521513763"
+    },
+    {
+      "id": "programming-cs-02",
+      "previousSha256": "8887f59d5f5b584265d45c015a1b2e910c1c2762dda05620b0ee7267141628f3",
+      "currentSha256": "aba1dd1b04025e20bb2dd77be13ff3e1d073459b7c2446e97398039ae10d9f32",
+      "previousTitle": "Programování · 02",
+      "title": "Informatika a programování · 02",
+      "unchangedQuestionsSha256": "91be0374ec524dc5f0088b653c1551108bbd89954c56e31727b78aa79b4f9940"
+    },
+    {
+      "id": "programming-en-01",
+      "previousSha256": "cf96b883c75e9418d18ff46e9d9026a065497a5fea117149b24415b28c1f4202",
+      "currentSha256": "4ee24f77c1b7773fd8dddf01c15529ee5762d4a504a76c7789d73bb0d5d788be",
+      "previousTitle": "Programming · 01",
+      "title": "Computing and Programming · 01",
+      "unchangedQuestionsSha256": "c070d40880249fe5a91f7e0ca8a220026dc8cff7e23ee0587c39021a7f99607a"
+    },
+    {
+      "id": "programming-en-02",
+      "previousSha256": "c70b24389e5652adffab971c421b8a44b5529e0bb4766756d01376fb356d5923",
+      "currentSha256": "5f6f07dcbdcc118e7893700f3b219e9d66255baf45ffe3bb7aee1229af5108f1",
+      "previousTitle": "Programming · 02",
+      "title": "Computing and Programming · 02",
+      "unchangedQuestionsSha256": "db5782dd0098d7787cf374f712e0c349f425fe0e4b2fe74ece92d5fe4eee6c0a"
+    }
+  ]
+}

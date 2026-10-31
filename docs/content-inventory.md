@@ -1,4 +1,126 @@
-# Content inventory and provenance — complete library
+# Content inventory and provenance
+
+## Current phase-11 integrated candidate — not phase-cleared
+
+The catalog contains **132 decks / 3,696 entries**, 66 decks / 1,848 entries per
+language. All eleven categories have twelve decks /336 questions, exactly
+two per language/difficulty. All 2,800 additions and their whole-deck ratings
+have complete independent editorial acceptance; final integrated review and
+post-review gates remain pending. General knowledge is authored
+to its phase-11 quota: **12 decks / 336 questions**, with exactly two Easy,
+two Medium and two Hard decks in each of Czech and English.
+All eight new decks / 224 canonical facts were individually independently
+reviewed, and all eight difficulty assignments accepted. P11-GR1/GR2
+alias/prompt corrections passed the independent narrow recheck; all 224
+General additions are accepted. This is not full phase clearance.
+The four inherited General decks retain their IDs and exact questions.
+
+| Language | Easy                                  | Medium                                  | Hard                                       |
+| -------- | ------------------------------------- | --------------------------------------- | ------------------------------------------ |
+| Czech    | `general-cs-01`, `general-cs-easy-01` | `general-cs-02`, `general-cs-medium-01` | `general-cs-hard-01`, `general-cs-hard-02` |
+| English  | `general-en-02`, `general-en-easy-01` | `general-en-01`, `general-en-medium-01` | `general-en-hard-01`, `general-en-hard-02` |
+
+All eight are real catalog members, fixed-letter decks and eligible number
+sources. Their [source receipts](phase-11-general-sources.json) bind all 224 IDs,
+claims, aliases, inspected public source passages, retrieval dates and exact
+pack hashes. Automated checks include all shipped JSON, unique prompts/answers
+per language, placement, export/reimport and historical/new evidence separately.
+
+Nature is also authored to **12 decks / 336 entries**. Independent review of
+all 224 new entries and the P11-NR1/P11-NR2 narrow correction recheck accepted
+**all 224 entries and all eight difficulty assignments**. The corrections changed
+twelve alias arrays and one group-identification prompt only; the other 211
+new objects and all difficulty metadata are unchanged.
+All four inherited Nature decks retain their complete question objects.
+The [Nature ledger](phase-11-nature-sources.json) binds all new claims,
+canonical answers, useful aliases, inspected paragraphs, source quality,
+retrieval dates, cached-body hashes and exact pack hashes.
+
+| Language | Easy                                     | Medium                                | Hard                                     |
+| -------- | ---------------------------------------- | ------------------------------------- | ---------------------------------------- |
+| Czech    | `nature-cs-easy-01`, `nature-cs-easy-02` | `nature-cs-01`, `nature-cs-medium-01` | `nature-cs-02`, `nature-cs-hard-01`      |
+| English  | `nature-en-easy-01`, `nature-en-easy-02` | `nature-en-01`, `nature-en-02`        | `nature-en-hard-01`, `nature-en-hard-02` |
+
+Geography/travel now also has **12 decks / 336 entries**, two per combination.
+Independent review examined all eight additions / **224 original entries** and
+accepted **219 unaffected entries and all eight difficulty assignments**.
+Five P11-GEO-R1–R4 corrections (two alias arrays and three prompts in four packs)
+passed the independent narrow recheck: all 224 additions and eight ratings are
+accepted through 219 inherited plus five fresh judgments. Its four inherited
+files and all 52 preceding pack bytes are unchanged. The separate
+[Geography source ledger](phase-11-geography-sources.json) binds all 224 exact
+claims, accepted sets, inspected contexts, real retrieval dates, body/text hashes
+and eight pack hashes.
+
+| Language | Easy                                           | Medium                                      | Hard                                      |
+| -------- | ---------------------------------------------- | ------------------------------------------- | ----------------------------------------- |
+| Czech    | `geography-cs-easy-01`, `geography-cs-easy-02` | `geography-cs-01`, `geography-cs-medium-01` | `geography-cs-02`, `geography-cs-hard-01` |
+| English  | `geography-en-easy-01`, `geography-en-easy-02` | `geography-en-01`, `geography-en-medium-01` | `geography-en-02`, `geography-en-hard-01` |
+
+History's eight recovered additions / 224 entries bring its category to 12/336.
+All entries and eight ratings received full independent review; three alias-only
+corrections passed the same reviewer's narrow recheck. Central integration then
+exposed accepted-alias giveaways; three prompt-only corrections passed the
+independent v3 recheck with all 224 source evidence arrays and 221 question/evidence
+entries unchanged. All 224 additions and eight ratings are accepted. The complete
+[History source ledger](phase-11-history-sources.json) preserves the reviewed v3
+bytes. This does not clear the full phase.
+
+Science now has **12 decks / 336 entries**, two per language/difficulty.
+Three complete initial batch reviews examined all 224 additions and accepted all
+eight ratings. Narrow same-reviewer corrections resolved two repeated facts,
+Raman clue ambiguity, four finite-alias omissions and two detected disclosures
+across eight changed entries; 216 question/evidence pairs retain initial
+judgments. The [Science ledger](phase-11-science-sources.json) preserves exact
+reviewed entries/evidence and final pack hashes. Physical versus Python generators
+and chemical versus Python yield are independently accepted distinct senses,
+not repeated facts; integration tests allow only those exact canonical pairs.
+
+Politics now has **12 decks / 336 entries**, two per combination. All 224
+additions and eight ratings are independently accepted after complete initial
+review, narrow content corrections and format-only hash-continuity rechecks.
+The [Politics ledger](phase-11-politics-sources.json) binds the three final
+immutable batches. Country locations versus political institutions/mottos,
+the literary versus diplomatic Yellow Book, ethnic versus summit sherpa,
+band versus monarch Queen and map versus ballot X are explicitly reviewed
+distinct facts/senses. Exact ID-pair assertions reject unexpected canonical
+collisions; final cross-category semantic review remains a separate gate.
+
+Arts now has **12 decks / 336 entries**, two per combination. All 224 additions
+and eight ratings passed complete independent initial reviews and narrow
+correction rechecks. The [Arts ledger](phase-11-arts-sources.json) binds all
+three final immutable batches, exact pack hashes and unchanged source receipts.
+
+The owner-approved Computing and Programming scope includes practical computer
+literacy and programming, with unchanged general-adult difficulty. The stable
+`programming` ID remains. Four inherited title-only changes are bound by
+[metadata continuity](phase-11-computing-metadata.json); all original question
+objects, IDs, answers, aliases, sources and Hard ratings remain unchanged.
+All 72 historical category-fit findings were independently reassessed and
+resolved, preserving forty accepted factual judgments and all original source
+receipts. All 224 additions passed complete initial and narrow correction reviews.
+The [Computing ledger](phase-11-programming-sources.json) binds their exact bytes.
+
+Games, Movies/Series and Sports each have twelve independently accepted decks /
+336 entries. Their separate [Games](phase-11-games-sources.json),
+[Movies](phase-11-movies-sources.json) and [Sports](phase-11-sports-sources.json)
+ledgers preserve every exact reviewed question, source chain and pack hash.
+The retained 32 decks /896 entries plus 100 additions /2,800 entries meet the
+132/3,696 content quota. Four old Entertainment packs /112 entries moved
+byte-for-byte to `docs/retired/`, outside the runtime catalog. The
+[retirement receipt](phase-11-entertainment-retirement.json) binds their hashes,
+explicit old/new relationships and unchanged compatible save/import behavior.
+No Music category is added. Isolated phase-12 preparation is separate and
+contributes no quota here.
+
+The owner now authorizes isolated category authors and independent frozen-bundle
+reviewers in parallel, with one shared-file integrator and serialized central
+checks. All phase-11 category batches above have now been independently reviewed
+and integrated; phase-12 remains isolated. The interrupted History
+draft/source caches were recovered, not reauthored. See the
+[phase scheduling ledger](../IMPLEMENTATION_PHASES.md#execution-and-review-loop).
+
+## Historical phases 5–7 independently cleared library
 
 Authored on 2026-10-28–29. **All 1,008 entries are independently reviewed and
 cleared through phases 5–7, including correction re-reviews.**
@@ -8,7 +130,8 @@ citations in actual standalone HTML/PDF exports. See [review](../reviews/phase-0
 The two phase-2 starters retain their exact files, pack IDs and question IDs.
 Ten phase-5 packs added 280 entries. Phase 6 adds twelve packs / 336 entries.
 Phase 7 adds twelve final packs for Programming, Arts/literature and Entertainment.
-None of the 24 reviewed phase-6 JSON files or their IDs has changed.
+Their question objects and IDs remain unchanged; phase 11 changes pack
+schema/difficulty metadata, not inherited factual content.
 The initial phase-6 reviewer examined all 336 new entries. A replacement
 independent reviewer checked the four corrected entries and verified complete
 continuity of the other 332 entries and their source evidence; see the
@@ -78,7 +201,8 @@ a successful new fetch.
   The resistor clue does not accept the property word `odpor`, whose inflected
   form appears in the question; a focused regression covers this Czech giveaway.
 - No repeated normalized canonical answer or question text occurs within
-  either language's 504 entries. During phase-5 editing, reciprocal badminton and
+  either language's current 728 entries (504 in the historical library).
+  During phase-5 editing, reciprocal badminton and
   shuttlecock clues were avoided, as were reciprocal Iceland/capital clues.
   Tests enforce textual/answer uniqueness; semantic fact review remains human
   editorial work. New and previously reviewed facts may still be related.
@@ -122,7 +246,7 @@ a successful new fetch.
   scope, not their disclosed translated titles. `WALL·E`, `Pac Man`, `Dune: Part One`,
   full author names and standard Czech transliterations provide useful aliases;
   normalization already handles missing diacritics and case.
-- The default preparation remains one General starter. Merely having eighteen
+- The default preparation remains one General starter. Merely having twenty-two
   same-language packs available must not silently select them all or break
   fixed-letter setup. Filtering is browsing, not a content-selection operation.
 

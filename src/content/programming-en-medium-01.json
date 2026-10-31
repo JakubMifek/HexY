@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-en-medium-01",
+  "title": "Computing and Programming · Medium · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-en-medium-01-01",
+      "text": "Which British mathematician described an algorithm for Babbage's Analytical Engine in her 1843 notes and is often called the first programmer?",
+      "initial": "A",
+      "answer": "Ada Lovelace",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Ada",
+        "Augusta Ada King",
+        "Ada King",
+        "Lovelace",
+        "Augusta Ada Byron"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ada_Lovelace",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Lovelace/"
+      ]
+    },
+    {
+      "id": "programming-en-medium-01-02",
+      "text": "What is the smallest unit of information, representing one of two possibilities commonly written as 0 and 1?",
+      "initial": "B",
+      "answer": "Bit",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Binary digit"],
+      "sources": ["https://en.wikipedia.org/wiki/Bit"]
+    },
+    {
+      "id": "programming-en-medium-01-03",
+      "text": "What small piece of data can a website store in your browser to remember a login session or a preference?",
+      "initial": "C",
+      "answer": "Cookie",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["HTTP cookie", "Browser cookie", "Web cookie"],
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies"
+      ]
+    },
+    {
+      "id": "programming-en-medium-01-04",
+      "text": "What do you call a program that conducts a conversation with a user, for example in an automated customer-support window?",
+      "initial": "CH",
+      "answer": "Chatbot",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Chat bot", "Conversational bot"],
+      "sources": ["https://www.ibm.com/think/topics/chatbots"]
+    },
+    {
+      "id": "programming-en-medium-01-05",
+      "text": "What human-readable internet name, such as example.org, can DNS translate into a numerical network address?",
+      "initial": "D",
+      "answer": "Domain name",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Domain", "Internet domain name"],
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+        "https://developer.mozilla.org/en-US/docs/Glossary/DNS"
+      ]
+    },
+    {
+      "id": "programming-en-medium-01-06",
+      "text": "What process converts readable data into a form intended to be unreadable without the appropriate key?",
+      "initial": "E",
+      "answer": "Encryption",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Encipherment"],
+      "sources": ["https://en.wikipedia.org/wiki/Encryption"]
+    },
+    {
+      "id": "programming-en-medium-01-07",
+      "text": "What security system permits or blocks network traffic according to a set of rules?",
+      "initial": "F",
+      "answer": "Firewall",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Network firewall"],
+      "sources": [
+        "https://www.cisa.gov/news-events/news/understanding-firewalls-home-and-small-office-use"
+      ]
+    },
+    {
+      "id": "programming-en-medium-01-08",
+      "text": "What kind of user interface lets you operate software through windows, icons and menus rather than only typed commands?",
+      "initial": "G",
+      "answer": "Graphical user interface",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["GUI", "Graphical interface"],
+      "sources": ["https://en.wikipedia.org/wiki/Graphical_user_interface"]
+    },
+    {
+      "id": "programming-en-medium-01-09",
+      "text": "What term describes text organised with links that let a reader move between documents or sections rather than follow only a single fixed sequence?",
+      "initial": "H",
+      "answer": "Hypertext",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Hypertext document"],
+      "sources": ["https://en.wikipedia.org/wiki/Hypertext"]
+    },
+    {
+      "id": "programming-en-medium-01-10",
+      "text": "What numerical network identifier is conventionally written in IPv4 as four numbers separated by dots?",
+      "initial": "I",
+      "answer": "IP address",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Internet Protocol address"],
+      "sources": ["https://en.wikipedia.org/wiki/IP_address"]
+    },
+    {
+      "id": "programming-en-medium-01-11",
+      "text": "Which programming language supplies scripts that run directly in web browsers to make webpages interactive and is also used on servers?",
+      "initial": "J",
+      "answer": "JavaScript",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["JS"],
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Glossary/JavaScript"
+      ]
+    },
+    {
+      "id": "programming-en-medium-01-12",
+      "text": "Under the decimal SI convention, what unit equals 1,000 bytes, as distinct from the 1,024-byte kibibyte?",
+      "initial": "K",
+      "answer": "Kilobyte",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["kB"],
+      "sources": ["https://en.wikipedia.org/wiki/Kilobyte"]
+    },
+    {
+      "id": "programming-en-medium-01-13",
+      "text": "What family of free Unix-like operating systems includes distributions such as Ubuntu and Debian?",
+      "initial": "L",
+      "answer": "Linux",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["GNU/Linux", "GNU Linux"],
+      "sources": ["https://en.wikipedia.org/wiki/Linux"]
+    },
+    {
+      "id": "programming-en-medium-01-14",
+      "text": "What umbrella term covers software designed to cause harm, including viruses, trojans and ransomware?",
+      "initial": "M",
+      "answer": "Malware",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Malicious software"],
+      "sources": ["https://en.wikipedia.org/wiki/Malware"]
+    },
+    {
+      "id": "programming-en-medium-01-15",
+      "text": "What computing model consists of interconnected artificial neurons whose weights can be adjusted as it learns from data?",
+      "initial": "N",
+      "answer": "Neural network",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Artificial neural network", "ANN", "NN"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
+      ]
+    },
+    {
+      "id": "programming-en-medium-01-16",
+      "text": "What kind of system software manages computer hardware and provides basic services for other programs?",
+      "initial": "O",
+      "answer": "Operating system",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["OS"],
+      "sources": ["https://en.wikipedia.org/wiki/Operating_system"]
+    },
+    {
+      "id": "programming-en-medium-01-17",
+      "text": "What scam uses messages or webpages pretending to be a trusted organisation to trick you into revealing information such as login credentials?",
+      "initial": "P",
+      "answer": "Phishing",
+      "language": "en",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Phishing"]
+    },
+    {
+      "id": "programming-en-medium-01-18",
+      "text": "Which keyboard layout is named after the first six letters along the top letter row of a typical English-language keyboard?",
+      "initial": "Q",
+      "answer": "QWERTY",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Qwerty keyboard layout", "QWERTY layout"],
+      "sources": ["https://en.wikipedia.org/wiki/QWERTY"]
+    },
+    {
+      "id": "programming-en-medium-01-19",
+      "text": "What abbreviation names a computer's main working memory, whose usual dynamic form loses its contents when power is removed?",
+      "initial": "R",
+      "answer": "RAM",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Random access memory",
+        "Main memory",
+        "Primary memory",
+        "Random-access memory"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Random-access_memory"]
+    },
+    {
+      "id": "programming-en-medium-01-20",
+      "text": "In a networked application, what do you call the program or computer that provides services to other programs, such as sending them webpages?",
+      "initial": "S",
+      "answer": "Server",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Server program"],
+      "sources": ["https://en.wikipedia.org/wiki/Server_(computing)"]
+    },
+    {
+      "id": "programming-en-medium-01-21",
+      "text": "Within a spreadsheet workbook, what do you call one page of cells arranged in rows and columns?",
+      "initial": "SH",
+      "answer": "Sheet",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Worksheet"],
+      "sources": ["https://en.wikipedia.org/wiki/Spreadsheet"]
+    },
+    {
+      "id": "programming-en-medium-01-22",
+      "text": "What kind of malicious program deceives users by appearing to be useful or harmless software?",
+      "initial": "T",
+      "answer": "Trojan horse",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Trojan", "Trojan malware"],
+      "sources": ["https://en.wikipedia.org/wiki/Trojan_horse_(computing)"]
+    },
+    {
+      "id": "programming-en-medium-01-23",
+      "text": "What abbreviation names a resource address such as https://example.org/page, including the scheme and location?",
+      "initial": "U",
+      "answer": "URL",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Uniform Resource Locator", "Web address"],
+      "sources": ["https://en.wikipedia.org/wiki/URL"]
+    },
+    {
+      "id": "programming-en-medium-01-24",
+      "text": "What is a computer-generated environment called when a user can experience being immersed in it, often through a special headset?",
+      "initial": "V",
+      "answer": "Virtual reality",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["VR"],
+      "sources": ["https://en.wikipedia.org/wiki/Virtual_reality"]
+    },
+    {
+      "id": "programming-en-medium-01-25",
+      "text": "Which collaboratively edited online encyclopedia runs on MediaWiki software?",
+      "initial": "W",
+      "answer": "Wikipedia",
+      "language": "en",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Wikipedia"]
+    },
+    {
+      "id": "programming-en-medium-01-26",
+      "text": "Which Xerox research centre in Palo Alto developed the Alto computer and pioneered technologies including graphical interfaces and Ethernet?",
+      "initial": "X",
+      "answer": "Xerox PARC",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "PARC",
+        "Palo Alto Research Center",
+        "Xerox Palo Alto Research Center"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/PARC_(company)"]
+    },
+    {
+      "id": "programming-en-medium-01-27",
+      "text": "What short label names the computer date problem caused by programs storing years with only two digits as 1999 changed to 2000?",
+      "initial": "Y",
+      "answer": "Y2K",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Year 2000 problem", "Millennium bug", "Y2K bug"],
+      "sources": ["https://en.wikipedia.org/wiki/Year_2000_problem"]
+    },
+    {
+      "id": "programming-en-medium-01-28",
+      "text": "What term describes a software vulnerability unknown to the vendor, leaving no advance time to prepare a fix when it first becomes known?",
+      "initial": "Z",
+      "answer": "Zero-day",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Zero day",
+        "Zero-day vulnerability",
+        "Zero day vulnerability",
+        "0-day",
+        "0day"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Zero-day_vulnerability"]
+    }
+  ]
+}

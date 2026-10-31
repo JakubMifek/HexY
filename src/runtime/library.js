@@ -65,7 +65,9 @@ export class LocalLibrary {
     requireValue(this.writable, 'storageBlocked');
     const json = JSON.stringify(validateLibrary(data));
     try {
-      if (this.storage().getItem(LIBRARY_KEY) !== this.original) {
+      const current = this.storage().getItem(LIBRARY_KEY);
+      if (current !== this.original) {
+        this.original = current;
         this.writable = false;
         throw new DomainError('storageChanged');
       }

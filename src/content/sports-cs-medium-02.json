@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-cs-medium-02",
+  "title": "Sport · Střední · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-cs-medium-02-01",
+      "text": "Jak se česky běžně nazývá červený sypký tenisový povrch, na němž se hraje Roland Garros?",
+      "initial": "A",
+      "answer": "Antuka",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Antukový povrch"],
+      "sources": ["https://en.wikipedia.org/wiki/Clay_court"]
+    },
+    {
+      "id": "sports-cs-medium-02-02",
+      "text": "Ve kterém olympijském sportu mají členové štafety na položku pět základních a tři ručně dobíjené náhradní náboje, které v ostatních typech závodů použít nesmějí?",
+      "initial": "B",
+      "answer": "Biatlon",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Biathlon"],
+      "sources": ["https://en.wikipedia.org/wiki/Biathlon"]
+    },
+    {
+      "id": "sports-cs-medium-02-03",
+      "text": "Který útočný post v hokeji obvykle obstarává vhazování a výrazně pomáhá obráncům při bránění?",
+      "initial": "C",
+      "answer": "Centr",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Center", "Centre", "Střední útočník"],
+      "sources": ["https://en.wikipedia.org/wiki/Centre_(ice_hockey)"]
+    },
+    {
+      "id": "sports-cs-medium-02-04",
+      "text": "Jak se nazývá závodní loď pro čtyřčlennou posádku, v níž všichni závodníci sedí a používají dvojlistá pádla?",
+      "initial": "Č",
+      "answer": "Čtyřkajak",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["K4", "Kajak čtyřka", "Čtyřmístný kajak"],
+      "sources": ["https://en.wikipedia.org/wiki/Canoe_sprint"]
+    },
+    {
+      "id": "sports-cs-medium-02-05",
+      "text": "Který vytrvalostní víceboj se skládá z běhu, cyklistické části a dalšího běhu, tedy bez plaveckého úseku?",
+      "initial": "D",
+      "answer": "Duatlon",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Duathlon"],
+      "sources": ["https://en.wikipedia.org/wiki/Duathlon"]
+    },
+    {
+      "id": "sports-cs-medium-02-06",
+      "text": "Jak se v tenise nazývá bod z podání, při kterém se přijímající hráč míčku vůbec nedotkne?",
+      "initial": "E",
+      "answer": "Eso",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Ace"],
+      "sources": ["https://en.wikipedia.org/wiki/Ace_(tennis)"]
+    },
+    {
+      "id": "sports-cs-medium-02-07",
+      "text": "Jak se nazývá běžecký trénink, při němž se v souvislém běhu volně střídá rychlejší a pomalejší tempo, často podle terénu, bez pevně určených intervalů?",
+      "initial": "F",
+      "answer": "Fartlek",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Hra s rychlostí", "Fartlekový trénink", "Speed play"],
+      "sources": ["https://en.wikipedia.org/wiki/Fartlek"]
+    },
+    {
+      "id": "sports-cs-medium-02-08",
+      "text": "Ve kterém cyklistickém závodě Grand Tour nosí vedoucí muž celkové klasifikace růžový dres?",
+      "initial": "G",
+      "answer": "Giro d'Italia",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Giro", "Kolem Itálie", "Giro d’Italia"],
+      "sources": ["https://en.wikipedia.org/wiki/Giro_d'Italia"]
+    },
+    {
+      "id": "sports-cs-medium-02-09",
+      "text": "Jak se v hokeji nazývá kombinace vstřeleného gólu, gólové asistence a účasti v bitce během jediného utkání?",
+      "initial": "H",
+      "answer": "Hattrick Gordieho Howea",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Hat-trick Gordieho Howea",
+        "Hat trick Gordieho Howea",
+        "Howeův hattrick",
+        "Gordie Howe hat trick",
+        "Gordie Howe hat-trick"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Hat-trick"]
+    },
+    {
+      "id": "sports-cs-medium-02-10",
+      "text": "Které francouzské město hostilo hry roku 1924, dodatečně uznané za první zimní olympiádu?",
+      "initial": "Ch",
+      "answer": "Chamonix",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Chamonix-Mont-Blanc",
+        "Chamonix Mont Blanc",
+        "Chamonix Mont-Blanc"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/1924_Winter_Olympics"]
+    },
+    {
+      "id": "sports-cs-medium-02-11",
+      "text": "Jak se mezinárodní atletická organizace jmenovala bezprostředně před změnou názvu na World Athletics v roce 2019?",
+      "initial": "I",
+      "answer": "IAAF",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["International Association of Athletics Federations"],
+      "sources": ["https://en.wikipedia.org/wiki/World_Athletics"]
+    },
+    {
+      "id": "sports-cs-medium-02-12",
+      "text": "Ve kterém olympijském sportu rozhodují pravidla o přednosti lodí mimo jiné podle toho, zda mají vítr z pravoboku, nebo z levoboku?",
+      "initial": "J",
+      "answer": "Jachting",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Závodní plachtění",
+        "Plachtění",
+        "Závodní jachting",
+        "Sailing"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Racing_Rules_of_Sailing"]
+    },
+    {
+      "id": "sports-cs-medium-02-13",
+      "text": "Která sportovní šermířská zbraň dovoluje bodné zásahy na celém těle soupeře?",
+      "initial": "K",
+      "answer": "Kord",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Épée", "Sportovní kord"],
+      "sources": ["https://en.wikipedia.org/wiki/%C3%89p%C3%A9e"]
+    },
+    {
+      "id": "sports-cs-medium-02-14",
+      "text": "Ve kterém olympijském sportu se v individuální soutěži střílí ze vzdálenosti 70 metrů na terč o průměru 122 centimetrů?",
+      "initial": "L",
+      "answer": "Lukostřelba",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Sportovní lukostřelba", "Terčová lukostřelba", "Archery"],
+      "sources": [
+        "https://www.worldarchery.sport/sport/disciplines/target-archery"
+      ]
+    },
+    {
+      "id": "sports-cs-medium-02-15",
+      "text": "Jaká sportovní stavba se v technických údajích popisuje konstrukčním bodem K a velikostí HS?",
+      "initial": "M",
+      "answer": "Můstek",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Skokanský můstek"],
+      "sources": ["https://en.wikipedia.org/wiki/Ski_jumping_hill"]
+    },
+    {
+      "id": "sports-cs-medium-02-16",
+      "text": "Který sedmičlenný míčový sport má koše bez desek a zakazuje driblování i běh s míčem v držení?",
+      "initial": "N",
+      "answer": "Netball",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Netbal"],
+      "sources": ["https://en.wikipedia.org/wiki/Netball"]
+    },
+    {
+      "id": "sports-cs-medium-02-17",
+      "text": "Jaký dráhový cyklistický víceboj spojuje scratch, tempo, vylučovací a bodovací závod?",
+      "initial": "O",
+      "answer": "Omnium",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Omnium"]
+    },
+    {
+      "id": "sports-cs-medium-02-18",
+      "text": "Který týmový sport se v klasické venkovní podobě hraje ve čtyřech na každé straně, střídá koně a člení zápas na úseky zvané chukka?",
+      "initial": "P",
+      "answer": "Pólo",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Koňské pólo"],
+      "sources": ["https://en.wikipedia.org/wiki/Polo"]
+    },
+    {
+      "id": "sports-cs-medium-02-19",
+      "text": "Ve kterém olympijském sportu závodí dva soupeři každý ve své dráze a po každém kole si musejí vyměnit vnitřní a vnější dráhu?",
+      "initial": "R",
+      "answer": "Rychlobruslení",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Rychlobruslení na dlouhé dráze",
+        "Dlouhodráhové rychlobruslení",
+        "Speed skating"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Speed_skating"]
+    },
+    {
+      "id": "sports-cs-medium-02-20",
+      "text": "Který český dálkový lyžař čtyřikrát vyhrál norský Birkebeinerrennet a v roce 2011 skončil druhý ve Vasaloppetu?",
+      "initial": "Ř",
+      "answer": "Řezáč",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Stanislav Řezáč"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stanislav_%C5%98ez%C3%A1%C4%8D"
+      ]
+    },
+    {
+      "id": "sports-cs-medium-02-21",
+      "text": "Ve které atletické disciplíně Mike Powell výkonem 8,95 metru překonal dlouholetý světový rekord Boba Beamona?",
+      "initial": "S",
+      "answer": "Skok do dálky",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Dálka"],
+      "sources": ["https://en.wikipedia.org/wiki/Long_jump"]
+    },
+    {
+      "id": "sports-cs-medium-02-22",
+      "text": "Ve kterém sportu znamená riposta odvetnou akci bezprostředně po odražení soupeřova útoku?",
+      "initial": "Š",
+      "answer": "Šerm",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Sportovní šerm", "Fencing"],
+      "sources": ["https://en.wikipedia.org/wiki/Fencing"]
+    },
+    {
+      "id": "sports-cs-medium-02-23",
+      "text": "Které korejské bojové umění proslulé kopy se stalo medailovým sportem olympiády v Sydney 2000?",
+      "initial": "T",
+      "answer": "Taekwondo",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Taekwon-do", "Tae kwon do", "Taekwon do"],
+      "sources": ["https://en.wikipedia.org/wiki/Taekwondo"]
+    },
+    {
+      "id": "sports-cs-medium-02-24",
+      "text": "Jak se nazývá běžecká disciplína zahrnující závody delší než maraton?",
+      "initial": "U",
+      "answer": "Ultraběh",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Ultramaraton", "Ultramaratonský běh"],
+      "sources": ["https://en.wikipedia.org/wiki/Ultramarathon"]
+    },
+    {
+      "id": "sports-cs-medium-02-25",
+      "text": "Ve kterém olympijském týmovém sportu nesmí hráč v poli držet míč současně oběma rukama, i když jednou rukou jej ovládat smí?",
+      "initial": "V",
+      "answer": "Vodní pólo",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Water polo"],
+      "sources": ["https://en.wikipedia.org/wiki/Rules_of_water_polo"]
+    },
+    {
+      "id": "sports-cs-medium-02-26",
+      "text": "Který cyklista se v roce 2012 stal prvním britským vítězem Tour de France?",
+      "initial": "W",
+      "answer": "Wiggins",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Bradley Wiggins",
+        "Sir Bradley Wiggins",
+        "Bradley Marc Wiggins",
+        "Sir Bradley Marc Wiggins"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Bradley_Wiggins"]
+    },
+    {
+      "id": "sports-cs-medium-02-27",
+      "text": "Který švédský útočník získal cenu FIFA Puskás za gól nůžkami zhruba ze třiceti metrů proti Anglii?",
+      "initial": "Z",
+      "answer": "Zlatan Ibrahimović",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Ibrahimović", "Zlatan"],
+      "sources": ["https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87"]
+    },
+    {
+      "id": "sports-cs-medium-02-28",
+      "text": "Jak se nazývá tělocvičné nářadí tvořené svislými stojinami s vodorovnými příčkami u stěny?",
+      "initial": "Ž",
+      "answer": "Žebřiny",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Ribstole",
+        "Ribstol",
+        "Ribstoly",
+        "Švédská stěna",
+        "Švédský žebřík",
+        "Švédské žebřiny"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Wall_bars"]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-en-medium-01",
+  "title": "Politics and diplomacy · Medium · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-en-medium-01-01",
+      "text": "What is the unilateral incorporation of another state's territory, typically by force, called?",
+      "initial": "A",
+      "answer": "Annexation",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Annexation"]
+    },
+    {
+      "id": "politics-en-medium-01-02",
+      "text": "What is a UK MP who is neither a government minister nor an opposition frontbench spokesperson called?",
+      "initial": "B",
+      "answer": "Backbencher",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Back-bencher"],
+      "sources": ["https://en.wikipedia.org/wiki/Backbencher"]
+    },
+    {
+      "id": "politics-en-medium-01-03",
+      "text": "What is a union of sovereign states that delegates specified tasks to common institutions while its members retain sovereignty?",
+      "initial": "C",
+      "answer": "Confederation",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Confederacy"],
+      "sources": ["https://en.wikipedia.org/wiki/Confederation"]
+    },
+    {
+      "id": "politics-en-medium-01-04",
+      "text": "What founding treaty of the UN was signed in San Francisco in 1945?",
+      "initial": "CH",
+      "answer": "Charter of the United Nations",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["UN Charter", "United Nations Charter"],
+      "sources": ["https://en.wikipedia.org/wiki/Charter_of_the_United_Nations"]
+    },
+    {
+      "id": "politics-en-medium-01-05",
+      "text": "What is the process by which colonies gain independence from colonial powers called?",
+      "initial": "D",
+      "answer": "Decolonization",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Decolonisation"],
+      "sources": ["https://en.wikipedia.org/wiki/Decolonization"]
+    },
+    {
+      "id": "politics-en-medium-01-06",
+      "text": "What is the group of EU member states that use the euro as their currency called?",
+      "initial": "E",
+      "answer": "Eurozone",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Euro area", "Euro zone"],
+      "sources": ["https://en.wikipedia.org/wiki/Eurozone"]
+    },
+    {
+      "id": "politics-en-medium-01-07",
+      "text": "What branch of economic policy uses government taxation and public spending to influence the economy?",
+      "initial": "F",
+      "answer": "Fiscal policy",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Budgetary policy"],
+      "sources": ["https://en.wikipedia.org/wiki/Fiscal_policy"]
+    },
+    {
+      "id": "politics-en-medium-01-08",
+      "text": "Which principal UN body gives every member state one vote and holds its regular annual session in New York?",
+      "initial": "G",
+      "answer": "General Assembly",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["UN General Assembly", "United Nations General Assembly"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_Nations_General_Assembly"
+      ]
+    },
+    {
+      "id": "politics-en-medium-01-09",
+      "text": "What is a parliament in which no single party or pre-existing coalition has an overall majority of seats commonly called?",
+      "initial": "H",
+      "answer": "Hung parliament",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Balanced parliament"],
+      "sources": ["https://en.wikipedia.org/wiki/Hung_parliament"]
+    },
+    {
+      "id": "politics-en-medium-01-10",
+      "text": "What direct-democracy mechanism allows citizens who gather enough signatures to put a proposed law to a popular vote?",
+      "initial": "I",
+      "answer": "Initiative",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "Popular initiative",
+        "Citizens' initiative",
+        "Citizen initiative",
+        "Ballot initiative"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Initiatives_and_referendums_in_the_United_States"
+      ]
+    },
+    {
+      "id": "politics-en-medium-01-11",
+      "text": "What term, borrowed from Spanish, commonly describes a military group ruling a country after a coup?",
+      "initial": "J",
+      "answer": "Junta",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Military junta"],
+      "sources": ["https://en.wikipedia.org/wiki/Military_junta"]
+    },
+    {
+      "id": "politics-en-medium-01-12",
+      "text": "What 1997 climate treaty set binding greenhouse-gas reduction targets for industrialized countries?",
+      "initial": "K",
+      "answer": "Kyoto Protocol",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Kyoto_Protocol"]
+    },
+    {
+      "id": "politics-en-medium-01-13",
+      "text": "What EU reform treaty entered into force on 1 December 2009 and created a permanent President of the European Council?",
+      "initial": "L",
+      "answer": "Lisbon Treaty",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Treaty of Lisbon"],
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Lisbon"]
+    },
+    {
+      "id": "politics-en-medium-01-14",
+      "text": "What diplomatic approach coordinates relations among three or more states rather than only two?",
+      "initial": "M",
+      "answer": "Multilateralism",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Multilateralism"]
+    },
+    {
+      "id": "politics-en-medium-01-15",
+      "text": "What term describes a state whose political territory is intended to correspond to a national community?",
+      "initial": "N",
+      "answer": "Nation state",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Nation-state"],
+      "sources": ["https://en.wikipedia.org/wiki/Nation_state"]
+    },
+    {
+      "id": "politics-en-medium-01-16",
+      "text": "What is a day in the UK House of Commons on which the opposition, rather than the government, normally chooses the subjects for debate?",
+      "initial": "O",
+      "answer": "Opposition day",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Opposition supply day", "Supply day"],
+      "sources": ["https://en.wikipedia.org/wiki/Opposition_day"]
+    },
+    {
+      "id": "politics-en-medium-01-17",
+      "text": "What election selects a political party's candidate for a later general election?",
+      "initial": "P",
+      "answer": "Primary election",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Primary", "Primaries"],
+      "sources": ["https://en.wikipedia.org/wiki/Primary_election"]
+    },
+    {
+      "id": "politics-en-medium-01-18",
+      "text": "What British acronym describes an arm's-length body that carries out public functions but operates partly independently of government?",
+      "initial": "Q",
+      "answer": "Quango",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "Quasi-autonomous non-governmental organization",
+        "Quasi-autonomous non-governmental organisation",
+        "Quasi-autonomous near-government organization",
+        "Quasi-autonomous near-government organisation"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Quango"]
+    },
+    {
+      "id": "politics-en-medium-01-19",
+      "text": "What principle requires public power to be exercised under laws rather than arbitrary personal decisions?",
+      "initial": "R",
+      "answer": "Rule of law",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Rule_of_law"]
+    },
+    {
+      "id": "politics-en-medium-01-20",
+      "text": "What principle divides legislative, executive and judicial functions among different branches of government?",
+      "initial": "S",
+      "answer": "Separation of powers",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Separation_of_powers"]
+    },
+    {
+      "id": "politics-en-medium-01-21",
+      "text": "What diplomatic method has a mediator travel repeatedly between parties that are not negotiating face to face?",
+      "initial": "SH",
+      "answer": "Shuttle diplomacy",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Shuttle_diplomacy"]
+    },
+    {
+      "id": "politics-en-medium-01-22",
+      "text": "What term describes government or decision-making led by technical experts rather than primarily by elected politicians?",
+      "initial": "T",
+      "answer": "Technocracy",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Technocracy"]
+    },
+    {
+      "id": "politics-en-medium-01-23",
+      "text": "What is a state in which ultimate governing authority rests with the central government rather than constitutionally sovereign constituent units called?",
+      "initial": "U",
+      "answer": "Unitary state",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Unitary_state"]
+    },
+    {
+      "id": "politics-en-medium-01-24",
+      "text": "What parliamentary vote asks members to affirm their support for a government, rather than explicitly declare distrust of it?",
+      "initial": "V",
+      "answer": "Vote of confidence",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Confidence vote", "Motion of confidence"],
+      "sources": ["https://en.wikipedia.org/wiki/Motion_of_no_confidence"]
+    },
+    {
+      "id": "politics-en-medium-01-25",
+      "text": "What party official is responsible for arranging parliamentary attendance and maintaining voting discipline?",
+      "initial": "W",
+      "answer": "Whip",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Party whip"],
+      "sources": ["https://en.wikipedia.org/wiki/Whip_(politics)"]
+    },
+    {
+      "id": "politics-en-medium-01-26",
+      "text": "What nickname identifies George Kennan's 1947 Foreign Affairs essay published under a one-letter pseudonym?",
+      "initial": "X",
+      "answer": "X Article",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["The X Article", "X-Article", "The X-Article"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/X_Article",
+        "https://history.state.gov/milestones/1945-1952/kennan"
+      ]
+    },
+    {
+      "id": "politics-en-medium-01-27",
+      "text": "What colour-named French diplomatic collection published in 1914 presented documents concerning the origins of the First World War?",
+      "initial": "Y",
+      "answer": "Yellow Book",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["French Yellow Book", "Livre jaune"],
+      "sources": ["https://en.wikipedia.org/wiki/French_Yellow_Book"]
+    },
+    {
+      "id": "politics-en-medium-01-28",
+      "text": "What game-theory term describes a situation in which one side's gain is exactly balanced by the other side's loss?",
+      "initial": "Z",
+      "answer": "Zero-sum game",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Zero sum game", "Strictly competitive game"],
+      "sources": ["https://en.wikipedia.org/wiki/Zero-sum_game"]
+    }
+  ]
+}

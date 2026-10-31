@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-cs-medium-01",
+  "title": "Sport · Střední · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-cs-medium-01-01",
+      "text": "Do kterého lyžařského odvětví patří jízda v boulích a akrobatické skoky?",
+      "initial": "A",
+      "answer": "Akrobatické lyžování",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Freestyle lyžování", "Volné lyžování"],
+      "sources": ["https://en.wikipedia.org/wiki/Freestyle_skiing"]
+    },
+    {
+      "id": "sports-cs-medium-01-02",
+      "text": "Jak se přejatým slovem nazývá tenisový úder, při němž vede švih hřbet ruky a který tvoří protějšek forhendu?",
+      "initial": "B",
+      "answer": "Bekhend",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Backhand"],
+      "sources": ["https://en.wikipedia.org/wiki/Backhand"]
+    },
+    {
+      "id": "sports-cs-medium-01-03",
+      "text": "Ve kterém sportu chrání pravidlo free guard zone na začátku endu soupeřovy kameny před vyražením?",
+      "initial": "C",
+      "answer": "Curling",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Curling"]
+    },
+    {
+      "id": "sports-cs-medium-01-04",
+      "text": "Jak se nazývá spodní zahnutá část hokejové hole, kterou se ovládá puk?",
+      "initial": "Č",
+      "answer": "Čepel",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Čepel hole"],
+      "sources": ["https://en.wikipedia.org/wiki/Ice_hockey_stick"]
+    },
+    {
+      "id": "sports-cs-medium-01-05",
+      "text": "Který mužský atletický víceboj zahrnuje běh na 110 m překážek, hod diskem i skok o tyči a končí během na 1 500 m?",
+      "initial": "D",
+      "answer": "Desetiboj",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Atletický desetiboj"],
+      "sources": ["https://en.wikipedia.org/wiki/Decathlon"]
+    },
+    {
+      "id": "sports-cs-medium-01-06",
+      "text": "Jaká zkratka označuje hormon stimulující tvorbu červených krvinek, který se zneužívá jako doping ve vytrvalostních sportech?",
+      "initial": "E",
+      "answer": "EPO",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Erytropoetin", "Erythropoietin"],
+      "sources": ["https://en.wikipedia.org/wiki/Erythropoietin"]
+    },
+    {
+      "id": "sports-cs-medium-01-07",
+      "text": "Která lehká bodná šermířská zbraň má za platný terč trup?",
+      "initial": "F",
+      "answer": "Fleret",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Foil"],
+      "sources": ["https://en.wikipedia.org/wiki/Foil_(fencing)"]
+    },
+    {
+      "id": "sports-cs-medium-01-08",
+      "text": "Jak se v tenise nazývá zisk všech čtyř hlavních titulů ve dvouhře během jediného kalendářního roku?",
+      "initial": "G",
+      "answer": "Grand Slam",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Grandslam", "Kalendářní Grand Slam"],
+      "sources": ["https://en.wikipedia.org/wiki/Grand_Slam_(tennis)"]
+    },
+    {
+      "id": "sports-cs-medium-01-09",
+      "text": "Jak se nazývá číselné vyjádření herní úrovně golfisty používané k vyrovnání šancí hráčů?",
+      "initial": "H",
+      "answer": "Hendikep",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Handicap", "Golfový hendikep", "Golfový handicap"],
+      "sources": ["https://en.wikipedia.org/wiki/Handicap_(golf)"]
+    },
+    {
+      "id": "sports-cs-medium-01-10",
+      "text": "Jak se obecně nazývá technika úchopu či hodu používaná například v judu a zápase?",
+      "initial": "Ch",
+      "answer": "Chvat",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Zápasnický chvat"],
+      "sources": ["https://en.wikipedia.org/wiki/Grappling"]
+    },
+    {
+      "id": "sports-cs-medium-01-11",
+      "text": "Jak se anglicky označuje hokejový přestupek spočívající zpravidla v odeslání puku z vlastní poloviny až za soupeřovu brankovou čáru bez dalšího doteku, aniž padne gól?",
+      "initial": "I",
+      "answer": "Icing",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Zakázané uvolnění"],
+      "sources": ["https://en.wikipedia.org/wiki/Icing_(ice_hockey)"]
+    },
+    {
+      "id": "sports-cs-medium-01-12",
+      "text": "Jak se nazývá tradiční cvičební oděv judisty?",
+      "initial": "J",
+      "answer": "Judogi",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Judo gi", "Kimono", "Keikogi", "Dogi"],
+      "sources": ["https://en.wikipedia.org/wiki/Judogi"]
+    },
+    {
+      "id": "sports-cs-medium-01-13",
+      "text": "Se kterým typem sportovní lodi je tradičně spojena záchranná technika zvaná eskymácký obrat?",
+      "initial": "K",
+      "answer": "Kajak",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Kajaková loď"],
+      "sources": ["https://en.wikipedia.org/wiki/Kayak"]
+    },
+    {
+      "id": "sports-cs-medium-01-14",
+      "text": "Který specializovaný volejbalový obránce nosí dres odlišné barvy?",
+      "initial": "L",
+      "answer": "Libero",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Libero_(volleyball)"]
+    },
+    {
+      "id": "sports-cs-medium-01-15",
+      "text": "Který plavecký způsob spojuje soupažný pohyb paží nad vodou s delfínovým kopáním?",
+      "initial": "M",
+      "answer": "Motýlek",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Delfín", "Butterfly"],
+      "sources": ["https://en.wikipedia.org/wiki/Butterfly_stroke"]
+    },
+    {
+      "id": "sports-cs-medium-01-16",
+      "text": "Jaké trestné zakončení se podle pravidel NHL nařizuje za úmyslné přikrytí puku hráčem v poli ve vlastním brankovišti, pokud brankář není odvolán ze hry?",
+      "initial": "N",
+      "answer": "Nájezd",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Samostatný nájezd", "Trestné střílení"],
+      "sources": ["https://en.wikipedia.org/wiki/Penalty_shot_(ice_hockey)"]
+    },
+    {
+      "id": "sports-cs-medium-01-17",
+      "text": "Který fotbalový přestupek nelze odpískat při přímém převzetí míče z autového vhazování, rohu ani kopu od branky?",
+      "initial": "O",
+      "answer": "Ofsajd",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Offside", "Postavení mimo hru"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Offside_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-cs-medium-01-18",
+      "text": "Jak se nazývá hlavní skupina jezdců v silničním cyklistickém závodě?",
+      "initial": "P",
+      "answer": "Peloton",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Peloton"]
+    },
+    {
+      "id": "sports-cs-medium-01-19",
+      "text": "Jak se česky nazývá basketbalový hráč, který řídí rozehrávku a obvykle organizuje útok svého týmu?",
+      "initial": "R",
+      "answer": "Rozehrávač",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Point guard"],
+      "sources": ["https://en.wikipedia.org/wiki/Point_guard"]
+    },
+    {
+      "id": "sports-cs-medium-01-20",
+      "text": "Který český stoper přestoupil z Fiorentiny do West Hamu za tehdejší klubový rekord 5,5 milionu liber?",
+      "initial": "Ř",
+      "answer": "Řepka",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Tomáš Řepka"],
+      "sources": ["https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_%C5%98epka"]
+    },
+    {
+      "id": "sports-cs-medium-01-21",
+      "text": "Jak se v tenise přejatým slovem nazývá úder, jímž hráč uvádí míček do hry na začátku výměny?",
+      "initial": "S",
+      "answer": "Servis",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Podání"],
+      "sources": ["https://en.wikipedia.org/wiki/Serve_(tennis)"]
+    },
+    {
+      "id": "sports-cs-medium-01-22",
+      "text": "Která ze tří sportovních šermířských zbraní umožňuje zásahy seknutím i bodnutím?",
+      "initial": "Š",
+      "answer": "Šavle",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sabre_(fencing)"]
+    },
+    {
+      "id": "sports-cs-medium-01-23",
+      "text": "Který olympijský vytrvalostní sport má v individuálním závodě úseky dlouhé 1,5 km, 40 km a 10 km?",
+      "initial": "T",
+      "answer": "Triatlon",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Triathlon"],
+      "sources": ["https://en.wikipedia.org/wiki/Triathlon"]
+    },
+    {
+      "id": "sports-cs-medium-01-24",
+      "text": "Která fotbalová konfederace se sídlem v Nyonu sdružuje mimo jiné svazy Izraele a Kazachstánu?",
+      "initial": "U",
+      "answer": "UEFA",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Union of European Football Associations",
+        "Unie evropských fotbalových asociací"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/UEFA"]
+    },
+    {
+      "id": "sports-cs-medium-01-25",
+      "text": "Ve kterém olympijském silovém sportu musí závodník uspět alespoň jednou v každé ze dvou disciplín, jinak nezíská platný součet, i kdyby v druhé zvedl nejvíce kilogramů?",
+      "initial": "V",
+      "answer": "Vzpírání",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Olympijské vzpírání"],
+      "sources": ["https://en.wikipedia.org/wiki/Olympic_weightlifting"]
+    },
+    {
+      "id": "sports-cs-medium-01-26",
+      "text": "Který americký golfista vyhrál US Open navzdory poraněnému kolenu po osmnáctijamkovém play-off s Roccem Mediatem?",
+      "initial": "W",
+      "answer": "Woods",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Tiger Woods", "Eldrick Tont Woods"],
+      "sources": ["https://en.wikipedia.org/wiki/Tiger_Woods"]
+    },
+    {
+      "id": "sports-cs-medium-01-27",
+      "text": "Jak se nazývá olympijský zápasnický styl, který na rozdíl od řecko-římského dovoluje úchopy nohou?",
+      "initial": "Z",
+      "answer": "Zápas ve volném stylu",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Volný styl",
+        "Volnostylařský zápas",
+        "Volný zápas",
+        "Freestyle wrestling"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Freestyle_wrestling"]
+    },
+    {
+      "id": "sports-cs-medium-01-28",
+      "text": "Jaké příjmení má Jan, český oštěpař, který získal olympijské zlato v letech 1992, 1996 a 2000?",
+      "initial": "Ž",
+      "answer": "Železný",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Jan Železný"],
+      "sources": ["https://en.wikipedia.org/wiki/Jan_%C5%BDelezn%C3%BD"]
+    }
+  ]
+}

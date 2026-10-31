@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "nature-en-easy-02",
+  "title": "Nature · Easy 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-en-easy-02-01",
+      "initial": "A",
+      "text": "Which fruit grows on Malus domestica trees and has familiar varieties such as Granny Smith and Golden Delicious?",
+      "answer": "Apple",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Apple"]
+    },
+    {
+      "id": "nature-en-easy-02-02",
+      "initial": "B",
+      "text": "Which flying insect collects pollen and nectar, with the honeybee as a familiar example?",
+      "answer": "Bee",
+      "aliases": ["bees"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Bee"]
+    },
+    {
+      "id": "nature-en-easy-02-03",
+      "initial": "C",
+      "text": "Which large semiaquatic reptile includes the Nile and saltwater species and has a powerful, tooth-lined snout?",
+      "answer": "Crocodile",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Crocodile"]
+    },
+    {
+      "id": "nature-en-easy-02-04",
+      "initial": "CH",
+      "text": "Which domesticated bird has females called hens and males called roosters?",
+      "answer": "Chicken",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chicken"]
+    },
+    {
+      "id": "nature-en-easy-02-05",
+      "initial": "D",
+      "text": "Which familiar waterbird has a male called a drake and generally a broad, flattened bill?",
+      "answer": "Duck",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Duck"]
+    },
+    {
+      "id": "nature-en-easy-02-06",
+      "initial": "E",
+      "text": "What is the shell-covered structure laid by a bird that contains the material for a chick to develop?",
+      "answer": "Egg",
+      "aliases": ["bird egg"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Egg"]
+    },
+    {
+      "id": "nature-en-easy-02-07",
+      "initial": "F",
+      "text": "What lightweight structure covers a bird's body and forms the surfaces of its wings?",
+      "answer": "Feather",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Feather"]
+    },
+    {
+      "id": "nature-en-easy-02-08",
+      "initial": "G",
+      "text": "What common name describes the narrow-leaved plants of the family Poaceae that form most lawns?",
+      "answer": "Grass",
+      "aliases": ["grasses"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Poaceae"]
+    },
+    {
+      "id": "nature-en-easy-02-09",
+      "initial": "H",
+      "text": "Which hoofed mammal has a mane and tail, a female called a mare, and a young animal called a foal?",
+      "answer": "Horse",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Horse"]
+    },
+    {
+      "id": "nature-en-easy-02-10",
+      "initial": "I",
+      "text": "What is the hard, pale material forming elephant tusks, made mainly of dentine?",
+      "answer": "Ivory",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ivory"]
+    },
+    {
+      "id": "nature-en-easy-02-11",
+      "initial": "J",
+      "text": "Which wild canid has species called golden and black-backed and is often associated with scavenging?",
+      "answer": "Jackal",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jackal"]
+    },
+    {
+      "id": "nature-en-easy-02-12",
+      "initial": "K",
+      "text": "What is a young domestic cat called?",
+      "answer": "Kitten",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kitten"]
+    },
+    {
+      "id": "nature-en-easy-02-13",
+      "initial": "L",
+      "text": "Which large African cat lives in groups called prides, with adult males usually having a mane?",
+      "answer": "Lion",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Lion"]
+    },
+    {
+      "id": "nature-en-easy-02-14",
+      "initial": "M",
+      "text": "Which small flying insect has females in many species that pierce skin to feed on blood?",
+      "answer": "Mosquito",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Mosquito"]
+    },
+    {
+      "id": "nature-en-easy-02-15",
+      "initial": "N",
+      "text": "Which small tailed amphibian is a salamander of the subfamily Pleurodelinae and often breeds in ponds?",
+      "answer": "Newt",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Newt"]
+    },
+    {
+      "id": "nature-en-easy-02-16",
+      "initial": "O",
+      "text": "Which semiaquatic member of the weasel family is known for swimming and feeding on fish or other aquatic prey?",
+      "answer": "Otter",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Otter"]
+    },
+    {
+      "id": "nature-en-easy-02-17",
+      "initial": "P",
+      "text": "Which conifer belongs to the genus Pinus and has needles arranged in bundles?",
+      "answer": "Pine",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Pine"]
+    },
+    {
+      "id": "nature-en-easy-02-18",
+      "initial": "Q",
+      "text": "Which small, ground-dwelling gamebird includes the species Coturnix coturnix?",
+      "answer": "Quail",
+      "aliases": ["common quail"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Common%20quail"]
+    },
+    {
+      "id": "nature-en-easy-02-19",
+      "initial": "R",
+      "text": "Which flowering shrub of the genus Rosa is famous for fragrant blooms and prickly stems?",
+      "answer": "Rose",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rose"]
+    },
+    {
+      "id": "nature-en-easy-02-20",
+      "initial": "S",
+      "text": "What common name describes a gastropod with a coiled shell large enough to withdraw into?",
+      "answer": "Snail",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Snail"]
+    },
+    {
+      "id": "nature-en-easy-02-21",
+      "initial": "SH",
+      "text": "What is a woody plant, usually shorter than a tree, with several main stems near the ground called?",
+      "answer": "Shrub",
+      "aliases": ["bush"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shrub"]
+    },
+    {
+      "id": "nature-en-easy-02-22",
+      "initial": "T",
+      "text": "Which reptile has a bony shell with an upper carapace and a lower plastron?",
+      "answer": "Turtle",
+      "aliases": ["tortoise", "terrapin"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Turtle"]
+    },
+    {
+      "id": "nature-en-easy-02-23",
+      "initial": "U",
+      "text": "What flexible cord connects a developing human fetus to the placenta?",
+      "answer": "Umbilical cord",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Umbilical%20cord"]
+    },
+    {
+      "id": "nature-en-easy-02-24",
+      "initial": "V",
+      "text": "Which carnivorous plant closes its hinged leaf traps when an insect triggers the sensitive hairs?",
+      "answer": "Venus flytrap",
+      "aliases": ["Dionaea muscipula"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Venus%20flytrap"]
+    },
+    {
+      "id": "nature-en-easy-02-25",
+      "initial": "W",
+      "text": "What silk structure does a spider build to catch prey?",
+      "answer": "Web",
+      "aliases": [
+        "spider web",
+        "spiderweb",
+        "spider's web",
+        "spider’s web",
+        "cobweb"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Spider%20web"]
+    },
+    {
+      "id": "nature-en-easy-02-26",
+      "initial": "X",
+      "text": "What class of yellow carotenoid pigments includes lutein and zeaxanthin, found in leaves and egg yolks?",
+      "answer": "Xanthophyll",
+      "aliases": ["xanthophylls"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xanthophyll"]
+    },
+    {
+      "id": "nature-en-easy-02-27",
+      "initial": "Y",
+      "text": "Which European bunting has a bright yellow head in the male and a song often rendered as 'a little bit of bread and no cheese'?",
+      "answer": "Yellowhammer",
+      "aliases": ["Emberiza citrinella"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yellowhammer"]
+    },
+    {
+      "id": "nature-en-easy-02-28",
+      "initial": "Z",
+      "text": "What branch of biology is devoted to the study of animals?",
+      "answer": "Zoology",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zoology"]
+    }
+  ]
+}

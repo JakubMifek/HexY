@@ -4,6 +4,7 @@ import {
   download,
   inspectPrintedSheet,
   setupPreparation,
+  catalogPacks,
 } from './preparation-helpers.js';
 import { phase, setAnswers, setTheme } from './helpers.js';
 
@@ -13,13 +14,13 @@ async function selectMixedSources(page, language) {
   const selected = ['geography', 'history', 'politics', 'science'].map(
     (category) => `${category}-${language}-02`,
   );
-  await page.locator('#catalog-language').selectOption(language);
   for (const id of selected) {
-    await page.locator('#catalog-category').selectOption(id.split('-')[0]);
     await page.locator(`#source-${id}`).check();
   }
-  await page.locator('#catalog-search').fill('no such source');
-  await expect(page.locator('#catalog-results input')).toHaveCount(0);
+  await page.locator('#catalog-origin').selectOption('custom');
+  await expect(
+    page.locator('#catalog-results input[id^="source-"]'),
+  ).toHaveCount(0);
   for (const id of selected)
     await expect(page.locator('#catalog-selection')).toContainText(id);
   return selected;
@@ -105,11 +106,18 @@ for (const language of ['cs', 'en']) {
       });
       await setupPreparation(page, language);
       await setTheme(page, theme);
-      await expect(page.locator('#catalog-status')).toContainText('36 / 36');
-      await expect(page.locator('#catalog-results input')).toHaveCount(36);
-      await page.locator('#catalog-language').selectOption(language);
-      await expect(page.locator('#catalog-results input')).toHaveCount(18);
-      await expect(page.locator('#catalog-category option')).toHaveCount(10);
+      const localized = catalogPacks.filter(
+        (pack) => pack.language === language,
+      );
+      await expect(page.locator('#catalog-status')).toContainText(
+        `${localized.length} / ${localized.length}`,
+      );
+      await expect(
+        page.locator('#catalog-results input[id^="source-"]'),
+      ).toHaveCount(localized.length);
+      await expect(page.locator('#catalog-results details')).toHaveCount(
+        new Set(localized.map((pack) => pack.questions[0].category)).size,
+      );
       for (const category of [
         'general',
         'nature',
@@ -118,10 +126,11 @@ for (const language of ['cs', 'en']) {
         'politics',
         'science',
       ]) {
-        await page.locator('#catalog-category').selectOption(category);
-        await expect(page.locator('#catalog-results input')).toHaveCount(2);
-        await expect(page.locator('#catalog-status')).toContainText('2 / 36');
-        await expect(page.locator('#catalog-results')).toContainText(
+        await expect(page.locator(`#decks-${category} input`)).toHaveCount(
+          localized.filter((pack) => pack.questions[0].category === category)
+            .length,
+        );
+        await expect(page.locator(`#decks-${category}`)).toContainText(
           preparationStrings[language].categories[category],
         );
       }
@@ -139,10 +148,12 @@ for (const language of ['cs', 'en']) {
       );
       expect(pack.id).toBe(`general-${language}-01`);
       await page.locator('#reset-catalog').click();
-      await expect(page.locator('#catalog-results input')).toHaveCount(36);
-      await expect(page.locator('#catalog-results input:checked')).toHaveCount(
-        1,
-      );
+      await expect(
+        page.locator('#catalog-results input[id^="source-"]'),
+      ).toHaveCount(localized.length);
+      await expect(
+        page.locator('#catalog-results input[id^="source-"]:checked'),
+      ).toHaveCount(1);
     });
   }
 

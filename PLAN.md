@@ -2,7 +2,37 @@
 
 ## Status and instructions for the next session
 
-Last updated: 2026-10-29.
+Last updated: 2026-10-30.
+
+**Owner category decision, 2026-10-30 17:15:** broaden Programming to
+**Computing and Programming**, retaining the **general-adult Easy / Medium /
+Hard** rubric. The selected option was: "Broaden to Computing and Programming;
+keep general-adult difficulty". This includes general computing and practical
+computer literacy as well as genuine programming; it does not make difficulty
+relative to novice programmers. Keep the existing `programming` category ID
+for format compatibility, with localized display names "Computing and
+Programming" / "Informatika a programování". Apply the scope consistently to
+both languages, all three levels and phases 11/12; retain all quotas.
+The coordinator must reassess affected category-fit judgments and any remaining
+factual, alias, disclosure or difficulty findings under this explicit amendment.
+Preserve accepted factual evidence through exact hash continuity; do not
+auto-clear the previously rejected questions or discard the historical review.
+The scope-decision blocker is resolved, not the phase gate. Resume paused
+bounded work from its checkpoints; General phase 12 and the visual bundle
+remain exclusively owned by the separate preparation session.
+
+**Owner scheduling amendment, 2026-10-30 16:03:** phase-12 preparation may
+overlap phase 11 for already accepted categories; the bundled visual changes
+may be developed in an isolated worktree concurrently. Phase-11 review and
+separate integration/delivery gates remain mandatory. Check both phases'
+accepted and staged questions, canonical answers, aliases and semantic facts
+for duplication before authoring and again at integration. The original
+coordinator remains sole main-checkout integrator. A bounded preparation
+session reserves phase-12 General knowledge and the visual bundle; do not
+duplicate those assignments. Read the operational ownership and safeguards in
+`.artifacts/continuation/CROSS-PHASE-PARALLELISM.md` and its linked status before
+launching phase-12 or visual work. This supersedes sequential-start statements
+below, not the library quotas or review standards.
 
 This is the handoff document for a new, publicly hosted, browser-based quiz
 inspired by the mechanics of the Czech television show AZ-kviz. The selected
@@ -20,10 +50,26 @@ This document
 records the conversation's decisions; do not assume that proposals below have
 been approved.
 
-**Current stage: phase 9 is cleared and delivered as `4cd16af`; phase 10
-temporary mixes, final export and simplified recorded controls is independently
-cleared after corrections, with complete coordinator post-review gates passed
-and authorized private delivery next.** Phase 9 passed independent review and complete
+**Current stage, bounded recovery 2026-10-31: phase11 independently CLEARED,
+complete coordinator postreview gates passed; authorized private delivery is
+next.** Exact catalog132/3696, all eleven categories12/336/two per language/
+difficulty; all2,800 additions/ratings and historical corrections retain complete
+independent acceptance. Four Entertainment archives contribute zero quota.
+Final review preserves original findings, sealed factual/support/semantic
+receipts and all accepted aliases. Fullquality867tests/34files, both57-module
+coverage groups, format/lint/types/build, **1433nativecases** and65negative
+coverage probes pass. Private pre-difficulty upgrade canary is captured on actual
+HTTPS before promotion; incompatible original data must remain byte-for-byte
+exportable, not automatically migrated.
+Sole integrator is new low-memory session `8bcfc276-2d9b-4c1a-bfb9-911a6eda1686`;
+retired coordinator/worker IDs are historical, not active. Phase12 retained work
+is paused; General's independently ACTIVE originalsessionc2ac2e6b remains its
+exclusive owner. No category fanout or quota reduction is authorized.
+After phase11 delivery, adopt exact reviewed visualpatch88d2b3ad through separate
+integration/review/postreview/private delivery, then stop before phase12.
+See [current handoff](docs/phase-11-handoff.md) and
+[review history](reviews/phase-11.md).
+Phase 9 passed independent review and complete
 coordinator post-review gates. The initial
 CHANGES REQUIRED verdict and subsequent clearance are preserved in
 [the phase-9 review](reviews/phase-09.md). Phase 8 was accepted for
@@ -37,7 +83,8 @@ The requested private automatic-main Tailscale preview is now operational:
 actual HTTPS and automatic-after-push updates were verified without disrupting
 an open game. This is not phase-8 public-release clearance. See
 `reviews/phase-07.md` for the final source audit and verification evidence.
-All 36 packs / 1,008 entries are independently cleared. The owner chose to keep
+The historical 36 packs / 1,008 entries were independently cleared in phases 5–7;
+that clearance does not cover the new phase-11 entries. The owner chose to keep
 the preview private and retain HexY pending a proper conflict assessment.
 The owner authorized a future limited initial release with controller/tablet
 support explicitly unverified/experimental and the stated browser/accessibility
@@ -125,6 +172,33 @@ per player, and both D-pad/left-stick navigation. Prior public-release follow-up
 remain deferred. Use the existing developer/reviewer/post-review delivery loop.
 
 ### Phases 11 and 12: difficulty library and folder catalog — approved 2026-10-30
+
+Owner follow-up, 2026-10-30 15:37: publish immutable completed 2–4-deck review
+batches, with full first-deck entry review and early difficulty calibration at
+each level. Preserve already frozen category reviews rather than restart them.
+Corrections require fresh judgment only on changed questions/evidence, with
+exact unchanged question AND supporting-evidence hash continuity; expand scope
+where a shared source/rubric change invalidates prior judgments. All-entry initial
+review and complete category/final phase gates remain mandatory.
+
+After phases 11 and 12 are delivered, one approved visual phase bundles enlarged
+selected tiles during their existing initial-reveal flip, a full-to-empty clockwise
+countdown in the answering player's configured color derived from the authoritative
+deadline, and consistent defaults A `#129FB5` / B `#FBA123` in both themes.
+Preserve explicit custom and saved/imported colors, reduced motion, focus/fit,
+untimed opponent/duel behavior and timing/recovery/stale-resource invariants.
+
+Owner scheduling amendment, 2026-10-30: remaining category authors and independent
+frozen-bundle reviewers may run meaningfully in parallel in category-specific
+ignored staging directories. The coordinator remains the sole shared-checkout
+integrator; authors must not edit shared source/catalog/tests/docs. Start with
+approximately four authors, adjust to observed throughput and review backlog.
+Reuse complete accepted reviews through exact hash continuity. Central quality,
+coverage, build and preview runners remain serialized. Integrate reviewed bundles
+only; complete per-entry factual/editorial review and final independent phase and
+coordinator post-review gates remain mandatory. Phase 12 production starts only
+after phase-11 delivery. This supersedes older serial-content scheduling, not
+quality, data, private-hosting or scope constraints. No spending ceiling supplied.
 
 Begin phase 11 only after phase-10 reviewed delivery. Keep the eight categories
 other than Entertainment; replace Entertainment with exactly Games,
@@ -419,21 +493,28 @@ Host correction controls are scoped to hosted mode, not automatic mode.
 2. Nature
 3. Politics and diplomacy
 4. History
-5. Programming
+5. Computing and Programming (`programming`; Informatika a programování)
 6. Geography and travel
 7. Arts and literature
-8. Entertainment
-9. Science and technology
+8. Science and technology
+9. Games (video, board and card)
+10. Movies/Series (including animation)
+11. Sports
 
 Proposed editorial distinction: Science and technology focuses on physics,
 chemistry, engineering and inventions, rather than duplicating Nature or
-Programming. Prefer stable political institutions/concepts over changing
+Computing and Programming, which includes practical computer literacy as well
+as programming under the same general-adult difficulty rubric. Prefer stable political institutions/concepts over changing
 officeholders.
 
 ### Authored letter packs: confirmed scope
 
-- Two deliberately authored 28-question packs per category per language.
-- Nine categories x two packs x two languages = **36 packs / 1,008 entries**.
+- Phase 11: two deliberately authored 28-question packs per category,
+  difficulty and language: **132 packs / 3,696 entries**.
+- Phase 12: five per combination: **330 packs / 9,240 entries** total.
+- The prior nine-category, 36-pack / 1,008-entry inventory is the reviewed
+  phases-1–7 baseline, not the phase-11 completion gate. Entertainment is replaced
+  by exactly Games, Movies/Series and Sports; no Music category.
 - Earlier discussion said 896 entries for eight categories. The user subsequently
   split Arts/literature and Entertainment into separate categories, increasing
   the total to nine; 1,008 is the resulting scope, not an additional content tier.
@@ -512,7 +593,9 @@ Proposed invariants:
   aliases, category, language, and factual source/provenance.
 - Pack fields: schema version, ID/title, language, board mode/placement where
   applicable, authorship, license and questions.
-- Decide whether difficulty and editorial verification dates are needed.
+- Difficulty is mandatory and localized as Easy/Medium/Hard. Version-2 packs
+  reject missing difficulty; preserve protected legacy browser records and
+  provide exact-byte recovery/export rather than guessing imported levels.
 - Treat imported text as text, never executable HTML.
 - Imported private content retains its own rights; do not automatically apply
   CC BY 4.0 to arbitrary third-party imports.
@@ -710,7 +793,7 @@ design-pattern choices at every gate; do not mistake unnecessary abstractions
 for clean OOP.
 
 Early playable phases may use clearly identified starter packs. This does not
-reduce the final 36-pack / 1,008-entry scope. Preserve the phase ledger and actual
+reduce the approved phase-11 132-pack / 3,696-entry scope. Preserve the phase ledger and actual
 review evidence so another session can resume without reconstructing the chat.
 
 ## Acceptance criteria
@@ -736,8 +819,8 @@ review evidence so another session can resume without reconstructing the chat.
 - Czech Ch and English CH/SH labels and pack assignments work correctly.
 - Answer normalization accepts agreed variants without fuzzy matching.
 - Every bundled fixed pack has all 28 required labels, exactly once.
-- 36 authored packs and 1,008 reviewed entries exist across the nine categories
-  and two languages.
+- Phase 11: 132 authored packs and 3,696 reviewed entries exist across the eleven
+  categories, three adult difficulties and two languages; exactly two per combination.
 - Generated games contain 28 eligible non-repeated questions and respect selections.
 - Export/reimport preserves generated and custom packs; invalid data produces
   actionable errors without corrupting existing state.
@@ -766,3 +849,15 @@ implementation, and committing and pushing every phase after independent review
 and thorough post-review testing. Service changes and deployment still require
 approval of the concrete hosting arrangement. See `IMPLEMENTATION_PHASES.md`
 for the latest handoff.
+
+### Current phase-11 Geography correction checkpoint
+
+The complete independent Geography review accepted 219 unaffected additions and
+all eight adult difficulty assignments. P11-GEO-R1–R4 require five localized
+corrections: Britain/stream aliases, explicit glacial landform clues in Czech
+and English, and a landform clue fitting both Inselberg and monadnock.
+The corrected five entries await independent narrow recheck; this does not
+reopen accepted General/Nature content or the 32 retained classifications.
+Current catalog 60/1,680; Geography 12/336; 76 final decks/2,128 questions remain
+toward 132/3,696. Full phase 11 is **NOT CLEARED**; phase 12 has not started.
+Original manifests, source bodies and independent reports remain immutable.

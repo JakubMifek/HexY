@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-cs-hard-01",
+  "title": "Sport · Těžká · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-cs-hard-01-01",
+      "text": "Jak se v golfu označuje výsledek tři rány pod par na jediné jamce?",
+      "initial": "A",
+      "answer": "Albatros",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Albatross", "Double eagle"],
+      "sources": ["https://en.wikipedia.org/wiki/Par_(score)"]
+    },
+    {
+      "id": "sports-cs-hard-01-02",
+      "text": "Jak se v baseballu anglicky označuje nedovolený pohyb nadhazovače, za který mohou běžci postoupit o metu?",
+      "initial": "B",
+      "answer": "Balk",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Balk"]
+    },
+    {
+      "id": "sports-cs-hard-01-03",
+      "text": "Jak se nazývá italský fotbalový systém, jehož název znamená „závora“ a který klade důraz na obranu?",
+      "initial": "C",
+      "answer": "Catenaccio",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Catenaccio"]
+    },
+    {
+      "id": "sports-cs-hard-01-04",
+      "text": "Jaké příjmení má Roman, český hokejový útočník a kapitán mistrů světa z roku 2024?",
+      "initial": "Č",
+      "answer": "Červenka",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Roman Červenka"],
+      "sources": ["https://cs.wikipedia.org/wiki/Roman_%C4%8Cervenka"]
+    },
+    {
+      "id": "sports-cs-hard-01-05",
+      "text": "Jak se v kriketu nazývá nadhoz off-spinnera, který se po dopadu stáčí opačně než běžný off break?",
+      "initial": "D",
+      "answer": "Doosra",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Doosra"]
+    },
+    {
+      "id": "sports-cs-hard-01-06",
+      "text": "Jak se japonským slovem nazývá silniční štafetový běh na dlouhou vzdálenost?",
+      "initial": "E",
+      "answer": "Ekiden",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ekiden"]
+    },
+    {
+      "id": "sports-cs-hard-01-07",
+      "text": "Jak se nazývá technika skoku vysokého zády k laťce, proslavená olympijským vítězem roku 1968?",
+      "initial": "F",
+      "answer": "Fosburyho flop",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Flop", "Fosbury flop"],
+      "sources": ["https://en.wikipedia.org/wiki/Fosbury_flop"]
+    },
+    {
+      "id": "sports-cs-hard-01-08",
+      "text": "Jaká metoda v severské kombinaci převádí body ze skoku na lyžích na časové odstupy pro start běhu?",
+      "initial": "G",
+      "answer": "Gundersenova metoda",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Gundersen", "Gundersenův systém"],
+      "sources": ["https://en.wikipedia.org/wiki/Gundersen_method"]
+    },
+    {
+      "id": "sports-cs-hard-01-09",
+      "text": "Jaký anglický výraz označuje v curlingu výhodu posledního kamene v endu?",
+      "initial": "H",
+      "answer": "Hammer",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Kladivo", "Výhoda posledního kamene"],
+      "sources": ["https://en.wikipedia.org/wiki/Curling"]
+    },
+    {
+      "id": "sports-cs-hard-01-10",
+      "text": "Jaké příjmení má americká krasobruslařka Madison, mistryně světa v tancích na ledě 2023 s Evanem Batesem?",
+      "initial": "Ch",
+      "answer": "Chocková",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Chock", "Madison Chock", "Madison Chocková"],
+      "sources": ["https://en.wikipedia.org/wiki/Madison_Chock"]
+    },
+    {
+      "id": "sports-cs-hard-01-11",
+      "text": "Který judistický hod se japonsky označuje jako jednoruční hod přes rameno?",
+      "initial": "I",
+      "answer": "Ippon-seoi-nage",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Ippon seoi nage",
+        "Ippon seoinage",
+        "Ippon-seoi nage",
+        "Ippon seoi-nage"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Ippon_seoi_nage"]
+    },
+    {
+      "id": "sports-cs-hard-01-12",
+      "text": "Jak se v profesionálním sumó nazývá hodnost velkého šampiona, z níž zápasník nemůže sestoupit?",
+      "initial": "J",
+      "answer": "Jokozuna",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Yokozuna"],
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Sum%C3%B3",
+        "https://en.wikipedia.org/wiki/Makuuchi"
+      ]
+    },
+    {
+      "id": "sports-cs-hard-01-13",
+      "text": "V jaké dráhové cyklistické disciplíně jezdci před závěrečným sprintem následují vodiče?",
+      "initial": "K",
+      "answer": "Keirin",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Keirin"]
+    },
+    {
+      "id": "sports-cs-hard-01-14",
+      "text": "Který odpíchnutý krasobruslařský skok vychází ze zadní vnější hrany a je protirotační: bruslař se při přípravě vytáčí opačně, než pak rotuje ve vzduchu?",
+      "initial": "L",
+      "answer": "Lutz",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Lutzův skok", "Lutz jump"],
+      "sources": ["https://en.wikipedia.org/wiki/Lutz_jump"]
+    },
+    {
+      "id": "sports-cs-hard-01-15",
+      "text": "Ve které dráhové cyklistické disciplíně se dvojice jezdců střídají, často švihem za ruce?",
+      "initial": "M",
+      "answer": "Madison",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Madison race"],
+      "sources": ["https://en.wikipedia.org/wiki/Madison_(cycling)"]
+    },
+    {
+      "id": "sports-cs-hard-01-16",
+      "text": "Jakým japonským souhrnným názvem se v judu označují techniky hodů?",
+      "initial": "N",
+      "answer": "Nage-waza",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Nage waza", "Nagewaza"],
+      "sources": ["https://en.wikipedia.org/wiki/Judo"]
+    },
+    {
+      "id": "sports-cs-hard-01-17",
+      "text": "Který judistický hod má název znamenající „velký vnější podmet“?",
+      "initial": "O",
+      "answer": "Osoto gari",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["O soto gari", "O-soto-gari", "Osotogari"],
+      "sources": ["https://en.wikipedia.org/wiki/Osoto_gari"]
+    },
+    {
+      "id": "sports-cs-hard-01-18",
+      "text": "Které starořecké bojové umění se stalo olympijskou disciplínou v roce 648 př. n. l.?",
+      "initial": "P",
+      "answer": "Pankrátion",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://cs.wikipedia.org/wiki/Pankration"]
+    },
+    {
+      "id": "sports-cs-hard-01-19",
+      "text": "Jakým přejatým slovem se označuje opravná část soutěže, která dává některým poraženým další šanci?",
+      "initial": "R",
+      "answer": "Repecháž",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Repasáž", "Repechage", "Opravné kolo", "Opravné boje"],
+      "sources": ["https://en.wikipedia.org/wiki/Repechage"]
+    },
+    {
+      "id": "sports-cs-hard-01-20",
+      "text": "Jak se nazývá funkcionář motoristického závodu, který dohlíží na jeho průběh a řídí řešení bezpečnostních incidentů?",
+      "initial": "Ř",
+      "answer": "Ředitel závodu",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Race director"],
+      "sources": ["https://en.wikipedia.org/wiki/Race_director"]
+    },
+    {
+      "id": "sports-cs-hard-01-21",
+      "text": "Který krasobruslařský skok pojmenovaný po švédském závodníkovi se odráží ze zadní vnitřní hrany?",
+      "initial": "S",
+      "answer": "Salchow",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Salchowův skok", "Salchow jump"],
+      "sources": ["https://en.wikipedia.org/wiki/Salchow_jump"]
+    },
+    {
+      "id": "sports-cs-hard-01-22",
+      "text": "Jaké příjmení má Zdeněk, mistr světa elitních mužů v cyklokrosu z let 2010, 2011 a 2014?",
+      "initial": "Š",
+      "answer": "Štybar",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Zdeněk Štybar"],
+      "sources": ["https://en.wikipedia.org/wiki/Zden%C4%9Bk_%C5%A0tybar"]
+    },
+    {
+      "id": "sports-cs-hard-01-23",
+      "text": "Jak se nazývá lyžařská technika s volnou patou a typickým pokrčením jednoho kolena v oblouku?",
+      "initial": "T",
+      "answer": "Telemark",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Telemarkové lyžování"],
+      "sources": ["https://en.wikipedia.org/wiki/Telemark_skiing"]
+    },
+    {
+      "id": "sports-cs-hard-01-24",
+      "text": "Který judistický hod se v překladu nazývá „vnitřní stehno“?",
+      "initial": "U",
+      "answer": "Uči-mata",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Uchi-mata", "Uchi mata", "Učimata", "Uchimata"],
+      "sources": ["https://en.wikipedia.org/wiki/Uchi_mata"]
+    },
+    {
+      "id": "sports-cs-hard-01-25",
+      "text": "Jak se nazývá překrývající se golfový úchop pojmenovaný po šestinásobném vítězi The Open?",
+      "initial": "V",
+      "answer": "Vardonův úchop",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Vardonovo držení",
+        "Vardon grip",
+        "Překrývající úchop",
+        "Overlapping grip"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Harry_Vardon"]
+    },
+    {
+      "id": "sports-cs-hard-01-26",
+      "text": "Jak se japonsky nazývá judistické hodnocení o stupeň nižší než ippon?",
+      "initial": "W",
+      "answer": "Waza-ari",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Waza ari", "Wazaari"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Waza-ari",
+        "https://www.ijf.org/news/show/new-rules-what-to-remember"
+      ]
+    },
+    {
+      "id": "sports-cs-hard-01-27",
+      "text": "Jaký japonský pojem v bojových uměních označuje přetrvávající bdělost a připravenost po provedení techniky?",
+      "initial": "Z",
+      "answer": "Zanshin",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Zanšin"],
+      "sources": ["https://en.wikipedia.org/wiki/Zanshin"]
+    },
+    {
+      "id": "sports-cs-hard-01-28",
+      "text": "Jaké příjmení má Richard, hokejový útočník Sparty a bronzový medailista ze zimní olympiády 1992, který hrál i na hrách 1994?",
+      "initial": "Ž",
+      "answer": "Žemlička",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Richard Žemlička"],
+      "sources": ["https://en.wikipedia.org/wiki/Richard_%C5%BDemli%C4%8Dka"]
+    }
+  ]
+}

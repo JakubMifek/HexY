@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 2,
+  "id": "science-cs-easy-01",
+  "title": "Věda a technika · Snadné · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-easy-01-01",
+      "text": "Jak se nazývá obor zkoumající proudění vzduchu a síly, jimiž působí například na letadlo?",
+      "initial": "A",
+      "answer": "Aerodynamika",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aerodynamics",
+        "https://cs.wikipedia.org/wiki/Aerodynamika"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-02",
+      "text": "Jak se nazývá stavební směs pojiva, vody a kameniva, která po zatvrdnutí tvoří například základy domů?",
+      "initial": "B",
+      "answer": "Beton",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Concrete",
+        "https://cs.wikipedia.org/wiki/Beton"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-03",
+      "text": "Jak se nazývá práškové pojivo, které se s vodou a kamenivem používá k výrobě běžného betonu?",
+      "initial": "C",
+      "answer": "Cement",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cement",
+        "https://cs.wikipedia.org/wiki/Cement"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-04",
+      "text": "Jak se nazývá stroj, který dodává kapalině energii, aby ji dopravoval například ze studny do potrubí?",
+      "initial": "Č",
+      "answer": "Čerpadlo",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Pumpa"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pump",
+        "https://cs.wikipedia.org/wiki/%C4%8Cerpadlo"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-05",
+      "text": "Jak se nazývá dlouhý tenký kovový výrobek kruhového průřezu, používaný například jako elektrický vodič?",
+      "initial": "D",
+      "answer": "Drát",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wire",
+        "https://cs.wikipedia.org/wiki/Dr%C3%A1t"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-06",
+      "text": "Jak se nazývá magnet, jehož magnetické pole vytváří elektrický proud v cívce?",
+      "initial": "E",
+      "answer": "Elektromagnet",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electromagnet",
+        "https://cs.wikipedia.org/wiki/Elektromagnet"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-07",
+      "text": "Jak se nazývá pomůcka, která při překapávání kávy zachytí pevné částečky a propustí kapalinu?",
+      "initial": "F",
+      "answer": "Filtr",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Kávový filtr", "Filtr na kávu"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Coffee_filter",
+        "https://cs.wikipedia.org/wiki/Filtrace"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-08",
+      "text": "Jak se obecně nazývá zařízení, které mění mechanickou energii na elektrickou?",
+      "initial": "G",
+      "answer": "Generátor",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Elektrický generátor"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electric_generator",
+        "https://cs.wikipedia.org/wiki/Elektrick%C3%BD_gener%C3%A1tor"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-09",
+      "text": "Který lehký kov se značkou Al tvoří běžný kuchyňský alobal?",
+      "initial": "H",
+      "answer": "Hliník",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Aluminium"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aluminium",
+        "https://cs.wikipedia.org/wiki/Hlin%C3%ADk"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-10",
+      "text": "Jak se nazývá povrchová úprava, při níž se na předmět nanáší tenká kovová vrstva prvku Cr?",
+      "initial": "Ch",
+      "answer": "Chromování",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Pochromování"],
+      "sources": ["https://en.wikipedia.org/wiki/Chrome_plating"]
+    },
+    {
+      "id": "science-cs-easy-01-11",
+      "text": "Jak se v elektrotechnice nazývá materiál, který za daných podmínek velmi špatně vede elektrický proud?",
+      "initial": "I",
+      "answer": "Izolant",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Elektrický izolant", "Nevodič"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electrical_insulator",
+        "https://cs.wikipedia.org/wiki/Elektrick%C3%BD_izolant"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-12",
+      "text": "Jak se nazývá krátký elektrický výboj, který například přeskočí mezi kontakty zapalovací svíčky?",
+      "initial": "J",
+      "answer": "Jiskra",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Elektrická jiskra"],
+      "sources": ["https://en.wikipedia.org/wiki/Electric_spark"]
+    },
+    {
+      "id": "science-cs-easy-01-13",
+      "text": "Jak se nazývá jednoduchý stroj s drážkovaným kolečkem a lanem, který může měnit směr tažné síly?",
+      "initial": "K",
+      "answer": "Kladka",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pulley",
+        "https://cs.wikipedia.org/wiki/Kladka"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-14",
+      "text": "Jak se nazývá slitina železa s více než přibližně dvěma procenty uhlíku, z níž bývají těžké pánve a radiátory?",
+      "initial": "L",
+      "answer": "Litina",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cast_iron",
+        "https://cs.wikipedia.org/wiki/Litina"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-15",
+      "text": "Jak se nazývá předmět, který si bez elektrického napájení zachovává vlastní magnetické pole a přitahuje například železné hřebíky?",
+      "initial": "M",
+      "answer": "Magnet",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Permanentní magnet", "Trvalý magnet"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Magnet",
+        "https://cs.wikipedia.org/wiki/Magnet"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-16",
+      "text": "Jak se běžně nazývá ocel s dostatečným obsahem chromu pro zvýšenou odolnost proti korozi, používaná na příbory?",
+      "initial": "N",
+      "answer": "Nerezová ocel",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Nerez", "Korozivzdorná ocel", "Nerezavějící ocel"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stainless_steel",
+        "https://cs.wikipedia.org/wiki/Korozivzdorn%C3%A1_ocel"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-17",
+      "text": "Jak se nazývá základní konstrukční slitina železa s uhlíkem, v níž bývá uhlíku méně než přibližně dvě procenta?",
+      "initial": "O",
+      "answer": "Ocel",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Steel",
+        "https://cs.wikipedia.org/wiki/Ocel"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-18",
+      "text": "Jak se nazývá pohyblivá součást uvnitř válce spalovacího motoru, na kterou působí tlak spalin?",
+      "initial": "P",
+      "answer": "Píst",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Piston",
+        "https://cs.wikipedia.org/wiki/P%C3%ADst"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-19",
+      "text": "Jak se běžně nazývá lékařské vyšetření pomocí záření X, při němž vzniká snímek vnitřních struktur těla?",
+      "initial": "R",
+      "answer": "Rentgen",
+      "language": "cs",
+      "category": "science",
+      "aliases": [
+        "Rentgenové vyšetření",
+        "Radiografie",
+        "Skiagrafie",
+        "Rentgenografie"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Radiography",
+        "https://cs.wikipedia.org/wiki/Skiagrafie"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-20",
+      "text": "Co u běžného jízdního kola s přehazovačkou přenáší tah mezi ozubenými koly u pedálů a zadního kola?",
+      "initial": "Ř",
+      "answer": "Řetěz",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Cyklistický řetěz"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chain_drive",
+        "https://cs.wikipedia.org/wiki/%C5%98et%C4%9Bz"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-21",
+      "text": "Jak se nazývá průhledný amorfní materiál, z něhož se běžně vyrábějí okenní tabule?",
+      "initial": "S",
+      "answer": "Sklo",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Glass",
+        "https://cs.wikipedia.org/wiki/Sklo"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-22",
+      "text": "Který ruční nástroj má hrot určený k otáčení šroubů s odpovídající drážkou v hlavě?",
+      "initial": "Š",
+      "answer": "Šroubovák",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Screwdriver",
+        "https://cs.wikipedia.org/wiki/%C5%A0roubov%C3%A1k"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-23",
+      "text": "Jak se nazývá síla působící proti vzájemnému posouvání dvou dotýkajících se povrchů?",
+      "initial": "T",
+      "answer": "Tření",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Třecí síla"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Friction",
+        "https://cs.wikipedia.org/wiki/T%C5%99en%C3%AD"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-24",
+      "text": "Jak se v elektrotechnice nazývá vodivé spojení zařízení se zemí, používané mimo jiné k ochraně před úrazem?",
+      "initial": "U",
+      "answer": "Uzemnění",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Zemnění"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ground_(electricity)",
+        "https://cs.wikipedia.org/wiki/Uzemn%C4%9Bn%C3%AD"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-25",
+      "text": "Kterým nástrojem s bublinkou v kapalině ověříme, že police leží vodorovně?",
+      "initial": "V",
+      "answer": "Vodováha",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Libela"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spirit_level",
+        "https://cs.wikipedia.org/wiki/Vodov%C3%A1ha"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-26",
+      "text": "Pod jakou značkou Sony proslul přenosný osobní kazetový přehrávač uvedený roku 1979?",
+      "initial": "W",
+      "answer": "Walkman",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walkman",
+        "https://cs.wikipedia.org/wiki/Walkman"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-27",
+      "text": "Jak se nazývá šroubovitá drážka či výstupek na šroubu a v matici, který umožňuje jejich spojení?",
+      "initial": "Z",
+      "answer": "Závit",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Screw_thread",
+        "https://cs.wikipedia.org/wiki/Z%C3%A1vit"
+      ]
+    },
+    {
+      "id": "science-cs-easy-01-28",
+      "text": "Který domácí spotřebič vyhlazuje textilie přitlačením zahřáté hladké plochy?",
+      "initial": "Ž",
+      "answer": "Žehlička",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clothes_iron",
+        "https://cs.wikipedia.org/wiki/%C5%BDehli%C4%8Dka"
+      ]
+    }
+  ]
+}

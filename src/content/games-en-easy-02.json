@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 2,
+  "id": "games-en-easy-02",
+  "title": "Games · Easy · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-en-easy-02-01",
+      "text": "What is the usual term for a player's visible character or representation in an online game?",
+      "initial": "A",
+      "answer": "Avatar",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Avatar_%28computing%29"]
+    },
+    {
+      "id": "games-en-easy-02-02",
+      "text": "In which guessing game do opponents call out grid coordinates to locate and sink one another's hidden fleets?",
+      "initial": "B",
+      "answer": "Battleship",
+      "language": "en",
+      "aliases": ["Battleships", "Sea Battle"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Battleship_%28game%29"]
+    },
+    {
+      "id": "games-en-easy-02-03",
+      "text": "Which upright-grid game is won by making a line of four of your own coloured discs?",
+      "initial": "C",
+      "answer": "Connect Four",
+      "language": "en",
+      "aliases": [
+        "Connect 4",
+        "Four in a Row",
+        "Four in a Line",
+        "Four Up",
+        "Plot Four",
+        "Find Four",
+        "Captain's Mistress",
+        "Drop Four",
+        "Gravitrips"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Connect_Four"]
+    },
+    {
+      "id": "games-en-easy-02-04",
+      "text": "In which party guessing game does a player act out a word or phrase without speaking?",
+      "initial": "CH",
+      "answer": "Charades",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Charades"]
+    },
+    {
+      "id": "games-en-easy-02-05",
+      "text": "What board-game family has pieces move diagonally and usually capture by jumping over an opposing piece?",
+      "initial": "D",
+      "answer": "Draughts",
+      "language": "en",
+      "aliases": ["Checkers"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Draughts"]
+    },
+    {
+      "id": "games-en-easy-02-06",
+      "text": "What kind of team activity asks players to solve linked puzzles in a themed space, typically within a time limit?",
+      "initial": "E",
+      "answer": "Escape room",
+      "language": "en",
+      "aliases": ["Escape game", "Puzzle room", "Exit game", "Riddle room"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Escape_room"]
+    },
+    {
+      "id": "games-en-easy-02-07",
+      "text": "What poker hand consists of three cards of one rank and two of another?",
+      "initial": "F",
+      "answer": "Full house",
+      "language": "en",
+      "aliases": ["Full boat", "Boat", "Tight", "Full hand"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/List_of_poker_hands"]
+    },
+    {
+      "id": "games-en-easy-02-08",
+      "text": "In which face-guessing game do players ask yes-or-no questions and fold down portraits to identify a secret character?",
+      "initial": "G",
+      "answer": "Guess Who?",
+      "language": "en",
+      "aliases": ["Guess Who"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Guess_Who%3F"]
+    },
+    {
+      "id": "games-en-easy-02-09",
+      "text": "Which paper-and-pencil word game adds parts to a hanging figure after incorrect letter guesses?",
+      "initial": "H",
+      "answer": "Hangman",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hangman_%28game%29"]
+    },
+    {
+      "id": "games-en-easy-02-10",
+      "text": "In Among Us, what is the role of a player who secretly sabotages the crew and eliminates crewmates?",
+      "initial": "I",
+      "answer": "Impostor",
+      "language": "en",
+      "aliases": ["Imposter", "Impostors", "Imposters"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Among_Us"]
+    },
+    {
+      "id": "games-en-easy-02-11",
+      "text": "Which extra playing card, often pictured as a jester, is commonly used as a wild card?",
+      "initial": "J",
+      "answer": "Joker",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Joker_%28playing_card%29"]
+    },
+    {
+      "id": "games-en-easy-02-12",
+      "text": "Which pink Nintendo character inhales enemies and can copy their abilities?",
+      "initial": "K",
+      "answer": "Kirby",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Kirby_%28character%29"]
+    },
+    {
+      "id": "games-en-easy-02-13",
+      "text": "What is the full name of the adventurous archaeologist who stars in the Tomb Raider games?",
+      "initial": "L",
+      "answer": "Lara Croft",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Lara_Croft"]
+    },
+    {
+      "id": "games-en-easy-02-14",
+      "text": "Which sandbox video game has players explore and build in a world made largely of blocks?",
+      "initial": "M",
+      "answer": "Minecraft",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Minecraft"]
+    },
+    {
+      "id": "games-en-easy-02-15",
+      "text": "Which paper-and-pencil game usually asks two players to make a line of three Xs or Os on a three-by-three grid?",
+      "initial": "N",
+      "answer": "Noughts and crosses",
+      "language": "en",
+      "aliases": [
+        "Tic-tac-toe",
+        "Tic tac toe",
+        "Noughts & crosses",
+        "Xs and Os",
+        "Tick-tack-toe",
+        "Tick tack toe",
+        "Tick-tat-toe",
+        "Tick tat toe",
+        "Tit-tat-toe",
+        "Tit tat toe",
+        "Naughts and crosses",
+        "Naughts & crosses"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Tic-tac-toe"]
+    },
+    {
+      "id": "games-en-easy-02-16",
+      "text": "Which dexterity game asks players to remove small objects from a patient with tweezers without touching the metal edges?",
+      "initial": "O",
+      "answer": "Operation",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_%28game%29"]
+    },
+    {
+      "id": "games-en-easy-02-17",
+      "text": "Which yellow Electric-type Pokémon has red cheeks and a lightning-bolt-shaped tail?",
+      "initial": "P",
+      "answer": "Pikachu",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Pikachu"]
+    },
+    {
+      "id": "games-en-easy-02-18",
+      "text": "What is the general name for a game or contest in which people answer questions to test their knowledge?",
+      "initial": "Q",
+      "answer": "Quiz",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Quiz"]
+    },
+    {
+      "id": "games-en-easy-02-19",
+      "text": "Which hand game uses three signs, with the cutting sign beating paper but losing to rock?",
+      "initial": "R",
+      "answer": "Rock paper scissors",
+      "language": "en",
+      "aliases": [
+        "Rock-paper-scissors",
+        "Ro-sham-bo",
+        "Roshambo",
+        "Rochambeau",
+        "Rock, paper, scissors",
+        "Scissors, paper, stone",
+        "Scissors paper stone",
+        "Scissors, paper, rock",
+        "Scissors paper rock",
+        "Paper, scissors, rock",
+        "Paper scissors rock",
+        "Rock, scissors, paper",
+        "Rock scissors paper",
+        "Jan-ken-pon",
+        "Jan ken pon",
+        "Bato Bato Pik",
+        "Pēpa, kutikuti, kōhatu",
+        "Pēpa kutikuti kōhatu"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Rock_paper_scissors"]
+    },
+    {
+      "id": "games-en-easy-02-20",
+      "text": "What is the general name for single-player card games that include Klondike and Spider?",
+      "initial": "S",
+      "answer": "Solitaire",
+      "language": "en",
+      "aliases": ["Patience", "Card solitaire"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Patience_%28game%29"]
+    },
+    {
+      "id": "games-en-easy-02-21",
+      "text": "Which Japanese relative of chess allows captured pieces to return to the board as the capturing player's pieces?",
+      "initial": "SH",
+      "answer": "Shogi",
+      "language": "en",
+      "aliases": ["Japanese chess"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Shogi"]
+    },
+    {
+      "id": "games-en-easy-02-22",
+      "text": "Which board-game series tests general knowledge and is known for collecting coloured wedges in a playing piece?",
+      "initial": "T",
+      "answer": "Trivial Pursuit",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Trivial_Pursuit"]
+    },
+    {
+      "id": "games-en-easy-02-23",
+      "text": "Which French game publisher is behind Assassin's Creed, Rayman and Just Dance?",
+      "initial": "U",
+      "answer": "Ubisoft",
+      "language": "en",
+      "aliases": [
+        "Ubisoft Entertainment",
+        "Ubisoft Entertainment SA",
+        "Ubi Soft",
+        "Ubi Soft Entertainment SA"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ubisoft"]
+    },
+    {
+      "id": "games-en-easy-02-24",
+      "text": "What is the name of Fortnite's in-game currency used to buy cosmetic outfits and emotes?",
+      "initial": "V",
+      "answer": "V-Bucks",
+      "language": "en",
+      "aliases": ["V Bucks", "Vbucks", "V-Buck", "V Buck", "Vbuck"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fortnite_Battle_Royale"]
+    },
+    {
+      "id": "games-en-easy-02-25",
+      "text": "Which web word game gives players six attempts to guess a five-letter word, using coloured feedback?",
+      "initial": "W",
+      "answer": "Wordle",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wordle"]
+    },
+    {
+      "id": "games-en-easy-02-26",
+      "text": "Which Microsoft home console, released between the original Xbox and Xbox One, introduced support for the Kinect sensor?",
+      "initial": "X",
+      "answer": "Xbox 360",
+      "language": "en",
+      "aliases": ["Microsoft Xbox 360"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Xbox_360"]
+    },
+    {
+      "id": "games-en-easy-02-27",
+      "text": "Which dinosaur-like Nintendo character often carries Mario and catches enemies with a long tongue?",
+      "initial": "Y",
+      "answer": "Yoshi",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Yoshi"]
+    },
+    {
+      "id": "games-en-easy-02-28",
+      "text": "Which kind of undead creature do players repel with defensive plants in PopCap's original tower-defence game?",
+      "initial": "Z",
+      "answer": "Zombie",
+      "language": "en",
+      "aliases": ["Zombies"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Plants_vs._Zombies"]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "movies-cs-hard-01",
+  "title": "Filmy a seriály · Těžká 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-cs-hard-01-01",
+      "text": "Který Tarkovského film se v epizodách věnuje životu ruského malíře ikon v patnáctém století?",
+      "initial": "A",
+      "answer": "Andrej Rublev",
+      "language": "cs",
+      "aliases": [
+        "Andrei Rublev",
+        "Andrey Rublev",
+        "Andrey Rublyov",
+        "The Passion According to Andrei"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Andrei_Rublev_%28film%29",
+        "https://www.themoviedb.org/movie/895?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-02",
+      "text": "Jaké příjmení má Ingmar, režisér filmu Persona s Bibi Anderssonovou a Liv Ullmannovou?",
+      "initial": "B",
+      "answer": "Bergman",
+      "language": "cs",
+      "aliases": ["Ingmar Bergman", "Ernst Ingmar Bergman"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Persona_%281966_film%29",
+        "https://en.wikipedia.org/wiki/Ingmar_Bergman"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-03",
+      "text": "Který francouzský režisér natočil Holy Motors s Denisem Lavantem v roli pana Oscara?",
+      "initial": "C",
+      "answer": "Carax",
+      "language": "cs",
+      "aliases": [
+        "Leos Carax",
+        "Alex Christophe Dupont",
+        "Alex Dupont",
+        "Dupont"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Holy_Motors",
+        "https://en.wikipedia.org/wiki/Leos_Carax"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-04",
+      "text": "Který animovaný film Michaëla Dudoka de Wita z roku 2016, vzniklý v koprodukci studia Ghibli, sleduje trosečníka bez mluvených dialogů?",
+      "initial": "Č",
+      "answer": "Červená želva",
+      "language": "cs",
+      "aliases": ["The Red Turtle", "La Tortue rouge"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cerven%C3%A1_%C5%BEelva",
+        "https://en.wikipedia.org/wiki/The_Red_Turtle"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-05",
+      "text": "Který film Larse von Triera z roku 2003 s Nicole Kidmanovou používá nezvykle minimalistické scénické kulisy?",
+      "initial": "D",
+      "answer": "Dogville",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Dogville",
+        "https://en.wikipedia.org/wiki/Dogville"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-06",
+      "text": "Jak se jmenuje Lynchův celovečerní debut z roku 1977 s postavou Henryho a jeho podivným dítětem?",
+      "initial": "E",
+      "answer": "Eraserhead",
+      "language": "cs",
+      "aliases": ["Mazací hlava"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Mazac%C3%AD_hlava",
+        "https://en.wikipedia.org/wiki/Eraserhead"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-07",
+      "text": "Jaké příjmení má Rainer Werner, který režíroval televizní adaptaci Berlin Alexanderplatz z roku 1980?",
+      "initial": "F",
+      "answer": "Fassbinder",
+      "language": "cs",
+      "aliases": [
+        "Rainer Werner Fassbinder",
+        "R. W. Fassbinder",
+        "R.W. Fassbinder"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz_%28miniseries%29",
+        "https://en.wikipedia.org/wiki/Rainer_Werner_Fassbinder"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-08",
+      "text": "Který italský seriál uvedený roku 2014 sleduje klan Savastanových v neapolském podsvětí?",
+      "initial": "G",
+      "answer": "Gomora",
+      "language": "cs",
+      "aliases": ["Gomorrah", "Gomorra", "Gomorra - La serie"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gomorrah_%28TV_series%29",
+        "https://www.themoviedb.org/tv/61068?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-09",
+      "text": "Jaké příjmení má Michael, režisér černobílého filmu Bílá stuha?",
+      "initial": "H",
+      "answer": "Haneke",
+      "language": "cs",
+      "aliases": ["Michael Haneke"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_White_Ribbon",
+        "https://en.wikipedia.org/wiki/Michael_Haneke"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-10",
+      "text": "Který film Richarda Linklatera zachycuje dospívání Masona, přičemž Ellar Coltrane v této roli během dlouholetého natáčení skutečně vyrůstal?",
+      "initial": "Ch",
+      "answer": "Chlapectví",
+      "language": "cs",
+      "aliases": ["Boyhood"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chlapectv%C3%AD_(film)",
+        "https://en.wikipedia.org/wiki/Boyhood_%282014_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-11",
+      "text": "Ve kterém filmu Pawła Pawlikowského mladá novicka zjistí před složením slibů, že pochází z židovské rodiny?",
+      "initial": "I",
+      "answer": "Ida",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Ida_%28film%29"]
+    },
+    {
+      "id": "movies-cs-hard-01-12",
+      "text": "Který film Chantal Akermanové z roku 1975 pečlivě sleduje každodenní domácí rutinu vdovy hrané Delphine Seyrigovou?",
+      "initial": "J",
+      "answer": "Jeanne Dielmanová, Obchodní nábřeží 23, 1080 Brusel",
+      "language": "cs",
+      "aliases": [
+        "Jeanne Dielman",
+        "Jeanne Dielmanová",
+        "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+        "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+        "Jeanne Dielman, 23 Commerce Quay, 1080 Brussels"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jeanne_Dielman%2C_23_quai_du_Commerce%2C_1080_Bruxelles",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q1686012.json"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-13",
+      "text": "Jaké příjmení má Aki, režisér finského filmu Karaoke blues z roku 2023?",
+      "initial": "K",
+      "answer": "Kaurismäki",
+      "language": "cs",
+      "aliases": ["Aki Kaurismäki", "Aki Olavi Kaurismäki"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fallen_Leaves_%28film%29",
+        "https://en.wikipedia.org/wiki/Aki_Kaurism%C3%A4ki",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q113396073.json"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-14",
+      "text": "Který francouzský seriál z roku 2012 sleduje horské městečko, do něhož se vracejí mrtví lidé, aniž by zestárli?",
+      "initial": "L",
+      "answer": "Les Revenants",
+      "language": "cs",
+      "aliases": ["The Returned", "Znovuzrozeni"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Returned_%28French_TV_series%29",
+        "https://www.themoviedb.org/tv/46616?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-15",
+      "text": "Který film Františka Vláčila z roku 1967 vznikl podle stejnojmenné knihy Vladislava Vančury a odehrává se ve středověku?",
+      "initial": "M",
+      "answer": "Marketa Lazarová",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Marketa_Lazarov%C3%A1_(film)"]
+    },
+    {
+      "id": "movies-cs-hard-01-16",
+      "text": "Který animovaný film Hajaa Mijazakiho z roku 1984 sleduje princeznu v postapokalyptickém světě s toxickým lesem a obřími ohmy?",
+      "initial": "N",
+      "answer": "Naušika z Větrného údolí",
+      "language": "cs",
+      "aliases": [
+        "Nausicaä z Větrného údolí",
+        "Nausicaä of the Valley of the Wind",
+        "Kaze no Tani no Naushika",
+        "Kaze no tani no Naušika"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Nau%C5%A1ika_z_V%C4%9Btrn%C3%A9ho_%C3%BAdol%C3%AD",
+        "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_%28film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-17",
+      "text": "Který seriál HBO z let 1997–2003 se odehrává převážně v experimentálním oddělení věznice Oswald?",
+      "initial": "O",
+      "answer": "Oz",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Oz_(seri%C3%A1l)",
+        "https://en.wikipedia.org/wiki/Oz_%28TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-18",
+      "text": "Kterým filmem z roku 1955 zahájil Satjádžit Ráj trilogii o Apuovi?",
+      "initial": "P",
+      "answer": "Pather Panchali",
+      "language": "cs",
+      "aliases": [
+        "Žalozpěv stezky",
+        "Song of the Little Road",
+        "Páther pánčálí",
+        "Písnička na cestu"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pather_Panchali",
+        "https://www.themoviedb.org/movie/5801?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-19",
+      "text": "Který Kurosawův film z roku 1950 předkládá neslučitelné výpovědi o smrti samuraje a napadení jeho ženy?",
+      "initial": "R",
+      "answer": "Rašómon",
+      "language": "cs",
+      "aliases": ["Rashomon"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ra%C5%A1%C3%B3mon",
+        "https://en.wikipedia.org/wiki/Rashomon"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-20",
+      "text": "Který Spielbergův film z roku 1987 má Christiana Balea v roli britského chlapce Jima, jenž se ze Šanghaje dostane do japonského internačního tábora?",
+      "initial": "Ř",
+      "answer": "Říše slunce",
+      "language": "cs",
+      "aliases": ["Empire of the Sun"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Empire_of_the_Sun_%28film%29"]
+    },
+    {
+      "id": "movies-cs-hard-01-21",
+      "text": "Který Tarkovského film z roku 1972 posílá psychologa Krise Kelvina na stanici u planety s tajemným oceánem?",
+      "initial": "S",
+      "answer": "Solaris",
+      "language": "cs",
+      "aliases": ["Solyaris"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Solaris_%281972_film%29"]
+    },
+    {
+      "id": "movies-cs-hard-01-22",
+      "text": "Který Bergmanův film z roku 1972 sleduje tři sestry, z nichž jedna umírá na rakovinu, v domě s výrazně červenými interiéry?",
+      "initial": "Š",
+      "answer": "Šepoty a výkřiky",
+      "language": "cs",
+      "aliases": ["Cries and Whispers", "Viskningar och rop"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0epoty_a_v%C3%BDk%C5%99iky",
+        "https://en.wikipedia.org/wiki/Cries_and_Whispers"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-23",
+      "text": "Který film Jasudžiróa Ozua z roku 1953 sleduje starší manžele, kteří navštíví své dospělé děti v Tokiu?",
+      "initial": "T",
+      "answer": "Tokyo Story",
+      "language": "cs",
+      "aliases": ["Příběh z Tokia", "Tōkyō Monogatari"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/P%C5%99%C3%ADb%C4%9Bh_z_Tokia",
+        "https://en.wikipedia.org/wiki/Tokyo_Story",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q26060.json"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-24",
+      "text": "Který film Nuriho Bilge Ceylana z roku 2002 sleduje istanbulského fotografa Mahmuta a jeho nezaměstnaného příbuzného Yusufa, který ve městě hledá práci?",
+      "initial": "U",
+      "answer": "Uzak",
+      "language": "cs",
+      "aliases": ["Vzdálený", "Distant"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uzak",
+        "https://www.themoviedb.org/movie/31026?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-25",
+      "text": "Jaké příjmení má František, který režíroval Údolí včel podle námětu Vladimíra Körnera?",
+      "initial": "V",
+      "answer": "Vláčil",
+      "language": "cs",
+      "aliases": ["František Vláčil"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C3%9Adol%C3%AD_v%C4%8Del_(film)"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-26",
+      "text": "Který film Bély Tarra a Ágnes Hranitzké z roku 2000 přivádí do malého města cirkus s vycpanou velrybou?",
+      "initial": "W",
+      "answer": "Werckmeisterovy harmonie",
+      "language": "cs",
+      "aliases": ["Werckmeister Harmonies", "Werckmeister harmóniák"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Werckmeister_Harmonies",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q509169.json",
+        "https://mubi.com/cs/cz/films/werckmeister-harmonies"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-01-27",
+      "text": "Který Antonioniho film z roku 1966 sleduje londýnského fotografa, jenž ve svých snímcích hledá stopy možné vraždy?",
+      "initial": "Z",
+      "answer": "Zvětšenina",
+      "language": "cs",
+      "aliases": ["Blow-Up", "Blowup", "Blow Up"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Zv%C4%9Bt%C5%A1enina_(film)"]
+    },
+    {
+      "id": "movies-cs-hard-01-28",
+      "text": "Který film Abdellatifa Kechicheho z roku 2013 sleduje milostný vztah mladé Adèle a modrovlasé Emmy?",
+      "initial": "Ž",
+      "answer": "Život Adèle",
+      "language": "cs",
+      "aliases": [
+        "La Vie d'Adèle",
+        "Vie d'Adèle",
+        "Blue Is the Warmest Colour",
+        "Blue Is the Warmest Color",
+        "La Vie d'Adèle – Chapitres 1 et 2",
+        "La Vie d'Adèle – Chapitres 1 & 2",
+        "La Vie d'Adèle - Chapitres 1 et 2",
+        "La Vie d'Adèle - Chapitres 1 & 2",
+        "La Vie d’Adèle",
+        "Vie d’Adèle",
+        "La Vie d’Adèle – Chapitres 1 et 2",
+        "La Vie d’Adèle – Chapitres 1 & 2",
+        "La Vie d’Adèle - Chapitres 1 et 2",
+        "La Vie d’Adèle - Chapitres 1 & 2",
+        "La Vie d'Adèle : Chapitres 1 et 2",
+        "La Vie d'Adèle: Chapitres 1 et 2",
+        "La Vie d’Adèle : Chapitres 1 et 2",
+        "La Vie d’Adèle: Chapitres 1 et 2"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDivot_Ad%C3%A8le",
+        "https://www.themoviedb.org/movie/152584?language=cs-CZ",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q11648811.json"
+      ]
+    }
+  ]
+}

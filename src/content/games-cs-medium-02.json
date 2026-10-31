@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 2,
+  "id": "games-cs-medium-02",
+  "title": "Hry · Střední · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-cs-medium-02-01",
+      "text": "Která série Nintenda nechává hráče žít mezi zvířecími sousedy a zařizovat si domov za přispění Toma Nooka?",
+      "initial": "A",
+      "answer": "Animal Crossing",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Animal_Crossing"]
+    },
+    {
+      "id": "games-cs-medium-02-02",
+      "text": "Která zdvihová karetní hra pro čtyři hráče ve dvou dvojicích používá dražbu ke stanovení závazku?",
+      "initial": "B",
+      "answer": "Bridž",
+      "language": "cs",
+      "aliases": ["Bridge", "Contract bridge"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Contract_bridge",
+        "https://cs.wikipedia.org/wiki/Brid%C5%BE"
+      ]
+    },
+    {
+      "id": "games-cs-medium-02-03",
+      "text": "Která hra Klause-Jürgena Wredeho vytváří středověkou krajinu přikládáním čtvercových dílků s městy, cestami a kláštery?",
+      "initial": "C",
+      "answer": "Carcassonne",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Carcassonne_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-medium-02-04",
+      "text": "Která hra s obvykle svislou mřížkou se vyhrává spojením čtyř vlastních barevných kotoučků v přímé linii?",
+      "initial": "Č",
+      "answer": "Čtyři v řadě",
+      "language": "cs",
+      "aliases": [
+        "Čtyři za sebou",
+        "Connect Four",
+        "Connect 4",
+        "4 v řadě",
+        "4 za sebou",
+        "Four Up",
+        "Plot Four",
+        "Find Four",
+        "Captain's Mistress",
+        "Four in a Row",
+        "Drop Four",
+        "Gravitrips"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Connect_Four"]
+    },
+    {
+      "id": "games-cs-medium-02-05",
+      "text": "Která hra Donalda X. Vaccarina proslavila budování vlastního balíčku průběžným nakupováním nových karet?",
+      "initial": "D",
+      "answer": "Dominion",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dominion_%28card_game%29"]
+    },
+    {
+      "id": "games-cs-medium-02-06",
+      "text": "Jaký běžný název má lahvička s magickou tekutinou, kterou postavy v RPG pijí například pro doplnění zdraví či many?",
+      "initial": "E",
+      "answer": "Elixír",
+      "language": "cs",
+      "aliases": ["Lektvar", "Potion"],
+      "category": "games",
+      "sources": ["https://cs.wikipedia.org/wiki/Lektvar"]
+    },
+    {
+      "id": "games-cs-medium-02-07",
+      "text": "Pod jakým názvem se v Japonsku prodávala osmibitová domácí konzole známá na Západě jako NES?",
+      "initial": "F",
+      "answer": "Famicom",
+      "language": "cs",
+      "aliases": ["Family Computer", "Nintendo Family Computer"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo_Entertainment_System"]
+    },
+    {
+      "id": "games-cs-medium-02-08",
+      "text": "Kterou přenosnou konzoli s výměnnými kazetami a monochromatickým displejem uvedlo Nintendo v Japonsku v roce 1989?",
+      "initial": "G",
+      "answer": "Game Boy",
+      "language": "cs",
+      "aliases": ["Nintendo Game Boy"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Game_Boy"]
+    },
+    {
+      "id": "games-cs-medium-02-09",
+      "text": "Která stealth série sleduje nájemného zabijáka Agenta 47 s čárovým kódem na zátylku?",
+      "initial": "H",
+      "answer": "Hitman",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hitman_%28franchise%29",
+        "https://en.wikipedia.org/wiki/Agent_47"
+      ]
+    },
+    {
+      "id": "games-cs-medium-02-10",
+      "text": "Jaké příjmení má český autor her Krycí jména, Galaxy Trucker a Through the Ages?",
+      "initial": "Ch",
+      "answer": "Chvátil",
+      "language": "cs",
+      "aliases": ["Vlaada Chvátil", "Vladimír Chvátil", "Vláďa Chvátil"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Vlaada_Chv%C3%A1til"]
+    },
+    {
+      "id": "games-cs-medium-02-11",
+      "text": "Jak se v soubojích stolních RPG obvykle nazývá hodnota určující pořadí jednání postav?",
+      "initial": "I",
+      "answer": "Iniciativa",
+      "language": "cs",
+      "aliases": ["Initiative"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Initiative_%28role-playing_games%29"
+      ]
+    },
+    {
+      "id": "games-cs-medium-02-12",
+      "text": "Ve které arkádové hře z roku 1982 může hráč létat na pštrosovi a bojovat kopím?",
+      "initial": "J",
+      "answer": "Joust",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Joust_%28video_game%29"]
+    },
+    {
+      "id": "games-cs-medium-02-13",
+      "text": "Která japonská herní společnost je spojena se sériemi Metal Gear a Castlevania?",
+      "initial": "K",
+      "answer": "Konami",
+      "language": "cs",
+      "aliases": ["Konami Group Corporation", "Konami Group"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Konami"]
+    },
+    {
+      "id": "games-cs-medium-02-14",
+      "text": "Která týmová hra od Riot Games posílá šampiony zničit soupeřův Nexus?",
+      "initial": "L",
+      "answer": "League of Legends",
+      "language": "cs",
+      "aliases": ["LoL", "League"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/League_of_Legends"]
+    },
+    {
+      "id": "games-cs-medium-02-15",
+      "text": "Kterou sběratelskou karetní hru vytvořil Richard Garfield a poprvé vyšla v roce 1993?",
+      "initial": "M",
+      "answer": "Magic: The Gathering",
+      "language": "cs",
+      "aliases": ["Magic the Gathering", "MTG", "Magic"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Magic%3A_The_Gathering"]
+    },
+    {
+      "id": "games-cs-medium-02-16",
+      "text": "Která domácí konzole Nintenda, nástupce Super NES, odkazuje v názvu na 64bitový procesor?",
+      "initial": "N",
+      "answer": "Nintendo 64",
+      "language": "cs",
+      "aliases": ["N64"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo_64"]
+    },
+    {
+      "id": "games-cs-medium-02-17",
+      "text": "Jaký herní pojem označuje prostředí, které lze poměrně volně prozkoumávat místo pouhého postupu pevně danými úrovněmi?",
+      "initial": "O",
+      "answer": "Otevřený svět",
+      "language": "cs",
+      "aliases": [
+        "Open world",
+        "Open-world",
+        "Free-roaming",
+        "Free roaming",
+        "Free roam"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Open_world"]
+    },
+    {
+      "id": "games-cs-medium-02-18",
+      "text": "Která logická hra studia Valve z roku 2007 vybaví Chell zbraní vytvářející dvojici navzájem propojených průchodů?",
+      "initial": "P",
+      "answer": "Portal",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Portal_%28video_game%29"]
+    },
+    {
+      "id": "games-cs-medium-02-19",
+      "text": "Jaký herní výraz označuje návrat poražené postavy do hry na určeném místě?",
+      "initial": "R",
+      "answer": "Respawn",
+      "language": "cs",
+      "aliases": ["Respawning", "Znovuzrození", "Znovuobjevení"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Spawning_%28video_games%29"]
+    },
+    {
+      "id": "games-cs-medium-02-20",
+      "text": "Který démonický boss se poprvé objevil v původním Diablu a proslul hláškou „Fresh meat!“?",
+      "initial": "Ř",
+      "answer": "Řezník",
+      "language": "cs",
+      "aliases": ["The Butcher", "Butcher"],
+      "category": "games",
+      "sources": [
+        "https://hrej.cz/article/ahh-fresh-meat-diablo-4-pridava-historicky-prvni-promenu-v-butchera",
+        "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Translations/cs.po"
+      ]
+    },
+    {
+      "id": "games-cs-medium-02-21",
+      "text": "Která hra Erica Baroneho začíná dědictvím zanedbané farmy po dědečkovi?",
+      "initial": "S",
+      "answer": "Stardew Valley",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Stardew_Valley"]
+    },
+    {
+      "id": "games-cs-medium-02-22",
+      "text": "Která japonská příbuzná šachů dovoluje vracet zajaté figury na desku a hrát s nimi na vlastní straně?",
+      "initial": "Š",
+      "answer": "Šógi",
+      "language": "cs",
+      "aliases": ["Shogi", "Japonské šachy"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Shogi"]
+    },
+    {
+      "id": "games-cs-medium-02-23",
+      "text": "Která hra Jacoba Fryxelia nechává korporace zvyšovat na Marsu teplotu, obsah kyslíku a rozlohu oceánů?",
+      "initial": "T",
+      "answer": "Terraforming Mars",
+      "language": "cs",
+      "aliases": ["Mars: Teraformace", "Mars Teraformace", "Teraformace Marsu"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Terraforming_Mars_%28board_game%29",
+        "https://www.hrajeme.cz/recenze-mars-teraformace/"
+      ]
+    },
+    {
+      "id": "games-cs-medium-02-24",
+      "text": "Který herní engine s anglickým názvem znamenajícím jednotu se používá pro tvorbu 2D i 3D her?",
+      "initial": "U",
+      "answer": "Unity",
+      "language": "cs",
+      "aliases": ["Unity engine"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Unity_%28game_engine%29"]
+    },
+    {
+      "id": "games-cs-medium-02-25",
+      "text": "Jak se běžně nazývají jednotky skóre, které v deskové hře přímo slouží k určení vítěze?",
+      "initial": "V",
+      "answer": "Vítězné body",
+      "language": "cs",
+      "aliases": [
+        "Vítězný bod",
+        "Victory points",
+        "VP",
+        "Body",
+        "Bod",
+        "Points",
+        "Point"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Glossary_of_board_games"]
+    },
+    {
+      "id": "games-cs-medium-02-26",
+      "text": "Která hra Elizabeth Hargraveové staví na lákání ptáků do tří typů prostředí?",
+      "initial": "W",
+      "answer": "Wingspan",
+      "language": "cs",
+      "aliases": ["Na křídlech"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wingspan_%28board_game%29",
+        "https://www.hrajeme.cz/recenze-na-kridlech/"
+      ]
+    },
+    {
+      "id": "games-cs-medium-02-27",
+      "text": "Jaký šachový pojem označuje situaci, v níž hráči škodí právě povinnost provést tah?",
+      "initial": "Z",
+      "answer": "Zugzwang",
+      "language": "cs",
+      "aliases": ["Nevýhoda tahu"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Zugzwang"]
+    },
+    {
+      "id": "games-cs-medium-02-28",
+      "text": "Ve které rodinné hře Reinera Knizii závodí barevné želvy, které se mohou navzájem vézt na zádech?",
+      "initial": "Ž",
+      "answer": "Želví závody",
+      "language": "cs",
+      "aliases": ["Schildkrötenrennen", "Ribbit"],
+      "category": "games",
+      "sources": [
+        "https://www.hrajeme.cz/amp/hry/12158/",
+        "https://en.wikipedia.org/wiki/Ribbit_(game)"
+      ]
+    }
+  ]
+}

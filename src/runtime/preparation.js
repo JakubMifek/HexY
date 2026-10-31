@@ -25,7 +25,9 @@ export class Preparation {
   /** @type {string} */
   language = '';
   mode = '';
-  filters = { search: '', category: '', language: '', origin: '' };
+  filters = { difficulty: '', origin: '' };
+  /** @type {Set<string>} */
+  collapsedFolders = new Set();
 
   /** @param {() => number} random @param {() => string} id */
   constructor(random, id) {
@@ -43,7 +45,6 @@ export class Preparation {
       return false;
     this.assertEditable();
     this.language = setup.language;
-    this.filters.language = setup.language;
     this.mode = setup.mode;
     this.selected = this.bundled
       .filter((pack) => pack.language === setup.language)
@@ -71,8 +72,18 @@ export class Preparation {
 
   /** @param {string[]} ids */
   select(ids) {
+    this.assertEditable();
+    requireValue(
+      new Set(ids).size === ids.length &&
+        ids.every((id) =>
+          this.packs.some(
+            (pack) => pack.id === id && pack.language === this.language,
+          ),
+        ),
+      'mixedSources',
+    );
     this.invalidate();
-    this.selected = ids;
+    this.selected = [...ids];
     this.proposal = null;
     this.editing = null;
   }

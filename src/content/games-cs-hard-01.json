@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "id": "games-cs-hard-01",
+  "title": "Hry · Těžké · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-cs-hard-01-01",
+      "text": "Která hra Uweho Rosenberga kombinuje umisťování pracovníků s rozvojem farmy a povinným krmením rodiny při sklizni?",
+      "initial": "A",
+      "answer": "Agricola",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Agricola_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-02",
+      "text": "Která ekonomická hra od Roxley zasazená do průmyslových Midlands propojuje kanály, železnice, továrny a pivo?",
+      "initial": "B",
+      "answer": "Brass: Birmingham",
+      "language": "cs",
+      "aliases": ["Brass Birmingham"],
+      "category": "games",
+      "sources": ["https://roxley.com/products/brass-birmingham"]
+    },
+    {
+      "id": "games-cs-hard-01-03",
+      "text": "Která hra Williama Attii nechává hráče umisťovat pracovníky ve francouzském městečku a přispívat ke stavbě hradu?",
+      "initial": "C",
+      "answer": "Caylus",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Caylus_%28game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-04",
+      "text": "Jaký jev v Outer Wilds vrací hráče po dvaadvaceti minutách znovu na začátek stejného úseku času?",
+      "initial": "Č",
+      "answer": "Časová smyčka",
+      "language": "cs",
+      "aliases": ["Smyčka času", "Time loop"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Outer_Wilds"]
+    },
+    {
+      "id": "games-cs-hard-01-05",
+      "text": "Která hra studia Black Salt Games z roku 2023 propojuje rybaření a vylepšování vybavení s nadpřirozeným hororem?",
+      "initial": "D",
+      "answer": "Dredge",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dredge_%28video_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-06",
+      "text": "Která hra Wolfganga Kramera a Richarda Ulricha bojuje o převahu ve španělských regionech pomocí caballeros?",
+      "initial": "E",
+      "answer": "El Grande",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/El_Grande_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-07",
+      "text": "Která hra Bruna Cathaly přesouvá skupiny figurek způsobem připomínajícím mankalu v sultanátu Naqala?",
+      "initial": "F",
+      "answer": "Five Tribes",
+      "language": "cs",
+      "aliases": ["Five Tribes: The Djinns of Naqala"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Five_Tribes_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-08",
+      "text": "Která kampaňová hra Isaaca Childrese kombinuje taktické scénáře s kartami akcí a trvalým rozvojem postav?",
+      "initial": "G",
+      "answer": "Gloomhaven",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Gloomhaven"]
+    },
+    {
+      "id": "games-cs-hard-01-09",
+      "text": "Které akční RPG studia Heart Machine sleduje záhadně nemocného poutníka v troskách dávné civilizace?",
+      "initial": "H",
+      "answer": "Hyper Light Drifter",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hyper_Light_Drifter"]
+    },
+    {
+      "id": "games-cs-hard-01-10",
+      "text": "Jak se jmenuje velký, zpravidla žlutý jezdecký pták, který se opakovaně objevuje ve Final Fantasy?",
+      "initial": "Ch",
+      "answer": "Chocobo",
+      "language": "cs",
+      "aliases": ["Chocobové", "Chocobos", "Chokobo"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Chocobo"]
+    },
+    {
+      "id": "games-cs-hard-01-11",
+      "text": "Která hra Christiana Martineze spojuje draft karet s keltským bojem o titul krále?",
+      "initial": "I",
+      "answer": "Inis",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://www.matagot.com/en/expert-games/210-328-inis.html"]
+    },
+    {
+      "id": "games-cs-hard-01-12",
+      "text": "Jak se jmenují drobní lesní duchové spojení s opravou komunitního centra ve Stardew Valley?",
+      "initial": "J",
+      "answer": "Junimo",
+      "language": "cs",
+      "aliases": ["Junimové", "Junimos"],
+      "category": "games",
+      "sources": [
+        "https://stardewguide.com/guides/stardew-valley-junimos-helpful-forest-spirits"
+      ]
+    },
+    {
+      "id": "games-cs-hard-01-13",
+      "text": "Jak se v go nazývají body, kterými bílý dostává náhradu za výhodu prvního tahu černého?",
+      "initial": "K",
+      "answer": "Komi",
+      "language": "cs",
+      "aliases": [
+        "Komidashi",
+        "Tiē mù",
+        "Deom",
+        "コミ出し",
+        "贴目",
+        "貼目",
+        "덤"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Komi_%28Go%29"]
+    },
+    {
+      "id": "games-cs-hard-01-14",
+      "text": "Která hra Uweho Rosenberga pojmenovaná po francouzském přístavu pracuje se zbožím, využíváním budov a stavbou lodí?",
+      "initial": "L",
+      "answer": "Le Havre",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Le_Havre_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-15",
+      "text": "Jak se nazývá rodina her, v nichž se kameny rozsévají do řad jamek a do níž patří oware a kalah?",
+      "initial": "M",
+      "answer": "Mankala",
+      "language": "cs",
+      "aliases": ["Mancala"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Mancala"]
+    },
+    {
+      "id": "games-cs-hard-01-16",
+      "text": "Která původně Garfieldova karetní hra z roku 1996 staví proti sobě korporaci a hackera označovaného jako runner?",
+      "initial": "N",
+      "answer": "Netrunner",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Netrunner"]
+    },
+    {
+      "id": "games-cs-hard-01-17",
+      "text": "Která abstraktní hra s tématem bojových umění používá pět pohybových karet, jež kolují mezi hráči a společnou rezervou?",
+      "initial": "O",
+      "answer": "Onitama",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Onitama"]
+    },
+    {
+      "id": "games-cs-hard-01-18",
+      "text": "Která hra Andrease Seyfartha používá volbu rolí, například kapitána a řemeslníka, při rozvoji karibské kolonie?",
+      "initial": "P",
+      "answer": "Puerto Rico",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Puerto_Rico_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-19",
+      "text": "Který německý autor s doktorátem z matematiky vytvořil hry Ra a Modern Art?",
+      "initial": "R",
+      "answer": "Reiner Knizia",
+      "language": "cs",
+      "aliases": ["Knizia"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Reiner_Knizia"]
+    },
+    {
+      "id": "games-cs-hard-01-20",
+      "text": "Která tajná organizace v Assassin's Creed Origins je předchůdcem templářského řádu?",
+      "initial": "Ř",
+      "answer": "Řád prastarých",
+      "language": "cs",
+      "aliases": ["Order of the Ancients"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Origins",
+        "https://cs.wikipedia.org/wiki/Assassin%27s_Creed"
+      ]
+    },
+    {
+      "id": "games-cs-hard-01-21",
+      "text": "Která hra Jameyho Stegmaiera zasazuje soupeřící frakce a mechy do alternativní Evropy dvacátých let dvacátého století?",
+      "initial": "S",
+      "answer": "Scythe",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Scythe_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-22",
+      "text": "Která blafovací hra nechává obchodníky přesvědčovat kontrolujícího hráče, že v zavřených vacích nevezou pašované zboží?",
+      "initial": "Š",
+      "answer": "Šerif z Nottinghamu",
+      "language": "cs",
+      "aliases": ["Sheriff of Nottingham"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sheriff_of_Nottingham_%28board_game%29",
+        "https://www.zatrolene-hry.cz/spolecenska-hra/serif-z-nottinghamu-4167/"
+      ]
+    },
+    {
+      "id": "games-cs-hard-01-23",
+      "text": "Která hra Jense Drögemüllera a Helgeho Ostertaga nechává rozdílné fantasy národy přetvářet terén pro rozšiřování osad?",
+      "initial": "T",
+      "answer": "Terra Mystica",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Terra_Mystica"]
+    },
+    {
+      "id": "games-cs-hard-01-24",
+      "text": "Který německý autor hry Bohnanza spoluzaložil vydavatelství Lookout Games?",
+      "initial": "U",
+      "answer": "Uwe Rosenberg",
+      "language": "cs",
+      "aliases": ["Rosenberg"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Uwe_Rosenberg"]
+    },
+    {
+      "id": "games-cs-hard-01-25",
+      "text": "Která hra Jameyho Stegmaiera a Alana Stonea využívá umisťování pracovníků k pěstování révy a výrobě vína?",
+      "initial": "V",
+      "answer": "Viticulture",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Viticulture_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-hard-01-26",
+      "text": "Který chamtivý Mariův soupeř má vlastní série plošinovek i sbírek několikasekundových mikroher?",
+      "initial": "W",
+      "answer": "Wario",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wario"]
+    },
+    {
+      "id": "games-cs-hard-01-27",
+      "text": "Která kooperativní série deskových her s miniaturami nechává přeživší bojovat proti zombiím a růst na síle spolu s nebezpečím?",
+      "initial": "Z",
+      "answer": "Zombicide",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Zombicide"]
+    },
+    {
+      "id": "games-cs-hard-01-28",
+      "text": "Jak se jmenuje kovový ochránce vesničanů v Minecraftu, který napadá nepřátelská stvoření a může vzniknout i bez přičinění hráče ve vesnici?",
+      "initial": "Ž",
+      "answer": "Železný golem",
+      "language": "cs",
+      "aliases": ["Iron Golem", "Golem ze železa"],
+      "category": "games",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Minecraft",
+        "https://www.minecraft.net/en-us/article/meet-iron-golem"
+      ]
+    }
+  ]
+}

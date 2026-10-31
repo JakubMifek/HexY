@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "movies-en-hard-02",
+  "title": "Movies and series · Hard 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-en-hard-02-01",
+      "text": "Which Donald Glover series follows music manager Earn and rapper Paper Boi?",
+      "initial": "A",
+      "answer": "Atlanta",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Atlanta_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-hard-02-02",
+      "text": "Which German series follows detective Gereon Rath and Charlotte Ritter in late-1920s Berlin?",
+      "initial": "B",
+      "answer": "Babylon Berlin",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Babylon_Berlin"]
+    },
+    {
+      "id": "movies-en-hard-02-03",
+      "text": "Which HBO series set in the 1930s connects a travelling carnival with preacher Justin Crowe?",
+      "initial": "C",
+      "answer": "Carnivàle",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Carniv%C3%A0le"]
+    },
+    {
+      "id": "movies-en-hard-02-04",
+      "text": "Who was the cinematographer on Wong Kar-wai's films Chungking Express and Fallen Angels?",
+      "initial": "CH",
+      "answer": "Christopher Doyle",
+      "language": "en",
+      "aliases": ["Doyle", "Du Ke Feng", "Du Kefeng", "Dou Ho-fung"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Christopher_Doyle"]
+    },
+    {
+      "id": "movies-en-hard-02-05",
+      "text": "Which Kieślowski television cycle consists of ten hour-long films inspired by the Ten Commandments?",
+      "initial": "D",
+      "answer": "Dekalog",
+      "language": "en",
+      "aliases": [
+        "The Decalogue",
+        "Decalogue",
+        "Dekalog: The Ten Commandments"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Dekalog"]
+    },
+    {
+      "id": "movies-en-hard-02-06",
+      "text": "Which 1970 Mexican acid Western follows a black-clad gunfighter on a quest for enlightenment?",
+      "initial": "E",
+      "answer": "El Topo",
+      "language": "en",
+      "aliases": ["The Mole"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/El_Topo"]
+    },
+    {
+      "id": "movies-en-hard-02-07",
+      "text": "Which Ingmar Bergman work follows the Ekdahl siblings after their father's death and their mother's marriage to a bishop?",
+      "initial": "F",
+      "answer": "Fanny and Alexander",
+      "language": "en",
+      "aliases": ["Fanny och Alexander"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Fanny_and_Alexander"]
+    },
+    {
+      "id": "movies-en-hard-02-08",
+      "text": "What was the surname of Jean-Luc, director of the 1964 film Band of Outsiders?",
+      "initial": "G",
+      "answer": "Godard",
+      "language": "en",
+      "aliases": ["Jean-Luc Godard"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Band_of_Outsiders"]
+    },
+    {
+      "id": "movies-en-hard-02-09",
+      "text": "Which 1984 Edgar Reitz television series follows the Simon family in the Hunsrück region?",
+      "initial": "H",
+      "answer": "Heimat",
+      "language": "en",
+      "aliases": [
+        "Heimat – Eine deutsche Chronik",
+        "Heimat: Eine deutsche Chronik",
+        "Heimat – A German Chronicle",
+        "Heimat: A German Chronicle"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Heimat_%28film_series%29"]
+    },
+    {
+      "id": "movies-en-hard-02-10",
+      "text": "Which 1963 Czechoslovak science-fiction film directed by Jindřich Polák follows an interstellar voyage towards Alpha Centauri?",
+      "initial": "I",
+      "answer": "Ikarie XB 1",
+      "language": "en",
+      "aliases": [
+        "Ikarie XB-1",
+        "Ikarie XB1",
+        "Voyage to the End of the Universe"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Ikarie_XB-1"]
+    },
+    {
+      "id": "movies-en-hard-02-11",
+      "text": "What is the surname of Alejandro, director of the 1973 surrealist film The Holy Mountain?",
+      "initial": "J",
+      "answer": "Jodorowsky",
+      "language": "en",
+      "aliases": ["Alejandro Jodorowsky"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Holy_Mountain_%281973_film%29"
+      ]
+    },
+    {
+      "id": "movies-en-hard-02-12",
+      "text": "What was the surname of Krzysztof, director of the Three Colours trilogy?",
+      "initial": "K",
+      "answer": "Kieślowski",
+      "language": "en",
+      "aliases": ["Krzysztof Kieślowski"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Three_Colours_trilogy"]
+    },
+    {
+      "id": "movies-en-hard-02-13",
+      "text": "Which 1962 Chris Marker short tells a time-travel story almost entirely through still photographs?",
+      "initial": "L",
+      "answer": "La Jetée",
+      "language": "en",
+      "aliases": ["The Jetty", "The Pier"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/La_Jet%C3%A9e"]
+    },
+    {
+      "id": "movies-en-hard-02-14",
+      "text": "Which 1967 František Vláčil film adapts Vladislav Vančura's novel about a young woman abducted by robber knights before she can enter a convent?",
+      "initial": "M",
+      "answer": "Marketa Lazarová",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Marketa_Lazarov%C3%A1"]
+    },
+    {
+      "id": "movies-en-hard-02-15",
+      "text": "Which 2004 Hirokazu Kore-eda film follows four half-siblings left to survive on their own after their mother abandons them?",
+      "initial": "N",
+      "answer": "Nobody Knows",
+      "language": "en",
+      "aliases": ["Dare mo shiranai"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Nobody_Knows_%282004_film%29"]
+    },
+    {
+      "id": "movies-en-hard-02-16",
+      "text": "Which 2011 Nuri Bilge Ceylan film follows an overnight search for a buried murder victim in rural Turkey?",
+      "initial": "O",
+      "answer": "Once Upon a Time in Anatolia",
+      "language": "en",
+      "aliases": ["Bir Zamanlar Anadolu'da"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Anatolia"]
+    },
+    {
+      "id": "movies-en-hard-02-17",
+      "text": "Which 1966 Bergman film pairs Liv Ullmann as silent actress Elisabet Vogler with Bibi Andersson as nurse Alma?",
+      "initial": "P",
+      "answer": "Persona",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Persona_%281966_film%29"]
+    },
+    {
+      "id": "movies-en-hard-02-18",
+      "text": "Which 1947 Henri-Georges Clouzot police procedural stars Louis Jouvet as Inspector Antoine?",
+      "initial": "Q",
+      "answer": "Quai des Orfèvres",
+      "language": "en",
+      "aliases": ["Jenny Lamour"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Quai_des_Orf%C3%A8vres"]
+    },
+    {
+      "id": "movies-en-hard-02-19",
+      "text": "Which Lars von Trier series follows staff and patients at a Copenhagen hospital as they encounter supernatural events?",
+      "initial": "R",
+      "answer": "Riget",
+      "language": "en",
+      "aliases": ["The Kingdom"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_Kingdom_%28miniseries%29"]
+    },
+    {
+      "id": "movies-en-hard-02-20",
+      "text": "Which 1979 Tarkovsky film follows a guide, a Writer and a Professor through the Zone towards a mysterious Room?",
+      "initial": "S",
+      "answer": "Stalker",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Stalker_%281979_film%29"]
+    },
+    {
+      "id": "movies-en-hard-02-21",
+      "text": "Who directed the 1967 documentary Portrait of Jason?",
+      "initial": "SH",
+      "answer": "Shirley Clarke",
+      "language": "en",
+      "aliases": ["Clarke", "Shirley Brimberg", "Shirley Brimberg Clarke"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Portrait_of_Jason",
+        "https://en.wikipedia.org/wiki/Shirley_Clarke"
+      ]
+    },
+    {
+      "id": "movies-en-hard-02-22",
+      "text": "Which David Simon and Eric Overmyer series follows residents of New Orleans after Hurricane Katrina?",
+      "initial": "T",
+      "answer": "Treme",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Treme_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-hard-02-23",
+      "text": "Which 1995 Emir Kusturica film follows Blacky and Marko and the deception of people kept in a cellar making weapons?",
+      "initial": "U",
+      "answer": "Underground",
+      "language": "en",
+      "aliases": [
+        "Podzemlje",
+        "Once Upon a Time There Was One Country",
+        "Bila jednom jedna zemlja"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Underground_%281995_film%29"]
+    },
+    {
+      "id": "movies-en-hard-02-24",
+      "text": "What was the surname of František, director of the 1968 film The Valley of the Bees?",
+      "initial": "V",
+      "answer": "Vláčil",
+      "language": "en",
+      "aliases": ["František Vláčil"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_Valley_of_the_Bees"]
+    },
+    {
+      "id": "movies-en-hard-02-25",
+      "text": "Which 2013 Lucía Puenzo film follows Josef Mengele living under a false identity in Patagonia?",
+      "initial": "W",
+      "answer": "Wakolda",
+      "language": "en",
+      "aliases": ["The German Doctor"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_German_Doctor"]
+    },
+    {
+      "id": "movies-en-hard-02-26",
+      "text": "Which Canadian director made the 2014 film Mommy?",
+      "initial": "X",
+      "answer": "Xavier Dolan",
+      "language": "en",
+      "aliases": ["Dolan", "Xavier Dolan-Tadros"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mommy_%282014_film%29",
+        "https://en.wikipedia.org/wiki/Xavier_Dolan"
+      ]
+    },
+    {
+      "id": "movies-en-hard-02-27",
+      "text": "Who directed Late Spring, the 1949 film starring Setsuko Hara as Noriko?",
+      "initial": "Y",
+      "answer": "Yasujirō Ozu",
+      "language": "en",
+      "aliases": ["Ozu", "Ozu Yasujirō"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Late_Spring"]
+    },
+    {
+      "id": "movies-en-hard-02-28",
+      "text": "Which 1970 Michelangelo Antonioni film follows Mark and Daria and ends with an imagined explosion of a modern desert house?",
+      "initial": "Z",
+      "answer": "Zabriskie Point",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Zabriskie_Point_%28film%29"]
+    }
+  ]
+}

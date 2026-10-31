@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 2,
+  "id": "history-en-medium-02",
+  "title": "History · Medium · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-en-medium-02-01",
+      "text": "What name is given to the movement to end slavery, prominent in the Atlantic world in the eighteenth and nineteenth centuries?",
+      "initial": "A",
+      "answer": "Abolitionism",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Abolitionist movement", "Anti-slavery movement"],
+      "sources": ["https://en.wikipedia.org/wiki/Abolitionism"]
+    },
+    {
+      "id": "history-en-medium-02-02",
+      "text": "What common name is given to the anti-foreign uprising in China that culminated in the siege of Beijing's foreign legations in 1900?",
+      "initial": "B",
+      "answer": "Boxer Rebellion",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Boxer Uprising",
+        "Yihetuan Movement",
+        "The Boxer Rebellion",
+        "Boxer Movement",
+        "Boxer War",
+        "Yihetuan Uprising"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Boxer_Rebellion"]
+    },
+    {
+      "id": "history-en-medium-02-03",
+      "text": "Which Russian empress took power in 1762 after the overthrow of her husband Peter III?",
+      "initial": "C",
+      "answer": "Catherine the Great",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Catherine II", "Catherine II of Russia"],
+      "sources": ["https://en.wikipedia.org/wiki/Catherine_the_Great"]
+    },
+    {
+      "id": "history-en-medium-02-04",
+      "text": "Which Native American nation was forcibly removed from its southeastern US homeland in 1838–1839 in the episode commonly associated with the Trail of Tears?",
+      "initial": "CH",
+      "answer": "Cherokee",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Cherokee Nation", "The Cherokee"],
+      "sources": ["https://en.wikipedia.org/wiki/Cherokee_removal"]
+    },
+    {
+      "id": "history-en-medium-02-05",
+      "text": "What Russian term names the elected legislative assembly first convened under Nicholas II in 1906?",
+      "initial": "D",
+      "answer": "Duma",
+      "language": "en",
+      "category": "history",
+      "aliases": ["State Duma", "Imperial Duma"],
+      "sources": ["https://en.wikipedia.org/wiki/State_Duma_(Russian_Empire)"]
+    },
+    {
+      "id": "history-en-medium-02-06",
+      "text": "Which English company received a royal charter from Elizabeth I in 1600 for trade with the East Indies?",
+      "initial": "E",
+      "answer": "East India Company",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "British East India Company",
+        "English East India Company",
+        "EIC",
+        "Governor and Company of Merchants of London trading into the East Indies",
+        "Honourable East India Company",
+        "Honorable East India Company",
+        "HEIC"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/East_India_Company"]
+    },
+    {
+      "id": "history-en-medium-02-07",
+      "text": "Which Italian city was dominated by the Medici family during much of the fifteenth century?",
+      "initial": "F",
+      "answer": "Florence",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Firenze"],
+      "sources": ["https://en.wikipedia.org/wiki/House_of_Medici"]
+    },
+    {
+      "id": "history-en-medium-02-08",
+      "text": "What common name describes the split between the Eastern Orthodox and Roman Catholic churches conventionally dated to 1054?",
+      "initial": "G",
+      "answer": "Great Schism",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "East–West Schism",
+        "East-West Schism",
+        "Schism of 1054",
+        "The Great Schism",
+        "East West Schism"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/East–West_Schism"]
+    },
+    {
+      "id": "history-en-medium-02-09",
+      "text": "Which series of conflicts between the English and French crowns is conventionally dated 1337–1453?",
+      "initial": "H",
+      "answer": "Hundred Years' War",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "The Hundred Years' War",
+        "100 Years War",
+        "Hundred Years War",
+        "Hundred Years’ War"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Hundred_Years%27_War"]
+    },
+    {
+      "id": "history-en-medium-02-10",
+      "text": "What general name is given to the ecclesiastical institutions for investigating heresy, whose Spanish form was established in 1478?",
+      "initial": "I",
+      "answer": "Inquisition",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Inquisition"],
+      "sources": ["https://en.wikipedia.org/wiki/Spanish_Inquisition"]
+    },
+    {
+      "id": "history-en-medium-02-11",
+      "text": "What common name is given to members of the French revolutionary political club associated with Robespierre and the Terror?",
+      "initial": "J",
+      "answer": "Jacobins",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Jacobin", "Jacobin Club"],
+      "sources": ["https://en.wikipedia.org/wiki/Jacobin_(politics)"]
+    },
+    {
+      "id": "history-en-medium-02-12",
+      "text": "Which Southeast Asian empire had its capital at Angkor and was ruled by Jayavarman VII in the late twelfth and early thirteenth centuries?",
+      "initial": "K",
+      "answer": "Khmer Empire",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Angkor Empire",
+        "Angkorian Empire",
+        "The Khmer Empire",
+        "Kambuja"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Khmer_Empire"]
+    },
+    {
+      "id": "history-en-medium-02-13",
+      "text": "What name was given to English textile workers who destroyed machinery in protests beginning in 1811?",
+      "initial": "L",
+      "answer": "Luddites",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Luddite"],
+      "sources": ["https://en.wikipedia.org/wiki/Luddite"]
+    },
+    {
+      "id": "history-en-medium-02-14",
+      "text": "What historical name describes the coastal regions of southern Italy extensively settled by ancient Greek colonists?",
+      "initial": "M",
+      "answer": "Magna Graecia",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Great Greece", "Greater Greece"],
+      "sources": ["https://en.wikipedia.org/wiki/Magna_Graecia"]
+    },
+    {
+      "id": "history-en-medium-02-15",
+      "text": "What collective name describes the English laws of the seventeenth century that restricted colonial commerce to specified ships and routes?",
+      "initial": "N",
+      "answer": "Navigation Acts",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Acts of Navigation",
+        "The Navigation Acts",
+        "Acts of Trade and Navigation"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Navigation_Acts"]
+    },
+    {
+      "id": "history-en-medium-02-16",
+      "text": "Which French village was the site of a Waffen-SS massacre on 10 June 1944 and has a ruined section preserved as a memorial?",
+      "initial": "O",
+      "answer": "Oradour-sur-Glane",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Oradour"],
+      "sources": ["https://en.wikipedia.org/wiki/Oradour-sur-Glane_massacre"]
+    },
+    {
+      "id": "history-en-medium-02-17",
+      "text": "At which 1945 conference near Berlin did Truman, Stalin and, after Churchill's departure, Attlee discuss the postwar settlement?",
+      "initial": "P",
+      "answer": "Potsdam Conference",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Potsdam", "The Potsdam Conference"],
+      "sources": ["https://en.wikipedia.org/wiki/Potsdam_Conference"]
+    },
+    {
+      "id": "history-en-medium-02-18",
+      "text": "Which dynasty founded by the Manchus began ruling Beijing in 1644 and remained China's imperial dynasty until 1912?",
+      "initial": "Q",
+      "answer": "Qing dynasty",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Qing",
+        "Ch'ing dynasty",
+        "Manchu dynasty",
+        "The Qing dynasty",
+        "Great Qing",
+        "Qing Empire",
+        "Qing China"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Qing_dynasty"]
+    },
+    {
+      "id": "history-en-medium-02-19",
+      "text": "Which dynasty began ruling Russia with the accession of Michael in 1613?",
+      "initial": "R",
+      "answer": "Romanov",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Romanovs",
+        "House of Romanov",
+        "Romanov dynasty",
+        "Romanoff",
+        "Romanovy"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/House_of_Romanov"]
+    },
+    {
+      "id": "history-en-medium-02-20",
+      "text": "Which Muslim ruler captured Jerusalem in 1187 after defeating the Crusaders at Hattin?",
+      "initial": "S",
+      "answer": "Saladin",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Salah ad-Din",
+        "Salah al-Din",
+        "Salahuddin",
+        "Salah ad-Din Yusuf ibn Ayyub"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Saladin"]
+    },
+    {
+      "id": "history-en-medium-02-21",
+      "text": "Which ancient Chinese dynasty left the inscribed oracle bones found at Anyang?",
+      "initial": "SH",
+      "answer": "Shang dynasty",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Shang",
+        "Yin dynasty",
+        "Shang-Yin dynasty",
+        "The Shang dynasty",
+        "Yin",
+        "Yin-Shang dynasty"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Shang_dynasty"]
+    },
+    {
+      "id": "history-en-medium-02-22",
+      "text": "Which nineteenth-century Chinese civil war was led by Hong Xiuquan, who claimed to be a brother of Jesus?",
+      "initial": "T",
+      "answer": "Taiping Rebellion",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Taiping Civil War", "The Taiping Rebellion"],
+      "sources": ["https://en.wikipedia.org/wiki/Taiping_Rebellion"]
+    },
+    {
+      "id": "history-en-medium-02-23",
+      "text": "Which pope called for the First Crusade at the Council of Clermont in 1095?",
+      "initial": "U",
+      "answer": "Urban II",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Pope Urban II",
+        "Urban the Second",
+        "Odo of Châtillon",
+        "Otho de Lagery",
+        "Urbanus II"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Pope_Urban_II"]
+    },
+    {
+      "id": "history-en-medium-02-24",
+      "text": "What name was given to the Byzantine imperial guard that recruited many Scandinavians and later Anglo-Saxons?",
+      "initial": "V",
+      "answer": "Varangian Guard",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Varangian Guard"],
+      "sources": ["https://en.wikipedia.org/wiki/Varangian_Guard"]
+    },
+    {
+      "id": "history-en-medium-02-25",
+      "text": "What term describes shell beads used by Indigenous peoples of northeastern North America in diplomacy, ceremonies and exchange?",
+      "initial": "W",
+      "answer": "Wampum",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Wampum beads"],
+      "sources": ["https://en.wikipedia.org/wiki/Wampum"]
+    },
+    {
+      "id": "history-en-medium-02-26",
+      "text": "Which South African people were involved in the cattle-killing movement of 1856–1857 associated with the prophet Nongqawuse?",
+      "initial": "X",
+      "answer": "Xhosa",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Xhosa people", "AmaXhosa"],
+      "sources": ["https://en.wikipedia.org/wiki/Nongqawuse"]
+    },
+    {
+      "id": "history-en-medium-02-27",
+      "text": "Which Chinese dynasty did Kublai Khan proclaim in 1271?",
+      "initial": "Y",
+      "answer": "Yuan dynasty",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Yuan", "The Yuan dynasty", "Great Yuan"],
+      "sources": ["https://en.wikipedia.org/wiki/Yuan_dynasty"]
+    },
+    {
+      "id": "history-en-medium-02-28",
+      "text": "Which religion, centred on Ahura Mazda, was supported by the rulers of the Sasanian Empire?",
+      "initial": "Z",
+      "answer": "Zoroastrianism",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Mazdayasna", "Mazdaism", "Behdin"],
+      "sources": ["https://en.wikipedia.org/wiki/Zoroastrianism"]
+    }
+  ]
+}

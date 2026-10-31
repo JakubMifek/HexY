@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-en-medium-02",
+  "title": "Sports · Medium · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-en-medium-02-01",
+      "text": "What tennis serve wins the point without the receiver touching the ball?",
+      "initial": "A",
+      "answer": "Ace",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Service ace"],
+      "sources": ["https://en.wikipedia.org/wiki/Ace_(tennis)"]
+    },
+    {
+      "id": "sports-en-medium-02-02",
+      "text": "Which swimming stroke combines simultaneous arm recovery over the water with a dolphin kick?",
+      "initial": "B",
+      "answer": "Butterfly",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Butterfly stroke", "Fly"],
+      "sources": ["https://en.wikipedia.org/wiki/Butterfly_stroke"]
+    },
+    {
+      "id": "sports-en-medium-02-03",
+      "text": "What is the name of the person who steers and directs a coxed rowing crew?",
+      "initial": "C",
+      "answer": "Coxswain",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Cox", "Coxie"],
+      "sources": ["https://en.wikipedia.org/wiki/Coxswain_(rowing)"]
+    },
+    {
+      "id": "sports-en-medium-02-04",
+      "text": "Which French town hosted the Winter Games of 1924, later recognised as the first Winter Olympics?",
+      "initial": "CH",
+      "answer": "Chamonix",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Chamonix-Mont-Blanc"],
+      "sources": ["https://en.wikipedia.org/wiki/1924_Winter_Olympics"]
+    },
+    {
+      "id": "sports-en-medium-02-05",
+      "text": "Which equestrian discipline judges a horse and rider performing a sequence of prescribed movements?",
+      "initial": "D",
+      "answer": "Dressage",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Dressage"]
+    },
+    {
+      "id": "sports-en-medium-02-06",
+      "text": "What is a golf score of two under par on one hole called?",
+      "initial": "E",
+      "answer": "Eagle",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Par_(score)"]
+    },
+    {
+      "id": "sports-en-medium-02-07",
+      "text": "Which light thrusting fencing weapon has the torso as its target area?",
+      "initial": "F",
+      "answer": "Foil",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Fencing foil"],
+      "sources": ["https://en.wikipedia.org/wiki/Foil_(fencing)"]
+    },
+    {
+      "id": "sports-en-medium-02-08",
+      "text": "What leg-spinner's cricket delivery turns the opposite way to their normal leg break?",
+      "initial": "G",
+      "answer": "Googly",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Wrong'un", "Wrong un", "Bosie", "Bosey"],
+      "sources": ["https://en.wikipedia.org/wiki/Googly"]
+    },
+    {
+      "id": "sports-en-medium-02-09",
+      "text": "What Māori ceremonial performance is famously performed by New Zealand's All Blacks before matches?",
+      "initial": "H",
+      "answer": "Haka",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Haka_in_sports"]
+    },
+    {
+      "id": "sports-en-medium-02-10",
+      "text": "What ice-hockey rule concerns shooting the puck from behind the centre line across the opponents' goal line without a touch, subject to exceptions?",
+      "initial": "I",
+      "answer": "Icing",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Icing_(ice_hockey)"]
+    },
+    {
+      "id": "sports-en-medium-02-11",
+      "text": "Which American athlete won four gold medals at the 1936 Berlin Olympics?",
+      "initial": "J",
+      "answer": "Jesse Owens",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Owens", "James Cleveland Owens"],
+      "sources": ["https://en.wikipedia.org/wiki/Jesse_Owens"]
+    },
+    {
+      "id": "sports-en-medium-02-12",
+      "text": "Which Japanese martial art uses bamboo swords called shinai and protective armour?",
+      "initial": "K",
+      "answer": "Kendo",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Kendo"]
+    },
+    {
+      "id": "sports-en-medium-02-13",
+      "text": "Which team sport uses sticks with a netted head to carry, pass and shoot a ball?",
+      "initial": "L",
+      "answer": "Lacrosse",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lacrosse"]
+    },
+    {
+      "id": "sports-en-medium-02-14",
+      "text": "What are the snow bumps negotiated in the freestyle-skiing event of the same name?",
+      "initial": "M",
+      "answer": "Moguls",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mogul_skiing"]
+    },
+    {
+      "id": "sports-en-medium-02-15",
+      "text": "Which winter sport combines ski jumping and cross-country skiing?",
+      "initial": "N",
+      "answer": "Nordic combined",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Nordic_combined"]
+    },
+    {
+      "id": "sports-en-medium-02-16",
+      "text": "In ice hockey, what is the extra period played after a tied regulation game called?",
+      "initial": "O",
+      "answer": "Overtime",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["OT", "Extra time"],
+      "sources": ["https://en.wikipedia.org/wiki/Overtime_(ice_hockey)"]
+    },
+    {
+      "id": "sports-en-medium-02-17",
+      "text": "What is the hard rubber disc used in ice hockey called?",
+      "initial": "P",
+      "answer": "Puck",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Hockey puck"],
+      "sources": ["https://en.wikipedia.org/wiki/Hockey_puck"]
+    },
+    {
+      "id": "sports-en-medium-02-18",
+      "text": "What figure-skating jump category involves four rotations, with an extra half-rotation for an Axel?",
+      "initial": "Q",
+      "answer": "Quadruple jump",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Quad", "Quad jump", "Quadruple"],
+      "sources": ["https://en.wikipedia.org/wiki/Quadruple_jump"]
+    },
+    {
+      "id": "sports-en-medium-02-19",
+      "text": "What rugby-union phase forms when players on their feet contest a ball on the ground?",
+      "initial": "R",
+      "answer": "Ruck",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ruck_(rugby_union)"]
+    },
+    {
+      "id": "sports-en-medium-02-20",
+      "text": "Which sliding sport sends a single athlete down an ice track head first and face down?",
+      "initial": "S",
+      "answer": "Skeleton",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Skeleton bobsled", "Skeleton bobsleigh"],
+      "sources": ["https://en.wikipedia.org/wiki/Skeleton_(sport)"]
+    },
+    {
+      "id": "sports-en-medium-02-21",
+      "text": "What running exercise involves repeatedly running back and forth between marked points?",
+      "initial": "SH",
+      "answer": "Shuttle run",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Shuttle running", "Shuttles"],
+      "sources": ["https://en.wikipedia.org/wiki/Shuttle_run"]
+    },
+    {
+      "id": "sports-en-medium-02-22",
+      "text": "Which Korean martial art, noted for its kicks, became an Olympic medal sport at Sydney 2000?",
+      "initial": "T",
+      "answer": "Taekwondo",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Tae kwon do", "Taekwon-do"],
+      "sources": ["https://en.wikipedia.org/wiki/Taekwondo"]
+    },
+    {
+      "id": "sports-en-medium-02-23",
+      "text": "Which women's artistic-gymnastics apparatus has two horizontal rails set at different heights?",
+      "initial": "U",
+      "answer": "Uneven bars",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Asymmetric bars", "Asymmetrical bars", "Bars"],
+      "sources": ["https://en.wikipedia.org/wiki/Uneven_bars"]
+    },
+    {
+      "id": "sports-en-medium-02-24",
+      "text": "Which cycling Grand Tour is principally held in Spain?",
+      "initial": "V",
+      "answer": "Vuelta a España",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Vuelta", "Tour of Spain", "La Vuelta"],
+      "sources": ["https://en.wikipedia.org/wiki/Vuelta_a_Espa%C3%B1a"]
+    },
+    {
+      "id": "sports-en-medium-02-25",
+      "text": "Which aquatic team sport has players throw a ball into the opposing goal while swimming?",
+      "initial": "W",
+      "answer": "Water polo",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Water_polo"]
+    },
+    {
+      "id": "sports-en-medium-02-26",
+      "text": "Which American golfer won the men's individual gold medal at the Tokyo 2020 Olympics?",
+      "initial": "X",
+      "answer": "Xander Schauffele",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Schauffele", "Alexander Victor Schauffele"],
+      "sources": ["https://en.wikipedia.org/wiki/Xander_Schauffele"]
+    },
+    {
+      "id": "sports-en-medium-02-27",
+      "text": "What short term describes involuntary movement problems that can disrupt a golfer's putting?",
+      "initial": "Y",
+      "answer": "Yips",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["The yips"],
+      "sources": ["https://en.wikipedia.org/wiki/Yips"]
+    },
+    {
+      "id": "sports-en-medium-02-28",
+      "text": "What recreational activity involves rolling inside a large transparent ball?",
+      "initial": "Z",
+      "answer": "Zorbing",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Sphereing", "Orbing", "Globe-riding"],
+      "sources": ["https://en.wikipedia.org/wiki/Zorbing"]
+    }
+  ]
+}

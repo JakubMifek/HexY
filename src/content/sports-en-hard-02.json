@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-en-hard-02",
+  "title": "Sports · Hard · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-en-hard-02-01",
+      "text": "Which grappling shoulder lock pins a bent arm with the palm facing upwards and rotates the shoulder outward?",
+      "initial": "A",
+      "answer": "Americana",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Keylock",
+        "Figure-four armlock",
+        "Figure four armlock",
+        "Top shoulder lock",
+        "Bent armlock",
+        "V1 armlock",
+        "Paintbrush",
+        "Ude-garami"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Armlock"]
+    },
+    {
+      "id": "sports-en-hard-02-02",
+      "text": "Which winter team sport uses a ball rather than a puck on a large ice field?",
+      "initial": "B",
+      "answer": "Bandy",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Ice bandy"],
+      "sources": ["https://en.wikipedia.org/wiki/Bandy"]
+    },
+    {
+      "id": "sports-en-hard-02-03",
+      "text": "What historical Florentine ball game is traditionally played in Piazza Santa Croce?",
+      "initial": "C",
+      "answer": "Calcio storico",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Calcio storico fiorentino",
+        "Calcio fiorentino",
+        "Calcio in livrea"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Calcio_storico_fiorentino"]
+    },
+    {
+      "id": "sports-en-hard-02-04",
+      "text": "Which British rider won individual Olympic dressage gold on Valegro in both 2012 and 2016?",
+      "initial": "CH",
+      "answer": "Charlotte Dujardin",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Dujardin", "Charlotte Susan Jane Dujardin"],
+      "sources": ["https://en.wikipedia.org/wiki/Charlotte_Dujardin"]
+    },
+    {
+      "id": "sports-en-hard-02-05",
+      "text": "What method sets revised target scores in rain-interrupted limited-overs cricket?",
+      "initial": "D",
+      "answer": "Duckworth–Lewis–Stern method",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "DLS",
+        "DLS method",
+        "Duckworth Lewis Stern",
+        "Duckworth Lewis Stern method",
+        "Duckworth-Lewis-Stern method",
+        "Duckworth–Lewis method",
+        "Duckworth Lewis method",
+        "Duckworth Lewis",
+        "D/L",
+        "DL method"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Duckworth%E2%80%93Lewis%E2%80%93Stern_method"
+      ]
+    },
+    {
+      "id": "sports-en-hard-02-06",
+      "text": "What traditional name is used for righting a capsized kayak without leaving it?",
+      "initial": "E",
+      "answer": "Eskimo roll",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Kayak roll", "Roll", "Eskimo rolling"],
+      "sources": ["https://en.wikipedia.org/wiki/Kayak_roll"]
+    },
+    {
+      "id": "sports-en-hard-02-07",
+      "text": "What fencing attack uses a rapid forward action in which the rear foot crosses in front of the leading foot?",
+      "initial": "F",
+      "answer": "Flèche",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Fencing flèche"],
+      "sources": ["https://en.wikipedia.org/wiki/Fl%C3%A8che_(fencing)"]
+    },
+    {
+      "id": "sports-en-hard-02-08",
+      "text": "What Nordic-combined scoring method converts ski-jumping points into time gaps for the cross-country start?",
+      "initial": "G",
+      "answer": "Gundersen method",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Gundersen"],
+      "sources": ["https://en.wikipedia.org/wiki/Gundersen_method"]
+    },
+    {
+      "id": "sports-en-hard-02-09",
+      "text": "What is the stick used in hurling called?",
+      "initial": "H",
+      "answer": "Hurley",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Hurl", "Camán", "Hurling stick"],
+      "sources": ["https://en.wikipedia.org/wiki/Hurley_(stick)"]
+    },
+    {
+      "id": "sports-en-hard-02-10",
+      "text": "What swimming event has one swimmer perform butterfly, backstroke, breaststroke and freestyle in that order?",
+      "initial": "I",
+      "answer": "Individual medley",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["IM", "Medley"],
+      "sources": ["https://en.wikipedia.org/wiki/Medley_swimming"]
+    },
+    {
+      "id": "sports-en-hard-02-11",
+      "text": "Which Swede won the men's singles table-tennis gold at the 1992 Olympics?",
+      "initial": "J",
+      "answer": "Jan-Ove Waldner",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Waldner",
+        "Jan Ove Waldner",
+        "J-O Waldner",
+        "JO Waldner",
+        "J-O"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Jan-Ove_Waldner"]
+    },
+    {
+      "id": "sports-en-hard-02-12",
+      "text": "Which Catalan mountain runner is the author of Run or Die?",
+      "initial": "K",
+      "answer": "Kilian Jornet",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Kilian Jornet Burgada", "Jornet"],
+      "sources": ["https://en.wikipedia.org/wiki/K%C3%ADlian_Jornet_Burgada"]
+    },
+    {
+      "id": "sports-en-hard-02-13",
+      "text": "What call normally requires a tennis serve to be replayed after it touches the net and lands in the correct service box?",
+      "initial": "L",
+      "answer": "Let",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Service let", "Let serve"],
+      "sources": ["https://en.wikipedia.org/wiki/Serve_(tennis)"]
+    },
+    {
+      "id": "sports-en-hard-02-14",
+      "text": "Which one-day cycling Monument is nicknamed La Primavera?",
+      "initial": "M",
+      "answer": "Milan–San Remo",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Milan-San Remo",
+        "Milano-Sanremo",
+        "Milano Sanremo",
+        "Milan-Sanremo",
+        "Milan Sanremo",
+        "The Spring classic",
+        "Milan–Sanremo"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Milan%E2%80%93San_Remo"]
+    },
+    {
+      "id": "sports-en-hard-02-15",
+      "text": "What pacing strategy completes the second half of a race faster than the first?",
+      "initial": "N",
+      "answer": "Negative split",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Negative splitting", "Negative splits"],
+      "sources": ["https://en.wikipedia.org/wiki/Negative_split"]
+    },
+    {
+      "id": "sports-en-hard-02-16",
+      "text": "Which judo throw has a name meaning “major hip throw”?",
+      "initial": "O",
+      "answer": "O-goshi",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["O goshi", "Ogoshi"],
+      "sources": ["https://en.wikipedia.org/wiki/O_goshi"]
+    },
+    {
+      "id": "sports-en-hard-02-17",
+      "text": "What cycling circuit uses rollers and banked turns that riders can traverse by pumping rather than pedalling?",
+      "initial": "P",
+      "answer": "Pump track",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Pumptrack"],
+      "sources": ["https://en.wikipedia.org/wiki/Pump_track"]
+    },
+    {
+      "id": "sports-en-hard-02-18",
+      "text": "What jump, first ratified in international competition for Ilia Malinin in 2022, contains four and a half rotations?",
+      "initial": "Q",
+      "answer": "Quadruple Axel",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Quad Axel", "4A"],
+      "sources": ["https://en.wikipedia.org/wiki/Quadruple_jump"]
+    },
+    {
+      "id": "sports-en-hard-02-19",
+      "text": "What word can mean a four-person curling team, as well as an ice playing area?",
+      "initial": "R",
+      "answer": "Rink",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Curling rink"],
+      "sources": ["https://en.wikipedia.org/wiki/Glossary_of_curling"]
+    },
+    {
+      "id": "sports-en-hard-02-20",
+      "text": "What snooker variant begins with six red balls instead of the usual fifteen?",
+      "initial": "S",
+      "answer": "Six-red snooker",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Six red snooker",
+        "6-red snooker",
+        "Six reds",
+        "Six-reds",
+        "Super 6s"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Six-red_snooker"]
+    },
+    {
+      "id": "sports-en-hard-02-21",
+      "text": "What is the surname of Anna, the women's singles figure-skating champion at Beijing 2022?",
+      "initial": "SH",
+      "answer": "Shcherbakova",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Anna Shcherbakova", "Anna Stanislavovna Shcherbakova"],
+      "sources": ["https://en.wikipedia.org/wiki/Anna_Shcherbakova"]
+    },
+    {
+      "id": "sports-en-hard-02-22",
+      "text": "What gymnastics vault family is named after the Japanese gymnast Mitsuo?",
+      "initial": "T",
+      "answer": "Tsukahara",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Tsukahara vault", "Tsukahara vaults"],
+      "sources": ["https://en.wikipedia.org/wiki/Tsukahara_(vault)"]
+    },
+    {
+      "id": "sports-en-hard-02-23",
+      "text": "What running discipline covers races longer than the standard marathon distance?",
+      "initial": "U",
+      "answer": "Ultrarunning",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Ultra running",
+        "Ultramarathon running",
+        "Ultramarathon",
+        "Ultra distance running",
+        "Ultra-running"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Ultramarathon"]
+    },
+    {
+      "id": "sports-en-hard-02-24",
+      "text": "Which Swedish cross-country ski race traditionally runs from Sälen to Mora?",
+      "initial": "V",
+      "answer": "Vasaloppet",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Vasa race", "The Vasa race"],
+      "sources": ["https://en.wikipedia.org/wiki/Vasaloppet"]
+    },
+    {
+      "id": "sports-en-hard-02-25",
+      "text": "What judo score is one step below ippon?",
+      "initial": "W",
+      "answer": "Waza-ari",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Waza ari", "Wazaari"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Waza-ari",
+        "https://www.ijf.org/news/show/new-rules-what-to-remember"
+      ]
+    },
+    {
+      "id": "sports-en-hard-02-26",
+      "text": "Which Chinese penhold table-tennis player won Olympic men's team gold in both 2016 and 2020?",
+      "initial": "X",
+      "answer": "Xu Xin",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Xu"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Xu_Xin_(table_tennis)",
+        "https://en.wikipedia.org/wiki/Table_tennis_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_team"
+      ]
+    },
+    {
+      "id": "sports-en-hard-02-27",
+      "text": "What vault family uses a round-off onto the springboard followed by a back handspring onto the vaulting table?",
+      "initial": "Y",
+      "answer": "Yurchenko",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Yurchenko vault",
+        "Round-off entry vault",
+        "Round-off entry vaults"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Yurchenko_(vault)"]
+    },
+    {
+      "id": "sports-en-hard-02-28",
+      "text": "What Japanese martial-arts term refers to continued awareness or readiness after executing a technique?",
+      "initial": "Z",
+      "answer": "Zanshin",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Zanshin"]
+    }
+  ]
+}

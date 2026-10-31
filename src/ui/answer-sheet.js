@@ -47,6 +47,11 @@ th:first-child,td:first-child{min-width:2.5rem;white-space:nowrap}
 <h1>HexY · ${escape(t.privateSheet)}</h1>
 <p class="screen-only">${escape(t.sheetHelp)}</p>
 <h2>${escape(pack.title)}</h2>
+${sheetCategories(pack, t)}
+<p>${escape(t.difficulty)}: ${[pack.difficulty]
+    .flat()
+    .map((level) => escape(t.difficulties[level]))
+    .join(' / ')}</p>
 <p>${escape(t.boardId)}: <b>${escape(pack.id)}</b> · ${escape(t.mode)}: ${escape(t[pack.mode === 'letters' ? 'letters' : 'numbers'])} · ${escape(t.language)}: ${pack.language}</p>
 <table><thead><tr>${headings.map((label) => `<th scope="col">${escape(label)}</th>`).join('')}</tr></thead>
 <tbody>${rows}</tbody></table>
@@ -54,6 +59,18 @@ th:first-child,td:first-child{min-width:2.5rem;white-space:nowrap}
 ${sheetAttribution(pack, t)}
 ${sheetSources(pack, t)}
 </html>`;
+}
+
+/** @param {import('../domain/types.js').Pack} pack
+ * @param {import('./preparation-strings.js').PreparationTexts} t */
+function sheetCategories(pack, t) {
+  const names = /** @type {Record<string, string>} */ (t.categories);
+  const categories = [...new Set(pack.questions.map((q) => q.category))];
+  return `<p>${escape(t.category)}: ${categories
+    .map((category) =>
+      escape(Object.hasOwn(names, category) ? names[category] : category),
+    )
+    .join(', ')}</p>`;
 }
 
 /** @param {import('../domain/types.js').Pack} pack

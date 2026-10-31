@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 2,
+  "id": "games-en-medium-01",
+  "title": "Games · Medium · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-en-medium-01-01",
+      "text": "Which company did Nolan Bushnell and Ted Dabney found in 1972, before it released Pong?",
+      "initial": "A",
+      "answer": "Atari",
+      "language": "en",
+      "aliases": ["Atari Inc.", "Atari, Inc."],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Atari"]
+    },
+    {
+      "id": "games-en-medium-01-02",
+      "text": "Which board game gives each player fifteen checkers to move around twenty-four points before bearing them off?",
+      "initial": "B",
+      "answer": "Backgammon",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Backgammon"]
+    },
+    {
+      "id": "games-en-medium-01-03",
+      "text": "Which Klaus Teuber board game has players build settlements and roads using resources such as brick, wool and grain?",
+      "initial": "C",
+      "answer": "Catan",
+      "language": "en",
+      "aliases": ["The Settlers of Catan", "Settlers of Catan", "Settlers"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Catan"]
+    },
+    {
+      "id": "games-en-medium-01-04",
+      "text": "What chess variant devised by Bobby Fischer randomizes the back-rank arrangement while retaining constraints on bishops and the king?",
+      "initial": "CH",
+      "answer": "Chess960",
+      "language": "en",
+      "aliases": ["Fischer random chess", "Fischerandom"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fischer_random_chess"]
+    },
+    {
+      "id": "games-en-medium-01-05",
+      "text": "In Dungeons & Dragons, what is the usual title of the person who describes the world and adjudicates the adventure?",
+      "initial": "D",
+      "answer": "Dungeon Master",
+      "language": "en",
+      "aliases": ["DM"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dungeon_Master"]
+    },
+    {
+      "id": "games-en-medium-01-06",
+      "text": "Which special chess capture lets a pawn take an opposing pawn that has just advanced two squares as though it had advanced only one?",
+      "initial": "E",
+      "answer": "En passant",
+      "language": "en",
+      "aliases": ["En-passant"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/En_passant"]
+    },
+    {
+      "id": "games-en-medium-01-07",
+      "text": "What was Nintendo's 8-bit home console called in Japan when it launched there in 1983?",
+      "initial": "F",
+      "answer": "Famicom",
+      "language": "en",
+      "aliases": ["Family Computer", "Nintendo Family Computer"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo_Entertainment_System"]
+    },
+    {
+      "id": "games-en-medium-01-08",
+      "text": "Which Nintendo handheld launched in Japan in 1989 and used interchangeable cartridges and a monochrome screen?",
+      "initial": "G",
+      "answer": "Game Boy",
+      "language": "en",
+      "aliases": ["Nintendo Game Boy"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Game_Boy"]
+    },
+    {
+      "id": "games-en-medium-01-09",
+      "text": "What Japanese playing cards, associated with Nintendo's early history, feature flowers representing the months?",
+      "initial": "H",
+      "answer": "Hanafuda",
+      "language": "en",
+      "aliases": ["Flower cards"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hanafuda"]
+    },
+    {
+      "id": "games-en-medium-01-10",
+      "text": "What are Splatoon's squid-like playable characters called?",
+      "initial": "I",
+      "answer": "Inkling",
+      "language": "en",
+      "aliases": ["Inklings"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Inkling_%28Splatoon%29"]
+    },
+    {
+      "id": "games-en-medium-01-11",
+      "text": "Which 1982 arcade game lets its first player ride a flying ostrich into lance duels?",
+      "initial": "J",
+      "answer": "Joust",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Joust_%28video_game%29"]
+    },
+    {
+      "id": "games-en-medium-01-12",
+      "text": "Which Japanese game company is associated with the Metal Gear and Castlevania series?",
+      "initial": "K",
+      "answer": "Konami",
+      "language": "en",
+      "aliases": ["Konami Group", "Konami Group Corporation"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Konami"]
+    },
+    {
+      "id": "games-en-medium-01-13",
+      "text": "What is the usual name of the playable hero in The Legend of Zelda series?",
+      "initial": "L",
+      "answer": "Link",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Link_%28The_Legend_of_Zelda%29"
+      ]
+    },
+    {
+      "id": "games-en-medium-01-14",
+      "text": "What term, popularized through Carcassonne, describes a small stylized person-shaped board-game token?",
+      "initial": "M",
+      "answer": "Meeple",
+      "language": "en",
+      "aliases": ["Meeples"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Meeple"]
+    },
+    {
+      "id": "games-en-medium-01-15",
+      "text": "Which Nintendo home console, successor to the Super NES, was named for its 64-bit processor?",
+      "initial": "N",
+      "answer": "Nintendo 64",
+      "language": "en",
+      "aliases": ["N64"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo_64"]
+    },
+    {
+      "id": "games-en-medium-01-16",
+      "text": "Which 2016 cooperative cooking game asks players to prepare meals together in increasingly chaotic kitchens?",
+      "initial": "O",
+      "answer": "Overcooked",
+      "language": "en",
+      "aliases": ["Overcooked!"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Overcooked"]
+    },
+    {
+      "id": "games-en-medium-01-17",
+      "text": "Which cooperative Matt Leacock board game asks players to contain diseases and discover cures?",
+      "initial": "P",
+      "answer": "Pandemic",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Pandemic_%28board_game%29"]
+    },
+    {
+      "id": "games-en-medium-01-18",
+      "text": "Which 1996 id Software first-person shooter succeeded Doom with a fully three-dimensional game world and enemies?",
+      "initial": "Q",
+      "answer": "Quake",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Quake_%28video_game%29"]
+    },
+    {
+      "id": "games-en-medium-01-19",
+      "text": "Which strategy board game has armies fight to control territories on a map of the world?",
+      "initial": "R",
+      "answer": "Risk",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Risk_%28game%29"]
+    },
+    {
+      "id": "games-en-medium-01-20",
+      "text": "What is Valve's PC game distribution platform called?",
+      "initial": "S",
+      "answer": "Steam",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Steam_%28service%29"]
+    },
+    {
+      "id": "games-en-medium-01-21",
+      "text": "Which Nintendo designer created Donkey Kong and was a principal creator of Super Mario and The Legend of Zelda?",
+      "initial": "SH",
+      "answer": "Shigeru Miyamoto",
+      "language": "en",
+      "aliases": ["Miyamoto", "Miyamoto Shigeru"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Shigeru_Miyamoto"]
+    },
+    {
+      "id": "games-en-medium-01-22",
+      "text": "Which Alan R. Moon board game has players collect coloured cards to claim railway routes?",
+      "initial": "T",
+      "answer": "Ticket to Ride",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ticket_to_Ride_%28board_game%29"
+      ]
+    },
+    {
+      "id": "games-en-medium-01-23",
+      "text": "Which Toby Fox role-playing game lets the player resolve many monster encounters without killing their opponents?",
+      "initial": "U",
+      "answer": "Undertale",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Undertale"]
+    },
+    {
+      "id": "games-en-medium-01-24",
+      "text": "What are Minecraft's non-player village inhabitants, with whom players trade using emeralds, called?",
+      "initial": "V",
+      "answer": "Villager",
+      "language": "en",
+      "aliases": ["Villagers"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Minecraft"]
+    },
+    {
+      "id": "games-en-medium-01-25",
+      "text": "Which Blizzard fantasy franchise began with the strategy game subtitled Orcs & Humans?",
+      "initial": "W",
+      "answer": "Warcraft",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Warcraft"]
+    },
+    {
+      "id": "games-en-medium-01-26",
+      "text": "Which strategy-game franchise has players command an organization defending Earth against alien invasion, notably in Enemy Unknown?",
+      "initial": "X",
+      "answer": "XCOM",
+      "language": "en",
+      "aliases": ["X-COM"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/XCOM"]
+    },
+    {
+      "id": "games-en-medium-01-27",
+      "text": "Which trading card game pits duelists against one another using Monster, Spell and Trap cards?",
+      "initial": "Y",
+      "answer": "Yu-Gi-Oh!",
+      "language": "en",
+      "aliases": [
+        "Yu-Gi-Oh",
+        "Yugioh",
+        "Yu-Gi-Oh! Trading Card Game",
+        "Yu-Gi-Oh TCG"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Yu-Gi-Oh%21_Trading_Card_Game"]
+    },
+    {
+      "id": "games-en-medium-01-28",
+      "text": "Which biological swarm is one of StarCraft's three main playable species, alongside Terrans and Protoss?",
+      "initial": "Z",
+      "answer": "Zerg",
+      "language": "en",
+      "aliases": ["The Zerg", "Zerg Swarm", "The Zerg Swarm"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Zerg"]
+    }
+  ]
+}

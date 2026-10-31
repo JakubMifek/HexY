@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "movies-cs-medium-01",
+  "title": "Filmy a seriály · Střední 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-cs-medium-01-01",
+      "text": "Ve kterém filmu Jeana-Pierra Jeuneta z roku 2001 se pařížská servírka rozhodne tajně zlepšovat životy lidí kolem sebe?",
+      "initial": "A",
+      "answer": "Amélie z Montmartru",
+      "language": "cs",
+      "aliases": [
+        "Amélie",
+        "Le Fabuleux Destin d'Amélie Poulain",
+        "Le Fabuleux Destin d’Amélie Poulain"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Am%C3%A9lie_z_Montmartru",
+        "https://en.wikipedia.org/wiki/Am%C3%A9lie"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-02",
+      "text": "Který seriál sleduje přeměnu učitele chemie Waltera Whitea ve výrobce metamfetaminu?",
+      "initial": "B",
+      "answer": "Breaking Bad",
+      "language": "cs",
+      "aliases": ["Perníkový táta"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Pern%C3%ADkov%C3%BD_t%C3%A1ta"]
+    },
+    {
+      "id": "movies-cs-medium-01-03",
+      "text": "Jak se jmenuje televizní detektiv, kterého Peter Falk hrál v pomačkaném baloňáku?",
+      "initial": "C",
+      "answer": "Columbo",
+      "language": "cs",
+      "aliases": [
+        "Poručík Columbo",
+        "Colombo",
+        "Poručík Colombo",
+        "Lieutenant Columbo",
+        "Lt. Columbo",
+        "Lt Columbo"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Columbo",
+        "https://en.wikipedia.org/wiki/Columbo"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-04",
+      "text": "Která pětidílná minisérie HBO a Sky z roku 2019 dramatizuje jadernou katastrofu z roku 1986 a její vyšetřování?",
+      "initial": "Č",
+      "answer": "Černobyl",
+      "language": "cs",
+      "aliases": ["Chernobyl"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cernobyl_(seri%C3%A1l,_2019)"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-05",
+      "text": "Jak se jmenuje seriálový specialista na krevní stopy u miamské policie, který zároveň vraždí pachatele násilných zločinů?",
+      "initial": "D",
+      "answer": "Dexter",
+      "language": "cs",
+      "aliases": ["Dexter Morgan"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Dexter_(seri%C3%A1l)",
+        "https://en.wikipedia.org/wiki/Dexter_%28TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-06",
+      "text": "Ve kterém filmu Alexe Garlanda má programátor Caleb posuzovat humanoidní umělou inteligenci Avu?",
+      "initial": "E",
+      "answer": "Ex Machina",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Ex_Machina_%28film%29"]
+    },
+    {
+      "id": "movies-cs-medium-01-07",
+      "text": "Který film bratří Coenů z roku 1996 sleduje těhotnou policistku Marge Gundersonovou při vyšetřování série vražd?",
+      "initial": "F",
+      "answer": "Fargo",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Fargo_(film)",
+        "https://en.wikipedia.org/wiki/Fargo_%281996_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-08",
+      "text": "Který seriál sleduje Lorelai a její dceru Rory ve městečku Stars Hollow?",
+      "initial": "G",
+      "answer": "Gilmorova děvčata",
+      "language": "cs",
+      "aliases": ["Gilmore Girls"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Gilmorova_d%C4%9Bv%C4%8Data"]
+    },
+    {
+      "id": "movies-cs-medium-01-09",
+      "text": "Který seriál HBO adaptuje ságu George R. R. Martina Píseň ledu a ohně?",
+      "initial": "H",
+      "answer": "Hra o trůny",
+      "language": "cs",
+      "aliases": ["Game of Thrones"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Hra_o_tr%C5%AFny_(seri%C3%A1l)"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-10",
+      "text": "Který filmový muzikál z roku 2002 má mezi hlavními postavami Roxie Hartovou a Velmu Kellyovou?",
+      "initial": "Ch",
+      "answer": "Chicago",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chicago_(film)",
+        "https://en.wikipedia.org/wiki/Chicago_%282002_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-11",
+      "text": "Ve kterém Nolanově filmu hledá bývalý pilot Cooper za pomoci červí díry nový domov pro lidstvo?",
+      "initial": "I",
+      "answer": "Interstellar",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Interstellar",
+        "https://en.wikipedia.org/wiki/Interstellar_%28film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-12",
+      "text": "Který britský sitcom sleduje střety ministra Jima Hackera s vysokým úředníkem Humphreym Applebym?",
+      "initial": "J",
+      "answer": "Jistě, pane ministře",
+      "language": "cs",
+      "aliases": ["Yes Minister", "Jistě pane ministře"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Jist%C4%9B,_pane_minist%C5%99e"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-13",
+      "text": "Který český film Jana Svěráka vypráví o violoncellistovi Loukovi a malém ruském chlapci?",
+      "initial": "K",
+      "answer": "Kolja",
+      "language": "cs",
+      "aliases": ["Kolya"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Kolja",
+        "https://en.wikipedia.org/wiki/Kolya_(film)"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-14",
+      "text": "Jaké příjmení má David, režisér Modrého sametu a spolutvůrce seriálu Twin Peaks?",
+      "initial": "L",
+      "answer": "Lynch",
+      "language": "cs",
+      "aliases": ["David Lynch", "David Keith Lynch"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/David_Lynch",
+        "https://cs.wikipedia.org/wiki/M%C4%9Bste%C4%8Dko_Twin_Peaks"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-15",
+      "text": "Který film Christophera Nolana vypráví příběh Leonarda Shelbyho, který si nedokáže vytvářet nové dlouhodobé vzpomínky?",
+      "initial": "M",
+      "answer": "Memento",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Memento_%28film%29"]
+    },
+    {
+      "id": "movies-cs-medium-01-16",
+      "text": "Který československý sci-fi seriál sleduje výpravu z roku 2484 za školákem Adamem Bernauem?",
+      "initial": "N",
+      "answer": "Návštěvníci",
+      "language": "cs",
+      "aliases": [
+        "The Visitors",
+        "Die Besucher",
+        "Expedition Adam 84",
+        "Expedition Adam84"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/N%C3%A1v%C5%A1t%C4%9Bvn%C3%ADci_%28seri%C3%A1l%29",
+        "https://en.wikipedia.org/wiki/N%C3%A1v%C5%A1t%C4%9Bvn%C3%ADci"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-17",
+      "text": "Ve kterém filmu Jana Svěráka hraje Jan Tříska učitele Igora Hnízda?",
+      "initial": "O",
+      "answer": "Obecná škola",
+      "language": "cs",
+      "aliases": ["The Elementary School"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Obecn%C3%A1_%C5%A1kola_(film)",
+        "https://en.wikipedia.org/wiki/The_Elementary_School"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-18",
+      "text": "Který seriál sleduje birminghamský gang rodiny Shelbyových po první světové válce?",
+      "initial": "P",
+      "answer": "Peaky Blinders",
+      "language": "cs",
+      "aliases": ["Gangy z Birminghamu"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Gangy_z_Birminghamu",
+        "https://en.wikipedia.org/wiki/Peaky_Blinders_%28TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-19",
+      "text": "Který animovaný seriál pro dospělé sleduje výstředního vědce a jeho vnuka při cestách napříč dimenzemi?",
+      "initial": "R",
+      "answer": "Rick a Morty",
+      "language": "cs",
+      "aliases": ["Rick and Morty"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Rick_and_Morty"]
+    },
+    {
+      "id": "movies-cs-medium-01-20",
+      "text": "Který seriál Netflixu s Neilem Patrickem Harrisem jako hrabětem Olafem adaptuje knihy Lemonyho Snicketa?",
+      "initial": "Ř",
+      "answer": "Řada nešťastných příhod",
+      "language": "cs",
+      "aliases": [
+        "A Series of Unfortunate Events",
+        "Lemony Snicket's A Series of Unfortunate Events",
+        "Lemony Snicket’s A Series of Unfortunate Events"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98ada_ne%C5%A1%C5%A5astn%C3%BDch_p%C5%99%C3%ADhod_(seri%C3%A1l)",
+        "https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events_%28TV_series%29",
+        "https://www.netflix.com/cz/title/80050008"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-21",
+      "text": "Který seriál HBO sleduje mafiána Tonyho, jeho rodinu v New Jersey a jeho návštěvy psychiatričky?",
+      "initial": "S",
+      "answer": "Sopranos",
+      "language": "cs",
+      "aliases": ["The Sopranos", "Rodina Sopránů"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Rodina_Sopr%C3%A1n%C5%AF",
+        "https://en.wikipedia.org/wiki/The_Sopranos"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-22",
+      "text": "Ve kterém filmu M. Nighta Shyamalana hraje Haley Joel Osment chlapce, který vídá mrtvé lidi?",
+      "initial": "Š",
+      "answer": "Šestý smysl",
+      "language": "cs",
+      "aliases": ["The Sixth Sense"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0est%C3%BD_smysl_(film)",
+        "https://en.wikipedia.org/wiki/The_Sixth_Sense"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-23",
+      "text": "Ve kterém seriálu vyšetřuje agent Dale Cooper smrt Laury Palmerové?",
+      "initial": "T",
+      "answer": "Twin Peaks",
+      "language": "cs",
+      "aliases": ["Městečko Twin Peaks"],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/M%C4%9Bste%C4%8Dko_Twin_Peaks"]
+    },
+    {
+      "id": "movies-cs-medium-01-24",
+      "text": "Který film Karla Kachyni sleduje manžele, kteří po návratu z večírku začnou mít podezření, že jsou doma odposloucháváni?",
+      "initial": "U",
+      "answer": "Ucho",
+      "language": "cs",
+      "aliases": ["The Ear"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ucho_(film)",
+        "https://en.wikipedia.org/wiki/The_Ear"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-25",
+      "text": "Který film z roku 1994 sleduje přátelství vězňů Andyho Dufresna a Reda?",
+      "initial": "V",
+      "answer": "Vykoupení z věznice Shawshank",
+      "language": "cs",
+      "aliases": ["The Shawshank Redemption", "Shawshank Redemption"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Vykoupen%C3%AD_z_v%C4%9Bznice_Shawshank",
+        "https://en.wikipedia.org/wiki/The_Shawshank_Redemption"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-26",
+      "text": "Který seriál HBO začíná v zábavním parku s androidy a kulisami Divokého západu?",
+      "initial": "W",
+      "answer": "Westworld",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://cs.wikipedia.org/wiki/Westworld_(seri%C3%A1l)"]
+    },
+    {
+      "id": "movies-cs-medium-01-27",
+      "text": "Který seriál sleduje přeživší letu Oceanic 815 na tajemném ostrově?",
+      "initial": "Z",
+      "answer": "Ztraceni",
+      "language": "cs",
+      "aliases": ["Lost"],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ztraceni",
+        "https://en.wikipedia.org/wiki/Lost_%28TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-01-28",
+      "text": "Ve kterém filmu Monty Pythonů si lidé spletou Briana Cohena s mesiášem?",
+      "initial": "Ž",
+      "answer": "Život Briana",
+      "language": "cs",
+      "aliases": [
+        "Life of Brian",
+        "Monty Python's Life of Brian",
+        "Monty Python: Život Briana",
+        "Monty Pythonův Život Briana",
+        "Monty Python’s Life of Brian"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Monty_Python:_%C5%BDivot_Briana",
+        "https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian"
+      ]
+    }
+  ]
+}

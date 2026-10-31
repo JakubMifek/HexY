@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-en-easy-02",
+  "title": "Computing and Programming · Easy · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-en-easy-02-01",
+      "text": "What kind of protective software scans for and helps remove computer viruses?",
+      "initial": "A",
+      "answer": "Antivirus",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Antivirus software",
+        "Anti-virus",
+        "Anti-virus software",
+        "Anti-malware",
+        "Antimalware",
+        "AV",
+        "AV software"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Antivirus_software"]
+    },
+    {
+      "id": "programming-en-easy-02-02",
+      "text": "What kind of program are Safari and Firefox, both used to visit websites?",
+      "initial": "B",
+      "answer": "Browser",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Web browser", "Internet browser"],
+      "sources": ["https://en.wikipedia.org/wiki/Web_browser"]
+    },
+    {
+      "id": "programming-en-easy-02-03",
+      "text": "Which familiar app has number and arithmetic buttons and can work out sums and divisions?",
+      "initial": "C",
+      "answer": "Calculator",
+      "language": "en",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Calculator_(Windows)"]
+    },
+    {
+      "id": "programming-en-easy-02-04",
+      "text": "What is a small square control called when you click it to put a tick in it or remove the tick, turning an option on or off?",
+      "initial": "CH",
+      "answer": "Checkbox",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Check box", "Tick box", "Tickbox", "Tick-box"],
+      "sources": ["https://en.wikipedia.org/wiki/Checkbox"]
+    },
+    {
+      "id": "programming-en-easy-02-05",
+      "text": "What is transferring a file from an internet service to your own device called, rather than sending your file to that service?",
+      "initial": "D",
+      "answer": "Download",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Downloading"],
+      "sources": ["https://en.wikipedia.org/wiki/Download"]
+    },
+    {
+      "id": "programming-en-easy-02-06",
+      "text": "Which key usually starts a new paragraph in a word processor and confirms the default choice in many dialog boxes?",
+      "initial": "E",
+      "answer": "Enter",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Return", "Enter key", "Return key"],
+      "sources": ["https://en.wikipedia.org/wiki/Enter_key"]
+    },
+    {
+      "id": "programming-en-easy-02-07",
+      "text": "Which editor command locates a word or phrase you enter within the current document?",
+      "initial": "F",
+      "answer": "Find",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Search", "Searching", "Find command", "Search command"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-08",
+      "text": "Which image format, named by a three-letter abbreviation, is widely used for looping animations on the web?",
+      "initial": "G",
+      "answer": "GIF",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Graphics Interchange Format"],
+      "sources": ["https://en.wikipedia.org/wiki/GIF"]
+    },
+    {
+      "id": "programming-en-easy-02-09",
+      "text": "Which browser list records the websites you have visited, helping you return to a page from yesterday?",
+      "initial": "H",
+      "answer": "History",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Browsing history",
+        "Browser history",
+        "Web browsing history"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Web_browsing_history"]
+    },
+    {
+      "id": "programming-en-easy-02-10",
+      "text": "Which process prepares a downloaded program on your computer so it is ready to run?",
+      "initial": "I",
+      "answer": "Install",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Installation",
+        "Installing",
+        "Setup",
+        "Set-up",
+        "Set up",
+        "Setting up",
+        "Software installation",
+        "Program installation"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Installation_(computer_programs)"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-11",
+      "text": "What do you call unwanted bulk email that a mail app may move into a separate unwanted-mail folder?",
+      "initial": "J",
+      "answer": "Junk mail",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Spam",
+        "Junk email",
+        "Unsolicited email",
+        "Email spam",
+        "Spam mail",
+        "Junk e-mail",
+        "Unsolicited e-mail"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Email_spam"]
+    },
+    {
+      "id": "programming-en-easy-02-12",
+      "text": "What do you call one of the individual buttons, such as the letter A, that you press to type into a program?",
+      "initial": "K",
+      "answer": "Key",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Keyboard key"],
+      "sources": ["https://en.wikipedia.org/wiki/Computer_keyboard"]
+    },
+    {
+      "id": "programming-en-easy-02-13",
+      "text": "What do you call clickable text or an image on a webpage that takes you to another page or location?",
+      "initial": "L",
+      "answer": "Link",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Hyperlink", "Web link"],
+      "sources": ["https://en.wikipedia.org/wiki/Hyperlink"]
+    },
+    {
+      "id": "programming-en-easy-02-14",
+      "text": "Which sound control silences a program's audio without stopping the video that is playing?",
+      "initial": "M",
+      "answer": "Mute",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Muting"],
+      "sources": ["https://html.spec.whatwg.org/multipage/media.html"]
+    },
+    {
+      "id": "programming-en-easy-02-15",
+      "text": "Which File-menu command starts a blank document rather than loading an existing one?",
+      "initial": "N",
+      "answer": "New",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["New document", "Create new"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-16",
+      "text": "What word describes using an app without an active connection to the internet, rather than being online?",
+      "initial": "O",
+      "answer": "Offline",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Off-line"],
+      "sources": ["https://en.wikipedia.org/wiki/Online_and_offline"]
+    },
+    {
+      "id": "programming-en-easy-02-17",
+      "text": "Which program command sends your document to a printer to produce a paper copy?",
+      "initial": "P",
+      "answer": "Print",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Printing"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-18",
+      "text": "What kind of square, usually black-and-white code can a phone app scan to open a website or read information?",
+      "initial": "Q",
+      "answer": "QR code",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["QR", "Quick Response code", "Quick-response code"],
+      "sources": ["https://en.wikipedia.org/wiki/QR_code"]
+    },
+    {
+      "id": "programming-en-easy-02-19",
+      "text": "Which file-management command changes an existing file's name without creating a new copy?",
+      "initial": "R",
+      "answer": "Rename",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Renaming"],
+      "sources": [
+        "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-20",
+      "text": "What do you call an image captured directly from what a device is displaying, rather than a camera photograph of the device?",
+      "initial": "S",
+      "answer": "Screenshot",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Screen shot", "Screen capture", "Screengrab", "Screen grab"],
+      "sources": ["https://en.wikipedia.org/wiki/Screenshot"]
+    },
+    {
+      "id": "programming-en-easy-02-21",
+      "text": "With Caps Lock off, which keyboard key do you hold while typing a letter to make that one letter uppercase?",
+      "initial": "SH",
+      "answer": "Shift",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Shift key"],
+      "sources": ["https://en.wikipedia.org/wiki/Shift_key"]
+    },
+    {
+      "id": "programming-en-easy-02-22",
+      "text": "What is one of the selectable page headers across the top of a browser window called, allowing several webpages in one window?",
+      "initial": "T",
+      "answer": "Tab",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Browser tab"],
+      "sources": ["https://en.wikipedia.org/wiki/Tab_(interface)"]
+    },
+    {
+      "id": "programming-en-easy-02-23",
+      "text": "Which editor command reverses your last change, such as accidentally removing a paragraph?",
+      "initial": "U",
+      "answer": "Undo",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Undo command"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-24",
+      "text": "What is a conversation through an app called when the participants can see live camera images of each other as well as hear each other?",
+      "initial": "V",
+      "answer": "Video call",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Videocall",
+        "Video chat",
+        "Video calling",
+        "Videotelephony",
+        "Videoconferencing",
+        "Video conferencing",
+        "Video conference",
+        "Videoconference",
+        "Telepresence"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Videotelephony"]
+    },
+    {
+      "id": "programming-en-easy-02-25",
+      "text": "Which Microsoft application for creating and editing text documents normally uses .docx as its filename extension?",
+      "initial": "W",
+      "answer": "Word",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Microsoft Word", "MS Word"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/basic-tasks-in-word-87b3243c-b0bf-4a29-82aa-09a681999fdc"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-26",
+      "text": "Which filename extension identifies the standard modern Excel workbook, as opposed to a Word document ending in .docx?",
+      "initial": "X",
+      "answer": "XLSX",
+      "language": "en",
+      "category": "programming",
+      "aliases": [".xlsx"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/open-xml-formats-and-file-name-extensions-5200d93c-3449-4380-8e11-31ef14555b18"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-27",
+      "text": "Which affirmative button in a Windows confirmation dialog accepts a proposed action, as opposed to No or Cancel?",
+      "initial": "Y",
+      "answer": "Yes",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Yes button"],
+      "sources": [
+        "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messageboxa"
+      ]
+    },
+    {
+      "id": "programming-en-easy-02-28",
+      "text": "Which widely used archive format can bundle several files together with lossless compression and is supported natively by Windows and macOS?",
+      "initial": "Z",
+      "answer": "ZIP",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Zip archive", "ZIP file"],
+      "sources": ["https://en.wikipedia.org/wiki/ZIP_(file_format)"]
+    }
+  ]
+}

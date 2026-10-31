@@ -6,9 +6,271 @@ the operational boundaries and any blockers in the handoff below.
 
 `PLAN.md` remains the product specification. These phases organize delivery;
 they do not reduce its final scope. Interim builds may use explicitly labeled
-starter packs, but final delivery still requires 36 packs / 1,008 entries.
+starter packs. The phases-1–7 baseline required 36 packs / 1,008 entries;
+the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
+330 / 9,240. Partial checkpoints never clear those gates.
 
 ## Execution and review loop
+
+**Authoritative bounded-delivery checkpoint, 2026-10-31:** phase11 independent
+final review CLEARED, coordinator full postreview quality867tests/34files,
+format/lint/types/build/both57-module coverage groups,1433nativecases and65negative
+probes PASS. Exact132/3696/all11quotas and all accepted content/support/alias
+receipts retained. Authorized commit/push/private HTTPS delivery follows these
+gates; actual served revision is recorded in continuation STATUS.
+Sole new coordinator session `8bcfc276-2d9b-4c1a-bfb9-911a6eda1686`,
+6/8GiB/1GiBswap service limits and2048MiBNodeheap; one reviewer/central runner,
+browser workers=1. All historical worker tables below are preserved history,
+not current active ownership. Phase12 artifacts are paused and untouched;
+Generaloriginalc2ac2e6b remains independently ACTIVE and exclusively owned.
+Next only: exact reviewed visualpatch88d2b3ad integration, separate independent
+review/postreview/private delivery, then durable handoff and stop.
+
+**Owner decision, 2026-10-30 17:15:** broaden the category to Computing and
+Programming while retaining general-adult difficulty, as recorded in PLAN.md.
+The scope-choice blocker is resolved. Resume the paused phase-11 and eligible
+phase-12 workers from preserved checkpoints; do not duplicate General/visual
+preparation. Reassess affected category-fit/difficulty judgments and complete
+all outstanding corrections and independent reviews. Keep `programming` IDs
+stable and update localized names consistently. No phase clearance is implied.
+Latest owner scheduling instruction, 17:19: adopt the independently cleared
+baseline-relative visual patch through separate integration/review/post-review
+gates after phase-11 delivery, without waiting for phase-12 completion.
+This supersedes earlier visual-after-phase12 wording; do not reauthor it.
+
+Latest integration checkpoint: **132 packs /3,696 questions**, all11 categories
+12/336/two per language/difficulty. All2,800 addition entries and whole-deck
+adult ratings independently accepted before integration. Final Moviesb04-v2
+FOUR-only originalb5d15e34 CLEARED84 closes six finite aliases; all80 whole
+objects/all84supportchains/3ratingbytes retained. Final44 decks integrated;
+four Entertainment files archived byte-for-byte, retired atomically fromruntime.
+Focused349tests/3files PASS; complete quality867tests/34files PASS with formatting,
+lint, types, build, both57-module coverage groups and65negativeprobes. Four
+unchanged print assertions now run per actualpack instead of aggregating132
+sheets into one5000mscase; no timeout increase or coverage waiver. Initial
+lint/staleprojection/aggregate-timeout failures remain preserved. Final native/
+independentphase review/post-review/private delivery pending; no commit/push.
+The preceding92-pack/628test checkpoint below is historical verification.
+
+Recovery, 2026-10-31: original1413 native gate finished1404passed/9failed;
+it was not still running during the coordinator deadlock. All nine actual
+failures and original outputs are retained. Narrow correction: artifact-local
+licensed CJK test font, embedded8/16-bit glyph decoding, exact localized repeated
+PDF header removal, and replace the invalid Passphrase negative fixture with
+Username (Passphrase remains a valid Password alias). No question, alias,
+source ledger or runtime behavior changed. All nine affected surfaces now pass
+in both engines:36 focused journeys including20 positive/negative extraction
+regressions. Complete quality gate867tests/34files passes. Independent correction
+review/native walkthrough and same-snapshot post-review gates remain mandatory.
+All14 historical worker IDs were queried unavailable before bounded replacement.
+Games correction author4eb9eca4 inherits71 accepted entries/13findings;
+Nature602c2093 rechecksTHREE only with81whole judgments inherited;
+Arts818d3fa7 rechecksONE only with83whole judgments inherited.
+At least1344 phase12 entries outside General are independently batch-cleared,
+including Geographyb03-v2's latest84; later READYs are preserved, not cleared.
+General remains exclusively resumed originalsessionc2ac2e6b, no duplicate.
+
+Resumed integration checkpoint 17:27: accepted Arts224 now integrated exactly,
+bringing catalog92/2576 with seven complete categories;44finaldecks1232remain.
+The stable `programming` ID has localized owner-approved display names; four
+inherited pack titles alone changed, with exact metadata continuity in
+`docs/phase-11-computing-metadata.json`. All questions/evidence remain unchanged.
+Quality628tests/32filesPASS, both57-modulecoveragegroups andformat/lint/types/build.
+No phaseclearance. Actual replacementauthor/reviewer IDs and preserved
+intermediate failures are in STATUS; all operate in isolated category directories.
+
+### Current recovered scheduling — 2026-10-30 owner decision adopted
+
+The eight former paused author IDs were queried before unavailable owners were
+replaced. The coordinator remains the sole primary integrator; central runners
+are serialized. The table below supersedes the historical assignment tables.
+Accepted staged additions do not count as integrated category completion.
+
+| Scope | Sole isolated author task | Actual current work |
+|---|---|---|
+| Phase11 Computing and Programming | `0a1230fa-6927-4c45-ae4f-8097b4ff9949` | All224additions/336categorycontent accepted and integrated; b04-v2 ONE closure1ffa32fd;55whole/all57evidence/bothratings exact,author idle |
+| Phase11 Games | `16184361-8b61-4298-8f9a-b9098be1da59` | All336 content accepted and integrated after b04-v2 TWO-only clearance `44cee56f`; author idle, finalphasegates pending |
+| Phase11 Movies/Series | `1643fa89-0488-4f63-9680-49cf5daf495a` | All336 accepted and integrated; b04-v2 originalb5d15e34 FOUR-only CLEARED84,80whole/all84supports/3ratings/senses/retirements retained,author idle |
+| Phase11 Sports | `b5cbc2c9-6ab2-4ca7-91f3-389972ce5ede` | Complete336 accepted and integrated through b04-v2 one-only clearance `7a53c13f`; author idle, finalphasegates pending |
+| Phase12 Movies preparation | `c1490b01-dcbc-4617-894f-0b5c7bfa0cfb` | Newsoleowner after allphase11Movies336 accepted/absenceverified;18/504reservation then FIRSTboundedEnglish03/84/early3adultcalibration; no duplicate |
+| Phase12 Games preparation | `5efdad74-6794-407e-875b-5ddde3824257` | New sole owner after all phase11 Games336 content accepted; reserve18/504 then first bounded English03/84 before wider polishing/calibration feedback; no previous owner/output |
+| Phase12 Sports preparation | `690ea030-6fb6-4c6e-90c6-6392e736a24f` | FirstEnglish03 b01-v2 ONErecheck5f5bebf6/1347members77272b61;83whole/all84evidencearrays/3EARLYratings retained;soleauthor resumedfirstboundedCzech03/84,twoCzechHOLDs retained |
+| Phase12 Computing preparation | `466625ed-75c1-4108-bbf6-94e32a15aa79` | New sole owner after phase11all336 accepted; broaderComputing/programming BOTHlangs/ALLlevels,full18/504reservation then firstboundedEnglish03/84 beforecalibration;no priorowner/output |
+| Phase12 Nature preparation | `aa677256-7eb4-4c64-9810-e2800e59d36a` | First168/all6ratings accepted;English04b03-v1 initialc6950321/533members/c66d7e29,actual3/84PASS;boundedCzech04/84 continues,oldresearch retained |
+| Phase12 Geography preparation | `ba3f0b23-180c-4584-8ad9-d059d3f163a2` | Complete168; English04 initialcad1277b79whole/3ratings accepted,FIVE fixes incl2major Talik/Chernozem ambiguities;b03-v2 underway,retained Czech04 work;England country/team accepted |
+| Phase12 History preparation | `744a0f72-cd51-42cf-bb01-62551cd7de6c` | First168/all6ratings accepted389ac51b/53f6cc5e,Czech84zero findings/25+307exact; bounded English04/84 continues,laterCzechhold released |
+| Phase12 Science preparation | `e4290e25-4615-4aaf-b6a2-fd8a9e4746a9` | Total252cleared,Czechb02-v3 bindingclosed65ad5a77;English05/84 initiale871329b/137contexts;boundedCzech04/84resumed,oldbadbindingpreserved |
+| Phase12 Politics preparation | `0ce63246-f15a-4c6a-a262-57270349a1a7` | Total252 accepted,mixed04b36b8d9f84zero findings/3ratings/Řečsense+category accepted; bounded EnglishEasy04/CzechMedium04/EnglishHard04 authoring |
+| Phase12 Arts preparation | `770a877b-6c6f-4dff-915c-5ed640edbfd1` | First168/all6ratings accepted;English04b03-v2 ONE recheck93ebca90/29members463ff214;83whole/84sourcetriples/3ratings/31yields retained;boundedCzech04 resumed |
+| Phase12 General, exclusive separate owner | session `c2ac2e6b-4ed1-4997-8d19-d766f1fff057` | Latest21:44Z handoff stopped; no duplicate/restart authorized; exact access gate below |
+
+Computing's 72 category-fit findings are independently resolved under the
+broader scope, with40 original factual judgments/four adult ratings retained.
+Nine corrected questions were freshly accepted;103 complete question objects
+and all112 evidence/cache chains retain exact continuity. No English question
+is automatically approved from reused Czech evidence.
+
+The separate General owner stopped before receiving the verified31-target Arts
+resolution. Its336 frozen/initially reviewed entries include unresolved Czech03
+sixteen findings and English05 two corrections; Czech04/05's168 are unfrozen.
+Direct messaging to its parent session returned “No agent found.”
+`COORDINATOR-TO-PREPARATION.json` preserves the exact resolution/resumption
+request. If that exclusive owner does not resume, original-session continuation
+or explicit ownership transfer is a genuine phase12 completion gate; no General
+replacement or quota reduction is inferred. Other bounded work continues.
+
+All first batches retain complete initial per-entry review and early full-deck
+adult calibration. Corrections recheck only changed entries/evidence, exact
+unchanged whole objects/cache metadata and fresh cross-phase proposal deltas.
+Actual full reviewer IDs, immutable manifests and source receipts are in STATUS,
+the session `batch_reviews` registry and preserved per-batch reports. No phase11,
+phase12 or integrated visual clearance, partial commit or delivery is claimed.
+
+Historical coordinator checkpoint, 2026-10-30 16:48: **phase 11 BLOCKED on the
+current Programming candidate bank, not cleared or delivered.** Actual catalog
+84 packs / 2,352 questions; six accepted categories each 12 / 336, including
+final Science b01-v3/b02-v4/b03-v4 and Politics b01-v4/b02-v5/b03-v4.
+Their format-only continuity rechecks are complete. Full integrated quality
+passes 525 tests / 31 files and all 57-module separate coverage gates; 65 negative
+coverage probes pass with exact report restoration. Politics native flows pass
+28 (14 per engine); prior Science 46 and History 36 remain bounded evidence.
+52 final decks / 1,456 questions remain. These checks do not clear the phase.
+
+Programming's original independent reviewer confirms the current authoring
+failure: 40 accepted judgments preserved, 72 category-fit defects remain
+(55 Easy / 17 Medium), no complete viable replacement bank. This does not prove
+product impossibility or require relaxing policy. Owner options are explicit
+Computing and Programming scope, explicit novice-programmer-relative Easy, or
+a materially different bank under unchanged requirements. No option was selected
+at that checkpoint; the owner has now chosen the broader category above.
+Owned category authors and phase-12 Nature/Geography/History are safely paused
+with detailed checkpoints; accepted staged Arts224, Sports168 and Movies84
+remain unintegrated. The separate preparation session retains General/visual
+ownership and active frozen reviews; do not stop or duplicate its work.
+STATUS contains exact assignments, snapshots and outstanding review backlog.
+No partial checkpoint commit/push/deployment is authorized by implication.
+
+Historical coordinator checkpoint, 2026-10-30 16:26: History v3's complete 224-entry
+review and narrow correction rechecks are accepted and integrated. The shared
+catalog is 68 packs / 1,904 questions; General, Nature, Geography and History each
+have 12 / 336. The integrated check passed 479 tests / 29 files, all separate
+57-module coverage gates, and 36 serialized native History browser journeys.
+These are bounded integration checks, not phase-11 clearance or delivery.
+Science's first corrected batch is accepted; its other two correction rechecks
+and other categories' initial/correction reviews continue in isolated directories.
+
+Under the 16:03 amendment, Nature and Geography phase-12 preparation are now
+assigned next: one isolated author per category, 18 additional decks / 504 entries
+each, IDs 03–05 per language/difficulty. They must reserve proposed facts/answers/
+aliases against the combined accepted, staged and unfinished phase-11/12 inventory
+before source research and refresh it before acceptance. The separate preparation
+session retains exclusive General phase-12 and visual ownership. The coordinator
+alone integrates and delivers, phase 11 first; actual worker IDs are in STATUS.
+History's phase-12 author subsequently started after its v3 acceptance:
+`0c1de12b-aa66-42e4-8720-0c5f1f83b181`. Nature is
+`030be4df-84f5-4792-b07f-06eeb5d50e38`; Geography is
+`aca3eaef-b05a-4f76-ba18-00cae5e5a5bf`. No duplicate General/visual assignment.
+
+Historical later integration checkpoint: all Science and Politics entries/ratings and
+content corrections are independently accepted. Science is integrated at
+76 / 2,128; Politics is not integrated. The central formatting gate exposed
+staged ignored-file formatter no-ops, so original authors published format-only
+versions with unchanged question/entire-evidence objects; mechanical continuity
+rechecks are pending. The batch gate now checks actual production-path formatted
+text, literal accepted-answer disclosures and normalized-alias uniqueness.
+Programming's author returned a bounded Easy/category feasibility concern;
+the original independent reviewer is assessing it before the coordinator claims
+a necessary owner decision. No rubric/category/quota exception is inferred.
+
+**Owner amendment 2026-10-30 16:03 (overlapping preparation):** phase-12 authors
+may start on categories already independently accepted in phase 11, and the
+visual bundle may be developed concurrently in an isolated worktree. Delivery
+and main-checkout integration remain serialized under the original coordinator.
+Cross-phase duplicate checks must include mutable proposals/staged packs,
+canonical answers, aliases and semantic facts, with a fresh check at final
+integration. Phase 11 takes priority when later drafts collide.
+The separate bounded preparation session owns phase-12 General knowledge
+(18 additional decks) and the visual bundle; consult
+`.artifacts/continuation/CROSS-PHASE-PARALLELISM.md` and
+`.artifacts/continuation/PARALLEL-PREPARATION-STATUS.md` before assigning these
+again. This overrides the earlier phase-12/visual sequential-start requirement,
+not independent review or final phase gates.
+
+**Owner follow-up 2026-10-30 15:37:** immutable 2–4 completed-deck batches may
+enter independent review while their author continues separate mutable work.
+Fully review the first completed deck at each level for early difficulty
+calibration and retain its per-entry judgments. Already frozen whole-category
+reviews continue without retroactive splitting. Corrections re-review changed
+questions/evidence only, verifying exact unchanged object AND evidence hashes;
+expand scope explicitly if a changed shared source/rubric invalidates other work.
+All initial entries, complete quotas and final independent/post-review gates stay.
+The 15:19 coordinator background_timeout was an interrupted wait, not completion;
+resumption recovers durable artifacts with one owner per directory.
+
+Historical15:37 schedule, superseded by17:19 above: after phase12 delivery, run one visual developer/reviewer/post-review/delivery
+phase: enlarged selected flipping tile, clockwise authoritative answering-player
+color countdown, defaults A#129FB5/B#FBA123 while preserving custom/saved colors.
+Do not mix this queued presentation work into frozen content snapshots.
+
+Recovery at 15:57 after the coordinator wait timeout: all nine original IDs
+unavailable; durable drafts, caches and interrupted History judgments preserved.
+Single replacement owners: Politics `d953391c-8687-4127-aa80-b214bca2ebcb`,
+Science `6f6bd1cf-d4e1-4aa6-a693-89b25035c9b0`,
+Programming `2532923a-ae06-4507-909c-b027a74cdf5c`,
+Arts `73666e46-82d8-4006-9531-932e8ffdfe35`,
+Games `d683e1cc-9ff0-458b-9708-c5d16ef900ca`,
+Movies `e3f860de-b80e-4187-b0a7-c5555fc2d261`,
+Sports `30ddb769-4b23-421c-8941-cb379975d356`;
+History independent reviewer `76f9d132-3c00-4328-a093-b7e9d0fcf552` resumes
+existing receipts without discarding reviewed IDs. Later historical assignment
+tables are retained, superseded by these IDs. Batch-ready reports update STATUS.
+
+**Owner amendment 2026-10-30 (phases 11/12 content scheduling):** parallel isolated
+category authors and separate independent frozen-bundle reviewers are approved.
+The coordinator alone integrates shared files. Authors own only their explicit
+`.artifacts/continuation/bundles/<phase>/<category>/` staging directories.
+Start approximately four authors; adjust to measured throughput/backlog/resource
+pressure. Reuse accepted per-entry evidence with exact hashes; integrate only
+reviewed bundles, detect cross-category semantic duplication centrally.
+Central coverage/build/preview runners remain serialized; complete final phase
+review and coordinator post-review gates are unchanged. Phase 12 production
+still requires phase-11 delivery. This overrides earlier single-content-writer
+wording only, not operational permissions or complete review.
+
+Historical parallel phase-11 assignments (superseded by recovered scheduling above):
+
+| Category | Isolated author task | Missing decks | State |
+| --- | --- | ---: | --- |
+| History     | `84548d77-86db-4891-bfd0-8d97de592a77` |             8 | Recovered 8/224 frozen; independent reviewer `f452f82a-8217-4ccb-90f3-4a748a17267f` active |
+| Politics | `60846f1a-98f9-41e6-a649-a1144c8cdae2` | 8 | Isolated authoring |
+| Science | `8c8aa029-3412-4a2e-842e-e72462b9148d` | 8 | Isolated authoring |
+| Programming | `7e085b5d-d654-4ff4-93db-858a14ae7346` | 8 | Isolated authoring, adult-Easy calibration explicitly required |
+| Arts | `e31319b3-0cdb-4891-8e59-c0823343f243` | 8 | Isolated authoring, replacing finished History author capacity |
+| Games | `292b8f1f-dacb-4809-a427-525ac0950e5c` | 12 | Isolated authoring |
+| Movies/Series | `dba3b1df-5f20-467e-a376-b20ccfaf2e20` | 12 | Isolated authoring |
+| Sports | `f8528183-3a81-4033-b378-72e44eeb366d` | 12 | Isolated authoring |
+
+Fixed author input is 60 validated packs / 1,680 questions. General, Nature and
+Geography additions and correction reviews remain accepted. Main checkout has
+56 final candidates plus four transitional Entertainment decks; 76 final decks /
+2,128 questions remain. The three replacement categories follow as author
+capacity clears. History's 224-entry bundle froze after 958 seconds, using 221
+existing cached responses and no new fetches; author reports no blocker.
+Its first full independent frozen-bundle review is active; no other review backlog
+yet. This is measured production progress, not accepted or integrated content.
+Shared integration and central
+checks remain exclusively coordinator-owned. No speedup is claimed in advance.
+
+After the first 8-deck recovery completed and its reviewer started, measured
+headroom was 12,146 MB available memory, load 0.87 and 148 GB free storage, with
+no waiting ready-review queue or reported resource/rate-limit blocker. The three
+remaining heavy replacement categories therefore started independently: seven
+active category authors plus one reviewer, not a generic worker pool. All 76
+missing final decks now have bounded ownership: 8 ready for review, 68 being
+authored. No staged deck counts as integrated/accepted yet. Original transitional
+Entertainment facts may be explicitly reclassified into replacement bundles
+where genuinely fitting, with old/new ID mapping and complete new independent
+review; none of those four retired decks counts toward the final quota.
 
 For each implementation phase:
 
@@ -79,9 +341,9 @@ solely to obtain a revision without permission.
 | 7 | Programming, Arts, Entertainment content | 6 cleared | Cleared and pushed: `aa465b9` | [CLEARED after correction](reviews/phase-07.md) |
 | 8 | Integrated release and approved deployment | 7 cleared | Plan finished by owner; accepted for private delivery with release follow-ups | [No implementation defects; original public gate blocked](reviews/phase-08.md) |
 | 9 | Guided UI, portable saves, continuous duels and tile flips | Owner-approved redesign after plan closure | Cleared after fixes; complete coordinator post-review gates passed | [CLEARED; P9-IR1/P9-IR2 resolved](reviews/phase-09.md) |
-| 10 | Temporary mixes, final export and recorded controls | Phase 9 delivered `4cd16af`; owner-approved follow-up | Independently cleared; complete coordinator post-review gates passed; delivery next | [CLEARED after P10-IR1–4 corrections](reviews/phase-10.md) |
-| 11 | Two-deck difficulty library and folder catalog: 132 decks / 3,696 questions | Phase 10 reviewed, verified and delivered | Approved; not started | Pending |
-| 12 | Five-deck expansion: 330 decks / 9,240 questions total | Phase 11 reviewed, verified and delivered | Approved; not started | Pending |
+| 10 | Temporary mixes, final export and recorded controls | Phase 9 delivered `4cd16af`; owner-approved follow-up | Cleared and pushed `54b34b1`; actual private preview verified | [CLEARED after P10-IR1–4 corrections](reviews/phase-10.md) |
+| 11 | Two-deck difficulty library and folder catalog: 132 decks / 3,696 questions | Phase 10 reviewed, verified and delivered | In progress from `54b34b1` | Pending |
+| 12 | Five-deck expansion: 330 decks / 9,240 questions total | Final integration/delivery after phase 11; accepted-category isolated preparation may overlap | General, Nature, Geography and History preparation active; nothing integrated/delivered | Pending |
 
 For each active phase, maintain a short handoff here: current snapshot, changed
 files, commands/results, report link, unresolved findings, decisions and exact
@@ -1551,7 +1813,7 @@ Both previews responsive during runs and 4182 closed afterward. Phase 10 clears
 its implementation gate; authorized scoped delivery and actual private HTTPS
 verification precede phase 11.
 
-### Phases 11 and 12 approved scope — not started
+### Phases 11 and 12 approved scope
 
 Latest owner clarification in `.artifacts/continuation/HANDOFF.md` supersedes
 older queued wording. Phase 11 depends on completed phase-10 delivery and delivers
@@ -1573,9 +1835,272 @@ errors, with no Unrated or arbitrary legacy-import inference. Preserve protected
 old browser data and active-game recovery/export. Explicit known-bundled migration
 is permissible; format compatibility must be documented. Every new entry and
 reclassification needs complete factual/editorial independent review and ledger
-accounting. No content or software work has started.
+accounting.
 
 Phase 12 begins only after phase-11 reviewed delivery, adding three decks per
 combination for **330 decks / 9,240 questions** total. Both phases retain complete
 independent review, coordinator post-review gates, scoped commit/push and actual
 automatic private-preview verification. No public or shared-service changes.
+
+### Phase 11 starting snapshot
+
+Baseline `54b34b1505a6ff3087269bdaae4a4ca790ea4f18`: phase 10 independently
+cleared, complete coordinator gates passed, pushed main and actual automatic
+private HTTPS browser flow verified. Phase-10 final delivery evidence above is
+the only preexisting dirty documentation; preserve it.
+
+Fresh sole developer begins phase 11 in bounded software/content bundles.
+The exact 132-deck / 3,696-question gate is unchanged; partial bundles are
+checkpoints, never phase clearance. Every new/reclassified shipped entry needs
+complete independent factual/editorial review and durable source/hash accounting.
+Phase 12 remains dependent, not prelaunched. Any genuinely missing material
+decision must be recorded exactly rather than guessed or silently reducing scope.
+
+### Phase 11 first software/adaptation checkpoint — unreviewed
+
+The sole developer has implemented pack-v2 difficulty validation and mixed-source
+metadata, editor/export/print/persistence integration, language-scoped native
+folder selection and exact-byte protected-library export. Old game/library data
+is rejected without arbitrary classification, deletion or replacement.
+Final bounded software checks pass 378 units /26 files, all quality/build gates,
+65 negative coverage probes, 113 affected Chromium and eight new Firefox flows.
+All 57 runtime modules are included (33 critical, 24 remaining); only the existing
+type-only exclusion remains. Full phase-final browser suites are still pending.
+The [bounded handoff](docs/phase-11-handoff.md) records format compatibility,
+exact evidence, proposed classification rationale and every category's outstanding
+content. Durable continuation is `.artifacts/continuation/phase11-developer-checkpoint.md`.
+Sole developer stops editing at this checkpoint for coordinator continuation/
+independent review; there is no self-clearance.
+
+Current catalog remains the transitional 36 decks / 1,008 unchanged factual
+entries with proposed, unreviewed difficulty metadata. The retained eight
+categories can contribute 32 decks / 896 entries after review; 100 additional
+final-category decks / 2,800 entries remain. Legacy Entertainment's four decks
+must be replaced, not counted toward 132. No phase clearance, content completion,
+new fetched-source claim, delivery or phase-12 work is implied.
+
+### Phase 11 General knowledge bounded content checkpoint
+
+After the software/classification review and independent P11-IR1 resolution,
+the sole bounded developer authored eight original General decks / 224 entries:
+one Easy, one Medium and two Hard per language. General now has exactly
+12 decks / 336 questions, two per language/difficulty. All four inherited
+General decks and all original 1,008 question objects retain their IDs/content.
+
+Actual catalog: **44 decks / 1,232 entries**, including four transitional
+Entertainment decks / 112 entries excluded from final quotas. Retained 32 plus
+eight new gives **40 final candidates**; **92 decks / 2,576 entries remain**.
+Full phase remains **NOT CLEARED**, 132/3,696; phase 12 is not started.
+All 224 new entries have developer-inspected real public-source passages and
+retrieval/hash receipts in `docs/phase-11-general-sources.json`, separate from
+the immutable inherited classification ledger. Subsequent independent review
+individually examined all 224 canonical facts and accepted all eight difficulty
+assignments. Eight P11-GR1/GR2 corrections await narrow independent recheck;
+216 new entries are unchanged. No self-clearance is implied.
+Updated matrix, verification and evidence: [handoff](docs/phase-11-handoff.md#general-knowledge-bounded-content-checkpoint).
+
+Bounded developer gate: full `npm run check` PASS, 390 tests / 26 files, all 57 runtime
+coverage members (33 critical / 24 remaining), 65 negative probes; sequential real
+production Chromium 131/131 and Firefox 16/16 PASS. All 224 new-entry receipts and
+eight pack hashes verified, all 1,008 inherited question objects preserved.
+Final 90-file freeze `.artifacts/phase-11-general-candidate.sha256`; sole developer
+stopped for independent review, 4182 closed. Complete source/factual/difficulty
+review and full phase-final gates remain; these are not phase clearance.
+
+### Phase 11 General P11-GR1/P11-GR2 developer corrections — recheck pending
+
+The independent reviewer individually examined all 224 new canonical facts and
+accepted all eight difficulty assignments, finding six missing standard aliases
+and two contradictory word-count qualifiers. A bounded replacement correction
+developer implemented exactly these eight entry changes in five packs.
+All 216 other new entries, all 1,008 inherited question objects, the other three
+new pack bytes, software and accepted classifications remain unchanged.
+Six actual naming leads and original source-body/date receipts bind the
+aliases; the extra ÚJČ numizmatika corroboration is honestly attributed to the
+reviewer's actual retrieval, not a new developer fetch.
+
+Focused 99 tests / two files PASS; final full quality **406 tests / 26 files**,
+format/lint/types/build and both measured 57-module coverage groups PASS.
+65 negative probes preserve the measured report bytes. Sequential native
+**8 Chromium + 8 Firefox** affected-entry journeys PASS, including actual
+automatic answers, wrong-term rejection, JSON export/reimport/recovery and
+28-row/citation/alias HTML print checks; eight real Chromium PDFs reopened and
+decoded. Both previews returned HTTP 200 on 4182 and are closed.
+Detailed commands, unchanged fractions, exact hashes and limitations:
+[correction handoff](docs/phase-11-handoff.md#p11-gr1p11-gr2-bounded-developer-correction-handoff).
+
+Original manifests/reports and dirty coordinator summary preserved. Final
+all-changed-file freeze `.artifacts/phase-11-general-corrections.sha256`;
+developer STOPPED for **narrow independent recheck of all eight changed entries**.
+No finding is self-cleared. Full phase remains **NOT CLEARED**: actual 44/1,232,
+General 12/336, remaining 92 final decks / 2,576 entries, target 132/3,696.
+No other category, phase 12, delivery, install or service work was started.
+
+### Phase 11 Nature bounded content checkpoint — independent review pending
+
+The General correction recheck subsequently **independently accepted all eight
+changed entries**, with all 224 General additions and all eight difficulty
+assignments accepted. See `.artifacts/phase11-general-correction-independent-report.md`;
+the earlier pending statements above are historical handoffs, not current blockers.
+
+The sole bounded Nature developer added eight original decks / 224 entries:
+Czech two Easy, one Medium, one Hard; English two Easy and two Hard. Nature now
+has exactly **12 decks / 336 entries**, two per language/difficulty. The four
+inherited Nature files, all 44 previous pack bytes, all 1,008 inherited question
+objects, the accepted General source ledger, historical classification ledger
+and coordinator review summary are unchanged.
+
+Current actual catalog is **52 decks / 1,456 questions**, including four
+transitional Entertainment decks / 112 entries excluded from final quotas.
+There are **48 final candidates / 1,344 entries**; **84 final decks / 2,352 entries
+remain**. The full phase target is unchanged at **132/3,696, NOT CLEARED**.
+Phase 12 is not started. No owner decision blocker is identified.
+
+Every new Nature entry has developer-inspected factual paragraphs, actual source
+retrieval dates, cached-body/extracted-text hashes, canonical/alias/claim receipt
+and final pack hashes in `docs/phase-11-nature-sources.json`. Source quality,
+institutional/specialist corroboration, rejected responses and exact hashes are
+indexed in `docs/content-sources.md`. **All 224 new entries and eight difficulty
+assignments await fresh independent review**; authoring/automated checks are
+not factual clearance. The historical 36-pack generator was not rerun or weakened.
+Updated quota matrix and reproduction evidence:
+[Nature handoff](docs/phase-11-handoff.md#nature-bounded-content-checkpoint).
+
+Nature bounded verification: full format/lint/types/build and **420 tests /
+26 files PASS**; all 57 runtime modules included in separate 33-critical /
+24-remaining coverage groups, above unchanged thresholds; **65 negative probes
+PASS**. Sequential real production **137 Chromium + 137 Firefox journeys PASS**,
+including all 52 catalog members and ten Nature-specific journeys per engine.
+18 real Nature Chromium PDFs were reopened/decoded; Firefox HTML printing is
+explicitly distinguished. Both 4182 previews returned HTTP 200 and are closed.
+All eight final question screenshots in each engine and selected native print
+sheets were visually inspected. Exact fractions, logs, limitations and failures
+are in the tracked Nature handoff and
+`.artifacts/continuation/phase11-nature-developer-checkpoint.md`.
+
+All 224 new source receipts / 235 evidence placements, eight pack hashes,
+all 44 preceding pack bytes and the original General manifest verified.
+Final all-changed/untracked nonignored snapshot:
+`.artifacts/phase-11-nature-candidate.sha256`. Sole writer STOPPED for fresh
+independent factual/editorial/alias/initial/semantic-overlap and difficulty
+review of all 224 additions. No self-clearance, delivery or phase-12 start.
+
+### Phase 11 Nature P11-NR1/P11-NR2 developer corrections — recheck pending
+
+The independent all-224-entry review is complete:
+`.artifacts/phase11-nature-independent-report.md` accepted 211 entries and all
+eight difficulty assignments, with two minor findings affecting thirteen
+entries. The preceding pending-review checkpoint is historical, not the current
+review status.
+
+The replacement bounded correction developer added exactly eighteen evidenced
+variants to twelve alias arrays and removed the unnecessary former-name
+restriction from `nature-en-hard-01-23`. The latter now identifies the same
+marine chordate group; Urochordata and all three existing useful aliases remain.
+Exactly thirteen question objects in six packs changed. All 211 other new
+objects, both unaffected new packs, all 44 preceding pack bytes, General and
+classification ledgers remain unchanged. Eight exact pre-correction packs are
+saved under `.artifacts/phase11-nature-corrections-baseline/`.
+
+The source ledger synchronizes exact aliases/claim and six hashes. Original
+235 cached placements/dates/body/text hashes remain; only the Tunicate excerpt
+adds two actual cached paragraphs. No fresh retrieval is claimed.
+Detailed verification and independent-recheck boundary:
+[correction handoff](docs/phase-11-handoff.md#p11-nr1p11-nr2-bounded-developer-correction-handoff).
+Old candidate/review evidence remains immutable. Full phase 11 is **NOT CLEARED**:
+52/1,456 actual, 12/336 Nature, 84/2,352 still required toward 132/3,696.
+No phase-12 or next-category authoring is authorized by this correction.
+
+Correction gates PASS: focused 125 tests / 3 files; complete 433 tests / 27 files,
+formatting, lint, types, separate 57-module coverage and build; 65 negative probes.
+Sequential managed production Chromium 13/13 and Firefox 13/13 PASS, with all
+18 new aliases and NR2's full accepted set submitted through native automatic UI.
+Exact JSON reimport, locked recovery/host-reset and 26 real 28-row HTML sheets
+verified; 13 actual Chromium PDFs reopened/decoded against JSON. Firefox HTML
+only. Both previews returned HTTP 200 while active; 4182 closed afterward.
+Source/delta audit verifies 235 placements, 936 unchanged cache files and
+211 unchanged Nature objects. New correction freeze:
+`.artifacts/phase-11-nature-corrections.sha256`. Developer STOPPED for independent
+narrow recheck, not finding resolution or full phase clearance.
+
+### Phase 11 Geography bounded content checkpoint — independent review pending
+
+Nature's subsequent narrow independent re-review accepted all thirteen
+corrections; all 224 Nature additions and eight ratings are accepted, as are
+General's additions and all 32 retained classifications. Their accepted ledgers,
+52 preceding pack bytes and the coordinator's review summary remain unchanged.
+
+The sole bounded Geography/travel developer authored eight original decks /
+224 entries: two Easy, one Medium and one Hard per language. Geography now
+has exactly **12/336**, two per combination. All **224 additions and eight
+ratings await complete independent factual/editorial and difficulty review**.
+Actual catalog: **60/1,680**, 30 packs per language; **56 final candidates /
+1,568** plus four excluded transitional Entertainment decks / 112 entries.
+**76 final decks / 2,128 entries remain** toward **132/3,696, NOT CLEARED**.
+Phase 12 is not started; no owner decision blocker is identified.
+
+Every new fact has developer-read actual public context, precise accepted sets,
+real retrieval dates, body/text hashes and exact pack hashes in
+`docs/phase-11-geography-sources.json`; source quality and 241 placements are
+indexed in `docs/content-sources.md`. Historical receipts/manifests are preserved.
+The historical 36-pack classification generator was not rerun or weakened.
+Runtime changes are only catalog registration and localized catalog help;
+tests reuse existing native-browser/print/export/recovery helpers. No engine
+matching change, dependency, service, commit, push or deployment.
+See [current bounded handoff](docs/phase-11-handoff.md#geography-bounded-content-checkpoint).
+Developer gates PASS: `npm run check` (458 tests / 28 files, formatting, lint,
+JSDoc types, separate coverage and build), 65 negative coverage/membership probes,
+then sequential bounded production Chromium **60/60** and Firefox **60/60**.
+All 57 runtime modules remain included with unchanged group thresholds and no
+metric exceptions. Post-native audit reopens/decodes 18 actual Chromium PDFs;
+each engine verifies 18 exact 28-row HTML sheets and 36 JSON export/recovery
+files across all eight decks and two mixtures. Firefox HTML only. Actual
+question/print screenshots for every new deck were inspected in both engines.
+All 224 source receipts / 241 placements / 476 cached body/text bindings,
+52 preceding pack bytes and accepted ledgers/review summary pass integrity checks.
+Earlier failed iterations are preserved; the Vite chunk-size warning remains
+disclosed. Both managed 4182 previews returned HTTP 200 and closed afterward.
+
+Freeze: `.artifacts/phase-11-geography-candidate.sha256`, all changed/untracked
+nonignored bytes including inherited coordinator work; older manifests retained.
+Developer STOPPED, no owned process, for fresh complete independent all-224-fact/
+accepted-set/eight-rating review. This bounded gate is not the eventual full
+132-deck browser or coordinator gate. No owner blocker, commit/push/deployment,
+shared-service change, physical-device/public-release claim or phase-12 work.
+
+### P11-GEO-R1–R4 bounded developer correction checkpoint
+
+The complete immutable independent report
+`.artifacts/phase11-geography-independent-report.md` accepted 219 unaffected
+entries and all eight difficulty assignments. Exactly five question objects in
+four packs are corrected: two alias arrays and three prompts. Britain is accepted
+but Great Britain is not; stream fits the unchanged broad watercourse clue.
+Both moraine prompts identify landforms of unsorted glacial debris, not till
+as an interchangeable term. Inselberg and monadnock fit the same landform clue
+without a German-language restriction. Canonicals, initials, positions, IDs,
+difficulty metadata, shipped URLs and all preceding 52 pack bytes are unchanged.
+
+All eight original pack files and ledger are saved byte-for-byte, bound to the
+original 112-file manifest `73c9f50a7d9c255dd0ac71ad97cbd950f7dd5cd88e109fe9328edba3c0b15e3e`.
+The original 241 source placements/476 body/text files retain their dates and
+hashes. Only two existing naming paragraphs extend selected ledger excerpts.
+The source/hash index and focused regression/native-browser evidence accompany
+the [correction handoff](docs/phase-11-handoff.md#p11-geo-r1r4-bounded-developer-correction-handoff).
+The coordinator's previous review text and historical reports are preserved.
+
+**Five corrections pending independent narrow recheck, not finding resolution.**
+Current 60/1,680, Geography12/336, remaining76/2,128 toward132/3,696:
+full phase 11 **NOT CLEARED**. All eight Geography ratings remain accepted.
+No new category, phase12, install, agent/workflow, commit/push/deploy or service
+action. New freeze: `.artifacts/phase-11-geography-corrections.sha256`.
+
+Correction developer gates PASS: focused145/3files, full465/28files with
+format/lint/JSDoc/build and unchanged57-module coverage, plus65negativeprobes.
+Sequential native Chromium5/Firefox5 PASS: every affected canonical/alias,
+wrong alternatives, download/reimport, hosted reset lock and recovery.
+Ten exact28-row HTML sheets and five real Chromium PDFs decoded; Firefox HTML
+only. All five actual question/four distinct print screenshots per engine
+inspected. Both4182 previews HTTP200 while active and closed afterward.
+The exact five-object/219-unchanged/source-cache/prior52-pack delta audit passes.
+Writer STOPPED, no owned process. Independent narrow recheck and coordinator
+post-review/full132-deck gates remain pending.

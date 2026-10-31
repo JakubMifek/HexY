@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-en-easy-01",
+  "title": "Arts and literature · Easy · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-en-easy-01-01",
+      "text": "What do we call the person who writes a book?",
+      "initial": "A",
+      "answer": "Author",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["writer"],
+      "sources": ["https://en.wikipedia.org/wiki/Author"]
+    },
+    {
+      "id": "arts-en-easy-01-02",
+      "text": "What stage dance form is associated with tutus and dancers rising onto the tips of specially made shoes?",
+      "initial": "B",
+      "answer": "Ballet",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ballet"]
+    },
+    {
+      "id": "arts-en-easy-01-03",
+      "text": "What woven fabric is commonly stretched over a frame to provide a surface for an oil painting?",
+      "initial": "C",
+      "answer": "Canvas",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Canvas"]
+    },
+    {
+      "id": "arts-en-easy-01-04",
+      "text": "What do we call a group of singers performing together?",
+      "initial": "CH",
+      "answer": "Choir",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["chorus", "chorale"],
+      "sources": ["https://en.wikipedia.org/wiki/Choir"]
+    },
+    {
+      "id": "arts-en-easy-01-05",
+      "text": "What visual art practice makes marks with tools such as pencils or pens, usually on paper?",
+      "initial": "D",
+      "answer": "Drawing",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Drawing"]
+    },
+    {
+      "id": "arts-en-easy-01-06",
+      "text": "What upright stand supports a painter's canvas while they work?",
+      "initial": "E",
+      "answer": "Easel",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Easel"]
+    },
+    {
+      "id": "arts-en-easy-01-07",
+      "text": "What kind of traditional story features magic and beings such as fairies or witches?",
+      "initial": "F",
+      "answer": "Fairy tale",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "fairytale",
+        "fairy story",
+        "magic tale",
+        "wonder tale",
+        "household tale"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Fairy_tale"]
+    },
+    {
+      "id": "arts-en-easy-01-08",
+      "text": "What do we call a space where paintings and other artworks are displayed to the public?",
+      "initial": "G",
+      "answer": "Gallery",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["art gallery", "art museum"],
+      "sources": ["https://en.wikipedia.org/wiki/Art_museum"]
+    },
+    {
+      "id": "arts-en-easy-01-09",
+      "text": "Which Shakespearean prince of Denmark wonders whether to be or not to be?",
+      "initial": "H",
+      "answer": "Hamlet",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Hamlet"]
+    },
+    {
+      "id": "arts-en-easy-01-10",
+      "text": "What do we call a picture that accompanies and helps explain a written text?",
+      "initial": "I",
+      "answer": "Illustration",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Illustration"]
+    },
+    {
+      "id": "arts-en-easy-01-11",
+      "text": "What performer traditionally entertained a royal court with jokes and comic antics, often wearing a cap with bells?",
+      "initial": "J",
+      "answer": "Jester",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["court jester", "fool", "court fool", "joker"],
+      "sources": ["https://en.wikipedia.org/wiki/Jester"]
+    },
+    {
+      "id": "arts-en-easy-01-12",
+      "text": "Which Shakespeare tragedy follows an ageing king who divides his kingdom among his daughters?",
+      "initial": "K",
+      "answer": "King Lear",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Lear", "The Tragedy of King Lear"],
+      "sources": ["https://en.wikipedia.org/wiki/King_Lear"]
+    },
+    {
+      "id": "arts-en-easy-01-13",
+      "text": "What painting genre depicts natural scenery such as hills, valleys and rivers?",
+      "initial": "L",
+      "answer": "Landscape",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["landscape painting", "landscape art"],
+      "sources": ["https://en.wikipedia.org/wiki/Landscape_painting"]
+    },
+    {
+      "id": "arts-en-easy-01-14",
+      "text": "What is the common English title of Leonardo's portrait famous for its sitter's enigmatic smile, now in the Louvre?",
+      "initial": "M",
+      "answer": "Mona Lisa",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["La Gioconda", "Gioconda", "La Joconde"],
+      "sources": ["https://en.wikipedia.org/wiki/Mona_Lisa"]
+    },
+    {
+      "id": "arts-en-easy-01-15",
+      "text": "What do we call a traditional short verse or song for young children?",
+      "initial": "N",
+      "answer": "Nursery rhyme",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Mother Goose rhyme", "Mother Goose rhymes"],
+      "sources": ["https://en.wikipedia.org/wiki/Nursery_rhyme"]
+    },
+    {
+      "id": "arts-en-easy-01-16",
+      "text": "What stage art form tells a story through singers accompanied by musicians, usually an orchestra?",
+      "initial": "O",
+      "answer": "Opera",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Opera"]
+    },
+    {
+      "id": "arts-en-easy-01-17",
+      "text": "What do we call an artwork that depicts a particular person, especially their face?",
+      "initial": "P",
+      "answer": "Portrait",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Portrait"]
+    },
+    {
+      "id": "arts-en-easy-01-18",
+      "text": "What is the name of the bell-ringer in Victor Hugo's novel The Hunchback of Notre-Dame?",
+      "initial": "Q",
+      "answer": "Quasimodo",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Quasimodo"]
+    },
+    {
+      "id": "arts-en-easy-01-19",
+      "text": "Which young Montague falls in love with Juliet in Shakespeare's tragedy?",
+      "initial": "R",
+      "answer": "Romeo",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Romeo Montague", "Romeo Montecchi"],
+      "sources": ["https://en.wikipedia.org/wiki/Romeo"]
+    },
+    {
+      "id": "arts-en-easy-01-20",
+      "text": "What art form makes three-dimensional works by methods such as carving, modelling or casting?",
+      "initial": "S",
+      "answer": "Sculpture",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sculpture"]
+    },
+    {
+      "id": "arts-en-easy-01-21",
+      "text": "What prose-fiction form is shorter than a novel and is typically designed to be read in one sitting?",
+      "initial": "SH",
+      "answer": "Short story",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Short_story"]
+    },
+    {
+      "id": "arts-en-easy-01-22",
+      "text": "What dramatic genre deals with serious suffering and often ends in the downfall or death of its central character?",
+      "initial": "T",
+      "answer": "Tragedy",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tragedy"]
+    },
+    {
+      "id": "arts-en-easy-01-23",
+      "text": "What do we call a performer who learns another actor's role so they can take over if needed?",
+      "initial": "U",
+      "answer": "Understudy",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["standby", "cover", "alternate"],
+      "sources": ["https://en.wikipedia.org/wiki/Understudy"]
+    },
+    {
+      "id": "arts-en-easy-01-24",
+      "text": "What general term, contrasted with prose, refers to writing arranged in lines and often using metre or rhyme?",
+      "initial": "V",
+      "answer": "Verse",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["poetry"],
+      "sources": ["https://en.wikipedia.org/wiki/Verse_%28poetry%29"]
+    },
+    {
+      "id": "arts-en-easy-01-25",
+      "text": "What painting medium uses pigment particles suspended in a water-soluble binder and is commonly applied in transparent washes on paper?",
+      "initial": "W",
+      "answer": "Watercolor",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["watercolour", "watercolor painting", "watercolour painting"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/w/watercolour"]
+    },
+    {
+      "id": "arts-en-easy-01-26",
+      "text": "What traditional Chinese paper, named after Xuanzhou, is prized for ink painting and calligraphy?",
+      "initial": "X",
+      "answer": "Xuan paper",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Xuanzhi", "Xuan", "Shuen paper", "rice paper", "Xuan zhi"],
+      "sources": ["https://en.wikipedia.org/wiki/Xuan_paper"]
+    },
+    {
+      "id": "arts-en-easy-01-27",
+      "text": "What spun strand of interlocked fibres is used in textile arts such as knitting and weaving?",
+      "initial": "Y",
+      "answer": "Yarn",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Yarn"]
+    },
+    {
+      "id": "arts-en-easy-01-28",
+      "text": "Which masked swordsman, created by Johnston McCulley, leaves a letter Z as his mark?",
+      "initial": "Z",
+      "answer": "Zorro",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Don Diego de la Vega", "Diego de la Vega", "Don Diego Vega"],
+      "sources": ["https://en.wikipedia.org/wiki/Zorro"]
+    }
+  ]
+}

@@ -24,6 +24,8 @@ export default defineConfig({
     'modal-readiness.spec.js',
     'clock-error-fit.spec.js',
     'phase-ten*.spec.js',
+    'phase-eleven.spec.js',
+    'computing-scope.spec.js',
   ],
   projects: [
     { name: 'firefox', use: { browserName: 'firefox' } },

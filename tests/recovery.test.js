@@ -19,6 +19,35 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 
+test('pre-difficulty active games stay exact-byte exportable and protected, including against retries and import', async () => {
+  const legacy = JSON.parse(savedGame(question()));
+  legacy.game.pack.schemaVersion = 1;
+  delete legacy.game.pack.difficulty;
+  const json = ` \n${JSON.stringify(legacy, null, 3)}\n `;
+  localStorage.setItem(GAME_KEY, json);
+  expect(recovery.load(32_000, 'fresh')).toBeUndefined();
+  expect(recovery.error).toBe('packVersion');
+  recovery.retrySave(game(), 32_000, 'retry');
+  expect(recovery.writable).toBe(false);
+  expect(localStorage.getItem(GAME_KEY)).toBe(json);
+  const save = vi
+    .spyOn(recovery.downloads, 'save')
+    .mockImplementation(() => {});
+  expect(recovery.export(null)).toBe(true);
+  expect(save.mock.calls[0][0]).toBe(json);
+  expect(
+    await recovery.import(
+      { text: async () => savedGame(game()) },
+      () => 32_000,
+      () => 'import',
+    ),
+  ).toBeUndefined();
+  expect(localStorage.getItem(GAME_KEY)).toBe(json);
+  expect(recovery.discardCurrent()).toBe(false);
+  expect(recovery.discard()).toBe(true);
+  expect(localStorage.getItem(GAME_KEY)).toBeNull();
+});
+
 test('near-limit full-game downloads remain importable after round growth without pretty-print expansion', () => {
   const data = JSON.parse(savedGame(game()));
   data.game.pack.questions[0].sources = [''];

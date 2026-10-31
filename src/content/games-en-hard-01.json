@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "id": "games-en-hard-01",
+  "title": "Games · Hard · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-en-hard-01-01",
+      "text": "Which Uwe Rosenberg worker-placement game has players develop a farm and feed their family at harvests?",
+      "initial": "A",
+      "answer": "Agricola",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Agricola_%28board_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-02",
+      "text": "Which economic board game co-designed by Martin Wallace is set during industrialization around a Midlands city and features canals, railways and beer?",
+      "initial": "B",
+      "answer": "Brass: Birmingham",
+      "language": "en",
+      "aliases": ["Brass Birmingham"],
+      "category": "games",
+      "sources": ["https://roxley.com/products/brass-birmingham"]
+    },
+    {
+      "id": "games-en-hard-01-03",
+      "text": "Which William Attia worker-placement game has players develop a French town and contribute to building its castle?",
+      "initial": "C",
+      "answer": "Caylus",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Caylus_%28game%29"]
+    },
+    {
+      "id": "games-en-hard-01-04",
+      "text": "What large, usually yellow rideable bird is a recurring creature in Final Fantasy?",
+      "initial": "CH",
+      "answer": "Chocobo",
+      "language": "en",
+      "aliases": ["Chocobos"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Chocobo"]
+    },
+    {
+      "id": "games-en-hard-01-05",
+      "text": "Which Donald X. Vaccarino card game popularized deck-building by having players buy cards into their own expanding decks?",
+      "initial": "D",
+      "answer": "Dominion",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dominion_%28card_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-06",
+      "text": "Which Wolfgang Kramer and Richard Ulrich game has players compete for control of Spanish regions using caballeros?",
+      "initial": "E",
+      "answer": "El Grande",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/El_Grande_%28board_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-07",
+      "text": "Which Bruno Cathala game moves groups of meeples through a tiled sultanate called Naqala?",
+      "initial": "F",
+      "answer": "Five Tribes",
+      "language": "en",
+      "aliases": ["Five Tribes: The Djinns of Naqala"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Five_Tribes_%28board_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-08",
+      "text": "Which Isaac Childres campaign board game combines tactical scenarios with persistent character progression and card-based actions?",
+      "initial": "G",
+      "answer": "Gloomhaven",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Gloomhaven"]
+    },
+    {
+      "id": "games-en-hard-01-09",
+      "text": "Which cooperative Antoine Bauza card game has players assemble fireworks while seeing other players' hands but not their own?",
+      "initial": "H",
+      "answer": "Hanabi",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hanabi_%28card_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-10",
+      "text": "Which Christian Martinez board game combines card drafting with Celtic-themed competition to become king?",
+      "initial": "I",
+      "answer": "Inis",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://www.matagot.com/en/expert-games/210-328-inis.html"]
+    },
+    {
+      "id": "games-en-hard-01-11",
+      "text": "Which two-player Sébastien Pauchon trading game uses camels and goods such as diamonds, gold and silver?",
+      "initial": "J",
+      "answer": "Jaipur",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Jaipur_%28card_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-12",
+      "text": "Which Richard Breese and Sebastian Bleasdale game uses workers both to bid for village tiles and to activate them?",
+      "initial": "K",
+      "answer": "Keyflower",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Keyflower_(board_game)"]
+    },
+    {
+      "id": "games-en-hard-01-13",
+      "text": "Which Uwe Rosenberg board game about a French port has players gather goods, use buildings and build ships?",
+      "initial": "L",
+      "answer": "Le Havre",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Le_Havre_%28board_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-14",
+      "text": "What family of board games uses the sowing of counters into rows of pits, as in Oware and Kalah?",
+      "initial": "M",
+      "answer": "Mancala",
+      "language": "en",
+      "aliases": ["Mankala"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Mancala"]
+    },
+    {
+      "id": "games-en-hard-01-15",
+      "text": "Which Richard Garfield card game originally published in 1996 pits a corporation against a hacker called a runner?",
+      "initial": "N",
+      "answer": "Netrunner",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Netrunner"]
+    },
+    {
+      "id": "games-en-hard-01-16",
+      "text": "Which abstract martial-arts board game uses five movement cards that cycle between the players and a shared reserve?",
+      "initial": "O",
+      "answer": "Onitama",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Onitama"]
+    },
+    {
+      "id": "games-en-hard-01-17",
+      "text": "Which Andreas Seyfarth game has players choose roles such as captain and craftsman while developing a Caribbean colony?",
+      "initial": "P",
+      "answer": "Puerto Rico",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Puerto_Rico_%28board_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-18",
+      "text": "Which tile-laying game by Susan McKinley Ross uses six shapes in six colours and rewards lines of matching shapes or colours without duplicates?",
+      "initial": "Q",
+      "answer": "Qwirkle",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Qwirkle"]
+    },
+    {
+      "id": "games-en-hard-01-19",
+      "text": "Which prolific German designer created Tigris & Euphrates, Ra and Modern Art?",
+      "initial": "R",
+      "answer": "Reiner Knizia",
+      "language": "en",
+      "aliases": ["Knizia"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Reiner_Knizia"]
+    },
+    {
+      "id": "games-en-hard-01-20",
+      "text": "Which Jamey Stegmaier board game sets rival factions and mechs in an alternate-history 1920s Europa?",
+      "initial": "S",
+      "answer": "Scythe",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Scythe_%28board_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-21",
+      "text": "Which 1999 Dreamcast game follows Ryo Hazuki's search for the man who killed his father?",
+      "initial": "SH",
+      "answer": "Shenmue",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Shenmue_%28video_game%29"]
+    },
+    {
+      "id": "games-en-hard-01-22",
+      "text": "Which Jens Drögemüller and Helge Ostertag board game has asymmetric fantasy factions transform terrain to expand their settlements?",
+      "initial": "T",
+      "answer": "Terra Mystica",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Terra_Mystica"]
+    },
+    {
+      "id": "games-en-hard-01-23",
+      "text": "Which German game designer created Bohnanza and co-founded Lookout Games?",
+      "initial": "U",
+      "answer": "Uwe Rosenberg",
+      "language": "en",
+      "aliases": ["Rosenberg"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Uwe_Rosenberg"]
+    },
+    {
+      "id": "games-en-hard-01-24",
+      "text": "Which Czech designer created Codenames, Galaxy Trucker and Through the Ages?",
+      "initial": "V",
+      "answer": "Vlaada Chvátil",
+      "language": "en",
+      "aliases": ["Vladimír Chvátil", "Chvátil"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Vlaada_Chv%C3%A1til"]
+    },
+    {
+      "id": "games-en-hard-01-25",
+      "text": "What board-game mechanism has players assign a limited supply of workers to action spaces that provide different actions?",
+      "initial": "W",
+      "answer": "Worker placement",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Worker_placement"]
+    },
+    {
+      "id": "games-en-hard-01-26",
+      "text": "Which strategy board game has a river and palaces on its board and includes cannon pieces?",
+      "initial": "X",
+      "answer": "Xiangqi",
+      "language": "en",
+      "aliases": ["Chinese chess"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Xiangqi"]
+    },
+    {
+      "id": "games-en-hard-01-27",
+      "text": "Which 2011 cooperative game by Cédric Lefebvre and Fabrice Rabellino has Norse gods defend the world-tree against advancing enemies?",
+      "initial": "Y",
+      "answer": "Yggdrasil",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://www.ludonaute.fr/portfolio/yggdrasil/"]
+    },
+    {
+      "id": "games-en-hard-01-28",
+      "text": "Which cooperative miniature-board-game series has survivors fight zombies, gaining abilities while the threat increases?",
+      "initial": "Z",
+      "answer": "Zombicide",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Zombicide"]
+    }
+  ]
+}

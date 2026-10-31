@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "nature-cs-medium-01",
+  "title": "Příroda · střední 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-cs-medium-01-01",
+      "initial": "A",
+      "text": "Jak se v evoluční biologii nazývá přizpůsobení organismu podmínkám prostředí, které zvyšuje jeho zdatnost?",
+      "answer": "Adaptace",
+      "aliases": ["evoluční adaptace"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Adaptace%20(biologie)"]
+    },
+    {
+      "id": "nature-cs-medium-01-02",
+      "initial": "B",
+      "text": "Jaký pojem označuje rozmanitost života na úrovni genů, druhů i ekosystémů?",
+      "answer": "Biodiverzita",
+      "aliases": ["biologická rozmanitost", "biologická diverzita"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Biodiversity"]
+    },
+    {
+      "id": "nature-cs-medium-01-03",
+      "initial": "C",
+      "text": "Který polysacharid tvoří hlavní pevnou složku buněčných stěn rostlin?",
+      "answer": "Celulóza",
+      "aliases": ["buničina", "celulosa"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Celul%C3%B3za"]
+    },
+    {
+      "id": "nature-cs-medium-01-04",
+      "initial": "Č",
+      "text": "Která krevní buňka obsahuje hemoglobin a přenáší kyslík?",
+      "answer": "Červená krvinka",
+      "aliases": ["erytrocyt"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cerven%C3%A1%20krvinka"]
+    },
+    {
+      "id": "nature-cs-medium-01-05",
+      "initial": "D",
+      "text": "Jak se nazývá proces, při němž buňky získávají energii rozkladem živin, v aerobní podobě za využití kyslíku?",
+      "answer": "Dýchání",
+      "aliases": ["buněčné dýchání", "respirace", "aerobní respirace"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Bun%C4%9B%C4%8Dn%C3%A9%20d%C3%BDch%C3%A1n%C3%AD"
+      ]
+    },
+    {
+      "id": "nature-cs-medium-01-06",
+      "initial": "E",
+      "text": "Jak označujeme druh, který se přirozeně vyskytuje pouze na omezeném území a nikde jinde?",
+      "answer": "Endemit",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Endemit"]
+    },
+    {
+      "id": "nature-cs-medium-01-07",
+      "initial": "F",
+      "text": "Jak se nazývá chemický signál, kterým jedinec ovlivňuje chování nebo fyziologii jiných jedinců téhož druhu?",
+      "answer": "Feromon",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Feromon"]
+    },
+    {
+      "id": "nature-cs-medium-01-08",
+      "initial": "G",
+      "text": "Jak se nazývá směrovaný růst rostlinného orgánu jako reakce na zemskou tíži?",
+      "answer": "Gravitropismus",
+      "aliases": ["geotropismus"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Gravitropismus"]
+    },
+    {
+      "id": "nature-cs-medium-01-09",
+      "initial": "H",
+      "text": "Jak označujeme jedince, který má samčí i samičí pohlavní orgány, například žížalu?",
+      "answer": "Hermafrodit",
+      "aliases": ["obojetník"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Hermafrodit"]
+    },
+    {
+      "id": "nature-cs-medium-01-10",
+      "initial": "Ch",
+      "text": "Ve které buněčné organele rostlin probíhá fotosyntéza?",
+      "answer": "Chloroplast",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Chloroplast"]
+    },
+    {
+      "id": "nature-cs-medium-01-11",
+      "initial": "I",
+      "text": "Jak se nazývá zahřívání ptačích vajec, přirozeně sezením rodiče nebo uměle v líhni, potřebné pro vývoj zárodku?",
+      "answer": "Inkubace",
+      "aliases": ["inkubace vajec"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Egg%20incubation"]
+    },
+    {
+      "id": "nature-cs-medium-01-12",
+      "initial": "J",
+      "text": "Který stálezelený poloparazit roste v korunách stromů a vytváří bílé lepkavé bobule?",
+      "answer": "Jmelí",
+      "aliases": ["jmelí bílé"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Jmel%C3%AD%20b%C3%ADl%C3%A9"]
+    },
+    {
+      "id": "nature-cs-medium-01-13",
+      "initial": "K",
+      "text": "Jak se nazývá ochranná voskovitá vrstva na pokožce nadzemních částí rostlin, která omezuje ztráty vody?",
+      "answer": "Kutikula",
+      "aliases": ["rostlinná kutikula"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Plant%20cuticle"]
+    },
+    {
+      "id": "nature-cs-medium-01-14",
+      "initial": "L",
+      "text": "Jak se česky nazývá vodivé pletivo, kterým rostlina rozvádí především produkty fotosyntézy?",
+      "answer": "Lýko",
+      "aliases": ["floém"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/L%C3%BDko"]
+    },
+    {
+      "id": "nature-cs-medium-01-15",
+      "initial": "M",
+      "text": "Jak se nazývá symbiotické soužití houby s kořeny rostliny?",
+      "answer": "Mykorhiza",
+      "aliases": ["mykorrhiza"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Mykorhiza"]
+    },
+    {
+      "id": "nature-cs-medium-01-16",
+      "initial": "N",
+      "text": "Jak se v ekologii nazývá souhrn nároků druhu na prostředí a jeho funkční postavení ve společenstvu?",
+      "answer": "Nika",
+      "aliases": ["ekologická nika"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Ekologick%C3%A1%20nika"]
+    },
+    {
+      "id": "nature-cs-medium-01-17",
+      "initial": "O",
+      "text": "Jak se nazývá přenos pylu z prašníku na bliznu u krytosemenných rostlin?",
+      "answer": "Opylení",
+      "aliases": ["polinace"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Opylen%C3%AD"]
+    },
+    {
+      "id": "nature-cs-medium-01-18",
+      "initial": "P",
+      "text": "Jak označujeme organismus, který žije na úkor hostitele a obvykle jej nezabíjí okamžitě jako predátor kořist?",
+      "answer": "Parazit",
+      "aliases": ["cizopasník"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Parazitismus"]
+    },
+    {
+      "id": "nature-cs-medium-01-19",
+      "initial": "R",
+      "text": "Který rod bakterií žijících v kořenových hlízkách bobovitých rostlin váže vzdušný dusík?",
+      "answer": "Rhizobium",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Rhizobium"]
+    },
+    {
+      "id": "nature-cs-medium-01-20",
+      "initial": "Ř",
+      "text": "Jak se nazývá přední zub s dlátovitou korunkou sloužící zejména k ukusování potravy?",
+      "answer": "Řezák",
+      "aliases": ["řezací zub"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98ez%C3%A1k"]
+    },
+    {
+      "id": "nature-cs-medium-01-21",
+      "initial": "S",
+      "text": "Jak se v ekologii nazývá postupné nahrazování jednoho společenstva jiným na stejném místě?",
+      "answer": "Sukcese",
+      "aliases": ["ekologická sukcese"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Ecological%20succession"]
+    },
+    {
+      "id": "nature-cs-medium-01-22",
+      "initial": "Š",
+      "text": "Který druh drobné modré vážky má u samce na druhém zadečkovém článku černou skvrnu ve tvaru U?",
+      "answer": "Šidélko páskované",
+      "aliases": ["Coenagrion puella"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0id%C3%A9lko%20p%C3%A1skovan%C3%A9"
+      ]
+    },
+    {
+      "id": "nature-cs-medium-01-23",
+      "initial": "T",
+      "text": "Jak se nazývá výdej vody rostlinou ve formě vodní páry, zejména průduchy listů?",
+      "answer": "Transpirace",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Transpirace"]
+    },
+    {
+      "id": "nature-cs-medium-01-24",
+      "initial": "U",
+      "text": "Který enzym štěpí močovinu na amoniak a oxid uhličitý a pomáhá bakterii Helicobacter pylori přežít v žaludku?",
+      "answer": "Ureáza",
+      "aliases": ["ureasa"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Urease"]
+    },
+    {
+      "id": "nature-cs-medium-01-25",
+      "initial": "V",
+      "text": "Jak se nazývá skupina savců, u nichž velmi nezralá mláďata obvykle dokončují vývoj přisátá ke struku ve vaku?",
+      "answer": "Vačnatci",
+      "aliases": ["vačnatí"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Va%C4%8Dnatci"]
+    },
+    {
+      "id": "nature-cs-medium-01-26",
+      "initial": "W",
+      "text": "Jak se nazývá biogeografická hranice vedená mimo jiné mezi Bali a Lombokem, oddělující asijskou faunu od přechodné oblasti Wallacea?",
+      "answer": "Wallaceova linie",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Wallaceova%20linie"]
+    },
+    {
+      "id": "nature-cs-medium-01-27",
+      "initial": "Z",
+      "text": "Jak se nazývá základní vrstva buněk embrya, například ektoderm, mezoderm nebo entoderm?",
+      "answer": "Zárodečný list",
+      "aliases": ["zárodečná vrstva"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Z%C3%A1rode%C4%8Dn%C3%BD%20list"
+      ]
+    },
+    {
+      "id": "nature-cs-medium-01-28",
+      "initial": "Ž",
+      "text": "Jak se nazývají dýchací orgány ryb, které odebírají rozpuštěný kyslík z vody?",
+      "answer": "Žábry",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BD%C3%A1bry"]
+    }
+  ]
+}

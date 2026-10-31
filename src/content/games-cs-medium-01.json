@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 2,
+  "id": "games-cs-medium-01",
+  "title": "Hry · Střední · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-cs-medium-01-01",
+      "text": "Kterou herní firmu založili v roce 1972 Nolan Bushnell a Ted Dabney a proslavila ji hra Pong?",
+      "initial": "A",
+      "answer": "Atari",
+      "language": "cs",
+      "aliases": ["Atari, Inc."],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Atari"]
+    },
+    {
+      "id": "games-cs-medium-01-02",
+      "text": "Která desková hra používá pro každého hráče patnáct kamenů a desku s čtyřiadvaceti úzkými klíny?",
+      "initial": "B",
+      "answer": "Backgammon",
+      "language": "cs",
+      "aliases": ["Vrhcáby", "Puf"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Backgammon",
+        "https://cs.wikipedia.org/wiki/Vrhc%C3%A1by"
+      ]
+    },
+    {
+      "id": "games-cs-medium-01-03",
+      "text": "Která hra Klause Teubera kombinuje stavění osad a cest s obchodováním se surovinami, například cihlami a vlnou?",
+      "initial": "C",
+      "answer": "Catan",
+      "language": "cs",
+      "aliases": [
+        "Katan",
+        "Osadníci z Katanu",
+        "The Settlers of Catan",
+        "Settlers of Catan",
+        "Osadníci"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Catan",
+        "https://cs.wikipedia.org/wiki/Osadn%C3%ADci_z_Katanu"
+      ]
+    },
+    {
+      "id": "games-cs-medium-01-04",
+      "text": "Jaká beznohá zvířata představují ozbrojení bojovníci v tahových dělostřeleckých hrách od Team17, kde proti sobě bojují týmy na zničitelném terénu?",
+      "initial": "Č",
+      "answer": "Červi",
+      "language": "cs",
+      "aliases": ["Červ", "Červíci", "Worms", "Worm", "Žížaly", "Žížala"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Worms_%28series%29"]
+    },
+    {
+      "id": "games-cs-medium-01-05",
+      "text": "Která česká stolní hra na hrdiny vytvořená nakladatelstvím Altar v roce 1990 používá roli Pána jeskyně?",
+      "initial": "D",
+      "answer": "Dračí doupě",
+      "language": "cs",
+      "aliases": ["DrD", "DD"],
+      "category": "games",
+      "sources": ["https://cs.wikipedia.org/wiki/Dra%C4%8D%C3%AD_doup%C4%9B"]
+    },
+    {
+      "id": "games-cs-medium-01-06",
+      "text": "Jak se jmenuje dračí boss, se kterým se v Minecraftu bojuje v dimenzi End?",
+      "initial": "E",
+      "answer": "Ender drak",
+      "language": "cs",
+      "aliases": ["Ender Dragon", "Drak z Endu"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ender_Dragon"]
+    },
+    {
+      "id": "games-cs-medium-01-07",
+      "text": "Která postapokalyptická herní série se vyznačuje kryty Vault-Tec a retrofuturistickým světem po jaderné válce?",
+      "initial": "F",
+      "answer": "Fallout",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fallout_(franchise)"]
+    },
+    {
+      "id": "games-cs-medium-01-08",
+      "text": "Která umělá inteligence v Portalu řídí testování v laboratořích Aperture Science?",
+      "initial": "G",
+      "answer": "GLaDOS",
+      "language": "cs",
+      "aliases": ["Genetic Lifeform and Disk Operating System"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/GLaDOS"]
+    },
+    {
+      "id": "games-cs-medium-01-09",
+      "text": "Která kooperativní karetní hra Antoina Bauzy nechává hráče stavět ohňostroj, přičemž každý vidí cizí karty, ale ne vlastní?",
+      "initial": "H",
+      "answer": "Hanabi",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hanabi_%28card_game%29"]
+    },
+    {
+      "id": "games-cs-medium-01-10",
+      "text": "Která společenská hra Rikkiho Tahty staví mezi hráče jednoho tajného vetřelce, který na rozdíl od ostatních nezná společné heslo?",
+      "initial": "Ch",
+      "answer": "Chameleon",
+      "language": "cs",
+      "aliases": ["The Chameleon"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Chameleon_%28board_game%29"
+      ]
+    },
+    {
+      "id": "games-cs-medium-01-11",
+      "text": "Jak se jmenují humanoidní tvorové ze Splatoonu, kteří se mění v olihně a pohybují se inkoustem?",
+      "initial": "I",
+      "answer": "Inkling",
+      "language": "cs",
+      "aliases": ["Inklingové", "Inklings"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Inkling_%28Splatoon%29"]
+    },
+    {
+      "id": "games-cs-medium-01-12",
+      "text": "Která karetní hra Sébastiena Pauchona pro dva obchodníky kombinuje prodej zboží a výměnu velbloudů?",
+      "initial": "J",
+      "answer": "Jaipur",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Jaipur_%28card_game%29"]
+    },
+    {
+      "id": "games-cs-medium-01-13",
+      "text": "Jak nazýváme deskovou hru, v níž hráči spolupracují proti společné překážce místo soupeření jeden s druhým?",
+      "initial": "K",
+      "answer": "Kooperativní hra",
+      "language": "cs",
+      "aliases": ["Kooperativní", "Spolupracující hra"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Cooperative_board_game"]
+    },
+    {
+      "id": "games-cs-medium-01-14",
+      "text": "Jak se obvykle jmenuje hratelný hrdina série The Legend of Zelda?",
+      "initial": "L",
+      "answer": "Link",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Link_%28The_Legend_of_Zelda%29"
+      ]
+    },
+    {
+      "id": "games-cs-medium-01-15",
+      "text": "Jaký výraz pro stylizovanou lidskou herní figurku se rozšířil zejména díky Carcassonne?",
+      "initial": "M",
+      "answer": "Meeple",
+      "language": "cs",
+      "aliases": ["Meepl", "Meeplové", "Meeples"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Meeple"]
+    },
+    {
+      "id": "games-cs-medium-01-16",
+      "text": "Jak označujeme herní postavu, kterou přímo neovládá žádný hráč a jejíž chování řídí hra nebo vypravěč?",
+      "initial": "N",
+      "answer": "Nehráčská postava",
+      "language": "cs",
+      "aliases": ["NPC", "Non-player character", "Nehráčská herní postava"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Non-player_character"]
+    },
+    {
+      "id": "games-cs-medium-01-17",
+      "text": "Která kooperativní videohra prověřuje souhru hráčů při vaření a servírování jídel v chaotických kuchyních?",
+      "initial": "O",
+      "answer": "Overcooked",
+      "language": "cs",
+      "aliases": ["Overcooked!"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Overcooked"]
+    },
+    {
+      "id": "games-cs-medium-01-18",
+      "text": "Která kooperativní hra Matta Leacocka vyžaduje společně zastavovat šíření nemocí a objevovat léky?",
+      "initial": "P",
+      "answer": "Pandemic",
+      "language": "cs",
+      "aliases": ["Pandemie"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Pandemic_%28board_game%29"]
+    },
+    {
+      "id": "games-cs-medium-01-19",
+      "text": "Která strategická desková hra nechává armády soupeřit o území na mapě světa?",
+      "initial": "R",
+      "answer": "Risk",
+      "language": "cs",
+      "aliases": ["Riziko"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Risk_%28game%29"]
+    },
+    {
+      "id": "games-cs-medium-01-20",
+      "text": "Jaký kovový dekorativní blok v Minecraftu vytvoříte ze železného ingotu a dvou železných nugetů?",
+      "initial": "Ř",
+      "answer": "Řetěz",
+      "language": "cs",
+      "aliases": ["Řetězy", "Chain", "Iron Chain"],
+      "category": "games",
+      "sources": [
+        "https://minecraftsearch.com/cs-CZ/bloky/dekorativn%C3%AD/%C5%99et%C4%9Bz"
+      ]
+    },
+    {
+      "id": "games-cs-medium-01-21",
+      "text": "Jak se jmenuje digitální platforma společnosti Valve pro nákup a správu počítačových her?",
+      "initial": "S",
+      "answer": "Steam",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Steam_%28service%29"]
+    },
+    {
+      "id": "games-cs-medium-01-22",
+      "text": "Jak se v karetních hrách nazývá soubor karet, do něhož v daném kole každý přispěje jednou kartou a který získá vítěz kola?",
+      "initial": "Š",
+      "answer": "Štych",
+      "language": "cs",
+      "aliases": ["Zdvih", "Trick", "Book", "Štich"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Trick-taking_game"]
+    },
+    {
+      "id": "games-cs-medium-01-23",
+      "text": "Která hra Alana R. Moona umožňuje spojovat města železničními tratěmi pomocí sad barevných karet?",
+      "initial": "T",
+      "answer": "Ticket to Ride",
+      "language": "cs",
+      "aliases": ["Jízdenky, prosím!", "Jízdenky prosím", "Jízdenky, prosím"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ticket_to_Ride_%28board_game%29"
+      ]
+    },
+    {
+      "id": "games-cs-medium-01-24",
+      "text": "Které RPG Tobyho Foxe dovoluje vyřešit mnoho střetů s příšerami i bez jejich zabití?",
+      "initial": "U",
+      "answer": "Undertale",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Undertale"]
+    },
+    {
+      "id": "games-cs-medium-01-25",
+      "text": "Jak se nazývá obyvatel minecraftové vesnice, s nímž lze obchodovat pomocí smaragdů?",
+      "initial": "V",
+      "answer": "Vesničan",
+      "language": "cs",
+      "aliases": ["Vesničané", "Villager", "Villagers"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minecraft",
+        "https://cs.wikipedia.org/wiki/Minecraft"
+      ]
+    },
+    {
+      "id": "games-cs-medium-01-26",
+      "text": "Která fantasy série Blizzardu začala strategií s podtitulem Orcs & Humans?",
+      "initial": "W",
+      "answer": "Warcraft",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Warcraft"]
+    },
+    {
+      "id": "games-cs-medium-01-27",
+      "text": "Jak se jmenuje biologický roj, jedna ze tří hlavních hratelných ras StarCraftu vedle Terranů a Protossů?",
+      "initial": "Z",
+      "answer": "Zerg",
+      "language": "cs",
+      "aliases": ["Zergové", "The Zerg", "Zerg Swarm", "The Zerg Swarm"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Zerg"]
+    },
+    {
+      "id": "games-cs-medium-01-28",
+      "text": "Jaký předmět se v hrách s Mariem používá jako kopatelná zbraň poté, co se do něj Koopa Troopa schová?",
+      "initial": "Ž",
+      "answer": "Želví krunýř",
+      "language": "cs",
+      "aliases": [
+        "Krunýř",
+        "Shell",
+        "Koopa Shell",
+        "Zelený krunýř",
+        "Green Shell",
+        "Červený krunýř",
+        "Red Shell"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Koopa_Troopa"]
+    }
+  ]
+}

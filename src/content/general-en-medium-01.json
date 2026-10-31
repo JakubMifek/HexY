@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "general-en-medium-01",
+  "title": "General knowledge · Medium 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-medium-01-01",
+      "initial": "A",
+      "text": "What geographical term means a group or chain of islands?",
+      "answer": "Archipelago",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Archipelago"]
+    },
+    {
+      "id": "general-en-medium-01-02",
+      "initial": "B",
+      "text": "What Japanese art cultivates miniature trees in containers?",
+      "answer": "Bonsai",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Bonsai"]
+    },
+    {
+      "id": "general-en-medium-01-03",
+      "initial": "C",
+      "text": "What stimulant occurs naturally in coffee beans and tea leaves?",
+      "answer": "Caffeine",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Caffeine"]
+    },
+    {
+      "id": "general-en-medium-01-04",
+      "initial": "CH",
+      "text": "What South Asian condiment can be made from fruit or vegetables with spices, sugar and vinegar?",
+      "answer": "Chutney",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chutney"]
+    },
+    {
+      "id": "general-en-medium-01-05",
+      "initial": "D",
+      "text": "What logarithmic unit is commonly used to express sound levels?",
+      "answer": "Decibel",
+      "aliases": ["dB"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Decibel"]
+    },
+    {
+      "id": "general-en-medium-01-06",
+      "initial": "E",
+      "text": "What astronomical event occurs when one celestial body obscures another or moves into its shadow?",
+      "answer": "Eclipse",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Eclipse"]
+    },
+    {
+      "id": "general-en-medium-01-07",
+      "initial": "F",
+      "text": "What Norwegian horse breed is known for its dun coat and upright two-coloured mane?",
+      "answer": "Fjord horse",
+      "aliases": ["Norwegian Fjord horse", "Norwegian Fjord"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Fjord_horse"]
+    },
+    {
+      "id": "general-en-medium-01-08",
+      "initial": "G",
+      "text": "What coarse-grained igneous rock is composed mainly of quartz and feldspar?",
+      "answer": "Granite",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Granite"]
+    },
+    {
+      "id": "general-en-medium-01-09",
+      "initial": "H",
+      "text": "What field deals with the design and use of coats of arms?",
+      "answer": "Heraldry",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Heraldry"]
+    },
+    {
+      "id": "general-en-medium-01-10",
+      "initial": "I",
+      "text": "What economic term describes a sustained rise in the general price level?",
+      "answer": "Inflation",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Inflation"]
+    },
+    {
+      "id": "general-en-medium-01-11",
+      "initial": "J",
+      "text": "What term is used for a special anniversary celebration, such as a monarch's silver or golden one?",
+      "answer": "Jubilee",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jubilee"]
+    },
+    {
+      "id": "general-en-medium-01-12",
+      "initial": "K",
+      "text": "What Korean food is made from fermented vegetables, commonly cabbage or radish?",
+      "answer": "Kimchi",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kimchi"]
+    },
+    {
+      "id": "general-en-medium-01-13",
+      "initial": "L",
+      "text": "What angular coordinate states how far north or south a place lies from the equator?",
+      "answer": "Latitude",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Latitude"]
+    },
+    {
+      "id": "general-en-medium-01-14",
+      "initial": "M",
+      "text": "What seasonal wind system is associated with major wet and dry seasons in South Asia?",
+      "answer": "Monsoon",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Monsoon"]
+    },
+    {
+      "id": "general-en-medium-01-15",
+      "initial": "N",
+      "text": "What synthetic polyamide fibre was first marketed by DuPont for toothbrush bristles and stockings?",
+      "answer": "Nylon",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nylon"]
+    },
+    {
+      "id": "general-en-medium-01-16",
+      "initial": "O",
+      "text": "What instrument records the distance travelled by a vehicle?",
+      "answer": "Odometer",
+      "aliases": ["odograph"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Odometer"]
+    },
+    {
+      "id": "general-en-medium-01-17",
+      "initial": "P",
+      "text": "What ground red spice takes its name from the peppers from which it is made?",
+      "answer": "Paprika",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Paprika"]
+    },
+    {
+      "id": "general-en-medium-01-18",
+      "initial": "Q",
+      "text": "What term means restricting the movement of people exposed to an infectious disease to prevent its spread?",
+      "answer": "Quarantine",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Quarantine"]
+    },
+    {
+      "id": "general-en-medium-01-19",
+      "initial": "R",
+      "text": "What expression describes a person accomplished in many fields, exemplified by Leonardo da Vinci?",
+      "answer": "Renaissance man",
+      "aliases": ["polymath"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Polymath"]
+    },
+    {
+      "id": "general-en-medium-01-20",
+      "initial": "S",
+      "text": "What technology uses sound to detect objects or measure distances underwater?",
+      "answer": "Sonar",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sonar"]
+    },
+    {
+      "id": "general-en-medium-01-21",
+      "initial": "SH",
+      "text": "Which Himalayan ethnic group is especially associated with guiding mountaineers in Nepal?",
+      "answer": "Sherpa",
+      "aliases": ["Sherpas"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sherpa_people"]
+    },
+    {
+      "id": "general-en-medium-01-22",
+      "initial": "T",
+      "text": "What cold, largely treeless biome has a growing season too short for forests to develop?",
+      "answer": "Tundra",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Tundra"]
+    },
+    {
+      "id": "general-en-medium-01-23",
+      "initial": "U",
+      "text": "What thick Japanese noodles are made from wheat flour?",
+      "answer": "Udon",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Udon"]
+    },
+    {
+      "id": "general-en-medium-01-24",
+      "initial": "V",
+      "text": "What salad dressing is made by mixing oil with vinegar or another acid?",
+      "answer": "Vinaigrette",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Vinaigrette"]
+    },
+    {
+      "id": "general-en-medium-01-25",
+      "initial": "W",
+      "text": "What ballroom dance is characteristically performed in triple time?",
+      "answer": "Waltz",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Waltz"]
+    },
+    {
+      "id": "general-en-medium-01-26",
+      "initial": "X",
+      "text": "What sugar alcohol used in sugar-free chewing gum has a name derived from the Greek word for wood?",
+      "answer": "Xylitol",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xylitol"]
+    },
+    {
+      "id": "general-en-medium-01-27",
+      "initial": "Y",
+      "text": "What portable round tent is traditionally used by nomadic peoples of Central Asia?",
+      "answer": "Yurt",
+      "aliases": ["ger"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yurt"]
+    },
+    {
+      "id": "general-en-medium-01-28",
+      "initial": "Z",
+      "text": "What culinary word means the coloured outermost layer of citrus peel used for flavouring?",
+      "answer": "Zest",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zest_(ingredient)"]
+    }
+  ]
+}

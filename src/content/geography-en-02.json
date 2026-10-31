@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "hard",
   "id": "geography-en-02",
   "title": "Geography and travel · 02",
   "language": "en",

@@ -49,7 +49,7 @@ test('pack JSON round trip preserves ordered placement, identity, authors, alias
 
 test.each([
   [null, 'invalidObject'],
-  [{ schemaVersion: 2 }, 'packVersion'],
+  [{ schemaVersion: 3 }, 'packVersion'],
   [{ ...sourcePack(), questions: [] }, 'emptyPack'],
   [{ ...sourcePack(), authors: [] }, 'missingProvenance'],
   [{ ...sourcePack(), mode: 'numbers' }, 'boardCount'],

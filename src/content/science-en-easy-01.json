@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-easy-01",
+  "title": "Science and technology · Easy · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-easy-01-01",
+      "text": "What part of a radio system transmits or receives electromagnetic waves?",
+      "initial": "A",
+      "answer": "Antenna",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Aerial", "Radio antenna"],
+      "sources": ["https://en.wikipedia.org/wiki/Antenna_(radio)"]
+    },
+    {
+      "id": "science-en-easy-01-02",
+      "text": "What device slows a vehicle, commonly by converting motion into heat through friction?",
+      "initial": "B",
+      "answer": "Brake",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Brake"]
+    },
+    {
+      "id": "science-en-easy-01-03",
+      "text": "What building material is made by combining cement, water and aggregates such as sand and gravel?",
+      "initial": "C",
+      "answer": "Concrete",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Concrete"]
+    },
+    {
+      "id": "science-en-easy-01-04",
+      "text": "What device supplies electrical energy to replenish a rechargeable battery?",
+      "initial": "CH",
+      "answer": "Charger",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Battery charger", "Recharger"],
+      "sources": ["https://en.wikipedia.org/wiki/Battery_charger"]
+    },
+    {
+      "id": "science-en-easy-01-05",
+      "text": "What powered tool commonly makes round holes by rotating a cutting bit?",
+      "initial": "D",
+      "answer": "Drill",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Power drill"],
+      "sources": ["https://en.wikipedia.org/wiki/Drill"]
+    },
+    {
+      "id": "science-en-easy-01-06",
+      "text": "What kind of magnet produces its magnetic field from electric current flowing through a coil?",
+      "initial": "E",
+      "answer": "Electromagnet",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Electromagnet"]
+    },
+    {
+      "id": "science-en-easy-01-07",
+      "text": "What force resists two touching surfaces sliding past one another?",
+      "initial": "F",
+      "answer": "Friction",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Frictional force"],
+      "sources": ["https://en.wikipedia.org/wiki/Friction"]
+    },
+    {
+      "id": "science-en-easy-01-08",
+      "text": "What transparent amorphous material is commonly used for windowpanes?",
+      "initial": "G",
+      "answer": "Glass",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Glass"]
+    },
+    {
+      "id": "science-en-easy-01-09",
+      "text": "What hand tool with a heavy head on a handle is commonly used to drive nails?",
+      "initial": "H",
+      "answer": "Hammer",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Hammer"]
+    },
+    {
+      "id": "science-en-easy-01-10",
+      "text": "What term describes a material that conducts electric current very poorly under the conditions in question?",
+      "initial": "I",
+      "answer": "Insulator",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Electrical insulator"],
+      "sources": ["https://en.wikipedia.org/wiki/Electrical_insulator"]
+    },
+    {
+      "id": "science-en-easy-01-11",
+      "text": "What general type of engine powers most large passenger airliners by expelling a fast gas stream to produce thrust?",
+      "initial": "J",
+      "answer": "Jet engine",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Jet", "Turbofan", "Turbofan engine"],
+      "sources": ["https://en.wikipedia.org/wiki/Jet_engine"]
+    },
+    {
+      "id": "science-en-easy-01-12",
+      "text": "What trade name identifies the strong aramid fibre developed at DuPont and used in some bullet-resistant vests?",
+      "initial": "K",
+      "answer": "Kevlar",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Kevlar"]
+    },
+    {
+      "id": "science-en-easy-01-13",
+      "text": "What familiar electric lamp produces light by heating a filament until it glows?",
+      "initial": "L",
+      "answer": "Light bulb",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Incandescent bulb",
+        "Incandescent light bulb",
+        "Incandescent lamp",
+        "Incandescent light globe",
+        "Filament lamp",
+        "Filament bulb"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Incandescent_light_bulb"]
+    },
+    {
+      "id": "science-en-easy-01-14",
+      "text": "What object retains its own magnetic field without electrical power and can attract iron nails?",
+      "initial": "M",
+      "answer": "Magnet",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Permanent magnet"],
+      "sources": ["https://en.wikipedia.org/wiki/Magnet"]
+    },
+    {
+      "id": "science-en-easy-01-15",
+      "text": "What pointed fastener with a head is usually hammered into wood?",
+      "initial": "N",
+      "answer": "Nail",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Nail_(fastener)"]
+    },
+    {
+      "id": "science-en-easy-01-16",
+      "text": "What enclosed kitchen appliance is used for baking food?",
+      "initial": "O",
+      "answer": "Oven",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Oven"]
+    },
+    {
+      "id": "science-en-easy-01-17",
+      "text": "What machine adds energy to a liquid to move it, for example from a well into a pipe?",
+      "initial": "P",
+      "answer": "Pump",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Pump"]
+    },
+    {
+      "id": "science-en-easy-01-18",
+      "text": "What type of electronic clock regulates its timekeeping with the vibration of a silicon dioxide crystal?",
+      "initial": "Q",
+      "answer": "Quartz clock",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Quartz watch"],
+      "sources": ["https://en.wikipedia.org/wiki/Quartz_clock"]
+    },
+    {
+      "id": "science-en-easy-01-19",
+      "text": "What household appliance keeps food cool in a compartment normally above freezing?",
+      "initial": "R",
+      "answer": "Refrigerator",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Fridge"],
+      "sources": ["https://en.wikipedia.org/wiki/Refrigerator"]
+    },
+    {
+      "id": "science-en-easy-01-20",
+      "text": "What hand tool turns screws using a tip that fits a recess in the screw head?",
+      "initial": "S",
+      "answer": "Screwdriver",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Screwdriver"]
+    },
+    {
+      "id": "science-en-easy-01-21",
+      "text": "What hair-cleaning product uses surfactants to help remove oil and dirt?",
+      "initial": "SH",
+      "answer": "Shampoo",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Shampoo"]
+    },
+    {
+      "id": "science-en-easy-01-22",
+      "text": "What instrument measures temperature?",
+      "initial": "T",
+      "answer": "Thermometer",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Thermometer"]
+    },
+    {
+      "id": "science-en-easy-01-23",
+      "text": "What cleaning device uses high-frequency sound to create microscopic cavitation bubbles in a liquid bath?",
+      "initial": "U",
+      "answer": "Ultrasonic cleaner",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Ultrasound cleaner", "Ultrasonic bath"],
+      "sources": ["https://en.wikipedia.org/wiki/Ultrasonic_cleaning"]
+    },
+    {
+      "id": "science-en-easy-01-24",
+      "text": "What device opens, closes or partly blocks a passage to control the flow of a liquid or gas?",
+      "initial": "V",
+      "answer": "Valve",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Valve"]
+    },
+    {
+      "id": "science-en-easy-01-25",
+      "text": "What moving device clears rain from a car's front window with a rubber blade?",
+      "initial": "W",
+      "answer": "Windscreen wiper",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Windshield wiper", "Wiper"],
+      "sources": ["https://en.wikipedia.org/wiki/Windscreen_wiper"]
+    },
+    {
+      "id": "science-en-easy-01-26",
+      "text": "What vacuum device produces diagnostic X-rays by directing accelerated electrons at a metal target?",
+      "initial": "X",
+      "answer": "X-ray tube",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/X-ray_tube"]
+    },
+    {
+      "id": "science-en-easy-01-27",
+      "text": "What unit of length used in the imperial and US customary systems equals three feet, or exactly 0.9144 metres?",
+      "initial": "Y",
+      "answer": "Yard",
+      "language": "en",
+      "category": "science",
+      "aliases": ["International yard", "yd"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yard",
+        "https://www.nist.gov/pml/owm/si-units-length"
+      ]
+    },
+    {
+      "id": "science-en-easy-01-28",
+      "text": "What common disposable battery type uses a zinc container and a carbon rod, with manganese dioxide in its cathode mixture?",
+      "initial": "Z",
+      "answer": "Zinc-carbon battery",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Zinc carbon battery",
+        "Zinc–carbon battery",
+        "Zinc-carbon cell",
+        "Zinc carbon cell",
+        "Carbon zinc battery",
+        "Carbon-zinc battery"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Zinc%E2%80%93carbon_battery"]
+    }
+  ]
+}

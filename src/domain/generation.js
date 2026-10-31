@@ -2,6 +2,7 @@ import { normalizeAnswer } from './answers.js';
 import { randomIndex } from './config.js';
 import { requireValue } from './errors.js';
 import { validatePack } from './packs.js';
+import { DIFFICULTIES, questionDifficulty } from './difficulty.js';
 
 /** @param {import('./types.js').Pack} pack */
 export function attributedCopy(pack) {
@@ -40,15 +41,20 @@ export function generateNumbers(sources, language, random, id, title) {
     const next = randomIndex(random, i + 1);
     [questions[i], questions[next]] = [questions[next], questions[i]];
   }
+  const selected = questions.slice(0, 28);
+  const levels = DIFFICULTIES.filter((level) =>
+    selected.some((question) => question.difficulty === level),
+  );
   return validatePack({
-    schemaVersion: 1,
+    schemaVersion: 2,
     id,
     title,
     language,
     mode: 'numbers',
+    difficulty: levels.length === 1 ? levels[0] : levels,
     authors: [...new Set(packs.flatMap((pack) => pack.authors))],
     license: [...new Set(packs.map((pack) => pack.license))].join('\n'),
-    questions: questions.slice(0, 28),
+    questions: selected,
   });
 }
 
@@ -61,7 +67,10 @@ function uniqueQuestions(packs) {
   const questions = [];
   for (const pack of packs) {
     for (const question of pack.questions) {
-      const content = { ...question };
+      const content = {
+        ...question,
+        difficulty: questionDifficulty(pack, question),
+      };
       delete content.origins;
       const fingerprint = JSON.stringify(content);
       const prior = identities.get(question.id);
@@ -70,7 +79,10 @@ function uniqueQuestions(packs) {
       const normalized = normalizeAnswer(question.text);
       if (texts.has(normalized)) continue;
       texts.add(normalized);
-      questions.push(question);
+      questions.push({
+        ...question,
+        difficulty: questionDifficulty(pack, question),
+      });
     }
   }
   return questions;

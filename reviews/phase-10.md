@@ -225,3 +225,27 @@ exclusion; enforcement reports restored exactly. The minor V8 branch fraction
 difference from the independent run is reported as actually measured.
 **Phase 10 clears its implementation gate.** Authorized scoped commit/push,
 remote SHA and actual automatic private-preview verification follow.
+
+## Authorized delivery and actual private verification
+
+Committed and pushed as `54b34b1505a6ff3087269bdaae4a4ca790ea4f18`;
+remote `refs/heads/main` matched. The unchanged existing automatic updater served
+that exact revision at private `https://mcp.tail2a1a27.ts.net/hexy/version.json`.
+No manual restart, installed-runtime change or public exposure.
+
+The coordinator exercised the actual HTTPS production app in a fresh isolated
+browser context: recorded KeyQ replacement, temporary generated number pack
+with empty durable custom library, keyboard selection, active-question reload
+with identical original deadline and locked pack, correct capture, cancelled
+departure, complete final download before local cleanup, and actual final-file
+reimport preserving ownership. No page errors. Both played/reimported screenshots
+were opened and inspected. Owner/browser data in other contexts was not touched.
+
+```sh
+PLAYWRIGHT_BROWSERS_PATH="$PWD/.artifacts/browsers" TMPDIR="$PWD/.artifacts" LD_LIBRARY_PATH="$PWD/.artifacts/browser-libs/usr/lib/x86_64-linux-gnu" node .artifacts/continuation/verify-phase10-private.mjs 54b34b1505a6ff3087269bdaae4a4ca790ea4f18
+```
+
+PASS. Evidence: `.artifacts/continuation/phase10-served-version.json`,
+`phase10-private-verification.log` and `phase10-private/` (actual downloaded
+JSON, screenshots and result). This is private software delivery, not physical
+hardware, public-release or naming clearance. Phase 11 may now begin.

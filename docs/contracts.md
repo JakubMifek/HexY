@@ -1,8 +1,11 @@
 # Domain and playable-adapter contracts
 
-Packs/library remain version 1; input preferences, portable complete-game envelopes
-and domain games are version 2. Version-1 input preferences and complete-game
-envelopes remain supported legacy reads. Contracts are backed by `src/domain/types.js` and
+Packs are version 2; the library envelope remains version 1. Input preferences,
+portable complete-game envelopes and domain games remain version 2.
+Version-1 input preferences and complete-game envelopes remain supported legacy
+reads **only when their nested pack satisfies the current pack contract**.
+Pre-difficulty packs are rejected, not assigned an inferred level.
+Contracts are backed by `src/domain/types.js` and
 runtime validators. Phase 3 added the local custom-pack/settings library;
 phase 4 adds a separate game-recovery adapter and input preferences. JSON serialization
 is `JSON.stringify`; pack import is `importPack`, saved-game parsing and recovery
@@ -17,21 +20,26 @@ validation and stale input are distinguished. Stale/inactive valid actions retur
 
 ## Packs
 
-| Field           | Contract                                                 |
-| --------------- | -------------------------------------------------------- |
-| `schemaVersion` | Exactly `1`; unknown versions are rejected               |
-| `id`, `title`   | Nonempty strings                                         |
-| `language`      | `cs` or `en`                                             |
-| `mode`          | `source`, `numbers`, or `letters`                        |
-| `authors`       | Nonempty list of nonempty attribution strings            |
-| `license`       | Nonempty rights statement, preserved without relicensing |
-| `questions`     | Nonempty ordered array; IDs unique within the pack       |
+| Field           | Contract                                                                                        |
+| --------------- | ----------------------------------------------------------------------------------------------- |
+| `schemaVersion` | Exactly `2`; older/unknown versions are rejected                                                |
+| `id`, `title`   | Nonempty strings                                                                                |
+| `language`      | `cs` or `en`                                                                                    |
+| `mode`          | `source`, `numbers`, or `letters`                                                               |
+| `difficulty`    | `easy`, `medium`, `hard`; mixed numbers may use the sorted distinct union array described below |
+| `authors`       | Nonempty list of nonempty attribution strings                                                   |
+| `license`       | Nonempty rights statement, preserved without relicensing                                        |
+| `questions`     | Nonempty ordered array; IDs unique within the pack                                              |
 
 Every question has nonempty `id`, `text`, `initial`, `answer`, `category`;
 `language` equal to the pack language; `aliases` (possibly empty string array);
 and nonempty `sources` (source URLs or human-readable provenance notes).
 Each alias itself must be nonempty. Provenance validation checks structure, not
 factual accuracy. Category is an extensible text identifier for custom content.
+The bundled Computing and Programming category keeps the stable `programming`
+identifier; localized display names are "Computing and Programming" /
+"Informatika a programování". Its practical computer-literacy and programming
+scope does not change the general-adult difficulty rubric or serialized IDs.
 Question text is limited to 600 UTF-16 code units and canonical answers to 120.
 The same boundary validates imports, custom edits and recovered packs. Existing
 reviewed content fits unchanged. Oversized older custom data is explicitly rejected,
@@ -55,14 +63,38 @@ trims and collapses whitespace. Punctuation/hyphens stay significant; no fuzzy
 matching or unapproved punctuation equivalence is introduced. Broader punctuation
 handling remains a product choice; authors can supply explicit aliases meanwhile.
 
-Phase 3 adds one **optional, additive version-1 field** on questions:
+Phase 3 introduced the optional attribution field, retained in version 2:
 `origins: [{packId, questionId, authors, license}]`. When present it is a nonempty
 list; all strings and each author list must be nonempty. These are the source
 pack's declared authors/rights, not independent verification of legal ownership.
-Existing v1 packs without `origins` remain valid and round-trip unchanged.
+Version-2 packs without `origins` remain valid and round-trip unchanged.
 Unknown extra fields are discarded; only documented fields round-trip.
 Pre-phase-3 readers do not preserve this extension: use this version or newer
 for attribution-preserving edits/exports, and keep original JSON backups.
+
+Difficulty is mandatory pack metadata. Authored fixed-letter and source decks
+have one level. A question may explicitly repeat that level; a conflicting
+level is invalid. The audience is general adults: Easy common general knowledge,
+Medium informed general knowledge, Hard specialist but fair and unambiguous.
+These are editorial judgments, not schema-validation results.
+
+A generated number board may contain several source levels. Its `difficulty`
+is then the distinct union in `easy`, `medium`, `hard` order (two or three
+members); every question must have its explicit `difficulty`, and the union
+must exactly match those questions. A one-level number board uses a scalar.
+There is no `mixed`/Unrated fourth level in the data or filter. Generation writes
+the inherited source level on each selected question and computes the union
+from the actual 28 questions, not all candidate packs. Validation/export,
+editing, persistence, portable saves and print headers use this same contract.
+
+Pack v1 import compatibility was expressly declined. No migration infers
+arbitrary imported difficulty, including by title, ID or bundled-looking content.
+An incompatible stored library denies writes and exposes exact original-byte
+download in Options/preparation. An incompatible active game denies adoption
+and replacement saving, retains original bytes and uses the existing recovery
+export/explicit-discard flow. The outer library/game keys and envelopes remain
+unchanged because their structure did not change; nested pack versions make
+the incompatibility explicit. Known-bundled automatic migration is not implemented.
 
 Starting a game reconstructs its own pack snapshot. Later changes to the source
 pack cannot edit that game; there are no question/answer/pack editing actions.
@@ -103,18 +135,26 @@ acceptance. Fixed boards never shuffle. Imported prepared number boards can be
 used unchanged. `validatePlayable` also rejects normalized repeated question text
 before acceptance/start/sheet export; ordinary source banks may contain repeats.
 
-The catalog's search/category/language/origin filters are a transient projection
+The catalog's Origin/Difficulty filters are a transient projection
 of the source library. They do not select sources, invalidate acceptance, alter
-content revisions, or enter persisted preferences. A mixed-category custom pack
-matches any category represented by its questions; custom category labels remain
-the author's text. The selected-source summary includes filtered-out packs.
+content revisions, or enter persisted preferences. The Options language is
+always applied, independently of filter reset. There are no language/category/
+search filters. Bundled decks are grouped in category folders; all custom decks
+have a separate folder even when their questions span several categories.
+Folder selection operates on visible matching decks only, preserving hidden
+selection. Counts and native checkbox indeterminacy describe matching decks.
+Expansion does not select or invalidate content; selection does. The
+selected-source summary includes filtered-out packs, but foreign-language,
+unknown and duplicate IDs cannot enter selection.
 Changing setup language/mode selects only the original matching starter even
 when the catalog contains many packs. The generator still receives only explicit
 selected sources, never the current filter results.
 
 Editing creates an attributed custom copy with a fresh pack ID. The native editor
 changes question text, canonical answer, aliases, category and factual sources;
-number/source initials and ordering; pack ID/title/authors/license. Stable
+number/source initials and ordering; pack ID/title/authors/license/difficulty. Choosing
+a new scalar difficulty explicitly reclassifies every question in that copy;
+leaving mixed metadata unchanged preserves its original question levels. Stable
 question IDs and the pack language/mode are retained; fixed initials/order
 remain authored. Validation uses the same `validatePack`, not a parallel schema.
 All edits invalidate acceptance. Invalid saves retain the draft and previous
@@ -195,6 +235,8 @@ question origins are never deletion criteria. `.artifacts/phase-10-origin-probe.
 records the baseline equality proof; `final-export.test.js` retains the regression.
 Every library write compares current raw storage with the last successfully read/
 written bytes; a mismatch blocks writing and reports `storageChanged`.
+It also retains the actually observed replacement bytes for protected-original
+export, without adopting them or allowing their deletion/overwrite.
 
 `storageReadUnavailable` distinguishes initial access/read failure from
 `storageUnavailable` after a validated read followed by a write failure. Initial

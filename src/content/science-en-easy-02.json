@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-easy-02",
+  "title": "Science and technology · Easy · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-easy-02-01",
+      "text": "Which lightweight metal with the symbol Al is used to make ordinary kitchen foil?",
+      "initial": "A",
+      "answer": "Aluminium",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Aluminum"],
+      "sources": ["https://en.wikipedia.org/wiki/Aluminium"]
+    },
+    {
+      "id": "science-en-easy-02-02",
+      "text": "What portable electrical power source consists of one or more electrochemical cells?",
+      "initial": "B",
+      "answer": "Battery",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Electric battery"],
+      "sources": ["https://en.wikipedia.org/wiki/Electric_battery"]
+    },
+    {
+      "id": "science-en-easy-02-03",
+      "text": "What powdered binder reacts with water and is mixed with aggregates to make ordinary concrete?",
+      "initial": "C",
+      "answer": "Cement",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cement"]
+    },
+    {
+      "id": "science-en-easy-02-04",
+      "text": "What hand tool has a sharpened edge used to cut or shape wood or stone, often when struck with a mallet?",
+      "initial": "CH",
+      "answer": "Chisel",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chisel"]
+    },
+    {
+      "id": "science-en-easy-02-05",
+      "text": "What general term describes a cleaning substance containing surfactants, used for example in laundry?",
+      "initial": "D",
+      "answer": "Detergent",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Detergent"]
+    },
+    {
+      "id": "science-en-easy-02-06",
+      "text": "What device carries people between floors in a cabin inside a building?",
+      "initial": "E",
+      "answer": "Elevator",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Lift"],
+      "sources": ["https://en.wikipedia.org/wiki/Elevator"]
+    },
+    {
+      "id": "science-en-easy-02-07",
+      "text": "What item traps ground coffee while allowing brewed liquid to pass through in drip coffee making?",
+      "initial": "F",
+      "answer": "Filter",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Coffee filter"],
+      "sources": ["https://en.wikipedia.org/wiki/Coffee_filter"]
+    },
+    {
+      "id": "science-en-easy-02-08",
+      "text": "What machine converts mechanical energy into electrical energy?",
+      "initial": "G",
+      "answer": "Generator",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Electric generator",
+        "Electrical generator",
+        "Electromagnetic generator"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Electric_generator"]
+    },
+    {
+      "id": "science-en-easy-02-09",
+      "text": "What pair of small sound-producing devices is worn over or in the ears for personal listening?",
+      "initial": "H",
+      "answer": "Headphones",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Earphones", "Earbuds", "Earpieces", "Cans"],
+      "sources": ["https://en.wikipedia.org/wiki/Headphones"]
+    },
+    {
+      "id": "science-en-easy-02-10",
+      "text": "What household appliance smooths fabric by pressing it with a heated flat surface?",
+      "initial": "I",
+      "answer": "Iron",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Clothes iron",
+        "Flatiron",
+        "Flat iron",
+        "Smoothing iron",
+        "Steam iron",
+        "Dry iron"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Clothes_iron"]
+    },
+    {
+      "id": "science-en-easy-02-11",
+      "text": "What lifting device is commonly placed under a car to raise it for a wheel change?",
+      "initial": "J",
+      "answer": "Jack",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Car jack"],
+      "sources": ["https://en.wikipedia.org/wiki/Jack_(device)"]
+    },
+    {
+      "id": "science-en-easy-02-12",
+      "text": "What is the SI base unit of mass, symbol kg?",
+      "initial": "K",
+      "answer": "Kilogram",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Kilogramme", "Kilo"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kilogram",
+        "https://www.nist.gov/pml/owm/si-units-mass"
+      ]
+    },
+    {
+      "id": "science-en-easy-02-13",
+      "text": "What security device is opened with a matching key or other authorized means to release its fastening?",
+      "initial": "L",
+      "answer": "Lock",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lock_and_key"]
+    },
+    {
+      "id": "science-en-easy-02-14",
+      "text": "What kitchen appliance heats food using electromagnetic waves that cause dielectric heating?",
+      "initial": "M",
+      "answer": "Microwave oven",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Microwave"],
+      "sources": ["https://en.wikipedia.org/wiki/Microwave_oven"]
+    },
+    {
+      "id": "science-en-easy-02-15",
+      "text": "What internally threaded fastener is screwed onto a bolt?",
+      "initial": "N",
+      "answer": "Nut",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Nut_(hardware)"]
+    },
+    {
+      "id": "science-en-easy-02-16",
+      "text": "What thin glass or plastic strand carries light along its length, for example in telecommunications?",
+      "initial": "O",
+      "answer": "Optical fibre",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Optical fiber", "Optic fibre", "Optic fiber"],
+      "sources": ["https://en.wikipedia.org/wiki/Optical_fiber"]
+    },
+    {
+      "id": "science-en-easy-02-17",
+      "text": "What moving component inside an engine cylinder is pushed by combustion gases?",
+      "initial": "P",
+      "answer": "Piston",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Piston"]
+    },
+    {
+      "id": "science-en-easy-02-18",
+      "text": "What common name describes the compound CaO, produced by strongly heating limestone?",
+      "initial": "Q",
+      "answer": "Quicklime",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Burnt lime",
+        "Calcium oxide",
+        "Burned lime",
+        "Unslaked lime",
+        "Lime",
+        "Caustic lime",
+        "Calcia",
+        "Oxide of calcium"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Calcium_oxide"]
+    },
+    {
+      "id": "science-en-easy-02-19",
+      "text": "What elastic material made from natural or synthetic polymers is commonly used for vehicle tyres?",
+      "initial": "R",
+      "answer": "Rubber",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rubber",
+        "https://en.wikipedia.org/wiki/Tire"
+      ]
+    },
+    {
+      "id": "science-en-easy-02-20",
+      "text": "What iron-based alloy with a controlled carbon content is widely used for structural beams?",
+      "initial": "S",
+      "answer": "Steel",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Steel"]
+    },
+    {
+      "id": "science-en-easy-02-21",
+      "text": "What hand tool has a broad blade and long handle for lifting loose material such as soil?",
+      "initial": "SH",
+      "answer": "Shovel",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Spade"],
+      "sources": ["https://en.wikipedia.org/wiki/Shovel"]
+    },
+    {
+      "id": "science-en-easy-02-22",
+      "text": "What rotary machine extracts energy from flowing water, steam or gas using blades on a rotor?",
+      "initial": "T",
+      "answer": "Turbine",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Turbine"]
+    },
+    {
+      "id": "science-en-easy-02-23",
+      "text": "What curved section of waste pipe retains water to prevent sewer gases entering a room?",
+      "initial": "U",
+      "answer": "U-bend",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "U-trap",
+        "U bend",
+        "Plumbing trap",
+        "Trap",
+        "P-trap",
+        "S-trap",
+        "S-bend",
+        "Sink trap",
+        "Water trap"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Trap_(plumbing)"]
+    },
+    {
+      "id": "science-en-easy-02-24",
+      "text": "What household appliance uses suction to collect dust from floors?",
+      "initial": "V",
+      "answer": "Vacuum cleaner",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Vacuum", "Hoover"],
+      "sources": ["https://en.wikipedia.org/wiki/Vacuum_cleaner"]
+    },
+    {
+      "id": "science-en-easy-02-25",
+      "text": "What process joins materials by forming a bond using heat, pressure or both?",
+      "initial": "W",
+      "answer": "Welding",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Welding"]
+    },
+    {
+      "id": "science-en-easy-02-26",
+      "text": "What type of telescope, exemplified by NASA's Chandra, studies the universe using the same kind of radiation used to image broken bones?",
+      "initial": "X",
+      "answer": "X-ray telescope",
+      "language": "en",
+      "category": "science",
+      "aliases": ["X ray telescope", "XRT"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/X-ray_telescope",
+        "https://science.nasa.gov/mission/chandra/",
+        "https://en.wikipedia.org/wiki/Radiography"
+      ]
+    },
+    {
+      "id": "science-en-easy-02-27",
+      "text": "What wooden crosspiece traditionally lets two draft animals pull a load together?",
+      "initial": "Y",
+      "answer": "Yoke",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Yoke"]
+    },
+    {
+      "id": "science-en-easy-02-28",
+      "text": "What one-piece fastening strap, commonly made of nylon, tightens through a ratcheting head to bundle cables?",
+      "initial": "Z",
+      "answer": "Zip tie",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Cable tie",
+        "Tie wrap",
+        "Tie-wrap",
+        "Hose tie",
+        "Wire tie",
+        "Panduit",
+        "Steggel tie",
+        "Ty-Rap"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Cable_tie"]
+    }
+  ]
+}

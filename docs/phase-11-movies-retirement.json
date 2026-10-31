@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "scope": "Final12/336 Movies author delivery; no old pack deleted or retired by this author.",
+  "inputSnapshot": {
+    "path": ".artifacts/continuation/bundles/inputs/catalog.json",
+    "sha256": "f43842008acdbd54f6b305a59b187eadfd4fb6a205982f3d76d8a9985a2d9711"
+  },
+  "preparation": {
+    "path": ".artifacts/continuation/bundles/p11/movies/b04-retirement-preparation.json",
+    "sha256": "1c16121d9be2f77f0ca4ab464130a35a9bd2c4b9416f7150c22e75b848423cad"
+  },
+  "existingAcceptedEnglishMappings": [
+    {
+      "oldId": "entertainment-en-02-07",
+      "relationship": "The retired Frozen clue names the sisters Anna and Elsa; the new question identifies Elsa from her elder-sister role and ice powers.",
+      "newId": "movies-en-easy-01-06",
+      "status": "Fresh evidence and full new-entry independent review required; no old quota credit.",
+      "oldQuestion": {
+        "id": "entertainment-en-02-07",
+        "text": "Which 2013 Disney animated film features the royal sisters Anna and Elsa in Arendelle?",
+        "initial": "F",
+        "answer": "Frozen",
+        "language": "en",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/Frozen_(2013_film)"]
+      },
+      "oldQuestionSha256": "1dc2e235160a1c0b6a12be62c00dfdb673fab850e36c68fc235f692080e3b866",
+      "newQuestionSha256": "7e6b2dce0a43c2d3d6994a35fb9edbd1a48c6435b7ec3a498ddc7422a754e789",
+      "newAcceptedForms": ["Elsa", "Queen Elsa"],
+      "preservedLedger": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/sources.json",
+      "preservedLedgerSha256": "4db238d2b1383496d6e4661c83a481999ff452c5d6aaf5a15f04300b2594ad2a",
+      "preservation": "Existing independently accepted English mapping, not a new factual re-review or changed question."
+    },
+    {
+      "oldId": "entertainment-en-01-21",
+      "relationship": "The retired Shrek film identification names its ogre and Fiona; the new character question additionally identifies the voice performance and marriage.",
+      "newId": "movies-en-easy-01-21",
+      "status": "Fresh evidence and full new-entry independent review required; no old quota credit.",
+      "oldQuestion": {
+        "id": "entertainment-en-01-21",
+        "text": "Which 2001 animated film features an ogre, a talkative donkey and Princess Fiona?",
+        "initial": "SH",
+        "answer": "Shrek",
+        "language": "en",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/Shrek"]
+      },
+      "oldQuestionSha256": "b29cc0effe3c88bb1a003889c3fd35c180105efa3b4310c09b86dea8e9e28641",
+      "newQuestionSha256": "0c851e79bf831df11a1dfdeda1a3c1a6eb9e0151bf74ac2a27501b3a02d9803c",
+      "newAcceptedForms": ["Shrek"],
+      "preservedLedger": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/sources.json",
+      "preservedLedgerSha256": "4db238d2b1383496d6e4661c83a481999ff452c5d6aaf5a15f04300b2594ad2a",
+      "preservation": "Existing independently accepted English mapping, not a new factual re-review or changed question."
+    },
+    {
+      "oldId": "entertainment-en-02-28",
+      "relationship": "The retired US-title clue identifies the same 2016 Judy Hopps/Nick Wilde film. Reuse is explicit, actual contexts freshly read, and the new scope also accepts the established regional title Zootropolis.",
+      "newId": "movies-en-easy-01-28",
+      "status": "Fresh evidence and full new-entry independent review required; no old quota credit.",
+      "oldQuestion": {
+        "id": "entertainment-en-02-28",
+        "text": "What is the US title of Disney's 2016 animated film about rabbit police officer Judy Hopps and fox Nick Wilde?",
+        "initial": "Z",
+        "answer": "Zootopia",
+        "language": "en",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/Zootopia"]
+      },
+      "oldQuestionSha256": "dd4855f9e2614f3d1226cafc30bd2a0ba437898dfdb644edb27b799bb513232e",
+      "newQuestionSha256": "3b462dfbe46e76d80f6d54c8050fa45e184f488b321f67e99935af375a4974a2",
+      "newAcceptedForms": ["Zootopia", "Zootropolis"],
+      "preservedLedger": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/sources.json",
+      "preservedLedgerSha256": "4db238d2b1383496d6e4661c83a481999ff452c5d6aaf5a15f04300b2594ad2a",
+      "preservation": "Existing independently accepted English mapping, not a new factual re-review or changed question."
+    },
+    {
+      "oldId": "entertainment-en-01-21",
+      "relationship": "The retiring clue identifies the Shrek film and mentions Fiona. New question instead identifies the princess from her nightly ogre transformation; this specific curse is not a relabelled film-title fact. Existing b01 Shrek asks a different character/voice/marriage relationship.",
+      "newId": "movies-en-easy-02-07",
+      "oldQuestion": {
+        "id": "entertainment-en-01-21",
+        "text": "Which 2001 animated film features an ogre, a talkative donkey and Princess Fiona?",
+        "initial": "SH",
+        "answer": "Shrek",
+        "language": "en",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/Shrek"]
+      },
+      "oldQuestionSha256": "b29cc0effe3c88bb1a003889c3fd35c180105efa3b4310c09b86dea8e9e28641",
+      "status": "Exact retirement relationship disclosed; old Entertainment contributes zero retained quota. Full fresh question/evidence review required.",
+      "newQuestionSha256": "02070bae635ba8734ec99daa7659dc0c44812abfd91da08874ed2d449589eddd",
+      "newAcceptedForms": ["Fiona", "Princess Fiona"],
+      "preservedLedger": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/sources.json",
+      "preservedLedgerSha256": "0b47001ef8425119440a5be65190b1665ef9303c48a237c388569a0f0227238d",
+      "preservation": "Existing independently accepted English mapping, not a new factual re-review or changed question."
+    },
+    {
+      "oldId": "entertainment-en-01-20",
+      "relationship": "Retiring Spielberg clue names Jurassic Park and its director. The new clue identifies the film from the three scientific visitors and Isla Nublar, not merely the inverse director/title relation.",
+      "newId": "movies-en-easy-02-11",
+      "oldQuestion": {
+        "id": "entertainment-en-01-20",
+        "text": "Which director made the 1993 film Jurassic Park, based on Michael Crichton's novel?",
+        "initial": "S",
+        "answer": "Spielberg",
+        "language": "en",
+        "aliases": ["Steven Spielberg"],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/Steven_Spielberg"]
+      },
+      "oldQuestionSha256": "8dd395a2856560e8422e77c92a621af245dcd6f4185f4e3cd87fc7c2533687cb",
+      "status": "Exact retirement relationship disclosed; old Entertainment contributes zero retained quota. Full fresh question/evidence review required.",
+      "newQuestionSha256": "fe221f05f541de1a28cda88c47e45812017957ed2613e13c4ae5d2ec60c19fe6",
+      "newAcceptedForms": ["Jurassic Park"],
+      "preservedLedger": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/sources.json",
+      "preservedLedgerSha256": "0b47001ef8425119440a5be65190b1665ef9303c48a237c388569a0f0227238d",
+      "preservation": "Existing independently accepted English mapping, not a new factual re-review or changed question."
+    },
+    {
+      "oldId": "entertainment-en-01-25",
+      "relationship": "Explicit reused identification of the 2008 Pixar robot film. New clue adds the EVE relationship, but this is NOT claimed as a wholly new substantive film fact. The old Entertainment entry retires, contributes zero retained quota and must not coexist in the final library.",
+      "newId": "movies-en-easy-02-25",
+      "oldQuestion": {
+        "id": "entertainment-en-01-25",
+        "text": "Which 2008 Pixar film follows a small waste-compacting robot left on an abandoned Earth?",
+        "initial": "W",
+        "answer": "WALL-E",
+        "language": "en",
+        "aliases": ["WALL E", "WALLE", "WALL·E"],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/WALL-E"]
+      },
+      "oldQuestionSha256": "c6743e4f67be77ee3ac466a2a6017771f7a503d49f247311709423bd99ac98dc",
+      "status": "Exact retirement relationship disclosed; old Entertainment contributes zero retained quota. Full fresh question/evidence review required.",
+      "newQuestionSha256": "c6ecdbb84bbb1832b7db32749cf80d709462e653e7a367814cb9f763ada75b9c",
+      "newAcceptedForms": ["WALL-E", "WALL E", "WALLE", "WALL·E"],
+      "preservedLedger": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/sources.json",
+      "preservedLedgerSha256": "0b47001ef8425119440a5be65190b1665ef9303c48a237c388569a0f0227238d",
+      "preservation": "Existing independently accepted English mapping, not a new factual re-review or changed question."
+    }
+  ],
+  "existingAcceptedEnglishFinalBindings": [
+    {
+      "oldId": "entertainment-en-02-07",
+      "newId": "movies-en-easy-01-06",
+      "newQuestion": {
+        "id": "movies-en-easy-01-06",
+        "text": "What is the name of Anna's older sister, who can create ice and snow in Frozen?",
+        "initial": "E",
+        "answer": "Elsa",
+        "language": "en",
+        "aliases": ["Queen Elsa"],
+        "category": "movies",
+        "sources": ["https://en.wikipedia.org/wiki/Elsa_%28Frozen%29"]
+      },
+      "newQuestionSha256": "7e6b2dce0a43c2d3d6994a35fb9edbd1a48c6435b7ec3a498ddc7422a754e789",
+      "newAcceptedForms": ["Elsa", "Queen Elsa"],
+      "newEvidenceSha256": "3678551b959c68dbfc127dabbdc1f20ffa052df55247a1925aab1ae07fc6364d",
+      "newLedgerEntrySha256": "d2074bd054c6410e55462ac86d839840fc7e7fab26a249f6ee1c45ee833e933a",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/packs/movies-en-easy-01.json",
+        "sha256": "8189986bfeda44a20bbb8d3d7e9d3f2f24c3f148ebe8518efa687f6b266a9c3e"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/sources.json",
+        "sha256": "4db238d2b1383496d6e4661c83a481999ff452c5d6aaf5a15f04300b2594ad2a"
+      },
+      "status": "Earlier English independent acceptance unchanged; no factual re-review."
+    },
+    {
+      "oldId": "entertainment-en-01-21",
+      "newId": "movies-en-easy-01-21",
+      "newQuestion": {
+        "id": "movies-en-easy-01-21",
+        "text": "Which animated film character is voiced by Mike Myers and marries Princess Fiona?",
+        "initial": "SH",
+        "answer": "Shrek",
+        "language": "en",
+        "aliases": [],
+        "category": "movies",
+        "sources": ["https://en.wikipedia.org/wiki/Shrek_%28character%29"]
+      },
+      "newQuestionSha256": "0c851e79bf831df11a1dfdeda1a3c1a6eb9e0151bf74ac2a27501b3a02d9803c",
+      "newAcceptedForms": ["Shrek"],
+      "newEvidenceSha256": "34817fcddbe5d164f0de0ba9cf2b1d78a874e325dae46771760a2a7d4eca7356",
+      "newLedgerEntrySha256": "3aa16a7b44bc58405893ec94991e582200d8d9f9b9cdd87f2013a1cf92a412f7",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/packs/movies-en-easy-01.json",
+        "sha256": "8189986bfeda44a20bbb8d3d7e9d3f2f24c3f148ebe8518efa687f6b266a9c3e"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/sources.json",
+        "sha256": "4db238d2b1383496d6e4661c83a481999ff452c5d6aaf5a15f04300b2594ad2a"
+      },
+      "status": "Earlier English independent acceptance unchanged; no factual re-review."
+    },
+    {
+      "oldId": "entertainment-en-02-28",
+      "newId": "movies-en-easy-01-28",
+      "newQuestion": {
+        "id": "movies-en-easy-01-28",
+        "text": "Which 2016 Disney animated film follows rookie rabbit police officer Judy Hopps as she teams up with fox Nick Wilde?",
+        "initial": "Z",
+        "answer": "Zootopia",
+        "language": "en",
+        "aliases": ["Zootropolis"],
+        "category": "movies",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Zootopia",
+          "https://movies.disney.com/zootopia"
+        ]
+      },
+      "newQuestionSha256": "3b462dfbe46e76d80f6d54c8050fa45e184f488b321f67e99935af375a4974a2",
+      "newAcceptedForms": ["Zootopia", "Zootropolis"],
+      "newEvidenceSha256": "fba84a6a9a8645b5d39336569e025a0ae56b3333da2c662860858f4043c360e1",
+      "newLedgerEntrySha256": "132e5add60d52dd585626ebedf4f5e5377156f115a6eee3fa756ea753587e033",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/packs/movies-en-easy-01.json",
+        "sha256": "8189986bfeda44a20bbb8d3d7e9d3f2f24c3f148ebe8518efa687f6b266a9c3e"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b01-v3/sources.json",
+        "sha256": "4db238d2b1383496d6e4661c83a481999ff452c5d6aaf5a15f04300b2594ad2a"
+      },
+      "status": "Earlier English independent acceptance unchanged; no factual re-review."
+    },
+    {
+      "oldId": "entertainment-en-01-21",
+      "newId": "movies-en-easy-02-07",
+      "newQuestion": {
+        "id": "movies-en-easy-02-07",
+        "text": "What is the name of the princess in Shrek who turns into an ogre after sunset?",
+        "initial": "F",
+        "answer": "Fiona",
+        "language": "en",
+        "aliases": ["Princess Fiona"],
+        "category": "movies",
+        "sources": ["https://en.wikipedia.org/wiki/Princess_Fiona"]
+      },
+      "newQuestionSha256": "02070bae635ba8734ec99daa7659dc0c44812abfd91da08874ed2d449589eddd",
+      "newAcceptedForms": ["Fiona", "Princess Fiona"],
+      "newEvidenceSha256": "9785ae96225d0e8372511c966cc347b178f508a05eb4e68e14fe11d94b3448e4",
+      "newLedgerEntrySha256": "5747eb03bc1a269ab270f3b60144f63a4cbe066098a30bf17e2577673b73bb76",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/packs/movies-en-easy-02.json",
+        "sha256": "0618e04562647a43f9a098f32f674e3f14bf1624da7626c403b48a4d8c32ece1"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/sources.json",
+        "sha256": "0b47001ef8425119440a5be65190b1665ef9303c48a237c388569a0f0227238d"
+      },
+      "status": "Earlier English independent acceptance unchanged; no factual re-review."
+    },
+    {
+      "oldId": "entertainment-en-01-20",
+      "newId": "movies-en-easy-02-11",
+      "newQuestion": {
+        "id": "movies-en-easy-02-11",
+        "text": "Which 1993 dinosaur film brings scientists Alan Grant, Ellie Sattler and Ian Malcolm to the island of Isla Nublar?",
+        "initial": "J",
+        "answer": "Jurassic Park",
+        "language": "en",
+        "aliases": [],
+        "category": "movies",
+        "sources": ["https://en.wikipedia.org/wiki/Jurassic_Park_%28film%29"]
+      },
+      "newQuestionSha256": "fe221f05f541de1a28cda88c47e45812017957ed2613e13c4ae5d2ec60c19fe6",
+      "newAcceptedForms": ["Jurassic Park"],
+      "newEvidenceSha256": "5711ec79e807f3e2c4036ac56fd26a91fa7fe4d6dbc151b0e4c800f22144bd07",
+      "newLedgerEntrySha256": "f580687807648387aeba1e258853cad3ed179eb15710af8777bc72fed25e3952",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/packs/movies-en-easy-02.json",
+        "sha256": "0618e04562647a43f9a098f32f674e3f14bf1624da7626c403b48a4d8c32ece1"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/sources.json",
+        "sha256": "0b47001ef8425119440a5be65190b1665ef9303c48a237c388569a0f0227238d"
+      },
+      "status": "Earlier English independent acceptance unchanged; no factual re-review."
+    },
+    {
+      "oldId": "entertainment-en-01-25",
+      "newId": "movies-en-easy-02-25",
+      "newQuestion": {
+        "id": "movies-en-easy-02-25",
+        "text": "Which 2008 Pixar film follows a lonely rubbish-compacting robot who falls in love with a visiting robot called EVE?",
+        "initial": "W",
+        "answer": "WALL-E",
+        "language": "en",
+        "aliases": ["WALL E", "WALLE", "WALL·E"],
+        "category": "movies",
+        "sources": ["https://en.wikipedia.org/wiki/WALL-E"]
+      },
+      "newQuestionSha256": "c6ecdbb84bbb1832b7db32749cf80d709462e653e7a367814cb9f763ada75b9c",
+      "newAcceptedForms": ["WALL-E", "WALL E", "WALLE", "WALL·E"],
+      "newEvidenceSha256": "55cd1c233fde5c8dc269b1a9ae8e6f1a3cbe14a831745d091c75e9a926598678",
+      "newLedgerEntrySha256": "8170027240a096181595a8b4d0b8b4debad0c9e63ef80d0aa700250433ea0193",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/packs/movies-en-easy-02.json",
+        "sha256": "0618e04562647a43f9a098f32f674e3f14bf1624da7626c403b48a4d8c32ece1"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b02-v2/sources.json",
+        "sha256": "0b47001ef8425119440a5be65190b1665ef9303c48a237c388569a0f0227238d"
+      },
+      "status": "Earlier English independent acceptance unchanged; no factual re-review."
+    }
+  ],
+  "thisCzechBatchExactMigrations": [
+    {
+      "oldId": "entertainment-cs-01-06",
+      "oldQuestion": {
+        "id": "entertainment-cs-01-06",
+        "text": "Jaké zkrácené jméno má mimozemšťan, s nímž se spřátelí chlapec Elliott ve filmu Stevena Spielberga z roku 1982?",
+        "initial": "E",
+        "answer": "E.T.",
+        "language": "cs",
+        "aliases": ["ET"],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"]
+      },
+      "oldQuestionSha256": "509acc950e0a88e71caa8053d7c292d4ac3c3db8ed122e6013f91b6958ca9245",
+      "newId": "movies-cs-easy-02-06",
+      "newQuestion": {
+        "id": "movies-cs-easy-02-06",
+        "text": "Jak se jmenuje chlapec, který se ve Spielbergově filmu E. T. – Mimozemšťan spřátelí s návštěvníkem z vesmíru?",
+        "answer": "Elliott",
+        "language": "cs",
+        "aliases": ["Elliot"],
+        "category": "movies",
+        "initial": "E",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/E.T._%E2%80%93_Mimozem%C5%A1%C5%A5an"
+        ]
+      },
+      "newQuestionSha256": "30153c2e6bde48c59455604117781416d606e23bdbc907a2f0414be03db8b0a1",
+      "newAcceptedForms": ["Elliott", "Elliot"],
+      "newEvidenceSha256": "21fbed58026d6e84ecd8f06b68eb9d59775a77d499489cfe757ae2970859f07b",
+      "newLedgerEntrySha256": "d5c3a82b28f5739bd63e64b906d1c894edd7d19d5f9682b8767460a278a99632",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b04-v1/packs/movies-cs-easy-02.json",
+        "sha256": "6c177b3547492b54e61e7d552125d3380a416ab94585d801e1a183286c3dd8cf"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b04-v1/sources.json",
+        "sha256": "1ff338ce1b6ef63796abc1e9e0d83b4c569052314dab622faeef4657ca41e393"
+      },
+      "relationship": "E.T./Elliott friendship inverse relationship",
+      "aliasScope": "Inverse-scope migration: old and new accepted-answer sets are NOT interchangeable. Do not copy E.T./Disney answers into Elliott/Snow White targets or misstate old supported facts as unrelated new quota.",
+      "status": "Exact migration supplied for eventual coordinator integration; final84 independent review pending."
+    },
+    {
+      "oldId": "entertainment-cs-01-05",
+      "oldQuestion": {
+        "id": "entertainment-cs-01-05",
+        "text": "Které studio vytvořilo roku 1937 Sněhurku a sedm trpaslíků jako svůj první celovečerní animovaný film?",
+        "initial": "D",
+        "answer": "Disney",
+        "language": "cs",
+        "aliases": ["Walt Disney", "Walt Disney Productions"],
+        "category": "entertainment",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
+        ]
+      },
+      "oldQuestionSha256": "33807596b27dcf3da7405521d76a5c8cdacfa1389e1dfc25dd696888fd79b82e",
+      "newId": "movies-cs-easy-02-21",
+      "newQuestion": {
+        "id": "movies-cs-easy-02-21",
+        "text": "Jak se jmenuje první celovečerní animovaný film Disneyho, uvedený v roce 1937?",
+        "answer": "Sněhurka a sedm trpaslíků",
+        "language": "cs",
+        "aliases": ["Snow White and the Seven Dwarfs"],
+        "category": "movies",
+        "initial": "S",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/Sn%C4%9Bhurka_a_sedm_trpasl%C3%ADk%C5%AF"
+        ]
+      },
+      "newQuestionSha256": "62adb9542d77c6076fca97e7918ac14ac0cb6aadb4bf687e834374d4316078cf",
+      "newAcceptedForms": [
+        "Sněhurka a sedm trpaslíků",
+        "Snow White and the Seven Dwarfs"
+      ],
+      "newEvidenceSha256": "0593f5c6e3659ec6ec9b562e84a21bbb0683d9abe4c7c1df54bcdfabe3326e56",
+      "newLedgerEntrySha256": "309e12ca4e1480eebf6b12c0044d53889f5cb0ff17bf78e16b3f131d764bf832",
+      "newPack": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b04-v1/packs/movies-cs-easy-02.json",
+        "sha256": "6c177b3547492b54e61e7d552125d3380a416ab94585d801e1a183286c3dd8cf"
+      },
+      "newLedger": {
+        "path": ".artifacts/continuation/bundles/p11/movies/batches/b04-v1/sources.json",
+        "sha256": "1ff338ce1b6ef63796abc1e9e0d83b4c569052314dab622faeef4657ca41e393"
+      },
+      "relationship": "Disney/Snow White1937 first feature inverse relationship",
+      "aliasScope": "Inverse-scope migration: old and new accepted-answer sets are NOT interchangeable. Do not copy E.T./Disney answers into Elliott/Snow White targets or misstate old supported facts as unrelated new quota.",
+      "status": "Exact migration supplied for eventual coordinator integration; final84 independent review pending."
+    }
+  ],
+  "all56OldCzechQuestionsActuallyRead": true,
+  "otherOldScopes": "No additional old same-language identification or inverse scope is reused in current168 Czech questions. Retired-unmapped is scoped to Movies, not a claim about Sports/Games.",
+  "requestedLegacyRegressionDispositions": [
+    {
+      "oldId": "entertainment-en-02-28",
+      "oldQuestion": {
+        "id": "entertainment-en-02-28",
+        "text": "What is the US title of Disney's 2016 animated film about rabbit police officer Judy Hopps and fox Nick Wilde?",
+        "initial": "Z",
+        "answer": "Zootopia",
+        "language": "en",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/Zootopia"]
+      },
+      "oldQuestionSha256": "dd4855f9e2614f3d1226cafc30bd2a0ba437898dfdb644edb27b799bb513232e",
+      "disposition": "EXACT MAPPED RECLASSIFICATION — preserve accepted English mapping",
+      "newIds": ["movies-en-easy-01-28"],
+      "currentCzechBatchMigration": false,
+      "integration": "Do not delete an old pack now. Coordinator retires all Entertainment atomically only after all 12 Games, 12 Movies and 12 Sports decks are independently cleared."
+    },
+    {
+      "oldId": "entertainment-cs-02-11",
+      "oldQuestion": {
+        "id": "entertainment-cs-02-11",
+        "text": "Jaký je původní anglický název Nolanova filmu Počátek z roku 2010 o pronikání do snů?",
+        "initial": "I",
+        "answer": "Inception",
+        "language": "cs",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Inception",
+          "https://cs.wikipedia.org/wiki/Po%C4%8D%C3%A1tek_(film)"
+        ]
+      },
+      "oldQuestionSha256": "120d653032ec1eb0f5252ce3bc274fcbd017d78923fb253b918cf971867860b4",
+      "disposition": "RETIRED-UNMAPPED at eventual atomic retirement — no current same-language replacement ID",
+      "newIds": [],
+      "currentCzechBatchMigration": false,
+      "integration": "Do not delete an old pack now. Coordinator retires all Entertainment atomically only after all 12 Games, 12 Movies and 12 Sports decks are independently cleared."
+    },
+    {
+      "oldId": "entertainment-cs-02-24",
+      "oldQuestion": {
+        "id": "entertainment-cs-02-24",
+        "text": "Jaký je původní anglický název filmu studia Pixar Vzhůru do oblak z roku 2009?",
+        "initial": "U",
+        "answer": "Up",
+        "language": "cs",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Up_(2009_film)",
+          "https://cs.wikipedia.org/wiki/Vzh%C5%AFru_do_oblak"
+        ]
+      },
+      "oldQuestionSha256": "8dfbf0d222babe5961763b9770f88f0f1cd7217743c01590ed4a60cae8106669",
+      "disposition": "RETIRED-UNMAPPED at eventual atomic retirement — no current same-language replacement ID",
+      "newIds": [],
+      "currentCzechBatchMigration": false,
+      "integration": "Do not delete an old pack now. Coordinator retires all Entertainment atomically only after all 12 Games, 12 Movies and 12 Sports decks are independently cleared."
+    },
+    {
+      "oldId": "entertainment-cs-01-26",
+      "oldQuestion": {
+        "id": "entertainment-cs-01-26",
+        "text": "Jak zní původní název filmu studia Pixar z roku 2008 o malém robotovi, který na opuštěné Zemi lisuje odpadky?",
+        "initial": "W",
+        "answer": "WALL-E",
+        "language": "cs",
+        "aliases": ["WALL E", "WALLE", "WALL·E"],
+        "category": "entertainment",
+        "sources": ["https://en.wikipedia.org/wiki/WALL-E"]
+      },
+      "oldQuestionSha256": "e5a1c8f0e4ebb2cedc28b87e5fbd0cff1ff27e25f89c7c4c6f7b3da5b344fb1d",
+      "disposition": "RETIRED-UNMAPPED at eventual atomic retirement — no current same-language replacement ID",
+      "newIds": [],
+      "currentCzechBatchMigration": false,
+      "integration": "Do not delete an old pack now. Coordinator retires all Entertainment atomically only after all 12 Games, 12 Movies and 12 Sports decks are independently cleared."
+    },
+    {
+      "oldId": "entertainment-cs-02-20",
+      "oldQuestion": {
+        "id": "entertainment-cs-02-20",
+        "text": "Jak zní záměrně nespisovný český název hororu z roku 2019, který podle románu Stephena Kinga natočili Kevin Kölsch a Dennis Widmyer?",
+        "initial": "Ř",
+        "answer": "Řbitov zviřátek",
+        "language": "cs",
+        "aliases": [],
+        "category": "entertainment",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/%C5%98bitov_zvi%C5%99%C3%A1tek_(film,_2019)"
+        ]
+      },
+      "oldQuestionSha256": "0640379bc44efc57c8b59a11e43bcd351cb890ef1af754005c9681df5df87b63",
+      "disposition": "RETIRED-UNMAPPED at eventual atomic retirement — no current same-language replacement ID",
+      "newIds": [],
+      "currentCzechBatchMigration": false,
+      "integration": "Do not delete an old pack now. Coordinator retires all Entertainment atomically only after all 12 Games, 12 Movies and 12 Sports decks are independently cleared."
+    }
+  ],
+  "cemeteryClarification": "Actual frozen cs02-20 is the2019 Kevin Kölsch/Dennis Widmyer Řbitov zviřátek clue and native2019 source, NOT the1989 film. RETIRED-UNMAPPED in Movies. Withdrawn Toy Story guess supplies no factual claim or mapping.",
+  "wallEClarification": "Czech old entertainment-cs-01-26 WALL·E/VALL-I is RETIRED-UNMAPPED in Movies. Accepted movies-en-easy-02-25 maps the separate English old question, not an invented Czech replacement.",
+  "integration": "Coordinator alone retires Entertainment atomically ONLY after all12 Games,12 Movies and12 Sports decks are independently cleared. Preserve regression tests through actual mapped new IDs/finite supported forms; do not force reuse or weaken alias scope for old tests."
+}

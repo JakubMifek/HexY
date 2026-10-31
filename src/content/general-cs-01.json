@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "easy",
   "id": "general-cs-01",
   "title": "Všeobecné znalosti · úvodní sada 01",
   "language": "cs",

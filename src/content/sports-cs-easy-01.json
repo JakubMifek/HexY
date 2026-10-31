@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-cs-easy-01",
+  "title": "Sport · Lehká · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-cs-easy-01-01",
+      "text": "Které sportovní odvětví zahrnuje běhy, skoky, hody a vrhy?",
+      "initial": "A",
+      "answer": "Atletika",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Lehká atletika"],
+      "sources": ["https://en.wikipedia.org/wiki/Athletics_(sport)"]
+    },
+    {
+      "id": "sports-cs-easy-01-02",
+      "text": "Ve kterém týmovém sportu se získávají body vhazováním míče do vyvýšeného koše?",
+      "initial": "B",
+      "answer": "Basketbal",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Košíková"],
+      "sources": ["https://en.wikipedia.org/wiki/Basketball"]
+    },
+    {
+      "id": "sports-cs-easy-01-03",
+      "text": "Který sport zahrnuje silniční závody, dráhové závody i závody horských kol?",
+      "initial": "C",
+      "answer": "Cyklistika",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cycling"]
+    },
+    {
+      "id": "sports-cs-easy-01-04",
+      "text": "Jak se nazývá náčiní tvořené tyčí a závažím, které vzpěrač zvedá nad hlavu?",
+      "initial": "Č",
+      "answer": "Činka",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Vzpěračská činka"],
+      "sources": ["https://en.wikipedia.org/wiki/Barbell"]
+    },
+    {
+      "id": "sports-cs-easy-01-05",
+      "text": "Jak se nazývá sportovní oblečení, na němž mívá hráč číslo a jméno?",
+      "initial": "D",
+      "answer": "Dres",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Trikot", "Sportovní dres"],
+      "sources": ["https://cs.wikipedia.org/wiki/Dres"]
+    },
+    {
+      "id": "sports-cs-easy-01-06",
+      "text": "Která česká sportovkyně získala v Pchjongčchangu 2018 zlato na lyžích i na snowboardu?",
+      "initial": "E",
+      "answer": "Ester Ledecká",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Ledecká"],
+      "sources": ["https://en.wikipedia.org/wiki/Ester_Ledeck%C3%A1"]
+    },
+    {
+      "id": "sports-cs-easy-01-07",
+      "text": "Jak se přejatým slovem označuje porušení pravidel při zákroku fotbalisty proti soupeři?",
+      "initial": "F",
+      "answer": "Faul",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Foul", "Nedovolený zákrok"],
+      "sources": ["https://en.wikipedia.org/wiki/Foul_(association_football)"]
+    },
+    {
+      "id": "sports-cs-easy-01-08",
+      "text": "Který sport má disciplíny na bradlech, kladině nebo kruzích?",
+      "initial": "G",
+      "answer": "Gymnastika",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Sportovní gymnastika"],
+      "sources": ["https://en.wikipedia.org/wiki/Gymnastics"]
+    },
+    {
+      "id": "sports-cs-easy-01-09",
+      "text": "Ve kterém ledním týmovém sportu se hraje holemi a pukem?",
+      "initial": "H",
+      "answer": "Hokej",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Lední hokej"],
+      "sources": ["https://en.wikipedia.org/wiki/Ice_hockey"]
+    },
+    {
+      "id": "sports-cs-easy-01-10",
+      "text": "Jak se nazývá ochranná pomůcka fotbalisty, která zakrývá přední část bérce?",
+      "initial": "Ch",
+      "answer": "Chránič holeně",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Chránič holení",
+        "Holenní chránič",
+        "Holenní chrániče",
+        "Chrániče holení"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Shin_guard"]
+    },
+    {
+      "id": "sports-cs-easy-01-11",
+      "text": "Jak se označuje bruslení na botách s kolečky uspořádanými za sebou v jedné řadě?",
+      "initial": "I",
+      "answer": "Inline bruslení",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "In-line bruslení",
+        "Inlajnové bruslení",
+        "Inlinové bruslení"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Inline_skating"]
+    },
+    {
+      "id": "sports-cs-easy-01-12",
+      "text": "Jaké příjmení má český hokejista Jaromír, jehož dres s číslem 68 vyřadil klub Pittsburgh Penguins v roce 2024?",
+      "initial": "J",
+      "answer": "Jágr",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Jaromír Jágr"],
+      "sources": ["https://en.wikipedia.org/wiki/Jarom%C3%ADr_J%C3%A1gr"]
+    },
+    {
+      "id": "sports-cs-easy-01-13",
+      "text": "Jak se nazývá obuv hráče kopané vybavená kolíky nebo špunty pro lepší přilnavost k trávníku?",
+      "initial": "K",
+      "answer": "Kopačky",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Fotbalové kopačky", "Fotbalové boty"],
+      "sources": ["https://en.wikipedia.org/wiki/Football_boot"]
+    },
+    {
+      "id": "sports-cs-easy-01-14",
+      "text": "Jak se nazývají dlouhé úzké skluznice, které si lyžař připíná k botám?",
+      "initial": "L",
+      "answer": "Lyže",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ski"]
+    },
+    {
+      "id": "sports-cs-easy-01-15",
+      "text": "Jak se nazývá kulatý předmět, který se při fotbale hráči snaží dostat do branky?",
+      "initial": "M",
+      "answer": "Míč",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Fotbalový míč"],
+      "sources": ["https://en.wikipedia.org/wiki/Ball_(association_football)"]
+    },
+    {
+      "id": "sports-cs-easy-01-16",
+      "text": "Jak se říká hráči, který může během utkání vystřídat spoluhráče na hřišti?",
+      "initial": "N",
+      "answer": "Náhradník",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Střídající hráč"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Substitute_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-cs-easy-01-17",
+      "text": "Jak se nazývá pět propojených barevných kruhů ve znaku olympijských her?",
+      "initial": "O",
+      "answer": "Olympijské kruhy",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Pět olympijských kruhů", "Olympijský symbol"],
+      "sources": ["https://en.wikipedia.org/wiki/Olympic_symbols"]
+    },
+    {
+      "id": "sports-cs-easy-01-18",
+      "text": "Který vodní sport má závodní způsoby motýlek, znak a prsa?",
+      "initial": "P",
+      "answer": "Plavání",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Sportovní plavání"],
+      "sources": ["https://en.wikipedia.org/wiki/Swimming_(sport)"]
+    },
+    {
+      "id": "sports-cs-easy-01-19",
+      "text": "Jakým náčiním s výpletem odpalují tenisté míček?",
+      "initial": "R",
+      "answer": "Raketa",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Tenisová raketa"],
+      "sources": ["https://en.wikipedia.org/wiki/Racket_(sports_equipment)"]
+    },
+    {
+      "id": "sports-cs-easy-01-20",
+      "text": "Které italské město hostilo letní olympijské hry v roce 1960?",
+      "initial": "Ř",
+      "answer": "Řím",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Roma", "Rome"],
+      "sources": ["https://en.wikipedia.org/wiki/1960_Summer_Olympics"]
+    },
+    {
+      "id": "sports-cs-easy-01-21",
+      "text": "Jak se nazývá lyžařská disciplína, ve které závodník projíždí mezi hustě rozmístěnými brankami?",
+      "initial": "S",
+      "answer": "Slalom",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Speciální slalom"],
+      "sources": ["https://en.wikipedia.org/wiki/Slalom_skiing"]
+    },
+    {
+      "id": "sports-cs-easy-01-22",
+      "text": "Jak se nazývá běžecký závod družstev, v němž si běžci předávají kolík?",
+      "initial": "Š",
+      "answer": "Štafeta",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Štafetový běh", "Štafetový závod"],
+      "sources": ["https://en.wikipedia.org/wiki/Relay_race"]
+    },
+    {
+      "id": "sports-cs-easy-01-23",
+      "text": "Ve kterém raketovém sportu se při tradičním počítání skóre používají hodnoty patnáct, třicet a čtyřicet?",
+      "initial": "T",
+      "answer": "Tenis",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tennis"]
+    },
+    {
+      "id": "sports-cs-easy-01-24",
+      "text": "Jak se jedním slovem běžně označuje soutěž dvou soupeřů, například dvou fotbalových mužstev?",
+      "initial": "U",
+      "answer": "Utkání",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Zápas", "Střetnutí"],
+      "sources": ["https://cs.wiktionary.org/wiki/utk%C3%A1n%C3%AD"]
+    },
+    {
+      "id": "sports-cs-easy-01-25",
+      "text": "Jak se nazývá závodník, který v závodě obsadí první místo?",
+      "initial": "V",
+      "answer": "Vítěz",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://cs.wiktionary.org/wiki/v%C3%ADt%C4%9Bz"]
+    },
+    {
+      "id": "sports-cs-easy-01-26",
+      "text": "Který londýnský grandslamový tenisový turnaj se tradičně hraje na trávě?",
+      "initial": "W",
+      "answer": "Wimbledon",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["The Championships, Wimbledon", "Wimbledon Championships"],
+      "sources": ["https://en.wikipedia.org/wiki/Wimbledon_Championships"]
+    },
+    {
+      "id": "sports-cs-easy-01-27",
+      "text": "Jakou medailí se od olympiády v roce 1904 oceňuje první místo?",
+      "initial": "Z",
+      "answer": "Zlatá medaile",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Zlato"],
+      "sources": ["https://en.wikipedia.org/wiki/Gold_medal"]
+    },
+    {
+      "id": "sports-cs-easy-01-28",
+      "text": "Jak se říká profesionálnímu jezdci v dostizích?",
+      "initial": "Ž",
+      "answer": "Žokej",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jockey"]
+    }
+  ]
+}

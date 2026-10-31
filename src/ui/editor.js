@@ -1,5 +1,6 @@
 import { ALPHABETS } from '../domain/answers.js';
 import { button, element, field, input, select } from './dom.js';
+import { DIFFICULTIES } from '../domain/difficulty.js';
 
 /** @typedef {import('./preparation-strings.js').PreparationTexts} Texts
  * @typedef {import('../runtime/preparation.js').Preparation} Preparation */
@@ -99,6 +100,29 @@ function metadataFields(t, model, signal) {
       ),
     );
   }
+  const difficulty = select(
+    'pack-difficulty',
+    [
+      ...(Array.isArray(pack.difficulty) ? [['mixed', t.mixedDifficulty]] : []),
+      ...DIFFICULTIES.map((level) => [level, t.difficulties[level]]),
+    ],
+    Array.isArray(pack.difficulty) ? 'mixed' : pack.difficulty,
+  );
+  difficulty.addEventListener(
+    'change',
+    () => {
+      if (difficulty.value === 'mixed') return;
+      model.invalidate();
+      const level = DIFFICULTIES.find((level) => level === difficulty.value);
+      if (!level) throw new Error('Unsupported difficulty control value');
+      pack.difficulty = level;
+      for (const question of pack.questions) question.difficulty = level;
+      const mixed = difficulty.querySelector('option[value="mixed"]');
+      mixed?.remove();
+    },
+    { signal },
+  );
+  metadata.append(field(t.difficulty, difficulty));
   return metadata;
 }
 
@@ -107,6 +131,7 @@ function questionFields(t, model, signal) {
   const pack = model.editing;
   if (!pack) throw new Error('Editor requires a draft');
   const question = pack.questions[model.position];
+  const categories = /** @type {Record<string, string>} */ (t.categories);
   const grid = element('div', '', { class: 'setup-grid question-editor' });
   const id = input('question-id', 'text', question.id);
   id.readOnly = true;
@@ -137,7 +162,7 @@ function questionFields(t, model, signal) {
       text: t.question,
       answer: t.answer,
       aliases: t.aliases,
-      category: t.category,
+      category: `${t.category} · ${Object.hasOwn(categories, question.category) ? categories[question.category] : question.category}`,
       sources: t.provenance,
     };
     grid.append(

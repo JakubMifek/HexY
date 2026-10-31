@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 2,
+  "id": "science-cs-medium-01",
+  "title": "Věda a technika · Střední · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-medium-01-01",
+      "text": "Jak se nazývá snímač vlastního zrychlení, používaný například v telefonech k rozpoznání pohybu?",
+      "initial": "A",
+      "answer": "Akcelerometr",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Accelerometer",
+        "https://cs.wikipedia.org/wiki/Akcelerometr"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-02",
+      "text": "Jak se nazývá rovnice ideálního ustáleného proudění nestlačitelné kapaliny, která podél proudnice spojuje tlak, rychlost a výšku?",
+      "initial": "B",
+      "answer": "Bernoulliho rovnice",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Bernoulliova rovnice", "Bernoulliho zákon"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bernoulli%27s_principle",
+        "https://cs.wikipedia.org/wiki/Bernoulliho_rovnice",
+        "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoullis-equation-1/"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-03",
+      "text": "Jak se nazývá odvozená jednotka SI elektrického náboje se značkou C?",
+      "initial": "C",
+      "answer": "Coulomb",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Coulomb",
+        "https://cs.wikipedia.org/wiki/Coulomb"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-04",
+      "text": "Jak se ve strojnictví nazývá část hřídele určená k uložení v ložisku, obvykle válcová a menšího průměru než sousední část?",
+      "initial": "Č",
+      "answer": "Čep",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Hřídelový čep"],
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cep_%28strojnictv%C3%AD%29",
+        "https://cs.wikipedia.org/wiki/H%C5%99%C3%ADdel"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-05",
+      "text": "Jak se nazývá změna pozorované frekvence vlnění při relativním pohybu zdroje a pozorovatele?",
+      "initial": "D",
+      "answer": "Dopplerův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Dopplerův efekt"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Doppler_effect",
+        "https://cs.wikipedia.org/wiki/Doppler%C5%AFv_jev"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-06",
+      "text": "Která termodynamická stavová veličina má v SI jednotku joule na kelvin a při samovolném ději v izolované soustavě neklesá?",
+      "initial": "E",
+      "answer": "Entropie",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Termodynamická entropie"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Entropy",
+        "https://cs.wikipedia.org/wiki/Entropie"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-07",
+      "text": "Jak se nazývá polovodičová součástka, která přímo převádí světlo na elektrickou energii?",
+      "initial": "F",
+      "answer": "Fotovoltaický článek",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Solární článek"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Solar_cell",
+        "https://cs.wikipedia.org/wiki/Fotovoltaick%C3%BD_%C4%8Dl%C3%A1nek"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-08",
+      "text": "Jak se nazývá přístroj detekující ionizující záření pomocí elektrických impulzů vznikajících v plynové trubici?",
+      "initial": "G",
+      "answer": "Geigerův počítač",
+      "language": "cs",
+      "category": "science",
+      "aliases": [
+        "Geigerův-Müllerův počítač",
+        "Geigerův čítač",
+        "Geiger-Müllerův počítač",
+        "Geiger–Müllerův počítač",
+        "Geiger-Müllerův detektor",
+        "Geiger–Müllerův detektor",
+        "GM počítač"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Geiger_counter",
+        "https://cs.wikipedia.org/wiki/Geiger%C5%AFv-M%C3%BCller%C5%AFv_po%C4%8D%C3%ADta%C4%8D"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-09",
+      "text": "Jak se nazývá chemický rozklad sloučeniny reakcí s vodou?",
+      "initial": "H",
+      "answer": "Hydrolýza",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hydrolysis",
+        "https://cs.wikipedia.org/wiki/Hydrol%C3%BDza"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-10",
+      "text": "Jak se nazývá skupina separačních metod využívajících rozdílné rozdělování složek mezi pohyblivou a nepohyblivou fázi?",
+      "initial": "Ch",
+      "answer": "Chromatografie",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chromatography",
+        "https://cs.wikipedia.org/wiki/Chromatografie"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-11",
+      "text": "Jak se nazývá jev, při němž se překrývající vlny mohou navzájem zesilovat nebo zeslabovat?",
+      "initial": "I",
+      "answer": "Interference",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Interference vlnění", "Vlnová interference"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wave_interference",
+        "https://cs.wikipedia.org/wiki/Interference"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-12",
+      "text": "Jak se nazývá opakovaně použitelný ochranný spínač, který automaticky přeruší obvod při nadměrném proudu?",
+      "initial": "J",
+      "answer": "Jistič",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Ochranný vypínač"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Circuit_breaker",
+        "https://cs.wikipedia.org/wiki/Jisti%C4%8D"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-13",
+      "text": "Jak se nazývá látka, která zvyšuje rychlost chemické reakce a celkově se při ní nespotřebovává?",
+      "initial": "K",
+      "answer": "Katalyzátor",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Catalysis",
+        "https://cs.wikipedia.org/wiki/Katalyz%C3%A1tor"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-14",
+      "text": "Jak se souhrnně nazývá vyzařování světla látkou, které není způsobeno pouze její vysokou teplotou?",
+      "initial": "L",
+      "answer": "Luminiscence",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Luminescence",
+        "https://cs.wikipedia.org/wiki/Luminiscence"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-15",
+      "text": "Jak se nazývá vektorová veličina rotačního pohybu, která se zachovává, je-li výsledný vnější moment sil nulový?",
+      "initial": "M",
+      "answer": "Moment hybnosti",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Kinetický moment", "Impulsmoment", "Točivost"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Angular_momentum",
+        "https://cs.wikipedia.org/wiki/Moment_hybnosti"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-16",
+      "text": "Jak se společným názvem označuje proton nebo neutron jako stavební částice atomového jádra?",
+      "initial": "N",
+      "answer": "Nukleon",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nucleon",
+        "https://cs.wikipedia.org/wiki/Nukleon"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-17",
+      "text": "Jak se nazývá tenké skleněné nebo plastové vlákno, které vede světlo podél své délky například při přenosu dat?",
+      "initial": "O",
+      "answer": "Optické vlákno",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Světlovodné vlákno"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Optical_fiber",
+        "https://cs.wikipedia.org/wiki/Optick%C3%A9_vl%C3%A1kno"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-18",
+      "text": "Jak se nazývá vlastnost příčného vlnění popisující orientaci jeho kmitání, kterou využívají některé sluneční brýle?",
+      "initial": "P",
+      "answer": "Polarizace",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Polarizace vlnění"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Polarization_(waves)",
+        "https://cs.wikipedia.org/wiki/Polarizace_%28vln%C4%9Bn%C3%AD%29"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-19",
+      "text": "Jak se nazývá výrazné zesílení vynuceného kmitání při buzení v blízkosti vlastní frekvence soustavy?",
+      "initial": "R",
+      "answer": "Rezonance",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Resonance",
+        "https://cs.wikipedia.org/wiki/Rezonance"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-20",
+      "text": "Jak se při obrábění nazývá rychlost pohybu břitu vůči povrchu obrobku ve směru hlavního řezného pohybu?",
+      "initial": "Ř",
+      "answer": "Řezná rychlost",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Speeds_and_feeds",
+        "https://cs.wikipedia.org/wiki/Obr%C3%A1b%C4%9Bn%C3%AD"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-21",
+      "text": "Jak se nazývá vlastnost tělesa zachovávat klid nebo rovnoměrný přímočarý pohyb, nepůsobí-li výsledná vnější síla?",
+      "initial": "S",
+      "answer": "Setrvačnost",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inertia",
+        "https://cs.wikipedia.org/wiki/Setrva%C4%8Dnost"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-22",
+      "text": "Jak se v elektronice obecně nazývají nežádoucí náhodné kolísavé složky přimíšené k užitečnému signálu?",
+      "initial": "Š",
+      "answer": "Šum",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Elektronický šum"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Noise_(electronics)",
+        "https://cs.wikipedia.org/wiki/%C5%A0um"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-23",
+      "text": "Jak se nazývá teplotní snímač využívající napětí vznikající v obvodu ze dvou různých vodičů při rozdílných teplotách spojů?",
+      "initial": "T",
+      "answer": "Termočlánek",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thermocouple",
+        "https://cs.wikipedia.org/wiki/Termo%C4%8Dl%C3%A1nek"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-24",
+      "text": "Jak se nazývá zařízení převádějící střídavý elektrický proud na stejnosměrný?",
+      "initial": "U",
+      "answer": "Usměrňovač",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rectifier",
+        "https://cs.wikipedia.org/wiki/Usm%C4%9Br%C5%88ova%C4%8D"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-25",
+      "text": "Jak se nazývá vlastnost tekutiny vyjadřující její odpor proti smykovému toku?",
+      "initial": "V",
+      "answer": "Viskozita",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Vazkost"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Viscosity",
+        "https://cs.wikipedia.org/wiki/Viskozita"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-26",
+      "text": "Jak se nazývá čtyřramenný elektrický obvod, který určuje neznámý odpor vyvážením dvou větví?",
+      "initial": "W",
+      "answer": "Wheatstoneův můstek",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wheatstone_bridge",
+        "https://cs.wikipedia.org/wiki/Wheatstone%C5%AFv_m%C5%AFstek"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-27",
+      "text": "Jak se v řízení nazývá vedení informace o výstupu soustavy zpět na její vstup za účelem ovlivnění dalšího chování?",
+      "initial": "Z",
+      "answer": "Zpětná vazba",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Zpětnovazební smyčka"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Feedback",
+        "https://cs.wikipedia.org/wiki/Zp%C4%9Btn%C3%A1_vazba"
+      ]
+    },
+    {
+      "id": "science-cs-medium-01-28",
+      "text": "Jak se nazývá schopnost materiálu odolávat vysokým teplotám, požadovaná například u vyzdívek průmyslových pecí?",
+      "initial": "Ž",
+      "answer": "Žáruvzdornost",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Refractory",
+        "https://cs.wikipedia.org/wiki/%C5%BD%C3%A1ruvzdorn%C3%BD_materi%C3%A1l"
+      ]
+    }
+  ]
+}

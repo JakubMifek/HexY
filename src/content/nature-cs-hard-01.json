@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "nature-cs-hard-01",
+  "title": "Příroda · těžká 01",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-cs-hard-01-01",
+      "initial": "A",
+      "text": "Jak se v botanice nazývá tvorba semen bez oplození, při níž může vznikat potomstvo geneticky shodné s mateřskou rostlinou?",
+      "answer": "Apomixie",
+      "aliases": ["apomixe", "apomixis"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Apomixie"]
+    },
+    {
+      "id": "nature-cs-hard-01-02",
+      "initial": "B",
+      "text": "Jak se nazývá rané stadium živočišného embrya tvořené vrstvou buněk kolem dutiny zvané blastocoel?",
+      "answer": "Blastula",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Blastula"]
+    },
+    {
+      "id": "nature-cs-hard-01-03",
+      "initial": "C",
+      "text": "Jak se nazývá rozdělení cytoplazmy mateřské buňky mezi dceřiné buňky na konci buněčného dělení?",
+      "answer": "Cytokineze",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Cytokinesis"]
+    },
+    {
+      "id": "nature-cs-hard-01-04",
+      "initial": "Č",
+      "text": "Jak se nazývá útvar chránící růstové pletivo na špičce kořene před mechanickým poškozením při prorůstání půdou?",
+      "answer": "Čepička",
+      "aliases": ["kořenová čepička", "čepička kořenová", "kalyptra"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ko%C5%99enov%C3%A1%20%C4%8Depi%C4%8Dka"
+      ]
+    },
+    {
+      "id": "nature-cs-hard-01-05",
+      "initial": "D",
+      "text": "Jak se nazývá houbová buňka se dvěma geneticky odlišnými haploidními jádry, která dosud nesplynula?",
+      "answer": "Dikaryon",
+      "aliases": ["dikaryotická buňka"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Dikaryon"]
+    },
+    {
+      "id": "nature-cs-hard-01-06",
+      "initial": "E",
+      "text": "Jak se nazývá výživný přívěsek semene lákající mravence, kteří tak pomáhají s jeho šířením?",
+      "answer": "Elaiosom",
+      "aliases": ["masíčko"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Elaiosome"]
+    },
+    {
+      "id": "nature-cs-hard-01-07",
+      "initial": "F",
+      "text": "Jak se nazývá listovitě zploštělý fotosyntetizující stonek nebo větev, například u listnatce?",
+      "answer": "Fylokladium",
+      "aliases": ["kladodium"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Phylloclade"]
+    },
+    {
+      "id": "nature-cs-hard-01-08",
+      "initial": "G",
+      "text": "Jak se souhrnně nazývají všechny plodolisty v květu?",
+      "answer": "Gyneceum",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Gyneceum%20(botanika)"]
+    },
+    {
+      "id": "nature-cs-hard-01-09",
+      "initial": "H",
+      "text": "Jak se nazývá specializovaná tlustostěnná buňka některých vláknitých sinic, v níž se váže vzdušný dusík?",
+      "answer": "Heterocysta",
+      "aliases": ["heterocyt"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Heterocysta"]
+    },
+    {
+      "id": "nature-cs-hard-01-10",
+      "initial": "Ch",
+      "text": "Který polysacharid z N-acetylglukosaminu je významnou složkou vnější kostry členovců i buněčných stěn hub?",
+      "answer": "Chitin",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Chitin"]
+    },
+    {
+      "id": "nature-cs-hard-01-11",
+      "initial": "I",
+      "text": "Jak se v entomologii nazývá konečné dospělé stadium hmyzu po posledním svlékání?",
+      "answer": "Imago",
+      "aliases": ["dospělec"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Imago"]
+    },
+    {
+      "id": "nature-cs-hard-01-12",
+      "initial": "J",
+      "text": "Jak se nazývá skupina mechorostů zahrnující porostnici mnohotvárnou, u níž jsou známá rozmnožovací tělíska v pohárcích na stélce?",
+      "answer": "Játrovky",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/J%C3%A1trovky"]
+    },
+    {
+      "id": "nature-cs-hard-01-13",
+      "initial": "K",
+      "text": "Jak se nazývá samoopylení v květech, které se vůbec neotvírají?",
+      "answer": "Kleistogamie",
+      "aliases": ["krytosnubnost"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Kleistogamie"]
+    },
+    {
+      "id": "nature-cs-hard-01-14",
+      "initial": "L",
+      "text": "Který složitý polymer ukládaný do buněčných stěn významně přispívá k dřevnatění rostlinných pletiv?",
+      "answer": "Lignin",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Lignin"]
+    },
+    {
+      "id": "nature-cs-hard-01-15",
+      "initial": "M",
+      "text": "Jak se nazývá vylučovací orgán například kroužkovců, jehož kanálek začíná obrvenou nálevkou otevřenou do tělní dutiny?",
+      "answer": "Metanefridie",
+      "aliases": ["metanefridium"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Metanefridie"]
+    },
+    {
+      "id": "nature-cs-hard-01-16",
+      "initial": "N",
+      "text": "Jak se nazývá zpomalení tělesného vývoje, při němž si pohlavně dospělý jedinec zachovává larvální znaky, například žábry axolotla?",
+      "answer": "Neotenie",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Neotenie"]
+    },
+    {
+      "id": "nature-cs-hard-01-17",
+      "initial": "O",
+      "text": "Jak se nazývá typ pohlavního rozmnožování, při němž velká nepohyblivá samičí gameta splývá s malou samčí gametou?",
+      "answer": "Oogamie",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Oogamy"]
+    },
+    {
+      "id": "nature-cs-hard-01-18",
+      "initial": "P",
+      "text": "Jak se nazývá druhotné krycí pletivo rostlin s vrstvou korku, felogenem a felodermem?",
+      "answer": "Periderm",
+      "aliases": ["druhotná kůra"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Periderm"]
+    },
+    {
+      "id": "nature-cs-hard-01-19",
+      "initial": "R",
+      "text": "Jak se česky nazývá střídání pohlavní a nepohlavní generace, například gametofytu a sporofytu rostlin?",
+      "answer": "Rodozměna",
+      "aliases": ["metageneze", "střídání generací"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Rodozm%C4%9Bna"]
+    },
+    {
+      "id": "nature-cs-hard-01-20",
+      "initial": "Ř",
+      "text": "Jak se nazývá krátký buněčný výběžek, jehož pohyblivá eukaryotická forma má obvykle uspořádání mikrotubulů 9 + 2?",
+      "answer": "Řasinka",
+      "aliases": ["cilie", "cilium", "brva"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Cilium"]
+    },
+    {
+      "id": "nature-cs-hard-01-21",
+      "initial": "S",
+      "text": "Jak se nazývají drobná rozmnožovací tělíska lišejníků tvořená buňkami fotobionta obalenými houbovými vlákny?",
+      "answer": "Soredie",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Soredie"]
+    },
+    {
+      "id": "nature-cs-hard-01-22",
+      "initial": "Š",
+      "text": "Jak se česky nazývá rod Isoetes, jehož rostliny mají úzké šídlovité listy a patří mezi plavuně?",
+      "answer": "Šídlatka",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Iso%C3%ABtes"]
+    },
+    {
+      "id": "nature-cs-hard-01-23",
+      "initial": "T",
+      "text": "Jak se nazývá membránový váček chloroplastu, na jehož membráně probíhají světelné reakce fotosyntézy?",
+      "answer": "Tylakoid",
+      "aliases": ["thylakoid"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Thylakoid"]
+    },
+    {
+      "id": "nature-cs-hard-01-24",
+      "initial": "U",
+      "text": "Která pyrimidinová báze v RNA se při komplementárním párování váže na adenin místo thyminu?",
+      "answer": "Uracil",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Uracil"]
+    },
+    {
+      "id": "nature-cs-hard-01-25",
+      "initial": "V",
+      "text": "Jak se nazývá vícevrstevný houbovitý kryt vzdušných kořenů mnoha epifytických orchidejí tvořený odumřelými buňkami?",
+      "answer": "Velamen",
+      "aliases": ["velamen radicum"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Velamen"]
+    },
+    {
+      "id": "nature-cs-hard-01-26",
+      "initial": "W",
+      "text": "Který rod nitrobuněčných bakterií u členovců může vyvolávat cytoplazmatickou inkompatibilitu a měnit rozmnožování hostitele?",
+      "answer": "Wolbachia",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Wolbachia"]
+    },
+    {
+      "id": "nature-cs-hard-01-27",
+      "initial": "Z",
+      "text": "Jak se nazývá pohyblivá nepohlavní výtrusná buňka vybavená bičíkem, známá například u některých řas?",
+      "answer": "Zoospora",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Zoospore"]
+    },
+    {
+      "id": "nature-cs-hard-01-28",
+      "initial": "Ž",
+      "text": "Jak se nazývá oporná struktura v hltanové oblasti ryb, na níž jsou neseny žábry?",
+      "answer": "Žaberní oblouk",
+      "aliases": [],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDabern%C3%AD%20oblouk"]
+    }
+  ]
+}

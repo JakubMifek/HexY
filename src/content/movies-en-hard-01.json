@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "movies-en-hard-01",
+  "title": "Movies and series · Hard 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-en-hard-01-01",
+      "text": "Which Tarkovsky film presents episodes in the life of a fifteenth-century Russian icon painter?",
+      "initial": "A",
+      "answer": "Andrei Rublev",
+      "language": "en",
+      "aliases": ["Andrey Rublev", "Andrey Rublyov", "Andrei Rublyov"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Andrei_Rublev_%28film%29"]
+    },
+    {
+      "id": "movies-en-hard-01-02",
+      "text": "Which Danish television drama follows the political career of Birgitte Nyborg, played by Sidse Babett Knudsen?",
+      "initial": "B",
+      "answer": "Borgen",
+      "language": "en",
+      "aliases": ["Borgen – Power & Glory", "Borgen: Power and Glory"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Borgen_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-hard-01-03",
+      "text": "What surname does Leos, the director of Holy Motors starring Denis Lavant, use?",
+      "initial": "C",
+      "answer": "Carax",
+      "language": "en",
+      "aliases": ["Leos Carax"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Holy_Motors"]
+    },
+    {
+      "id": "movies-en-hard-01-04",
+      "text": "What is the first name of the girl whose name is shortened to Sen while she works in a spirit bathhouse in Spirited Away?",
+      "initial": "CH",
+      "answer": "Chihiro",
+      "language": "en",
+      "aliases": ["Chihiro Ogino", "Ogino Chihiro"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Spirited_Away"]
+    },
+    {
+      "id": "movies-en-hard-01-05",
+      "text": "Which 2003 Lars von Trier film starring Nicole Kidman largely represents buildings through outlines marked on a stage floor?",
+      "initial": "D",
+      "answer": "Dogville",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Dogville"]
+    },
+    {
+      "id": "movies-en-hard-01-06",
+      "text": "What is the title of David Lynch's 1977 feature debut, featuring Henry Spencer and his strange infant?",
+      "initial": "E",
+      "answer": "Eraserhead",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Eraserhead"]
+    },
+    {
+      "id": "movies-en-hard-01-07",
+      "text": "What was the surname of Rainer Werner, director of the 1980 television adaptation of Berlin Alexanderplatz?",
+      "initial": "F",
+      "answer": "Fassbinder",
+      "language": "en",
+      "aliases": ["Rainer Werner Fassbinder"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz_%28miniseries%29"
+      ]
+    },
+    {
+      "id": "movies-en-hard-01-08",
+      "text": "Which Italian series first broadcast in 2014 follows the Savastano crime family in Naples?",
+      "initial": "G",
+      "answer": "Gomorrah",
+      "language": "en",
+      "aliases": ["Gomorra", "Gomorra - La serie", "Gomorra – La serie"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Gomorrah_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-hard-01-09",
+      "text": "What is the surname of Michael, director of the black-and-white film The White Ribbon?",
+      "initial": "H",
+      "answer": "Haneke",
+      "language": "en",
+      "aliases": ["Michael Haneke"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_White_Ribbon"]
+    },
+    {
+      "id": "movies-en-hard-01-10",
+      "text": "Which Paweł Pawlikowski film follows a young novice who discovers her Jewish ancestry before taking her vows?",
+      "initial": "I",
+      "answer": "Ida",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Ida_%28film%29"]
+    },
+    {
+      "id": "movies-en-hard-01-11",
+      "text": "Which 1975 Chantal Akerman film closely follows the domestic routines of a widow played by Delphine Seyrig?",
+      "initial": "J",
+      "answer": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+      "language": "en",
+      "aliases": [
+        "Jeanne Dielman",
+        "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jeanne_Dielman%2C_23_quai_du_Commerce%2C_1080_Bruxelles"
+      ]
+    },
+    {
+      "id": "movies-en-hard-01-12",
+      "text": "What is the surname of Aki, director of the 2023 Finnish film Fallen Leaves?",
+      "initial": "K",
+      "answer": "Kaurismäki",
+      "language": "en",
+      "aliases": ["Aki Kaurismäki"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Fallen_Leaves_%28film%29"]
+    },
+    {
+      "id": "movies-en-hard-01-13",
+      "text": "Which 2012 French series features dead people returning to a mountain town without having aged?",
+      "initial": "L",
+      "answer": "Les Revenants",
+      "language": "en",
+      "aliases": ["The Returned"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Returned_%28French_TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-en-hard-01-14",
+      "text": "Which 1975 Tarkovsky film presents a dying poet's memories in a nonlinear, partly autobiographical structure?",
+      "initial": "M",
+      "answer": "Mirror",
+      "language": "en",
+      "aliases": ["The Mirror", "Zerkalo"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Mirror_%281975_film%29"]
+    },
+    {
+      "id": "movies-en-hard-01-15",
+      "text": "Which 1995 anime series created by Hideaki Anno follows Shinji Ikari as a pilot for the organisation NERV?",
+      "initial": "N",
+      "answer": "Neon Genesis Evangelion",
+      "language": "en",
+      "aliases": [
+        "Evangelion",
+        "Shin Seiki Evangelion",
+        "Eva",
+        "Shin Seiki Evangerion"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion"]
+    },
+    {
+      "id": "movies-en-hard-01-16",
+      "text": "Which 1992 Sally Potter film stars Tilda Swinton as a character who lives across centuries and changes sex?",
+      "initial": "O",
+      "answer": "Orlando",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Orlando_%28film%29"]
+    },
+    {
+      "id": "movies-en-hard-01-17",
+      "text": "Which 1955 film began Satyajit Ray's Apu Trilogy?",
+      "initial": "P",
+      "answer": "Pather Panchali",
+      "language": "en",
+      "aliases": ["Song of the Little Road"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Pather_Panchali"]
+    },
+    {
+      "id": "movies-en-hard-01-18",
+      "text": "What is the surname of Nigel Kneale's fictional professor who heads the British Experimental Rocket Group in 1950s BBC science-fiction serials?",
+      "initial": "Q",
+      "answer": "Quatermass",
+      "language": "en",
+      "aliases": [
+        "Bernard Quatermass",
+        "Professor Quatermass",
+        "Professor Bernard Quatermass"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Bernard_Quatermass"]
+    },
+    {
+      "id": "movies-en-hard-01-19",
+      "text": "Which 1950 Kurosawa film offers conflicting accounts of a samurai's death and an assault on his wife?",
+      "initial": "R",
+      "answer": "Rashomon",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Rashomon"]
+    },
+    {
+      "id": "movies-en-hard-01-20",
+      "text": "Which 1972 Tarkovsky film sends psychologist Kris Kelvin to a space station above a planet with a mysterious ocean?",
+      "initial": "S",
+      "answer": "Solaris",
+      "language": "en",
+      "aliases": ["Solyaris"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Solaris_%281972_film%29"]
+    },
+    {
+      "id": "movies-en-hard-01-21",
+      "text": "Which Claude Lanzmann documentary from 1985 runs for over nine hours and examines the Holocaust through interviews and present-day locations rather than archival footage?",
+      "initial": "SH",
+      "answer": "Shoah",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Shoah_%28film%29"]
+    },
+    {
+      "id": "movies-en-hard-01-22",
+      "text": "Which 1953 Yasujirō Ozu film follows an elderly couple visiting their busy adult children in Tokyo?",
+      "initial": "T",
+      "answer": "Tokyo Story",
+      "language": "en",
+      "aliases": ["Tōkyō Monogatari"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Tokyo_Story"]
+    },
+    {
+      "id": "movies-en-hard-01-23",
+      "text": "Which 2002 Nuri Bilge Ceylan film follows Istanbul photographer Mahmut and his young relative Yusuf, who comes to stay with him?",
+      "initial": "U",
+      "answer": "Uzak",
+      "language": "en",
+      "aliases": ["Distant"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Uzak"]
+    },
+    {
+      "id": "movies-en-hard-01-24",
+      "text": "What was the surname of Agnès, director of Cléo from 5 to 7?",
+      "initial": "V",
+      "answer": "Varda",
+      "language": "en",
+      "aliases": ["Agnès Varda"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Cl%C3%A9o_from_5_to_7"]
+    },
+    {
+      "id": "movies-en-hard-01-25",
+      "text": "Which 2000 film directed by Béla Tarr and Ágnes Hranitzky brings a travelling circus with a stuffed whale to a small town?",
+      "initial": "W",
+      "answer": "Werckmeister Harmonies",
+      "language": "en",
+      "aliases": ["Werckmeister harmóniák"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Werckmeister_Harmonies"]
+    },
+    {
+      "id": "movies-en-hard-01-26",
+      "text": "What is the name of Buffy's friend played by Nicholas Brendon in Buffy the Vampire Slayer?",
+      "initial": "X",
+      "answer": "Xander Harris",
+      "language": "en",
+      "aliases": ["Xander", "Alexander Harris", "Alexander LaVelle Harris"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Xander_Harris"]
+    },
+    {
+      "id": "movies-en-hard-01-27",
+      "text": "Which 2000 Edward Yang film follows three generations of an engineer's family in Taipei?",
+      "initial": "Y",
+      "answer": "Yi Yi",
+      "language": "en",
+      "aliases": ["A One and a Two", "Yi Yi: A One and a Two"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Yi_Yi"]
+    },
+    {
+      "id": "movies-en-hard-01-28",
+      "text": "Which 2017 Lucrecia Martel film follows a magistrate at a remote Argentine outpost as he waits for a transfer?",
+      "initial": "Z",
+      "answer": "Zama",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Zama_%28film%29"]
+    }
+  ]
+}

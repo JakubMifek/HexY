@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-cs-medium-02",
+  "title": "Politika a diplomacie · Střední · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-cs-medium-02-01",
+      "text": "Jak se nazývá jednostranné připojení území jiného státu, typicky s použitím síly?",
+      "initial": "A",
+      "answer": "Anexe",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Annexation"]
+    },
+    {
+      "id": "politics-cs-medium-02-02",
+      "text": "Jak se nazývá organizované odmítání nákupu zboží nebo účasti na akci jako prostředek politického nátlaku?",
+      "initial": "B",
+      "answer": "Bojkot",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Boycott"]
+    },
+    {
+      "id": "politics-cs-medium-02-03",
+      "text": "Jak se nazývá soustřeďování rozhodovacích pravomocí z nižších úrovní do ústředního orgánu?",
+      "initial": "C",
+      "answer": "Centralizace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Centralisation"]
+    },
+    {
+      "id": "politics-cs-medium-02-04",
+      "text": "Jak se v českém parlamentním postupu nazývají jednotlivé fáze projednávání návrhu zákona, které jsou ve Sněmovně zpravidla tři?",
+      "initial": "Č",
+      "answer": "Čtení",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Parlamentní čtení", "Čtení návrhu zákona"],
+      "sources": ["https://en.wikipedia.org/wiki/Reading_(legislature)"]
+    },
+    {
+      "id": "politics-cs-medium-02-05",
+      "text": "Jak se nazývá proces, jímž kolonie získávají nezávislost na koloniální mocnosti?",
+      "initial": "D",
+      "answer": "Dekolonizace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Decolonization"]
+    },
+    {
+      "id": "politics-cs-medium-02-06",
+      "text": "Jak se nazývá skupina členských států Evropské unie, které přijaly euro za svou měnu?",
+      "initial": "E",
+      "answer": "Eurozóna",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Eurová oblast"],
+      "sources": ["https://en.wikipedia.org/wiki/Eurozone"]
+    },
+    {
+      "id": "politics-cs-medium-02-07",
+      "text": "Jak se nazývá hospodářská politika státu využívající především daně a veřejné výdaje?",
+      "initial": "F",
+      "answer": "Fiskální politika",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Rozpočtová politika"],
+      "sources": ["https://en.wikipedia.org/wiki/Fiscal_policy"]
+    },
+    {
+      "id": "politics-cs-medium-02-08",
+      "text": "Jaké označení má neformální fórum Kanady, Francie, Německa, Itálie, Japonska, Spojeného království a USA?",
+      "initial": "G",
+      "answer": "G7",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Skupina sedmi", "Group of Seven"],
+      "sources": ["https://en.wikipedia.org/wiki/G7"]
+    },
+    {
+      "id": "politics-cs-medium-02-09",
+      "text": "Jak se nazývá parlamentní hlasování, kterým může sněmovna výslovně vyslovit, že vláda již nemá její podporu?",
+      "initial": "H",
+      "answer": "Hlasování o nedůvěře",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Vyslovení nedůvěry", "Vyslovení nedůvěry vládě"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Motion_of_no_confidence",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-medium-02-10",
+      "text": "Jak se nazývalo britské hnutí 19. století spojené s Lidovou chartou, které žádalo například všeobecné volební právo pro muže?",
+      "initial": "Ch",
+      "answer": "Chartismus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chartism"]
+    },
+    {
+      "id": "politics-cs-medium-02-11",
+      "text": "Jak se nazývá americký ústavní proces, při němž Sněmovna reprezentantů vznáší obžalobu proti prezidentovi či jinému federálnímu úředníkovi?",
+      "initial": "I",
+      "answer": "Impeachment",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Ústavní obžaloba"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Impeachment_in_the_United_States",
+        "https://www.archives.gov/founding-docs/constitution-transcript"
+      ]
+    },
+    {
+      "id": "politics-cs-medium-02-12",
+      "text": "Jak se nazývá rozhodovací pravidlo vyžadující souhlas všech hlasujících, nikoli jen většiny?",
+      "initial": "J",
+      "answer": "Jednomyslnost",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Jednomyslné rozhodování"],
+      "sources": ["https://en.wikipedia.org/wiki/Unanimity"]
+    },
+    {
+      "id": "politics-cs-medium-02-13",
+      "text": "Jak se nazývá svazek suverénních států, které svěřují společným orgánům vymezené úkoly, ale zachovávají si vlastní svrchovanost?",
+      "initial": "K",
+      "answer": "Konfederace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Konfederace států"],
+      "sources": ["https://en.wikipedia.org/wiki/Confederation"]
+    },
+    {
+      "id": "politics-cs-medium-02-14",
+      "text": "Která reformní smlouva EU vstoupila v platnost 1. prosince 2009 a zavedla stálého předsedu Evropské rady?",
+      "initial": "L",
+      "answer": "Lisabonská smlouva",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Lisabonská reformní smlouva"],
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Lisbon"]
+    },
+    {
+      "id": "politics-cs-medium-02-15",
+      "text": "Jak se označuje suverénní stát tvořený převážně jediným městem a jeho bezprostředním okolím, například Singapur?",
+      "initial": "M",
+      "answer": "Městský stát",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/City-state"]
+    },
+    {
+      "id": "politics-cs-medium-02-16",
+      "text": "Jak se nazývá právní akt EU, který je závazný v celém rozsahu a přímo použitelný ve všech členských státech?",
+      "initial": "N",
+      "answer": "Nařízení",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Nařízení EU"],
+      "sources": ["https://en.wikipedia.org/wiki/Regulation_(European_Union)"]
+    },
+    {
+      "id": "politics-cs-medium-02-17",
+      "text": "Jak se v EU nazývá nástroj, jímž může alespoň milion občanů z požadovaného počtu členských zemí vyzvat Komisi k předložení návrhu?",
+      "initial": "O",
+      "answer": "Občanská iniciativa",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [
+        "Evropská občanská iniciativa",
+        "Evropská občanská iniciativa ECI"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/European_Citizens'_Initiative"]
+    },
+    {
+      "id": "politics-cs-medium-02-18",
+      "text": "Jak se nazývá politický princip připouštějící soutěž více samostatných zájmů, názorů a organizací?",
+      "initial": "P",
+      "answer": "Pluralismus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Politický pluralismus"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pluralism_(political_philosophy)"
+      ]
+    },
+    {
+      "id": "politics-cs-medium-02-19",
+      "text": "Který orgán OSN má pět stálých členů s právem veta a hlavní odpovědnost za mezinárodní mír a bezpečnost?",
+      "initial": "R",
+      "answer": "Rada bezpečnosti OSN",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Rada bezpečnosti", "RB OSN", "UNSC"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_Nations_Security_Council"
+      ]
+    },
+    {
+      "id": "politics-cs-medium-02-20",
+      "text": "Jak se souhrnně nazývají smlouvy z roku 1957, které založily Evropské hospodářské společenství a Euratom?",
+      "initial": "Ř",
+      "answer": "Římské smlouvy",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Smlouvy z Říma"],
+      "sources": ["https://en.wikipedia.org/wiki/Treaties_of_Rome"]
+    },
+    {
+      "id": "politics-cs-medium-02-21",
+      "text": "Jaký český termín označuje nejvyšší moc státu na jeho území a jeho nezávislost navenek?",
+      "initial": "S",
+      "answer": "Svrchovanost",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Suverenita", "Státní svrchovanost"],
+      "sources": ["https://en.wikipedia.org/wiki/Sovereignty"]
+    },
+    {
+      "id": "politics-cs-medium-02-22",
+      "text": "Jak se nazývá skupina důstojníků a dalších pracovníků, která pomáhá vojenskému veliteli s plánováním a řízením?",
+      "initial": "Š",
+      "answer": "Štáb",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Vojenský štáb"],
+      "sources": ["https://en.wikipedia.org/wiki/Staff_(military)"]
+    },
+    {
+      "id": "politics-cs-medium-02-23",
+      "text": "Jak se nazývá typ režimu usilující o podřízení všech oblastí veřejného i soukromého života jediné politické moci a ideologii?",
+      "initial": "T",
+      "answer": "Totalitarismus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Totalita"],
+      "sources": ["https://en.wikipedia.org/wiki/Totalitarianism"]
+    },
+    {
+      "id": "politics-cs-medium-02-24",
+      "text": "Jak se nazývá mezinárodněpolitický akt, kterým stát přijme, že určitý územní útvar má postavení samostatného státu?",
+      "initial": "U",
+      "answer": "Uznání státu",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Mezinárodní uznání", "Diplomatické uznání", "Uznání"],
+      "sources": ["https://en.wikipedia.org/wiki/Diplomatic_recognition"]
+    },
+    {
+      "id": "politics-cs-medium-02-25",
+      "text": "Jak se nazývá politické právo odevzdat ve veřejných volbách svůj hlas?",
+      "initial": "V",
+      "answer": "Volební právo",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Právo volit", "Aktivní volební právo"],
+      "sources": ["https://en.wikipedia.org/wiki/Suffrage"]
+    },
+    {
+      "id": "politics-cs-medium-02-26",
+      "text": "Jaký anglický parlamentní termín označuje stranického funkcionáře, který zajišťuje docházku poslanců a jejich hlasovací disciplínu?",
+      "initial": "W",
+      "answer": "Whip",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Stranický disciplinář"],
+      "sources": ["https://en.wikipedia.org/wiki/Whip_(politics)"]
+    },
+    {
+      "id": "politics-cs-medium-02-27",
+      "text": "Jak se označuje osoba, které jiná osoba či instituce udělila plnou moc k zastupování?",
+      "initial": "Z",
+      "answer": "Zmocněnec",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Zplnomocněnec"],
+      "sources": ["https://en.wikipedia.org/wiki/Power_of_attorney"]
+    },
+    {
+      "id": "politics-cs-medium-02-28",
+      "text": "Jak se nazývá úmluva z roku 1951, která definuje uprchlíka a stanoví zásadu jeho nevracení do nebezpečí?",
+      "initial": "Ž",
+      "answer": "Ženevská úmluva o právním postavení uprchlíků",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [
+        "Úmluva o právním postavení uprchlíků",
+        "Ženevská úmluva z roku 1951",
+        "Úmluva o postavení uprchlíků"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Convention_Relating_to_the_Status_of_Refugees"
+      ]
+    }
+  ]
+}

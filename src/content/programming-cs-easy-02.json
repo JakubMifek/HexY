@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-cs-easy-02",
+  "title": "Informatika a programování · Lehké · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-cs-easy-02-01",
+      "text": "Jak se nazývá instalace novějšího vydání programu, která může opravit chyby nebo přidat funkce?",
+      "initial": "A",
+      "answer": "Aktualizace",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Update"],
+      "sources": ["https://en.wikipedia.org/wiki/Software_update"]
+    },
+    {
+      "id": "programming-cs-easy-02-02",
+      "text": "Jak se nazývá další kopie souborů, kterou si program vytváří pro případ poškození nebo ztráty původních dat?",
+      "initial": "B",
+      "answer": "Bezpečnostní kopie",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Záloha", "Záložní kopie", "Backup"],
+      "sources": ["https://en.wikipedia.org/wiki/Backup"]
+    },
+    {
+      "id": "programming-cs-easy-02-03",
+      "text": "Která klávesová zkratka ve Windows vloží do dokumentu obsah schránky?",
+      "initial": "C",
+      "answer": "Ctrl+V",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Control+V",
+        "Ctrl + V",
+        "Control + V",
+        "Shift+Insert",
+        "Shift + Insert"
+      ],
+      "sources": [
+        "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-02-04",
+      "text": "Která funkce programu odpočítává zadanou dobu, například deset minut, a po jejím uplynutí vás upozorní?",
+      "initial": "Č",
+      "answer": "Časovač",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Odpočítávač", "Odpočet", "Timer"],
+      "sources": ["https://en.wikipedia.org/wiki/Timer"]
+    },
+    {
+      "id": "programming-cs-easy-02-05",
+      "text": "Jak se běžně nazývá celek, například dopis nebo životopis, který vytváříte a upravujete v textovém editoru?",
+      "initial": "D",
+      "answer": "Dokument",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Textový dokument"],
+      "sources": ["https://en.wikipedia.org/wiki/Electronic_document"]
+    },
+    {
+      "id": "programming-cs-easy-02-06",
+      "text": "Kterou klávesou v běžném textovém editoru začnete nový odstavec a v mnoha dialogových oknech potvrdíte volbu?",
+      "initial": "E",
+      "answer": "Enter",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Return"],
+      "sources": ["https://en.wikipedia.org/wiki/Enter_key"]
+    },
+    {
+      "id": "programming-cs-easy-02-07",
+      "text": "Jak se nazývá obrazový efekt v editoru fotografií, kterým můžete například rozostřit snímek?",
+      "initial": "F",
+      "answer": "Filtr",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Obrazový filtr", "Fotografický filtr"],
+      "sources": ["https://en.wikipedia.org/wiki/Image_editing"]
+    },
+    {
+      "id": "programming-cs-easy-02-08",
+      "text": "Jak se nazývá obrázkové znázornění dat, které v tabulkovém procesoru může mít podobu sloupců nebo výsečí kruhu?",
+      "initial": "G",
+      "answer": "Graf",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Diagram", "Datový graf", "Chart"],
+      "sources": ["https://en.wikipedia.org/wiki/Chart"]
+    },
+    {
+      "id": "programming-cs-easy-02-09",
+      "text": "Které nastavení v přehrávači zvýšíte, chcete-li slyšet přehrávaný zvuk silněji?",
+      "initial": "H",
+      "answer": "Hlasitost",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Úroveň hlasitosti", "Volume"],
+      "sources": [
+        "https://support.apple.com/guide/quicktime-player/keyboard-shortcuts-and-gestures-qtpa4808515d/mac"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-02-10",
+      "text": "Jak se nazývá oznámení programu, které vám sděluje, že se nějakou operaci nepodařilo provést?",
+      "initial": "Ch",
+      "answer": "Chybová zpráva",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Chybové hlášení", "Hlášení chyby", "Error message"],
+      "sources": ["https://en.wikipedia.org/wiki/Error_message"]
+    },
+    {
+      "id": "programming-cs-easy-02-11",
+      "text": "Jak se nazývá proces, kterým program připravíte v počítači k používání, často pomocí průvodce?",
+      "initial": "I",
+      "answer": "Instalace",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Instalování", "Nainstalování"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Installation_(computer_programs)"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-02-12",
+      "text": "Jakou zkratku má běžný formát digitálních fotografií, jehož název vychází ze slov Joint Photographic Experts Group?",
+      "initial": "J",
+      "answer": "JPEG",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["JPG"],
+      "sources": ["https://en.wikipedia.org/wiki/JPEG"]
+    },
+    {
+      "id": "programming-cs-easy-02-13",
+      "text": "Do které složky ve Windows běžně nejprve zamíří smazaný soubor, odkud ho lze před vysypáním obnovit?",
+      "initial": "K",
+      "answer": "Koš",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Odpadkový koš", "Recycle Bin"],
+      "sources": ["https://en.wikipedia.org/wiki/Recycle_Bin_(Windows)"]
+    },
+    {
+      "id": "programming-cs-easy-02-14",
+      "text": "Jak se jmenuje nástroj přístupnosti Windows, který zvětšuje obsah obrazovky a je pojmenován po optické pomůcce?",
+      "initial": "L",
+      "answer": "Lupa",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Magnifier", "Zvětšovací sklo"],
+      "sources": ["https://en.wikipedia.org/wiki/Magnifier_(Windows)"]
+    },
+    {
+      "id": "programming-cs-easy-02-15",
+      "text": "Jak se nazývá seznam příkazů programu, který se může rozbalit například po kliknutí na Soubor?",
+      "initial": "M",
+      "answer": "Menu",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Nabídka"],
+      "sources": ["https://en.wikipedia.org/wiki/Menu_(computing)"]
+    },
+    {
+      "id": "programming-cs-easy-02-16",
+      "text": "Kterou část aplikace otevřete, chcete-li změnit její chování, například zapnout oznámení nebo tmavý vzhled?",
+      "initial": "N",
+      "answer": "Nastavení",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Předvolby", "Settings", "Preferences"],
+      "sources": ["https://en.wikipedia.org/wiki/Settings_(Windows)"]
+    },
+    {
+      "id": "programming-cs-easy-02-17",
+      "text": "Jak se nazývá ukončení přihlášené relace v aplikaci, po němž další uživatel nemůže jen pokračovat pod vaším účtem?",
+      "initial": "O",
+      "answer": "Odhlášení",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Odhlásit se", "Log out", "Logout", "Sign out"],
+      "sources": ["https://en.wikipedia.org/wiki/Logout"]
+    },
+    {
+      "id": "programming-cs-easy-02-18",
+      "text": "Jakým druhem programu jsou Firefox a Safari, které používáte k otevírání webových stránek?",
+      "initial": "P",
+      "answer": "Prohlížeč",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Webový prohlížeč", "Internetový prohlížeč", "Browser"],
+      "sources": ["https://en.wikipedia.org/wiki/Web_browser"]
+    },
+    {
+      "id": "programming-cs-easy-02-19",
+      "text": "Jak se nazývá programovatelný stroj, který může například v továrně opakovaně provádět zadané pohyby?",
+      "initial": "R",
+      "answer": "Robot",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Robot"]
+    },
+    {
+      "id": "programming-cs-easy-02-20",
+      "text": "Co převádí na text program pro diktování, když uživatel mluví místo toho, aby psal na klávesnici?",
+      "initial": "Ř",
+      "answer": "Řeč",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Mluvená řeč",
+        "Mluvené slovo",
+        "Mluva",
+        "Mluvený jazyk",
+        "Hlas",
+        "Lidský hlas"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Speech_recognition"]
+    },
+    {
+      "id": "programming-cs-easy-02-21",
+      "text": "Jak se nazývá obrázek, který zachytí právě zobrazený obsah displeje, aniž ho fotografujete fotoaparátem?",
+      "initial": "S",
+      "answer": "Snímek obrazovky",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Screenshot", "Otisk obrazovky", "Snímek displeje"],
+      "sources": ["https://en.wikipedia.org/wiki/Screenshot"]
+    },
+    {
+      "id": "programming-cs-easy-02-22",
+      "text": "Jak se nazývá předem připravený dokument, ze kterého v editoru vytvoříte vlastní pozvánku či životopis doplněním a úpravou obsahu?",
+      "initial": "Š",
+      "answer": "Šablona",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Vzor", "Předloha", "Template"],
+      "sources": ["https://en.wikipedia.org/wiki/Template_(word_processing)"]
+    },
+    {
+      "id": "programming-cs-easy-02-23",
+      "text": "Jak se nazývá uspořádání dat do řádků a sloupců, které můžete vložit do dokumentu například pro přehled cen?",
+      "initial": "T",
+      "answer": "Tabulka",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Table_(information)"]
+    },
+    {
+      "id": "programming-cs-easy-02-24",
+      "text": "Jak se nazývá jméno identifikující váš účet v aplikaci, které na rozdíl od hesla nemusí být tajné?",
+      "initial": "U",
+      "answer": "Uživatelské jméno",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Přihlašovací jméno",
+        "Username",
+        "Login",
+        "Identifikátor uživatele"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/User_(computing)"]
+    },
+    {
+      "id": "programming-cs-easy-02-25",
+      "text": "Jak se nazývá škodlivý počítačový program, který se množí vkládáním svých kopií do jiných souborů nebo programů?",
+      "initial": "V",
+      "answer": "Virus",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Počítačový virus"],
+      "sources": ["https://en.wikipedia.org/wiki/Computer_virus"]
+    },
+    {
+      "id": "programming-cs-easy-02-26",
+      "text": "Který textový editor od Microsoftu běžně ukládá dokumenty ve formátu .docx?",
+      "initial": "W",
+      "answer": "Word",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Microsoft Word", "MS Word"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/basic-tasks-in-word-87b3243c-b0bf-4a29-82aa-09a681999fdc"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-02-27",
+      "text": "Jak se jmenuje archivní formát, do něhož program může zabalit více souborů a zpravidla zmenšit jejich celkovou velikost?",
+      "initial": "Z",
+      "answer": "Zip",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Formát ZIP"],
+      "sources": ["https://en.wikipedia.org/wiki/ZIP_(file_format)"]
+    },
+    {
+      "id": "programming-cs-easy-02-28",
+      "text": "Jak se nazývá přenos videa přes internet, který aplikace divákům zobrazuje v době, kdy se událost právě odehrává, nikoli z uloženého záznamu?",
+      "initial": "Ž",
+      "answer": "Živý přenos",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Živé vysílání",
+        "Přímý přenos",
+        "Livestream",
+        "Live stream",
+        "Livestreaming"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Livestreaming"]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 2,
+  "id": "games-cs-easy-01",
+  "title": "Hry · Lehké · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-cs-easy-01-01",
+      "text": "Která společenská hra kombinuje vysvětlování slov, kreslení a pantomimu při předvádění pojmů spoluhráčům?",
+      "initial": "A",
+      "answer": "Activity",
+      "language": "cs",
+      "aliases": ["Activity Original"],
+      "category": "games",
+      "sources": [
+        "https://www.zatrolene-hry.cz/spolecenska-hra/activity-original-3017/"
+      ]
+    },
+    {
+      "id": "games-cs-easy-01-02",
+      "text": "Jak se běžně nazývá úplná sada hracích karet připravená k rozdání?",
+      "initial": "B",
+      "answer": "Balíček",
+      "language": "cs",
+      "aliases": ["Balík karet", "Balíček karet", "Sada karet"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Deck_%28cards%29"]
+    },
+    {
+      "id": "games-cs-easy-01-03",
+      "text": "Ve které dětské hře hráči postupují k říkajícímu, ale při jeho otočení musí stát bez hnutí a říkanka jmenuje nápoje?",
+      "initial": "C",
+      "answer": "Cukr, káva, limonáda",
+      "language": "cs",
+      "aliases": ["Cukr, káva, limonáda, čaj, rum, bum", "Na trapery"],
+      "category": "games",
+      "sources": ["https://www.hranostaj.cz/hra121"]
+    },
+    {
+      "id": "games-cs-easy-01-04",
+      "text": "Která známá desková hra německého původu má hráče dovést čtyři figurky do domečku a vykopávat přitom soupeřovy figurky?",
+      "initial": "Č",
+      "answer": "Člověče, nezlob se!",
+      "language": "cs",
+      "aliases": [
+        "Člověče nezlob se",
+        "Člověče, nezlob se",
+        "Mensch ärgere Dich nicht"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht",
+        "https://cs.wikipedia.org/wiki/%C4%8Clov%C4%9B%C4%8De%2C_nezlob_se%21"
+      ]
+    },
+    {
+      "id": "games-cs-easy-01-05",
+      "text": "Která šachová figura spojuje možnosti pohybu věže a střelce?",
+      "initial": "D",
+      "answer": "Dáma",
+      "language": "cs",
+      "aliases": ["Královna"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Queen_%28chess%29"]
+    },
+    {
+      "id": "games-cs-easy-01-06",
+      "text": "Jak se jmenuje karta s jediným symbolem barvy uprostřed, například s jedním pikem?",
+      "initial": "E",
+      "answer": "Eso",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ace_%28playing_card%29"]
+    },
+    {
+      "id": "games-cs-easy-01-07",
+      "text": "Jak se obecně nazývá drobný předmět zastupující hráče nebo jeho jednotku na herním plánu?",
+      "initial": "F",
+      "answer": "Figurka",
+      "language": "cs",
+      "aliases": [
+        "Herní figurka",
+        "Hrací figurka",
+        "Kámen",
+        "Herní kámen",
+        "Hrací kámen",
+        "Figura"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Board_game",
+        "https://cs.wikipedia.org/wiki/%C5%A0achovnice"
+      ]
+    },
+    {
+      "id": "games-cs-easy-01-08",
+      "text": "Jak se nazývá obouruční zařízení s tlačítky a často i analogovými páčkami, kterým zadáváte pokyny zejména konzolovým videohrám?",
+      "initial": "G",
+      "answer": "Gamepad",
+      "language": "cs",
+      "aliases": ["Herní ovladač", "Ovladač", "Game pad"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Gamepad"]
+    },
+    {
+      "id": "games-cs-easy-01-09",
+      "text": "Která desková hra posouvá figurku na vyšší políčka po příčkách, ale po plazech ji vrací dolů?",
+      "initial": "H",
+      "answer": "Hadi a žebříky",
+      "language": "cs",
+      "aliases": ["Žebříky a hadi", "Snakes and Ladders", "Chutes and Ladders"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Snakes_and_ladders"]
+    },
+    {
+      "id": "games-cs-easy-01-10",
+      "text": "Která česká dětská hra v kruhu spojuje říkanku s obcházením sedících dětí a následným honěním vybraného hráče?",
+      "initial": "Ch",
+      "answer": "Chodí pešek okolo",
+      "language": "cs",
+      "aliases": ["Pešek"],
+      "category": "games",
+      "sources": ["https://cs.wikipedia.org/wiki/Chod%C3%AD_pe%C5%A1ek_okolo"]
+    },
+    {
+      "id": "games-cs-easy-01-11",
+      "text": "Jak se ve videohrách obvykle nazývá zásoba nebo obrazovka předmětů, které postava nosí u sebe?",
+      "initial": "I",
+      "answer": "Inventář",
+      "language": "cs",
+      "aliases": ["Inventory"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Inventory_%28video_games%29"]
+    },
+    {
+      "id": "games-cs-easy-01-12",
+      "text": "Ve které hře hráči vytahují dřevěné hranolky z věže a pokládají je nahoru, aniž by věž spadla?",
+      "initial": "J",
+      "answer": "Jenga",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Jenga"]
+    },
+    {
+      "id": "games-cs-easy-01-13",
+      "text": "Jak se nazývá malý herní předmět, jehož hod běžně určuje počet kroků figurky?",
+      "initial": "K",
+      "answer": "Kostka",
+      "language": "cs",
+      "aliases": ["Hrací kostka"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dice"]
+    },
+    {
+      "id": "games-cs-easy-01-14",
+      "text": "Která značka stavebnice propůjčila své kostky a minifigurky videohrám se světy Star Wars, Harryho Pottera či Batmana?",
+      "initial": "L",
+      "answer": "Lego",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Lego_video_games"]
+    },
+    {
+      "id": "games-cs-easy-01-15",
+      "text": "Ve které deskové hře kupujete ulice, vybíráte nájemné a stavíte domy a hotely?",
+      "initial": "M",
+      "answer": "Monopoly",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Monopoly_%28game%29"]
+    },
+    {
+      "id": "games-cs-easy-01-16",
+      "text": "Která japonská firma vyrábí konzole Switch a vydává hry se Super Mariem?",
+      "initial": "N",
+      "answer": "Nintendo",
+      "language": "cs",
+      "aliases": ["Nintendo Co., Ltd."],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo"]
+    },
+    {
+      "id": "games-cs-easy-01-17",
+      "text": "Která desková hra spočívá v obklíčení a obracení soupeřových dvoubarevných kamenů?",
+      "initial": "O",
+      "answer": "Othello",
+      "language": "cs",
+      "aliases": ["Reversi"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Reversi"]
+    },
+    {
+      "id": "games-cs-easy-01-18",
+      "text": "Ve které paměťové hře hledáte dvojice stejných obrázků mezi kartičkami otočenými lícem dolů?",
+      "initial": "P",
+      "answer": "Pexeso",
+      "language": "cs",
+      "aliases": [
+        "Memory",
+        "Pairs",
+        "Concentration",
+        "Concentration Memory Game"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Concentration_%28card_game%29",
+        "https://cs.wikipedia.org/wiki/Pexeso"
+      ]
+    },
+    {
+      "id": "games-cs-easy-01-19",
+      "text": "Která online herní platforma s uživatelsky vytvářenými hrami používá virtuální měnu Robux?",
+      "initial": "R",
+      "answer": "Roblox",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Roblox"]
+    },
+    {
+      "id": "games-cs-easy-01-20",
+      "text": "Jak se v šachové terminologii nazývá vodorovná skupina osmi polí šachovnice, na rozdíl od svislého sloupce?",
+      "initial": "Ř",
+      "answer": "Řada",
+      "language": "cs",
+      "aliases": ["Řádek"],
+      "category": "games",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0achovnice"]
+    },
+    {
+      "id": "games-cs-easy-01-21",
+      "text": "Ve které deskové hře sestavujete křížící se slova z písmenkových kamenů s bodovými hodnotami?",
+      "initial": "S",
+      "answer": "Scrabble",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Scrabble"]
+    },
+    {
+      "id": "games-cs-easy-01-22",
+      "text": "Jak se nazývá čtvercový herní plán pro šachy, tvořený osmi krát osmi střídavě světlými a tmavými poli?",
+      "initial": "Š",
+      "answer": "Šachovnice",
+      "language": "cs",
+      "aliases": ["Šachová deska"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Chessboard"]
+    },
+    {
+      "id": "games-cs-easy-01-23",
+      "text": "Která hra s padajícími dílky odstraňuje zcela zaplněné vodorovné řádky?",
+      "initial": "T",
+      "answer": "Tetris",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Tetris"]
+    },
+    {
+      "id": "games-cs-easy-01-24",
+      "text": "Která karetní hra proslula povinností zvolat svůj název při odložení předposlední karty?",
+      "initial": "U",
+      "answer": "Uno",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Uno_%28card_game%29"]
+    },
+    {
+      "id": "games-cs-easy-01-25",
+      "text": "Která šachová figura se pohybuje po volných polích vodorovně nebo svisle, nikoli však šikmo?",
+      "initial": "V",
+      "answer": "Věž",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Rook_%28chess%29"]
+    },
+    {
+      "id": "games-cs-easy-01-26",
+      "text": "Která domácí konzole Nintenda vydaná v roce 2006 je známá ovladačem snímajícím pohyby ruky?",
+      "initial": "W",
+      "answer": "Wii",
+      "language": "cs",
+      "aliases": ["Nintendo Wii"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wii"]
+    },
+    {
+      "id": "games-cs-easy-01-27",
+      "text": "Do kterého herního žánru patří série Gran Turismo a Need for Speed, v nichž jde především o rychlou jízdu?",
+      "initial": "Z",
+      "answer": "Závodní hra",
+      "language": "cs",
+      "aliases": ["Závodní videohra", "Závodní hry", "Závodní", "Racing game"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Racing_video_game"]
+    },
+    {
+      "id": "games-cs-easy-01-28",
+      "text": "Jak se nazývá kotouček používaný místo peněz při sázení v pokeru?",
+      "initial": "Ž",
+      "answer": "Žeton",
+      "language": "cs",
+      "aliases": [
+        "Hrací žeton",
+        "Herní žeton",
+        "Pokerový žeton",
+        "Chip",
+        "Poker chip",
+        "Casino chip",
+        "Gaming token",
+        "Check",
+        "Cheque",
+        "Čip",
+        "Pokerový čip",
+        "Herní čip"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Casino_chip"]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "movies-cs-easy-02",
+  "title": "Filmy a seriály · Lehká 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-cs-easy-02-01",
+      "text": "Který hrdina Disneyho animovaného filmu z roku 1992 získá kouzelnou lampu s džinem?",
+      "answer": "Aladin",
+      "language": "cs",
+      "aliases": ["Aladdin"],
+      "category": "movies",
+      "initial": "A",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Aladin_(film,_1992)",
+        "https://en.wikipedia.org/wiki/Aladdin_%281992_Disney_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-02",
+      "text": "Jak se jmenují dva kreslení králíci, kteří v českém večerníčku bydlí v kouzelnickém klobouku?",
+      "answer": "Bob a Bobek",
+      "language": "cs",
+      "aliases": [
+        "Bob a Bobek – králíci z klobouku",
+        "Bob a Bobek - králíci z klobouku"
+      ],
+      "category": "movies",
+      "initial": "B",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Bob_a_Bobek_%E2%80%93_kr%C3%A1l%C3%ADci_z_klobouku"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-03",
+      "text": "Ve kterém českém sitcomu provozuje Tomáš Pacovský obchod s hudbou a vystupuje jeho bratr Ozzák?",
+      "answer": "Comeback",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "C",
+      "sources": ["https://cs.wikipedia.org/wiki/Comeback_(seri%C3%A1l)"]
+    },
+    {
+      "id": "movies-cs-easy-02-04",
+      "text": "Ve kterém britském sci-fi sitcomu cestují vesmírem Lister, Rimmer, Kocour a Kryton?",
+      "answer": "Červený trpaslík",
+      "language": "cs",
+      "aliases": ["Red Dwarf"],
+      "category": "movies",
+      "initial": "Č",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cerven%C3%BD_trpasl%C3%ADk_(seri%C3%A1l)"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-05",
+      "text": "Který americký lékařský seriál s Hughem Lauriem sleduje tým diagnostického oddělení nemocnice Princeton-Plainsboro?",
+      "answer": "Dr. House",
+      "language": "cs",
+      "aliases": [
+        "Doktor House",
+        "House",
+        "House, M.D.",
+        "House M.D.",
+        "House MD"
+      ],
+      "category": "movies",
+      "initial": "D",
+      "sources": ["https://cs.wikipedia.org/wiki/Dr._House"]
+    },
+    {
+      "id": "movies-cs-easy-02-06",
+      "text": "Jak se jmenuje chlapec, který se ve Spielbergově filmu E. T. – Mimozemšťan spřátelí s návštěvníkem z vesmíru?",
+      "answer": "Elliott",
+      "language": "cs",
+      "aliases": ["Elliot"],
+      "category": "movies",
+      "initial": "E",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/E.T._%E2%80%93_Mimozem%C5%A1%C5%A5an"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-07",
+      "text": "Jak se jmenuje princezna, která se v prvním Shrekovi z roku 2001 každou noc mění ve zlobřici?",
+      "answer": "Fiona",
+      "language": "cs",
+      "aliases": ["Princezna Fiona", "Princess Fiona"],
+      "category": "movies",
+      "initial": "F",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Princess_Fiona",
+        "https://cs.wikipedia.org/wiki/Shrek"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-08",
+      "text": "Která hororová komedie Joea Danteho z roku 1984 sleduje Billyho Peltzera a tvorečka jménem Gizmo?",
+      "answer": "Gremlins",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "G",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gremlins",
+        "https://www.themoviedb.org/movie/927?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-09",
+      "text": "Kterého titulního filmového kouzelníka hrál Daniel Radcliffe?",
+      "answer": "Harry Potter",
+      "language": "cs",
+      "aliases": ["Harry"],
+      "category": "movies",
+      "initial": "H",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Harry_Potter_(filmov%C3%A1_s%C3%A9rie)"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-10",
+      "text": "Ve kterém sitcomu hraje Fran Drescherová chůvu Fran Fineovou v rodině producenta Sheffielda?",
+      "answer": "Chůva k pohledání",
+      "language": "cs",
+      "aliases": ["The Nanny", "Nanny"],
+      "category": "movies",
+      "initial": "Ch",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ch%C5%AFva_k_pohled%C3%A1n%C3%AD"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-11",
+      "text": "Jak se v českém znění filmové pohádky Mrazík jmenuje mladík, kterému medvědí hlava připomene jeho pýchu?",
+      "answer": "Ivánek",
+      "language": "cs",
+      "aliases": ["Ivan"],
+      "category": "movies",
+      "initial": "I",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Mraz%C3%ADk",
+        "https://www.sedesatka.cz/rubriky/kultura/legendarni-pohadka-mrazik-postavy-herci-a-tv-program_2324.html"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-12",
+      "text": "Ve kterém animovaném filmu z roku 2010 se mladý Viking Škyťák spřátelí s Bezzubkou?",
+      "answer": "Jak vycvičit draka",
+      "language": "cs",
+      "aliases": ["How to Train Your Dragon"],
+      "category": "movies",
+      "initial": "J",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Jak_vycvi%C4%8Dit_draka_(film)"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-13",
+      "text": "Jak se jmenuje lemur, který v animovaném filmu Madagaskar vede ostatní lemury jako jejich král?",
+      "answer": "Král Jelimán",
+      "language": "cs",
+      "aliases": [
+        "Jelimán",
+        "King Julien",
+        "Julien",
+        "King Julien XIII",
+        "Julien XIII"
+      ],
+      "category": "movies",
+      "initial": "K",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Madagaskar_(film)",
+        "https://en.wikipedia.org/wiki/Madagascar_%282005_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-14",
+      "text": "Který britský vánoční film z roku 2003 propojuje milostné příběhy včetně příběhu premiéra hraného Hughem Grantem?",
+      "answer": "Láska nebeská",
+      "language": "cs",
+      "aliases": ["Love Actually"],
+      "category": "movies",
+      "initial": "L",
+      "sources": ["https://cs.wikipedia.org/wiki/L%C3%A1ska_nebesk%C3%A1"]
+    },
+    {
+      "id": "movies-cs-easy-02-15",
+      "text": "Který animovaný film z roku 2005 pošle lva Alexe, zebru Martyho, hrošici Glorii a žirafu Melmana z newyorské zoo na ostrov?",
+      "answer": "Madagaskar",
+      "language": "cs",
+      "aliases": ["Madagascar"],
+      "category": "movies",
+      "initial": "M",
+      "sources": ["https://cs.wikipedia.org/wiki/Madagaskar_(film)"]
+    },
+    {
+      "id": "movies-cs-easy-02-16",
+      "text": "Ve kterém filmu z roku 1985 cestuje Marty McFly strojem času zabudovaným v automobilu DeLorean?",
+      "answer": "Návrat do budoucnosti",
+      "language": "cs",
+      "aliases": ["Back to the Future"],
+      "category": "movies",
+      "initial": "N",
+      "sources": ["https://cs.wikipedia.org/wiki/N%C3%A1vrat_do_budoucnosti"]
+    },
+    {
+      "id": "movies-cs-easy-02-17",
+      "text": "Jak se jmenuje Shrekův upovídaný čtyřnohý společník?",
+      "answer": "Oslík",
+      "language": "cs",
+      "aliases": ["Donkey"],
+      "category": "movies",
+      "initial": "O",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Donkey_%28Shrek%29",
+        "https://cs.wikipedia.org/wiki/Shrek"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-18",
+      "text": "Která dvojice animovaných kutilů řeší domácí potíže po svém a obvykle nadělá další škody?",
+      "answer": "Pat a Mat",
+      "language": "cs",
+      "aliases": ["Pat & Mat"],
+      "category": "movies",
+      "initial": "P",
+      "sources": ["https://cs.wikipedia.org/wiki/Pat_a_Mat"]
+    },
+    {
+      "id": "movies-cs-easy-02-19",
+      "text": "Jak se jmenuje zelený skřítek z večerníčků, který žije u rybníka Brčálníku?",
+      "answer": "Rákosníček",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "R",
+      "sources": ["https://cs.wikipedia.org/wiki/R%C3%A1kosn%C3%AD%C4%8Dek"]
+    },
+    {
+      "id": "movies-cs-easy-02-20",
+      "text": "Který film s Jessicou Tandyovou a Morganem Freemanem vypráví o vztahu židovské dámy a jejího řidiče v Atlantě?",
+      "answer": "Řidič slečny Daisy",
+      "language": "cs",
+      "aliases": ["Driving Miss Daisy"],
+      "category": "movies",
+      "initial": "Ř",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98idi%C4%8D_sle%C4%8Dny_Daisy",
+        "https://en.wikipedia.org/wiki/Driving_Miss_Daisy"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-21",
+      "text": "Jak se jmenuje první celovečerní animovaný film Disneyho, uvedený v roce 1937?",
+      "answer": "Sněhurka a sedm trpaslíků",
+      "language": "cs",
+      "aliases": ["Snow White and the Seven Dwarfs"],
+      "category": "movies",
+      "initial": "S",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Sn%C4%9Bhurka_a_sedm_trpasl%C3%ADk%C5%AF"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-22",
+      "text": "Který Disneyho animovaný film z roku 1959 vypráví o princezně prokleté zlou vílou Zlobou?",
+      "answer": "Šípková Růženka",
+      "language": "cs",
+      "aliases": ["Sleeping Beauty"],
+      "category": "movies",
+      "initial": "Š",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0%C3%ADpkov%C3%A1_R%C5%AF%C5%BEenka_(film,_1959)"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-23",
+      "text": "Jak se jmenuje animovaná dvojice tvořená kocourem a myšákem, kteří se neustále honí?",
+      "answer": "Tom a Jerry",
+      "language": "cs",
+      "aliases": ["Tom & Jerry", "Tom and Jerry"],
+      "category": "movies",
+      "initial": "T",
+      "sources": ["https://cs.wikipedia.org/wiki/Tom_a_Jerry"]
+    },
+    {
+      "id": "movies-cs-easy-02-24",
+      "text": "Ve kterém loutkovém filmu z roku 1993 chce Jack Skellington z města Halloweenu převzít Vánoce?",
+      "answer": "Ukradené Vánoce",
+      "language": "cs",
+      "aliases": [
+        "The Nightmare Before Christmas",
+        "Nightmare Before Christmas",
+        "Předvánoční noční můra",
+        "Tim Burton's The Nightmare Before Christmas",
+        "Tim Burton’s The Nightmare Before Christmas"
+      ],
+      "category": "movies",
+      "initial": "U",
+      "sources": ["https://cs.wikipedia.org/wiki/Ukraden%C3%A9_V%C3%A1noce"]
+    },
+    {
+      "id": "movies-cs-easy-02-25",
+      "text": "Jak se jmenuje tradiční český televizní pořad pohádek, jehož znělka ukazuje chlapce s papírovou čepicí?",
+      "answer": "Večerníček",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "V",
+      "sources": ["https://cs.wikipedia.org/wiki/Ve%C4%8Dern%C3%AD%C4%8Dek"]
+    },
+    {
+      "id": "movies-cs-easy-02-26",
+      "text": "Který film z roku 2023 s Timothée Chalametem sleduje začátky mladého výrobce čokolády?",
+      "answer": "Wonka",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "W",
+      "sources": ["https://cs.wikipedia.org/wiki/Wonka_(film)"]
+    },
+    {
+      "id": "movies-cs-easy-02-27",
+      "text": "Který přírodopisný cyklus BBC z roku 2006 s vyprávěním Davida Attenborougha představuje různé biotopy Země?",
+      "answer": "Zázračná planeta",
+      "language": "cs",
+      "aliases": ["Planet Earth", "Planeta Země"],
+      "category": "movies",
+      "initial": "Z",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Z%C3%A1zra%C4%8Dn%C3%A1_planeta"
+      ]
+    },
+    {
+      "id": "movies-cs-easy-02-28",
+      "text": "Který československý seriál s Jiřinou Švorcovou sleduje prodavačku Annu Holubovou?",
+      "answer": "Žena za pultem",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "Ž",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDena_za_pultem"]
+    }
+  ]
+}

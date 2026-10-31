@@ -15,6 +15,7 @@ test.each(/** @type {const} */ (['cs', 'en']))(
       'javascript:alert(1)',
       'https://example.org/?x=<script>alert(1)</script>&y="test"',
     ];
+    fixed.questions[0].category = '<img src=x onerror="alert(1)"> & private';
     const generated = generateNumbers(
       [fixed],
       language,
@@ -49,6 +50,7 @@ test.each(/** @type {const} */ (['cs', 'en']))(
       ).toHaveLength(0);
       expect(doc.body.textContent).toContain(pack.license);
       expect(doc.body.textContent).toContain(pack.authors[0]);
+      expect(doc.body.textContent).toContain(fixed.questions[0].category);
       if (pack.mode === 'numbers')
         expect(doc.querySelector('ul')?.textContent).toContain(fixed.id);
     }

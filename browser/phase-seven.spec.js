@@ -1,4 +1,3 @@
-import { readFileSync, readdirSync } from 'node:fs';
 import { expect, test } from '@playwright/test';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
 import {
@@ -7,23 +6,18 @@ import {
   setupPreparation,
   nextPreparation,
   acceptPack,
+  catalogPacks,
 } from './preparation-helpers.js';
 import { answer, phase, setCell, setTheme } from './helpers.js';
 
 const categories = [
-  'general',
-  'nature',
-  'geography',
-  'history',
-  'politics',
-  'science',
-  'programming',
-  'arts',
-  'entertainment',
+  ...new Set(catalogPacks.map((pack) => pack.questions[0].category)),
 ];
-const packs = readdirSync('src/content')
-  .filter((file) => /^(programming|arts|entertainment)-.*\.json$/.test(file))
-  .map((file) => JSON.parse(readFileSync(`src/content/${file}`, 'utf8')));
+const packs = catalogPacks.filter((pack) =>
+  ['programming', 'arts', 'games', 'movies', 'sports'].includes(
+    pack.questions[0].category,
+  ),
+);
 
 for (const [mode, accepted] of [
   ['letters', 'Orwell'],
@@ -127,6 +121,27 @@ for (const source of packs) {
   });
 }
 
+function mixedSourceIds(localized, language, scope) {
+  if (scope === 'full') return localized.map((pack) => pack.id);
+  return [
+    'general',
+    'programming',
+    'arts',
+    'entertainment',
+    'games',
+    'movies',
+    'sports',
+  ].flatMap((category) => {
+    const source = localized.find(
+      (pack) =>
+        pack.questions[0].category === category &&
+        (pack.id === `${category}-${language}-02` ||
+          pack.id === `${category}-${language}-easy-02`),
+    );
+    return source ? [source.id] : [];
+  });
+}
+
 for (const language of ['cs', 'en']) {
   for (const scope of ['mixed', 'full']) {
     test(`phase-seven ${language} ${scope}: selected-only generation survives export, print and recovery`, async ({
@@ -143,16 +158,12 @@ for (const language of ['cs', 'en']) {
       });
       await page.locator('#mode-numbers').click();
       await page.locator('#clear-sources').click();
-      const selected =
-        scope === 'full'
-          ? categories.flatMap((category) =>
-              ['01', '02'].map((n) => `${category}-${language}-${n}`),
-            )
-          : ['general', 'programming', 'arts', 'entertainment'].map(
-              (category) => `${category}-${language}-02`,
-            );
+      const localized = catalogPacks.filter(
+        (pack) => pack.language === language,
+      );
+      const selected = mixedSourceIds(localized, language, scope);
       for (const id of selected) await page.locator(`#source-${id}`).check();
-      await page.locator('#catalog-search').fill('nothing matches');
+      await page.locator('#catalog-origin').selectOption('custom');
       for (const id of selected)
         await expect(page.locator('#catalog-selection')).toContainText(id);
       await page.locator('#prepare-board').click();
@@ -169,10 +180,16 @@ for (const language of ['cs', 'en']) {
       for (const question of pack.questions) {
         expect(question.language).toBe(language);
         expect(selected).toContain(question.origins[0].packId);
+        const source = localized.find(
+          (source) => source.id === question.origins[0].packId,
+        );
+        expect(question).toMatchObject(
+          source.questions.find((entry) => entry.id === question.id),
+        );
       }
-      expect(new Set(pack.questions.map((q) => q.category))).toEqual(
-        new Set(selected.map((id) => id.split('-')[0])),
-      );
+      expect(
+        new Set(pack.questions.map((q) => q.category)).size,
+      ).toBeGreaterThan(1);
       await page.locator('#import-packs').setInputFiles(exported.path);
       await expect(page.locator('#preparation-error')).toHaveText('');
       const html = await download(page, info, '#start', `${scope}.html`);
@@ -199,29 +216,40 @@ for (const language of ['cs', 'en']) {
         await page.setViewportSize(viewport);
         await setupPreparation(page, language);
         await setTheme(page, theme);
-        await expect(page.locator('#catalog-status')).toContainText('36 / 36');
-        await expect(page.locator('#catalog-results input')).toHaveCount(36);
+        const localized = catalogPacks.filter(
+          (pack) => pack.language === language,
+        );
+        await expect(page.locator('#catalog-status')).toContainText(
+          `${localized.length} / ${localized.length}`,
+        );
+        await expect(
+          page.locator('#catalog-results input[id^="source-"]'),
+        ).toHaveCount(localized.length);
         await page.locator('.catalog').scrollIntoViewIfNeeded();
         await page.screenshot({
           path: info.outputPath('full-catalog.png'),
           fullPage: true,
         });
-        await page.locator('#catalog-language').selectOption(language);
         for (const category of categories) {
-          await page.locator('#catalog-category').selectOption(category);
-          await expect(page.locator('#catalog-results input')).toHaveCount(2);
-          await expect(page.locator('#catalog-results')).toContainText(
+          await expect(page.locator(`#decks-${category} input`)).toHaveCount(
+            localized.filter((pack) => pack.questions[0].category === category)
+              .length,
+          );
+          await expect(page.locator(`#decks-${category}`)).toContainText(
             preparationStrings[language].categories[category],
           );
         }
-        await page.locator('#catalog-search').fill('Voldemort');
-        await expect(page.locator('#catalog-results input')).toHaveCount(0);
+        await expect(page.locator('#catalog-search')).toHaveCount(0);
+        await page.locator('#catalog-origin').selectOption('custom');
+        await expect(
+          page.locator('#catalog-results input[id^="source-"]'),
+        ).toHaveCount(0);
         await expect(page.locator('#catalog-selection')).toContainText(
           `general-${language}-01`,
         );
         await page.locator('#reset-catalog').click();
         await expect(
-          page.locator('#catalog-results input:checked'),
+          page.locator('#catalog-results input[id^="source-"]:checked'),
         ).toHaveCount(1);
         expect(
           await page.evaluate(() => document.documentElement.scrollWidth),

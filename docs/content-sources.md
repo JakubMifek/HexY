@@ -8,6 +8,327 @@ correction re-review**. The original finding, correction and clearance are recor
 in [the phase-7 review](../reviews/phase-07.md).
 Hashes identify exact JSON bytes; they are not evidence of factual truth.
 
+## Phase-11 bounded General knowledge addition — independently accepted
+
+The historical 36-pack / 1,008-entry ledger below remains a separate inherited
+scope, including its current schema/difficulty hashes and Nature correction.
+The eight new General decks / 224 entries have a separate, complete
+[per-entry receipt ledger](phase-11-general-sources.json). It records exact
+question claims, answers, aliases, initials, shipped URLs, retrieved source
+passages, actual 2026-10-30 fetch timestamps, extracted-source hashes and all
+eight final pack hashes. Every new entry was developer-inspected, including
+qualifying clauses. The independent reviewer individually examined all 224
+canonical facts and accepted all eight difficulty assignments. Six standard
+alias omissions (P11-GR1) and two word-count inconsistencies (P11-GR2) have
+corrections independently accepted in
+`.artifacts/phase11-general-correction-independent-report.md`; the other 216 new
+entries remain unchanged. All 224 General entries and eight difficulty assignments
+are accepted. This is not a completed phase-11 library or clearance.
+The corrected ledger binds the six naming passages to original cached bodies
+and timestamps. Its ÚJČ numizmatika corroboration is explicitly attributed to
+the reviewer's actual retrieval, not a new developer fetch or invented receipt.
+
+Reference coverage uses public encyclopedic secondary references, as in the
+inherited library, supplemented by ECB, IFAB, NIST, NASA, NIDDK/NIH, MedlinePlus,
+Stanford Encyclopedia of Philosophy, St Andrews university mathematical history
+and Charles University teaching material.
+The university PDF explicitly supports Czech _fylotaxe_; its receipt includes
+both source-file and decoded-text hashes. General is deliberately cross-topic,
+not an additional Music category. Wording is newly authored, not copied quiz
+material. Source passages are brief attributed evidence excerpts, not pack text.
+
+Failed/empty lookups were not accepted as factual evidence: initial empty
+template extraction, nonexistent Czech article slugs, unavailable Britannica/RSC,
+CERN's old path and unsuccessful ÚJČ headword searches were excluded or replaced.
+The Czech saffron page's conflicting stigma/style wording was replaced by the
+inspected English botanical description; the exact shipped clue asks for the
+spice from the dried stigmas of _Crocus sativus_. A generic chaconne definition
+was sharpened to Bach BWV 1004's final movement, avoiding passacaglia ambiguity.
+The Inkunábule clue no longer supplies its accepted synonym.
+
+Current integrated candidate:132 catalog decks /3,696 entries, eleven categories
+with exact12/336 quotas and two decks per language/difficulty. All2,800 added
+entries and all whole-deck ratings are independently accepted after correction
+rechecks; final phase integration/review/post-review gates remain pending.
+Four historical Entertainment packs /112 entries are archived byte-for-byte,
+not bundled or counted. Historical reviews/manifests are not rewritten.
+
+The owner17:15 broadened Computing and Programming / Informatika a programování
+under stable `programming` IDs, unchanged general-adult difficulty. Four inherited
+pack titles alone follow that explicit metadata change; exact before/after
+hashes and unchanged question hashes are in
+[metadata continuity](phase-11-computing-metadata.json). Prior source evidence
+and forty accepted factual judgments are retained; all72 historical category
+findings were independently reassessed and resolved, not automatically accepted.
+
+## Final phase-11 Computing, Games, Movies/Series and Sports integration
+
+The [Computing ledger](phase-11-programming-sources.json) binds224 additions;
+[Games](phase-11-games-sources.json), [Movies](phase-11-movies-sources.json) and
+[Sports](phase-11-sports-sources.json) each bind336. Every entry received initial
+independent factual/native-language/alias/source review and every new whole deck
+received an adult-difficulty judgment. Same-reviewer corrections preserve exact
+unaffected whole questions AND supporting evidence/cache/metadata, not passage
+hashes alone. Final Computing's sourced Octocat predicate distinguishes GitHub
+from GitLab. Final Games adds two standard finite aliases; final Movies adds
+six finite forms across four entries; Sports fixes the Czech skating event name.
+Full historical findings and independent outcomes remain in
+`reviews/phase-11.md` and the immutable continuation review bundles.
+
+Shared canonical/alias terms are nominations, not automatic duplicates or
+waivers. Distinct people, titled works, cities' different predicates and technical
+senses retain explicit independent judgments; integration tests enumerate exact
+canonical ID groups. Fresh combined accepted/STAGED/uncompleted cross-phase
+semantic comparison remains a final gate, not a claim from lexical zero.
+
+The [Entertainment retirement receipt](phase-11-entertainment-retirement.json)
+binds all four unchanged archive hashes and explicit migration relationships.
+The [Movies mapping](phase-11-movies-retirement.json) is formatting-only relative
+to its accepted complete object; original and formatted fingerprints are both
+recorded. Old packs contribute zero final quota. Their112 historical factual
+receipts below remain available, including four unmapped Czech scope/year cases.
+Compatible existing saves embed the complete pack and require no catalog row.
+
+## Phase-11 Arts addition — independently accepted after corrections
+
+The [Arts ledger](phase-11-arts-sources.json) binds all224 exact reviewed
+claims, complete source evidence and eight final pack hashes. SHA256:
+`59d581f50c4e04c8a8490609e2648c0f8c281d9a887c0a6cca91bf4552db173b`.
+Final b01-v2/b02-v2/b03-v2 passed all-entry initial reviews and narrow correction
+rechecks by independent reviewers61496f0d/475b2865/561e3541, all eight adult
+ratings retained. Qualifier/alias/disclosure corrections preserve useful accepted
+forms; Juliet's age/only-daughter fact is independently distinguished from
+Romeo's relationship, and Greek/Chinese clue language no longer excludes accepted
+aliases. Original reports, caches and exact question/evidence continuity remain
+under continuation bundles/reviews/p11/arts; final phase review is outstanding.
+
+## Phase-11 Politics addition — independently accepted after corrections
+
+The [Politics ledger](phase-11-politics-sources.json) binds all 224 exact reviewed
+entries/evidence objects and eight final pack hashes. SHA-256:
+`b65e5e6b203b9231fa956d3db1de191206e3e8192d64385a6ea2a58a0b76c7ca`.
+Final batches b01-v4, b02-v5 and b03-v4 passed complete initial reviews, narrow
+content corrections and mechanical formatting-continuity rechecks by independent
+reviewers `78253e12-7f09-4da6-a979-e304b6cda74b`,
+`092a0c1e-3df5-468a-937b-e64bbfc37369` and
+`4f1df5ed-3cbc-46ab-9c7a-e32485901379`. All eight adult ratings are retained.
+Earlier ten disclosure/normalized-alias repairs and fifteen subsequent affected
+entry corrections remain incorporated; all historical snapshots are preserved.
+
+Corrections distinguish republics from elective monarchies, disputed Khan
+etymology from actual usage, member names from organization names, and proper
+nickname/title scope. Finite standard forms are admitted without fuzzy matching.
+The neutral-state evidence record now binds actual substantive context and
+Swiss FDFA corroboration, not navigation boilerplate. Source quality is labeled
+honestly: secondary encyclopedic bodies and actual relevant constitutional,
+governmental, parliamentary, diplomatic and archival references, not institutional
+endorsement of the quiz or universal primary-source verification.
+All factual judgments and whole evidence-entry objects survive the final
+format-only versions unchanged; only pack-byte hashes were refreshed.
+Full reports/receipts are in
+`.artifacts/continuation/bundles/reviews/p11/politics/`.
+
+## Phase-11 Science addition — independently accepted after corrections
+
+The [Science ledger](phase-11-science-sources.json) binds all 224 additions,
+their unchanged reviewed entry/evidence objects and exact final pack hashes.
+Ledger SHA-256:
+`72d14967cfc1d65ad15622270a94c52fd561172a7e49d406eb657bdb0b5bcf5a`.
+It combines b01-v3, b02-v4 and b03-v4, independently cleared by reviewers
+`e1804a34-18e0-4d42-a3f4-66fdd67c9fdc`,
+`bc9b11da-ff02-4012-848d-cf7ba617aa6a` and
+`405f9d89-16e6-4cff-99b7-052c8ed6999b`, respectively.
+Each initial entry and all eight difficulty judgments were reviewed; eight
+changed entries received fresh correction judgments, with 216 exact unchanged
+question/evidence continuities. Barcode and Yarn repeated facts were replaced
+in Science only; Programming and Arts remain unchanged. Raman now specifies
+molecular vibrational/rotational transitions. Finite accepted forms for hot-dip
+galvanizing, quicklime, kilowatt-hour and shunt were corrected without global
+matcher changes. Two literal disclosures were repaired through clue wording.
+The final versions correct repository formatting only; all 224 questions,
+entire evidence-entry objects, difficulty metadata and cache bytes retain exact
+continuity with the previously cleared factual versions. The same reviewers
+verified those mechanical new-byte/hash deltas without repeating factual review.
+
+Actual cached sources are predominantly secondary encyclopedic references;
+NASA, NIST, DOE and Charles University evidence is labeled by its real role.
+Eurometal is a commercial process operator corroborating Czech galvanizing
+nomenclature, not an institutional standards authority. Correction extracts reuse
+original actual cache bytes/dates; no refetch or primary scientific verification
+is invented. The three full reports and all-entry/correction receipts remain in
+`.artifacts/continuation/bundles/reviews/p11/science/`.
+Shared canonical terms for physical/Python generators and chemical/Python yield
+have explicit distinct-sense judgments; they are not automatic duplicate waivers.
+No full phase, hardware, public-hosting or legal clearance is implied.
+
+## Phase-11 recovered History addition — independently accepted after corrections
+
+The [History ledger](phase-11-history-sources.json) binds all 224 additions,
+canonical/alias sets, actual cached source contexts, retrieval dates, body/text
+hashes and the eight final pack hashes below. Ledger SHA-256:
+`77edfba0ed773273d36e5e5dcc41a87396a0ac4ef3e342b7b401373f1f81b7db`.
+The original interrupted 224-entry review judgments were recovered, not discarded.
+Three finite-alias omissions passed independent correction review; subsequent
+central integration exposed three accepted-answer disclosures, corrected through
+prompt-only changes and a further narrow review. All eight difficulty ratings
+remain accepted. All 224 supporting evidence arrays/cached bodies are unchanged;
+all old manifests and review receipts remain preserved.
+
+Evidence uses 221 actual cached response placements / 213 distinct public
+secondary encyclopedia URLs, not fresh institutional primary verification.
+Recovery did not refetch those sources. One empty Rosetta Stone extraction was
+regenerated from the identical original cached HTML; no new response was invented.
+Question wording is original CC BY 4.0, not copied quiz-bank or reference prose.
+Full report: `.artifacts/continuation/bundles/reviews/p11/history/REPORT.md`.
+No public/hardware/legal clearance or full phase approval is implied.
+
+| Pack                   | SHA-256                                                            |
+| ---------------------- | ------------------------------------------------------------------ |
+| `history-cs-easy-01`   | `69f35a0562db1b4a95a12a3e3a93337b0920747d29a7975cad00a62757e17777` |
+| `history-cs-easy-02`   | `56e81ca8ecde363ed3fca8ee968a1aae8627b1f7c29d035a87eb3d517afc5382` |
+| `history-cs-hard-01`   | `52d309ee2b8d999fbb9317ad8bf85d8ea63246bc1054d0858fa12cdd29f1a551` |
+| `history-cs-hard-02`   | `42c3ef230fc8d59f331681d7c7c5f63459dcb2f00e737519208a0ed649c307e1` |
+| `history-en-easy-01`   | `95a63a9ad5679308597c1f57939150c5a95bb182e52422c79336e02b19d32b8e` |
+| `history-en-easy-02`   | `3e0f90f6239338b7fd90860f6e8c0a8cf7800c938690516d61338bdf45d6edb0` |
+| `history-en-medium-01` | `82b0642f9e168645adc42fc0c48b5dd3efd79ec557d4b72d4d8ca3c760766a32` |
+| `history-en-medium-02` | `ffe9f80b49081d2d5d37ec70028e9b0a27285baccf0e211c76582326ee1e56e5` |
+
+## Phase-11 bounded Nature addition — independently accepted after corrections
+
+The eight new Nature packs contain 224 original questions. Their complete
+[per-entry ledger](phase-11-nature-sources.json) records every exact ID, initial,
+claim, canonical answer, useful aliases, shipped URL, actual retrieval date,
+inspected source passage, HTTP-body hash, extracted-text hash and pack hash.
+All 224 factual contexts were developer-inspected and independently reviewed:
+211 entries and all eight difficulty assignments were accepted; P11-NR1/P11-NR2
+required thirteen localized corrections. The narrow independent recheck accepted
+all thirteen, so all 224 additions and eight ratings are accepted. This does not
+clear the full phase. All 44 previous pack bytes and the accepted General ledger are
+unchanged. The separate historical classification ledger remains exactly 36 packs.
+
+All 224 entries have public secondary encyclopedic paragraph support. Eleven entries
+also have inspected corroboration: eight institutional evidence placements
+(Smithsonian, NOAA Fisheries, NHGRI, CDC, WHO and MedlinePlus) and three specialist editorial
+placements (BOTANY.cz, explicitly not primary studies). There are 235 shipped
+evidence placements in total. Original natural Czech/English question wording is
+not copied from television/commercial question banks or article prose. Source
+passages retain source rights and attribution; the authored packs are CC BY 4.0.
+Cached bodies/extracts and genuine retrieval receipts are under
+`.artifacts/phase11-nature-sources/`.
+
+Disambiguation pages, three nonexistent initial slugs, the empty ÚJČ lookup and a
+PMC browser-check page were rejected, not counted as factual or primary evidence.
+Qualified facts were narrowed after reading context: neoteny is slowed somatic
+development, Wallace's line borders transitional Wallacea, and light reactions are supported by the actual thylakoid
+paragraph. Established Czech _wistárie_ is documented alongside _vistárie_ and
+_wistérie_, not an invented W-initial spelling.
+
+P11-NR1 adds eighteen explicitly enumerated naming variants across twelve entries;
+all old aliases, canonicals, initials and positions remain intact. Their existing
+lead excerpts already name the useful equivalents. Bird's/bird’s nest and
+spider's/spider’s web are explicit ordinary possessive spellings, not fuzzy
+matching or a claim that the source prints both apostrophe code points.
+P11-NR2 now asks for the animal group, not exclusively an older name:
+Urochordata, Urochorda, Tunicata and tunicates identify that same group.
+The source explicitly distinguishes former Urochordata/Urochorda from current
+Tunicata; no current-name claim is made for Urochordata. Two additional existing
+cached paragraphs describe the member animals/common names. All 235 evidence
+placements retain their actual original dates, body/text hashes and URLs.
+No fresh fetch or new source is claimed; only that entry's selected excerpt
+is extended. The other 211 Nature question objects, two unaffected new pack
+files and all preceding 44 packs are unchanged.
+
+Easy decks predominantly identify familiar organisms, plants and anatomy;
+Medium uses informed adult ecology/biology; Hard uses specialist but explicitly
+defined biological concepts. Rare-initial outliers (Wistárie, Xanthophyll,
+Shorea) are real terms with inspected support, not reason to relabel an entire
+deck or lower the quota. Every new fact was compared against all 1,232 preceding
+questions and the new bundle. The only normalized alias overlap is the bee's
+_queen_ versus the unrelated band _Queen_; those are distinct facts, not padding.
+
+| Nature pack           | Exact JSON SHA-256                                                 |
+| --------------------- | ------------------------------------------------------------------ |
+| `nature-cs-easy-01`   | `3b95c9220029f15e09b72193fa1ea64ac82bd7d8fb53fa01a73913a9745440df` |
+| `nature-cs-easy-02`   | `7006b2d44881b981f4193367e67c0a09cf54361e7f137df88941d5d2c7d1232a` |
+| `nature-cs-medium-01` | `b33f8e35237717a4bcb525fd0bd982bc49fc046966fb1a789a1aa6586c0eb185` |
+| `nature-cs-hard-01`   | `97be9b7c107ded69702f155a212c51e71726f1a99a793fa9d4591f642c1eee93` |
+| `nature-en-easy-01`   | `27999cca5bf0c0088658e1cff12fec4468b2092c41bed05eff6281ab185bfd5b` |
+| `nature-en-easy-02`   | `1db8d6220f3baf22ba0631301ca08f7dc8653a37c0cb999498a4b8d7c106aeec` |
+| `nature-en-hard-01`   | `6c1ea761b3ee3fea00cbff1c9f98cf1ec9ca5116d1eb4dd658b25417307e351d` |
+| `nature-en-hard-02`   | `372638507ac8766d65ebdf98e9e3164c3c3c3135c0458ba4e4a19eee3a9c6ba3` |
+
+## Phase-11 bounded Geography addition — five corrections pending narrow recheck
+
+Eight original decks / **224 entries** complete Geography's 12/336 authored quota,
+not phase clearance. Independent review accepted 219 unaffected entries and all
+eight difficulty ratings. Five corrected entries await independent narrow recheck.
+The [exact per-entry ledger](phase-11-geography-sources.json)
+is SHA-256 `f2d8d7b52d908efeb3c97e4370ac00b29e1b193c6eaa46ef08e715b61a6d424e`.
+It binds exact IDs, questions/claims, canonical answers, useful aliases, initials,
+URLs, real 2026-10-30 retrieval timestamps, actually inspected paragraph contexts,
+cached HTTP-body/extracted-text hashes and all eight pack hashes below.
+All 52 preceding pack bytes, accepted General/Nature ledgers and historical
+classifications are preserved. Cached actual responses and extracts are under
+`.artifacts/phase11-geography-sources/`, with original replaced-source contexts
+retained under `.artifacts/phase11-geography-sources-initial/`.
+
+P11-GEO-R1 adds **Britain**, never Great Britain, for the country including
+Northern Ireland. The bound full naming paragraph explicitly distinguishes them;
+it does not claim that a naming authority lists Britain as its preferred term.
+R2 adds **stream** for the existing broad natural-watercourse clue, retaining
+River at R. R3 asks for a **landform** of unsorted glacial debris in both
+languages: a ridge or mound is common, not the shape of every moraine.
+The complete cached context distinguishes till (material) from the landform;
+till/glacial till are not added as interchangeable answers. R4 removes the
+German-literal restriction so Inselberg and monadnock both fit the landform clue.
+Its full German and Abenaki naming paragraphs are bound, not conflated.
+Only two existing cached paragraphs were added to selected ledger excerpts.
+All 241 placements, original retrieval dates and 476 body/text files are unchanged;
+no fresh fetch is claimed. Exact original eight-pack/ledger bytes bound to the
+112-file candidate survive in `.artifacts/phase11-geography-corrections-baseline/`.
+
+All 224 facts have developer-read public secondary encyclopedic contexts.
+There are **241 evidence placements**: the 224 principal references, six
+institutional explanation placements (NOAA, Government of Canada, US National
+Park Service), one institutional **secondary** Beliana/SAV geomorphology reference,
+and ten additional dictionary/naming placements. The latter include original
+country-name contexts preserved after replacing reciprocal capital clues; their
+original dates and body/text hashes remain, not invented new fetches.
+Wikipedia/dictionaries are not labelled primary authorities. UNESCO 403 responses,
+NOAA's soft-404 atoll page and the nonexistent Czech Jardang slug are rejected.
+The Czech Jardang dictionary definition was read in its real definition container,
+not inferred from an empty paragraph extractor.
+
+Reading refined solifluction's modern scope, uvala's qualified formation account,
+Zealand's Denmark-proper scope and Žďárské vrchy's geomorphological level.
+Questions no longer impose Czech-only or initial-letter restrictions while
+accepting local names/exonyms. Katánie, Tāhuna, Genfer See/Genfersee, historical
+Sinkiang romanization and explicit apostrophe/Turkish ASCII variants are literal
+aliases, not fuzzy matching. Generic surface-or-underground _falaj_ is excluded;
+the specific _daoudi falaj_ is accepted for qanat.
+
+All 224 were screened against all 1,456 preceding entries and each other.
+Washington the city/person and X the map symbol/chromosome share accepted strings,
+not facts. Different river/capital/strait templates and Wales's Cardiff versus UK
+composition are distinct claims, not reciprocal fact padding. Source/hash/schema
+checks do not independently certify facts, wording, novelty or adult difficulty.
+Easy predominantly uses familiar places/basic terms; Medium informed regional
+geography; Hard specialist geomorphology/navigation. Genuine rare-initial
+Catania/Queenstown/Xinjiang outliers do not determine an entire deck's rating.
+New wording is original CC BY 4.0, not commercial/TV quiz text; source excerpts
+retain their own attributed rights.
+
+| Geography pack           | Exact JSON SHA-256                                                 |
+| ------------------------ | ------------------------------------------------------------------ |
+| `geography-cs-easy-01`   | `7daa311270ce3fc007a8e200cde3152b268eb339a4849d0ade60a05c357dc88d` |
+| `geography-cs-easy-02`   | `c1d59b6a128045754230773f8ae5ac2c146219d587a34df6b778ab57e2723156` |
+| `geography-cs-medium-01` | `00fb907c7baad370608d79681d13be1cbb91f6b8409c64b16bc2403787817942` |
+| `geography-cs-hard-01`   | `6befbc6dba3f6e67abfe3f383d26b4808411211c1b74e215dbf8fa6306c5c495` |
+| `geography-en-easy-01`   | `81f5503733f71e81dcaf8629a2497acb0fda66e79b94646f9d035e4b0ba03d88` |
+| `geography-en-easy-02`   | `4b848946268b108aff2044da7723a8e7b484081092b0a0a16f912fdaa595036c` |
+| `geography-en-medium-01` | `200701412661c141bfeb3f179fdfab33e81e89ad6bfaadbd730acca6d000cf3c` |
+| `geography-en-hard-01`   | `acb5561245ed21f6e682992b5374dc8657f7fc373e728123f8b2160baa39d614` |
+
 ## Review corrections
 
 The [initial independent review](../reviews/phase-05.md) checked all 336 entries.
@@ -59,7 +380,7 @@ not copied article passages. See [inventory, authorship and license scope](conte
 
 [Všeobecné znalosti · úvodní sada 01](../src/content/general-cs-01.json) — cs, general, 28 entries.
 
-Source JSON SHA-256: `f9aed941187d3a573380af15788463a546fa73cb5faf4872310fefdaddbcc625`.
+Source JSON SHA-256: `7c806c0cc1587138505795ce5f2294982e3b66330a94d3f6d4ec20f330996225`.
 
 - `general-cs-01-01` — **Amazonka** (`A`). [1](https://en.wikipedia.org/wiki/Amazon_River); [2](https://cs.wikipedia.org/wiki/Amazonka). Locate: 1: Introduction / definition and descriptive body · 2: Introduction / definition and descriptive body.
 - `general-cs-01-02` — **Berlín** (`B`). [1](https://en.wikipedia.org/wiki/Berlin). Locate: 1: Introduction / definition and descriptive body.
@@ -94,7 +415,7 @@ Source JSON SHA-256: `f9aed941187d3a573380af15788463a546fa73cb5faf4872310fefdadd
 
 [Všeobecné znalosti · 02](../src/content/general-cs-02.json) — cs, general, 28 entries.
 
-Source JSON SHA-256: `d50cac6b01e5dfb5e7a5c7a917818a0f45cf0b19c6366d1f5e8795ead9e03ac4`.
+Source JSON SHA-256: `e7d445dbafac15a4f2880e9b4b5e8e378b950577caa303dee46bad38ebf731e3`.
 
 - `general-cs-02-01` — **Akordeon** (`A`). [1](https://cs.wikipedia.org/wiki/Akordeon). Locate: 1: Introduction / definition and descriptive body.
 - `general-cs-02-02` — **Bumerang** (`B`). [1](https://cs.wikipedia.org/wiki/Bumerang). Locate: 1: Introduction / definition and descriptive body.
@@ -129,7 +450,7 @@ Source JSON SHA-256: `d50cac6b01e5dfb5e7a5c7a917818a0f45cf0b19c6366d1f5e8795ead9
 
 [General knowledge · starter 01](../src/content/general-en-01.json) — en, general, 28 entries.
 
-Source JSON SHA-256: `09060dfbe622a1baecc1374546b3cd7d23bf6db1a1bc0d732e484e63f7d279b7`.
+Source JSON SHA-256: `e31d61e8ced30f77f71987ffb13234dfdd21130e716a5c5131135d558183d359`.
 
 - `general-en-01-01` — **Athens** (`A`). [1](https://en.wikipedia.org/wiki/Athens). Locate: 1: Introduction / definition and descriptive body.
 - `general-en-01-02` — **Basalt** (`B`). [1](https://opentextbc.ca/physicalgeology2ed/chapter/18-2-the-geology-of-the-oceanic-crust/); [2](https://en.wikipedia.org/wiki/Basalt). Locate: 1: Unavailable in this pass; existing Basalt citation corroborates the same question · 2: Introduction / infobox; Types.
@@ -164,7 +485,7 @@ Source JSON SHA-256: `09060dfbe622a1baecc1374546b3cd7d23bf6db1a1bc0d732e484e63f7
 
 [General knowledge · 02](../src/content/general-en-02.json) — en, general, 28 entries.
 
-Source JSON SHA-256: `bac9ca25ec8454f5a04d2a95998a6dc42b7c83d5d273c48f31a7e99a6e3bfc57`.
+Source JSON SHA-256: `8892017d6e48c0211c74db5dd2c44237eae44ce87c02e6bb0b9340a84674aa9b`.
 
 - `general-en-02-01` — **Accordion** (`A`). [1](https://en.wikipedia.org/wiki/Accordion). Locate: 1: Introduction / definition and descriptive body.
 - `general-en-02-02` — **Bagel** (`B`). [1](https://en.wikipedia.org/wiki/Bagel). Locate: 1: Introduction / definition and descriptive body.
@@ -199,7 +520,7 @@ Source JSON SHA-256: `bac9ca25ec8454f5a04d2a95998a6dc42b7c83d5d273c48f31a7e99a6e
 
 [Zeměpis a cestování · 01](../src/content/geography-cs-01.json) — cs, geography, 28 entries.
 
-Source JSON SHA-256: `5c7e5c1561e1d88dbab645c7fc9acd5ddd579e1d65b9dc46d2b40e09de3c0df0`.
+Source JSON SHA-256: `f5eb3aee967c7e75c6ca82c101975ba142e3b783a04684471955fe677c408a46`.
 
 - `geography-cs-01-01` — **Andy** (`A`). [1](https://cs.wikipedia.org/wiki/Andy). Locate: 1: Introduction / definition and descriptive body.
 - `geography-cs-01-02` — **Bangkok** (`B`). [1](https://cs.wikipedia.org/wiki/Bangkok). Locate: 1: Introduction / definition and descriptive body.
@@ -234,7 +555,7 @@ Source JSON SHA-256: `5c7e5c1561e1d88dbab645c7fc9acd5ddd579e1d65b9dc46d2b40e09de
 
 [Zeměpis a cestování · 02](../src/content/geography-cs-02.json) — cs, geography, 28 entries.
 
-Source JSON SHA-256: `afd8b23873161e5b4b96a57934b7d4d25f5eb07c15156694df3b8400b1fa6b52`.
+Source JSON SHA-256: `2a25e8101e730247624ca44e6cd5b2d3512a997c41ee9ddb8800c0d3ec70b088`.
 
 - `geography-cs-02-01` — **Amsterdam** (`A`). [1](https://cs.wikipedia.org/wiki/Amsterdam). Locate: 1: Introduction / definition and descriptive body.
 - `geography-cs-02-02` — **Bajkal** (`B`). [1](https://cs.wikipedia.org/wiki/Bajkal). Locate: 1: Introduction / definition and descriptive body.
@@ -269,7 +590,7 @@ Source JSON SHA-256: `afd8b23873161e5b4b96a57934b7d4d25f5eb07c15156694df3b8400b1
 
 [Geography and travel · 01](../src/content/geography-en-01.json) — en, geography, 28 entries.
 
-Source JSON SHA-256: `72372e3b18ca37d384f1f162ee5be69787c51aad7a47c58d6e51c057f4e995e9`.
+Source JSON SHA-256: `887036fe3f7151e1c031c4e70a4575fd9f13f7ff42eab5155ddbfba05043e84b`.
 
 - `geography-en-01-01` — **Andes** (`A`). [1](https://en.wikipedia.org/wiki/Andes). Locate: 1: Introduction / definition and descriptive body.
 - `geography-en-01-02` — **Bangkok** (`B`). [1](https://en.wikipedia.org/wiki/Bangkok). Locate: 1: Introduction / definition and descriptive body.
@@ -304,7 +625,7 @@ Source JSON SHA-256: `72372e3b18ca37d384f1f162ee5be69787c51aad7a47c58d6e51c057f4
 
 [Geography and travel · 02](../src/content/geography-en-02.json) — en, geography, 28 entries.
 
-Source JSON SHA-256: `3303899b59f723dc7c37baf8494ae7fc0d1ea44f762976885a007cc6f2e4e160`.
+Source JSON SHA-256: `8201f0aeba3fd006ffc52fe340fa2f18cc224d0b880488ac27d2ef969d19190d`.
 
 - `geography-en-02-01` — **Adriatic Sea** (`A`). [1](https://en.wikipedia.org/wiki/Adriatic_Sea). Locate: 1: Introduction / definition and descriptive body.
 - `geography-en-02-02` — **Borneo** (`B`). [1](https://en.wikipedia.org/wiki/Borneo). Locate: 1: Introduction / definition and descriptive body.
@@ -339,7 +660,7 @@ Source JSON SHA-256: `3303899b59f723dc7c37baf8494ae7fc0d1ea44f762976885a007cc6f2
 
 [Příroda · 01](../src/content/nature-cs-01.json) — cs, nature, 28 entries.
 
-Source JSON SHA-256: `2310f5793085bc5f5eafdf6ca55f9be64892ba1d6e0ae88b10cd608fa4107de5`.
+Source JSON SHA-256: `747605558df8f7bb4db96f25b23932e2655a455d304f049786654f7d7253cc11`.
 
 - `nature-cs-01-01` — **Albatros** (`A`). [1](https://cs.wikipedia.org/wiki/Albatrosovit%C3%AD). Locate: 1: Introduction / definition and descriptive body.
 - `nature-cs-01-02` — **Bobr** (`B`). [1](https://cs.wikipedia.org/wiki/Bobr). Locate: 1: Introduction / definition and descriptive body.
@@ -374,7 +695,7 @@ Source JSON SHA-256: `2310f5793085bc5f5eafdf6ca55f9be64892ba1d6e0ae88b10cd608fa4
 
 [Příroda · 02](../src/content/nature-cs-02.json) — cs, nature, 28 entries.
 
-Source JSON SHA-256: `076643437f6d0da2dfc34f218c2688045fed6fb072ce5076b39b488ee15d77bc`.
+Source JSON SHA-256: `d73059c7a1734b2c4850150f37fc348d72ab8ba3071337a5cd612b5eed9c94ec`.
 
 - `nature-cs-02-01` — **Axolotl mexický** (`A`). [1](https://cs.wikipedia.org/wiki/Axolotl_mexick%C3%BD). Locate: 1: Popis.
 - `nature-cs-02-02` — **Blatouch bahenní** (`B`). [1](https://cs.wikipedia.org/wiki/Blatouch_bahenn%C3%AD). Locate: 1: Introduction / definition and descriptive body.
@@ -409,7 +730,7 @@ Source JSON SHA-256: `076643437f6d0da2dfc34f218c2688045fed6fb072ce5076b39b488ee1
 
 [Nature · 01](../src/content/nature-en-01.json) — en, nature, 28 entries.
 
-Source JSON SHA-256: `09340b286621222d3ee66ec12aeed2d9469e3786d5837988e9f98bd91ac71f24`.
+Source JSON SHA-256: `91999be7cde989912bd0f5261e9eb8c530f22724129a036cd24eace8158a83f4`.
 
 - `nature-en-01-01` — **Aardvark** (`A`). [1](https://en.wikipedia.org/wiki/Aardvark). Locate: 1: Introduction / definition and descriptive body.
 - `nature-en-01-02` — **Beaver** (`B`). [1](https://en.wikipedia.org/wiki/Beaver). Locate: 1: Introduction / infobox.
@@ -444,7 +765,7 @@ Source JSON SHA-256: `09340b286621222d3ee66ec12aeed2d9469e3786d5837988e9f98bd91a
 
 [Nature · 02](../src/content/nature-en-02.json) — en, nature, 28 entries.
 
-Source JSON SHA-256: `fc27818a40097f89114b43af25cf9ffa59cbbeb56f31dae072b06151047eff50`.
+Source JSON SHA-256: `ea37e7b016b6dd3c1c974a2d33cff21ec51c9e1d4bd746d0a888bd9da2067d2b`.
 
 - `nature-en-02-01` — **Anemone** (`A`). [1](https://en.wikipedia.org/wiki/Sea_anemone). Locate: 1: Introduction / definition and descriptive body.
 - `nature-en-02-02` — **Bat** (`B`). [1](https://en.wikipedia.org/wiki/Bat). Locate: 1: Introduction / definition and descriptive body.
@@ -549,7 +870,7 @@ and [handoff](phase-06-handoff.md). Findings remain pending independent re-revie
 
 [Historie · 01](../src/content/history-cs-01.json) — cs, history, 28 entries.
 
-Source JSON SHA-256: `6d9ff2ae5704561a7745f099e8457963dd1fd55472d5e7f2ad16f55e6450a671`.
+Source JSON SHA-256: `b012c6b60d6c92d6a7a9d8ffe301a6434508e931f41d8e15db977647c8fa1fd6`.
 
 - `history-cs-01-01` — **Atentát v Sarajevu** (`A`). [1](https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand). Locate: 1: Introduction: victims, Sarajevo, date and assassin.
 - `history-cs-01-02` — **Bílá hora** (`B`). [1](https://en.wikipedia.org/wiki/Battle_of_White_Mountain). Locate: 1: Introduction: date, location and defeated Bohemian estates.
@@ -584,7 +905,7 @@ Source JSON SHA-256: `6d9ff2ae5704561a7745f099e8457963dd1fd55472d5e7f2ad16f55e64
 
 [Historie · 02](../src/content/history-cs-02.json) — cs, history, 28 entries.
 
-Source JSON SHA-256: `34451b005e4af94a3650a98208d9c4a0877a088d1ee128024cbaa4029ad4f6df`.
+Source JSON SHA-256: `7de497f0a748e779d4f83011c9caa6544d3d263b0a1a7843fb0d3cee33124331`.
 
 - `history-cs-02-01` — **Alexandr Veliký** (`A`). [1](https://en.wikipedia.org/wiki/Alexander_the_Great). Locate: 1: Introduction: Aristotle and death in Babylon in 323 BC.
 - `history-cs-02-02` — **Byzantská říše** (`B`). [1](https://en.wikipedia.org/wiki/Byzantine_Empire). Locate: 1: Introduction: eastern Roman polity and Constantinople.
@@ -619,7 +940,7 @@ Source JSON SHA-256: `34451b005e4af94a3650a98208d9c4a0877a088d1ee128024cbaa4029a
 
 [History · 01](../src/content/history-en-01.json) — en, history, 28 entries.
 
-Source JSON SHA-256: `0644cbacc82d41777cefc413ad5d96a5f2d1bfb4b710b5fdc6cc5b61b7b2634a`.
+Source JSON SHA-256: `1f8aafb9a93d8c739ee6cfa90e731cd84af7dc14d6a92728176b40d780957066`.
 
 - `history-en-01-01` — **Ashoka** (`A`). [1](https://en.wikipedia.org/wiki/Ashoka). Locate: 1: Introduction: Ashoka, Kalinga and Buddhism.
 - `history-en-01-02` — **Bastille** (`B`). [1](https://en.wikipedia.org/wiki/Storming_of_the_Bastille). Locate: 1: Introduction: 14 July 1789 fortress storming.
@@ -654,7 +975,7 @@ Source JSON SHA-256: `0644cbacc82d41777cefc413ad5d96a5f2d1bfb4b710b5fdc6cc5b61b7
 
 [History · 02](../src/content/history-en-02.json) — en, history, 28 entries.
 
-Source JSON SHA-256: `4f08ba7d24e40f9733c1857e8731fbb8fb643aa7f12499a57042e9da8b02913b`.
+Source JSON SHA-256: `3ae34d3343acfb6559f582745c4117fefa420d0568a7185286e041e86a47e434`.
 
 - `history-en-02-01` — **Actium** (`A`). [1](https://en.wikipedia.org/wiki/Battle_of_Actium). Locate: 1: Introduction: Octavian’s fleet, Antony and Cleopatra at Actium in 31 BC.
 - `history-en-02-02` — **Boudica** (`B`). [1](https://en.wikipedia.org/wiki/Boudica). Locate: 1: Introduction: Iceni queen’s rebellion around 60–61 AD.
@@ -689,7 +1010,7 @@ Source JSON SHA-256: `4f08ba7d24e40f9733c1857e8731fbb8fb643aa7f12499a57042e9da8b
 
 [Politika a diplomacie · 01](../src/content/politics-cs-01.json) — cs, politics, 28 entries.
 
-Source JSON SHA-256: `e470947133d7a39cab455f74a4fd61308f83e4ddd45b3717b1580e5e1e017a19`.
+Source JSON SHA-256: `302af529184363146812d5e5d098b59ddafd6b0687ea72b830fcfad314e0896b`.
 
 - `politics-cs-01-01` — **Amnestie** (`A`). [1](https://en.wikipedia.org/wiki/Amnesty). Locate: 1: Introduction / definition and explanatory body.
 - `politics-cs-01-02` — **Bikameralismus** (`B`). [1](https://en.wikipedia.org/wiki/Bicameralism). Locate: 1: Introduction / definition and explanatory body.
@@ -724,7 +1045,7 @@ Source JSON SHA-256: `e470947133d7a39cab455f74a4fd61308f83e4ddd45b3717b1580e5e1e
 
 [Politika a diplomacie · 02](../src/content/politics-cs-02.json) — cs, politics, 28 entries.
 
-Source JSON SHA-256: `6c4d0536a4cf31f18e30b664538789f805c633084bee01a5f3341cc0b9d9ca30`.
+Source JSON SHA-256: `9b7b2e61f757c5cb3144d1654d2ae1e4fa9ad97d90528d2265e049419a12444d`.
 
 - `politics-cs-02-01` — **Agrément** (`A`). [1](https://en.wikipedia.org/wiki/Agr%C3%A9ment). Locate: 1: Introduction: receiving-state consent before diplomatic appointment.
 - `politics-cs-02-02` — **Bílá kniha** (`B`). [1](https://en.wikipedia.org/wiki/White_paper). Locate: 1: Introduction / definition and explanatory body.
@@ -759,7 +1080,7 @@ Source JSON SHA-256: `6c4d0536a4cf31f18e30b664538789f805c633084bee01a5f3341cc0b9
 
 [Politics and diplomacy · 01](../src/content/politics-en-01.json) — en, politics, 28 entries.
 
-Source JSON SHA-256: `059dae88f8b76371ab60bb26931ceaa808527929f8c5ebced67bf51efde7bb7a`.
+Source JSON SHA-256: `4ab79542ddf76fbc026c72b37086983267b0e8c10448685531e9d1a00eacdfd1`.
 
 - `politics-en-01-01` — **Amnesty** (`A`). [1](https://en.wikipedia.org/wiki/Amnesty). Locate: 1: Introduction / definition and explanatory body.
 - `politics-en-01-02` — **Bicameralism** (`B`). [1](https://en.wikipedia.org/wiki/Bicameralism). Locate: 1: Introduction / definition and explanatory body.
@@ -794,7 +1115,7 @@ Source JSON SHA-256: `059dae88f8b76371ab60bb26931ceaa808527929f8c5ebced67bf51efd
 
 [Politics and diplomacy · 02](../src/content/politics-en-02.json) — en, politics, 28 entries.
 
-Source JSON SHA-256: `9b6bc8fbb24d3c599f5f83a154ad6dc4c0fbffba40ff8a1a243a828ec80e0096`.
+Source JSON SHA-256: `d33044b541267fd545acc5aa7ce1f119767121f6c65a7b83fc888df3696a5157`.
 
 - `politics-en-02-01` — **Accession** (`A`). [1](https://treaties.un.org/Pages/Overview.aspx?path=overview/glossary/page1_en.xml). Locate: 1: Glossary / Accession: becoming party to a treaty negotiated and signed by other states.
 - `politics-en-02-02` — **Bilateralism** (`B`). [1](https://en.wikipedia.org/wiki/Bilateralism). Locate: 1: Introduction / definition and explanatory body.
@@ -829,7 +1150,7 @@ Source JSON SHA-256: `9b6bc8fbb24d3c599f5f83a154ad6dc4c0fbffba40ff8a1a243a828ec8
 
 [Věda a technika · 01](../src/content/science-cs-01.json) — cs, science, 28 entries.
 
-Source JSON SHA-256: `adfbadadc829b3730e6a44450c6a24cf71bc2b625acf9b5012994512475b857d`.
+Source JSON SHA-256: `0f2685cbf8f18ca49a1379f9d2b79e8b87327caa881a00d11476c4fcd3537e9f`.
 
 - `science-cs-01-01` — **Ampér** (`A`). [1](https://en.wikipedia.org/wiki/Ampere); [2](https://www.nist.gov/pml/owm/metric-si/si-units). Locate: 1: Introduction / definition and explanatory body · 2: Base and Derived Units: electric current / ampere (A).
 - `science-cs-01-02` — **Barometr** (`B`). [1](https://en.wikipedia.org/wiki/Barometer). Locate: 1: Introduction / definition and explanatory body.
@@ -864,7 +1185,7 @@ Source JSON SHA-256: `adfbadadc829b3730e6a44450c6a24cf71bc2b625acf9b501299451247
 
 [Věda a technika · 02](../src/content/science-cs-02.json) — cs, science, 28 entries.
 
-Source JSON SHA-256: `11118fb2b8f77bcb1245e0459277b1cf37a44cc50166bc9dcce6a3a4fb2e0475`.
+Source JSON SHA-256: `8bfc3410131e7e5e0d84e8f7ea2820c364a9d80a5dcc29162f95d6999c703dae`.
 
 - `science-cs-02-01` — **Anoda** (`A`). [1](https://en.wikipedia.org/wiki/Anode). Locate: 1: Introduction / definition and explanatory body.
 - `science-cs-02-02` — **Baterie** (`B`). [1](https://en.wikipedia.org/wiki/Electric_battery). Locate: 1: Introduction / definition and explanatory body.
@@ -899,7 +1220,7 @@ Source JSON SHA-256: `11118fb2b8f77bcb1245e0459277b1cf37a44cc50166bc9dcce6a3a4fb
 
 [Science and technology · 01](../src/content/science-en-01.json) — en, science, 28 entries.
 
-Source JSON SHA-256: `0959ef5df3cac5bb0ebeb573356cee6174c43dee2c04f6f10f4c58b7e005e300`.
+Source JSON SHA-256: `0795a9379444abc5352aab3c4765d50f45fd4d5f75f5e5803234e413269534dd`.
 
 - `science-en-01-01` — **Ammeter** (`A`). [1](https://en.wikipedia.org/wiki/Ammeter). Locate: 1: Introduction / definition and explanatory body.
 - `science-en-01-02` — **Buoyancy** (`B`). [1](https://en.wikipedia.org/wiki/Buoyancy). Locate: 1: Introduction / definition and explanatory body.
@@ -934,7 +1255,7 @@ Source JSON SHA-256: `0959ef5df3cac5bb0ebeb573356cee6174c43dee2c04f6f10f4c58b7e0
 
 [Science and technology · 02](../src/content/science-en-02.json) — en, science, 28 entries.
 
-Source JSON SHA-256: `1288863ac49c3ed7fd40bd4af0f48303d0ff4fc6aea499c4fe6cfa4da5aec16d`.
+Source JSON SHA-256: `90b66a3251ee989177d30ea648a287beb75fbff37a8be3bb19b83cd3324e2ad8`.
 
 - `science-en-02-01` — **Alternating current** (`A`). [1](https://en.wikipedia.org/wiki/Alternating_current). Locate: 1: Introduction / definition and explanatory body.
 - `science-en-02-02` — **Boyle's law** (`B`). [1](https://en.wikipedia.org/wiki/Boyle's_law). Locate: 1: Introduction / definition and explanatory body.
@@ -999,7 +1320,7 @@ Original-language film-title questions reject their disclosed translated title.
 
 [Umění a literatura · 01](../src/content/arts-cs-01.json) — cs, arts, 28 entries.
 
-Source JSON SHA-256: `1334a8fa4c50e21da435cde75b37071b1fa8544076f06793619db90e4f809076`.
+Source JSON SHA-256: `c0a93b91ecb0872078bc26ad4d250850919cacc567f542e3d3235fa7dd3785b0`.
 
 - `arts-cs-01-01` — **Aliterace** (`A`). [1](https://en.wikipedia.org/wiki/Alliteration). Locate: 1: Introduction / definition and descriptive body.
 - `arts-cs-01-02` — **Baroko** (`B`). [1](https://cs.wikipedia.org/wiki/Baroko). Locate: 1: Introduction / definition and descriptive body.
@@ -1034,7 +1355,7 @@ Source JSON SHA-256: `1334a8fa4c50e21da435cde75b37071b1fa8544076f06793619db90e4f
 
 [Umění a literatura · 02](../src/content/arts-cs-02.json) — cs, arts, 28 entries.
 
-Source JSON SHA-256: `1db2c86a5d0f502d68bdac35eb6307a687655d0af0d7c87fa6f4e2fe6369e3ee`.
+Source JSON SHA-256: `dfe18ba4203e66fc4d7a789f96462cba3e9e2af3654b31abb31403f8e9fa5804`.
 
 - `arts-cs-02-01` — **Akrostich** (`A`). [1](https://en.wikipedia.org/wiki/Acrostic). Locate: 1: Introduction / definition and descriptive body.
 - `arts-cs-02-02` — **Boccaccio** (`B`). [1](https://en.wikipedia.org/wiki/Giovanni_Boccaccio). Locate: 1: The Decameron: hundred tales and young storytellers.
@@ -1069,7 +1390,7 @@ Source JSON SHA-256: `1db2c86a5d0f502d68bdac35eb6307a687655d0af0d7c87fa6f4e2fe63
 
 [Arts and literature · 01](../src/content/arts-en-01.json) — en, arts, 28 entries.
 
-Source JSON SHA-256: `4bdd57a7dadc6fc800b45382d8453bccc324100f87eb3da39d667b5a5dcd98ac`.
+Source JSON SHA-256: `0260f3cd767b068f456e7f261e3a4f21e43f351f8054d3a7aa90eabd1b9964a2`.
 
 P7-01 correction: entry 16 now explicitly asks for Eric Arthur Blair's
 publishing surname, not his author identity. `Orwell` / `George Orwell` remain
@@ -1110,7 +1431,7 @@ Same-reviewer re-review is pending.
 
 [Arts and literature · 02](../src/content/arts-en-02.json) — en, arts, 28 entries.
 
-Source JSON SHA-256: `23bb0243925219267fd7c79b89991f23f15fe807eec1cd4af71b3ec01b898f51`.
+Source JSON SHA-256: `40e145cdf1097a4e1fb31cf3ad9dd9ead7f1774b87e80b8ba15942dc15f03a03`.
 
 - `arts-en-02-01` — **Acrostic** (`A`). [1](https://en.wikipedia.org/wiki/Acrostic). Locate: 1: Introduction / definition and descriptive body.
 - `arts-en-02-02` — **Brontë** (`B`). [1](https://en.wikipedia.org/wiki/Emily_Bront%C3%AB). Locate: 1: Introduction / definition and descriptive body.
@@ -1143,9 +1464,9 @@ Source JSON SHA-256: `23bb0243925219267fd7c79b89991f23f15fe807eec1cd4af71b3ec01b
 
 ## entertainment-cs-01
 
-[Zábava · 01](../src/content/entertainment-cs-01.json) — cs, entertainment, 28 entries.
+[Zábava · 01](retired/entertainment-cs-01.json) — cs, entertainment, 28 archived entries.
 
-Source JSON SHA-256: `f5b9b960001e8d6cbbef0d0458012fe42f14c6e1ad17c61d698b89fe59772604`.
+Source JSON SHA-256: `186b594a78b401a6a7b7ac9cc33245f7158088175018668e57e514146124e5a9`.
 
 - `entertainment-cs-01-01` — **ABBA** (`A`). [1](https://en.wikipedia.org/wiki/ABBA). Locate: 1: Introduction / definition and descriptive body.
 - `entertainment-cs-01-02` — **Beatles** (`B`). [1](https://en.wikipedia.org/wiki/The_Beatles). Locate: 1: Introduction / definition and descriptive body.
@@ -1178,9 +1499,9 @@ Source JSON SHA-256: `f5b9b960001e8d6cbbef0d0458012fe42f14c6e1ad17c61d698b89fe59
 
 ## entertainment-cs-02
 
-[Zábava · 02](../src/content/entertainment-cs-02.json) — cs, entertainment, 28 entries.
+[Zábava · 02](retired/entertainment-cs-02.json) — cs, entertainment, 28 archived entries.
 
-Source JSON SHA-256: `07ddb487c9a294e70707157f39e8b57a7ad0d01c9a7c1cea229d44d12bf064e3`.
+Source JSON SHA-256: `e631d19978328940b2ac335e654ff6282543e1caf3348e12381c4f4941e7f50f`.
 
 - `entertainment-cs-02-01` — **Avatar** (`A`). [1](<https://en.wikipedia.org/wiki/Avatar_(2009_film)>). Locate: 1: Introduction / definition and descriptive body.
 - `entertainment-cs-02-02` — **Batman** (`B`). [1](https://en.wikipedia.org/wiki/Batman). Locate: 1: Introduction / definition and descriptive body.
@@ -1213,9 +1534,9 @@ Source JSON SHA-256: `07ddb487c9a294e70707157f39e8b57a7ad0d01c9a7c1cea229d44d12b
 
 ## entertainment-en-01
 
-[Entertainment · 01](../src/content/entertainment-en-01.json) — en, entertainment, 28 entries.
+[Entertainment · 01](retired/entertainment-en-01.json) — en, entertainment, 28 archived entries.
 
-Source JSON SHA-256: `ad9c4405781bcd222dc4c2cb07287a17621c97b0d98d68bb2fc0f2a71008c5b5`.
+Source JSON SHA-256: `9e35c81c54ffc53a95cdb4eebfecb605054d1d099fa0f162114fc88b708c9dfd`.
 
 - `entertainment-en-01-01` — **ABBA** (`A`). [1](https://en.wikipedia.org/wiki/ABBA). Locate: 1: Introduction / definition and descriptive body.
 - `entertainment-en-01-02` — **Beatles** (`B`). [1](https://en.wikipedia.org/wiki/The_Beatles). Locate: 1: Introduction / definition and descriptive body.
@@ -1248,9 +1569,9 @@ Source JSON SHA-256: `ad9c4405781bcd222dc4c2cb07287a17621c97b0d98d68bb2fc0f2a710
 
 ## entertainment-en-02
 
-[Entertainment · 02](../src/content/entertainment-en-02.json) — en, entertainment, 28 entries.
+[Entertainment · 02](retired/entertainment-en-02.json) — en, entertainment, 28 archived entries.
 
-Source JSON SHA-256: `97374c12ca61258cf14d363a6cf30e56cdbfa3fa788575f35d52b4b974e9d5b4`.
+Source JSON SHA-256: `a3d665fb3badf7dffb1636264d75f0b1f70893e1d04ef943464e43994e1220c6`.
 
 - `entertainment-en-02-01` — **Avatar** (`A`). [1](<https://en.wikipedia.org/wiki/Avatar_(2009_film)>). Locate: 1: Introduction / definition and descriptive body.
 - `entertainment-en-02-02` — **Batman** (`B`). [1](https://en.wikipedia.org/wiki/Batman). Locate: 1: Introduction / definition and descriptive body.
@@ -1283,9 +1604,9 @@ Source JSON SHA-256: `97374c12ca61258cf14d363a6cf30e56cdbfa3fa788575f35d52b4b974
 
 ## programming-cs-01
 
-[Programování · 01](../src/content/programming-cs-01.json) — cs, programming, 28 entries.
+[Informatika a programování · 01](../src/content/programming-cs-01.json) — cs, programming, 28 entries.
 
-Source JSON SHA-256: `b25b49c73cf334f112642f020d7d5920ccb09a77d2f3bcb782274f3eee4b9513`.
+Source JSON SHA-256: `369d349119f8a17b52ce09a5969a24811d9a7304cd71b89310c909c964075535`.
 
 - `programming-cs-01-01` — **Algoritmus** (`A`). [1](https://cs.wikipedia.org/wiki/Algoritmus). Locate: 1: Introduction / definition and descriptive body.
 - `programming-cs-01-02` — **Boolean** (`B`). [1](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool). Locate: 1: Named reference section: boolean-type-bool.
@@ -1318,9 +1639,9 @@ Source JSON SHA-256: `b25b49c73cf334f112642f020d7d5920ccb09a77d2f3bcb782274f3eee
 
 ## programming-cs-02
 
-[Programování · 02](../src/content/programming-cs-02.json) — cs, programming, 28 entries.
+[Informatika a programování · 02](../src/content/programming-cs-02.json) — cs, programming, 28 entries.
 
-Source JSON SHA-256: `2cb9dfb5f47ad6e7988811d6391db27a5606ddbd7ae33764fe7d362b5350034f`.
+Source JSON SHA-256: `aba1dd1b04025e20bb2dd77be13ff3e1d073459b7c2446e97398039ae10d9f32`.
 
 - `programming-cs-02-01` — **Aserce** (`A`). [1](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement). Locate: 1: Named reference section: the-assert-statement.
 - `programming-cs-02-02` — **Break** (`B`). [1](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements). Locate: 1: Named reference section: break-and-continue-statements.
@@ -1353,9 +1674,9 @@ Source JSON SHA-256: `2cb9dfb5f47ad6e7988811d6391db27a5606ddbd7ae33764fe7d362b53
 
 ## programming-en-01
 
-[Programming · 01](../src/content/programming-en-01.json) — en, programming, 28 entries.
+[Computing and Programming · 01](../src/content/programming-en-01.json) — en, programming, 28 entries.
 
-Source JSON SHA-256: `1ec95f6e651bcddb5cd355f2fe728065f0cdf9f67ec1a12094667cc4d7ebcd71`.
+Source JSON SHA-256: `4ee24f77c1b7773fd8dddf01c15529ee5762d4a504a76c7789d73bb0d5d788be`.
 
 - `programming-en-01-01` — **Array** (`A`). [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Locate: 1: Introduction / definition and descriptive body.
 - `programming-en-01-02` — **Boolean** (`B`). [1](https://docs.python.org/3/library/stdtypes.html#boolean-type-bool). Locate: 1: Named reference section: boolean-type-bool.
@@ -1388,9 +1709,9 @@ Source JSON SHA-256: `1ec95f6e651bcddb5cd355f2fe728065f0cdf9f67ec1a12094667cc4d7
 
 ## programming-en-02
 
-[Programming · 02](../src/content/programming-en-02.json) — en, programming, 28 entries.
+[Computing and Programming · 02](../src/content/programming-en-02.json) — en, programming, 28 entries.
 
-Source JSON SHA-256: `5dbf8b6a2e2ce77438c05c03ba4a86e5f3e6e3d2a1a53569b747a9e9ce0d5fab`.
+Source JSON SHA-256: `5f6f07dcbdcc118e7893700f3b219e9d66255baf45ffe3bb7aee1229af5108f1`.
 
 - `programming-en-02-01` — **Assertion** (`A`). [1](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement). Locate: 1: Named reference section: the-assert-statement.
 - `programming-en-02-02` — **Break** (`B`). [1](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements). Locate: 1: Named reference section: break-and-continue-statements.
@@ -1420,3 +1741,16 @@ Source JSON SHA-256: `5dbf8b6a2e2ce77438c05c03ba4a86e5f3e6e3d2a1a53569b747a9e9ce
 - `programming-en-02-26` — **XML** (`X`). [1](https://developer.mozilla.org/en-US/docs/Web/XML/Guides/XML_introduction). Locate: 1: Introduction / definition and descriptive body.
 - `programming-en-02-27` — **YAML** (`Y`). [1](https://yaml.org/spec/1.2.2/). Locate: 1: Abstract; 1.1 Goals; 2.1 Collections.
 - `programming-en-02-28` — **Zig** (`Z`). [1](https://ziglang.org/). Locate: 1: Overview / Comptime.
+
+# Historical phase-11 metadata checkpoint
+
+The factual question bodies, initials, answers, aliases, categories and sources
+remain semantically identical to the cleared `54b34b1` baseline. Current file
+hashes below reflect only pack schema/difficulty metadata changes. Prior factual
+source inspection and independent judgments are preserved, not repeated or
+claimed as new network research. At that checkpoint every proposed difficulty
+classification awaited independent editorial review. The 32 retained classifications
+were subsequently independently accepted after P11-IR1's Nature Medium correction.
+The [classification ledger](phase-11-classification.json)
+records each old/new file hash, unchanged-question hash and all affected entry IDs.
+This 36-pack legacy inventory is not the 132-pack phase-11 scope completion.

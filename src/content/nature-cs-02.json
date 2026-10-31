@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "hard",
   "id": "nature-cs-02",
   "title": "Příroda · 02",
   "language": "cs",

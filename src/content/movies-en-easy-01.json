@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "movies-en-easy-01",
+  "title": "Movies and series · Easy 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-en-easy-01-01",
+      "text": "Which macabre television family includes parents Gomez and Morticia and children Wednesday and Pugsley?",
+      "initial": "A",
+      "answer": "Addams Family",
+      "language": "en",
+      "aliases": ["The Addams Family"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Addams_Family_%281964_TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-en-easy-01-02",
+      "text": "Which Looney Tunes rabbit is famous for greeting others with “What's up, Doc?”?",
+      "initial": "B",
+      "answer": "Bugs Bunny",
+      "language": "en",
+      "aliases": ["Bugs"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Bugs_Bunny"]
+    },
+    {
+      "id": "movies-en-easy-01-03",
+      "text": "What is the name of the coffee shop where the main characters of Friends often gather?",
+      "initial": "C",
+      "answer": "Central Perk",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Central_Perk"]
+    },
+    {
+      "id": "movies-en-easy-01-04",
+      "text": "Which of the six main Friends characters was played by Matthew Perry?",
+      "initial": "CH",
+      "answer": "Chandler Bing",
+      "language": "en",
+      "aliases": ["Chandler", "Chandler Muriel Bing"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Chandler_Bing"]
+    },
+    {
+      "id": "movies-en-easy-01-05",
+      "text": "Which forgetful blue fish, voiced by Ellen DeGeneres, helps Marlin in Finding Nemo?",
+      "initial": "D",
+      "answer": "Dory",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dory_%28Finding_Nemo%29",
+        "https://www.pixar.com/finding-nemo"
+      ]
+    },
+    {
+      "id": "movies-en-easy-01-06",
+      "text": "What is the name of Anna's older sister, who can create ice and snow in Frozen?",
+      "initial": "E",
+      "answer": "Elsa",
+      "language": "en",
+      "aliases": ["Queen Elsa"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Elsa_%28Frozen%29"]
+    },
+    {
+      "id": "movies-en-easy-01-07",
+      "text": "Which sitcom follows Rachel, Ross, Monica, Chandler, Joey and Phoebe in New York?",
+      "initial": "F",
+      "answer": "Friends",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Friends"]
+    },
+    {
+      "id": "movies-en-easy-01-08",
+      "text": "What is the name of the supervillain assisted by the yellow Minions in Despicable Me?",
+      "initial": "G",
+      "answer": "Gru",
+      "language": "en",
+      "aliases": ["Felonious Gru"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Despicable_Me_%28film%29"]
+    },
+    {
+      "id": "movies-en-easy-01-09",
+      "text": "What is the name of Bart, Lisa and Maggie's father in The Simpsons?",
+      "initial": "H",
+      "answer": "Homer Simpson",
+      "language": "en",
+      "aliases": ["Homer", "Homer Jay Simpson"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Homer_Simpson"]
+    },
+    {
+      "id": "movies-en-easy-01-10",
+      "text": "What superhero identity does Tony Stark use in the Marvel films?",
+      "initial": "I",
+      "answer": "Iron Man",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Iron_Man_%282008_film%29"]
+    },
+    {
+      "id": "movies-en-easy-01-11",
+      "text": "Which 1995 adventure film features a board game that releases its dangers into the real world?",
+      "initial": "J",
+      "answer": "Jumanji",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Jumanji"]
+    },
+    {
+      "id": "movies-en-easy-01-12",
+      "text": "Which animated film introduces Po, a noodle-shop worker chosen to become the Dragon Warrior?",
+      "initial": "K",
+      "answer": "Kung Fu Panda",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Kung_Fu_Panda_%28film%29"]
+    },
+    {
+      "id": "movies-en-easy-01-13",
+      "text": "Which 1994 Disney animated film follows a lion cub named Simba as he grows up?",
+      "initial": "L",
+      "answer": "Lion King",
+      "language": "en",
+      "aliases": ["The Lion King"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Lion_King",
+        "https://movies.disney.com/the-lion-king-1994"
+      ]
+    },
+    {
+      "id": "movies-en-easy-01-14",
+      "text": "Which 2005 animated film takes Alex the lion, Marty the zebra, Gloria the hippo and Melman the giraffe from a New York zoo to an island?",
+      "initial": "M",
+      "answer": "Madagascar",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Madagascar_%282005_film%29"]
+    },
+    {
+      "id": "movies-en-easy-01-15",
+      "text": "What is the name of the young clownfish whose father Marlin searches for him in a 2003 Pixar film?",
+      "initial": "N",
+      "answer": "Nemo",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Finding_Nemo",
+        "https://www.pixar.com/finding-nemo"
+      ]
+    },
+    {
+      "id": "movies-en-easy-01-16",
+      "text": "What is the name of the living snowman in Frozen?",
+      "initial": "O",
+      "answer": "Olaf",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Olaf_%28Frozen%29"]
+    },
+    {
+      "id": "movies-en-easy-01-17",
+      "text": "Which British animated preschool series follows a young piglet and her animal friends?",
+      "initial": "P",
+      "answer": "Peppa Pig",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Peppa_Pig"]
+    },
+    {
+      "id": "movies-en-easy-01-18",
+      "text": "By what name is James Bond's gadget expert usually known?",
+      "initial": "Q",
+      "answer": "Q",
+      "language": "en",
+      "aliases": ["Major Boothroyd", "Boothroyd", "Quartermaster"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Q_%28James_Bond%29"]
+    },
+    {
+      "id": "movies-en-easy-01-19",
+      "text": "What is the familiar nickname of the film boxer Balboa, played by Sylvester Stallone?",
+      "initial": "R",
+      "answer": "Rocky",
+      "language": "en",
+      "aliases": ["Rocky Balboa"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Rocky"]
+    },
+    {
+      "id": "movies-en-easy-01-20",
+      "text": "Which animated sitcom features a yellow-skinned family living in Springfield?",
+      "initial": "S",
+      "answer": "Simpsons",
+      "language": "en",
+      "aliases": ["The Simpsons"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_Simpsons"]
+    },
+    {
+      "id": "movies-en-easy-01-21",
+      "text": "Which animated film character is voiced by Mike Myers and marries Princess Fiona?",
+      "initial": "SH",
+      "answer": "Shrek",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Shrek_%28character%29"]
+    },
+    {
+      "id": "movies-en-easy-01-22",
+      "text": "Which cartoon duo consists of a cat and a mouse forever chasing and outwitting each other?",
+      "initial": "T",
+      "answer": "Tom and Jerry",
+      "language": "en",
+      "aliases": ["Tom & Jerry"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Tom_and_Jerry"]
+    },
+    {
+      "id": "movies-en-easy-01-23",
+      "text": "Which comedy-drama series follows Betty Suarez as she works at the fashion magazine Mode?",
+      "initial": "U",
+      "answer": "Ugly Betty",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Ugly_Betty"]
+    },
+    {
+      "id": "movies-en-easy-01-24",
+      "text": "What is the name of the daughter who can become invisible and create force fields in The Incredibles?",
+      "initial": "V",
+      "answer": "Violet Parr",
+      "language": "en",
+      "aliases": ["Violet"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Violet_Parr",
+        "https://www.pixar.com/the-incredibles"
+      ]
+    },
+    {
+      "id": "movies-en-easy-01-25",
+      "text": "Which Addams daughter does Jenna Ortega portray in the series named after her?",
+      "initial": "W",
+      "answer": "Wednesday",
+      "language": "en",
+      "aliases": ["Wednesday Addams"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Wednesday_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-easy-01-26",
+      "text": "Which television series follows FBI agents Mulder and Scully investigating paranormal cases?",
+      "initial": "X",
+      "answer": "X-Files",
+      "language": "en",
+      "aliases": ["The X-Files", "X Files", "The X Files"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_X-Files"]
+    },
+    {
+      "id": "movies-en-easy-01-27",
+      "text": "Which television drama stars Kevin Costner as ranching patriarch John Dutton?",
+      "initial": "Y",
+      "answer": "Yellowstone",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yellowstone_%28American_TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-en-easy-01-28",
+      "text": "Which 2016 Disney animated film follows rookie rabbit police officer Judy Hopps as she teams up with fox Nick Wilde?",
+      "initial": "Z",
+      "answer": "Zootopia",
+      "language": "en",
+      "aliases": ["Zootropolis"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zootopia",
+        "https://movies.disney.com/zootopia"
+      ]
+    }
+  ]
+}

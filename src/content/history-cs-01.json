@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "history-cs-01",
   "title": "Historie · 01",
   "language": "cs",

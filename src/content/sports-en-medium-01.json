@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-en-medium-01",
+  "title": "Sports · Medium · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-en-medium-01-01",
+      "text": "What is a score of three under par on a single golf hole called?",
+      "initial": "A",
+      "answer": "Albatross",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Double eagle"],
+      "sources": ["https://en.wikipedia.org/wiki/Par_(score)"]
+    },
+    {
+      "id": "sports-en-medium-01-02",
+      "text": "Which winter sport combines cross-country skiing and rifle shooting?",
+      "initial": "B",
+      "answer": "Biathlon",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Biathlon"]
+    },
+    {
+      "id": "sports-en-medium-01-03",
+      "text": "In which winter sport do teams slide stones towards a target called the house?",
+      "initial": "C",
+      "answer": "Curling",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Curling"]
+    },
+    {
+      "id": "sports-en-medium-01-04",
+      "text": "Which Monegasque Ferrari driver won the 2019 Italian Formula One Grand Prix?",
+      "initial": "CH",
+      "answer": "Charles Leclerc",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Leclerc", "Charles Marc Hervé Perceval Leclerc"],
+      "sources": ["https://en.wikipedia.org/wiki/Charles_Leclerc"]
+    },
+    {
+      "id": "sports-en-medium-01-05",
+      "text": "Which combined athletics event consists of ten track-and-field disciplines?",
+      "initial": "D",
+      "answer": "Decathlon",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Decathlon"]
+    },
+    {
+      "id": "sports-en-medium-01-06",
+      "text": "Which fencing weapon permits hits anywhere on the opponent's body?",
+      "initial": "E",
+      "answer": "Epee",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/%C3%89p%C3%A9e"]
+    },
+    {
+      "id": "sports-en-medium-01-07",
+      "text": "What high-jump technique takes its name from the 1968 Olympic champion who cleared the bar back first?",
+      "initial": "F",
+      "answer": "Fosbury flop",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["The Fosbury flop"],
+      "sources": ["https://en.wikipedia.org/wiki/Fosbury_flop"]
+    },
+    {
+      "id": "sports-en-medium-01-08",
+      "text": "In tennis, what is the achievement of winning all four major singles titles in one calendar year called?",
+      "initial": "G",
+      "answer": "Grand Slam",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Calendar Grand Slam", "Calendar-year Grand Slam"],
+      "sources": ["https://en.wikipedia.org/wiki/Grand_Slam_(tennis)"]
+    },
+    {
+      "id": "sports-en-medium-01-09",
+      "text": "What term means three goals by one player in a single football match?",
+      "initial": "H",
+      "answer": "Hat-trick",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Hat trick", "Hattrick"],
+      "sources": ["https://en.wikipedia.org/wiki/Hat-trick"]
+    },
+    {
+      "id": "sports-en-medium-01-10",
+      "text": "What full-point score can immediately win a judo contest?",
+      "initial": "I",
+      "answer": "Ippon",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ippon",
+        "https://en.wikipedia.org/wiki/Judo"
+      ]
+    },
+    {
+      "id": "sports-en-medium-01-11",
+      "text": "Which Japanese martial art was founded by Kanō Jigorō in 1882?",
+      "initial": "J",
+      "answer": "Judo",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Judo"]
+    },
+    {
+      "id": "sports-en-medium-01-12",
+      "text": "Which track-cycling event has riders follow a pacer before sprinting for the finish?",
+      "initial": "K",
+      "answer": "Keirin",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Keirin"]
+    },
+    {
+      "id": "sports-en-medium-01-13",
+      "text": "Which specialist defensive volleyball player wears a contrasting jersey?",
+      "initial": "L",
+      "answer": "Libero",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Libero_(volleyball)"]
+    },
+    {
+      "id": "sports-en-medium-01-14",
+      "text": "Which track-cycling event has teammates take turns racing, often exchanging with a hand sling?",
+      "initial": "M",
+      "answer": "Madison",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Madison race"],
+      "sources": ["https://en.wikipedia.org/wiki/Madison_(cycling)"]
+    },
+    {
+      "id": "sports-en-medium-01-15",
+      "text": "Which seven-a-side court sport has positions called Goal Shooter and Goal Attack?",
+      "initial": "N",
+      "answer": "Netball",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Netball",
+        "https://en.wikipedia.org/wiki/Netball_positions"
+      ]
+    },
+    {
+      "id": "sports-en-medium-01-16",
+      "text": "What is the multi-event track-cycling competition whose name comes from Latin for “of all”?",
+      "initial": "O",
+      "answer": "Omnium",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Omnium"]
+    },
+    {
+      "id": "sports-en-medium-01-17",
+      "text": "What is the main group of riders in a road cycling race called?",
+      "initial": "P",
+      "answer": "Peloton",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Bunch", "Pack"],
+      "sources": ["https://en.wikipedia.org/wiki/Peloton"]
+    },
+    {
+      "id": "sports-en-medium-01-18",
+      "text": "What boxing rules, published in 1867, are associated with a marquess and gloved contests?",
+      "initial": "Q",
+      "answer": "Queensberry rules",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Marquess of Queensberry rules",
+        "Marquis of Queensberry rules",
+        "Marquis of Queensbury rules",
+        "Queensbury rules"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules"]
+    },
+    {
+      "id": "sports-en-medium-01-19",
+      "text": "What bow type has limb tips that curve away from the archer when unstrung?",
+      "initial": "R",
+      "answer": "Recurve bow",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Recurve"],
+      "sources": ["https://en.wikipedia.org/wiki/Recurve_bow"]
+    },
+    {
+      "id": "sports-en-medium-01-20",
+      "text": "What rugby-union restart has opposing packs of forwards bind together and contest the ball?",
+      "initial": "S",
+      "answer": "Scrum",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Scrum_(rugby_union)"]
+    },
+    {
+      "id": "sports-en-medium-01-21",
+      "text": "Which speed-skating discipline races groups of skaters on a compact oval, commonly inside an ice-hockey rink?",
+      "initial": "SH",
+      "answer": "Short track",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Short-track speed skating", "Short track speed skating"],
+      "sources": ["https://en.wikipedia.org/wiki/Short-track_speed_skating"]
+    },
+    {
+      "id": "sports-en-medium-01-22",
+      "text": "Which multisport event normally combines swimming, cycling and running in that order?",
+      "initial": "T",
+      "answer": "Triathlon",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Triathlon"]
+    },
+    {
+      "id": "sports-en-medium-01-23",
+      "text": "What tennis serve is struck using an underhand motion rather than an overhead one?",
+      "initial": "U",
+      "answer": "Underarm serve",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Underhand serve", "Underarm service", "Underhand service"],
+      "sources": ["https://en.wikipedia.org/wiki/Serve_(tennis)"]
+    },
+    {
+      "id": "sports-en-medium-01-24",
+      "text": "What three-letter abbreviation names the football official who reviews video footage to advise the on-field referee?",
+      "initial": "V",
+      "answer": "VAR",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Video assistant referee"],
+      "sources": ["https://en.wikipedia.org/wiki/Video_assistant_referee"]
+    },
+    {
+      "id": "sports-en-medium-01-25",
+      "text": "What cricket structure consists of three stumps topped by two bails?",
+      "initial": "W",
+      "answer": "Wicket",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Wicket"]
+    },
+    {
+      "id": "sports-en-medium-01-26",
+      "text": "Which Spanish midfielder won the Champions League with Liverpool in 2005 and Real Madrid in 2014?",
+      "initial": "X",
+      "answer": "Xabi Alonso",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Alonso", "Xabier Alonso Olano"],
+      "sources": ["https://en.wikipedia.org/wiki/Xabi_Alonso"]
+    },
+    {
+      "id": "sports-en-medium-01-27",
+      "text": "Which Japanese skater won the men's individual figure-skating gold at both Sochi 2014 and Pyeongchang 2018?",
+      "initial": "Y",
+      "answer": "Yuzuru Hanyu",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Hanyu"],
+      "sources": ["https://en.wikipedia.org/wiki/Yuzuru_Hanyu"]
+    },
+    {
+      "id": "sports-en-medium-01-28",
+      "text": "Which Swedish striker co-wrote an autobiography with David Lagercrantz?",
+      "initial": "Z",
+      "answer": "Zlatan Ibrahimović",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Ibrahimović", "Zlatan"],
+      "sources": ["https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87"]
+    }
+  ]
+}

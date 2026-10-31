@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "geography-cs-01",
   "title": "Zeměpis a cestování · 01",
   "language": "cs",

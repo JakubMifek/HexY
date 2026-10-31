@@ -255,10 +255,13 @@ test('fixed and number selection guards never shuffle or replace rejected propos
   expect(() => prep.generate('Wrong mode')).toThrow();
   prep.select([]);
   expect(() => prep.useFixed()).toThrow();
-  prep.select(prep.bundled.map((pack) => pack.id));
+  prep.select(
+    prep.bundled
+      .filter((pack) => pack.language === 'en')
+      .map((pack) => pack.id),
+  );
   expect(() => prep.useFixed()).toThrow();
-  prep.select([prep.bundled[0].id]);
-  expect(() => prep.useFixed()).toThrow(
+  expect(() => prep.select([prep.bundled[0].id])).toThrow(
     expect.objectContaining({ code: 'mixedSources' }),
   );
   prep.select([prep.bundled[1].id]);
@@ -284,7 +287,15 @@ test('fixed and number selection guards never shuffle or replace rejected propos
     'Numbers',
   );
   prep.add([numbers]);
-  prep.select([numbers.id]);
+  expect(() => prep.select([numbers.id])).toThrow(
+    expect.objectContaining({ code: 'mixedSources' }),
+  );
+  prep.select([prep.bundled[1].id]);
+  prep.generate('English numbers');
+  if (!prep.proposal) throw new Error('No number board');
+  prep.add([prep.proposal]);
+  prep.select([prep.proposal.id]);
+  prep.mode = 'letters';
   expect(() => prep.useNumbers()).toThrow(
     expect.objectContaining({ code: 'preparationMismatch' }),
   );

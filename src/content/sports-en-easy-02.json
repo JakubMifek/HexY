@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-en-easy-02",
+  "title": "Sports · Easy · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-en-easy-02-01",
+      "text": "What umbrella sport includes track races, jumping events and throwing events?",
+      "initial": "A",
+      "answer": "Athletics",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Track and field", "Track and field athletics"],
+      "sources": ["https://en.wikipedia.org/wiki/Athletics_(sport)"]
+    },
+    {
+      "id": "sports-en-easy-02-02",
+      "text": "In which combat sport do gloved opponents punch each other in a ring?",
+      "initial": "B",
+      "answer": "Boxing",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Boxing"]
+    },
+    {
+      "id": "sports-en-easy-02-03",
+      "text": "Which sport includes road races, track events and mountain-bike racing?",
+      "initial": "C",
+      "answer": "Cycling",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Bicycle racing", "Cycle sport", "Bicycling", "Biking"],
+      "sources": ["https://en.wikipedia.org/wiki/Cycling"]
+    },
+    {
+      "id": "sports-en-easy-02-04",
+      "text": "Which London football club plays its home games at Stamford Bridge?",
+      "initial": "CH",
+      "answer": "Chelsea",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Chelsea FC", "Chelsea Football Club"],
+      "sources": ["https://en.wikipedia.org/wiki/Chelsea_F.C."]
+    },
+    {
+      "id": "sports-en-easy-02-05",
+      "text": "Which sport involves throwing small pointed projectiles at a numbered circular board?",
+      "initial": "D",
+      "answer": "Darts",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Darts"]
+    },
+    {
+      "id": "sports-en-easy-02-06",
+      "text": "What is the additional playing period used to settle some drawn knockout football matches before a possible shoot-out?",
+      "initial": "E",
+      "answer": "Extra time",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["ET", "Overtime"],
+      "sources": ["https://en.wikipedia.org/wiki/Overtime_(sports)"]
+    },
+    {
+      "id": "sports-en-easy-02-07",
+      "text": "Which combat sport uses the foil, épée and sabre?",
+      "initial": "F",
+      "answer": "Fencing",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Fencing"]
+    },
+    {
+      "id": "sports-en-easy-02-08",
+      "text": "Which football player may handle the ball within their own penalty area, subject to the rules?",
+      "initial": "G",
+      "answer": "Goalkeeper",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Goalie", "Keeper", "Goal-keeper"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-en-easy-02-09",
+      "text": "In which indoor team sport do players mainly pass and throw a ball with their hands to score in a goal?",
+      "initial": "H",
+      "answer": "Handball",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Team handball",
+        "Olympic handball",
+        "European handball",
+        "Indoor handball"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Handball"]
+    },
+    {
+      "id": "sports-en-easy-02-10",
+      "text": "What activity uses boots with wheels arranged in a single line?",
+      "initial": "I",
+      "answer": "Inline skating",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Rollerblading", "In-line skating", "Blading"],
+      "sources": ["https://en.wikipedia.org/wiki/Inline_skating"]
+    },
+    {
+      "id": "sports-en-easy-02-11",
+      "text": "What is the usual name for a professional rider in horse races?",
+      "initial": "J",
+      "answer": "Jockey",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jockey"]
+    },
+    {
+      "id": "sports-en-easy-02-12",
+      "text": "What restart begins each half of a football match and follows a goal?",
+      "initial": "K",
+      "answer": "Kick-off",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Kickoff", "Kick off"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kick-off_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-en-easy-02-13",
+      "text": "What is one complete trip around a racing track called?",
+      "initial": "L",
+      "answer": "Lap",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Circuit"],
+      "sources": ["https://en.wiktionary.org/wiki/lap"]
+    },
+    {
+      "id": "sports-en-easy-02-14",
+      "text": "Which Chicago Bulls basketball star was also nicknamed “His Airness”?",
+      "initial": "M",
+      "answer": "Michael Jordan",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Jordan", "Michael Jeffrey Jordan", "MJ"],
+      "sources": ["https://en.wikipedia.org/wiki/Michael_Jordan"]
+    },
+    {
+      "id": "sports-en-easy-02-15",
+      "text": "Which Serbian tennis player won the men's singles title at the 2023 US Open?",
+      "initial": "N",
+      "answer": "Novak Djokovic",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Djokovic", "Novak Đoković", "Đoković"],
+      "sources": ["https://en.wikipedia.org/wiki/Novak_Djokovic"]
+    },
+    {
+      "id": "sports-en-easy-02-16",
+      "text": "What five interlocking coloured shapes form the best-known symbol of the Olympic Games?",
+      "initial": "O",
+      "answer": "Olympic rings",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "The Olympic rings",
+        "Five rings",
+        "Rings",
+        "Five Olympic rings"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Olympic_symbols"]
+    },
+    {
+      "id": "sports-en-easy-02-17",
+      "text": "What raised platform do the top three finishers stand on at a medal ceremony?",
+      "initial": "P",
+      "answer": "Podium",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Winners' podium", "Victory podium", "Rostrum"],
+      "sources": ["https://en.wikipedia.org/wiki/Podium"]
+    },
+    {
+      "id": "sports-en-easy-02-18",
+      "text": "What container does an archer use to hold arrows?",
+      "initial": "Q",
+      "answer": "Quiver",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Quiver"]
+    },
+    {
+      "id": "sports-en-easy-02-19",
+      "text": "What stringed implement do players use to strike the ball in tennis?",
+      "initial": "R",
+      "answer": "Racket",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Racquet", "Tennis racket", "Tennis racquet"],
+      "sources": ["https://en.wikipedia.org/wiki/Racket_(sports_equipment)"]
+    },
+    {
+      "id": "sports-en-easy-02-20",
+      "text": "Which aquatic sport has competitive strokes called butterfly, backstroke and breaststroke?",
+      "initial": "S",
+      "answer": "Swimming",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Swimming_(sport)"]
+    },
+    {
+      "id": "sports-en-easy-02-21",
+      "text": "What protective item is worn over the lower leg by football players?",
+      "initial": "SH",
+      "answer": "Shin guard",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Shin pad",
+        "Shinguard",
+        "Shinpad",
+        "Shin guards",
+        "Shin pads"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Shin_guard"]
+    },
+    {
+      "id": "sports-en-easy-02-22",
+      "text": "What racket sport uses small bats and a lightweight ball on a rectangular table divided by a net?",
+      "initial": "T",
+      "answer": "Table tennis",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Ping-pong", "Ping pong"],
+      "sources": ["https://en.wikipedia.org/wiki/Table_tennis"]
+    },
+    {
+      "id": "sports-en-easy-02-23",
+      "text": "Which Jamaican sprinter won the men's 100 metres at the 2008, 2012 and 2016 Olympics?",
+      "initial": "U",
+      "answer": "Usain Bolt",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Bolt", "Usain St Leo Bolt", "Usain St. Leo Bolt"],
+      "sources": ["https://en.wikipedia.org/wiki/Usain_Bolt"]
+    },
+    {
+      "id": "sports-en-easy-02-24",
+      "text": "What is a track cycling arena with a banked oval track called?",
+      "initial": "V",
+      "answer": "Velodrome",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Velodrome"]
+    },
+    {
+      "id": "sports-en-easy-02-25",
+      "text": "Which combat sport includes freestyle and Greco-Roman disciplines?",
+      "initial": "W",
+      "answer": "Wrestling",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Olympic wrestling"],
+      "sources": ["https://en.wikipedia.org/wiki/Wrestling"]
+    },
+    {
+      "id": "sports-en-easy-02-26",
+      "text": "Which Spanish midfielder, whose surname is Hernández, starred for Barcelona and helped Spain win the 2010 World Cup?",
+      "initial": "X",
+      "answer": "Xavi",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Xavi Hernández",
+        "Xavier Hernández",
+        "Xavier Hernández Creus"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Xavi_(footballer,_born_1980)"]
+    },
+    {
+      "id": "sports-en-easy-02-27",
+      "text": "What type of sailing vessel gives its name to yachting?",
+      "initial": "Y",
+      "answer": "Yacht",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Sailing yacht"],
+      "sources": ["https://en.wikipedia.org/wiki/Yacht"]
+    },
+    {
+      "id": "sports-en-easy-02-28",
+      "text": "Which French footballer scored twice in the 1998 men's World Cup final?",
+      "initial": "Z",
+      "answer": "Zinedine Zidane",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Zidane", "Zinedine Yazid Zidane", "Zizou"],
+      "sources": ["https://en.wikipedia.org/wiki/Zinedine_Zidane"]
+    }
+  ]
+}

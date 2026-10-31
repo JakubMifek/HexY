@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-en-easy-01",
+  "title": "Sports · Easy · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-en-easy-01-01",
+      "text": "Which sport involves shooting arrows from a bow at a target?",
+      "initial": "A",
+      "answer": "Archery",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Bow and arrow shooting"],
+      "sources": ["https://en.wikipedia.org/wiki/Archery"]
+    },
+    {
+      "id": "sports-en-easy-01-02",
+      "text": "In which team sport do players score by throwing a ball through an elevated hoop?",
+      "initial": "B",
+      "answer": "Basketball",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Basketball"]
+    },
+    {
+      "id": "sports-en-easy-01-03",
+      "text": "Which bat-and-ball sport has batters defending wickets and bowlers delivering the ball?",
+      "initial": "C",
+      "answer": "Cricket",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cricket"]
+    },
+    {
+      "id": "sports-en-easy-01-04",
+      "text": "Which UEFA men's club competition has a name meaning a league of champions?",
+      "initial": "CH",
+      "answer": "Champions League",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["UEFA Champions League", "UCL"],
+      "sources": ["https://en.wikipedia.org/wiki/UEFA_Champions_League"]
+    },
+    {
+      "id": "sports-en-easy-01-05",
+      "text": "In which aquatic sport are competitors judged on acrobatic entries into water from a board or platform?",
+      "initial": "D",
+      "answer": "Diving",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Sport diving"],
+      "sources": ["https://en.wikipedia.org/wiki/Diving_(sport)"]
+    },
+    {
+      "id": "sports-en-easy-01-06",
+      "text": "What is the collective term for sports involving riding horses?",
+      "initial": "E",
+      "answer": "Equestrianism",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Equestrian sport",
+        "Equestrian sports",
+        "Horse riding",
+        "Horseback riding"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Equestrianism"]
+    },
+    {
+      "id": "sports-en-easy-01-07",
+      "text": "Which swimming event category normally permits any stroke, with front crawl the usual competitive choice?",
+      "initial": "F",
+      "answer": "Freestyle",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Freestyle swimming"],
+      "sources": ["https://en.wikipedia.org/wiki/Freestyle_swimming"]
+    },
+    {
+      "id": "sports-en-easy-01-08",
+      "text": "In which sport do players use clubs to get a small ball into holes in as few strokes as possible?",
+      "initial": "G",
+      "answer": "Golf",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Golf"]
+    },
+    {
+      "id": "sports-en-easy-01-09",
+      "text": "What are the barriers that runners jump over in a hurdle race called?",
+      "initial": "H",
+      "answer": "Hurdles",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Hurdling"]
+    },
+    {
+      "id": "sports-en-easy-01-10",
+      "text": "Which team sport is played on skates with sticks and a puck?",
+      "initial": "I",
+      "answer": "Ice hockey",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Hockey"],
+      "sources": ["https://en.wikipedia.org/wiki/Ice_hockey"]
+    },
+    {
+      "id": "sports-en-easy-01-11",
+      "text": "What spear-shaped implement is thrown in an athletics event?",
+      "initial": "J",
+      "answer": "Javelin",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Javelin_throw"]
+    },
+    {
+      "id": "sports-en-easy-01-12",
+      "text": "Which Japanese martial art has a name usually translated as “empty hand”?",
+      "initial": "K",
+      "answer": "Karate",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Karate"]
+    },
+    {
+      "id": "sports-en-easy-01-13",
+      "text": "In which athletics event does a competitor leap from a take-off board into a sandpit for distance?",
+      "initial": "L",
+      "answer": "Long jump",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Broad jump"],
+      "sources": ["https://en.wikipedia.org/wiki/Long_jump"]
+    },
+    {
+      "id": "sports-en-easy-01-14",
+      "text": "What small metal award is often presented to podium finishers at sporting events?",
+      "initial": "M",
+      "answer": "Medal",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Medallion"],
+      "sources": ["https://en.wikipedia.org/wiki/Medal"]
+    },
+    {
+      "id": "sports-en-easy-01-15",
+      "text": "What divides the two halves of a tennis court and must the ball normally pass over?",
+      "initial": "N",
+      "answer": "Net",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Tennis net"],
+      "sources": ["https://en.wikipedia.org/wiki/Tennis"]
+    },
+    {
+      "id": "sports-en-easy-01-16",
+      "text": "What football rule can penalise an attacker who becomes involved in play from an unlawful advanced position?",
+      "initial": "O",
+      "answer": "Offside",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Offside rule"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Offside_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-en-easy-01-17",
+      "text": "What direct shot at goal from a designated spot is awarded for certain football offences inside the defending team's box?",
+      "initial": "P",
+      "answer": "Penalty kick",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Penalty", "Spot kick", "Pen"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Penalty_kick_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-en-easy-01-18",
+      "text": "Which American football position usually receives the snap and directs the offensive play?",
+      "initial": "Q",
+      "answer": "Quarterback",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["QB"],
+      "sources": ["https://en.wikipedia.org/wiki/Quarterback"]
+    },
+    {
+      "id": "sports-en-easy-01-19",
+      "text": "What kind of running race has teammates complete successive legs, usually passing a baton?",
+      "initial": "R",
+      "answer": "Relay",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Relay race"],
+      "sources": ["https://en.wikipedia.org/wiki/Relay_race"]
+    },
+    {
+      "id": "sports-en-easy-01-20",
+      "text": "What winter activity involves travelling over snow on long runners attached to the feet?",
+      "initial": "S",
+      "answer": "Skiing",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Skiing"]
+    },
+    {
+      "id": "sports-en-easy-01-21",
+      "text": "Which athletics event involves pushing a heavy metal ball from the shoulder?",
+      "initial": "SH",
+      "answer": "Shot put",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Shot_put"]
+    },
+    {
+      "id": "sports-en-easy-01-22",
+      "text": "Which racket sport uses the terms love, deuce and advantage in its traditional scoring?",
+      "initial": "T",
+      "answer": "Tennis",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tennis"]
+    },
+    {
+      "id": "sports-en-easy-01-23",
+      "text": "What is the title of an official who gives decisions such as out or not out in cricket?",
+      "initial": "U",
+      "answer": "Umpire",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Cricket umpire"],
+      "sources": ["https://en.wikipedia.org/wiki/Umpire_(cricket)"]
+    },
+    {
+      "id": "sports-en-easy-01-24",
+      "text": "Which team sport normally allows three touches to return a ball over a high net?",
+      "initial": "V",
+      "answer": "Volleyball",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Volleyball"]
+    },
+    {
+      "id": "sports-en-easy-01-25",
+      "text": "Which London Grand Slam tennis tournament is traditionally played on grass?",
+      "initial": "W",
+      "answer": "Wimbledon",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "The Championships, Wimbledon",
+        "Wimbledon Championships",
+        "The All England Lawn Tennis Championships"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Wimbledon_Championships"]
+    },
+    {
+      "id": "sports-en-easy-01-26",
+      "text": "Which ESPN-founded sporting event series features disciplines such as skateboarding and BMX?",
+      "initial": "X",
+      "answer": "X Games",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/X_Games"]
+    },
+    {
+      "id": "sports-en-easy-01-27",
+      "text": "What coloured card is shown to caution a football player?",
+      "initial": "Y",
+      "answer": "Yellow card",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Yellow"],
+      "sources": ["https://en.wikipedia.org/wiki/Penalty_card"]
+    },
+    {
+      "id": "sports-en-easy-01-28",
+      "text": "Which surname is used as the brand name of a familiar ice-resurfacing machine?",
+      "initial": "Z",
+      "answer": "Zamboni",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Frank Zamboni"],
+      "sources": ["https://en.wikipedia.org/wiki/Ice_resurfacer"]
+    }
+  ]
+}

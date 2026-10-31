@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 2,
+  "id": "history-en-easy-01",
+  "title": "History · Easy · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-en-easy-01-01",
+      "text": "Which US president was assassinated at Ford's Theatre in April 1865?",
+      "initial": "A",
+      "answer": "Abraham Lincoln",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Lincoln", "President Lincoln"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln"
+      ]
+    },
+    {
+      "id": "history-en-easy-01-02",
+      "text": "Which concrete barrier dividing a German city was opened to crossings on 9 November 1989?",
+      "initial": "B",
+      "answer": "Berlin Wall",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Berlin Wall"],
+      "sources": ["https://en.wikipedia.org/wiki/Berlin_Wall"]
+    },
+    {
+      "id": "history-en-easy-01-03",
+      "text": "Which Egyptian queen formed political and romantic alliances with both Julius Caesar and Mark Antony?",
+      "initial": "C",
+      "answer": "Cleopatra",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Cleopatra VII",
+        "Cleopatra VII Philopator",
+        "Cleopatra VII Thea Philopator"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Cleopatra"]
+    },
+    {
+      "id": "history-en-easy-01-04",
+      "text": "Which navigator crossed the Atlantic in 1492 on a Spanish-sponsored voyage and reached the Caribbean?",
+      "initial": "CH",
+      "answer": "Christopher Columbus",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Columbus", "Cristóbal Colón", "Cristoforo Colombo"],
+      "sources": ["https://en.wikipedia.org/wiki/Christopher_Columbus"]
+    },
+    {
+      "id": "history-en-easy-01-05",
+      "text": "What common name is given to 6 June 1944, when Allied forces landed on the Normandy coast?",
+      "initial": "D",
+      "answer": "D-Day",
+      "language": "en",
+      "category": "history",
+      "aliases": ["D Day", "Normandy landings", "Operation Neptune"],
+      "sources": ["https://en.wikipedia.org/wiki/Normandy_landings"]
+    },
+    {
+      "id": "history-en-easy-01-06",
+      "text": "Which British queen was crowned in Westminster Abbey on 2 June 1953?",
+      "initial": "E",
+      "answer": "Elizabeth II",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Queen Elizabeth II",
+        "Elizabeth the Second",
+        "Queen Elizabeth the Second"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II"]
+    },
+    {
+      "id": "history-en-easy-01-07",
+      "text": "Which upheaval began in France in 1789 and led to the abolition of its monarchy in 1792?",
+      "initial": "F",
+      "answer": "French Revolution",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The French Revolution"],
+      "sources": ["https://en.wikipedia.org/wiki/French_Revolution"]
+    },
+    {
+      "id": "history-en-easy-01-08",
+      "text": "What was the surname of Mohandas, the leader associated with nonviolent resistance to British rule in India?",
+      "initial": "G",
+      "answer": "Gandhi",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Mahatma Gandhi",
+        "Mohandas Gandhi",
+        "Mohandas Karamchand Gandhi"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Mahatma_Gandhi"]
+    },
+    {
+      "id": "history-en-easy-01-09",
+      "text": "What name is commonly used for Nazi Germany's genocide of approximately six million European Jews during the Second World War?",
+      "initial": "H",
+      "answer": "Holocaust",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Holocaust", "Shoah", "The Shoah"],
+      "sources": ["https://en.wikipedia.org/wiki/The_Holocaust"]
+    },
+    {
+      "id": "history-en-easy-01-10",
+      "text": "What name describes the major shift to mechanized factory production that began in Britain in the eighteenth century?",
+      "initial": "I",
+      "answer": "Industrial Revolution",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Industrial Revolution", "First Industrial Revolution"],
+      "sources": ["https://en.wikipedia.org/wiki/Industrial_Revolution"]
+    },
+    {
+      "id": "history-en-easy-01-11",
+      "text": "Which Roman dictator was assassinated on the Ides of March in 44 BCE?",
+      "initial": "J",
+      "answer": "Julius Caesar",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Caesar", "Gaius Julius Caesar"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"
+      ]
+    },
+    {
+      "id": "history-en-easy-01-12",
+      "text": "Which Egyptian pharaoh's tomb was discovered by Howard Carter in 1922?",
+      "initial": "K",
+      "answer": "King Tut",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Tutankhamun",
+        "Tutankhamen",
+        "King Tutankhamun",
+        "Tutankhaten"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Tutankhamun"]
+    },
+    {
+      "id": "history-en-easy-01-13",
+      "text": "Which Renaissance figure left notebooks containing designs for flying machines and studies of human anatomy?",
+      "initial": "L",
+      "answer": "Leonardo da Vinci",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Leonardo", "Da Vinci", "Leonardo di ser Piero da Vinci"],
+      "sources": ["https://en.wikipedia.org/wiki/Leonardo_da_Vinci"]
+    },
+    {
+      "id": "history-en-easy-01-14",
+      "text": "Which ship carried the Pilgrims from England to what is now Massachusetts in 1620?",
+      "initial": "M",
+      "answer": "Mayflower",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Mayflower"],
+      "sources": ["https://en.wikipedia.org/wiki/Mayflower"]
+    },
+    {
+      "id": "history-en-easy-01-15",
+      "text": "Which astronaut became the first person to walk on the Moon in July 1969?",
+      "initial": "N",
+      "answer": "Neil Armstrong",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Armstrong", "Neil Alden Armstrong"],
+      "sources": ["https://en.wikipedia.org/wiki/Neil_Armstrong"]
+    },
+    {
+      "id": "history-en-easy-01-16",
+      "text": "What ancient sporting festival was held at Olympia in honour of Zeus?",
+      "initial": "O",
+      "answer": "Olympic Games",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Ancient Olympic Games", "The Olympic Games", "Olympics"],
+      "sources": ["https://en.wikipedia.org/wiki/Ancient_Olympic_Games"]
+    },
+    {
+      "id": "history-en-easy-01-17",
+      "text": "Which US naval base in Hawaii was attacked by Japanese forces on 7 December 1941?",
+      "initial": "P",
+      "answer": "Pearl Harbor",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Pearl Harbour"],
+      "sources": ["https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"]
+    },
+    {
+      "id": "history-en-easy-01-18",
+      "text": "Which British monarch reigned from 1837 to 1901, giving her name to an era of nineteenth-century history?",
+      "initial": "Q",
+      "answer": "Queen Victoria",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Victoria", "Alexandrina Victoria"],
+      "sources": ["https://en.wikipedia.org/wiki/Queen_Victoria"]
+    },
+    {
+      "id": "history-en-easy-01-19",
+      "text": "Which ancient empire built Hadrian's Wall across northern Britain in the second century CE?",
+      "initial": "R",
+      "answer": "Roman Empire",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Roman Empire"],
+      "sources": ["https://en.wikipedia.org/wiki/Hadrian%27s_Wall"]
+    },
+    {
+      "id": "history-en-easy-01-20",
+      "text": "What broad prehistoric period is named after the material used for many of its surviving cutting tools?",
+      "initial": "S",
+      "answer": "Stone Age",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Stone Age"],
+      "sources": ["https://en.wikipedia.org/wiki/Stone_Age"]
+    },
+    {
+      "id": "history-en-easy-01-21",
+      "text": "What item of defensive equipment did an ancient Greek hoplite carry on his arm to protect his body from blows?",
+      "initial": "SH",
+      "answer": "Shield",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Aspis", "Hoplite shield"],
+      "sources": ["https://en.wikipedia.org/wiki/Hoplite"]
+    },
+    {
+      "id": "history-en-easy-01-22",
+      "text": "Which American inventor demonstrated the phonograph, an early machine for recording and reproducing sound, in 1877?",
+      "initial": "T",
+      "answer": "Thomas Edison",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Edison", "Thomas Alva Edison"],
+      "sources": ["https://en.wikipedia.org/wiki/Thomas_Edison"]
+    },
+    {
+      "id": "history-en-easy-01-23",
+      "text": "Which international organization was founded in 1945 to promote peace after the Second World War?",
+      "initial": "U",
+      "answer": "United Nations",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "UN",
+        "The United Nations",
+        "United Nations Organization",
+        "United Nations Organisation",
+        "UNO"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/United_Nations"]
+    },
+    {
+      "id": "history-en-easy-01-24",
+      "text": "What commemoration is held on 8 May to mark Nazi Germany's surrender in 1945?",
+      "initial": "V",
+      "answer": "Victory in Europe Day",
+      "language": "en",
+      "category": "history",
+      "aliases": ["VE Day", "V-E Day", "V E Day", "V.E. Day", "VE-Day"],
+      "sources": ["https://en.wikipedia.org/wiki/Victory_in_Europe_Day"]
+    },
+    {
+      "id": "history-en-easy-01-25",
+      "text": "Which American brothers made powered, controlled aeroplane flights near Kitty Hawk in December 1903?",
+      "initial": "W",
+      "answer": "Wright brothers",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Orville and Wilbur Wright", "Wilbur and Orville Wright"],
+      "sources": ["https://en.wikipedia.org/wiki/Wright_brothers"]
+    },
+    {
+      "id": "history-en-easy-01-26",
+      "text": "What dry photocopying process did Chester Carlson demonstrate in 1938, using static electricity rather than liquid ink?",
+      "initial": "X",
+      "answer": "Xerography",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Electrophotography"],
+      "sources": ["https://en.wikipedia.org/wiki/Chester_Carlson"]
+    },
+    {
+      "id": "history-en-easy-01-27",
+      "text": "Which Soviet cosmonaut became the first human to orbit Earth in April 1961?",
+      "initial": "Y",
+      "answer": "Yuri Gagarin",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Gagarin", "Yury Gagarin", "Yuri Alekseyevich Gagarin"],
+      "sources": ["https://en.wikipedia.org/wiki/Yuri_Gagarin"]
+    },
+    {
+      "id": "history-en-easy-01-28",
+      "text": "What was the surname of Count Ferdinand, whose LZ 1 rigid airship first flew over Lake Constance in 1900?",
+      "initial": "Z",
+      "answer": "Zeppelin",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Ferdinand von Zeppelin", "Count Zeppelin"],
+      "sources": ["https://en.wikipedia.org/wiki/Ferdinand_von_Zeppelin"]
+    }
+  ]
+}

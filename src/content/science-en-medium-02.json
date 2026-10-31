@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-medium-02",
+  "title": "Science and technology · Medium · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-medium-02-01",
+      "text": "What rotational quantity is conserved when the net external torque on a system is zero?",
+      "initial": "A",
+      "answer": "Angular momentum",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Moment of momentum", "Rotational momentum"],
+      "sources": ["https://en.wikipedia.org/wiki/Angular_momentum"]
+    },
+    {
+      "id": "science-en-medium-02-02",
+      "text": "What alloy consists primarily of copper and zinc?",
+      "initial": "B",
+      "answer": "Brass",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Brass"]
+    },
+    {
+      "id": "science-en-medium-02-03",
+      "text": "What reusable protective switch automatically interrupts a circuit when excessive current flows?",
+      "initial": "C",
+      "answer": "Circuit breaker",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Circuit_breaker"]
+    },
+    {
+      "id": "science-en-medium-02-04",
+      "text": "What chemical element, symbol Cr, gives stainless steel much of its resistance to corrosion?",
+      "initial": "CH",
+      "answer": "Chromium",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chromium"]
+    },
+    {
+      "id": "science-en-medium-02-05",
+      "text": "What separation process vaporizes part of a liquid mixture and then condenses the vapour?",
+      "initial": "D",
+      "answer": "Distillation",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Classical distillation"],
+      "sources": ["https://en.wikipedia.org/wiki/Distillation"]
+    },
+    {
+      "id": "science-en-medium-02-06",
+      "text": "What circulating electric current is induced inside a bulk conductor by a changing magnetic field?",
+      "initial": "E",
+      "answer": "Eddy current",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Foucault's current",
+        "Foucault current",
+        "Eddy currents",
+        "Foucault’s current"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Eddy_current"]
+    },
+    {
+      "id": "science-en-medium-02-07",
+      "text": "What rotating mechanical component stores energy and helps smooth fluctuations in rotational speed?",
+      "initial": "F",
+      "answer": "Flywheel",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Flywheel"]
+    },
+    {
+      "id": "science-en-medium-02-08",
+      "text": "What ratio compares the rotational speeds of two meshing gears and can be found from their tooth counts?",
+      "initial": "G",
+      "answer": "Gear ratio",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Angular speed ratio",
+        "Speed ratio",
+        "Transmission ratio",
+        "Velocity ratio"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Gear_ratio"]
+    },
+    {
+      "id": "science-en-medium-02-09",
+      "text": "What device uses external work to transfer heat from a colder region to a warmer one?",
+      "initial": "H",
+      "answer": "Heat pump",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Heat_pump"]
+    },
+    {
+      "id": "science-en-medium-02-10",
+      "text": "What property of matter resists a change from rest or uniform straight-line motion?",
+      "initial": "I",
+      "answer": "Inertia",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Inertia"]
+    },
+    {
+      "id": "science-en-medium-02-11",
+      "text": "What effect converts electrical energy into heat when current passes through resistance?",
+      "initial": "J",
+      "answer": "Joule heating",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Resistive heating", "Ohmic heating", "Resistance heating"],
+      "sources": ["https://en.wikipedia.org/wiki/Joule_heating"]
+    },
+    {
+      "id": "science-en-medium-02-12",
+      "text": "What unit of energy equals the use of one kilowatt of power for one hour?",
+      "initial": "K",
+      "answer": "Kilowatt-hour",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Kilowatt hour", "kWh", "kW h", "kW⋅h", "kW·h"],
+      "sources": ["https://en.wikipedia.org/wiki/Kilowatt-hour"]
+    },
+    {
+      "id": "science-en-medium-02-13",
+      "text": "What machine tool rotates a workpiece against a cutting tool to produce shapes such as cylinders?",
+      "initial": "L",
+      "answer": "Lathe",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lathe"]
+    },
+    {
+      "id": "science-en-medium-02-14",
+      "text": "What instrument commonly combines measurements of voltage, current and resistance?",
+      "initial": "M",
+      "answer": "Multimeter",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Multi-tester",
+        "Multitester",
+        "Volt-ohm-milliammeter",
+        "Volt-ohmmeter",
+        "VOM",
+        "Avometer",
+        "AVO meter",
+        "Ampere-volt-ohmmeter"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Multimeter"]
+    },
+    {
+      "id": "science-en-medium-02-15",
+      "text": "What general reaction occurs when an acid and a base react with one another in equivalent amounts?",
+      "initial": "N",
+      "answer": "Neutralization",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Neutralisation",
+        "Acid-base neutralization",
+        "Acid-base neutralisation"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Neutralization_(chemistry)"]
+    },
+    {
+      "id": "science-en-medium-02-16",
+      "text": "What numerical rating describes a petrol fuel's resistance to engine knock, not its energy content?",
+      "initial": "O",
+      "answer": "Octane rating",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Octane number"],
+      "sources": ["https://en.wikipedia.org/wiki/Octane_rating"]
+    },
+    {
+      "id": "science-en-medium-02-17",
+      "text": "What phenomenon ejects electrons from a material when it absorbs light of sufficiently high frequency?",
+      "initial": "P",
+      "answer": "Photoelectric effect",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Photoelectric_effect"]
+    },
+    {
+      "id": "science-en-medium-02-18",
+      "text": "What glass consists almost entirely of silica rather than the alkali-containing mixture of ordinary window glass?",
+      "initial": "Q",
+      "answer": "Quartz glass",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Fused silica",
+        "Fused quartz",
+        "Silica glass",
+        "Vitreous silica"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Fused_quartz"]
+    },
+    {
+      "id": "science-en-medium-02-19",
+      "text": "What device converts alternating electric current into direct current?",
+      "initial": "R",
+      "answer": "Rectifier",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Rectifier"]
+    },
+    {
+      "id": "science-en-medium-02-20",
+      "text": "What joining process melts a filler metal below about 450 °C without melting the metal parts being joined?",
+      "initial": "S",
+      "answer": "Soldering",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Soft soldering"],
+      "sources": ["https://en.wikipedia.org/wiki/Soldering"]
+    },
+    {
+      "id": "science-en-medium-02-21",
+      "text": "What low-resistance parallel path diverts most of a circuit's current around a measuring instrument?",
+      "initial": "SH",
+      "answer": "Shunt",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Shunt resistor", "Ammeter shunt"],
+      "sources": ["https://en.wikipedia.org/wiki/Shunt_(electrical)"]
+    },
+    {
+      "id": "science-en-medium-02-22",
+      "text": "What control device senses temperature and switches heating or cooling to maintain a set value?",
+      "initial": "T",
+      "answer": "Thermostat",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Thermostat"]
+    },
+    {
+      "id": "science-en-medium-02-23",
+      "text": "What constant R appears in the ideal gas equation pV = nRT?",
+      "initial": "U",
+      "answer": "Universal gas constant",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Gas constant", "Ideal gas constant", "Molar gas constant"],
+      "sources": ["https://en.wikipedia.org/wiki/Gas_constant"]
+    },
+    {
+      "id": "science-en-medium-02-24",
+      "text": "What process forms cross-links in rubber, traditionally using sulfur, to improve its mechanical properties?",
+      "initial": "V",
+      "answer": "Vulcanization",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Vulcanisation"],
+      "sources": ["https://en.wikipedia.org/wiki/Vulcanization"]
+    },
+    {
+      "id": "science-en-medium-02-25",
+      "text": "What structure confines and directs waves, such as a hollow metal tube used for microwaves?",
+      "initial": "W",
+      "answer": "Waveguide",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Waveguide"]
+    },
+    {
+      "id": "science-en-medium-02-26",
+      "text": "What analytical technique identifies elements by the characteristic secondary X-rays emitted after irradiation?",
+      "initial": "X",
+      "answer": "X-ray fluorescence",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "XRF",
+        "X-ray fluorescence spectroscopy",
+        "X-ray fluorescence analysis"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/X-ray_fluorescence"]
+    },
+    {
+      "id": "science-en-medium-02-27",
+      "text": "What experiment associated with Thomas Young sends light through two narrow openings to demonstrate interference?",
+      "initial": "Y",
+      "answer": "Young's double-slit experiment",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Young's experiment",
+        "Double-slit experiment",
+        "Young double-slit experiment",
+        "Double slit experiment",
+        "Young’s double-slit experiment",
+        "Young’s experiment"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Double-slit_experiment"]
+    },
+    {
+      "id": "science-en-medium-02-28",
+      "text": "What purification process moves a narrow molten region along a solid ingot to concentrate impurities at one end?",
+      "initial": "Z",
+      "answer": "Zone refining",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Zone melting",
+        "Zone melting purification",
+        "Floating-zone method",
+        "Floating zone method",
+        "Floating-zone technique",
+        "Float zone process"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Zone_melting"]
+    }
+  ]
+}

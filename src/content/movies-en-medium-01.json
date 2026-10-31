@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "movies-en-medium-01",
+  "title": "Movies and series · Medium 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-en-medium-01-01",
+      "text": "Which 2001 Jean-Pierre Jeunet film follows a Parisian waitress who secretly improves other people's lives?",
+      "initial": "A",
+      "answer": "Amélie",
+      "language": "en",
+      "aliases": [
+        "Le Fabuleux Destin d'Amélie Poulain",
+        "Le Fabuleux Destin d’Amélie Poulain"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Am%C3%A9lie"]
+    },
+    {
+      "id": "movies-en-medium-01-02",
+      "text": "Which series follows chemistry teacher Walter White as he becomes a methamphetamine producer?",
+      "initial": "B",
+      "answer": "Breaking Bad",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Breaking_Bad"]
+    },
+    {
+      "id": "movies-en-medium-01-03",
+      "text": "What is the surname of the television detective played by Peter Falk?",
+      "initial": "C",
+      "answer": "Columbo",
+      "language": "en",
+      "aliases": ["Lieutenant Columbo", "Lt Columbo", "Lt. Columbo"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Columbo"]
+    },
+    {
+      "id": "movies-en-medium-01-04",
+      "text": "Which 2002 film musical features Roxie Hart and Velma Kelly as women accused of murder?",
+      "initial": "CH",
+      "answer": "Chicago",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Chicago_%282002_film%29"]
+    },
+    {
+      "id": "movies-en-medium-01-05",
+      "text": "Which series centres on a Miami police blood-spatter analyst who is also a serial killer targeting murderers?",
+      "initial": "D",
+      "answer": "Dexter",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Dexter_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-medium-01-06",
+      "text": "In which 2014 Alex Garland film does programmer Caleb assess a humanoid AI called Ava?",
+      "initial": "E",
+      "answer": "Ex Machina",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Ex_Machina_%28film%29"]
+    },
+    {
+      "id": "movies-en-medium-01-07",
+      "text": "Which 1996 Coen brothers film follows pregnant police chief Marge Gunderson investigating murders in Minnesota?",
+      "initial": "F",
+      "answer": "Fargo",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Fargo_%281996_film%29"]
+    },
+    {
+      "id": "movies-en-medium-01-08",
+      "text": "Which series follows Lorelai and her daughter Rory in the town of Stars Hollow?",
+      "initial": "G",
+      "answer": "Gilmore Girls",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Gilmore_Girls"]
+    },
+    {
+      "id": "movies-en-medium-01-09",
+      "text": "Which HBO series dramatises the Targaryen civil war known as the Dance of the Dragons?",
+      "initial": "H",
+      "answer": "House of the Dragon",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/House_of_the_Dragon"]
+    },
+    {
+      "id": "movies-en-medium-01-10",
+      "text": "Which Christopher Nolan film sends former pilot Cooper through a wormhole in search of a new home for humanity?",
+      "initial": "I",
+      "answer": "Interstellar",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Interstellar_%28film%29"]
+    },
+    {
+      "id": "movies-en-medium-01-11",
+      "text": "Which director made Stranger Than Paradise and Broken Flowers?",
+      "initial": "J",
+      "answer": "Jim Jarmusch",
+      "language": "en",
+      "aliases": ["Jarmusch", "James Robert Jarmusch", "James Jarmusch"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Jim_Jarmusch"]
+    },
+    {
+      "id": "movies-en-medium-01-12",
+      "text": "Which 1996 Czech film follows cellist František Louka as he unexpectedly cares for a young Russian boy?",
+      "initial": "K",
+      "answer": "Kolya",
+      "language": "en",
+      "aliases": ["Kolja"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Kolya_(film)"]
+    },
+    {
+      "id": "movies-en-medium-01-13",
+      "text": "Which series follows survivors of Oceanic Flight 815 on a mysterious island?",
+      "initial": "L",
+      "answer": "Lost",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Lost_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-medium-01-14",
+      "text": "Which Christopher Nolan film centres on Leonard Shelby, who cannot form new memories after an injury?",
+      "initial": "M",
+      "answer": "Memento",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Memento_%28film%29"]
+    },
+    {
+      "id": "movies-en-medium-01-15",
+      "text": "Which miniseries based on Sally Rooney's novel follows Marianne and Connell from secondary school to university?",
+      "initial": "N",
+      "answer": "Normal People",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Normal_People_%28miniseries%29"
+      ]
+    },
+    {
+      "id": "movies-en-medium-01-16",
+      "text": "Which HBO series is set largely in the experimental Emerald City unit of Oswald prison?",
+      "initial": "O",
+      "answer": "Oz",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Oz_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-medium-01-17",
+      "text": "Which series follows the Shelby family's Birmingham gang after the First World War?",
+      "initial": "P",
+      "answer": "Peaky Blinders",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Peaky_Blinders_%28TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-en-medium-01-18",
+      "text": "Which miniseries stars Anya Taylor-Joy as chess prodigy Beth Harmon?",
+      "initial": "Q",
+      "answer": "Queen's Gambit",
+      "language": "en",
+      "aliases": ["The Queen's Gambit", "Queen’s Gambit", "The Queen’s Gambit"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_%28miniseries%29"
+      ]
+    },
+    {
+      "id": "movies-en-medium-01-19",
+      "text": "Which adult animated series follows an eccentric scientist and his grandson on adventures across dimensions?",
+      "initial": "R",
+      "answer": "Rick and Morty",
+      "language": "en",
+      "aliases": ["Rick & Morty"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Rick_and_Morty"]
+    },
+    {
+      "id": "movies-en-medium-01-20",
+      "text": "Which HBO series follows a New Jersey mob boss called Tony and his visits to psychiatrist Jennifer Melfi?",
+      "initial": "S",
+      "answer": "Sopranos",
+      "language": "en",
+      "aliases": ["The Sopranos"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_Sopranos"]
+    },
+    {
+      "id": "movies-en-medium-01-21",
+      "text": "Which Martin Scorsese film follows a federal marshal investigating a disappearance at Ashecliffe Hospital in 1954?",
+      "initial": "SH",
+      "answer": "Shutter Island",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Shutter_Island_%28film%29"]
+    },
+    {
+      "id": "movies-en-medium-01-22",
+      "text": "In which series does FBI agent Dale Cooper investigate the death of Laura Palmer?",
+      "initial": "T",
+      "answer": "Twin Peaks",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Twin_Peaks"]
+    },
+    {
+      "id": "movies-en-medium-01-23",
+      "text": "Which 1992 western stars Clint Eastwood as retired gunfighter William Munny?",
+      "initial": "U",
+      "answer": "Unforgiven",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Unforgiven"]
+    },
+    {
+      "id": "movies-en-medium-01-24",
+      "text": "Which Hitchcock film follows former detective Scottie Ferguson, whose fear of heights becomes central to a plot involving Madeleine?",
+      "initial": "V",
+      "answer": "Vertigo",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Vertigo_%28film%29"]
+    },
+    {
+      "id": "movies-en-medium-01-25",
+      "text": "Which HBO series initially takes place in a Wild West theme park populated by android hosts?",
+      "initial": "W",
+      "answer": "Westworld",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Westworld_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-medium-01-26",
+      "text": "Which warrior princess played by Lucy Lawless travels with Gabrielle in a 1990s television series?",
+      "initial": "X",
+      "answer": "Xena",
+      "language": "en",
+      "aliases": ["Xena: Warrior Princess"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Xena%3A_Warrior_Princess"]
+    },
+    {
+      "id": "movies-en-medium-01-27",
+      "text": "Which 2001 Alfonso Cuarón film follows Julio, Tenoch and Luisa on a road trip through Mexico?",
+      "initial": "Y",
+      "answer": "Y Tu Mamá También",
+      "language": "en",
+      "aliases": ["And Your Mother Too", "And Your Mama Too"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Y_tu_mam%C3%A1_tambi%C3%A9n"]
+    },
+    {
+      "id": "movies-en-medium-01-28",
+      "text": "Which 2007 David Fincher film follows investigators and cartoonist Robert Graysmith as they try to identify a serial killer in California?",
+      "initial": "Z",
+      "answer": "Zodiac",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Zodiac_%28film%29"]
+    }
+  ]
+}

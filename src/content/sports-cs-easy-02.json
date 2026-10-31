@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-cs-easy-02",
+  "title": "Sport · Lehká · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-cs-easy-02-01",
+      "text": "Jak se ve fotbale nazývá uvedení míče do hry po jeho úplném překročení postranní čáry?",
+      "initial": "A",
+      "answer": "Aut",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Vhazování", "Autové vhazování"],
+      "sources": ["https://en.wikipedia.org/wiki/Throw-in"]
+    },
+    {
+      "id": "sports-cs-easy-02-02",
+      "text": "Jaká pohybová aktivita zahrnuje jak jogging, tak sprint?",
+      "initial": "B",
+      "answer": "Běh",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Běhání", "Atletický běh"],
+      "sources": ["https://en.wikipedia.org/wiki/Running"]
+    },
+    {
+      "id": "sports-cs-easy-02-03",
+      "text": "Jak se nazývá konečná čára, jejíž překonání rozhoduje o doběhnutí závodu?",
+      "initial": "C",
+      "answer": "Cíl",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Cílová čára"],
+      "sources": ["https://en.wiktionary.org/wiki/finish_line"]
+    },
+    {
+      "id": "sports-cs-easy-02-04",
+      "text": "Která země vyhrála mužský olympijský hokejový turnaj v Naganu 1998?",
+      "initial": "Č",
+      "answer": "Česko",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Česká republika", "Český tým"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ice_hockey_at_the_1998_Winter_Olympics_%E2%80%93_Men's_tournament"
+      ]
+    },
+    {
+      "id": "sports-cs-easy-02-05",
+      "text": "Jaké ploché kruhové náčiní se hází v atletické disciplíně pojmenované po něm?",
+      "initial": "D",
+      "answer": "Disk",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Atletický disk"],
+      "sources": ["https://en.wikipedia.org/wiki/Discus_throw"]
+    },
+    {
+      "id": "sports-cs-easy-02-06",
+      "text": "Jak se běžně označuje turnaj, na němž se rozhoduje o mužském fotbalovém mistru Evropy?",
+      "initial": "E",
+      "answer": "Euro",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Mistrovství Evropy ve fotbale",
+        "Fotbalové Euro",
+        "Mistrovství Evropy mužů ve fotbale",
+        "UEFA Euro",
+        "UEFA European Championship"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/UEFA_European_Championship"]
+    },
+    {
+      "id": "sports-cs-easy-02-07",
+      "text": "Jak se nazývá sportovec, který hraje kopanou?",
+      "initial": "F",
+      "answer": "Fotbalista",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Hráč fotbalu",
+        "Fotbalový hráč",
+        "Fotbalistka",
+        "Hráčka fotbalu",
+        "Hráč kopané",
+        "Hráčka kopané"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Association_football"]
+    },
+    {
+      "id": "sports-cs-easy-02-08",
+      "text": "Který fotbalový post má jako hlavní úkol zabránit soupeři ve skórování a smí ve vlastním pokutovém území běžně chytat míč rukama?",
+      "initial": "G",
+      "answer": "Gólman",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Brankář",
+        "Goalman",
+        "Goalkeeper",
+        "Goal-keeper",
+        "Goalie",
+        "Fotbalový brankář"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-cs-easy-02-09",
+      "text": "Ve kterém halovém týmovém sportu hráči především přihrávají a střílejí míč rukama do branky?",
+      "initial": "H",
+      "answer": "Házená",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Team handball", "Handball", "Handbal"],
+      "sources": ["https://en.wikipedia.org/wiki/Handball"]
+    },
+    {
+      "id": "sports-cs-easy-02-10",
+      "text": "Jak se nazývá atletická disciplína, v níž nesmí závodník lidskému oku viditelně ztratit kontakt se zemí?",
+      "initial": "Ch",
+      "answer": "Chůze",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Sportovní chůze", "Závodní chůze"],
+      "sources": ["https://en.wikipedia.org/wiki/Racewalking"]
+    },
+    {
+      "id": "sports-cs-easy-02-11",
+      "text": "Jak se označuje sport, v němž závodník soutěží sám za sebe, nikoli jako člen týmu?",
+      "initial": "I",
+      "answer": "Individuální sport",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Sport jednotlivců", "Individuální sporty"],
+      "sources": ["https://en.wikipedia.org/wiki/Individual_sport"]
+    },
+    {
+      "id": "sports-cs-easy-02-12",
+      "text": "Jaká činnost je základem jezdeckých disciplín, jako jsou parkur a drezura?",
+      "initial": "J",
+      "answer": "Jízda na koni",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Jezdectví"],
+      "sources": ["https://en.wikipedia.org/wiki/Equestrianism"]
+    },
+    {
+      "id": "sports-cs-easy-02-13",
+      "text": "Který lední sport zahrnuje hodnocené skoky, piruety a krokové pasáže?",
+      "initial": "K",
+      "answer": "Krasobruslení",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Figure_skating"]
+    },
+    {
+      "id": "sports-cs-easy-02-14",
+      "text": "Jak se nazývá prohnutá pružná zbraň s tětivou používaná ke sportovní střelbě šípů?",
+      "initial": "L",
+      "answer": "Luk",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Bow_and_arrow"]
+    },
+    {
+      "id": "sports-cs-easy-02-15",
+      "text": "Jak se nazývá pevná stěna, která ohraničuje hokejové kluziště?",
+      "initial": "M",
+      "answer": "Mantinel",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Hrazení", "Hokejový mantinel", "Mantinely"],
+      "sources": ["https://en.wikipedia.org/wiki/Ice_hockey_rink"]
+    },
+    {
+      "id": "sports-cs-easy-02-16",
+      "text": "Jakou bodovou hodnotu v tenise znamená anglické „love“?",
+      "initial": "N",
+      "answer": "Nula",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Nula bodů", "0"],
+      "sources": ["https://en.wikipedia.org/wiki/Tennis_scoring_system"]
+    },
+    {
+      "id": "sports-cs-easy-02-17",
+      "text": "Jak se nazývá atletické náčiní podobné dlouhému lehkému kopí?",
+      "initial": "O",
+      "answer": "Oštěp",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Atletický oštěp"],
+      "sources": ["https://en.wikipedia.org/wiki/Javelin_throw"]
+    },
+    {
+      "id": "sports-cs-easy-02-18",
+      "text": "Jak se nazývá dřevěné či kovové náčiní, jímž útočící hráč v baseballu zasahuje nadhozený míč?",
+      "initial": "P",
+      "answer": "Pálka",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Baseballová pálka"],
+      "sources": ["https://en.wikipedia.org/wiki/Baseball_bat"]
+    },
+    {
+      "id": "sports-cs-easy-02-19",
+      "text": "Kdo na fotbalovém hřišti dohlíží na pravidla a může udělovat žluté či červené karty?",
+      "initial": "R",
+      "answer": "Rozhodčí",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Sudí", "Fotbalový rozhodčí"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Referee_(association_football)"
+      ]
+    },
+    {
+      "id": "sports-cs-easy-02-20",
+      "text": "Který ze dvou olympijských zápasnických stylů měl na hrách v Paříži 2024 pouze mužské soutěže?",
+      "initial": "Ř",
+      "answer": "Řecko-římský zápas",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Řeckořímský zápas",
+        "Zápas řecko-římský",
+        "Klasický zápas",
+        "Řecko-římský",
+        "Řeckořímský",
+        "Řecko-římský styl",
+        "Klasický styl",
+        "Greco-Roman wrestling"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wrestling_at_the_2024_Summer_Olympics"
+      ]
+    },
+    {
+      "id": "sports-cs-easy-02-21",
+      "text": "Jak se nazývá široké prkno pro jízdu po sněhu, na němž jsou obě nohy upevněny příčně ke směru jízdy?",
+      "initial": "S",
+      "answer": "Snowboard",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Snowboard"]
+    },
+    {
+      "id": "sports-cs-easy-02-22",
+      "text": "Jaký sport spočívá v házení malých hrotitých náčiní do kruhového očíslovaného terče?",
+      "initial": "Š",
+      "answer": "Šipky",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Darts"],
+      "sources": ["https://en.wikipedia.org/wiki/Darts"]
+    },
+    {
+      "id": "sports-cs-easy-02-23",
+      "text": "Jak se nazývá skupina hráčů, která v kolektivním sportu nastupuje společně proti soupeři?",
+      "initial": "T",
+      "answer": "Tým",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Družstvo", "Mužstvo"],
+      "sources": ["https://en.wikipedia.org/wiki/Sports_team"]
+    },
+    {
+      "id": "sports-cs-easy-02-24",
+      "text": "Který jamajský sprinter vyhrál olympijskou stovku mužů v letech 2008, 2012 a 2016?",
+      "initial": "U",
+      "answer": "Usain Bolt",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Bolt", "Usain St. Leo Bolt", "Usain St Leo Bolt"],
+      "sources": ["https://en.wikipedia.org/wiki/Usain_Bolt"]
+    },
+    {
+      "id": "sports-cs-easy-02-25",
+      "text": "Jaký trest pro fotbalistu znamená červená karta?",
+      "initial": "V",
+      "answer": "Vyloučení",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Vyloučení ze hry"],
+      "sources": ["https://en.wikipedia.org/wiki/Penalty_card"]
+    },
+    {
+      "id": "sports-cs-easy-02-26",
+      "text": "Kterému kanadskému hokejistovi se přezdívá „The Great One“?",
+      "initial": "W",
+      "answer": "Wayne Gretzky",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Gretzky", "Wayne Douglas Gretzky"],
+      "sources": ["https://en.wikipedia.org/wiki/Wayne_Gretzky"]
+    },
+    {
+      "id": "sports-cs-easy-02-27",
+      "text": "Jak se nazývá závodní plavecký způsob, při němž plavec plave na zádech?",
+      "initial": "Z",
+      "answer": "Znak",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Backstroke"]
+    },
+    {
+      "id": "sports-cs-easy-02-28",
+      "text": "Jak se nazývá měkká podložka používaná v gymnastice ke zmírnění dopadu?",
+      "initial": "Ž",
+      "answer": "Žíněnka",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Gymnastická žíněnka", "Dopadová žíněnka", "Žíněnky"],
+      "sources": ["https://en.wikipedia.org/wiki/Mat_(gymnastics)"]
+    }
+  ]
+}

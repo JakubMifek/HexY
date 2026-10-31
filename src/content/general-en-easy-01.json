@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "general-en-easy-01",
+  "title": "General knowledge · Easy 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-easy-01-01",
+      "initial": "A",
+      "text": "What heavy device is lowered from a boat to hold it in place on the seabed?",
+      "answer": "Anchor",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Anchor"]
+    },
+    {
+      "id": "general-en-easy-01-02",
+      "initial": "B",
+      "text": "What two-wheeled vehicle is usually powered by pushing pedals with your feet?",
+      "answer": "Bicycle",
+      "aliases": ["bike"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Bicycle"]
+    },
+    {
+      "id": "general-en-easy-01-03",
+      "initial": "C",
+      "text": "What system organizes days into weeks, months and years?",
+      "answer": "Calendar",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Calendar"]
+    },
+    {
+      "id": "general-en-easy-01-04",
+      "initial": "CH",
+      "text": "What sweet food is made from cocoa and commonly sold in bars?",
+      "answer": "Chocolate",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chocolate"]
+    },
+    {
+      "id": "general-en-easy-01-05",
+      "initial": "D",
+      "text": "What percussion instrument is typically played by striking a stretched membrane?",
+      "answer": "Drum",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Drum"]
+    },
+    {
+      "id": "general-en-easy-01-06",
+      "initial": "E",
+      "text": "What folded paper container is used to enclose a letter for posting?",
+      "answer": "Envelope",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Envelope"]
+    },
+    {
+      "id": "general-en-easy-01-07",
+      "initial": "F",
+      "text": "Which piece of cutlery has prongs for picking up food?",
+      "answer": "Fork",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Fork"]
+    },
+    {
+      "id": "general-en-easy-01-08",
+      "initial": "G",
+      "text": "What commonly six-stringed musical instrument is played by strumming or plucking?",
+      "answer": "Guitar",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Guitar"]
+    },
+    {
+      "id": "general-en-easy-01-09",
+      "initial": "H",
+      "text": "What sweet food do bees make from flower nectar?",
+      "answer": "Honey",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Honey"]
+    },
+    {
+      "id": "general-en-easy-01-10",
+      "initial": "I",
+      "text": "What is water called when it freezes into a solid?",
+      "answer": "Ice",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ice"]
+    },
+    {
+      "id": "general-en-easy-01-11",
+      "initial": "J",
+      "text": "Which month begins the Gregorian calendar year?",
+      "answer": "January",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/January"]
+    },
+    {
+      "id": "general-en-easy-01-12",
+      "initial": "K",
+      "text": "What kitchen vessel is used specifically to boil water for tea?",
+      "answer": "Kettle",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kettle"]
+    },
+    {
+      "id": "general-en-easy-01-13",
+      "initial": "L",
+      "text": "What climbing aid consists of steps or rungs between two side pieces?",
+      "answer": "Ladder",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ladder"]
+    },
+    {
+      "id": "general-en-easy-01-14",
+      "initial": "M",
+      "text": "What liquid do female mammals produce to feed their young?",
+      "answer": "Milk",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Milk"]
+    },
+    {
+      "id": "general-en-easy-01-15",
+      "initial": "N",
+      "text": "What small pointed sewing tool usually has an eye for thread?",
+      "answer": "Needle",
+      "aliases": ["sewing needle"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sewing_needle"]
+    },
+    {
+      "id": "general-en-easy-01-16",
+      "initial": "O",
+      "text": "Which citrus fruit gives its name to the colour between red and yellow?",
+      "answer": "Orange",
+      "aliases": ["sweet orange"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Orange_(fruit)"]
+    },
+    {
+      "id": "general-en-easy-01-17",
+      "initial": "P",
+      "text": "What keyboard instrument produces sound when hammers strike strings?",
+      "answer": "Piano",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Piano"]
+    },
+    {
+      "id": "general-en-easy-01-18",
+      "initial": "Q",
+      "text": "What common name is given to a US coin worth twenty-five cents?",
+      "answer": "Quarter",
+      "aliases": ["quarter dollar"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Quarter_(United_States_coin)"]
+    },
+    {
+      "id": "general-en-easy-01-19",
+      "initial": "R",
+      "text": "What coloured arc can sunlight form in the sky when it passes through water droplets?",
+      "answer": "Rainbow",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rainbow"]
+    },
+    {
+      "id": "general-en-easy-01-20",
+      "initial": "S",
+      "text": "What hand tool uses two pivoted blades to cut paper?",
+      "answer": "Scissors",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Scissors"]
+    },
+    {
+      "id": "general-en-easy-01-21",
+      "initial": "SH",
+      "text": "What dark area is produced when an opaque object blocks light?",
+      "answer": "Shadow",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shadow"]
+    },
+    {
+      "id": "general-en-easy-01-22",
+      "initial": "T",
+      "text": "What small bristled tool is used with paste to clean teeth?",
+      "answer": "Toothbrush",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Toothbrush"]
+    },
+    {
+      "id": "general-en-easy-01-23",
+      "initial": "U",
+      "text": "What portable canopy can you hold over your head to keep off rain?",
+      "answer": "Umbrella",
+      "aliases": ["brolly"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Umbrella"]
+    },
+    {
+      "id": "general-en-easy-01-24",
+      "initial": "V",
+      "text": "What geological feature can erupt lava and ash from below Earth's surface?",
+      "answer": "Volcano",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Volcano"]
+    },
+    {
+      "id": "general-en-easy-01-25",
+      "initial": "W",
+      "text": "What circular component turns around an axle to help a cart move?",
+      "answer": "Wheel",
+      "aliases": [],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Wheel"]
+    },
+    {
+      "id": "general-en-easy-01-26",
+      "initial": "X",
+      "text": "In a standard two-dimensional Cartesian graph, what is the horizontal coordinate axis called?",
+      "answer": "X-axis",
+      "aliases": ["x axis"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cartesian_coordinate_system"]
+    },
+    {
+      "id": "general-en-easy-01-27",
+      "initial": "Y",
+      "text": "What is the yellow nutrient-rich part of a hen's egg called?",
+      "answer": "Yolk",
+      "aliases": ["egg yolk"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Egg_yolk"]
+    },
+    {
+      "id": "general-en-easy-01-28",
+      "initial": "Z",
+      "text": "What number represents none and separates positive from negative numbers on a number line?",
+      "answer": "Zero",
+      "aliases": ["0"],
+      "category": "general",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/0"]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 2,
+  "id": "history-cs-easy-01",
+  "title": "Historie · Lehká · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-cs-easy-01-01",
+      "text": "Který nacistický politik byl 30. ledna 1933 jmenován německým kancléřem?",
+      "initial": "A",
+      "answer": "Adolf Hitler",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Hitler"],
+      "sources": ["https://en.wikipedia.org/wiki/Adolf_Hitler"]
+    },
+    {
+      "id": "history-cs-easy-01-02",
+      "text": "Kterou pařížskou pevnost a věznici dobyli povstalci 14. července 1789?",
+      "initial": "B",
+      "answer": "Bastila",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Bastille", "Bastille Saint-Antoine"],
+      "sources": ["https://en.wikipedia.org/wiki/Bastille"]
+    },
+    {
+      "id": "history-cs-easy-01-03",
+      "text": "Která kořenová plodina se za Napoleona začala ve Francii výrazněji využívat jako náhrada cukrové třtiny při výrobě cukru?",
+      "initial": "C",
+      "answer": "Cukrová řepa",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Řepa cukrovka", "Cukrovka", "Řepa cukrová"],
+      "sources": ["https://en.wikipedia.org/wiki/Sugar_beet"]
+    },
+    {
+      "id": "history-cs-easy-01-04",
+      "text": "Jak se běžně nazývá ničivá morová pandemie, která zasáhla Evropu v polovině 14. století?",
+      "initial": "Č",
+      "answer": "Černá smrt",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Velký mor", "Černý mor"],
+      "sources": ["https://en.wikipedia.org/wiki/Black_Death"]
+    },
+    {
+      "id": "history-cs-easy-01-05",
+      "text": "Který celosvětový válečný konflikt začal v Evropě německým útokem na Polsko v září 1939?",
+      "initial": "D",
+      "answer": "Druhá světová válka",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["2. světová válka", "Druhá světová", "2. světová"],
+      "sources": ["https://en.wikipedia.org/wiki/World_War_II"]
+    },
+    {
+      "id": "history-cs-easy-01-06",
+      "text": "Který právník a někdejší prezident druhé republiky zastával za okupace funkci státního prezidenta Protektorátu Čechy a Morava?",
+      "initial": "E",
+      "answer": "Emil Hácha",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Hácha", "Emil Dominik Josef Hácha"],
+      "sources": ["https://en.wikipedia.org/wiki/Emil_Hácha"]
+    },
+    {
+      "id": "history-cs-easy-01-07",
+      "text": "Který habsburský císař vládl od roku 1848 až do své smrti v roce 1916?",
+      "initial": "F",
+      "answer": "František Josef I.",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "František Josef",
+        "František Josef první",
+        "Franz Joseph I",
+        "Francis Joseph I"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Franz_Joseph_I_of_Austria"]
+    },
+    {
+      "id": "history-cs-easy-01-08",
+      "text": "Jak se běžně nazývala politická policie nacistického Německa?",
+      "initial": "G",
+      "answer": "Gestapo",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Geheime Staatspolizei", "Tajná státní policie"],
+      "sources": ["https://en.wikipedia.org/wiki/Gestapo"]
+    },
+    {
+      "id": "history-cs-easy-01-09",
+      "text": "Jak se nazývají obrázkové znaky staroegyptského písma, které mohly vyjadřovat význam i zvuk?",
+      "initial": "H",
+      "answer": "Hieroglyfy",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Egyptské hieroglyfy",
+        "Hieroglyfické písmo",
+        "Egyptské hieroglyfické písmo"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"]
+    },
+    {
+      "id": "history-cs-easy-01-10",
+      "text": "Kterému faraonovi čtvrté dynastie se připisuje výstavba Velké pyramidy v Gíze?",
+      "initial": "Ch",
+      "answer": "Cheops",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Chufu", "Chufev", "Khufu", "Kheops"],
+      "sources": ["https://en.wikipedia.org/wiki/Khufu"]
+    },
+    {
+      "id": "history-cs-easy-01-11",
+      "text": "Který jihoamerický národ vybudoval říši s centrem v Cuscu, kterou v 16. století dobyli Španělé?",
+      "initial": "I",
+      "answer": "Inkové",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Incký národ"],
+      "sources": ["https://en.wikipedia.org/wiki/Inca_Empire"]
+    },
+    {
+      "id": "history-cs-easy-01-12",
+      "text": "Který český kazatel byl roku 1415 odsouzen na kostnickém koncilu a upálen?",
+      "initial": "J",
+      "answer": "Jan Hus",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Hus", "Mistr Jan Hus"],
+      "sources": ["https://en.wikipedia.org/wiki/Jan_Hus"]
+    },
+    {
+      "id": "history-cs-easy-01-13",
+      "text": "Který mořeplavec při své výpravě přes Atlantik roku 1492 doplul do Karibiku v domnění, že dosáhl Asie?",
+      "initial": "K",
+      "answer": "Kryštof Kolumbus",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Kolumbus",
+        "Cristóbal Colón",
+        "Christopher Columbus",
+        "Cristoforo Colombo"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Christopher_Columbus"]
+    },
+    {
+      "id": "history-cs-easy-01-14",
+      "text": "Pod jakým revolučním jménem je znám Vladimir Iljič Uljanov, vůdce bolševiků v roce 1917?",
+      "initial": "L",
+      "answer": "Lenin",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Vladimir Iljič Lenin", "Vladimir Lenin"],
+      "sources": ["https://en.wikipedia.org/wiki/Vladimir_Lenin"]
+    },
+    {
+      "id": "history-cs-easy-01-15",
+      "text": "Jak se nazývá zachované tělo zemřelého, například tělo balzamované ve starověkém Egyptě?",
+      "initial": "M",
+      "answer": "Mumie",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mummy"]
+    },
+    {
+      "id": "history-cs-easy-01-16",
+      "text": "Kterou osobní závislost poddaných, omezující například možnost stěhování či sňatku bez souhlasu vrchnosti, zrušil Josef II. v českých zemích roku 1781?",
+      "initial": "N",
+      "answer": "Nevolnictví",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Serfdom_Patent_(1781)"]
+    },
+    {
+      "id": "history-cs-easy-01-17",
+      "text": "U kterého polského města nacisté zřídili táborový komplex zahrnující i vyhlazovací tábor Birkenau?",
+      "initial": "O",
+      "answer": "Osvětim",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Oświęcim", "Auschwitz"],
+      "sources": ["https://en.wikipedia.org/wiki/Oświęcim"]
+    },
+    {
+      "id": "history-cs-easy-01-18",
+      "text": "Které římské město zasypal výbuch Vesuvu roku 79 a archeologové v něm později vytvářeli sádrové odlitky těl obětí?",
+      "initial": "P",
+      "answer": "Pompeje",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Pompeii"],
+      "sources": ["https://en.wikipedia.org/wiki/Pompeii"]
+    },
+    {
+      "id": "history-cs-easy-01-19",
+      "text": "Jak se do roku 1946 nazývaly pozemní a letecké síly Sovětského svazu, které roku 1945 dobyly Berlín?",
+      "initial": "R",
+      "answer": "Rudá armáda",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Dělnicko-rolnická rudá armáda"],
+      "sources": ["https://en.wikipedia.org/wiki/Red_Army"]
+    },
+    {
+      "id": "history-cs-easy-01-20",
+      "text": "Který starověký národ vybudoval za císaře Hadriána obranný val napříč severní Británií?",
+      "initial": "Ř",
+      "answer": "Římané",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Staří Římané", "Římská říše"],
+      "sources": ["https://en.wikipedia.org/wiki/Hadrian%27s_Wall"]
+    },
+    {
+      "id": "history-cs-easy-01-21",
+      "text": "Pod jakým jménem je znám sovětský vůdce Josif Džugašvili, který stál v čele SSSR za druhé světové války?",
+      "initial": "S",
+      "answer": "Stalin",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Josif Stalin",
+        "Josef Stalin",
+        "Josif Vissarionovič Stalin",
+        "Josef Vissarionovič Stalin"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Joseph_Stalin"]
+    },
+    {
+      "id": "history-cs-easy-01-22",
+      "text": "Jak se nazývá obranná výzbroj, kterou řecký hoplít nosil na paži a chránil jí tělo před údery?",
+      "initial": "Š",
+      "answer": "Štít",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Aspis", "Hoplítský štít"],
+      "sources": ["https://en.wikipedia.org/wiki/Hoplite"]
+    },
+    {
+      "id": "history-cs-easy-01-23",
+      "text": "Který český podnikatel založil roku 1894 se sourozenci obuvnickou firmu ve Zlíně a stal se symbolem jeho průmyslového rozvoje?",
+      "initial": "T",
+      "answer": "Tomáš Baťa",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Baťa"],
+      "sources": ["https://en.wikipedia.org/wiki/Tomáš_Baťa"]
+    },
+    {
+      "id": "history-cs-easy-01-24",
+      "text": "Na které pražské univerzitě působil Jan Hus v letech 1409–1410 jako rektor?",
+      "initial": "U",
+      "answer": "Univerzita Karlova",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Karlova univerzita",
+        "Univerzita Karlova v Praze",
+        "Karlova univerzita v Praze",
+        "Charles University",
+        "UK"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Jan_Hus"]
+    },
+    {
+      "id": "history-cs-easy-01-25",
+      "text": "Který dramatik a bývalý disident byl v prosinci 1989 zvolen československým prezidentem?",
+      "initial": "V",
+      "answer": "Václav Havel",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Havel"],
+      "sources": ["https://en.wikipedia.org/wiki/Václav_Havel"]
+    },
+    {
+      "id": "history-cs-easy-01-26",
+      "text": "Který britský politik se v květnu 1940 stal premiérem po Nevillu Chamberlainovi a vedl vládu po většinu druhé světové války?",
+      "initial": "W",
+      "answer": "Winston Churchill",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Churchill",
+        "Sir Winston Churchill",
+        "Winston Leonard Spencer Churchill"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Winston_Churchill"]
+    },
+    {
+      "id": "history-cs-easy-01-27",
+      "text": "Jak se nazývá reprezentativní šlechtické či panovnické sídlo bez hlavního důrazu na obranu, jaké si Ludvík XIV. vybudoval ve Versailles?",
+      "initial": "Z",
+      "answer": "Zámek",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Palác"],
+      "sources": ["https://en.wikipedia.org/wiki/Palace_of_Versailles"]
+    },
+    {
+      "id": "history-cs-easy-01-28",
+      "text": "Jak se nazývá ozdobná hůl symbolizující panovnickou moc, která spolu s korunou a jablkem patří ke korunovačním klenotům?",
+      "initial": "Ž",
+      "answer": "Žezlo",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sceptre"]
+    }
+  ]
+}

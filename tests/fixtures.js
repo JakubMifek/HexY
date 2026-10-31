@@ -33,7 +33,8 @@ export function savedGame(game) {
  * @returns {import('../src/domain/types.js').Pack} */
 export function sourcePack(language = 'en') {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
+    difficulty: 'medium',
     id: 'test-source',
     title: 'Synthetic test fixture',
     language,

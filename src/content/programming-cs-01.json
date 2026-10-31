@@ -1,7 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "hard",
   "id": "programming-cs-01",
-  "title": "Programování · 01",
+  "title": "Informatika a programování · 01",
   "language": "cs",
   "mode": "letters",
   "authors": ["HexY contributors"],

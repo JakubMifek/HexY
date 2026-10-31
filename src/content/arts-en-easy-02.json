@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-en-easy-02",
+  "title": "Arts and literature · Easy · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-en-easy-02-01",
+      "text": "Which Danish author wrote The Little Mermaid and The Ugly Duckling?",
+      "initial": "A",
+      "answer": "Andersen",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Hans Christian Andersen", "H. C. Andersen"],
+      "sources": ["https://en.wikipedia.org/wiki/Hans_Christian_Andersen"]
+    },
+    {
+      "id": "arts-en-easy-02-02",
+      "text": "What tool with a bundle of bristles does a painter dip into paint and move across a canvas?",
+      "initial": "B",
+      "answer": "Brush",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["paintbrush", "paint brush"],
+      "sources": ["https://en.wikipedia.org/wiki/Paintbrush"]
+    },
+    {
+      "id": "arts-en-easy-02-03",
+      "text": "What dramatic genre aims to amuse its audience and make people laugh?",
+      "initial": "C",
+      "answer": "Comedy",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Comedy"]
+    },
+    {
+      "id": "arts-en-easy-02-04",
+      "text": "What do we call the creation and arrangement of dance movements for a performance?",
+      "initial": "CH",
+      "answer": "Choreography",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["dance composition"],
+      "sources": ["https://en.wikipedia.org/wiki/Choreography"]
+    },
+    {
+      "id": "arts-en-easy-02-05",
+      "text": "What fiction genre centres on investigating a crime and discovering who committed it?",
+      "initial": "D",
+      "answer": "Detective fiction",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "detective story",
+        "detective stories",
+        "detective novel",
+        "detective novels"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Detective_fiction"]
+    },
+    {
+      "id": "arts-en-easy-02-06",
+      "text": "What French-derived word do audiences shout to ask performers for an additional performance?",
+      "initial": "E",
+      "answer": "Encore",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Encore"]
+    },
+    {
+      "id": "arts-en-easy-02-07",
+      "text": "What kind of short story often uses talking animals to teach a moral lesson?",
+      "initial": "F",
+      "answer": "Fable",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Fable"]
+    },
+    {
+      "id": "arts-en-easy-02-08",
+      "text": "What do we call writing or drawings made on walls in public spaces, often using spray paint?",
+      "initial": "G",
+      "answer": "Graffiti",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["graffito"],
+      "sources": ["https://en.wikipedia.org/wiki/Graffiti"]
+    },
+    {
+      "id": "arts-en-easy-02-09",
+      "text": "What musical instrument has strings stretched within a frame, usually plucked by the player's fingers?",
+      "initial": "H",
+      "answer": "Harp",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Harp"]
+    },
+    {
+      "id": "arts-en-easy-02-10",
+      "text": "What general word describes an object made to produce musical sounds, such as a flute or a violin?",
+      "initial": "I",
+      "answer": "Instrument",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["musical instrument"],
+      "sources": ["https://en.wikipedia.org/wiki/Musical_instrument"]
+    },
+    {
+      "id": "arts-en-easy-02-11",
+      "text": "Which Shakespeare heroine is the thirteen-year-old only daughter of the Capulet family?",
+      "initial": "J",
+      "answer": "Juliet",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Juliet Capulet", "Giulietta Capuleti"],
+      "sources": ["https://en.wikipedia.org/wiki/Juliet"]
+    },
+    {
+      "id": "arts-en-easy-02-12",
+      "text": "Which author created Mowgli in The Jungle Book?",
+      "initial": "K",
+      "answer": "Kipling",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Rudyard Kipling", "Joseph Rudyard Kipling"],
+      "sources": ["https://en.wikipedia.org/wiki/The_Jungle_Book"]
+    },
+    {
+      "id": "arts-en-easy-02-13",
+      "text": "What institution collects books and commonly lends them to readers?",
+      "initial": "L",
+      "answer": "Library",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Library"]
+    },
+    {
+      "id": "arts-en-easy-02-14",
+      "text": "What stage genre combines spoken dialogue, songs and dance?",
+      "initial": "M",
+      "answer": "Musical",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["musical theatre", "musical theater"],
+      "sources": ["https://en.wikipedia.org/wiki/Musical_theatre"]
+    },
+    {
+      "id": "arts-en-easy-02-15",
+      "text": "What do we call a long work of prose fiction, usually with developed characters and plot?",
+      "initial": "N",
+      "answer": "Novel",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Novel"]
+    },
+    {
+      "id": "arts-en-easy-02-16",
+      "text": "What do we call a large instrumental ensemble combining sections such as strings, woodwinds, brass and percussion?",
+      "initial": "O",
+      "answer": "Orchestra",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Orchestra"]
+    },
+    {
+      "id": "arts-en-easy-02-17",
+      "text": "Which wooden puppet created by Carlo Collodi has a nose that grows when he lies?",
+      "initial": "P",
+      "answer": "Pinocchio",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Pinocchio"]
+    },
+    {
+      "id": "arts-en-easy-02-18",
+      "text": "What do we call a group of four musicians performing together?",
+      "initial": "Q",
+      "answer": "Quartet",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["quartette"],
+      "sources": ["https://en.wikipedia.org/wiki/Quartet"]
+    },
+    {
+      "id": "arts-en-easy-02-19",
+      "text": "Which fairy-tale heroine lets down her long hair from a tower?",
+      "initial": "R",
+      "answer": "Rapunzel",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Rapunzel"]
+    },
+    {
+      "id": "arts-en-easy-02-20",
+      "text": "Which fairy-tale princess takes shelter with seven dwarfs?",
+      "initial": "S",
+      "answer": "Snow White",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Snow-White",
+        "Little Snow-White",
+        "Snow-Drop",
+        "Schneewittchen",
+        "Sneewittchen"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Snow_White"]
+    },
+    {
+      "id": "arts-en-easy-02-21",
+      "text": "What performance art uses silhouettes cast on a lit screen to tell a story?",
+      "initial": "SH",
+      "answer": "Shadow theatre",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "shadow theater",
+        "shadow puppetry",
+        "shadow play",
+        "shadow puppets"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Shadow_play"]
+    },
+    {
+      "id": "arts-en-easy-02-22",
+      "text": "What live art form uses performers to act out stories or events before an audience?",
+      "initial": "T",
+      "answer": "Theatre",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["theater"],
+      "sources": ["https://en.wikipedia.org/wiki/Theatre"]
+    },
+    {
+      "id": "arts-en-easy-02-23",
+      "text": "Which mythical one-horned animal gives its name to a famous series of medieval hunt tapestries at the Met Cloisters?",
+      "initial": "U",
+      "answer": "Unicorn",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/The_Hunt_of_the_Unicorn"]
+    },
+    {
+      "id": "arts-en-easy-02-24",
+      "text": "What small four-stringed bowed instrument is held under the chin and forms a major section of an orchestra?",
+      "initial": "V",
+      "answer": "Violin",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["fiddle"],
+      "sources": ["https://en.wikipedia.org/wiki/Violin"]
+    },
+    {
+      "id": "arts-en-easy-02-25",
+      "text": "What honey-loving bear is the title character of A. A. Milne's 1926 children's book?",
+      "initial": "W",
+      "answer": "Winnie-the-Pooh",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Winnie the Pooh", "Pooh", "Pooh Bear", "Edward Bear"],
+      "sources": ["https://en.wikipedia.org/wiki/Winnie-the-Pooh"]
+    },
+    {
+      "id": "arts-en-easy-02-26",
+      "text": "In typography, what term names the height of ordinary lowercase letters such as x, excluding ascenders and descenders?",
+      "initial": "X",
+      "answer": "X-height",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["x height", "corpus size"],
+      "sources": ["https://en.wikipedia.org/wiki/X-height"]
+    },
+    {
+      "id": "arts-en-easy-02-27",
+      "text": "In the traditional RYB model used to mix artists' paints, which primary colour combines with blue to make green?",
+      "initial": "Y",
+      "answer": "Yellow",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/RYB_color_model"]
+    },
+    {
+      "id": "arts-en-easy-02-28",
+      "text": "What family of string instruments has strings running across a soundboard without a separate neck, unlike a guitar?",
+      "initial": "Z",
+      "answer": "Zither",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["zithers", "zither family"],
+      "sources": ["https://en.wikipedia.org/wiki/Zither"]
+    }
+  ]
+}

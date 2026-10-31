@@ -526,3 +526,19 @@ dialog button {
     transition: none !important;
   }
 }
+.catalog-folder {
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  margin-block: 0.7rem;
+}
+.catalog-folder summary {
+  min-height: 44px;
+  display: list-item;
+  align-content: center;
+  cursor: pointer;
+}
+.folder-selection {
+  min-height: 44px;
+  font-weight: 700;
+}

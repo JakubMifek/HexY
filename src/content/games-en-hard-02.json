@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "id": "games-en-hard-02",
+  "title": "Games · Hard · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-en-hard-02-01",
+      "text": "Which city of the gods in the first Dark Souls contains the boss encounter with Ornstein and Smough?",
+      "initial": "A",
+      "answer": "Anor Londo",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Anor_Londo"]
+    },
+    {
+      "id": "games-en-hard-02-02",
+      "text": "Which 2024 LocalThunk roguelike deck-builder combines poker hands with score-altering Joker cards?",
+      "initial": "B",
+      "answer": "Balatro",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Balatro_%28video_game%29"]
+    },
+    {
+      "id": "games-en-hard-02-03",
+      "text": "In Carcassonne's first major expansion, which city feature raises completed-city scoring to three points per tile and coat of arms but makes an unfinished city score nothing?",
+      "initial": "C",
+      "answer": "Cathedral",
+      "language": "en",
+      "aliases": ["Cathedrals"],
+      "category": "games",
+      "sources": [
+        "https://officialgamerules.org/game-rules/carcassonne-inns-and-cathedrals/"
+      ]
+    },
+    {
+      "id": "games-en-hard-02-04",
+      "text": "Which 1995 Square role-playing game sends Crono and his companions through different eras?",
+      "initial": "CH",
+      "answer": "Chrono Trigger",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Chrono_Trigger"]
+    },
+    {
+      "id": "games-en-hard-02-05",
+      "text": "Which 2023 Black Salt Games title combines fishing and boat upgrades with unsettling supernatural discoveries?",
+      "initial": "D",
+      "answer": "Dredge",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dredge_%28video_game%29"]
+    },
+    {
+      "id": "games-en-hard-02-06",
+      "text": "What player-rating system, named after its creator Arpad, updates a rating using the result and the expected result of a game?",
+      "initial": "E",
+      "answer": "Elo rating",
+      "language": "en",
+      "aliases": ["Elo rating system", "Elo"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Elo_rating_system"]
+    },
+    {
+      "id": "games-en-hard-02-07",
+      "text": "What chess term describes developing a bishop to the second square of an adjacent file, behind an advanced knight's pawn?",
+      "initial": "F",
+      "answer": "Fianchetto",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fianchetto"]
+    },
+    {
+      "id": "games-en-hard-02-08",
+      "text": "In Go, what Japanese term contrasts with sente and describes yielding the initiative rather than keeping it?",
+      "initial": "G",
+      "answer": "Gote",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Sente_and_gote"]
+    },
+    {
+      "id": "games-en-hard-02-09",
+      "text": "Which Heart Machine action role-playing game follows a drifter with a mysterious illness through a ruined world?",
+      "initial": "H",
+      "answer": "Hyper Light Drifter",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hyper_Light_Drifter"]
+    },
+    {
+      "id": "games-en-hard-02-10",
+      "text": "Which Fumito Ueda game has a horned boy help a young woman named Yorda escape a castle?",
+      "initial": "I",
+      "answer": "Ico",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ico"]
+    },
+    {
+      "id": "games-en-hard-02-11",
+      "text": "What is the system for linking Guardian Forces and stocked magic to character statistics in Final Fantasy VIII called?",
+      "initial": "J",
+      "answer": "Junction",
+      "language": "en",
+      "aliases": ["Junction system"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Final_Fantasy_VIII"]
+    },
+    {
+      "id": "games-en-hard-02-12",
+      "text": "What is the Japanese term for points given to White in Go to compensate for Black moving first?",
+      "initial": "K",
+      "answer": "Komi",
+      "language": "en",
+      "aliases": ["Komidashi"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Komi_%28Go%29"]
+    },
+    {
+      "id": "games-en-hard-02-13",
+      "text": "What term did Clint Hocking coin in a discussion of BioShock for a conflict between a game's story and its gameplay?",
+      "initial": "L",
+      "answer": "Ludonarrative dissonance",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ludonarrative_dissonance"]
+    },
+    {
+      "id": "games-en-hard-02-14",
+      "text": "What collective name is used for the five original zero-cost cards in Magic's Power Nine that each produce one colour of mana?",
+      "initial": "M",
+      "answer": "Mox",
+      "language": "en",
+      "aliases": ["Moxen", "Moxes", "Mox cards"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Power_Nine"]
+    },
+    {
+      "id": "games-en-hard-02-15",
+      "text": "Which mathematical take-away game has players remove any positive number of objects from exactly one heap on each turn?",
+      "initial": "N",
+      "answer": "Nim",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nim"]
+    },
+    {
+      "id": "games-en-hard-02-16",
+      "text": "Which 1998 Zelda game has Link travel between childhood and adulthood and learn melodies on a magical instrument?",
+      "initial": "O",
+      "answer": "Ocarina of Time",
+      "language": "en",
+      "aliases": [
+        "The Legend of Zelda: Ocarina of Time",
+        "Zelda: Ocarina of Time"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time"
+      ]
+    },
+    {
+      "id": "games-en-hard-02-17",
+      "text": "Which falling-puzzle series clears groups of at least four connected same-coloured blob-like pieces?",
+      "initial": "P",
+      "answer": "Puyo Puyo",
+      "language": "en",
+      "aliases": ["PuyoPuyo", "Puyo Pop"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Puyo_Puyo"]
+    },
+    {
+      "id": "games-en-hard-02-18",
+      "text": "What is the chess opening named for offering the c-pawn after 1.d4 d5 2.c4?",
+      "initial": "Q",
+      "answer": "Queen's Gambit",
+      "language": "en",
+      "aliases": ["Queens Gambit", "The Queen's Gambit", "Aleppo Gambit"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Queen%27s_Gambit"]
+    },
+    {
+      "id": "games-en-hard-02-19",
+      "text": "What game-genre term derives from Rogue and is associated with procedural dungeon generation and permanent character death?",
+      "initial": "R",
+      "answer": "Roguelike",
+      "language": "en",
+      "aliases": ["Rogue-like"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Roguelike"]
+    },
+    {
+      "id": "games-en-hard-02-20",
+      "text": "Which Andreas Seyfarth card game reworks Puerto Rico with cards serving both as buildings and as payment?",
+      "initial": "S",
+      "answer": "San Juan",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/San_Juan_(card_game)"]
+    },
+    {
+      "id": "games-en-hard-02-21",
+      "text": "Which rogue artificial intelligence is the principal antagonist of the first System Shock?",
+      "initial": "SH",
+      "answer": "Shodan",
+      "language": "en",
+      "aliases": ["Sentient Hyper-Optimized Data Access Network"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/SHODAN"]
+    },
+    {
+      "id": "games-en-hard-02-22",
+      "text": "Which Reiner Knizia civilization game determines each player's final score by their weakest of four scoring categories?",
+      "initial": "T",
+      "answer": "Tigris & Euphrates",
+      "language": "en",
+      "aliases": [
+        "Tigris and Euphrates",
+        "Euphrat & Tigris",
+        "Euphrat und Tigris"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Tigris_and_Euphrates"]
+    },
+    {
+      "id": "games-en-hard-02-23",
+      "text": "Which ancient Mesopotamian race game is known from boards excavated in a royal cemetery in the city after which it is named?",
+      "initial": "U",
+      "answer": "Ur",
+      "language": "en",
+      "aliases": ["Royal Game of Ur", "The Royal Game of Ur", "Game of Ur"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Royal_Game_of_Ur"]
+    },
+    {
+      "id": "games-en-hard-02-24",
+      "text": "Which Jamey Stegmaier and Alan Stone worker-placement game has players manage vineyards and make wine?",
+      "initial": "V",
+      "answer": "Viticulture",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Viticulture_%28board_game%29"]
+    },
+    {
+      "id": "games-en-hard-02-25",
+      "text": "Which Andrea Angiolino and Pier Giorgio Paglia game simulates aerial combat using cards and aircraft, originally focusing on World War I?",
+      "initial": "W",
+      "answer": "Wings of War",
+      "language": "en",
+      "aliases": ["Wings of Glory"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wings_of_War"]
+    },
+    {
+      "id": "games-en-hard-02-26",
+      "text": "Which Monolith Soft role-playing game follows Shulk, wielder of the Monado, on the bodies of two giant beings?",
+      "initial": "X",
+      "answer": "Xenoblade Chronicles",
+      "language": "en",
+      "aliases": [
+        "Xenoblade Chronicles 1",
+        "Xenoblade Chronicles: Definitive Edition",
+        "Xenoblade",
+        "Xenoblade Chronicles 3D",
+        "Xenoblade Chronicles: Definitive Edition – Nintendo Switch 2 Edition",
+        "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Xenoblade_Chronicles_%28video_game%29"
+      ]
+    },
+    {
+      "id": "games-en-hard-02-27",
+      "text": "Which Julien Griffon cooperative memory game asks players to arrange hidden spirit cards into groups of matching colours while communication is restricted?",
+      "initial": "Y",
+      "answer": "Yokai",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://bankiiiz.com/yokai/"]
+    },
+    {
+      "id": "games-en-hard-02-28",
+      "text": "Which Kris Burm game in Project GIPF has players place and capture marbles on a board of removable rings?",
+      "initial": "Z",
+      "answer": "Zèrtz",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Z%C3%88RTZ"]
+    }
+  ]
+}

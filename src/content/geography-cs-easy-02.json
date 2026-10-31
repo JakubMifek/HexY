@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "geography-cs-easy-02",
+  "title": "Zeměpis a cestování · lehká 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-cs-easy-02-01",
+      "initial": "A",
+      "text": "Na kterém kontinentu leží města Sydney, Melbourne a Perth?",
+      "answer": "Austrálie",
+      "aliases": ["Australský kontinent", "Australia"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Australia"]
+    },
+    {
+      "id": "geography-cs-easy-02-02",
+      "initial": "B",
+      "text": "Které moravské město má hrad Špilberk a katedrálu na Petrově?",
+      "answer": "Brno",
+      "aliases": ["Brünn"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Brno"]
+    },
+    {
+      "id": "geography-cs-easy-02-03",
+      "initial": "C",
+      "text": "Jak se nazývá úřední doklad vydávaný státem, který při cestách do zahraničí prokazuje totožnost a státní příslušnost?",
+      "answer": "Cestovní pas",
+      "aliases": ["pas"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Cestovn%C3%AD_pas"]
+    },
+    {
+      "id": "geography-cs-easy-02-04",
+      "initial": "Č",
+      "text": "Do kterého moře ústí Dunaj?",
+      "answer": "Černé moře",
+      "aliases": ["Black Sea"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Danube"]
+    },
+    {
+      "id": "geography-cs-easy-02-05",
+      "initial": "D",
+      "text": "Jak se nazývá silnice s oddělenými jízdními pásy pro oba směry a mimoúrovňovými křižovatkami, v Česku například D1?",
+      "answer": "Dálnice",
+      "aliases": ["autostráda"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/D%C3%A1lnice"]
+    },
+    {
+      "id": "geography-cs-easy-02-06",
+      "initial": "E",
+      "text": "Jak se jmenuje železná pařížská věž postavená pro světovou výstavu roku 1889?",
+      "answer": "Eiffelova věž",
+      "aliases": ["Eiffelovka", "Tour Eiffel", "Eiffel Tower"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Eiffel_Tower"]
+    },
+    {
+      "id": "geography-cs-easy-02-07",
+      "initial": "F",
+      "text": "Který severský stát leží mezi Švédskem a Ruskem a je proslulý tisíci jezer?",
+      "answer": "Finsko",
+      "aliases": ["Finská republika", "Suomi", "Finland"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Finland"]
+    },
+    {
+      "id": "geography-cs-easy-02-08",
+      "initial": "G",
+      "text": "Které skotské velkoměsto leží na řece Clyde?",
+      "answer": "Glasgow",
+      "aliases": [],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Glasgow"]
+    },
+    {
+      "id": "geography-cs-easy-02-09",
+      "initial": "H",
+      "text": "Které německé přístavní město na Labi je současně jednou ze spolkových zemí?",
+      "answer": "Hamburk",
+      "aliases": ["Hamburg", "Svobodné a hanzovní město Hamburk"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Hamburg"]
+    },
+    {
+      "id": "geography-cs-easy-02-10",
+      "initial": "Ch",
+      "text": "Který stát na pobřeží Jadranu má hlavní město Záhřeb?",
+      "answer": "Chorvatsko",
+      "aliases": ["Chorvatská republika", "Hrvatska", "Croatia"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Croatia"]
+    },
+    {
+      "id": "geography-cs-easy-02-11",
+      "initial": "I",
+      "text": "Který evropský stát navštívíte, chcete-li vidět Moherské útesy v hrabství Clare?",
+      "answer": "Irsko",
+      "aliases": ["Irská republika", "Ireland", "Éire", "Poblacht na hÉireann"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cliffs_of_Moher",
+        "https://en.wikipedia.org/wiki/Republic_of_Ireland"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-02-12",
+      "initial": "J",
+      "text": "Které město na česko-moravském pomezí je sídlem Kraje Vysočina?",
+      "answer": "Jihlava",
+      "aliases": ["Iglau"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Jihlava"]
+    },
+    {
+      "id": "geography-cs-easy-02-13",
+      "initial": "K",
+      "text": "Jak se jmenuje hlavní město Egypta?",
+      "answer": "Káhira",
+      "aliases": ["Cairo", "al-Qáhira", "Al Qahira"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Cairo"]
+    },
+    {
+      "id": "geography-cs-easy-02-14",
+      "initial": "L",
+      "text": "Která řeka pramení v Krkonoších a ústí do Severního moře u Cuxhavenu?",
+      "answer": "Labe",
+      "aliases": ["Elbe"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Elbe"]
+    },
+    {
+      "id": "geography-cs-easy-02-15",
+      "initial": "M",
+      "text": "Jak se nazývá zmenšené smluvené zobrazení zemského povrchu v rovině, doplněné například měřítkem a značkami?",
+      "answer": "Mapa",
+      "aliases": ["zeměpisná mapa", "zeměpisná karta", "zeměvid"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Mapa"]
+    },
+    {
+      "id": "geography-cs-easy-02-16",
+      "initial": "N",
+      "text": "Který evropský stát je známý poldry a má sídlo vlády v Haagu?",
+      "answer": "Nizozemsko",
+      "aliases": ["Nizozemí", "Nederland", "Netherlands", "Holandsko"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Netherlands"]
+    },
+    {
+      "id": "geography-cs-easy-02-17",
+      "initial": "O",
+      "text": "Jak se nazývá souš ze všech stran obklopená vodou, pokud nejde o kontinent?",
+      "answer": "Ostrov",
+      "aliases": [],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Island"]
+    },
+    {
+      "id": "geography-cs-easy-02-18",
+      "initial": "P",
+      "text": "Jak se jmenuje čínské hlavní město, v němž leží Zakázané město?",
+      "answer": "Peking",
+      "aliases": ["Beijing", "Pej-ťing"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Beijing"]
+    },
+    {
+      "id": "geography-cs-easy-02-19",
+      "initial": "R",
+      "text": "Jak se nazývá pomyslná kružnice s nulovou zeměpisnou šířkou, která dělí Zemi na severní a jižní polokouli?",
+      "answer": "Rovník",
+      "aliases": ["zemský rovník", "equator"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Equator"]
+    },
+    {
+      "id": "geography-cs-easy-02-20",
+      "initial": "Ř",
+      "text": "Která osamocená hora u Roudnice nad Labem je spojena s pověstí o příchodu praotce Čecha?",
+      "answer": "Říp",
+      "aliases": ["hora Říp", "Sankt Georgsberg", "Georgenberg"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98%C3%ADp"]
+    },
+    {
+      "id": "geography-cs-easy-02-21",
+      "initial": "S",
+      "text": "Který sousední stát Česka má hlavní město Bratislavu?",
+      "answer": "Slovensko",
+      "aliases": ["Slovenská republika", "Slovakia"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Slovakia"]
+    },
+    {
+      "id": "geography-cs-easy-02-22",
+      "initial": "Š",
+      "text": "Který severský stát má hlavní město Stockholm?",
+      "answer": "Švédsko",
+      "aliases": ["Švédské království", "Sverige", "Sweden"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Sweden"]
+    },
+    {
+      "id": "geography-cs-easy-02-23",
+      "initial": "T",
+      "text": "Který severoafrický stát má hlavní město Tunis?",
+      "answer": "Tunisko",
+      "aliases": ["Tuniská republika", "Tunisia"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Tunisia"]
+    },
+    {
+      "id": "geography-cs-easy-02-24",
+      "initial": "U",
+      "text": "Který evropský stát má hlavní město Kyjev?",
+      "answer": "Ukrajina",
+      "aliases": ["Ukraine"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Ukraine"]
+    },
+    {
+      "id": "geography-cs-easy-02-25",
+      "initial": "V",
+      "text": "Který stát má na severu deltu Rudé řeky a na jihu deltu Mekongu?",
+      "answer": "Vietnam",
+      "aliases": ["Vietnamská socialistická republika", "Viet Nam"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Vietnam"]
+    },
+    {
+      "id": "geography-cs-easy-02-26",
+      "initial": "W",
+      "text": "Která země Spojeného království má hlavní město Cardiff?",
+      "answer": "Wales",
+      "aliases": ["Cymru"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Wales"]
+    },
+    {
+      "id": "geography-cs-easy-02-27",
+      "initial": "Z",
+      "text": "Jak se nazývá část moře či jezera vnikající do pevniny, například Biskajský nebo Perský?",
+      "answer": "Záliv",
+      "aliases": ["mořský záliv"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Z%C3%A1liv"]
+    },
+    {
+      "id": "geography-cs-easy-02-28",
+      "initial": "Ž",
+      "text": "Jak se jmenuje jezero mezi Švýcarskem a Francií, jímž protéká Rhôna?",
+      "answer": "Ženevské jezero",
+      "aliases": [
+        "Lac Léman",
+        "Léman",
+        "Lake Geneva",
+        "Lac de Genève",
+        "Genfersee",
+        "Genfer See",
+        "Lago di Ginevra",
+        "Lai da Genevra"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDenevsk%C3%A9_jezero"]
+    }
+  ]
+}

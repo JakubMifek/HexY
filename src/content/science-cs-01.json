@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "science-cs-01",
   "title": "Věda a technika · 01",
   "language": "cs",

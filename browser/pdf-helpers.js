@@ -9,7 +9,7 @@ function unicodeMap(cmap) {
   for (const chunk of cmap.matchAll(/beginbfchar([\s\S]*?)endbfchar/g)) {
     for (const match of chunk[1].matchAll(/<(\w+)> <(\w+)>/g))
       map.set(
-        parseInt(match[1], 16),
+        match[1].toUpperCase(),
         String.fromCodePoint(parseInt(match[2], 16)),
       );
   }
@@ -19,12 +19,13 @@ function unicodeMap(cmap) {
       const end = parseInt(match[2], 16);
       for (let code = start; code <= end; code++)
         map.set(
-          code,
+          code.toString(16).toUpperCase().padStart(match[1].length, '0'),
           String.fromCodePoint(parseInt(match[3], 16) + code - start),
         );
     }
   }
-  return map;
+  const width = cmap.match(/begincodespacerange\s*<(\w+)>/)[1].length;
+  return { map, width };
 }
 
 function pageText(object, fonts, stream) {
@@ -42,8 +43,11 @@ function pageText(object, fonts, stream) {
   )) {
     if (match[1]) font = resources.get(match[1]);
     else
-      for (const code of match[2].match(/.{4}/g))
-        text += font.get(parseInt(code, 16)) ?? '�';
+      for (let offset = 0; offset < match[2].length; offset += font.width)
+        text +=
+          font.map.get(
+            match[2].slice(offset, offset + font.width).toUpperCase(),
+          ) ?? '�';
   }
   return text;
 }
@@ -80,8 +84,13 @@ function printedText(file) {
 
 export function verifyPrintedSheet(file, pack, language) {
   const normalize = (text) => text.normalize('NFKC').replace(/\s/g, '');
-  const text = normalize(printedText(file));
   const t = preparationStrings[language];
+  const heading = [t.number, t.id, t.initial, t.question, t.answer, t.aliases];
+  // A row taller than a printed page can contain the repeated table header.
+  const text = normalize(printedText(file)).replaceAll(
+    normalize(heading.join('')),
+    '',
+  );
   let position = 0;
   for (const [index, q] of pack.questions.entries()) {
     const row = normalize(

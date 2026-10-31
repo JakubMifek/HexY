@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-en-medium-01",
+  "title": "Arts and literature · Medium · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-en-medium-01-01",
+      "text": "What literary form uses characters and events to represent another level of meaning, often moral or political?",
+      "initial": "A",
+      "answer": "Allegory",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Allegory"]
+    },
+    {
+      "id": "arts-en-medium-01-02",
+      "text": "Which Florentine painter created The Birth of Venus?",
+      "initial": "B",
+      "answer": "Botticelli",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Sandro Botticelli",
+        "Alessandro di Mariano di Vanni Filipepi"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/The_Birth_of_Venus"]
+    },
+    {
+      "id": "arts-en-medium-01-03",
+      "text": "Which Italian painter created The Calling of Saint Matthew for the Contarelli Chapel in Rome?",
+      "initial": "C",
+      "answer": "Caravaggio",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Michelangelo Merisi", "Michelangelo Merisi da Caravaggio"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Calling_of_St_Matthew_%28Caravaggio%29"
+      ]
+    },
+    {
+      "id": "arts-en-medium-01-04",
+      "text": "Which English furniture designer published The Gentleman and Cabinet Maker's Director in 1754?",
+      "initial": "CH",
+      "answer": "Chippendale",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Thomas Chippendale"],
+      "sources": ["https://en.wikipedia.org/wiki/Thomas_Chippendale"]
+    },
+    {
+      "id": "arts-en-medium-01-05",
+      "text": "Which Victorian novelist wrote Bleak House and Great Expectations?",
+      "initial": "D",
+      "answer": "Dickens",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Charles Dickens", "Charles John Huffam Dickens"],
+      "sources": ["https://en.wikipedia.org/wiki/Charles_Dickens"]
+    },
+    {
+      "id": "arts-en-medium-01-06",
+      "text": "What term describes a sentence or phrase continuing across the end of a poetic line without a syntactic break?",
+      "initial": "E",
+      "answer": "Enjambment",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["enjambement"],
+      "sources": ["https://en.wikipedia.org/wiki/Enjambment"]
+    },
+    {
+      "id": "arts-en-medium-01-07",
+      "text": "What narrative device plants hints about events that will happen later in a story?",
+      "initial": "F",
+      "answer": "Foreshadowing",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Foreshadowing"]
+    },
+    {
+      "id": "arts-en-medium-01-08",
+      "text": "Which medieval architectural style is associated with pointed arches, rib vaults and flying buttresses?",
+      "initial": "G",
+      "answer": "Gothic",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Gothic architecture"],
+      "sources": ["https://en.wikipedia.org/wiki/Gothic_architecture"]
+    },
+    {
+      "id": "arts-en-medium-01-09",
+      "text": "Which Japanese artist created the woodblock print The Great Wave off Kanagawa?",
+      "initial": "H",
+      "answer": "Hokusai",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Katsushika Hokusai"],
+      "sources": ["https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"]
+    },
+    {
+      "id": "arts-en-medium-01-10",
+      "text": "What metrical foot consists of an unstressed syllable followed by a stressed syllable in English verse?",
+      "initial": "I",
+      "answer": "Iamb",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["iambus"],
+      "sources": ["https://en.wikipedia.org/wiki/Iamb_%28poetry%29"]
+    },
+    {
+      "id": "arts-en-medium-01-11",
+      "text": "What German name for Art Nouveau comes from the Munich magazine Jugend?",
+      "initial": "J",
+      "answer": "Jugendstil",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jugendstil"]
+    },
+    {
+      "id": "arts-en-medium-01-12",
+      "text": "Which Russian-born painter wrote Concerning the Spiritual in Art and helped found the Blue Rider group?",
+      "initial": "K",
+      "answer": "Kandinsky",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Wassily Kandinsky",
+        "Vasily Kandinsky",
+        "Vassily Kandinsky",
+        "Wassily Wassilyevich Kandinsky"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Wassily_Kandinsky"]
+    },
+    {
+      "id": "arts-en-medium-01-13",
+      "text": "What printmaking process traditionally uses a flat stone and the repulsion between oil and water?",
+      "initial": "L",
+      "answer": "Lithography",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://www.tate.org.uk/art/art-terms/l/lithography"]
+    },
+    {
+      "id": "arts-en-medium-01-14",
+      "text": "What figure of speech describes one thing as another, as in calling time a thief, without using like or as?",
+      "initial": "M",
+      "answer": "Metaphor",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Metaphor"]
+    },
+    {
+      "id": "arts-en-medium-01-15",
+      "text": "What art term denotes the area around and between the main objects in an image?",
+      "initial": "N",
+      "answer": "Negative space",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["negative volume", "white space"],
+      "sources": ["https://en.wikipedia.org/wiki/Negative_space"]
+    },
+    {
+      "id": "arts-en-medium-01-16",
+      "text": "What lyric poetic form addresses or celebrates a subject in an elevated manner, as in Keats's poem to a nightingale?",
+      "initial": "O",
+      "answer": "Ode",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ode"]
+    },
+    {
+      "id": "arts-en-medium-01-17",
+      "text": "What drawing medium consists of sticks of powdered pigment held together with a small amount of binder?",
+      "initial": "P",
+      "answer": "Pastel",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["pastels"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/p/pastel"]
+    },
+    {
+      "id": "arts-en-medium-01-18",
+      "text": "Which Cervantes character mistakes windmills for giants?",
+      "initial": "Q",
+      "answer": "Quixote",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Don Quixote",
+        "Don Quijote",
+        "Quijote",
+        "Don Quixote de la Mancha",
+        "Don Quijote de la Mancha",
+        "Alonso Quixano",
+        "Alonso Quijano"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Don_Quixote"]
+    },
+    {
+      "id": "arts-en-medium-01-19",
+      "text": "Which French sculptor created The Thinker and The Burghers of Calais?",
+      "initial": "R",
+      "answer": "Rodin",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Auguste Rodin", "François Auguste René Rodin"],
+      "sources": ["https://en.wikipedia.org/wiki/Auguste_Rodin"]
+    },
+    {
+      "id": "arts-en-medium-01-20",
+      "text": "What literary mode uses ridicule, irony or exaggeration to expose human failings or social abuses?",
+      "initial": "S",
+      "answer": "Satire",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Satire"]
+    },
+    {
+      "id": "arts-en-medium-01-21",
+      "text": "Which Irish playwright wrote Pygmalion, featuring Eliza Doolittle and Henry Higgins?",
+      "initial": "SH",
+      "answer": "Shaw",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["George Bernard Shaw", "Bernard Shaw", "G. B. Shaw"],
+      "sources": ["https://en.wikipedia.org/wiki/Pygmalion_%28play%29"]
+    },
+    {
+      "id": "arts-en-medium-01-22",
+      "text": "What painting medium traditionally binds pigment with egg yolk?",
+      "initial": "T",
+      "answer": "Tempera",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["egg tempera"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/t/tempera"]
+    },
+    {
+      "id": "arts-en-medium-01-23",
+      "text": "What Japanese term, often translated as pictures of the floating world, names the print tradition associated with Utamaro and Hiroshige?",
+      "initial": "U",
+      "answer": "Ukiyo-e",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["ukiyo e"],
+      "sources": ["https://en.wikipedia.org/wiki/Ukiyo-e"]
+    },
+    {
+      "id": "arts-en-medium-01-24",
+      "text": "What nineteen-line poetic form uses five tercets followed by a quatrain and two recurring refrains?",
+      "initial": "V",
+      "answer": "Villanelle",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["villanesque"],
+      "sources": ["https://en.wikipedia.org/wiki/Villanelle"]
+    },
+    {
+      "id": "arts-en-medium-01-25",
+      "text": "What mark or design is made within paper so that it becomes visible when held up to the light?",
+      "initial": "W",
+      "answer": "Watermark",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Watermark"]
+    },
+    {
+      "id": "arts-en-medium-01-26",
+      "text": "Which Chinese painter, celebrated for ink paintings of horses, served as the first president of the Central Academy of Fine Arts?",
+      "initial": "X",
+      "answer": "Xu Beihong",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Hsu Pei-hung", "Xu", "Hsu Peihung", "Ju Peon"],
+      "sources": ["https://en.wikipedia.org/wiki/Xu_Beihong"]
+    },
+    {
+      "id": "arts-en-medium-01-27",
+      "text": "Which Japanese-born artist created Cut Piece, inviting audience members to cut pieces from her clothing?",
+      "initial": "Y",
+      "answer": "Yoko Ono",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Ono"],
+      "sources": ["https://en.wikipedia.org/wiki/Cut_Piece"]
+    },
+    {
+      "id": "arts-en-medium-01-28",
+      "text": "Which Swedish painter and etcher created Midsummer Dance and is commemorated by a museum dedicated to his work in Mora?",
+      "initial": "Z",
+      "answer": "Zorn",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Anders Zorn", "Anders Leonard Zorn"],
+      "sources": ["https://en.wikipedia.org/wiki/Anders_Zorn"]
+    }
+  ]
+}

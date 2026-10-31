@@ -1,6 +1,11 @@
 import { ALPHABETS } from './answers.js';
 import { requireValue, DomainError } from './errors.js';
 import { choice, list, record, strings, text } from './validation.js';
+import {
+  difficultyLevel,
+  packDifficulty,
+  validateDifficulties,
+} from './difficulty.js';
 
 /** @param {unknown} value @param {string} path
  * @returns {import('./types.js').Question} */
@@ -37,6 +42,9 @@ function parseQuestion(value, path) {
     aliases: strings(data.aliases, `${path}.aliases`),
     category: text(data.category, `${path}.category`),
     sources,
+    ...(data.difficulty === undefined
+      ? {}
+      : { difficulty: difficultyLevel(data.difficulty, `${path}.difficulty`) }),
     ...(data.origins === undefined
       ? {}
       : { origins: parseOrigins(data.origins, `${path}.origins`) }),
@@ -63,7 +71,7 @@ function parseOrigins(value, path) {
 /** @param {unknown} value @returns {import('./types.js').Pack} */
 export function validatePack(value) {
   const data = record(value, 'pack');
-  requireValue(data.schemaVersion === 1, 'packVersion', 'schemaVersion');
+  requireValue(data.schemaVersion === 2, 'packVersion', 'schemaVersion');
   const language = choice(
     data.language,
     /** @type {const} */ (['cs', 'en']),
@@ -78,6 +86,8 @@ export function validatePack(value) {
     parseQuestion(item, `questions.${i}`),
   );
   requireValue(questions.length > 0, 'emptyPack', 'questions');
+  const difficulty = packDifficulty(data.difficulty, mode);
+  validateDifficulties(difficulty, questions);
   requireValue(
     new Set(questions.map(({ id }) => id)).size === questions.length,
     'duplicateQuestion',
@@ -92,11 +102,12 @@ export function validatePack(value) {
   const authors = strings(data.authors, 'authors');
   requireValue(authors.length > 0, 'missingProvenance', 'authors');
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     id: text(data.id, 'id'),
     title: text(data.title, 'title'),
     language,
     mode,
+    difficulty,
     authors,
     license: text(data.license, 'license'),
     questions,

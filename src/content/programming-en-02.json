@@ -1,7 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "hard",
   "id": "programming-en-02",
-  "title": "Programming · 02",
+  "title": "Computing and Programming · 02",
   "language": "en",
   "mode": "letters",
   "authors": ["HexY contributors"],

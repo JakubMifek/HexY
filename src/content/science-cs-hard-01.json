@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "id": "science-cs-hard-01",
+  "title": "Věda a technika · Těžké · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-hard-01-01",
+      "text": "Jak se nazývá termodynamický děj, při němž nedochází k přenosu tepla mezi soustavou a okolím?",
+      "initial": "A",
+      "answer": "Adiabatický děj",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Adiabatický proces"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Adiabatic_process",
+        "https://cs.wikipedia.org/wiki/Adiabatick%C3%BD_d%C4%9Bj"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-02",
+      "text": "Jak se nazývá vztah 2d sin θ = nλ určující podmínku konstruktivní interference záření rozptýleného na krystalových rovinách?",
+      "initial": "B",
+      "answer": "Braggův zákon",
+      "language": "cs",
+      "category": "science",
+      "aliases": [
+        "Braggova rovnice",
+        "Braggova podmínka",
+        "Wulffova-Braggova podmínka",
+        "Wulffova–Braggova podmínka"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Bragg%27s_law"]
+    },
+    {
+      "id": "science-cs-hard-01-03",
+      "text": "Jak se nazývá teplota, nad níž feromagnet při zahřívání ztrácí spontánní magnetické uspořádání?",
+      "initial": "C",
+      "answer": "Curieova teplota",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Curieův bod", "Curieova teplota přechodu"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Curie_temperature",
+        "https://cs.wikipedia.org/wiki/Curieova_teplota"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-04",
+      "text": "Jak se nazývá elektromagnetické záření vznikající, když nabitá částice prochází prostředím rychleji než fázovou rychlostí světla v tomto prostředí?",
+      "initial": "Č",
+      "answer": "Čerenkovovo záření",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Čerenkovův jev", "Cherenkovovo záření", "Čerenkovův efekt"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cherenkov_radiation",
+        "https://cs.wikipedia.org/wiki/%C4%8Cerenkovovo_z%C3%A1%C5%99en%C3%AD"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-05",
+      "text": "Jak se v plazmatu nazývá charakteristická délka, na níž se stíní elektrostatický potenciál vloženého náboje?",
+      "initial": "D",
+      "answer": "Debyeova délka",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Debyeova stínicí délka", "Debyeův poloměr"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Debye_length",
+        "https://cs.wikipedia.org/wiki/Debyeova_d%C3%A9lka"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-06",
+      "text": "Jak se nazývá směs dvou složek, která taje při nižší teplotě než kterákoli jiná směs těchto složek?",
+      "initial": "E",
+      "answer": "Eutektikum",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Eutektická směs"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eutectic_system",
+        "https://cs.wikipedia.org/wiki/Eutektikum"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-07",
+      "text": "Jak se nazývá rozdíl energií mezi nejvýše a nejníže obsazeným jednočásticovým stavem soustavy neinteragujících fermionů při absolutní nule?",
+      "initial": "F",
+      "answer": "Fermiho energie",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Fermi_energy"]
+    },
+    {
+      "id": "science-cs-hard-01-08",
+      "text": "Jak se nazývá termodynamický potenciál G = H − TS, používaný pro děje za konstantní teploty a tlaku?",
+      "initial": "G",
+      "answer": "Gibbsova energie",
+      "language": "cs",
+      "category": "science",
+      "aliases": [
+        "Gibbsova volná energie",
+        "Gibbsova funkce",
+        "Gibbsův potenciál",
+        "Volná entalpie"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gibbs_free_energy",
+        "https://cs.wikipedia.org/wiki/Gibbsova_energie"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-09",
+      "text": "Jak se nazývá vznik příčného napětí na vodiči s proudem v magnetickém poli kolmém ke směru proudu?",
+      "initial": "H",
+      "answer": "Hallův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Hallův efekt"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hall_effect",
+        "https://cs.wikipedia.org/wiki/Hall%C5%AFv_jev"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-10",
+      "text": "Jak se nazývá parciální molární Gibbsova energie složky směsi při konstantní teplotě a tlaku?",
+      "initial": "Ch",
+      "answer": "Chemický potenciál",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chemical_potential",
+        "https://cs.wikipedia.org/wiki/Chemick%C3%BD_potenci%C3%A1l"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-11",
+      "text": "Jak se nazývá komplexní poměr fázoru napětí k fázoru proudu v lineárním střídavém obvodu?",
+      "initial": "I",
+      "answer": "Impedance",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electrical_impedance",
+        "https://cs.wikipedia.org/wiki/Impedance"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-12",
+      "text": "Jak se nazývá průchod supraproudu přes dostatečně tenkou bariéru mezi dvěma supravodiči i při nulovém napětí?",
+      "initial": "J",
+      "answer": "Josephsonův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Josephsonův efekt", "Stejnosměrný Josephsonův jev"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Josephson_effect",
+        "https://cs.wikipedia.org/wiki/Josephson%C5%AFv_jev"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-13",
+      "text": "Jak se nazývá vznik a následný zánik parních dutin v kapalině při místním poklesu tlaku pod tlak nasycené páry?",
+      "initial": "K",
+      "answer": "Kavitace",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cavitation",
+        "https://cs.wikipedia.org/wiki/Kavitace"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-14",
+      "text": "Jak se nazývá pravidlo, podle něhož indukovaný proud působí magnetickým polem proti změně toku, která jej vyvolala?",
+      "initial": "L",
+      "answer": "Lenzův zákon",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Lenzovo pravidlo"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lenz%27s_law",
+        "https://cs.wikipedia.org/wiki/Lenz%C5%AFv_z%C3%A1kon"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-15",
+      "text": "Jak se nazývá vytlačování magnetického pole z nitra materiálu při přechodu do supravodivého stavu?",
+      "initial": "M",
+      "answer": "Meissnerův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": [
+        "Meissnerův efekt",
+        "Meissnerův-Ochsenfeldův jev",
+        "Meissnerův–Ochsenfeldův jev"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Meissner_effect",
+        "https://cs.wikipedia.org/wiki/Meissner%C5%AFv_jev"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-16",
+      "text": "Jak se nazývá rovnice spojující rovnovážný elektrodový potenciál s aktivitami reagujících látek a teplotou?",
+      "initial": "N",
+      "answer": "Nernstova rovnice",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Nernstova-Petersova rovnice", "Nernstova–Petersova rovnice"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nernst_equation",
+        "https://cs.wikipedia.org/wiki/Nernstova_rovnice"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-17",
+      "text": "Jak se nazývá průmyslová výroba kyseliny dusičné katalytickou oxidací amoniaku a následným zpracováním oxidů dusíku?",
+      "initial": "O",
+      "answer": "Ostwaldův proces",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ostwald_process",
+        "https://cs.wikipedia.org/wiki/Kyselina_dusi%C4%8Dn%C3%A1"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-18",
+      "text": "Jak se nazývá vratné pohlcování nebo uvolňování tepla na spoji různých vodičů při průchodu elektrického proudu?",
+      "initial": "P",
+      "answer": "Peltierův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Peltierův efekt"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thermoelectric_effect",
+        "https://cs.wikipedia.org/wiki/Peltier%C5%AFv_jev"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-19",
+      "text": "Jak se nazývá nepružný rozptyl světla spojený s přechody mezi vibračními nebo rotačními energetickými hladinami molekul?",
+      "initial": "R",
+      "answer": "Ramanův rozptyl",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Ramanův jev"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Raman_scattering",
+        "https://cs.wikipedia.org/wiki/Raman%C5%AFv_rozptyl"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-20",
+      "text": "Jak se nazývá elektronový mikroskop, který vytváří obraz povrchu postupným rastrováním zaostřeným svazkem elektronů?",
+      "initial": "Ř",
+      "answer": "Řádkovací elektronový mikroskop",
+      "language": "cs",
+      "category": "science",
+      "aliases": [
+        "Rastrovací elektronový mikroskop",
+        "Skenovací elektronový mikroskop",
+        "SEM"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scanning_electron_microscope",
+        "https://cs.wikipedia.org/wiki/Rastrovac%C3%AD_elektronov%C3%BD_mikroskop",
+        "https://www.mff.cuni.cz/cs/kfm/experimentalni-vybaveni/rastrovaci-elektronova-mikroskopie-sem"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-21",
+      "text": "Jak se nazývá vznik elektrického napětí v obvodu ze dvou různých vodičů, pokud jejich spoje mají různé teploty?",
+      "initial": "S",
+      "answer": "Seebeckův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Seebeckův efekt"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thermoelectric_effect",
+        "https://cs.wikipedia.org/wiki/Seebeck%C5%AFv_jev"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-22",
+      "text": "Jak se v základní mechanice nazývá pohyb tělesa vrženého pod nenulovým ostrým úhlem k vodorovné rovině v homogenním tíhovém poli bez odporu vzduchu?",
+      "initial": "Š",
+      "answer": "Šikmý vrh",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Vrh šikmý"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Projectile_motion",
+        "https://cs.wikipedia.org/wiki/%C5%A0ikm%C3%BD_vrh"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-23",
+      "text": "Jak se nazývá vratný vznik nebo pohlcování tepla v jediném vodiči s teplotním gradientem, kterým prochází proud?",
+      "initial": "T",
+      "answer": "Thomsonův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Thomsonův efekt"],
+      "sources": ["https://en.wikipedia.org/wiki/Thermoelectric_effect"]
+    },
+    {
+      "id": "science-cs-hard-01-24",
+      "text": "Jak se nazývá trubicovitá uhlíková nanostruktura, jejíž jednostěnnou variantu lze popsat jako válcově svinutý grafen?",
+      "initial": "U",
+      "answer": "Uhlíková nanotrubice",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Nanotrubice", "Uhlíková nanotrubička", "CNT"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carbon_nanotube",
+        "https://cs.wikipedia.org/wiki/Uhl%C3%ADkov%C3%A1_nanotrubice"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-25",
+      "text": "Jak se nazývá pokles statického tlaku v zúžení trubice, v němž při ustáleném proudění vzroste rychlost tekutiny?",
+      "initial": "V",
+      "answer": "Venturiho jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": [
+        "Venturiho efekt",
+        "Hydrodynamický paradox",
+        "Aerodynamický paradox"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venturi_effect",
+        "https://cs.wikipedia.org/wiki/Venturiho_efekt"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-26",
+      "text": "Jak se nazývá zákon, podle něhož je vlnová délka maxima spektrálního záření černého tělesa na jednotku vlnové délky nepřímo úměrná teplotě?",
+      "initial": "W",
+      "answer": "Wienův posunovací zákon",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Wienův zákon"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wien%27s_displacement_law",
+        "https://cs.wikipedia.org/wiki/Wien%C5%AFv_posunovac%C3%AD_z%C3%A1kon"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-27",
+      "text": "Jak se nazývá kvantové tunelování elektronů přes ochuzenou oblast silně dotovaného polovodičového přechodu při závěrném napětí?",
+      "initial": "Z",
+      "answer": "Zenerův jev",
+      "language": "cs",
+      "category": "science",
+      "aliases": ["Zenerův průraz"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zener_effect",
+        "https://cs.wikipedia.org/wiki/Zenerova_dioda"
+      ]
+    },
+    {
+      "id": "science-cs-hard-01-28",
+      "text": "Jak se nazývá tepelné zpracování kovu, při němž vhodný ohřev a následné ochlazování mění strukturu a může snížit tvrdost i vnitřní pnutí?",
+      "initial": "Ž",
+      "answer": "Žíhání",
+      "language": "cs",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Annealing_(materials_science)",
+        "https://cs.wikipedia.org/wiki/%C5%BD%C3%ADh%C3%A1n%C3%AD_%28metalurgie%29"
+      ]
+    }
+  ]
+}

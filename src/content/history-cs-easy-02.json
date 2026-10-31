@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "id": "history-cs-easy-02",
+  "title": "Historie · Lehká · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-cs-easy-02-01",
+      "text": "Jak se souhrnně označuje období a kultura starověkého Řecka a Říma?",
+      "initial": "A",
+      "answer": "Antika",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Klasický starověk", "Klasická antika"],
+      "sources": ["https://en.wikipedia.org/wiki/Classical_antiquity"]
+    },
+    {
+      "id": "history-cs-easy-02-02",
+      "text": "Která slitina mědi a obvykle cínu dala název období pravěku následujícímu po době kamenné?",
+      "initial": "B",
+      "answer": "Bronz",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Bronze_Age"]
+    },
+    {
+      "id": "history-cs-easy-02-03",
+      "text": "Které písmo vzniklo v prostředí první bulharské říše a jeho pozdější podoby se používají například pro ruštinu či srbštinu?",
+      "initial": "C",
+      "answer": "Cyrilice",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Azbuka"],
+      "sources": ["https://en.wikipedia.org/wiki/Cyrillic_script"]
+    },
+    {
+      "id": "history-cs-easy-02-04",
+      "text": "Jak se označují soudní řízení proti lidem obviněným ze škodlivých kouzel, známá například ze Salemu roku 1692?",
+      "initial": "Č",
+      "answer": "Čarodějnické procesy",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Procesy s čarodějnicemi", "Čarodějnické soudy"],
+      "sources": ["https://en.wikipedia.org/wiki/Salem_witch_trials"]
+    },
+    {
+      "id": "history-cs-easy-02-05",
+      "text": "Který dokument schválil Kontinentální kongres 4. července 1776 jako prohlášení odtržení třinácti kolonií od Británie?",
+      "initial": "D",
+      "answer": "Deklarace nezávislosti",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Deklarace nezávislosti USA",
+        "Prohlášení nezávislosti Spojených států amerických",
+        "Prohlášení nezávislosti",
+        "Deklarace nezávislosti Spojených států amerických",
+        "Deklarace nezávislosti Spojených států"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+      ]
+    },
+    {
+      "id": "history-cs-easy-02-06",
+      "text": "Jaké příjmení měl Thomas Alva, který roku 1877 představil fonograf pro záznam a přehrávání zvuku?",
+      "initial": "E",
+      "answer": "Edison",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Thomas Edison", "Thomas Alva Edison"],
+      "sources": ["https://en.wikipedia.org/wiki/Thomas_Edison"]
+    },
+    {
+      "id": "history-cs-easy-02-07",
+      "text": "Jakým titulem dnes označujeme panovníky starověkého Egypta, například Ramesse II.?",
+      "initial": "F",
+      "answer": "Faraon",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Pharaoh"]
+    },
+    {
+      "id": "history-cs-easy-02-08",
+      "text": "Který středověký stavební sloh se vyznačuje lomeným obloukem, žebrovou klenbou a opěrnými oblouky?",
+      "initial": "G",
+      "answer": "Gotika",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Gotický sloh", "Gotická architektura"],
+      "sources": ["https://en.wikipedia.org/wiki/Gothic_architecture"]
+    },
+    {
+      "id": "history-cs-easy-02-09",
+      "text": "Jak se nazývá opevněné sídlo panovníka či šlechtice, jakým byl ve středověku Karlštejn?",
+      "initial": "H",
+      "answer": "Hrad",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Karlštejn"]
+    },
+    {
+      "id": "history-cs-easy-02-10",
+      "text": "Kterou nemoc přenášenou kontaminovanou vodou zkoumal John Snow během londýnské epidemie roku 1854?",
+      "initial": "Ch",
+      "answer": "Cholera",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak"
+      ]
+    },
+    {
+      "id": "history-cs-easy-02-11",
+      "text": "Jaké tradiční evropské označení původních obyvatel Ameriky vzniklo z Kolumbova mylného přesvědčení, že doplul do Indie?",
+      "initial": "I",
+      "answer": "Indiáni",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Američtí indiáni"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Americas"
+      ]
+    },
+    {
+      "id": "history-cs-easy-02-12",
+      "text": "Který anglický král z dynastie Tudorovců proslul šesti manželstvími a rozchodem s papežem?",
+      "initial": "J",
+      "answer": "Jindřich VIII.",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Jindřich osmý", "Jindřich VIII. Tudor"],
+      "sources": ["https://en.wikipedia.org/wiki/Henry_VIII"]
+    },
+    {
+      "id": "history-cs-easy-02-13",
+      "text": "Jak se nazývá slavnostní uvedení panovníka do úřadu, při němž se mu zpravidla vkládá na hlavu královská pokrývka?",
+      "initial": "K",
+      "answer": "Korunovace",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Korunování"],
+      "sources": ["https://en.wikipedia.org/wiki/Coronation"]
+    },
+    {
+      "id": "history-cs-easy-02-14",
+      "text": "Který francouzský král byl po svržení monarchie popraven gilotinou v lednu 1793?",
+      "initial": "L",
+      "answer": "Ludvík XVI.",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Ludvík šestnáctý"],
+      "sources": ["https://en.wikipedia.org/wiki/Louis_XVI"]
+    },
+    {
+      "id": "history-cs-easy-02-15",
+      "text": "Jaké příjmení měl Samuel, americký spoluautor telegrafního systému a kódu z teček a čárek rozvíjeného ve 30. a 40. letech 19. století?",
+      "initial": "M",
+      "answer": "Morse",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Samuel Morse", "Samuel Finley Breese Morse"],
+      "sources": ["https://en.wikipedia.org/wiki/Samuel_Morse"]
+    },
+    {
+      "id": "history-cs-easy-02-16",
+      "text": "Ve kterém německém městě začal v listopadu 1945 mezinárodní proces s hlavními nacistickými válečnými zločinci?",
+      "initial": "N",
+      "answer": "Norimberk",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Nürnberg", "Nuremberg"],
+      "sources": ["https://en.wikipedia.org/wiki/Nuremberg_trials"]
+    },
+    {
+      "id": "history-cs-easy-02-17",
+      "text": "Jak se nazývají antické sportovní slavnosti pořádané na počest Dia v Olympii, jejichž tradici připomíná dnešní stejnojmenná soutěž?",
+      "initial": "O",
+      "answer": "Olympijské hry",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Antické olympijské hry", "Starověké olympijské hry"],
+      "sources": ["https://en.wikipedia.org/wiki/Ancient_Olympic_Games"]
+    },
+    {
+      "id": "history-cs-easy-02-18",
+      "text": "Který tepelný motor využívající rozpínání vodní páry poháněl mnohé továrny a lokomotivy za průmyslové revoluce?",
+      "initial": "P",
+      "answer": "Parní stroj",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Parní motor"],
+      "sources": ["https://en.wikipedia.org/wiki/Steam_engine"]
+    },
+    {
+      "id": "history-cs-easy-02-19",
+      "text": "Jak se nazývalo dvojstátí vzniklé vyrovnáním v roce 1867, v němž české země patřily do rakouské části?",
+      "initial": "R",
+      "answer": "Rakousko-Uhersko",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Rakousko-uherská monarchie",
+        "Rakousko-Uherská říše",
+        "Podunajská monarchie"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Austria-Hungary"]
+    },
+    {
+      "id": "history-cs-easy-02-20",
+      "text": "Jak se označuje rozsáhlý stát ovládající různé země a národy, jaký ve starověku vybudovali Peršané?",
+      "initial": "Ř",
+      "answer": "Říše",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Impérium"],
+      "sources": ["https://en.wikipedia.org/wiki/Empire"]
+    },
+    {
+      "id": "history-cs-easy-02-21",
+      "text": "Který přemyslovský kníže a pozdější světec byl zavražděn ve Staré Boleslavi v souvislosti se sporem se svým bratrem Boleslavem?",
+      "initial": "S",
+      "answer": "Svatý Václav",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Václav", "Kníže Václav", "Svatý Václav I.", "Václav I."],
+      "sources": ["https://en.wikipedia.org/wiki/Wenceslaus_I,_Duke_of_Bohemia"]
+    },
+    {
+      "id": "history-cs-easy-02-22",
+      "text": "Jak se nazývá privilegovaná společenská vrstva, jejíž příslušníci ve středověké a raně novověké Evropě dědili urozený stav a tituly?",
+      "initial": "Š",
+      "answer": "Šlechta",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Aristokracie", "Urození"],
+      "sources": ["https://en.wikipedia.org/wiki/Nobility"]
+    },
+    {
+      "id": "history-cs-easy-02-23",
+      "text": "Jak se nazývá evropský konflikt z let 1618–1648, jehož počáteční fáze zahrnovala české stavovské povstání?",
+      "initial": "T",
+      "answer": "Třicetiletá válka",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["30letá válka"],
+      "sources": ["https://en.wikipedia.org/wiki/Thirty_Years%27_War"]
+    },
+    {
+      "id": "history-cs-easy-02-24",
+      "text": "Jak se označuje české nezávislé kulturní prostředí 70. let spojované s kapelou The Plastic People of the Universe a odporem k oficiální kultuře?",
+      "initial": "U",
+      "answer": "Underground",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Český underground",
+        "Československý underground",
+        "Pražský underground"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Czech_underground"]
+    },
+    {
+      "id": "history-cs-easy-02-25",
+      "text": "Které pražské náměstí, dříve Koňský trh, dostalo roku 1848 jméno po českém patronovi?",
+      "initial": "V",
+      "answer": "Václavské náměstí",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Václavák", "Svatováclavské náměstí"],
+      "sources": ["https://en.wikipedia.org/wiki/Wenceslas_Square"]
+    },
+    {
+      "id": "history-cs-easy-02-26",
+      "text": "Jak se běžně jmenuje americký hudební festival konaný v srpnu 1969 u Bethelu, který se stal symbolem kultury hippies?",
+      "initial": "W",
+      "answer": "Woodstock",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Festival Woodstock", "Woodstock Music and Art Fair"],
+      "sources": ["https://en.wikipedia.org/wiki/Woodstock"]
+    },
+    {
+      "id": "history-cs-easy-02-27",
+      "text": "Jaké příjmení měl hrabě Ferdinand, pod jehož vedením vznikla vzducholoď LZ 1, poprvé vzlétnuvší roku 1900 nad Bodamským jezerem?",
+      "initial": "Z",
+      "answer": "Zeppelin",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Ferdinand von Zeppelin"],
+      "sources": ["https://en.wikipedia.org/wiki/Ferdinand_von_Zeppelin"]
+    },
+    {
+      "id": "history-cs-easy-02-28",
+      "text": "Jakou přezdívku dostala britská politička Margaret Thatcherová v sovětském tisku roku 1976?",
+      "initial": "Ž",
+      "answer": "Železná lady",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Iron Lady", "The Iron Lady"],
+      "sources": ["https://en.wikipedia.org/wiki/Margaret_Thatcher"]
+    }
+  ]
+}

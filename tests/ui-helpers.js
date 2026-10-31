@@ -3,7 +3,6 @@ export function prepare(app) {
   app.settings.mode = 'letters';
   app.settings.starter = 'A';
   app.workspace.model.configure(app.settings);
-  app.workspace.model.filters.language = '';
   app.navigation.boardChosen = true;
   app.navigation.go('desk');
 }

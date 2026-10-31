@@ -2,7 +2,7 @@
 
 Playable local quiz for two players sharing a screen. **Phases 1–7 are independently
 cleared: 36 packs / 1,008 reviewed questions. Not yet a production release.**
-All nine categories support both languages, catalog filtering and
+That historical library supported both languages, catalog filtering and
 source-preserving printable answer sheets.
 See [phase status](IMPLEMENTATION_PHASES.md) and [contracts](docs/contracts.md).
 The [phase-6 review](reviews/phase-06.md) records editorial coverage, corrections
@@ -17,7 +17,34 @@ with complete coordinator post-review checks passed. See the
 [phase-9 review](reviews/phase-09.md). It does not reopen public-release scope.
 The owner-approved phase-10 follow-up adds temporary mixes, final export and
 recorded controls; its [developer handoff](docs/phase-10-handoff.md) records
-verification and the pending independent review.
+verification; phase 10 is cleared and privately delivered as `54b34b1`.
+
+**Phase 11 is independently cleared with complete post-review gates passed:**
+the catalog
+has **132 decks / 3,696 questions**, eleven categories with exactly two decks
+per language/difficulty. Version-2 difficulty, language-scoped folders and
+protected old-record exports are implemented. All retained classifications and
+2,800 added entries have complete independent editorial reviews and accepted
+whole-deck ratings, including narrow correction rechecks. Final integrated
+review and 1,433 native post-review cases are complete; authorized private
+commit/push/HTTPS delivery is recorded in the continuation handoff.
+See [the handoff](docs/phase-11-handoff.md), [review history](reviews/phase-11.md)
+and [source receipts](docs/content-sources.md). Historical failures remain
+preserved, not silently cleared.
+
+Games, Movies/Series and Sports replace Entertainment in the bundled catalog.
+The four old packs remain [byte-bound archives](docs/phase-11-entertainment-retirement.json),
+not extra quota. Compatible imports and saved games retain their complete old
+questions, aliases, title scopes and deadlines; catalog retirement does not
+rewrite browser data. The old US-only Zootopia question still rejects
+Zootropolis, while the separately reviewed new regional-title question accepts it.
+
+The owner broadened **Computing and Programming / Informatika a programování**
+while retaining general-adult difficulty and all quotas. The category ID remains
+`programming` for compatibility. Forty accepted Czech judgments and source
+receipts are preserved; all 72 prior category-fit findings were independently
+reassessed and resolved under that scope. Factual, alias, disclosure and
+difficulty corrections passed separate rechecks, not automatic clearance.
 
 ## Play
 
@@ -161,13 +188,20 @@ Both spoken and typed games use the same preparation workflow:
    starter is initially ready. Changing language/mode resets the preparation to
    that language's **single starter**, not all catalog packs, and never translates
    custom questions.
-2. Browse by category, question language and bundled/custom origin, or search
-   pack titles/IDs (case and diacritics are ignored). Filters only change what
+2. Browse expandable category folders; uploaded/custom decks have a separate
+   folder. **Origin** and **Difficulty** are the only filters. Options determines
+   the question language; clearing filters never adds other-language questions.
+   Each deck shows its localized difficulty. A folder checkbox selects/deselects
+   only its currently matching decks, shows selected/matching counts and a
+   partial-selection state. The summary opens/closes with Enter/Space; the separate
+   checkbox also works when the folder is closed. Filters only change what
    you see: **hidden selected sources remain selected**, and the selected-source
    summary always lists them. Filtering never edits or invalidates an accepted
    board. Use **Clear source selection** before choosing a different fixed pack;
-   **Clear catalog filters** only restores the full list. Mixed-category custom
-   packs match each of their categories. Filters are session-only, not saved.
+   **Clear catalog filters** only restores the current-language list.
+   A whole folder does not become a valid multi-deck alphabetical game: select
+   exactly one fixed deck before preparing it. Filters/folder expansion are
+   session-only, not saved.
    Select packs, or **Import JSON files** (one or several). Imports stay in your
    browser; there is no remote upload. A batch with any invalid/conflicting file
    is rejected without replacing the existing library, proposal or editor draft.
@@ -177,9 +211,11 @@ Both spoken and typed games use the same preparation workflow:
    mixed languages and conflicting question IDs produce actionable errors.
    **Use selected number board unchanged** restores an imported/prepared order.
 4. **Edit selected pack as a copy** or **Edit proposal as a copy** opens the
-   actual question/answer/alias/category/source and pack title/ID/authors/license
+   actual question/answer/alias/category/source and pack title/ID/authors/license/difficulty
    editor. Lists use one entry per line. Question IDs stay stable; fixed initials
    and their authored order cannot move. Number/source positions can move.
+   Choosing a difficulty explicitly reclassifies all questions in that custom
+   copy. Leaving a generated mixture unchanged preserves its source levels.
    **Validate and save custom copy**, then accept the final board.
 5. **Download pack JSON** exports every supported pack, including generated and
    edited versions. **Export selected packs** downloads each selected source;
@@ -210,7 +246,7 @@ and on its sheet. Imported text is rendered as text, never executable markup.
 ### Local storage and backups
 
 The versioned `hexy.library.v1` localStorage record contains validated custom
-packs and interface/game-setup preferences. Explicit imports and saved editor
+version-2 packs and interface/game-setup preferences. Explicit imports and saved editor
 copies are persisted. Generated mixes are temporary, even after acceptance/start;
 the complete active-game recovery/save still includes its locked pack.
 Bundled assets are never modified. Unsaved editor drafts/proposals are not persisted.
@@ -227,6 +263,23 @@ Private browsing, site-data clearing, a different browser/profile/origin or quot
 limits can make this data unavailable. Errors are shown in the current UI
 language; a failed write leaves the current pack/game usable in memory and the
 previous stored value intact.
+
+**Difficulty compatibility:** imported packs require `schemaVersion: 2` and a
+declared `difficulty` (`easy`, `medium`, `hard`). Missing difficulty and older
+packs are rejected without replacing valid work. No Unrated level or inferred
+import classification exists. Mixed number boards preserve each question's
+level and export the exact sorted union of selected levels; this is not a fourth
+editorial difficulty. See [the full format](docs/contracts.md#packs).
+
+Old browser libraries containing pre-difficulty packs block replacement writes.
+In Options, **Export protected original library JSON** downloads the exact
+observed record, including whitespace. Preserve it, extract/edit a copy's pack
+metadata in a JSON editor and use the correct declared difficulty before
+reimporting individual packs. The application does not modify the old record.
+Old active games with incompatible packs likewise stay protected: use the
+recovery export before explicitly discarding. Export the game separately before
+any manual site-data removal. Existing outer library/input/game format versions
+have not changed; nested packs have. There is no automatic legacy migration.
 
 - **Older mixes / full storage / unwanted copies:** in Options or preparation,
   use **Saved decks** to export a copy. **Delete** is beside **Download pack JSON**;
@@ -338,14 +391,23 @@ See [format and duplicate-resolution rules](docs/contracts.md).
 
 ## Content catalog
 
-The independently cleared library contains **36 packs / 1,008 entries**: two fixed 28-question
+The integrated phase-11 catalog has **132 packs / 3,696 questions**:
+General knowledge, Nature, Geography and travel, History, Politics and diplomacy,
+Science and technology, Computing and Programming, Arts and literature, Games,
+Movies/Series and Sports. Each has twelve decks / 336 questions, exactly two at
+each difficulty in each language. The [inventory](docs/content-inventory.md)
+separates the 896 retained entries from 2,800 independently reviewed additions.
+The four archived Entertainment packs contribute no current quota.
+
+The historical independently cleared library contains **36 packs / 1,008 entries**: two fixed 28-question
 packs per category and language for General knowledge, Nature, Geography
-and travel, History, Politics and diplomacy, Science and technology, Programming,
+and travel, History, Politics and diplomacy, Science and technology, Computing and Programming,
 Arts and literature, and Entertainment.
-The 24 reviewed phase-6 packs remain byte-for-byte unchanged, including
-the original starters `general-cs-01` and `general-en-01`.
-Phase 7 added the final twelve packs / 336 questions, including the reviewed
-P7-01 surname-scope correction. Every entry has passed independent factual and
+All inherited question objects and provenance remain unchanged, including the
+original starters `general-cs-01` and `general-en-01`; phase 11 changes their
+schema/difficulty metadata, not their facts.
+Phase 7 added its final twelve packs / 336 questions, including the reviewed
+P7-01 surname-scope correction. Every inherited entry passed independent factual and
 linguistic review; earlier findings and re-reviews remain recorded. Each pack also works as a
 selected number-game source. Questions can recur across games; neither filtering
 nor generation promises permanent novelty.
@@ -408,6 +470,15 @@ completion. Browser reports, screenshots and failure traces are in
 `.artifacts/browser-report/` and `.artifacts/playwright/`. No server must be
 started manually. Browser tests use Playwright's clock and seeded randomness
 at browser boundaries, never a substituted game engine.
+
+PDF tests require local fonts covering every printed alias, including Japanese,
+Chinese and Korean. On a font-limited test host, licensed Noto CJK fonts can be
+kept in an artifact-only directory and exposed to the test process with
+`FONTCONFIG_FILE` pointing to an artifact-local Fontconfig configuration. Preserve
+the font license; do not change global fonts or add runtime font downloads.
+PDF extraction uses each embedded font's code width and ignores only the exact
+localized repeated table heading when an oversized row spans pages. Ordered
+questions, every alias, source citations and rights credits remain required.
 
 The portable cross-engine subset uses the same real game, duel, recovery,
 keyboard, layout and accessibility journeys:

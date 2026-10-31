@@ -3,14 +3,16 @@
  * @typedef {'A'|'B'} Player
  * @typedef {'unclaimed'|'black'|Player} Owner
  * @typedef {'source'|'letters'|'numbers'} PackMode
+ * @typedef {'easy'|'medium'|'hard'} Difficulty
  * @typedef {{
  * id: string, text: string, initial: string, answer: string,
  * aliases: string[], category: string, language: Language, sources: string[],
- * origins?: Origin[]
+ * origins?: Origin[], difficulty?: Difficulty
  * }} Question
  * @typedef {{packId: string, questionId: string, authors: string[], license: string}} Origin
  * @typedef {{
- * schemaVersion: 1, id: string, title: string, language: Language,
+ * schemaVersion: 2, id: string, title: string, language: Language,
+ * difficulty: Difficulty | Difficulty[],
  * mode: PackMode, authors: string[], license: string, questions: Question[]
  * }} Pack
  * @typedef {{previewMs: number, symbolMs: number, length: number, symbols: string[]}} DuelConfig

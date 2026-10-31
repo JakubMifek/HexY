@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "general-cs-hard-02",
+  "title": "Všeobecné znalosti · těžká 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-hard-02-01",
+      "initial": "A",
+      "text": "Jak se nazývá historický astronomický přístroj s kruhovou stupnicí a otočnou mapou oblohy, používaný k určování poloh hvězd?",
+      "answer": "Astroláb",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Astrol%C3%A1b"]
+    },
+    {
+      "id": "general-cs-hard-02-02",
+      "initial": "B",
+      "text": "Jak se nazývá způsob zápisu, při němž se směr čtení střídá po řádcích zleva doprava a zprava doleva?",
+      "answer": "Bústrofédon",
+      "aliases": ["boustrofédon"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Boustrophedon"]
+    },
+    {
+      "id": "general-cs-hard-02-03",
+      "initial": "C",
+      "text": "Jak se v katolické liturgii nazývá nádoba s víkem určená k uchovávání proměněných hostií?",
+      "answer": "Ciborium",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Ciborium"]
+    },
+    {
+      "id": "general-cs-hard-02-04",
+      "initial": "Č",
+      "text": "Jak se nazývá tradiční kavkazský mužský kabát, typicky s řadami pouzder na náboje na hrudi?",
+      "answer": "Čerkeska",
+      "aliases": ["čerkezka"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Chokha"]
+    },
+    {
+      "id": "general-cs-hard-02-05",
+      "initial": "D",
+      "text": "Jak se ve filosofii nazývá božský řemeslník, který v Platónově dialogu Timaios uspořádává svět?",
+      "answer": "Démiurg",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": [
+        "https://www.cojeco.cz/demiurg",
+        "https://plato.stanford.edu/entries/plato-timaeus/"
+      ]
+    },
+    {
+      "id": "general-cs-hard-02-06",
+      "initial": "E",
+      "text": "Jak se v gregoriánském církevním výpočtu data Velikonoc nazývá číslo udávající stáří Měsíce k 1. lednu?",
+      "answer": "Epakta",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Epakta"]
+    },
+    {
+      "id": "general-cs-hard-02-07",
+      "initial": "F",
+      "text": "Jak se nazývá pomocná věda historická zabývající se řády a vyznamenáními?",
+      "answer": "Faleristika",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Faleristika"]
+    },
+    {
+      "id": "general-cs-hard-02-08",
+      "initial": "G",
+      "text": "Jak se v dórské architektuře nazývá drobný kapkovitý článek pod mutulem nebo regulou?",
+      "answer": "Gutta",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Gutta"]
+    },
+    {
+      "id": "general-cs-hard-02-09",
+      "initial": "H",
+      "text": "Jak se nazývá oblast neverbální komunikace zabývající se dotykem?",
+      "answer": "Haptika",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Haptika"]
+    },
+    {
+      "id": "general-cs-hard-02-10",
+      "initial": "Ch",
+      "text": "Jak se nazývá kryptokrystalická odrůda křemene, mezi jejíž páskované formy patří achát?",
+      "answer": "Chalcedon",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Chalcedon"]
+    },
+    {
+      "id": "general-cs-hard-02-11",
+      "initial": "I",
+      "text": "Jak se nazývá metoda využívající elektrický proud k vpravování iontů léčiv přes kůži?",
+      "answer": "Iontoforéza",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iontophoresis",
+        "https://medlineplus.gov/ency/article/007293.htm"
+      ]
+    },
+    {
+      "id": "general-cs-hard-02-12",
+      "initial": "J",
+      "text": "Který český obrozenec sestavil pětidílný Slovník česko-německý vydávaný v letech 1835–1839?",
+      "answer": "Jungmann",
+      "aliases": ["Josef Jungmann"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Josef_Jungmann"]
+    },
+    {
+      "id": "general-cs-hard-02-13",
+      "initial": "K",
+      "text": "Jak se nazývá japonská technika oprav keramiky lakem s příměsí práškového zlata, která zvýrazňuje praskliny?",
+      "answer": "Kintsugi",
+      "aliases": ["kincugi"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Kintsugi"]
+    },
+    {
+      "id": "general-cs-hard-02-14",
+      "initial": "L",
+      "text": "Jak se nazývá matematická křivka ve tvaru ležaté osmičky, jejíž známou variantu popsal Jakob Bernoulli?",
+      "answer": "Lemniskáta",
+      "aliases": ["Bernoulliho lemniskáta"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Lemniscate_of_Bernoulli"]
+    },
+    {
+      "id": "general-cs-hard-02-15",
+      "initial": "M",
+      "text": "Jak se nazývá malá podpěra na spodní straně sklopného sedadla chórové lavice, která umožňuje oporu při stání?",
+      "answer": "Miserikordie",
+      "aliases": ["misericordia"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Misericord"]
+    },
+    {
+      "id": "general-cs-hard-02-16",
+      "initial": "N",
+      "text": "Jak se nazývá černá kovová směs používaná k vyplňování ryté výzdoby zejména stříbrných předmětů?",
+      "answer": "Niello",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Niello"]
+    },
+    {
+      "id": "general-cs-hard-02-17",
+      "initial": "O",
+      "text": "Jak se nazývá samovolný průchod rozpouštědla polopropustnou membránou směrem k roztoku s vyšší koncentrací rozpuštěné látky?",
+      "answer": "Osmóza",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Osm%C3%B3za"]
+    },
+    {
+      "id": "general-cs-hard-02-18",
+      "initial": "P",
+      "text": "Jak se nazývá sférický trojúhelník, který v architektuře zprostředkovává přechod ze čtvercového půdorysu pod kupoli?",
+      "answer": "Pendentiv",
+      "aliases": ["pandantiv"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Pendentiv"]
+    },
+    {
+      "id": "general-cs-hard-02-19",
+      "initial": "R",
+      "text": "Jak se v polygrafii nazývá síťka, kterou se obrazová předloha rozkládá na tiskové body?",
+      "answer": "Rastr",
+      "aliases": ["tiskový rastr"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Rastr"]
+    },
+    {
+      "id": "general-cs-hard-02-20",
+      "initial": "Ř",
+      "text": "Která část oka vytváří komorovou vodu a prostřednictvím svého svalu umožňuje změny zakřivení čočky?",
+      "answer": "Řasnaté těleso",
+      "aliases": ["řasnaté tělísko"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Ciliary_body"]
+    },
+    {
+      "id": "general-cs-hard-02-21",
+      "initial": "S",
+      "text": "Jak se nazývá malířská technika měkkých přechodů bez ostrých obrysů, proslavená Leonardem da Vinci?",
+      "answer": "Sfumato",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Sfumato"]
+    },
+    {
+      "id": "general-cs-hard-02-22",
+      "initial": "Š",
+      "text": "Jak se nazývá historický dvouplátkový dechový nástroj, předchůdce hoboje?",
+      "answer": "Šalmaj",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0almaj"]
+    },
+    {
+      "id": "general-cs-hard-02-23",
+      "initial": "T",
+      "text": "Jak se v terminologii mozaiky nazývá jednotlivý kamenný nebo skleněný dílek?",
+      "answer": "Tessera",
+      "aliases": ["tesera"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Tessera"]
+    },
+    {
+      "id": "general-cs-hard-02-24",
+      "initial": "U",
+      "text": "Jak se označuje vydání not usilující o věrné zachycení skladatelova původního textu bez pozdějších interpretačních zásahů?",
+      "answer": "Urtext",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Urtext_edition"]
+    },
+    {
+      "id": "general-cs-hard-02-25",
+      "initial": "V",
+      "text": "Jak se nazývá obor zkoumající vlajky, jejich historii a užívání?",
+      "answer": "Vexilologie",
+      "aliases": [],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Vexilologie"]
+    },
+    {
+      "id": "general-cs-hard-02-26",
+      "initial": "W",
+      "text": "Který americký matematik vydal roku 1948 knihu Cybernetics a bývá označován za zakladatele kybernetiky?",
+      "answer": "Wiener",
+      "aliases": ["Norbert Wiener"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Norbert_Wiener"]
+    },
+    {
+      "id": "general-cs-hard-02-27",
+      "initial": "Z",
+      "text": "Jak se nazývá stupňovitá chrámová věž starověké Mezopotámie?",
+      "answer": "Zikkurat",
+      "aliases": ["ziggurat"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Zikkurat"]
+    },
+    {
+      "id": "general-cs-hard-02-28",
+      "initial": "Ž",
+      "text": "Která skupina horninotvorných hlinitokřemičitanů zahrnuje ortoklas i plagioklasy?",
+      "answer": "Živce",
+      "aliases": ["živec"],
+      "category": "general",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDivec"]
+    }
+  ]
+}

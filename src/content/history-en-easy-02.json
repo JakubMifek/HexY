@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 2,
+  "id": "history-en-easy-02",
+  "title": "History · Easy · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-en-easy-02-01",
+      "text": "Which ancient civilisation was ruled by monarchs we call pharaohs?",
+      "initial": "A",
+      "answer": "Ancient Egypt",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Egypt",
+        "Egyptian civilization",
+        "Egyptian civilisation",
+        "Ancient Egyptian civilization",
+        "Ancient Egyptian civilisation"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Pharaoh"]
+    },
+    {
+      "id": "history-en-easy-02-02",
+      "text": "What name is given to the devastating plague pandemic that swept Europe in the mid-fourteenth century?",
+      "initial": "B",
+      "answer": "Black Death",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Black Death", "Great Pestilence", "Great Mortality"],
+      "sources": ["https://en.wikipedia.org/wiki/Black_Death"]
+    },
+    {
+      "id": "history-en-easy-02-03",
+      "text": "What name describes the prolonged rivalry between the United States and the Soviet Union after the Second World War, without a direct full-scale war between them?",
+      "initial": "C",
+      "answer": "Cold War",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Cold War"],
+      "sources": ["https://en.wikipedia.org/wiki/Cold_War"]
+    },
+    {
+      "id": "history-en-easy-02-04",
+      "text": "Which naturalist sailed on HMS Beagle from 1831 to 1836, gathering observations later important to his work on evolution?",
+      "initial": "CH",
+      "answer": "Charles Darwin",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Darwin", "Charles Robert Darwin"],
+      "sources": ["https://en.wikipedia.org/wiki/Charles_Darwin"]
+    },
+    {
+      "id": "history-en-easy-02-05",
+      "text": "Which document did the Continental Congress adopt on 4 July 1776 to announce the separation of thirteen colonies from Britain?",
+      "initial": "D",
+      "answer": "Declaration of Independence",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "United States Declaration of Independence",
+        "US Declaration of Independence",
+        "The Declaration of Independence"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+      ]
+    },
+    {
+      "id": "history-en-easy-02-06",
+      "text": "Which Paris landmark was built for the 1889 world's fair?",
+      "initial": "E",
+      "answer": "Eiffel Tower",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Eiffel Tower", "Tour Eiffel"],
+      "sources": ["https://en.wikipedia.org/wiki/Eiffel_Tower"]
+    },
+    {
+      "id": "history-en-easy-02-07",
+      "text": "Which British nurse became known as the Lady with the Lamp for her work during the Crimean War?",
+      "initial": "F",
+      "answer": "Florence Nightingale",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Nightingale"],
+      "sources": ["https://en.wikipedia.org/wiki/Florence_Nightingale"]
+    },
+    {
+      "id": "history-en-easy-02-08",
+      "text": "Which series of fortifications across northern China had many of its surviving brick sections built during the Ming dynasty?",
+      "initial": "G",
+      "answer": "Great Wall of China",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Great Wall", "The Great Wall of China", "The Great Wall"],
+      "sources": ["https://en.wikipedia.org/wiki/Great_Wall_of_China"]
+    },
+    {
+      "id": "history-en-easy-02-09",
+      "text": "What name is given to the ancient Egyptian writing signs that include pictures of people, animals and objects?",
+      "initial": "H",
+      "answer": "Hieroglyphs",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Egyptian hieroglyphs",
+        "Hieroglyphics",
+        "Egyptian hieroglyphics"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"]
+    },
+    {
+      "id": "history-en-easy-02-10",
+      "text": "Which prehistoric period followed the Bronze Age in the traditional three-age system?",
+      "initial": "I",
+      "answer": "Iron Age",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Iron Age"],
+      "sources": ["https://en.wikipedia.org/wiki/Iron_Age"]
+    },
+    {
+      "id": "history-en-easy-02-11",
+      "text": "Which British explorer commanded Endeavour on the voyage that mapped New Zealand's coastline in 1769–1770?",
+      "initial": "J",
+      "answer": "James Cook",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Cook", "Captain Cook"],
+      "sources": ["https://en.wikipedia.org/wiki/First_voyage_of_James_Cook"]
+    },
+    {
+      "id": "history-en-easy-02-12",
+      "text": "What name is given to the armoured mounted warriors who held a recognized military and social rank in medieval Europe?",
+      "initial": "K",
+      "answer": "Knights",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Knight"],
+      "sources": ["https://en.wikipedia.org/wiki/Knight"]
+    },
+    {
+      "id": "history-en-easy-02-13",
+      "text": "Which historic bell in Philadelphia bears the inscription beginning “Proclaim Liberty Throughout All the Land”?",
+      "initial": "L",
+      "answer": "Liberty Bell",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "The Liberty Bell",
+        "State House Bell",
+        "Old State House Bell"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Liberty_Bell"]
+    },
+    {
+      "id": "history-en-easy-02-14",
+      "text": "Which American civil-rights leader delivered the “I Have a Dream” speech in Washington in 1963?",
+      "initial": "M",
+      "answer": "Martin Luther King Jr.",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Martin Luther King",
+        "Martin Luther King Junior",
+        "Dr Martin Luther King Jr",
+        "MLK",
+        "Martin Luther King Jr",
+        "Dr. Martin Luther King Jr."
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/I_Have_a_Dream"]
+    },
+    {
+      "id": "history-en-easy-02-15",
+      "text": "Which South African anti-apartheid leader became his country's president in 1994 after spending 27 years in prison?",
+      "initial": "N",
+      "answer": "Nelson Mandela",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Mandela", "Nelson Rolihlahla Mandela", "Madiba"],
+      "sources": ["https://en.wikipedia.org/wiki/Nelson_Mandela"]
+    },
+    {
+      "id": "history-en-easy-02-16",
+      "text": "What name is given to the Bolshevik seizure of power in Russia in 1917 that brought Lenin's party to government in Petrograd?",
+      "initial": "O",
+      "answer": "October Revolution",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "The October Revolution",
+        "Bolshevik Revolution",
+        "Great October Socialist Revolution",
+        "October coup",
+        "Bolshevik coup"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/October_Revolution"]
+    },
+    {
+      "id": "history-en-easy-02-17",
+      "text": "What is the general name for the monumental royal tombs with triangular sides built at Giza in ancient Egypt?",
+      "initial": "P",
+      "answer": "Pyramids",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Egyptian pyramids", "Pyramid"],
+      "sources": ["https://en.wikipedia.org/wiki/Egyptian_pyramids"]
+    },
+    {
+      "id": "history-en-easy-02-18",
+      "text": "Which English queen reigned from 1558 to 1603 and was the daughter of Henry VIII and Anne Boleyn?",
+      "initial": "Q",
+      "answer": "Queen Elizabeth I",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Elizabeth I", "Elizabeth the First"],
+      "sources": ["https://en.wikipedia.org/wiki/Elizabeth_I"]
+    },
+    {
+      "id": "history-en-easy-02-19",
+      "text": "What name, meaning “rebirth”, is given to the European cultural movement that revived interest in classical antiquity from the late Middle Ages?",
+      "initial": "R",
+      "answer": "Renaissance",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Renaissance"],
+      "sources": ["https://en.wikipedia.org/wiki/Renaissance"]
+    },
+    {
+      "id": "history-en-easy-02-20",
+      "text": "What term was used for militant British campaigners for women's voting rights, including members of Emmeline Pankhurst's WSPU?",
+      "initial": "S",
+      "answer": "Suffragettes",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Suffragette"],
+      "sources": ["https://en.wikipedia.org/wiki/Suffragette"]
+    },
+    {
+      "id": "history-en-easy-02-21",
+      "text": "Which former British coin was worth twelve old pence before decimalisation in 1971?",
+      "initial": "SH",
+      "answer": "Shilling",
+      "language": "en",
+      "category": "history",
+      "aliases": ["British shilling", "Bob"],
+      "sources": ["https://en.wikipedia.org/wiki/Shilling_(British_coin)"]
+    },
+    {
+      "id": "history-en-easy-02-22",
+      "text": "Which fortress complex on the Thames contains the White Tower begun under William the Conqueror in the eleventh century?",
+      "initial": "T",
+      "answer": "Tower of London",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Tower of London"],
+      "sources": ["https://en.wikipedia.org/wiki/Tower_of_London"]
+    },
+    {
+      "id": "history-en-easy-02-23",
+      "text": "What name was given to the network of people and secret routes that helped enslaved people escape in nineteenth-century North America?",
+      "initial": "U",
+      "answer": "Underground Railroad",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Underground Railroad", "Underground Railway"],
+      "sources": ["https://en.wikipedia.org/wiki/Underground_Railroad"]
+    },
+    {
+      "id": "history-en-easy-02-24",
+      "text": "Which conflict saw the United States withdraw its combat forces in 1973 and ended with the fall of Saigon in 1975?",
+      "initial": "V",
+      "answer": "Vietnam War",
+      "language": "en",
+      "category": "history",
+      "aliases": ["The Vietnam War", "Second Indochina War"],
+      "sources": ["https://en.wikipedia.org/wiki/Vietnam_War"]
+    },
+    {
+      "id": "history-en-easy-02-25",
+      "text": "Which global conflict lasted from 1914 to 1918?",
+      "initial": "W",
+      "answer": "World War I",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "First World War",
+        "The First World War",
+        "World War One",
+        "WWI",
+        "WW1",
+        "Great War",
+        "The Great War",
+        "World War 1"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/World_War_I"]
+    },
+    {
+      "id": "history-en-easy-02-26",
+      "text": "Which dynasty is traditionally named as China's first in ancient Chinese histories, though its identification with archaeological sites remains debated?",
+      "initial": "X",
+      "answer": "Xia dynasty",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Xia", "Hsia dynasty", "The Xia dynasty", "Hsia"],
+      "sources": ["https://en.wikipedia.org/wiki/Xia_dynasty"]
+    },
+    {
+      "id": "history-en-easy-02-27",
+      "text": "What coloured badge, often shaped like the Star of David, did the Nazis force Jews to wear in Germany from September 1941?",
+      "initial": "Y",
+      "answer": "Yellow star",
+      "language": "en",
+      "category": "history",
+      "aliases": [
+        "Yellow badge",
+        "Yellow patch",
+        "Jewish badge",
+        "Jewish star",
+        "Judenstern",
+        "Yellow Star of David"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Yellow_badge"]
+    },
+    {
+      "id": "history-en-easy-02-28",
+      "text": "Which African country became independent under Robert Mugabe in 1980 after previously being known as Rhodesia?",
+      "initial": "Z",
+      "answer": "Zimbabwe",
+      "language": "en",
+      "category": "history",
+      "aliases": ["Republic of Zimbabwe"],
+      "sources": ["https://en.wikipedia.org/wiki/Zimbabwe"]
+    }
+  ]
+}

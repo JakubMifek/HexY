@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-cs-easy-02",
+  "title": "Politika a diplomacie · Snadné · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-cs-easy-02-01",
+      "text": "Jak se nazývá dobrovolné vzdání se panovnického trůnu?",
+      "initial": "A",
+      "answer": "Abdikace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Abdication"]
+    },
+    {
+      "id": "politics-cs-easy-02-02",
+      "text": "Jaký termín označuje správní aparát tvořený úředníky, kteří pracují podle formálních pravidel a hierarchie?",
+      "initial": "B",
+      "answer": "Byrokracie",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Bureaucracy"]
+    },
+    {
+      "id": "politics-cs-easy-02-03",
+      "text": "Jak se nazývá úředník kontrolující na hranicích zboží a dodržování celních předpisů?",
+      "initial": "C",
+      "answer": "Celník",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Celní úředník"],
+      "sources": ["https://en.wikipedia.org/wiki/Customs_officer"]
+    },
+    {
+      "id": "politics-cs-easy-02-04",
+      "text": "Který stát má ve velkém státním znaku českého lva, moravskou orlici a slezskou orlici?",
+      "initial": "Č",
+      "answer": "Česká republika",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Česko", "ČR"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Coat_of_arms_of_the_Czech_Republic"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-05",
+      "text": "Jak se nazývá veřejné shromáždění lidí, kteří společně vyjadřují politický požadavek či protest?",
+      "initial": "D",
+      "answer": "Demonstrace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Protestní shromáždění", "Manifestace"],
+      "sources": ["https://en.wikipedia.org/wiki/Demonstration_(political)"]
+    },
+    {
+      "id": "politics-cs-easy-02-06",
+      "text": "Který orgán Evropské unie je přímo volen občany členských států?",
+      "initial": "E",
+      "answer": "Evropský parlament",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["EP"],
+      "sources": ["https://en.wikipedia.org/wiki/European_Parliament"]
+    },
+    {
+      "id": "politics-cs-easy-02-07",
+      "text": "Která evropská republika používá jako státní heslo slova „Volnost, rovnost, bratrství“?",
+      "initial": "F",
+      "answer": "Francie",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Francouzská republika"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libert%C3%A9,_%C3%A9galit%C3%A9,_fraternit%C3%A9",
+        "https://www.elysee.fr/en/french-presidency/liberty-equality-fraternity"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-08",
+      "text": "Jak se nazývá stávka zasahující současně více hospodářských odvětví, často s politickými požadavky?",
+      "initial": "G",
+      "answer": "Generální stávka",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Všeobecná stávka"],
+      "sources": ["https://en.wikipedia.org/wiki/General_strike"]
+    },
+    {
+      "id": "politics-cs-easy-02-09",
+      "text": "Jaké označení se používá pro nejvyššího představitele státu, jímž může být prezident nebo monarcha?",
+      "initial": "H",
+      "answer": "Hlava státu",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Head_of_state"]
+    },
+    {
+      "id": "politics-cs-easy-02-10",
+      "text": "Jak se jmenuje katolická humanitární organizace působící v Česku, která je členem mezinárodní sítě Caritas?",
+      "initial": "Ch",
+      "answer": "Charita Česká republika",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [
+        "Charita",
+        "Charita ČR",
+        "Caritas Czech Republic",
+        "Sdružení Česká katolická charita"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caritas_Czech_Republic",
+        "https://www.charita.cz/o-charite/",
+        "https://cs.wikipedia.org/wiki/Charita_%C4%8Cesk%C3%A1_republika"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-11",
+      "text": "Jak se nazývá soustava politických představ a hodnot, jíž se řídí například politická strana?",
+      "initial": "I",
+      "answer": "Ideologie",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Politická ideologie"],
+      "sources": ["https://en.wikipedia.org/wiki/Ideology"]
+    },
+    {
+      "id": "politics-cs-easy-02-12",
+      "text": "Jak se nazývá akt, jímž český prezident podle Ústavy ustavuje předsedu vlády do funkce?",
+      "initial": "J",
+      "answer": "Jmenování",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prime_Minister_of_the_Czech_Republic",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-13",
+      "text": "Jak se nazývá politická ideologie, jejímž ideálem je beztřídní společnost se společným vlastnictvím výrobních prostředků?",
+      "initial": "K",
+      "answer": "Komunismus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Komunistická ideologie"],
+      "sources": ["https://en.wikipedia.org/wiki/Communism"]
+    },
+    {
+      "id": "politics-cs-easy-02-14",
+      "text": "Jak se označuje část politického spektra tradičně zdůrazňující sociální rovnost a omezování nerovností?",
+      "initial": "L",
+      "answer": "Levice",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Politická levice"],
+      "sources": ["https://en.wikipedia.org/wiki/Left-wing_politics"]
+    },
+    {
+      "id": "politics-cs-easy-02-15",
+      "text": "Jak se nazývá stav vztahů mezi státy, který je opakem války?",
+      "initial": "M",
+      "answer": "Mír",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Peace"]
+    },
+    {
+      "id": "politics-cs-easy-02-16",
+      "text": "Jak se nazývá postavení země, která není podřízena vládě jiného státu?",
+      "initial": "N",
+      "answer": "Nezávislost",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Samostatnost"],
+      "sources": ["https://en.wikipedia.org/wiki/Independence"]
+    },
+    {
+      "id": "politics-cs-easy-02-17",
+      "text": "Jak se podle české Ústavy nazývá základní územní samosprávné společenství občanů?",
+      "initial": "O",
+      "answer": "Obec",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Municipalities_of_the_Czech_Republic",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-18",
+      "text": "Jakým přejatým označením se běžně nazývá osoba stojící v čele vlády?",
+      "initial": "P",
+      "answer": "Premiér",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Předseda vlády"],
+      "sources": ["https://en.wikipedia.org/wiki/Prime_minister"]
+    },
+    {
+      "id": "politics-cs-easy-02-19",
+      "text": "Jak se obvykle nazývá budova, ve které sídlí městská samospráva?",
+      "initial": "R",
+      "answer": "Radnice",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Městská radnice", "Obecní úřad", "Městský úřad"],
+      "sources": ["https://en.wikipedia.org/wiki/Town_hall"]
+    },
+    {
+      "id": "politics-cs-easy-02-20",
+      "text": "Jak se označují volby konané v obvyklém termínu na konci volebního období, na rozdíl od předčasných voleb?",
+      "initial": "Ř",
+      "answer": "Řádné volby",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Pravidelné volby"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Election",
+        "https://en.wikipedia.org/wiki/Snap_election"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-21",
+      "text": "Jak se nazývá orgán veřejné moci, který v soudním řízení rozhoduje právní spory a otázky viny a trestu?",
+      "initial": "S",
+      "answer": "Soud",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Court",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-22",
+      "text": "Ve kterém království se národní parlament jmenuje Riksdag?",
+      "initial": "Š",
+      "answer": "Švédsko",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Švédské království"],
+      "sources": ["https://en.wikipedia.org/wiki/Riksdag"]
+    },
+    {
+      "id": "politics-cs-easy-02-23",
+      "text": "Jak se nazývá setkání, na kterém například člen vlády podává informace a odpovídá na otázky novinářů?",
+      "initial": "T",
+      "answer": "Tisková konference",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Tiskovka", "Tisková beseda"],
+      "sources": ["https://en.wikipedia.org/wiki/News_conference"]
+    },
+    {
+      "id": "politics-cs-easy-02-24",
+      "text": "Jak se nazývá člověk, který je mimo svou zemi a kvůli odůvodněnému strachu z pronásledování nemůže nebo nechce využít její ochranu?",
+      "initial": "U",
+      "answer": "Uprchlík",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Refugee"]
+    },
+    {
+      "id": "politics-cs-easy-02-25",
+      "text": "Jak se nazývá sbor v čele s premiérem, který je podle české Ústavy vrcholným orgánem výkonné moci?",
+      "initial": "V",
+      "answer": "Vláda",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Vláda České republiky"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Government_of_the_Czech_Republic",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-26",
+      "text": "Která země Spojeného království má vlastní parlament nazývaný Senedd?",
+      "initial": "W",
+      "answer": "Wales",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Senedd"]
+    },
+    {
+      "id": "politics-cs-easy-02-27",
+      "text": "Jak se nazývá občany volený sbor, který rozhoduje o samosprávě české obce?",
+      "initial": "Z",
+      "answer": "Zastupitelstvo",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Zastupitelstvo obce", "Obecní zastupitelstvo"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Municipal_council",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-02-28",
+      "text": "Ve kterém švýcarském městě sídlí evropský úřad OSN v Paláci národů?",
+      "initial": "Ž",
+      "answer": "Ženeva",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Genève", "Geneva"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_Nations_Office_at_Geneva"
+      ]
+    }
+  ]
+}

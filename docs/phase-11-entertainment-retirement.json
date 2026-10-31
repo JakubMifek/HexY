@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "scope": "Four historical Entertainment packs are removed atomically from the runtime catalog after independent acceptance of all 336 Games, 336 Movies/Series and 336 Sports entries. Their exact version-2 bytes remain archived, importable and embedded in existing compatible saves.",
+  "quotaCredit": 0,
+  "replacementCategories": ["games", "movies", "sports"],
+  "packs": [
+    {
+      "id": "entertainment-cs-01",
+      "previousPath": "src/content/entertainment-cs-01.json",
+      "archivePath": "docs/retired/entertainment-cs-01.json",
+      "sha256": "186b594a78b401a6a7b7ac9cc33245f7158088175018668e57e514146124e5a9"
+    },
+    {
+      "id": "entertainment-cs-02",
+      "previousPath": "src/content/entertainment-cs-02.json",
+      "archivePath": "docs/retired/entertainment-cs-02.json",
+      "sha256": "e631d19978328940b2ac335e654ff6282543e1caf3348e12381c4f4941e7f50f"
+    },
+    {
+      "id": "entertainment-en-01",
+      "previousPath": "src/content/entertainment-en-01.json",
+      "archivePath": "docs/retired/entertainment-en-01.json",
+      "sha256": "9e35c81c54ffc53a95cdb4eebfecb605054d1d099fa0f162114fc88b708c9dfd"
+    },
+    {
+      "id": "entertainment-en-02",
+      "previousPath": "src/content/entertainment-en-02.json",
+      "archivePath": "docs/retired/entertainment-en-02.json",
+      "sha256": "a3d665fb3badf7dffb1636264d75f0b1f70893e1d04ef943464e43994e1220c6"
+    }
+  ],
+  "moviesMapping": {
+    "path": "docs/phase-11-movies-retirement.json",
+    "sha256": "3b74b6676d059a8a401338b314286f8958131ddb617cdc4cef5e95f473e663bd",
+    "originalPath": ".artifacts/continuation/bundles/p11/movies/batches/b04-v2/retirement-mapping.json",
+    "originalSha256": "f09fa4025650da6337b30cc9a1e93a2dec6a4e2a368a5893f1727d444f8cb3eb",
+    "formatOnly": "Repository formatting changes whitespace only; the entire parsed mapping object equals the independently accepted original.",
+    "review": ".artifacts/continuation/bundles/reviews/p11/movies/b04-v1/retirement-review.json",
+    "reviewSha256": "ff84f6dbcd24c192307dcdeec863a8950e3441c567441f607f14c16358c08036",
+    "limitation": "Eight explicitly reviewed old/new relationships are not represented as wholly new factual discoveries. Four old Czech scope/year regressions remain unmapped, not substituted with unrelated films."
+  },
+  "gamesMappings": [
+    ".artifacts/continuation/bundles/p11/games/batches/b01-v2/retirement-mapping.json",
+    ".artifacts/continuation/bundles/p11/games/batches/b02-v3/retirement-mapping.json",
+    ".artifacts/continuation/bundles/p11/games/batches/b03-v2/retirement-mapping.json",
+    ".artifacts/continuation/bundles/p11/games/batches/b04-v2/retirement-mapping.json"
+  ],
+  "compatibility": "Recovery and portable imports validate the complete embedded pack, without requiring a current bundled catalog ID. Retiring these catalog rows does not rewrite user libraries, active games, old answer scopes or saved deadlines. Pre-difficulty incompatible records remain protected under the separate version-compatibility policy."
+}

@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-medium-01",
+  "title": "Science and technology · Medium · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-medium-01-01",
+      "text": "What sensor measures proper acceleration and is used in phones to detect movement?",
+      "initial": "A",
+      "answer": "Accelerometer",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Accelerometer"]
+    },
+    {
+      "id": "science-en-medium-01-02",
+      "text": "What equation relates pressure, speed and height along a streamline in steady ideal incompressible flow?",
+      "initial": "B",
+      "answer": "Bernoulli's equation",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Bernoulli equation",
+        "Bernoulli's principle",
+        "Bernoulli’s equation",
+        "Bernoulli’s principle"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bernoulli%27s_principle",
+        "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoullis-equation-1/"
+      ]
+    },
+    {
+      "id": "science-en-medium-01-03",
+      "text": "What is the SI derived unit of electric charge, symbol C?",
+      "initial": "C",
+      "answer": "Coulomb",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Coulomb"]
+    },
+    {
+      "id": "science-en-medium-01-04",
+      "text": "What general term describes an attraction that holds atoms or ions together in a compound?",
+      "initial": "CH",
+      "answer": "Chemical bond",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Bond"],
+      "sources": ["https://en.wikipedia.org/wiki/Chemical_bond"]
+    },
+    {
+      "id": "science-en-medium-01-05",
+      "text": "What change in observed wave frequency results from relative motion between a source and an observer?",
+      "initial": "D",
+      "answer": "Doppler effect",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Doppler shift"],
+      "sources": ["https://en.wikipedia.org/wiki/Doppler_effect"]
+    },
+    {
+      "id": "science-en-medium-01-06",
+      "text": "What thermodynamic state quantity has SI units of joules per kelvin and cannot decrease in an isolated system undergoing a spontaneous process?",
+      "initial": "E",
+      "answer": "Entropy",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Entropy"]
+    },
+    {
+      "id": "science-en-medium-01-07",
+      "text": "What device converts the chemical energy of a continuously supplied fuel and oxidant directly into electricity through electrochemical reactions?",
+      "initial": "F",
+      "answer": "Fuel cell",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fuel_cell",
+        "https://www.energy.gov/eere/fuelcells/fuel-cells"
+      ]
+    },
+    {
+      "id": "science-en-medium-01-08",
+      "text": "What general name describes protecting iron or steel by applying a coating of zinc?",
+      "initial": "G",
+      "answer": "Galvanization",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Galvanisation", "Galvanizing", "Galvanising"],
+      "sources": ["https://en.wikipedia.org/wiki/Galvanization"]
+    },
+    {
+      "id": "science-en-medium-01-09",
+      "text": "What kind of chemical reaction splits a compound through reaction with water?",
+      "initial": "H",
+      "answer": "Hydrolysis",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Hydrolysis"]
+    },
+    {
+      "id": "science-en-medium-01-10",
+      "text": "What wave phenomenon allows overlapping waves to reinforce or cancel one another?",
+      "initial": "I",
+      "answer": "Interference",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Wave interference",
+        "Interference vlnění",
+        "Vlnová interference"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Wave_interference"]
+    },
+    {
+      "id": "science-en-medium-01-11",
+      "text": "What enclosure houses and protects electrical wiring connections?",
+      "initial": "J",
+      "answer": "Junction box",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Electrical junction box", "Jbox", "J-box"],
+      "sources": ["https://en.wikipedia.org/wiki/Junction_box"]
+    },
+    {
+      "id": "science-en-medium-01-12",
+      "text": "What circuit law states that the total current entering a junction equals the total current leaving it?",
+      "initial": "K",
+      "answer": "Kirchhoff's current law",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Kirchhoff current law",
+        "Kirchhoff's first law",
+        "Kirchhoff's junction rule",
+        "Junction rule",
+        "Current law",
+        "KCL",
+        "Kirchhoff’s current law",
+        "Kirchhoff’s first law",
+        "Kirchhoff’s junction rule"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws"]
+    },
+    {
+      "id": "science-en-medium-01-13",
+      "text": "What general term describes light emission by a substance that is not caused solely by its high temperature?",
+      "initial": "L",
+      "answer": "Luminescence",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Luminescence"]
+    },
+    {
+      "id": "science-en-medium-01-14",
+      "text": "What magnetic quantity, measured in webers, is the surface integral of the component of magnetic field normal to an area?",
+      "initial": "M",
+      "answer": "Magnetic flux",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Magnetic_flux"]
+    },
+    {
+      "id": "science-en-medium-01-15",
+      "text": "What electrically neutral subatomic particle is found alongside protons in most atomic nuclei?",
+      "initial": "N",
+      "answer": "Neutron",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Neutron"]
+    },
+    {
+      "id": "science-en-medium-01-16",
+      "text": "What spontaneous net movement of solvent through a selectively permeable membrane tends to equalize the concentrations of solutions on either side?",
+      "initial": "O",
+      "answer": "Osmosis",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Osmosis"]
+    },
+    {
+      "id": "science-en-medium-01-17",
+      "text": "What property of a transverse wave describes the orientation of its oscillations and is exploited by some sunglasses?",
+      "initial": "P",
+      "answer": "Polarization",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Polarisation"],
+      "sources": ["https://en.wikipedia.org/wiki/Polarization_(waves)"]
+    },
+    {
+      "id": "science-en-medium-01-18",
+      "text": "What heat-treatment step rapidly cools a heated metal, commonly by immersion in water or oil?",
+      "initial": "Q",
+      "answer": "Quenching",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Quenching"]
+    },
+    {
+      "id": "science-en-medium-01-19",
+      "text": "What phenomenon strongly increases a system's forced oscillation when driven near one of its natural frequencies?",
+      "initial": "R",
+      "answer": "Resonance",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Resonance"]
+    },
+    {
+      "id": "science-en-medium-01-20",
+      "text": "What kind of helical wire coil, much longer than its diameter, produces a nearly uniform magnetic field in its interior when carrying current?",
+      "initial": "S",
+      "answer": "Solenoid",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Solenoid"]
+    },
+    {
+      "id": "science-en-medium-01-21",
+      "text": "What behaviour of a non-Newtonian fluid makes its apparent viscosity increase as the shear rate increases?",
+      "initial": "SH",
+      "answer": "Shear thickening",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Dilatancy", "Shear-thickening"],
+      "sources": ["https://en.wikipedia.org/wiki/Dilatant"]
+    },
+    {
+      "id": "science-en-medium-01-22",
+      "text": "What temperature sensor uses the voltage generated by a circuit of two unlike conductors whose junctions are at different temperatures?",
+      "initial": "T",
+      "answer": "Thermocouple",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Thermoelectrical thermometer", "Thermoelectric thermometer"],
+      "sources": ["https://en.wikipedia.org/wiki/Thermocouple"]
+    },
+    {
+      "id": "science-en-medium-01-23",
+      "text": "What mechanical coupling transmits rotation between shafts whose axes meet at an angle?",
+      "initial": "U",
+      "answer": "Universal joint",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Cardan joint",
+        "Cardano joint",
+        "Hooke's joint",
+        "U-joint",
+        "Universal coupling",
+        "Cardan coupling",
+        "Hooke joint",
+        "Hooke’s joint"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Universal_joint"]
+    },
+    {
+      "id": "science-en-medium-01-24",
+      "text": "What fluid property measures resistance to shearing flow?",
+      "initial": "V",
+      "answer": "Viscosity",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Viscosity"]
+    },
+    {
+      "id": "science-en-medium-01-25",
+      "text": "What experimental facility directs air past a model to study aerodynamic forces?",
+      "initial": "W",
+      "answer": "Wind tunnel",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Wind_tunnel"]
+    },
+    {
+      "id": "science-en-medium-01-26",
+      "text": "What gas-discharge lamp produces a brief intense flash using the noble gas Xe?",
+      "initial": "X",
+      "answer": "Xenon flash lamp",
+      "language": "en",
+      "category": "science",
+      "aliases": [
+        "Xenon flashtube",
+        "Xenon flash tube",
+        "Xenon flashlamp",
+        "Flashtube",
+        "Flash tube",
+        "Flashlamp",
+        "Flash lamp"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Flashtube"]
+    },
+    {
+      "id": "science-en-medium-01-27",
+      "text": "In chemistry, what term describes the amount of product obtained in a reaction, often expressed as a percentage of the theoretical maximum?",
+      "initial": "Y",
+      "answer": "Yield",
+      "language": "en",
+      "category": "science",
+      "aliases": ["Reaction yield", "Chemical yield"],
+      "sources": ["https://en.wikipedia.org/wiki/Yield_(chemistry)"]
+    },
+    {
+      "id": "science-en-medium-01-28",
+      "text": "What compound, formula ZnO, is a white powder used in some mineral sunscreens?",
+      "initial": "Z",
+      "answer": "Zinc oxide",
+      "language": "en",
+      "category": "science",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Zinc_oxide"]
+    }
+  ]
+}

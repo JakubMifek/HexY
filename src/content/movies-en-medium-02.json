@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "movies-en-medium-02",
+  "title": "Movies and series · Medium 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-en-medium-02-01",
+      "text": "Which 2016 Denis Villeneuve film follows linguist Louise Banks as she tries to communicate with alien visitors?",
+      "initial": "A",
+      "answer": "Arrival",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Arrival_%28film%29"]
+    },
+    {
+      "id": "movies-en-medium-02-02",
+      "text": "Which Breaking Bad prequel follows lawyer Jimmy McGill's transformation into Saul Goodman?",
+      "initial": "B",
+      "answer": "Better Call Saul",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Better_Call_Saul"]
+    },
+    {
+      "id": "movies-en-medium-02-03",
+      "text": "Which 2019 HBO and Sky miniseries dramatises the 1986 nuclear disaster and the cleanup that followed?",
+      "initial": "C",
+      "answer": "Chernobyl",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Chernobyl_%28miniseries%29"]
+    },
+    {
+      "id": "movies-en-medium-02-04",
+      "text": "Which 1974 Roman Polanski film follows private investigator J. J. Gittes and a conspiracy involving Los Angeles water supplies?",
+      "initial": "CH",
+      "answer": "Chinatown",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Chinatown_%281974_film%29"]
+    },
+    {
+      "id": "movies-en-medium-02-05",
+      "text": "Which British period series follows the Crawley family and their servants at a Yorkshire estate?",
+      "initial": "D",
+      "answer": "Downton Abbey",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Downton_Abbey"]
+    },
+    {
+      "id": "movies-en-medium-02-06",
+      "text": "What is the name of the legal assistant Julia Roberts plays in the 2000 film for which she won her acting Oscar?",
+      "initial": "E",
+      "answer": "Erin Brockovich",
+      "language": "en",
+      "aliases": ["Brockovich"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Erin_Brockovich_%28film%29"]
+    },
+    {
+      "id": "movies-en-medium-02-07",
+      "text": "Which series was created by Phoebe Waller-Bridge, who stars as a London woman often speaking directly to the audience?",
+      "initial": "F",
+      "answer": "Fleabag",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Fleabag"]
+    },
+    {
+      "id": "movies-en-medium-02-08",
+      "text": "Which Wes Anderson film follows concierge Gustave H. and his protégé Zero in the fictional country of Zubrowka?",
+      "initial": "G",
+      "answer": "Grand Budapest Hotel",
+      "language": "en",
+      "aliases": ["The Grand Budapest Hotel"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"]
+    },
+    {
+      "id": "movies-en-medium-02-09",
+      "text": "Which David Shore medical drama stars Hugh Laurie as a diagnostician at Princeton–Plainsboro Teaching Hospital?",
+      "initial": "H",
+      "answer": "House",
+      "language": "en",
+      "aliases": ["House M.D.", "House MD", "House, M.D.", "Dr. House"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/House_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-medium-02-10",
+      "text": "Which British sitcom follows Roy, Moss and Jen in the IT department of Reynholm Industries?",
+      "initial": "I",
+      "answer": "IT Crowd",
+      "language": "en",
+      "aliases": ["The IT Crowd"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/The_IT_Crowd"]
+    },
+    {
+      "id": "movies-en-medium-02-11",
+      "text": "Which Breaking Bad character played by Aaron Paul becomes Walter White's partner in making methamphetamine?",
+      "initial": "J",
+      "answer": "Jesse Pinkman",
+      "language": "en",
+      "aliases": ["Jesse", "Jesse Bruce Pinkman"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Jesse_Pinkman"]
+    },
+    {
+      "id": "movies-en-medium-02-12",
+      "text": "Which television thriller centres on investigator Eve Polastri's pursuit of assassin Villanelle?",
+      "initial": "K",
+      "answer": "Killing Eve",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Killing_Eve"]
+    },
+    {
+      "id": "movies-en-medium-02-13",
+      "text": "Which Sofia Coppola film brings together actor Bob Harris and young graduate Charlotte in Tokyo?",
+      "initial": "L",
+      "answer": "Lost in Translation",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lost_in_Translation_%28film%29"
+      ]
+    },
+    {
+      "id": "movies-en-medium-02-14",
+      "text": "Which series follows advertising executive Don Draper and his colleagues in 1960s New York?",
+      "initial": "M",
+      "answer": "Mad Men",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Mad_Men"]
+    },
+    {
+      "id": "movies-en-medium-02-15",
+      "text": "Which crime series initially follows Pablo Escobar and the Medellín cocaine cartel?",
+      "initial": "N",
+      "answer": "Narcos",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Narcos"]
+    },
+    {
+      "id": "movies-en-medium-02-16",
+      "text": "Which series follows Piper Chapman after she enters a women's prison?",
+      "initial": "O",
+      "answer": "Orange Is the New Black",
+      "language": "en",
+      "aliases": ["OITNB"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Orange_Is_the_New_Black"]
+    },
+    {
+      "id": "movies-en-medium-02-17",
+      "text": "Which Guillermo del Toro film follows Ofelia, who encounters a faun in Spain in 1944?",
+      "initial": "P",
+      "answer": "Pan's Labyrinth",
+      "language": "en",
+      "aliases": ["El laberinto del fauno", "The Labyrinth of the Faun"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Pan%27s_Labyrinth"]
+    },
+    {
+      "id": "movies-en-medium-02-18",
+      "text": "Which science-fiction series originally starred Scott Bakula as Sam Beckett, who leaps into other people's lives?",
+      "initial": "Q",
+      "answer": "Quantum Leap",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Quantum_Leap_%281989_TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-en-medium-02-19",
+      "text": "Which 2018 Alfonso Cuarón film follows domestic worker Cleo in early-1970s Mexico City?",
+      "initial": "R",
+      "answer": "Roma",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Roma_%282018_film%29"]
+    },
+    {
+      "id": "movies-en-medium-02-20",
+      "text": "Which series stars Adam Scott as an employee of Lumon whose work and non-work memories are kept separate?",
+      "initial": "S",
+      "answer": "Severance",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Severance_%28TV_series%29"]
+    },
+    {
+      "id": "movies-en-medium-02-21",
+      "text": "Which 2004 Edgar Wright film stars Simon Pegg as a London salesman caught in a zombie outbreak?",
+      "initial": "SH",
+      "answer": "Shaun of the Dead",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Shaun_of_the_Dead"]
+    },
+    {
+      "id": "movies-en-medium-02-22",
+      "text": "Which anthology crime series casts Matthew McConaughey and Woody Harrelson as Rust Cohle and Marty Hart in its first season?",
+      "initial": "T",
+      "answer": "True Detective",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/True_Detective"]
+    },
+    {
+      "id": "movies-en-medium-02-23",
+      "text": "Which 2019 Jordan Peele film pits the Wilson family against their sinister doubles, the Tethered?",
+      "initial": "U",
+      "answer": "Us",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Us_%282019_film%29"]
+    },
+    {
+      "id": "movies-en-medium-02-24",
+      "text": "Which 2006 Pedro Almodóvar film stars Penélope Cruz as Raimunda and Carmen Maura as her mother Irene?",
+      "initial": "V",
+      "answer": "Volver",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Volver"]
+    },
+    {
+      "id": "movies-en-medium-02-25",
+      "text": "Which 2014 Damien Chazelle film pits jazz drummer Andrew Neiman against demanding teacher Terence Fletcher?",
+      "initial": "W",
+      "answer": "Whiplash",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Whiplash_%282014_film%29"]
+    },
+    {
+      "id": "movies-en-medium-02-26",
+      "text": "What is the surname of Charles, the mutant professor played by Patrick Stewart in the X-Men films?",
+      "initial": "X",
+      "answer": "Xavier",
+      "language": "en",
+      "aliases": [
+        "Charles Xavier",
+        "Professor X",
+        "Professor Xavier",
+        "Professor Charles Xavier",
+        "Charles Francis Xavier",
+        "Professor Charles Francis Xavier"
+      ],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Charles_Xavier_%28film_series_character%29"
+      ]
+    },
+    {
+      "id": "movies-en-medium-02-27",
+      "text": "Which 1961 Kurosawa film casts Toshirō Mifune as a ronin whom two rival crime bosses want to hire?",
+      "initial": "Y",
+      "answer": "Yojimbo",
+      "language": "en",
+      "aliases": ["Yōjinbō", "Bodyguard"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Yojimbo"]
+    },
+    {
+      "id": "movies-en-medium-02-28",
+      "text": "Which 1983 Woody Allen mockumentary centres on a man who unwittingly takes on characteristics of the people around him?",
+      "initial": "Z",
+      "answer": "Zelig",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Zelig"]
+    }
+  ]
+}

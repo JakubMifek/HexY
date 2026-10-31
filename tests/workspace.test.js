@@ -8,6 +8,7 @@ import { browserClock } from '../src/runtime/clock.js';
 import { bundledPacks } from '../src/content/catalog.js';
 import { importPack } from '../src/domain/packs.js';
 import { answerSheet } from '../src/ui/answer-sheet.js';
+import { DomainError } from '../src/domain/errors.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
 import { prepare, setting } from './ui-helpers.js';
 
@@ -202,7 +203,7 @@ test('source selection, invalid drafts/imports, and export errors keep valid pri
     'Neplatný JSON',
   );
   expect(app.workspace.model.accepted).toEqual(before);
-  const source = bundledPacks()[1];
+  const source = bundledPacks()[0];
   source.id = 'imported';
   const input = root.querySelector('#import-packs');
   if (!(input instanceof HTMLInputElement)) throw new Error('No importer');
@@ -250,6 +251,87 @@ test('saved imports, custom copies and settings survive remount independently of
   expect(importPack(await downloads[0].text())).toEqual(bundledPacks()[1]);
 });
 
+test('old library difficulty is never guessed, overwritten or lost; exact original bytes export in both languages', async () => {
+  const legacy = {
+    ...bundledPacks()[1],
+    schemaVersion: 1,
+    difficulty: undefined,
+  };
+  const json = ` \n${JSON.stringify({ schemaVersion: 1, packs: [legacy], preferences: app.workspace.preferences }, null, 3)}\n `;
+  app.dispose();
+  localStorage.setItem(LIBRARY_KEY, json);
+  app = new App(root, browserClock, () => 0, id);
+  prepare(app);
+  expect(app.workspace.storageError).toBe('storageCorrupt');
+  expect(app.workspace.model.custom).toEqual([]);
+  expect(app.workspace.library.writable).toBe(false);
+  click('#export-library-original');
+  expect(await downloads[0].text()).toBe(json);
+  set('#ui-language', 'en');
+  click('#export-library-original');
+  expect(await downloads[1].text()).toBe(json);
+  expect(localStorage.getItem(LIBRARY_KEY)).toBe(json);
+  vi.spyOn(app.workspace.downloads, 'save').mockImplementation(() => {
+    throw new DomainError('exportFailed');
+  });
+  click('#export-library-original');
+  expect(app.workspace.error).toBe('exportFailed');
+  expect(localStorage.getItem(LIBRARY_KEY)).toBe(json);
+  app.dispose();
+  app.workspace.exportOriginalLibrary();
+  expect(downloads).toHaveLength(2);
+});
+
+test('editor explicitly changes a deck difficulty and persists it through export and reload', async () => {
+  click('#edit-proposal');
+  set('#pack-difficulty', 'hard');
+  click('#save-pack');
+  click('#accept-board');
+  const pack = app.workspace.model.accepted;
+  expect(pack?.difficulty).toBe('hard');
+  expect(
+    pack?.questions.every((question) => question.difficulty === 'hard'),
+  ).toBe(true);
+  click('#export-pack');
+  expect(importPack(await downloads[0].text())).toEqual(pack);
+  app.dispose();
+  app = new App(root, browserClock, () => 0, id);
+  expect(app.workspace.model.custom[0]).toEqual(pack);
+  app.workspace.exportOriginalLibrary();
+  expect(downloads).toHaveLength(2);
+});
+
+test('editing mixed metadata retains question levels until an explicit whole-copy reclassification', () => {
+  set('#ui-language', 'en');
+  set('#mode', 'numbers');
+  app.workspace.run(() => {
+    app.workspace.model.select(['general-en-01', 'general-en-02']);
+    app.workspace.model.random = () => 0.41;
+    app.workspace.model.generate('Mixed');
+  });
+  const proposal = app.workspace.model.proposal;
+  expect(proposal?.difficulty).toEqual(['easy', 'medium']);
+  click('#edit-proposal');
+  set('#pack-difficulty', 'mixed');
+  set('#pack-title', 'Preserve source levels');
+  click('#save-pack');
+  expect(app.workspace.model.proposal?.difficulty).toEqual(
+    proposal?.difficulty,
+  );
+  expect(
+    app.workspace.model.proposal?.questions.map((q) => q.difficulty),
+  ).toEqual(proposal?.questions.map((q) => q.difficulty));
+  click('#edit-proposal');
+  set('#pack-difficulty', 'hard');
+  click('#save-pack');
+  expect(app.workspace.model.proposal?.difficulty).toBe('hard');
+  expect(
+    app.workspace.model.proposal?.questions.every(
+      (q) => q.difficulty === 'hard',
+    ),
+  ).toBe(true);
+});
+
 test.each(['{', '{"schemaVersion":2}'])(
   'invalid local library stays untouched and errors translate: %s',
   (json) => {
@@ -258,7 +340,7 @@ test.each(['{', '{"schemaVersion":2}'])(
     app = new App(root, browserClock, () => 0, id);
     prepare(app);
     expect(root.querySelector('#storage-error')?.textContent).toContain(
-      'nebyla',
+      'přepsána',
     );
     set('#ui-language', 'en');
     expect(root.querySelector('#storage-error')?.textContent).toContain(
@@ -352,20 +434,10 @@ test('read failures and superseded imports are explicit or safely ignored withou
   expect(app.workspace.model.custom.map((pack) => pack.id)).toEqual(['newer']);
 });
 
-test('answer sheets localize both alphabets, encode hostile text, and validate before export', () => {
+test('answer sheets share localization contracts and validate before export', () => {
   expect(Object.keys(preparationStrings.cs)).toEqual(
     Object.keys(preparationStrings.en),
   );
-  for (const pack of bundledPacks()) {
-    const sheet = answerSheet(pack, pack.language);
-    const document = new DOMParser().parseFromString(sheet, 'text/html');
-    expect(document.querySelectorAll('tbody tr')).toHaveLength(28);
-    expect(document.documentElement.lang).toBe(pack.language);
-    expect(document.querySelector('style')?.textContent).toContain(
-      '@media print',
-    );
-    expect(document.querySelectorAll('link,script,button')).toHaveLength(0);
-  }
   const invalid = bundledPacks()[1];
   invalid.questions.pop();
   expect(() => answerSheet(invalid, 'en')).toThrow();

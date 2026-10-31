@@ -42,7 +42,7 @@ test('custom pack and complete settings persist across reload while game recover
 });
 
 for (const [name, value, message] of [
-  ['corrupt', '{', 'invalid and was not overwritten'],
+  ['corrupt', '{', 'not overwritten'],
   [
     'incompatible',
     '{"schemaVersion":999}',

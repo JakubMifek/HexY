@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-cs-easy-01",
+  "title": "Politika a diplomacie · Snadné · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-cs-easy-01-01",
+      "text": "Jak se nazývá ochrana, kterou stát poskytne člověku pronásledovanému v jeho vlasti?",
+      "initial": "A",
+      "answer": "Azyl",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Politický azyl"],
+      "sources": ["https://en.wikipedia.org/wiki/Right_of_asylum"]
+    },
+    {
+      "id": "politics-cs-easy-01-02",
+      "text": "Jaká jednoslovná zkratka se vžila pro odchod Spojeného království z Evropské unie?",
+      "initial": "B",
+      "answer": "Brexit",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Brexit"]
+    },
+    {
+      "id": "politics-cs-easy-01-03",
+      "text": "Jak se nazývá poplatek vybíraný státem při dovozu určitého zboží přes hranice?",
+      "initial": "C",
+      "answer": "Clo",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Dovozní clo"],
+      "sources": ["https://en.wikipedia.org/wiki/Tariff"]
+    },
+    {
+      "id": "politics-cs-easy-01-04",
+      "text": "Která instituce je podle české Ústavy ústřední bankou státu?",
+      "initial": "Č",
+      "answer": "Česká národní banka",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["ČNB"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Czech_National_Bank",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-05",
+      "text": "Jak se nazývá nedemokratický režim, v němž vládce nebo úzká skupina soustřeďuje moc bez účinné demokratické kontroly?",
+      "initial": "D",
+      "answer": "Diktatura",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Dictatorship"]
+    },
+    {
+      "id": "politics-cs-easy-01-06",
+      "text": "Jak se jmenuje politické a hospodářské společenství, do něhož Česko vstoupilo roku 2004?",
+      "initial": "E",
+      "answer": "Evropská unie",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["EU"],
+      "sources": ["https://en.wikipedia.org/wiki/European_Union"]
+    },
+    {
+      "id": "politics-cs-easy-01-07",
+      "text": "Jak se nazývá organizovaná skupina názorově blízkých poslanců v parlamentu, například v Evropském parlamentu?",
+      "initial": "F",
+      "answer": "Frakce",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [
+        "Politická skupina",
+        "Poslanecká frakce",
+        "Poslanecký klub",
+        "Parlamentní frakce",
+        "Parlamentní skupina"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Political_group_of_the_European_Parliament"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-08",
+      "text": "Jaký titul nese hlava výkonné moci jednotlivého státu USA, například Kalifornie?",
+      "initial": "G",
+      "answer": "Guvernér",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Governor_(United_States)"]
+    },
+    {
+      "id": "politics-cs-easy-01-09",
+      "text": "Jak se nazývá linie, která od sebe odděluje území dvou států?",
+      "initial": "H",
+      "answer": "Hranice",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Státní hranice"],
+      "sources": ["https://en.wikipedia.org/wiki/Border"]
+    },
+    {
+      "id": "politics-cs-easy-01-10",
+      "text": "Který dokument EU vyhlašuje například práva na důstojnost, svobodu a rovnost a od Lisabonské smlouvy má sílu smluv?",
+      "initial": "Ch",
+      "answer": "Charta základních práv Evropské unie",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [
+        "Listina základních práv Evropské unie",
+        "Listina základních práv EU",
+        "Charta základních práv EU"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Charter_of_Fundamental_Rights_of_the_European_Union"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-11",
+      "text": "Jak se nazývá slavnostní uvedení prezidenta do úřadu?",
+      "initial": "I",
+      "answer": "Inaugurace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Inauguration"]
+    },
+    {
+      "id": "politics-cs-easy-01-12",
+      "text": "Jak se nazývá soubor pravidel určujících, jak probíhá jednání a hlasování parlamentního sboru?",
+      "initial": "J",
+      "answer": "Jednací řád",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Jednací řád parlamentu"],
+      "sources": ["https://en.wikipedia.org/wiki/Parliamentary_procedure"]
+    },
+    {
+      "id": "politics-cs-easy-01-13",
+      "text": "Jak se nazývá zneužívání svěřené moci pro soukromý prospěch, například přijímáním úplatků?",
+      "initial": "K",
+      "answer": "Korupce",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Corruption"]
+    },
+    {
+      "id": "politics-cs-easy-01-14",
+      "text": "Jak se souhrnně nazývají základní práva, která náležejí každému člověku bez ohledu na jeho původ?",
+      "initial": "L",
+      "answer": "Lidská práva",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Základní lidská práva"],
+      "sources": ["https://en.wikipedia.org/wiki/Human_rights"]
+    },
+    {
+      "id": "politics-cs-easy-01-15",
+      "text": "Jak se nazývá člen vlády, který obvykle řídí jeden resort, například školství nebo zahraniční věci?",
+      "initial": "M",
+      "answer": "Ministr",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minister_(government)",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-16",
+      "text": "Jaká zkratka označuje obrannou alianci, jejímž členem se Česko stalo roku 1999?",
+      "initial": "N",
+      "answer": "NATO",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [
+        "Severoatlantická aliance",
+        "Organizace Severoatlantické smlouvy"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NATO",
+        "https://www.nato.int/cps/en/natohq/topics_52044.htm"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-17",
+      "text": "Jak se označuje člověk, který je se státem spojen právním svazkem státního občanství?",
+      "initial": "O",
+      "answer": "Občan",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Státní občan"],
+      "sources": ["https://en.wikipedia.org/wiki/Citizenship"]
+    },
+    {
+      "id": "politics-cs-easy-01-18",
+      "text": "Jaký titul nese hlava České republiky?",
+      "initial": "P",
+      "answer": "Prezident",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Prezident republiky", "Prezident České republiky"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/President_of_the_Czech_Republic",
+        "https://www.psp.cz/docs/laws/constitution.html"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-19",
+      "text": "Jak se nazývá forma státu, v níž hlava státu není panovníkem?",
+      "initial": "R",
+      "answer": "Republika",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Republic"]
+    },
+    {
+      "id": "politics-cs-easy-01-20",
+      "text": "Ve kterém evropském státě působí národní zákonodárný sbor nazvaný Helénský parlament?",
+      "initial": "Ř",
+      "answer": "Řecko",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Helénská republika"],
+      "sources": ["https://en.wikipedia.org/wiki/Hellenic_Parliament"]
+    },
+    {
+      "id": "politics-cs-easy-01-21",
+      "text": "Jak se v české obci, která nemá primátora, nazývá představitel zastupující obec navenek?",
+      "initial": "S",
+      "answer": "Starosta",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Starostka"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mayor",
+        "https://cs.wikipedia.org/wiki/Starosta"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-22",
+      "text": "Ve kterém francouzském městě má sídlo Evropský soud pro lidská práva?",
+      "initial": "Š",
+      "answer": "Štrasburk",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Strasbourg"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_Court_of_Human_Rights"
+      ]
+    },
+    {
+      "id": "politics-cs-easy-01-23",
+      "text": "Jak se nazývá vlajka složená ze tří různých barevných pruhů, například francouzská modrobíločervená vlajka?",
+      "initial": "T",
+      "answer": "Trikolóra",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tricolour_(flag)"]
+    },
+    {
+      "id": "politics-cs-easy-01-24",
+      "text": "Jak se nazývá uzavřená schránka, do níž voliči při hlasování vhazují hlasovací lístky?",
+      "initial": "U",
+      "answer": "Urna",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Volební urna", "Hlasovací schránka", "Volební schránka"],
+      "sources": ["https://en.wikipedia.org/wiki/Ballot_box"]
+    },
+    {
+      "id": "politics-cs-easy-01-25",
+      "text": "Jak se nazývá postup, při němž občané hlasováním vybírají své politické zástupce?",
+      "initial": "V",
+      "answer": "Volby",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Election"]
+    },
+    {
+      "id": "politics-cs-easy-01-26",
+      "text": "Jak se nazývá londýnský palác, ve kterém zasedají obě komory britského parlamentu?",
+      "initial": "W",
+      "answer": "Westminster",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Westminsterský palác", "Palác Westminster"],
+      "sources": ["https://en.wikipedia.org/wiki/Palace_of_Westminster"]
+    },
+    {
+      "id": "politics-cs-easy-01-27",
+      "text": "Jak se nazývá obecně závazný právní předpis přijímaný zákonodárným sborem?",
+      "initial": "Z",
+      "answer": "Zákon",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Statute"]
+    },
+    {
+      "id": "politics-cs-easy-01-28",
+      "text": "Jak se nazývá profesní činnost spočívající ve vyhledávání, ověřování a zveřejňování zpráv, která slouží i kontrole veřejné moci?",
+      "initial": "Ž",
+      "answer": "Žurnalistika",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Novinářství"],
+      "sources": ["https://en.wikipedia.org/wiki/Journalism"]
+    }
+  ]
+}

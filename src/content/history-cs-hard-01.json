@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 2,
+  "id": "history-cs-hard-01",
+  "title": "Historie · Těžká · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-cs-hard-01-01",
+      "text": "Jaký španělský termín označoval oprávnění k dodávkám zotročených Afričanů do španělské Ameriky, které roku 1713 získala britská South Sea Company?",
+      "initial": "A",
+      "answer": "Asiento",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Asiento de negros"],
+      "sources": ["https://en.wikipedia.org/wiki/Asiento_de_Negros"]
+    },
+    {
+      "id": "history-cs-hard-01-02",
+      "text": "Jak se česky nazývá kovová pečeť přivěšená k listině, podle níž získaly název i slavnostní papežské dokumenty?",
+      "initial": "B",
+      "answer": "Bula",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Bulla"],
+      "sources": ["https://en.wikipedia.org/wiki/Bulla_(seal)"]
+    },
+    {
+      "id": "history-cs-hard-01-03",
+      "text": "Jak se nazýval poradní sbor panovníka v normanské a raně anjouovské Anglii, z něhož se postupně vyvinuly specializované soudní a správní orgány?",
+      "initial": "C",
+      "answer": "Curia regis",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Královská rada",
+        "Královská kurie",
+        "King's court",
+        "Royal council"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Curia_regis"]
+    },
+    {
+      "id": "history-cs-hard-01-04",
+      "text": "Pod okny kterého pražského paláce, sídla ministerstva zahraničí, byl v březnu 1948 nalezen mrtvý Jan Masaryk?",
+      "initial": "Č",
+      "answer": "Černínský palác",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jan_Masaryk"]
+    },
+    {
+      "id": "history-cs-hard-01-05",
+      "text": "Jak se nazývá římská stříbrná mince zavedená za druhé punské války, obvykle datovaná do roku 211 př. n. l.?",
+      "initial": "D",
+      "answer": "Denár",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Denarius", "Římský denár"],
+      "sources": ["https://en.wikipedia.org/wiki/Denarius"]
+    },
+    {
+      "id": "history-cs-hard-01-06",
+      "text": "Jak se nazýval systém španělské koloniální Ameriky, v němž držitel dostával právo na tribut či práci svěřeného domorodého obyvatelstva výměnou za údajnou ochranu a christianizaci?",
+      "initial": "E",
+      "answer": "Encomienda",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Enkomienda"],
+      "sources": ["https://en.wikipedia.org/wiki/Encomienda"]
+    },
+    {
+      "id": "history-cs-hard-01-07",
+      "text": "Jaké příjmení měl Johann, mohučský finančník, který roku 1455 vedl s Gutenbergem soudní spor o půjčené peníze?",
+      "initial": "F",
+      "answer": "Fust",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Johann Fust", "Faust", "Johann Faust"],
+      "sources": ["https://en.wikipedia.org/wiki/Johann_Fust"]
+    },
+    {
+      "id": "history-cs-hard-01-08",
+      "text": "Jak se společně označují bratři Tiberius a Gaius, římští tribunové lidu spojovaní s pozemkovými reformami ve 2. století př. n. l.?",
+      "initial": "G",
+      "answer": "Gracchové",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Bratři Gracchové", "Gracchi"],
+      "sources": ["https://en.wikipedia.org/wiki/Gracchi"]
+    },
+    {
+      "id": "history-cs-hard-01-09",
+      "text": "Jak se v antickém Řecku nazývala velká zvířecí oběť, jejíž název doslova odkazuje na sto kusů skotu?",
+      "initial": "H",
+      "answer": "Hekatomba",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Hecatomb"]
+    },
+    {
+      "id": "history-cs-hard-01-10",
+      "text": "Který merovejský král Franků přijal v Remeši křest v nicejské podobě křesťanství, na rozdíl od ariánství mnoha jiných germánských vládců?",
+      "initial": "Ch",
+      "answer": "Chlodvík I.",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Chlodvík", "Clovis I.", "Clovis"],
+      "sources": ["https://en.wikipedia.org/wiki/Clovis_I"]
+    },
+    {
+      "id": "history-cs-hard-01-11",
+      "text": "Jak se nazývá odmítání a ničení náboženských obrazů, které v 8. a 9. století vyvolalo v Byzanci rozsáhlý spor?",
+      "initial": "I",
+      "answer": "Ikonoklasmus",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Obrazoborectví", "Byzantské obrazoborectví"],
+      "sources": ["https://en.wikipedia.org/wiki/Byzantine_Iconoclasm"]
+    },
+    {
+      "id": "history-cs-hard-01-12",
+      "text": "Která mezinárodní hospodářská konference roku 1922 se konala v italském přístavním městě a jednala o obnově evropských ekonomik a vztazích se sovětským Ruskem?",
+      "initial": "J",
+      "answer": "Janovská konference",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Konference v Janově",
+        "Janovská hospodářská konference",
+        "Hospodářská a finanční konference v Janově",
+        "Hospodářská a finanční konference",
+        "Genoa Conference"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Genoa_Conference_(1922)"]
+    },
+    {
+      "id": "history-cs-hard-01-13",
+      "text": "U kterého starověkého města na řece Orontu se střetla vojska Ramesse II. a chetitského krále Muvatalliho II. v bitvě obvykle datované do roku 1274 př. n. l.?",
+      "initial": "K",
+      "answer": "Kadeš",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Kadesh"],
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Kadesh"]
+    },
+    {
+      "id": "history-cs-hard-01-14",
+      "text": "Jak se v českých zemích nazývala středověká dohoda o zachování zemského míru a potírání násilí, odvozená názvem z němčiny?",
+      "initial": "L",
+      "answer": "Landfrýd",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Landfríd", "Landfrieden", "Landfriede", "Zemský mír"],
+      "sources": ["https://en.wikipedia.org/wiki/Landfrieden"]
+    },
+    {
+      "id": "history-cs-hard-01-15",
+      "text": "Jak se nazýval nositel úřední a vojenské hodnosti v mughalské Indii, jehož postavení vyjadřoval číselný stupeň?",
+      "initial": "M",
+      "answer": "Mansabdár",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mansabdar"]
+    },
+    {
+      "id": "history-cs-hard-01-16",
+      "text": "Která smlouva z roku 1842 ukončila první opiovou válku a postoupila ostrov Hongkong Británii?",
+      "initial": "N",
+      "answer": "Nankingská smlouva",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Nankinská smlouva",
+        "Smlouva z Nankingu",
+        "Smlouva z Nankinu",
+        "Nankingský mír"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Nanking"]
+    },
+    {
+      "id": "history-cs-hard-01-17",
+      "text": "Jak se nazývá politika a zvláštní mocenská oblast Ivana IV. v Rusku zavedená roku 1565 a spojená s terorem jeho osobních oddílů?",
+      "initial": "O",
+      "answer": "Opričnina",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Oprichnina"]
+    },
+    {
+      "id": "history-cs-hard-01-18",
+      "text": "Jak se nazývá nástupnické ustanovení Karla VI. z roku 1713, které mělo umožnit dědění habsburských zemí i v ženské linii?",
+      "initial": "P",
+      "answer": "Pragmatická sankce",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Pragmatická sankce z roku 1713"],
+      "sources": ["https://en.wikipedia.org/wiki/Pragmatic_Sanction_of_1713"]
+    },
+    {
+      "id": "history-cs-hard-01-19",
+      "text": "Ke které dynastii patřili ruští carové Ivan IV. Hrozný a jeho syn Fjodor I., který zemřel roku 1598?",
+      "initial": "R",
+      "answer": "Rurikovci",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Rjúrikovci", "Rurikovská dynastie"],
+      "sources": ["https://en.wikipedia.org/wiki/Rurikids"]
+    },
+    {
+      "id": "history-cs-hard-01-20",
+      "text": "Jak se nazývá vrcholný soud Svaté říše římské zřízený při říšské reformě roku 1495 vedle panovnického soudnictví?",
+      "initial": "Ř",
+      "answer": "Říšský komorní soud",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Reichskammergericht", "Iudicium imperii"],
+      "sources": ["https://en.wikipedia.org/wiki/Reichskammergericht"]
+    },
+    {
+      "id": "history-cs-hard-01-21",
+      "text": "Jak se jmenoval český tělocvičný spolek založený roku 1862 v Praze Miroslavem Tyršem a Jindřichem Fügnerem?",
+      "initial": "S",
+      "answer": "Sokol",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Pražský Sokol",
+        "Tělocvičná jednota pražská",
+        "Sokol pražský",
+        "Pražská tělocvičná jednota Sokol"
+      ],
+      "sources": ["https://cs.wikipedia.org/wiki/Sokol_(spolek)"]
+    },
+    {
+      "id": "history-cs-hard-01-22",
+      "text": "Jak se nazývala obranná aliance protestantských knížat a měst Svaté říše římské založená roku 1531 v durynském městě?",
+      "initial": "Š",
+      "answer": "Šmalkaldský spolek",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Šmalkaldská liga", "Schmalkaldischer Bund"],
+      "sources": ["https://en.wikipedia.org/wiki/Schmalkaldic_League"]
+    },
+    {
+      "id": "history-cs-hard-01-23",
+      "text": "Jak se nazývá systém vlády dvou augustů a dvou caesarů, který v římské říši zavedl Diocletianus roku 293?",
+      "initial": "T",
+      "answer": "Tetrarchie",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tetrarchy"]
+    },
+    {
+      "id": "history-cs-hard-01-24",
+      "text": "Jak se nazývá husitský požadavek přijímání svátosti oltářní pod obojí způsobou, tedy chleba i vína pro laiky?",
+      "initial": "U",
+      "answer": "Utrakvismus",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Kališnictví"],
+      "sources": ["https://en.wikipedia.org/wiki/Utraquism"]
+    },
+    {
+      "id": "history-cs-hard-01-25",
+      "text": "Jak se nazýval vysoký ministr či rádce v řadě islámských států, jehož „velký“ protějšek stál v čele osmanské vlády?",
+      "initial": "V",
+      "answer": "Vezír",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Vizír"],
+      "sources": ["https://en.wikipedia.org/wiki/Vizier"]
+    },
+    {
+      "id": "history-cs-hard-01-26",
+      "text": "Která dohoda z roku 1122 mezi papežem Kalixtem II. a císařem Jindřichem V. urovnala spor o investituru?",
+      "initial": "W",
+      "answer": "Wormský konkordát",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Konkordát wormský",
+        "Konkordát ve Wormsu",
+        "Pactum Callixtinum",
+        "Pactum Calixtinum"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Concordat_of_Worms"]
+    },
+    {
+      "id": "history-cs-hard-01-27",
+      "text": "Jak se v Českém království nazývaly úřední knihy, do nichž se zapisovala práva k šlechtickému pozemkovému majetku a rozhodnutí zemského soudu?",
+      "initial": "Z",
+      "answer": "Zemské desky",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Desky zemské", "Landtafeln", "Tabulae terrae"],
+      "sources": ["https://cs.wikipedia.org/wiki/Zemské_desky"]
+    },
+    {
+      "id": "history-cs-hard-01-28",
+      "text": "Jaké přízvisko měl Jan, radikální pražský husitský kazatel, který byl roku 1422 zatčen městskou radou a sťat?",
+      "initial": "Ž",
+      "answer": "Želivský",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Jan Želivský"],
+      "sources": ["https://en.wikipedia.org/wiki/Jan_Želivský"]
+    }
+  ]
+}

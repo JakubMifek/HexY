@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "easy",
   "id": "general-en-02",
   "title": "General knowledge · 02",
   "language": "en",

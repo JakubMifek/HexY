@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 2,
+  "id": "games-cs-hard-02",
+  "title": "Hry · Těžké · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-cs-hard-02-01",
+      "text": "Ve kterém městě bohů z prvního Dark Souls bojuje hráč s Ornsteinem a Smoughem?",
+      "initial": "A",
+      "answer": "Anor Londo",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Anor_Londo"]
+    },
+    {
+      "id": "games-cs-hard-02-02",
+      "text": "Který roguelike deck-builder od LocalThunka z roku 2024 kombinuje pokerové kombinace s žolíky měnícími bodování?",
+      "initial": "B",
+      "answer": "Balatro",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Balatro_%28video_game%29"]
+    },
+    {
+      "id": "games-cs-hard-02-03",
+      "text": "Která hra Uweho Rosenberga rozvíjí worker placement z Agricoly pomocí trpaslíků, jeskyní a výprav?",
+      "initial": "C",
+      "answer": "Caverna",
+      "language": "cs",
+      "aliases": ["Caverna: The Cave Farmers", "Caverna: Sedláci z jeskyní"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caverna_%28board_game%29",
+        "https://www.hrajeme.cz/hry/12945/"
+      ]
+    },
+    {
+      "id": "games-cs-hard-02-04",
+      "text": "Ve které hře německého původu se figurky přemisťují po desce ve tvaru šesticípé hvězdy do protilehlého cípu?",
+      "initial": "Č",
+      "answer": "Čínská dáma",
+      "language": "cs",
+      "aliases": [
+        "Čínské dámy",
+        "Chinese checkers",
+        "Chinese chequers",
+        "Sternhalma",
+        "Stern-Halma"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chinese_checkers",
+        "https://cs.wikipedia.org/wiki/%C4%8C%C3%ADnsk%C3%A1_d%C3%A1ma"
+      ]
+    },
+    {
+      "id": "games-cs-hard-02-05",
+      "text": "Jak se v Dungeons & Dragons nazývá člověk, který připravuje a vede dobrodružství a ztvárňuje obyvatele herního světa?",
+      "initial": "D",
+      "answer": "Dungeon Master",
+      "language": "cs",
+      "aliases": [
+        "DM",
+        "Pán jeskyně",
+        "PJ",
+        "Game Master",
+        "GM",
+        "Pán hry",
+        "Vypravěč",
+        "Gamemaster",
+        "Referee",
+        "Rozhodčí"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dungeon_Master"]
+    },
+    {
+      "id": "games-cs-hard-02-06",
+      "text": "Jak se nazývá zvláštní šachové braní pěšce, který v předchozím tahu postoupil o dvě pole?",
+      "initial": "E",
+      "answer": "En passant",
+      "language": "cs",
+      "aliases": ["En-passant", "Braní mimochodem"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/En_passant"]
+    },
+    {
+      "id": "games-cs-hard-02-07",
+      "text": "Jak se nazývá šachový vývin střelce na pole b2, g2, b7 nebo g7 za pěšce, který uvolnil dlouhou diagonálu?",
+      "initial": "F",
+      "answer": "Fianchetto",
+      "language": "cs",
+      "aliases": ["Fianchetování", "Fianchetti"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fianchetto"]
+    },
+    {
+      "id": "games-cs-hard-02-08",
+      "text": "Která samostatná digitální karetní hra CD Projektu vydaná v roce 2018 navázala na minihru ze třetího Zaklínače?",
+      "initial": "G",
+      "answer": "Gwent",
+      "language": "cs",
+      "aliases": ["Gwent: The Witcher Card Game", "Gwint"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gwent%3A_The_Witcher_Card_Game"
+      ]
+    },
+    {
+      "id": "games-cs-hard-02-09",
+      "text": "Jak se jmenují japonské karty s květinovými motivy jednotlivých měsíců, jejichž výrobou Nintendo původně začínalo?",
+      "initial": "H",
+      "answer": "Hanafuda",
+      "language": "cs",
+      "aliases": ["Květinové karty"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hanafuda"]
+    },
+    {
+      "id": "games-cs-hard-02-10",
+      "text": "Které RPG od Square z roku 1995 nechává Crona a jeho společníky cestovat mezi různými epochami?",
+      "initial": "Ch",
+      "answer": "Chrono Trigger",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Chrono_Trigger"]
+    },
+    {
+      "id": "games-cs-hard-02-11",
+      "text": "Která hra Fumita Uedy sleduje rohatého chlapce, který pomáhá dívce Yordě uniknout z hradu?",
+      "initial": "I",
+      "answer": "Ico",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ico"]
+    },
+    {
+      "id": "games-cs-hard-02-12",
+      "text": "Jaký titul nosí ve Skyrimu vládci jednotlivých držav?",
+      "initial": "J",
+      "answer": "Jarl",
+      "language": "cs",
+      "aliases": ["Jarlové"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/The_Elder_Scrolls_V%3A_Skyrim"]
+    },
+    {
+      "id": "games-cs-hard-02-13",
+      "text": "Která hra Richarda Breese a Sebastiana Bleasdalea používá pracovníky současně k dražení dílků vesnice i k jejich aktivaci?",
+      "initial": "K",
+      "answer": "Keyflower",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Keyflower_(board_game)"]
+    },
+    {
+      "id": "games-cs-hard-02-14",
+      "text": "Jaký pojem zavedl Clint Hocking při rozboru BioShocku pro rozpor mezi herními mechanismy a vyprávěným příběhem?",
+      "initial": "L",
+      "answer": "Ludonarativní disonance",
+      "language": "cs",
+      "aliases": ["Ludonarrative dissonance", "Ludonarativní nesoulad"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ludonarrative_dissonance"]
+    },
+    {
+      "id": "games-cs-hard-02-15",
+      "text": "Jak se souhrnně označuje původní pětice artefaktů z Power Nine v Magicu, které nestojí manu a každý vytváří jednu její barvu?",
+      "initial": "M",
+      "answer": "Mox",
+      "language": "cs",
+      "aliases": ["Moxy", "Moxen", "Mox karty", "Moxes"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Power_Nine"]
+    },
+    {
+      "id": "games-cs-hard-02-16",
+      "text": "Ve které matematické hře hráč při tahu odebírá kladný počet předmětů právě z jedné z několika hromádek?",
+      "initial": "N",
+      "answer": "Nim",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nim"]
+    },
+    {
+      "id": "games-cs-hard-02-17",
+      "text": "Ve kterém dílu Zeldy z roku 1998 Link střídá dětství s dospělostí a učí se melodie na kouzelný nástroj?",
+      "initial": "O",
+      "answer": "Ocarina of Time",
+      "language": "cs",
+      "aliases": [
+        "The Legend of Zelda: Ocarina of Time",
+        "Zelda: Ocarina of Time",
+        "Ocarina of Time 3D",
+        "The Legend of Zelda: Ocarina of Time 3D",
+        "OoT"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time"
+      ]
+    },
+    {
+      "id": "games-cs-hard-02-18",
+      "text": "Která série padajících hlavolamů odstraňuje skupiny alespoň čtyř propojených slizovitých dílků stejné barvy?",
+      "initial": "P",
+      "answer": "Puyo Puyo",
+      "language": "cs",
+      "aliases": ["PuyoPuyo", "Puyo Pop"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Puyo_Puyo"]
+    },
+    {
+      "id": "games-cs-hard-02-19",
+      "text": "Jaký tradiční herní žánr inspirovaný hrou Rogue typicky kombinuje tahový pohyb po políčkách, procedurální tvorbu podzemí a trvalou smrt postavy?",
+      "initial": "R",
+      "answer": "Roguelike",
+      "language": "cs",
+      "aliases": ["Rogue-like"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Roguelike"]
+    },
+    {
+      "id": "games-cs-hard-02-20",
+      "text": "Jak se v Heroes of Might and Magic III nazývá kouzlo, jehož výboj zasáhne několik oddílů a s každým dalším zásahem slábne na polovinu?",
+      "initial": "Ř",
+      "answer": "Řetězový blesk",
+      "language": "cs",
+      "aliases": ["Chain Lightning"],
+      "category": "games",
+      "sources": [
+        "https://heroes.thelazy.net/index.php/Chain_Lightning",
+        "https://raw.githubusercontent.com/vcmi-mods/new-monsters-pack/295241fca6ac16a5ab14dbe2b7e5727d649a326a/Content/translation/czech.json"
+      ]
+    },
+    {
+      "id": "games-cs-hard-02-21",
+      "text": "Jaký japonský pojem označuje v go iniciativu, často udrženou tahem, na který soupeř potřebuje odpovědět?",
+      "initial": "S",
+      "answer": "Sente",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Sente_and_gote"]
+    },
+    {
+      "id": "games-cs-hard-02-22",
+      "text": "Která karetní hra Wolfganga Kramera nutí hráče sebrat celou řadu karet, když by do ní přiložil šestou kartu?",
+      "initial": "Š",
+      "answer": "Šestá bere!",
+      "language": "cs",
+      "aliases": [
+        "Šestá bere",
+        "6 bere!",
+        "6 bere",
+        "6 nimmt!",
+        "6 nimmt",
+        "Take 5",
+        "Beat the Heat",
+        "Šestka"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/6_nimmt%21",
+        "https://cs.wikipedia.org/wiki/6_bere%21",
+        "https://www.hrajeme.cz/hry/11254/"
+      ]
+    },
+    {
+      "id": "games-cs-hard-02-23",
+      "text": "Ve které civilizační hře Reinera Knizii určuje konečné skóre hráčova nejslabší ze čtyř bodových kategorií?",
+      "initial": "T",
+      "answer": "Tigris and Euphrates",
+      "language": "cs",
+      "aliases": [
+        "Tigris & Euphrates",
+        "Tigris a Eufrat",
+        "Eufrat a Tigris",
+        "Euphrat & Tigris",
+        "Euphrat und Tigris"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Tigris_and_Euphrates"]
+    },
+    {
+      "id": "games-cs-hard-02-24",
+      "text": "Která starověká závodivá hra se jmenuje podle sumerského města, v jehož královském pohřebišti byly nalezeny její desky?",
+      "initial": "U",
+      "answer": "Ur",
+      "language": "cs",
+      "aliases": [
+        "Královská hra z Uru",
+        "Královská hra Ur",
+        "Royal Game of Ur",
+        "Game of Ur",
+        "Hra z Uru"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Royal_Game_of_Ur"]
+    },
+    {
+      "id": "games-cs-hard-02-25",
+      "text": "Které akční RPG od Square pro původní PlayStation má hlavního hrdinu Ashleyho Riota?",
+      "initial": "V",
+      "answer": "Vagrant Story",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Vagrant_Story"]
+    },
+    {
+      "id": "games-cs-hard-02-26",
+      "text": "Které postapokalyptické RPG od Interplay z roku 1988, předchůdce Fallouta, sleduje oddíl Desert Rangers?",
+      "initial": "W",
+      "answer": "Wasteland",
+      "language": "cs",
+      "aliases": ["Wasteland Remastered"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wasteland_%28video_game%29"]
+    },
+    {
+      "id": "games-cs-hard-02-27",
+      "text": "Která hra Krise Burma z projektu GIPF kombinuje pokládání a braní kuliček s odstraňováním kruhových dílků desky?",
+      "initial": "Z",
+      "answer": "Zèrtz",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Z%C3%88RTZ"]
+    },
+    {
+      "id": "games-cs-hard-02-28",
+      "text": "Jak se nazývá šachová varianta s povinným braním, ve které je cílem zbavit se vlastních kamenů?",
+      "initial": "Ž",
+      "answer": "Žravé šachy",
+      "language": "cs",
+      "aliases": [
+        "Žravky",
+        "Antichess",
+        "Prohrávací šachy",
+        "Sebevražedné šachy",
+        "Losing chess",
+        "Suicide chess",
+        "Giveaway chess",
+        "Giveaway",
+        "Reverse chess"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Antichess",
+        "https://cs.wikipedia.org/wiki/%C5%BDrav%C3%A9_%C5%A1achy"
+      ]
+    }
+  ]
+}

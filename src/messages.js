@@ -97,8 +97,8 @@ const messages = {
     cs: 'Nepodporovaná verze místní knihovny. Uložená data nebyla přepsána. Exportujte sady z paměti; původní data obnovte kompatibilní aplikací.',
   },
   storageCorrupt: {
-    en: 'The local library is invalid and was not overwritten. Export in-memory packs. Preserve the original browser data before repairing it or clearing this site’s storage.',
-    cs: 'Místní knihovna je neplatná a nebyla přepsána. Exportujte sady z paměti. Před opravou nebo smazáním úložiště webu zachovejte původní data prohlížeče.',
+    en: 'The local library is invalid or contains older packs without difficulty. It was not overwritten. In Options, use “Export protected original library JSON” before repairing a copy or explicitly clearing site data. Never guess imported difficulty.',
+    cs: 'Místní knihovna je neplatná nebo obsahuje starší sady bez obtížnosti. Nebyla přepsána. V Nastavení použijte „Exportovat chráněný původní JSON knihovny“ před opravou kopie nebo výslovným smazáním dat webu. Obtížnost importů neodhadujeme.',
   },
   storageUnavailable: {
     en: 'Browser storage is unavailable. Your current game and packs remain in memory. Allow site storage, then retry an edit or export JSON as a backup.',
@@ -155,8 +155,12 @@ const messages = {
     cs: 'Doplňte autorství a věcný zdroj nebo údaj o původu.',
   },
   packVersion: {
-    en: 'Unsupported pack version. Import a version 1 pack.',
-    cs: 'Nepodporovaná verze sady. Importujte sadu verze 1.',
+    en: 'This pack needs schemaVersion 2 and a declared difficulty (easy, medium or hard). Preserve older exports; edit a copy with the correct difficulty before importing. An incompatible local game remains protected and can be exported before explicit removal.',
+    cs: 'Sada vyžaduje schemaVersion 2 a uvedenou obtížnost (easy, medium nebo hard). Starší export zachovejte; před importem upravte kopii se správnou obtížností. Nekompatibilní místní hra zůstává chráněná a lze ji před výslovným smazáním exportovat.',
+  },
+  packDifficulty: {
+    en: 'Declare difficulty as easy, medium or hard. Fixed/source decks need one level. A mixed number board needs a sorted, distinct difficulty array and a matching difficulty on every question. Correct a copy and retry; existing content is unchanged.',
+    cs: 'Uveďte difficulty jako easy, medium nebo hard. Pevné a zdrojové sady vyžadují jednu úroveň. Smíšená číselná deska vyžaduje seřazené pole různých úrovní a odpovídající difficulty u každé otázky. Opravte kopii a import opakujte; původní obsah se nezměnil.',
   },
   saveVersion: {
     en: 'Unsupported save version. Keep the original file; it cannot be restored by this version.',

@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "general-en-01",
   "title": "General knowledge · starter 01",
   "language": "en",

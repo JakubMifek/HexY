@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-cs-easy-01",
+  "title": "Informatika a programování · Lehké · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-cs-easy-01-01",
+      "text": "Jak se běžně nazývá program v telefonu, který si otevřete třeba pro počasí nebo jízdní řády?",
+      "initial": "A",
+      "answer": "Aplikace",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["App", "Aplikační program"],
+      "sources": ["https://en.wikipedia.org/wiki/Application_software"]
+    },
+    {
+      "id": "programming-cs-easy-01-02",
+      "text": "Který program v telefonu vás má ve zvolenou hodinu probudit zvukovým signálem?",
+      "initial": "B",
+      "answer": "Budík",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Alarm_clock"]
+    },
+    {
+      "id": "programming-cs-easy-01-03",
+      "text": "Která klávesová zkratka ve Windows zkopíruje označený text do schránky, aniž ho smaže?",
+      "initial": "C",
+      "answer": "Ctrl+C",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Control+C",
+        "Ctrl + C",
+        "Control + C",
+        "Ctrl+Insert",
+        "Control+Insert",
+        "Ctrl + Insert"
+      ],
+      "sources": [
+        "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-01-04",
+      "text": "Jak se nazývá pomocný program, který nevidomému uživateli předčítá text a ovládací prvky počítače?",
+      "initial": "Č",
+      "answer": "Čtečka obrazovky",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Odečítač obrazovky", "Screen reader", "Hlasový odečítač"],
+      "sources": ["https://en.wikipedia.org/wiki/Screen_reader"]
+    },
+    {
+      "id": "programming-cs-easy-01-05",
+      "text": "Jak se nazývá rychlé dvojí stisknutí tlačítka myši, kterým ve Windows běžně otevřete soubor?",
+      "initial": "D",
+      "answer": "Dvojklik",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Dvojité kliknutí",
+        "Poklepání",
+        "Poklep",
+        "Dvojité klepnutí"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Double-click"]
+    },
+    {
+      "id": "programming-cs-easy-01-06",
+      "text": "Jak se nazývá služba pro posílání a přijímání zpráv přes internet, u níž adresa obvykle obsahuje znak @?",
+      "initial": "E",
+      "answer": "E-mail",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Email", "Elektronická pošta", "E mail"],
+      "sources": ["https://en.wikipedia.org/wiki/Email"]
+    },
+    {
+      "id": "programming-cs-easy-01-07",
+      "text": "Který známý webový prohlížeč pochází od Mozilly, nikoli od Googlu nebo Microsoftu?",
+      "initial": "F",
+      "answer": "Firefox",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Mozilla Firefox"],
+      "sources": [
+        "https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-01-08",
+      "text": "Který internetový vyhledávač od stejnojmenné firmy proslul stránkou s barevným logem a vyhledávacím polem?",
+      "initial": "G",
+      "answer": "Google",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Google Search", "Vyhledávač Google"],
+      "sources": ["https://en.wikipedia.org/wiki/Google_Search"]
+    },
+    {
+      "id": "programming-cs-easy-01-09",
+      "text": "Jak se nazývá tajný údaj, který při přihlášení zadáváte spolu s uživatelským jménem a neměli byste ho sdělovat ostatním?",
+      "initial": "H",
+      "answer": "Heslo",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Password"],
+      "sources": ["https://en.wikipedia.org/wiki/Password"]
+    },
+    {
+      "id": "programming-cs-easy-01-10",
+      "text": "Jak se nazývá textová konverzace přes internet, v níž si účastníci posílají krátké zprávy téměř okamžitě?",
+      "initial": "Ch",
+      "answer": "Chat",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Čet", "Online chat"],
+      "sources": ["https://en.wikipedia.org/wiki/Online_chat"]
+    },
+    {
+      "id": "programming-cs-easy-01-11",
+      "text": "Jak se nazývá malý obrázkový symbol, který v rozhraní programu zastupuje třeba soubor nebo příkaz?",
+      "initial": "I",
+      "answer": "Ikona",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Ikonka", "Icon"],
+      "sources": ["https://en.wikipedia.org/wiki/Icon_(computing)"]
+    },
+    {
+      "id": "programming-cs-easy-01-12",
+      "text": "Které nastavení programu změníte, chcete-li jeho nabídky místo anglicky číst česky?",
+      "initial": "J",
+      "answer": "Jazyk",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Jazyk rozhraní", "Jazyk zobrazení"],
+      "sources": ["https://en.wikipedia.org/wiki/Language_localisation"]
+    },
+    {
+      "id": "programming-cs-easy-01-13",
+      "text": "Který běžný program má tlačítka s číslicemi a znaménky a slouží například ke sčítání a dělení?",
+      "initial": "K",
+      "answer": "Kalkulačka",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Calculator_(Windows)"]
+    },
+    {
+      "id": "programming-cs-easy-01-14",
+      "text": "Jak se jmenuje bezplatný kancelářský balík, do něhož patří textový editor Writer a tabulkový procesor Calc?",
+      "initial": "L",
+      "answer": "LibreOffice",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Libre Office"],
+      "sources": ["https://www.libreoffice.org/discover/libreoffice/"]
+    },
+    {
+      "id": "programming-cs-easy-01-15",
+      "text": "Kterým běžným polohovacím zařízením posouváte ukazatel a klikáte na tlačítka programu?",
+      "initial": "M",
+      "answer": "Myš",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Počítačová myš"],
+      "sources": ["https://en.wikipedia.org/wiki/Computer_mouse"]
+    },
+    {
+      "id": "programming-cs-easy-01-16",
+      "text": "Kterou část nabídky programu otevřete, hledáte-li vysvětlení jeho ovládání a funkcí?",
+      "initial": "N",
+      "answer": "Nápověda",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Help"],
+      "sources": ["https://en.wikipedia.org/wiki/Online_help"]
+    },
+    {
+      "id": "programming-cs-easy-01-17",
+      "text": "Který příkaz v nabídce Soubor použijete, chcete-li v editoru načíst již existující dokument k úpravám?",
+      "initial": "O",
+      "answer": "Otevřít",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Otevření", "Open"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-01-18",
+      "text": "Jak se nazývá hlavní pracovní obrazovka Windows s pozadím a ikonami, na kterou se dostanete po přihlášení?",
+      "initial": "P",
+      "answer": "Plocha",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Pracovní plocha", "Desktop"],
+      "sources": ["https://en.wikipedia.org/wiki/Desktop_metaphor"]
+    },
+    {
+      "id": "programming-cs-easy-01-19",
+      "text": "Jak se nazývá postup, při němž počítač ukončí běžící operační systém a hned ho znovu nastartuje, místo aby zůstal vypnutý?",
+      "initial": "R",
+      "answer": "Restart",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Restartování", "Restartovat", "Opětovné spuštění", "Reboot"],
+      "sources": ["https://en.wikipedia.org/wiki/Reboot"]
+    },
+    {
+      "id": "programming-cs-easy-01-20",
+      "text": "Jak se nazývá vodorovná posloupnost znaků v textovém editoru, pod kterou pokračuje další část textu?",
+      "initial": "Ř",
+      "answer": "Řádek",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Textový řádek"],
+      "sources": ["https://en.wikipedia.org/wiki/Line_(text_file)"]
+    },
+    {
+      "id": "programming-cs-easy-01-21",
+      "text": "Jak se nazývá pojmenovaný celek uložených dat, například dokument nebo obrázek, který můžete otevřít v programu?",
+      "initial": "S",
+      "answer": "Soubor",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["File"],
+      "sources": ["https://en.wikipedia.org/wiki/Computer_file"]
+    },
+    {
+      "id": "programming-cs-easy-01-22",
+      "text": "Jaký směrový symbol je na klávese, kterou v textovém editoru posunete kurzor nahoru, dolů, vlevo nebo vpravo?",
+      "initial": "Š",
+      "answer": "Šipka",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Arrow_keys"]
+    },
+    {
+      "id": "programming-cs-easy-01-23",
+      "text": "Který příkaz v programu použijete, chcete-li dokument poslat na tiskárnu a dostat ho na papír?",
+      "initial": "T",
+      "answer": "Tisk",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Tisknout", "Vytisknout", "Print"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-01-24",
+      "text": "Který příkaz v editoru zapíše provedené změny do souboru, abyste o ně po zavření nepřišli?",
+      "initial": "U",
+      "answer": "Uložit",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Ukládání", "Uložení", "Save"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-01-25",
+      "text": "Jak se nazývá funkce textového editoru, která v dokumentu najde zadané slovo nebo frázi?",
+      "initial": "V",
+      "answer": "Vyhledávání",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Hledání", "Vyhledat", "Hledat", "Najít", "Find"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-01-26",
+      "text": "Která rodina operačních systémů od Microsoftu má nabídku Start a plochu s hlavním panelem?",
+      "initial": "W",
+      "answer": "Windows",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Microsoft Windows"],
+      "sources": ["https://en.wikipedia.org/wiki/Microsoft_Windows"]
+    },
+    {
+      "id": "programming-cs-easy-01-27",
+      "text": "Který příkaz v textovém editoru odvolá právě provedenou změnu, například nechtěné smazání odstavce?",
+      "initial": "Z",
+      "answer": "Zpět",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Vrátit zpět", "Undo"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+      ]
+    },
+    {
+      "id": "programming-cs-easy-01-28",
+      "text": "Jak se nazývá přehled, v němž herní program seřadí hráče podle dosaženého skóre od nejlepších?",
+      "initial": "Ž",
+      "answer": "Žebříček",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Tabulka nejlepších",
+        "Tabulka výsledků",
+        "Leaderboard",
+        "Pořadí hráčů"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/High_score"]
+    }
+  ]
+}

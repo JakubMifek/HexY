@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-en-medium-02",
+  "title": "Computing and Programming · Medium · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-en-medium-02-01",
+      "text": "Which Google-led mobile operating system has a green robot mascot?",
+      "initial": "A",
+      "answer": "Android",
+      "language": "en",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Android_(operating_system)"]
+    },
+    {
+      "id": "programming-en-medium-02-02",
+      "text": "What unit of digital data contains eight bits in ordinary modern computer systems?",
+      "initial": "B",
+      "answer": "Byte",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Octet"],
+      "sources": ["https://en.wikipedia.org/wiki/Byte"]
+    },
+    {
+      "id": "programming-en-medium-02-03",
+      "text": "What collective name is given to web challenges, such as selecting traffic-light images, that aim to distinguish humans from automated programs?",
+      "initial": "C",
+      "answer": "CAPTCHA",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Completely Automated Public Turing test to tell Computers and Humans Apart",
+        "Reverse Turing test"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/CAPTCHA"]
+    },
+    {
+      "id": "programming-en-medium-02-04",
+      "text": "Which English mathematician designed the programmable mechanical Analytical Engine in the nineteenth century?",
+      "initial": "CH",
+      "answer": "Charles Babbage",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Babbage"],
+      "sources": ["https://en.wikipedia.org/wiki/Charles_Babbage"]
+    },
+    {
+      "id": "programming-en-medium-02-05",
+      "text": "What is an organised collection of data called when software can store, search and update its records, for example in tables?",
+      "initial": "D",
+      "answer": "Database",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Data base", "DB"],
+      "sources": ["https://en.wikipedia.org/wiki/Database"]
+    },
+    {
+      "id": "programming-en-medium-02-06",
+      "text": "What software operation writes data into a format intended for use in another application, as opposed to importing it?",
+      "initial": "E",
+      "answer": "Export",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Exporting", "Data export"],
+      "sources": ["https://en.wikipedia.org/wiki/Import_and_export_of_data"]
+    },
+    {
+      "id": "programming-en-medium-02-07",
+      "text": "What is changing a document's appearance, such as its font size, bold style or paragraph alignment, called?",
+      "initial": "F",
+      "answer": "Formatting",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Text formatting"],
+      "sources": ["https://en.wikipedia.org/wiki/Formatted_text"]
+    },
+    {
+      "id": "programming-en-medium-02-08",
+      "text": "Which software-development platform, whose mascot is the Octocat, hosts Git repositories in the cloud and adds tools for collaboration and code review?",
+      "initial": "G",
+      "answer": "GitHub",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["GitHub.com"],
+      "sources": [
+        "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git",
+        "https://github.com/logos"
+      ]
+    },
+    {
+      "id": "programming-en-medium-02-09",
+      "text": "What collective term means a computer's physical parts, such as its processor and keyboard, rather than its programs?",
+      "initial": "H",
+      "answer": "Hardware",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Computer hardware"],
+      "sources": ["https://en.wikipedia.org/wiki/Computer_hardware"]
+    },
+    {
+      "id": "programming-en-medium-02-10",
+      "text": "What worldwide network of interconnected computer networks carries services including the web and email?",
+      "initial": "I",
+      "answer": "Internet",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["The Internet"],
+      "sources": ["https://en.wikipedia.org/wiki/Internet"]
+    },
+    {
+      "id": "programming-en-medium-02-11",
+      "text": "Which mathematician gives his name to the computer architecture in which program instructions and data share memory?",
+      "initial": "J",
+      "answer": "John von Neumann",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Von Neumann",
+        "Neumann",
+        "János von Neumann",
+        "John Neumann"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Von_Neumann_architecture",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/"
+      ]
+    },
+    {
+      "id": "programming-en-medium-02-12",
+      "text": "What is the central part of an operating system called that manages resources and mediates between running programs and hardware?",
+      "initial": "K",
+      "answer": "Kernel",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Operating-system kernel",
+        "OS kernel",
+        "Operating system kernel"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Kernel_(operating_system)"]
+    },
+    {
+      "id": "programming-en-medium-02-13",
+      "text": "What legal permission sets the conditions under which you may use a program and, where allowed, modify or redistribute it?",
+      "initial": "L",
+      "answer": "License",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Licence",
+        "Software license",
+        "Software licence",
+        "License agreement",
+        "Licence agreement",
+        "Software license agreement",
+        "Software licence agreement",
+        "End-user license agreement",
+        "End-user licence agreement",
+        "End user license agreement",
+        "End user licence agreement",
+        "EULA"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Software_license"]
+    },
+    {
+      "id": "programming-en-medium-02-14",
+      "text": "What is a recorded or written sequence of commands called when it automates repeated tasks in an office application?",
+      "initial": "M",
+      "answer": "Macro",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Keyboard macro", "Application macro"],
+      "sources": ["https://en.wikipedia.org/wiki/Macro_(computer_science)"]
+    },
+    {
+      "id": "programming-en-medium-02-15",
+      "text": "What is a set of interconnected computers called when they can exchange data and share services?",
+      "initial": "N",
+      "answer": "Network",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Computer network"],
+      "sources": ["https://en.wikipedia.org/wiki/Computer_network"]
+    },
+    {
+      "id": "programming-en-medium-02-16",
+      "text": "What term describes software whose license permits users to inspect, modify and redistribute its source code?",
+      "initial": "O",
+      "answer": "Open source",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Open-source software",
+        "OSS",
+        "Open-source",
+        "Open source software",
+        "FOSS",
+        "FLOSS",
+        "Free and open-source software",
+        "Free and open source software",
+        "Free/libre and open-source software",
+        "Free/libre and open source software",
+        "Free software",
+        "Libre software"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Open-source_software"]
+    },
+    {
+      "id": "programming-en-medium-02-17",
+      "text": "What abbreviation names Adobe's document format designed to preserve page appearance across different devices?",
+      "initial": "P",
+      "answer": "PDF",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Portable Document Format"],
+      "sources": ["https://en.wikipedia.org/wiki/PDF"]
+    },
+    {
+      "id": "programming-en-medium-02-18",
+      "text": "What action does Microsoft Defender Antivirus take when it sets a suspicious file aside but lets you restore it if you are certain it is safe?",
+      "initial": "Q",
+      "answer": "Quarantine",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Quarantining", "Quarantined"],
+      "sources": [
+        "https://learn.microsoft.com/en-us/defender-endpoint/restore-quarantined-files-microsoft-defender-antivirus"
+      ]
+    },
+    {
+      "id": "programming-en-medium-02-19",
+      "text": "What property of a digital image is commonly expressed by its pixel width and height, such as 1920 × 1080?",
+      "initial": "R",
+      "answer": "Resolution",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "Image resolution",
+        "Pixel dimensions",
+        "Pixel resolution",
+        "Image dimensions",
+        "Image size",
+        "Dimensions"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Image_resolution"]
+    },
+    {
+      "id": "programming-en-medium-02-20",
+      "text": "What collective term means computer programs and their instructions, rather than the physical equipment on which they run?",
+      "initial": "S",
+      "answer": "Software",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Computer software", "SW"],
+      "sources": ["https://en.wikipedia.org/wiki/Software"]
+    },
+    {
+      "id": "programming-en-medium-02-21",
+      "text": "Which software distribution model initially offers a program at little or no cost for trial use, often requiring payment to remove restrictions?",
+      "initial": "SH",
+      "answer": "Shareware",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Trialware", "Demoware", "Trial software"],
+      "sources": ["https://en.wikipedia.org/wiki/Shareware"]
+    },
+    {
+      "id": "programming-en-medium-02-22",
+      "text": "What test, proposed by Alan Turing, considers whether a machine's conversational behaviour can be distinguished from a human's by an interrogator?",
+      "initial": "T",
+      "answer": "Turing test",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Imitation game", "The imitation game"],
+      "sources": ["https://en.wikipedia.org/wiki/Turing_test"]
+    },
+    {
+      "id": "programming-en-medium-02-23",
+      "text": "What do you call sending a file from your device to a remote service, for example when your app adds a photo to cloud storage, rather than downloading it?",
+      "initial": "U",
+      "answer": "Upload",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Uploading", "File upload"],
+      "sources": ["https://en.wikipedia.org/wiki/Download"]
+    },
+    {
+      "id": "programming-en-medium-02-24",
+      "text": "What do you call a software-created computer environment that can run its own operating system on a physical host?",
+      "initial": "V",
+      "answer": "Virtual machine",
+      "language": "en",
+      "category": "programming",
+      "aliases": [
+        "VM",
+        "System virtual machine",
+        "Full virtualization VM",
+        "SysVM"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Virtual_machine"]
+    },
+    {
+      "id": "programming-en-medium-02-25",
+      "text": "What acronym describes an editor that shows a document approximately as it will appear when printed or published?",
+      "initial": "W",
+      "answer": "WYSIWYG",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["What You See Is What You Get"],
+      "sources": ["https://en.wikipedia.org/wiki/WYSIWYG"]
+    },
+    {
+      "id": "programming-en-medium-02-26",
+      "text": "Which Apple development environment combines tools for creating apps with testing and distribution support?",
+      "initial": "X",
+      "answer": "Xcode",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Apple Xcode"],
+      "sources": ["https://developer.apple.com/xcode/"]
+    },
+    {
+      "id": "programming-en-medium-02-27",
+      "text": "Which internet brand, established by Jerry Yang and David Filo, provides a search engine and a mail service?",
+      "initial": "Y",
+      "answer": "Yahoo",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Yahoo!", "Yahoo Inc.", "Yahoo! Inc."],
+      "sources": ["https://en.wikipedia.org/wiki/Yahoo"]
+    },
+    {
+      "id": "programming-en-medium-02-28",
+      "text": "Which software developer co-founded Facebook at Harvard in 2004 and later led its parent company Meta as CEO?",
+      "initial": "Z",
+      "answer": "Zuckerberg",
+      "language": "en",
+      "category": "programming",
+      "aliases": ["Mark Zuckerberg", "Mark Elliot Zuckerberg"],
+      "sources": ["https://en.wikipedia.org/wiki/Mark_Zuckerberg"]
+    }
+  ]
+}

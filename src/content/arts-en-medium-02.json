@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-en-medium-02",
+  "title": "Arts and literature · Medium · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-en-medium-02-01",
+      "text": "What decorative motif uses interlacing scrolls and stylised foliage, notably in Islamic art?",
+      "initial": "A",
+      "answer": "Arabesque",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Arabesque"]
+    },
+    {
+      "id": "arts-en-medium-02-02",
+      "text": "What German school founded by Walter Gropius in 1919 sought to link fine art with everyday design and architecture?",
+      "initial": "B",
+      "answer": "Bauhaus",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://www.tate.org.uk/art/art-terms/b/bauhaus"]
+    },
+    {
+      "id": "arts-en-medium-02-03",
+      "text": "Which French painter repeatedly depicted Mont Sainte-Victoire and painted The Card Players series?",
+      "initial": "C",
+      "answer": "Cézanne",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Paul Cézanne"],
+      "sources": ["https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne"]
+    },
+    {
+      "id": "arts-en-medium-02-04",
+      "text": "Which Russian playwright wrote The Cherry Orchard and Three Sisters?",
+      "initial": "CH",
+      "answer": "Chekhov",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Anton Chekhov",
+        "Anton Pavlovich Chekhov",
+        "Chekov",
+        "Anton Chekov"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Anton_Chekhov"]
+    },
+    {
+      "id": "arts-en-medium-02-05",
+      "text": "Which German Renaissance artist made the engravings Melencolia I and Knight, Death and the Devil?",
+      "initial": "D",
+      "answer": "Dürer",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Albrecht Dürer", "Duerer", "Albrecht Duerer"],
+      "sources": ["https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer"]
+    },
+    {
+      "id": "arts-en-medium-02-06",
+      "text": "What do we call a concluding section placed after the main action of a literary work, often explaining what later happened to its characters?",
+      "initial": "E",
+      "answer": "Epilogue",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["epilog"],
+      "sources": ["https://en.wikipedia.org/wiki/Epilogue"]
+    },
+    {
+      "id": "arts-en-medium-02-07",
+      "text": "What Italian avant-garde movement launched by Marinetti in 1909 sought to capture the dynamism of the modern world?",
+      "initial": "F",
+      "answer": "Futurism",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://www.tate.org.uk/art/art-terms/f/futurism"]
+    },
+    {
+      "id": "arts-en-medium-02-08",
+      "text": "Which Spanish painter created The Third of May 1808 and the print series The Disasters of War?",
+      "initial": "G",
+      "answer": "Goya",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Francisco Goya",
+        "Francisco de Goya",
+        "Francisco José de Goya y Lucientes",
+        "de Goya"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Francisco_Goya"]
+    },
+    {
+      "id": "arts-en-medium-02-09",
+      "text": "What figure of speech uses deliberate exaggeration for emphasis, as in saying you have waited a thousand years?",
+      "initial": "H",
+      "answer": "Hyperbole",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["auxesis"],
+      "sources": ["https://en.wikipedia.org/wiki/Hyperbole"]
+    },
+    {
+      "id": "arts-en-medium-02-10",
+      "text": "What rhetorical device uses words to convey a meaning at odds with their literal sense, often the opposite?",
+      "initial": "I",
+      "answer": "Irony",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["verbal irony"],
+      "sources": ["https://en.wikipedia.org/wiki/Verbal_irony"]
+    },
+    {
+      "id": "arts-en-medium-02-11",
+      "text": "What term means placing contrasting elements side by side so that their relationship or differences become striking?",
+      "initial": "J",
+      "answer": "Juxtaposition",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Juxtaposition"]
+    },
+    {
+      "id": "arts-en-medium-02-12",
+      "text": "Which English Romantic poet wrote Ode to a Nightingale and To Autumn?",
+      "initial": "K",
+      "answer": "Keats",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["John Keats"],
+      "sources": ["https://en.wikipedia.org/wiki/John_Keats"]
+    },
+    {
+      "id": "arts-en-medium-02-13",
+      "text": "What do we call the written text of an opera, distinct from its musical score?",
+      "initial": "L",
+      "answer": "Libretto",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Libretto"]
+    },
+    {
+      "id": "arts-en-medium-02-14",
+      "text": "Which Belgian painter placed the words meaning this is not a pipe below the image of a pipe?",
+      "initial": "M",
+      "answer": "Magritte",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["René Magritte"],
+      "sources": ["https://en.wikipedia.org/wiki/The_Treachery_of_Images"]
+    },
+    {
+      "id": "arts-en-medium-02-15",
+      "text": "What literary movement associated with Émile Zola stresses the shaping force of heredity and social environment on human lives?",
+      "initial": "N",
+      "answer": "Naturalism",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["literary naturalism"],
+      "sources": ["https://en.wikipedia.org/wiki/Naturalism_%28literature%29"]
+    },
+    {
+      "id": "arts-en-medium-02-16",
+      "text": "What term describes words such as buzz and hiss that imitate the sounds they name?",
+      "initial": "O",
+      "answer": "Onomatopoeia",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Onomatopoeia"]
+    },
+    {
+      "id": "arts-en-medium-02-17",
+      "text": "What term names the architectural frame through which an audience views the stage in a traditional picture-frame theatre?",
+      "initial": "P",
+      "answer": "Proscenium",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["proscenium arch"],
+      "sources": ["https://en.wikipedia.org/wiki/Proscenium"]
+    },
+    {
+      "id": "arts-en-medium-02-18",
+      "text": "What Italian term is used in art history for the fifteenth century, the 1400s?",
+      "initial": "Q",
+      "answer": "Quattrocento",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Quattrocento"]
+    },
+    {
+      "id": "arts-en-medium-02-19",
+      "text": "What late-eighteenth- and nineteenth-century artistic movement stressed emotion, imagination and the power of nature?",
+      "initial": "R",
+      "answer": "Romanticism",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://www.tate.org.uk/art/art-terms/r/romanticism"]
+    },
+    {
+      "id": "arts-en-medium-02-20",
+      "text": "What specific type of dramatic monologue presents a character's private thoughts aloud, alone or unheard by the other characters?",
+      "initial": "S",
+      "answer": "Soliloquy",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Soliloquy"]
+    },
+    {
+      "id": "arts-en-medium-02-21",
+      "text": "Which Soviet composer wrote the Seventh Symphony, known as the Leningrad Symphony?",
+      "initial": "SH",
+      "answer": "Shostakovich",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Dmitri Shostakovich",
+        "Dmitry Shostakovich",
+        "Dmitri Dmitriyevich Shostakovich",
+        "Shostakovitch",
+        "Dmitri Shostakovitch"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Symphony_No._7_%28Shostakovich%29"
+      ]
+    },
+    {
+      "id": "arts-en-medium-02-22",
+      "text": "Which Russian composer wrote the ballet scores Swan Lake and The Nutcracker?",
+      "initial": "T",
+      "answer": "Tchaikovsky",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Pyotr Ilyich Tchaikovsky",
+        "Peter Ilyich Tchaikovsky",
+        "Chaikovsky",
+        "Tschaikovsky",
+        "Piotr Ilyich Tchaikovsky",
+        "Peter Ilich Tchaikovsky"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"]
+    },
+    {
+      "id": "arts-en-medium-02-23",
+      "text": "What narrative term describes a storyteller whose account the reader has reason to distrust?",
+      "initial": "U",
+      "answer": "Unreliable narrator",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Unreliable_narrator"]
+    },
+    {
+      "id": "arts-en-medium-02-24",
+      "text": "Which Dutch painter created Girl with a Pearl Earring?",
+      "initial": "V",
+      "answer": "Vermeer",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Johannes Vermeer", "Jan Vermeer"],
+      "sources": ["https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"]
+    },
+    {
+      "id": "arts-en-medium-02-25",
+      "text": "Which German composer wrote the four-part opera cycle The Ring of the Nibelung?",
+      "initial": "W",
+      "answer": "Wagner",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Richard Wagner", "Wilhelm Richard Wagner"],
+      "sources": ["https://en.wikipedia.org/wiki/Der_Ring_des_Nibelungen"]
+    },
+    {
+      "id": "arts-en-medium-02-26",
+      "text": "What style of traditional Chinese painting uses expressive, spontaneous strokes to convey a subject's spirit rather than minute detail?",
+      "initial": "X",
+      "answer": "Xieyi",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "hsieh-i",
+        "hsieh i",
+        "hsieh yi",
+        "freehand brushwork",
+        "freehand brush work"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Freehand_brush_work"]
+    },
+    {
+      "id": "arts-en-medium-02-27",
+      "text": "What form of street art covers public objects such as trees or railings with knitted or crocheted material?",
+      "initial": "Y",
+      "answer": "Yarn bombing",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "yarnbombing",
+        "knit graffiti",
+        "knitted graffiti",
+        "guerrilla knitting",
+        "wool bombing",
+        "yarn storming",
+        "kniffiti",
+        "urban knitting",
+        "graffiti knitting"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Yarn_bombing"]
+    },
+    {
+      "id": "arts-en-medium-02-28",
+      "text": "What Italian term names the servant character type of commedia dell'arte from which figures such as Harlequin developed?",
+      "initial": "Z",
+      "answer": "Zanni",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["zani", "zane"],
+      "sources": ["https://en.wikipedia.org/wiki/Zanni"]
+    }
+  ]
+}

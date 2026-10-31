@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-cs-medium-01",
+  "title": "Informatika a programování · Střední · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-cs-medium-01-01",
+      "text": "Která britská matematička v poznámkách z roku 1843 popsala postup pro Babbageův analytický stroj a bývá označována za první programátorku?",
+      "initial": "A",
+      "answer": "Ada Lovelace",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Augusta Ada King",
+        "Ada King",
+        "Ada",
+        "Lovelace",
+        "Augusta Ada Byron"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ada_Lovelace",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Lovelace/"
+      ]
+    },
+    {
+      "id": "programming-cs-medium-01-02",
+      "text": "Jak se nazývá nejmenší jednotka informace vyjadřující jednu ze dvou možností, běžně zapisovaných jako 0 a 1?",
+      "initial": "B",
+      "answer": "Bit",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Binary digit", "Binární číslice"],
+      "sources": ["https://en.wikipedia.org/wiki/Bit"]
+    },
+    {
+      "id": "programming-cs-medium-01-03",
+      "text": "Jak se nazývá malý údaj, který web uloží v prohlížeči například pro udržení přihlášení nebo zapamatování nastavení?",
+      "initial": "C",
+      "answer": "Cookie",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Cookies", "HTTP cookie"],
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies"
+      ]
+    },
+    {
+      "id": "programming-cs-medium-01-04",
+      "text": "Jak se nazývá strojově čitelný zápis z rovnoběžných tmavých pruhů a světlých mezer, který dokáže čtecí aplikace dekódovat z fotografie zboží?",
+      "initial": "Č",
+      "answer": "Čárový kód",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Barcode"],
+      "sources": ["https://en.wikipedia.org/wiki/Barcode"]
+    },
+    {
+      "id": "programming-cs-medium-01-05",
+      "text": "Jak se nazývá lidsky čitelné jméno internetového místa, například example.org, které DNS převádí na číselnou adresu?",
+      "initial": "D",
+      "answer": "Doména",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Doménové jméno", "Domain name"],
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+        "https://developer.mozilla.org/en-US/docs/Glossary/DNS"
+      ]
+    },
+    {
+      "id": "programming-cs-medium-01-06",
+      "text": "Který tabulkový procesor od Microsoftu umožňuje počítat pomocí vzorců v buňkách a vytvářet grafy?",
+      "initial": "E",
+      "answer": "Excel",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Microsoft Excel", "MS Excel"],
+      "sources": [
+        "https://support.microsoft.com/en-us/office/basic-tasks-in-excel-dc775dd1-fa52-430f-9c3c-d998d1735fca"
+      ]
+    },
+    {
+      "id": "programming-cs-medium-01-07",
+      "text": "Jak se nazývá bezpečnostní systém, který podle pravidel povoluje nebo blokuje síťový provoz?",
+      "initial": "F",
+      "answer": "Firewall",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Síťový firewall"],
+      "sources": [
+        "https://www.cisa.gov/news-events/news/understanding-firewalls-home-and-small-office-use"
+      ]
+    },
+    {
+      "id": "programming-cs-medium-01-08",
+      "text": "Jak se nazývá způsob ovládání programu pomocí oken, ikon a nabídek namísto pouhého psaní textových příkazů?",
+      "initial": "G",
+      "answer": "Grafické uživatelské rozhraní",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Grafické rozhraní", "GUI", "Graphical user interface"],
+      "sources": ["https://en.wikipedia.org/wiki/Graphical_user_interface"]
+    },
+    {
+      "id": "programming-cs-medium-01-09",
+      "text": "Jak se nazývá prvek webové stránky, jehož aktivací přejdete na jinou stránku nebo na jiné místo dokumentu?",
+      "initial": "H",
+      "answer": "Hypertextový odkaz",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Hyperlink", "Odkaz", "Link"],
+      "sources": ["https://en.wikipedia.org/wiki/Hyperlink"]
+    },
+    {
+      "id": "programming-cs-medium-01-10",
+      "text": "Jak se nazývá program, který s uživatelem vede rozhovor, například jako automatická podpora v textovém okně?",
+      "initial": "Ch",
+      "answer": "Chatbot",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Chat bot", "Konverzační bot"],
+      "sources": ["https://www.ibm.com/think/topics/chatbots"]
+    },
+    {
+      "id": "programming-cs-medium-01-11",
+      "text": "Jak se nazývá číselná adresa síťového zařízení, která se u verze 4 běžně zapisuje čtyřmi čísly oddělenými tečkami?",
+      "initial": "I",
+      "answer": "IP adresa",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Internet Protocol address", "Internetová adresa IP"],
+      "sources": ["https://en.wikipedia.org/wiki/IP_address"]
+    },
+    {
+      "id": "programming-cs-medium-01-12",
+      "text": "Který programovací jazyk i platformu poprvé uvedla společnost Sun Microsystems v roce 1995?",
+      "initial": "J",
+      "answer": "Java",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://www.java.com/en/download/help/whatis_java.html"]
+    },
+    {
+      "id": "programming-cs-medium-01-13",
+      "text": "Jak se v modelu síťových aplikací nazývá program, který žádá server o službu, například prohlížeč žádající o webovou stránku?",
+      "initial": "K",
+      "answer": "Klient",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Client", "Klientský program"],
+      "sources": ["https://en.wikipedia.org/wiki/Client_(computing)"]
+    },
+    {
+      "id": "programming-cs-medium-01-14",
+      "text": "Jak se nazývá rodina svobodných unixových operačních systémů zahrnující například Ubuntu a Debian?",
+      "initial": "L",
+      "answer": "Linux",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["GNU/Linux", "GNU Linux"],
+      "sources": ["https://en.wikipedia.org/wiki/Linux"]
+    },
+    {
+      "id": "programming-cs-medium-01-15",
+      "text": "Jaký souhrnný název má software vytvořený ke škodlivé činnosti, například viry, trojské koně nebo ransomware?",
+      "initial": "M",
+      "answer": "Malware",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Škodlivý software", "Škodlivý program"],
+      "sources": ["https://en.wikipedia.org/wiki/Malware"]
+    },
+    {
+      "id": "programming-cs-medium-01-16",
+      "text": "Jak se běžně nazývá číslo, které program vygeneruje například při napodobení nepředvídatelného hodu kostkou?",
+      "initial": "N",
+      "answer": "Náhodné číslo",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Pseudonáhodné číslo", "Náhodná hodnota"],
+      "sources": ["https://en.wikipedia.org/wiki/Random_number_generation"]
+    },
+    {
+      "id": "programming-cs-medium-01-17",
+      "text": "Jak se nazývá základní systémový software, který spravuje hardware počítače a poskytuje služby ostatním programům?",
+      "initial": "O",
+      "answer": "Operační systém",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Operating system", "OS"],
+      "sources": ["https://en.wikipedia.org/wiki/Operating_system"]
+    },
+    {
+      "id": "programming-cs-medium-01-18",
+      "text": "Jak se nazývá podvod, při němž se zpráva nebo stránka vydává za důvěryhodnou službu, aby z vás vylákala třeba přihlašovací údaje?",
+      "initial": "P",
+      "answer": "Phishing",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Podvodné vylákání údajů"],
+      "sources": ["https://en.wikipedia.org/wiki/Phishing"]
+    },
+    {
+      "id": "programming-cs-medium-01-19",
+      "text": "Jakou zkratku má hlavní pracovní paměť počítače, v níž jsou při běhu uložena data programů a jejíž běžná dynamická podoba po vypnutí data ztratí?",
+      "initial": "R",
+      "answer": "RAM",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Operační paměť", "Paměť RAM", "Random access memory"],
+      "sources": ["https://en.wikipedia.org/wiki/Random-access_memory"]
+    },
+    {
+      "id": "programming-cs-medium-01-20",
+      "text": "Jak se nazývá určování a vynucování pravidel, kdo smí například číst soubor nebo měnit záznam v aplikaci?",
+      "initial": "Ř",
+      "answer": "Řízení přístupu",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Kontrola přístupu", "Access control", "Autorizace"],
+      "sources": ["https://en.wikipedia.org/wiki/Access_control"]
+    },
+    {
+      "id": "programming-cs-medium-01-21",
+      "text": "Jak se v síťové aplikaci nazývá program nebo počítač, který poskytuje služby jiným programům, například jim posílá webové stránky?",
+      "initial": "S",
+      "answer": "Server",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Serverový program"],
+      "sources": ["https://en.wikipedia.org/wiki/Server_(computing)"]
+    },
+    {
+      "id": "programming-cs-medium-01-22",
+      "text": "Jak se nazývá převod čitelných dat do podoby, kterou bez příslušného klíče nemá nepovolaná osoba přečíst?",
+      "initial": "Š",
+      "answer": "Šifrování",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Šifrace", "Encryption"],
+      "sources": ["https://en.wikipedia.org/wiki/Encryption"]
+    },
+    {
+      "id": "programming-cs-medium-01-23",
+      "text": "Která klávesa v dialogových oknech obvykle přesouvá výběr na další ovládací prvek a v textu může vkládat odsazení?",
+      "initial": "T",
+      "answer": "Tabulátor",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Tab", "Klávesa Tab"],
+      "sources": ["https://en.wikipedia.org/wiki/Tab_key"]
+    },
+    {
+      "id": "programming-cs-medium-01-24",
+      "text": "Jaká zkratka označuje adresu internetového zdroje, která může mít podobu https://example.org/stranka?",
+      "initial": "U",
+      "answer": "URL",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Uniform Resource Locator", "Webová adresa"],
+      "sources": ["https://en.wikipedia.org/wiki/URL"]
+    },
+    {
+      "id": "programming-cs-medium-01-25",
+      "text": "Jak se nazývá počítačem vytvářené prostředí, do něhož se uživatel může zdánlivě ponořit například pomocí speciálních brýlí?",
+      "initial": "V",
+      "answer": "Virtuální realita",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["VR", "Virtual reality"],
+      "sources": ["https://en.wikipedia.org/wiki/Virtual_reality"]
+    },
+    {
+      "id": "programming-cs-medium-01-26",
+      "text": "Která internetová encyklopedie běží na softwaru MediaWiki a její články mohou společně upravovat dobrovolníci?",
+      "initial": "W",
+      "answer": "Wikipedie",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Wikipedia"],
+      "sources": ["https://en.wikipedia.org/wiki/Wikipedia"]
+    },
+    {
+      "id": "programming-cs-medium-01-27",
+      "text": "Jak se nazývá člověkem čitelný zápis programu v programovacím jazyce, ze kterého může překladač vytvořit spustitelnou podobu?",
+      "initial": "Z",
+      "answer": "Zdrojový kód",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Zdroják", "Source code"],
+      "sources": ["https://en.wikipedia.org/wiki/Source_code"]
+    },
+    {
+      "id": "programming-cs-medium-01-28",
+      "text": "Jak se nazývá technika souborového systému, která před provedením změn zaznamená jejich záměr do deníku a pomáhá s obnovou po pádu?",
+      "initial": "Ž",
+      "answer": "Žurnálování",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Journaling", "Žurnálování souborového systému"],
+      "sources": ["https://en.wikipedia.org/wiki/Journaling_file_system"]
+    }
+  ]
+}

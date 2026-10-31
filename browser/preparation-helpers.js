@@ -1,7 +1,12 @@
 import { readFile } from 'node:fs/promises';
+import { readFileSync, readdirSync } from 'node:fs';
 import { expect } from '@playwright/test';
 import { verifyPrintedSheet } from './pdf-helpers.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
+
+export const catalogPacks = readdirSync('src/content')
+  .filter((name) => name.endsWith('.json'))
+  .map((name) => JSON.parse(readFileSync(`src/content/${name}`, 'utf8')));
 
 /** @param {import('@playwright/test').Page} page
  * @param {'en'|'cs'} [language] @param {number} [seconds] */
@@ -18,7 +23,6 @@ export async function setupPreparation(page, language = 'en', seconds = 30) {
   await page.locator('#new-game').click();
   await page.locator('#next-setup').click();
   await page.locator('#mode-letters').click();
-  await page.locator('#catalog-language').selectOption('');
 }
 
 /** @param {import('@playwright/test').Page} page @param {string} mode @param {string} answers */
@@ -70,9 +74,8 @@ export async function upload(page, packs) {
 
 /** @param {import('@playwright/test').Page} page @param {string[]} ids */
 export async function selectSources(page, ids) {
-  await page.locator('#catalog-language').selectOption('');
   const selected = await page
-    .locator('.pack-sources input:checked')
+    .locator('.pack-sources input[id^="source-"]:checked')
     .evaluateAll((nodes) => nodes.map((node) => node.getAttribute('id')));
   for (const id of selected) await page.locator(`[id="${id}"]`).uncheck();
   for (const id of ids) await page.locator(`[id="source-${id}"]`).check();
@@ -166,24 +169,33 @@ export async function editFixed(page) {
 }
 
 /** @param {import('@playwright/test').BrowserContext} context
- * @param {import('@playwright/test').TestInfo} info @param {string} path @param {object} pack */
-export async function inspectPrintedSheet(context, info, path, pack) {
+ * @param {import('@playwright/test').TestInfo} info @param {string} path @param {object} pack
+ * @param {string} [prefix] */
+export async function inspectPrintedSheet(
+  context,
+  info,
+  path,
+  pack,
+  prefix = '',
+) {
   const sheet = await context.newPage();
   await sheet.goto(`file://${path}`);
   await verifySheet(sheet, pack);
   await sheet.screenshot({
-    path: info.outputPath('answer-sheet-print.png'),
+    path: info.outputPath(`${prefix}answer-sheet-print.png`),
     fullPage: true,
   });
-  await sheet.pdf({
-    path: info.outputPath('answer-sheet.pdf'),
-    landscape: true,
-  });
-  verifyPrintedSheet(
-    info.outputPath('answer-sheet.pdf'),
-    pack,
-    await sheet.locator('html').getAttribute('lang'),
-  );
+  if (context.browser()?.browserType().name() === 'chromium') {
+    await sheet.pdf({
+      path: info.outputPath(`${prefix}answer-sheet.pdf`),
+      landscape: true,
+    });
+    verifyPrintedSheet(
+      info.outputPath(`${prefix}answer-sheet.pdf`),
+      pack,
+      await sheet.locator('html').getAttribute('lang'),
+    );
+  }
   await sheet.close();
 }
 

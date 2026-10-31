@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "movies-en-easy-02",
+  "title": "Movies and series · Easy 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-en-easy-02-01",
+      "text": "Which title character of Disney's 1992 animated film discovers a magic lamp containing a Genie?",
+      "initial": "A",
+      "answer": "Aladdin",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aladdin_%281992_Disney_film%29"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-02",
+      "text": "Which 1985 film sends Marty McFly through time in a modified DeLorean?",
+      "initial": "B",
+      "answer": "Back to the Future",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Back_to_the_Future"]
+    },
+    {
+      "id": "movies-en-easy-02-03",
+      "text": "Which Pixar film introduces the racing car Lightning McQueen and the town of Radiator Springs?",
+      "initial": "C",
+      "answer": "Cars",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Cars_%28film%29"]
+    },
+    {
+      "id": "movies-en-easy-02-04",
+      "text": "Which Peanuts character chooses a tiny tree for a Christmas play in a 1965 animated television special?",
+      "initial": "CH",
+      "answer": "Charlie Brown",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/A_Charlie_Brown_Christmas"]
+    },
+    {
+      "id": "movies-en-easy-02-05",
+      "text": "Which 2010 animated film shows villain Gru growing attached to three adopted girls named Margo, Edith and Agnes?",
+      "initial": "D",
+      "answer": "Despicable Me",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Despicable_Me_%28film%29"]
+    },
+    {
+      "id": "movies-en-easy-02-06",
+      "text": "What is the name of the fashion designer who creates superhero suits and disapproves of capes in The Incredibles?",
+      "initial": "E",
+      "answer": "Edna Mode",
+      "language": "en",
+      "aliases": ["Edna", "Edna \"E\" Mode", "E"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Edna_Mode",
+        "https://www.pixar.com/the-incredibles"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-07",
+      "text": "What is the name of the princess in Shrek who turns into an ogre after sunset?",
+      "initial": "F",
+      "answer": "Fiona",
+      "language": "en",
+      "aliases": ["Princess Fiona"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Princess_Fiona"]
+    },
+    {
+      "id": "movies-en-easy-02-08",
+      "text": "Which 1984 horror comedy follows Billy Peltzer after he receives Gizmo as a pet?",
+      "initial": "G",
+      "answer": "Gremlins",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Gremlins"]
+    },
+    {
+      "id": "movies-en-easy-02-09",
+      "text": "Which title character did Daniel Radcliffe play in eight fantasy films released from 2001 to 2011?",
+      "initial": "H",
+      "answer": "Harry Potter",
+      "language": "en",
+      "aliases": ["Harry"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Harry_Potter_%28film_series%29"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-10",
+      "text": "Which 2004 Pixar film follows the superhero family whose parents are Bob and Helen Parr?",
+      "initial": "I",
+      "answer": "Incredibles",
+      "language": "en",
+      "aliases": ["The Incredibles"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Incredibles",
+        "https://www.pixar.com/the-incredibles"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-11",
+      "text": "Which 1993 dinosaur film brings scientists Alan Grant, Ellie Sattler and Ian Malcolm to the island of Isla Nublar?",
+      "initial": "J",
+      "answer": "Jurassic Park",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Jurassic_Park_%28film%29"]
+    },
+    {
+      "id": "movies-en-easy-02-12",
+      "text": "Which giant ape is brought to New York and climbs the Empire State Building in a 1933 film?",
+      "initial": "K",
+      "answer": "King Kong",
+      "language": "en",
+      "aliases": ["Kong"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/King_Kong_%281933_film%29"]
+    },
+    {
+      "id": "movies-en-easy-02-13",
+      "text": "Which 2003 Christmas film interweaves love stories including one about a prime minister played by Hugh Grant?",
+      "initial": "L",
+      "answer": "Love Actually",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Love_Actually"]
+    },
+    {
+      "id": "movies-en-easy-02-14",
+      "text": "What is the name of Simba's father in The Lion King?",
+      "initial": "M",
+      "answer": "Mufasa",
+      "language": "en",
+      "aliases": ["King Mufasa"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mufasa",
+        "https://movies.disney.com/the-lion-king-1994"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-15",
+      "text": "Which streaming service first released the series Stranger Things?",
+      "initial": "N",
+      "answer": "Netflix",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Stranger_Things"]
+    },
+    {
+      "id": "movies-en-easy-02-16",
+      "text": "What are the small factory workers called in the films Willy Wonka & the Chocolate Factory and Charlie and the Chocolate Factory?",
+      "initial": "O",
+      "answer": "Oompa-Loompas",
+      "language": "en",
+      "aliases": ["Oompa Loompas", "Oompa-Loompa", "Oompa Loompa"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Oompa-Loompa"]
+    },
+    {
+      "id": "movies-en-easy-02-17",
+      "text": "Which bear voiced by Ben Whishaw comes to London from Peru in a 2014 live-action film?",
+      "initial": "P",
+      "answer": "Paddington",
+      "language": "en",
+      "aliases": ["Paddington Bear"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Paddington_%28film%29"]
+    },
+    {
+      "id": "movies-en-easy-02-18",
+      "text": "Which Jedi Master played by Liam Neeson trains Obi-Wan Kenobi in The Phantom Menace?",
+      "initial": "Q",
+      "answer": "Qui-Gon Jinn",
+      "language": "en",
+      "aliases": ["Qui-Gon", "Qui Gon Jinn", "Qui Gon"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qui-Gon_Jinn",
+        "https://www.starwars.com/databank/qui-gon-jinn"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-19",
+      "text": "Which of Harry Potter's close friends was played by Rupert Grint in the films?",
+      "initial": "R",
+      "answer": "Ron Weasley",
+      "language": "en",
+      "aliases": ["Ron", "Ronald Weasley", "Ronald Bilius Weasley"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Ron_Weasley"]
+    },
+    {
+      "id": "movies-en-easy-02-20",
+      "text": "Which animated character works at the Krusty Krab and lives in a pineapple under the sea?",
+      "initial": "S",
+      "answer": "SpongeBob SquarePants",
+      "language": "en",
+      "aliases": ["SpongeBob"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/SpongeBob_SquarePants_%28character%29"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-21",
+      "text": "Which physicist is played by Jim Parsons in The Big Bang Theory?",
+      "initial": "SH",
+      "answer": "Sheldon Cooper",
+      "language": "en",
+      "aliases": ["Sheldon", "Sheldon Lee Cooper"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Sheldon_Cooper"]
+    },
+    {
+      "id": "movies-en-easy-02-22",
+      "text": "Which 1995 Pixar film introduces the toys Woody and Buzz Lightyear?",
+      "initial": "T",
+      "answer": "Toy Story",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Toy_Story"]
+    },
+    {
+      "id": "movies-en-easy-02-23",
+      "text": "Which Addams relative is played by Christopher Lloyd in the 1991 film The Addams Family?",
+      "initial": "U",
+      "answer": "Uncle Fester",
+      "language": "en",
+      "aliases": ["Fester", "Fester Addams", "Uncle Fester Addams"],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Addams_Family_%281991_film%29"
+      ]
+    },
+    {
+      "id": "movies-en-easy-02-24",
+      "text": "What is the name of the family patriarch played by Marlon Brando in The Godfather?",
+      "initial": "V",
+      "answer": "Vito Corleone",
+      "language": "en",
+      "aliases": [
+        "Don Vito Corleone",
+        "Vito",
+        "Vito Andolini",
+        "Vito Andolini Corleone",
+        "Don Vito",
+        "Don Corleone"
+      ],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Vito_Corleone"]
+    },
+    {
+      "id": "movies-en-easy-02-25",
+      "text": "Which 2008 Pixar film follows a lonely rubbish-compacting robot who falls in love with a visiting robot called EVE?",
+      "initial": "W",
+      "answer": "WALL-E",
+      "language": "en",
+      "aliases": ["WALL E", "WALLE", "WALL·E"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/WALL-E"]
+    },
+    {
+      "id": "movies-en-easy-02-26",
+      "text": "Which superhero team counts Cyclops and Storm among its members in Bryan Singer's 2000 film?",
+      "initial": "X",
+      "answer": "X-Men",
+      "language": "en",
+      "aliases": ["The X-Men"],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/X-Men_%28film%29"]
+    },
+    {
+      "id": "movies-en-easy-02-27",
+      "text": "Which sitcom first aired in 2017 with Iain Armitage playing a child prodigy growing up in Medford, Texas?",
+      "initial": "Y",
+      "answer": "Young Sheldon",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": ["https://en.wikipedia.org/wiki/Young_Sheldon"]
+    },
+    {
+      "id": "movies-en-easy-02-28",
+      "text": "What is the name of the hornbill who serves as Mufasa's adviser in The Lion King?",
+      "initial": "Z",
+      "answer": "Zazu",
+      "language": "en",
+      "aliases": [],
+      "category": "movies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Lion_King",
+        "https://movies.disney.com/the-lion-king-1994"
+      ]
+    }
+  ]
+}

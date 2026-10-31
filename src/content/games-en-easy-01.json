@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "id": "games-en-easy-01",
+  "title": "Games · Easy · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-en-easy-01-01",
+      "text": "What is the usual name of a playing card marked with a single suit symbol and often the letter A?",
+      "initial": "A",
+      "answer": "Ace",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ace_%28playing_card%29"]
+    },
+    {
+      "id": "games-en-easy-01-02",
+      "text": "In which game do players mark called numbers on cards and call out when they complete the required pattern?",
+      "initial": "B",
+      "answer": "Bingo",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Bingo_%28American_version%29"]
+    },
+    {
+      "id": "games-en-easy-01-03",
+      "text": "Which murder-mystery board game asks players to identify a suspect, a weapon and a room in a mansion?",
+      "initial": "C",
+      "answer": "Cluedo",
+      "language": "en",
+      "aliases": ["Clue"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Cluedo"]
+    },
+    {
+      "id": "games-en-easy-01-04",
+      "text": "What is the chess position called when a king is attacked and there is no legal move that escapes the attack?",
+      "initial": "CH",
+      "answer": "Checkmate",
+      "language": "en",
+      "aliases": ["Mate"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Checkmate"]
+    },
+    {
+      "id": "games-en-easy-01-05",
+      "text": "What small numbered objects are rolled to produce random results in games such as Yahtzee?",
+      "initial": "D",
+      "answer": "Dice",
+      "language": "en",
+      "aliases": ["Die"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dice"]
+    },
+    {
+      "id": "games-en-easy-01-06",
+      "text": "How many squares are there along one side of a standard chessboard?",
+      "initial": "E",
+      "answer": "Eight",
+      "language": "en",
+      "aliases": ["8"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Chessboard"]
+    },
+    {
+      "id": "games-en-easy-01-07",
+      "text": "Which Epic Games battle-royale game is known for a shrinking safe area and, in its original mode, building structures?",
+      "initial": "F",
+      "answer": "Fortnite",
+      "language": "en",
+      "aliases": ["Fortnite Battle Royale"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fortnite_Battle_Royale"]
+    },
+    {
+      "id": "games-en-easy-01-08",
+      "text": "In which board game do two opponents place black and white stones to surround territory on a grid?",
+      "initial": "G",
+      "answer": "Go",
+      "language": "en",
+      "aliases": ["Weiqi", "Wei qi", "Weichi", "Wei-chi", "Baduk", "Igo"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Go_%28game%29"]
+    },
+    {
+      "id": "games-en-easy-01-09",
+      "text": "Which trick-taking card game shares its name with the suit whose cards normally each incur one penalty point?",
+      "initial": "H",
+      "answer": "Hearts",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hearts_%28card_game%29"]
+    },
+    {
+      "id": "games-en-easy-01-10",
+      "text": "What is the usual video-game term for the collection or screen holding items a character is carrying?",
+      "initial": "I",
+      "answer": "Inventory",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Inventory_%28video_games%29"]
+    },
+    {
+      "id": "games-en-easy-01-11",
+      "text": "In which game do players remove wooden blocks from a tower and place them on top without making it fall?",
+      "initial": "J",
+      "answer": "Jenga",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Jenga"]
+    },
+    {
+      "id": "games-en-easy-01-12",
+      "text": "Which chess piece is normally limited to moving one square in any direction?",
+      "initial": "K",
+      "answer": "King",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/King_%28chess%29"]
+    },
+    {
+      "id": "games-en-easy-01-13",
+      "text": "Which cross-and-circle board game has players use one die to race four tokens from their starting area to the finish?",
+      "initial": "L",
+      "answer": "Ludo",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ludo"]
+    },
+    {
+      "id": "games-en-easy-01-14",
+      "text": "In which board game do players buy streets, charge rent and build houses and hotels?",
+      "initial": "M",
+      "answer": "Monopoly",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Monopoly_%28game%29"]
+    },
+    {
+      "id": "games-en-easy-01-15",
+      "text": "Which Japanese company makes the Switch consoles and publishes the Super Mario games?",
+      "initial": "N",
+      "answer": "Nintendo",
+      "language": "en",
+      "aliases": ["Nintendo Co., Ltd."],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Nintendo"]
+    },
+    {
+      "id": "games-en-easy-01-16",
+      "text": "Which board game involves outflanking and flipping an opponent's two-coloured discs?",
+      "initial": "O",
+      "answer": "Othello",
+      "language": "en",
+      "aliases": ["Reversi"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Reversi"]
+    },
+    {
+      "id": "games-en-easy-01-17",
+      "text": "Which yellow arcade character eats dots in a maze while avoiding ghosts?",
+      "initial": "P",
+      "answer": "Pac-Man",
+      "language": "en",
+      "aliases": ["Pacman", "Pac Man"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Pac-Man"]
+    },
+    {
+      "id": "games-en-easy-01-18",
+      "text": "Which chess piece combines the rook's straight moves with the bishop's diagonal moves?",
+      "initial": "Q",
+      "answer": "Queen",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Queen_%28chess%29"]
+    },
+    {
+      "id": "games-en-easy-01-19",
+      "text": "Which chess piece moves any unobstructed distance along a rank or file, but not diagonally?",
+      "initial": "R",
+      "answer": "Rook",
+      "language": "en",
+      "aliases": ["Castle"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Rook_%28chess%29"]
+    },
+    {
+      "id": "games-en-easy-01-20",
+      "text": "In which board game do players use letter tiles to build interlocking words and score points?",
+      "initial": "S",
+      "answer": "Scrabble",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Scrabble"]
+    },
+    {
+      "id": "games-en-easy-01-21",
+      "text": "What is the name for mixing the order of playing cards before dealing them?",
+      "initial": "SH",
+      "answer": "Shuffle",
+      "language": "en",
+      "aliases": ["Shuffling"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Shuffling"]
+    },
+    {
+      "id": "games-en-easy-01-22",
+      "text": "Which falling-block puzzle game clears completed horizontal lines?",
+      "initial": "T",
+      "answer": "Tetris",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Tetris"]
+    },
+    {
+      "id": "games-en-easy-01-23",
+      "text": "In which card game should a player announce its title when only one card remains in their hand?",
+      "initial": "U",
+      "answer": "Uno",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Uno_%28card_game%29"]
+    },
+    {
+      "id": "games-en-easy-01-24",
+      "text": "What term describes an electronic game played through a user interface, usually with images on a screen?",
+      "initial": "V",
+      "answer": "Video game",
+      "language": "en",
+      "aliases": ["Videogame", "Computer game"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Video_game"]
+    },
+    {
+      "id": "games-en-easy-01-25",
+      "text": "Which Nintendo home console, launched in 2006, used a handheld motion-sensing remote as its main controller?",
+      "initial": "W",
+      "answer": "Wii",
+      "language": "en",
+      "aliases": ["Nintendo Wii"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wii"]
+    },
+    {
+      "id": "games-en-easy-01-26",
+      "text": "What was Microsoft's first home video-game console called?",
+      "initial": "X",
+      "answer": "Xbox",
+      "language": "en",
+      "aliases": ["Microsoft Xbox"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Xbox_%28console%29"]
+    },
+    {
+      "id": "games-en-easy-01-27",
+      "text": "Which Hasbro dice game uses five dice and awards 50 points for five of a kind?",
+      "initial": "Y",
+      "answer": "Yahtzee",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Yahtzee"]
+    },
+    {
+      "id": "games-en-easy-01-28",
+      "text": "Which Hylian princess of Hyrule gives her name to a Nintendo adventure-game series?",
+      "initial": "Z",
+      "answer": "Zelda",
+      "language": "en",
+      "aliases": ["Princess Zelda"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Princess_Zelda"]
+    }
+  ]
+}

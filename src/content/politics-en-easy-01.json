@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-en-easy-01",
+  "title": "Politics and diplomacy · Easy · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-en-easy-01-01",
+      "text": "What is the usual title of a country's highest-ranking diplomatic representative to another country?",
+      "initial": "A",
+      "answer": "Ambassador",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ambassador"]
+    },
+    {
+      "id": "politics-en-easy-01-02",
+      "text": "What is the paper on which a voter marks a choice in an election called?",
+      "initial": "B",
+      "answer": "Ballot",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Ballot paper"],
+      "sources": ["https://en.wikipedia.org/wiki/Ballot"]
+    },
+    {
+      "id": "politics-en-easy-01-03",
+      "text": "What is the collective name for the senior government ministers who meet to make major policy decisions?",
+      "initial": "C",
+      "answer": "Cabinet",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Council of ministers"],
+      "sources": ["https://en.wikipedia.org/wiki/Cabinet_(government)"]
+    },
+    {
+      "id": "politics-en-easy-01-04",
+      "text": "What is the title of Germany's head of government?",
+      "initial": "CH",
+      "answer": "Chancellor",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "Federal Chancellor",
+        "German Chancellor",
+        "Federal Chancellor of the Federal Republic of Germany",
+        "Chancellor of Germany"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Chancellor_of_Germany"]
+    },
+    {
+      "id": "politics-en-easy-01-05",
+      "text": "What form of government gives the people political power, directly or through elected representatives?",
+      "initial": "D",
+      "answer": "Democracy",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Democracy"]
+    },
+    {
+      "id": "politics-en-easy-01-06",
+      "text": "What process lets voters choose people to hold public office?",
+      "initial": "E",
+      "answer": "Election",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Election"]
+    },
+    {
+      "id": "politics-en-easy-01-07",
+      "text": "What cloth symbol, often flown from a pole, represents a country?",
+      "initial": "F",
+      "answer": "Flag",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["National flag"],
+      "sources": ["https://en.wikipedia.org/wiki/Flag"]
+    },
+    {
+      "id": "politics-en-easy-01-08",
+      "text": "What is the general name for the system or group of people that governs a country?",
+      "initial": "G",
+      "answer": "Government",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Government"]
+    },
+    {
+      "id": "politics-en-easy-01-09",
+      "text": "What are the basic rights that belong to every person simply because they are human?",
+      "initial": "H",
+      "answer": "Human rights",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Fundamental human rights"],
+      "sources": ["https://en.wikipedia.org/wiki/Human_rights"]
+    },
+    {
+      "id": "politics-en-easy-01-10",
+      "text": "What is the political status of a country that is not governed by another country?",
+      "initial": "I",
+      "answer": "Independence",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Independence"]
+    },
+    {
+      "id": "politics-en-easy-01-11",
+      "text": "What public official presides over a court and decides legal questions?",
+      "initial": "J",
+      "answer": "Judge",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Judge"]
+    },
+    {
+      "id": "politics-en-easy-01-12",
+      "text": "What is the male royal title corresponding to a reigning queen?",
+      "initial": "K",
+      "answer": "King",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/King"]
+    },
+    {
+      "id": "politics-en-easy-01-13",
+      "text": "What is a rule that a state formally recognizes and can enforce through its institutions?",
+      "initial": "L",
+      "answer": "Law",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Law"]
+    },
+    {
+      "id": "politics-en-easy-01-14",
+      "text": "What title is commonly used for the head of a city or town government?",
+      "initial": "M",
+      "answer": "Mayor",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mayor"]
+    },
+    {
+      "id": "politics-en-easy-01-15",
+      "text": "What abbreviation names the transatlantic defence alliance founded in 1949?",
+      "initial": "N",
+      "answer": "NATO",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "North Atlantic Treaty Organization",
+        "North Atlantic Treaty Organisation"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NATO",
+        "https://www.nato.int/cps/en/natohq/topics_52044.htm"
+      ]
+    },
+    {
+      "id": "politics-en-easy-01-16",
+      "text": "What is the collective term for political parties that challenge the government rather than take part in it?",
+      "initial": "O",
+      "answer": "Opposition",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Political opposition"],
+      "sources": ["https://en.wikipedia.org/wiki/Opposition_(politics)"]
+    },
+    {
+      "id": "politics-en-easy-01-17",
+      "text": "What title is used for the elected head of state of the United States?",
+      "initial": "P",
+      "answer": "President",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "US president",
+        "U.S. president",
+        "President of the United States",
+        "POTUS"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/President_of_the_United_States",
+        "https://www.archives.gov/founding-docs/constitution-transcript"
+      ]
+    },
+    {
+      "id": "politics-en-easy-01-18",
+      "text": "What royal title is held by a female monarch ruling in her own right?",
+      "initial": "Q",
+      "answer": "Queen",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Queen regnant"],
+      "sources": ["https://en.wikipedia.org/wiki/Queen_regnant"]
+    },
+    {
+      "id": "politics-en-easy-01-19",
+      "text": "What form of state does not have a monarch as its head of state?",
+      "initial": "R",
+      "answer": "Republic",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Republic"]
+    },
+    {
+      "id": "politics-en-easy-01-20",
+      "text": "What is the upper chamber of the United States Congress called?",
+      "initial": "S",
+      "answer": "Senate",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "US Senate",
+        "U.S. Senate",
+        "United States Senate",
+        "The Senate"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_States_Senate",
+        "https://www.archives.gov/founding-docs/constitution-transcript"
+      ]
+    },
+    {
+      "id": "politics-en-easy-01-21",
+      "text": "What title is commonly given to an elected county law-enforcement officer in the United States?",
+      "initial": "SH",
+      "answer": "Sheriff",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sheriff"]
+    },
+    {
+      "id": "politics-en-easy-01-22",
+      "text": "What compulsory payment to a public authority helps fund government services?",
+      "initial": "T",
+      "answer": "Tax",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Levy"],
+      "sources": ["https://en.wikipedia.org/wiki/Tax"]
+    },
+    {
+      "id": "politics-en-easy-01-23",
+      "text": "What is the national flag of the United Kingdom commonly called?",
+      "initial": "U",
+      "answer": "Union Jack",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Union Flag", "The Union Jack", "The Union Flag"],
+      "sources": ["https://en.wikipedia.org/wiki/Union_Jack"]
+    },
+    {
+      "id": "politics-en-easy-01-24",
+      "text": "What do you call a person's formal expression of choice in an election or decision?",
+      "initial": "V",
+      "answer": "Vote",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Voting"]
+    },
+    {
+      "id": "politics-en-easy-01-25",
+      "text": "What is a state of armed conflict between countries or other organized groups called?",
+      "initial": "W",
+      "answer": "War",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/War"]
+    },
+    {
+      "id": "politics-en-easy-01-26",
+      "text": "What mark should a voter put beside the chosen candidate on a UK parliamentary general-election ballot?",
+      "initial": "X",
+      "answer": "X",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Cross", "An X"],
+      "sources": [
+        "https://www.eoni.org.uk/voting/how-to-mark-your-ballot-paper/"
+      ]
+    },
+    {
+      "id": "politics-en-easy-01-27",
+      "text": "What is the junior branch of a political party, intended for younger members, commonly called?",
+      "initial": "Y",
+      "answer": "Youth wing",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Youth_wing"]
+    },
+    {
+      "id": "politics-en-easy-01-28",
+      "text": "What policy label means imposing penalties for every breach of a rule without allowing exceptions?",
+      "initial": "Z",
+      "answer": "Zero tolerance",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Zero-tolerance policy", "Zero tolerance policy"],
+      "sources": ["https://en.wikipedia.org/wiki/Zero_tolerance"]
+    }
+  ]
+}

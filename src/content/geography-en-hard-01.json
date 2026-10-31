@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "geography-en-hard-01",
+  "title": "Geography and travel · Hard 01",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-en-hard-01-01",
+      "initial": "A",
+      "text": "What is a ring-shaped coral island or chain of islets enclosing a lagoon called?",
+      "answer": "Atoll",
+      "aliases": ["coral atoll"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Atoll"]
+    },
+    {
+      "id": "geography-en-hard-01-02",
+      "initial": "B",
+      "text": "What is a crescent-shaped sand dune whose horns point downwind called?",
+      "answer": "Barchan",
+      "aliases": ["barkhan", "barchan dune", "barkhan dune"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Barchan"]
+    },
+    {
+      "id": "geography-en-hard-01-03",
+      "initial": "C",
+      "text": "What is an asymmetric ridge with a gentle dip slope on one side and a steep scarp on the other called?",
+      "answer": "Cuesta",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cuesta"]
+    },
+    {
+      "id": "geography-en-hard-01-04",
+      "initial": "CH",
+      "text": "What North African term denotes a salt lake that stays dry for much of the year but receives winter water?",
+      "answer": "Chott",
+      "aliases": ["shott", "shatt", "chott lake"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chott"]
+    },
+    {
+      "id": "geography-en-hard-01-05",
+      "initial": "D",
+      "text": "What is a streamlined hill of glacial deposits shaped by moving ice, often found in groups, called?",
+      "answer": "Drumlin",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Drumlin"]
+    },
+    {
+      "id": "geography-en-hard-01-06",
+      "initial": "E",
+      "text": "What is a long, winding ridge of sand and gravel deposited by meltwater within or beneath a glacier called?",
+      "answer": "Esker",
+      "aliases": [
+        "os",
+        "oz",
+        "eskar",
+        "eschar",
+        "asar",
+        "osar",
+        "serpent kame"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Esker"]
+    },
+    {
+      "id": "geography-en-hard-01-07",
+      "initial": "F",
+      "text": "What is a warm, dry downslope wind on the lee side of a mountain range, notably the Alps, called?",
+      "answer": "Foehn",
+      "aliases": [
+        "föhn",
+        "foehn wind",
+        "föhn wind",
+        "föhnwind",
+        "favonio",
+        "fen",
+        "phon"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Foehn_wind"]
+    },
+    {
+      "id": "geography-en-hard-01-08",
+      "initial": "G",
+      "text": "What is a flat-topped seamount whose summit was eroded before it subsided below sea level called?",
+      "answer": "Guyot",
+      "aliases": ["tablemount"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Guyot"]
+    },
+    {
+      "id": "geography-en-hard-01-09",
+      "initial": "H",
+      "text": "What is a desert landscape dominated by exposed bedrock rather than sand dunes called?",
+      "answer": "Hamada",
+      "aliases": ["hammada", "rock desert", "rocky desert"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hamada"]
+    },
+    {
+      "id": "geography-en-hard-01-10",
+      "initial": "I",
+      "text": "What is an isolated rock hill rising abruptly from a surrounding plain called?",
+      "answer": "Inselberg",
+      "aliases": ["monadnock"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Inselberg"]
+    },
+    {
+      "id": "geography-en-hard-01-11",
+      "initial": "J",
+      "text": "Which Norwegian Arctic island is dominated by the Beerenberg volcano?",
+      "answer": "Jan Mayen",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jan_Mayen"]
+    },
+    {
+      "id": "geography-en-hard-01-12",
+      "initial": "K",
+      "text": "What is a landscape formed by the dissolution of soluble rocks, typically with sinkholes and underground drainage, called?",
+      "answer": "Karst",
+      "aliases": ["karst landscape", "karst topography"],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Karst",
+        "https://www.nps.gov/subjects/caves/karst-landscapes.htm"
+      ]
+    },
+    {
+      "id": "geography-en-hard-01-13",
+      "initial": "L",
+      "text": "What term denotes a drowned river mouth separated from the sea by a sand barrier, characteristic of Black Sea coasts?",
+      "answer": "Liman",
+      "aliases": ["liman estuary"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Liman_(landform)"]
+    },
+    {
+      "id": "geography-en-hard-01-14",
+      "initial": "M",
+      "text": "What landform, often a ridge or mound, is made of unsorted debris transported and deposited by a glacier?",
+      "answer": "Moraine",
+      "aliases": ["glacial moraine"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Moraine"]
+    },
+    {
+      "id": "geography-en-hard-01-15",
+      "initial": "N",
+      "text": "What is an exposed rocky summit projecting above an ice sheet or glacier called?",
+      "answer": "Nunatak",
+      "aliases": ["nunataq", "glacial island"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nunatak"]
+    },
+    {
+      "id": "geography-en-hard-01-16",
+      "initial": "O",
+      "text": "What navigational term denotes a shortest route between two points on the surface of a sphere?",
+      "answer": "Orthodrome",
+      "aliases": [
+        "great-circle route",
+        "great circle route",
+        "great circle",
+        "great-circle path",
+        "geodesic",
+        "geodesic route"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Great-circle_distance",
+        "https://en.wiktionary.org/wiki/orthodrome"
+      ]
+    },
+    {
+      "id": "geography-en-hard-01-17",
+      "initial": "P",
+      "text": "What is a large, flat-floored closed depression in karst terrain called?",
+      "answer": "Polje",
+      "aliases": ["karst polje", "karst field"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Polje"]
+    },
+    {
+      "id": "geography-en-hard-01-18",
+      "initial": "Q",
+      "text": "What is a gently sloping underground water channel, developed in ancient Iran to carry groundwater to dry settlements, called?",
+      "answer": "Qanat",
+      "aliases": [
+        "qanat system",
+        "karez",
+        "kariz",
+        "foggara",
+        "khettara",
+        "daoudi falaj",
+        "falaj daoudi"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Qanat"]
+    },
+    {
+      "id": "geography-en-hard-01-19",
+      "initial": "R",
+      "text": "What is a coastal inlet formed by the drowning of an unglaciated river valley called?",
+      "answer": "Ria",
+      "aliases": ["drowned river valley"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ria"]
+    },
+    {
+      "id": "geography-en-hard-01-20",
+      "initial": "S",
+      "text": "What umbrella term covers slow downslope soil movements associated with repeated freezing and thawing in periglacial ground?",
+      "answer": "Solifluction",
+      "aliases": ["solifluxion"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Solifluction"]
+    },
+    {
+      "id": "geography-en-hard-01-21",
+      "initial": "SH",
+      "text": "What is the shared lower waterway formed by the confluence of the Tigris and Euphrates, flowing into the Persian Gulf?",
+      "answer": "Shatt al-Arab",
+      "aliases": ["Shatt al Arab", "Shaṭṭ al-ʿArab", "Arvand Rud", "Arvandrud"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shatt_al-Arab"]
+    },
+    {
+      "id": "geography-en-hard-01-22",
+      "initial": "T",
+      "text": "What is a natural sand or shingle bar connecting an island to the mainland or another island called?",
+      "answer": "Tombolo",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Tombolo"]
+    },
+    {
+      "id": "geography-en-hard-01-23",
+      "initial": "U",
+      "text": "What is a large irregular closed depression in karst, often described as the coalescence of several dolines, called?",
+      "answer": "Uvala",
+      "aliases": ["karst uvala"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Uvala_(landform)"]
+    },
+    {
+      "id": "geography-en-hard-01-24",
+      "initial": "V",
+      "text": "What southern African geographical term denotes a shallow seasonal lake or marshy depression?",
+      "answer": "Vlei",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Vlei"]
+    },
+    {
+      "id": "geography-en-hard-01-25",
+      "initial": "W",
+      "text": "What is a dry-region valley or stream bed that usually carries water only after rainfall called?",
+      "answer": "Wadi",
+      "aliases": ["oued", "wad", "wadi bed"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Wadi"]
+    },
+    {
+      "id": "geography-en-hard-01-26",
+      "initial": "X",
+      "text": "On which Brazilian tributary of the Amazon was the Belo Monte hydroelectric dam built?",
+      "answer": "Xingu",
+      "aliases": ["Xingu River", "Rio Xingu", "Byti"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xingu_River"]
+    },
+    {
+      "id": "geography-en-hard-01-27",
+      "initial": "Y",
+      "text": "What is a tributary that runs parallel to a larger river for some distance because the larger river's natural levee prevents it joining immediately called?",
+      "answer": "Yazoo stream",
+      "aliases": ["yazoo tributary", "yazoo river", "yazoo"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yazoo_stream"]
+    },
+    {
+      "id": "geography-en-hard-01-28",
+      "initial": "Z",
+      "text": "What is the name of the hot, dry downslope wind on the eastern slopes of the Andes in Argentina?",
+      "answer": "Zonda",
+      "aliases": ["zonda wind", "viento zonda"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zonda_wind"]
+    }
+  ]
+}

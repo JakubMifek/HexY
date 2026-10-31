@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "general-cs-02",
   "title": "Všeobecné znalosti · 02",
   "language": "cs",

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-cs-hard-02",
+  "title": "Sport · Těžká · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-cs-hard-02-01",
+      "text": "Který krasobruslařský skok se odráží dopředu, a proto má navíc půl otáčky?",
+      "initial": "A",
+      "answer": "Axel",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Axelův skok", "Axel Paulsenův skok", "Axel Paulsen jump"],
+      "sources": ["https://en.wikipedia.org/wiki/Axel_jump"]
+    },
+    {
+      "id": "sports-cs-hard-02-02",
+      "text": "Který zimní týmový sport se hraje na velké ledové ploše s míčkem místo puku?",
+      "initial": "B",
+      "answer": "Bandy",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Lední bandy",
+        "Bandy hokej",
+        "Bandyhokej",
+        "Hokej s míčkem",
+        "Hokej s míčem",
+        "Ruský hokej"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Bandy"]
+    },
+    {
+      "id": "sports-cs-hard-02-03",
+      "text": "Který švýcarský cyklista přezdívaný Spartakus se stal čtyřikrát mistrem světa v individuální časovce?",
+      "initial": "C",
+      "answer": "Cancellara",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Fabian Cancellara"],
+      "sources": ["https://en.wikipedia.org/wiki/Fabian_Cancellara"]
+    },
+    {
+      "id": "sports-cs-hard-02-04",
+      "text": "Který český obránce odehrál v letech 2000 až 2004 osm zápasů NHL ve dresu Washingtonu Capitals?",
+      "initial": "Č",
+      "answer": "Čutta",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Jakub Čutta"],
+      "sources": ["https://en.wikipedia.org/wiki/Jakub_%C4%8Cutta"]
+    },
+    {
+      "id": "sports-cs-hard-02-05",
+      "text": "Jaký systém používá mezinárodní kriket k přepočtu cílového skóre, když zápas s omezeným počtem nadhozových sad přeruší déšť?",
+      "initial": "D",
+      "answer": "Duckworthův–Lewisův–Sternův systém",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "DLS",
+        "Duckworth-Lewis-Stern",
+        "Duckworth Lewis Stern",
+        "Metoda DLS",
+        "DLS metoda",
+        "Duckworth–Lewis–Stern",
+        "Duckworth–Lewis–Stern method",
+        "Duckworth-Lewis-Stern method",
+        "Duckworthova–Lewisova–Sternova metoda",
+        "Duckworthova-Lewisova-Sternova metoda",
+        "Duckworthova Lewisova Sternova metoda",
+        "Duckworth–Lewis",
+        "Duckworth-Lewis",
+        "Duckworth Lewis",
+        "D/L",
+        "Duckworthův–Lewisův systém",
+        "Duckworthova–Lewisova metoda",
+        "Duckworthův-Lewisův-Sternův systém",
+        "Duckworthův Lewisův Sternův systém",
+        "Duckworthova-Lewisova metoda",
+        "DLS method",
+        "Duckworth–Lewis method",
+        "Duckworth-Lewis method",
+        "Duckworth Lewis method",
+        "Duckworth Lewis Stern method"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Duckworth%E2%80%93Lewis%E2%80%93Stern_method"
+      ]
+    },
+    {
+      "id": "sports-cs-hard-02-06",
+      "text": "Jak se v curlingu nazývá část utkání, v níž oba týmy odházejí své kameny jedním směrem?",
+      "initial": "E",
+      "answer": "End",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Curling"]
+    },
+    {
+      "id": "sports-cs-hard-02-07",
+      "text": "Jak se nazývá šermířský útok, při němž zadní noha překříží přední a přejde před ni v prudkém kroku proti soupeři?",
+      "initial": "F",
+      "answer": "Flèche",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Fleš"],
+      "sources": ["https://en.wikipedia.org/wiki/Fl%C3%A8che_(fencing)"]
+    },
+    {
+      "id": "sports-cs-hard-02-08",
+      "text": "Jak se nazývá prodloužení judistického souboje, v němž rozhodne první bodové hodnocení nebo rozhodující trest?",
+      "initial": "G",
+      "answer": "Golden score",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Zlaté skóre"],
+      "sources": ["https://en.wikipedia.org/wiki/Judo"]
+    },
+    {
+      "id": "sports-cs-hard-02-09",
+      "text": "Jak se nazývá dřevěná pálka s plochým rozšířeným koncem, kterou hráči hurlingu zasahují míček sliotar?",
+      "initial": "H",
+      "answer": "Hurley",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Hurl",
+        "Camán",
+        "Hurling stick",
+        "Hurlingová pálka",
+        "Hurlingová hůl"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Hurley_(stick)"]
+    },
+    {
+      "id": "sports-cs-hard-02-10",
+      "text": "Která britská jezdkyně získala na Valegrovi individuální olympijské zlato v drezuře v Londýně 2012?",
+      "initial": "Ch",
+      "answer": "Charlotte Dujardinová",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Charlotte Dujardin",
+        "Dujardinová",
+        "Dujardin",
+        "Charlotte Susan Jane Dujardin",
+        "Charlotte Susan Jane Dujardinová"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Charlotte_Dujardin"]
+    },
+    {
+      "id": "sports-cs-hard-02-11",
+      "text": "Jak se jmenuje série dlouhých triatlonů organizovaná společností World Triathlon Corporation, v níž se po plavání a zhruba 180 km jízdy na kole běží maraton?",
+      "initial": "I",
+      "answer": "Ironman",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Ironman Triathlon"],
+      "sources": ["https://en.wikipedia.org/wiki/Ironman_Triathlon"]
+    },
+    {
+      "id": "sports-cs-hard-02-12",
+      "text": "Který Švéd vyhrál mužskou dvouhru ve stolním tenise na olympiádě v Barceloně 1992?",
+      "initial": "J",
+      "answer": "Jan-Ove Waldner",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Waldner", "Jan Ove Waldner", "J-O Waldner", "J-O"],
+      "sources": ["https://en.wikipedia.org/wiki/Jan-Ove_Waldner"]
+    },
+    {
+      "id": "sports-cs-hard-02-13",
+      "text": "Jaký japonský termín označuje v judu vychýlení soupeře z rovnováhy?",
+      "initial": "K",
+      "answer": "Kuzushi",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Kuzuši"],
+      "sources": ["https://en.wikipedia.org/wiki/Kuzushi"]
+    },
+    {
+      "id": "sports-cs-hard-02-14",
+      "text": "Jaké hlášení v tenise obvykle znamená opakování podání, které se dotklo sítě a dopadlo do správného pole?",
+      "initial": "L",
+      "answer": "Let",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Teč", "Net", "Service let", "Let serve"],
+      "sources": ["https://en.wikipedia.org/wiki/Serve_(tennis)"]
+    },
+    {
+      "id": "sports-cs-hard-02-15",
+      "text": "Který cyklistický monument nese italskou přezdívku La Classicissima di primavera?",
+      "initial": "M",
+      "answer": "Milán–San Remo",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Milán-San Remo",
+        "Milano-Sanremo",
+        "Milano Sanremo",
+        "Milan–Sanremo",
+        "Milan-Sanremo",
+        "Milan Sanremo",
+        "Milano–Sanremo",
+        "Milán – San Remo",
+        "Milán San Remo",
+        "Milano-San Remo",
+        "Milano San Remo"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Milan%E2%80%93San_Remo"]
+    },
+    {
+      "id": "sports-cs-hard-02-16",
+      "text": "Jak se označuje rozvržení tempa, při němž závodník absolvuje druhou polovinu závodu rychleji než první?",
+      "initial": "N",
+      "answer": "Negativní split",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Negative split", "Negativní mezičas"],
+      "sources": ["https://en.wikipedia.org/wiki/Negative_split"]
+    },
+    {
+      "id": "sports-cs-hard-02-17",
+      "text": "Který judistický hod má japonský název znamenající „velký bok“?",
+      "initial": "O",
+      "answer": "O-goši",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["O-goshi", "O goshi", "Ogoshi", "O goši", "Ogoši"],
+      "sources": ["https://en.wikipedia.org/wiki/O_goshi"]
+    },
+    {
+      "id": "sports-cs-hard-02-18",
+      "text": "Jak se nazývá cyklistický okruh s vlnami a klopenými zatáčkami, po němž jezdec získává rychlost přenášením těžiště a může jej projet bez šlapání?",
+      "initial": "P",
+      "answer": "Pumptrack",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Pump track"],
+      "sources": ["https://en.wikipedia.org/wiki/Pump_track"]
+    },
+    {
+      "id": "sports-cs-hard-02-19",
+      "text": "Jak se v ragby union nazývá seskupení vzniklé za hry, v němž nad míčem na zemi stojí ve vzájemném kontaktu nejméně jeden hráč z každého týmu?",
+      "initial": "R",
+      "answer": "Ruck",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Mlýn ze hry"],
+      "sources": [
+        "https://passport.world.rugby/laws-of-the-game/laws-by-number/15-ruck/",
+        "https://cs.wikipedia.org/wiki/Ragby_union"
+      ]
+    },
+    {
+      "id": "sports-cs-hard-02-20",
+      "text": "Který český trenér po působení v roli asistenta převzal v červnu 2005 mužstvo Vissel Kóbe?",
+      "initial": "Ř",
+      "answer": "Řehák",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Pavel Řehák"],
+      "sources": ["https://en.wikipedia.org/wiki/Pavel_%C5%98eh%C3%A1k"]
+    },
+    {
+      "id": "sports-cs-hard-02-21",
+      "text": "Ve kterém sáňkařském sportu jede jediný závodník ledovým korytem vleže na břiše hlavou napřed?",
+      "initial": "S",
+      "answer": "Skeleton",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Skeleton_(sport)"]
+    },
+    {
+      "id": "sports-cs-hard-02-22",
+      "text": "Která ruská krasobruslařka vyhrála soutěž žen na olympiádě v Pekingu 2022?",
+      "initial": "Š",
+      "answer": "Ščerbakovová",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Anna Ščerbakovová",
+        "Anna Shcherbakova",
+        "Shcherbakova",
+        "Ščerbakova",
+        "Anna Ščerbakova",
+        "Anna Stanislavovna Shcherbakova",
+        "Anna Stanislavovna Ščerbakovová",
+        "Анна Щербакова",
+        "Щербакова"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Anna_Shcherbakova"]
+    },
+    {
+      "id": "sports-cs-hard-02-23",
+      "text": "Jak se nazývá rodina gymnastických přeskoků s obratem o čtvrt nebo půl otáčky na nářadí a následným saltem vzad, pojmenovaná po japonském gymnastovi?",
+      "initial": "T",
+      "answer": "Tsukahara",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Cukahara",
+        "Cukaharův přeskok",
+        "Tsukaharův přeskok",
+        "Tsukahara vault"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Tsukahara_(vault)"]
+    },
+    {
+      "id": "sports-cs-hard-02-24",
+      "text": "Jak se v japonských bojových uměních nazývá partner, který přijímá prováděnou techniku?",
+      "initial": "U",
+      "answer": "Uke",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Uke_(martial_arts)"]
+    },
+    {
+      "id": "sports-cs-hard-02-25",
+      "text": "Který tradiční devadesátikilometrový lyžařský závod vede z Bergy u Sälenu do Mory?",
+      "initial": "V",
+      "answer": "Vasaloppet",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Vasův běh", "Vasalův běh"],
+      "sources": ["https://en.wikipedia.org/wiki/Vasaloppet"]
+    },
+    {
+      "id": "sports-cs-hard-02-26",
+      "text": "Jak se nazývá jihočínské bojové umění, které proslavil učitel Ip Man?",
+      "initial": "W",
+      "answer": "Wing chun",
+      "language": "cs",
+      "category": "sports",
+      "aliases": [
+        "Wing tsun",
+        "Ving tsun",
+        "Wingchun",
+        "Yong chun",
+        "Wingtsun",
+        "Vingtsun",
+        "Ving chun",
+        "Vingchun",
+        "Yongchun"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Wing_Chun"]
+    },
+    {
+      "id": "sports-cs-hard-02-27",
+      "text": "Který československý fotbalista z mistrovského týmu Evropy 1976 byl v letech 1978 a 1979 zvolen československým fotbalistou roku?",
+      "initial": "Z",
+      "answer": "Zdeněk Nehoda",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Nehoda"],
+      "sources": ["https://en.wikipedia.org/wiki/Zden%C4%9Bk_Nehoda"]
+    },
+    {
+      "id": "sports-cs-hard-02-28",
+      "text": "Který slovinský hokejista získal s ERC Ingolstadt v sezoně 2013/2014 německý titul a ve vyřazovací části přispěl patnácti body?",
+      "initial": "Ž",
+      "answer": "Žiga Jeglič",
+      "language": "cs",
+      "category": "sports",
+      "aliases": ["Jeglič"],
+      "sources": ["https://en.wikipedia.org/wiki/%C5%BDiga_Jegli%C4%8D"]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-cs-easy-01",
+  "title": "Umění a literatura · Lehká · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-cs-easy-01-01",
+      "text": "Který dánský pohádkář napsal Malou mořskou vílu?",
+      "initial": "A",
+      "answer": "Andersen",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Hans Christian Andersen", "H. C. Andersen", "H.C. Andersen"],
+      "sources": ["https://en.wikipedia.org/wiki/Hans_Christian_Andersen"]
+    },
+    {
+      "id": "arts-cs-easy-01-02",
+      "text": "Jak se nazývá scénický taneční obor, v němž se tanečnice mohou pohybovat na špičkách?",
+      "initial": "B",
+      "answer": "Balet",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ballet"]
+    },
+    {
+      "id": "arts-cs-easy-01-03",
+      "text": "Jak se nazývá tradiční představení s akrobaty, klauny a žongléry, často pořádané pod velkým stanem?",
+      "initial": "C",
+      "answer": "Cirkus",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Circus"]
+    },
+    {
+      "id": "arts-cs-easy-01-04",
+      "text": "Jak se nazývá divadelní obor, který na rozdíl od opery staví především na mluveném hereckém projevu?",
+      "initial": "Č",
+      "answer": "Činohra",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cinohra"]
+    },
+    {
+      "id": "arts-cs-easy-01-05",
+      "text": "Jak říkáme příběhu, jehož hlavní zápletkou je vyšetřování zločinu a odhalování pachatele?",
+      "initial": "D",
+      "answer": "Detektivka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [
+        "detektivní román",
+        "detektivní příběh",
+        "detektivní literatura"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Detective_fiction"]
+    },
+    {
+      "id": "arts-cs-easy-01-06",
+      "text": "Kterému starořeckému vypravěči se tradičně připisuje bajka o lišce a kyselých hroznech?",
+      "initial": "E",
+      "answer": "Ezop",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Aisópos", "Aesop"],
+      "sources": ["https://en.wikipedia.org/wiki/The_Fox_and_the_Grapes"]
+    },
+    {
+      "id": "arts-cs-easy-01-07",
+      "text": "Jak se nazývá vytváření obrazových záznamů pomocí světla, například fotoaparátem?",
+      "initial": "F",
+      "answer": "Fotografie",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["fotografování"],
+      "sources": ["https://en.wikipedia.org/wiki/Photography"]
+    },
+    {
+      "id": "arts-cs-easy-01-08",
+      "text": "Jak nazýváme prostor určený k vystavování výtvarného umění, například obrazů?",
+      "initial": "G",
+      "answer": "Galerie",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [
+        "umělecká galerie",
+        "obrazárna",
+        "muzeum umění",
+        "muzeum výtvarného umění"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Art_museum"]
+    },
+    {
+      "id": "arts-cs-easy-01-09",
+      "text": "Který Shakespearův dánský princ pronáší slavnou úvahu „Být, či nebýt“?",
+      "initial": "H",
+      "answer": "Hamlet",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Hamlet"]
+    },
+    {
+      "id": "arts-cs-easy-01-10",
+      "text": "Jak se nazývá vytváření a uspořádání tanečních pohybů do celku pro představení?",
+      "initial": "Ch",
+      "answer": "Choreografie",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Choreography"]
+    },
+    {
+      "id": "arts-cs-easy-01-11",
+      "text": "Jak se nazývá obrázek doprovázející a objasňující text, například v dětské knize?",
+      "initial": "I",
+      "answer": "Ilustrace",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Illustration"]
+    },
+    {
+      "id": "arts-cs-easy-01-12",
+      "text": "Jak se nazývá část divadla, na které herci vystupují před diváky?",
+      "initial": "J",
+      "answer": "Jeviště",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["scéna"],
+      "sources": ["https://en.wikipedia.org/wiki/Stage_%28theatre%29"]
+    },
+    {
+      "id": "arts-cs-easy-01-13",
+      "text": "Jak se nazývá instituce, která shromažďuje knihy a půjčuje je čtenářům?",
+      "initial": "K",
+      "answer": "Knihovna",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Library"]
+    },
+    {
+      "id": "arts-cs-easy-01-14",
+      "text": "Který renesanční umělec namaloval Monu Lisu?",
+      "initial": "L",
+      "answer": "Leonardo da Vinci",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Leonardo", "da Vinci"],
+      "sources": ["https://en.wikipedia.org/wiki/Mona_Lisa"]
+    },
+    {
+      "id": "arts-cs-easy-01-15",
+      "text": "Jak nazýváme výtvarného umělce, který vytváří obrazy nanášením barev na podklad?",
+      "initial": "M",
+      "answer": "Malíř",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Painting"]
+    },
+    {
+      "id": "arts-cs-easy-01-16",
+      "text": "Jak nazýváme značky pro hudební tóny, které se zapisují například na pět linek osnovy?",
+      "initial": "N",
+      "answer": "Noty",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["hudební noty"],
+      "sources": ["https://en.wikipedia.org/wiki/Musical_note"]
+    },
+    {
+      "id": "arts-cs-easy-01-17",
+      "text": "Jak se nazývá divadelní dílo, jehož děj vyjadřují zpěváci s hudebním doprovodem, zpravidla orchestru?",
+      "initial": "O",
+      "answer": "Opera",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Opera"]
+    },
+    {
+      "id": "arts-cs-easy-01-18",
+      "text": "Jak se nazývá obraz zachycující podobu konkrétního člověka, zejména jeho tvář?",
+      "initial": "P",
+      "answer": "Portrét",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["podobizna"],
+      "sources": ["https://en.wikipedia.org/wiki/Portrait"]
+    },
+    {
+      "id": "arts-cs-easy-01-19",
+      "text": "Jak nazýváme rozsáhlý prozaický příběh, zpravidla s více postavami a rozvinutým dějem?",
+      "initial": "R",
+      "answer": "Román",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Novel"]
+    },
+    {
+      "id": "arts-cs-easy-01-20",
+      "text": "Jak se nazývá vodorovný vystupující architektonický prvek, který může korunovat fasádu pod střechou?",
+      "initial": "Ř",
+      "answer": "Římsa",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cornice"]
+    },
+    {
+      "id": "arts-cs-easy-01-21",
+      "text": "Jak nazýváme prostorové výtvarné dílo, například postavu vytesanou z mramoru?",
+      "initial": "S",
+      "answer": "Socha",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sculpture"]
+    },
+    {
+      "id": "arts-cs-easy-01-22",
+      "text": "Jakou pomůckou se svazkem štětin či vláken malíř nanáší barvu na plátno?",
+      "initial": "Š",
+      "answer": "Štětec",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["malířský štětec"],
+      "sources": ["https://en.wikipedia.org/wiki/Paintbrush"]
+    },
+    {
+      "id": "arts-cs-easy-01-23",
+      "text": "Jak se nazývá dramatický žánr s vážným konfliktem a nešťastným vyústěním, typický například pro Antigonu?",
+      "initial": "T",
+      "answer": "Tragédie",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tragedy"]
+    },
+    {
+      "id": "arts-cs-easy-01-24",
+      "text": "Jakým souhrnným slovem označujeme člověka tvořícího umění, například malíře nebo sochaře?",
+      "initial": "U",
+      "answer": "Umělec",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["výtvarník"],
+      "sources": ["https://en.wikipedia.org/wiki/Artist"]
+    },
+    {
+      "id": "arts-cs-easy-01-25",
+      "text": "Jak nazýváme jeden řádek básně?",
+      "initial": "V",
+      "answer": "Verš",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Verse_%28poetry%29"]
+    },
+    {
+      "id": "arts-cs-easy-01-26",
+      "text": "Který anglický dramatik napsal Romea a Julii?",
+      "initial": "W",
+      "answer": "William Shakespeare",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Shakespeare"],
+      "sources": ["https://en.wikipedia.org/wiki/Romeo_and_Juliet"]
+    },
+    {
+      "id": "arts-cs-easy-01-27",
+      "text": "Jak se jmenuje Erbenova pohádka, v níž Jiřík hledá princeznu se zlatými vlasy poté, co ochutná kouzelného hada?",
+      "initial": "Z",
+      "answer": "Zlatovláska",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": [
+        "https://cs.wikisource.org/wiki/M%C3%A1j_(almanach_1859)/Zlatovl%C3%A1ska"
+      ]
+    },
+    {
+      "id": "arts-cs-easy-01-28",
+      "text": "Jak nazýváme literární zpracování života skutečného člověka?",
+      "initial": "Ž",
+      "answer": "Životopis",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["biografie"],
+      "sources": ["https://en.wikipedia.org/wiki/Biography"]
+    }
+  ]
+}

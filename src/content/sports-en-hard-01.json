@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-en-hard-01",
+  "title": "Sports · Hard · 01",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-en-hard-01-01",
+      "text": "Which figure-skating jump takes off forwards and therefore has an extra half-rotation?",
+      "initial": "A",
+      "answer": "Axel",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Axel jump", "Axel Paulsen jump"],
+      "sources": ["https://en.wikipedia.org/wiki/Axel_jump"]
+    },
+    {
+      "id": "sports-en-hard-01-02",
+      "text": "What baseball ruling penalises certain illegal actions by a pitcher when runners are on base?",
+      "initial": "B",
+      "answer": "Balk",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Balk"]
+    },
+    {
+      "id": "sports-en-hard-01-03",
+      "text": "What Italian-named football tactical system, meaning “door bolt”, emphasises defensive organisation?",
+      "initial": "C",
+      "answer": "Catenaccio",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Catenaccio"]
+    },
+    {
+      "id": "sports-en-hard-01-04",
+      "text": "Which Chinese gymnast introduced an eponymous vault involving a round-off, half-turn onto the table and a stretched forward salto with one-and-a-half twists at the 2005 World Championships?",
+      "initial": "CH",
+      "answer": "Cheng Fei",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Cheng"],
+      "sources": ["https://en.wikipedia.org/wiki/Cheng_Fei"]
+    },
+    {
+      "id": "sports-en-hard-01-05",
+      "text": "What off-spinner's cricket delivery turns the opposite way to a conventional off break?",
+      "initial": "D",
+      "answer": "Doosra",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Doosra"]
+    },
+    {
+      "id": "sports-en-hard-01-06",
+      "text": "What diagonal formation helps cyclists shelter one another in a crosswind?",
+      "initial": "E",
+      "answer": "Echelon",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Echelon_(cycling)"]
+    },
+    {
+      "id": "sports-en-hard-01-07",
+      "text": "What football role describes a nominal centre-forward who drops deep to draw defenders out of position?",
+      "initial": "F",
+      "answer": "False nine",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["False 9"],
+      "sources": ["https://en.wikipedia.org/wiki/False_9"]
+    },
+    {
+      "id": "sports-en-hard-01-08",
+      "text": "What is the name of judo's sudden-death continuation after a tied regulation contest?",
+      "initial": "G",
+      "answer": "Golden score",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Judo"]
+    },
+    {
+      "id": "sports-en-hard-01-09",
+      "text": "In curling, what nickname is given to the advantage of delivering the last stone of an end?",
+      "initial": "H",
+      "answer": "Hammer",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["The hammer"],
+      "sources": ["https://en.wikipedia.org/wiki/Curling"]
+    },
+    {
+      "id": "sports-en-hard-01-10",
+      "text": "What four-letter abbreviation was used by World Athletics immediately before its 2019 rebranding?",
+      "initial": "I",
+      "answer": "IAAF",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["International Association of Athletics Federations"],
+      "sources": ["https://en.wikipedia.org/wiki/World_Athletics"]
+    },
+    {
+      "id": "sports-en-hard-01-11",
+      "text": "Which England rugby-union player kicked the winning drop goal in the 2003 men's World Cup final?",
+      "initial": "J",
+      "answer": "Jonny Wilkinson",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Wilkinson", "Jonathan Peter Wilkinson"],
+      "sources": ["https://en.wikipedia.org/wiki/Jonny_Wilkinson"]
+    },
+    {
+      "id": "sports-en-hard-01-12",
+      "text": "What Japanese judo term means breaking an opponent's balance?",
+      "initial": "K",
+      "answer": "Kuzushi",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Kuzushi"]
+    },
+    {
+      "id": "sports-en-hard-01-13",
+      "text": "Which toe-assisted figure-skating jump takes off from a back outside edge?",
+      "initial": "L",
+      "answer": "Lutz",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Lutz jump"],
+      "sources": ["https://en.wikipedia.org/wiki/Lutz_jump"]
+    },
+    {
+      "id": "sports-en-hard-01-14",
+      "text": "Which London-based club is the custodian of the Laws of Cricket?",
+      "initial": "M",
+      "answer": "Marylebone Cricket Club",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["MCC"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Marylebone_Cricket_Club",
+        "https://www.lords.org/mcc/the-laws-of-cricket"
+      ]
+    },
+    {
+      "id": "sports-en-hard-01-15",
+      "text": "What Japanese term names the throwing techniques of judo?",
+      "initial": "N",
+      "answer": "Nage-waza",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Nage waza", "Nagewaza"],
+      "sources": ["https://en.wikipedia.org/wiki/Judo"]
+    },
+    {
+      "id": "sports-en-hard-01-16",
+      "text": "Which judo throw has a name meaning “major outer reap”?",
+      "initial": "O",
+      "answer": "Osoto gari",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["O soto gari", "O-soto-gari", "Osotogari"],
+      "sources": ["https://en.wikipedia.org/wiki/Osoto_gari"]
+    },
+    {
+      "id": "sports-en-hard-01-17",
+      "text": "What track-cycling race starts two competitors on opposite sides of the track, each trying to catch the other?",
+      "initial": "P",
+      "answer": "Pursuit",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Individual pursuit"],
+      "sources": ["https://en.wikipedia.org/wiki/Individual_pursuit"]
+    },
+    {
+      "id": "sports-en-hard-01-18",
+      "text": "Which Australian rugby-union fly-half, born in Auckland in 1988, helped the Queensland Reds win the 2011 Super Rugby title?",
+      "initial": "Q",
+      "answer": "Quade Cooper",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Cooper", "Quade Santini Cooper"],
+      "sources": ["https://en.wikipedia.org/wiki/Quade_Cooper"]
+    },
+    {
+      "id": "sports-en-hard-01-19",
+      "text": "What competition format offers some defeated competitors a further route towards qualification or a medal?",
+      "initial": "R",
+      "answer": "Repechage",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Repechage"]
+    },
+    {
+      "id": "sports-en-hard-01-20",
+      "text": "Which figure-skating jump, named for a Swedish skater, takes off from a back inside edge?",
+      "initial": "S",
+      "answer": "Salchow",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Salchow jump"],
+      "sources": ["https://en.wikipedia.org/wiki/Salchow_jump"]
+    },
+    {
+      "id": "sports-en-hard-01-21",
+      "text": "Which stick-and-ball team sport is traditionally associated with the Scottish Highlands?",
+      "initial": "SH",
+      "answer": "Shinty",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Camanachd"],
+      "sources": ["https://en.wikipedia.org/wiki/Shinty"]
+    },
+    {
+      "id": "sports-en-hard-01-22",
+      "text": "Which skiing technique uses a free heel and a characteristic bent-knee turn?",
+      "initial": "T",
+      "answer": "Telemark",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Telemark skiing"],
+      "sources": ["https://en.wikipedia.org/wiki/Telemark_skiing"]
+    },
+    {
+      "id": "sports-en-hard-01-23",
+      "text": "Which judo throw has a name meaning “inner thigh throw”?",
+      "initial": "U",
+      "answer": "Uchi-mata",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Uchi mata", "Uchimata"],
+      "sources": ["https://en.wikipedia.org/wiki/Uchi_mata"]
+    },
+    {
+      "id": "sports-en-hard-01-24",
+      "text": "What overlapping golf grip is named after a six-time Open Championship winner?",
+      "initial": "V",
+      "answer": "Vardon grip",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Overlapping grip", "Vardon overlap", "Overlap grip"],
+      "sources": ["https://en.wikipedia.org/wiki/Harry_Vardon"]
+    },
+    {
+      "id": "sports-en-hard-01-25",
+      "text": "Which netball position is restricted to the centre and attacking thirds, excluding the goal circle?",
+      "initial": "W",
+      "answer": "Wing attack",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["WA"],
+      "sources": ["https://en.wikipedia.org/wiki/Netball_positions"]
+    },
+    {
+      "id": "sports-en-hard-01-26",
+      "text": "Which Belgian partnered Olivier Rochus to win the men's doubles at the 2004 French Open?",
+      "initial": "X",
+      "answer": "Xavier Malisse",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Malisse"],
+      "sources": ["https://en.wikipedia.org/wiki/Xavier_Malisse"]
+    },
+    {
+      "id": "sports-en-hard-01-27",
+      "text": "Which Russian pole vaulter won Olympic gold at Athens 2004 and Beijing 2008?",
+      "initial": "Y",
+      "answer": "Yelena Isinbayeva",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Isinbayeva",
+        "Elena Isinbaeva",
+        "Yelena Isinbaeva",
+        "Elena Isinbayeva",
+        "Isinbaeva"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Yelena_Isinbayeva"]
+    },
+    {
+      "id": "sports-en-hard-01-28",
+      "text": "Which Czech cyclist won the elite men's cyclo-cross world title in 2010, 2011 and 2014?",
+      "initial": "Z",
+      "answer": "Zdeněk Štybar",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Štybar"],
+      "sources": ["https://en.wikipedia.org/wiki/Zden%C4%9Bk_%C5%A0tybar"]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-cs-hard-02",
+  "title": "Politika a diplomacie · Těžké · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-cs-hard-02-01",
+      "text": "Jak se nazývá politika usilující o hospodářskou soběstačnost státu a omezení jeho závislosti na zahraničním obchodu?",
+      "initial": "A",
+      "answer": "Autarkie",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Hospodářská soběstačnost", "Ekonomická soběstačnost"],
+      "sources": ["https://en.wikipedia.org/wiki/Autarky"]
+    },
+    {
+      "id": "politics-cs-hard-02-02",
+      "text": "Jak se německy nazývá spolkový orgán, jehož prostřednictvím se vlády německých zemí podílejí na spolkové legislativě?",
+      "initial": "B",
+      "answer": "Bundesrat",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Spolková rada"],
+      "sources": ["https://en.wikipedia.org/wiki/Bundesrat_of_Germany"]
+    },
+    {
+      "id": "politics-cs-hard-02-03",
+      "text": "Jak se odborně nazývá majetková či daňová podmínka omezující volební právo?",
+      "initial": "C",
+      "answer": "Cenzus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Volební cenzus", "Majetkový cenzus", "Daňový cenzus"],
+      "sources": ["https://en.wikipedia.org/wiki/Suffrage"]
+    },
+    {
+      "id": "politics-cs-hard-02-04",
+      "text": "Které ustanovení Smlouvy o Evropské unii upravuje dobrovolné vystoupení členského státu z Unie?",
+      "initial": "Č",
+      "answer": "Článek 50",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Článek 50 Smlouvy o Evropské unii", "Čl. 50", "50"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Article_50_of_the_Treaty_on_European_Union"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-05",
+      "text": "Jak se nazývá metoda přidělování mandátů, která řadí podíly počtů hlasů stran dělených čísly 1, 2, 3 a tak dále?",
+      "initial": "D",
+      "answer": "D'Hondtova metoda",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [
+        "D'Hondt",
+        "D'Hondtův systém",
+        "Jeffersonova metoda",
+        "Metoda největších dělitelů"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/D'Hondt_method"]
+    },
+    {
+      "id": "politics-cs-hard-02-06",
+      "text": "Jak se nazývá souhlas přijímajícího státu, kterým je vedoucí konzulárního úřadu připuštěn k výkonu svých funkcí?",
+      "initial": "E",
+      "answer": "Exequatur",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Konzulární exequatur", "Exekvatur", "Konzulární exekvatur"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Exequatur",
+        "https://cs.wikipedia.org/wiki/Exequatur"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-07",
+      "text": "Jaký francouzský výraz označuje hotovou věc, kterou jedna strana vytvoří a ostatním ponechá už jen možnost s ní počítat?",
+      "initial": "F",
+      "answer": "Fait accompli",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Hotová věc"],
+      "sources": ["https://en.wikipedia.org/wiki/Fait_accompli"]
+    },
+    {
+      "id": "politics-cs-hard-02-08",
+      "text": "Jak se nazývala hlavní správní jednotka Ruského impéria, v jejímž čele stál gubernátor?",
+      "initial": "G",
+      "answer": "Gubernie",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Gubernija"],
+      "sources": ["https://en.wikipedia.org/wiki/Governorate_(Russia)"]
+    },
+    {
+      "id": "politics-cs-hard-02-09",
+      "text": "Který americký státník spolu s Madisonem a Jayem napsal Listy federalistů a stal se prvním ministrem financí USA?",
+      "initial": "H",
+      "answer": "Hamilton",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Alexander Hamilton"],
+      "sources": ["https://en.wikipedia.org/wiki/Alexander_Hamilton"]
+    },
+    {
+      "id": "politics-cs-hard-02-10",
+      "text": "Jaký panovnický titul užívaný u turkických a mongolských národů je součástí označení vládce chanátu?",
+      "initial": "Ch",
+      "answer": "Chán",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Khan"],
+      "sources": ["https://en.wikipedia.org/wiki/Khan_(title)"]
+    },
+    {
+      "id": "politics-cs-hard-02-11",
+      "text": "Jak se nazývá politický program usilující o připojení území jiného státu s odvoláním na národní či historickou příslušnost?",
+      "initial": "I",
+      "answer": "Iredentismus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Irredenta", "Iredenta"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Irredentism",
+        "https://cs.wikipedia.org/wiki/Iredentismus"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-12",
+      "text": "Jaký latinský termín označuje kogentní normy obecného mezinárodního práva, od nichž se státy nemohou smlouvou odchýlit?",
+      "initial": "J",
+      "answer": "Jus cogens",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Ius cogens", "Kogentní normy mezinárodního práva"],
+      "sources": ["https://en.wikipedia.org/wiki/Peremptory_norm"]
+    },
+    {
+      "id": "politics-cs-hard-02-13",
+      "text": "Jak se v poloprezidentském systému nazývá situace, kdy prezident a předseda vlády patří k opačným politickým táborům?",
+      "initial": "K",
+      "answer": "Kohabitace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Co-habitation", "Cohabitation"],
+      "sources": ["https://en.wikipedia.org/wiki/Cohabitation_(government)"]
+    },
+    {
+      "id": "politics-cs-hard-02-14",
+      "text": "Jaký tradiční název nese diplomatická mise nižšího stupně než velvyslanectví, vedená vyslancem či ministrem?",
+      "initial": "L",
+      "answer": "Legace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Vyslanectví"],
+      "sources": ["https://en.wikipedia.org/wiki/Legation"]
+    },
+    {
+      "id": "politics-cs-hard-02-15",
+      "text": "Jak se nazývá pojetí vztahu mezinárodního a vnitrostátního práva, které je pokládá za součást jediného právního systému?",
+      "initial": "M",
+      "answer": "Monismus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Právní monismus"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Monism_and_dualism_in_international_law"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-16",
+      "text": "Jak se nazývá diplomatický zástupce Svatého stolce v hodnosti odpovídající velvyslanci?",
+      "initial": "N",
+      "answer": "Nuncius",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Apoštolský nuncius", "Papežský nuncius"],
+      "sources": ["https://en.wikipedia.org/wiki/Nuncio"]
+    },
+    {
+      "id": "politics-cs-hard-02-17",
+      "text": "Jaký anglický termín označuje smluvně dohodnutou výjimku umožňující členskému státu EU neúčastnit se určité společné politiky?",
+      "initial": "O",
+      "answer": "Opt-out",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Opt out", "Optout", "Výjimka z účasti"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Opt-outs_in_the_European_Union"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-18",
+      "text": "Jak se nazývá formální ukončení parlamentního zasedání v britském systému, aniž by tím byl rozpuštěn parlament?",
+      "initial": "P",
+      "answer": "Prorogace",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Prorogace parlamentu"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prorogation_in_the_United_Kingdom"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-19",
+      "text": "Jaký německý termín označuje politiku vedenou praktickými mocenskými zájmy spíše než ideologickými zásadami?",
+      "initial": "R",
+      "answer": "Realpolitik",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Reálná politika"],
+      "sources": ["https://en.wikipedia.org/wiki/Realpolitik"]
+    },
+    {
+      "id": "politics-cs-hard-02-20",
+      "text": "Jak se nazývá hlavní legislativní postup EU, při němž Evropský parlament a Rada přijímají právní akt společně?",
+      "initial": "Ř",
+      "answer": "Řádný legislativní postup",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Postup spolurozhodování", "Spolurozhodování"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ordinary_legislative_procedure"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-21",
+      "text": "Jak se nazývá princip integrace, při němž společné nadnárodní orgány mohou přijímat závazná rozhodnutí v přenesených pravomocích?",
+      "initial": "S",
+      "answer": "Supranacionalismus",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Nadnárodní princip", "Supranacionalita"],
+      "sources": ["https://en.wikipedia.org/wiki/Supranational_union"]
+    },
+    {
+      "id": "politics-cs-hard-02-22",
+      "text": "Jaký arabský termín označuje poradu či konzultaci a používá se také v názvech poradních rad v muslimských zemích?",
+      "initial": "Š",
+      "answer": "Šúra",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Shura"],
+      "sources": ["https://en.wikipedia.org/wiki/Shura"]
+    },
+    {
+      "id": "politics-cs-hard-02-23",
+      "text": "Jak se v EU nazývá neformální vyjednávání zástupců Parlamentu, Rady a Komise o společném legislativním textu?",
+      "initial": "T",
+      "answer": "Trialog",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Trialogy", "Trilog", "Trilogue"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ordinary_legislative_procedure"
+      ]
+    },
+    {
+      "id": "politics-cs-hard-02-24",
+      "text": "Jaký latinský princip stanoví, že nově samostatné státy přebírají dosavadní vnitřní správní hranice jako hranice mezinárodní?",
+      "initial": "U",
+      "answer": "Uti possidetis iuris",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Uti possidetis juris", "Uti possidetis"],
+      "sources": ["https://en.wikipedia.org/wiki/Uti_possidetis_juris"]
+    },
+    {
+      "id": "politics-cs-hard-02-25",
+      "text": "Jak se v poměrných volebních systémech nazývá počet hlasů potřebný k získání jednoho mandátu, například v Hareově či Droopově variantě?",
+      "initial": "V",
+      "answer": "Volební kvóta",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Kvóta"],
+      "sources": ["https://en.wikipedia.org/wiki/Hare_quota"]
+    },
+    {
+      "id": "politics-cs-hard-02-26",
+      "text": "Jak se anglicky nazývá formální královská písemná výzva, kterou jsou členové britské Sněmovny lordů svoláváni do parlamentu?",
+      "initial": "W",
+      "answer": "Writ of summons",
+      "language": "cs",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Writ_of_summons"]
+    },
+    {
+      "id": "politics-cs-hard-02-27",
+      "text": "Jak se nazývá jednání člena hlasujícího sboru, který nezvolí ani hlas pro, ani hlas proti?",
+      "initial": "Z",
+      "answer": "Zdržení se hlasování",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Abstence", "Zdržet se hlasování"],
+      "sources": ["https://en.wikipedia.org/wiki/Abstention"]
+    },
+    {
+      "id": "politics-cs-hard-02-28",
+      "text": "Jak se v právu EU nazývá přímá žaloba podle článku 263 SFEU, kterou lze napadnout zákonnost aktu unijního orgánu?",
+      "initial": "Ž",
+      "answer": "Žaloba na neplatnost",
+      "language": "cs",
+      "category": "politics",
+      "aliases": ["Žaloba na zrušení", "Žaloba na neplatnost aktu"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_Union_law",
+        "https://curia.europa.eu/jcms/jcms/Jo2_7024/cs/"
+      ]
+    }
+  ]
+}

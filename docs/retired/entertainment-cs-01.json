@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "entertainment-cs-01",
   "title": "Zábava · 01",
   "language": "cs",

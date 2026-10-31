@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 2,
+  "id": "games-cs-easy-02",
+  "title": "Hry · Lehké · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-cs-easy-02-01",
+      "text": "Jak se označuje mincovní videoherní zařízení ve veřejné herně nebo hra původně určená pro takové zařízení?",
+      "initial": "A",
+      "answer": "Arkáda",
+      "language": "cs",
+      "aliases": [
+        "Arkády",
+        "Arkádová hra",
+        "Arkádový automat",
+        "Herní automat",
+        "Videoherní automat"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Arcade_video_game"]
+    },
+    {
+      "id": "games-cs-easy-02-02",
+      "text": "Ve které hře škrtáte na kartě postupně losovaná čísla a po dokončení určeného vzoru oznámíte výhru?",
+      "initial": "B",
+      "answer": "Bingo",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Bingo_%28American_version%29"]
+    },
+    {
+      "id": "games-cs-easy-02-03",
+      "text": "Která série týmových počítačových stříleček staví proti sobě teroristy a protiteroristickou jednotku?",
+      "initial": "C",
+      "answer": "Counter-Strike",
+      "language": "cs",
+      "aliases": ["Counter Strike", "CS"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Counter-Strike"]
+    },
+    {
+      "id": "games-cs-easy-02-04",
+      "text": "Ve které tradiční dětské karetní hře se odkládají dvojice a prohrává ten, komu zbude jediná nepárová karta?",
+      "initial": "Č",
+      "answer": "Černý Petr",
+      "language": "cs",
+      "aliases": ["Black Peter", "Schwarzer Peter"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Black_Peter_%28card_game%29",
+        "https://cs.wikipedia.org/wiki/%C4%8Cern%C3%BD_Petr_%28karetn%C3%AD_hra%29"
+      ]
+    },
+    {
+      "id": "games-cs-easy-02-05",
+      "text": "Ve které postřehové hře hledáte jediný společný obrázek na dvojici kulatých karet?",
+      "initial": "D",
+      "answer": "Dobble",
+      "language": "cs",
+      "aliases": ["Spot It!", "Spot It"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Dobble"]
+    },
+    {
+      "id": "games-cs-easy-02-06",
+      "text": "Jak se označuje soutěžní hraní videoher, často v organizovaných turnajích?",
+      "initial": "E",
+      "answer": "E-sport",
+      "language": "cs",
+      "aliases": [
+        "Esport",
+        "Esporty",
+        "E-sporty",
+        "Esports",
+        "E-sports",
+        "Elektronický sport",
+        "Elektronické sporty",
+        "Electronic sports"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Esports"]
+    },
+    {
+      "id": "games-cs-easy-02-07",
+      "text": "Která battle royale hra od Epic Games je v původním režimu známá i stavěním zdí a ramp během boje?",
+      "initial": "F",
+      "answer": "Fortnite",
+      "language": "cs",
+      "aliases": ["Fortnite Battle Royale"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fortnite_Battle_Royale"]
+    },
+    {
+      "id": "games-cs-easy-02-08",
+      "text": "Která série realistických automobilových her studia Polyphony Digital vychází především pro konzole PlayStation?",
+      "initial": "G",
+      "answer": "Gran Turismo",
+      "language": "cs",
+      "aliases": ["GT"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Gran_Turismo_%28series%29"]
+    },
+    {
+      "id": "games-cs-easy-02-09",
+      "text": "Ve které logické počítačové hře čísla na odkrytých políčkách ukazují, kolik min s nimi sousedí?",
+      "initial": "H",
+      "answer": "Hledání min",
+      "language": "cs",
+      "aliases": ["Minesweeper", "Miny"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minesweeper_%28video_game%29",
+        "https://cs.wikipedia.org/wiki/Hled%C3%A1n%C3%AD_min"
+      ]
+    },
+    {
+      "id": "games-cs-easy-02-10",
+      "text": "Která dětská varianta šógi se hraje na malé desce se lvem, žirafou, slonem a kuřetem?",
+      "initial": "Ch",
+      "answer": "Chyťte lva!",
+      "language": "cs",
+      "aliases": [
+        "Chyťte lva",
+        "Chyť lva!",
+        "Chyť lva",
+        "Dóbucu šógi",
+        "Dobutsu shogi",
+        "Let's Catch the Lion!",
+        "Lets Catch the Lion",
+        "Animal shogi"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/D%C5%8Dbutsu_sh%C5%8Dgi",
+        "https://www.deskolog.cz/l/recenze-chyt-lva/"
+      ]
+    },
+    {
+      "id": "games-cs-easy-02-11",
+      "text": "Která kooperativní videohra sleduje manžele Codyho a May proměněné v malé panenky?",
+      "initial": "I",
+      "answer": "It Takes Two",
+      "language": "cs",
+      "aliases": ["It Takes 2"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/It_Takes_Two_%28video_game%29"]
+    },
+    {
+      "id": "games-cs-easy-02-12",
+      "text": "Jak se běžně nazývá pákový herní ovladač, používaný například v leteckých simulátorech?",
+      "initial": "J",
+      "answer": "Joystick",
+      "language": "cs",
+      "aliases": [
+        "Pákový ovladač",
+        "Křížový ovladač",
+        "Herní páka",
+        "Flight stick"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Joystick",
+        "https://cs.wikipedia.org/wiki/Joystick"
+      ]
+    },
+    {
+      "id": "games-cs-easy-02-13",
+      "text": "Která šachová figura nesmí po tahu zůstat v šachu a jejíž neodvratitelný šach znamená mat?",
+      "initial": "K",
+      "answer": "Král",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/King_%28chess%29"]
+    },
+    {
+      "id": "games-cs-easy-02-14",
+      "text": "Jak se celým jménem jmenuje archeoložka a dobrodružka z her Tomb Raider?",
+      "initial": "L",
+      "answer": "Lara Croft",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Lara_Croft"]
+    },
+    {
+      "id": "games-cs-easy-02-15",
+      "text": "Která sandboxová videohra umožňuje těžit suroviny a stavět ve světě složeném převážně z kostek?",
+      "initial": "M",
+      "answer": "Minecraft",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Minecraft"]
+    },
+    {
+      "id": "games-cs-easy-02-16",
+      "text": "Která závodní série od Electronic Arts je známá především pouličním závoděním a policejními honičkami?",
+      "initial": "N",
+      "answer": "Need for Speed",
+      "language": "cs",
+      "aliases": ["NFS"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Need_for_Speed"]
+    },
+    {
+      "id": "games-cs-easy-02-17",
+      "text": "Která hra zkouší pevnou ruku při vyjímání drobných předmětů z pacienta pinzetou, která se nesmí dotknout kovových okrajů otvorů?",
+      "initial": "O",
+      "answer": "Operace",
+      "language": "cs",
+      "aliases": ["Operation"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_%28game%29"]
+    },
+    {
+      "id": "games-cs-easy-02-18",
+      "text": "Jak se nazývá šachová situace, kdy hráč na tahu nemá žádný přípustný tah, ale jeho král není v šachu?",
+      "initial": "P",
+      "answer": "Pat",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Stalemate"]
+    },
+    {
+      "id": "games-cs-easy-02-19",
+      "text": "Jak se nazývá strana karty se stejným vzorem v celém balíčku, díky němuž nelze při rozdávání poznat její hodnotu?",
+      "initial": "R",
+      "answer": "Rub",
+      "language": "cs",
+      "aliases": [
+        "Rub karty",
+        "Zadní strana",
+        "Zadní strana karty",
+        "Rubová strana",
+        "Revers",
+        "Reverz"
+      ],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Playing_card",
+        "https://en.wikipedia.org/wiki/Standard_52-card_deck",
+        "https://cs.wikipedia.org/wiki/Rub"
+      ]
+    },
+    {
+      "id": "games-cs-easy-02-20",
+      "text": "Jak se nazývá bezpečnostní doplněk ovladače Wii Remote, který si hráč navléká kolem zápěstí, aby mu ovladač při prudkém pohybu nevyletěl z ruky?",
+      "initial": "Ř",
+      "answer": "Řemínek",
+      "language": "cs",
+      "aliases": [
+        "Řemínek na zápěstí",
+        "Poutko",
+        "Bezpečnostní poutko",
+        "Poutko na zápěstí",
+        "Zápěstní poutko",
+        "Wrist strap"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wii_Remote"]
+    },
+    {
+      "id": "games-cs-easy-02-21",
+      "text": "Která červená barva francouzských hracích karet má symbol připomínající lásku?",
+      "initial": "S",
+      "answer": "Srdce",
+      "language": "cs",
+      "aliases": ["Srdcová barva", "Srdíčka", "Hearts"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hearts_%28suit%29"]
+    },
+    {
+      "id": "games-cs-easy-02-22",
+      "text": "Ve které papírové slovní hře se za chybné odhady písmen postupně dokresluje postava oběšence?",
+      "initial": "Š",
+      "answer": "Šibenice",
+      "language": "cs",
+      "aliases": ["Oběšenec", "Hangman", "Kat"],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hangman_%28game%29",
+        "https://cs.wikipedia.org/wiki/%C5%A0ibenice_%28hra%29"
+      ]
+    },
+    {
+      "id": "games-cs-easy-02-23",
+      "text": "Jak se nazývá úsek deskové hry, kdy má jeden hráč právo provést svou akci?",
+      "initial": "T",
+      "answer": "Tah",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Turn-based_game"]
+    },
+    {
+      "id": "games-cs-easy-02-24",
+      "text": "Která francouzská herní společnost vydává série Assassin's Creed, Rayman a Just Dance?",
+      "initial": "U",
+      "answer": "Ubisoft",
+      "language": "cs",
+      "aliases": [
+        "Ubi Soft",
+        "Ubisoft Entertainment",
+        "Ubisoft Entertainment SA",
+        "Ubi Soft Entertainment SA"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ubisoft"]
+    },
+    {
+      "id": "games-cs-easy-02-25",
+      "text": "Ve které jednoduché karetní hře hráči současně otočí vrchní kartu a vyšší hodnota obvykle získá obě vyložené karty?",
+      "initial": "V",
+      "answer": "Válka",
+      "language": "cs",
+      "aliases": ["Vojna", "War"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/War_%28card_game%29"]
+    },
+    {
+      "id": "games-cs-easy-02-26",
+      "text": "Která internetová slovní hra dává šest pokusů na uhodnutí pětipísmenného slova a pomáhá barevným označením písmen?",
+      "initial": "W",
+      "answer": "Wordle",
+      "language": "cs",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wordle"]
+    },
+    {
+      "id": "games-cs-easy-02-27",
+      "text": "Která princezna propůjčuje jméno herní sérii Nintenda, jejímž hlavním hrdinou bývá Link?",
+      "initial": "Z",
+      "answer": "Zelda",
+      "language": "cs",
+      "aliases": ["Princezna Zelda", "Princess Zelda"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Princess_Zelda"]
+    },
+    {
+      "id": "games-cs-easy-02-28",
+      "text": "Jak se ve videohrách běžně nazývá jeden z omezeného počtu pokusů postavy, o který může přijít například pádem do propasti?",
+      "initial": "Ž",
+      "answer": "Život",
+      "language": "cs",
+      "aliases": ["Herní život", "Životy"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Life_%28video_games%29"]
+    }
+  ]
+}

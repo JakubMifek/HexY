@@ -9,7 +9,7 @@ import { preparationStrings } from './ui/preparation-strings.js';
 import { preparationView } from './ui/preparation.js';
 import { editorView } from './ui/editor.js';
 import { answerSheet } from './ui/answer-sheet.js';
-import { element } from './ui/dom.js';
+import { button, element } from './ui/dom.js';
 import { libraryView } from './ui/library.js';
 
 export class Workspace {
@@ -209,7 +209,7 @@ export class Workspace {
 
   /** @param {AbortSignal} signal */
   libraryView(signal) {
-    return libraryView(
+    const section = libraryView(
       preparationStrings[this.preferences.language],
       this.model.custom,
       this.excluded,
@@ -217,6 +217,32 @@ export class Workspace {
       (id, included) => this.setIncluded(id, included),
       signal,
     );
+    if (this.storageError && typeof this.library.original === 'string')
+      section.append(
+        button(
+          preparationStrings[this.preferences.language].exportOriginalLibrary,
+          'export-library-original',
+          () => this.exportOriginalLibrary(),
+          signal,
+        ),
+      );
+    return section;
+  }
+
+  exportOriginalLibrary() {
+    if (this.disposed || typeof this.library.original !== 'string') return;
+    try {
+      this.downloads.save(
+        this.library.original,
+        'hexy-original-library.json',
+        'application/json',
+      );
+      this.error = '';
+    } catch (error) {
+      if (!(error instanceof DomainError)) throw error;
+      this.error = error.code;
+    }
+    this.changed();
   }
 
   statusView() {

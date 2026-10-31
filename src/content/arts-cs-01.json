@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "arts-cs-01",
   "title": "Umění a literatura · 01",
   "language": "cs",

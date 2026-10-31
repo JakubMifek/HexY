@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-en-easy-02",
+  "title": "Politics and diplomacy · Easy · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-en-easy-02-01",
+      "text": "What is a monarch's formal act of giving up the throne called?",
+      "initial": "A",
+      "answer": "Abdication",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Abdication"]
+    },
+    {
+      "id": "politics-en-easy-02-02",
+      "text": "What offence involves offering something of value to improperly influence an official's actions?",
+      "initial": "B",
+      "answer": "Bribery",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Bribery"]
+    },
+    {
+      "id": "politics-en-easy-02-03",
+      "text": "What do you call a person who holds citizenship of a particular state?",
+      "initial": "C",
+      "answer": "Citizen",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Citizenship"]
+    },
+    {
+      "id": "politics-en-easy-02-04",
+      "text": "What word describes one of the separate houses of a legislature?",
+      "initial": "CH",
+      "answer": "Chamber",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["House", "Legislative chamber"],
+      "sources": ["https://en.wikipedia.org/wiki/Legislative_chamber"]
+    },
+    {
+      "id": "politics-en-easy-02-05",
+      "text": "What type of regime concentrates political power in a ruler or small group without effective democratic checks?",
+      "initial": "D",
+      "answer": "Dictatorship",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Dictatorship"]
+    },
+    {
+      "id": "politics-en-easy-02-06",
+      "text": "What political and economic union includes countries such as France, Germany and Italy?",
+      "initial": "E",
+      "answer": "European Union",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["EU"],
+      "sources": ["https://en.wikipedia.org/wiki/European_Union"]
+    },
+    {
+      "id": "politics-en-easy-02-07",
+      "text": "What civil liberty protects the expression of opinions without government censorship, subject to lawful limits?",
+      "initial": "F",
+      "answer": "Freedom of speech",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Freedom of expression", "Free speech"],
+      "sources": ["https://en.wikipedia.org/wiki/Freedom_of_speech"]
+    },
+    {
+      "id": "politics-en-easy-02-08",
+      "text": "What title is used for the head of the executive branch of a US state?",
+      "initial": "G",
+      "answer": "Governor",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["State governor"],
+      "sources": ["https://en.wikipedia.org/wiki/Governor_(United_States)"]
+    },
+    {
+      "id": "politics-en-easy-02-09",
+      "text": "What role represents the state at its highest level and may be filled by either a monarch or a president?",
+      "initial": "H",
+      "answer": "Head of state",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Head_of_state"]
+    },
+    {
+      "id": "politics-en-easy-02-10",
+      "text": "What ceremony formally marks a president's entry into office?",
+      "initial": "I",
+      "answer": "Inauguration",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Swearing-in", "Swearing in", "Swearing-in ceremony"],
+      "sources": ["https://en.wikipedia.org/wiki/Inauguration"]
+    },
+    {
+      "id": "politics-en-easy-02-11",
+      "text": "What group of ordinary citizens is sworn to hear evidence and return a verdict in a trial?",
+      "initial": "J",
+      "answer": "Jury",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jury"]
+    },
+    {
+      "id": "politics-en-easy-02-12",
+      "text": "What fortified complex in Moscow serves as the official residence of the Russian president?",
+      "initial": "K",
+      "answer": "Kremlin",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Moscow Kremlin", "The Kremlin"],
+      "sources": ["https://en.wikipedia.org/wiki/Moscow_Kremlin"]
+    },
+    {
+      "id": "politics-en-easy-02-13",
+      "text": "What side of the political spectrum traditionally emphasizes social equality and reducing economic inequality?",
+      "initial": "L",
+      "answer": "Left wing",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "The left",
+        "Left",
+        "Left-wing",
+        "Left-wing politics",
+        "Political left",
+        "Leftist politics",
+        "Leftism"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Left-wing_politics"]
+    },
+    {
+      "id": "politics-en-easy-02-14",
+      "text": "What title is given to a government member responsible for a department such as education or foreign affairs?",
+      "initial": "M",
+      "answer": "Minister",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Government minister"],
+      "sources": ["https://en.wikipedia.org/wiki/Minister_(government)"]
+    },
+    {
+      "id": "politics-en-easy-02-15",
+      "text": "What is the status of a state that does not take part in a war between other states and treats the belligerents impartially?",
+      "initial": "N",
+      "answer": "Neutrality",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Neutral_country",
+        "https://www.eda.admin.ch/en/neutrality"
+      ]
+    },
+    {
+      "id": "politics-en-easy-02-16",
+      "text": "What solemn promise does a public official make on taking up a position, often to uphold a constitution?",
+      "initial": "O",
+      "answer": "Oath of office",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Affirmation of office", "Oath", "Affirmation"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oath_of_office",
+        "https://www.archives.gov/founding-docs/constitution-transcript"
+      ]
+    },
+    {
+      "id": "politics-en-easy-02-17",
+      "text": "What is the usual title of the head of government in a parliamentary system, distinct from the monarch or president as head of state?",
+      "initial": "P",
+      "answer": "Prime minister",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Premier", "First minister", "Minister-president"],
+      "sources": ["https://en.wikipedia.org/wiki/Prime_minister"]
+    },
+    {
+      "id": "politics-en-easy-02-18",
+      "text": "What is the regular parliamentary session in which ministers answer members' questions called?",
+      "initial": "Q",
+      "answer": "Question Time",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "Parliamentary questions",
+        "Question period",
+        "Oral questions"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Question_time"]
+    },
+    {
+      "id": "politics-en-easy-02-19",
+      "text": "What do you call someone outside their country who cannot return because of a well-founded fear of persecution?",
+      "initial": "R",
+      "answer": "Refugee",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Refugee"]
+    },
+    {
+      "id": "politics-en-easy-02-20",
+      "text": "What are economic or diplomatic penalties imposed on a state to influence its conduct commonly called?",
+      "initial": "S",
+      "answer": "Sanctions",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["International sanctions", "Economic sanctions"],
+      "sources": ["https://en.wikipedia.org/wiki/International_sanctions"]
+    },
+    {
+      "id": "politics-en-easy-02-21",
+      "text": "What term describes the US government interruption in which some federal operations stop because funding has not been enacted?",
+      "initial": "SH",
+      "answer": "Shutdown",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Government shutdown", "Federal government shutdown"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Government_shutdown_in_the_United_States"
+      ]
+    },
+    {
+      "id": "politics-en-easy-02-22",
+      "text": "What phrase means the period for which someone holds an elected public position?",
+      "initial": "T",
+      "answer": "Term of office",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Term", "Tenure"],
+      "sources": ["https://en.wikipedia.org/wiki/Term_of_office"]
+    },
+    {
+      "id": "politics-en-easy-02-23",
+      "text": "What conventional label describes a constitution, such as Britain's, that is not collected into one codified document?",
+      "initial": "U",
+      "answer": "Unwritten constitution",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Uncodified constitution", "Non-codified constitution"],
+      "sources": ["https://en.wikipedia.org/wiki/Uncodified_constitution"]
+    },
+    {
+      "id": "politics-en-easy-02-24",
+      "text": "What is the title of the US official who is first in line to succeed the president?",
+      "initial": "V",
+      "answer": "Vice president",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "Vice-president",
+        "US vice president",
+        "Vice president of the United States",
+        "VP",
+        "VPOTUS",
+        "Veep"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vice_President_of_the_United_States"
+      ]
+    },
+    {
+      "id": "politics-en-easy-02-25",
+      "text": "What do you call someone who exposes wrongdoing within an organization, including a public authority?",
+      "initial": "W",
+      "answer": "Whistleblower",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Whistle-blower"],
+      "sources": ["https://en.wikipedia.org/wiki/Whistleblower"]
+    },
+    {
+      "id": "politics-en-easy-02-26",
+      "text": "What is the name of China's official state news agency, whose name means “New China”?",
+      "initial": "X",
+      "answer": "Xinhua",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Xinhua News Agency", "New China News Agency"],
+      "sources": ["https://en.wikipedia.org/wiki/Xinhua_News_Agency"]
+    },
+    {
+      "id": "politics-en-easy-02-27",
+      "text": "What traditional affirmative voting word is the opposite of “nay” in a legislative roll call?",
+      "initial": "Y",
+      "answer": "Yea",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Yes", "Aye"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Recorded_vote",
+        "https://en.wikipedia.org/wiki/Yea_and_nay",
+        "https://www.archives.gov/founding-docs/constitution-transcript"
+      ]
+    },
+    {
+      "id": "politics-en-easy-02-28",
+      "text": "What common name is used for members of the Mexican rebel movement named in honour of Emiliano Zapata?",
+      "initial": "Z",
+      "answer": "Zapatistas",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Zapatista"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zapatista_Army_of_National_Liberation"
+      ]
+    }
+  ]
+}

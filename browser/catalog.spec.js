@@ -1,4 +1,3 @@
-import { readFileSync, readdirSync } from 'node:fs';
 import { expect, test } from '@playwright/test';
 import {
   download,
@@ -7,12 +6,9 @@ import {
   inspectPrintedSheet,
   nextPreparation,
   acceptPack,
+  catalogPacks as packs,
 } from './preparation-helpers.js';
 import { phase, setCell, setTheme } from './helpers.js';
-
-const packs = readdirSync('src/content')
-  .filter((name) => name.endsWith('.json'))
-  .map((name) => JSON.parse(readFileSync(`src/content/${name}`, 'utf8')));
 
 /** @param {import('@playwright/test').Page} page @param {string} id */
 async function chooseBoard(page, id) {
@@ -38,18 +34,45 @@ async function verifySelectedNumbers(page, info, pack) {
   await expect(page.locator('#preparation-error')).toHaveText('');
 }
 
+async function startFixedGame(page, context, info, pack) {
+  if (
+    pack.id === `geography-${pack.language}-02` ||
+    [
+      'history',
+      'politics',
+      'science',
+      'programming',
+      'arts',
+      'games',
+      'movies',
+      'sports',
+    ].includes(pack.questions[0].category)
+  ) {
+    const html = await download(page, info, '#start', 'fixed-sheet.html');
+    await inspectPrintedSheet(context, info, html.path, pack);
+  } else await page.locator('#start').click();
+}
+
 for (const pack of packs) {
   test(`catalog ${pack.id}: fixed export, selected-only numbers, recovery and host-reset lock`, async ({
     page,
     context,
   }, info) => {
     await setupPreparation(page, pack.language);
-    await page.locator('#catalog-language').selectOption(pack.language);
-    await page
-      .locator('#catalog-category')
-      .selectOption(pack.questions[0].category);
-    await page.locator('#catalog-search').fill(pack.id);
-    await expect(page.locator('#catalog-results input')).toHaveCount(1);
+    await expect(
+      page.locator(`#decks-${pack.questions[0].category} input`),
+    ).toHaveCount(
+      packs.filter(
+        (source) =>
+          source.language === pack.language &&
+          source.questions[0].category === pack.questions[0].category,
+      ).length,
+    );
+    await expect(
+      page.locator('#catalog-results input[id^="source-"]'),
+    ).toHaveCount(
+      packs.filter((source) => source.language === pack.language).length,
+    );
     await chooseBoard(page, pack.id);
     const fixed = await download(page, info, '#export-pack', 'fixed.json');
     expect(JSON.parse(fixed.text)).toEqual(pack);
@@ -58,20 +81,7 @@ for (const pack of packs) {
     await verifySelectedNumbers(page, info, pack);
     await page.locator('#mode-letters').click();
     await chooseBoard(page, pack.id);
-    if (
-      pack.id === `geography-${pack.language}-02` ||
-      [
-        'history',
-        'politics',
-        'science',
-        'programming',
-        'arts',
-        'entertainment',
-      ].includes(pack.questions[0].category)
-    ) {
-      const html = await download(page, info, '#start', 'fixed-sheet.html');
-      await inspectPrintedSheet(context, info, html.path, pack);
-    } else await page.locator('#start').click();
+    await startFixedGame(page, context, info, pack);
     await phase(page, 'selecting');
     await page.reload();
     await phase(page, 'selecting');
@@ -100,16 +110,15 @@ for (const language of ['cs', 'en']) {
     await setupPreparation(page, language);
     await page.locator('#mode-numbers').click();
     await page.locator('#clear-sources').click();
-    await page.locator('#catalog-language').selectOption(language);
-    await page.locator('#catalog-category').selectOption('nature');
     await page.locator(`#source-nature-${language}-02`).check();
-    await page.locator('#catalog-category').selectOption('geography');
     await expect(page.locator('#catalog-selection')).toContainText(
       `nature-${language}-02`,
     );
     await page.locator(`#source-geography-${language}-02`).check();
-    await page.locator('#catalog-search').fill('no matching pack');
-    await expect(page.locator('#catalog-results input')).toHaveCount(0);
+    await page.locator('#catalog-origin').selectOption('custom');
+    await expect(
+      page.locator('#catalog-results input[id^="source-"]'),
+    ).toHaveCount(0);
     await page.locator('#prepare-board').click();
     await page.locator('#accept-board').click();
     const exported = await download(
@@ -159,14 +168,19 @@ for (const viewport of [
         await page.setViewportSize(viewport);
         await setupPreparation(page, language);
         await setTheme(page, theme);
-        await page.locator('#catalog-search').focus();
-        await page.keyboard.type('geography');
-        await expect(page.locator('#catalog-search')).toBeFocused();
-        await expect(page.locator('#catalog-results input')).toHaveCount(4);
+        await page.locator('#catalog-origin').focus();
+        await page.keyboard.press('b');
+        await expect(page.locator('#catalog-origin')).toBeFocused();
         await page.keyboard.press('Tab');
-        await expect(page.locator('#catalog-language')).toBeFocused();
-        await page.locator('#catalog-language').selectOption(language);
-        await expect(page.locator('#catalog-results input')).toHaveCount(2);
+        await expect(page.locator('#catalog-difficulty')).toBeFocused();
+        await page.locator('#catalog-difficulty').selectOption('easy');
+        await expect(
+          page.locator('#catalog-results input[id^="source-"]'),
+        ).toHaveCount(
+          packs.filter(
+            (pack) => pack.language === language && pack.difficulty === 'easy',
+          ).length,
+        );
         expect(
           (await page.locator('#catalog-results label').first().boundingBox())
             ?.height,
@@ -174,10 +188,8 @@ for (const viewport of [
         await expect(page.locator('#start')).toBeEnabled();
         await page.locator('.catalog').scrollIntoViewIfNeeded();
         for (const id of [
-          'catalog-search',
-          'catalog-language',
-          'catalog-category',
           'catalog-origin',
+          'catalog-difficulty',
           'clear-sources',
           'reset-catalog',
         ]) {
@@ -193,7 +205,11 @@ for (const viewport of [
         });
         await page.locator('#reset-catalog').focus();
         await page.keyboard.press('Enter');
-        await expect(page.locator('#catalog-results input')).toHaveCount(36);
+        await expect(
+          page.locator('#catalog-results input[id^="source-"]'),
+        ).toHaveCount(
+          packs.filter((pack) => pack.language === language).length,
+        );
       });
     }
   }

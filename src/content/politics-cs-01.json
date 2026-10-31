@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "difficulty": "medium",
   "id": "politics-cs-01",
   "title": "Politika a diplomacie · 01",
   "language": "cs",

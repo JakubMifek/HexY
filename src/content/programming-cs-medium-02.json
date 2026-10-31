@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 2,
+  "id": "programming-cs-medium-02",
+  "title": "Informatika a programování · Střední · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "programming-cs-medium-02-01",
+      "text": "Jak se jmenuje operační systém pro mobilní zařízení, jehož vývoj vede Google a jehož symbolem je zelený robot?",
+      "initial": "A",
+      "answer": "Android",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Android_(operating_system)"]
+    },
+    {
+      "id": "programming-cs-medium-02-02",
+      "text": "Jak se nazývá jednotka digitálních dat, která v dnešních běžných počítačových systémech obsahuje osm bitů?",
+      "initial": "B",
+      "answer": "Bajt",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Byte", "Oktet"],
+      "sources": ["https://en.wikipedia.org/wiki/Byte"]
+    },
+    {
+      "id": "programming-cs-medium-02-03",
+      "text": "Jak se souhrnně nazývají webové ověřovací úlohy, například výběr obrázků se semaforem, které mají rozlišit člověka od automatického programu?",
+      "initial": "C",
+      "answer": "CAPTCHA",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/CAPTCHA"]
+    },
+    {
+      "id": "programming-cs-medium-02-04",
+      "text": "Jaká barevná skříňka dala název testování softwaru, při němž se ověřují vstupy a výstupy bez znalosti jeho vnitřní implementace?",
+      "initial": "Č",
+      "answer": "Černá skříňka",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Black box",
+        "Black-box testování",
+        "Testování černé skříňky",
+        "Černá"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Black-box_testing"]
+    },
+    {
+      "id": "programming-cs-medium-02-05",
+      "text": "Jak se nazývá menší okno programu, které od uživatele vyžaduje údaj nebo rozhodnutí, například volbu umístění souboru?",
+      "initial": "D",
+      "answer": "Dialogové okno",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Dialog", "Dialog box"],
+      "sources": ["https://en.wikipedia.org/wiki/Dialog_box"]
+    },
+    {
+      "id": "programming-cs-medium-02-06",
+      "text": "Jak se nazývá funkce programu, která zapíše data do formátu určeného pro použití v jiném programu, na rozdíl od jejich importu?",
+      "initial": "E",
+      "answer": "Export",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Exportování", "Export dat"],
+      "sources": ["https://en.wikipedia.org/wiki/Import_and_export_of_data"]
+    },
+    {
+      "id": "programming-cs-medium-02-07",
+      "text": "Jak se nazývá úprava vzhledu textu v editoru, například změna řezu písma, velikosti nebo zarovnání odstavce?",
+      "initial": "F",
+      "answer": "Formátování",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Formátování textu", "Text formatting"],
+      "sources": ["https://en.wikipedia.org/wiki/Formatted_text"]
+    },
+    {
+      "id": "programming-cs-medium-02-08",
+      "text": "Jak se nazývá druh umělé inteligence, který na základě zadání vytváří nový obsah, například text, obrázky nebo programový kód?",
+      "initial": "G",
+      "answer": "Generativní umělá inteligence",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Generativní AI", "Generative AI"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
+      ]
+    },
+    {
+      "id": "programming-cs-medium-02-09",
+      "text": "Jak se souhrnně nazývají hmotné části počítače, například procesor a klávesnice, na rozdíl od programů?",
+      "initial": "H",
+      "answer": "Hardware",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Technické vybavení", "Fyzické vybavení počítače"],
+      "sources": ["https://en.wikipedia.org/wiki/Computer_hardware"]
+    },
+    {
+      "id": "programming-cs-medium-02-10",
+      "text": "Jak se běžně nazývá domácnost, v níž aplikace a automatizační pravidla mohou ovládat například osvětlení, topení a žaluzie?",
+      "initial": "Ch",
+      "answer": "Chytrá domácnost",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Smart home", "Inteligentní domácnost"],
+      "sources": ["https://en.wikipedia.org/wiki/Home_automation"]
+    },
+    {
+      "id": "programming-cs-medium-02-11",
+      "text": "Jak se nazývá celosvětová síť propojených počítačových sítí, nad níž funguje web i elektronická pošta?",
+      "initial": "I",
+      "answer": "Internet",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Internet"]
+    },
+    {
+      "id": "programming-cs-medium-02-12",
+      "text": "Který matematik dal jméno architektuře počítače se společnou pamětí pro instrukce programu a data?",
+      "initial": "J",
+      "answer": "John von Neumann",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Von Neumann",
+        "Neumann",
+        "János von Neumann",
+        "John Neumann"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Von_Neumann_architecture"]
+    },
+    {
+      "id": "programming-cs-medium-02-13",
+      "text": "Jak se nazývá zmenšení množství dat potřebných pro uložení nebo přenos souboru, které může být bezeztrátové i ztrátové?",
+      "initial": "K",
+      "answer": "Komprese",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Komprimace",
+        "Komprese dat",
+        "Stlačování dat",
+        "Compression"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Data_compression"]
+    },
+    {
+      "id": "programming-cs-medium-02-14",
+      "text": "Jak se nazývá právní oprávnění stanovující, za jakých podmínek můžete program používat, případně měnit a šířit?",
+      "initial": "L",
+      "answer": "Licence",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Softwarová licence", "License"],
+      "sources": ["https://en.wikipedia.org/wiki/Software_license"]
+    },
+    {
+      "id": "programming-cs-medium-02-15",
+      "text": "Jak se nazývá zaznamenaná nebo napsaná posloupnost příkazů, která v kancelářské aplikaci automatizuje opakovanou práci?",
+      "initial": "M",
+      "answer": "Makro",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Macro"],
+      "sources": ["https://en.wikipedia.org/wiki/Macro_(computer_science)"]
+    },
+    {
+      "id": "programming-cs-medium-02-16",
+      "text": "Jak se nazývá výpočetní model složený z propojených umělých neuronů, jehož váhy se mohou upravovat při učení z dat?",
+      "initial": "N",
+      "answer": "Neuronová síť",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Umělá neuronová síť",
+        "Neural network",
+        "Artificial neural network"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
+      ]
+    },
+    {
+      "id": "programming-cs-medium-02-17",
+      "text": "Jak se označuje software, jehož licence dovoluje uživatelům prohlížet, upravovat a dále šířit jeho zdrojový kód?",
+      "initial": "O",
+      "answer": "Open source",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Open-source software",
+        "Otevřený software",
+        "Software s otevřeným zdrojovým kódem"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Open-source_software"]
+    },
+    {
+      "id": "programming-cs-medium-02-18",
+      "text": "Jakou zkratku má formát dokumentů vyvinutý firmou Adobe, určený k zachování jejich vzhledu napříč zařízeními?",
+      "initial": "P",
+      "answer": "PDF",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Portable Document Format"],
+      "sources": ["https://en.wikipedia.org/wiki/PDF"]
+    },
+    {
+      "id": "programming-cs-medium-02-19",
+      "text": "Jak se nazývá vlastnost digitálního obrázku, která se běžně vyjadřuje počtem obrazových bodů na šířku a výšku, například 1920 × 1080?",
+      "initial": "R",
+      "answer": "Rozlišení",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Rozlišení obrazu", "Image resolution"],
+      "sources": ["https://en.wikipedia.org/wiki/Image_resolution"]
+    },
+    {
+      "id": "programming-cs-medium-02-20",
+      "text": "Jak se v textovém editoru nazývá nastavení svislé vzdálenosti mezi řádky textu, například jednoduché nebo dvojité?",
+      "initial": "Ř",
+      "answer": "Řádkování",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Meziřádkový proklad", "Proklad", "Line spacing"],
+      "sources": ["https://en.wikipedia.org/wiki/Leading"]
+    },
+    {
+      "id": "programming-cs-medium-02-21",
+      "text": "Jak se běžně nazývají nevyžádané hromadně rozesílané elektronické zprávy, které poštovní programy filtrují?",
+      "initial": "S",
+      "answer": "Spam",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Nevyžádaná pošta", "Nevyžádaná hromadná pošta", "Junk mail"],
+      "sources": ["https://en.wikipedia.org/wiki/Email_spam"]
+    },
+    {
+      "id": "programming-cs-medium-02-22",
+      "text": "Který pojem se u datového připojení běžně používá pro jeho maximální přenosovou kapacitu, například v megabitech za sekundu?",
+      "initial": "Š",
+      "answer": "Šířka pásma",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Přenosová kapacita", "Bandwidth"],
+      "sources": ["https://en.wikipedia.org/wiki/Bandwidth_(computing)"]
+    },
+    {
+      "id": "programming-cs-medium-02-23",
+      "text": "Jak se nazývá škodlivý program, který uživatele klame tím, že se tváří jako užitečný nebo neškodný software?",
+      "initial": "T",
+      "answer": "Trojský kůň",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Trojský program", "Trojan", "Trojan horse"],
+      "sources": ["https://en.wikipedia.org/wiki/Trojan_horse_(computing)"]
+    },
+    {
+      "id": "programming-cs-medium-02-24",
+      "text": "Jak se nazývá oblast informatiky zabývající se systémy, které zvládají úlohy jako rozpoznávání řeči, učení a rozhodování?",
+      "initial": "U",
+      "answer": "Umělá inteligence",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["AI", "Artificial intelligence"],
+      "sources": ["https://en.wikipedia.org/wiki/Artificial_intelligence"]
+    },
+    {
+      "id": "programming-cs-medium-02-25",
+      "text": "Jak se nazývá rychlé dočasné úložiště, v němž program uchovává kopie dat, aby je příště nemusel znovu pomalu získávat?",
+      "initial": "V",
+      "answer": "Vyrovnávací paměť",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Cache", "Keš", "Cache memory", "Mezipaměť"],
+      "sources": ["https://en.wikipedia.org/wiki/Cache_(computing)"]
+    },
+    {
+      "id": "programming-cs-medium-02-26",
+      "text": "Jakou anglickou zkratkou se označuje editor, v němž se upravovaný dokument na obrazovce podobá výslednému vytištěnému nebo publikovanému vzhledu?",
+      "initial": "W",
+      "answer": "WYSIWYG",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["What You See Is What You Get"],
+      "sources": ["https://en.wikipedia.org/wiki/WYSIWYG"]
+    },
+    {
+      "id": "programming-cs-medium-02-27",
+      "text": "Jak se nazývá oprava softwaru určená například k odstranění konkrétní chyby nebo bezpečnostní slabiny?",
+      "initial": "Z",
+      "answer": "Záplata",
+      "language": "cs",
+      "category": "programming",
+      "aliases": ["Patch", "Softwarová záplata", "Opravný balíček"],
+      "sources": ["https://en.wikipedia.org/wiki/Patch_(computing)"]
+    },
+    {
+      "id": "programming-cs-medium-02-28",
+      "text": "Jak se nazývá sled etap vývoje a provozu programu od požadavků přes návrh, tvorbu a údržbu až po jeho vyřazení?",
+      "initial": "Ž",
+      "answer": "Životní cyklus softwaru",
+      "language": "cs",
+      "category": "programming",
+      "aliases": [
+        "Životní cyklus programu",
+        "Životní cyklus aplikace",
+        "Software life cycle",
+        "SDLC"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Systems_development_life_cycle"
+      ]
+    }
+  ]
+}

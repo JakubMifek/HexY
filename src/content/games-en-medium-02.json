@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 2,
+  "id": "games-en-medium-02",
+  "title": "Games · Medium · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "games-en-medium-02-01",
+      "text": "Which Nintendo game series has players live alongside animal residents, decorate homes and interact with Tom Nook?",
+      "initial": "A",
+      "answer": "Animal Crossing",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Animal_Crossing"]
+    },
+    {
+      "id": "games-en-medium-02-02",
+      "text": "Which trick-taking card game for four players in two partnerships has an auction to determine the contract?",
+      "initial": "B",
+      "answer": "Bridge",
+      "language": "en",
+      "aliases": ["Contract bridge"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Contract_bridge"]
+    },
+    {
+      "id": "games-en-medium-02-03",
+      "text": "Which special chess move moves both the king and a rook in a single turn?",
+      "initial": "C",
+      "answer": "Castling",
+      "language": "en",
+      "aliases": ["Castle"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Castling"]
+    },
+    {
+      "id": "games-en-medium-02-04",
+      "text": "Which ancient Indian strategy game is widely regarded as a precursor of chess?",
+      "initial": "CH",
+      "answer": "Chaturanga",
+      "language": "en",
+      "aliases": ["Caturanga"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Chaturanga"]
+    },
+    {
+      "id": "games-en-medium-02-05",
+      "text": "What is the usual term for a complete set of playing cards prepared for dealing?",
+      "initial": "D",
+      "answer": "Deck",
+      "language": "en",
+      "aliases": ["Pack", "Deck of cards", "Pack of cards"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Deck_%28cards%29"]
+    },
+    {
+      "id": "games-en-medium-02-06",
+      "text": "Which dragon boss awaits Minecraft players in the End dimension?",
+      "initial": "E",
+      "answer": "Ender Dragon",
+      "language": "en",
+      "aliases": ["Enderdragon"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Ender_Dragon"]
+    },
+    {
+      "id": "games-en-medium-02-07",
+      "text": "Which role-playing game series features Vault-Tec shelters and a retrofuturistic world after nuclear war?",
+      "initial": "F",
+      "answer": "Fallout",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Fallout_(franchise)"]
+    },
+    {
+      "id": "games-en-medium-02-08",
+      "text": "Which artificial intelligence supervises the tests and taunts the player in Portal?",
+      "initial": "G",
+      "answer": "GLaDOS",
+      "language": "en",
+      "aliases": ["Genetic Lifeform and Disk Operating System"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/GLaDOS"]
+    },
+    {
+      "id": "games-en-medium-02-09",
+      "text": "Which stealth-game franchise stars the contract killer Agent 47?",
+      "initial": "H",
+      "answer": "Hitman",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Hitman_%28franchise%29"]
+    },
+    {
+      "id": "games-en-medium-02-10",
+      "text": "In tabletop role-playing combat, what term usually determines the order in which participants act?",
+      "initial": "I",
+      "answer": "Initiative",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Initiative_%28role-playing_games%29"
+      ]
+    },
+    {
+      "id": "games-en-medium-02-11",
+      "text": "Which series of digital party-game compilations lets players use their phones as controllers and includes Quiplash?",
+      "initial": "J",
+      "answer": "Jackbox",
+      "language": "en",
+      "aliases": ["The Jackbox Party Pack", "Jackbox Party Pack"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/The_Jackbox_Party_Pack"]
+    },
+    {
+      "id": "games-en-medium-02-12",
+      "text": "Which turtle-like enemies in the Mario games often leave a shell behind when jumped on?",
+      "initial": "K",
+      "answer": "Koopa Troopa",
+      "language": "en",
+      "aliases": ["Koopa", "Koopas", "Koopa Troopas"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Koopa_Troopa"]
+    },
+    {
+      "id": "games-en-medium-02-13",
+      "text": "Which Riot Games multiplayer battle arena has teams of champions try to destroy the opposing Nexus?",
+      "initial": "L",
+      "answer": "League of Legends",
+      "language": "en",
+      "aliases": ["LoL", "League"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/League_of_Legends"]
+    },
+    {
+      "id": "games-en-medium-02-14",
+      "text": "Which Richard Garfield game launched in 1993 and helped establish the trading card game genre?",
+      "initial": "M",
+      "answer": "Magic: The Gathering",
+      "language": "en",
+      "aliases": ["Magic the Gathering", "MTG", "Magic"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Magic%3A_The_Gathering"]
+    },
+    {
+      "id": "games-en-medium-02-15",
+      "text": "What term describes a role-playing character controlled by the game master or computer rather than by a player?",
+      "initial": "N",
+      "answer": "Non-player character",
+      "language": "en",
+      "aliases": ["NPC", "Nonplayer character", "Non player character"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Non-player_character"]
+    },
+    {
+      "id": "games-en-medium-02-16",
+      "text": "What game-design term describes an environment players can explore relatively freely instead of following only a fixed sequence of levels?",
+      "initial": "O",
+      "answer": "Open world",
+      "language": "en",
+      "aliases": [
+        "Open-world",
+        "Free-roaming",
+        "Free roaming",
+        "Free roam",
+        "Free-roam"
+      ],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Open_world"]
+    },
+    {
+      "id": "games-en-medium-02-17",
+      "text": "Which Valve puzzle game equips Chell with a gun that links two places through paired portals?",
+      "initial": "P",
+      "answer": "Portal",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Portal_%28video_game%29"]
+    },
+    {
+      "id": "games-en-medium-02-18",
+      "text": "What is the usual role-playing-game term for an assigned task, often rewarded on completion?",
+      "initial": "Q",
+      "answer": "Quest",
+      "language": "en",
+      "aliases": ["Mission"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Quest_%28video_games%29"]
+    },
+    {
+      "id": "games-en-medium-02-19",
+      "text": "What is the usual gaming term for returning a defeated character to play at a designated location?",
+      "initial": "R",
+      "answer": "Respawn",
+      "language": "en",
+      "aliases": ["Respawning", "Re-spawn"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Spawning_%28video_games%29"]
+    },
+    {
+      "id": "games-en-medium-02-20",
+      "text": "Which Eric Barone game begins with the player inheriting a neglected farm from their grandfather?",
+      "initial": "S",
+      "answer": "Stardew Valley",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Stardew_Valley"]
+    },
+    {
+      "id": "games-en-medium-02-21",
+      "text": "Which Yacht Club Games platformer stars an armoured hero who uses a shovel as both weapon and tool?",
+      "initial": "SH",
+      "answer": "Shovel Knight",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Shovel_Knight"]
+    },
+    {
+      "id": "games-en-medium-02-22",
+      "text": "Which Jacob Fryxelius board game has corporations work to raise Mars's temperature, oxygen level and ocean coverage?",
+      "initial": "T",
+      "answer": "Terraforming Mars",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Terraforming_Mars_%28board_game%29"
+      ]
+    },
+    {
+      "id": "games-en-medium-02-23",
+      "text": "Which game engine shares its name with a word for togetherness and is widely used to create both 2D and 3D games?",
+      "initial": "U",
+      "answer": "Unity",
+      "language": "en",
+      "aliases": ["Unity engine"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Unity_%28game_engine%29"]
+    },
+    {
+      "id": "games-en-medium-02-24",
+      "text": "What is the common board-game term for scoring units accumulated toward determining the winner?",
+      "initial": "V",
+      "answer": "Victory points",
+      "language": "en",
+      "aliases": ["Victory point", "VP", "Points", "Point"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Catan"]
+    },
+    {
+      "id": "games-en-medium-02-25",
+      "text": "Which Elizabeth Hargrave board game has players attract birds to habitats in a wildlife preserve?",
+      "initial": "W",
+      "answer": "Wingspan",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Wingspan_%28board_game%29"]
+    },
+    {
+      "id": "games-en-medium-02-26",
+      "text": "What points-based measure of an RPG character's progress, earned through quests and battles, is used to gain levels?",
+      "initial": "X",
+      "answer": "XP",
+      "language": "en",
+      "aliases": ["Experience points", "Experience point", "EXP", "Experience"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Experience_point"]
+    },
+    {
+      "id": "games-en-medium-02-27",
+      "text": "Which Sega action-adventure series long followed Kazuma Kiryu through Japan's criminal underworld?",
+      "initial": "Y",
+      "answer": "Yakuza",
+      "language": "en",
+      "aliases": ["Like a Dragon", "Ryū ga Gotoku"],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Yakuza_%28franchise%29"]
+    },
+    {
+      "id": "games-en-medium-02-28",
+      "text": "What chess term describes a position in which having to move makes a player's situation worse?",
+      "initial": "Z",
+      "answer": "Zugzwang",
+      "language": "en",
+      "aliases": [],
+      "category": "games",
+      "sources": ["https://en.wikipedia.org/wiki/Zugzwang"]
+    }
+  ]
+}

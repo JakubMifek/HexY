@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-cs-hard-01",
+  "title": "Umění a literatura · Těžká · 01",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-cs-hard-01-01",
+      "text": "Jak se nazývá řečnická figura, při níž mluvčí náhle přeruší větu a její dokončení nechá nevyřčené?",
+      "initial": "A",
+      "answer": "Apoziopeze",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["aposiopese", "aposiopéze", "aposiopesis"],
+      "sources": ["https://en.wikipedia.org/wiki/Aposiopesis"]
+    },
+    {
+      "id": "arts-cs-hard-01-02",
+      "text": "Jak se nazývá měšťanský styl bydlení a umění střední Evropy spojovaný s obdobím mezi vídeňským kongresem a rokem 1848?",
+      "initial": "B",
+      "answer": "Biedermeier",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["biedermaier"],
+      "sources": ["https://en.wikipedia.org/wiki/Biedermeier"]
+    },
+    {
+      "id": "arts-cs-hard-01-03",
+      "text": "Který italský malíř sepsal příručku o malířských postupech známou jako Il libro dell'arte?",
+      "initial": "C",
+      "answer": "Cennini",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Cennino Cennini", "Cennino d'Andrea Cennini"],
+      "sources": ["https://en.wikipedia.org/wiki/Cennino_Cennini"]
+    },
+    {
+      "id": "arts-cs-hard-01-04",
+      "text": "Který český básník vydal roku 1829 Ohlas písní ruských?",
+      "initial": "Č",
+      "answer": "Čelakovský",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["František Ladislav Čelakovský"],
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Franti%C5%A1ek_Ladislav_%C4%8Celakovsk%C3%BD"
+      ]
+    },
+    {
+      "id": "arts-cs-hard-01-05",
+      "text": "Jak se nazývá avantgardní hnutí spojené s curyšským Cabaretem Voltaire a odmítáním válečné civilizace za první světové války?",
+      "initial": "D",
+      "answer": "Dadaismus",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["dada"],
+      "sources": ["https://en.wikipedia.org/wiki/Dada"]
+    },
+    {
+      "id": "arts-cs-hard-01-06",
+      "text": "Jaký řecký termín užívá literární věda pro krátký epický příběh v básnické podobě, často s mytologickým námětem?",
+      "initial": "E",
+      "answer": "Epyllion",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["epyllium"],
+      "sources": ["https://en.wikipedia.org/wiki/Epyllion"]
+    },
+    {
+      "id": "arts-cs-hard-01-07",
+      "text": "Jak se nazývá pórovitá keramika s neprůhlednou glazurou obsahující oxid cínu, pojmenovaná podle italské Faenzy?",
+      "initial": "F",
+      "answer": "Fajáns",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["fajánse", "fajance", "faience"],
+      "sources": ["https://en.wikipedia.org/wiki/Faience"]
+    },
+    {
+      "id": "arts-cs-hard-01-08",
+      "text": "Jak se francouzským termínem nazývá malba provedená v odstínech šedi, často napodobující sochařský reliéf?",
+      "initial": "G",
+      "answer": "Grisaille",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["grizaj"],
+      "sources": ["https://en.wikipedia.org/wiki/Grisaille"]
+    },
+    {
+      "id": "arts-cs-hard-01-09",
+      "text": "Jak se nazývá figura, která gramaticky připojí přívlastek k jinému slovu, než ke kterému významově patří, jako ve spojení „bezesná noc“?",
+      "initial": "H",
+      "answer": "Hypallage",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["přenesený přívlastek"],
+      "sources": ["https://en.wikipedia.org/wiki/Hypallage"]
+    },
+    {
+      "id": "arts-cs-hard-01-10",
+      "text": "Jakým italským termínem označujeme výrazný kontrast světla a tmy v malbě či kresbě?",
+      "initial": "Ch",
+      "answer": "Chiaroscuro",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["šerosvit"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/c/chiaroscuro"]
+    },
+    {
+      "id": "arts-cs-hard-01-11",
+      "text": "Jak se nazývá malířský postup, při němž silná vrstva barvy zachovává výraznou strukturu a viditelné tahy štětce?",
+      "initial": "I",
+      "answer": "Impasto",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://www.tate.org.uk/art/art-terms/i/impasto"]
+    },
+    {
+      "id": "arts-cs-hard-01-12",
+      "text": "Jak se nazývá evropský zájem o japonské umění a jeho vliv na západní výtvarnou tvorbu druhé poloviny 19. století?",
+      "initial": "J",
+      "answer": "Japonismus",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["japonism", "japonisme"],
+      "sources": ["https://en.wikipedia.org/wiki/Japonisme"]
+    },
+    {
+      "id": "arts-cs-hard-01-13",
+      "text": "Jak se nazývá postoj sochy, při kterém váha spočívá převážně na jedné noze a osy boků a ramen se vyvažují opačným sklonem?",
+      "initial": "K",
+      "answer": "Kontrapost",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["contrapposto"],
+      "sources": ["https://en.wikipedia.org/wiki/Contrapposto"]
+    },
+    {
+      "id": "arts-cs-hard-01-14",
+      "text": "Jak se nazývá plochý svislý pás vystupující z fasády, podobný pilastru, ale bez hlavice a patky?",
+      "initial": "L",
+      "answer": "Liséna",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["leséna"],
+      "sources": ["https://en.wikipedia.org/wiki/Lesene"]
+    },
+    {
+      "id": "arts-cs-hard-01-15",
+      "text": "Jaká hlubotisková technika vytváří odstíny vyhlazováním původně celoplošně zdrsněné kovové desky?",
+      "initial": "M",
+      "answer": "Mezzotinta",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["mezzotinto", "mezzotint"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/m/mezzotint"]
+    },
+    {
+      "id": "arts-cs-hard-01-16",
+      "text": "Jak se nazývá vstupní předsíň raně křesťanského či byzantského chrámu, oddělená od hlavní lodi?",
+      "initial": "N",
+      "answer": "Narthex",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["narthexová předsíň", "Nartex"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Narthex",
+        "https://cs.wikipedia.org/wiki/Nartex"
+      ]
+    },
+    {
+      "id": "arts-cs-hard-01-17",
+      "text": "Jak se jmenuje záhadná bytost připomínající cívku s nitěmi v Kafkově povídce Starost hlavy rodiny?",
+      "initial": "O",
+      "answer": "Odradek",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/The_Cares_of_a_Family_Man"]
+    },
+    {
+      "id": "arts-cs-hard-01-18",
+      "text": "Jak se nazývá nízký spodní pás oltářního nástavce, často členěný do menších vyprávěcích obrazů?",
+      "initial": "P",
+      "answer": "Predela",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["predella"],
+      "sources": ["https://en.wikipedia.org/wiki/Predella"]
+    },
+    {
+      "id": "arts-cs-hard-01-19",
+      "text": "Jaký francouzský název má kovotepecký postup vytvářející reliéf vyklepáváním plechu z rubové strany?",
+      "initial": "R",
+      "answer": "Repoussé",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["repoussage", "tepání z rubu"],
+      "sources": ["https://en.wikipedia.org/wiki/Repouss%C3%A9_and_chasing"]
+    },
+    {
+      "id": "arts-cs-hard-01-20",
+      "text": "Jak se nazývá způsob rýmování, při němž se rým přenáší z jedné sloky do následující, jako v uspořádání ABA BCB CDC?",
+      "initial": "Ř",
+      "answer": "Řetězový rým",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["řetězové rýmování", "chain rhyme"],
+      "sources": ["https://en.wikipedia.org/wiki/Chain_rhyme"]
+    },
+    {
+      "id": "arts-cs-hard-01-21",
+      "text": "Jak se nazývá abstraktní směr Kazimira Maleviče, jehož symbolem se stal Černý čtverec?",
+      "initial": "S",
+      "answer": "Suprematismus",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://www.tate.org.uk/art/art-terms/s/suprematism"]
+    },
+    {
+      "id": "arts-cs-hard-01-22",
+      "text": "Který ruský formalista formuloval pojem ozvláštnění v eseji Umění jako postup?",
+      "initial": "Š",
+      "answer": "Šklovskij",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [
+        "Viktor Šklovskij",
+        "Viktor Borisovič Šklovskij",
+        "Shklovsky",
+        "Viktor Shklovsky"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Viktor_Shklovsky"]
+    },
+    {
+      "id": "arts-cs-hard-01-23",
+      "text": "Jak se nazývá malířský postup, který má diváka oklamat zdáním skutečných předmětů či prostoru?",
+      "initial": "T",
+      "answer": "Trompe-l'œil",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [
+        "trompe l'oeil",
+        "trompe-l'oeil",
+        "trompe l’œil",
+        "iluzivní malba"
+      ],
+      "sources": ["https://www.tate.org.uk/art/art-terms/t/trompe-loeil"]
+    },
+    {
+      "id": "arts-cs-hard-01-24",
+      "text": "Podle kterého západotureckého města se označují tradiční vázané koberce známé také jako usacké či ušacké?",
+      "initial": "U",
+      "answer": "Ušak",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["ushak", "oushak"],
+      "sources": ["https://en.wikipedia.org/wiki/U%C5%9Fak_carpet"]
+    },
+    {
+      "id": "arts-cs-hard-01-25",
+      "text": "Jak se nazývá detailní výtvarný pohled na město nebo jinou rozlehlou scenérii, žánr spojovaný například s Canalettem?",
+      "initial": "V",
+      "answer": "Veduta",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Veduta"]
+    },
+    {
+      "id": "arts-cs-hard-01-26",
+      "text": "Který francouzský malíř vytvořil roku 1717 obraz Pouť na ostrov Kythéru, spojený s žánrem fête galante?",
+      "initial": "W",
+      "answer": "Watteau",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Antoine Watteau", "Jean-Antoine Watteau"],
+      "sources": ["https://en.wikipedia.org/wiki/Pilgrimage_to_Cythera"]
+    },
+    {
+      "id": "arts-cs-hard-01-27",
+      "text": "Jaký řecký termín označuje figuru, v níž jeden výraz řídí dvě větná spojení v rozdílném smyslu, například „ztratil klíče i trpělivost“?",
+      "initial": "Z",
+      "answer": "Zeugma",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["syllepse", "syllepsis"],
+      "sources": ["https://en.wikipedia.org/wiki/Zeugma_and_syllepsis"]
+    },
+    {
+      "id": "arts-cs-hard-01-28",
+      "text": "Jak se nazývá klenba, jejíž plochy jsou členěny vystupujícími oblouky, typická pro gotickou architekturu?",
+      "initial": "Ž",
+      "answer": "Žebrová klenba",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["žebrová křížová klenba", "křížová žebrová klenba"],
+      "sources": ["https://en.wikipedia.org/wiki/Rib_vault"]
+    }
+  ]
+}

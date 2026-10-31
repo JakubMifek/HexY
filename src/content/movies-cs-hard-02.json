@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "movies-cs-hard-02",
+  "title": "Filmy a seriály · Těžká 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-cs-hard-02-01",
+      "text": "Který seriál Donalda Glovera sleduje hudebního manažera Earna a rappera Paper Boie?",
+      "answer": "Atlanta",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "A",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Atlanta_(seri%C3%A1l)",
+        "https://en.wikipedia.org/wiki/Atlanta_%28TV_series%29"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-02",
+      "text": "Který německý seriál sleduje komisaře Gereona Ratha a Charlotte Ritterovou v Berlíně na konci dvacátých let?",
+      "answer": "Babylon Berlín",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "B",
+      "sources": ["https://cs.wikipedia.org/wiki/Babylon_Berl%C3%ADn"]
+    },
+    {
+      "id": "movies-cs-hard-02-03",
+      "text": "Který seriál HBO zasazený do třicátých let propojuje kočovný lunapark s kazatelem Justinem Crowem?",
+      "answer": "Carnivàle",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "C",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Carnivale",
+        "https://en.wikipedia.org/wiki/Carniv%C3%A0le"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-04",
+      "text": "Který film Emira Kusturici z roku 1998 sleduje pašeráka Matka a sňatkové plány v romské komunitě u Dunaje?",
+      "answer": "Černá kočka, bílý kocour",
+      "language": "cs",
+      "aliases": [
+        "Crna mačka, beli mačor",
+        "Black Cat, White Cat",
+        "Černá kočka bílý kocour",
+        "Crna mačka beli mačor",
+        "Black Cat White Cat"
+      ],
+      "category": "movies",
+      "initial": "Č",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cern%C3%A1_ko%C4%8Dka,_b%C3%ADl%C3%BD_kocour",
+        "https://en.wikipedia.org/wiki/Black_Cat%2C_White_Cat"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-05",
+      "text": "Jak se jmenuje desetidílný televizní cyklus Krzysztofa Kieślowského, volně inspirovaný Desaterem?",
+      "answer": "Dekalog",
+      "language": "cs",
+      "aliases": [
+        "The Decalogue",
+        "Decalogue",
+        "Dekalog: The Ten Commandments",
+        "Dekalog:The Ten Commandments"
+      ],
+      "category": "movies",
+      "initial": "D",
+      "sources": ["https://en.wikipedia.org/wiki/Dekalog"]
+    },
+    {
+      "id": "movies-cs-hard-02-06",
+      "text": "Který anime seriál Hideakiho Anna z roku 1995 sleduje Šindžiho Ikariho, jenž pilotuje jednotku organizace NERV?",
+      "answer": "Evangelion",
+      "language": "cs",
+      "aliases": [
+        "Neon Genesis Evangelion",
+        "Shin Seiki Evangelion",
+        "Shin Seiki Evangerion",
+        "Šinseiki Evangerion",
+        "NGE",
+        "Eva"
+      ],
+      "category": "movies",
+      "initial": "E",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Neon_Genesis_Evangelion",
+        "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-07",
+      "text": "Které Bergmanovo dílo, známé ve filmové i televizní verzi, sleduje sourozence Ekdahlovy po smrti jejich otce a sňatku matky s biskupem?",
+      "answer": "Fanny a Alexandr",
+      "language": "cs",
+      "aliases": ["Fanny and Alexander", "Fanny och Alexander"],
+      "category": "movies",
+      "initial": "F",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Fanny_a_Alexandr",
+        "https://en.wikipedia.org/wiki/Fanny_and_Alexander"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-08",
+      "text": "Jaké příjmení má Jean-Luc, režisér filmu Bande à part z roku 1964?",
+      "answer": "Godard",
+      "language": "cs",
+      "aliases": ["Jean-Luc Godard"],
+      "category": "movies",
+      "initial": "G",
+      "sources": ["https://en.wikipedia.org/wiki/Band_of_Outsiders"]
+    },
+    {
+      "id": "movies-cs-hard-02-09",
+      "text": "Který jedenáctidílný televizní cyklus Edgara Reitze z roku 1984 sleduje Marii Simonovou a její rodinu ve vesnici Schabbach?",
+      "answer": "Heimat",
+      "language": "cs",
+      "aliases": [
+        "Heimat – Eine deutsche Chronik",
+        "Heimat - Eine deutsche Chronik",
+        "Heimat: Eine deutsche Chronik"
+      ],
+      "category": "movies",
+      "initial": "H",
+      "sources": ["https://en.wikipedia.org/wiki/Heimat_%28film_series%29"]
+    },
+    {
+      "id": "movies-cs-hard-02-10",
+      "text": "Jaké příjmení má Věra, režisérka filmu Sedmikrásky z roku 1966?",
+      "answer": "Chytilová",
+      "language": "cs",
+      "aliases": ["Věra Chytilová"],
+      "category": "movies",
+      "initial": "Ch",
+      "sources": ["https://cs.wikipedia.org/wiki/Sedmikr%C3%A1sky"]
+    },
+    {
+      "id": "movies-cs-hard-02-11",
+      "text": "Který československý sci-fi film Jindřicha Poláka z roku 1963 sleduje mezihvězdnou výpravu k Alfě Centauri?",
+      "answer": "Ikarie XB 1",
+      "language": "cs",
+      "aliases": [
+        "Ikarie XB-1",
+        "Ikarie XB1",
+        "Voyage to the End of the Universe"
+      ],
+      "category": "movies",
+      "initial": "I",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ikarie_XB_1",
+        "https://en.wikipedia.org/wiki/Ikarie_XB-1"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-12",
+      "text": "Jaké příjmení má Alejandro, režisér surrealistického filmu Svatá hora z roku 1973?",
+      "answer": "Jodorowsky",
+      "language": "cs",
+      "aliases": [
+        "Alejandro Jodorowsky",
+        "Alejandro Jodorowsky Prullansky",
+        "Jodorowsky Prullansky"
+      ],
+      "category": "movies",
+      "initial": "J",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Alejandro_Jodorowsky",
+        "https://en.wikipedia.org/wiki/The_Holy_Mountain_%281973_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-13",
+      "text": "Jaké příjmení má Krzysztof, režisér filmové trilogie Tři barvy?",
+      "answer": "Kieślowski",
+      "language": "cs",
+      "aliases": ["Krzysztof Kieślowski"],
+      "category": "movies",
+      "initial": "K",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Krzysztof_Kie%C5%9Blowski",
+        "https://en.wikipedia.org/wiki/Three_Colours_trilogy"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-14",
+      "text": "Který krátký film Chrise Markera z roku 1962 vypráví příběh cestování v čase téměř výhradně pomocí nehybných fotografií?",
+      "answer": "La Jetée",
+      "language": "cs",
+      "aliases": ["Rampa", "Jetée"],
+      "category": "movies",
+      "initial": "L",
+      "sources": [
+        "https://en.wikipedia.org/wiki/La_Jet%C3%A9e",
+        "https://www.themoviedb.org/movie/662?language=cs-CZ",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q451434.json"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-15",
+      "text": "Ve kterém Lynchově filmu z roku 2001 se začínající herečka Betty v Los Angeles setká se ženou bez paměti, která si říká Rita?",
+      "answer": "Mulholland Drive",
+      "language": "cs",
+      "aliases": ["Mulholland Dr.", "Mulholland Dr"],
+      "category": "movies",
+      "initial": "M",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Mulholland_Drive_%28film%29",
+        "https://en.wikipedia.org/wiki/Mulholland_Drive_%28film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-16",
+      "text": "Který Truffautův film z roku 1959 poprvé uvedl postavu Antoina Doinela hraného Jeanem-Pierrem Léaudem?",
+      "answer": "Nikdo mě nemá rád",
+      "language": "cs",
+      "aliases": ["Les Quatre Cents Coups", "The 400 Blows", "Čtyři sta ran"],
+      "category": "movies",
+      "initial": "N",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Nikdo_m%C4%9B_nem%C3%A1_r%C3%A1d_(film,_1959)",
+        "https://en.wikipedia.org/wiki/The_400_Blows"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-17",
+      "text": "Který film Sally Potterové z roku 1992 má Tildu Swintonovou v titulní roli postavy, která prochází staletími a změní pohlaví?",
+      "answer": "Orlando",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "O",
+      "sources": ["https://en.wikipedia.org/wiki/Orlando_%28film%29"]
+    },
+    {
+      "id": "movies-cs-hard-02-18",
+      "text": "Který film Radima Špačka z roku 2010 sleduje příslušníka StB Antonína a jeho posedlost Klárou?",
+      "answer": "Pouta",
+      "language": "cs",
+      "aliases": ["Walking Too Fast"],
+      "category": "movies",
+      "initial": "P",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walking_Too_Fast",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q3500184.json"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-19",
+      "text": "Který von Trierův seriál se odehrává v kodaňské nemocnici, v níž se dějí nadpřirozené události?",
+      "answer": "Riget",
+      "language": "cs",
+      "aliases": ["The Kingdom", "Království"],
+      "category": "movies",
+      "initial": "R",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Kr%C3%A1lovstv%C3%AD_(seri%C3%A1l,_1994)",
+        "https://en.wikipedia.org/wiki/The_Kingdom_%28miniseries%29"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-20",
+      "text": "Který Chabrolův film z roku 1970 sleduje učitelku Hélène a řezníka Popaula na pozadí série vražd?",
+      "answer": "Řezník",
+      "language": "cs",
+      "aliases": ["Le Boucher", "The Butcher", "Butcher"],
+      "category": "movies",
+      "initial": "Ř",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Le_Boucher",
+        "https://www.themoviedb.org/movie/2912?language=cs-CZ",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q1196689.json"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-21",
+      "text": "Který Tarkovského film z roku 1979 sleduje průvodce, Spisovatele a Profesora na cestě nebezpečnou Zónou k tajemné Místnosti?",
+      "answer": "Stalker",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "S",
+      "sources": ["https://en.wikipedia.org/wiki/Stalker_%281979_film%29"]
+    },
+    {
+      "id": "movies-cs-hard-02-22",
+      "text": "Jak se jmenuje více než devítihodinový dokument Clauda Lanzmanna z roku 1985 o holokaustu, postavený na rozhovorech a záběrech míst namísto archivních záběrů?",
+      "answer": "Šoa",
+      "language": "cs",
+      "aliases": ["Shoah"],
+      "category": "movies",
+      "initial": "Š",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shoah_%28film%29",
+        "https://www.fdb.cz/film/54277-soa"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-23",
+      "text": "Který seriál Davida Simona a Erica Overmyera sleduje obyvatele New Orleans po hurikánu Katrina?",
+      "answer": "Treme",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "T",
+      "sources": ["https://en.wikipedia.org/wiki/Treme_%28TV_series%29"]
+    },
+    {
+      "id": "movies-cs-hard-02-24",
+      "text": "Který film Nikity Michalkova z roku 1994 sleduje velitele Kotova a jeho rodinu v době stalinských čistek?",
+      "answer": "Unaveni sluncem",
+      "language": "cs",
+      "aliases": [
+        "Burnt by the Sun",
+        "Utomlyonnye solntsem",
+        "Utomljonnyje solncem"
+      ],
+      "category": "movies",
+      "initial": "U",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Unaveni_sluncem",
+        "https://en.wikipedia.org/wiki/Burnt_by_the_Sun"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-25",
+      "text": "Který film Karla Zemana z roku 1958 kombinuje živé herce s animací ve stylu starých verneovských ilustrací?",
+      "answer": "Vynález zkázy",
+      "language": "cs",
+      "aliases": [
+        "Invention for Destruction",
+        "The Fabulous World of Jules Verne"
+      ],
+      "category": "movies",
+      "initial": "V",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Vyn%C3%A1lez_zk%C3%A1zy_(film)",
+        "https://en.wikipedia.org/wiki/Invention_for_Destruction"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-26",
+      "text": "Který film Lucíi Puenzové z roku 2013 sleduje Josefa Mengeleho pod falešnou identitou v argentinské Patagonii?",
+      "answer": "Wakolda",
+      "language": "cs",
+      "aliases": [
+        "The German Doctor",
+        "German Doctor",
+        "Německý lékař",
+        "Německý doktor Wakolda",
+        "El médico alemán"
+      ],
+      "category": "movies",
+      "initial": "W",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_German_Doctor",
+        "https://www.fdb.cz/film/113871-nemecky-doktor-wakolda"
+      ]
+    },
+    {
+      "id": "movies-cs-hard-02-27",
+      "text": "Který film Lucrecie Martelové z roku 2017 sleduje koloniálního úředníka v Jižní Americe, který marně čeká na přeložení?",
+      "answer": "Zama",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "Z",
+      "sources": ["https://en.wikipedia.org/wiki/Zama_%28film%29"]
+    },
+    {
+      "id": "movies-cs-hard-02-28",
+      "text": "Který film Bertranda Taverniera z roku 1989 obsadil Philippa Noireta jako majora Dellaplana, který po první světové válce pomáhá pátrat po pohřešovaných?",
+      "answer": "Život a nic jiného",
+      "language": "cs",
+      "aliases": [
+        "La Vie et rien d'autre",
+        "Life and Nothing But",
+        "La Vie et rien d’autre"
+      ],
+      "category": "movies",
+      "initial": "Ž",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDivot_a_nic_jin%C3%A9ho",
+        "https://en.wikipedia.org/wiki/Life_and_Nothing_But"
+      ]
+    }
+  ]
+}

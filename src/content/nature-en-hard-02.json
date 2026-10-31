@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "nature-en-hard-02",
+  "title": "Nature · Hard 02",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-en-hard-02-01",
+      "initial": "A",
+      "text": "What form of cryptobiosis allows an organism to survive extreme loss of body water in a nearly ametabolic state?",
+      "answer": "Anhydrobiosis",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cryptobiosis"]
+    },
+    {
+      "id": "nature-en-hard-02-02",
+      "initial": "B",
+      "text": "What microscopic spore-bearing structure gives the Basidiomycota their name and typically produces four external sexual spores?",
+      "answer": "Basidium",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Basidium"]
+    },
+    {
+      "id": "nature-en-hard-02-03",
+      "initial": "C",
+      "text": "What fluid-filled body cavity is completely lined by tissue derived from mesoderm?",
+      "answer": "Coelom",
+      "aliases": ["true coelom"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Coelom"]
+    },
+    {
+      "id": "nature-en-hard-02-04",
+      "initial": "CH",
+      "text": "What visible cross-shaped contact between nonsister chromatids of homologous chromosomes is associated with crossing over during meiosis?",
+      "answer": "Chiasma",
+      "aliases": ["chiasmata"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chiasma%20(genetics)"]
+    },
+    {
+      "id": "nature-en-hard-02-05",
+      "initial": "D",
+      "text": "What programmed suspension of development helps many insects survive a predictable adverse season?",
+      "answer": "Diapause",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Diapause"]
+    },
+    {
+      "id": "nature-en-hard-02-06",
+      "initial": "E",
+      "text": "What is the biological term for shedding an arthropod's cuticle during growth?",
+      "answer": "Ecdysis",
+      "aliases": ["moulting", "molting"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ecdysis"]
+    },
+    {
+      "id": "nature-en-hard-02-07",
+      "initial": "F",
+      "text": "What class of plant compounds includes psoralen and can cause skin damage after contact with giant hogweed followed by ultraviolet exposure?",
+      "answer": "Furanocoumarin",
+      "aliases": ["furanocoumarins", "furocoumarin", "furocoumarins"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Furanocoumarin"]
+    },
+    {
+      "id": "nature-en-hard-02-08",
+      "initial": "G",
+      "text": "What is the haploid, gamete-producing generation in a plant's alternation of generations called?",
+      "answer": "Gametophyte",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Gametophyte"]
+    },
+    {
+      "id": "nature-en-hard-02-09",
+      "initial": "H",
+      "text": "What specialised thick-walled cell fixes nitrogen in certain filamentous cyanobacteria?",
+      "answer": "Heterocyst",
+      "aliases": ["heterocyte"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Heterocyst"]
+    },
+    {
+      "id": "nature-en-hard-02-10",
+      "initial": "I",
+      "text": "What commensal relationship involves an organism lodging in another species' nest, burrow or other dwelling?",
+      "answer": "Inquilinism",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Inquiline"]
+    },
+    {
+      "id": "nature-en-hard-02-11",
+      "initial": "J",
+      "text": "What allelopathic compound associated with black walnut trees can inhibit the growth of sensitive neighbouring plants?",
+      "answer": "Juglone",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Juglone"]
+    },
+    {
+      "id": "nature-en-hard-02-12",
+      "initial": "K",
+      "text": "What evolutionary process favours traits that improve relatives' reproductive success, even at a cost to the individual?",
+      "answer": "Kin selection",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kin%20selection"]
+    },
+    {
+      "id": "nature-en-hard-02-13",
+      "initial": "L",
+      "text": "What crown of ciliated tentacles serves as a feeding organ in brachiopods, bryozoans and phoronids?",
+      "answer": "Lophophore",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Lophophore"]
+    },
+    {
+      "id": "nature-en-hard-02-14",
+      "initial": "M",
+      "text": "What form of mimicry occurs when two or more genuinely defended species share similar warning signals?",
+      "answer": "Müllerian mimicry",
+      "aliases": ["Muellerian mimicry"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/M%C3%BCllerian%20mimicry"]
+    },
+    {
+      "id": "nature-en-hard-02-15",
+      "initial": "N",
+      "text": "What flexible supporting rod defines chordates and is present at least during their embryonic development?",
+      "answer": "Notochord",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Notochord"]
+    },
+    {
+      "id": "nature-en-hard-02-16",
+      "initial": "O",
+      "text": "What is the protective capsule in which a cockroach or mantis packages its eggs called?",
+      "answer": "Ootheca",
+      "aliases": ["egg case"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ootheca"]
+    },
+    {
+      "id": "nature-en-hard-02-17",
+      "initial": "P",
+      "text": "What ring of teeth around a moss capsule's opening helps regulate the release of spores?",
+      "answer": "Peristome",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Peristome"]
+    },
+    {
+      "id": "nature-en-hard-02-18",
+      "initial": "Q",
+      "text": "What process lets bacteria coordinate gene expression by detecting population-dependent concentrations of chemical signals?",
+      "answer": "Quorum sensing",
+      "aliases": ["quorum signaling", "quorum signalling"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Quorum%20sensing"]
+    },
+    {
+      "id": "nature-en-hard-02-19",
+      "initial": "R",
+      "text": "What is a closely packed network of blood vessels that can support countercurrent exchange, for example in a fish's swim bladder?",
+      "answer": "Rete mirabile",
+      "aliases": ["retia mirabilia", "wonderful net"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rete%20mirabile"]
+    },
+    {
+      "id": "nature-en-hard-02-20",
+      "initial": "S",
+      "text": "What dense particle in a plant cell helps detect the direction of gravity by settling within the cell?",
+      "answer": "Statolith",
+      "aliases": ["amyloplast"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Statocyte"]
+    },
+    {
+      "id": "nature-en-hard-02-21",
+      "initial": "SH",
+      "text": "What genus in the dipterocarp family includes tropical Asian trees whose timber is traded as meranti?",
+      "answer": "Shorea",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shorea"]
+    },
+    {
+      "id": "nature-en-hard-02-22",
+      "initial": "T",
+      "text": "What is the transfer of food or other fluids between individuals, such as mouth-to-mouth feeding in ants, called?",
+      "answer": "Trophallaxis",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Trophallaxis"]
+    },
+    {
+      "id": "nature-en-hard-02-23",
+      "initial": "U",
+      "text": "What nitrogen-excretion strategy eliminates waste mainly as uric acid, as in birds and many reptiles?",
+      "answer": "Uricotelism",
+      "aliases": ["uric acid excretion"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Uricotelic"]
+    },
+    {
+      "id": "nature-en-hard-02-24",
+      "initial": "V",
+      "text": "What reproductive mode involves giving birth to live young rather than laying eggs?",
+      "answer": "Viviparity",
+      "aliases": ["viviparous reproduction"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Viviparity"]
+    },
+    {
+      "id": "nature-en-hard-02-25",
+      "initial": "W",
+      "text": "What common name is used for Psilotum, a genus of vascular plants lacking true roots and true leaves?",
+      "answer": "Whisk fern",
+      "aliases": ["whisk ferns"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Psilotum"]
+    },
+    {
+      "id": "nature-en-hard-02-26",
+      "initial": "X",
+      "text": "What major group of placental mammals includes armadillos, anteaters and sloths?",
+      "answer": "Xenarthra",
+      "aliases": ["xenarthrans"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xenarthra"]
+    },
+    {
+      "id": "nature-en-hard-02-27",
+      "initial": "Y",
+      "text": "Which bacterial species is the causative agent of plague?",
+      "answer": "Yersinia pestis",
+      "aliases": ["Y. pestis"],
+      "category": "nature",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yersinia%20pestis",
+        "https://www.cdc.gov/plague/about/index.html"
+      ]
+    },
+    {
+      "id": "nature-en-hard-02-28",
+      "initial": "Z",
+      "text": "What diploid resting spore forms after fusion of compatible cells in certain fungi and algae?",
+      "answer": "Zygospore",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zygospore"]
+    }
+  ]
+}

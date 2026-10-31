@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-cs-easy-02",
+  "title": "Umění a literatura · Lehká · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-cs-easy-02-01",
+      "text": "Jak se nazývá pracovna výtvarníka, například malíře nebo sochaře?",
+      "initial": "A",
+      "answer": "Ateliér",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["studio", "umělecký ateliér"],
+      "sources": ["https://en.wikipedia.org/wiki/Studio"]
+    },
+    {
+      "id": "arts-cs-easy-02-02",
+      "text": "Jak se nazývá krátké vyprávění s ponaučením, v němž často vystupují zvířata s lidskými vlastnostmi?",
+      "initial": "B",
+      "answer": "Bajka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Fable"]
+    },
+    {
+      "id": "arts-cs-easy-02-03",
+      "text": "Jak se jmenuje Vernův román, v němž Phileas Fogg uzavře sázku na mimořádně rychlou cestu kolem Země?",
+      "initial": "C",
+      "answer": "Cesta kolem světa za osmdesát dní",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Cesta kolem světa za 80 dní"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days"
+      ]
+    },
+    {
+      "id": "arts-cs-easy-02-04",
+      "text": "Která pohádková dívka jde za babičkou a cestou potká vlka?",
+      "initial": "Č",
+      "answer": "Červená karkulka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Karkulka"],
+      "sources": ["https://en.wikipedia.org/wiki/Little_Red_Riding_Hood"]
+    },
+    {
+      "id": "arts-cs-easy-02-05",
+      "text": "Jak nazýváme živé scénické umění, v němž herci před publikem ztvárňují postavy a příběhy?",
+      "initial": "D",
+      "answer": "Divadlo",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Theatre"]
+    },
+    {
+      "id": "arts-cs-easy-02-06",
+      "text": "Jak nazýváme veřejně vystavený soubor předmětů či uměleckých děl v muzeu nebo galerii?",
+      "initial": "E",
+      "answer": "Expozice",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["výstava"],
+      "sources": ["https://en.wikipedia.org/wiki/Art_exhibition"]
+    },
+    {
+      "id": "arts-cs-easy-02-07",
+      "text": "Kterého pracovitého mravence s puntíkovaným šátkem vytvořil spisovatel a kreslíř Ondřej Sekora?",
+      "initial": "F",
+      "answer": "Ferda Mravenec",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Ferda"],
+      "sources": ["https://cs.wikipedia.org/wiki/Ferda_Mravenec"]
+    },
+    {
+      "id": "arts-cs-easy-02-08",
+      "text": "Jak se běžně nazývají nápisy a kresby vytvářené na zdech ve veřejném prostoru, často sprejem?",
+      "initial": "G",
+      "answer": "Graffiti",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["graffito"],
+      "sources": ["https://en.wikipedia.org/wiki/Graffiti"]
+    },
+    {
+      "id": "arts-cs-easy-02-09",
+      "text": "Jak se jmenuje loutkový syn Spejbla, známý z českého divadla?",
+      "initial": "H",
+      "answer": "Hurvínek",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Hurvínek Spejbl"],
+      "sources": ["https://cs.wikipedia.org/wiki/Hurv%C3%ADnek"]
+    },
+    {
+      "id": "arts-cs-easy-02-10",
+      "text": "Jakou sladkou stavbu objeví Jeníček a Mařenka v lese v pohádce o ježibabě?",
+      "initial": "Ch",
+      "answer": "Chaloupka z perníku",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [
+        "perníková chaloupka",
+        "perníková chalupa",
+        "chalupa z perníku"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Hansel_and_Gretel"]
+    },
+    {
+      "id": "arts-cs-easy-02-11",
+      "text": "Jak se nazývá velké, často zdobené počáteční písmeno kapitoly či odstavce?",
+      "initial": "I",
+      "answer": "Iniciála",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["zdobená iniciála"],
+      "sources": ["https://en.wikipedia.org/wiki/Initial"]
+    },
+    {
+      "id": "arts-cs-easy-02-12",
+      "text": "Jak se v pohádce jmenuje Mařenčin bratr, kterého chce ježibaba vykrmit?",
+      "initial": "J",
+      "answer": "Jeníček",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Hansel"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hansel_and_Gretel",
+        "https://cs.wikipedia.org/wiki/Pern%C3%ADkov%C3%A1_chaloupka"
+      ]
+    },
+    {
+      "id": "arts-cs-easy-02-13",
+      "text": "Jak se nazývá divadelní žánr určený především k pobavení diváků a vyvolání smíchu?",
+      "initial": "K",
+      "answer": "Komedie",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["veselohra"],
+      "sources": ["https://en.wikipedia.org/wiki/Comedy"]
+    },
+    {
+      "id": "arts-cs-easy-02-14",
+      "text": "Jak nazýváme figurku, kterou vodič oživuje pohybem, například pomocí nití nebo rukou uvnitř?",
+      "initial": "L",
+      "answer": "Loutka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Puppet"]
+    },
+    {
+      "id": "arts-cs-easy-02-15",
+      "text": "Jak se nazývá scénický žánr spojující mluvené dialogy, písně a tanec?",
+      "initial": "M",
+      "answer": "Muzikál",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Musical_theatre"]
+    },
+    {
+      "id": "arts-cs-easy-02-16",
+      "text": "Jak nazýváme rychlou předběžnou kresbu, kterou si umělec zaznamenává nápad nebo rozvržení díla?",
+      "initial": "N",
+      "answer": "Náčrt",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["skica", "nákres"],
+      "sources": ["https://en.wikipedia.org/wiki/Sketch_%28drawing%29"]
+    },
+    {
+      "id": "arts-cs-easy-02-17",
+      "text": "Jak se nazývá velký závěs, který v divadle odděluje jeviště od hlediště?",
+      "initial": "O",
+      "answer": "Opona",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["divadelní opona"],
+      "sources": ["https://en.wikipedia.org/wiki/Front_curtain"]
+    },
+    {
+      "id": "arts-cs-easy-02-18",
+      "text": "Jak nazýváme vyprávěcí žánr, ve kterém se běžně objevují kouzla, víly a jiné nadpřirozené bytosti?",
+      "initial": "P",
+      "answer": "Pohádka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Fairy_tale"]
+    },
+    {
+      "id": "arts-cs-easy-02-19",
+      "text": "Jak se nazývá část písně, která se vrací se stejným nebo podobným textem po jednotlivých slokách?",
+      "initial": "R",
+      "answer": "Refrén",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Refrain"]
+    },
+    {
+      "id": "arts-cs-easy-02-20",
+      "text": "Jak se nazývá otázka položená pro zdůraznění myšlenky, na kterou se neočekává odpověď?",
+      "initial": "Ř",
+      "answer": "Řečnická otázka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["rétorická otázka"],
+      "sources": ["https://en.wikipedia.org/wiki/Rhetorical_question"]
+    },
+    {
+      "id": "arts-cs-easy-02-21",
+      "text": "Která pohádková princezna najde útočiště u sedmi trpaslíků?",
+      "initial": "S",
+      "answer": "Sněhurka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Snow_White"]
+    },
+    {
+      "id": "arts-cs-easy-02-22",
+      "text": "Jak se jmenuje hlavní voják Haškova románu začínajícího slovy Osudy dobrého vojáka…?",
+      "initial": "Š",
+      "answer": "Švejk",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Josef Švejk"],
+      "sources": ["https://en.wikipedia.org/wiki/The_Good_Soldier_%C5%A0vejk"]
+    },
+    {
+      "id": "arts-cs-easy-02-23",
+      "text": "Jakou kreslicí pomůcku obvykle tvoří dřevěný obal s grafitovou tuhou?",
+      "initial": "T",
+      "answer": "Tužka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Pencil"]
+    },
+    {
+      "id": "arts-cs-easy-02-24",
+      "text": "Jak se nazývá kresba vytvořená uhlem?",
+      "initial": "U",
+      "answer": "Uhlokresba",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["kresba uhlem"],
+      "sources": ["https://en.wikipedia.org/wiki/Charcoal_%28art%29"]
+    },
+    {
+      "id": "arts-cs-easy-02-25",
+      "text": "Jak se běžně jmenuje antická socha bohyně bez obou paží, objevená na ostrově Mélos a vystavená v Louvru?",
+      "initial": "V",
+      "answer": "Venuše Mélská",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [
+        "Venuše Milóská",
+        "Venuše z Mélu",
+        "Venuše z Milu",
+        "Mélská Venuše",
+        "Milóská Venuše",
+        "Venus de Milo",
+        "Afrodita Mélská",
+        "Afrodita z Mélu",
+        "Aphrodite of Melos"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Venus_de_Milo"]
+    },
+    {
+      "id": "arts-cs-easy-02-26",
+      "text": "Jaké příjmení měl Jan, partner Jiřího Voskovce v Osvobozeném divadle?",
+      "initial": "W",
+      "answer": "Werich",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Jan Werich"],
+      "sources": ["https://en.wikipedia.org/wiki/Jan_Werich"]
+    },
+    {
+      "id": "arts-cs-easy-02-27",
+      "text": "Jaké povolání vykonává Quasimodo u pařížské katedrály Notre-Dame v Hugově románu?",
+      "initial": "Z",
+      "answer": "Zvoník",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Quasimodo"]
+    },
+    {
+      "id": "arts-cs-easy-02-28",
+      "text": "Jak nazýváme artistu, který vyhazuje a opakovaně chytá několik míčků nebo kuželů?",
+      "initial": "Ž",
+      "answer": "Žonglér",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["kejklíř"],
+      "sources": ["https://en.wikipedia.org/wiki/Juggling"]
+    }
+  ]
+}

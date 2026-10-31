@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "movies-cs-medium-02",
+  "title": "Filmy a seriály · Střední 02",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "movies-cs-medium-02-01",
+      "text": "Která česká filmová pohádka Jiřího Stracha z roku 2005 sleduje anděla Petronela a čerta Uriáše?",
+      "answer": "Anděl Páně",
+      "language": "cs",
+      "aliases": ["Anděl Páně 1"],
+      "category": "movies",
+      "initial": "A",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/And%C4%9Bl_P%C3%A1n%C4%9B_(film)"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-02",
+      "text": "Který filmový muzikál Toma Hoopera z roku 2012 obsadil Hugha Jackmana jako Jeana Valjeana a Russella Crowea jako Javerta?",
+      "answer": "Bídníci",
+      "language": "cs",
+      "aliases": ["Les Misérables"],
+      "category": "movies",
+      "initial": "B",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/B%C3%ADdn%C3%ADci_(film,_2012)",
+        "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_%282012_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-03",
+      "text": "Který film Giuseppe Tornatoreho vypráví o Salvatoreho vzpomínkách na promítače Alfreda a kino na Sicílii?",
+      "answer": "Cinema Paradiso",
+      "language": "cs",
+      "aliases": ["Nuovo Cinema Paradiso", "Bio Ráj"],
+      "category": "movies",
+      "initial": "C",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Bio_R%C3%A1j",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q464032.json"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-04",
+      "text": "Která česká komedie s Lubomírem Lipským v roli učitele George Camela spojuje gangstery a šek na milion dolarů?",
+      "answer": "Čtyři vraždy stačí, drahoušku",
+      "language": "cs",
+      "aliases": ["Čtyři vraždy stačí drahoušku"],
+      "category": "movies",
+      "initial": "Č",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cty%C5%99i_vra%C5%BEdy_sta%C4%8D%C3%AD,_drahou%C5%A1ku"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-05",
+      "text": "Který britský seriál sleduje rodinu Crawleyových a služebnictvo na yorkshirském panství?",
+      "answer": "Downton Abbey",
+      "language": "cs",
+      "aliases": ["Panství Downton"],
+      "category": "movies",
+      "initial": "D",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Panstv%C3%AD_Downton",
+        "https://en.wikipedia.org/wiki/Downton_Abbey"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-06",
+      "text": "Jak se jmenuje filmová právní asistentka, za jejíž ztvárnění ve filmu z roku 2000 získala Julia Robertsová Oscara?",
+      "answer": "Erin Brockovich",
+      "language": "cs",
+      "aliases": ["Erin Brockovichová"],
+      "category": "movies",
+      "initial": "E",
+      "sources": ["https://cs.wikipedia.org/wiki/Erin_Brockovich_(film)"]
+    },
+    {
+      "id": "movies-cs-medium-02-07",
+      "text": "Který seriál vytvořila Phoebe Waller-Bridgeová a hraje v něm londýnskou ženu, která promlouvá přímo k divákům?",
+      "answer": "Fleabag",
+      "language": "cs",
+      "aliases": ["Potvora"],
+      "category": "movies",
+      "initial": "F",
+      "sources": ["https://cs.wikipedia.org/wiki/Potvora"]
+    },
+    {
+      "id": "movies-cs-medium-02-08",
+      "text": "Který film Wese Andersona sleduje hotelového concierge Gustava H. a poslíčka Zera v zemi jménem Zubrowka?",
+      "answer": "Grandhotel Budapešť",
+      "language": "cs",
+      "aliases": ["The Grand Budapest Hotel", "Grand Budapest Hotel"],
+      "category": "movies",
+      "initial": "G",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Grandhotel_Budape%C5%A1%C5%A5",
+        "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-09",
+      "text": "Jaké příjmení má Jan, režisér českého filmu Pelíšky?",
+      "answer": "Hřebejk",
+      "language": "cs",
+      "aliases": ["Jan Hřebejk"],
+      "category": "movies",
+      "initial": "H",
+      "sources": ["https://cs.wikipedia.org/wiki/Jan_H%C5%99ebejk"]
+    },
+    {
+      "id": "movies-cs-medium-02-10",
+      "text": "Který československý příběh, zpracovaný jako čtyřdílný televizní seriál i film, sleduje Evu a Honzíka, kteří z živé hmoty vytvoří dvě malé barevné bytosti?",
+      "answer": "Chobotnice z II. patra",
+      "language": "cs",
+      "aliases": [
+        "Chobotnice z druhého patra",
+        "The Octopuses from the Second Floor"
+      ],
+      "category": "movies",
+      "initial": "Ch",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chobotnice_z_II._patra",
+        "https://filmtoro.cz/film/chobotnice-z-ii-patra-1986",
+        "https://www.wikidata.org/wiki/Special:EntityData/Q468278.json"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-11",
+      "text": "Který britský sitcom sleduje Roye, Mosse a Jen v oddělení IT firmy Reynholm Industries?",
+      "answer": "IT Crowd",
+      "language": "cs",
+      "aliases": ["The IT Crowd", "Ajťáci", "Partička IT"],
+      "category": "movies",
+      "initial": "I",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Aj%C5%A5%C3%A1ci",
+        "https://en.wikipedia.org/wiki/The_IT_Crowd"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-12",
+      "text": "Jaké příjmení má Jim, režisér filmů Podivnější než ráj a Zlomené květiny?",
+      "answer": "Jarmusch",
+      "language": "cs",
+      "aliases": [
+        "Jim Jarmusch",
+        "James Robert Jarmusch",
+        "James R. Jarmusch",
+        "James R Jarmusch"
+      ],
+      "category": "movies",
+      "initial": "J",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Jim_Jarmusch",
+        "https://en.wikipedia.org/wiki/Jim_Jarmusch"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-13",
+      "text": "Který film Tomáše Vorla s podtitulem Rytmikál totalitního věku sleduje mladého inženýra Mirka v továrně?",
+      "answer": "Kouř",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "K",
+      "sources": ["https://cs.wikipedia.org/wiki/Kou%C5%99_(film)"]
+    },
+    {
+      "id": "movies-cs-medium-02-14",
+      "text": "Ve kterém filmu Sofie Coppolové se v Tokiu sblíží stárnoucí herec Bob Harris a mladá Charlotte?",
+      "answer": "Lost in Translation",
+      "language": "cs",
+      "aliases": ["Ztraceno v překladu"],
+      "category": "movies",
+      "initial": "L",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ztraceno_v_p%C5%99ekladu",
+        "https://en.wikipedia.org/wiki/Lost_in_Translation_%28film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-15",
+      "text": "Která česká minisérie z roku 2024 s Petrem Lněničkou sleduje kriminalistu Jiřího Markoviče a případ Ladislava Hojera?",
+      "answer": "Metoda Markovič: Hojer",
+      "language": "cs",
+      "aliases": ["Metoda Markovič:Hojer", "Metoda Markovič Hojer"],
+      "category": "movies",
+      "initial": "M",
+      "sources": ["https://cs.wikipedia.org/wiki/Metoda_Markovi%C4%8D%3A_Hojer"]
+    },
+    {
+      "id": "movies-cs-medium-02-16",
+      "text": "Která minisérie podle Sally Rooneyové sleduje vztah Marianne a Connella od středoškolských let až po studium na Trinity College?",
+      "answer": "Normální lidi",
+      "language": "cs",
+      "aliases": ["Normal People"],
+      "category": "movies",
+      "initial": "N",
+      "sources": ["https://cs.wikipedia.org/wiki/Norm%C3%A1ln%C3%AD_lidi"]
+    },
+    {
+      "id": "movies-cs-medium-02-17",
+      "text": "Který film Jiřího Menzela sleduje mladého železničáře Miloše Hrmu za německé okupace?",
+      "answer": "Ostře sledované vlaky",
+      "language": "cs",
+      "aliases": ["Closely Watched Trains", "Closely Observed Trains"],
+      "category": "movies",
+      "initial": "O",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ost%C5%99e_sledovan%C3%A9_vlaky",
+        "https://en.wikipedia.org/wiki/Closely_Watched_Trains"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-18",
+      "text": "Ve kterém filmu Guillerma del Tora se dívka Ofélie ve Španělsku roku 1944 setkává s faunem?",
+      "answer": "Pan's Labyrinth",
+      "language": "cs",
+      "aliases": [
+        "Pan’s Labyrinth",
+        "El laberinto del fauno",
+        "Faunův labyrint"
+      ],
+      "category": "movies",
+      "initial": "P",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Faun%C5%AFv_labyrint",
+        "https://en.wikipedia.org/wiki/Pan%27s_Labyrinth"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-19",
+      "text": "Který seriál HBO se soustředí na občanskou válku rodu Targaryenů zvanou Tanec draků?",
+      "answer": "Rod draka",
+      "language": "cs",
+      "aliases": ["House of the Dragon"],
+      "category": "movies",
+      "initial": "R",
+      "sources": ["https://cs.wikipedia.org/wiki/Rod_draka"]
+    },
+    {
+      "id": "movies-cs-medium-02-20",
+      "text": "Který film Michalise Kakojannise z roku 1964 má Anthonyho Quinna v roli svérázného Řeka a Alana Batese v roli Basila?",
+      "answer": "Řek Zorba",
+      "language": "cs",
+      "aliases": ["Zorba the Greek", "Alexis Zorbas"],
+      "category": "movies",
+      "initial": "Ř",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%98ek_Zorba_(film)"]
+    },
+    {
+      "id": "movies-cs-medium-02-21",
+      "text": "Který seriál s Adamem Scottem ukazuje zaměstnance firmy Lumon, kteří mají oddělené pracovní a mimopracovní vzpomínky?",
+      "answer": "Severance",
+      "language": "cs",
+      "aliases": ["Odloučení"],
+      "category": "movies",
+      "initial": "S",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Odlou%C4%8Den%C3%AD_(seri%C3%A1l)"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-22",
+      "text": "Ve kterém thrilleru z roku 1997 hraje Bruce Willis nájemného vraha pronásledovaného postavou Richarda Gerea?",
+      "answer": "Šakal",
+      "language": "cs",
+      "aliases": ["The Jackal"],
+      "category": "movies",
+      "initial": "Š",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0akal_(film,_1997)",
+        "https://en.wikipedia.org/wiki/The_Jackal_%281997_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-23",
+      "text": "Ve kterém antologickém krimiseriálu hrají v první řadě Matthew McConaughey a Woody Harrelson detektivy Rusta Cohlea a Martyho Harta?",
+      "answer": "Temný případ",
+      "language": "cs",
+      "aliases": ["True Detective"],
+      "category": "movies",
+      "initial": "T",
+      "sources": ["https://cs.wikipedia.org/wiki/Temn%C3%BD_p%C5%99%C3%ADpad"]
+    },
+    {
+      "id": "movies-cs-medium-02-24",
+      "text": "Která německá filmová satira z roku 2015 přenese Hitlera do současného Berlína, kde ho lidé pokládají za komika?",
+      "answer": "Už je tady zas",
+      "language": "cs",
+      "aliases": ["Er ist wieder da", "Look Who's Back", "Look Who’s Back"],
+      "category": "movies",
+      "initial": "U",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Look_Who%27s_Back_%28film%29",
+        "https://www.themoviedb.org/movie/318917?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-25",
+      "text": "Který hongkongský thriller z roku 2002 staví proti sobě policistu v utajení mezi gangstery a gangsterského informátora u policie?",
+      "answer": "Volavka",
+      "language": "cs",
+      "aliases": ["Infernal Affairs", "Mou gaan dou", "Wu jian dao"],
+      "category": "movies",
+      "initial": "V",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Infernal_Affairs",
+        "https://www.themoviedb.org/movie/10775?language=cs-CZ"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-26",
+      "text": "Ve kterém filmu Damiena Chazella z roku 2014 vede učitel Terence Fletcher mladého bubeníka Andrewa Neimana k extrémním výkonům?",
+      "answer": "Whiplash",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "W",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Whiplash_(film,_2014)",
+        "https://en.wikipedia.org/wiki/Whiplash_%282014_film%29"
+      ]
+    },
+    {
+      "id": "movies-cs-medium-02-27",
+      "text": "Který film Franka Darabonta sleduje dozorce Paula Edgecomba a vězně Johna Coffeyho, který má neobvyklý léčitelský dar?",
+      "answer": "Zelená míle",
+      "language": "cs",
+      "aliases": ["The Green Mile", "Green Mile"],
+      "category": "movies",
+      "initial": "Z",
+      "sources": ["https://cs.wikipedia.org/wiki/Zelen%C3%A1_m%C3%ADle_(film)"]
+    },
+    {
+      "id": "movies-cs-medium-02-28",
+      "text": "Který film Ondřeje Trojana z roku 2003 sleduje Elišku, která se za okupace ukryje v horské vesnici jako Jozova žena?",
+      "answer": "Želary",
+      "language": "cs",
+      "aliases": [],
+      "category": "movies",
+      "initial": "Ž",
+      "sources": ["https://en.wikipedia.org/wiki/%C5%BDelary"]
+    }
+  ]
+}

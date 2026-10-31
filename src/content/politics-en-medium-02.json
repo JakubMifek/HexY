@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 2,
+  "id": "politics-en-medium-02",
+  "title": "Politics and diplomacy · Medium · 02",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "politics-en-medium-02-01",
+      "text": "What term describes a territory's power to govern its own internal affairs without necessarily becoming an independent state?",
+      "initial": "A",
+      "answer": "Autonomy",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Self-government", "Self-rule"],
+      "sources": ["https://en.wikipedia.org/wiki/Autonomy"]
+    },
+    {
+      "id": "politics-en-medium-02-02",
+      "text": "What is the name of Germany's directly elected federal parliamentary chamber?",
+      "initial": "B",
+      "answer": "Bundestag",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["German Bundestag", "Federal Diet"],
+      "sources": ["https://en.wikipedia.org/wiki/Bundestag"]
+    },
+    {
+      "id": "politics-en-medium-02-03",
+      "text": "What is a legislature's formal expression of disapproval of an official's conduct, without itself necessarily removing the official, called?",
+      "initial": "C",
+      "answer": "Censure",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Motion of censure", "Resolution of censure"],
+      "sources": ["https://en.wikipedia.org/wiki/Censure"]
+    },
+    {
+      "id": "politics-en-medium-02-04",
+      "text": "What Czechoslovak civic initiative took its name from a human-rights declaration issued in January 1977?",
+      "initial": "CH",
+      "answer": "Charter 77",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Charta 77"],
+      "sources": ["https://en.wikipedia.org/wiki/Charter_77"]
+    },
+    {
+      "id": "politics-en-medium-02-05",
+      "text": "What parliamentary term means ending a parliament so that a general election can be held, rather than merely ending one session?",
+      "initial": "D",
+      "answer": "Dissolution",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Dissolution of parliament"],
+      "sources": ["https://en.wikipedia.org/wiki/Dissolution_of_parliament"]
+    },
+    {
+      "id": "politics-en-medium-02-06",
+      "text": "What body formally elects the president and vice president of the United States?",
+      "initial": "E",
+      "answer": "Electoral college",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["US Electoral College", "United States Electoral College"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_States_Electoral_College"
+      ]
+    },
+    {
+      "id": "politics-en-medium-02-07",
+      "text": "What electoral system awards a single constituency seat to the candidate with the most votes, even without an absolute majority?",
+      "initial": "F",
+      "answer": "First-past-the-post",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "First past the post",
+        "FPTP",
+        "Single-member plurality",
+        "Plurality voting",
+        "First-preference plurality",
+        "FPP",
+        "Choose-one voting"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/First-past-the-post_voting"]
+    },
+    {
+      "id": "politics-en-medium-02-08",
+      "text": "What colour-named EU document opens a policy discussion and invites consultation rather than setting out a final law?",
+      "initial": "G",
+      "answer": "Green paper",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Green_paper"]
+    },
+    {
+      "id": "politics-en-medium-02-09",
+      "text": "What is the elected lower chamber of the UK Parliament called?",
+      "initial": "H",
+      "answer": "House of Commons",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Commons", "The Commons", "British House of Commons"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/House_of_Commons_of_the_United_Kingdom"
+      ]
+    },
+    {
+      "id": "politics-en-medium-02-10",
+      "text": "What term describes the interval between the end of one monarch's reign and the beginning of the next?",
+      "initial": "I",
+      "answer": "Interregnum",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Interregnum"]
+    },
+    {
+      "id": "politics-en-medium-02-11",
+      "text": "What principle requires judges to decide cases free from improper influence by the government or other outside interests?",
+      "initial": "J",
+      "answer": "Judicial independence",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Independence of the judiciary"],
+      "sources": ["https://en.wikipedia.org/wiki/Judicial_independence"]
+    },
+    {
+      "id": "politics-en-medium-02-12",
+      "text": "Which philosopher proposed a federation of free states in his 1795 work “Perpetual Peace”?",
+      "initial": "K",
+      "answer": "Kant",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Immanuel Kant"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Perpetual_Peace%3A_A_Philosophical_Sketch"
+      ]
+    },
+    {
+      "id": "politics-en-medium-02-13",
+      "text": "What term describes an officeholder whose successor has already been elected or whose departure is imminent, often weakening their influence?",
+      "initial": "L",
+      "answer": "Lame duck",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Lame-duck official"],
+      "sources": ["https://en.wikipedia.org/wiki/Lame_duck_(politics)"]
+    },
+    {
+      "id": "politics-en-medium-02-14",
+      "text": "What document sets out a political party's policies and promises before an election?",
+      "initial": "M",
+      "answer": "Manifesto",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "Election manifesto",
+        "Party manifesto",
+        "Political manifesto",
+        "Party platform",
+        "Election platform",
+        "Political platform",
+        "Platform",
+        "Party program",
+        "Party programme",
+        "Political programme",
+        "Political program"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Party_platform"]
+    },
+    {
+      "id": "politics-en-medium-02-15",
+      "text": "What term describes an independent civil-society body that is not part of a government?",
+      "initial": "N",
+      "answer": "Non-governmental organization",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "NGO",
+        "Non-governmental organisation",
+        "Nongovernmental organization",
+        "Nongovernmental organisation"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Non-governmental_organization"]
+    },
+    {
+      "id": "politics-en-medium-02-16",
+      "text": "What is a formal order made by the British monarch acting with the advice of the Privy Council called?",
+      "initial": "O",
+      "answer": "Order in Council",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Order-in-Council"],
+      "sources": ["https://en.wikipedia.org/wiki/Order_in_Council"]
+    },
+    {
+      "id": "politics-en-medium-02-17",
+      "text": "What term describes the traditional powers of the Crown that exist independently of powers granted by statute?",
+      "initial": "P",
+      "answer": "Prerogative",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Royal prerogative", "Crown prerogative"],
+      "sources": ["https://en.wikipedia.org/wiki/Royal_prerogative"]
+    },
+    {
+      "id": "politics-en-medium-02-18",
+      "text": "What parliamentary procedure raises an issue affecting the rights, dignity or functioning of an assembly or its members?",
+      "initial": "Q",
+      "answer": "Question of privilege",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Matter of privilege"],
+      "sources": ["https://en.wikipedia.org/wiki/Question_of_privilege"]
+    },
+    {
+      "id": "politics-en-medium-02-19",
+      "text": "What formal approval by the monarch turns a bill passed by the UK Parliament into an Act?",
+      "initial": "R",
+      "answer": "Royal assent",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Royal_assent"]
+    },
+    {
+      "id": "politics-en-medium-02-20",
+      "text": "What term coined by Joseph Nye means influencing others through attraction rather than coercion or payment?",
+      "initial": "S",
+      "answer": "Soft power",
+      "language": "en",
+      "category": "politics",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Soft_power"]
+    },
+    {
+      "id": "politics-en-medium-02-21",
+      "text": "What mountaineering-derived title is given to a senior official who prepares negotiations for a leader at summits such as the G7?",
+      "initial": "SH",
+      "answer": "Sherpa",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Summit sherpa"],
+      "sources": ["https://en.wikipedia.org/wiki/Sherpa_(emissary)"]
+    },
+    {
+      "id": "politics-en-medium-02-22",
+      "text": "What term refers to the belt of coastal sea over which a state exercises sovereignty, normally up to 12 nautical miles from its baseline?",
+      "initial": "T",
+      "answer": "Territorial waters",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Territorial sea"],
+      "sources": ["https://en.wikipedia.org/wiki/Territorial_waters"]
+    },
+    {
+      "id": "politics-en-medium-02-23",
+      "text": "What voting rule requires agreement by everyone concerned rather than merely a majority?",
+      "initial": "U",
+      "answer": "Unanimity",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Unanimous agreement"],
+      "sources": ["https://en.wikipedia.org/wiki/Unanimity"]
+    },
+    {
+      "id": "politics-en-medium-02-24",
+      "text": "Which 1969 convention codifies major rules on treaties between states, including their interpretation and termination?",
+      "initial": "V",
+      "answer": "Vienna Convention on the Law of Treaties",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["VCLT", "Vienna Convention of 1969"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Convention_on_the_Law_of_Treaties"
+      ]
+    },
+    {
+      "id": "politics-en-medium-02-25",
+      "text": "What 1973 US measure requires the president to report certain deployments to Congress within 48 hours and generally limits them without congressional authorization?",
+      "initial": "W",
+      "answer": "War Powers Resolution",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "War Powers Act",
+        "War Powers Resolution of 1973",
+        "War Powers Act of 1973"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/War_Powers_Resolution"]
+    },
+    {
+      "id": "politics-en-medium-02-26",
+      "text": "What 1936 crisis saw Chiang Kai-shek detained by his own generals, helping bring about an anti-Japanese united front?",
+      "initial": "X",
+      "answer": "Xi'an Incident",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Xian Incident", "Sian Incident"],
+      "sources": ["https://en.wikipedia.org/wiki/Xi'an_Incident"]
+    },
+    {
+      "id": "politics-en-medium-02-27",
+      "text": "What is the familiar name of the UK forum of elected young representatives whose members have held debates in the House of Commons?",
+      "initial": "Y",
+      "answer": "Youth Parliament",
+      "language": "en",
+      "category": "politics",
+      "aliases": [
+        "UK Youth Parliament",
+        "United Kingdom Youth Parliament",
+        "UKYP"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/UK_Youth_Parliament"]
+    },
+    {
+      "id": "politics-en-medium-02-28",
+      "text": "What was the name of an elected local-government institution introduced in the Russian Empire in 1864?",
+      "initial": "Z",
+      "answer": "Zemstvo",
+      "language": "en",
+      "category": "politics",
+      "aliases": ["Zemstva"],
+      "sources": ["https://en.wikipedia.org/wiki/Zemstvo"]
+    }
+  ]
+}

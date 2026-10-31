@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-cs-hard-02",
+  "title": "Umění a literatura · Těžká · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-cs-hard-02-01",
+      "text": "Jak se nazývá plošný ornament tvořený rytmicky proplétanými úponky a stylizovanými rostlinnými tvary, častý v islámském umění?",
+      "initial": "A",
+      "answer": "Arabeska",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Arabesque"]
+    },
+    {
+      "id": "arts-cs-hard-02-02",
+      "text": "Jak se nazývá architektonický přístřešek na sloupech nad oltářem, jehož slavný bronzový příklad vytvořil Bernini ve svatopetrské bazilice?",
+      "initial": "B",
+      "answer": "Baldachýn",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["baldachin", "ciborium"],
+      "sources": ["https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin"]
+    },
+    {
+      "id": "arts-cs-hard-02-03",
+      "text": "Jak se nazývá keramika se zelenavou glazurou napodobující nefrit, proslulá zejména v Číně a Koreji?",
+      "initial": "C",
+      "answer": "Celadon",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["seladon"],
+      "sources": ["https://en.wikipedia.org/wiki/Celadon"]
+    },
+    {
+      "id": "arts-cs-hard-02-04",
+      "text": "Který český básník a literární teoretik napsal monografii Významová výstavba literárního díla?",
+      "initial": "Č",
+      "answer": "Červenka",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Miroslav Červenka"],
+      "sources": ["https://cs.wikipedia.org/wiki/Miroslav_%C4%8Cervenka"]
+    },
+    {
+      "id": "arts-cs-hard-02-05",
+      "text": "Jak se nazývá výtvarné dílo sestavené ze dvou desek nebo panelů, které mohou být spojeny panty?",
+      "initial": "D",
+      "answer": "Diptych",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["diptychon"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/d/diptych"]
+    },
+    {
+      "id": "arts-cs-hard-02-06",
+      "text": "Jak se nazývá jemné vypouklé zakřivení dříku klasického sloupu, které koriguje jeho optické působení?",
+      "initial": "E",
+      "answer": "Entasis",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["entaze"],
+      "sources": ["https://en.wikipedia.org/wiki/Entasis"]
+    },
+    {
+      "id": "arts-cs-hard-02-07",
+      "text": "Jak se nazývá výtvarná technika získávání otisku struktury třením tužky přes papír položený na nerovném povrchu?",
+      "initial": "F",
+      "answer": "Frotáž",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["frottage"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/f/frottage"]
+    },
+    {
+      "id": "arts-cs-hard-02-08",
+      "text": "Jak se nazývá renesanční ornament s fantaskními rostlinami, zvířaty a lidskými postavami, inspirovaný výzdobou odkrytých antických místností?",
+      "initial": "G",
+      "answer": "Groteska",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["groteskní ornament"],
+      "sources": ["https://en.wikipedia.org/wiki/Grotesque"]
+    },
+    {
+      "id": "arts-cs-hard-02-09",
+      "text": "Který japonský umělec vytvořil dřevořez Velká vlna u Kanagawy?",
+      "initial": "H",
+      "answer": "Hokusai",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Kacušika Hokusai", "Katsushika Hokusai"],
+      "sources": ["https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"]
+    },
+    {
+      "id": "arts-cs-hard-02-10",
+      "text": "Jak se nazývá skupina účinkujících, která ve starořecké tragédii společně zpívá, tančí a komentuje děj?",
+      "initial": "Ch",
+      "answer": "Chór",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["sbor"],
+      "sources": ["https://en.wikipedia.org/wiki/Greek_chorus"]
+    },
+    {
+      "id": "arts-cs-hard-02-11",
+      "text": "Jak se nazývá kompoziční princip, při němž jsou hlavy zobrazených postav uspořádány přibližně do stejné výšky?",
+      "initial": "I",
+      "answer": "Izokefalie",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["isocefalie", "isokefalie", "isocephaly"],
+      "sources": ["https://www.wordnik.com/words/isocephaly"]
+    },
+    {
+      "id": "arts-cs-hard-02-12",
+      "text": "Jaké německé označení secese vzniklo podle mnichovského časopisu Jugend?",
+      "initial": "J",
+      "answer": "Jugendstil",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jugendstil"]
+    },
+    {
+      "id": "arts-cs-hard-02-13",
+      "text": "Jak se nazývá ženská socha, která v architektuře nahrazuje podpěrný sloup?",
+      "initial": "K",
+      "answer": "Karyatida",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Caryatid"]
+    },
+    {
+      "id": "arts-cs-hard-02-14",
+      "text": "Jak se nazývá drnkací nástroj s krkem a zpravidla hruškovitým tělem z dřevěných žeber, oblíbený v renesanci?",
+      "initial": "L",
+      "answer": "Loutna",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lute"]
+    },
+    {
+      "id": "arts-cs-hard-02-15",
+      "text": "Jak se nazývá umělecký směr mezi vrcholnou renesancí a barokem, spojovaný s protáhlými figurami a záměrně složitými kompozicemi?",
+      "initial": "M",
+      "answer": "Manýrismus",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mannerism"]
+    },
+    {
+      "id": "arts-cs-hard-02-16",
+      "text": "Jak se nazývá lyrická hudební skladba inspirovaná nocí, jejíž klavírní podobu proslavil Chopin?",
+      "initial": "N",
+      "answer": "Nokturno",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["nocturne", "notturno"],
+      "sources": ["https://en.wikipedia.org/wiki/Nocturne"]
+    },
+    {
+      "id": "arts-cs-hard-02-17",
+      "text": "Jak se nazývá barevně orientovaný abstraktní směr spojovaný s Robertem a Soniou Delaunayovými, který pojmenoval Apollinaire?",
+      "initial": "O",
+      "answer": "Orfismus",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["orfický kubismus"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/o/orphism"]
+    },
+    {
+      "id": "arts-cs-hard-02-18",
+      "text": "Jak se nazývá souřadné řazení vět či výrazů vedle sebe, stojící v protikladu k hypotaxi?",
+      "initial": "P",
+      "answer": "Parataxe",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["parataxis"],
+      "sources": ["https://en.wikipedia.org/wiki/Parataxis"]
+    },
+    {
+      "id": "arts-cs-hard-02-19",
+      "text": "Jakým termínem označoval Marcel Duchamp běžný hotový předmět vybraný a předložený jako umělecké dílo?",
+      "initial": "R",
+      "answer": "Readymade",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["ready-made", "ready made"],
+      "sources": ["https://www.tate.org.uk/art/art-terms/r/readymade"]
+    },
+    {
+      "id": "arts-cs-hard-02-20",
+      "text": "Který český prozaik napsal román Nástup o poválečném osidlování pohraničí?",
+      "initial": "Ř",
+      "answer": "Řezáč",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Václav Řezáč", "Václav Voňavka", "Voňavka"],
+      "sources": [
+        "https://cs.wikipedia.org/wiki/V%C3%A1clav_%C5%98ez%C3%A1%C4%8D"
+      ]
+    },
+    {
+      "id": "arts-cs-hard-02-21",
+      "text": "Jak se nazývá tisková technika, při níž se barva protlačuje přes síťovinu v místech nezakrytých šablonou?",
+      "initial": "S",
+      "answer": "Sitotisk",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [
+        "serigrafie",
+        "serigrafický tisk",
+        "screenprint",
+        "screenprinting"
+      ],
+      "sources": ["https://www.tate.org.uk/art/art-terms/s/screenprint"]
+    },
+    {
+      "id": "arts-cs-hard-02-22",
+      "text": "Který český sochař vytvořil roku 1921 sochu Raněný?",
+      "initial": "Š",
+      "answer": "Štursa",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Jan Štursa", "Jan Josef Štursa"],
+      "sources": ["https://cs.wikipedia.org/wiki/Jan_%C5%A0tursa"]
+    },
+    {
+      "id": "arts-cs-hard-02-23",
+      "text": "Jak se nazývá dramatické využití hlubokého stínu, z něhož vystupují ostře osvětlené postavy, spojované s Caravaggiem?",
+      "initial": "T",
+      "answer": "Tenebrismus",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tenebrism"]
+    },
+    {
+      "id": "arts-cs-hard-02-24",
+      "text": "Která z devíti řeckých múz bývá v umění zobrazována s nebeským glóbem a je patronkou astronomie?",
+      "initial": "U",
+      "answer": "Uranie",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Urania", "Ourania"],
+      "sources": ["https://en.wikipedia.org/wiki/Urania"]
+    },
+    {
+      "id": "arts-cs-hard-02-25",
+      "text": "Jak se nazývá spirálovitě zavinutý ornament, který tvoří nápadnou součást iónské hlavice?",
+      "initial": "V",
+      "answer": "Voluta",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Volute"]
+    },
+    {
+      "id": "arts-cs-hard-02-26",
+      "text": "Který švýcarský historik umění napsal knihu Základní pojmy dějin umění, známou německy jako Kunstgeschichtliche Grundbegriffe?",
+      "initial": "W",
+      "answer": "Wölfflin",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Heinrich Wölfflin"],
+      "sources": ["https://en.wikipedia.org/wiki/Heinrich_W%C3%B6lfflin"]
+    },
+    {
+      "id": "arts-cs-hard-02-27",
+      "text": "Který italský skladatel je autorem opery Francesca da Rimini z roku 1914?",
+      "initial": "Z",
+      "answer": "Zandonai",
+      "language": "cs",
+      "category": "arts",
+      "aliases": ["Riccardo Zandonai"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Francesca_da_Rimini_%28Zandonai%29"
+      ]
+    },
+    {
+      "id": "arts-cs-hard-02-28",
+      "text": "Jak se nazývá jednotlivý náboženský chvalozpěv či modlitba z biblické knihy obsahující tradičně 150 těchto básnických textů?",
+      "initial": "Ž",
+      "answer": "Žalm",
+      "language": "cs",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Psalms"]
+    }
+  ]
+}

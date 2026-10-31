@@ -43,7 +43,7 @@ export const strings = {
     automatic: 'Typed · automatic check',
     content: 'Question language',
     catalogHelp:
-      '36 fixed packs across nine categories, in Czech and English. Browse by category or import your question content below.',
+      '132 fixed packs in Czech and English: eleven categories, with two decks at each difficulty in each language. Browse folders or import your questions below.',
     start: 'Start game',
     limit:
       'Local play only. Successfully saved games recover after reload; check the recovery status. Export custom packs and games as backups, because browser data can be removed.',
@@ -150,7 +150,7 @@ export const strings = {
     automatic: 'Psané · automatická kontrola',
     content: 'Jazyk otázek',
     catalogHelp:
-      '36 pevných sad v devíti kategoriích, česky i anglicky. Níže procházejte katalog podle kategorií nebo importujte své otázky.',
+      '132 pevných sad česky i anglicky: jedenáct kategorií, v každém jazyce po dvou sadách každé obtížnosti. Níže procházejte složky nebo importujte své otázky.',
     start: 'Spustit hru',
     limit:
       'Pouze místní hra. Úspěšně uložená hra se po obnovení stránky obnoví; sledujte stav obnovy. Zálohujte vlastní sady i hry exportem, protože data prohlížeče mohou být smazána.',

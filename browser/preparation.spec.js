@@ -133,14 +133,16 @@ test('insufficient, mixed-language, repeated text and conflicting IDs cannot sil
   await expect(page.locator('#preparation-error')).toContainText(
     'fewer than 28',
   );
-  await selectSources(page, [
-    (await starter('en')).id,
-    (await starter('cs')).id,
-  ]);
-  await page.locator('#prepare-board').click();
-  await expect(page.locator('#preparation-error')).toContainText(
-    'chosen question language',
-  );
+  const foreign = await starter('cs');
+  foreign.id = 'foreign-czech';
+  await upload(page, [foreign]);
+  await expect(page.locator('#source-foreign-czech')).toHaveCount(0);
+  await expect(page.locator('#source-general-cs-01')).toHaveCount(0);
+  expect(
+    JSON.parse(
+      await page.evaluate(() => localStorage.getItem('hexy.library.v1')),
+    ).packs.some((pack) => pack.id === foreign.id),
+  ).toBe(true);
   const repeats = await starter('en');
   repeats.id = 'repeated';
   repeats.questions[27].text = repeats.questions[0].text;

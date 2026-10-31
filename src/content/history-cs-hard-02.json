@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "id": "history-cs-hard-02",
+  "title": "Historie · Těžká · 02",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "history-cs-hard-02-01",
+      "text": "Jak se nazývá Xenofóntovo dílo líčící výpravu Kýra Mladšího a následný návrat řeckých žoldnéřů z Persie?",
+      "initial": "A",
+      "answer": "Anabáze",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Anabasis", "Výprava deseti tisíc"],
+      "sources": ["https://en.wikipedia.org/wiki/Anabasis_(Xenophon)"]
+    },
+    {
+      "id": "history-cs-hard-02-02",
+      "text": "Jak se nazývá tenká středověká mince ražená jediným razidlem, takže obraz na líci odpovídá prohlubni na rubu?",
+      "initial": "B",
+      "answer": "Brakteát",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Bracteate"]
+    },
+    {
+      "id": "history-cs-hard-02-03",
+      "text": "Který mnišský řád vznikl roku 1098 založením kláštera v Cîteaux a prosazoval přísnější dodržování Benediktovy řehole?",
+      "initial": "C",
+      "answer": "Cisterciáci",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Cisterciácký řád",
+        "Řád cisterciáků",
+        "Ordo Cisterciensis",
+        "Bílí mniši",
+        "Bernardines"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Cistercians"]
+    },
+    {
+      "id": "history-cs-hard-02-04",
+      "text": "Jak se nazývá období francouzských dějin v letech 1830–1848, kdy vládl Ludvík Filip Orleánský?",
+      "initial": "Č",
+      "answer": "Červencová monarchie",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Orleánská monarchie"],
+      "sources": ["https://en.wikipedia.org/wiki/July_Monarchy"]
+    },
+    {
+      "id": "history-cs-hard-02-05",
+      "text": "Jak se nazývala historická osobní daň ukládaná určitým nemuslimským poddaným v islámských státech?",
+      "initial": "D",
+      "answer": "Džizja",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Džizje", "Jizya", "Jizyah"],
+      "sources": ["https://en.wikipedia.org/wiki/Jizya"]
+    },
+    {
+      "id": "history-cs-hard-02-06",
+      "text": "Jak se ve starověkých Athénách nazývali mladí muži procházející po dosažení občanského věku výcvikem spojeným s vojenskou službou?",
+      "initial": "E",
+      "answer": "Efébové",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Efébové athénští", "Epheboi"],
+      "sources": ["https://en.wikipedia.org/wiki/Ephebos"]
+    },
+    {
+      "id": "history-cs-hard-02-07",
+      "text": "Jak se označovali spojenci Říma vázaní smlouvou, v pozdní antice často skupiny poskytující říši vojenské oddíly?",
+      "initial": "F",
+      "answer": "Foederati",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Federáti"],
+      "sources": ["https://en.wikipedia.org/wiki/Foederati"]
+    },
+    {
+      "id": "history-cs-hard-02-08",
+      "text": "U kterého místa porazilo roku 1410 polsko-litevské vojsko řád německých rytířů?",
+      "initial": "G",
+      "answer": "Grunwald",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Tannenberg", "Žalgiris"],
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Grunwald"]
+    },
+    {
+      "id": "history-cs-hard-02-09",
+      "text": "Jak se označovali francouzští protestanti reformovaného vyznání, na něž se vztahoval edikt nantský z roku 1598?",
+      "initial": "H",
+      "answer": "Hugenoti",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Huguenoti"],
+      "sources": ["https://en.wikipedia.org/wiki/Huguenots"]
+    },
+    {
+      "id": "history-cs-hard-02-10",
+      "text": "Který turkický národ vytvořil raně středověký kaganát severně od Kavkazu, jehož část vládnoucí elity přijala judaismus?",
+      "initial": "Ch",
+      "answer": "Chazaři",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Chazárové"],
+      "sources": ["https://en.wikipedia.org/wiki/Khazars"]
+    },
+    {
+      "id": "history-cs-hard-02-11",
+      "text": "Jak se nazýval královský úředník ve francouzských provinciích za starého režimu, který dohlížel na správu, soudnictví či finance?",
+      "initial": "I",
+      "answer": "Intendant",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Intendant"]
+    },
+    {
+      "id": "history-cs-hard-02-12",
+      "text": "Jak se nazýval elitní pěší sbor osmanské armády, původně doplňovaný mimo jiné odvedenci získanými systémem devširme?",
+      "initial": "J",
+      "answer": "Janičáři",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Jeníčáři"],
+      "sources": ["https://en.wikipedia.org/wiki/Janissary"]
+    },
+    {
+      "id": "history-cs-hard-02-13",
+      "text": "Jak se nazývá velitel nájemného vojska v renesanční Itálii, který uzavíral s objednavatelem smlouvu zvanou condotta?",
+      "initial": "K",
+      "answer": "Kondotiér",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Condottiere", "Condottiero", "Kondotiere"],
+      "sources": ["https://en.wikipedia.org/wiki/Condottiero"]
+    },
+    {
+      "id": "history-cs-hard-02-14",
+      "text": "Jak se označují stoupenci anglického pozdně středověkého náboženského hnutí spojeného s učením Johna Wycliffa?",
+      "initial": "L",
+      "answer": "Lollardi",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Lollardové", "Lolardi", "Lolardové"],
+      "sources": ["https://en.wikipedia.org/wiki/Lollardy"]
+    },
+    {
+      "id": "history-cs-hard-02-15",
+      "text": "Která vojenská vrstva původně otrockého původu vytvořila sultanát, který vládl Egyptu od roku 1250 do osmanského dobytí roku 1517?",
+      "initial": "M",
+      "answer": "Mamlúkové",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Mamelukové", "Mameluci"],
+      "sources": ["https://en.wikipedia.org/wiki/Mamluk_Sultanate"]
+    },
+    {
+      "id": "history-cs-hard-02-16",
+      "text": "Jak se nazývá kronika dokončená v Japonsku roku 720, řazená spolu s Kodžiki k nejstarším japonským dějepisným dílům?",
+      "initial": "N",
+      "answer": "Nihon šoki",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Nihonshoki",
+        "Nihongi",
+        "Nihon Shoki",
+        "Nihonšoki",
+        "Japonská kronika",
+        "Kronika Japonska",
+        "The Chronicles of Japan"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Nihon_Shoki"]
+    },
+    {
+      "id": "history-cs-hard-02-17",
+      "text": "Která větev Gótů založila pod Theodorichem Velikým království v Itálii po porážce Odoakera roku 493?",
+      "initial": "O",
+      "answer": "Ostrogóti",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Východní Gótové", "Ostrogótové"],
+      "sources": ["https://en.wikipedia.org/wiki/Ostrogoths"]
+    },
+    {
+      "id": "history-cs-hard-02-18",
+      "text": "Která pomocná věda historická zkoumá stará písma, jejich vývoj a čtení rukopisů?",
+      "initial": "P",
+      "answer": "Paleografie",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Palaeography"]
+    },
+    {
+      "id": "history-cs-hard-02-19",
+      "text": "Jak se nazývá kamenná stéla s dekretem z roku 196 př. n. l. zapsaným trojím písmem, objevená v Egyptě roku 1799 a důležitá pro rozluštění hieroglyfů?",
+      "initial": "R",
+      "answer": "Rosettská deska",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Rosettský kámen", "Rosettská stéla", "Rosetta Stone"],
+      "sources": ["https://en.wikipedia.org/wiki/Rosetta_Stone"]
+    },
+    {
+      "id": "history-cs-hard-02-20",
+      "text": "Jak se nazývá příměří sjednané na dvacet let roku 1684 mezi Francií a jejími protivníky včetně císaře a Španělska v bavorském říšském městě?",
+      "initial": "Ř",
+      "answer": "Řezenské příměří",
+      "language": "cs",
+      "category": "history",
+      "aliases": [
+        "Řezenský mír",
+        "Příměří v Řezně",
+        "Truce of Ratisbon",
+        "Truce of Regensburg"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Truce_of_Ratisbon"]
+    },
+    {
+      "id": "history-cs-hard-02-21",
+      "text": "Jak se nazývala provincie perské achaimenovské říše spravovaná místodržitelem zvaným satrapa?",
+      "initial": "S",
+      "answer": "Satrapie",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Satrap"]
+    },
+    {
+      "id": "history-cs-hard-02-22",
+      "text": "Jak se japonsky nazýval soukromý pozemkový statek ve středověkém Japonsku, často osvobozený od daní a zásahů státní správy?",
+      "initial": "Š",
+      "answer": "Šóen",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Shōen"],
+      "sources": ["https://en.wikipedia.org/wiki/Shōen"]
+    },
+    {
+      "id": "history-cs-hard-02-23",
+      "text": "Která dohoda z roku 1494 vymezila mezi Portugalskem a Kastilií zámořské sféry vlivu pomocí poledníkové linie v Atlantiku?",
+      "initial": "T",
+      "answer": "Tordesillaská smlouva",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Smlouva z Tordesillas", "Tordesillaská dohoda"],
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Tordesillas"]
+    },
+    {
+      "id": "history-cs-hard-02-24",
+      "text": "Jak se nazývá soupis poddanských usedlostí a jejich platebních či robotních povinností vůči vrchnosti?",
+      "initial": "U",
+      "answer": "Urbář",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Urbarium"],
+      "sources": ["https://cs.wikipedia.org/wiki/Urbář"]
+    },
+    {
+      "id": "history-cs-hard-02-25",
+      "text": "Jaký latinský termín označoval v římském náboženství slib učiněný božstvu, jehož splnění se připomínalo například votivním nápisem?",
+      "initial": "V",
+      "answer": "Votum",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Votum"]
+    },
+    {
+      "id": "history-cs-hard-02-26",
+      "text": "Jaký germánský právní termín označuje peněžní náhradu za zabití člověka, placenou jeho příbuzným místo krevní msty?",
+      "initial": "W",
+      "answer": "Wergeld",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Weregild", "Wergild", "Weregeld"],
+      "sources": ["https://en.wikipedia.org/wiki/Weregild"]
+    },
+    {
+      "id": "history-cs-hard-02-27",
+      "text": "Která říšská listina z roku 1356 stanovila pravidla volby římského krále sedmi kurfiřty?",
+      "initial": "Z",
+      "answer": "Zlatá bula Karla IV.",
+      "language": "cs",
+      "category": "history",
+      "aliases": ["Zlatá bula z roku 1356", "Zlatá bula 1356", "Zlatá bula"],
+      "sources": ["https://en.wikipedia.org/wiki/Golden_Bull_of_1356"]
+    },
+    {
+      "id": "history-cs-hard-02-28",
+      "text": "Jak se nazýval historický správní územní celek u řady slovanských národů, v jehož čele mohl stát župan?",
+      "initial": "Ž",
+      "answer": "Župa",
+      "language": "cs",
+      "category": "history",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Župa"]
+    }
+  ]
+}
