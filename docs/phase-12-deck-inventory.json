@@ -3,7 +3,7 @@
   "baselineRevision": "4fe0bc54854a2b295e73aba68fe93e193ca2f000",
   "baselineDecks": 132,
   "baselineQuestions": 3696,
-  "additionalDeckIds": ["nature-en-easy-03"],
+  "additionalDeckIds": ["nature-en-easy-03", "nature-en-medium-03"],
   "finalGate": {
     "decks": 330,
     "questions": 9240,

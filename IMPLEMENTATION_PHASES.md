@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current incremental checkpoint:** delivered `d93dae5`, 133 decks /3,724
+questions. Only NatureEnglishEasy03 was added after independent deck/release
+clearance, current reservation rebind, same-source quality/native checks and
+actual private served-deck/old-data verification. This next candidate adds
+only NatureEnglishMedium03 (134/3,752); content/semantic adoption is independently
+cleared. Integration release/current reservation delta and postreview gates
+remain pending. The final330/9,240/all66 gate is unchanged.
+Historical159-working/132-delivered transition counts below are retained.
+
 **Current owner-approved Phase12 execution policy, 2026-11-01:** parallel
 cross-category deck lanes and independently gated per-deck pushes replace the
 former serial/all-at-once delivery policy. Start with two isolated authors,

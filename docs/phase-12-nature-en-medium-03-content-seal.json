@@ -1,0 +1,1113 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-11-01T14:17:31.092339+00:00",
+  "reviewerActualIdentity": null,
+  "identityReason": "No trustworthy current internal harness routing identity exposed; coordinator may attach its known tool identity, not invented here.",
+  "deckId": "nature-en-medium-03",
+  "verdict": "CLEARED FOR NATURE-EN-MEDIUM-03 CONTENT/SEMANTIC ADOPTION ONLY",
+  "deckReleaseClearance": false,
+  "integrationClearance": false,
+  "categoryClearance": false,
+  "phase12Clearance": false,
+  "actualDeliveredBaseline": "d93dae53b6b64cba32f8cdfba92b9ab885ba969b",
+  "actualDeliveredDecks": 133,
+  "actualDeliveredQuestions": 3724,
+  "candidatePackSha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811",
+  "currentReservationRevision": 7,
+  "currentReservationSha256": "db2e44a6886e33fe0fa4b545ea821683654eadd716909ad667c3a32e77423c18",
+  "sameNamedInputsStartEnd": false,
+  "sameContentSemanticInputsStartEnd": true,
+  "namedInputFileCount": 164,
+  "fixedContentSemanticInputCount": 163,
+  "exactNonCandidateInputDriftRetained": [
+    {
+      "path": ".artifacts/continuation/phase12-usage.json",
+      "startSha256": "d2693ab998d657739cb39f44aeff3f338eab53e76a1789f5afad8445aa45889c",
+      "endSha256": "6f96389dfdaf831c1a4e35511c770eef6f834a3b96fc6acb8e69ad8dced41e16"
+    }
+  ],
+  "inheritedNamedGuardCount": 15,
+  "exactAll28RawEvidenceInitialAliasesAndAdultMediumRatingAccepted": true,
+  "applicableInheritedSemanticUses": 137,
+  "currentNativeEndpoints": 62,
+  "independentlyDispositionedCurrentNativePairs": 13328,
+  "currentPairCountsByScope": {
+    "CURRENT ORIGINAL R4 CONTINUITY": 3136,
+    "CHANGED R5/R6/R7 ADDED140": 3920,
+    "CURRENT CZECH04 HUMAN/ALIAS/NATIVE DELTA": 2352,
+    "ACTUAL NEWLY DELIVERED E3": 784,
+    "ACTUAL ACTIVE UNLISTED ORIGINAL PROPOSAL": 1568,
+    "REFILL ACTIVE UNLISTED ORIGINAL PROPOSAL": 1568
+  },
+  "specificNativeBilingualAdaptations": [
+    "Ammonite/Amonit",
+    "Vascular bundle/Cévní svazek"
+  ],
+  "focusedProofNegativeChecksPassed": 6,
+  "candidateFindings": [],
+  "originalJudgmentsCorrectionsFailedNativeHeaderAssertionsAndUnknownLocalesRetained": true,
+  "noGlobalRootMaterializationNativeLifecycleOrOtherDeckCertification": true,
+  "noReviewerHeavyResourceBrowserHTTPInstallServiceOrHistoricalProducerExecution": true,
+  "fullIntegrationReviewAndCanonicalCopiesAndSameSnapshotPostreviewActualPrivateOldDataDeliveryStillRequired": true,
+  "allSixReviewLenses": "REPORT.md",
+  "inputs": [
+    {
+      "path": ".artifacts/continuation/CROSS-PHASE-PARALLELISM.md",
+      "bytes": 5707,
+      "sha256": "bb8b49c4900d931a31d14a6d05eb70553720d3670ee62adb70322d1a6667e0ea"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/batches/b01-v1/input-receipts/games-reservations-at-b01.json",
+      "bytes": 248640,
+      "sha256": "e2b0a64cabd6718a7d6d0a4f4686fe3c57fa86ca763cba68866179e0b913ad42"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/candidate-en-collisions.json",
+      "bytes": 812986,
+      "sha256": "d22fec2e216229c5fc802afd25606645001c705dee8062c764cec34e40c25d34"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/reservation-collisions-initial.json",
+      "bytes": 968235,
+      "sha256": "ade68649a85dce01430387558798e00fc9cafb8d728d0491486cd2364a7eab3f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reservations.tsv",
+      "bytes": 68328,
+      "sha256": "1b083876c13a53a6e645208f0c0787d77958fc3a162588842248543c58790d70"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/movies/batches/b01-v1/sources.json",
+      "bytes": 558014,
+      "sha256": "a131789b20cbb4f2e795a1c80ac0c4366045ad26bdeb33da1161c33192a003e1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/archive/paused/reservations.tsv",
+      "bytes": 12601,
+      "sha256": "cf260b5e6f55eca312add64904a8d86e8ee57f7adacb811a59b6452466470243"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/b03/extra-contexts.json",
+      "bytes": 39064,
+      "sha256": "784f7f321391a54961c2d177d7e75bb9bf299d6408bb087db12ef2b1d63374f2"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/b03/semantic-neighbours-current.txt",
+      "bytes": 49476,
+      "sha256": "01ea339a63c43f7474f5010f5e1325ee497932249533cb8de7e1728d895396a2"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/b04/initial-guard-output.json",
+      "bytes": 20651,
+      "sha256": "db8a409ce44e941357f24cb070f85cc4a527de2a140a9f5d97f1f432192b0b89"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-easy-03.json",
+      "bytes": 11724,
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-hard-03.json",
+      "bytes": 12581,
+      "sha256": "5849ed9eca11e9dc478902fab7db414149467bd83a37b4d0bb3917b0f409a6ed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-medium-03.json",
+      "bytes": 12260,
+      "sha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/sources.json",
+      "bytes": 317552,
+      "sha256": "355870aeb5cd161f85930ae5a3acde08497328d26287df1d406231285291532c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-easy-03.json",
+      "bytes": 12394,
+      "sha256": "02716ef971eacc78ec7770872ca86aec59015ba726eaf8cf9432b62da9ca645f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-medium-03.json",
+      "bytes": 12100,
+      "sha256": "e0efa156bb1122a0e6eca13b0329ece71c6a906090cd79f8b0ee3f668f6d2d6c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/sources.json",
+      "bytes": 326780,
+      "sha256": "6bcedd4ef5c908e503366ddefabb77b08525865e0a1992becda17f4efdbc8c0a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/packs/nature-en-easy-04.json",
+      "bytes": 11514,
+      "sha256": "10b10929314d541b4be5d4c426666f8f9d41e2aaf90a1b6d19c03ffaeaa09e23"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-easy-04.json",
+      "bytes": 11485,
+      "sha256": "579b0c9cc2da46114a87184fcf76e1ba73c37fc0c880e4acacf393286fd60abe"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-hard-04.json",
+      "bytes": 11995,
+      "sha256": "3ba12a3801901af7024d9b26b8fe004cde619a5374e3b16d891bb2608c419541"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-medium-04.json",
+      "bytes": 11318,
+      "sha256": "2b20637ad39437d12c7cd828ed0d3ff62f80d37dbcf361c2c2ee65965fb7014a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+      "bytes": 304532,
+      "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/059e14df47dcc7171f6c840ed3fcb30439336cda506e34341c7c0cdd36f2f136.html",
+      "bytes": 187550,
+      "sha256": "059e14df47dcc7171f6c840ed3fcb30439336cda506e34341c7c0cdd36f2f136"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/05c01433f84659f209d0d3c187b9a60883a266994e2f33af20e82522de1beb4c.txt",
+      "bytes": 5129,
+      "sha256": "05c01433f84659f209d0d3c187b9a60883a266994e2f33af20e82522de1beb4c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/068d7f7d3578d9aaf256736bfad9148b5a96070d3642af7335153433bb0c1c33.txt",
+      "bytes": 12132,
+      "sha256": "068d7f7d3578d9aaf256736bfad9148b5a96070d3642af7335153433bb0c1c33"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/07428fb88728122f863fce0b8319c5d91f2cf84609f21dabafe12005f6cc042f.html",
+      "bytes": 213593,
+      "sha256": "07428fb88728122f863fce0b8319c5d91f2cf84609f21dabafe12005f6cc042f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/076ed587db1ac6b0a55581574c3178167e5d57a8dffd254c9016ea9028f9401e.html",
+      "bytes": 154939,
+      "sha256": "076ed587db1ac6b0a55581574c3178167e5d57a8dffd254c9016ea9028f9401e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/09b11ea84ead16235360f037f96401c6d8d7ca89ffabc34cb6f6ff0415953a8e.html",
+      "bytes": 703201,
+      "sha256": "09b11ea84ead16235360f037f96401c6d8d7ca89ffabc34cb6f6ff0415953a8e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/12243e322e52bcb745972b3e13471051348ec0177c8ececf6f543cdd4733659f.txt",
+      "bytes": 38440,
+      "sha256": "12243e322e52bcb745972b3e13471051348ec0177c8ececf6f543cdd4733659f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/15e997151052aa861f0270d52c767d0ba0548bc6d1ae7b31a93d0bfa95267d68.html",
+      "bytes": 655361,
+      "sha256": "15e997151052aa861f0270d52c767d0ba0548bc6d1ae7b31a93d0bfa95267d68"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/17308b87fba4b2a750704001cfce81337d2f020d11f3bf55e2b54ea0cda45d6d.html",
+      "bytes": 330981,
+      "sha256": "17308b87fba4b2a750704001cfce81337d2f020d11f3bf55e2b54ea0cda45d6d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/1c7973873a6f694f8f4334152ba01cd585d049a7ad5410ee5d227f63984b0fc6.html",
+      "bytes": 128974,
+      "sha256": "1c7973873a6f694f8f4334152ba01cd585d049a7ad5410ee5d227f63984b0fc6"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/214f9cc28a1ae8017c67adae62c631330a64aa302d183de324fdbb9c08f5c076.html",
+      "bytes": 837439,
+      "sha256": "214f9cc28a1ae8017c67adae62c631330a64aa302d183de324fdbb9c08f5c076"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/240536754bf7835b9f07f152e00f089f64ad977bd0a5fa692dd2d7a17005e825.txt",
+      "bytes": 19162,
+      "sha256": "240536754bf7835b9f07f152e00f089f64ad977bd0a5fa692dd2d7a17005e825"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/2875a22c3a24a5a3f2a3605aadb983c1cf4388cf75f11d1e7e54936b5b8b8394.txt",
+      "bytes": 19908,
+      "sha256": "2875a22c3a24a5a3f2a3605aadb983c1cf4388cf75f11d1e7e54936b5b8b8394"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/2cd18ff6b9c00ac8ddd6e06c59ba72de86594e86b97a1811801340bd971fbe63.html",
+      "bytes": 482285,
+      "sha256": "2cd18ff6b9c00ac8ddd6e06c59ba72de86594e86b97a1811801340bd971fbe63"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/3bc078d9bc69c8d5405a06651944997faa70649c5332352a72d460724a45182e.html",
+      "bytes": 653517,
+      "sha256": "3bc078d9bc69c8d5405a06651944997faa70649c5332352a72d460724a45182e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/4025f607ebb56c3fc1be83343ceebda0c57c9fc236b7a2ac85a9b85f0ec16036.html",
+      "bytes": 469413,
+      "sha256": "4025f607ebb56c3fc1be83343ceebda0c57c9fc236b7a2ac85a9b85f0ec16036"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/43a18fb2f21e11d7ecdfa0e0a8d3d393ae0b2e34d28555bef1e2d942e9c2d04a.txt",
+      "bytes": 23272,
+      "sha256": "43a18fb2f21e11d7ecdfa0e0a8d3d393ae0b2e34d28555bef1e2d942e9c2d04a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/44a5e4d6073dce51457253e5b08bb466d6ad8105097c0c7ee676e3d9603a9d2e.txt",
+      "bytes": 5157,
+      "sha256": "44a5e4d6073dce51457253e5b08bb466d6ad8105097c0c7ee676e3d9603a9d2e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/4519ce42d4b3a3d4dec7f4063503a723a1bd2b0bd10cc52df7dd8babcb860ec7.html",
+      "bytes": 191574,
+      "sha256": "4519ce42d4b3a3d4dec7f4063503a723a1bd2b0bd10cc52df7dd8babcb860ec7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/4570108342091fbf13a86e719058563d7c2984c9a9d983049b5a9658a3fcd3d7.html",
+      "bytes": 128289,
+      "sha256": "4570108342091fbf13a86e719058563d7c2984c9a9d983049b5a9658a3fcd3d7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/53345c0f1ffddee1fe11596f82f86826cff16864e3ee48132761c11118764d99.html",
+      "bytes": 270841,
+      "sha256": "53345c0f1ffddee1fe11596f82f86826cff16864e3ee48132761c11118764d99"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/5651c440eecb46d69657b54daa77e8b103f7fac6f35f0297e0ff470fac484999.txt",
+      "bytes": 3768,
+      "sha256": "5651c440eecb46d69657b54daa77e8b103f7fac6f35f0297e0ff470fac484999"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/58e5941dc1f21738071e38d23284dc3336a617bc891f4614ad328cf1904d2738.txt",
+      "bytes": 3848,
+      "sha256": "58e5941dc1f21738071e38d23284dc3336a617bc891f4614ad328cf1904d2738"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/59f76a73b6d47a15b80f76e5da19f56f71aa02ab134cddf03612a63f4405c255.html",
+      "bytes": 113483,
+      "sha256": "59f76a73b6d47a15b80f76e5da19f56f71aa02ab134cddf03612a63f4405c255"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/5b4e046c3a324ccadba5b90a4fe0e68c11c607d936b5f4593f2cb11a09af03c3.txt",
+      "bytes": 21107,
+      "sha256": "5b4e046c3a324ccadba5b90a4fe0e68c11c607d936b5f4593f2cb11a09af03c3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/6712259236469a07c02604c46a43b6fc493883a9638a28b9693356c302a01a12.txt",
+      "bytes": 5219,
+      "sha256": "6712259236469a07c02604c46a43b6fc493883a9638a28b9693356c302a01a12"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/6e9246b03d977e3713c592c6d7c134b8dca56ec903cf086b8478b278d7ebf63b.html",
+      "bytes": 274178,
+      "sha256": "6e9246b03d977e3713c592c6d7c134b8dca56ec903cf086b8478b278d7ebf63b"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/751cbc72905ff9c3cf4d65265c07bf5c4e147092a8cb6fa6778fdc2f12578e7f.html",
+      "bytes": 427702,
+      "sha256": "751cbc72905ff9c3cf4d65265c07bf5c4e147092a8cb6fa6778fdc2f12578e7f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/7a1eb0b4f3a289bc1d34fc0cb6ff5a408f43b4d493025b202b7c0bfbd811fe93.txt",
+      "bytes": 14667,
+      "sha256": "7a1eb0b4f3a289bc1d34fc0cb6ff5a408f43b4d493025b202b7c0bfbd811fe93"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/81186675111e6a3adf05cf6a14aa7f9e4f175fefaaf1f862c7e688c99c0dadf3.txt",
+      "bytes": 16322,
+      "sha256": "81186675111e6a3adf05cf6a14aa7f9e4f175fefaaf1f862c7e688c99c0dadf3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/83832290658f8ca640ed76a8361851a8818ae19dd87b173dbb605fa5889658a4.html",
+      "bytes": 188811,
+      "sha256": "83832290658f8ca640ed76a8361851a8818ae19dd87b173dbb605fa5889658a4"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/855dff859cbe0f15f432780aafffcf5df8f6055c74c785b69d7f97b6fe37f522.html",
+      "bytes": 1156438,
+      "sha256": "855dff859cbe0f15f432780aafffcf5df8f6055c74c785b69d7f97b6fe37f522"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/857c1c0aae3e70fea84a15d1e1050cb62c611b033b70671ea892e1464da1c115.txt",
+      "bytes": 23326,
+      "sha256": "857c1c0aae3e70fea84a15d1e1050cb62c611b033b70671ea892e1464da1c115"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/8812cb041cb6f21d0a404934824a98f97ec3e5c8debbf7547c446c978857a9c3.html",
+      "bytes": 364611,
+      "sha256": "8812cb041cb6f21d0a404934824a98f97ec3e5c8debbf7547c446c978857a9c3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/88cb659f1ce5b30cbdd1e820ff8357e553710162df8d0a85a33bad822377f00f.txt",
+      "bytes": 15807,
+      "sha256": "88cb659f1ce5b30cbdd1e820ff8357e553710162df8d0a85a33bad822377f00f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/8fef1923153d2ee3ee1fe335cf1d4676cd7a9c63adc05bb821554cfbbb9524ef.html",
+      "bytes": 301448,
+      "sha256": "8fef1923153d2ee3ee1fe335cf1d4676cd7a9c63adc05bb821554cfbbb9524ef"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/914d44f9834cb0d593f4dad02581c64ef56ed1a25efc53c1a36911ad39e17cd8.txt",
+      "bytes": 38416,
+      "sha256": "914d44f9834cb0d593f4dad02581c64ef56ed1a25efc53c1a36911ad39e17cd8"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/952192010c33b676a6d1de0b69deff9ee7c92f581f0718ac3366113d79949675.txt",
+      "bytes": 9981,
+      "sha256": "952192010c33b676a6d1de0b69deff9ee7c92f581f0718ac3366113d79949675"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/96887c40b60f5db91782df3d5ffb2ded1e175e1cb0d397b04ae6f2d5e6d1435b.txt",
+      "bytes": 27817,
+      "sha256": "96887c40b60f5db91782df3d5ffb2ded1e175e1cb0d397b04ae6f2d5e6d1435b"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/9aff789c5d855f8488f0d1e955f5664686fe74d3aa6fbcb300b1bc43e634c885.txt",
+      "bytes": 6585,
+      "sha256": "9aff789c5d855f8488f0d1e955f5664686fe74d3aa6fbcb300b1bc43e634c885"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/a07f47c0d0d71bf688c833a873918062313013c2750bc34d91875d993a75f334.txt",
+      "bytes": 10604,
+      "sha256": "a07f47c0d0d71bf688c833a873918062313013c2750bc34d91875d993a75f334"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/b11f5c8a064bf72413733b561a2cfd6be038ed06a02f144749f1d1b888da2da8.html",
+      "bytes": 596016,
+      "sha256": "b11f5c8a064bf72413733b561a2cfd6be038ed06a02f144749f1d1b888da2da8"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/b165e4ad2b80dfebb546f7cb488dcdec82b821706fbf1ec4a1e4b6ef648d6b41.txt",
+      "bytes": 2947,
+      "sha256": "b165e4ad2b80dfebb546f7cb488dcdec82b821706fbf1ec4a1e4b6ef648d6b41"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/c0b049e93bcd7fa7c2b5788f5621132b53de6548e41adb2b1a3b2a78ba0e8cab.html",
+      "bytes": 191573,
+      "sha256": "c0b049e93bcd7fa7c2b5788f5621132b53de6548e41adb2b1a3b2a78ba0e8cab"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/c237f026dfdac203b63cacb44a0289533c37ee14565727dbcc2ec69234a52335.html",
+      "bytes": 182700,
+      "sha256": "c237f026dfdac203b63cacb44a0289533c37ee14565727dbcc2ec69234a52335"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/cb1d84b525a5d73c209ba8c163ab74af515f8a0a31414e574d4b3f76e0400b66.html",
+      "bytes": 334989,
+      "sha256": "cb1d84b525a5d73c209ba8c163ab74af515f8a0a31414e574d4b3f76e0400b66"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/cb3fd4706060ca59ba6ef8ea53df986f0a1557432c1b5d6fc3c12c35e3674b7f.txt",
+      "bytes": 4169,
+      "sha256": "cb3fd4706060ca59ba6ef8ea53df986f0a1557432c1b5d6fc3c12c35e3674b7f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/d3f0b9f34004576a8fe4625c6850a1606dacf01f4fb3cba961777af80a132755.txt",
+      "bytes": 30106,
+      "sha256": "d3f0b9f34004576a8fe4625c6850a1606dacf01f4fb3cba961777af80a132755"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/d8685bf5c1a3951ccb909b1359320b1d334ca22457842644b3088619c79b73a3.html",
+      "bytes": 617452,
+      "sha256": "d8685bf5c1a3951ccb909b1359320b1d334ca22457842644b3088619c79b73a3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/d89f296c5de1e5e7f1a64bacd1e32fba5285b6b86061d63febe189ab1b327fca.html",
+      "bytes": 675269,
+      "sha256": "d89f296c5de1e5e7f1a64bacd1e32fba5285b6b86061d63febe189ab1b327fca"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/da11f68ea907ea840428980b3519aba30d26716c7ae17c0eccdb078b2401954f.txt",
+      "bytes": 9532,
+      "sha256": "da11f68ea907ea840428980b3519aba30d26716c7ae17c0eccdb078b2401954f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/e0ed203355d8712631b79b9537a7559a4a9ed7fd47074aae0345b0923251dc33.txt",
+      "bytes": 1612,
+      "sha256": "e0ed203355d8712631b79b9537a7559a4a9ed7fd47074aae0345b0923251dc33"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/e418766a85225f9f7152443d15baab91f89c036b2e0aae40f02bcd627f3530e0.txt",
+      "bytes": 53852,
+      "sha256": "e418766a85225f9f7152443d15baab91f89c036b2e0aae40f02bcd627f3530e0"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/f4ad11bf55d132ba61f0e62913fee9f81d603a13bf450a5f0408bf7fb57a1e93.html",
+      "bytes": 193636,
+      "sha256": "f4ad11bf55d132ba61f0e62913fee9f81d603a13bf450a5f0408bf7fb57a1e93"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/f6c90cd6f5b7a49888cb7a39c560caaf8db2fc0f76d0663d355476d45e9e6fe7.html",
+      "bytes": 182140,
+      "sha256": "f6c90cd6f5b7a49888cb7a39c560caaf8db2fc0f76d0663d355476d45e9e6fe7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/f89b92fa4a067d911a740bddefa8bf103bb782928da6fd376384cd3b2441c314.txt",
+      "bytes": 23413,
+      "sha256": "f89b92fa4a067d911a740bddefa8bf103bb782928da6fd376384cd3b2441c314"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/fbb98215632850e30bbdc29d1be5649905088d69c6c76954a0620a74ba8af873.txt",
+      "bytes": 26657,
+      "sha256": "fbb98215632850e30bbdc29d1be5649905088d69c6c76954a0620a74ba8af873"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/frozen-sources/fe44d8a3c4b1e0a2e2a89986bc534114013406517833cc5e4808801127065ad6.txt",
+      "bytes": 9123,
+      "sha256": "fe44d8a3c4b1e0a2e2a89986bc534114013406517833cc5e4808801127065ad6"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/reservations.tsv",
+      "bytes": 14310,
+      "sha256": "59ace3ac5c97203966f10997b25df6dc5255b749150df02c6bdf2310118f48ac"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-01.json",
+      "bytes": 647,
+      "sha256": "a456c2400ec8bedfb3ba70be142df63c69af6eca342111a7671f8a2f0e743251"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-02.json",
+      "bytes": 637,
+      "sha256": "daa98ef68da5e98eda083c01243c9bf837554ba0b4e7e089ceae957c457b61a3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-03.json",
+      "bytes": 659,
+      "sha256": "1ada35d0807b77ddb9e260fb002152d48771dc2bd249309088eba41105877509"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-04.json",
+      "bytes": 643,
+      "sha256": "36ef9c4bca9b4b6ef7a3f1bd9debd074c843e875aba98bd473cbd0fcba17275d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-05.json",
+      "bytes": 649,
+      "sha256": "8d6025423da1565f4bd1b8b61cd4838e285b78f17282630916498f10f1d7a223"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-06.json",
+      "bytes": 643,
+      "sha256": "d066ad6d75d8dd35ec1b56eadbd4229560cfd02d16b3e12e28780cd350fd7ef7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-07.json",
+      "bytes": 643,
+      "sha256": "6e3a06ae0259cfe2bee80be63d403460e284984782c3ce233302c467be951a86"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-08.json",
+      "bytes": 645,
+      "sha256": "87082de0f998a623ac3d7868157b9134a12e6455b3a55f573c7ef8ad3ba31a11"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-09.json",
+      "bytes": 637,
+      "sha256": "4fc50bc61d7acce8933571370891994d22aed6a13aeb2195772fc99f9133d27a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-10.json",
+      "bytes": 660,
+      "sha256": "dcd2f283805890d8d92871836e899764b1127e90d0f85f12ba62d2d7280c9236"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-11.json",
+      "bytes": 645,
+      "sha256": "7652d94391fc0b865e1c8a80b2d218543198fe5339edf42bed4a26488863fd04"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-12.json",
+      "bytes": 637,
+      "sha256": "f86e880ba5ca1e21b55f6f70c02bafa408bb6da9cc7a562c18b780abd4b3ed58"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-13.json",
+      "bytes": 639,
+      "sha256": "b3cf1c819ac863f72df56ff833aee87f5c60b649c13c63ed5a13a3550925d922"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-14-replacement.json",
+      "bytes": 935,
+      "sha256": "cf27445fc99f10cd840356e9f0e4e0c52d02868d05d3777b36ae8ba4aac29035"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-15.json",
+      "bytes": 643,
+      "sha256": "22a359291f59722ff51262617e6f87f7cedaec85a68ac794497a498c0d4a71ef"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-16-replacement.json",
+      "bytes": 943,
+      "sha256": "dc7abab0e5e51ec0d65081149617d51d48187ca39c54a5eebef62d85a1cb51dd"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-17.json",
+      "bytes": 651,
+      "sha256": "c13691a4d2d2c75d0df82ce19209147c53cff3a2f6b8822e9a254c5f81111e19"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-18.json",
+      "bytes": 665,
+      "sha256": "85de35b2e5ed7f43b774a3efd2a2b7e722159fec569782fc354837c205c3f053"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-19.json",
+      "bytes": 639,
+      "sha256": "1d8e785ce0cb2d11c851ee9c7c59d5e2ae7f0f5ae083c09fcefa18b01e8c8748"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-20.json",
+      "bytes": 645,
+      "sha256": "4c4b5db7ade0b0d86564b152d8c4708bc462096b91cdaefd28619bc73e107dfc"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-21.json",
+      "bytes": 671,
+      "sha256": "83e8d66d5bacf2f2102ac2ed3e0a03eb4c7af02a5ddece0b79fb2c9a287b394a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-22.json",
+      "bytes": 641,
+      "sha256": "7b576b6fb9863a8ea9287bfef9e0bc368fea0f785e26c91f643367e275058252"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-23.json",
+      "bytes": 636,
+      "sha256": "8e5af62f2044e426fecf38ebadfd8c90f7826f8ae08760bc5fa891a5de03499e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-24.json",
+      "bytes": 656,
+      "sha256": "648e19131d72828cbb753902bbf08c6ba73752f5c1e5c0c6c1d7017788ac07dc"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-25-replacement.json",
+      "bytes": 935,
+      "sha256": "98e40fdb6ca0c42264ea1a6a0634be4ecb8ea7f4ab943b58f19f57da971126c8"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-26.json",
+      "bytes": 645,
+      "sha256": "c23e2cfd67570c7754427c3a57a1385aedb08f24365426aa4ac82dc6d24c9157"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-27.json",
+      "bytes": 637,
+      "sha256": "8953f0a040f859617d07bd9c308dea8d4071aec8d8780647d346616f6eeb06fb"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/sources/nature-en-medium-03-28.json",
+      "bytes": 651,
+      "sha256": "01bb117b19583f2d2fcceeb8443998d30936a3b42e644b4e1dbe95b9091ab439"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/work/b01/sources.json",
+      "bytes": 317396,
+      "sha256": "8439a7d2787a994313ba11bb9db08f68c46ff813a795c851bec7e07d703985d0"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/b04-work/provenance-overrides-b04.json",
+      "bytes": 537549,
+      "sha256": "a77ce5b2c4160aef342c7cfe44a127fb3829fdba86e5dbcc4c8b6c9f566d3655"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b01-v1/packs/politics-cs-easy-03.json",
+      "bytes": 11913,
+      "sha256": "7565bbb69f4305d1b07601e5e5c571a174eb41e288dc9744616e0ac286290168"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/programming/batches/b01-v1/packs/programming-en-easy-03.json",
+      "bytes": 10947,
+      "sha256": "95245b0320acf49abfb200188abe436d68be4da6b75c2c32b6b5823781304c39"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/b02-author/reservations.tsv",
+      "bytes": 74261,
+      "sha256": "5cc7c89620b63390a9b8cc0482233f217234d5e4ca025c67ad4e8169e3afc111"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-easy-03.json",
+      "bytes": 11992,
+      "sha256": "5b44cc97e2915d8a85b07e72c9029b0015b3e9957af45db9aa1f84bc03e7c768"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-hard-03.json",
+      "bytes": 12824,
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-medium-03.json",
+      "bytes": 12367,
+      "sha256": "a4f2c0d4d6beae62313032bdfdcb0502854303e06164c8556909edc596f02bed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/packs/science-cs-easy-03.json",
+      "bytes": 11281,
+      "sha256": "7ad2dcf132a7acfc7323fd7e6e519cca8feac777bd1a0282818a5e91397410f7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/reservations.json",
+      "bytes": 238556,
+      "sha256": "dfc5a5677370122432660cef78f49cfd87ba4975fcdd036cf539f1aa50034af1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/nature/b01-v1/entry-receipts.json",
+      "bytes": 402192,
+      "sha256": "5cb14ba85fd1818aa01fefab4b1ac3f49a45463344cb97022d985247dd533108"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/nature/b01-v1/v2/deck-ratings.json",
+      "bytes": 3274,
+      "sha256": "8726e7737cb7a7b9fb670a6e382bbc66d900e2c3cb7c91e76ad93e772130a75a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/nature/b01-v1/v2/entry-receipts.json",
+      "bytes": 268299,
+      "sha256": "c809818ee9aed217cf077dbeb652febffdd8c333d27e443dc1f5f2eaf59a2e39"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/nature-en-easy-03.json",
+      "bytes": 11724,
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-easy-03/frozen/general-en-easy-03.json",
+      "bytes": 9999,
+      "sha256": "66743e496776c1f8aae7c87a57394e1c5a61f4971d98f3522b6f1ed8cf98059a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/frozen/geography-en-easy-03.json",
+      "bytes": 10566,
+      "sha256": "7383e64bd5c5a3ac30d9fdf7185412aa491e17069f4b32ec0152af44263d4d93"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-cs-easy-03/nature-cs-easy-03.json",
+      "bytes": 12394,
+      "sha256": "02716ef971eacc78ec7770872ca86aec59015ba726eaf8cf9432b62da9ca645f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/release-review-v1/CURRENT-REV7-DISPOSITIONS.json",
+      "bytes": 1188317,
+      "sha256": "72db23920eb2d3e4e02da679e92b9b5f4967878ad60768a14e1be5c7b43c18b9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/release-review-v1/CURRENT-REV7-END.json",
+      "bytes": 8307,
+      "sha256": "15cf77fb780d6a09011fb4b94c568ec4d454d0c3caac94c04ac049a896188229"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/release-review-v1/CURRENT-REV7-SEAL.json",
+      "bytes": 1899,
+      "sha256": "8ccab72ddce12b56cac8594f8d547bbff9b74a8f134ba928885c83b4691d2de0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/END-INPUT-HASHES.json",
+      "bytes": 45874,
+      "sha256": "d8f0a6b717f0c03ed4892407b644a2b7850bbb12c70fe70bef5f70745b26e9f0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/SEAL.json",
+      "bytes": 4456,
+      "sha256": "34d5f2927b1856085f3d1c8b5e8302a948aa9d4cba4fa809b9bc7121318202e5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/ADOPTION-HANDOFF.json",
+      "bytes": 5913,
+      "sha256": "172c67aba76183f27fe4c6eb91737ee1fd3ee4732c310c179f4770b96f5e6be9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/AFFECTED-SOURCE-OBLIGATIONS.json",
+      "bytes": 13285,
+      "sha256": "4e13546eeaf5e9ab630601d8814d176c74ba97056d4115fe88a22521c56e9e6a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/CENTRAL-GUARD-CHECK-REQUEST.json",
+      "bytes": 10057,
+      "sha256": "3cf2afd15ac8930d30b2a8fec9a81850697e193802ebd76f05745a366de1f45e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json",
+      "bytes": 12757,
+      "sha256": "fb7380e705bf5caee178d420d262e350d8e86e671d499c71eb92b129c1969ede"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/CURRENT-NATIVE-DELTA.json",
+      "bytes": 487786,
+      "sha256": "553473f9501565c81672c792c68fb8eac448d9e77010471bb4edfd2cc3b313e0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/CURRENT-SOURCE-POINT-RECEIPTS.json",
+      "bytes": 47919,
+      "sha256": "26a2d038ee7a3727161624532903ab58aa4f5751de16e59a9a73e5419875e9b8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/ENTRY-BINDINGS.json",
+      "bytes": 710293,
+      "sha256": "67300a228c5f1714b485e0a6565d46565a1209d80df5d392fe40ab0c07d14cbb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/FAILED-NATIVE-HEADER-CHECK-v1.json",
+      "bytes": 5446,
+      "sha256": "abc2a3de8c2623b46cd69650ab1b4d5184b9b56c906f58b513f28a0d2c6b5c02"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/INPUT-MANIFEST.json",
+      "bytes": 42078,
+      "sha256": "a6db8bb16faa163753cd402826343d60adae6a570e865c6b5a9978b4a9a6bb7f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/NATIVE-LINEAGE-POINT-RECEIPTS.json",
+      "bytes": 207936,
+      "sha256": "3209d9e55bff426eb861f0eb78a0481cdb09d1b3ab90fde8dca883c6f0920f80"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/RESERVATIONS.json",
+      "bytes": 33692,
+      "sha256": "af73cfb4197158a3ec247fca26faa2ae515cb4002c18e2ad9ed184668400bcf6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/SEMANTIC-CONTINUITY.json",
+      "bytes": 2460239,
+      "sha256": "580ecbffa7fe67c7bd6b3249ec407305a78b61a5cc7766a358d086d5b6a4da25"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/frozen/nature-en-medium-03.json",
+      "bytes": 12260,
+      "sha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/frozen/original-deck-ratings.json",
+      "bytes": 3274,
+      "sha256": "8726e7737cb7a7b9fb670a6e382bbc66d900e2c3cb7c91e76ad93e772130a75a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/frozen/original-difficulty.json",
+      "bytes": 2157,
+      "sha256": "06c257a1ae1b6010e7e8de893649594960e22693f806ec4886bd495b6d020096"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/frozen/original-nine-rating-continuity.json",
+      "bytes": 10574,
+      "sha256": "78d8d411b52ff9cc2f5595f5d5cafe105ca996a14285681a4f06e0d757c6041c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/prepare-adoption.py",
+      "bytes": 35759,
+      "sha256": "e87b2f8caf8d469716dab1e34c3bc4dc811e26938f91a963d577236d18b97281"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/verify-adoption.py",
+      "bytes": 3806,
+      "sha256": "0e19fd8f1ee59c0fd108a620cfd055998d76422fe61af6ec8d429cb60d92d265"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/verify-affected-guards.py",
+      "bytes": 1998,
+      "sha256": "4f0cfbb3582c67a680dbe1678d2c8ca136be84e1c71284672ed31098db9354ce"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/frozen/science-en-hard-03.json",
+      "bytes": 12824,
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-adoption-review-v1/accepted-entry-composites.json",
+      "bytes": 1270044,
+      "sha256": "f25cd2853f8336756076e1b1f7babc1cbd80284bf34e958b5db00e7007514675"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-adoption-review-v1/nine-rating-continuity.json",
+      "bytes": 10574,
+      "sha256": "78d8d411b52ff9cc2f5595f5d5cafe105ca996a14285681a4f06e0d757c6041c"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-adoption-review-v2-b01/SEAL.json",
+      "bytes": 64324,
+      "sha256": "df4fcaeb284d0f77e8e956839b2b24d587ff941a2ca4b51bf7b3ae836575fc62"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-adoption-review-v2-b01/end-snapshot.json",
+      "bytes": 1444611,
+      "sha256": "8934468ac9ba437bb7a631b0ee6afbfed53ab56d7d3aef1ed4e4e489d05cc82e"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-adoption-review-v5-b03/ADOPTION-COMPOSITE.json",
+      "bytes": 109987,
+      "sha256": "211fb36db6fb7e1987f861bce880f82553f059da0cb6d72aff5ede7698c2e6b8"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v7.json",
+      "bytes": 228041,
+      "sha256": "db2e44a6886e33fe0fa4b545ea821683654eadd716909ad667c3a32e77423c18"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-usage.json",
+      "bytes": 781,
+      "sha256": "6f96389dfdaf831c1a4e35511c770eef6f834a3b96fc6acb8e69ad8dced41e16"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 11670,
+      "sha256": "5bead2d761a6aa7ac317d929530e16878675c2363d96790c424385c42f84bb41"
+    },
+    {
+      "path": "IMPLEMENTATION_PHASES.md",
+      "bytes": 145305,
+      "sha256": "eb13b7d21f2718896c3751673ad59246a451b630344bfe41d90028ea8a0c68b8"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 55978,
+      "sha256": "0223ceb5b19790b08f553718d7848b07b4afee8998f00aa682ca821b58c09253"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 10153,
+      "sha256": "c5fcc8ddfde8919a1a252ee1ba83ccaab4ee5fbcd30e46cad8be5d59571b9dc3"
+    },
+    {
+      "path": "docs/phase-12-nature-sources.json",
+      "bytes": 1060996,
+      "sha256": "b820def9302022365da03aa6bf4724d5a46697104f431bebc98e5dfedd048f72"
+    },
+    {
+      "path": "docs/retired/entertainment-en-01.json",
+      "bytes": 10295,
+      "sha256": "9e35c81c54ffc53a95cdb4eebfecb605054d1d099fa0f162114fc88b708c9dfd"
+    }
+  ],
+  "originalStartInputsRetainedAt": "START-INPUT-HASHES.json",
+  "inheritedInputGuards": [
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/correction-b03-v2/new-complete-forms.json",
+      "sha256": "7e49c28a73706b9e5390474b989bdcfaddb987abd8caedfb0d3a7b69d9b1c71c",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/correction-b01/novelty-delta/independent-neighbor-groups.json",
+      "sha256": "d355992d31a3d7630a144eae479e4775ce22986ecbccad5f46d7a8c963e8f28b",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/programming/fresh-new-external-groups.json",
+      "sha256": "533fe57c5655c9f7974a1459e00b521681bbcc035b9ce2a528a07ab61d746a44",
+      "method": "Fresh coordinator streaming SHA256 of this exact previously uncaptured file only",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/programming/fresh-closing-resolved-neighbors.json",
+      "sha256": "959582e9ccf928e607ede1b2ca9bb18e6059ea136078dc29c7b0ac4e6afbd979",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/movies/fetch-receipt-1.json",
+      "sha256": "003585b39486d7f985da8d3c0a83d7a28e8949ebba0ed4f6f54d98fd83d7dac2",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/b04/closing-provenance-dispositions.json",
+      "sha256": "518a77e4474b8529f7944067bb398480f11653b7652c326b38893dc0ce4d94b0",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/work/b04-resume/closing-reservation-contexts.json",
+      "sha256": "fe73258a3ef60328889749498b291b52da2bfd48ea5bd7bd5a2cfbccc67635ae",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/b04-work/closing-collisions-before-proofs.json",
+      "sha256": "1ae57208153cadee9a3a21179a3171f2140b64dfa77bcd6049ecbc8450a6eacf",
+      "method": "Fresh coordinator streaming SHA256 of this exact previously uncaptured file only",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/sports/work/b02/candidates.json",
+      "sha256": "1644fe13305c50bc3f9321ec9361558aa4daebc8fd770ec103eea79f424b8a0f",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/correction-b03-v2/all84-changed-input-nominations.json",
+      "sha256": "32e01b3d9deb62e06163b7e70779b1d729ea5d19defbc516c426c08264c12461",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/b04-work/initial-screening-receipts/supplemental-drafts-b04.json",
+      "sha256": "b8c03506fc2f380e87585941e649922b92073ae66e1b700f5c2dbe68c4dbe8b6",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/movies/reservation-screen.json",
+      "sha256": "e4c87ea9fd5d6e871b58af115c765cc0498d86a5c92cc5643e4a54b21ab7e374",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/movies/batches/b01-v1/self-quotation-proofs.json",
+      "sha256": "1f8b0ac7e4cf34c5d2fda34ba84b55e099f4c0ecf48ac3e8fd2383f3d9335e10",
+      "method": "Exact independent end-capture hash inherited under preserved frozen source ownership; no stat/name-based hash assertion",
+      "authorityPath": ".artifacts/continuation/parallel-decks/nature-en-medium-03/COORDINATOR-GUARD-CLOSURE-v1.json"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-adoption-review-v2-b01/semantic-adoption-overlay.json",
+      "sha256": "e52dccd417a0015a7b30d388496bed4d77dad7ceb235bb22024592d90bf99b35",
+      "method": "Exact selected137 rows independently matched with original independently sealed overlay; unchanged exclusive original-source freeze; no full overlay rehash.",
+      "authorityPath": ".artifacts/continuation/phase12-nature-adoption-review-v2-b01/SEAL.json"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-adoption-review-v2-b01/guard-closure.json",
+      "sha256": "9e163b480f9706bf91a93e5342837a4694a761cafaba4dd93a9d44b5759d1b46",
+      "method": "Exact original per-use guard/rejected-route authority inherited under original-source freeze, sealed SHA retained; no large source rehash.",
+      "authorityPath": ".artifacts/continuation/phase12-nature-adoption-review-v2-b01/SEAL.json"
+    }
+  ],
+  "additionalCentralEvidenceInputs": [
+    {
+      "path": ".artifacts/continuation/phase12-logs/nature-medium03-full-prereview-v1.log",
+      "sha256": "34d8978b27ef25454ca74b19ad5372a4fd30c3ae4ef7fa4930adb7c5cbb44baf",
+      "bytes": 15011
+    },
+    {
+      "path": ".artifacts/continuation/phase12-logs/nature-medium03-native-prereview-v1.log",
+      "sha256": "71a8a19fe0d01e1554f937f788fd78a712694a3fbfb8b16e756d62f1c3d21a75",
+      "bytes": 9041
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/integration/FROZEN-RELEASE-INPUT-v1.json",
+      "sha256": "2bd8533318c329997f1931bc805c19da87986b4fd9b750cef3830bb4db4b8ea9",
+      "bytes": 59522
+    }
+  ],
+  "outputs": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/ACTIVE-PROPOSAL-BINDINGS.json",
+      "bytes": 35213,
+      "sha256": "40226d4a4c0253d73d19ab2484b33be01925074c1766bdb98f319fee679f768a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/AMMONITE-NATIVE-ADAPTATION.json",
+      "bytes": 13377,
+      "sha256": "e6ac4181fc7e86106f9109537be0126f230fd5bcb3ecda8b90206ad4e9ecb44c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/CENTRAL-EVIDENCE-INPUTS.json",
+      "bytes": 1909,
+      "sha256": "a75ececbfd5dce98459f8ddd2ca2ac8c501a3be295b9c1ee14644835d1535d01"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/CHECKS.json",
+      "bytes": 118474,
+      "sha256": "61893feeaab701f0b2fe29d62ff7b3a6ed0b8d465fd1bb8c7529eaf8021c8adf"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/COMMANDS-AND-RESULTS.json",
+      "bytes": 1139,
+      "sha256": "0fe49e051577ebdbcbb45bf836771ca9733e9aace2cf8d2ab61dcb9a8e774bd7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/CURRENT-NATIVE-DISPOSITIONS.json",
+      "bytes": 19933004,
+      "sha256": "ccf7267eec647f1e8758cd33ef226bf661904c0f9976177816a4f0367baa910c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/CURRENT-NATIVE-INPUTS.json",
+      "bytes": 279667,
+      "sha256": "becfc98ac0b0fd36f6d39746dcca5c7e39e748821280471ade0277756e7c8b3f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/CURRENT-POINT-REVIEW.json",
+      "bytes": 252341,
+      "sha256": "766311a3188e7925edc54b0ac4bcda70436dffde36fdb1dc2c358155c5f7794c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/END-INPUT-HASHES.json",
+      "bytes": 38728,
+      "sha256": "fb3794d64961ad57fa858300d59971156f2d2f7b9b936686a48f645eecf84fc2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/ENTRY-REVIEW.json",
+      "bytes": 724608,
+      "sha256": "cd173dbd0ce7b4d17520409ed41c1bf6ebe363c31d80eed6ce5abac33cc74660"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/FOCUSED-PROOF-NEGATIVES.json",
+      "bytes": 6167,
+      "sha256": "5676e2cee1b3d99f8cf0872b723fe4cc5e792b07388ba613bb6363ac732ee5f4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/GUARD-CLOSURE-REVIEW.json",
+      "bytes": 12168,
+      "sha256": "c53d39ff3139ec08b8d1bddd45dede3a807da60a7e9d95045711657d18c72d14"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/HISTORICAL-MANIFEST-DELTA.json",
+      "bytes": 169,
+      "sha256": "950719dd3c787b771f3b31e18af8e8dde1a5b3983bf7387e11bf0c9c19123463"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/INHERITED-NAMED-INPUT-GUARDS.json",
+      "bytes": 6870,
+      "sha256": "aaae3ede0fe78ae840c2112e7d037de7e67bb4a0a2253d97013cea0a7614d380"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/INHERITED-SCIENCE-R7-LIFECYCLE.json",
+      "bytes": 121241,
+      "sha256": "6e3d71d1dba0e74b311af1cfa6bd2a48a697c4bb63ee90af592f3592d927f08f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/PERMITTED-PARENT-EVIDENCE-DELTA.json",
+      "bytes": 1471,
+      "sha256": "ab3b960e3ad00d0c9cad701b70337bdf4f33433e6fd46587499226ea06811d18"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/REFILL-PROPOSAL-BINDINGS.json",
+      "bytes": 31312,
+      "sha256": "44220b5c0cd9d9764c585f6c03b0881733ca38cc8854f9291a6284d365fdfdd9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/REPORT.md",
+      "bytes": 13329,
+      "sha256": "c030eb4aa71ea68224e9a60c9b99d856bbb6826de4a81a86d4a86fedc0f446b0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/REVIEW-METHOD-DIAGNOSTICS.json",
+      "bytes": 1355,
+      "sha256": "780cf2cfdb09aeff12a7fcac378b892ebb9f751732a64c18ad0a1134ba3ab54a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/SEMANTIC-USE-REVIEW.json",
+      "bytes": 86693,
+      "sha256": "ba63df4667fefdf67b6566872d5e2e9f01023a6a760377d4592c93de8236834f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/START-INPUT-HASHES.json",
+      "bytes": 38040,
+      "sha256": "5b795e16faca5ccaae1e23b2c5b0a3e76eccbf092425c55982f352c807925dff"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/VASCULAR-NATIVE-ADAPTATION.json",
+      "bytes": 7143,
+      "sha256": "15c77cdbb8783985ab4b779f3c9c07f9f457a4e17b2724cf5eb4541ebdda390f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/adjudicate-current.py",
+      "bytes": 16833,
+      "sha256": "21192c5ef411f57c9e64fff98c985084d86cacd24382801a121c4e94c950af0f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/review.py",
+      "bytes": 23110,
+      "sha256": "42611fee9ee14f395cc1f91fe79450d19e0c7a7c3009d1e7f82b93bf749d0231"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/seal.py",
+      "bytes": 9195,
+      "sha256": "f01aaa7a693acb2d47c5c0d8fa31b36e5dac895bf2028601af7a997d6d510fbe"
+    }
+  ],
+  "sealSelfExcluded": true
+}

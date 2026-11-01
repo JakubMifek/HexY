@@ -33,6 +33,16 @@ immutability and all content-quality requirements remain unchanged.
 
 Last updated: 2026-11-01.
 
+**Incremental delivery checkpoint:** `nature-en-easy-03` independently cleared
+and privately delivered as `d93dae5`: 133 decks / 3,724 questions; all 132 old
+pack bytes/order and actual old-game/library/deadline recovery preserved.
+This next isolated candidate adds only `nature-en-medium-03`, giving134/3,752.
+Its exact 28 factual/full-evidence/alias and original Medium rating judgments
+are inherited and current content/semantic adoption is independently cleared;
+integration release review and same-snapshot postreview remain pending.
+Earlier counts below are historical checkpoints,
+not a claim that all 159 working decks have been shipped or Phase12 is cleared.
+
 **Owner-authorized engineering recovery, 2026-11-01:** the SAME sole Phase12
 coordinator continues bounded source-native lineage slices, not the previous
 global inventory/backstop strategy. Mapping7's 60 exact materializations have

@@ -2,16 +2,20 @@
 
 ## Phase12 one-deck integration candidate
 
-This isolated snapshot contains **133 decks / 3,724 entries**: all 132 delivered
-packs unchanged, followed by only `nature-en-easy-03` (English, Easy, 28 entries).
-Nature has 13 decks /364 entries; its English/Easy combination has three decks.
-Other combinations retain two. The [shipment manifest](phase-12-deck-inventory.json)
+This isolated snapshot contains **134 decks / 3,752 entries**: all 133 packs
+privately delivered as `d93dae5` unchanged, followed by only
+`nature-en-medium-03` (English, Medium, 28 entries).
+Nature has 14 decks /392 entries; its English/Easy and English/Medium combinations
+have three decks. Other combinations retain two.
+The [shipment manifest](phase-12-deck-inventory.json)
 drives actual inventory checks and retains the final330/9,240/all66 five-deck
-gate. The [new deck ledger](phase-12-nature-en-easy-03-sources.json) preserves
+gate. The [new deck ledger](phase-12-nature-en-medium-03-sources.json) preserves
 all28 raw-question/full-evidence bindings and the entire original adult rating.
-Independent content/semantic adoption is cleared; integration release review
-and same-snapshot postreview remain pending. Other unshipped candidates are
-not bundled.
+Exact accepted factual/source/alias and whole-deck Medium judgments are inherited;
+[independent current content/semantic adoption](../reviews/phase-12-nature-en-medium-03-content.md)
+is cleared. Integration release review and same-snapshot postreview remain pending.
+Other unshipped candidates are not bundled. The preceding Easy03 deck's
+independent release and actual private old-data verification are complete.
 
 ## Historical phase-11 integration checkpoint
 

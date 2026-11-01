@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "nature-en-medium-03",
+  "title": "Nature · Medium 03",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-en-medium-03-01",
+      "initial": "A",
+      "text": "What common name describes extinct relatives of squid whose typically coiled, chambered shells often show intricate suture lines in fossils?",
+      "answer": "Ammonite",
+      "aliases": ["ammonites", "Ammonoidea", "ammonoid", "ammonoids"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ammonoidea"]
+    },
+    {
+      "id": "nature-en-medium-03-02",
+      "initial": "B",
+      "text": "What is a modified leaf associated with a flower or inflorescence, such as a poinsettia's showy coloured structures?",
+      "answer": "Bract",
+      "aliases": ["bracts"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Bract"]
+    },
+    {
+      "id": "nature-en-medium-03-03",
+      "initial": "C",
+      "text": "What lateral growth tissue forms new wood to the inside and new phloem to the outside of a woody stem?",
+      "answer": "Cambium",
+      "aliases": [
+        "vascular cambium",
+        "main cambium",
+        "wood cambium",
+        "bifacial cambium"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Vascular_cambium"]
+    },
+    {
+      "id": "nature-en-medium-03-04",
+      "initial": "CH",
+      "text": "Which mostly deep-water cartilaginous fish has its upper jaw fused to its skull and permanent tooth plates rather than rows of replaceable teeth?",
+      "answer": "Chimaera",
+      "aliases": [
+        "chimaeras",
+        "chimera",
+        "chimeras",
+        "ratfish",
+        "rat fish",
+        "ghost shark",
+        "rabbitfish",
+        "rabbit fish",
+        "spookfish",
+        "Holocephali",
+        "Chimaeriformes"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chimaera"]
+    },
+    {
+      "id": "nature-en-medium-03-05",
+      "initial": "D",
+      "text": "What is an animal that feeds by ingesting dead and decomposing organic material called?",
+      "answer": "Detritivore",
+      "aliases": [
+        "detritivores",
+        "detritophage",
+        "detritophagous animal",
+        "detrivore",
+        "detritus feeder",
+        "detritus eater"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Detritivore"]
+    },
+    {
+      "id": "nature-en-medium-03-06",
+      "initial": "E",
+      "text": "What is a plant that grows on another plant for support without taking nutrients from that plant as a parasite called?",
+      "answer": "Epiphyte",
+      "aliases": ["epiphytes", "air plant"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Epiphyte"]
+    },
+    {
+      "id": "nature-en-medium-03-07",
+      "initial": "F",
+      "text": "What ecological diagram links many interconnected feeding chains in a community?",
+      "answer": "Food web",
+      "aliases": ["food webs"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Food_web"]
+    },
+    {
+      "id": "nature-en-medium-03-08",
+      "initial": "G",
+      "text": "What is the period of development inside a mammal's body between conception and birth called?",
+      "answer": "Gestation",
+      "aliases": ["gestation period", "pregnancy"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Gestation"]
+    },
+    {
+      "id": "nature-en-medium-03-09",
+      "initial": "H",
+      "text": "What is a single threadlike filament that makes up the body of most multicellular fungi called?",
+      "answer": "Hypha",
+      "aliases": ["hyphae"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hypha"]
+    },
+    {
+      "id": "nature-en-medium-03-10",
+      "initial": "I",
+      "text": "What term describes an introduced organism that spreads and causes ecological or economic harm in its new range?",
+      "answer": "Invasive species",
+      "aliases": ["invasive alien species", "invasive non-native species"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Invasive_species"]
+    },
+    {
+      "id": "nature-en-medium-03-11",
+      "initial": "J",
+      "text": "Which genus of tropical American trees is widely planted for its spectacular blue-to-purple flowers?",
+      "answer": "Jacaranda",
+      "aliases": ["jacarandas"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jacaranda"]
+    },
+    {
+      "id": "nature-en-medium-03-12",
+      "initial": "K",
+      "text": "What small, shrimp-like marine crustaceans form vast swarms and are a major food source for many baleen whales?",
+      "answer": "Krill",
+      "aliases": ["euphausiid", "euphausiids", "Euphausiacea"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Krill"]
+    },
+    {
+      "id": "nature-en-medium-03-13",
+      "initial": "L",
+      "text": "What common name describes a marine snail with a simple conical shell that clings tightly to rocks?",
+      "answer": "Limpet",
+      "aliases": [
+        "limpets",
+        "true limpet",
+        "Patellogastropoda",
+        "patellogastropod"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Limpet"]
+    },
+    {
+      "id": "nature-en-medium-03-14",
+      "initial": "M",
+      "text": "What is the symbiotic association between a fungus and a plant's roots, in which the fungus helps the plant obtain water and minerals?",
+      "answer": "Mycorrhiza",
+      "aliases": [
+        "mycorrhizae",
+        "mycorrhizas",
+        "mycorrhizal association",
+        "mycorrhizal symbiosis",
+        "fungus-root symbiosis"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Mycorrhiza"]
+    },
+    {
+      "id": "nature-en-medium-03-15",
+      "initial": "N",
+      "text": "What kind of slender worm, often microscopic, has a tough cuticle and a digestive tract with both mouth and anus?",
+      "answer": "Nematode",
+      "aliases": [
+        "nematodes",
+        "roundworm",
+        "roundworms",
+        "eelworm",
+        "eelworms",
+        "Nematoda"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nematode"]
+    },
+    {
+      "id": "nature-en-medium-03-16",
+      "initial": "O",
+      "text": "What specific form of homeostasis controls the balance of water and dissolved salts in an animal's body?",
+      "answer": "Osmoregulation",
+      "aliases": ["osmotic regulation", "osmotic homeostasis"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Osmoregulation"]
+    },
+    {
+      "id": "nature-en-medium-03-17",
+      "initial": "P",
+      "text": "What is the directional growth response that makes a plant shoot bend towards light?",
+      "answer": "Phototropism",
+      "aliases": [
+        "positive phototropism",
+        "heliotropism",
+        "positive heliotropism"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Phototropism"]
+    },
+    {
+      "id": "nature-en-medium-03-18",
+      "initial": "Q",
+      "text": "Which Central American bird is Guatemala's national animal and has males with long iridescent green tail coverts?",
+      "answer": "Quetzal",
+      "aliases": ["resplendent quetzal", "Pharomachrus mocinno"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Resplendent_quetzal"]
+    },
+    {
+      "id": "nature-en-medium-03-19",
+      "initial": "R",
+      "text": "What is the ribbon-like feeding organ armed with rows of tiny teeth in most molluscs other than bivalves?",
+      "answer": "Radula",
+      "aliases": ["radulae", "radulas"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Radula"]
+    },
+    {
+      "id": "nature-en-medium-03-20",
+      "initial": "S",
+      "text": "What broad biological term covers close, long-term relationships between different species, including mutualism and parasitism?",
+      "answer": "Symbiosis",
+      "aliases": ["symbiotic relationship", "symbiotic association"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Symbiosis"]
+    },
+    {
+      "id": "nature-en-medium-03-21",
+      "initial": "SH",
+      "text": "What is the general term for a group of fish that stay together socially, even if they are not swimming in synchrony?",
+      "answer": "Shoal",
+      "aliases": ["shoals"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shoaling_and_schooling"]
+    },
+    {
+      "id": "nature-en-medium-03-22",
+      "initial": "T",
+      "text": "What is a large main root that grows downward and gives off smaller lateral roots, as in a carrot?",
+      "answer": "Taproot",
+      "aliases": ["tap root", "taproots", "tap roots"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Taproot"]
+    },
+    {
+      "id": "nature-en-medium-03-23",
+      "initial": "U",
+      "text": "What nitrogen-containing compound is made mainly in the human liver and excreted in urine to remove excess nitrogen?",
+      "answer": "Urea",
+      "aliases": ["carbamide"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Urea"]
+    },
+    {
+      "id": "nature-en-medium-03-24",
+      "initial": "V",
+      "text": "What is a strand of a plant's transport tissues containing xylem and phloem called?",
+      "answer": "Vascular bundle",
+      "aliases": ["vascular bundles", "fibrovascular bundle"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Vascular_bundle"]
+    },
+    {
+      "id": "nature-en-medium-03-25",
+      "initial": "W",
+      "text": "What term describes a large cetacean carcass on the deep seafloor that supports a local community of scavengers and other organisms?",
+      "answer": "Whale fall",
+      "aliases": ["whalefall"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Whale_fall"]
+    },
+    {
+      "id": "nature-en-medium-03-26",
+      "initial": "X",
+      "text": "Which arthropod order has a semicircular body shield, a sword-like tail and only four living species?",
+      "answer": "Xiphosura",
+      "aliases": [
+        "xiphosuran",
+        "xiphosurans",
+        "horseshoe crab",
+        "horseshoe crabs"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xiphosura"]
+    },
+    {
+      "id": "nature-en-medium-03-27",
+      "initial": "Y",
+      "text": "Which genus of rosette-forming plants with sword-shaped leaves has flowers pollinated by specialised moths that also lay eggs in them?",
+      "answer": "Yucca",
+      "aliases": [
+        "yuccas",
+        "Adam's needle",
+        "Adams needle",
+        "Spanish-bayonet",
+        "Spanish bayonet"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yucca"]
+    },
+    {
+      "id": "nature-en-medium-03-28",
+      "initial": "Z",
+      "text": "Which small, striped freshwater bivalve native to the Black and Caspian Sea region has become invasive in North America and forms dense colonies on hard surfaces?",
+      "answer": "Zebra mussel",
+      "aliases": ["zebra mussels", "Dreissena polymorpha"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zebra_mussel"]
+    }
+  ]
+}
