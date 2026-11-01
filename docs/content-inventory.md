@@ -1,6 +1,26 @@
 # Content inventory and provenance
 
-## Current Phase12 one-deck integration candidate
+## Current Geography one-deck integration candidate
+
+This isolated snapshot contains **137 decks / 3,836 entries**, adding only
+`geography-en-medium-03` (English, Medium,28 entries) to actual private delivery
+`f1bca1e` (136/3,808). All136 earlier pack bytes and ordering remain unchanged.
+Geography has13 decks/364 entries, with three English/Medium decks. Nature retains
+15/420 and Science13/364; the [shipment manifest](phase-12-deck-inventory.json)
+enforces actual incremental quotas and the final330/9,240/all66 five-deck gate.
+The [portable source ledger](phase-12-geography-en-medium-03-sources.json)
+preserves all28 entire questions/evidence arrays/aliases,27 original judgments,
+the accepted Durban ambiguity repair and the original adult Medium rating.
+Historic import/header/category/producer limitations remain disclosed.
+[Independent content/current-delta review](../reviews/phase-12-geography-en-medium-03-content.md)
+accepts all28 inheritance rows, the actual R14 new56 questions and five bounded
+nonblocking classifications under the owner decision-relevance policy, without
+claiming missing historical proof exists. Isolated release integration clearance
+is pending. Full same-snapshot quality/native flows and actual private served-deck/
+active-and-expired old-data verification remain separate mandatory gates.
+No unrelated draft is bundled and no category or phase clearance is claimed.
+
+## Historical Nature Hard03 one-deck integration candidate
 
 This isolated snapshot contains **136 decks / 3,808 entries**: all135 packs
 actually privately delivered as `6bdc889` unchanged, followed only by

@@ -5,6 +5,7 @@ import { bundledPacks } from '../src/content/catalog.js';
 import { acceptsAnswer } from '../src/domain/answers.js';
 import { generateNumbers } from '../src/domain/generation.js';
 import { importPack } from '../src/domain/packs.js';
+import inventory from '../docs/phase-12-deck-inventory.json';
 
 test('Geography authoring preserves the independently accepted Nature receipt bytes', () => {
   expect(
@@ -75,7 +76,12 @@ test.each(/** @type {const} */ (['cs', 'en']))(
         /^geography-(cs|en)-(easy|medium|hard)-\d{2}$/.test(pack.id),
     );
 
-    expect(sources).toHaveLength(4);
+    expect(sources).toHaveLength(
+      4 +
+        inventory.additionalDeckIds.filter((id) =>
+          id.startsWith(`geography-${language}-`),
+        ).length,
+    );
     const mixed = generateNumbers(
       sources,
       language,

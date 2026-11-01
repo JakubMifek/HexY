@@ -1,5 +1,26 @@
 # HexY
 
+**Phase 12 incremental candidate: 137 decks / 3,836 questions.** Only
+`geography-en-medium-03` is added to actual private revision `f1bca1e`
+(136 decks / 3,808 questions), preserving all preceding pack bytes and ordering.
+Its [source ledger](docs/phase-12-geography-en-medium-03-sources.json) retains all
+28 complete question/evidence/alias bindings and the original independently
+accepted general-adult Medium calibration. The corrected Durban clue identifies
+the Golden Mile and uShaka; Richards Bay is the rejected ambiguity counterexample,
+not a replacement answer. [Independent content/current-delta review](reviews/phase-12-geography-en-medium-03-content.md)
+accepts all28 inherited bindings, the actual R14 new56 questions and five
+decision-relevant nonblocking audit classifications; missing historical proof
+is not claimed restored.
+The [exact sealed original report](docs/phase-12-geography-en-medium-03-content-original.txt)
+is preserved separately from the formatting-only readable Markdown projection.
+Isolated integration release review remains pending, followed by same-snapshot
+quality, native deck flows and
+actual private upgrade verification with untouched active and expired deadlines.
+Other candidates remain isolated. Final330/9,240/all66 five-deck quotas and final
+independent phase clearance are unchanged.
+
+## Historical Nature Hard03 delivery checkpoint
+
 **Phase 12 incremental candidate: 136 decks / 3,808 questions.** This snapshot
 adds only `nature-en-hard-03` to actual private revision `6bdc889`
 (135 decks / 3,780 questions), preserving every preceding pack byte and order.

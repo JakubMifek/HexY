@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "artifactRole": "independent-reviewer-output-not-author-evidence",
+  "deckId": "geography-en-medium-03",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "scope": "ONE137/3836 corrected frozen candidate; two-test and R17 operational corrections only; mandatory post-review gates remain",
+  "report": {
+    "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/independent-release-correction-review-v2/REPORT.md",
+    "bytes": 11016,
+    "sha256": "d037116256cc8542a5e2e1d9ade0f30fe51d6b7974ba6239f81185b7262ae50e",
+    "installedPrettierVersion": "3.9.10",
+    "formattedAndCheckedBeforeHash": true
+  },
+  "freeze": {
+    "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/FROZEN-RELEASE-INPUT-v2.json",
+    "sha256": "fcd515c577cb1f41af571fbd141f6c02ec8aaf8657200574f89bbf62882e6ad6",
+    "originalFreezeSha256": "742478ff387e38bbcf235b379e93633b398828d55aea1ba507ba065a33ec99dc",
+    "sourceFilesEndChecked": 392,
+    "sourceBytesEndChecked": 14281164,
+    "exactInputsEndChecked": 39,
+    "exactInputBytesEndChecked": 5728941,
+    "mismatches": 0,
+    "originalSourceFilesUnchanged": 390,
+    "originalInputsUnchanged": 31,
+    "changedOnly": [
+      "tests/geography-content.test.js",
+      "tests/phase-twelve-deck.test.js"
+    ]
+  },
+  "exactScopeProjections": {
+    "encoding": "SHA256 of UTF8 json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':'))",
+    "sourceFilesMapSha256": "4b90adc58da28467d61b4a3f2c07545e20a81c4264b3f4ac1279d1186522226b",
+    "inputsListSha256": "a9198a5a2ad158bc5a0826779d304a7e015fbf7b2db0ab76c944d32bce8e3935",
+    "unchangedRuntime63PathHashMapSha256": "c8940755d2f3dc31a01b7bfc0fb1d7cb90aa2f9590232eb69ca0257ed8a4f65f"
+  },
+  "testDecisions": {
+    "geographySourceCount": "Accepted explicit shipment-based Czech4/English5 expectation; original source/difficulty/export/import assertions preserved",
+    "ratingSchemas": "Three genuine existing schemas supported; Science decisions unchanged; exact full rating-object hash preserved",
+    "geographyCallbackNonblankLines": 37,
+    "ratingCallbackNonblankLines": 59,
+    "noMetricExceptionNeeded": true,
+    "focusedCoordinatorReceiptSha256": "d5a55f7e585ff3cd5cef13529893831c8ba1ab496d6a20d7d7f5ee6a6f92b84b",
+    "focusedTypes": "PASS",
+    "focusedTests": "59 passed / 3 files; coordinator execution, not reviewer execution",
+    "originalFullFailureReceiptSha256": "ff8a6f642ebeb469c8a822a1752efba8b010ed14cd7f13dd93d46dcdf1e16120",
+    "originalFullRun": "FAILED1010 passed/2 failed/42 files; not relabeled passed"
+  },
+  "currentReservation": {
+    "revision": 17,
+    "path": ".artifacts/continuation/phase12-shared-deck-reservations-v17.json",
+    "sha256": "65d871a53f79c363a966854c23672cdf0f2e2893122e5e698b02178e75ec8d7c",
+    "actualQueueSnapshotPath": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v17.json",
+    "actualQueueSnapshotSha256": "d277581dd7b8b9faf0544ebdd34d2b229a228f7a6fd6635b3c46049c7b8a7492",
+    "pairingEndChecked": true,
+    "snapshotCapturedBeforeR17PublicationNotCurrentMutableQueueClaim": true,
+    "entire23Records644QuestionsAliasesEqualR16": true,
+    "fourCapturedAssignmentsAndActual112WholeCandidateObjectsChecked": true,
+    "currentTaskIds": [
+      "62f16712-5cb3-4e1d-945d-0ca6db030eaf",
+      "71b5ed32-2be6-4aa2-a099-cee0010d2fbd",
+      "850c8ea2-8ada-4960-899e-660c54a836da",
+      "66a5a923-6ca1-49de-b83d-0b670225d2dc"
+    ],
+    "oldBadPointerPreserved": {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v11.json",
+      "r16DeclaredSha256": "150e8c415aa4bf553af471e3cac84c4f119a36591116dd5e7cac009872040d0f",
+      "actualSha256": "e09d3847ac194d5a4967e29480e195f4778911002eb70365864b6c0b9a3c8d53",
+      "oldRecordNotRewritten": true,
+      "noHistoricalExecutionAttestationInferred": true
+    }
+  },
+  "inheritedAcceptance": {
+    "contentReportSha256": "5b1fbe0267bf7a8f6932b186d76bf6444a3aa74fa36703850c246ca56fe2dcc6",
+    "contentReadableProjectionSha256": "122c60cb81cd019cf2431745478353dfd16c10f735b3530edcfeb615b59d2638",
+    "contentSealSha256": "cee9bce5508a0e6ad27990592a9b402625e5416d7ec1870aeece0b9df34146b1",
+    "releaseReportSha256": "aa882a2c86539a526c877416afa3ab8ef2695560def6c59133dda1f9f08d06eb",
+    "releaseSealSha256": "3d1a4f1e68b5f1909c6794e18f5444fac8e895ba8ccf11be412e39e7da705f4b",
+    "all28FullEvidence69AliasesAcceptedMediumAndDurbanRepairUnchanged": true,
+    "old136PackGuardsAndAllRuntimeAndNativePlanUnchanged": true,
+    "fiveHistoricalLimitationsRemainDisclosedNotReconstructed": true
+  },
+  "remainingMandatoryGates": {
+    "completedPostReviewQualityCoverageBuild": "NOT PASSED",
+    "native58ActualExecution": "UNRUN",
+    "actualPrivatePromotionRecoveryVerification": "UNRUN",
+    "activeOriginalDeadline": 1793570346948,
+    "activeOriginalDeadlineUtc": "2026-11-01T21:59:06.948Z",
+    "expiredOriginalDeadline": 1793566758557,
+    "actualQuestionPhaseActiveQuestionVerifiedTrueRequired": true,
+    "naturalExpiryNotAnActiveGateSubstitute": true,
+    "noDeadlineResetBorrowedProfileOrRetroactiveClaim": true
+  },
+  "reviewerHeavyRunnerOrGeneratorExecution": false,
+  "reviewerFrozenSourceInputGitQueueProfileMutation": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "final3309240All66Unchanged": true
+}

@@ -2,6 +2,38 @@
 
 ## Status and instructions for the next session
 
+**Owner throughput amendment, 2026-11-01 15:37 EST:** use **four** isolated
+deck lanes across different categories, one publisher, one independent reviewer
+and one central heavy runner under the existing resource limits. This replaces
+the two-lane limit below, not the one-reviewed-deck-per-push delivery policy.
+
+Reuse accepted judgments when the whole question, full supporting evidence,
+aliases and difficulty are unchanged and bound to the actual prior review.
+Review meaningful content, evidence, gameplay and concurrent-candidate deltas,
+not the entire history again. Batch related evidence repairs into a coherent
+deck-level review rather than one review per source point.
+
+Historical generator/archive/paragraph bookkeeping gaps block a deck only when
+they undermine a specific fact, source judgment, legitimate alias, difficulty
+or relevant duplicate decision for that deck. Missing historical execution
+attestation alone does not invalidate independently accepted unchanged content.
+Preserve such gaps as disclosed audit limitations; do not label them proven or
+erase original findings. A relevant missing acceptance may instead be resolved
+by fresh independent review of the actual question/current authoritative source
+or actual conflicting candidates, without reconstructing every historical tool.
+No blanket exclusion of unknown-language content or real proposals is allowed.
+
+Freeze usage documentation, counts and release metadata before final review and
+checks. Run the full applicable per-deck release gate once on that frozen
+candidate; after later changes repeat only checks whose inputs or behavior were
+affected, retaining exact prior receipts for unchanged scopes. Documentation-only
+changes need formatting and factual/link verification, not another runtime suite.
+Test both active and legitimately expired recovery states explicitly, without
+resetting deadlines or treating natural expiry as a content-review failure.
+Factual accuracy, complete aliases, adult difficulty, relevant current duplicate
+detection, recovery safety, independent release review, coverage thresholds and
+the complete final Phase12 gate remain mandatory.
+
 **Owner scheduling and delivery amendment, 2026-11-01:** Phase 12 now runs
 multiple decks from different categories in parallel and pushes each finished
 deck separately. Start with two isolated deck-authoring/adoption lanes in
@@ -33,7 +65,21 @@ immutability and all content-quality requirements remain unchanged.
 
 Last updated: 2026-11-01.
 
-**Current incremental checkpoint:** ScienceEnglishHard03 is independently
+**Current Geography incremental checkpoint:** actual private/remote `f1bca1e`
+contains136 decks/3,808 questions after separately cleared NatureEnglishHard03.
+This isolated next candidate adds only GeographyEnglishMedium03 (137/3,836),
+preserving all136 earlier pack bytes/order and all28 question/full-evidence/
+alias bindings plus the original adult Medium rating. Current deck-sized
+semantic/audit/concurrent-reservation content delta is independently accepted
+through actual R14 new56 and five decision-relevant historical limitations.
+Missing historical proof is not claimed restored. Integration release review
+remains pending.
+Full same-snapshot quality/native flows and deliberate active/expired private
+old-data verification follow independent release clearance. Four different-category
+author lanes may prepare isolated candidates; one publisher/reviewer/runner and
+final330/9,240/all66 gates remain unchanged. No other draft is bundled.
+
+**Historical pre-Nature Hard03 incremental checkpoint:** ScienceEnglishHard03 is independently
 cleared and actually privately delivered as `6bdc889`:135 decks/3,780 questions.
 Exact972 units/41 files/all63 runtime coverage and58 both-engine native cases
 passed, with actual remote/private revision, full served deck and unchanged

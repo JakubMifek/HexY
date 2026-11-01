@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "artifactRole": "independent-reviewer-output-not-author-evidence",
+  "deckId": "geography-en-medium-03",
+  "verdict": "CONTENT DELTA ACCEPTED",
+  "releaseStatus": "BLOCKED pending completed frozen one-deck integration follow-up",
+  "report": {
+    "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/independent-throughput-review-v1/REPORT.md",
+    "bytes": 51493,
+    "sha256": "5b1fbe0267bf7a8f6932b186d76bf6444a3aa74fa36703850c246ca56fe2dcc6"
+  },
+  "endVerification": {
+    "frozenManifest": {
+      "sha256": "f151316e062e2faa914a565c82f50e27b2d11f9e04634a20fae02e7a0ee61a1b",
+      "membersChecked": 905,
+      "memberBytesChecked": 11576948,
+      "mismatches": 0
+    },
+    "finalExternalInputManifest": {
+      "sha256": "a9acee529ca7773a786ef3354b15cb632bb0b64043415012a08cf9ec7f286599",
+      "membersChecked": 263,
+      "memberBytesChecked": 40057729,
+      "mismatches": 0
+    },
+    "r14": {
+      "sha256": "83a431d7cfc86b8b5379b8a54b3b3349244bf53010904be44a67488b7c1c9cb6",
+      "decks": 23,
+      "questions": 644,
+      "prior21WholeRecordsExactlyEqualR13": true,
+      "newWholeQuestionsReviewed": 56,
+      "newFullAliasesReviewed": 102,
+      "sourceRoleAndCurrentPredicateDelta": "ACCEPTED for this deck only"
+    },
+    "additionalInputGuards": [
+      {
+        "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/packs/general-en-easy-04.json",
+        "sha256": "c55d050fda381cacf3cd117f72d412baccd48d5f22609775a4c34663f392c343"
+      },
+      {
+        "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/sources.json",
+        "sha256": "e046639d250a996bf58e42d35b1ae62324599faf2adfc22ed6508259ff443698"
+      },
+      {
+        "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/packs/geography-en-hard-03.json",
+        "sha256": "eaff6abef1d9d762730361cb868beb8840d7efcfa69d9ba82529f75fab017776"
+      },
+      {
+        "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/sources.json",
+        "sha256": "bf18bd0662c38db9fd9af866671f655ce7cf18664a20911ba72c717a97cc2a09"
+      }
+    ]
+  },
+  "retainedLimitations": [
+    "Five historical holds are nonblocking for the specific accepted deck decisions, not erased or historically reconstructed.",
+    "912 original nominations contain 891 current links and 21 retained unlinked historical diagnostics.",
+    "No heavy quality, runtime, browser, coverage or recovery gates were run by this reviewer.",
+    "Coordinator-reported unfinished integration, focused-test correction and native plans await the same reviewer's completed frozen integration follow-up."
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "geography-en-medium-03",
+  "title": "Geography and travel · Medium 03",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-en-medium-03-01",
+      "initial": "A",
+      "text": "Which city is the capital of South Australia and has its Festival Centre beside the River Torrens?",
+      "answer": "Adelaide",
+      "aliases": ["Tarndanya", "Tarntanya"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Adelaide"]
+    },
+    {
+      "id": "geography-en-medium-03-02",
+      "initial": "B",
+      "text": "Which Central American country has Belmopan as its capital?",
+      "answer": "Belize",
+      "aliases": ["British Honduras"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Belize"]
+    },
+    {
+      "id": "geography-en-medium-03-03",
+      "initial": "C",
+      "text": "In which present-day Southeast Asian country is Angkor Wat located?",
+      "answer": "Cambodia",
+      "aliases": ["Kingdom of Cambodia", "Kampuchea"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cambodia"]
+    },
+    {
+      "id": "geography-en-medium-03-04",
+      "initial": "CH",
+      "text": "Which large estuary has its northern part in Maryland and its southern part in Virginia?",
+      "answer": "Chesapeake Bay",
+      "aliases": ["Chesapeake"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chesapeake_Bay"]
+    },
+    {
+      "id": "geography-en-medium-03-05",
+      "initial": "D",
+      "text": "Which port city in KwaZulu-Natal, on South Africa's Indian Ocean coast, has the Golden Mile beachfront and uShaka Marine World?",
+      "answer": "Durban",
+      "aliases": ["eThekwini", "Port Natal"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Durban"]
+    },
+    {
+      "id": "geography-en-medium-03-06",
+      "initial": "E",
+      "text": "Which country on the Red Sea has Asmara as its capital?",
+      "answer": "Eritrea",
+      "aliases": ["State of Eritrea"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Eritrea"]
+    },
+    {
+      "id": "geography-en-medium-03-07",
+      "initial": "F",
+      "text": "Which South Atlantic archipelago has Stanley as its capital?",
+      "answer": "Falkland Islands",
+      "aliases": ["Falklands", "Islas Malvinas", "Malvinas"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Falkland_Islands"]
+    },
+    {
+      "id": "geography-en-medium-03-08",
+      "initial": "G",
+      "text": "Which Pacific volcanic archipelago includes Isabela, Santa Cruz and Fernandina?",
+      "answer": "Galápagos Islands",
+      "aliases": [
+        "Galápagos",
+        "Islas Galápagos",
+        "Archipiélago de Colón",
+        "Colón Archipelago",
+        "Galápagos Archipelago",
+        "Columbus Archipelago",
+        "Archipiélago del Colón",
+        "Ecuador Archipelago",
+        "Archipelago of the Equator",
+        "Archipiélago de Ecuador",
+        "Archipiélago del Ecuador"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+        "https://whc.unesco.org/en/list/1/"
+      ]
+    },
+    {
+      "id": "geography-en-medium-03-09",
+      "initial": "H",
+      "text": "Which is the northernmost of Japan's four main islands, with Sapporo as its largest city?",
+      "answer": "Hokkaido",
+      "aliases": ["Yezo", "Ezo", "Ezochi", "Ezogashima"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hokkaido"]
+    },
+    {
+      "id": "geography-en-medium-03-10",
+      "initial": "I",
+      "text": "Which Balearic island is especially known for its summer dance-club scene?",
+      "answer": "Ibiza",
+      "aliases": ["Eivissa", "Iviza"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ibiza"]
+    },
+    {
+      "id": "geography-en-medium-03-11",
+      "initial": "J",
+      "text": "Which South African city grew from the Witwatersrand gold rush and includes the Soweto area?",
+      "answer": "Johannesburg",
+      "aliases": [
+        "Jo'burg",
+        "Joburg",
+        "Jozi",
+        "eGoli",
+        "iGoli",
+        "the City of Gold",
+        "City of Gold"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Johannesburg"]
+    },
+    {
+      "id": "geography-en-medium-03-12",
+      "initial": "K",
+      "text": "Which vast semiarid sandy region covers much of Botswana and extends into Namibia and South Africa?",
+      "answer": "Kalahari",
+      "aliases": ["Kalahari Desert"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kalahari"]
+    },
+    {
+      "id": "geography-en-medium-03-13",
+      "initial": "L",
+      "text": "Which landlocked Southeast Asian country has Vientiane as its capital?",
+      "answer": "Laos",
+      "aliases": ["Lao People's Democratic Republic", "Lao PDR", "LPDR"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Laos"]
+    },
+    {
+      "id": "geography-en-medium-03-14",
+      "initial": "M",
+      "text": "Which Indian Ocean island country has Malé as its capital?",
+      "answer": "Maldives",
+      "aliases": ["Republic of Maldives", "Maldive Islands"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Maldives"]
+    },
+    {
+      "id": "geography-en-medium-03-15",
+      "initial": "N",
+      "text": "Which African country on the Atlantic coast has Windhoek as its capital?",
+      "answer": "Namibia",
+      "aliases": ["Republic of Namibia"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Namibia"]
+    },
+    {
+      "id": "geography-en-medium-03-16",
+      "initial": "O",
+      "text": "Which country on the Arabian Peninsula has Muscat as its capital?",
+      "answer": "Oman",
+      "aliases": ["Sultanate of Oman"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Oman"]
+    },
+    {
+      "id": "geography-en-medium-03-17",
+      "initial": "P",
+      "text": "What geographical region spans the southern end of Argentina and Chile?",
+      "answer": "Patagonia",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Patagonia"]
+    },
+    {
+      "id": "geography-en-medium-03-18",
+      "initial": "Q",
+      "text": "What is the name of the waterfront area along the Tyne in Newcastle and Gateshead?",
+      "answer": "Quayside",
+      "aliases": ["Newcastle Quayside", "Gateshead Quayside", "the Quayside"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Quayside"]
+    },
+    {
+      "id": "geography-en-medium-03-19",
+      "initial": "R",
+      "text": "Which Dutch port city expanded after the Nieuwe Waterweg opened in 1872?",
+      "answer": "Rotterdam",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rotterdam"]
+    },
+    {
+      "id": "geography-en-medium-03-20",
+      "initial": "S",
+      "text": "Which artificial waterway in Egypt links the Mediterranean Sea to the Red Sea?",
+      "answer": "Suez Canal",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Suez_Canal"]
+    },
+    {
+      "id": "geography-en-medium-03-21",
+      "initial": "SH",
+      "text": "What is the longest river on the island of Ireland?",
+      "answer": "Shannon",
+      "aliases": [
+        "River Shannon",
+        "Shannon River",
+        "An tSionainn",
+        "Abhainn na Sionainne",
+        "An tSionna"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/River_Shannon"]
+    },
+    {
+      "id": "geography-en-medium-03-22",
+      "initial": "T",
+      "text": "Which East African country was formed by the union of Tanganyika and Zanzibar in 1964?",
+      "answer": "Tanzania",
+      "aliases": ["United Republic of Tanzania"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Tanzania"]
+    },
+    {
+      "id": "geography-en-medium-03-23",
+      "initial": "U",
+      "text": "In which US state is the Great Salt Lake located?",
+      "answer": "Utah",
+      "aliases": ["State of Utah"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Utah"]
+    },
+    {
+      "id": "geography-en-medium-03-24",
+      "initial": "V",
+      "text": "Which capital city of Malta lies between the Grand Harbour and Marsamxett Harbour?",
+      "answer": "Valletta",
+      "aliases": ["Il-Belt Valletta", "Città Umilissima", "Il-Belt"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Valletta"]
+    },
+    {
+      "id": "geography-en-medium-03-25",
+      "initial": "W",
+      "text": "What North Sea coastal area of tidal flats stretches along the Netherlands, Germany and Denmark?",
+      "answer": "Wadden Sea",
+      "aliases": [
+        "Waddenzee",
+        "Wattenmeer",
+        "Vadehavet",
+        "Wattensee",
+        "Waadsee",
+        "di Heef"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wadden_Sea",
+        "https://whc.unesco.org/en/list/1314/"
+      ]
+    },
+    {
+      "id": "geography-en-medium-03-26",
+      "initial": "X",
+      "text": "What is the capital city of Mexico's state of Veracruz?",
+      "answer": "Xalapa",
+      "aliases": ["Jalapa", "Xalapa-Enríquez", "Jalapa Enríquez"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xalapa"]
+    },
+    {
+      "id": "geography-en-medium-03-27",
+      "initial": "Y",
+      "text": "Which national capital stands beside the Hrazdan River in Armenia?",
+      "answer": "Yerevan",
+      "aliases": ["Erevan", "Erivan"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yerevan"]
+    },
+    {
+      "id": "geography-en-medium-03-28",
+      "initial": "Z",
+      "text": "Which Croatian city on the Adriatic has the wave-powered Sea Organ on its waterfront?",
+      "answer": "Zadar",
+      "aliases": ["Zara"],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zadar",
+        "https://en.wikipedia.org/wiki/Sea_organ"
+      ]
+    }
+  ]
+}

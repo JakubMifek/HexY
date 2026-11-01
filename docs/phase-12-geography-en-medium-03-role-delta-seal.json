@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "artifactRole": "independent-reviewer-output",
+  "deckId": "geography-en-medium-03",
+  "verdict": "CLEARED FOR DECK RELEASE CONTINUED",
+  "scope": "Bounded external R18 role delta only; unchanged ONE137/3836 corrected candidate",
+  "report": {
+    "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/independent-role-delta-v18/REPORT.md",
+    "bytes": 5819,
+    "sha256": "5614b7bf4023cc7f8f699b529f6d484c909a0dc819288d57145922b19912da98",
+    "installedPrettierFormattedAndChecked": true
+  },
+  "freezeSha256": "fcd515c577cb1f41af571fbd141f6c02ec8aaf8657200574f89bbf62882e6ad6",
+  "inheritedCorrectionReportSha256": "d037116256cc8542a5e2e1d9ade0f30fe51d6b7974ba6239f81185b7262ae50e",
+  "endGuards": {
+    "sourceFiles": 392,
+    "sourceBytes": 14281164,
+    "inputs": 39,
+    "inputBytes": 5728941,
+    "mismatches": 0,
+    "allOriginalContentRuntimeTestsProvenanceNativePlanUnchanged": true
+  },
+  "r18": {
+    "path": ".artifacts/continuation/phase12-shared-deck-reservations-v18.json",
+    "sha256": "3116ac59c0ec447b879cfa6b3c27a6441e45e5bee8d1d4640603e0158cc6137c",
+    "queueSnapshotPath": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v18.json",
+    "queueSnapshotSha256": "54e0694cd5a11e8663752100cdead49c3ad0c47671aab6c19ec16b8d548ef9fd",
+    "actualPairingAndCapturedFourRolesVerified": true,
+    "snapshotBeforePublicationNotCurrentMutableQueue": true,
+    "entire23Records644QuestionsAllAliasesExactlyEqualR17": true,
+    "current112WholeQuestionObjectsMatchReservedPacks": true,
+    "newCandidateObjects": 0,
+    "otherDeckPendingDecisionsNotCleared": true
+  },
+  "coordinatorQA": {
+    "logPath": ".artifacts/continuation/phase12-logs/phase12-geography-medium03-full-postreview-v2.log",
+    "logSha256": "ef2155585749ce5f672e85380e9b9091fe7972981700b45acc41d2b233f42aa8",
+    "fullCheck": "PASS;1012 tests/42 files;format/lint/types/coverage/build",
+    "archivedSummaryPath": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/coverage-summary.json",
+    "archivedSummarySha256": "2a3a98a732a1f5b00e286129e2e4af2a3615106eafa514e48c6281a04c784107",
+    "all63ProductionFilesPresentAndScopeCountsReaggregated": true,
+    "critical35PercentLinesStatementsFunctionsBranches": [
+      99.81, 99.81, 98.72, 97.17
+    ],
+    "remaining28PercentLinesStatementsFunctionsBranches": [
+      99.61, 99.63, 97.69, 95.35
+    ],
+    "oldFailedRunRemainsFailed": true,
+    "reviewerExecutedTests": false
+  },
+  "remainingMandatoryGates": {
+    "actual58NativeAndPrivateUpgradeReceipts": "NOT REVIEWED OR INFERRED PASSED",
+    "activeOriginalDeadline": 1793570346948,
+    "actualQuestionPhaseActiveQuestionVerifiedTrueRequired": true,
+    "expiredRecoveryAndRawLibraryDeadlineReloadPreservationRequired": true,
+    "naturalExpiryNotActiveSubstituteNoReset": true
+  },
+  "otherDeckOrCategoryOrPhase12Cleared": false,
+  "reviewerHeavyExecutionSourceMutationProbeInstallDelegation": false
+}

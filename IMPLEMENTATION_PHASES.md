@@ -12,7 +12,44 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
-**Current incremental checkpoint:** actual private/remote `6bdc889`,135 decks/
+**Latest throughput policy, owner-approved 2026-11-01 15:37 EST:** four
+different-category deck lanes replace two. Keep one integrator/publisher, one
+independent reviewer, one heavy runner and unchanged memory/browser limits.
+Use the evidence-reuse and impact-based review policy at the top of `PLAN.md`
+and `REVIEW.md`; it supersedes historical blanket source-lineage reconstruction
+and repeat-all-checks requirements.
+
+For each held deck record the exact current question/source/alias/difficulty/
+duplicate decision affected. Reuse hash-bound accepted judgments. If a historic
+audit gap does not undermine that decision, disclose it without blocking release.
+If it does, batch a fresh direct source/candidate review with the deck's other
+meaningful deltas; do not reconstruct archive/producer history merely to retain
+an old judgment. Preserve failures and unresolved historical limitations honestly.
+Four concrete deck assignments and deck-ready/reviewed/shipped progress, rather
+than growing proof counts, are the operational measure.
+
+Complete count/usage/metadata updates before release freeze. One full per-deck
+quality/coverage/native gate follows independent review; later changes trigger
+documented impact-based rechecks only. Reuse unchanged runtime results after
+documentation-only changes with exact scope hashes, never claim the entire
+snapshot was unchanged. Active and naturally expired old-game recovery both
+remain valid required scenarios, with original deadlines untouched. Each cleared
+deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
+
+**Current Geography incremental checkpoint:** actual private/remote `f1bca1e`,
+136 decks/3,808 questions. This isolated candidate adds only
+GeographyEnglishMedium03, giving137/3,836 with all136 preceding pack bytes/order
+unchanged. Exact28 full question/evidence/alias and accepted original Medium
+judgments are inherited; relevant current semantic/audit/concurrent-reservation
+decisions are independently accepted through actual R14 new56 and five bounded
+audit reclassifications; missing historical proof stays disclosed. Integration
+release clearance remains pending independent review. Same-snapshot
+full quality/native flows and deliberate active/expired private recovery with
+unchanged original data/deadlines remain separate release gates.
+Four different-category isolated deck lanes, one publisher/reviewer/runner and
+the unchanged final330/9,240/all66 requirements remain mandatory.
+
+**Historical pre-Nature Hard03 incremental checkpoint:** actual private/remote `6bdc889`,135 decks/
 3,780 questions after separately cleared ScienceEnglishHard03. Exact972 units/
 41 files/all63 runtime coverage and58 native cases plus actual served deck
 and original expired-game/library/deadline/reload preservation passed.

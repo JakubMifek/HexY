@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "artifactRole": "independent-reviewer-method-output",
+  "deckId": "geography-en-medium-03",
+  "methodDecision": "ACCEPTED: authorize genuinely new distinctly labeled old-private active/expired capture and actual upgrade verification",
+  "contentReleaseClearance": "UNCHANGED; no factual/difficulty review reopened by natural clock expiry",
+  "report": {
+    "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/independent-fresh-canary-method-v2/REPORT.md",
+    "bytes": 7317,
+    "sha256": "69425fad02ed048ac83cfd31ca63051b1296b60fb4be314fa06ccc7fa5745d5f",
+    "formattedAndCheckedWithInstalledPrettier": true
+  },
+  "newDriver": {
+    "path": ".artifacts/continuation/per-deck-dual-recovery-canary-v2.mjs",
+    "sha256": "71b676aaf5b4667a8b32d45ab3690eb7df70037dfdeb86a05779020f1c6e1605",
+    "fullReadAndComparedWithApprovedV1": true,
+    "requiredLabelAndSeparateRunsRoot": true,
+    "strictActualTimeActiveQuestionAndPreviousAttemptGuards": true,
+    "originalCaptureLogicWholeEnvelopeDeadlineLibraryVersionServedPackAndDisposalUnchanged": true,
+    "reviewerExecutedDriver": false
+  },
+  "proposedCapture": {
+    "oldPrivateRevision": "f1bca1ee69071724c005ff49974230d1d18cf6c1",
+    "englishCount": 70,
+    "runLabel": "fresh-v2",
+    "newRoot": ".artifacts/continuation/dual-recovery-canaries/geography-en-medium-03/runs/fresh-v2",
+    "newRootAbsentWhenInspected": true,
+    "newGameSettingsSecondsActiveExpired": [3600, 10],
+    "captureMustBeActualOldPrivateBeforePromotion": true,
+    "verifyMustBeActualPromotedRevisionUsingSameFreshProfiles": true
+  },
+  "legacyEvidence": {
+    "originalActiveDeadline": 1793570346948,
+    "originalDeadlineUtc": "2026-11-01T21:59:06.948Z",
+    "originalActiveWindowCondition": "UNMET; now legitimately expired, never labeled active",
+    "legacyProfilesAndOriginalDataDeadlinesNotResetOrOverwritten": true,
+    "unchangedV1SeparatelyVerifiesOriginalNaturalExpiryAfterPromotion": true
+  },
+  "immutableScopeEndGuards": {
+    "freezeSha256": "fcd515c577cb1f41af571fbd141f6c02ec8aaf8657200574f89bbf62882e6ad6",
+    "sourceFiles": 392,
+    "sourceBytes": 14281164,
+    "inputs": 39,
+    "inputBytes": 5728941,
+    "mismatches": 0,
+    "all28Evidence69AliasesMediumDurbanRuntimeAndOriginalHelpersUnchanged": true
+  },
+  "coverageArchive": {
+    "root": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2",
+    "actualFiles": 77,
+    "actualBytes": 1317644,
+    "actualRuntimeSourceHtmlPages": 63,
+    "sourcePageSetExactlyEqualsFrozenRuntimeFilesPlusHtml": true,
+    "whole77RelativePathToFileSha256MapSha256": "87061731dcbb96c4af673b70cea4e3bf04bb5514a3a312ece1a520cf1b8d85d0",
+    "mapEncoding": "UTF8 json.dumps(relative_path_to_file_sha_map, ensure_ascii=False, sort_keys=True, separators=(',', ':'))",
+    "coverageSummaryPresent": true,
+    "coverageFinalAbsentConsistentWithTextJsonSummaryHtmlReporters": true,
+    "metadataOnlyReceiptRepairAuthorized": true,
+    "noCoverageRegenerationOrFabricatedCoverageFinal": true,
+    "repairedReceiptNotYetInspectedOrClaimedPassed": true,
+    "retainedFailedPostproofLogSha256": "ba4da60e88a7de15d871014c1cae6b02b95e43c3eec35c228f3726f9a1a8d0f3"
+  },
+  "existingGates": {
+    "fullQA1012Tests42FilesAndMeasuredCoverage": "Previously independently verified; unchanged scope inherited",
+    "actualNativeLogSha256": "537af852eed035fa04aa0c3f1a79481b44b11fd18f07e1a3bb8ecb7b00b6939a",
+    "actualNative": "58 passed (4.7m); coordinator execution",
+    "freshActiveExpiredAndServedUpgradeProof": "UNEXECUTED in this review; mandatory"
+  },
+  "otherDeckCategoryPhase12Clearance": false,
+  "final3309240All66Unchanged": true,
+  "reviewerHeavyExecutionSourceProfileMutationNetworkProbeInstallDelegation": false
+}

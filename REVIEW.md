@@ -5,6 +5,42 @@ Status: APPROVED by the user on 2026-10-28, together with `AGENTS.md` and
 
 ## Role and independence
 
+### Phase12 impact-based review amendment, 2026-11-01 15:37 EST
+
+The owner approves four parallel deck lanes and the following review efficiencies.
+Retain independence, all six lenses, complete initial entry review, actual source
+support, aliases, adult difficulty, relevant duplicate checks and recovery safety.
+
+- Inherit accepted unchanged whole-question/full-evidence/alias/rating judgments
+  through exact content bindings and the actual review. Review meaningful deltas
+  and affected current candidate/reservation changes, not unrelated history.
+- A historical generator/archive/extraction bookkeeping gap is blocking only
+  with an explicit connection to a relevant unproven or contradicted deck
+  decision. Preserve/disclose other gaps as audit limitations, not verified facts.
+  Prior findings may be reclassified under this explicit owner amendment with
+  recorded rationale; do not silently delete them or claim their old proof exists.
+- Where relevant acceptance is missing, fresh independent examination of the
+  actual question and authoritative source or actual candidate pair can replace
+  historical reconstruction. Retain legitimate aliases and unresolved relevant
+  proposals; no path-prefix, unknown-language or count-based exemption.
+- Review coherent deck-sized corrections together, not repeated one-point
+  materialization certificates. Distinguish source support/semantic conclusions
+  from tool-output provenance; one is not automatically conditional on the other.
+- Freeze source, counts, usage and metadata before release review. After the
+  coordinator's full applicable per-deck gate, subsequent edits require explicit
+  impact assessment and only affected checks/re-review. Documentation-only edits
+  require formatting and accuracy/link checks; inherit unchanged runtime tests
+  and coverage by exact scope hashes. Changed code/content still receives its
+  applicable behavioral gates. No previously failing check is relabeled passed.
+- Preserve actual old-game data/deadlines and test active and naturally expired
+  states deliberately. Natural expiry is expected behavior, not a reason to redo
+  content review or fabricate an active-game result.
+
+Full per-deck independent clearance, per-deck pushes and the complete final
+Phase12 independent/full post-review gate remain mandatory. This explicit
+amendment supersedes stricter historical blanket reconstruction and whole-suite
+rerun requirements only as described; it is not permission to skip real defects.
+
 ### Phase12 incremental release amendment, 2026-11-01
 
 The owner authorizes parallel cross-category deck preparation and publication

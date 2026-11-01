@@ -17,6 +17,9 @@ for (const deckId of shipment.additionalDeckIds) {
    * wholeDeckRatingSha256: string,
    * wholeDeckGeneralAdultRating:
    * {entriesReviewed: number, independentDominantGeneralAdultRating: string} |
+   * {id: string, assigned: string, independentDominantRating: string,
+   * disposition: string, entries: number,
+   * individualDistribution: {easy: number, medium: number, hard: number}} |
    * {id: string, decision: string, commonEasyIndices: number[],
    * informedMediumIndices: number[], specialistHardIndices: number[]}}} */
   const ledger = JSON.parse(
@@ -49,6 +52,24 @@ for (const deckId of shipment.additionalDeckIds) {
     if ('entriesReviewed' in rating) {
       expect(rating.entriesReviewed).toBe(28);
       expect(rating.independentDominantGeneralAdultRating).toBe(raw.difficulty);
+    } else if ('independentDominantRating' in rating) {
+      expect(rating.id).toBe(deckId);
+      expect(rating.assigned).toBe(raw.difficulty);
+      expect(rating.independentDominantRating).toBe(raw.difficulty);
+      expect(rating.disposition).toBe('ACCEPTED');
+      expect(rating.entries).toBe(28);
+      expect(Object.keys(rating.individualDistribution).sort()).toEqual([
+        'easy',
+        'hard',
+        'medium',
+      ]);
+      const distribution = Object.values(rating.individualDistribution);
+      expect(
+        distribution.every(
+          (count) => Number.isSafeInteger(count) && count >= 0,
+        ),
+      ).toBe(true);
+      expect(distribution.reduce((total, count) => total + count, 0)).toBe(28);
     } else {
       expect(rating.id).toBe(deckId);
       expect(rating.decision).toBe(

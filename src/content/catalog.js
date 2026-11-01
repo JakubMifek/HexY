@@ -37,6 +37,7 @@ import geographyEnEasy1 from './geography-en-easy-01.json';
 import geographyEnEasy2 from './geography-en-easy-02.json';
 import geographyEnMedium from './geography-en-medium-01.json';
 import geographyEnHard from './geography-en-hard-01.json';
+import geographyEnMedium3 from './geography-en-medium-03.json';
 import historyCs1 from './history-cs-01.json';
 import historyCs2 from './history-cs-02.json';
 import historyEn1 from './history-en-01.json';
@@ -273,6 +274,7 @@ const bundledSources = [
   natureEnMedium3,
   scienceEnHard3,
   natureEnHard3,
+  geographyEnMedium3,
 ];
 
 export function bundledPacks() {

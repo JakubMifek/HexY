@@ -1,0 +1,492 @@
+{
+  "at": "2026-11-01T22:03:17.409Z",
+  "deckId": "geography-en-medium-03",
+  "baseline": "f1bca1ee69071724c005ff49974230d1d18cf6c1",
+  "sourceFilesVerified": 392,
+  "frozenInputsVerified": 39,
+  "inputs": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/FROZEN-RELEASE-INPUT-v2.json",
+      "sha256": "fcd515c577cb1f41af571fbd141f6c02ec8aaf8657200574f89bbf62882e6ad6"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-logs/phase12-geography-medium03-full-postreview-v2.log",
+      "sha256": "ef2155585749ce5f672e85380e9b9091fe7972981700b45acc41d2b233f42aa8"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-geography-medium03-native-postreview-v2-results.json",
+      "sha256": "b189415ac901648c350c609d0d4ef2f6e199837065b2de6223d86efae01399f4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/independent-release-correction-review-v2/REPORT.md",
+      "sha256": "d037116256cc8542a5e2e1d9ade0f30fe51d6b7974ba6239f81185b7262ae50e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/independent-release-correction-review-v2/SEAL.json",
+      "sha256": "01cb3d5d28aca460288c6aae5cc88f55dbc1e6b062165c4b091a732664ec4e28"
+    }
+  ],
+  "wholeCoverageArchiveBindings": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/base.css",
+      "sha256": "3f876e51f0a46864ffa7665b4b7a1f5fb5f6f37fb6a28f014e2b12d82962c852"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/block-navigation.js",
+      "sha256": "cd8db34b1fbeb973354a93f8b4133c7c7eab34cdda9429a0434be91384783b7e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/coverage-summary.json",
+      "sha256": "2a3a98a732a1f5b00e286129e2e4af2a3615106eafa514e48c6281a04c784107"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/favicon.png",
+      "sha256": "5b0cfd52dc0bfbe544f4e1a9c77aa46b8629b0e0aad6c54f95eef457b86c2a89"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/index.html",
+      "sha256": "674f45b67d8ddedf44a0b0bd671f8b2224ac0d35a3a6ffb52da0399559e9559e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/prettify.css",
+      "sha256": "ea3fe433f9450698ca8a230271688e7aeec12f99c8a7ef6c94379abb38f27823"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/prettify.js",
+      "sha256": "fa1b1e1b906ddcfa08b46f161c0f924f506e1a31b4f3e09b8caaa2463ef52c18"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/sort-arrow-sprite.png",
+      "sha256": "42c895355f9838ede83fdfdca90127d8471aefed5ecf5342374f65ec7c3f10ab"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/sorter.js",
+      "sha256": "f8cc5d157379d844fd695ad567b6c29b3c1f0812964ddf6f95c26327e434bab5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/app.js.html",
+      "sha256": "768e1543dd0e537c3b96f2a967db761f6b84a99eab9ab06ff2e3bd1709477401"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/content/catalog.js.html",
+      "sha256": "b22e7284a4d7d668327565102d20485d66877d0a1d08dd9598f9359198b7e905"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/content/index.html",
+      "sha256": "3ea3b4b3ec54bcc4a01448de3ce71ceb87bf4155e1d8537961fa76e865cce653"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/actions.js.html",
+      "sha256": "dac2c8db0aa7cd493b27923621ae68d9201b8d5e6aae5c0201670e7de59b41bb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/answers.js.html",
+      "sha256": "ceca60d209deaa66fe7d2335d2fa455a8f8ecf15f6524c8efb91742b6a34c091"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/board.js.html",
+      "sha256": "df8b1a3cea6563683ae8619e515a3f92ad9d5a7ec70bad07a46e35d210e7c738"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/config.js.html",
+      "sha256": "acd1728284842b903362b7eb18195eb0c337157b7c6d0cfa8b28f098bc19fe4e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/controls.js.html",
+      "sha256": "8ac583898981d4872c689d8bf9932bca36255d55758fe988bc8ede8c9c953263"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/difficulty.js.html",
+      "sha256": "52d895beaa9bc5d8f3b8e5d63869156d59cda7137a00ae28548be0f1d194ba42"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/duels.js.html",
+      "sha256": "b405372fa933227bd5d357a1e793c243ec968bf8d3a5b3f435b45634c5fdee2e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/errors.js.html",
+      "sha256": "cf772d6a29fab4b5a0b40a9692169eb9b0c1138ca0faa065656a70ab47d81e80"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/game.js.html",
+      "sha256": "e88fca3a6fc6b9666007d36d7618c05f0fb62f42bebe22f50fcd31e3fda8ab20"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/generation.js.html",
+      "sha256": "a3f707087c58dae7fc5e4c78f42d479451bab1f243847f205cf2eaae6cd37e1c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/index.html",
+      "sha256": "1c43170faf0dce8a95f545168033f33d2d7e38917b7d0189f70a4c20f34d73b8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/outcomes.js.html",
+      "sha256": "4f283b483b51a307bcb3b48327b53cefc3aafc3e829923c899d139300ab7568f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/packs.js.html",
+      "sha256": "66599b9096687606c0554c3d7757f972d9983beb6aac928fb88537915365b409"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/portable.js.html",
+      "sha256": "f6895489770189a0eb7927e1ff9fe20e1b5b485a7b69c79321e56940da80e80e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/preferences.js.html",
+      "sha256": "ab1dbd14a288bcbfc5670147d35b1284b1aca5275ac5e3cd87d1bfc97467662b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/saves.js.html",
+      "sha256": "83a4379f455ea8892d3c243aaecab886174e78ece23d4bd86dcb83b363af5389"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/domain/validation.js.html",
+      "sha256": "f81b9e2e77dab35127cd20674760a84c37c2e45695cc21608d90d6e8791455c2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/index.html",
+      "sha256": "3961e155a07fed7c921d0fad28dc19f5770a581b52ac28f73828803e562d988b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/main.js.html",
+      "sha256": "50737559c402940d17ba79dd09704aca184e7998e78eba426570435f6b06b1a3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/messages.js.html",
+      "sha256": "ca3f1306a804c2175ca5bbf1a8c4c9f02deedef30a73e4f07f15a3cbc93a1748"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/binding-recorder.js.html",
+      "sha256": "5e80dbdeb4dacd4bb42548f2ad4a3e66f4293642968d08753e530e03847f0689"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/board-navigation.js.html",
+      "sha256": "7e47927c7abf480ae7e5086147e063d9a9f6be13a9d4a98387422c4d9979bd74"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/buzzer.js.html",
+      "sha256": "0359818c3958036be17d7ea80acd0c47a4a6e0ccaf4a3cfcb1dccc437dacedfd"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/clock.js.html",
+      "sha256": "c088b9493528182ea55ec2d5642c69cd45db7beee608e8c2de6beb7ba585d9bf"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/downloads.js.html",
+      "sha256": "e5f146ec956137bea8a3ccef6e96621b979cf3671f36191ed112b69d386673ef"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/game-sounds.js.html",
+      "sha256": "72b60661f89470505658b4429db0c1a6fc6e8c73f915bedd252405d2f416ca0e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/gamepad.js.html",
+      "sha256": "11e0a6c196efcf6bbb78ec1c06afb74b4461d9aab7a0b63e262bbdfd743b4a87"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/index.html",
+      "sha256": "4c7edaa8155d63a2cae34886e91aa9fefa782782151e3a81923bb2fd986c5be0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/input-settings.js.html",
+      "sha256": "80a965c3f8b89104ebe401d6daef0789f613a0660135eecc2c9937d1ab253f58"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/inputs.js.html",
+      "sha256": "cab05196083c6ea40a45ca9f3921b421d3add834d5da1ac50d7cc750adb7550b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/keyboard.js.html",
+      "sha256": "3885b58d9dea9ce7efd39058c35c8c103876577f37c2c23199a821660c935658"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/library.js.html",
+      "sha256": "f2e8fbc1b94aa027e1a981562fa6de4ab3ced33890bc4a5c2f7fe33e6662b66c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/navigation.js.html",
+      "sha256": "8cff69a0b953b15a891b9fbcdef07e5301b31d8a4520276ceeccbb49e4625b7d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/preparation.js.html",
+      "sha256": "060e3b5243e36127d4af0db7458a32b75bb77deb2af8709fb8061bc9fbf25872"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/recovery.js.html",
+      "sha256": "8dc83501e40da4694f915d3f89dd18047eb4ea1d6de8d417eb113b17176e1528"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/sound-player.js.html",
+      "sha256": "b447a11aa857f9c64dd8f473ecac8374e8f805d196fa3ca545e41861b7a36d1d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/symbols.js.html",
+      "sha256": "d062b6a8d39c6de349b53a187b59920e8ccdd03b5a3d4ec2fed5a29bc2aa3478"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/runtime/touch.js.html",
+      "sha256": "395b62ae1e5e9f503f6cbcf081645171239d65cd706cf5b3fed33623a6a345df"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/answer-sheet.js.html",
+      "sha256": "882a53d7922341c3fd400888d153a15d9c9ce5926cd3b02faaeaeafcefb4fefc"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/application.js.html",
+      "sha256": "f950c9858d426cb881560a5e17beeff33e8a0408c444a0dea7f2805a54305f3e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/board.js.html",
+      "sha256": "31eeb4e0baeff776e25a67f4aba86c926bda734a8d6b0ce8090721457f7e52ee"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/catalog-folders.js.html",
+      "sha256": "07a3c1545c1978841b4b3ef38e8c8e08e7a7c5c4803fb694339297e4fe21e100"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/catalog-names.js.html",
+      "sha256": "1108e8c06b02bfa3b91e4099c4ea8cbe2f79b07c130918e4d388822364e73736"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/catalog.js.html",
+      "sha256": "9e889d65568f9b4862bacc2422770ba4df37a9d8636a694cb52f4b065d3ad186"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/countdown.js.html",
+      "sha256": "8b1c34dd35f73d11251932b686dc05ccd669ea306b6c9c130484abec9e186d51"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/device-strings.js.html",
+      "sha256": "9d049d9b958d7cb8cee98d18e3c74ef37326b25abe7b8b870a1b63ab2ba4c444"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/dom.js.html",
+      "sha256": "ef186d84b19e4f610e38cc39d1192e437867e82fb74492078bec3152d8af1da5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/editor.js.html",
+      "sha256": "89baf0315b9eda97213f16052ef3abc35a8d64f8f3c856a3799ed4de4bbc2079"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/game-dialog.js.html",
+      "sha256": "9ee19fce9aa715b5b23d298786eb22021a43f91d5a86021ab93c0eab701c136e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/game.js.html",
+      "sha256": "0ba0d7d584a9d748f544157359eadfe692b697786141dcb5fc96fb41070fccc5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/header.js.html",
+      "sha256": "f51cbed2075c446399ab248d1c25cd4b6d633d696c2067052c8631460976e791"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/host.js.html",
+      "sha256": "6b240a1ddd3f7d3a8b1bfea4ebe3dab70158f54a10169cef966de7ed5d8e364c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/index.html",
+      "sha256": "47936294d8ba08a225c761996bd2edf65792e19a2790e6f2a94d968c7d2d9727"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/inputs.js.html",
+      "sha256": "a561f28343269de7fca3f9a51e6489438733c037a94a865d386eeff11baed5af"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/library.js.html",
+      "sha256": "13d2389152f61a85047f34998c126074f8611897c274ded55bee3f7ededccfec"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/menu.js.html",
+      "sha256": "684ee4cc85f7e28e76f59a53652a1e444767a7ea6450cc0da51a76ba542103be"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/preparation-strings.js.html",
+      "sha256": "cb07ccae92f76e2918d1a450f4eab599a90f052edc076636a8079e125d2f2471"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/preparation.js.html",
+      "sha256": "b567f4fffbb9abade7803b01cc50d4bd6536a84e5da0d60e43741cca6811b60f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/recovery.js.html",
+      "sha256": "0b939001f21ef90121318323a3e1cd377b32dee785b408496f8d44115f4fce09"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/round.js.html",
+      "sha256": "dcec91b7e74c9a576a3f4bf1eed8f9618204289306dd9f72978982c0f6ab21c4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/setup.js.html",
+      "sha256": "8a6c4a3b6d2f6e074ded0e84481068a1e9123189984e51e0995b1918cf8e8bdb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/sound.js.html",
+      "sha256": "aceb79b7a57566bb68830be4458967b0670213b58937e403f85d42330525c09f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/strings.js.html",
+      "sha256": "0afe24f774b2c8ef1726bd2c00a1b999f7c424daeed4c4610c5f77255fb99bb9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/ui/tile-return.js.html",
+      "sha256": "f486b66cd456da2c724e051193018ecbddc1519beca2544e8f5f176b7fafcab1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2/src/workspace.js.html",
+      "sha256": "1c562dd06e5d26abde31a11246fc0628a53444b10876601d2df3efac813d2d9d"
+    }
+  ],
+  "coverage": {
+    "critical": {
+      "files": [
+        "src/app.js",
+        "src/domain/actions.js",
+        "src/domain/answers.js",
+        "src/domain/board.js",
+        "src/domain/config.js",
+        "src/domain/controls.js",
+        "src/domain/difficulty.js",
+        "src/domain/duels.js",
+        "src/domain/errors.js",
+        "src/domain/game.js",
+        "src/domain/generation.js",
+        "src/domain/outcomes.js",
+        "src/domain/packs.js",
+        "src/domain/portable.js",
+        "src/domain/preferences.js",
+        "src/domain/saves.js",
+        "src/domain/validation.js",
+        "src/runtime/binding-recorder.js",
+        "src/runtime/board-navigation.js",
+        "src/runtime/buzzer.js",
+        "src/runtime/clock.js",
+        "src/runtime/downloads.js",
+        "src/runtime/game-sounds.js",
+        "src/runtime/gamepad.js",
+        "src/runtime/input-settings.js",
+        "src/runtime/inputs.js",
+        "src/runtime/keyboard.js",
+        "src/runtime/library.js",
+        "src/runtime/navigation.js",
+        "src/runtime/preparation.js",
+        "src/runtime/recovery.js",
+        "src/runtime/sound-player.js",
+        "src/runtime/symbols.js",
+        "src/runtime/touch.js",
+        "src/workspace.js"
+      ],
+      "lines": {
+        "covered": 4142,
+        "total": 4150,
+        "percent": 99.80722891566265
+      },
+      "statements": {
+        "covered": 4183,
+        "total": 4191,
+        "percent": 99.8091147697447
+      },
+      "functions": {
+        "covered": 308,
+        "total": 312,
+        "percent": 98.71794871794872
+      },
+      "branches": {
+        "covered": 1371,
+        "total": 1411,
+        "percent": 97.16513111268604
+      }
+    },
+    "remaining": {
+      "files": [
+        "src/content/catalog.js",
+        "src/main.js",
+        "src/messages.js",
+        "src/ui/answer-sheet.js",
+        "src/ui/application.js",
+        "src/ui/board.js",
+        "src/ui/catalog-folders.js",
+        "src/ui/catalog-names.js",
+        "src/ui/catalog.js",
+        "src/ui/countdown.js",
+        "src/ui/device-strings.js",
+        "src/ui/dom.js",
+        "src/ui/editor.js",
+        "src/ui/game-dialog.js",
+        "src/ui/game.js",
+        "src/ui/header.js",
+        "src/ui/host.js",
+        "src/ui/inputs.js",
+        "src/ui/library.js",
+        "src/ui/menu.js",
+        "src/ui/preparation-strings.js",
+        "src/ui/preparation.js",
+        "src/ui/recovery.js",
+        "src/ui/round.js",
+        "src/ui/setup.js",
+        "src/ui/sound.js",
+        "src/ui/strings.js",
+        "src/ui/tile-return.js"
+      ],
+      "lines": {
+        "covered": 3614,
+        "total": 3628,
+        "percent": 99.6141124586549
+      },
+      "statements": {
+        "covered": 3756,
+        "total": 3770,
+        "percent": 99.62864721485411
+      },
+      "functions": {
+        "covered": 127,
+        "total": 130,
+        "percent": 97.6923076923077
+      },
+      "branches": {
+        "covered": 595,
+        "total": 624,
+        "percent": 95.3525641025641
+      }
+    }
+  },
+  "units": 1012,
+  "unitFiles": 42,
+  "nativeStats": {
+    "startTime": "2026-11-01T21:53:14.667Z",
+    "duration": 284728.316,
+    "expected": 58,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "commandReceipts": [
+    {
+      "at": "2026-11-01T21:52:08.065133+00:00",
+      "session": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+      "event": "command-end",
+      "command": [
+        "bash",
+        "-c",
+        "node .artifacts/continuation/publish-phase12-reservation-roles.mjs && cd .artifacts/continuation/deck-release-geography-en-medium-03-worktree && npm run check && test ! -e ../parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2 && cp -a coverage ../parallel-decks/geography-en-medium-03/integration/coverage-full-postreview-v2"
+      ],
+      "exitCode": 0,
+      "log": ".artifacts/continuation/phase12-logs/phase12-geography-medium03-full-postreview-v2.log"
+    },
+    {
+      "at": "2026-11-01T21:57:59.435723+00:00",
+      "session": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+      "event": "command-end",
+      "command": [
+        "bash",
+        "-c",
+        "cd .artifacts/continuation/deck-release-geography-en-medium-03-worktree && npm exec --no -- playwright test --config ../geography-medium03-browser.config.js"
+      ],
+      "exitCode": 0,
+      "log": ".artifacts/continuation/phase12-logs/phase12-geography-medium03-native-postreview-v2.log"
+    }
+  ],
+  "originalFailedFullGatePreserved": true,
+  "finalPostreviewGatesPassed": true,
+  "actualCommitPushPrivateActiveAndExpiredUpgradeStillRequired": true,
+  "phase12Cleared": false
+}
