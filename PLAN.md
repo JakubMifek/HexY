@@ -33,13 +33,17 @@ immutability and all content-quality requirements remain unchanged.
 
 Last updated: 2026-11-01.
 
-**Incremental delivery checkpoint:** `nature-en-easy-03` independently cleared
-and privately delivered as `d93dae5`: 133 decks / 3,724 questions; all 132 old
-pack bytes/order and actual old-game/library/deadline recovery preserved.
-This next isolated candidate adds only `nature-en-medium-03`, giving134/3,752.
-Its exact 28 factual/full-evidence/alias and original Medium rating judgments
-are inherited and current content/semantic adoption is independently cleared;
-integration release review and same-snapshot postreview remain pending.
+**Incremental delivery checkpoint:** the Nature Easy03 and Medium03 decks are
+independently cleared and privately delivered as `5b7f6e1`: 134 decks / 3,752
+questions; all preceding pack bytes/order and actual old-game/library/deadline
+recovery preserved. The Medium03 original deadline legitimately expired;
+independent correction review verified unchanged production recovery to an
+opponent offer with no reset or answering-time extension.
+This next isolated candidate adds only `science-en-hard-03`, giving135/3,780.
+Its exact 28 factual/full-evidence/alias and original Hard rating judgments
+are inherited; independent frozen content/R9 semantic and exact point-lifecycle
+review is cleared. Current R10 delta, integration release review and same-snapshot
+postreview remain pending.
 Earlier counts below are historical checkpoints,
 not a claim that all 159 working decks have been shipped or Phase12 is cleared.
 

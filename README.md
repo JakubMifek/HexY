@@ -1,16 +1,23 @@
 # HexY
 
-**Phase 12 incremental candidate: 134 decks / 3,752 questions.** This snapshot
-adds only `nature-en-medium-03` to the privately delivered `d93dae5` baseline
-(133 decks / 3,724 questions), preserving all 133 pack bytes and their ordering.
-Its [source ledger](docs/phase-12-nature-en-medium-03-sources.json) retains
-all 28 complete evidence arrays and the original general-adult Medium rating.
-[Independent current-deck content/semantic adoption](reviews/phase-12-nature-en-medium-03-content.md)
-is cleared; integration release review and same-snapshot postreview remain
-pending. Content-only acceptance is not DECK RELEASE clearance.
-The preceding `nature-en-easy-03` deck was independently cleared and privately
-delivered after 963 unit tests, full 63-module coverage, 58 native browser
-cases and actual served-deck/original-game/deadline/library recovery checks.
+**Phase 12 incremental candidate: 135 decks / 3,780 questions.** This snapshot
+adds only `science-en-hard-03` to the privately delivered `5b7f6e1` baseline
+(134 decks / 3,752 questions), preserving all 134 pack bytes and their ordering.
+Its [source ledger](docs/phase-12-science-en-hard-03-sources.json) retains
+all 28 complete evidence arrays, original and corrected independent receipts,
+and the exact original general-adult Hard rating.
+[Independent frozen content/R9 semantic and point-lifecycle review](reviews/phase-12-science-en-hard-03-content.md)
+is retained unchanged. The [one-deck release review](reviews/phase-12-science-en-hard-03-release.md)
+independently cleared the current R10 delta and exact integration snapshot.
+At the 2026-11-01 16:38 UTC postreview checkpoint, 972 unit tests, all 63 runtime
+coverage modules and 58 both-engine native cases passed. Actual private
+promotion and original-game/library verification remained mandatory next gates,
+not conclusions drawn from the candidate count.
+The preceding Nature Easy03 and Medium03 decks were independently cleared and
+privately delivered. Medium03 passed 968 unit tests, full 63-module coverage,
+58 native browser cases and actual served-deck/original-game/library recovery.
+Its expired original deadline was preserved through independently reviewed
+legitimate recovery to an opponent offer, not extra answering time.
 The final Phase 12 gate is still exactly 330 decks / 9,240 questions and five
 decks in all 66 category/language/difficulty combinations; no phase clearance
 or new private promotion is claimed by this candidate count.

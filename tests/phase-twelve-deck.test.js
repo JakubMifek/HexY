@@ -15,7 +15,10 @@ for (const deckId of shipment.additionalDeckIds) {
    * exactQuestionAndEntireEvidenceBindings: {id: string, questionSha256: string, evidenceSha256: string}[],
    * entries: {id: string, evidence: unknown[]}[],
    * wholeDeckRatingSha256: string,
-   * wholeDeckGeneralAdultRating: {entriesReviewed: number, independentDominantGeneralAdultRating: string}}} */
+   * wholeDeckGeneralAdultRating:
+   * {entriesReviewed: number, independentDominantGeneralAdultRating: string} |
+   * {id: string, decision: string, commonEasyIndices: number[],
+   * informedMediumIndices: number[], specialistHardIndices: number[]}}} */
   const ledger = JSON.parse(
     readFileSync(`docs/phase-12-${deckId}-sources.json`, 'utf8'),
   );
@@ -42,10 +45,24 @@ for (const deckId of shipment.additionalDeckIds) {
     expect(digest(JSON.stringify(ledger.wholeDeckGeneralAdultRating))).toBe(
       ledger.wholeDeckRatingSha256,
     );
-    expect(ledger.wholeDeckGeneralAdultRating.entriesReviewed).toBe(28);
-    expect(
-      ledger.wholeDeckGeneralAdultRating.independentDominantGeneralAdultRating,
-    ).toBe(raw.difficulty);
+    const rating = ledger.wholeDeckGeneralAdultRating;
+    if ('entriesReviewed' in rating) {
+      expect(rating.entriesReviewed).toBe(28);
+      expect(rating.independentDominantGeneralAdultRating).toBe(raw.difficulty);
+    } else {
+      expect(rating.id).toBe(deckId);
+      expect(rating.decision).toBe(
+        `Accept dominant ${raw.difficulty[0].toUpperCase()}${raw.difficulty.slice(1)}`,
+      );
+      const reviewed = [
+        ...rating.commonEasyIndices,
+        ...rating.informedMediumIndices,
+        ...rating.specialistHardIndices,
+      ];
+      expect(reviewed.sort((left, right) => left - right)).toEqual(
+        Array.from({ length: 28 }, (_, index) => index + 1),
+      );
+    }
   });
 }
 

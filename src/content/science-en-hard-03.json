@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-hard-03",
+  "title": "Science and technology · Hard · 03",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-hard-03-01",
+      "text": "What atomic relaxation process ejects an electron when another electron fills an inner-shell vacancy without emitting an X-ray photon?",
+      "initial": "A",
+      "answer": "Auger effect",
+      "language": "en",
+      "aliases": [
+        "Auger emission",
+        "Auger process",
+        "Auger–Meitner effect",
+        "Auger-Meitner effect"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Auger_effect"]
+    },
+    {
+      "id": "science-en-hard-03-02",
+      "text": "What radiation is emitted when a charged particle is decelerated, for example as an electron passes near an atomic nucleus?",
+      "initial": "B",
+      "answer": "Bremsstrahlung",
+      "language": "en",
+      "aliases": [
+        "Braking radiation",
+        "Free-free radiation",
+        "Free–free radiation",
+        "Free-free emission"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Bremsstrahlung"]
+    },
+    {
+      "id": "science-en-hard-03-03",
+      "text": "What quantum phenomenon can produce an attractive force between closely spaced uncharged conducting plates in vacuum?",
+      "initial": "C",
+      "answer": "Casimir effect",
+      "language": "en",
+      "aliases": ["Casimir force"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Casimir_effect"]
+    },
+    {
+      "id": "science-en-hard-03-04",
+      "text": "What light is emitted when a charged particle travels through a medium faster than light's phase velocity in that medium?",
+      "initial": "CH",
+      "answer": "Cherenkov radiation",
+      "language": "en",
+      "aliases": [
+        "Čerenkov radiation",
+        "Vavilov–Cherenkov radiation",
+        "Vavilov-Cherenkov radiation"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Cherenkov_radiation"]
+    },
+    {
+      "id": "science-en-hard-03-05",
+      "text": "What collective plasma effect reduces the electric field of a charge over a characteristic screening distance?",
+      "initial": "D",
+      "answer": "Debye shielding",
+      "language": "en",
+      "aliases": ["Debye screening"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Debye_length"]
+    },
+    {
+      "id": "science-en-hard-03-06",
+      "text": "What theorem relates the time evolution of quantum expectation values to equations resembling classical mechanics?",
+      "initial": "E",
+      "answer": "Ehrenfest theorem",
+      "language": "en",
+      "aliases": ["Ehrenfest's theorem"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ehrenfest_theorem"]
+    },
+    {
+      "id": "science-en-hard-03-07",
+      "text": "What principle treats an electronic transition as occurring so rapidly that nuclear positions remain effectively fixed during it?",
+      "initial": "F",
+      "answer": "Franck–Condon principle",
+      "language": "en",
+      "aliases": ["Franck-Condon principle"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Franck%E2%80%93Condon_principle"
+      ]
+    },
+    {
+      "id": "science-en-hard-03-08",
+      "text": "What rule relates the number of thermodynamic degrees of freedom to the numbers of phases and components at equilibrium?",
+      "initial": "G",
+      "answer": "Gibbs phase rule",
+      "language": "en",
+      "aliases": ["Phase rule", "Gibbs' phase rule", "Gibbs's phase rule"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Phase_rule"]
+    },
+    {
+      "id": "science-en-hard-03-09",
+      "text": "What material coefficient is the ratio of the transverse electric field to the product of current density and perpendicular magnetic field?",
+      "initial": "H",
+      "answer": "Hall coefficient",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Hall_effect"]
+    },
+    {
+      "id": "science-en-hard-03-10",
+      "text": "What thermodynamic process keeps entropy constant?",
+      "initial": "I",
+      "answer": "Isentropic process",
+      "language": "en",
+      "aliases": ["Isoentropic process"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Isentropic_process"]
+    },
+    {
+      "id": "science-en-hard-03-11",
+      "text": "What effect predicts a symmetry-lowering distortion for a non-linear molecule in a spatially degenerate electronic ground state?",
+      "initial": "J",
+      "answer": "Jahn–Teller effect",
+      "language": "en",
+      "aliases": [
+        "Jahn–Teller distortion",
+        "Jahn-Teller effect",
+        "Jahn-Teller distortion",
+        "JT effect",
+        "JTE"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Jahn%E2%80%93Teller_effect"]
+    },
+    {
+      "id": "science-en-hard-03-12",
+      "text": "What theorem requires at least twofold degeneracy of energy levels for a time-reversal-invariant system with half-integer total spin?",
+      "initial": "K",
+      "answer": "Kramers degeneracy",
+      "language": "en",
+      "aliases": [
+        "Kramers theorem",
+        "Kramers' theorem",
+        "Kramers degeneracy theorem",
+        "Kramers' degeneracy theorem"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Kramers%27_theorem"]
+    },
+    {
+      "id": "science-en-hard-03-13",
+      "text": "What collisionless plasma phenomenon damps a wave through resonant energy exchange with particles moving near its phase velocity?",
+      "initial": "L",
+      "answer": "Landau damping",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Landau_damping"]
+    },
+    {
+      "id": "science-en-hard-03-14",
+      "text": "What phenomenon is the recoil-free emission and resonant absorption of gamma rays by nuclei bound in a solid?",
+      "initial": "M",
+      "answer": "Mössbauer effect",
+      "language": "en",
+      "aliases": [
+        "Recoilless nuclear resonance fluorescence",
+        "Recoil-free nuclear resonance fluorescence"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/M%C3%B6ssbauer_effect"]
+    },
+    {
+      "id": "science-en-hard-03-15",
+      "text": "What theorem connects every continuous differentiable symmetry of an action with a corresponding conservation law?",
+      "initial": "N",
+      "answer": "Noether's theorem",
+      "language": "en",
+      "aliases": [
+        "Noether theorem",
+        "Noethers theorem",
+        "Noether’s theorem",
+        "Noether's first theorem"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Noether%27s_theorem"]
+    },
+    {
+      "id": "science-en-hard-03-16",
+      "text": "In zero magnetic field, what relations equate cross-coupled linear transport coefficients near thermodynamic equilibrium under microscopic time-reversal symmetry?",
+      "initial": "O",
+      "answer": "Onsager reciprocal relations",
+      "language": "en",
+      "aliases": ["Onsager relations", "Onsager reciprocity relations"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Onsager_reciprocal_relations"]
+    },
+    {
+      "id": "science-en-hard-03-17",
+      "text": "What law describes a gas's electrical breakdown voltage mainly in terms of the product of pressure and electrode separation?",
+      "initial": "P",
+      "answer": "Paschen's law",
+      "language": "en",
+      "aliases": ["Paschen law", "Paschens law", "Paschen’s law"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Paschen%27s_law"]
+    },
+    {
+      "id": "science-en-hard-03-18",
+      "text": "What quantum phenomenon can inhibit a system's transition by sufficiently frequent measurements?",
+      "initial": "Q",
+      "answer": "Quantum Zeno effect",
+      "language": "en",
+      "aliases": ["Zeno effect"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Quantum_Zeno_effect"]
+    },
+    {
+      "id": "science-en-hard-03-19",
+      "text": "What scattering model explains large-angle deflections of alpha particles by atomic nuclei through the Coulomb force?",
+      "initial": "R",
+      "answer": "Rutherford scattering",
+      "language": "en",
+      "aliases": ["Coulomb scattering"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Rutherford_scattering"]
+    },
+    {
+      "id": "science-en-hard-03-20",
+      "text": "What effect produces a phase difference between light beams travelling in opposite directions around a rotating loop?",
+      "initial": "S",
+      "answer": "Sagnac effect",
+      "language": "en",
+      "aliases": ["Sagnac interference"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Sagnac_effect"]
+    },
+    {
+      "id": "science-en-hard-03-21",
+      "text": "What effect consists of oscillations in a conductor's magnetoresistance as the inverse magnetic field varies at low temperature?",
+      "initial": "SH",
+      "answer": "Shubnikov–de Haas effect",
+      "language": "en",
+      "aliases": [
+        "Shubnikov-de Haas effect",
+        "Shubnikov–de Haas oscillations",
+        "Shubnikov-de Haas oscillations",
+        "SdH effect"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shubnikov%E2%80%93de_Haas_effect"
+      ]
+    },
+    {
+      "id": "science-en-hard-03-22",
+      "text": "What gas-discharge process multiplies free electrons through successive ionizing collisions in an electric field?",
+      "initial": "T",
+      "answer": "Townsend avalanche",
+      "language": "en",
+      "aliases": ["Electron avalanche", "Townsend discharge"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Townsend_discharge"]
+    },
+    {
+      "id": "science-en-hard-03-23",
+      "text": "What paired nuclear beta-decay and electron-capture reactions can cool dense stellar matter by emitting neutrinos and antineutrinos?",
+      "initial": "U",
+      "answer": "Urca process",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Urca_process"]
+    },
+    {
+      "id": "science-en-hard-03-24",
+      "text": "With four small ohmic contacts on its boundary, what method measures sheet resistance in a thin, homogeneous, isotropic sample of uniform thickness with no holes?",
+      "initial": "V",
+      "answer": "Van der Pauw method",
+      "language": "en",
+      "aliases": ["Van der Pauw technique"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Van_der_Pauw_method"]
+    },
+    {
+      "id": "science-en-hard-03-25",
+      "text": "What law relates a metal's electronic contribution to thermal conductivity to its electrical conductivity, absolute temperature and Lorenz number?",
+      "initial": "W",
+      "answer": "Wiedemann–Franz law",
+      "language": "en",
+      "aliases": ["Wiedemann-Franz law"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Wiedemann%E2%80%93Franz_law"]
+    },
+    {
+      "id": "science-en-hard-03-26",
+      "text": "What fine detail in an X-ray absorption spectrum is analysed near and above an absorption edge to reveal an atom's local surroundings?",
+      "initial": "X",
+      "answer": "X-ray absorption fine structure",
+      "language": "en",
+      "aliases": ["XAFS"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/X-ray_absorption_fine_structure"
+      ]
+    },
+    {
+      "id": "science-en-hard-03-27",
+      "text": "What exponentially screened potential was introduced to model a short-range interaction mediated by a massive particle?",
+      "initial": "Y",
+      "answer": "Yukawa potential",
+      "language": "en",
+      "aliases": ["Screened Coulomb potential"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Yukawa_potential"]
+    },
+    {
+      "id": "science-en-hard-03-28",
+      "text": "What effect splits an atomic spectral line into components when an external magnetic field is applied?",
+      "initial": "Z",
+      "answer": "Zeeman effect",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Zeeman_effect"]
+    }
+  ]
+}

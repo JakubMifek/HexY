@@ -12,13 +12,21 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
-**Current incremental checkpoint:** delivered `d93dae5`, 133 decks /3,724
-questions. Only NatureEnglishEasy03 was added after independent deck/release
-clearance, current reservation rebind, same-source quality/native checks and
-actual private served-deck/old-data verification. This next candidate adds
-only NatureEnglishMedium03 (134/3,752); content/semantic adoption is independently
-cleared. Integration release/current reservation delta and postreview gates
-remain pending. The final330/9,240/all66 gate is unchanged.
+**Current incremental checkpoint:** delivered `5b7f6e1`, 134 decks /3,752
+questions. NatureEnglishEasy03 and Medium03 were added in separate independently
+cleared one-deck commits, with current reservation rebinds, same-source checks
+and actual private served-deck/old-data verification. Medium03 passed968 units/
+41files/all63 runtime coverage and58 native cases; its original expired deadline
+was preserved through independently reviewed legitimate opponent-offer recovery.
+This next candidate adds only ScienceEnglishHard03 (135/3,780); inherited
+content/evidence/rating receipts are exact. Independent frozen content/R9
+semantic and exact point-lifecycle review is retained unchanged. The
+[one-deck release review](reviews/phase-12-science-en-hard-03-release.md)
+cleared the current R10 delta and integration snapshot. At the 2026-11-01
+16:38 UTC postreview checkpoint, 972 units/41 files/all63 runtime coverage
+and58 both-engine native cases passed. Actual private promotion and complete
+original-game/library verification remained mandatory next gates.
+The final330/9,240/all66 gate is unchanged.
 Historical159-working/132-delivered transition counts below are retained.
 
 **Current owner-approved Phase12 execution policy, 2026-11-01:** parallel

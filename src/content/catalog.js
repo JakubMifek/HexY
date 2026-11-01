@@ -72,6 +72,7 @@ import scienceEnEasy1 from './science-en-easy-01.json';
 import scienceEnEasy2 from './science-en-easy-02.json';
 import scienceEnMedium1 from './science-en-medium-01.json';
 import scienceEnMedium2 from './science-en-medium-02.json';
+import scienceEnHard3 from './science-en-hard-03.json';
 import programmingCs1 from './programming-cs-01.json';
 import programmingCs2 from './programming-cs-02.json';
 import programmingEn1 from './programming-en-01.json';
@@ -269,6 +270,7 @@ const bundledSources = [
   sportsEnHard2,
   natureEnEasy3,
   natureEnMedium3,
+  scienceEnHard3,
 ];
 
 export function bundledPacks() {

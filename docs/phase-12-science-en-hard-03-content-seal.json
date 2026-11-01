@@ -1,0 +1,3103 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-11-01T16:02:27.764283+00:00",
+  "deckId": "science-en-hard-03",
+  "independentReadOnlyReviewer": "Science EN Hard03 review-v1; separate task, no candidate authorship",
+  "reviewerRuntimeUuidNotExposed": true,
+  "publisherNotReviewer": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+  "verdict": "CLEARED FOR BOUNDED FROZEN CONTENT / R9 SEMANTIC / EXACT POINT-LIFECYCLE ONLY",
+  "frozenHandoffPath": ".artifacts/continuation/parallel-decks/science-en-hard-03/coordinator-current-v5/FROZEN-HANDOFF.json",
+  "frozenHandoffSha256": "6f0ba079e796bab7ee8d684b9a6fa358a5592b233d082bcb40d9d8b4932bd44e",
+  "candidatePackSha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed",
+  "actualDeliveredBaseline": "5b7f6e1dccc593d07af1a261ca765df40bd9c3de",
+  "deliveredDecks": 134,
+  "deliveredQuestions": 3752,
+  "originalExternalAdoptionAuthor": "12f569ea-95f8-42a2-bc42-fe5ccd133f0a",
+  "originalInternalAuthorRoutingNullPreserved": true,
+  "originalFixedInputs": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/prepare.py",
+      "bytes": 31325,
+      "sha256": "11fd7094b58174566f2681af2ec8c515823e71c0047129fb433755b234e1673f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/PROBE-HISTORY.json",
+      "bytes": 1110,
+      "sha256": "db26eb1bcfc6334fc8448e86703ab9b1f11fedbe15f50e0c8e71a54130ae5187"
+    },
+    {
+      "path": "src/domain/answers.js",
+      "bytes": 1108,
+      "sha256": "8f5243284e63963526e94766ba073366c70f5f1d0b3a55ec25e497023d54ecc8"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-hard-03.json",
+      "bytes": 12824,
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/sources.json",
+      "bytes": 264586,
+      "sha256": "1bad1f9eb42fa6cf3caa0f1d40750a00cba7fafe311e1feeb23ef13834f66b90"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v1/packs/science-en-hard-03.json",
+      "bytes": 12824,
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v1/sources.json",
+      "bytes": 259074,
+      "sha256": "4f0e4987878a6cf8a2f4193985cec925facb0a9c572f479f66df94f4143ecd2f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/review-artifacts.sha256",
+      "bytes": 9678,
+      "sha256": "6d34a34833016021bf9b58b4d439f5ee53941fef179fbbadeb823bcd8f69a997"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/receipts.json",
+      "bytes": 847474,
+      "sha256": "43e6631ccc1128c4ac671d57071057f18220be55916f54b99ed574a08dbf4925"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/REPORT.md",
+      "bytes": 19247,
+      "sha256": "026f27c4d7f072a255f17ccaa2583e0f8b3fffbc7e9b4795c72d2e5406d59f9a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/calibration.json",
+      "bytes": 2789,
+      "sha256": "b2d0a1b6bc414da58a99fda2fe82507946016b794e815a51be1e55d759d83c0d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/verdict.json",
+      "bytes": 869,
+      "sha256": "dc6ec73829f0ec938514ad2544050ccc34c99ca314b38a2d6bd6acd6012a985d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/review-artifacts.sha256",
+      "bytes": 9323,
+      "sha256": "d875f791f5f138093ac87cd655a8ec9d1729d8ee38864de463662ba3d8bcf2c6"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/receipts.json",
+      "bytes": 1235847,
+      "sha256": "7f36d3c2d57e3d7055568a62f73191414d12135517fb23177d06ae7e1565542a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/REPORT.md",
+      "bytes": 14212,
+      "sha256": "31a0824b7ccacb971ee42acc61fb0806821e6de9d41b6eceaaaf826aa0e292bb"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/verdict.json",
+      "bytes": 930,
+      "sha256": "3a4684591dce202b954d974045cb7f2f5f3fc3e438b644b9ef2d3105967eb6ed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/continuity.json",
+      "bytes": 247333,
+      "sha256": "7c2b6dd9b864d49b93c4cbadb3060533958bcacfeb7c4e26e188259993b4e6ba"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/semantic-candidates.json",
+      "bytes": 527230,
+      "sha256": "b463a05af7d205c4f11c0fbb32e7883fddadf03b3b88621393d9bab4e6ea6080"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/diagnostic-origin-proofs.json",
+      "bytes": 116203,
+      "sha256": "996d37853620ac0cd4add7e4d11eb9953c19fc3ee19c68369cc31045254eb629"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/normalized-prompt-origin-proofs.json",
+      "bytes": 302651,
+      "sha256": "b8b6bed03fac130b295f5b2c9de1b30e4f468d1d7c1a89982bf44a29ed3eff20"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/semantic-delta-judgments.json",
+      "bytes": 4953,
+      "sha256": "50f528ab53aa91f03bec9c4a4e7eb62b8637aaaf2f87e4add553ccaa2e74dc10"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/author-readings.json",
+      "bytes": 98842,
+      "sha256": "5fd3207ec54972cce8b5d62b66ca4912a1b30a13748f1784636671aad4f0aecb"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v1/author-readings.json",
+      "bytes": 97433,
+      "sha256": "c0cb9d5529f62bba4945004db2dcf00d9c5906be13f3b199380f75bf56321ae7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/inputs/original-author-inputs/retrieval-index.json",
+      "bytes": 131275,
+      "sha256": "da2481891331ebca30e204fadcfa9e3d003fb1928307b84a68b5ca2f19b32980"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/inputs/original-author-inputs/supplement-retrieval-index.json",
+      "bytes": 6430,
+      "sha256": "62ff964df0951b4d95b4a01ecc93bb2e538e7311128fce93545c1fe277c9ae37"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/inputs/original-author-inputs/extra-retrieval-index.json",
+      "bytes": 2329,
+      "sha256": "77c2f386aa99963594945c1e5572f101164446de9dc0d3b4cfaf6b609fbc0a15"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/e868aef40224ec9d3c4ab6facbb2b5c48d06270ca18f902fe2ba3e79b77d36e3.html",
+      "bytes": 148364,
+      "sha256": "e868aef40224ec9d3c4ab6facbb2b5c48d06270ca18f902fe2ba3e79b77d36e3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/97f809ee7bc78e6fbba76c54623800e06809e600e397f9e55651466b51c804b3.txt",
+      "bytes": 2881,
+      "sha256": "97f809ee7bc78e6fbba76c54623800e06809e600e397f9e55651466b51c804b3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/28e96b43dac7b4b41f25.json",
+      "bytes": 854,
+      "sha256": "bb25b75b7d2b0da7cfee90f2de5f555729fccc01d0d491131d2111b664ce4843"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/4768927a0ddd1adc2e95da05043269f722255f35df90c5613fc9763ff2580330.html",
+      "bytes": 783393,
+      "sha256": "4768927a0ddd1adc2e95da05043269f722255f35df90c5613fc9763ff2580330"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/424b57b41fbdf8ed396bad0df9af3606ea5fc14bbfa785cf6d9afa261f743298.txt",
+      "bytes": 43362,
+      "sha256": "424b57b41fbdf8ed396bad0df9af3606ea5fc14bbfa785cf6d9afa261f743298"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/d383c24522cc1a628531.json",
+      "bytes": 858,
+      "sha256": "427733887c1fcccfd000050907efa229aaa69b3c72639963e0589967a74e031d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/3b341cc7578ac5195e773dafd56b6eb57b87c377b11a0835301cf47da561dd19.html",
+      "bytes": 596340,
+      "sha256": "3b341cc7578ac5195e773dafd56b6eb57b87c377b11a0835301cf47da561dd19"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/6848773dacb0b1bf77dc6ce5016322a4a4934f58580ed6840604bb4ba4b361df.txt",
+      "bytes": 30386,
+      "sha256": "6848773dacb0b1bf77dc6ce5016322a4a4934f58580ed6840604bb4ba4b361df"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/cc420a16b77b7a429c91.json",
+      "bytes": 858,
+      "sha256": "7ff96444e9d559a1f66416ba4872bbfe4f9104dfde5c5c995c2236a324d83b5e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/4a07edfe6797ec2d830b86eb398ebc7340cc8fb8385aa37f008366282d4b11d5.html",
+      "bytes": 353000,
+      "sha256": "4a07edfe6797ec2d830b86eb398ebc7340cc8fb8385aa37f008366282d4b11d5"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/bc8c014ae3b6c6549c7d8e1d21c29006795d4ecadcc85991d8b42aa9ec76a74e.txt",
+      "bytes": 19683,
+      "sha256": "bc8c014ae3b6c6549c7d8e1d21c29006795d4ecadcc85991d8b42aa9ec76a74e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/09f022906e49b685dc79.json",
+      "bytes": 1081,
+      "sha256": "c21dd3098f9e0363c1f5c615f7233d2b6ae03250f26900e539c4b92c862cd51e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/971e81afd9e10864ef30ebc45ca27ed8d7d13c5968a4b2b0e1e6d6eddf22f25d.html",
+      "bytes": 253378,
+      "sha256": "971e81afd9e10864ef30ebc45ca27ed8d7d13c5968a4b2b0e1e6d6eddf22f25d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/a16ca0d4878972b6dcd22768fc61f398cd04d1568686fdde28ca3abf77395435.txt",
+      "bytes": 12204,
+      "sha256": "a16ca0d4878972b6dcd22768fc61f398cd04d1568686fdde28ca3abf77395435"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/9495f4261dc39206841e.json",
+      "bytes": 1067,
+      "sha256": "7d9a5b9f01d6f373861141e7048410e88d9e13b865416392e93f85bf6f54e676"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/4100e1e0d4384a767a161383cd12cb000af304bfe024d076832162e26d209779.html",
+      "bytes": 286449,
+      "sha256": "4100e1e0d4384a767a161383cd12cb000af304bfe024d076832162e26d209779"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/4a7a0e8948efb071e5ae7abba73dce73274251ac6bb3caf1eb6e819f8b57fe97.txt",
+      "bytes": 15212,
+      "sha256": "4a7a0e8948efb071e5ae7abba73dce73274251ac6bb3caf1eb6e819f8b57fe97"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/a2326bf784a51af7897d.json",
+      "bytes": 864,
+      "sha256": "07274e40ec26faba69f7931178ef12d1e9c806c20c3c28cab024fdb6d2d31e44"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/55be66559f892eb658a25ea6c77c1eb468860dad0d6d2ffe78d309a3463bc600.html",
+      "bytes": 193050,
+      "sha256": "55be66559f892eb658a25ea6c77c1eb468860dad0d6d2ffe78d309a3463bc600"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/932ee5ad152408fc7e0d52aea7d8804a96c09c335914bf0a5ff4aec32ea1539d.txt",
+      "bytes": 17443,
+      "sha256": "932ee5ad152408fc7e0d52aea7d8804a96c09c335914bf0a5ff4aec32ea1539d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/44f5f435aaacb9d48611.json",
+      "bytes": 892,
+      "sha256": "e23a5ce054c90f9a8efeffc3b117276733e631a32e3c57071faee113cec09d4b"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/5d410732eb11ee5a4c5a22ea596c35999408db771bb1e7730ee2fff9a6169da9.html",
+      "bytes": 172709,
+      "sha256": "5d410732eb11ee5a4c5a22ea596c35999408db771bb1e7730ee2fff9a6169da9"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/ea33c2b3c3eb2be99e8a1b4b2647f528c43ad3300dccbd3005050b1e81cfecd3.txt",
+      "bytes": 10327,
+      "sha256": "ea33c2b3c3eb2be99e8a1b4b2647f528c43ad3300dccbd3005050b1e81cfecd3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/6bc5e4d06e05195d81c9.json",
+      "bytes": 850,
+      "sha256": "55b982929261a5a6eff7dcd6fbdf5371a45ed5b827a876d87f43ccae7f91c0fe"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/81813fb90d8551ea0b5ace2d80118246f03c22e8676f4396eb0eb82fa581c1f0.html",
+      "bytes": 346940,
+      "sha256": "81813fb90d8551ea0b5ace2d80118246f03c22e8676f4396eb0eb82fa581c1f0"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/67b4ca79bf6d2a349b14c30565f67369d091f4c123938f67cbff65c5c8d8d12d.txt",
+      "bytes": 13954,
+      "sha256": "67b4ca79bf6d2a349b14c30565f67369d091f4c123938f67cbff65c5c8d8d12d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/18f6706f094b5428e19e.json",
+      "bytes": 1065,
+      "sha256": "623396d01e3a53b02a11b911a5fc0c91e82b7262f78458cfe81b189d2ab6b27c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/6d1b047bba3f031159b3b43b77505212bb43b7c1e8b8b346d0bada9ad4c1e204.html",
+      "bytes": 302432,
+      "sha256": "6d1b047bba3f031159b3b43b77505212bb43b7c1e8b8b346d0bada9ad4c1e204"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/49dca620c23ed50f76753d5e2b381b0d25764c4a66f65870e9f05217a18ffbe2.txt",
+      "bytes": 5496,
+      "sha256": "49dca620c23ed50f76753d5e2b381b0d25764c4a66f65870e9f05217a18ffbe2"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/3c0f16e71b35410a15ca.json",
+      "bytes": 866,
+      "sha256": "f4ead74f982023625212379b4ddf42f45591aaeca326271c77b20833917a8532"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/086dd5151f891589fdcaed674b72ce4bcc24f5f873d0ac829f466d0d9d6f7576.html",
+      "bytes": 375593,
+      "sha256": "086dd5151f891589fdcaed674b72ce4bcc24f5f873d0ac829f466d0d9d6f7576"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/6113427dd94c00a5444aa4eb19a0cbf4da197fd5f0219673c5b348a2778c42cc.txt",
+      "bytes": 32926,
+      "sha256": "6113427dd94c00a5444aa4eb19a0cbf4da197fd5f0219673c5b348a2778c42cc"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/640ea94d33899c2e851f.json",
+      "bytes": 882,
+      "sha256": "a90415dca399d79795d36e1342f2e60926b14fc62360cb58fbb47e71d6074444"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/925409c2e99b4139fec8a7353b414c51e171c5bc674740d711a00884e88cd53b.html",
+      "bytes": 145640,
+      "sha256": "925409c2e99b4139fec8a7353b414c51e171c5bc674740d711a00884e88cd53b"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/7753cc7ed2baab425427f63d2d80e5f12d7416e5c974f40329495024129e9f58.txt",
+      "bytes": 5291,
+      "sha256": "7753cc7ed2baab425427f63d2d80e5f12d7416e5c974f40329495024129e9f58"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/154240817c64ef5ff7e7.json",
+      "bytes": 866,
+      "sha256": "0a28385b9959d5980e7b5a100e019b5b9f6b5be0abf62a3e0b41a9a15d6ebeb8"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/a88910cbd8daf2f79ececcb4c83841a91a1c73a6cf642d8c631ea6a3982a3cae.html",
+      "bytes": 162352,
+      "sha256": "a88910cbd8daf2f79ececcb4c83841a91a1c73a6cf642d8c631ea6a3982a3cae"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/1e7430cd69532e9470a9adbad3eefc0dc52dae1df8658846e2efc8ac1041e800.txt",
+      "bytes": 11010,
+      "sha256": "1e7430cd69532e9470a9adbad3eefc0dc52dae1df8658846e2efc8ac1041e800"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/fc36a53dad881ac0aef3.json",
+      "bytes": 858,
+      "sha256": "bc0e605920f4a9f5ee25d21df6f7678122aa0bfcb3b4bf6c100bf46efb9495e0"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/4dc25690aa529d61fef4ddeb124896df41394a5affdcaae6d401ddce31c11e5e.html",
+      "bytes": 151172,
+      "sha256": "4dc25690aa529d61fef4ddeb124896df41394a5affdcaae6d401ddce31c11e5e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/6605cdc44b5f519ba0ee6a283a23b1596d421b088c1f2d5917134c70d59379ab.txt",
+      "bytes": 7215,
+      "sha256": "6605cdc44b5f519ba0ee6a283a23b1596d421b088c1f2d5917134c70d59379ab"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/657cd8a9f98ff77f7a22.json",
+      "bytes": 872,
+      "sha256": "f85ef94be2fd1aed26c3ade4ad00e0ff715978de4b95a2e1f57034395536e475"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/5cd92bb136f29528aed7c06d400e45634c8b8da465435b2bdb52fa1645c0959f.html",
+      "bytes": 939223,
+      "sha256": "5cd92bb136f29528aed7c06d400e45634c8b8da465435b2bdb52fa1645c0959f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/98c2174db3658c36654da330d021090a4e9cc9ba9363dae3dbbef9ad4a79f9ac.txt",
+      "bytes": 35248,
+      "sha256": "98c2174db3658c36654da330d021090a4e9cc9ba9363dae3dbbef9ad4a79f9ac"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/978fd67f8f8ffc2ed390.json",
+      "bytes": 868,
+      "sha256": "28331cb783e914c8db0c0229687eb397622fd7f5b8fa309a9c44cf3a07fe2c9b"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/3ab450ac073dbb8ff64987fc161f01cce8e10a87457398f0e77da1dc347f0343.html",
+      "bytes": 290077,
+      "sha256": "3ab450ac073dbb8ff64987fc161f01cce8e10a87457398f0e77da1dc347f0343"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/6d03ff6d5566ab5fc98e692b20a9066f7799ad364bd0007c1139cd30abd5979f.txt",
+      "bytes": 14826,
+      "sha256": "6d03ff6d5566ab5fc98e692b20a9066f7799ad364bd0007c1139cd30abd5979f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/e3b3636c0b7b6d2f4214.json",
+      "bytes": 886,
+      "sha256": "ae2d3282af0ca7ec73960f587f4dd0a326a352a6705a9a45f78cd2e5457abaf7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/1b8cef4270e69575409f03701f500a46c6c7f753c452f1098e0473e6ad66209a.html",
+      "bytes": 266750,
+      "sha256": "1b8cef4270e69575409f03701f500a46c6c7f753c452f1098e0473e6ad66209a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/9d30022aee962be028ff3c69e88daeafbe3cbee7dc43dfca6f4fdbcc1cc73310.txt",
+      "bytes": 12224,
+      "sha256": "9d30022aee962be028ff3c69e88daeafbe3cbee7dc43dfca6f4fdbcc1cc73310"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/e42b36cfcdcce30724a7.json",
+      "bytes": 860,
+      "sha256": "97f69a9031f8256eb3bf7c4280f06788e596d8bc41a0e18720abd9e9fad75c4c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/d807542769183d3b62c14a45ca730a57d839c10ee1cc546cb61165f93142ab4b.html",
+      "bytes": 286768,
+      "sha256": "d807542769183d3b62c14a45ca730a57d839c10ee1cc546cb61165f93142ab4b"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/ff6cedb90f8053f758475e416787bab76c7d704b384253b90337a37d2917a416.txt",
+      "bytes": 13362,
+      "sha256": "ff6cedb90f8053f758475e416787bab76c7d704b384253b90337a37d2917a416"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/6e1d490fa75b4f961bae.json",
+      "bytes": 868,
+      "sha256": "c761206a32667bbcdf5249893859ddb8827b8a316dfc8c452d7d93fcbf887a13"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/10c619d2cdba1c660f7f4276120e392658c0133737d9e957e04462d97f529370.html",
+      "bytes": 697309,
+      "sha256": "10c619d2cdba1c660f7f4276120e392658c0133737d9e957e04462d97f529370"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/594c5a76a32c4c27435f9e29c5071735e0c3173826f6ea5fb375a7a52dd89c6d.txt",
+      "bytes": 55127,
+      "sha256": "594c5a76a32c4c27435f9e29c5071735e0c3173826f6ea5fb375a7a52dd89c6d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/cef71b63ab121f8f96b4.json",
+      "bytes": 872,
+      "sha256": "9e7ae192e027714a25355ff2396842c832789bd1733018d67b7f820896ddadec"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/8a3d65bc7fc532d07f1a6a92257d98d1dcad6ad114051e47f16623d92e223816.html",
+      "bytes": 397930,
+      "sha256": "8a3d65bc7fc532d07f1a6a92257d98d1dcad6ad114051e47f16623d92e223816"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/2fa8819a62e1dce91c5d0c325e0277f522497a4be0006b4a69a68cdc89c8cce9.txt",
+      "bytes": 32669,
+      "sha256": "2fa8819a62e1dce91c5d0c325e0277f522497a4be0006b4a69a68cdc89c8cce9"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/9d3e0d630bac78db2172.json",
+      "bytes": 856,
+      "sha256": "3b67379587180942433dd8561433990f019445789ecdb962fa0453c8d36dec56"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/9d50b38f9d2db8db8a6b4c30336b7c893f5638816187121b887a13ab4104a0a2.html",
+      "bytes": 157467,
+      "sha256": "9d50b38f9d2db8db8a6b4c30336b7c893f5638816187121b887a13ab4104a0a2"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/583bb19fffa3ea6c5b25976803674238b777f2e9d4d4e1a17dbfc223475567f3.txt",
+      "bytes": 7557,
+      "sha256": "583bb19fffa3ea6c5b25976803674238b777f2e9d4d4e1a17dbfc223475567f3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/56c93495fe25cb6cd160.json",
+      "bytes": 894,
+      "sha256": "2c2f7e7042a91bb713f80e8dd9821bfe3dc5473fbc8df0aba0a3c4e6f2306278"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/da3cfcfa6bde816195f68a8c73d935c09311186b760190ba681b1d5d5e8f7acc.html",
+      "bytes": 147178,
+      "sha256": "da3cfcfa6bde816195f68a8c73d935c09311186b760190ba681b1d5d5e8f7acc"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/375230fd7f729e6ff6666a928cda5185a2714a26a7f634a3985bdaa91d4f130a.txt",
+      "bytes": 10338,
+      "sha256": "375230fd7f729e6ff6666a928cda5185a2714a26a7f634a3985bdaa91d4f130a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/b7f6fca278fdba19aa62.json",
+      "bytes": 866,
+      "sha256": "d4967d8e5a24458a6843bb9751f6ac53985a96286c21c0b3ff992d5921ee1435"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/bd1bdb67fc389e8cc8bfc1ecfa1b87f0d7e200e1d03c77e84180cf09a67a5c49.html",
+      "bytes": 123495,
+      "sha256": "bd1bdb67fc389e8cc8bfc1ecfa1b87f0d7e200e1d03c77e84180cf09a67a5c49"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/ee9268e711b6839df273e614a96c673f623cfdb9942fc8f23140e444588f3753.txt",
+      "bytes": 1876,
+      "sha256": "ee9268e711b6839df273e614a96c673f623cfdb9942fc8f23140e444588f3753"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/4b22c07c0e1735371e3b.json",
+      "bytes": 854,
+      "sha256": "863d929ac4e7cd423868610a43e22001a924c68aa9a0dab4475fe4c4cde01535"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/526eb058fcaaa611b31df8016e95acdf2efc27afbb6f55a68d2f3966f39c43e3.html",
+      "bytes": 208527,
+      "sha256": "526eb058fcaaa611b31df8016e95acdf2efc27afbb6f55a68d2f3966f39c43e3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/e3f16d6a32335f9ef69b06cec71e616ef6b0690c432d9ed7ac0fdb24f2bf38ae.txt",
+      "bytes": 11706,
+      "sha256": "e3f16d6a32335f9ef69b06cec71e616ef6b0690c432d9ed7ac0fdb24f2bf38ae"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/fa0f7497cfded0f8eb65.json",
+      "bytes": 868,
+      "sha256": "52c114496faaf6c646473b619024cb2b5db0854e6ab82c718970137bc5d753d7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/dc080e3e673ed46e68fdf88ad3c6e7299816875d7f881d10bab5eaa25919df0a.html",
+      "bytes": 209244,
+      "sha256": "dc080e3e673ed46e68fdf88ad3c6e7299816875d7f881d10bab5eaa25919df0a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/791d59474850f00ec99c7820b995caaf356659ef3430a92c46a8f0e8e95611b6.txt",
+      "bytes": 9590,
+      "sha256": "791d59474850f00ec99c7820b995caaf356659ef3430a92c46a8f0e8e95611b6"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/9c0711084b47a53995a7.json",
+      "bytes": 884,
+      "sha256": "0cb3b1c096b95d93096c8253a71bbfbc49ae0368c4e6b70adbba851f4511823f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/7eb21168eba91abcfc8e88154af7e4e1aa325f95bb06eaf85a1899f8893bf667.html",
+      "bytes": 146934,
+      "sha256": "7eb21168eba91abcfc8e88154af7e4e1aa325f95bb06eaf85a1899f8893bf667"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/fb6ce64e6e7f7416cd6c82895c35558b12a099c7e02cdb0f64e529d3fa8d6364.txt",
+      "bytes": 5404,
+      "sha256": "fb6ce64e6e7f7416cd6c82895c35558b12a099c7e02cdb0f64e529d3fa8d6364"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/004e9b1e1d843a843017.json",
+      "bytes": 892,
+      "sha256": "17feb20e886611983faca01aba6c2373a76b3c631e1505aac7e79fad0692bb1f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/19fc60d4d79e7b42c327df1f8d02cdc981b784c677e9ca3110aadad9fd78d1ef.html",
+      "bytes": 371286,
+      "sha256": "19fc60d4d79e7b42c327df1f8d02cdc981b784c677e9ca3110aadad9fd78d1ef"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/3db12f37b11ae834a22d52ed8377e5edc9af043298b14f332c5c3783bf13817d.txt",
+      "bytes": 12696,
+      "sha256": "3db12f37b11ae834a22d52ed8377e5edc9af043298b14f332c5c3783bf13817d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/913b6245e87203330aa7.json",
+      "bytes": 862,
+      "sha256": "657a8fadb8128c773c46f36036988c4b7ea4f5fe65f710568db07c8db119e3ff"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/398ab7d3d17a9ad4863f7e1c9d757ea1cc5c63a0b3f5e155b13fc4ae667cdf41.html",
+      "bytes": 513307,
+      "sha256": "398ab7d3d17a9ad4863f7e1c9d757ea1cc5c63a0b3f5e155b13fc4ae667cdf41"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/ccf8d48a6873d49c2e719856f1e8066d05e0b47019e888479585ba949a3a5b45.txt",
+      "bytes": 21601,
+      "sha256": "ccf8d48a6873d49c2e719856f1e8066d05e0b47019e888479585ba949a3a5b45"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/sources/40293de376b466a9859b.json",
+      "bytes": 856,
+      "sha256": "72d32507e7577711a36b36a106fa3b5e0372c5490da200460858729110ab0c14"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/READY.json",
+      "bytes": 1933,
+      "sha256": "b2e7ebabd02b58f4b9cf36761e3095e42926e364b593bfd02b46438255b2f6f7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/failed-retrievals.json",
+      "bytes": 158,
+      "sha256": "8233d49a59e7cc7e11cc52f2077c67d8f80660d7bb22449ab210d0ad1ecb85ee"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/manifest.sha256",
+      "bytes": 145765,
+      "sha256": "c5a583e94f309aba34688ca8bccd848957390dfcdd6ae9c3aeb5379a93f771ec"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v1/manifest.sha256",
+      "bytes": 41371,
+      "sha256": "eacfd59b615d7b3dc6b4eb635314842dce90c5cc8e8da38ec73b6c8d1a4a063c"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v7.json",
+      "bytes": 228041,
+      "sha256": "db2e44a6886e33fe0fa4b545ea821683654eadd716909ad667c3a32e77423c18"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p11/sports/work/b04-v2/refresh17/science-tsv-coverage.json",
+      "bytes": 209748,
+      "sha256": "1bf78954b4a68dede295db38421e589882d239af58c666ee209378fab2bdd707"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/b02-author/reservations.tsv",
+      "bytes": 74261,
+      "sha256": "5cc7c89620b63390a9b8cc0482233f217234d5e4ca025c67ad4e8169e3afc111"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p11/sports/work/b04-v2/refresh17/source-15.snapshot",
+      "bytes": 74261,
+      "sha256": "5cc7c89620b63390a9b8cc0482233f217234d5e4ca025c67ad4e8169e3afc111"
+    },
+    {
+      "path": "src/content/science-en-medium-02.json",
+      "bytes": 11686,
+      "sha256": "6480d0a4b28de8f9d63cb4d10bd5ce9173aef04dbc30a10fd6e531af5d136fa2"
+    },
+    {
+      "path": "src/content/science-en-01.json",
+      "bytes": 10017,
+      "sha256": "0795a9379444abc5352aab3c4765d50f45fd4d5f75f5e5803234e413269534dd"
+    },
+    {
+      "path": "src/content/science-en-easy-01.json",
+      "bytes": 10525,
+      "sha256": "be4d08109d2518fba7fd6b2c2e9e57caad9d2e787113e24be4c376b2192ad1af"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/reservations.json",
+      "bytes": 238556,
+      "sha256": "dfc5a5677370122432660cef78f49cfd87ba4975fcdd036cf539f1aa50034af1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v1/sources.json",
+      "bytes": 246248,
+      "sha256": "e146d7d94663ee72b0c42eb63ac3a49ee1f9c91f93d145b24c681bc01c995fda"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v1/inputs/current-author/refine-reservations.mjs",
+      "bytes": 9685,
+      "sha256": "d5b17c031ad579db58a661eba28d1d4783d2fbc58b37a76cae7e61504f13efc7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/work/b02-v1/reservations.tsv",
+      "bytes": 54537,
+      "sha256": "7e09167bb0a1bae8032d6f11d6693ff7fcdeb9e1e0d880c987ffbf102b81231d"
+    },
+    {
+      "path": "src/content/science-en-02.json",
+      "bytes": 10791,
+      "sha256": "90b66a3251ee989177d30ea648a287beb75fbff37a8be3bb19b83cd3324e2ad8"
+    },
+    {
+      "path": "src/content/science-en-medium-01.json",
+      "bytes": 11747,
+      "sha256": "0a12d6753742047acf328279124cdd6b0795565d65e2e3d4a48bccbd2c779a62"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p11/science/drafts.txt",
+      "bytes": 33074,
+      "sha256": "824aeb2ec0e21a7d8462ddb78d74acb2837bc0d768fb038248eafb0f893746d3"
+    },
+    {
+      "path": "src/content/politics-en-02.json",
+      "bytes": 10951,
+      "sha256": "d33044b541267fd545acc5aa7ce1f119767121f6c65a7b83fc888df3696a5157"
+    },
+    {
+      "path": "src/content/general-en-hard-01.json",
+      "bytes": 10450,
+      "sha256": "364ac038ece99ff06d8d63b11137d43587887f850f83840d87da72825eb306b5"
+    },
+    {
+      "path": "src/content/general-en-hard-02.json",
+      "bytes": 10126,
+      "sha256": "978471d2b862b5325b6bc093cee85d2ccd8dcf01d21b8b3df76cce2c6f373af4"
+    },
+    {
+      "path": "src/content/nature-en-hard-01.json",
+      "bytes": 10825,
+      "sha256": "6c1ea761b3ee3fea00cbff1c9f98cf1ec9ca5116d1eb4dd658b25417307e351d"
+    },
+    {
+      "path": "src/content/nature-en-02.json",
+      "bytes": 9760,
+      "sha256": "ea37e7b016b6dd3c1c974a2d33cff21ec51c9e1d4bd746d0a888bd9da2067d2b"
+    },
+    {
+      "path": "src/content/programming-en-02.json",
+      "bytes": 11383,
+      "sha256": "5f6f07dcbdcc118e7893700f3b219e9d66255baf45ffe3bb7aee1229af5108f1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reservations.tsv",
+      "bytes": 68328,
+      "sha256": "1b083876c13a53a6e645208f0c0787d77958fc3a162588842248543c58790d70"
+    },
+    {
+      "path": "src/content/general-en-easy-05.json",
+      "bytes": 9889,
+      "sha256": "64d30e82341e90ae89f4c0c88373bc2a32d2c4f6343437225c746bcd93d84b92"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p11/arts/drafts.tsv",
+      "bytes": 34091,
+      "sha256": "ea546ec108505b01076e489a57c8bfe4d0dc0a43a9026eb1a165ece8784475bc"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/work/b01/sources.json",
+      "bytes": 317396,
+      "sha256": "8439a7d2787a994313ba11bb9db08f68c46ff813a795c851bec7e07d703985d0"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p11/politics/recovery-input/author.py",
+      "bytes": 36758,
+      "sha256": "f748db6185f3fe3fa3ebc69925d6210d40fcf737ccbe4d795427541953cf20ea"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/general-en-hard-01.json",
+      "bytes": 10450,
+      "sha256": "364ac038ece99ff06d8d63b11137d43587887f850f83840d87da72825eb306b5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/general-en-hard-02.json",
+      "bytes": 10126,
+      "sha256": "978471d2b862b5325b6bc093cee85d2ccd8dcf01d21b8b3df76cce2c6f373af4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/nature-en-02.json",
+      "bytes": 9760,
+      "sha256": "ea37e7b016b6dd3c1c974a2d33cff21ec51c9e1d4bd746d0a888bd9da2067d2b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/nature-en-easy-03.json",
+      "bytes": 11724,
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": "src/content/nature-en-easy-03.json",
+      "bytes": 11724,
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/nature-en-hard-01.json",
+      "bytes": 10825,
+      "sha256": "6c1ea761b3ee3fea00cbff1c9f98cf1ec9ca5116d1eb4dd658b25417307e351d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/politics-en-02.json",
+      "bytes": 10951,
+      "sha256": "d33044b541267fd545acc5aa7ce1f119767121f6c65a7b83fc888df3696a5157"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/programming-en-02.json",
+      "bytes": 11383,
+      "sha256": "5f6f07dcbdcc118e7893700f3b219e9d66255baf45ffe3bb7aee1229af5108f1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/science-en-01.json",
+      "bytes": 10017,
+      "sha256": "0795a9379444abc5352aab3c4765d50f45fd4d5f75f5e5803234e413269534dd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/science-en-02.json",
+      "bytes": 10791,
+      "sha256": "90b66a3251ee989177d30ea648a287beb75fbff37a8be3bb19b83cd3324e2ad8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/science-en-easy-01.json",
+      "bytes": 10525,
+      "sha256": "be4d08109d2518fba7fd6b2c2e9e57caad9d2e787113e24be4c376b2192ad1af"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/science-en-medium-01.json",
+      "bytes": 11747,
+      "sha256": "0a12d6753742047acf328279124cdd6b0795565d65e2e3d4a48bccbd2c779a62"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-worktree/src/content/science-en-medium-02.json",
+      "bytes": 11686,
+      "sha256": "6480d0a4b28de8f9d63cb4d10bd5ce9173aef04dbc30a10fd6e531af5d136fa2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-easy-03/frozen/general-en-easy-03.json",
+      "bytes": 9999,
+      "sha256": "66743e496776c1f8aae7c87a57394e1c5a61f4971d98f3522b6f1ed8cf98059a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/frozen/geography-en-easy-03.json",
+      "bytes": 10566,
+      "sha256": "7383e64bd5c5a3ac30d9fdf7185412aa491e17069f4b32ec0152af44263d4d93"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-easy-03.json",
+      "bytes": 11724,
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-medium-03.json",
+      "bytes": 12260,
+      "sha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b01-v1/packs/politics-cs-easy-03.json",
+      "bytes": 11913,
+      "sha256": "7565bbb69f4305d1b07601e5e5c571a174eb41e288dc9744616e0ac286290168"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/programming/batches/b01-v1/packs/programming-en-easy-03.json",
+      "bytes": 10947,
+      "sha256": "95245b0320acf49abfb200188abe436d68be4da6b75c2c32b6b5823781304c39"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-hard-03.json",
+      "bytes": 12581,
+      "sha256": "5849ed9eca11e9dc478902fab7db414149467bd83a37b4d0bb3917b0f409a6ed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-easy-03.json",
+      "bytes": 11992,
+      "sha256": "5b44cc97e2915d8a85b07e72c9029b0015b3e9957af45db9aa1f84bc03e7c768"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/packs/nature-en-easy-04.json",
+      "bytes": 11514,
+      "sha256": "10b10929314d541b4be5d4c426666f8f9d41e2aaf90a1b6d19c03ffaeaa09e23"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-medium-03.json",
+      "bytes": 12367,
+      "sha256": "a4f2c0d4d6beae62313032bdfdcb0502854303e06164c8556909edc596f02bed"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-czech04-mapping6-general-lineage-v1/FROZEN-CORRECTION-HANDOFF.json",
+      "bytes": 60910,
+      "sha256": "dd881c03bfbe067b6fb46e7c4450589a1e751cdaf31e57623ee548e82d0c9ced"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-czech04-mapping6-general-lineage-review-v1/SEAL.json",
+      "bytes": 4970,
+      "sha256": "9850582c502d290dbda9bbf9c3207c1ecf73fa7c5a6fe944c55b5889da635605"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-czech04-mapping6-general-lineage-v1/POSTREVIEW-RECEIPT.json",
+      "bytes": 1302,
+      "sha256": "186fbb421b9697d5a23dce1d3cf8250c68a4e557e668ead0fa26ac8f6e245649"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-nature-czech04-mapping7-lineage-v1/POSTREVIEW-RECEIPT.json",
+      "bytes": 557,
+      "sha256": "be30ffde4e66ca2617f21ed96f4c5577c76a212e509d65f9a15f1e9a547e5eee"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b05-v1/semantic-delta-reading.json",
+      "bytes": 23291,
+      "sha256": "ec5e82d9ccbf23734fde29e4703adebbde1effe93639a67b6ccba5f1df8ebfb3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b05-v1/immutable-recovery-dependencies.json",
+      "bytes": 1194,
+      "sha256": "06d2c5e6cc16257b3ca4710199c315f836a7da69b4386a1e99cedbb0606fbf9e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/ADOPTION-HANDOFF.json",
+      "bytes": 3969,
+      "sha256": "e3640143cc1b3ebdef5fed6a65e0686670569fbfa4bd289eba0514058d4d6021"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/CENTRAL-GUARD-CHECK-REQUEST.json",
+      "bytes": 9077,
+      "sha256": "50f9f637a45ec9448e7053642f409873529e88715f0a8ac6ba05612e0883b435"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/CURRENT-NATIVE-DELTA.json",
+      "bytes": 559601,
+      "sha256": "22d262e7a9ce1bb8daa0dbfc9d4d2438ced8e90b7bd4c8a15c865b0f62a45059"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/ENTRY-BINDINGS.json",
+      "bytes": 1160722,
+      "sha256": "bd7aef05c94affe68322d6375ccf0c369cc32de5b65d588d5ed1d6a07fde43f3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/FINAL-VERIFICATION.json",
+      "bytes": 4580,
+      "sha256": "018b21ed2a25fb503f5ac8fe810cdb01ed4c213343faff08411c377d7389fef0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/FINAL.sha256",
+      "bytes": 12437,
+      "sha256": "c3ec19523561960b45f61bad59ccdc66ff0ab1e800ad845ddd733b1d8b5d2c7d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/INPUT-MANIFEST.json",
+      "bytes": 39526,
+      "sha256": "fc7af2ae17ee65cd3179b9998593ee63c4b27e2ae4f76b3dafabadc992ad8a86"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/RESERVATIONS.json",
+      "bytes": 22829,
+      "sha256": "5d0e9a39be3dffba7bbafc8489c21d2c1ba22d8e9542ba5adb243166c5dd0913"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/ROOT-PROPOSAL-AUTHORITY.json",
+      "bytes": 1622118,
+      "sha256": "8619e804d53fe133f4811dd676a785eb8012face155ef3b1670d7965950449b6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/SEMANTIC-SOURCE-CONTINUITY.json",
+      "bytes": 285101,
+      "sha256": "23fe36758b46cbc2a3c1b41081af78eeded6edb60d8ca8f1d85d83766bba4d8b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/UNRESOLVED-OBLIGATIONS.json",
+      "bytes": 2828,
+      "sha256": "ea465119a264ffb9594d1fba00353bbfd3461c0ad28cdc09a51dadf52feee440"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/coordinator-raw-v3/RAW-NATIVE-LINEAGE.json",
+      "bytes": 16199,
+      "sha256": "215f31d17ac26b847f1a49c9a322cd6f3e1d1fd1c39b58b09de25c73c5d97569"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-01.json",
+      "bytes": 187617,
+      "sha256": "07dd57d598ee0e882507acdaf2a6064b07e8526a388de66e656685cca1ce2d05"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-02.json",
+      "bytes": 187646,
+      "sha256": "520b6a0317d79373061ab7bc73a03e3db3a08c77bdd4b20315fe31535b2f70fa"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-03.json",
+      "bytes": 187619,
+      "sha256": "9cb9711ea161e68e874e2331edb9117eec60ad5407d0f6acb492f19a3064fd3a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-04.json",
+      "bytes": 187614,
+      "sha256": "095086573574d16db3d06dbf2b9298f1c2becadacbe22f178ab2e0af425fb11f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-05.json",
+      "bytes": 187663,
+      "sha256": "f1bde0fc6ac90f97c3a7411ca3f1d49b03bedb37312b5e5d234213a3f274f076"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-06.json",
+      "bytes": 187599,
+      "sha256": "99851caefc862704eb18b98aac1559187aead11e1ba7c770825ec1426e05a865"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-07.json",
+      "bytes": 187630,
+      "sha256": "3ac1a3f4cb5c5c07126a5561a18b3ca4d8cdccc838338b5062551f5619911699"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-08.json",
+      "bytes": 187607,
+      "sha256": "25f23b46baefe7284d0b59c579a55aafa1bdf9f2b7bd73bb4af933a3f0401b0d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-09.json",
+      "bytes": 187627,
+      "sha256": "89dcc4f3e9357fc22e4bd5ee4b9088da2441d815eb0a0a34c5fadac1015ab90c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-10.json",
+      "bytes": 187648,
+      "sha256": "cb57021b249d1e29a6f097f7c71150c82b556c65b4731609adb588b18a4c1ceb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-11.json",
+      "bytes": 187633,
+      "sha256": "74898c2cb8ae12ccd28300c9e2c53b9247b60255a64389bb71406ead5fb3d296"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-12.json",
+      "bytes": 187629,
+      "sha256": "c70ee658af205d189e01270d9be8e683bbbd30e1a6055ce0a4ca6f2d932af87f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-13.json",
+      "bytes": 187641,
+      "sha256": "162e738d8290304dd8d61e3b5ce15e928f20e5cb9d2939c091c0c1ee9b634f58"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-14.json",
+      "bytes": 187606,
+      "sha256": "93889ffa5d80ff572f4218cc3a9ca96ddce5c51584b79092347c3e3a8090be5b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-15.json",
+      "bytes": 187586,
+      "sha256": "ae4c3a6540854e05fa52f9ac0fd6ab8933a7a45ca98feb5a0c6444c73eef375f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-16.json",
+      "bytes": 187618,
+      "sha256": "2d79e52e6b6699c33af9d6e89b3faf97b5a692a45d8ae1c2be818d0f11370e28"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-17.json",
+      "bytes": 187595,
+      "sha256": "46ba7a29f3df1979173e795b5fad26c4239b9e36696a54efa2f860c903be78ee"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-18.json",
+      "bytes": 187625,
+      "sha256": "7549b23af5d23089fb74e4e8f072b66823b7e44d22ee8474459ea81e1fa49e5e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-19.json",
+      "bytes": 187650,
+      "sha256": "211a5e2e173ff2896c98dae3d3cf1e1a1675218fea3be8f6fe048faed93d7c67"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-20.json",
+      "bytes": 187617,
+      "sha256": "163a26d604ac8dd2d34f5e7f1cadc8d8740a4d129dee9e7b6d4755e534db4b2d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-21.json",
+      "bytes": 187631,
+      "sha256": "8f03ea360138309952eb9a647158b31082b79888c7e7e76a1d034982e694a39a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-22.json",
+      "bytes": 187629,
+      "sha256": "4a780c8ff574f1997e3d26340c43f027029cabc1ebfcada441c0cb3c3fca1c56"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-23.json",
+      "bytes": 187592,
+      "sha256": "75ce9a155a71030463199e80df816b3ed292eabd4854ea182f91880da6d78fae"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-24.json",
+      "bytes": 187638,
+      "sha256": "8d0116e38dcf303186ce7bb8322fb4e600ce259163be6de3b813d51fc1c682f7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-25.json",
+      "bytes": 187636,
+      "sha256": "2c259bb70b6637edf0bc7af9371dadfbffd9f0ae3170d6079c5b73686da8aafb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-26.json",
+      "bytes": 187653,
+      "sha256": "b2893a78319923cc77a78b59d7b7c0306e1feec3d818b576da615ed9f481296c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-27.json",
+      "bytes": 187648,
+      "sha256": "43d2c8b61132b029dd7e0b89c26c616f1f1295cb052da15007d357b36a4ba3ae"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/current-native-entry-deltas/science-en-hard-03-28.json",
+      "bytes": 187649,
+      "sha256": "a1c86173d3c3fc3e41237465fad0bf55673a92cb1f90c12bd1fbe15d1e358b79"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/frozen/evidence-arrays.json",
+      "bytes": 80114,
+      "sha256": "2f16e99e049f75a3ec68d16525619ab945d02eedb1c21e0d01aed48e774c86bf"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/frozen/general-adult-hard-rating.json",
+      "bytes": 696,
+      "sha256": "ae807429d6aed70d9b8b79c6890d2f8abe3f6a7d04c74efde21a96034ce5ab02"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/frozen/raw-entry-array.json",
+      "bytes": 87732,
+      "sha256": "8629443dbaaecbdd9b5c3ebcc59a1e62a51f7b92efb91b5db67d6fcf03e09603"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/frozen/science-en-hard-03.json",
+      "bytes": 12824,
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-01.json",
+      "bytes": 62661,
+      "sha256": "c23c1545340d4bdd28638df0ba8c3f1b568f93d9ae4fe750152126178ee10b84"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-02.json",
+      "bytes": 83954,
+      "sha256": "096bc5ec70b3076d82b863d505ce81b8200075bc7b8d5a863537f251d13ddf2f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-03.json",
+      "bytes": 53020,
+      "sha256": "3e33ad099be794dc4b4a7d54f9cce946bb23c0c27bd94a94c01441d953b42c0d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-04.json",
+      "bytes": 77023,
+      "sha256": "783ab6f009f65e960508d8c6c2778c1d12edaec32456496f6507f049cd220460"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-05.json",
+      "bytes": 42628,
+      "sha256": "76da51813e848c991c7fc97a592e952f7cf9f0f4f8dd662d8059b16a3d449089"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-06.json",
+      "bytes": 51663,
+      "sha256": "861199b82432f287a8bb57d3751d1656a824daf284f8650d590926d9ef3430d2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-07.json",
+      "bytes": 44437,
+      "sha256": "119ac83a20c29aa16808fed60f2421919dd994ad1f6604bb9b67b07c594a099c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-08.json",
+      "bytes": 68825,
+      "sha256": "e2cab8a9e059f98d98bffb258a9cdad9eb2c5ffea5a95630b4e0a228116c96f1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-09.json",
+      "bytes": 45451,
+      "sha256": "f2883be3569e7933fcb19ba06425b7951869ab3acbaaa892e1126b786af72d62"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-10.json",
+      "bytes": 35445,
+      "sha256": "536e0e24924f3474bd4e10c2f3589ff6043d976be66f6ef9beb9198f5166aaec"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-11.json",
+      "bytes": 51869,
+      "sha256": "2a94aafa316d93f2306792e3dcef6d0d0c6a147349d9ac1f74b294973ea60304"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-12.json",
+      "bytes": 57433,
+      "sha256": "a8817fea412b18a773f90d913f2e439783b9d56cc981a44af7cfe76b5258d1db"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-13.json",
+      "bytes": 66966,
+      "sha256": "7be22184846197c685f9bf478c51f33da2bfbc34a10f5ea976fe0e729d6458c8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-14.json",
+      "bytes": 54711,
+      "sha256": "9244f241be01dceff22c0ca8115952577ce93e8148e96d5411f1d1cddfc7eab1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-15.json",
+      "bytes": 26200,
+      "sha256": "329604729b0c5602788320829819166ee917679c7855b97b43b491c6dbb80ac5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-16.json",
+      "bytes": 74867,
+      "sha256": "d1160335f853f1818c58289ca7ace6c8872e904febf5b870d2a0c81facef3879"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-17.json",
+      "bytes": 45681,
+      "sha256": "2fd43ee01537047c4b89d27651b65ab625e86d63dfedfeb460d6e7e43a6505b4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-18.json",
+      "bytes": 50941,
+      "sha256": "8b71316c2a689f53f25d9a9094c869756cfb0b3806148d9120638898e6d28d4d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-19.json",
+      "bytes": 59854,
+      "sha256": "738356db2ec2b7ea63fe181023b187f638c6710f9b546effa45f39b09e5c029d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-20.json",
+      "bytes": 57235,
+      "sha256": "468d961e4d77b66a68add6d72409e2386d913a895840e2f769f6af9ac31480df"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-21.json",
+      "bytes": 60866,
+      "sha256": "665e1f89f61a8cc2256707a32b7bebb208dd07a0653a9d28208c8fc2e0038e75"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-22.json",
+      "bytes": 44787,
+      "sha256": "51956c1ee23e057d1e764406cc0b6df200814a27c94d6f069bdb0c134ae98c39"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-23.json",
+      "bytes": 34152,
+      "sha256": "8977f5e05d8c2a520349f5f5e12524ed0909fd978c797147b468ff07cd2a9b74"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-24.json",
+      "bytes": 50239,
+      "sha256": "83a868a3bb837e8c05fc8c45d7926906b1db6c8feff6e36de5648ee03b1ad532"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-25.json",
+      "bytes": 69626,
+      "sha256": "ee6f4d6a239e022037af5857d1626e037f30844f4e9f45d5bb12fdb772c4c324"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-26.json",
+      "bytes": 29948,
+      "sha256": "2539b90dd96bc0c222b4bd95d27686a320ff2836fb5b1c2cdee03fa52714f380"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-27.json",
+      "bytes": 59225,
+      "sha256": "54e99e0d1d27b6b598645402ab6443017e5d34e118a056e959e3864d11090edc"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/semantic-entry-bindings/science-en-hard-03-28.json",
+      "bytes": 41143,
+      "sha256": "906717f20d5ffbbf63b57a9b9954f8778b263f99a0694e179d557e0b535974ca"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/v2/FINAL.sha256",
+      "bytes": 314,
+      "sha256": "df4603a647e070c28340de582fb45365f96c5531736702fbbee27e2bb8a3e248"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/v2/GENERAL-EASY05-19-NATIVE-LINEAGE.json",
+      "bytes": 82528,
+      "sha256": "9855e8e9e77e85fb19944b088c0d06b272aa213c83c4248cad12255843712e97"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/v2/bind-general-point.py",
+      "bytes": 11471,
+      "sha256": "c8aedff430f03d6b59843d49e98a23bf8901bc972b5509aeb0d0dfe280457dcd"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/verify.py",
+      "bytes": 7581,
+      "sha256": "7abf2fb3de837f9c9000bb619eed75c8b4e0f60ffe976de7d7c503dfe8fb8b20"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v9.json",
+      "bytes": 428526,
+      "sha256": "a75c363974e0664f1c4c2781ca7d59a735915ef9c11ba64a95c6ffc297e97fbc"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v9.json",
+      "bytes": 45329,
+      "sha256": "82ce96525e14ae2f7c4ebe28ade261fc19a080df7960b0396dbfcbf0d9a05cd7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/DELIVERY-RECEIPT-v1.json",
+      "bytes": 4087,
+      "sha256": "c52cca575178f853d34b57aee6b6d85cb8f82f1e1fa57383c70c75b300f75d6b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-03/review-v1/CURRENT-NATIVE-INPUTS.json",
+      "bytes": 279667,
+      "sha256": "becfc98ac0b0fd36f6d39746dcca5c7e39e748821280471ade0277756e7c8b3f"
+    },
+    {
+      "path": ".artifacts/continuation/freeze-science-hard03-current-v4.mjs",
+      "bytes": 6922,
+      "sha256": "d15e1390d48ec30f557076db0a4377162d5cdeed14a8fcd07c68fb3631a44226"
+    },
+    {
+      "path": ".artifacts/continuation/freeze-science-hard03-current-v5.mjs",
+      "bytes": 7839,
+      "sha256": "eeaa7d8dfe6700ead98cf064ddac197aa648d18f0770cd1eb328280c18e34fbc"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-logs/freeze-science-hard03-current-v4.log",
+      "bytes": 1017,
+      "sha256": "944c459e9390c16006ba2bc6a40e62d52a4fd3a19c14ced93a93bb0f20d7457d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-cs-01.json",
+      "bytes": 10485,
+      "sha256": "c0a93b91ecb0872078bc26ad4d250850919cacc567f542e3d3235fa7dd3785b0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-cs-02.json",
+      "bytes": 10232,
+      "sha256": "dfe18ba4203e66fc4d7a789f96462cba3e9e2af3654b31abb31403f8e9fa5804"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-cs-easy-01.json",
+      "bytes": 10218,
+      "sha256": "75df734a38829297e864f01bad21371e20b74e984aab452989affd019d48dda3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-cs-easy-02.json",
+      "bytes": 10600,
+      "sha256": "3349e46f5dc5f48fd34e560a03a5ecbb1ae34c3ece605d935dc3180e1f728f93"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-cs-hard-01.json",
+      "bytes": 11545,
+      "sha256": "3b06d9552f4c9ca6a146ff1a91fdeb5bfd0a2c00af104af324c3bf6f9bbd5d69"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-cs-hard-02.json",
+      "bytes": 11031,
+      "sha256": "b054aa7456ca3e43036214bbc219bd22b0ef05db03d7b3048c0cc0db38e755e0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-en-01.json",
+      "bytes": 9947,
+      "sha256": "0260f3cd767b068f456e7f261e3a4f21e43f351f8054d3a7aa90eabd1b9964a2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-en-02.json",
+      "bytes": 9964,
+      "sha256": "40e145cdf1097a4e1fb31cf3ad9dd9ead7f1774b87e80b8ba15942dc15f03a03"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-en-easy-01.json",
+      "bytes": 10275,
+      "sha256": "200b1673bd343dab65cdf29e84ed36d513dd58b7979c97b91f9601ae5a438f05"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-en-easy-02.json",
+      "bytes": 10316,
+      "sha256": "f1c635fe6c886b45fa5ae0e024a59f373ee56f130c9c6455a5034e42f81135da"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-en-medium-01.json",
+      "bytes": 10874,
+      "sha256": "3e4f0a1d4a5757c97e33b89954db4351757752b66d2c8431ab558c354028030a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/arts-en-medium-02.json",
+      "bytes": 11455,
+      "sha256": "83ca87c7079e99f3148bf154a5d280b819f3c5c632c3c3dd35d94e0970099a08"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-cs-easy-01.json",
+      "bytes": 11578,
+      "sha256": "4aaef5c224ac989116e54f2136a33844fc059dc748c35274ee4406434481017c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-cs-easy-02.json",
+      "bytes": 12438,
+      "sha256": "84bb6439fe50a961d8beaeceeb0fb841f5ddffbb906a8809dfd8076db2e0e3af"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-cs-hard-01.json",
+      "bytes": 11414,
+      "sha256": "6958215ae9a51b34532d0174c41780a0d103bacfab72f213681b629f9b0d2ccb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-cs-hard-02.json",
+      "bytes": 12822,
+      "sha256": "962248bd34319fb945d47c1b4cdae28d4b791003133462eba1c2fb1e11b89c1e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-cs-medium-01.json",
+      "bytes": 11745,
+      "sha256": "0773c938756ff174a11549930e0967dd1e3751ab88ee5eb7bacb81c16c7d0f34"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-cs-medium-02.json",
+      "bytes": 12086,
+      "sha256": "7639dba63be702890ebe9394e6d6081e849c4b4da39a1a9067a3547d2d0d688e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-en-easy-01.json",
+      "bytes": 10046,
+      "sha256": "52549829dda9327880c50f5fd7098c92202fac39d81dd2e99e67c068a6511103"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-en-easy-02.json",
+      "bytes": 11552,
+      "sha256": "f72d34e56f02dc9c37ca9cc795b510e7a4ba66f6971e764c9c4914f8b515f7c2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-en-hard-01.json",
+      "bytes": 10667,
+      "sha256": "c21a1831660ec9ed34b1fa0a8883f17024e3875db17c8a0a086503e5aea5c9ba"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-en-hard-02.json",
+      "bytes": 11466,
+      "sha256": "9996d7529dd5e2de44d750a1f492976cd7415efe297f59d9efe51f78edc17ef1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-en-medium-01.json",
+      "bytes": 10722,
+      "sha256": "70ba823483a943ba19983666b32cd7574504d40f17aca0452e228dbf5a9d7ce3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/games-en-medium-02.json",
+      "bytes": 10928,
+      "sha256": "910beded938266a482b590584c3236341d0e394d72eb35d2fd34aebcefaf373a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-cs-01.json",
+      "bytes": 9845,
+      "sha256": "7c806c0cc1587138505795ce5f2294982e3b66330a94d3f6d4ec20f330996225"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-cs-02.json",
+      "bytes": 10390,
+      "sha256": "e7d445dbafac15a4f2880e9b4b5e8e378b950577caa303dee46bad38ebf731e3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-cs-easy-01.json",
+      "bytes": 9898,
+      "sha256": "6cc60f9030af2071ad5348dac5e445d52a4a13593f510fa86c0669878e388931"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-cs-hard-01.json",
+      "bytes": 10687,
+      "sha256": "79f6337ea9e9942acda22cae134065fe47b39a0838f0ab1a4c4b0c685eb5ecfb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-cs-hard-02.json",
+      "bytes": 10660,
+      "sha256": "f825617c52b526fbbfdf72872af10b7df525d9ed18c0bb33c24dc71f2a7ee01a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-cs-medium-01.json",
+      "bytes": 10321,
+      "sha256": "c5ff23fc8576567b50a17f66346f1e48cca4344ef591ecf41b2b74517303aa4d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-en-01.json",
+      "bytes": 9428,
+      "sha256": "e31d61e8ced30f77f71987ffb13234dfdd21130e716a5c5131135d558183d359"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-en-02.json",
+      "bytes": 9894,
+      "sha256": "8892017d6e48c0211c74db5dd2c44237eae44ce87c02e6bb0b9340a84674aa9b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-en-easy-01.json",
+      "bytes": 9194,
+      "sha256": "dbc8d55a70d29df67ffe53a8aef686c5aa85e9d455482774cf634ca28d006c02"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-en-hard-01.json",
+      "bytes": 10450,
+      "sha256": "364ac038ece99ff06d8d63b11137d43587887f850f83840d87da72825eb306b5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-en-hard-02.json",
+      "bytes": 10126,
+      "sha256": "978471d2b862b5325b6bc093cee85d2ccd8dcf01d21b8b3df76cce2c6f373af4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/general-en-medium-01.json",
+      "bytes": 9644,
+      "sha256": "e3c512a4c82045f772d2c76308a2e8277273b03bf69b53900c34323bd5380b75"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-cs-01.json",
+      "bytes": 9763,
+      "sha256": "f5eb3aee967c7e75c6ca82c101975ba142e3b783a04684471955fe677c408a46"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-cs-02.json",
+      "bytes": 10148,
+      "sha256": "2a25e8101e730247624ca44e6cd5b2d3512a997c41ee9ddb8800c0d3ec70b088"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-cs-easy-01.json",
+      "bytes": 10627,
+      "sha256": "7daa311270ce3fc007a8e200cde3152b268eb339a4849d0ade60a05c357dc88d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-cs-easy-02.json",
+      "bytes": 10626,
+      "sha256": "c1d59b6a128045754230773f8ae5ac2c146219d587a34df6b778ab57e2723156"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-cs-hard-01.json",
+      "bytes": 11574,
+      "sha256": "6befbc6dba3f6e67abfe3f383d26b4808411211c1b74e215dbf8fa6306c5c495"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-cs-medium-01.json",
+      "bytes": 11077,
+      "sha256": "00fb907c7baad370608d79681d13be1cbb91f6b8409c64b16bc2403787817942"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-en-01.json",
+      "bytes": 9704,
+      "sha256": "887036fe3f7151e1c031c4e70a4575fd9f13f7ff42eab5155ddbfba05043e84b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-en-02.json",
+      "bytes": 10014,
+      "sha256": "8201f0aeba3fd006ffc52fe340fa2f18cc224d0b880488ac27d2ef969d19190d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-en-easy-01.json",
+      "bytes": 10373,
+      "sha256": "81f5503733f71e81dcaf8629a2497acb0fda66e79b94646f9d035e4b0ba03d88"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-en-easy-02.json",
+      "bytes": 10482,
+      "sha256": "4b848946268b108aff2044da7723a8e7b484081092b0a0a16f912fdaa595036c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-en-hard-01.json",
+      "bytes": 11407,
+      "sha256": "acb5561245ed21f6e682992b5374dc8657f7fc373e728123f8b2160baa39d614"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/geography-en-medium-01.json",
+      "bytes": 10160,
+      "sha256": "200701412661c141bfeb3f179fdfab33e81e89ad6bfaadbd730acca6d000cf3c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-cs-01.json",
+      "bytes": 10969,
+      "sha256": "b012c6b60d6c92d6a7a9d8ffe301a6434508e931f41d8e15db977647c8fa1fd6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-cs-02.json",
+      "bytes": 11234,
+      "sha256": "7de497f0a748e779d4f83011c9caa6544d3d263b0a1a7843fb0d3cee33124331"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-cs-easy-01.json",
+      "bytes": 11792,
+      "sha256": "69f35a0562db1b4a95a12a3e3a93337b0920747d29a7975cad00a62757e17777"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-cs-easy-02.json",
+      "bytes": 12197,
+      "sha256": "56e81ca8ecde363ed3fca8ee968a1aae8627b1f7c29d035a87eb3d517afc5382"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-cs-hard-01.json",
+      "bytes": 12606,
+      "sha256": "52d309ee2b8d999fbb9317ad8bf85d8ea63246bc1054d0858fa12cdd29f1a551"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-cs-hard-02.json",
+      "bytes": 12002,
+      "sha256": "42c3ef230fc8d59f331681d7c7c5f63459dcb2f00e737519208a0ed649c307e1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-en-01.json",
+      "bytes": 10735,
+      "sha256": "1f8aafb9a93d8c739ee6cfa90e731cd84af7dc14d6a92728176b40d780957066"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-en-02.json",
+      "bytes": 10781,
+      "sha256": "3ae34d3343acfb6559f582745c4117fefa420d0568a7185286e041e86a47e434"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-en-easy-01.json",
+      "bytes": 11671,
+      "sha256": "95a63a9ad5679308597c1f57939150c5a95bb182e52422c79336e02b19d32b8e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-en-easy-02.json",
+      "bytes": 12547,
+      "sha256": "3e0f90f6239338b7fd90860f6e8c0a8cf7800c938690516d61338bdf45d6edb0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-en-medium-01.json",
+      "bytes": 12560,
+      "sha256": "82b0642f9e168645adc42fc0c48b5dd3efd79ec557d4b72d4d8ca3c760766a32"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/history-en-medium-02.json",
+      "bytes": 12807,
+      "sha256": "ffe9f80b49081d2d5d37ec70028e9b0a27285baccf0e211c76582326ee1e56e5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-cs-easy-01.json",
+      "bytes": 12844,
+      "sha256": "16b5a0a4a41d761dd60d8caabb067e1391869c0185972af3fd14052bb8c20215"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-cs-easy-02.json",
+      "bytes": 12304,
+      "sha256": "4203968eb5aff1b103cbe2bbc4b164a0911819aed519036aecc83ead3a10c4d0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-cs-hard-01.json",
+      "bytes": 15182,
+      "sha256": "13c3b36e9f4cfeed660dab96e071cc1542ea03f342ea93efb85aa36e5b5a07eb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-cs-hard-02.json",
+      "bytes": 14132,
+      "sha256": "e3fd081e7d45d74d17303880bebde44adccc68771067bb6576b14f2f3c1bfb10"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-cs-medium-01.json",
+      "bytes": 13282,
+      "sha256": "ad42bfd3dfb5f30292d08757ccde536b160fc3d7a2ebe3f963a1e3613099680a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-cs-medium-02.json",
+      "bytes": 13308,
+      "sha256": "d8fa5dc67a16e5af0a631f206980ffa12ca50516e780cc527305620913748ac4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-en-easy-01.json",
+      "bytes": 10515,
+      "sha256": "8189986bfeda44a20bbb8d3d7e9d3f2f24c3f148ebe8518efa687f6b266a9c3e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-en-easy-02.json",
+      "bytes": 11026,
+      "sha256": "0618e04562647a43f9a098f32f674e3f14bf1624da7626c403b48a4d8c32ece1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-en-hard-01.json",
+      "bytes": 11390,
+      "sha256": "476ede1b3ecb191da253c620dad9aa31a5373be481fa651126770f54af7c5843"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-en-hard-02.json",
+      "bytes": 11394,
+      "sha256": "538903db758028c73bddfeb4074c901d79abef99780bfd23ddcc2bcd71ba8d32"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-en-medium-01.json",
+      "bytes": 10749,
+      "sha256": "0999351fa1d723b5ccc7c6a7799f81ac179a8cf26326064469bf5efe3b71fc3a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/movies-en-medium-02.json",
+      "bytes": 10971,
+      "sha256": "4f449ded46b4a26b1eef937ddeeed7bbedaaa5f8760385c71cb104f0b14495e7"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-cs-01.json",
+      "bytes": 10837,
+      "sha256": "747605558df8f7bb4db96f25b23932e2655a455d304f049786654f7d7253cc11"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-cs-02.json",
+      "bytes": 10598,
+      "sha256": "d73059c7a1734b2c4850150f37fc348d72ab8ba3071337a5cd612b5eed9c94ec"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-cs-easy-01.json",
+      "bytes": 10692,
+      "sha256": "3b95c9220029f15e09b72193fa1ea64ac82bd7d8fb53fa01a73913a9745440df"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-cs-easy-02.json",
+      "bytes": 10679,
+      "sha256": "7006b2d44881b981f4193367e67c0a09cf54361e7f137df88941d5d2c7d1232a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-cs-hard-01.json",
+      "bytes": 10844,
+      "sha256": "97be9b7c107ded69702f155a212c51e71726f1a99a793fa9d4591f642c1eee93"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-cs-medium-01.json",
+      "bytes": 10840,
+      "sha256": "b33f8e35237717a4bcb525fd0bd982bc49fc046966fb1a789a1aa6586c0eb185"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-01.json",
+      "bytes": 9800,
+      "sha256": "91999be7cde989912bd0f5261e9eb8c530f22724129a036cd24eace8158a83f4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-02.json",
+      "bytes": 9760,
+      "sha256": "ea37e7b016b6dd3c1c974a2d33cff21ec51c9e1d4bd746d0a888bd9da2067d2b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-easy-01.json",
+      "bytes": 9959,
+      "sha256": "27999cca5bf0c0088658e1cff12fec4468b2092c41bed05eff6281ab185bfd5b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-easy-02.json",
+      "bytes": 9873,
+      "sha256": "1db8d6220f3baf22ba0631301ca08f7dc8653a37c0cb999498a4b8d7c106aeec"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-easy-03.json",
+      "bytes": 11724,
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-hard-01.json",
+      "bytes": 10825,
+      "sha256": "6c1ea761b3ee3fea00cbff1c9f98cf1ec9ca5116d1eb4dd658b25417307e351d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-hard-02.json",
+      "bytes": 10625,
+      "sha256": "372638507ac8766d65ebdf98e9e3164c3c3c3135c0458ba4e4a19eee3a9c6ba3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/nature-en-medium-03.json",
+      "bytes": 12260,
+      "sha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-cs-01.json",
+      "bytes": 11714,
+      "sha256": "302af529184363146812d5e5d098b59ddafd6b0687ea72b830fcfad314e0896b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-cs-02.json",
+      "bytes": 11255,
+      "sha256": "9b7b2e61f757c5cb3144d1654d2ae1e4fa9ad97d90528d2265e049419a12444d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-cs-easy-01.json",
+      "bytes": 11487,
+      "sha256": "dc9e052cef20475afaef74fed24bae09500c667a85b0bff643c8dc5767458d7e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-cs-easy-02.json",
+      "bytes": 11773,
+      "sha256": "0cc42fb10d0439f59d1c6b5d5d2861c5139d4d02d32b09923d04e9d8acdbd92c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-cs-hard-02.json",
+      "bytes": 12538,
+      "sha256": "8205e46c4de4ff097549faea1550faad1cdb2249ae3880916c040729ac28cebf"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-cs-medium-02.json",
+      "bytes": 12233,
+      "sha256": "85dd4684e6a3051131ab50201d7e012bac4f570e1bef28096d9fad0b24999fc2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-en-01.json",
+      "bytes": 10576,
+      "sha256": "4ab79542ddf76fbc026c72b37086983267b0e8c10448685531e9d1a00eacdfd1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-en-02.json",
+      "bytes": 10951,
+      "sha256": "d33044b541267fd545acc5aa7ce1f119767121f6c65a7b83fc888df3696a5157"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-en-easy-01.json",
+      "bytes": 10658,
+      "sha256": "7f66df2c2599d8e1b0de352a785833dec47ff410c8455cc47b6565c5b7c126cc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-en-easy-02.json",
+      "bytes": 11692,
+      "sha256": "9890e8df3085383af7c5831710eb087f72a00dd797c4f3f84cffc3faa6817ab1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-en-medium-01.json",
+      "bytes": 11800,
+      "sha256": "5ae766502c9aa2ff8ffbb3e6e7a24c9d831b9fb4929522640add121c3d8af63e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/politics-en-medium-02.json",
+      "bytes": 12448,
+      "sha256": "2e969726e848da940a8d2fde10ef331e846807f942703d69814b83cfb584acd9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-cs-01.json",
+      "bytes": 11330,
+      "sha256": "369d349119f8a17b52ce09a5969a24811d9a7304cd71b89310c909c964075535"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-cs-02.json",
+      "bytes": 12000,
+      "sha256": "aba1dd1b04025e20bb2dd77be13ff3e1d073459b7c2446e97398039ae10d9f32"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-cs-easy-01.json",
+      "bytes": 12236,
+      "sha256": "81424b7e0486515468a062f73375e6a7cf29cfeb8673fea5886343430352361b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-cs-easy-02.json",
+      "bytes": 12389,
+      "sha256": "cf8caf1b19dac01a1de69be2f1138c8f82237e79fa4ecb73c3a2377906fe3426"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-cs-medium-01.json",
+      "bytes": 12812,
+      "sha256": "c4ef4e5db85bb672db93ade61ec63eb197a92a51fcf3338373d1ee5061d564b1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-cs-medium-02.json",
+      "bytes": 13102,
+      "sha256": "683db659c0658d77bd93303a0bc2f92cf9fa82f4fa7cb25ca0f2381ec8c729e5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-en-01.json",
+      "bytes": 11097,
+      "sha256": "4ee24f77c1b7773fd8dddf01c15529ee5762d4a504a76c7789d73bb0d5d788be"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-en-02.json",
+      "bytes": 11383,
+      "sha256": "5f6f07dcbdcc118e7893700f3b219e9d66255baf45ffe3bb7aee1229af5108f1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-en-easy-01.json",
+      "bytes": 12064,
+      "sha256": "cda6112e7a86f1b34dd90365631299cb39a5425643d9957bb7c3bcf7c7bef09f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-en-easy-02.json",
+      "bytes": 12577,
+      "sha256": "a8c5a1682fdbe443e3dfaa6c1c43f2505cd3f05eac8fb1b5d8de3e001a4c4f78"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-en-medium-01.json",
+      "bytes": 12359,
+      "sha256": "a8587955dbb06a6550cd4564c5ce0246eed9278c214418f27a4b2a4f98eb7153"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/programming-en-medium-02.json",
+      "bytes": 13130,
+      "sha256": "a6f3b2b1e45f73a4daca45db65403ab0302f317b5c54ddef1c5cbf947708e349"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-cs-01.json",
+      "bytes": 10308,
+      "sha256": "0f2685cbf8f18ca49a1379f9d2b79e8b87327caa881a00d11476c4fcd3537e9f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-cs-02.json",
+      "bytes": 10858,
+      "sha256": "8bfc3410131e7e5e0d84e8f7ea2820c364a9d80a5dcc29162f95d6999c703dae"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-cs-easy-01.json",
+      "bytes": 12606,
+      "sha256": "7e86e689bf74bab7f22b9ded6079192d1f101feb9b1826089a443d4312e1a157"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-cs-easy-02.json",
+      "bytes": 12824,
+      "sha256": "015859248a870c098f0726544e41af71314681a17de34bd36897e999ccd56558"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-cs-hard-01.json",
+      "bytes": 14581,
+      "sha256": "71066d11c36e91765b39be9da0f17b5c2e1b14123f65abd907bc9a4f024b8f70"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-cs-medium-01.json",
+      "bytes": 13709,
+      "sha256": "da517bc8f82177e1c6833b4ccd4987ce170fad7c5d75cd1e25db1b1d2600e750"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-en-01.json",
+      "bytes": 10017,
+      "sha256": "0795a9379444abc5352aab3c4765d50f45fd4d5f75f5e5803234e413269534dd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-en-02.json",
+      "bytes": 10791,
+      "sha256": "90b66a3251ee989177d30ea648a287beb75fbff37a8be3bb19b83cd3324e2ad8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-en-easy-01.json",
+      "bytes": 10525,
+      "sha256": "be4d08109d2518fba7fd6b2c2e9e57caad9d2e787113e24be4c376b2192ad1af"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-en-easy-02.json",
+      "bytes": 11057,
+      "sha256": "a58dc6a19806524572799908d039973e77d7687d46a281450e359dc1e51c30a5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-en-medium-01.json",
+      "bytes": 11747,
+      "sha256": "0a12d6753742047acf328279124cdd6b0795565d65e2e3d4a48bccbd2c779a62"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/science-en-medium-02.json",
+      "bytes": 11686,
+      "sha256": "6480d0a4b28de8f9d63cb4d10bd5ce9173aef04dbc30a10fd6e531af5d136fa2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-cs-easy-01.json",
+      "bytes": 10533,
+      "sha256": "a2f9a32b92dc7f97ec953a882d776a711b85572fc7b3541b4cb0499025e2f5dc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-cs-easy-02.json",
+      "bytes": 11381,
+      "sha256": "fcfc038e3a9ffbb05112977d4271669dd718629ff9e025650715a2d9912f98d9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-cs-hard-01.json",
+      "bytes": 11178,
+      "sha256": "04709e76166b37c26675f65dc18bc00655253c12fd09e90a8d98ee76f13661b8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-cs-hard-02.json",
+      "bytes": 13456,
+      "sha256": "6566e8d6cda016eff9dbf70f2e526ab83da1898122b610660c2fca1e5f9e5e42"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-cs-medium-01.json",
+      "bytes": 11332,
+      "sha256": "a8bd3bec9945a09de870d84574a034d01a6a84692bf3976bcffb28df5a9eec0d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-cs-medium-02.json",
+      "bytes": 12184,
+      "sha256": "8adf8ac3fd33d683d78bf8d69fb81a3b755647be4385d68fe300ed12e66198b8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-en-easy-01.json",
+      "bytes": 10192,
+      "sha256": "2472524fa372957ad33ffd3218768bc394da3bb349c3224b59e57c672531337a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-en-easy-02.json",
+      "bytes": 10559,
+      "sha256": "530c080190051ba4880cca1eb956642ef39e9065be52a835694b523443c872e1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-en-hard-01.json",
+      "bytes": 10504,
+      "sha256": "6ac547dc187092e16ba11d2fea893e8611ad5a849b30653e9ce39b9db7e830be"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-en-hard-02.json",
+      "bytes": 11873,
+      "sha256": "d689a94bb47afebee45f5cee6ec8dfbb4fbea8177b66608add23c10e372be492"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-en-medium-01.json",
+      "bytes": 10443,
+      "sha256": "2bc5bf6c1509619b4a69f3b2bdc4803c7f05c7a808b9a349f7ad26868c98c3a9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-nature-en-medium-03-worktree/src/content/sports-en-medium-02.json",
+      "bytes": 10279,
+      "sha256": "d65cd0db0f8462aec8bf5c0f88cd31c73af4afa8c7232704b5e80791e60bf027"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-easy-03.json",
+      "bytes": 12394,
+      "sha256": "02716ef971eacc78ec7770872ca86aec59015ba726eaf8cf9432b62da9ca645f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-medium-03.json",
+      "bytes": 12100,
+      "sha256": "e0efa156bb1122a0e6eca13b0329ece71c6a906090cd79f8b0ee3f668f6d2d6c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/packs/science-cs-easy-03.json",
+      "bytes": 11281,
+      "sha256": "7ad2dcf132a7acfc7323fd7e6e519cca8feac777bd1a0282818a5e91397410f7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-hard-03.json",
+      "bytes": 12222,
+      "sha256": "620a53c3f9bd5158c42afd8731a67e25747af23ac8a393c42ce13d4d0d8eaf71"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/packs/science-cs-medium-03.json",
+      "bytes": 11640,
+      "sha256": "4a71d1c222d6c615303e2d3978795e319fbb41de3fa204715d7d5380f135b579"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/packs/science-en-hard-04.json",
+      "bytes": 13208,
+      "sha256": "687f2956fdaec77f26c21b32c28b9acd4e1ea628ba10c0456f5b365a00a1b5a7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-hard-04.json",
+      "bytes": 11995,
+      "sha256": "3ba12a3801901af7024d9b26b8fe004cde619a5374e3b16d891bb2608c419541"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-easy-04.json",
+      "bytes": 11485,
+      "sha256": "579b0c9cc2da46114a87184fcf76e1ba73c37fc0c880e4acacf393286fd60abe"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-medium-04.json",
+      "bytes": 11318,
+      "sha256": "2b20637ad39437d12c7cd828ed0d3ff62f80d37dbcf361c2c2ee65965fb7014a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/research-index.json",
+      "bytes": 5346884,
+      "sha256": "5d01d604be26767ddfc77cf68114bbf0f6dbae4752b3bb45812a4a64d5731dc5"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/inventory-parser.mjs",
+      "bytes": 11862,
+      "sha256": "3b927dd05ef2d98b6ed1676999e99d4da2d063fdcdf5d6985f01c14712ffe1ef"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/inventory-analysis.mjs",
+      "bytes": 12095,
+      "sha256": "e7cd1efd6781eb20e174e7cfe8897e3d975e03e384954e8ce375e5d5869b8e67"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/coordinator-current-v5/CURRENT-NATIVE-INPUTS.json",
+      "bytes": 2269592,
+      "sha256": "54353926e33e5baaf598ef66cf1ea25c5326b86845c3088c374c3f7f519c0727"
+    }
+  ],
+  "original398FixedStartEndMatch": true,
+  "immutableSupplementalDependencies": [
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/recovery-reviewed-reservations-46f732cb.tsv",
+      "bytes": 67816,
+      "sha256": "46f732cb4d7d81b5fc473a83be90e13c5c7dd5df979a95c6bdf208263e7b121b",
+      "observedSha256": "46f732cb4d7d81b5fc473a83be90e13c5c7dd5df979a95c6bdf208263e7b121b",
+      "observedBytes": 67816,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b05/packs/general-en-easy-05.json",
+      "bytes": 9851,
+      "sha256": "3705f3403a141044ba2f6e055d0004df7ad4dc0957955bd9370110cb09ae06cd",
+      "observedSha256": "3705f3403a141044ba2f6e055d0004df7ad4dc0957955bd9370110cb09ae06cd",
+      "observedBytes": 9851,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b05-v2/packs/general-en-easy-05.json",
+      "bytes": 9889,
+      "sha256": "64d30e82341e90ae89f4c0c88373bc2a32d2c4f6343437225c746bcd93d84b92",
+      "observedSha256": "64d30e82341e90ae89f4c0c88373bc2a32d2c4f6343437225c746bcd93d84b92",
+      "observedBytes": 9889,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/b05/receipts.json",
+      "bytes": 799274,
+      "sha256": "42b8be46de92db7a05cea6b3f50a59d4ad309e961ca750c2af780790003ada51",
+      "observedSha256": "42b8be46de92db7a05cea6b3f50a59d4ad309e961ca750c2af780790003ada51",
+      "observedBytes": 799274,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/corrections-recovery-v1/review-manifest.sha256",
+      "bytes": 3925,
+      "sha256": "2e12d2a14a2faa44fd02222413bcd9d3b587ff51df61f3d23b765d986fd1c13b",
+      "observedSha256": "2e12d2a14a2faa44fd02222413bcd9d3b587ff51df61f3d23b765d986fd1c13b",
+      "observedBytes": 3925,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/corrections-recovery-v1/composite-b05-v2.json",
+      "bytes": 1439823,
+      "sha256": "c998a892670b1691a6c5d0cdde7ea112146408c6cc2a6aed06d684f13b35c70e",
+      "observedSha256": "c998a892670b1691a6c5d0cdde7ea112146408c6cc2a6aed06d684f13b35c70e",
+      "observedBytes": 1439823,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b05/sources.json",
+      "bytes": 187346,
+      "sha256": "1f5c67dbd48bfbe3b44e96b55c1aed4da0fb93b4f8b5b66d4e575db3923ec125",
+      "observedSha256": "1f5c67dbd48bfbe3b44e96b55c1aed4da0fb93b4f8b5b66d4e575db3923ec125",
+      "observedBytes": 187346,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b05-v2/sources.json",
+      "bytes": 189618,
+      "sha256": "609c89cf2d2ce6371ea0ef28d534ee4999ddaf24dde9dfe0ab5ae3df53e4b4c5",
+      "observedSha256": "609c89cf2d2ce6371ea0ef28d534ee4999ddaf24dde9dfe0ab5ae3df53e4b4c5",
+      "observedBytes": 189618,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/frozen-sources/26a587aaca5d6838b4db3ca1817915a74506768222561da40ae44e66d4cd3dfe.html",
+      "bytes": 498414,
+      "sha256": "26a587aaca5d6838b4db3ca1817915a74506768222561da40ae44e66d4cd3dfe",
+      "observedSha256": "26a587aaca5d6838b4db3ca1817915a74506768222561da40ae44e66d4cd3dfe",
+      "observedBytes": 498414,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/frozen-sources/f261e67e92a91b3584a37c29621f8db629ee4dfd01275f29fb80ae762568e819.txt",
+      "bytes": 11303,
+      "sha256": "f261e67e92a91b3584a37c29621f8db629ee4dfd01275f29fb80ae762568e819",
+      "observedSha256": "f261e67e92a91b3584a37c29621f8db629ee4dfd01275f29fb80ae762568e819",
+      "observedBytes": 11303,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/recovery-novelty-v5/review-manifest.sha256",
+      "bytes": 4783,
+      "sha256": "ad0ffa2ddea7623d1fa02e3aa54ee4e20a52de8101e677cb7bc82a4d7f080a51",
+      "observedSha256": "ad0ffa2ddea7623d1fa02e3aa54ee4e20a52de8101e677cb7bc82a4d7f080a51",
+      "observedBytes": 4783,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/recovery-novelty-v5/final504-independent-continuity.json",
+      "bytes": 831487,
+      "sha256": "08b78991153bdcdddf6220aa2bdd42253fa04bad239de920ad3ad4b9781ee63a",
+      "observedSha256": "08b78991153bdcdddf6220aa2bdd42253fa04bad239de920ad3ad4b9781ee63a",
+      "observedBytes": 831487,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/semantic-candidates.json",
+      "bytes": 500990,
+      "sha256": "1639af848ee998df54033c3ba00be33f0462234c852ba3f757d73df2ea1f1f58",
+      "observedSha256": "1639af848ee998df54033c3ba00be33f0462234c852ba3f757d73df2ea1f1f58",
+      "observedBytes": 500990,
+      "match": true,
+      "authority": "immutable General lifecycle child manifest, independently checked without rebasing"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v8.json",
+      "sha256": "edd8ea39e5deeadb4fb47d97d1db8919a0eb8e5f41afe11031949e0f30cedc13",
+      "bytes": 367746,
+      "observedSha256": "edd8ea39e5deeadb4fb47d97d1db8919a0eb8e5f41afe11031949e0f30cedc13",
+      "observedBytes": 367746,
+      "match": true,
+      "authority": "exact historical R9 previousRevision binding"
+    }
+  ],
+  "exactOriginalWholeHardRating": {
+    "id": "science-en-hard-03",
+    "decision": "Accept dominant Hard",
+    "commonEasyIndices": [],
+    "informedMediumIndices": [19, 28],
+    "specialistHardIndices": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22,
+      23, 24, 25, 26, 27
+    ],
+    "reason": "Advanced plasma, quantum, solid-state and transport terminology dominates, with fair discriminating physical conditions. Rutherford scattering and Zeeman splitting are informed/advanced-school bridges. Specialist does not mean ambiguity is acceptable; source/wording/novelty decisions remain separate."
+  },
+  "originalWholeHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+  "complete28EntryBindings": [
+    {
+      "id": "science-en-hard-03-01",
+      "entireQuestion": {
+        "id": "science-en-hard-03-01",
+        "text": "What atomic relaxation process ejects an electron when another electron fills an inner-shell vacancy without emitting an X-ray photon?",
+        "initial": "A",
+        "answer": "Auger effect",
+        "language": "en",
+        "aliases": [
+          "Auger emission",
+          "Auger process",
+          "Auger–Meitner effect",
+          "Auger-Meitner effect"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Auger_effect"]
+      },
+      "wholeRawQuestionSha256": "44a2976ca253a296abc3ec5f7c690ab830f29bf4b4d2263513e8e2c1cb7061ba",
+      "wholeRawSourceEntrySha256": "99107a0d7403ab88a7e37c306937675a3145f79d468a0fa572bf5b9158939fd5",
+      "entireRawEvidenceArraySha256": "87b021152dc504f2501dd7c9657f28fa2f47fe0f210a5d3d6987cdd642608b35",
+      "originalIndependentEnrichedReceiptSha256": "c033c5ff100559ee9933c9d5d5b8257e7208cb54117541ba068f0c3e4bdda481",
+      "acceptedV2IndependentEnrichedReceiptSha256": "ad7f2d1231c5d30a0f1fad24988d72e48102a64b021f1346d24f59b5e3a7f3b5",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/0",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 3,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 15,
+      "historicalSourceSpecificPoints": 8,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-02",
+      "entireQuestion": {
+        "id": "science-en-hard-03-02",
+        "text": "What radiation is emitted when a charged particle is decelerated, for example as an electron passes near an atomic nucleus?",
+        "initial": "B",
+        "answer": "Bremsstrahlung",
+        "language": "en",
+        "aliases": [
+          "Braking radiation",
+          "Free-free radiation",
+          "Free–free radiation",
+          "Free-free emission"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Bremsstrahlung"]
+      },
+      "wholeRawQuestionSha256": "ae6150e9c68b78998038e9363ebf02d8fc83bbe6f34de7635020c696df7417f4",
+      "wholeRawSourceEntrySha256": "746071e88905017abda900fb5c9c88c99968c3940acf538f06986644bc9ccdd0",
+      "entireRawEvidenceArraySha256": "59ff5bffa66e5902062f0ad35860ca2483c7b8d88fa413cea52505ab54a3654d",
+      "originalIndependentEnrichedReceiptSha256": "404308813a9e99c687ef609302497a002fa70ac4dd144665ab92a0f1452c9139",
+      "acceptedV2IndependentEnrichedReceiptSha256": "a19e8a66ddfbaf38c98f6b9b400ca3c2be755445df206a206c5e10c4364d587e",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/1",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 3,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 15,
+      "historicalSourceSpecificPoints": 11,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-03",
+      "entireQuestion": {
+        "id": "science-en-hard-03-03",
+        "text": "What quantum phenomenon can produce an attractive force between closely spaced uncharged conducting plates in vacuum?",
+        "initial": "C",
+        "answer": "Casimir effect",
+        "language": "en",
+        "aliases": ["Casimir force"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Casimir_effect"]
+      },
+      "wholeRawQuestionSha256": "5fd5362b743088b42f5535fd140174e58540b121f6fe179623d14f90eff4fcd1",
+      "wholeRawSourceEntrySha256": "b6d6d27593d0986335f7482d8749c1c034175bc4f97e8ecad790eeec34046ff5",
+      "entireRawEvidenceArraySha256": "98c9717ee058f536c882cd70595f4c49886913099fb0421bea1950b754fdda8e",
+      "originalIndependentEnrichedReceiptSha256": "bdd121560d9039a6ccf8653de3f033df2fbdb485b7ed864cbb92b1c5dddff2bf",
+      "acceptedV2IndependentEnrichedReceiptSha256": "ef81485af7c07445e93395cf1b147076f3b80775b0c91de813a7490d5b441f79",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/2",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 10,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-04",
+      "entireQuestion": {
+        "id": "science-en-hard-03-04",
+        "text": "What light is emitted when a charged particle travels through a medium faster than light's phase velocity in that medium?",
+        "initial": "CH",
+        "answer": "Cherenkov radiation",
+        "language": "en",
+        "aliases": [
+          "Čerenkov radiation",
+          "Vavilov–Cherenkov radiation",
+          "Vavilov-Cherenkov radiation"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Cherenkov_radiation"]
+      },
+      "wholeRawQuestionSha256": "e280df4f5cc9bbf8b460322a53668d92e94eed49ee6bea27403dbb3ada48952c",
+      "wholeRawSourceEntrySha256": "34c3291b3985e4cb3012456680eb9ec70c613e6b5dbaf66c713d427a86c7bbdb",
+      "entireRawEvidenceArraySha256": "5ae3f75d1d41fc99660124c8b8969f8d840f25188fb06c56f00e5f82e1db8c55",
+      "originalIndependentEnrichedReceiptSha256": "3e3f9e5f53124e433c55d70e68c320f11067169f2d70785711743f435427360c",
+      "acceptedV2IndependentEnrichedReceiptSha256": "a5372fa5e392fca98fc91e63b1dc31ecd5d9572aba5d4eea7416c0b9a63b8ba3",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/3",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 17,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-05",
+      "entireQuestion": {
+        "id": "science-en-hard-03-05",
+        "text": "What collective plasma effect reduces the electric field of a charge over a characteristic screening distance?",
+        "initial": "D",
+        "answer": "Debye shielding",
+        "language": "en",
+        "aliases": ["Debye screening"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Debye_length"]
+      },
+      "wholeRawQuestionSha256": "52e069da01a212e3f2f9f3af95b1d2d7358d037d7fb5598d4ef07a45d7531a80",
+      "wholeRawSourceEntrySha256": "8ed90b03bddcf6b21f6293c8641335e1b486d9de0587762eda29ce649c00466c",
+      "entireRawEvidenceArraySha256": "c0af618d8e5b495d52101c0856231f13679ab1b63a91614fb0a7b1199d2684b8",
+      "originalIndependentEnrichedReceiptSha256": "96a988f075a5c8c3842119b0a5c3ef02032f15e5cdfb7ead302f618955c3f33e",
+      "acceptedV2IndependentEnrichedReceiptSha256": "5e8bba0c5546aca8f01591e68a93087ff645a9fe92a0f99c6ea163c6b7417df9",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/4",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 42,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-06",
+      "entireQuestion": {
+        "id": "science-en-hard-03-06",
+        "text": "What theorem relates the time evolution of quantum expectation values to equations resembling classical mechanics?",
+        "initial": "E",
+        "answer": "Ehrenfest theorem",
+        "language": "en",
+        "aliases": ["Ehrenfest's theorem"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Ehrenfest_theorem"]
+      },
+      "wholeRawQuestionSha256": "ae88ac8b559f8bf8f68b338f462d279281872cba6d88ad0eee8ea6fbee68d984",
+      "wholeRawSourceEntrySha256": "9e260b839b3818f8069c977bc05fd39f84db7466a029286a23c622dc2438dce1",
+      "entireRawEvidenceArraySha256": "cb9d450da6a0bb0f727874752ed35721b02584925c3f17ec09f5deb1e7c99d06",
+      "originalIndependentEnrichedReceiptSha256": "a804a060f50c683b045087cdf76ddb3c49cffe6dfcf21a716ffff5304d5a2bfe",
+      "acceptedV2IndependentEnrichedReceiptSha256": "1e6e908d670a7b9a1d8b283dcf30b9803e36870c9bbb3f94134bf3d935a262e6",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/5",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 13,
+      "historicalSourceSpecificPoints": 8,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-07",
+      "entireQuestion": {
+        "id": "science-en-hard-03-07",
+        "text": "What principle treats an electronic transition as occurring so rapidly that nuclear positions remain effectively fixed during it?",
+        "initial": "F",
+        "answer": "Franck–Condon principle",
+        "language": "en",
+        "aliases": ["Franck-Condon principle"],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Franck%E2%80%93Condon_principle"
+        ]
+      },
+      "wholeRawQuestionSha256": "ce4f5f67a39f771a07bc4192b65491d0dcb6a61b35bb32aa171eac13644cb509",
+      "wholeRawSourceEntrySha256": "3a0f2e4d7b1bea788c22728dfbee8f47ece31c3a0d113aa3a8f013a1a07628d2",
+      "entireRawEvidenceArraySha256": "894b152c0f3d894df1318e93983bdf1dcc584f57e9338b68c062ca14019f10e5",
+      "originalIndependentEnrichedReceiptSha256": "7d7fe291c42bc70477266ad11848246bb8a16813756e1d0daa5cde934b861ddc",
+      "acceptedV2IndependentEnrichedReceiptSha256": "75d6ec049249476dd6a6a3a80db63db7484a6e92dee15b30321be1c4e6398fa6",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/6",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 10,
+      "historicalSourceSpecificPoints": 6,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-08",
+      "entireQuestion": {
+        "id": "science-en-hard-03-08",
+        "text": "What rule relates the number of thermodynamic degrees of freedom to the numbers of phases and components at equilibrium?",
+        "initial": "G",
+        "answer": "Gibbs phase rule",
+        "language": "en",
+        "aliases": ["Phase rule", "Gibbs' phase rule", "Gibbs's phase rule"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Phase_rule"]
+      },
+      "wholeRawQuestionSha256": "5f7347224af71cf895c67e453df7db6562b72c8e64d2e13e391f5edc6ddbbb8b",
+      "wholeRawSourceEntrySha256": "ded1eef3b9327104cb2785dcbd7f34afea53903f9ed514ba910434feca7cba04",
+      "entireRawEvidenceArraySha256": "9c6d11401f434fb75f87fc71c4e65d542cbea56cc01b2fa4dd8bfefe3958623f",
+      "originalIndependentEnrichedReceiptSha256": "bac0302609bd7442ac00765e6fc827424f9037f5cd2b373af80ef71ced91c3e6",
+      "acceptedV2IndependentEnrichedReceiptSha256": "b4ce58ce43975767298f21c6b3f3ec3505f1c53d9b6782b70466df6cdda34151",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/7",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 3,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 14,
+      "historicalSourceSpecificPoints": 8,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-09",
+      "entireQuestion": {
+        "id": "science-en-hard-03-09",
+        "text": "What material coefficient is the ratio of the transverse electric field to the product of current density and perpendicular magnetic field?",
+        "initial": "H",
+        "answer": "Hall coefficient",
+        "language": "en",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Hall_effect"]
+      },
+      "wholeRawQuestionSha256": "0a9227833c62fa848860823869f02cc2650c64f4e18897d2c48799f99a1732e4",
+      "wholeRawSourceEntrySha256": "c8d01a8e1467623266e659b48c0bdddb027ec9f23d352259d233bc78f5eb6591",
+      "entireRawEvidenceArraySha256": "933795f22fdd43777dc28a21d8520ba8679caf27e6814fc0942fa82779c47cf3",
+      "originalIndependentEnrichedReceiptSha256": "9af9046c531b5def18bd35d82418774aaa1b4084876f168942267495fd76eba2",
+      "acceptedV2IndependentEnrichedReceiptSha256": "ca8d18d0557196825b1a0ba8f1558ad4a12d7c2cba6fa05cd54819333f5b29cc",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/8",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 29,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-10",
+      "entireQuestion": {
+        "id": "science-en-hard-03-10",
+        "text": "What thermodynamic process keeps entropy constant?",
+        "initial": "I",
+        "answer": "Isentropic process",
+        "language": "en",
+        "aliases": ["Isoentropic process"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Isentropic_process"]
+      },
+      "wholeRawQuestionSha256": "5d0e1241db4756f543d506d3e5eff713bd76eb545b1ea7e4876d1439b8370af0",
+      "wholeRawSourceEntrySha256": "0ef1b4c85c675261f02987132c692b2e6d0046356b435ca68e73fe7af071f0ac",
+      "entireRawEvidenceArraySha256": "8f203dfeedc1f51e5b9c8ba36619d9f92f40ba652cc62318207f06aca2a5a69d",
+      "originalIndependentEnrichedReceiptSha256": "427bcb2a564086ca1fca7a2630774dda2c9210f87a9e9cc5d4ffbdba47195b1c",
+      "acceptedV2IndependentEnrichedReceiptSha256": "fe7bb509e7f4e49d56e298ad3397df8a40fccdd463535d53a1b086c5b4420551",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/9",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 18,
+      "historicalSourceSpecificPoints": 7,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-11",
+      "entireQuestion": {
+        "id": "science-en-hard-03-11",
+        "text": "What effect predicts a symmetry-lowering distortion for a non-linear molecule in a spatially degenerate electronic ground state?",
+        "initial": "J",
+        "answer": "Jahn–Teller effect",
+        "language": "en",
+        "aliases": [
+          "Jahn–Teller distortion",
+          "Jahn-Teller effect",
+          "Jahn-Teller distortion",
+          "JT effect",
+          "JTE"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Jahn%E2%80%93Teller_effect"]
+      },
+      "wholeRawQuestionSha256": "e01645c74c61694d807d2ccdba6506e25f60fb5202ab07d226cfd1c6538ee809",
+      "wholeRawSourceEntrySha256": "310fcf4d5014435e1dd3d9d9a3af6d6680694e6ccc1ccafb5452fca9cc09d3ca",
+      "entireRawEvidenceArraySha256": "4b2975e44f518d2cf2de249c46e6fb924fba0558ae892dabd8a2c1e66514585e",
+      "originalIndependentEnrichedReceiptSha256": "b6a94b284ef4c0b45a3403e71fb3c8f65afd066b397c9cad8ff59d29dd58387a",
+      "acceptedV2IndependentEnrichedReceiptSha256": "539826e0f03a3176e0b10b4f38ae0b3a9ce754e08d1412edbd9a968beebd57ab",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/10",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 34,
+      "historicalSourceSpecificPoints": 7,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-12",
+      "entireQuestion": {
+        "id": "science-en-hard-03-12",
+        "text": "What theorem requires at least twofold degeneracy of energy levels for a time-reversal-invariant system with half-integer total spin?",
+        "initial": "K",
+        "answer": "Kramers degeneracy",
+        "language": "en",
+        "aliases": [
+          "Kramers theorem",
+          "Kramers' theorem",
+          "Kramers degeneracy theorem",
+          "Kramers' degeneracy theorem"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Kramers%27_theorem"]
+      },
+      "wholeRawQuestionSha256": "b3b0047526eb4757a9c4d99bb0865c1f2f3e599c514553a05606a61729c2c793",
+      "wholeRawSourceEntrySha256": "ade2f1c59eee22f298b61fc7e00ee028029fa2e6b1927d856c855b92ffa89e72",
+      "entireRawEvidenceArraySha256": "a4a29c4b9d2197cee534d3abe3fb8e069810704b302fa7dbdcc81d46c2fe0825",
+      "originalIndependentEnrichedReceiptSha256": "1eebfb96fa2ee07e7ff06f860bfb13fe100ce64ce533f11ee7908594739620a0",
+      "acceptedV2IndependentEnrichedReceiptSha256": "8408c1d8cc092dcf83b1ffd00bb3497aa42e89c7be02403a8fe8a7d73b9586f1",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/11",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 1,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 13,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-13",
+      "entireQuestion": {
+        "id": "science-en-hard-03-13",
+        "text": "What collisionless plasma phenomenon damps a wave through resonant energy exchange with particles moving near its phase velocity?",
+        "initial": "L",
+        "answer": "Landau damping",
+        "language": "en",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Landau_damping"]
+      },
+      "wholeRawQuestionSha256": "6edf893182de38410e24a5d0970844260f7e829e692228a76aed29d8e19363fc",
+      "wholeRawSourceEntrySha256": "9fbd149be1c4382610ab9efbb455604701f1182b5a230bcabd6ce5fa3fe9a7d7",
+      "entireRawEvidenceArraySha256": "21d4370c7565e57fa77622e80b6a52e49b8b64a51d0f1cfae6f7bdd6fcd993aa",
+      "originalIndependentEnrichedReceiptSha256": "83740d84b69b47b0bf05ee8ce542e9f9b83c9196355763dc9010a412234e805c",
+      "acceptedV2IndependentEnrichedReceiptSha256": "7bf34d272bbcc7486b026a10ddd67c2def0db127c441c32b11b5a6f0426b6177",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/12",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 41,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-14",
+      "entireQuestion": {
+        "id": "science-en-hard-03-14",
+        "text": "What phenomenon is the recoil-free emission and resonant absorption of gamma rays by nuclei bound in a solid?",
+        "initial": "M",
+        "answer": "Mössbauer effect",
+        "language": "en",
+        "aliases": [
+          "Recoilless nuclear resonance fluorescence",
+          "Recoil-free nuclear resonance fluorescence"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/M%C3%B6ssbauer_effect"]
+      },
+      "wholeRawQuestionSha256": "d46a8f495754d3b2e9247dc529efce5f27f612edf2316fec508d16ff1a56a29d",
+      "wholeRawSourceEntrySha256": "39ab276987cdf9bdd46796f4c8b83dcec01457c06d0202e40281538b477b6201",
+      "entireRawEvidenceArraySha256": "f09458361c70a89fc984447fe261aecfddd4728e68871281f326f0b67f85cff8",
+      "originalIndependentEnrichedReceiptSha256": "4051a2bd897dfb9b07caa68de83e5fb0f55d8d8928dec01c32682c79a044e51e",
+      "acceptedV2IndependentEnrichedReceiptSha256": "fa1747a2fb8a56ba5c51bd29d1366dbd20c543b6f69247be5fdd34f64434c88d",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/13",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 10,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-15",
+      "entireQuestion": {
+        "id": "science-en-hard-03-15",
+        "text": "What theorem connects every continuous differentiable symmetry of an action with a corresponding conservation law?",
+        "initial": "N",
+        "answer": "Noether's theorem",
+        "language": "en",
+        "aliases": [
+          "Noether theorem",
+          "Noethers theorem",
+          "Noether’s theorem",
+          "Noether's first theorem"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Noether%27s_theorem"]
+      },
+      "wholeRawQuestionSha256": "19a8706844470d68490542013f8fe640d87b21be17670fac83abee5ab9be30f5",
+      "wholeRawSourceEntrySha256": "2280a0e7825389cee731abe82ef9bb9fdc2d22316c960d3257b7b303f3511d4f",
+      "entireRawEvidenceArraySha256": "49b8672b20770f591fbb931d1d5692649b2dd11b8e43794ff9401ee7d4fed24c",
+      "originalIndependentEnrichedReceiptSha256": "4b7735d32d1d671cd09916a67c748ab3a70c17bd75be898e5b81a05a568b3bf3",
+      "acceptedV2IndependentEnrichedReceiptSha256": "cec8846ad95bead8669b6ba9b6237ccdf08cf37936bd456019c37b2cc8006791",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/14",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 36,
+      "historicalSourceSpecificPoints": 2,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-16",
+      "entireQuestion": {
+        "id": "science-en-hard-03-16",
+        "text": "In zero magnetic field, what relations equate cross-coupled linear transport coefficients near thermodynamic equilibrium under microscopic time-reversal symmetry?",
+        "initial": "O",
+        "answer": "Onsager reciprocal relations",
+        "language": "en",
+        "aliases": ["Onsager relations", "Onsager reciprocity relations"],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Onsager_reciprocal_relations"
+        ]
+      },
+      "wholeRawQuestionSha256": "eea7e769b003b5f1a5c73ec36499724beb9f37975abba99e7bd74d07e33e81e5",
+      "wholeRawSourceEntrySha256": "d4ef0f4f1c3894531cbd70e0216feb9fca5bbf465017b13677f55e32fcfdb5e8",
+      "entireRawEvidenceArraySha256": "a8a658ac6d9bda329f8ae8b56f4b354fda039f55e7c06bf1b3de229d6b984868",
+      "originalIndependentEnrichedReceiptSha256": "eb01a64aeeb89487f1698e77cc9d4a8049997d973d2aabde18a70ad50ecef36e",
+      "acceptedV2IndependentEnrichedReceiptSha256": "7c280945efc01bcea471d24abde7362deb6fd038a4fe75d11ac1d9c86fe7affb",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/15",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 20,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-17",
+      "entireQuestion": {
+        "id": "science-en-hard-03-17",
+        "text": "What law describes a gas's electrical breakdown voltage mainly in terms of the product of pressure and electrode separation?",
+        "initial": "P",
+        "answer": "Paschen's law",
+        "language": "en",
+        "aliases": ["Paschen law", "Paschens law", "Paschen’s law"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Paschen%27s_law"]
+      },
+      "wholeRawQuestionSha256": "1e3d8953bee7d6f19f104440aa93d6e0a39177030c27fc27fc9fa747b0f5ae4d",
+      "wholeRawSourceEntrySha256": "5943353c7e75da7cb8b80eae054dc01b6b40da842bcea6b89a7c9a6666eaeffb",
+      "entireRawEvidenceArraySha256": "5a9e1a55514935a754f58f840c90115e2f27d15b4ec331aeb32e9c50ad01799a",
+      "originalIndependentEnrichedReceiptSha256": "49dfc82892b9054c107781a8fc4912441b699c6090f9a4480e84a1a31a00928c",
+      "acceptedV2IndependentEnrichedReceiptSha256": "b9dfa577462bc31c2c08dc3b79c926f7ef2a382e3a769803873c5e3012fb7067",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/16",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 16,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-18",
+      "entireQuestion": {
+        "id": "science-en-hard-03-18",
+        "text": "What quantum phenomenon can inhibit a system's transition by sufficiently frequent measurements?",
+        "initial": "Q",
+        "answer": "Quantum Zeno effect",
+        "language": "en",
+        "aliases": ["Zeno effect"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Quantum_Zeno_effect"]
+      },
+      "wholeRawQuestionSha256": "624845d90873bb2ef8a689d308fcd498604ab5dc4dc42fe219bb2be48874889d",
+      "wholeRawSourceEntrySha256": "db6e3e3f07ac48296770db29740072e644a5ea539ad3be824e561192b997f4a5",
+      "entireRawEvidenceArraySha256": "70e8837c9081b200f6b07705ee224e05d95801520ac5029d7e59efe4388bce40",
+      "originalIndependentEnrichedReceiptSha256": "5831b0fb34516520048d653d19491f190c1b4afce3f893d6a0e649386319b49b",
+      "acceptedV2IndependentEnrichedReceiptSha256": "6cbb6f020fd903443de3a2c3a7c30d74a7800233ff557d14f875d6c3d40ec74c",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/17",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 56,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-19",
+      "entireQuestion": {
+        "id": "science-en-hard-03-19",
+        "text": "What scattering model explains large-angle deflections of alpha particles by atomic nuclei through the Coulomb force?",
+        "initial": "R",
+        "answer": "Rutherford scattering",
+        "language": "en",
+        "aliases": ["Coulomb scattering"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Rutherford_scattering"]
+      },
+      "wholeRawQuestionSha256": "03ad83e720962ab5332ce4c183444b5a3841f44212f9b5b6c9aab69ba1da6a86",
+      "wholeRawSourceEntrySha256": "836fbd57cfc45c140e065953aca9ff344cc7504682c5d2c6330e814e537d0409",
+      "entireRawEvidenceArraySha256": "c4f283d65fc157015a59cdb4d25ddd63e441a46cdf9d19c7c8a3801179b7c4b6",
+      "originalIndependentEnrichedReceiptSha256": "a515737e56755cea61f5f610c52222bc72eec7cff9bc98930c9123dea98b18d4",
+      "acceptedV2IndependentEnrichedReceiptSha256": "0fb81060cf7dcaa266e647792374ee7ad0072cbbc12b0cfcd4dbee1e4bc82e7f",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/18",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 28,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-20",
+      "entireQuestion": {
+        "id": "science-en-hard-03-20",
+        "text": "What effect produces a phase difference between light beams travelling in opposite directions around a rotating loop?",
+        "initial": "S",
+        "answer": "Sagnac effect",
+        "language": "en",
+        "aliases": ["Sagnac interference"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Sagnac_effect"]
+      },
+      "wholeRawQuestionSha256": "1116b97d2cd43ab7bd6b359ab4d6787cd080307115a2662f8f173a2abfb8d04a",
+      "wholeRawSourceEntrySha256": "dc3cc0a7eb9548337ac4044006cd9047faa6453bb0738f22996ad3da831e9657",
+      "entireRawEvidenceArraySha256": "544afeb88fe845d48838986ef4c6f243e66f615be2f231889f7a2d386c9ce11d",
+      "originalIndependentEnrichedReceiptSha256": "25f79dd146c02112021bcd917fc3ba0097ace99fab9968d2acc5278099072780",
+      "acceptedV2IndependentEnrichedReceiptSha256": "b41bb4d44e53764a99f0a4b3d4bac0b5e4f23da883eb58409e283df37cf58522",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/19",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 88,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-21",
+      "entireQuestion": {
+        "id": "science-en-hard-03-21",
+        "text": "What effect consists of oscillations in a conductor's magnetoresistance as the inverse magnetic field varies at low temperature?",
+        "initial": "SH",
+        "answer": "Shubnikov–de Haas effect",
+        "language": "en",
+        "aliases": [
+          "Shubnikov-de Haas effect",
+          "Shubnikov–de Haas oscillations",
+          "Shubnikov-de Haas oscillations",
+          "SdH effect"
+        ],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Shubnikov%E2%80%93de_Haas_effect"
+        ]
+      },
+      "wholeRawQuestionSha256": "98ce0126e6cbff3bb551f4dfa8da055bd18d079f245fa157fd94d5940c8ae7c5",
+      "wholeRawSourceEntrySha256": "c93e0790301235e4681472a8a4c7ad9b71931cf83dd8195d9fe2cb1c5ae26657",
+      "entireRawEvidenceArraySha256": "ff8fefd481b229636f2f23f4549c22230a835c10dc620c12aabb8e790a994064",
+      "originalIndependentEnrichedReceiptSha256": "5987bffe6712bd438d3358a7bc667f29af994207e87ccc3d3283ed1870289a76",
+      "acceptedV2IndependentEnrichedReceiptSha256": "3476ac528332df0a9ba0e96aa3168e4ec5b63fc92b8d73670066a2b6c913a170",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/20",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 3,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 29,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-22",
+      "entireQuestion": {
+        "id": "science-en-hard-03-22",
+        "text": "What gas-discharge process multiplies free electrons through successive ionizing collisions in an electric field?",
+        "initial": "T",
+        "answer": "Townsend avalanche",
+        "language": "en",
+        "aliases": ["Electron avalanche", "Townsend discharge"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Townsend_discharge"]
+      },
+      "wholeRawQuestionSha256": "9a3e4c827aa60dda89ae42b7d33022c8439b9ac65eb1a0f2db33cb88346e41ae",
+      "wholeRawSourceEntrySha256": "b9dd6f4655bd5576da735b3ce62c2c57068c9d2878c9e2040e57b8fe33f466b1",
+      "entireRawEvidenceArraySha256": "57f74c051729c415e95371ffc2c9926fec94faf4bebcbde0dab61816e80dde98",
+      "originalIndependentEnrichedReceiptSha256": "3fd88fa27c61728a833ba5fed92740aaf3c322ade254e8df1a7ee1d2aff2b0be",
+      "acceptedV2IndependentEnrichedReceiptSha256": "23e4b53925beb40807822e0eca18271baa0636d63778e4991c5764c27ac03ca6",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/21",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 24,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-23",
+      "entireQuestion": {
+        "id": "science-en-hard-03-23",
+        "text": "What paired nuclear beta-decay and electron-capture reactions can cool dense stellar matter by emitting neutrinos and antineutrinos?",
+        "initial": "U",
+        "answer": "Urca process",
+        "language": "en",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Urca_process"]
+      },
+      "wholeRawQuestionSha256": "65c29352a49acc4ce9b6ac70b6cd4eef7be1e7010419f48d017155cf838f306a",
+      "wholeRawSourceEntrySha256": "29d5524f8601f866fa71358e4135203d2bb26190944f0d344d3e055f750240fb",
+      "entireRawEvidenceArraySha256": "c5ab64c4aa78ae3a4d19550d7853621c74aa5ce7b90e72850b94be0b3b08e0d2",
+      "originalIndependentEnrichedReceiptSha256": "d71e09132c07e63de16bd0dbf5df07200f62a9b02ca0e6fa46c203c08fb9edfc",
+      "acceptedV2IndependentEnrichedReceiptSha256": "42de3a9f8797a180f40d0551cf244fe58a3ceed851313f8e8c0e2fb53a187d6b",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/22",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 4,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 10,
+      "historicalSourceSpecificPoints": 3,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-24",
+      "entireQuestion": {
+        "id": "science-en-hard-03-24",
+        "text": "With four small ohmic contacts on its boundary, what method measures sheet resistance in a thin, homogeneous, isotropic sample of uniform thickness with no holes?",
+        "initial": "V",
+        "answer": "Van der Pauw method",
+        "language": "en",
+        "aliases": ["Van der Pauw technique"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Van_der_Pauw_method"]
+      },
+      "wholeRawQuestionSha256": "7852717d36df55995d04889a19f9ba465f991ac45a96388444bf5525a869340b",
+      "wholeRawSourceEntrySha256": "43ce4cf1f37680e5daa7389e89f2a96c12360b152a3bd34ffc02a75d46498937",
+      "entireRawEvidenceArraySha256": "424278f44fac71417418b95b407fb69df5a8454346332b1094956dd8ad8c8b9a",
+      "originalIndependentEnrichedReceiptSha256": "d5265af7e4ef1c1de2aba61257b6fd7c5b49b912434caaf90da704113e8cb647",
+      "acceptedV2IndependentEnrichedReceiptSha256": "7f2185b6f2d5e6bef5dc9ec0ae1900497e14dcd49a6ab313d057dcd5cd613942",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/23",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 3,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 11,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-25",
+      "entireQuestion": {
+        "id": "science-en-hard-03-25",
+        "text": "What law relates a metal's electronic contribution to thermal conductivity to its electrical conductivity, absolute temperature and Lorenz number?",
+        "initial": "W",
+        "answer": "Wiedemann–Franz law",
+        "language": "en",
+        "aliases": ["Wiedemann-Franz law"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Wiedemann%E2%80%93Franz_law"]
+      },
+      "wholeRawQuestionSha256": "8387fc7890959e549835209b2808aa8ca4851c7d77949c4497bb880b629352b0",
+      "wholeRawSourceEntrySha256": "8cb9ea206dc3f832240c5753cf728a988e1de4e270b1b840cc365864cddcc3f6",
+      "entireRawEvidenceArraySha256": "323864c3fdc6fc735315aaa260c1c971f60824979c0324e783a5df1bbce4704c",
+      "originalIndependentEnrichedReceiptSha256": "1b44d8e06ce73066ed4ea9166742d114f2d7d4c45a40e9bc014849f9461948bd",
+      "acceptedV2IndependentEnrichedReceiptSha256": "3afd771406f207ab482fd7ba165b33da307dbb4504be260deda1b3b2bde96b31",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/24",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 15,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-26",
+      "entireQuestion": {
+        "id": "science-en-hard-03-26",
+        "text": "What fine detail in an X-ray absorption spectrum is analysed near and above an absorption edge to reveal an atom's local surroundings?",
+        "initial": "X",
+        "answer": "X-ray absorption fine structure",
+        "language": "en",
+        "aliases": ["XAFS"],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/X-ray_absorption_fine_structure"
+        ]
+      },
+      "wholeRawQuestionSha256": "8c93d5f7b9d50803b0632e1580221858df7179b89ce9975edc4d008c37b207a3",
+      "wholeRawSourceEntrySha256": "ca6a44a808039cf3ea9fef5bddf9c198d8824b7e794e01f0ecdc8e35f33629a9",
+      "entireRawEvidenceArraySha256": "bcec942c685fa77cbbf2f828fd23428430b14248851480913a5b59cff8815f4e",
+      "originalIndependentEnrichedReceiptSha256": "4f20ddc01a0673fe7fc3618c92e0989afbf916eaa449f31f20da863293a1fa59",
+      "acceptedV2IndependentEnrichedReceiptSha256": "846bce7a43867ba9c3bdbb52155f9870b5f55e53ec1b9da4ea1de3d9772668b1",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/25",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 4,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 40,
+      "historicalSourceSpecificPoints": 4,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-27",
+      "entireQuestion": {
+        "id": "science-en-hard-03-27",
+        "text": "What exponentially screened potential was introduced to model a short-range interaction mediated by a massive particle?",
+        "initial": "Y",
+        "answer": "Yukawa potential",
+        "language": "en",
+        "aliases": ["Screened Coulomb potential"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Yukawa_potential"]
+      },
+      "wholeRawQuestionSha256": "735542098270f585fc18ecebb6f57bfe408abd3219e3bc77d2f0290009853de9",
+      "wholeRawSourceEntrySha256": "977ca7f549a54d33b2ac0f3be24ef550d6b5291b2d4f42af2dd57fa1b0fc46e3",
+      "entireRawEvidenceArraySha256": "e63beeb77f4d958819c4f2cdf588af79ae9828f539f31c35bddf1d6e0d0448dd",
+      "originalIndependentEnrichedReceiptSha256": "72ce528b8a9f27f3de3c3084fb596e98a5a54ef3517ec99df2bc5d3e76b017ca",
+      "acceptedV2IndependentEnrichedReceiptSha256": "b559a91b2f70c26e224e417e1d3a5b97c41b4060e2b3b773d7e01d11a7947586",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/26",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 4,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 25,
+      "historicalSourceSpecificPoints": 7,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    },
+    {
+      "id": "science-en-hard-03-28",
+      "entireQuestion": {
+        "id": "science-en-hard-03-28",
+        "text": "What effect splits an atomic spectral line into components when an external magnetic field is applied?",
+        "initial": "Z",
+        "answer": "Zeeman effect",
+        "language": "en",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Zeeman_effect"]
+      },
+      "wholeRawQuestionSha256": "209d2f110d080998d881b4ad858ac3cf1f243816a9eb9446468857e876a94c7e",
+      "wholeRawSourceEntrySha256": "d999eaae6f875bd7ea2b18abd4a5f2eef37128712a11e467699dcef6158f2784",
+      "entireRawEvidenceArraySha256": "5bb05ad5da33c9e224c5aa2181c8cdfde8b691cb19eafb9009859d2f3fe0488f",
+      "originalIndependentEnrichedReceiptSha256": "97c35e1d4b2632152be0f1b5029b8aa3ddc8298e041df4a548148be5dae7dc60",
+      "acceptedV2IndependentEnrichedReceiptSha256": "69a767a8273b090c8b95bf1aaeedf35434b73a720c0c1cb4f2f7075063da1db5",
+      "originalWholeAdultHardRatingSha256": "4a4d59fab2c328d6158d4a50dbcca1f326d9da5630e8d25715860a826701878d",
+      "entryReviewPointer": "/entries/27",
+      "entryReviewFileSha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce",
+      "readContexts": 2,
+      "inheritedFactualEditorialAliasInitialAdultVerdict": "ACCEPTED EXACT UNCHANGED ORIGINAL JUDGMENTS",
+      "frozenR9SemanticVerdict": "ACCEPTED FOR EXACT FROZEN R9 CONTENT SCOPE",
+      "currentSourceSpecificPairs": 62,
+      "historicalSourceSpecificPoints": 9,
+      "lifecycleVerdict": "ACCEPTED FOR EXACT SOURCE POINTS ONLY"
+    }
+  ],
+  "entireRawVersusEnrichedSchemaDistinctionsPreserved": true,
+  "evidencePlacements": 28,
+  "originalReadContextsVerified": 66,
+  "literalAcceptedNames": 80,
+  "actualProductionMatcherPositiveProbes": 320,
+  "actualWrongConceptNegatives": 28,
+  "fullNameDisclosures": 0,
+  "originalReservationPath": ".artifacts/continuation/phase12-shared-deck-reservations-v9.json",
+  "originalReservationSha256": "a75c363974e0664f1c4c2781ca7d59a735915ef9c11ba64a95c6ffc297e97fbc",
+  "r9All504NativeRecords": true,
+  "r8All448EntireRecordsUnchanged": true,
+  "currentNativeInputPath": ".artifacts/continuation/parallel-decks/science-en-hard-03/coordinator-current-v5/CURRENT-NATIVE-INPUTS.json",
+  "currentNativeInputSha256": "54353926e33e5baaf598ef66cf1ea25c5326b86845c3088c374c3f7f519c0727",
+  "currentNativePackVariants": 152,
+  "currentNativeQuestions": 4256,
+  "applicableOriginalRootProposalNativeRows": 1512,
+  "wholeCurrentNominatedPairs": 741,
+  "currentIndependentDispositionCounts": {
+    "DISTINCT WHOLE ASKED FACT": 610,
+    "EXACT OWN LINEAGE, NOT A SECOND AUTHORED FACT": 84,
+    "SOURCE-SPECIFIC BILINGUAL ADAPTATION, NO SAME-LANGUAGE COMPETITOR": 47
+  },
+  "all224HistoricalNativePointDispositionsAccepted": true,
+  "historicalAuthorityDispositionCounts": {
+    "EXACT SAME SCIENCE AUTHORING LINEAGE": 56,
+    "DISTINCT FULL NATIVE PREDICATE": 167,
+    "SOURCE-SPECIFIC CZECH COUNTERPART": 2,
+    "PARTIAL EDIT REBOUND TO FULL NATIVE ORIGIN": 1
+  },
+  "original33MisdirectedPreparatoryProofsPreservedNotReliedOn": true,
+  "originalHistoricalPredicateAliasDifferencesPreserved": 2,
+  "general326WholeRawObjectSha256": "d3388c0dfab518a4e1a606c983dbf3a9fffc8904d01ccf18fbc95d4158b51c0f",
+  "generalCurrentWholeContainerSha256": "5d01d604be26767ddfc77cf68114bbf0f6dbae4752b3bb45812a4a64d5731dc5",
+  "generalCurrentWholeContainerBytes": 5346884,
+  "generalOriginalWholeContainerSha256": null,
+  "generalOnlyThisNativePointLifecycleClosed": true,
+  "rawElasticToAcceptedStretchyCorrectionRetained": true,
+  "allOldReportsSealsFailedAttemptsFinalsImmutable": true,
+  "independentIntegrityLifecycleCollisionControls": 23,
+  "parentSevenOrElevenNegativesNotIndependentAcceptance": true,
+  "mutableObservabilityCapture": [
+    {
+      "path": ".artifacts/continuation/phase12-usage.json",
+      "historicalExpectedSha256": "1c7f3e6c28d2bfb13e17b80d19daf4df1acd393991c10d89bdead08ab88b5265",
+      "actualCapturedSha256": "5da858b334c02ededd1f916d23747af606cbb2d59eb934106139cd3fc0ba1f5d",
+      "entireActualParentResourceReceipt": {
+        "session": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+        "category": "nature",
+        "measuredAt": "2026-11-01T15:38:05.580832+00:00",
+        "availableMiB": 11409,
+        "service": {
+          "MainPID": "3037631",
+          "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/hexy-copilot-continuation-20261030.service",
+          "MemoryCurrent": "5535715328",
+          "MemoryPeak": "6444322816",
+          "MemoryHigh": "6442450944",
+          "MemoryMax": "8589934592",
+          "MemorySwapMax": "1073741824",
+          "ActiveState": "active"
+        },
+        "memoryEvents": {
+          "low": 0,
+          "high": 1020,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "nodeOptions": "--max-old-space-size=2048",
+        "accounting": "Actual service counters; AI token billing not measured by this runner."
+      },
+      "reason": "Approved parent observability necessarily refreshes per command. Not a content/source/reservation judgment or historical identity claim."
+    }
+  ],
+  "originalHistoricalParentResourceReceiptNotRecovered": true,
+  "noResourceAdminSystemProcHttpGitHeavyRunnerOrHistoricalProducerExecution": true,
+  "artifacts": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/28ENTRY-REVIEW.json",
+      "bytes": 1293704,
+      "sha256": "7a1776db81e91cfd262b0cce05a72f58c376f32b902c8451f2082bfcbc8d4bce"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/END-HASHES.json",
+      "bytes": 162238,
+      "sha256": "b7f6743b2957b1f8d6e19ba1123c69e379c3fbe76dfd8bb18e0ea605c73da649"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/REPORT.md",
+      "bytes": 14821,
+      "sha256": "299885ba39edf018ee2a7d8a7ab49dc82c39d00fa8e6b956864dc51fa7c0652a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/START-HASHES.json",
+      "bytes": 151012,
+      "sha256": "9b9281c47ac94f32be9b52a0901269e99793aa4228d4d347811a0c0a8a8d1a64"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/START-SUPPLEMENTAL-HASHES.json",
+      "bytes": 6727,
+      "sha256": "9d5d6a512f3f8ffec8ccdd0f0c37de21bd51beb0bb911c02e3753192db66906c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/current-native-R10-late-delta.json",
+      "bytes": 89796,
+      "sha256": "ffe52ac0d81480ba5a6bdfdcf06afd2d76922a243917c09e16c65db60487be03"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/current-native-header-bindings.json",
+      "bytes": 118845,
+      "sha256": "d9655f6843eccfe0c4bd09bf6ed64a0e7a8a43ec856dde5a46c346703906fd85"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/current-native-source-specificdispositions.json",
+      "bytes": 9568760,
+      "sha256": "ff2e9f78745c394f1678e445c43d8a9777e6a9bf6b334cc3d041482ae840428f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/meaningful-negativeproofs-integrity-lifecycle.json",
+      "bytes": 12922,
+      "sha256": "7440f61d61767419f50e30f5dacfc25c578b3cba291c38cc19d6a7c1396494c5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/meaningful-negativeproofs-matcher.json",
+      "bytes": 49898,
+      "sha256": "ee5780cb7ea6e1444c91dc36a82f0b4cf013ce0efc849ba1f50142ae7a963479"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/pointlifecycle-review.json",
+      "bytes": 2552328,
+      "sha256": "cf526a10fef575702c4f5aac52c1fedd1a5cc6e4da2c7a563409d4541d0a63cf"
+    }
+  ],
+  "lateR10SeparateNativeDelta": {
+    "path": ".artifacts/continuation/parallel-decks/science-en-hard-03/review-v1/current-native-R10-late-delta.json",
+    "sha256": "ffe52ac0d81480ba5a6bdfdcf06afd2d76922a243917c09e16c65db60487be03",
+    "r10Sha256": "7dbac48f2d69c3bb0f8559accab818a169a44124b2d0ad9d40f6161dd3d60f15",
+    "all504R9RecordsUnchanged": true,
+    "nativeNewQuestions": 56,
+    "alreadyOriginal4256Questions": 0,
+    "independent1568SemanticDispositionsPending": true,
+    "notSilentlyRebasedIntoFrozenContentVerdict": true
+  },
+  "integrationReviewPending": true,
+  "runtimeCoverageAndBrowserAcceptanceNotClaimed": true,
+  "releaseCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "nextStep": "Additive same-reviewer exact R10 materialization and 28x56 full-predicate/all-alias semantic review, then separate one-deck integration freeze/review and coordinator same-snapshot release gates."
+}

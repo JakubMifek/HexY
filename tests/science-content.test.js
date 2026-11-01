@@ -15,8 +15,9 @@ test('all 224 independently reviewed Science additions bind exact pack bytes, cl
    * initial: string, evidence: {url: string}[]}[]}} */
   const ledger = JSON.parse(bytes.toString());
   const additions = bundledPacks().filter((pack) =>
-    /^science-(cs|en)-(easy|medium|hard)-\d{2}$/.test(pack.id),
+    ledger.packs.some((receipt) => receipt.id === pack.id),
   );
+  expect(ledger.packs).toHaveLength(8);
   expect(additions).toHaveLength(8);
   expect(ledger.entries).toHaveLength(224);
   expect(ledger.entries.map((entry) => entry.id).sort()).toEqual(
