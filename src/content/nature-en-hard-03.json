@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "nature-en-hard-03",
+  "title": "Nature · Hard 03",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-en-hard-03-01",
+      "initial": "A",
+      "text": "What botanical process detaches a leaf or fruit through a specialised separation zone at its base?",
+      "answer": "Abscission",
+      "aliases": ["abscission process"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Abscission"]
+    },
+    {
+      "id": "nature-en-hard-03-02",
+      "initial": "B",
+      "text": "What adjective describes a compound leaf whose primary divisions line a central axis like a feather, with each division itself bearing featherlike rows of leaflets?",
+      "answer": "Bipinnate",
+      "aliases": [
+        "bipinnately compound",
+        "twice-pinnate",
+        "twice pinnate",
+        "double-pinnate",
+        "double pinnate",
+        "doubly pinnate"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Pinnation"]
+    },
+    {
+      "id": "nature-en-hard-03-03",
+      "initial": "C",
+      "text": "What heat-saving mechanism lets warm blood flowing towards a bird's feet transfer heat to cooler blood returning in adjacent vessels?",
+      "answer": "Countercurrent exchange",
+      "aliases": [
+        "counter-current exchange",
+        "counter current exchange",
+        "countercurrent heat exchange",
+        "counter-current heat exchange",
+        "counter current heat exchange",
+        "countercurrent heat transfer",
+        "counter-current heat transfer"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Countercurrent_exchange"]
+    },
+    {
+      "id": "nature-en-hard-03-04",
+      "initial": "CH",
+      "text": "What name is given to plant parenchyma tissue specialised for photosynthesis and rich in chloroplasts?",
+      "answer": "Chlorenchyma",
+      "aliases": ["photosynthetic parenchyma", "assimilatory parenchyma"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chlorenchyma"]
+    },
+    {
+      "id": "nature-en-hard-03-05",
+      "initial": "D",
+      "text": "What botanical term describes a mature anther or dry fruit splitting open to release its contents?",
+      "answer": "Dehiscence",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Dehiscence_(botany)"]
+    },
+    {
+      "id": "nature-en-hard-03-06",
+      "initial": "E",
+      "text": "What genetic interaction occurs when variation at one gene masks or modifies the phenotypic effect of another gene?",
+      "answer": "Epistasis",
+      "aliases": ["epistatic interaction"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Epistasis"]
+    },
+    {
+      "id": "nature-en-hard-03-07",
+      "initial": "F",
+      "text": "What is the stalk that attaches a plant ovule to the placenta inside the ovary called?",
+      "answer": "Funiculus",
+      "aliases": ["funicle", "ovule stalk", "funiculus ovuli"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ovule"]
+    },
+    {
+      "id": "nature-en-hard-03-08",
+      "initial": "G",
+      "text": "What is a small multicellular propagule that can detach and grow into a new individual, as in a liverwort's cup-shaped structures?",
+      "answer": "Gemma",
+      "aliases": ["gemmae", "gemmas"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Gemma_(botany)"]
+    },
+    {
+      "id": "nature-en-hard-03-09",
+      "initial": "H",
+      "text": "What term describes the production of distinctly different leaf forms by a single plant, as in some aquatic plants with submerged and aerial leaves?",
+      "answer": "Heterophylly",
+      "aliases": [],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Heterophylly"]
+    },
+    {
+      "id": "nature-en-hard-03-10",
+      "initial": "I",
+      "text": "What is the membranous covering that protects a developing fern sorus in species that possess one?",
+      "answer": "Indusium",
+      "aliases": ["indusia"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sorus"]
+    },
+    {
+      "id": "nature-en-hard-03-11",
+      "initial": "J",
+      "text": "Which class of insect hormones maintains larval characteristics during moulting and prevents premature metamorphosis?",
+      "answer": "Juvenile hormone",
+      "aliases": ["juvenile hormones", "JH", "neotenin"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Juvenile_hormone"]
+    },
+    {
+      "id": "nature-en-hard-03-12",
+      "initial": "K",
+      "text": "What ecological interaction involves an animal stealing food that another animal has caught or collected?",
+      "answer": "Kleptoparasitism",
+      "aliases": ["cleptoparasitism", "food parasitism", "clepto-parasitism"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kleptoparasitism"]
+    },
+    {
+      "id": "nature-en-hard-03-13",
+      "initial": "L",
+      "text": "What is the membranous or hairy appendage on a grass leaf at the junction of its blade and sheath?",
+      "answer": "Ligule",
+      "aliases": ["ligules"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ligule"]
+    },
+    {
+      "id": "nature-en-hard-03-14",
+      "initial": "M",
+      "text": "What thick, gluey substance rich in polysaccharides is produced by many plants and is especially abundant in flax seeds?",
+      "answer": "Mucilage",
+      "aliases": ["plant mucilage"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Mucilage"]
+    },
+    {
+      "id": "nature-en-hard-03-15",
+      "initial": "N",
+      "text": "What term describes the daily opening or closing of leaves or petals in response to the light-dark cycle?",
+      "answer": "Nyctinasty",
+      "aliases": ["nyctinastic movement", "sleep movement", "sleep movements"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nyctinasty"]
+    },
+    {
+      "id": "nature-en-hard-03-16",
+      "initial": "O",
+      "text": "What specialised floral structure produces scent to attract pollinators?",
+      "answer": "Osmophore",
+      "aliases": ["osmophores", "scent gland", "floral scent gland"],
+      "category": "nature",
+      "language": "en",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12487279/fullTextXML"
+      ]
+    },
+    {
+      "id": "nature-en-hard-03-17",
+      "initial": "P",
+      "text": "What lateral meristem produces cork to the outside and phelloderm to the inside during secondary growth?",
+      "answer": "Phellogen",
+      "aliases": [
+        "cork cambium",
+        "bark cambium",
+        "peri-cambium",
+        "pericambium"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cork_cambium"]
+    },
+    {
+      "id": "nature-en-hard-03-18",
+      "initial": "Q",
+      "text": "What common name describes a small lycophyte with quill-like leaves whose swollen bases contain sporangia, often growing submerged in water?",
+      "answer": "Quillwort",
+      "aliases": ["quillworts", "Isoetes"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Isoetes"]
+    },
+    {
+      "id": "nature-en-hard-03-19",
+      "initial": "R",
+      "text": "What is the main axis of a compound leaf along which the leaflets are attached called?",
+      "answer": "Rachis",
+      "aliases": ["rhachis", "leaf rachis"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rachis"]
+    },
+    {
+      "id": "nature-en-hard-03-20",
+      "initial": "S",
+      "text": "What plant tissue provides rigid support through cells with thick, usually lignified secondary walls that are typically dead at maturity?",
+      "answer": "Sclerenchyma",
+      "aliases": ["sclerenchymatous tissue"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ground_tissue"]
+    },
+    {
+      "id": "nature-en-hard-03-21",
+      "initial": "SH",
+      "text": "Which Australian blue-tongued skink has a short, blunt tail resembling its head?",
+      "answer": "Shingleback",
+      "aliases": [
+        "shingleback skink",
+        "shingleback lizard",
+        "bobtail",
+        "bobtail lizard",
+        "two-headed skink",
+        "two headed skink",
+        "sleepy lizard",
+        "pinecone lizard",
+        "stumpy lizard",
+        "stumpy-tailed lizard",
+        "stumpy tailed lizard",
+        "stump-tailed lizard",
+        "stump tailed lizard",
+        "bogeye",
+        "boggi",
+        "Tiliqua rugosa"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Tiliqua_rugosa"]
+    },
+    {
+      "id": "nature-en-hard-03-22",
+      "initial": "T",
+      "text": "What general botanical term describes a hairlike outgrowth of the epidermis, which may be glandular or non-glandular?",
+      "answer": "Trichome",
+      "aliases": ["trichomes", "epidermal hair", "plant hair"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Trichome"]
+    },
+    {
+      "id": "nature-en-hard-03-23",
+      "initial": "U",
+      "text": "What gland near the base of a bird's tail produces an oily secretion used during preening?",
+      "answer": "Uropygial gland",
+      "aliases": ["preen gland", "oil gland"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Uropygial_gland"]
+    },
+    {
+      "id": "nature-en-hard-03-24",
+      "initial": "V",
+      "text": "What botanical term describes the arrangement of young leaves while they are still in a bud?",
+      "answer": "Vernation",
+      "aliases": ["leafing"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Vernation"]
+    },
+    {
+      "id": "nature-en-hard-03-25",
+      "initial": "W",
+      "text": "What peroxisome-derived organelle plugs septal pores after injury in the hyphae of many filamentous ascomycete fungi?",
+      "answer": "Woronin body",
+      "aliases": ["Woronin bodies"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Woronin_body"]
+    },
+    {
+      "id": "nature-en-hard-03-26",
+      "initial": "X",
+      "text": "What botanical term describes pollen transfer from the anthers of one plant to the stigma of another individual plant?",
+      "answer": "Xenogamy",
+      "aliases": [
+        "cross-pollination",
+        "cross pollination",
+        "allogamy",
+        "outcrossing",
+        "cross-fertilization",
+        "cross-fertilisation",
+        "cross fertilization",
+        "cross fertilisation"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": [
+        "https://en.wiktionary.org/wiki/xenogamy",
+        "https://en.wikipedia.org/wiki/Allogamy"
+      ]
+    },
+    {
+      "id": "nature-en-hard-03-27",
+      "initial": "Y",
+      "text": "What endocrine organ in crustaceans produces ecdysteroid moulting hormones?",
+      "answer": "Y-organ",
+      "aliases": ["Y organ", "Y-organs", "Y organs"],
+      "category": "nature",
+      "language": "en",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11352189/fullTextXML"
+      ]
+    },
+    {
+      "id": "nature-en-hard-03-28",
+      "initial": "Z",
+      "text": "What is the condition of a flower that can be divided into mirror-image halves in only one plane?",
+      "answer": "Zygomorphy",
+      "aliases": [
+        "zygomorphic symmetry",
+        "zygomorphism",
+        "bilateral floral symmetry",
+        "bilateral symmetry",
+        "monosymmetry",
+        "floral monosymmetry"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Floral_symmetry"]
+    }
+  ]
+}

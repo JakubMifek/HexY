@@ -33,7 +33,25 @@ immutability and all content-quality requirements remain unchanged.
 
 Last updated: 2026-11-01.
 
-**Incremental delivery checkpoint:** the Nature Easy03 and Medium03 decks are
+**Current incremental checkpoint:** ScienceEnglishHard03 is independently
+cleared and actually privately delivered as `6bdc889`:135 decks/3,780 questions.
+Exact972 units/41 files/all63 runtime coverage and58 both-engine native cases
+passed, with actual remote/private revision, full served deck and unchanged
+original expired-game/library/deadline/reload verification. The original
+missed generated-coverage archive was disclosed; exact whole-byte historical
+recovery was independently cleared without a retroactive archival claim.
+This isolated next candidate adds only NatureEnglishHard03, giving136/3,808;
+all28 entire questions/full supporting arrays and original whole adultHard
+judgments are inherited and independently verified. Current R10 content/
+semantic/lifecycle review is cleared:865 source-specific nominations,
+378 internal pairs and1112 exact continuity checks. One-deck integration release
+review is independently CLEARED after NRR-01's exact raw-library reload
+correction; the initial rejected receipt remains preserved. Mandatory
+same-snapshot postreview/private promotion and old-data checks are separate
+delivery gates, not preclaimed by this content snapshot.
+Final330/9,240/all66 quotas are unchanged; other159-working drafts stay isolated.
+
+**Historical pre-Science delivery checkpoint:** the Nature Easy03 and Medium03 decks are
 independently cleared and privately delivered as `5b7f6e1`: 134 decks / 3,752
 questions; all preceding pack bytes/order and actual old-game/library/deadline
 recovery preserved. The Medium03 original deadline legitimately expired;

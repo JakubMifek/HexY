@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "deckId": "nature-en-hard-03",
+  "reviewRole": "sole independently assigned read-only reviewer; not coordinator/author",
+  "reviewerInternalTaskId": null,
+  "startedAt": "2026-11-01T17:47:35.298510+00:00",
+  "completedAt": "2026-11-01T18:06:47.754403+00:00",
+  "verdict": "CLEARED FOR BOUNDED 28-ENTRY CONTENT / CURRENT SEMANTIC / LIFECYCLE REVIEW ONLY",
+  "contentSemanticLifecycleCleared": true,
+  "releaseCleared": false,
+  "integrationCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "candidateSha256": "5849ed9eca11e9dc478902fab7db414149467bd83a37b4d0bb3917b0f409a6ed",
+  "frozenHandoffSha256": "d3268f5e7916d6e6cfe772f24146c9576630344117493476f125b067d6e21af0",
+  "baseline": "6bdc88920f8ca3c8def92932fb77f2d769ae8aee",
+  "baselineDecks": 135,
+  "baselineQuestions": 3780,
+  "reservationRevision": 10,
+  "reservationSha256": "7dbac48f2d69c3bb0f8559accab818a169a44124b2d0ad9d40f6161dd3d60f15",
+  "originalActualInputCount": 149,
+  "currentFrozenInputGuardCount": 520,
+  "currentFrozenInputBytes": 479953171,
+  "additionalExactFileChecks": 10,
+  "additionalExactNativeContainers": 2,
+  "uniqueInputFilesIncludingAdditionalChecks": 526,
+  "startEndAndFinalInputGuardsEqual": true,
+  "guardMismatches": [],
+  "counts": {
+    "candidateEntries": 28,
+    "wholeInitialQuestionsUnchanged": 26,
+    "acceptedChangedInitialQuestions": 2,
+    "wholeSupportingArrays": 28,
+    "wholeEvidenceMembers": 29,
+    "legitimateAliases": 86,
+    "entireOriginalIndependentSemanticUses": 86,
+    "priorOwnLineageDispositions": 64,
+    "priorSubstantiveCounterpartDispositions": 22,
+    "nativeVariants": 154,
+    "nativeQuestions": 4312,
+    "nativeSourceContexts": 334,
+    "uniqueNativeSourcePaths": 292,
+    "nativePairsNavigated": 120736,
+    "independentlyReadConservativeNominations": 865,
+    "currentDistinctPredicateNominations": 833,
+    "exactCurrentSelfRepresentations": 28,
+    "realSourceSpecificCzechParallels": 4,
+    "extraNonlexicalRelationships": 8,
+    "internalCandidatePairs": 378,
+    "deliveredDeltaQuestions": 84,
+    "novelR10MediumQuestions": 56,
+    "smallNativePointReceipts": 66,
+    "twoContainerAffectedExactPointers": 33,
+    "wholeObjectContinuityChecks": 1112,
+    "proofTests": 19,
+    "proofPositiveChecks": 2,
+    "proofNegativeChecks": 17,
+    "proofLimitDemonstrations": 3
+  },
+  "originalEntireAdultHardRatingSha256": "6ac4098fe1a242d7f2cdf0df1a37065bb01b23f30587ff37de4d50065718e0bf",
+  "originalAllThreeRatingFileRetained": true,
+  "factualResearchOrReratingPerformed": false,
+  "historicalProducersExecuted": false,
+  "globalInventoriesExpandedOrLoaded": false,
+  "heavyRunnerUsed": false,
+  "networkOrResourceServiceProbesUsed": false,
+  "originalWxOutputsRegenerated": false,
+  "frozenInputsModified": false,
+  "retainedDeliveredLocalHeadBothChecks": "6bdc88920f8ca3c8def92932fb77f2d769ae8aee",
+  "excludedPrimaryLocalHeadBothChecks": "4fe0bc54854a2b295e73aba68fe93e193ca2f000",
+  "actualRemotePrivateDeploymentIndependentlyChecked": false,
+  "newOutsideFrozen136ChecksCanaryOrGeneralGeoV12V11ArtifactsAdopted": false,
+  "priorFindings": {
+    "P12-NAT-B01-R3": "RESOLVED; exact accepted Bipinnate correction inherited",
+    "P12-NAT-B01-R2": "RESOLVED; exact accepted clepto-parasitism alias correction inherited"
+  },
+  "candidateFindings": [],
+  "unresolvedGlobalAuthority": {
+    "historicalSportsEnglandStale96CurrentEqualiserAndGeographyAuthority": "UNKNOWN; NOT RETIRED OR GLOBALLY CLEARED",
+    "affectedCandidateApplicableRows": [],
+    "dispositionReason": "No one of the exact86 candidate uses routes to that authority; full candidate biological facts identify neither England national-team membership nor goal equalisation. No unknown-language/source-family exemption used."
+  },
+  "scopeLimitations": [
+    "Not integration/release/category/Phase12 clearance",
+    "No counterpart deck/source-family certification",
+    "Actual browser/export/print/recovery/full-runtime separate coverage/quality/private deployment/old-data gates still required",
+    "New baseline/reservation/native/header/alias/evidence/review/rating/proposal deltas require affected source-specific recheck; no silent rebase"
+  ],
+  "reportPath": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/REPORT.md",
+  "reportSha256": "12906e5d5c82b8d4fa2cd1e247de7afe6d5d2ca6ad34c0f0501aad93aeae5803",
+  "artifacts": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/CONTINUITY-CHECKS.json",
+      "bytes": 1189259,
+      "sha256": "76904bc43211e3d373a3d429873ee7fe382de52dcae19edb1d61eab3bdb41c24"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/END-INPUT-HASHES.json",
+      "bytes": 196419,
+      "sha256": "c281ed73a8cb972f8902cbdfe122eaf11083142db73231df9125f243a576c456"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/EVIDENCE-ENDPOINT-REPLAY.json",
+      "bytes": 33090,
+      "sha256": "f60262c39591458756bf34dd93e381383b3f3fd114c953b20521433bb6fe1272"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/FINAL-INPUT-HASHES.json",
+      "bytes": 196421,
+      "sha256": "1740becabae5a682e4f662dffa770725fc5cdd1e05a2fcad62dbb0664f5de2c6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NATIVE-POINT-REPLAY.json",
+      "bytes": 91944,
+      "sha256": "6cea2cf2eecbe0ff27555fd3bfd9266e0ebd8151f0e8695ad49d5db394c5ab67"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NATIVE-SCAN.json",
+      "bytes": 191017,
+      "sha256": "54f27dcb54b67de75faac10507394053de2394d1fba4504a98349bd918a7a599"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-01.json",
+      "bytes": 54839,
+      "sha256": "01bc03513f1fb3819e6ba406dc8aba1cf0a19ec5e72550a550d9c5f784b0756f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-02.json",
+      "bytes": 16337,
+      "sha256": "1e51badcb6402cfd9e2feaa6c262b744f07507dc1d87e75c4c9d44680d259a4e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-03.json",
+      "bytes": 112422,
+      "sha256": "5cc47d247cefd0a21f907b7ac6301b556c2a5eab92e365c37ebd17b76f53ec25"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-04.json",
+      "bytes": 34802,
+      "sha256": "6bc4d2dac46f0bf65b0161172b34e69a6e1da0f59138fba968df5e1400c627e8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-05.json",
+      "bytes": 130561,
+      "sha256": "bbd778575a0dd741e1785a1a8445827074059fb8cb9d90670aad2df41eafafe8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-06.json",
+      "bytes": 187223,
+      "sha256": "a129f4880e848a0cfc1397abdaa7c4909ecd9f625a7537f3f4e46118a3b34f68"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-07.json",
+      "bytes": 17877,
+      "sha256": "5ee59509e03641e2a3f64cbf7cadaa25777f11fcde239857a63c982031432b37"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-08.json",
+      "bytes": 23103,
+      "sha256": "fe0f48d3e91bab5490da0ce10b9c3cc8b871ffd0d50dd3f07f02dd5e9b43b5ed"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-09.json",
+      "bytes": 19532,
+      "sha256": "9eed33044fbd045dbe2393d85f804010e41612c64fae5914e651d836a849b676"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-10.json",
+      "bytes": 34269,
+      "sha256": "310eecbb22b8a4435eca996a3024b3425db4e83581b4a514410abeaa0c95695a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-11.json",
+      "bytes": 64423,
+      "sha256": "0f9951bdf29e422340128db72f6b23b015057be5a38a6946a7d61b2294ea4823"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-12.json",
+      "bytes": 45009,
+      "sha256": "211ccd648f68deb37438f6e98d8fad7adcabc3c7924637a0a892aa121a4e9ac3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-13.json",
+      "bytes": 108564,
+      "sha256": "fbf5b0354b944dc7855fcd565ad14e3297b721cf2ce1c5aaa18893c16dc68dc7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-14.json",
+      "bytes": 507123,
+      "sha256": "1581521a16ccdb47850644ee210acbd9689e902f2d8d24ae0e82dc742e3c1fa8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-15.json",
+      "bytes": 13839,
+      "sha256": "0f3cff31bd823778533e0c6405c99e8dfa7ff6a5688cb474278710a70a7e3e44"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-16.json",
+      "bytes": 40902,
+      "sha256": "183677538b194d062be63e8e8a3f93c15ca6318540760519337db6e4207f8f9b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-17.json",
+      "bytes": 18919,
+      "sha256": "9405c6cadd49c19a5e9673cc516c56dc453d3502513ab04f46f541a5a251d53e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-18.json",
+      "bytes": 18663,
+      "sha256": "7d92e1b871a20787e1d91dfeaf7f70e844d3662e0a3e1c577496b3c9163d51b9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-19.json",
+      "bytes": 10676,
+      "sha256": "8f57a6300241e76d931c95c83c9f28557c24cdeb0aae2df11e9e4c1bc4934dca"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-20.json",
+      "bytes": 142579,
+      "sha256": "775d5fa820dc4d86224f7fe2c9301dbcc9dcb79230b8c2b21ca98ed077b311ed"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-21.json",
+      "bytes": 7143,
+      "sha256": "0fa3aa05efedb9146333237427683535eb9fa0ab62d82a341692262bdc5abec9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-22.json",
+      "bytes": 30358,
+      "sha256": "a9b091b3589dd77413a8a5744d461f0d308b983c96d28e8d81ba5060ce80b095"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-23.json",
+      "bytes": 9340,
+      "sha256": "bbc944ec25643fdefa1ae2999e3b79e3ea1bc1732e5de7442e251215e809231c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-24.json",
+      "bytes": 16064,
+      "sha256": "d6ed02bf12f66302fc0417b4cc5570502a4c375e9da0ae31426ac804bcfcdf4c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-25.json",
+      "bytes": 55740,
+      "sha256": "c7ea1e156426e6694e420bbf492c2d4a057d8016ae9c8e999d3c40b33c0b7cb8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-26.json",
+      "bytes": 37479,
+      "sha256": "e2f70e3a4b3ba07528d8b77c791b8896d2cc7f797e9ee6955548b89ec087e10b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-27.json",
+      "bytes": 50239,
+      "sha256": "cb59fc40953731ce9d5c97878350f05e336a0d0e26b5252b77f09ae8d86c14e2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/NOMINATIONS-28.json",
+      "bytes": 166331,
+      "sha256": "0cb1144b21ef3ee35884d26673b2ab8368baae17ee866a92635bae4694a66d07"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/ORIGINAL-INDEPENDENT-REPLAY.json",
+      "bytes": 29619,
+      "sha256": "940c45263f84bf779a2ab796928319a061071e26c90dad25872c12f84818ae84"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/PROOF-REPLAY.json",
+      "bytes": 5204,
+      "sha256": "37bc1403ff9b2cf347472f804d3f1e857fcb258edec14ad40e3459bd9faaa489"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/REPORT.md",
+      "bytes": 24423,
+      "sha256": "12906e5d5c82b8d4fa2cd1e247de7afe6d5d2ca6ad34c0f0501aad93aeae5803"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/SEMANTIC-DECISIONS.json",
+      "bytes": 1571368,
+      "sha256": "cb374896e66d06a5411d4b8cdf1c2c580521de2067aa4b8596ce1b0e4831be6c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/START-EXACT-NATIVE-GUARDS.json",
+      "bytes": 631,
+      "sha256": "e30cd5b8396a444f9dee58ad52ba3e56ba7943faf2be29adcf4f916c7acd3a63"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/START-INPUT-HASHES.json",
+      "bytes": 195323,
+      "sha256": "9db148c81b2f8c116b780c157b106223fd0b7d48d83e8125b1ee24c6fbcc1e41"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/check.py",
+      "bytes": 27191,
+      "sha256": "23823e9b1881fb6b784c93ce957fe472caeaba2c8f8ad490f25a132c830aa2e9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/proof-replay.mjs",
+      "bytes": 4654,
+      "sha256": "50160b443d0c6feb55a31663c4e48e2da52368b522946d75acc24d56547650c0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/review-v1/semantic-decisions.py",
+      "bytes": 17361,
+      "sha256": "a8623d0414409df392ac0bf78ccd049548328cb61f3afd96ca94bd77bf7b62fd"
+    }
+  ],
+  "sealSelfHashNotIncluded": true
+}

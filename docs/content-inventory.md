@@ -1,6 +1,28 @@
 # Content inventory and provenance
 
-## Phase12 one-deck integration candidate
+## Current Phase12 one-deck integration candidate
+
+This isolated snapshot contains **136 decks / 3,808 entries**: all135 packs
+actually privately delivered as `6bdc889` unchanged, followed only by
+`nature-en-hard-03` (English, Hard,28 entries).
+Nature has15 decks/420 entries, three decks in each English difficulty;
+Science has13 decks/364 entries, three English/Hard decks. All other
+language/difficulty combinations retain two decks. The
+[shipment manifest](phase-12-deck-inventory.json) and
+[new deck ledger](phase-12-nature-en-hard-03-sources.json) preserve explicit
+shipped inventory and exact complete source/alias/adult-rating judgments.
+[Independent current content/semantic/lifecycle review](../reviews/phase-12-nature-en-hard-03-content.md)
+and its [exact original seal](phase-12-nature-en-hard-03-content-seal.json)
+clear this bounded28-entry scope through R10:29 full evidence members,
+86 aliases,1112 exact continuity checks,865 source-specific nominations and
+378 internal pairs. [One-deck integration release review](../reviews/phase-12-nature-en-hard-03-release.md)
+and its [original seal](phase-12-nature-en-hard-03-release-seal.json) are cleared
+after NRR-01's exact raw-library reload correction; the rejected initial receipt
+remains preserved. Mandatory same-snapshot postreview/private promotion and
+old-data checks are separate delivery gates, not preclaimed here. No other draft is bundled;
+final330/9,240/all66 five-deck quotas and independent phase gate are unchanged.
+
+## Historical Science one-deck integration checkpoint
 
 This isolated snapshot contains **135 decks / 3,780 entries**: all 134 packs
 privately delivered as `5b7f6e1` unchanged, followed by only

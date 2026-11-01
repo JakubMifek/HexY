@@ -1,5 +1,24 @@
 # HexY
 
+**Phase 12 incremental candidate: 136 decks / 3,808 questions.** This snapshot
+adds only `nature-en-hard-03` to actual private revision `6bdc889`
+(135 decks / 3,780 questions), preserving every preceding pack byte and order.
+Its [source ledger](docs/phase-12-nature-en-hard-03-sources.json) retains all28
+whole-question/full-evidence bindings, original and accepted correction receipts,
+and the entire original general-adult Hard rating.
+[Independent current R10 content/semantic/lifecycle review](reviews/phase-12-nature-en-hard-03-content.md)
+is cleared: all28 entries,29 full evidence members,86 aliases and1112
+continuity checks, with865 source-specific nominations and378 internal pairs.
+Prereview976 units/all63 runtime coverage and64 both-engine native cases passed.
+[Independent one-deck integration review](reviews/phase-12-nature-en-hard-03-release.md)
+is cleared after the exact raw-library reload correction NRR-01; its rejected
+initial receipt remains preserved. Mandatory same-snapshot postreview and actual
+private promotion/old-data results are separate delivery gates, not preclaimed
+by this content ledger. The final330/9,240/all66 five-deck gate
+is unchanged; the candidate count is not deck, category or phase clearance.
+
+## Historical Science delivery checkpoint
+
 **Phase 12 incremental candidate: 135 decks / 3,780 questions.** This snapshot
 adds only `science-en-hard-03` to the privately delivered `5b7f6e1` baseline
 (134 decks / 3,752 questions), preserving all 134 pack bytes and their ordering.

@@ -12,7 +12,25 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
-**Current incremental checkpoint:** delivered `5b7f6e1`, 134 decks /3,752
+**Current incremental checkpoint:** actual private/remote `6bdc889`,135 decks/
+3,780 questions after separately cleared ScienceEnglishHard03. Exact972 units/
+41 files/all63 runtime coverage and58 native cases plus actual served deck
+and original expired-game/library/deadline/reload preservation passed.
+Its disclosed missed coverage archive has independently cleared exact-byte
+recovery; that does not erase the original failure or clear another scope.
+This next isolated candidate adds only NatureEnglishHard03 (136/3,808),
+preserving all135 old pack bytes/order and all28 complete evidence arrays/
+original whole adultHard. Current R10 content/source-specific semantic/lifecycle
+review is independently cleared through865 nominations/378 internal pairs/
+1112 continuity checks. One-deck integration release review is independently
+CLEARED after NRR-01's exact raw-library reload correction; its rejected initial
+receipt is retained. Mandatory same-snapshot postreview/private promotion and
+old-data verification are separate delivery gates, not preclaimed here.
+Prereview976 units/41 files/all63 runtime coverage and64 both-engine native
+cases passed; these are not release or phase clearance.
+Final330/9,240/all66 gate is unchanged.
+
+**Historical pre-Science incremental checkpoint:** delivered `5b7f6e1`, 134 decks /3,752
 questions. NatureEnglishEasy03 and Medium03 were added in separate independently
 cleared one-deck commits, with current reservation rebinds, same-source checks
 and actual private served-deck/old-data verification. Medium03 passed968 units/

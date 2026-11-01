@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sealedAt": "2026-11-01T18:49:11.830725+00:00",
+  "deckId": "nature-en-hard-03",
+  "scope": "Same-deck NRR-01-only correction with exact unchanged previous six-lens integration/content inheritance",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "resolvedFindings": ["NRR-01"],
+  "unresolvedCandidateFindings": [],
+  "frozenReleaseInputSha256": "95564fe44da52a3c34a71f35f72887c91087bdea6a4ef3333d839d08a6a6af3a",
+  "predecessorReleaseReviewReportSha256": "496eceafc895bebdc62941bd63944d68c1c6f3ceb9b322fe014d52dd98d41f8d",
+  "predecessorReleaseReviewSealSha256": "383ec5a1cfb701d4b98dd460d467f000da8b49fb497343274511e1ebc0a21ab7",
+  "originalContentReportSha256": "12906e5d5c82b8d4fa2cd1e247de7afe6d5d2ca6ad34c0f0501aad93aeae5803",
+  "originalContentSealSha256": "4fe58b6d68b285c696905eb3df159e99e26c69518f2a73fe81e3c12792a7a443",
+  "baseline": "6bdc88920f8ca3c8def92932fb77f2d769ae8aee",
+  "candidateDecks": 136,
+  "candidateQuestions": 3808,
+  "sourceFilesUnchanged": 384,
+  "originalProofInputsUnchanged": 14,
+  "explicitCorrectionInputs": 5,
+  "sourceProofBaselineCheckRows": 538,
+  "totalBoundedSourceProofContinuityCheckRows": 661,
+  "nativeSourceContextCheckRows": 334,
+  "uniqueNativeSourcePaths": 292,
+  "startEndDrift": false,
+  "independentActualCallerHelperPureCasesPassed": 12,
+  "parentFocusedPureCasesPassed": 12,
+  "parentSeparateOldBaselineChromiumCasesPassed": 2,
+  "reviewerBrowserNetworkProfileExecution": false,
+  "effectivePrivateAfterPlan": ".artifacts/continuation/nature-hard03-private-after-v2.mjs",
+  "effectivePrivateAfterPlanSha256": "330e344502426bacfdcc3942ccd705201e925340a37ab0f5d8a3db8aa5bb2f9b",
+  "v1PrivatePlanHistoricalNotEffective": true,
+  "originalBeforeSha256": "6ccb4e26555ae23eaea66646f2603d7f21385fa022082656dba16d2e53ae1e32",
+  "originalDeadline": 1793559753614,
+  "deadlineNotResetExtendedBorrowed": true,
+  "deadlineUnexpiredAtEndGuard": true,
+  "original520Entire479MBSweepRepeated": false,
+  "twoExactNativeContainersRemainOutsideOriginal520List": true,
+  "candidateSnapshotClearedForCoordinatorPostreviewAndSubsequentAuthorizedDeckRelease": true,
+  "postreviewChecksPerformed": false,
+  "commitPushPromotionPerformed": false,
+  "actualPrivateAfterPromotionVerified": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "futurePublisherMetadataRequiresExplicitNarrowFreezeReview": true,
+  "reportSha256": "aeeaac9923a34035a7fc3c97ddf8fbc71d58a618065373795f9176c62109eaed",
+  "artifacts": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/CALLER-DIFF.txt",
+      "sha256": "da24ee173f6476298efb88abaefff27b1f58366ebf00f3c860ff6a9253aaaf53",
+      "bytes": 2219
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/END-GUARDS.json",
+      "sha256": "a901bd908399d25f0b3e4d764a58b0b76419b50db55215e648126d7316735662",
+      "bytes": 423173
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/INDEPENDENT-PURE-REPLAY.json",
+      "sha256": "148dd452f44d97bce65b6cc3aa6125fcbac5584825b1676b640bd8828346c877",
+      "bytes": 2393
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/REPORT.md",
+      "sha256": "aeeaac9923a34035a7fc3c97ddf8fbc71d58a618065373795f9176c62109eaed",
+      "bytes": 10729
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/START-CORRECTED-GUARDS.json",
+      "sha256": "c49fcf58e992979f0bca659bdfabf72a05397b78d88a48f36850f859e3f84595",
+      "bytes": 423160
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/START-GUARDS.json",
+      "sha256": "a4e6132da07c4e814be4dad8afd4c73014bb76ba8e82c629748701a4defc3ea3",
+      "bytes": 422903
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/check.py",
+      "sha256": "678f2b14fff539ac1565ed0ffc1af0221d0b09aacef44eec9ca286d92be9247a",
+      "bytes": 6779
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-03/release-review-v2/replay.mjs",
+      "sha256": "9c94446c2e9e2223d405fec50188b0685ea4f6dd2d8c68956bafb7caab1c07a9",
+      "bytes": 6082
+    }
+  ]
+}
