@@ -23,7 +23,9 @@ async function assertLeftAlignment(page, category = 'general') {
     expect(title.x).toBeGreaterThan(checkbox.x + checkbox.width);
     expect(title.x).toBeCloseTo(folderName.x, 0);
     titleXs.push(title.x);
-    expect((await row.boundingBox()).height).toBeGreaterThanOrEqual(44);
+    expect(
+      await row.evaluate((node) => node.getBoundingClientRect().height),
+    ).toBeGreaterThanOrEqual(44);
     expect(await row.evaluate((node) => getComputedStyle(node).textAlign)).toBe(
       'left',
     );

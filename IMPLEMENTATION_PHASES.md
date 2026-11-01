@@ -12,6 +12,76 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current owner-approved Phase12 execution policy, 2026-11-01:** parallel
+cross-category deck lanes and independently gated per-deck pushes replace the
+former serial/all-at-once delivery policy. Start with two isolated authors,
+one deck each in different categories; reuse accepted preparation before
+reauthoring. One integrator alone owns shared catalog/source/tests/docs and
+Git operations. One independent reviewer and one central heavy runner remain
+exclusive; preserve the 6/8 GiB and 1 GiB swap service limits, 2 GiB Node heap
+and single browser worker.
+
+For every deck: record assignment/reservations and the input baseline; freeze
+the complete 28-entry candidate and evidence; obtain independent deck and
+integration clearance; reconcile concurrent changes against latest main;
+run same-snapshot format/lint/types/unit/build/full-runtime coverage plus the
+deck's applicable browser/export/print/recovery and affected regression checks.
+Then commit/push only that deck and directly required integration changes, and
+verify matching remote/private revisions. Reuse unchanged accepted judgments
+through exact whole-question/full-evidence/rating hashes, not category labels.
+Do not publish all 159 working decks merely because they are present.
+
+Every lane/blocked deck needs an explicit owner, current artifact and next
+step. A paused lane must not stall unrelated categories; cross-deck evidence
+dependencies remain real blockers. Preserve current Nature findings and
+source-specific recovery receipts. Final Phase12 clearance still requires
+330/9,240/all66 quotas and the complete independent final/post-review gate.
+Earlier serial/no-partial-push paragraphs below are historical where this
+explicit amendment supersedes them, not permission to drop quality gates.
+
+**Owner-authorized bounded recovery, 2026-11-01:** SAME sole coordinator
+75f17f1b-c206-4c60-9d73-51f09ff4cd0f continues exact producer/schema/native
+lineage slices. Mapping7 independently CLEARED FOR BOUNDED MATERIALIZATION
+ONLY (60 rows), with same-snapshot postreview hashes/negatives passed.
+All historical lifecycle/semantic obligations remain open; inventory slots
+and conservative queued directions are not authored questions or phase progress.
+Continue sequentially; no fanout, quota waiver or partial publish.
+
+**Current Nature checkpoint:** exact staged adoption gives159/4,452 working,
+Nature21/588; all1,483 original comparisons and252 raw/full-evidence receipts
+are dispositioned through bounded independent reviews. Full staged integration
+quality passed1,068tests/42files/all63runtime coverage/build, and30 separate
+both-engine native cases. No category/phase clearance follows from these checks.
+Czech04's initial84 factual/source/editorial reviews and three adult ratings
+have independent positives in `phase12-nature-czech04-review-v1`; no entry has
+complete semantic/lifecycle acceptance. Its two missing legitimate names are
+added in `b04-owner-v3` with82 entire questions/all84 evidence arrays/rating
+file unchanged. Independent `phase12-nature-czech04-alias-review-v1` closed both
+alias findings and accepted all three inherited rating rebindings; fresh
+semantic/lifecycle acceptance remains0. The original
+literal-alias correction retains83 questions/all84 arrays; failedv1 remains.
+Reviewer heavy-command resource probes were denied, without any access
+workaround or stale-resource substitution. Parent-owned guarded execution and
+read-only independent review must satisfy the unchanged contract or leave this
+gate BLOCKED. Six Nature decks remain
+unwritten. Delivered132/3,696 on4fe0bc5, no partial commit/push.
+
+**SAME Phase12 coordinator resumed, 2026-10-31:** actual session
+`75f17f1b-c206-4c60-9d73-51f09ff4cd0f`, current category Nature, new delivered
+UI baseline `4fe0bc54854a2b295e73aba68fe93e193ca2f000`.
+Interface IF01/02/03 clearance, private delivery/canaries and independent
+restoration review are retained; primary restored1031unit/41files/all63runtime
+coverage/fullquality and64nativebothengines passed. Exact44px DOM measurement
+correction remains uncommitted with Phase12; no threshold relaxation.
+At resumption: working150/4,200, delivered132/3,696, PHASE12 NOT CLEARED.
+All General content/evidence/rating judgments and Nature b01's573 semantic
+dispositions remain accepted; interrupted b02 partial proofs are preserved.
+b02 reviewer5a52b10a is unavailable after explicit lookup; narrowly continue
+its unfinished evidence, not a blanket restart. b03's347 remain pending.
+Old whole-source seals predate UI delivery; only unchanged content-specific
+judgments inherit exact continuity. Original tar/patch/stash are not reapplied.
+Current output/ownership/checkpoints remain in continuation STATUS.
+
 **Owner-requested parallel follow-ups, 2026-10-31:** compact catalog folders,
 return-flip/audio and explicit half-time opponent turns are independently CLEARED in the
 isolated `catalog-worktree`, with disjoint developer ownership. The owner
@@ -35,6 +105,23 @@ format/lint/types/build and 664 native cases with all77 reviewed hashes unchange
 The owner approved a controlled Phase-12 pause for separate delivery, preserving
 34 dirty files and all review evidence. Safe primary integration/delivery and
 resuming that coordinator remain pending; no deployment is claimed here.
+
+**PHASE12 successor checkpoint, 2026-10-31:** owner authorization at07:16
+extends delivery through PHASE12. Sole main-checkout developer/integrator:
+`75f17f1b-c206-4c60-9d73-51f09ff4cd0f`. Prior coordinator8bcfc276 has exited;
+ea64fe80 and old category agents are not resumed. Phase11 and separate visuals
+are already delivered893b984/a2cdfd6, not to be reauthored.
+General's original owner completed preparation and ended its owned service;
+exact final handoff5a8c2ac9 and full504 continuitya2a7d4eb verified as adoption
+inputs. Current category is General, integration checks pending.
+PHASE12 remains **NOT CLEARED**, actual shipped catalog132/3,696.
+Retain all330/9,240/all66 quotas, exact accepted question/evidence/alias/rating
+continuity, private-only and old-data gates. One category author/integrator,
+at most one read-only independent reviewer, one exclusive central heavy command,
+browser workers1, unchanged6/8GiB/1GiBswap and2048MiBNodeheap.
+Outputs/logs/usage: `.artifacts/continuation/phase12-output.jsonl`,
+`phase12-logs`, `phase12-usage.json`; durable checkpoints in STATUS.
+All former ownership/stop instructions below are historical where superseded.
 
 **Authoritative bounded-delivery checkpoint, 2026-10-31:** phase11 CLEARED and
 privately delivered `893b984638acb14a4871343cd00f082054e74832`, verified
@@ -380,7 +467,7 @@ solely to obtain a revision without permission.
 | 9 | Guided UI, portable saves, continuous duels and tile flips | Owner-approved redesign after plan closure | Cleared after fixes; complete coordinator post-review gates passed | [CLEARED; P9-IR1/P9-IR2 resolved](reviews/phase-09.md) |
 | 10 | Temporary mixes, final export and recorded controls | Phase 9 delivered `4cd16af`; owner-approved follow-up | Cleared and pushed `54b34b1`; actual private preview verified | [CLEARED after P10-IR1–4 corrections](reviews/phase-10.md) |
 | 11 | Two-deck difficulty library and folder catalog: 132 decks / 3,696 questions | Phase 10 reviewed, verified and delivered | In progress from `54b34b1` | Pending |
-| 12 | Five-deck expansion: 330 decks / 9,240 questions total | Final integration/delivery after phase 11; accepted-category isolated preparation may overlap | General, Nature, Geography and History preparation active; nothing integrated/delivered | Pending |
+| 12 | Five-deck expansion: 330 decks / 9,240 questions total | Phase 11 delivered; parallel isolated cross-category decks, one reviewed deck per push | 159 working / 132 delivered at scheduling transition; per-deck publication authorized | Final phase review pending; per-deck clearance required |
 
 For each active phase, maintain a short handoff here: current snapshot, changed
 files, commands/results, report link, unresolved findings, decisions and exact

@@ -20,6 +20,7 @@ import natureCsMedium from './nature-cs-medium-01.json';
 import natureCsHard from './nature-cs-hard-01.json';
 import natureEnEasy1 from './nature-en-easy-01.json';
 import natureEnEasy2 from './nature-en-easy-02.json';
+import natureEnEasy3 from './nature-en-easy-03.json';
 import natureEnHard1 from './nature-en-hard-01.json';
 import natureEnHard2 from './nature-en-hard-02.json';
 import geographyCs1 from './geography-cs-01.json';
@@ -265,6 +266,7 @@ const bundledSources = [
   sportsEnMedium2,
   sportsEnHard1,
   sportsEnHard2,
+  natureEnEasy3,
 ];
 
 export function bundledPacks() {

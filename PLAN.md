@@ -2,7 +2,83 @@
 
 ## Status and instructions for the next session
 
-Last updated: 2026-10-30.
+**Owner scheduling and delivery amendment, 2026-11-01:** Phase 12 now runs
+multiple decks from different categories in parallel and pushes each finished
+deck separately. Start with two isolated deck-authoring/adoption lanes in
+different categories, with one shared-checkout integrator, one independent
+reviewer at a time and one central heavy runner. Keep the existing resource
+limits; do not revive the former eleven-author fanout.
+
+"Finished" means all 28 entries have complete independent factual, source,
+wording, initial, alias, difficulty and current cross-category/phase semantic
+acceptance, followed by integration review and same-snapshot checks. Publish
+one newly completed deck and its necessary catalog/tests/documentation changes
+per commit, push it promptly and verify the actual private deployment. Do not
+wait for another deck/category or the whole phase; do not publish other drafts.
+Existing accepted staged decks may use exact content/evidence review continuity.
+
+Maintain shared reservations for active deck IDs, questions, canonical answers
+and legitimate aliases. Before each release, reconcile the candidate against
+the latest main and other active/staged/proposed content; invalidate stale
+proofs and independently resolve affected conflicts. A blocked deck stays
+isolated while unaffected category lanes continue. Unresolved evidence that
+affects another candidate still blocks that candidate; parallelism is no waiver.
+
+This supersedes older Phase12 one-category/one-author scheduling and the ban
+on publication before the entire phase is complete. It does not clear Phase12:
+the final target remains exactly 330 decks / 9,240 questions and five decks in
+all 66 category/language/difficulty combinations, with final independent
+phase review and full post-review gates. Private hosting, old-data safety,
+immutability and all content-quality requirements remain unchanged.
+
+Last updated: 2026-11-01.
+
+**Owner-authorized engineering recovery, 2026-11-01:** the SAME sole Phase12
+coordinator continues bounded source-native lineage slices, not the previous
+global inventory/backstop strategy. Mapping7's 60 exact materializations have
+independent bounded clearance and same-snapshot postreview proof; historical
+native lifecycle and semantic acceptance remain unresolved. This is not
+candidate/category/phase clearance. All330/9,240/all66 quotas and independent
+content, difficulty, evidence and final-delivery gates remain unchanged.
+
+**Current Phase12 Nature checkpoint:** working159 decks/4,452 questions after
+exact adoption of nine staged Nature decks. All1,483 nominated comparisons and
+252 raw-question/full-evidence receipts have bounded independent dispositions.
+Czech04's initial84 factual/source/editorial readings and three adult ratings
+have bounded independent positives. Two missing legitimate aliases are added
+in separate `b04-owner-v3`, preserving82 whole questions/all84 evidence arrays
+and the rating file. Independent `phase12-nature-czech04-alias-review-v1`
+closed both alias findings and accepted all three rating rebindings; all fresh
+semantic/lifecycle closure remains pending. The reviewer's heavy-command resource probes were
+denied; no permission workaround or stale-resource substitute is authorized.
+The candidate is not integrated or accepted. Six Nature decks remain unwritten. Nature and
+PHASE12 remain NOT CLEARED; delivery stays132/3,696 on4fe0bc5. The resume and
+earlier delivery checkpoints below are historical, not whole-source identity.
+
+**Controlled pause/resume, 2026-10-31:** the SAME Phase12 coordinator
+`75f17f1b-c206-4c60-9d73-51f09ff4cd0f` resumes Nature after separate
+owner-authorized interface delivery `4fe0bc54854a2b295e73aba68fe93e193ca2f000`.
+Actual remote/private delivery and protected upgrade canaries are recorded in
+`.artifacts/continuation/interface-https-delivery.json`. All General addition
+packs and full supporting-evidence receipts survive the controlled restoration.
+At resumption: working150/4,200, delivered132/3,696; final330/9,240 remains NOT CLEARED.
+General integration and Nature b01 semantic acceptance are inherited through
+exact content-specific hashes, not old whole-source identity. Continue preserved
+b02/b03 review work; do not reauthor the delivered interface or reapply the stash.
+
+**Owner continuation authorization, 2026-10-31 07:16:** delivery scope now
+extends through PHASE12, superseding the prior bounded coordinator's
+stop-before-phase12 instruction, not content, independent-review, duplicate,
+data-safety or private-only gates. Phase11 and the separate visual bundle were
+delivered as `893b984638acb14a4871343cd00f082054e74832` and
+`a2cdfd6f56b744c7ffe87bc56d2b5ca91503c459`. New sole developer/integrator session
+`75f17f1b-c206-4c60-9d73-51f09ff4cd0f` starts with adoption checks for General's
+completed original-owner handoff; no duplicate authoring or retired agents.
+Exactly330 decks/9,240 questions and all66 five-deck quotas remain required.
+Preparation acceptance is not integration or phase clearance. Work proceeds
+one category and one independent reviewer/central heavy runner at a time.
+Current evidence and ownership are in `.artifacts/continuation/STATUS.md`;
+earlier status paragraphs below remain historical.
 
 **Owner category decision, 2026-10-30 17:15:** broaden Programming to
 **Computing and Programming**, retaining the **general-adult Easy / Medium /

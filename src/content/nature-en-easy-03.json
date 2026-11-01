@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "nature-en-easy-03",
+  "title": "Nature · Easy 03",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-en-easy-03-01",
+      "initial": "A",
+      "text": "Which large crocodilian has living American and Chinese species?",
+      "answer": "Alligator",
+      "aliases": ["alligators", "gator", "gators"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Alligator"]
+    },
+    {
+      "id": "nature-en-easy-03-02",
+      "initial": "B",
+      "text": "Which long fruit grows in bunches on a large herbaceous plant and is usually yellow when ripe?",
+      "answer": "Banana",
+      "aliases": [
+        "bananas",
+        "dessert banana",
+        "dessert bananas",
+        "plantain",
+        "plantains"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Banana"]
+    },
+    {
+      "id": "nature-en-easy-03-03",
+      "initial": "C",
+      "text": "What is the common name for the large desert mammals that store fat in one or two humps?",
+      "answer": "Camel",
+      "aliases": ["camels"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Camel"]
+    },
+    {
+      "id": "nature-en-easy-03-04",
+      "initial": "CH",
+      "text": "Which African ape is the closest living relative of the bonobo and is known for using sticks to fish for termites?",
+      "answer": "Chimpanzee",
+      "aliases": [
+        "common chimpanzee",
+        "Pan troglodytes",
+        "chimp",
+        "chimps",
+        "chimpanzees"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chimpanzee"]
+    },
+    {
+      "id": "nature-en-easy-03-05",
+      "initial": "D",
+      "text": "Which yellow lawn flower turns into a round seed head whose seeds blow away on fine, hairlike tufts?",
+      "answer": "Dandelion",
+      "aliases": [
+        "dandelions",
+        "common dandelion",
+        "Taraxacum",
+        "Taraxacum officinale"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Taraxacum"]
+    },
+    {
+      "id": "nature-en-easy-03-06",
+      "initial": "E",
+      "text": "Which kind of tree gives its name to a devastating Dutch disease spread by bark beetles?",
+      "answer": "Elm",
+      "aliases": ["elms", "elm tree", "Ulmus"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Elm"]
+    },
+    {
+      "id": "nature-en-easy-03-07",
+      "initial": "F",
+      "text": "Which wild member of the dog family is familiar for its reddish coat and bushy, often white-tipped tail?",
+      "answer": "Fox",
+      "aliases": ["red fox", "Vulpes vulpes"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Red_fox"]
+    },
+    {
+      "id": "nature-en-easy-03-08",
+      "initial": "G",
+      "text": "Which farm animal has a male called a billy and a female called a nanny?",
+      "answer": "Goat",
+      "aliases": [
+        "goats",
+        "domestic goat",
+        "Capra hircus",
+        "Capra aegagrus hircus"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Goat"]
+    },
+    {
+      "id": "nature-en-easy-03-09",
+      "initial": "H",
+      "text": "Which African carnivore has a spotted species whose calls can sound like human laughter?",
+      "answer": "Hyena",
+      "aliases": [
+        "spotted hyena",
+        "Crocuta crocuta",
+        "laughing hyena",
+        "hyaena",
+        "spotted hyaena",
+        "laughing hyaena"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Spotted_hyena"]
+    },
+    {
+      "id": "nature-en-easy-03-10",
+      "initial": "I",
+      "text": "Which large tropical American lizard has a familiar green species with a row of spines along its back?",
+      "answer": "Iguana",
+      "aliases": [
+        "green iguana",
+        "American iguana",
+        "common green iguana",
+        "Iguana iguana"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Green_iguana"]
+    },
+    {
+      "id": "nature-en-easy-03-11",
+      "initial": "J",
+      "text": "Which pinkish-brown European crow relative has a bright blue patch on each wing and buries acorns?",
+      "answer": "Jay",
+      "aliases": ["Eurasian jay", "Garrulus glandarius"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Eurasian_jay"]
+    },
+    {
+      "id": "nature-en-easy-03-12",
+      "initial": "K",
+      "text": "Which small blue-and-orange bird often dives from a waterside perch to catch fish?",
+      "answer": "Kingfisher",
+      "aliases": [
+        "common kingfisher",
+        "Eurasian kingfisher",
+        "river kingfisher",
+        "Alcedo atthis"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Common_kingfisher"]
+    },
+    {
+      "id": "nature-en-easy-03-13",
+      "initial": "L",
+      "text": "Which African and Asian big cat has dark rosettes usually without central spots and often carries prey into trees?",
+      "answer": "Leopard",
+      "aliases": ["leopards", "Panthera pardus"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Leopard"]
+    },
+    {
+      "id": "nature-en-easy-03-14",
+      "initial": "M",
+      "text": "Which kind of tree gives Canada its familiar leaf emblem and supplies sap used to make syrup?",
+      "answer": "Maple",
+      "aliases": [
+        "maples",
+        "maple tree",
+        "Acer",
+        "sugar maple",
+        "Acer saccharum"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Maple"]
+    },
+    {
+      "id": "nature-en-easy-03-15",
+      "initial": "N",
+      "text": "Which common plant gives a stinging sensation when its tiny defensive hairs touch bare skin?",
+      "answer": "Nettle",
+      "aliases": [
+        "stinging nettle",
+        "common nettle",
+        "Urtica dioica",
+        "nettle leaf",
+        "burn nettle",
+        "burn-nettle",
+        "burn-weed",
+        "burn weed",
+        "burn-hazel",
+        "burn hazel",
+        "stinger"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Urtica_dioica"]
+    },
+    {
+      "id": "nature-en-easy-03-16",
+      "initial": "O",
+      "text": "Which large African bird cannot fly and is the tallest living bird?",
+      "answer": "Ostrich",
+      "aliases": ["ostriches", "common ostrich", "Struthio camelus"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ostrich"]
+    },
+    {
+      "id": "nature-en-easy-03-17",
+      "initial": "P",
+      "text": "Which underground crop tuber is used to make chips, fries and mash?",
+      "answer": "Potato",
+      "aliases": ["potatoes", "Solanum tuberosum", "spud", "spuds"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Potato"]
+    },
+    {
+      "id": "nature-en-easy-03-18",
+      "initial": "Q",
+      "text": "Which hard, fragrant yellow fruit resembles a pear or apple and is traditionally cooked into jelly because it is usually too astringent to eat raw?",
+      "answer": "Quince",
+      "aliases": ["quinces", "Cydonia oblonga"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Quince"]
+    },
+    {
+      "id": "nature-en-easy-03-19",
+      "initial": "R",
+      "text": "Which Arctic deer has females that can grow antlers, unlike females of other living deer species?",
+      "answer": "Reindeer",
+      "aliases": ["caribou", "Rangifer tarandus"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Reindeer"]
+    },
+    {
+      "id": "nature-en-easy-03-20",
+      "initial": "S",
+      "text": "Which familiar arachnid has eight walking legs and two main body regions joined by a narrow waist?",
+      "answer": "Spider",
+      "aliases": ["spiders", "Araneae"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Spider"]
+    },
+    {
+      "id": "nature-en-easy-03-21",
+      "initial": "SH",
+      "text": "What is the traditional name for the three-leaved sprig of clover used as a symbol of Ireland?",
+      "answer": "Shamrock",
+      "aliases": ["shamrocks"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shamrock"]
+    },
+    {
+      "id": "nature-en-easy-03-22",
+      "initial": "T",
+      "text": "Which large Asian cat has dark vertical stripes across its usually orange coat?",
+      "answer": "Tiger",
+      "aliases": ["tigers", "Panthera tigris"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Tiger"]
+    },
+    {
+      "id": "nature-en-easy-03-23",
+      "initial": "U",
+      "text": "In which muscular organ does a human embryo normally implant and develop during pregnancy?",
+      "answer": "Uterus",
+      "aliases": ["womb"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Uterus"]
+    },
+    {
+      "id": "nature-en-easy-03-24",
+      "initial": "V",
+      "text": "What common name describes a snake with long venom-injecting fangs that fold back against the roof of its mouth when not in use?",
+      "answer": "Viper",
+      "aliases": ["vipers", "Viperidae", "viperid", "viperids"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Viperidae"]
+    },
+    {
+      "id": "nature-en-easy-03-25",
+      "initial": "W",
+      "text": "Which large Arctic marine mammal has long tusks, stiff whiskers and flippers?",
+      "answer": "Walrus",
+      "aliases": ["walruses", "Odobenus rosmarus"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Walrus"]
+    },
+    {
+      "id": "nature-en-easy-03-26",
+      "initial": "X",
+      "text": "Which small South American aquarium fish is named for its translucent body through which its backbone can be seen?",
+      "answer": "X-ray fish",
+      "aliases": [
+        "X-ray tetra",
+        "X ray fish",
+        "Xray fish",
+        "X ray tetra",
+        "Xray tetra",
+        "golden pristella tetra",
+        "Pristella maxillaris"
+      ],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Pristella_maxillaris"]
+    },
+    {
+      "id": "nature-en-easy-03-27",
+      "initial": "Y",
+      "text": "Which shaggy, long-haired bovine is kept by people on the high Tibetan Plateau?",
+      "answer": "Yak",
+      "aliases": ["domestic yak", "Bos grunniens"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yak"]
+    },
+    {
+      "id": "nature-en-easy-03-28",
+      "initial": "Z",
+      "text": "Which daisy-family garden flower comes in bright red, orange or purple varieties and is named after Johann Gottfried Zinn?",
+      "answer": "Zinnia",
+      "aliases": ["zinnias"],
+      "category": "nature",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zinnia"]
+    }
+  ]
+}

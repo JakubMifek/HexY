@@ -1,6 +1,22 @@
 # Content inventory and provenance
 
-## Current phase-11 integrated candidate — not phase-cleared
+## Phase12 one-deck integration candidate
+
+This isolated snapshot contains **133 decks / 3,724 entries**: all 132 delivered
+packs unchanged, followed by only `nature-en-easy-03` (English, Easy, 28 entries).
+Nature has 13 decks /364 entries; its English/Easy combination has three decks.
+Other combinations retain two. The [shipment manifest](phase-12-deck-inventory.json)
+drives actual inventory checks and retains the final330/9,240/all66 five-deck
+gate. The [new deck ledger](phase-12-nature-en-easy-03-sources.json) preserves
+all28 raw-question/full-evidence bindings and the entire original adult rating.
+Independent content/semantic adoption is cleared; integration release review
+and same-snapshot postreview remain pending. Other unshipped candidates are
+not bundled.
+
+## Historical phase-11 integration checkpoint
+
+The statements below preserve the original checkpoint, not current delivery
+status. Phase11 was subsequently independently cleared and privately delivered.
 
 The catalog contains **132 decks / 3,696 entries**, 66 decks / 1,848 entries per
 language. All eleven categories have twelve decks /336 questions, exactly

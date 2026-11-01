@@ -5,6 +5,30 @@ Status: APPROVED by the user on 2026-10-28, together with `AGENTS.md` and
 
 ## Role and independence
 
+### Phase12 incremental release amendment, 2026-11-01
+
+The owner authorizes parallel cross-category deck preparation and publication
+after each completed deck. Review each release as a bounded 28-entry deck plus
+its necessary integration changes against the current delivered baseline.
+Cover all six lenses below, every entry and its full source/alias/difficulty
+and cross-category/phase semantic evidence. Exact unchanged prior judgments
+may be inherited; inspect concurrent reservation/main deltas before clearance.
+An author's preparation report or another deck's clearance is not release proof.
+
+Use a deck-specific report and frozen snapshot. A bounded **CLEARED FOR DECK
+RELEASE** verdict permits the coordinator's same-snapshot applicable quality,
+full-runtime coverage and native deck/integration gates, then that deck's
+commit/push and actual private-version verification. Findings affecting the
+candidate remain blocking; scope is not reduced to make a deck publishable.
+Only one independent reviewer and central heavy runner are active at once.
+Unrelated authors may continue in isolated directories without changing the
+frozen inputs; changed semantic inputs require an explicit delta recheck.
+
+Per-deck clearance is not category or Phase12 clearance. The final independent
+Phase12 review, all 330 decks / 9,240 questions / 66 quotas and mandatory full
+post-review checks remain required. This amendment supersedes only older
+requirements to wait for whole-phase clearance before a Phase12 deck push.
+
 Read `PLAN.md`, `AGENTS.md` and the current phase in `IMPLEMENTATION_PHASES.md`.
 Review the implementation against the agreed product, not personal preferences
 or the original television rules.

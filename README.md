@@ -1,5 +1,16 @@
 # HexY
 
+**Phase 12 incremental candidate: 133 decks / 3,724 questions.** This snapshot
+adds only `nature-en-easy-03` to the 132-deck delivered baseline, preserving
+all original pack bytes and ordering. Its [source ledger](docs/phase-12-nature-en-easy-03-sources.json)
+retains all 28 complete evidence arrays and the original general-adult Easy
+rating. [Independent content/semantic adoption](reviews/phase-12-nature-en-easy-03-content.md)
+is cleared; integration release
+review and same-snapshot postreview remain pending.
+The final Phase 12 gate is still exactly 330 decks / 9,240 questions and five
+decks in all 66 category/language/difficulty combinations; no phase clearance
+or private promotion is claimed by this candidate count.
+
 Playable local quiz for two players sharing a screen. **Phases 1–7 are independently
 cleared: 36 packs / 1,008 reviewed questions. Not yet a production release.**
 That historical library supported both languages, catalog filtering and

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "baselineRevision": "4fe0bc54854a2b295e73aba68fe93e193ca2f000",
+  "baselineDecks": 132,
+  "baselineQuestions": 3696,
+  "additionalDeckIds": ["nature-en-easy-03"],
+  "finalGate": {
+    "decks": 330,
+    "questions": 9240,
+    "combinations": 66,
+    "decksPerCombination": 5
+  }
+}

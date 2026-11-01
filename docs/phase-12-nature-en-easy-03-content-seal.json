@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-11-01T12:46:31.529595+00:00",
+  "reviewerActualIdentity": null,
+  "deckId": "nature-en-easy-03",
+  "verdict": "CLEARED FOR NATURE-EN-EASY-03 CONTENT/SEMANTIC ADOPTION ONLY",
+  "deckReleaseClearance": false,
+  "candidatePackSha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46",
+  "originalSourcesSha256": "355870aeb5cd161f85930ae5a3acde08497328d26287df1d406231285291532c",
+  "currentAdoptionCompositeSha256": "211fb36db6fb7e1987f861bce880f82553f059da0cb6d72aff5ede7698c2e6b8",
+  "currentSharedRevision": 4,
+  "currentSharedReservationSha256": "beb3dad100d9f9612919459cac56e50028348bd556bc403ff8d1e633b0da9ccf",
+  "currentQueueSnapshotSha256": "d9d5059cc307735ae7e78f91122742326db1765875c6aed7536531c2491a1471",
+  "inputSnapshotFiles": 205,
+  "stableStartEndAndFinalSnapshot": true,
+  "all28ContentEvidenceAliasInitialDifficultyAcceptedByExactContinuity": true,
+  "applicableLiteralAcceptedComparisons": 350,
+  "priorLiteralJudgments": 21,
+  "comparisonDispositions": {
+    "EXACT GUARDED SAME-FACT/ORIGINAL ACCEPTED OWN LINEAGE": 76,
+    "INDEPENDENT FULL-PREDICATE NON-COLLISION": 274
+  },
+  "currentPairObligation": "NATURE-EASY03-CURRENT-UTERUS-DELTA-01",
+  "currentPairDisposition": "CLOSED FOR NATURE-EN-EASY-03 CONTENT/SEMANTIC ADOPTION ONLY: PERMITTED ACTUAL CS/EN CORRESPONDING ADAPTATION",
+  "remainingCandidateContentSemanticBlockers": [],
+  "historicalMapping6Mapping7ObligationsPreserved": true,
+  "noOtherDeckCategoryOrPhaseClearance": true,
+  "pending": "Separate exact133/3724 Nature-only integration review, actual deck-release clearance and same-snapshot npm/full-runtime-coverage/applicable58 native gates.",
+  "operationalDisclosure": "Inadvertent read-only git status in initial inspection; no mutation, explicitly reported.",
+  "artifacts": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/COMMANDS-AND-RESULTS.json",
+      "sha256": "1ad64ea1bb5b73c410d230889ad6405cb199f320ad3f6195593faffb3e3a2c8c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/CURRENT-DELTA-DISPOSITIONS.json",
+      "sha256": "13c1cc26abb8ba2e6db556dbe2012c46d774efe8f91234ea0d56d527880a3a7b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/CURRENT-PAIR-DISPOSITION.json",
+      "sha256": "75a04859e87237617f76fa2a8722ee6ba01a4c1ad6930b0405b39ec69f8d9c44"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/CURRENT-PAIR-NATIVE-BINDINGS.json",
+      "sha256": "841e4f94d5b3574664cc92fa2c57c656af0c308df2e0f0791f69524ff9882541"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/END-INPUT-HASHES.json",
+      "sha256": "d8f0a6b717f0c03ed4892407b644a2b7850bbb12c70fe70bef5f70745b26e9f0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/FINAL-STABLE-SNAPSHOT.json",
+      "sha256": "9acebc7ba08f00c29609ea7086c1cd400bdc374c6a2ecea5884290fa99bb2f43"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/REPORT.md",
+      "sha256": "d4e70a4438a39552e1206e7019f012fb44b68f05813c55f80297fb0cf182f782"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/ROW-DISPOSITIONS.json",
+      "sha256": "e5695a6f18e75a2d903c533f061988c5fec620a1dbe3061ed7dc7532dc2005c5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/START-INPUT-HASHES.json",
+      "sha256": "6c1c551324df92f9c98f20b9627310383a897048f5b430f7502ad7dfea27c5a1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/VERIFICATION-RESULTS.json",
+      "sha256": "65ec4bc1fbf99fb899f18c680ce96ca1a8d68f9ca46db98a233be78b2fa6bdeb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/check-deltas.py",
+      "sha256": "4b7f518c0dea88d69062208479270c8aabe5a302719e8d9a1b88e0e2ddde9f87"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/seal.py",
+      "sha256": "a3fa8729a0c99fec42a6c043b8d21f82dc0bb92b1873b93c86cb7a5797bdfaaa"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-easy-03/review-v1/verify.py",
+      "sha256": "3011b81abe2645f1e3f93005c01ddefbb0e54aba00913a2a195f42b96e7f992e"
+    }
+  ]
+}

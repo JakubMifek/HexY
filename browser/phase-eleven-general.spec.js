@@ -85,7 +85,14 @@ for (const source of additions) {
     await setupPreparation(page, source.language);
     await setTheme(page, source.language === 'cs' ? 'dark' : 'light');
     await page.locator('#catalog-difficulty').selectOption(source.difficulty);
-    await expect(page.locator(`#decks-${category} input`)).toHaveCount(2);
+    await expect(page.locator(`#decks-${category} input`)).toHaveCount(
+      catalogPacks.filter(
+        (pack) =>
+          pack.language === source.language &&
+          pack.difficulty === source.difficulty &&
+          pack.questions[0].category === category,
+      ).length,
+    );
     await prepare(page, [source.id]);
     await fixedJourney(page, context, info, source);
     await nextPreparation(page, 'numbers', 'hosted');
@@ -129,13 +136,17 @@ for (const [category, language] of combinations) {
     (pack) =>
       pack.language === language && pack.questions[0].category === category,
   );
+  const expectedCount = catalogPacks.filter(
+    (pack) =>
+      pack.language === language &&
+      pack.questions[0].category === category &&
+      /-(easy|medium|hard)-\d{2}$/.test(pack.id),
+  ).length;
   test(`${label} ${language}: new-only mixture, actual-draw metadata, print and automatic play`, async ({
     page,
     context,
   }, info) => {
-    expect(sources).toHaveLength(
-      ['games', 'movies', 'sports'].includes(category) ? 6 : 4,
-    );
+    expect(sources).toHaveLength(expectedCount);
     await setupPreparation(page, language);
     await page.locator('#mode-numbers').click();
     await page.evaluate(() => {

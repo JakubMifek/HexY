@@ -7,6 +7,15 @@ import { validatePack, importPack } from '../src/domain/packs.js';
 import { normalizeAnswer } from '../src/domain/answers.js';
 import { readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
+import shippedInventory from '../docs/phase-12-deck-inventory.json';
+
+/** @type {{baselineDecks: number, additionalDeckIds: string[],
+ * finalGate: {decks: number, questions: number, combinations: number, decksPerCombination: number}}} */
+const inventory = shippedInventory;
+
+const expectedDecks =
+  inventory.baselineDecks + inventory.additionalDeckIds.length;
+const expectedQuestions = expectedDecks * 28;
 
 test.each(/** @type {const} */ (['cs', 'en']))(
   'complete original %s starter has fixed labels, unique facts and provenance',
@@ -56,8 +65,8 @@ test('all UI messages exist in both languages', () => {
     Object.keys(strings.en).sort(),
   );
   expect(Object.values(strings.cs).every(Boolean)).toBe(true);
-  expect(strings.en.catalogHelp).toContain('132 fixed packs');
-  expect(strings.cs.catalogHelp).toContain('132 pevných sad');
+  expect(strings.en.catalogHelp).toContain(`${expectedDecks} fixed packs`);
+  expect(strings.cs.catalogHelp).toContain(`${expectedDecks} pevných sad`);
   expect(strings.en.limit).toContain('saved games recover');
   expect(strings.cs.limit).toContain(
     'uložená hra se po obnovení stránky obnoví',
@@ -80,20 +89,42 @@ test('English B asks about erupted ridge lava, not the volume of the entire ocea
 
 test('complete inventory includes eleven category quotas and every shipped JSON', () => {
   const packs = bundledPacks();
-  expect(packs).toHaveLength(132);
+  expect(packs).toHaveLength(expectedDecks);
   expect(packs.map((pack) => `${pack.id}.json`).sort()).toEqual(
     readdirSync('src/content')
       .filter((name) => name.endsWith('.json'))
       .sort(),
   );
-  expect(new Set(packs.map((pack) => pack.id)).size).toBe(132);
+  expect(new Set(packs.map((pack) => pack.id)).size).toBe(expectedDecks);
   const questions = packs.flatMap((pack) => pack.questions);
-  expect(questions).toHaveLength(3696);
-  expect(new Set(questions.map((q) => q.id)).size).toBe(3696);
+  expect(questions).toHaveLength(expectedQuestions);
+  expect(new Set(questions.map((q) => q.id)).size).toBe(expectedQuestions);
+  expect(new Set(questions.map((q) => q.category)).size).toBe(11);
+  expect(expectedDecks).toBeLessThanOrEqual(inventory.finalGate.decks);
+  expect(inventory.finalGate).toEqual({
+    decks: 330,
+    questions: 9240,
+    combinations: 66,
+    decksPerCombination: 5,
+  });
+  expect(new Set(inventory.additionalDeckIds).size).toBe(
+    inventory.additionalDeckIds.length,
+  );
+  expect(packs.slice(132).map((pack) => pack.id)).toEqual(
+    inventory.additionalDeckIds,
+  );
+});
+
+test('every shipped language and difficulty matches its incremental quota', () => {
+  const packs = bundledPacks();
+  const questions = packs.flatMap((pack) => pack.questions);
   for (const language of ['cs', 'en']) {
     const localized = questions.filter((q) => q.language === language);
     expect(new Set(localized.map((q) => normalizeAnswer(q.text))).size).toBe(
-      1848,
+      1848 +
+        inventory.additionalDeckIds.filter((id) => id.includes(`-${language}-`))
+          .length *
+          28,
     );
     for (const category of [
       'general',
@@ -113,9 +144,40 @@ test('complete inventory includes eleven category quotas and every shipped JSON'
           pack.language === language &&
           pack.questions.every((q) => q.category === category),
       );
-      expect(matching).toHaveLength(6);
+      expect(matching).toHaveLength(
+        6 +
+          inventory.additionalDeckIds.filter((id) =>
+            id.startsWith(`${category}-${language}-`),
+          ).length,
+      );
+      for (const difficulty of ['easy', 'medium', 'hard']) {
+        const level = matching.filter((pack) => pack.difficulty === difficulty);
+        expect(level).toHaveLength(
+          2 +
+            inventory.additionalDeckIds.filter((id) =>
+              id.startsWith(`${category}-${language}-${difficulty}-`),
+            ).length,
+        );
+        expect(level.length).toBeLessThanOrEqual(5);
+      }
     }
   }
+});
+
+test('the final330-deck gate requires five decks in all66 combinations', () => {
+  /** @type {Map<string, number>} */
+  const counts = new Map();
+  for (const pack of bundledPacks()) {
+    const key = `${pack.questions[0].category}:${pack.language}:${pack.difficulty}`;
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+  expect(counts.size).toBe(inventory.finalGate.combinations);
+  if (expectedDecks === inventory.finalGate.decks)
+    expect([...counts.values()]).toEqual(
+      Array(inventory.finalGate.combinations).fill(
+        inventory.finalGate.decksPerCombination,
+      ),
+    );
 });
 
 test.each(
@@ -218,18 +280,29 @@ test.each([
   ['sports', 'cs'],
   ['sports', 'en'],
 ])(
-  '%s %s has exactly two authored decks at every adult difficulty',
+  '%s %s has the exact shipped deck quota at every adult difficulty',
   (category, language) => {
     const packs = bundledPacks().filter(
       (pack) =>
         pack.language === language &&
         pack.questions.every((q) => q.category === category),
     );
-    expect(packs.flatMap((pack) => pack.questions)).toHaveLength(168);
-    for (const difficulty of ['easy', 'medium', 'hard'])
+    const additions = inventory.additionalDeckIds.filter((id) =>
+      id.startsWith(`${category}-${language}-`),
+    );
+    expect(packs.flatMap((pack) => pack.questions)).toHaveLength(
+      168 + additions.length * 28,
+    );
+    for (const difficulty of ['easy', 'medium', 'hard']) {
       expect(
         packs.filter((pack) => pack.difficulty === difficulty),
-      ).toHaveLength(2);
+      ).toHaveLength(
+        2 +
+          additions.filter((id) =>
+            id.startsWith(`${category}-${language}-${difficulty}-`),
+          ).length,
+      );
+    }
   },
 );
 
@@ -554,8 +627,8 @@ test.each(['general', 'nature', 'geography'])(
       readFileSync(`docs/phase-11-${category}-sources.json`, 'utf8'),
     );
     const added = bundledPacks().filter((pack) =>
-      new RegExp(`^${category}-(cs|en)-(easy|medium|hard)-\\d{2}$`).test(
-        pack.id,
+      ledger.packs.some(
+        (/** @type {{id: string}} */ entry) => entry.id === pack.id,
       ),
     );
     expect(added).toHaveLength(8);
@@ -615,12 +688,17 @@ test('accepted General source ledger remains byte-identical through Nature autho
 });
 
 test.each(/** @type {const} */ (['cs', 'en']))(
-  'Nature %s new-only mixtures retain actual source levels, never introduce Medium in English',
+  'phase-11 Nature %s mixtures retain original source levels, never introduce Medium in English',
   (language) => {
+    const ledger = JSON.parse(
+      readFileSync('docs/phase-11-nature-sources.json', 'utf8'),
+    );
     const sources = bundledPacks().filter(
       (pack) =>
         pack.language === language &&
-        /^nature-(cs|en)-(easy|medium|hard)-\d{2}$/.test(pack.id),
+        ledger.packs.some(
+          (/** @type {{id: string}} */ entry) => entry.id === pack.id,
+        ),
     );
     expect(sources).toHaveLength(4);
     const mixed = generateNumbers(
