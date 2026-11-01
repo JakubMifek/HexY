@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "deckId": "science-en-easy-03",
+  "reviewerTaskId": "9cb56baf-5a96-4cc3-9599-160a0aa977ce",
+  "coordinator": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+  "verdict": "CONTENT DELTA ACCEPTED",
+  "wholeEntries": 28,
+  "wholeEvidenceMembers": 33,
+  "wholeForms": 92,
+  "sourceCandidateSha256": "5b44cc97e2915d8a85b07e72c9029b0015b3e9957af45db9aa1f84bc03e7c768",
+  "portableFullSourceLedgerSha256": "7920940d1f49d4716b1ad81f0310703e932dd47a40ab2b080aacba77fa92fd4d",
+  "deliveredRevision": "050045c5c44db41c72ccc4cfa7577eb32019f003",
+  "deliveredDecks": 137,
+  "deliveredQuestions": 3836,
+  "reservationRevision": 19,
+  "reservationSha256": "584c0321887e266838e4aa7ca9e992e1be715a3f9ea2acd9644f8f2e2a19768c",
+  "beforePublicationQueueSnapshotSha256": "11613739eae1723c6963169fceff7d9a2de286a0b76c1a052ba6ec356c3cdefb",
+  "allConsultedInputFilesUnchangedAtStop": true,
+  "inputFileCount": 200,
+  "outputBindings": {
+    "CURRENT-FULL-CANDIDATES.json": {
+      "sha256": "13ca85235e2e19c16564446f62abf68b1372c0192a399dd70f8216b23be19de7",
+      "bytes": 6276962
+    },
+    "DELIVERED-CONTENT-BINDINGS.json": {
+      "sha256": "3ba59743700d97ee9c8eaae4bd3291ed2d2d752230af8668aa3445974c863350",
+      "bytes": 27483
+    },
+    "ENTRY-CONTINUITY.json": {
+      "sha256": "793b217a1be2368a101918c93dcfe25e87e808d782193a7b3fc592bcac226e88",
+      "bytes": 30353
+    },
+    "INPUT-BINDINGS.json": {
+      "sha256": "83e1cf176f491f3cf1380ba5c4b1744dcf0c4e7050d075fd17d495b98357c096",
+      "bytes": 73389
+    },
+    "MEANINGFUL-CURRENT-PAIRS.json": {
+      "sha256": "cbf88957ccaefad758c6cbe43acad326f47490df6e252ad3e3bfe74db87d0991",
+      "bytes": 475607
+    },
+    "NATIVE-CONTEXT-PROOF.json": {
+      "sha256": "a0a568a6f6456eee90eb64255bf2ae772b9ae738d2c0cfbca17bd07b4a0c7854",
+      "bytes": 174493
+    },
+    "REPORT.md": {
+      "sha256": "edc14b71e8a86cb5578e654d99b68cacebf3771991d50910e0f327f1bfb9d7bd",
+      "bytes": 22201
+    },
+    "VERIFICATION.json": {
+      "sha256": "27cfc9feb68f3609a3af3d3c37d381d32a3602866765bb51c8a713a458473c7d",
+      "bytes": 1348
+    },
+    "seal.py": {
+      "sha256": "2254af858d5d680bc26fa463d031fe032d28500528f4bcd0e36dcf2b1ba1cdaf",
+      "bytes": 3365
+    },
+    "semantic.py": {
+      "sha256": "b65a3ce288f9cb964b30572e5a996257cbd074c799b292a8d3d65e39953c4ad9",
+      "bytes": 4702
+    },
+    "verify.py": {
+      "sha256": "6869d7c7ee3a13834a1da76af4d873e04e7fb2ead36d948b28062c02e4a02fac",
+      "bytes": 12114
+    }
+  },
+  "sealAndFinalManifestExcludedFromInternalOutputBindings": true,
+  "blockingFindings": 0,
+  "historicalUnprovenAuditLimitationsPreserved": true,
+  "independentCurrentContentAccepted": true,
+  "materializationOnly": false,
+  "integrationReleaseFollowupPending": true,
+  "deckReleaseCleared": false,
+  "categoryCleared": false,
+  "phaseCleared": false,
+  "noHeavyChecksOrSourceWrites": true,
+  "next": "Coordinator reconciles any subsequent actual candidate changes and freezes one-deck integration/source/count/README for same-task bounded final review."
+}

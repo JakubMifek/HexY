@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-easy-03",
+  "title": "Science and technology · Easy · 03",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-easy-03-01",
+      "text": "What inflatable safety cushion can deploy rapidly inside a car during a collision?",
+      "initial": "A",
+      "answer": "Airbag",
+      "language": "en",
+      "aliases": ["Air bag", "Supplemental inflatable restraint"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Airbag"]
+    },
+    {
+      "id": "science-en-easy-03-02",
+      "text": "What type of bearing uses small rolling spheres between rings to reduce friction in a rotating machine?",
+      "initial": "B",
+      "answer": "Ball bearing",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ball_bearing"]
+    },
+    {
+      "id": "science-en-easy-03-03",
+      "text": "Which reddish metal, symbol Cu, is widely used for electrical wiring?",
+      "initial": "C",
+      "answer": "Copper",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Copper"]
+    },
+    {
+      "id": "science-en-easy-03-04",
+      "text": "What black, carbon-rich fuel is made by heating wood with very little oxygen?",
+      "initial": "CH",
+      "answer": "Charcoal",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Charcoal"]
+    },
+    {
+      "id": "science-en-easy-03-05",
+      "text": "What type of engine ignites injected fuel using the heat of compressed air rather than a spark plug?",
+      "initial": "D",
+      "answer": "Diesel engine",
+      "language": "en",
+      "aliases": [
+        "Compression-ignition engine",
+        "Compression ignition engine",
+        "CI engine",
+        "Diesel"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Diesel_engine"]
+    },
+    {
+      "id": "science-en-easy-03-06",
+      "text": "What process turns liquid water at its surface into vapour without requiring it to boil?",
+      "initial": "E",
+      "answer": "Evaporation",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Evaporation"]
+    },
+    {
+      "id": "science-en-easy-03-07",
+      "text": "What electrical safety device contains a strip that melts to break a circuit when too much current flows?",
+      "initial": "F",
+      "answer": "Fuse",
+      "language": "en",
+      "aliases": ["Electrical fuse"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Fuse_(electrical)"]
+    },
+    {
+      "id": "science-en-easy-03-08",
+      "text": "What attractive force keeps the Moon in orbit around Earth?",
+      "initial": "G",
+      "answer": "Gravity",
+      "language": "en",
+      "aliases": [
+        "Gravitation",
+        "Gravitational force",
+        "Force of gravity",
+        "Gravitational attraction",
+        "Gravitational interaction"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gravity",
+        "https://spaceplace.nasa.gov/what-is-gravity/en/"
+      ]
+    },
+    {
+      "id": "science-en-easy-03-09",
+      "text": "Which gas, symbol He, is used in party balloons because it is lighter than air and does not burn?",
+      "initial": "H",
+      "answer": "Helium",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Helium",
+        "https://periodic-table.rsc.org/element/2/helium"
+      ]
+    },
+    {
+      "id": "science-en-easy-03-10",
+      "text": "What simple machine is a sloping surface that lets a load be raised over a longer distance with less force?",
+      "initial": "I",
+      "answer": "Inclined plane",
+      "language": "en",
+      "aliases": ["Ramp"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Inclined_plane"]
+    },
+    {
+      "id": "science-en-easy-03-11",
+      "text": "What enclosed movable walkway connects an airport terminal directly to an aircraft's passenger door?",
+      "initial": "J",
+      "answer": "Jet bridge",
+      "language": "en",
+      "aliases": [
+        "Airbridge",
+        "Air bridge",
+        "Aerobridge",
+        "Jetway",
+        "Passenger boarding bridge",
+        "Boarding bridge",
+        "PBB",
+        "Passenger loading bridge",
+        "PLB",
+        "Air jetty",
+        "Jetty",
+        "Finger",
+        "Skybridge",
+        "Skyway"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jet_bridge",
+        "https://en.wiktionary.org/wiki/jet_bridge"
+      ]
+    },
+    {
+      "id": "science-en-easy-03-12",
+      "text": "What petroleum-derived fuel is widely used in aircraft turbine engines and was also burned in traditional household lamps?",
+      "initial": "K",
+      "answer": "Kerosene",
+      "language": "en",
+      "aliases": [
+        "Kerosine",
+        "Paraffin",
+        "Paraffin oil",
+        "Lamp oil",
+        "Coal oil"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Kerosene"]
+    },
+    {
+      "id": "science-en-easy-03-13",
+      "text": "What metal conductor on a building helps provide a safe path to earth for a lightning strike?",
+      "initial": "L",
+      "answer": "Lightning rod",
+      "language": "en",
+      "aliases": [
+        "Lightning conductor",
+        "Air terminal",
+        "Strike termination device"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Lightning_rod"]
+    },
+    {
+      "id": "science-en-easy-03-14",
+      "text": "Which metal, symbol Hg, is liquid at ordinary room temperature?",
+      "initial": "M",
+      "answer": "Mercury",
+      "language": "en",
+      "aliases": ["Quicksilver"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Mercury_(element)"]
+    },
+    {
+      "id": "science-en-easy-03-15",
+      "text": "Which gas makes up about 78 percent of dry air near Earth's surface?",
+      "initial": "N",
+      "answer": "Nitrogen",
+      "language": "en",
+      "aliases": ["Dinitrogen"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Nitrogen"]
+    },
+    {
+      "id": "science-en-easy-03-16",
+      "text": "Which gas, formula O₂, do human lungs take from the air for cellular respiration?",
+      "initial": "O",
+      "answer": "Oxygen",
+      "language": "en",
+      "aliases": ["Dioxygen"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Oxygen"]
+    },
+    {
+      "id": "science-en-easy-03-17",
+      "text": "What liquid petroleum fuel is normally used in a car engine that ignites its fuel-air mixture with spark plugs?",
+      "initial": "P",
+      "answer": "Petrol",
+      "language": "en",
+      "aliases": ["Gasoline", "Gas"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Gasoline"]
+    },
+    {
+      "id": "science-en-easy-03-18",
+      "text": "What type of helicopter-like drone uses four rotors to fly?",
+      "initial": "Q",
+      "answer": "Quadcopter",
+      "language": "en",
+      "aliases": ["Quadrotor", "Quadrotor helicopter", "Quadrocopter"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Quadcopter"]
+    },
+    {
+      "id": "science-en-easy-03-19",
+      "text": "What common name is given to the reddish-brown corrosion products that form when iron is exposed to oxygen and moisture?",
+      "initial": "R",
+      "answer": "Rust",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Rust"]
+    },
+    {
+      "id": "science-en-easy-03-20",
+      "text": "What device uses sunlight, rather than a flame or electric heater, to heat and prepare food?",
+      "initial": "S",
+      "answer": "Solar cooker",
+      "language": "en",
+      "aliases": ["Solar oven"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Solar_cooker"]
+    },
+    {
+      "id": "science-en-easy-03-21",
+      "text": "What suspension component damps a vehicle's bouncing by dissipating energy, often through moving hydraulic fluid?",
+      "initial": "SH",
+      "answer": "Shock absorber",
+      "language": "en",
+      "aliases": ["Damper"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Shock_absorber"]
+    },
+    {
+      "id": "science-en-easy-03-22",
+      "text": "Which lightweight, corrosion-resistant metal has the chemical symbol Ti?",
+      "initial": "T",
+      "answer": "Titanium",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Titanium"]
+    },
+    {
+      "id": "science-en-easy-03-23",
+      "text": "What mixture of dyes shows a range of colours across the pH scale to test how acidic or alkaline a solution is?",
+      "initial": "U",
+      "answer": "Universal indicator",
+      "language": "en",
+      "aliases": ["Universal pH indicator"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Universal_indicator"]
+    },
+    {
+      "id": "science-en-easy-03-24",
+      "text": "What instrument is connected in parallel across a component to measure the voltage between its terminals?",
+      "initial": "V",
+      "answer": "Voltmeter",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Voltmeter"]
+    },
+    {
+      "id": "science-en-easy-03-25",
+      "text": "What pulling device reels a rope or cable onto a rotating drum, for example to haul a stranded vehicle?",
+      "initial": "W",
+      "answer": "Winch",
+      "language": "en",
+      "aliases": ["Cable winch", "Windlass"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Winch",
+        "https://en.wikipedia.org/wiki/Windlass"
+      ]
+    },
+    {
+      "id": "science-en-easy-03-26",
+      "text": "What medical imaging technique combines many X-ray views taken from different angles to produce cross-sectional pictures inside the body?",
+      "initial": "X",
+      "answer": "X-ray computed tomography",
+      "language": "en",
+      "aliases": [
+        "Computed tomography",
+        "CT scan",
+        "CAT scan",
+        "Computed axial tomography",
+        "Computerized axial tomography",
+        "Computerised axial tomography",
+        "Computerized tomography",
+        "Computerised tomography",
+        "CT",
+        "CAT"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CT_scan",
+        "https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/computed-tomography-ct"
+      ]
+    },
+    {
+      "id": "science-en-easy-03-27",
+      "text": "In the usual human XY system, which sex chromosome is ordinarily passed from father to son rather than from mother to child?",
+      "initial": "Y",
+      "answer": "Y chromosome",
+      "language": "en",
+      "aliases": ["Y"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Y_chromosome"]
+    },
+    {
+      "id": "science-en-easy-03-28",
+      "text": "What type of small battery, commonly used in hearing aids, uses a metal anode and oxygen from the air?",
+      "initial": "Z",
+      "answer": "Zinc-air battery",
+      "language": "en",
+      "aliases": [
+        "Zinc-air cell",
+        "Zinc–air battery",
+        "Zinc–air cell",
+        "Zinc air battery",
+        "Zinc air cell"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Zinc%E2%80%93air_battery"]
+    }
+  ]
+}

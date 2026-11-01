@@ -1,6 +1,30 @@
 # Content inventory and provenance
 
-## Current Geography one-deck integration candidate
+## Current Science Easy03 one-deck snapshot
+
+This isolated snapshot contains **138 decks / 3,864 entries**, adding only
+`science-en-easy-03` (English, Easy,28 entries) to actual private delivery
+`050045c` (137/3,836). All137 earlier pack bytes and ordering remain unchanged.
+Science has14 decks/392 entries, with three English/Easy and English/Hard decks.
+Nature retains15/420 and Geography13/364. The
+[shipment manifest](phase-12-deck-inventory.json) enforces actual incremental
+quotas and the unchanged final330/9,240/all66 five-deck gate.
+The [portable source ledger](phase-12-science-en-easy-03-sources.json) preserves
+all28 whole questions/full supporting arrays/aliases and the exact original
+general-adult Easy judgment. Content/current-semantic and final integration
+clearance precede the applicable quality/native and real private recovery gates.
+[Independent content acceptance](../reviews/phase-12-science-en-easy-03-content.md)
+retains all28/33 full evidence members/92 forms and the accepted Kerosene aliases;
+[current lane impact review](../reviews/phase-12-science-en-easy-03-content-notice.md)
+accepts16 relevant counterpart dispositions without waiving other decks' holds.
+The exact adult Easy26/2/0 judgment and historical limitations remain unchanged.
+No other draft, category clearance or final phase clearance is implied.
+
+## Historical Geography one-deck integration candidate
+
+The following is its pre-delivery snapshot. Actual `050045c` subsequently shipped
+only that deck after independent release, full quality/native and both deliberate
+active and naturally expired old-data verification.
 
 This isolated snapshot contains **137 decks / 3,836 entries**, adding only
 `geography-en-medium-03` (English, Medium,28 entries) to actual private delivery

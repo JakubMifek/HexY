@@ -1,5 +1,32 @@
 # HexY
 
+**Phase 12 incremental snapshot: 138 decks / 3,864 questions.** Only
+`science-en-easy-03` is added to verified private revision `050045c`
+(137 decks / 3,836 questions), preserving all earlier pack bytes and ordering.
+Its [source ledger](docs/phase-12-science-en-easy-03-sources.json) retains all
+28 complete questions, full supporting arrays, legitimate aliases, original
+correction judgments and the independently accepted general-adult Easy rating.
+[Independent content/current-delta review](reviews/phase-12-science-en-easy-03-content.md)
+accepts all28 entries/33 full evidence members/92 forms, the original additive
+Kerosene aliases and actual26-Easy/2-Medium adult calibration.
+[Concurrent-lane notice review](reviews/phase-12-science-en-easy-03-content-notice.md)
+independently resolves16 newly represented relevant counterparts; unrelated
+ScienceHard04 holds remain isolated. Historical limitations are disclosed,
+not claimed reconstructed. The exact original reports and seals are retained.
+Final integration review is a separate release gate, followed by quality,
+native flows and deliberate active/expired private
+recovery without extending original deadlines. Other candidates stay isolated.
+Final330/9,240/all66 five-deck quotas and final independent phase clearance remain
+unchanged.
+
+## Historical Geography Medium03 adoption checkpoint
+
+The following records the pre-delivery candidate. Its actual subsequent
+one-deck delivery is `050045c`, with
+[independent release clearance](reviews/phase-12-geography-en-medium-03-release.md),
+[fresh real-clock recovery method](reviews/phase-12-geography-en-medium-03-recovery-method.md)
+and the [exact postreview receipt](docs/phase-12-geography-en-medium-03-postreview-original.txt).
+
 **Phase 12 incremental candidate: 137 decks / 3,836 questions.** Only
 `geography-en-medium-03` is added to actual private revision `f1bca1e`
 (136 decks / 3,808 questions), preserving all preceding pack bytes and ordering.

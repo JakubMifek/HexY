@@ -11,8 +11,10 @@ function objectHash(value) {
   return createHash('sha256').update(JSON.stringify(value)).digest('hex');
 }
 
-test('Geography Medium03 is the sole newest shipped deck with the exact accepted bytes', () => {
-  expect(bundledPacks().at(-1)?.id).toBe(rawPack.id);
+test('Geography Medium03 remains bundled with the exact accepted bytes', () => {
+  expect(bundledPacks().find((pack) => pack.id === rawPack.id)?.id).toBe(
+    rawPack.id,
+  );
   expect(
     createHash('sha256')
       .update(readFileSync('src/content/geography-en-medium-03.json'))
@@ -41,7 +43,7 @@ test.each(ledger.exactQuestionAndEntireEvidenceBindings)(
     expect(objectHash(binding.completeAliases)).toBe(binding.aliasArraySha256);
     expect(binding.rawQuestion.aliases).toEqual(binding.completeAliases);
     const question = bundledPacks()
-      .at(-1)
+      .find((pack) => pack.id === rawPack.id)
       ?.questions.find((entry) => entry.id === binding.id);
     expect(question).toBeDefined();
     if (!question) throw new Error(`Missing bundled question ${binding.id}`);
@@ -51,7 +53,8 @@ test.each(ledger.exactQuestionAndEntireEvidenceBindings)(
 );
 
 test('Durban landmarks resolve the rejected Richards Bay ambiguity without pruning aliases', () => {
-  const question = bundledPacks().at(-1)?.questions[4];
+  const question = bundledPacks().find((pack) => pack.id === rawPack.id)
+    ?.questions[4];
   expect(question?.answer).toBe('Durban');
   expect(question?.text).toContain('Golden Mile');
   expect(question?.text).toContain('uShaka Marine World');

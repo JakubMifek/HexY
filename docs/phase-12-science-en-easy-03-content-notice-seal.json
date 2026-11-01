@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "deckId": "science-en-easy-03",
+  "reviewerTaskId": "9cb56baf-5a96-4cc3-9599-160a0aa977ce",
+  "verdict": "CONTENT DELTA ACCEPTED retained; coordinator notice delta accepted",
+  "priorContentSealSha256": "4b9be92170bc6def0bed1d3e9c7bcaf77e7f9176176e8e30ba528dcb1b995cd5",
+  "original200InputsUnchangedAtStop": true,
+  "currentActualInputFiles": 35,
+  "currentActualInputsUnchangedAtStop": true,
+  "actualFourWholeRawAndSourceInputsUnchanged": true,
+  "formatOnlyIntegratedFullLedgerObjectUnchanged": true,
+  "newRepresentationsIndependentlyDispositioned": 16,
+  "scienceEasy03BlockingFindings": 0,
+  "noMutableQueueIdentityClaim": true,
+  "otherLaneHoldsPreservedWithoutOtherDeckClearance": true,
+  "integrationReleaseSnapshotStillPending": true,
+  "deckReleaseCleared": false,
+  "categoryCleared": false,
+  "phaseCleared": false,
+  "members": {
+    "PROOF.json": {
+      "sha256": "e4b385449cdd2034a574458697829db07a7f0e90a9653519f7197363dbd72aed",
+      "bytes": 28862
+    },
+    "REPORT.md": {
+      "sha256": "a1d6140c23466a0f45aa19c65fc8acef164d0836d081c33627cc1588cc1ce999",
+      "bytes": 7832
+    },
+    "check.py": {
+      "sha256": "761e77fcdf035036eeb8cee06ccb5b63fa88de56447044ec1be399c61a0f607f",
+      "bytes": 7500
+    },
+    "seal.py": {
+      "sha256": "a5b229bd9c4c8d98c2904fe8358ac011c881da56b1c3172200c8a788ded0e100",
+      "bytes": 2314
+    }
+  }
+}

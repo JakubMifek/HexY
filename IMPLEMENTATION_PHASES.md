@@ -36,7 +36,20 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current Geography incremental checkpoint:** actual private/remote `f1bca1e`,
+**Current Science incremental snapshot:** verified private/remote baseline
+`050045c`,137 decks/3,836 questions. Only ScienceEnglishEasy03 is added here,
+giving138/3,864 with all137 old pack bytes/order retained. Exact28 complete
+question/full-evidence/alias and original adult Easy ratings are inherited;
+the [independent content/current-delta review](reviews/phase-12-science-en-easy-03-content.md)
+accepts all28/33 full evidence members/92 forms, actual26-Easy/2-Medium rating
+and the original Kerosene alias correction. Its
+[concurrent-lane notice review](reviews/phase-12-science-en-easy-03-content-notice.md)
+resolves16 relevant counterparts while preserving unrelated holds and historical
+limitations. Final integration release review remains required before full
+quality/native and actual active/expired private upgrade gates.
+Other author lanes remain isolated. Final330/9,240/all66 is NOT CLEARED.
+
+**Historical Geography incremental checkpoint:** actual private/remote `f1bca1e`,
 136 decks/3,808 questions. This isolated candidate adds only
 GeographyEnglishMedium03, giving137/3,836 with all136 preceding pack bytes/order
 unchanged. Exact28 full question/evidence/alias and accepted original Medium

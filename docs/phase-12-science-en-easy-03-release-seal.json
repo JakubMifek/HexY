@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "deckId": "science-en-easy-03",
+  "reviewer": "9cb56baf-5a96-4cc3-9599-160a0aa977ce",
+  "solePublisher": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "exactSourceQAFrozenInputSha256": "3d6c0b9f908cd98bda47f8c5f88e97624c7f2a0099bee4f6189d7f5012248c1b",
+  "actualDeliveredBaseline": "050045c5c44db41c72ccc4cfa7577eb32019f003",
+  "delivered": {
+    "decks": 137,
+    "questions": 3836
+  },
+  "oneDeckCandidate": {
+    "decks": 138,
+    "questions": 3864
+  },
+  "frozenSourceFiles": 408,
+  "frozenReleaseInputs": 28,
+  "allRuntimeSources": 63,
+  "all28Facts33Evidence92Forms26Easy2MediumUnchanged": true,
+  "acceptedOriginalContentSealSha256": "4b9be92170bc6def0bed1d3e9c7bcaf77e7f9176176e8e30ba528dcb1b995cd5",
+  "acceptedNoticeSealSha256": "8512a6d19e871ee3ee1657de82f9bc747e4660fa1960c362debcdc56d2150372",
+  "currentReservation22Sha256": "55144411e5d44c7482c430eb7cb277055f3c21521a43cf25adc1e1267f37f7f8",
+  "currentBeforeSnapshot22Sha256": "68d209b76577049b2e855a67d55ff65d806fd2ccbe5ab832b4a05871a35cdb25",
+  "R20R21R22FullAffectedDeltasAndSixCompletedHandoffsAcceptedForThisDeckOnly": true,
+  "currentBank": {
+    "decks": 32,
+    "questions": 896
+  },
+  "mutableQueueClaimedIdentical": false,
+  "mandatorySubsequentGates": [
+    "same-snapshot full quality and separately enforced all-runtime coverage",
+    "actual native58 execution, not selection receipt",
+    "after QA before push: fresh unique old-private050045c EN71 active3600 and naturally expired10 profiles using approved driver71b676",
+    "actual postpublication revision/newEN72, unchanged deadlines, whole recovery/raw library and served raw pack verification"
+  ],
+  "mandatoryGatesExecutedByReviewer": false,
+  "privateDeliveryClaimed": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "finalTargetUnchanged": {
+    "decks": 330,
+    "questions": 9240,
+    "combinations": 66
+  },
+  "otherLaneHoldsOrHistoricalProofCleared": false,
+  "reportSha256": "e08780781c67ecf4cfcf56ef1fa4192da322bacdf86beb2ae00d306008021c16",
+  "members": {
+    "CONCURRENT-112-FULL-PREDICATES.json": {
+      "sha256": "069bdf3a03fd10996abeabe18128e5f6ae55667cc25e0c341fbfbbc32e2430a8",
+      "bytes": 49727
+    },
+    "INPUT-BINDINGS.json": {
+      "sha256": "b1c8c6f4fba190efb7b16b7a20af6c45ea069b6f8926e3ddc67875f7b6b3007f",
+      "bytes": 135611
+    },
+    "R20-CURRENT-DELTA.json": {
+      "sha256": "516e3c36b2507fd0607e1b72193b381dc0d73a45a0d8493b8b3ba078fbe6bfd7",
+      "bytes": 177036
+    },
+    "R20-INDEPENDENT-DISPOSITIONS.json": {
+      "sha256": "f6ea39ae30ddcf1f3828d9946ad9a0cd7dcc862a161162b573677d01dc3ef50a",
+      "bytes": 198105
+    },
+    "R21-CURRENT-DELTA.json": {
+      "sha256": "7ee7a2e44b37a7e689aa5e42694a82d1092ac3b40f63d00fa1da0d70ab90db59",
+      "bytes": 68134
+    },
+    "R22-CURRENT-DELTA.json": {
+      "sha256": "a859347f1401761b9ee5dd8641202226043bf65e35be9d6ae3495d32b4831b97",
+      "bytes": 97302
+    },
+    "REPORT.md": {
+      "sha256": "e08780781c67ecf4cfcf56ef1fa4192da322bacdf86beb2ae00d306008021c16",
+      "bytes": 30408
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "66e41750b8c63f015383f396a7dd484e73e34a11ed83a9524e9e9afb3653786d",
+      "bytes": 152589
+    },
+    "VERIFICATION.json": {
+      "sha256": "524d2784b93ad481dc76ca6f35a729dfe2a51681e59b3a6a21797f33f6b47ddb",
+      "bytes": 3442
+    },
+    "dispose.py": {
+      "sha256": "5e5d85777b60ffd31d57e4a0a6a8bbb84a2956d37de7e2f641d52aa8c79a7d34",
+      "bytes": 11114
+    },
+    "r20.py": {
+      "sha256": "a936d00bd645aada4d3e40633c416cf6e643f8e4464ad14eac449db225546452",
+      "bytes": 6973
+    },
+    "r21.py": {
+      "sha256": "36751295d8532a5fdbfa0100631fe35acc6f89b92bcbc4b299a8c2576f39ef31",
+      "bytes": 8209
+    },
+    "r22.py": {
+      "sha256": "45ce3af648a79eb1909a3b5b39aa9b3de5deada2c89f7f237593e0d96f4620c5",
+      "bytes": 9250
+    },
+    "seal.py": {
+      "sha256": "49ed4ceb7e28598a25da512cf40e02c054a1c02dab652c3cdbe97bb667e6f720",
+      "bytes": 5765
+    },
+    "verify.py": {
+      "sha256": "2e9c5cb7855de1e515f64e2360bc7d7e23af29871e00b4f2dee078aa44d1d5de",
+      "bytes": 8498
+    }
+  }
+}

@@ -1,0 +1,3304 @@
+{
+  "at": "2026-11-01T23:11:06.428Z",
+  "deckId": "science-en-easy-03",
+  "baseline": "050045c5c44db41c72ccc4cfa7577eb32019f003",
+  "freezeSha256": "3d6c0b9f908cd98bda47f8c5f88e97624c7f2a0099bee4f6189d7f5012248c1b",
+  "sourceFilesVerified": 408,
+  "frozenInputsVerified": 28,
+  "independentReviewMemberFilesVerified": 15,
+  "independentReviewExternalGuardFilesVerified": 689,
+  "inputs": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/FROZEN-RELEASE-INPUT-v1.json",
+      "sha256": "3d6c0b9f908cd98bda47f8c5f88e97624c7f2a0099bee4f6189d7f5012248c1b"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-logs/phase12-science-easy03-full-postreview-v1.log",
+      "sha256": "b75e6947062efad346f00647c54c6757b81dce4be26267c94780fe318efba8f4"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-science-easy03-native-postreview-v1-results.json",
+      "sha256": "148e08df994f4f500f4056707dfbe626c8f45cd458d0c7e08d415f8a3abadd77"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/REPORT.md",
+      "sha256": "e08780781c67ecf4cfcf56ef1fa4192da322bacdf86beb2ae00d306008021c16"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/SEAL.json",
+      "sha256": "b33c1da221652d4f692a4268d8d4cacb43fe1d37d3e1fca9bbdc961582b6e924"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/CONCURRENT-112-FULL-PREDICATES.json",
+      "sha256": "069bdf3a03fd10996abeabe18128e5f6ae55667cc25e0c341fbfbbc32e2430a8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/INPUT-BINDINGS.json",
+      "sha256": "b1c8c6f4fba190efb7b16b7a20af6c45ea069b6f8926e3ddc67875f7b6b3007f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/R20-CURRENT-DELTA.json",
+      "sha256": "516e3c36b2507fd0607e1b72193b381dc0d73a45a0d8493b8b3ba078fbe6bfd7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/R20-INDEPENDENT-DISPOSITIONS.json",
+      "sha256": "f6ea39ae30ddcf1f3828d9946ad9a0cd7dcc862a161162b573677d01dc3ef50a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/R21-CURRENT-DELTA.json",
+      "sha256": "7ee7a2e44b37a7e689aa5e42694a82d1092ac3b40f63d00fa1da0d70ab90db59"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/R22-CURRENT-DELTA.json",
+      "sha256": "a859347f1401761b9ee5dd8641202226043bf65e35be9d6ae3495d32b4831b97"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/STOP-GUARDS.json",
+      "sha256": "66e41750b8c63f015383f396a7dd484e73e34a11ed83a9524e9e9afb3653786d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/VERIFICATION.json",
+      "sha256": "524d2784b93ad481dc76ca6f35a729dfe2a51681e59b3a6a21797f33f6b47ddb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/dispose.py",
+      "sha256": "5e5d85777b60ffd31d57e4a0a6a8bbb84a2956d37de7e2f641d52aa8c79a7d34"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/r20.py",
+      "sha256": "a936d00bd645aada4d3e40633c416cf6e643f8e4464ad14eac449db225546452"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/r21.py",
+      "sha256": "36751295d8532a5fdbfa0100631fe35acc6f89b92bcbc4b299a8c2576f39ef31"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/r22.py",
+      "sha256": "45ce3af648a79eb1909a3b5b39aa9b3de5deada2c89f7f237593e0d96f4620c5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/seal.py",
+      "sha256": "49ed4ceb7e28598a25da512cf40e02c054a1c02dab652c3cdbe97bb667e6f720"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-release-v1/verify.py",
+      "sha256": "2e9c5cb7855de1e515f64e2360bc7d7e23af29871e00b4f2dee078aa44d1d5de"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/.github/copilot-instructions.md",
+      "sha256": "37d4ab0a5161dbaa9cdc12ea61fe0aad14785d672b4bf35b75f821ffb7caaf3e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/.gitignore",
+      "sha256": "53f6c28bc92159cf7c86b49c5cc9a8b79c7827f0f305c0db9038f3de26f45bee"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/.prettierignore",
+      "sha256": "a0ee7f21c680758959ecdf37bbabf8de0ad494b4fae972157f38d2b314f15118"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/.prettierrc.json",
+      "sha256": "e51419e8206a0a5493e85ef1f4dea080982dc9187992bb253220a93d0784f6b2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/AGENTS.md",
+      "sha256": "5bead2d761a6aa7ac317d929530e16878675c2363d96790c424385c42f84bb41"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/IMPLEMENTATION_PHASES.md",
+      "sha256": "8bef8bc173dc13a10f9b5b48bf01cf3966dc49d57f2a98948d095199e364e7b1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/LICENSE",
+      "sha256": "822d90017bf7d64633b40f34275f0aa4c010c25b597462667e66a23d25ff565a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/NOTICE.md",
+      "sha256": "8fc2e8c5b1dc256aab3b7260db468fe4d416e4af19c7cad4fd4d2e74637c0e6b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/PLAN.md",
+      "sha256": "485ae861bccf2d54207bc5e265f7ebe1ee5289a70c9351966047d4b4bc04c85b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/README.md",
+      "sha256": "d0d89ff805d38bfcb0849a8fe2377d39bab2aedda28b57b5105068a82b94c221"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/REVIEW.md",
+      "sha256": "5211efec975efcfc554e32f994f1bbcb20c7f34d2126359800bc042bb7d1ab8b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/answer-sheet.spec.js",
+      "sha256": "b2a3c8934a37a59aa9863c77641760be1e2bf6351820d837ff81c6173447ba1b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/catalog-presentation.spec.js",
+      "sha256": "79b59d9373a0aa75d90063d3061d2cf01fb8fd6413f6e7919c2421ffe3210e63"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/catalog.spec.js",
+      "sha256": "dcccbd4af455c73e0aff1ef8941cf0d1962f29bbd79a520b964817cd0c4d887f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/clock-error-fit.spec.js",
+      "sha256": "30d317677f24641bae79cf7c88835f734ec82a732d9a83a2e643e3f536863c74"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/computing-scope.spec.js",
+      "sha256": "2781e58ddd57a075fe8320011b020ee86edc140987ae6d4add879487b546ede6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/controller-helpers.js",
+      "sha256": "6108c26175eb7bdb8cc7737295cb0209eea409630f8eb62daff4c837f22bd83d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/devices.spec.js",
+      "sha256": "d706e9e18a3cbf310217054557783ed8e2ee698cd015a7f64fbd4542795f0268"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/duels.spec.js",
+      "sha256": "88e2830d1f03addc6ff5de70096ac5a4396d1b5f7611582f3d77739f814f0c4b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/game-effects.spec.js",
+      "sha256": "5ccc8affd61f27df8660945e12a726b01a72a09ea6f4618e4a062e33272f2221"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/game.spec.js",
+      "sha256": "8065199a984b39586ecc7d290a43b9c179dfadae501b1bb5855da84db02445be"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/guided-fit.js",
+      "sha256": "6d444cec00d766686eb20c163aab649d7cd40ecc323dec7e4c47509d90073b42"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/guided-ui.spec.js",
+      "sha256": "a1db5ede233f8f4a33c1601215fcf12cc536a201c6ba5de10294e0522d2ba244"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/helpers.js",
+      "sha256": "9441791f3ce34c058098e285278518b77953acc9262f5d8e1c470ece3eac4320"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/modal-readiness.spec.js",
+      "sha256": "1fd248db22285704cda0835f3e1874821902a83aa6bffde849f8986cf10bb018"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/offer-layout.spec.js",
+      "sha256": "6003ea03507c2e8c5e0731ed88586f6339f732c2d7b5ff68104da4c242c7d900"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/opponent-turn.spec.js",
+      "sha256": "cdd584f6520bfd0889466198d3200b983dffbcf79b998a90e2fdaa34be334714"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/ordinary-offer-layout.spec.js",
+      "sha256": "66e53ad464fd70395c4cbd19abf454ea884e73f30f33b9b5586b23cff434e696"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/pdf-helpers-regression.spec.js",
+      "sha256": "b260caf9e81e73348ae0b7b685f9ad01dbd4d2dfe8642f460777fc1d342b1613"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/pdf-helpers.js",
+      "sha256": "dcbbc1b53bf7d5dc5de4d6646984da04217e583ec61a02121ddc6428ed01a60c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-eleven-general-corrections.spec.js",
+      "sha256": "2deadbf175f82847b4bcc143a55c28cc75be12abf888cb90d303a2d5a67f6fa8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-eleven-general.spec.js",
+      "sha256": "ccc73be5a5f525ef6f85b0a17bfb87636f79b11cdc6f465faffddccfc98c9945"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-eleven-geography-corrections.spec.js",
+      "sha256": "c349225a1d10fd959e0f4240bc4c3fca9a9b4526a6722ae7fe97ab40bf2c5ef5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-eleven-nature-corrections.spec.js",
+      "sha256": "2b3d89ac8d0dcc369d135e28391f1e1b9d3d063ae263ce0e295d1fb81b0e12c5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-eleven.spec.js",
+      "sha256": "139baf1061587e5eb0a46274648cf59262cb1669b6b6c6cffa1a83bd35d88f38"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-seven.spec.js",
+      "sha256": "d688bd963dc5313c36e55a1dc9e0970880312104fda5f06c07409cc934bfbc1d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-six.spec.js",
+      "sha256": "5135cff3ad15bc8d47f6c1c1946110be14fa98e79b67082f43880dc2f400e7ba"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-ten-library.spec.js",
+      "sha256": "1063781a7f430bd917491804b559cb649a98e5a4789731383c04ff871b8a885a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-ten-recovery.spec.js",
+      "sha256": "c897b37b806ab865930e08716492fec16090b1ba20054b9d19d3f88cdc61f5e9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/phase-ten.spec.js",
+      "sha256": "e3c9869a8fae5bef60c1e502c77c36dab2e1525fe75c0cfed84fbe0470369ab4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/preparation-helpers.js",
+      "sha256": "4c731a866ed61af9df5d6eea51053937c2a07957aee2b020d800e6079e52b595"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/preparation-storage.spec.js",
+      "sha256": "ddc42870104f678366f5d9bc94e8bdafc31b54e051df3b6189547d12987de408"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/preparation-visual.spec.js",
+      "sha256": "abbf42b5ad2b5b5fab147f632a97db6dd37fb72a51a23527c9fdd3fc8f97d162"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/preparation.spec.js",
+      "sha256": "db41ac9c324d0fe9c959e5c6abf1a3c9a6fdff6d5066f03686a5e151f7870b2f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/recovery-review.spec.js",
+      "sha256": "503efe1eb2fa6a1a8f10ea4d20b40fc094d1a04fac34caad49e84d39bd210daf"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/release.spec.js",
+      "sha256": "8dea5d0c9a555d3d39d1bd7249a0c8c2381e5c868ad2e472c2d5c585b50df8fc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/resilience-visual.spec.js",
+      "sha256": "9d836eb1916edf848ea32945c84f1d700f2924cca3fe92c0768085fb10dcd646"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/resilience.spec.js",
+      "sha256": "9fc13926faa8075628c2fb6ca31906f40ec32b7e87cd3792ce0d8de73562af0c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/retired-content.spec.js",
+      "sha256": "7eccedd7a62c27c07cc65c1163f80b3cbfbe3f315a9970b8bf220a0c9d12aacd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/return-geometry.spec.js",
+      "sha256": "4dba5af47fbbe1f11c5d76651805ce1c51a9c3b6571a89873d4837406ae970f3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/review-fixes.spec.js",
+      "sha256": "6df63b9df23ba5f968b02a489b24b27a622afecc3c3e55bee7895c1ba6ef0de9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/storage-recovery.spec.js",
+      "sha256": "57e9ad306eb3656a68a2ac256a7fc375a2ba08edfb0c89751a4bc7f7830014cf"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/tile-countdown.spec.js",
+      "sha256": "c71211b2e132951b1ca47b260075b340a9645afff6c6325849022816791f6a9d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/tile-flip.spec.js",
+      "sha256": "31940d90a69bba8d7e90500e2004e29897072ff6fb89757dee30878d8a3488dc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/browser/visual.spec.js",
+      "sha256": "95d324f6db7b98c98de1c22687cfa4d00230a36f35e83168cca15ca592c1faed"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/deploy/cli.js",
+      "sha256": "1c50509c15db1a0c01921f6a7ec07d93eddba9a4ff7372b29f54b90fb747b0b3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/deploy/install.js",
+      "sha256": "afa2ad373c6fae59d4b49a610a05f917bd1e27170866d8f1ddb80dd31fb9fa41"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/deploy/io.js",
+      "sha256": "e798aff2f4617e8202b492ff30fb200895fa93b243d14573b10af5d69da959fc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/deploy/nginx.conf",
+      "sha256": "7caef5ebb492f5d232730f6afe7f8faf90b8b7834835bf4f76df8a049f28d561"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/deploy/releases.js",
+      "sha256": "e062be5e56fef6fed1795edc97bd5ae12bec82151ac807bd19d253460f66b439"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/deploy/server.js",
+      "sha256": "88284a22588953784f0a1d6160ea4d742776347deaac6b2ee3f0dbaf79583b64"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/deploy/update.js",
+      "sha256": "871cd3fbab66b7c3e7d9d3759a0d59b64c83750c66a814dd5289de2a05f871cb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/content-inventory.md",
+      "sha256": "15059f79ca46d769b719d051f8c2e2917b7f7b8f35ce5f2baf09f89f7f8fa3ad"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/content-sources.md",
+      "sha256": "7fdd7965cb9d00bebc1bcc7b201d68953007a3177e535d1643851061e27914de"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/contracts.md",
+      "sha256": "a98cf832a872501aeeb713ee48bdb574f2a4bfaefc3c2754637eb76eeba9e398"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/interface-followups-handoff.md",
+      "sha256": "86b009cdb77baa54dbe9b4143ad54a0beca3f22ec6a4622b729fd1d6148481b3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-04-handoff.md",
+      "sha256": "d41ded5a8beb053499025cce2d18cfb5a782a3b5514ee719f9bf305cbd573aa5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-05-handoff.md",
+      "sha256": "d04be746fba0c723623ce7061748ae171fd545fff18fd3cda34dc2340b36bbaa"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-06-handoff.md",
+      "sha256": "7358806a2598b8d2ad890f0abda328499c49dfad5a0de271cdc3e5d111ff9357"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-07-handoff.md",
+      "sha256": "784eef284cceb718453b19ceb054428964312a605b17e0372273528442f3ab6c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-08-handoff.md",
+      "sha256": "e837d35883b83ff2a705d9e11a6a1b34a5b99b643d70e1883b9b4bd66fff461c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-09-handoff.md",
+      "sha256": "78e06ff96fa51e74aef74bce70fc0588cf10f12f1170242b0f6674b95eae2bbd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-10-handoff.md",
+      "sha256": "0c4ce07122346ce906138520fa42db325ea86b6b84bb39f317e55b39243fbbea"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-arts-sources.json",
+      "sha256": "59d581f50c4e04c8a8490609e2648c0f8c281d9a887c0a6cca91bf4552db173b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-classification.json",
+      "sha256": "24309bf603395aed48ebeb74e5fa0cd3be533a77e3feabc050521fa8773765a7"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-computing-metadata.json",
+      "sha256": "ab5268cacc490e1bdddc88b25cd4c25865ccffb4e70b197f2f0023b49b125704"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-entertainment-retirement.json",
+      "sha256": "453eb74330531cace088185c336c9bb1059528eab20f49df8417911ca8680c1d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-games-sources.json",
+      "sha256": "49f9895b683c7ad6822ee51d1b9167879c2c2a95d38360dff046886061cfd12e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-general-sources.json",
+      "sha256": "d7c67ea8e4a92760ebaf3636f0e9ebded8aa8c54690a1852426687ad5c058a2b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-geography-sources.json",
+      "sha256": "f2d8d7b52d908efeb3c97e4370ac00b29e1b193c6eaa46ef08e715b61a6d424e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-handoff.md",
+      "sha256": "7ce5c98d21edee03d728017acb3d5e0443008f9d8d113e62c4573bc84295107e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-history-sources.json",
+      "sha256": "77edfba0ed773273d36e5e5dcc41a87396a0ac4ef3e342b7b401373f1f81b7db"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-movies-retirement.json",
+      "sha256": "3b74b6676d059a8a401338b314286f8958131ddb617cdc4cef5e95f473e663bd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-movies-sources.json",
+      "sha256": "19604ea919a7f2bc8e75952e25898417324e733b2a139c42abcd4b103f1d3233"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-nature-sources.json",
+      "sha256": "56d4e21794ceda9bcdc7df27f40ce624c7c306dd20941b95e235c0a0aaf15e19"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-politics-sources.json",
+      "sha256": "b65e5e6b203b9231fa956d3db1de191206e3e8192d64385a6ea2a58a0b76c7ca"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-programming-sources.json",
+      "sha256": "f05676e38f870f925cdbabe697afd0a80993403b0466dfb232ef965d59934631"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-science-sources.json",
+      "sha256": "72d14967cfc1d65ad15622270a94c52fd561172a7e49d406eb657bdb0b5bcf5a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-11-sports-sources.json",
+      "sha256": "c162a659253919540356386d6eb184f74d200da39d5c1cdaf0aa7f52c164c36b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-deck-inventory.json",
+      "sha256": "3a82335dcf94458294ec320d4a75706a4dda2a802f108e70da55f695ed47d229"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-geography-en-medium-03-content-original.txt",
+      "sha256": "5b1fbe0267bf7a8f6932b186d76bf6444a3aa74fa36703850c246ca56fe2dcc6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-geography-en-medium-03-content-seal.json",
+      "sha256": "cee9bce5508a0e6ad27990592a9b402625e5416d7ec1870aeece0b9df34146b1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-geography-en-medium-03-postreview-original.txt",
+      "sha256": "34347954dc9b69503335d9c1cb0a2e5d69b6553beea55a6e558455abe71b33de"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-geography-en-medium-03-recovery-method-seal.json",
+      "sha256": "633a2a516f1ec83c005597f4aa7e59082c877c9deb900f2318b1bd3d3c34ba5f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-geography-en-medium-03-release-seal.json",
+      "sha256": "01cb3d5d28aca460288c6aae5cc88f55dbc1e6b062165c4b091a732664ec4e28"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-geography-en-medium-03-role-delta-seal.json",
+      "sha256": "5b7eda578f74e0f57c26cccdb38ba63b6a4b17d821529f40741e7df28294de44"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-geography-en-medium-03-sources.json",
+      "sha256": "331b966250e8f8446d59c13c27357a55735abd75aef5abba059a14aaacd638f1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-nature-en-easy-03-content-seal.json",
+      "sha256": "34d5f2927b1856085f3d1c8b5e8302a948aa9d4cba4fa809b9bc7121318202e5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-nature-en-easy-03-sources.json",
+      "sha256": "dcd7d432770f3533b8395781d7e73c9a8b12df191d6f7c1027beb03b806bfb1e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-nature-en-hard-03-content-seal.json",
+      "sha256": "4fe58b6d68b285c696905eb3df159e99e26c69518f2a73fe81e3c12792a7a443"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-nature-en-hard-03-release-seal.json",
+      "sha256": "5a14b473dfb7f4937d7492f92f5aeefc5f3af83c7ddac575fffc74ac80845afc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-nature-en-hard-03-sources.json",
+      "sha256": "40579a88c94901056fb568c7d6200c07c520bbe3c4a6fcd8c49497e50e332139"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-nature-en-medium-03-content-seal.json",
+      "sha256": "e28e93f04f92eabb68066842cbfe23dd2cb1c451cc00607a211d458034389554"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-nature-en-medium-03-sources.json",
+      "sha256": "aadb6a4febbf529d7945ac46120800056023cee775a869b8c639db0c301863ef"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-hard-03-content-seal.json",
+      "sha256": "828e3c489e11bef5fb942ab75dfebe6d6c98ecd7365b0ce2db9c41338bb207dd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-hard-03-release-seal.json",
+      "sha256": "e067f3d2d00b1365f7e846dd6fdb7fc786f6ff6dd0dc005625c477e023fdc9f2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-hard-03-sources.json",
+      "sha256": "a339be7221ebaf61a64aae57427b691daa98b1a229c1cf19115e130b6e675b37"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/private-preview-handoff.md",
+      "sha256": "c8f4def92e83d5e7c2b2bd21a401d0008d1b6408d2f7df3aa660f09c673504eb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/private-preview.md",
+      "sha256": "2a0206356e460084e049fa783a8c59da46cd53dc6f0303a256d0cd9b79099448"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/release-readiness.md",
+      "sha256": "bb745659d292746f9890cb0c49c916132417c0999f74561809c1173485d3277c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/retired/entertainment-cs-01.json",
+      "sha256": "186b594a78b401a6a7b7ac9cc33245f7158088175018668e57e514146124e5a9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/retired/entertainment-cs-02.json",
+      "sha256": "e631d19978328940b2ac335e654ff6282543e1caf3348e12381c4f4941e7f50f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/retired/entertainment-en-01.json",
+      "sha256": "9e35c81c54ffc53a95cdb4eebfecb605054d1d099fa0f162114fc88b708c9dfd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/retired/entertainment-en-02.json",
+      "sha256": "a3d665fb3badf7dffb1636264d75f0b1f70893e1d04ef943464e43994e1220c6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/visual-bundle-handoff.md",
+      "sha256": "fb94d784332e3d5a259c4e0601c756cbb981c14a1cdf645d1e74a20ac18489c6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/eslint.config.js",
+      "sha256": "2e383e27b0f8da68cf93889cc4e2c7a3ab367531afdfeaad3661b6bb769aec70"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/index.html",
+      "sha256": "20ab56a62d06871738e97098e05d69177172e746146588ef93b654a1e7fc972a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/jsconfig.json",
+      "sha256": "0c2e0dc62ffccaf98687bfe14910dd9ed87def52254af5f2101d68ffe343eb85"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/package-lock.json",
+      "sha256": "283583924ab6c36010a07fee0398ce0f42468b84f58f5d0f712f747a898af6a1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/package.json",
+      "sha256": "f5d3db9469c651084094dd16173e9983f1bf8ce24a58c8c8c4d6baf90b069713"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/playwright.config.js",
+      "sha256": "00682f4ac58f834ceb16c011e02ca700bd8eaba577da787336736148c42a3e93"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/playwright.cross-browser.config.js",
+      "sha256": "1e7b040db83d95093c74a208c66b166865219010f5c7154102cbe9fb6f4dab09"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/interface-followups.md",
+      "sha256": "a47b0871e65ead9a8b2ecd4ebf10ae0b2654c6208cb16193c878f42dff0fbe1d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-01.md",
+      "sha256": "5bfee31c777ecb219635c9f87d0d9ac21a31d1239f915d89544e6bffd9a1aee2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-02.md",
+      "sha256": "301e2a9926154b317acd79fd1d955c962ac24f6e30cc4b343ddc31fe89a7a8fb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-03.md",
+      "sha256": "5b6ed02d3a84b260043f9ab2f2b749d25cd53d89782091349c2528b1736adac3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-04.md",
+      "sha256": "b16631b2bcf96d42de48ea04c3efb0a25b947b1925562866ef78089ee1b05a53"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-05.md",
+      "sha256": "5fb84163d41a7aeb5d8aef9c05c06e2c95d52d086541e9d3871cf8aa218a8bcf"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-06.md",
+      "sha256": "1e4c242dc029137fcc478d87be988b312bd55516094dcaf641270d7fb6144963"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-07.md",
+      "sha256": "b5a7bc035ed038e6deca557e6fb3869d5e99992b114fbe6896856e6bb29f084e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-08.md",
+      "sha256": "68ebb340c00426d7629748a5b69a2468a7c401906a4e26171d92c9d69c96c243"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-09.md",
+      "sha256": "df3b7c208da7aa578cde07f1a759a80edb005461b4af53464819bf619956d69c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-10.md",
+      "sha256": "50ea898d016bbe87146a33000d3d3b6fab4466bea48d4ae1e449ead031174097"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-11.md",
+      "sha256": "515f42e34709516bcddcf1c679bb1aa36e215cc81ccb44128639cb69a1cdd5a2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-geography-en-medium-03-content.md",
+      "sha256": "122c60cb81cd019cf2431745478353dfd16c10f735b3530edcfeb615b59d2638"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-geography-en-medium-03-recovery-method.md",
+      "sha256": "69425fad02ed048ac83cfd31ca63051b1296b60fb4be314fa06ccc7fa5745d5f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-geography-en-medium-03-release.md",
+      "sha256": "d037116256cc8542a5e2e1d9ade0f30fe51d6b7974ba6239f81185b7262ae50e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-geography-en-medium-03-role-delta.md",
+      "sha256": "5614b7bf4023cc7f8f699b529f6d484c909a0dc819288d57145922b19912da98"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-nature-en-easy-03-content.md",
+      "sha256": "d4e70a4438a39552e1206e7019f012fb44b68f05813c55f80297fb0cf182f782"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-nature-en-hard-03-content.md",
+      "sha256": "ec2be7b0cd1e9eef290903a8e5186bee8d64c34da01b192b9bcc5d8daedb47dd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-nature-en-hard-03-release.md",
+      "sha256": "7d900b4b1c6c606be15da87da80609b0ea8e0f2103ce2ccb3d2d07a7c6152657"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-nature-en-medium-03-content.md",
+      "sha256": "d74a99c671ae7f4861fd1f9e1ff6d941f9be816a7f0bcf5c44c22b9f76349780"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-science-en-hard-03-content.md",
+      "sha256": "2d28a4bb661412c2cfd88d27a8fe138b858662b77b134cb6f570747be897886a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-science-en-hard-03-release.md",
+      "sha256": "5e9765eaedf32a56679d9776a60bdd8ab6a47a7fdf27ae70f8e632aa6b4c99d9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/private-preview.md",
+      "sha256": "b2ba9763a45666bd71f10f57316640df38dca2e2e3df95fd0c6c32155c6d94ac"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/visual-bundle.md",
+      "sha256": "59be2ccf63a35e4d62317757b97bff55dde89530800fbc92cb3306855832bb53"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/scripts/check-coverage.js",
+      "sha256": "26de39c02b1634e1dd0f9b7a232c742386850b38809be33713ed4ede7ac47c60"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/scripts/record-phase11-classification.js",
+      "sha256": "15aef04a18cc0290e77a1aa4e854b76480f61a291c5a6feb7681bd74355470ad"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/app.js",
+      "sha256": "893263cb7c3e4273f008059844a1405cdb6f5b58a0322137cb6967b7bd66fce9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-cs-01.json",
+      "sha256": "c0a93b91ecb0872078bc26ad4d250850919cacc567f542e3d3235fa7dd3785b0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-cs-02.json",
+      "sha256": "dfe18ba4203e66fc4d7a789f96462cba3e9e2af3654b31abb31403f8e9fa5804"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-cs-easy-01.json",
+      "sha256": "75df734a38829297e864f01bad21371e20b74e984aab452989affd019d48dda3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-cs-easy-02.json",
+      "sha256": "3349e46f5dc5f48fd34e560a03a5ecbb1ae34c3ece605d935dc3180e1f728f93"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-cs-hard-01.json",
+      "sha256": "3b06d9552f4c9ca6a146ff1a91fdeb5bfd0a2c00af104af324c3bf6f9bbd5d69"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-cs-hard-02.json",
+      "sha256": "b054aa7456ca3e43036214bbc219bd22b0ef05db03d7b3048c0cc0db38e755e0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-en-01.json",
+      "sha256": "0260f3cd767b068f456e7f261e3a4f21e43f351f8054d3a7aa90eabd1b9964a2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-en-02.json",
+      "sha256": "40e145cdf1097a4e1fb31cf3ad9dd9ead7f1774b87e80b8ba15942dc15f03a03"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-en-easy-01.json",
+      "sha256": "200b1673bd343dab65cdf29e84ed36d513dd58b7979c97b91f9601ae5a438f05"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-en-easy-02.json",
+      "sha256": "f1c635fe6c886b45fa5ae0e024a59f373ee56f130c9c6455a5034e42f81135da"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-en-medium-01.json",
+      "sha256": "3e4f0a1d4a5757c97e33b89954db4351757752b66d2c8431ab558c354028030a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/arts-en-medium-02.json",
+      "sha256": "83ca87c7079e99f3148bf154a5d280b819f3c5c632c3c3dd35d94e0970099a08"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/catalog.js",
+      "sha256": "c9c8f907f24d465079634672acb35e77f530ee8e9d04f0398b84df54752df34a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-cs-easy-01.json",
+      "sha256": "4aaef5c224ac989116e54f2136a33844fc059dc748c35274ee4406434481017c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-cs-easy-02.json",
+      "sha256": "84bb6439fe50a961d8beaeceeb0fb841f5ddffbb906a8809dfd8076db2e0e3af"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-cs-hard-01.json",
+      "sha256": "6958215ae9a51b34532d0174c41780a0d103bacfab72f213681b629f9b0d2ccb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-cs-hard-02.json",
+      "sha256": "962248bd34319fb945d47c1b4cdae28d4b791003133462eba1c2fb1e11b89c1e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-cs-medium-01.json",
+      "sha256": "0773c938756ff174a11549930e0967dd1e3751ab88ee5eb7bacb81c16c7d0f34"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-cs-medium-02.json",
+      "sha256": "7639dba63be702890ebe9394e6d6081e849c4b4da39a1a9067a3547d2d0d688e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-en-easy-01.json",
+      "sha256": "52549829dda9327880c50f5fd7098c92202fac39d81dd2e99e67c068a6511103"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-en-easy-02.json",
+      "sha256": "f72d34e56f02dc9c37ca9cc795b510e7a4ba66f6971e764c9c4914f8b515f7c2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-en-hard-01.json",
+      "sha256": "c21a1831660ec9ed34b1fa0a8883f17024e3875db17c8a0a086503e5aea5c9ba"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-en-hard-02.json",
+      "sha256": "9996d7529dd5e2de44d750a1f492976cd7415efe297f59d9efe51f78edc17ef1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-en-medium-01.json",
+      "sha256": "70ba823483a943ba19983666b32cd7574504d40f17aca0452e228dbf5a9d7ce3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/games-en-medium-02.json",
+      "sha256": "910beded938266a482b590584c3236341d0e394d72eb35d2fd34aebcefaf373a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-cs-01.json",
+      "sha256": "7c806c0cc1587138505795ce5f2294982e3b66330a94d3f6d4ec20f330996225"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-cs-02.json",
+      "sha256": "e7d445dbafac15a4f2880e9b4b5e8e378b950577caa303dee46bad38ebf731e3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-cs-easy-01.json",
+      "sha256": "6cc60f9030af2071ad5348dac5e445d52a4a13593f510fa86c0669878e388931"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-cs-hard-01.json",
+      "sha256": "79f6337ea9e9942acda22cae134065fe47b39a0838f0ab1a4c4b0c685eb5ecfb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-cs-hard-02.json",
+      "sha256": "f825617c52b526fbbfdf72872af10b7df525d9ed18c0bb33c24dc71f2a7ee01a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-cs-medium-01.json",
+      "sha256": "c5ff23fc8576567b50a17f66346f1e48cca4344ef591ecf41b2b74517303aa4d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-en-01.json",
+      "sha256": "e31d61e8ced30f77f71987ffb13234dfdd21130e716a5c5131135d558183d359"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-en-02.json",
+      "sha256": "8892017d6e48c0211c74db5dd2c44237eae44ce87c02e6bb0b9340a84674aa9b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-en-easy-01.json",
+      "sha256": "dbc8d55a70d29df67ffe53a8aef686c5aa85e9d455482774cf634ca28d006c02"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-en-hard-01.json",
+      "sha256": "364ac038ece99ff06d8d63b11137d43587887f850f83840d87da72825eb306b5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-en-hard-02.json",
+      "sha256": "978471d2b862b5325b6bc093cee85d2ccd8dcf01d21b8b3df76cce2c6f373af4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/general-en-medium-01.json",
+      "sha256": "e3c512a4c82045f772d2c76308a2e8277273b03bf69b53900c34323bd5380b75"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-cs-01.json",
+      "sha256": "f5eb3aee967c7e75c6ca82c101975ba142e3b783a04684471955fe677c408a46"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-cs-02.json",
+      "sha256": "2a25e8101e730247624ca44e6cd5b2d3512a997c41ee9ddb8800c0d3ec70b088"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-cs-easy-01.json",
+      "sha256": "7daa311270ce3fc007a8e200cde3152b268eb339a4849d0ade60a05c357dc88d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-cs-easy-02.json",
+      "sha256": "c1d59b6a128045754230773f8ae5ac2c146219d587a34df6b778ab57e2723156"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-cs-hard-01.json",
+      "sha256": "6befbc6dba3f6e67abfe3f383d26b4808411211c1b74e215dbf8fa6306c5c495"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-cs-medium-01.json",
+      "sha256": "00fb907c7baad370608d79681d13be1cbb91f6b8409c64b16bc2403787817942"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-en-01.json",
+      "sha256": "887036fe3f7151e1c031c4e70a4575fd9f13f7ff42eab5155ddbfba05043e84b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-en-02.json",
+      "sha256": "8201f0aeba3fd006ffc52fe340fa2f18cc224d0b880488ac27d2ef969d19190d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-en-easy-01.json",
+      "sha256": "81f5503733f71e81dcaf8629a2497acb0fda66e79b94646f9d035e4b0ba03d88"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-en-easy-02.json",
+      "sha256": "4b848946268b108aff2044da7723a8e7b484081092b0a0a16f912fdaa595036c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-en-hard-01.json",
+      "sha256": "acb5561245ed21f6e682992b5374dc8657f7fc373e728123f8b2160baa39d614"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-en-medium-01.json",
+      "sha256": "200701412661c141bfeb3f179fdfab33e81e89ad6bfaadbd730acca6d000cf3c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/geography-en-medium-03.json",
+      "sha256": "e097363d8700289e549488fb4e3e617574a12dcbefe796b30de3be6920269655"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-cs-01.json",
+      "sha256": "b012c6b60d6c92d6a7a9d8ffe301a6434508e931f41d8e15db977647c8fa1fd6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-cs-02.json",
+      "sha256": "7de497f0a748e779d4f83011c9caa6544d3d263b0a1a7843fb0d3cee33124331"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-cs-easy-01.json",
+      "sha256": "69f35a0562db1b4a95a12a3e3a93337b0920747d29a7975cad00a62757e17777"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-cs-easy-02.json",
+      "sha256": "56e81ca8ecde363ed3fca8ee968a1aae8627b1f7c29d035a87eb3d517afc5382"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-cs-hard-01.json",
+      "sha256": "52d309ee2b8d999fbb9317ad8bf85d8ea63246bc1054d0858fa12cdd29f1a551"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-cs-hard-02.json",
+      "sha256": "42c3ef230fc8d59f331681d7c7c5f63459dcb2f00e737519208a0ed649c307e1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-en-01.json",
+      "sha256": "1f8aafb9a93d8c739ee6cfa90e731cd84af7dc14d6a92728176b40d780957066"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-en-02.json",
+      "sha256": "3ae34d3343acfb6559f582745c4117fefa420d0568a7185286e041e86a47e434"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-en-easy-01.json",
+      "sha256": "95a63a9ad5679308597c1f57939150c5a95bb182e52422c79336e02b19d32b8e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-en-easy-02.json",
+      "sha256": "3e0f90f6239338b7fd90860f6e8c0a8cf7800c938690516d61338bdf45d6edb0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-en-medium-01.json",
+      "sha256": "82b0642f9e168645adc42fc0c48b5dd3efd79ec557d4b72d4d8ca3c760766a32"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/history-en-medium-02.json",
+      "sha256": "ffe9f80b49081d2d5d37ec70028e9b0a27285baccf0e211c76582326ee1e56e5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-cs-easy-01.json",
+      "sha256": "16b5a0a4a41d761dd60d8caabb067e1391869c0185972af3fd14052bb8c20215"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-cs-easy-02.json",
+      "sha256": "4203968eb5aff1b103cbe2bbc4b164a0911819aed519036aecc83ead3a10c4d0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-cs-hard-01.json",
+      "sha256": "13c3b36e9f4cfeed660dab96e071cc1542ea03f342ea93efb85aa36e5b5a07eb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-cs-hard-02.json",
+      "sha256": "e3fd081e7d45d74d17303880bebde44adccc68771067bb6576b14f2f3c1bfb10"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-cs-medium-01.json",
+      "sha256": "ad42bfd3dfb5f30292d08757ccde536b160fc3d7a2ebe3f963a1e3613099680a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-cs-medium-02.json",
+      "sha256": "d8fa5dc67a16e5af0a631f206980ffa12ca50516e780cc527305620913748ac4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-en-easy-01.json",
+      "sha256": "8189986bfeda44a20bbb8d3d7e9d3f2f24c3f148ebe8518efa687f6b266a9c3e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-en-easy-02.json",
+      "sha256": "0618e04562647a43f9a098f32f674e3f14bf1624da7626c403b48a4d8c32ece1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-en-hard-01.json",
+      "sha256": "476ede1b3ecb191da253c620dad9aa31a5373be481fa651126770f54af7c5843"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-en-hard-02.json",
+      "sha256": "538903db758028c73bddfeb4074c901d79abef99780bfd23ddcc2bcd71ba8d32"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-en-medium-01.json",
+      "sha256": "0999351fa1d723b5ccc7c6a7799f81ac179a8cf26326064469bf5efe3b71fc3a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/movies-en-medium-02.json",
+      "sha256": "4f449ded46b4a26b1eef937ddeeed7bbedaaa5f8760385c71cb104f0b14495e7"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-cs-01.json",
+      "sha256": "747605558df8f7bb4db96f25b23932e2655a455d304f049786654f7d7253cc11"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-cs-02.json",
+      "sha256": "d73059c7a1734b2c4850150f37fc348d72ab8ba3071337a5cd612b5eed9c94ec"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-cs-easy-01.json",
+      "sha256": "3b95c9220029f15e09b72193fa1ea64ac82bd7d8fb53fa01a73913a9745440df"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-cs-easy-02.json",
+      "sha256": "7006b2d44881b981f4193367e67c0a09cf54361e7f137df88941d5d2c7d1232a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-cs-hard-01.json",
+      "sha256": "97be9b7c107ded69702f155a212c51e71726f1a99a793fa9d4591f642c1eee93"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-cs-medium-01.json",
+      "sha256": "b33f8e35237717a4bcb525fd0bd982bc49fc046966fb1a789a1aa6586c0eb185"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-01.json",
+      "sha256": "91999be7cde989912bd0f5261e9eb8c530f22724129a036cd24eace8158a83f4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-02.json",
+      "sha256": "ea37e7b016b6dd3c1c974a2d33cff21ec51c9e1d4bd746d0a888bd9da2067d2b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-easy-01.json",
+      "sha256": "27999cca5bf0c0088658e1cff12fec4468b2092c41bed05eff6281ab185bfd5b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-easy-02.json",
+      "sha256": "1db8d6220f3baf22ba0631301ca08f7dc8653a37c0cb999498a4b8d7c106aeec"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-easy-03.json",
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-hard-01.json",
+      "sha256": "6c1ea761b3ee3fea00cbff1c9f98cf1ec9ca5116d1eb4dd658b25417307e351d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-hard-02.json",
+      "sha256": "372638507ac8766d65ebdf98e9e3164c3c3c3135c0458ba4e4a19eee3a9c6ba3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-hard-03.json",
+      "sha256": "5849ed9eca11e9dc478902fab7db414149467bd83a37b4d0bb3917b0f409a6ed"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/nature-en-medium-03.json",
+      "sha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-cs-01.json",
+      "sha256": "302af529184363146812d5e5d098b59ddafd6b0687ea72b830fcfad314e0896b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-cs-02.json",
+      "sha256": "9b7b2e61f757c5cb3144d1654d2ae1e4fa9ad97d90528d2265e049419a12444d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-cs-easy-01.json",
+      "sha256": "dc9e052cef20475afaef74fed24bae09500c667a85b0bff643c8dc5767458d7e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-cs-easy-02.json",
+      "sha256": "0cc42fb10d0439f59d1c6b5d5d2861c5139d4d02d32b09923d04e9d8acdbd92c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-cs-hard-02.json",
+      "sha256": "8205e46c4de4ff097549faea1550faad1cdb2249ae3880916c040729ac28cebf"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-cs-medium-02.json",
+      "sha256": "85dd4684e6a3051131ab50201d7e012bac4f570e1bef28096d9fad0b24999fc2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-en-01.json",
+      "sha256": "4ab79542ddf76fbc026c72b37086983267b0e8c10448685531e9d1a00eacdfd1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-en-02.json",
+      "sha256": "d33044b541267fd545acc5aa7ce1f119767121f6c65a7b83fc888df3696a5157"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-en-easy-01.json",
+      "sha256": "7f66df2c2599d8e1b0de352a785833dec47ff410c8455cc47b6565c5b7c126cc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-en-easy-02.json",
+      "sha256": "9890e8df3085383af7c5831710eb087f72a00dd797c4f3f84cffc3faa6817ab1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-en-medium-01.json",
+      "sha256": "5ae766502c9aa2ff8ffbb3e6e7a24c9d831b9fb4929522640add121c3d8af63e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/politics-en-medium-02.json",
+      "sha256": "2e969726e848da940a8d2fde10ef331e846807f942703d69814b83cfb584acd9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-cs-01.json",
+      "sha256": "369d349119f8a17b52ce09a5969a24811d9a7304cd71b89310c909c964075535"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-cs-02.json",
+      "sha256": "aba1dd1b04025e20bb2dd77be13ff3e1d073459b7c2446e97398039ae10d9f32"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-cs-easy-01.json",
+      "sha256": "81424b7e0486515468a062f73375e6a7cf29cfeb8673fea5886343430352361b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-cs-easy-02.json",
+      "sha256": "cf8caf1b19dac01a1de69be2f1138c8f82237e79fa4ecb73c3a2377906fe3426"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-cs-medium-01.json",
+      "sha256": "c4ef4e5db85bb672db93ade61ec63eb197a92a51fcf3338373d1ee5061d564b1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-cs-medium-02.json",
+      "sha256": "683db659c0658d77bd93303a0bc2f92cf9fa82f4fa7cb25ca0f2381ec8c729e5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-en-01.json",
+      "sha256": "4ee24f77c1b7773fd8dddf01c15529ee5762d4a504a76c7789d73bb0d5d788be"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-en-02.json",
+      "sha256": "5f6f07dcbdcc118e7893700f3b219e9d66255baf45ffe3bb7aee1229af5108f1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-en-easy-01.json",
+      "sha256": "cda6112e7a86f1b34dd90365631299cb39a5425643d9957bb7c3bcf7c7bef09f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-en-easy-02.json",
+      "sha256": "a8c5a1682fdbe443e3dfaa6c1c43f2505cd3f05eac8fb1b5d8de3e001a4c4f78"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-en-medium-01.json",
+      "sha256": "a8587955dbb06a6550cd4564c5ce0246eed9278c214418f27a4b2a4f98eb7153"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/programming-en-medium-02.json",
+      "sha256": "a6f3b2b1e45f73a4daca45db65403ab0302f317b5c54ddef1c5cbf947708e349"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-cs-01.json",
+      "sha256": "0f2685cbf8f18ca49a1379f9d2b79e8b87327caa881a00d11476c4fcd3537e9f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-cs-02.json",
+      "sha256": "8bfc3410131e7e5e0d84e8f7ea2820c364a9d80a5dcc29162f95d6999c703dae"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-cs-easy-01.json",
+      "sha256": "7e86e689bf74bab7f22b9ded6079192d1f101feb9b1826089a443d4312e1a157"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-cs-easy-02.json",
+      "sha256": "015859248a870c098f0726544e41af71314681a17de34bd36897e999ccd56558"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-cs-hard-01.json",
+      "sha256": "71066d11c36e91765b39be9da0f17b5c2e1b14123f65abd907bc9a4f024b8f70"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-cs-medium-01.json",
+      "sha256": "da517bc8f82177e1c6833b4ccd4987ce170fad7c5d75cd1e25db1b1d2600e750"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-01.json",
+      "sha256": "0795a9379444abc5352aab3c4765d50f45fd4d5f75f5e5803234e413269534dd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-02.json",
+      "sha256": "90b66a3251ee989177d30ea648a287beb75fbff37a8be3bb19b83cd3324e2ad8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-easy-01.json",
+      "sha256": "be4d08109d2518fba7fd6b2c2e9e57caad9d2e787113e24be4c376b2192ad1af"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-easy-02.json",
+      "sha256": "a58dc6a19806524572799908d039973e77d7687d46a281450e359dc1e51c30a5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-hard-03.json",
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-medium-01.json",
+      "sha256": "0a12d6753742047acf328279124cdd6b0795565d65e2e3d4a48bccbd2c779a62"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-medium-02.json",
+      "sha256": "6480d0a4b28de8f9d63cb4d10bd5ce9173aef04dbc30a10fd6e531af5d136fa2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-cs-easy-01.json",
+      "sha256": "a2f9a32b92dc7f97ec953a882d776a711b85572fc7b3541b4cb0499025e2f5dc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-cs-easy-02.json",
+      "sha256": "fcfc038e3a9ffbb05112977d4271669dd718629ff9e025650715a2d9912f98d9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-cs-hard-01.json",
+      "sha256": "04709e76166b37c26675f65dc18bc00655253c12fd09e90a8d98ee76f13661b8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-cs-hard-02.json",
+      "sha256": "6566e8d6cda016eff9dbf70f2e526ab83da1898122b610660c2fca1e5f9e5e42"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-cs-medium-01.json",
+      "sha256": "a8bd3bec9945a09de870d84574a034d01a6a84692bf3976bcffb28df5a9eec0d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-cs-medium-02.json",
+      "sha256": "8adf8ac3fd33d683d78bf8d69fb81a3b755647be4385d68fe300ed12e66198b8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-en-easy-01.json",
+      "sha256": "2472524fa372957ad33ffd3218768bc394da3bb349c3224b59e57c672531337a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-en-easy-02.json",
+      "sha256": "530c080190051ba4880cca1eb956642ef39e9065be52a835694b523443c872e1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-en-hard-01.json",
+      "sha256": "6ac547dc187092e16ba11d2fea893e8611ad5a849b30653e9ce39b9db7e830be"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-en-hard-02.json",
+      "sha256": "d689a94bb47afebee45f5cee6ec8dfbb4fbea8177b66608add23c10e372be492"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-en-medium-01.json",
+      "sha256": "2bc5bf6c1509619b4a69f3b2bdc4803c7f05c7a808b9a349f7ad26868c98c3a9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/sports-en-medium-02.json",
+      "sha256": "d65cd0db0f8462aec8bf5c0f88cd31c73af4afa8c7232704b5e80791e60bf027"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/actions.js",
+      "sha256": "9fe952738d57ef2ddf5b70cea3d0133613c81c2296ce454d1b64079d27bfc210"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/answers.js",
+      "sha256": "8f5243284e63963526e94766ba073366c70f5f1d0b3a55ec25e497023d54ecc8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/board.js",
+      "sha256": "bc09bba6de2e3fccfdd00ee4ca5eb094d888447bff45e41ec0b1d69324471c47"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/config.js",
+      "sha256": "07b62eb1c8ae0cde5071d6b10ff95cbc376df18a19223738cbd941fe58716fa4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/controls.js",
+      "sha256": "4e2fc909e180bc339ba46fce8d030fe52346306b489360ce027732a1059986cd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/difficulty.js",
+      "sha256": "0aea9f1967ae96aeb5a8cff7b76f1bd76dfbab000bbbbd8e3524d14ce2e57a94"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/duels.js",
+      "sha256": "d0e06f2bc8afe89d951b09fdc059c6ea027f6fc10cec20474250b5de1001a8a9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/errors.js",
+      "sha256": "4951ffc36f38872eea7ab4cbcd407e4d8c8556e964f37a11ae14dc20608abaad"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/game.js",
+      "sha256": "fe96264fad316c6642d3922a857492387b1ccd14ce6c2fe179ebfaed0ce4389c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/generation.js",
+      "sha256": "582850e1123e7bc10a0d0012c24bad5ceaa83a62a1d0079270088a5ab8d2bac9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/outcomes.js",
+      "sha256": "7f593500748709da2fd9ce380f42414ff162fdcbeb332a1defe43180cf33b7c8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/packs.js",
+      "sha256": "901caf91c5e3fc2a287e513ea70aedb388dacae63e87a54533d5ad57beda92ce"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/portable.js",
+      "sha256": "e880a744226b1106914d4302734beb06d40cbc19008b101bbfa7144877f928e0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/preferences.js",
+      "sha256": "3af0097dd74953ec861d7298783e0d6ed7ba3e292c0d1b850fd4eadb155a9bfc"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/saves.js",
+      "sha256": "eabe6ac3517affcc5acd8f893e58b78d96e32131f4e85b4a8ddcfb92cbed7860"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/types.js",
+      "sha256": "8994d0a139b1e498eef4bc3a5de383f29043f9e678e8a6c263f6a68f0d6bf4b9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/domain/validation.js",
+      "sha256": "1f93816a1fd73e057e6968c5e82acc47bc44e18eb07ca78560c253cf3825fc82"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/main.js",
+      "sha256": "4278676d9434ec878dcf33610929c316cd0cec84925636794bb8427a20fd202b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/messages.js",
+      "sha256": "4675eb959f8a0c49a1d90bba561c84b478edf5245e2ee43d52cab63214349dae"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/binding-recorder.js",
+      "sha256": "71232074fee10783e6748c8d3734455693e20e911390140502427d21032843d7"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/board-navigation.js",
+      "sha256": "2e53852cdcba3b5251d0938db250b7d91a20d0af2875e786a60d0221241a22e2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/buzzer.js",
+      "sha256": "23c12c3e53f6875cd39a3fdb11d2249213db628ba8def943fcce5e1ca3b658dd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/clock.js",
+      "sha256": "bb0603ce39cb825422f6092703fc786ba09f7444693380eb7603300de537652b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/downloads.js",
+      "sha256": "45d1f2cf65e9ecbe72d38adec125cf50dcc8ba6f9e5ddd423fff631deafa2418"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/game-sounds.js",
+      "sha256": "6ca2f39bbbad1461cbdfa618daa2ddfbeff3f2a2e03b0f21790f8060a6494368"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/gamepad.js",
+      "sha256": "19c13681900df2e3931215a59174e79ee41f03276dc470525e4630de63f2ef79"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/input-settings.js",
+      "sha256": "580b17dd8ecad4628532662a0fa8ef7ca3372181227417bf99a16d51c82ca408"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/inputs.js",
+      "sha256": "d7c75801102e411efad79e1dcd77868e2d25f0e8374269d18caf56c0c893b13f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/keyboard.js",
+      "sha256": "55ef348fd8ea7c2ccbb1208a5056faefd4a483929b0cc0df0937cf5dea363d23"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/library.js",
+      "sha256": "b2ae42f652bea56102a6f163677da92ab7578d98772014360adab4b5f9783e68"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/navigation.js",
+      "sha256": "79747156d8793b53e1639c2a1c54bac2b97e43bfad558cebb8842bb4a2aa2400"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/preparation.js",
+      "sha256": "2134f4e3f43442d795e5a4c68fb560159234db46d05d300ffc8b00d436830527"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/recovery.js",
+      "sha256": "f39318673cfc9a6fd3cdb90c4b095d3fd83e67d0b72ef894dbf318e29bd42dd7"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/sound-player.js",
+      "sha256": "17d2191d2c10b0a647c36b1ebec53d57019919c5c3b35e96d446db64ef2ca982"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/symbols.js",
+      "sha256": "bc5f50f27452f7d02dc540e4acdfaff617f981d071636a51ce6a74dee894a572"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/runtime/touch.js",
+      "sha256": "0aa3b972bde85f7952ea4fefaecac043b672a2a38c63de5667eb7bb83341bacb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/studio.css",
+      "sha256": "34ebbf440f0d597751d7480c9af3d2370af815d4d4f9a3d41cdc565bf17de66d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/style.css",
+      "sha256": "4fec1b19d75ab2a425b9dc92fd3cd31182a5d9797d24b665f4b8446604f58707"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/answer-sheet.js",
+      "sha256": "c8f23a8b089674cb0bebdd99f6b2928443608a15ea604cdecd4c24949d30028a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/application.js",
+      "sha256": "a803ae87026e4f4459a948e53ef23ce01afc2193e4d4b13741bf828a6e686a21"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/board.js",
+      "sha256": "eb7324b81f76913687062cd6b1bba6e7818c2b2fddaf8a69b6bd1efd0b7f73dd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/catalog-folders.js",
+      "sha256": "963d97ec857e3787705178651ac52ebba72791ce037a6a1730a12d7c9f58d4f3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/catalog-names.js",
+      "sha256": "dc7d2970bf851f7ea7a518fd4ceb96e354ed86d32b07b0fdb80ecdfca18f4111"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/catalog.js",
+      "sha256": "bbaf28cb13133aa51ac188e949cc6c653f5338aa6eda06a133fdaeaa5b3c59fd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/countdown.js",
+      "sha256": "5ce00aa03adddc60598d437d1e98a0c4541c6f20e3d93bcc0e4cf66d5d3ba9d1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/device-strings.js",
+      "sha256": "e4a117d051ea2e8e90023610f36c181f62731ab717e61fec453b1e361086227f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/dom.js",
+      "sha256": "aa80aa8c0da3f9eaac3d197609232e6e92ca197ae3fdf18f9f9544df204d4ec6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/editor.js",
+      "sha256": "99b0acd015d533926f186a9243cbec4e9a63a8727eb991c904c1857e231bab7f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/game-dialog.js",
+      "sha256": "d37409b5dd0df328fee14405a66feb74142d38f12cd8433bec227ae171fb083e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/game.js",
+      "sha256": "cadf50d57abb3fbcc92e360c7e93e72517902ace702ec222959f014f37545e6b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/header.js",
+      "sha256": "6bae16d5999b466129e1593f883176ab9b2f01e2a967b753adc1930a7dbc2ad3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/host.js",
+      "sha256": "ea5f30c0bb354b533394659cb0b10d5ea566f4e0f040d6b377d63c4b6782c472"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/inputs.js",
+      "sha256": "b2213373f29bf41d631a52f7ed941f3fc97d7dbcee5b1d881aa35e216e0e01b3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/library.js",
+      "sha256": "44bcfb5abbf0ceca0d93693f366c9b3aa27fd27a4aebf22cf7f65b34b120a80e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/menu.js",
+      "sha256": "c23416b7fe1a1906a4ddb6885298b9acb99794edc69ca3e2ea7c0bcaa94e0fc3"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/preparation-strings.js",
+      "sha256": "1bdb11e69ad0f42367e90089f00b941dda2f56ac99ecd9c14bb22ba56a7858f8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/preparation.js",
+      "sha256": "fb035ae43fd70b66110fff18be3dc20d8b5e39018ac0ef6a3ec0a847fbb154b9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/recovery.js",
+      "sha256": "ac1f1b6e741db631d40861d24a5c98cb817e61efb02fe2f23e43890d03fba916"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/round.js",
+      "sha256": "8e7aa14f1d90f4b504caf554f8fba4f1f10fcd8a2055db2d3fde61fe6e0a1cd9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/setup.js",
+      "sha256": "eef782823e4cb7cac1b91a1f7f49ef8429ba059c8777cd7e5c0c3d48c6e822ed"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/sound.js",
+      "sha256": "14904b63db38572728b2fffac838da46c88a4b8557ceacde112f2f5d565d8dd4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/strings.js",
+      "sha256": "2b6c7fd39c908a4d422e65fac7484526660255d8479b6f6faed7119303fa01b0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/ui/tile-return.js",
+      "sha256": "54dfd0f19a5cbda19e04f0efc3057d5cb68f41ee1c5db2cdba14254e96408d38"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/workspace.js",
+      "sha256": "cce77d73e4aa3dd2e0496d8d6fe4b6b1a2674e2066a188373e376a4e710f1fb0"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/answer-sheet.test.js",
+      "sha256": "152df76837194e97a0aa20472a5f7f7bfb0e83eb602f704d06fdfeb5db8cb951"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/answers-packs.test.js",
+      "sha256": "46760bc24a4f33207a8102b4999cc41b4c6b84c6483afb4096b2cc5bba5d803d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/arts-content.test.js",
+      "sha256": "fdbcf36f1d5697641956c831c64e3f3e8e332a2f0d145c528d7fe84ec41eca55"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/board.test.js",
+      "sha256": "9bf6dedfd201d901fc93ba7598caaad971d27b4fd4731bb30c4402cb36db2336"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/boundaries.test.js",
+      "sha256": "cec282b462aa76f15551131efb28d5f3c477a46d2d28ffd4df34e1f2aa6991d6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/catalog-names.test.js",
+      "sha256": "0d8bb7ecc73f91e63497b951e31be9b108df580b30d8ae11200ad2e106709d1a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/catalog.test.js",
+      "sha256": "d1a9ef5f172bde669b5b2300c8cada9f491c8e9784e280698983d7d03edddcab"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/content.test.js",
+      "sha256": "da1249da21c189092e208ffab286ec65bc5a7528c7d3464e888f21b2b3968821"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/continuous-duels.test.js",
+      "sha256": "5343ec23d9a70b46095983e65d330a3d24594704b984cd36cc22a4a91af2aae8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/countdown.test.js",
+      "sha256": "e50b593414701633ce55b424e831cc513064c6c2c8d853653e92e944be7dbf4f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/devices.test.js",
+      "sha256": "daa609b687fd293219c5ce96b852fda851f86813c6d434b16fa7bb93d946447e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/difficulty.test.js",
+      "sha256": "e2075ae7ff115bce04dec94d595f0a755cd647ddc9c01d71dda7950342f6a628"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/duels.test.js",
+      "sha256": "5ab778bc0561f7ec83f1f2dfd557830fb4bd9c54dcdeba7bfd46bffe323f01e7"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/final-export.test.js",
+      "sha256": "a985f34451f1ac6ee608de37f13e05d2572ce6ef71ea67efaf8328cc8ec2ba7c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/final-library-content.test.js",
+      "sha256": "e17c51cc64dce3b2f41a450b1fc806bbaecdeec5a37e737488d97b17b6924043"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/fixtures.js",
+      "sha256": "85fa99a223cacc57eb5d7d3a0b43f291543341dc5a97a80d831539dca7b6e6bf"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/game-effects.test.js",
+      "sha256": "0ae8f1186816b9fbf2ce35e202ec17c0d982e63ebedabaaff5c6cab9a91749ff"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/game.test.js",
+      "sha256": "882f27372ef6e65bcaa4a6145d2d741c6502e54bdbffa8d98628e9912dff9cb1"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/geography-content.test.js",
+      "sha256": "ec65fcfeb1235ad921ae925270939ae4c143188bc006d91ad44f7a65da31fa37"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/guided-ui.test.js",
+      "sha256": "2ea8d570706fcacf72cbc00050df44bc6e0779750f25cb377ce8a8103be1dc9d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/history-content.test.js",
+      "sha256": "262c52674eeeda15c9608cd7c6557d166bfef5671e9470da0a0730ff9b263e8a"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/keyboard.test.js",
+      "sha256": "7f2a29c1d46f49b2835ac0a2cef0a40e95626860e44946f61e81b8e8e5d79bef"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/library.test.js",
+      "sha256": "8ee59423e969ac2fad13fca2ca83f8afdd2e3b4ab4a9fb64be70382543875a5d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/nature-corrections.test.js",
+      "sha256": "3f06f5924ad1d980328db3afa0a19f4501fd3b9d8f218c643446b6511a9cb977"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/opponent-turn.test.js",
+      "sha256": "24e49511c1cce1971b3643850d2bd5357e2ab21c578ad260af8908ed383ad900"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/phase-twelve-deck.test.js",
+      "sha256": "9922ef655133dd0b6330454408e901ba9584fcaf52bd1616a0b0ff25ffac6420"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/phase-twelve-geography-medium03.test.js",
+      "sha256": "303e52e65ed7c82e3b155cd200f535e33f467cf1d573ed84810a0d39141e332e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/politics-content.test.js",
+      "sha256": "a6c4d45720cf816a1e5df88727d2220e7c19998bedf3d3a038d269a93c9a7513"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/portable.test.js",
+      "sha256": "16fffcc286485254579063526bd7c662575ee5f5a10c232a911cac08b453b537"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/preparation.test.js",
+      "sha256": "49dcaedf55a9c09582195dd107bbb4d9d36cb7928db3c8573b8f6578635f9ee2"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/private-preview-docker.js",
+      "sha256": "f1c8f4da2446081ea6926dcff629280d0860272e1aacdf6bbd405f99178076fa"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/private-preview-fixtures.js",
+      "sha256": "54c34fd954eb5a77c8cd0bf3a8237f7880ece47622ff134434d70034e8f29c23"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/private-preview-service.js",
+      "sha256": "eb18fe4727a7b72f6ffd469ea06bf35f4563ff75fa2cd4b5c1422e2e52c2dc2b"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/private-preview.test.js",
+      "sha256": "648ff34cfdfde0d44ff09aa0f9b6a6123c2db606b1b97bbd2d1264175ace0c27"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/recorded-controls.test.js",
+      "sha256": "761b571db64972dd38b7b3db567800c47eb51ad67a8617042792e2272caa1137"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/recovery.test.js",
+      "sha256": "5b9ff8e5b16b86e743859e8de7befcb2a7afb648fcaa046d125d5454e1ebe03c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/resilience-ui.test.js",
+      "sha256": "a6ae75c62443f1147b707974d5f37654bce21bfddc2d4b79258b0ae2bdde4cf8"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/retired-content.test.js",
+      "sha256": "8ab20525fad955e4af864ca9ca7adef19967e5adbbe09316b45dd855183ea47e"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/runtime.test.js",
+      "sha256": "0cce36e9fc2fbf6dcf27ff1bb3b2aa312ea116a8d386da806d52a2081d64d9e4"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/saves.test.js",
+      "sha256": "33586549470ca2bbd16ed0ffe8ce2cb2967e1f436858b8cdcaebf72ee889deb6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/science-content.test.js",
+      "sha256": "a8d59f39968c831492ddef344824a4ce42d89b9f4c8cbb9ebd7909ad13f6550c"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/sound-player.test.js",
+      "sha256": "08c8644833c05452b3266255bbf214678609b16454a10541cf9446259788c25d"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/tile-flip.test.js",
+      "sha256": "af1ac12e246c9e370be2897cf7474a32aefd2c8344cbb31278a7579b04ab2bf9"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/tile-return.test.js",
+      "sha256": "224837b9102d3483b6db0dff3f70424dd4194d3f854602f38f5593149c07eec6"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/ui-helpers.js",
+      "sha256": "c50183010c6bb58d6bc7c3069128ed8449647e86e51a849be840302bd3b05600"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/ui.test.js",
+      "sha256": "6ea4d832c2daa03110d6e2c381a9c149f03a9f89bdb602166002507c2fed48bb"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/workspace.test.js",
+      "sha256": "91657158ac12259ffd11bc2c3ec13d4385add01d25e10d840ea6c3d5a9ddec92"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/vitest.config.js",
+      "sha256": "d7c347f79e298f1a218a0f1a786cad57e8a4e999378fc5c6f3ea79b3505c521f"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/src/content/science-en-easy-03.json",
+      "sha256": "5b44cc97e2915d8a85b07e72c9029b0015b3e9957af45db9aa1f84bc03e7c768"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-easy-03-sources.json",
+      "sha256": "1822b4c5ad7fb516e6253801906f818f2fc9c16187af69cb437f0dc818a4baa5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/tests/phase-twelve-science-easy03.test.js",
+      "sha256": "4244f5e51a37e980733d0a0f1fafc52a17135d8192c0202cdbd88d2c58dd33ca"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-science-en-easy-03-content.md",
+      "sha256": "edc14b71e8a86cb5578e654d99b68cacebf3771991d50910e0f327f1bfb9d7bd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-easy-03-content-seal.json",
+      "sha256": "4b9be92170bc6def0bed1d3e9c7bcaf77e7f9176176e8e30ba528dcb1b995cd5"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-easy-03-content-original.txt",
+      "sha256": "edc14b71e8a86cb5578e654d99b68cacebf3771991d50910e0f327f1bfb9d7bd"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/reviews/phase-12-science-en-easy-03-content-notice.md",
+      "sha256": "a1d6140c23466a0f45aa19c65fc8acef164d0836d081c33627cc1588cc1ce999"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-easy-03-content-notice-seal.json",
+      "sha256": "8512a6d19e871ee3ee1657de82f9bc747e4660fa1960c362debcdc56d2150372"
+    },
+    {
+      "path": ".artifacts/continuation/deck-release-science-en-easy-03-worktree/docs/phase-12-science-en-easy-03-content-notice-original.txt",
+      "sha256": "a1d6140c23466a0f45aa19c65fc8acef164d0836d081c33627cc1588cc1ce999"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-easy-03.json",
+      "sha256": "5b44cc97e2915d8a85b07e72c9029b0015b3e9957af45db9aa1f84bc03e7c768"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/sources.json",
+      "sha256": "1bad1f9eb42fa6cf3caa0f1d40750a00cba7fafe311e1feeb23ef13834f66b90"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "838284b1245e0a7e4a24782c0620838d055c1430c74686901aa53a184371d6cf"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/release-ledger-v1/phase-12-science-en-easy-03-sources.json",
+      "sha256": "7920940d1f49d4716b1ad81f0310703e932dd47a40ab2b080aacba77fa92fd4d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/release-ledger-v1/READY.json",
+      "sha256": "d2d95b47a5f002a9bab72e346a17319dfdcdce68576c893819f4fd42051376b4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/release-ledger-v1/SEAL.json",
+      "sha256": "1596be62e4c603d99cc4ffcea62e9c38eb44c56a499ec265d71692b19418b047"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/REPORT.md",
+      "sha256": "edc14b71e8a86cb5578e654d99b68cacebf3771991d50910e0f327f1bfb9d7bd"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/SEAL.json",
+      "sha256": "4b9be92170bc6def0bed1d3e9c7bcaf77e7f9176176e8e30ba528dcb1b995cd5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/notice-delta-v1/REPORT.md",
+      "sha256": "a1d6140c23466a0f45aa19c65fc8acef164d0836d081c33627cc1588cc1ce999"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/notice-delta-v1/SEAL.json",
+      "sha256": "8512a6d19e871ee3ee1657de82f9bc747e4660fa1960c362debcdc56d2150372"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v19.json",
+      "sha256": "584c0321887e266838e4aa7ca9e992e1be715a3f9ea2acd9644f8f2e2a19768c"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v19.json",
+      "sha256": "11613739eae1723c6963169fceff7d9a2de286a0b76c1a052ba6ec356c3cdefb"
+    },
+    {
+      "path": ".artifacts/continuation/science-easy03-browser.config.js",
+      "sha256": "24f84b2da278a53e48090ca946c754ddbbf67c0d793ff43cd75f324b89c783e9"
+    },
+    {
+      "path": ".artifacts/continuation/per-deck-dual-recovery-canary-v2.mjs",
+      "sha256": "71b676aaf5b4667a8b32d45ab3690eb7df70037dfdeb86a05779020f1c6e1605"
+    },
+    {
+      "path": ".artifacts/continuation/per-deck-canary-recovery.mjs",
+      "sha256": "7e84928ae2b1d3be04be0771a9ef63f330e13164682424e00a27c6487dd62b19"
+    },
+    {
+      "path": ".artifacts/continuation/per-deck-legitimate-expiry-v1.mjs",
+      "sha256": "18266be53f70bb29d3d7dda0ba3880ff74ec299c6777302b02cbe517021dd04e"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-logs/phase12-science-easy03-focused-v1.log",
+      "sha256": "fe69550ce1ad04c48e7bd1c4031baf583c6590b138226b18932d1dfe63bf5a17"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-logs/phase12-science-easy03-native-selection-v1.log",
+      "sha256": "3bdda4012bc1f14331ac3d9d65701c8c81710b4dee9877a863a615258667968f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-medium-03/integration/ACTUAL-DELIVERY-RECEIPT-v1.json",
+      "sha256": "3e2761e25734bd4796943187c1a44aa571cf83a2d948f72ca6f5fa5e6fbae945"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/ACTUAL-QUEUE-AT-FREEZE-v1.json",
+      "sha256": "2d31061589eb36d083f8075158ea8d713fe3cbe466a6178a180811dd9f8460aa"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/packs/general-en-hard-04.json",
+      "sha256": "9a69108a28eb106121ee699000564bbffa3a0c40d0d141a08a37d6e1306f4fb4"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/sources.json",
+      "sha256": "e046639d250a996bf58e42d35b1ae62324599faf2adfc22ed6508259ff443698"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/packs/nature-en-medium-04.json",
+      "sha256": "f350b0f220c121657bcf5c3275172cb227758b855b5f3fa467a593a8a855e2ac"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/sources.json",
+      "sha256": "2ee74dff95196301c1d0b1cb5048928410ee68231a953a0064c4f4d17f5c64c6"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b02-v1/packs/politics-cs-medium-03.json",
+      "sha256": "a4869d18509dcf77d65617ccd2436488c338566202b55e68d3a7cebb7ce45047"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b02-v1/sources.json",
+      "sha256": "632383f597a4039c11b951f933e4f993501837ec9dfb25321d96b152b7ad3761"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/packs/science-en-medium-04.json",
+      "sha256": "ec670826de67cadf15821b4994112bccc663df06a73420fca4f3b19da772e2f2"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/sources.json",
+      "sha256": "38507d4df3dbaaba74a2a8bc92c709771537bb7727d465f3f659494c1f0c7c13"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/INPUT-BINDINGS.json",
+      "sha256": "83e1cf176f491f3cf1380ba5c4b1744dcf0c4e7050d075fd17d495b98357c096"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/release-ledger-v1/phase-12-science-en-easy-03-sources.json",
+      "sha256": "7920940d1f49d4716b1ad81f0310703e932dd47a40ab2b080aacba77fa92fd4d"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/release-ledger-v1/READY.json",
+      "sha256": "d2d95b47a5f002a9bab72e346a17319dfdcdce68576c893819f4fd42051376b4"
+    },
+    {
+      "path": "PLAN.md",
+      "sha256": "6f81307da0bb13e6364fa88dc6161bff41b37e1c0d35f94608d834505dd91bb6"
+    },
+    {
+      "path": "IMPLEMENTATION_PHASES.md",
+      "sha256": "fbcfc268f785fedaf5f0e8766429a7ac85874f29c2146c84661b9a88134b9667"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "5211efec975efcfc554e32f994f1bbcb20c7f34d2126359800bc042bb7d1ab8b"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "5bead2d761a6aa7ac317d929530e16878675c2363d96790c424385c42f84bb41"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/receipts.json",
+      "sha256": "43e6631ccc1128c4ac671d57071057f18220be55916f54b99ed574a08dbf4925"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/receipts.json",
+      "sha256": "7f36d3c2d57e3d7055568a62f73191414d12135517fb23177d06ae7e1565542a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/REPORT.md",
+      "sha256": "026f27c4d7f072a255f17ccaa2583e0f8b3fffbc7e9b4795c72d2e5406d59f9a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/v2/REPORT.md",
+      "sha256": "31a0824b7ccacb971ee42acc61fb0806821e6de9d41b6eceaaaf826aa0e292bb"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b01-v1/calibration.json",
+      "sha256": "b2d0a1b6bc414da58a99fda2fe82507946016b794e815a51be1e55d759d83c0d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v1/packs/science-en-easy-03.json",
+      "sha256": "b9fe6c610faeb70f59d8fda46057069ec13b7efb495a7b6b7fde8da012ec1ce8"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v1/sources.json",
+      "sha256": "4f0e4987878a6cf8a2f4193985cec925facb0a9c572f479f66df94f4143ecd2f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/ac09713ba072919e8db39a2223a44d5424f297282db81c8fc4d7eed73372076f.html",
+      "sha256": "ac09713ba072919e8db39a2223a44d5424f297282db81c8fc4d7eed73372076f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/15ca1342cf7402ada62e6ed1d5b9233ee91a6106f393ea84d07bc32f7b20b3da.txt",
+      "sha256": "15ca1342cf7402ada62e6ed1d5b9233ee91a6106f393ea84d07bc32f7b20b3da"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/435f1126cf4ea6ffad1e2506144b6db60c010257f0c258bad2f543beda49ca69.html",
+      "sha256": "435f1126cf4ea6ffad1e2506144b6db60c010257f0c258bad2f543beda49ca69"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/7f902bbc05285b3240a7ce4b004108895eeb391ec1cab4d316aa32cc5c32d527.txt",
+      "sha256": "7f902bbc05285b3240a7ce4b004108895eeb391ec1cab4d316aa32cc5c32d527"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/2b625da27f9dd80bc60b4305edbd2b13a0fca14ed8c0caafdb1aa03de43d0bd5.html",
+      "sha256": "2b625da27f9dd80bc60b4305edbd2b13a0fca14ed8c0caafdb1aa03de43d0bd5"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/64ea11f5967ea62eaca839a50453ba9a2a581795ebf53ab801ec48969171f9e4.txt",
+      "sha256": "64ea11f5967ea62eaca839a50453ba9a2a581795ebf53ab801ec48969171f9e4"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/806c334d48a679760f6f9126e2bf4c05a10f58afa00e0433ec2f84494ca3f0d9.html",
+      "sha256": "806c334d48a679760f6f9126e2bf4c05a10f58afa00e0433ec2f84494ca3f0d9"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/49433b1d9862ed11cbadb9774ff6efcabb68b7ed8503d8b2d9ffbd9264c7afe1.txt",
+      "sha256": "49433b1d9862ed11cbadb9774ff6efcabb68b7ed8503d8b2d9ffbd9264c7afe1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/23ade3c3ecfcf8da1afebdfb377e4649bac7e64cfd31268d6275f15be96d2f43.html",
+      "sha256": "23ade3c3ecfcf8da1afebdfb377e4649bac7e64cfd31268d6275f15be96d2f43"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/17bcb188084c59509694caf9ef2fcd936cbfec55cecfa9eea0c16b97575dea00.txt",
+      "sha256": "17bcb188084c59509694caf9ef2fcd936cbfec55cecfa9eea0c16b97575dea00"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/6036e677d66487890fb54654c26466e4a9e22e584b334c7c94be51404611a1d7.html",
+      "sha256": "6036e677d66487890fb54654c26466e4a9e22e584b334c7c94be51404611a1d7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/22de03b53bbc74bb574dc9a6fd8d7055f72eb8061f7516a7feedf0b40a007b22.txt",
+      "sha256": "22de03b53bbc74bb574dc9a6fd8d7055f72eb8061f7516a7feedf0b40a007b22"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/86877644f80eebd7f25f7719056cd573f03d2fae9f233c0a40d8d314c4fb7afb.html",
+      "sha256": "86877644f80eebd7f25f7719056cd573f03d2fae9f233c0a40d8d314c4fb7afb"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/42ac54c4c68ea5bba392a5fa67ce50fcbddc449c1f5d73e0e858b7e67009d9cd.txt",
+      "sha256": "42ac54c4c68ea5bba392a5fa67ce50fcbddc449c1f5d73e0e858b7e67009d9cd"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/571148d65f042dd9e361334d7319be84580acb36f407bec7babc96f180a51105.html",
+      "sha256": "571148d65f042dd9e361334d7319be84580acb36f407bec7babc96f180a51105"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/675c366591934bc8169d0401ebc705efa3ea3c94b76cf6ac43477b83550c1e02.txt",
+      "sha256": "675c366591934bc8169d0401ebc705efa3ea3c94b76cf6ac43477b83550c1e02"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/83179414823f4a94ec4df16a34750b81d07cc8bc18c457ec1f252906c216e38f.html",
+      "sha256": "83179414823f4a94ec4df16a34750b81d07cc8bc18c457ec1f252906c216e38f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/c7b6373606d0fe6f1769bd7a91225ee536763fbd24e204675023ee6f3b80268a.txt",
+      "sha256": "c7b6373606d0fe6f1769bd7a91225ee536763fbd24e204675023ee6f3b80268a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/0ad7f709035d374e66f3cd44e78f91fc87308ba9a7b39fd786dd7accf8a68e26.html",
+      "sha256": "0ad7f709035d374e66f3cd44e78f91fc87308ba9a7b39fd786dd7accf8a68e26"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/6218e7378a9d47b94a873bb77474181becbc2a3b8f215c07d6394bc5ae4b9f4a.txt",
+      "sha256": "6218e7378a9d47b94a873bb77474181becbc2a3b8f215c07d6394bc5ae4b9f4a"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/76f33e3503e4cadc253fc7f69ac1cb233c41c9d046fa0782fb1647951f520373.html",
+      "sha256": "76f33e3503e4cadc253fc7f69ac1cb233c41c9d046fa0782fb1647951f520373"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/59dc81e18011fafe884b1c4ce281ca5afa496c13c0bef5391ad79ef9017e51d5.txt",
+      "sha256": "59dc81e18011fafe884b1c4ce281ca5afa496c13c0bef5391ad79ef9017e51d5"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/ecdb7d6358d1a1dd95fa215477e5e6267862206b59323d7bb8f006f10fa33edf.html",
+      "sha256": "ecdb7d6358d1a1dd95fa215477e5e6267862206b59323d7bb8f006f10fa33edf"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/b70f051958b140e1d963a8dc01e9352657f39a3ada9940bb648cab6b175afaa3.txt",
+      "sha256": "b70f051958b140e1d963a8dc01e9352657f39a3ada9940bb648cab6b175afaa3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/1466366217fc5a8b5c39a644f7ba8fa078655142d2ae86ead72896b1793f06a1.html",
+      "sha256": "1466366217fc5a8b5c39a644f7ba8fa078655142d2ae86ead72896b1793f06a1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/5f14c2685d99a912fe3c8da9f17494ba2bc937aa63a96ea2abe9ecfd6389f691.txt",
+      "sha256": "5f14c2685d99a912fe3c8da9f17494ba2bc937aa63a96ea2abe9ecfd6389f691"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/03696882acae00a9470b450ca9ff559395e6a2d9d92826ce3a7f54fbbedf6449.html",
+      "sha256": "03696882acae00a9470b450ca9ff559395e6a2d9d92826ce3a7f54fbbedf6449"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/1a9ab729f994d1af4c43ee31b537403bb487e3eda0d44a6826f26d367019a2e1.txt",
+      "sha256": "1a9ab729f994d1af4c43ee31b537403bb487e3eda0d44a6826f26d367019a2e1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/d0c2815b6ae8d7cad099e37c4d40560819e08f86551d0acb5aa8fdbc5eed0eae.html",
+      "sha256": "d0c2815b6ae8d7cad099e37c4d40560819e08f86551d0acb5aa8fdbc5eed0eae"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/f0babb877e2792ed3175a0d702a818b1b2c5523c25bc70e7f5d5d2d6d8688f0f.txt",
+      "sha256": "f0babb877e2792ed3175a0d702a818b1b2c5523c25bc70e7f5d5d2d6d8688f0f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/5820ef2442f16374228fe93d7559cb9567ad0827daaaa8209ba68a2f786ea092.html",
+      "sha256": "5820ef2442f16374228fe93d7559cb9567ad0827daaaa8209ba68a2f786ea092"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/29d71215e9c6c9392276b57c3e13aa6d5082857cda66d98a655ea0ebf65eb7ac.txt",
+      "sha256": "29d71215e9c6c9392276b57c3e13aa6d5082857cda66d98a655ea0ebf65eb7ac"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/3e38c52a61b1a94055937650835bcb452389170dd4975587031a9886f1abf54b.html",
+      "sha256": "3e38c52a61b1a94055937650835bcb452389170dd4975587031a9886f1abf54b"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/620b3fb3d3d17cfbdb8fa02979f0adcb3dc4fc9669e2d97259cc9db3de19f611.txt",
+      "sha256": "620b3fb3d3d17cfbdb8fa02979f0adcb3dc4fc9669e2d97259cc9db3de19f611"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/7584bad9da7d2b97710566dfd3eb30e49bccf90a330e310098d2a4149f9ee340.html",
+      "sha256": "7584bad9da7d2b97710566dfd3eb30e49bccf90a330e310098d2a4149f9ee340"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/4b0b10984b3a7e75ddc8611c583de695a8b9c1682da93f1e8c652730aca85517.txt",
+      "sha256": "4b0b10984b3a7e75ddc8611c583de695a8b9c1682da93f1e8c652730aca85517"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/140084d8c9c67b6d7c94288714f90a104114831695618c57fbe52f6a65cb9f95.html",
+      "sha256": "140084d8c9c67b6d7c94288714f90a104114831695618c57fbe52f6a65cb9f95"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/ecfedf26c200baeb88785532189eb11764f3802ae326d5d5abf9d4b30310e2d0.txt",
+      "sha256": "ecfedf26c200baeb88785532189eb11764f3802ae326d5d5abf9d4b30310e2d0"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/25519d90547d496e3fd76b01eff270416a0633aeebf64bb502bafecb6afb9b58.html",
+      "sha256": "25519d90547d496e3fd76b01eff270416a0633aeebf64bb502bafecb6afb9b58"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/03336f71e93bf35c4842cbdb60130ec01255a16f4b14a6e51e09d0b419cfd6df.txt",
+      "sha256": "03336f71e93bf35c4842cbdb60130ec01255a16f4b14a6e51e09d0b419cfd6df"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/322c3e0990f325cc26cd77311ebc23fb9ad1b5c8f4069631368302de92773654.html",
+      "sha256": "322c3e0990f325cc26cd77311ebc23fb9ad1b5c8f4069631368302de92773654"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/5a1c4ea00e8477239a105bf4d13175e35988e3278e74db70ef70441950252852.txt",
+      "sha256": "5a1c4ea00e8477239a105bf4d13175e35988e3278e74db70ef70441950252852"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/2a7937159a0e0ed32e66643f3cdbbdda3ad7cc63fddbc8ad7991e2b9ae30bc82.html",
+      "sha256": "2a7937159a0e0ed32e66643f3cdbbdda3ad7cc63fddbc8ad7991e2b9ae30bc82"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/e2d4d99e84b023661e4f87ca127833d19d453364611fa59140b9967b6e490278.txt",
+      "sha256": "e2d4d99e84b023661e4f87ca127833d19d453364611fa59140b9967b6e490278"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/78e8cab1742ce8b3a8e9dc452e7a5602aa21cfc874dac74e6bc9fd8398ecd738.html",
+      "sha256": "78e8cab1742ce8b3a8e9dc452e7a5602aa21cfc874dac74e6bc9fd8398ecd738"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/3213375d4eb111fa91cee55ef8190a6d1260be01e6e08b7d5f5711b93c5c9c15.txt",
+      "sha256": "3213375d4eb111fa91cee55ef8190a6d1260be01e6e08b7d5f5711b93c5c9c15"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/a0957919223e3245d50f119971d90b137dd0dc472a16f82cc6894ad5120b4336.html",
+      "sha256": "a0957919223e3245d50f119971d90b137dd0dc472a16f82cc6894ad5120b4336"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/f8f8f0ae38e9111c0d6f126cb55d41d7925a031f91372477394e9126524b6af1.txt",
+      "sha256": "f8f8f0ae38e9111c0d6f126cb55d41d7925a031f91372477394e9126524b6af1"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/c7154c33126dbb032d6f425c893c3e8b6a61b10fc1cb8fd420067e0014baedc3.html",
+      "sha256": "c7154c33126dbb032d6f425c893c3e8b6a61b10fc1cb8fd420067e0014baedc3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/27a1596592e933b5a301a2ea2583a0d7a8a61085fe1e3154bb6523c8edd27136.txt",
+      "sha256": "27a1596592e933b5a301a2ea2583a0d7a8a61085fe1e3154bb6523c8edd27136"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/d74dde20acaad42169f0977cb8d5b2ef2cee92504e9b1ef44ec644d89348eff6.html",
+      "sha256": "d74dde20acaad42169f0977cb8d5b2ef2cee92504e9b1ef44ec644d89348eff6"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/27ab2a8e044b0d7bba5b7ab977e6b073a6f09867ade7acaa7bd5b14fa17b98ed.txt",
+      "sha256": "27ab2a8e044b0d7bba5b7ab977e6b073a6f09867ade7acaa7bd5b14fa17b98ed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/43b73c754e846c98a56593602350fd8369c1675eaf29081486cb901a850aa6ff.html",
+      "sha256": "43b73c754e846c98a56593602350fd8369c1675eaf29081486cb901a850aa6ff"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/0f8d160d170c48651ad7bf0a21d1a6407d2648eac2768a1d0463308ee3385792.txt",
+      "sha256": "0f8d160d170c48651ad7bf0a21d1a6407d2648eac2768a1d0463308ee3385792"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/3795bd6ed168e8376ac21b0efccedc7dedb94f397ff499c0a3acaecd471ec094.html",
+      "sha256": "3795bd6ed168e8376ac21b0efccedc7dedb94f397ff499c0a3acaecd471ec094"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/435bbb3f9851935ee594c382f761193c1c84a082d03dbd7add01dca6676d00e3.txt",
+      "sha256": "435bbb3f9851935ee594c382f761193c1c84a082d03dbd7add01dca6676d00e3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/720dac985744f49a6686f23cde8e4e91bafb2603e3fca1019e7978b5a449541d.html",
+      "sha256": "720dac985744f49a6686f23cde8e4e91bafb2603e3fca1019e7978b5a449541d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/398d39c449d9d58d67e7572f34d73e22ab825b0ae389f5b2be5297dbc738e59c.txt",
+      "sha256": "398d39c449d9d58d67e7572f34d73e22ab825b0ae389f5b2be5297dbc738e59c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/8e036d84fc12aedb082f71eadec06bfd2045d30052dddbf6ecc30ec341eca5b3.html",
+      "sha256": "8e036d84fc12aedb082f71eadec06bfd2045d30052dddbf6ecc30ec341eca5b3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/bf5337b02363f0fc509a53376e55a472bbda06cddd19ca6fcbb0ceaf74670d07.txt",
+      "sha256": "bf5337b02363f0fc509a53376e55a472bbda06cddd19ca6fcbb0ceaf74670d07"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/946d79bf08945ca23bb0801da37fb97edd5195ceb3e9a232ec31e9a49be6d21e.html",
+      "sha256": "946d79bf08945ca23bb0801da37fb97edd5195ceb3e9a232ec31e9a49be6d21e"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/dbab454142193a321bc9fce9122908173092c060074e19c9fc9e73245aedb2dc.txt",
+      "sha256": "dbab454142193a321bc9fce9122908173092c060074e19c9fc9e73245aedb2dc"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/444b782b04d0858b567e7bf44ac8b0706c2482e1f50726c761d37dcce324485d.html",
+      "sha256": "444b782b04d0858b567e7bf44ac8b0706c2482e1f50726c761d37dcce324485d"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/e1618045d05d78d5a17ad15b2ead7896e0d9bfa1c7db1adf441ccccc2a8b1b4f.txt",
+      "sha256": "e1618045d05d78d5a17ad15b2ead7896e0d9bfa1c7db1adf441ccccc2a8b1b4f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/dd09569ca43fd1f8c5e26eeb4f24d96d607dce52cda0750ce3d68ee76888a569.html",
+      "sha256": "dd09569ca43fd1f8c5e26eeb4f24d96d607dce52cda0750ce3d68ee76888a569"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/frozen-sources/3bbd0112258014b3850685325b086820ffa48761f53d23fd6bb99a129d04b0eb.txt",
+      "sha256": "3bbd0112258014b3850685325b086820ffa48761f53d23fd6bb99a129d04b0eb"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/INPUT-MANIFEST.json",
+      "sha256": "afd4a10ccb178c826f63bab022c38add52544fb019bfb60706d24ab3eea7dc80"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v12.json",
+      "sha256": "aaf17ccb248dfa227cff3ba9c5a112cb2449915d3346a6f9ac0e47e5be49dd9e"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v13.json",
+      "sha256": "1907dbcf2fa2037abf361773b45f222e1b11ac0c0e9d2be755708faa7541c40e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/RATING-CONTINUITY.json",
+      "sha256": "1d6963a89f536ac812cee3e2d231e261c52a2a9bfdc67ea73aa051a08addcd0d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v11-native-all92/REMAINING-FOUR-OVERSIZED.json",
+      "sha256": "f7773244c7e5ae677272143a240cf376b614dc03b96db1e711fa69aa8516555d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-01.json",
+      "sha256": "b8ef583eba528141b3af059fe9d3d90f567a4c587e0c80643511664946d30952"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-02.json",
+      "sha256": "162188d75c484c1de962844b98c0425bf192d1e309623ce3a51e49e93b5ff2df"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-03.json",
+      "sha256": "ccba99003cdf7be9d47bd76996a8f7d8828e9c54b541b8a1f6a2fd30de362542"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-04.json",
+      "sha256": "130cab7af466db7e178159d18d43cb21a66732059ce9b6814b99577bdb5372bc"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-05.json",
+      "sha256": "bf1e01ad76531140fa25ec8240ec46ff3867a3c755472352547685a2e4ceb18c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-06.json",
+      "sha256": "86c8b3747b22d0295912b0a25453ea8d5fb6024449de2798dd453381ebd7c2b4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-07.json",
+      "sha256": "f2bc1243c00ff6a33a1156830abe557a2f6e55bc4afaa18e0ae6440b6d8f0849"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-08.json",
+      "sha256": "b2728e8f7bcaa27221e66bc398a0967b3951617bfcf70e30877837d976b32ceb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-09.json",
+      "sha256": "07dd7adfd920b985eb927bc2d9fd31c3f06ac638d94aa64f889ca109986aa6d8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-10.json",
+      "sha256": "4023788c5112884f87cd783956dad5b369a4158f133ffc8cc52811aecc1eef17"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-11.json",
+      "sha256": "f0383d7851e7da0de33a583ba4dd0d7be5a167df5f978bb1b2dff620dccf1249"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-12.json",
+      "sha256": "777a7e6d160c20f69069abdc1a487f6d0447167803fa289c8a8a191cb9eb65a1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-13.json",
+      "sha256": "aade2cfee49874e890ae0a436f1214ad07072f5a0e3080e61682dbd05a98c34a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-14.json",
+      "sha256": "c060cdeb275acace547774d7543f3b99c2ed4c49d758447832176e01c4dfe79f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-15.json",
+      "sha256": "80e1af523fe64bfe7d1cb0065267da8b713c6469c5f46719cfbb169bf609bf79"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-16.json",
+      "sha256": "d84586b4b884bca35a4aae054ee23c49bf4f52414c7216f052d692baca6232d1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-17.json",
+      "sha256": "29eb56d1b2cbd348059836eb0546f8bcfe28db3889044d6cee09eb4408824ed2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-18.json",
+      "sha256": "b984b3ace58d01b7a338427fe3a0c3ac76078aca83e0a2230b0f4fda779d73e5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-19.json",
+      "sha256": "1801a09be80bd7e370090aeac6fab8257c2db5f0dc3328652ccf385472222730"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-20.json",
+      "sha256": "e80155d4a0e89cd65cc133e06c108068ec4868320e550a52bd7010aa1b82bdfe"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-21.json",
+      "sha256": "eebb5988a512f9311a5eaa57535867d7d87a513916dfdf719ceda9f00a0b5850"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-22.json",
+      "sha256": "c347921eee0be70a238404ef9e7c7781deb872efc8dbf5dd83a0feb709ecb225"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-23.json",
+      "sha256": "cb2e5e9aa2516d26fd57a904a7ef4404cbcfe7f908be8fa42aca1c15d42434f6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-24.json",
+      "sha256": "394857c6d4983ab7666f26ee542cd99bcabc9515efb73751eaf7d7b1a281dc2e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-25.json",
+      "sha256": "a87d10985e6e9fc81e440e30d6b06dd564f2eef27802780276db4d1759c88fda"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-26.json",
+      "sha256": "aa9988e608c96b2c99995c6359ef0e76a358af404ae9a451ff55ab739589ecb7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-27.json",
+      "sha256": "21b7235556fa936593f6b579b24dfb4754069485dfdd827b47e405e5218e2d6d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/entries/science-en-easy-03-28.json",
+      "sha256": "c8e7ce429310a89014466ad190a0c73e16f5970866a3ec0a14c8bd0df49b2989"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-easy-03/frozen/general-en-easy-03.json",
+      "sha256": "66743e496776c1f8aae7c87a57394e1c5a61f4971d98f3522b6f1ed8cf98059a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/frozen/geography-en-easy-03.json",
+      "sha256": "7383e64bd5c5a3ac30d9fdf7185412aa491e17069f4b32ec0152af44263d4d93"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-easy-03.json",
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-medium-03.json",
+      "sha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b01-v1/packs/politics-cs-easy-03.json",
+      "sha256": "7565bbb69f4305d1b07601e5e5c571a174eb41e288dc9744616e0ac286290168"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/programming/batches/b01-v1/packs/programming-en-easy-03.json",
+      "sha256": "95245b0320acf49abfb200188abe436d68be4da6b75c2c32b6b5823781304c39"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-hard-03.json",
+      "sha256": "5849ed9eca11e9dc478902fab7db414149467bd83a37b4d0bb3917b0f409a6ed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/packs/nature-en-easy-04.json",
+      "sha256": "10b10929314d541b4be5d4c426666f8f9d41e2aaf90a1b6d19c03ffaeaa09e23"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-medium-03.json",
+      "sha256": "a4f2c0d4d6beae62313032bdfdcb0502854303e06164c8556909edc596f02bed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-easy-03.json",
+      "sha256": "02716ef971eacc78ec7770872ca86aec59015ba726eaf8cf9432b62da9ca645f"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-medium-03.json",
+      "sha256": "e0efa156bb1122a0e6eca13b0329ece71c6a906090cd79f8b0ee3f668f6d2d6c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-hard-03.json",
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/packs/science-cs-easy-03.json",
+      "sha256": "7ad2dcf132a7acfc7323fd7e6e519cca8feac777bd1a0282818a5e91397410f7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-hard-03.json",
+      "sha256": "620a53c3f9bd5158c42afd8731a67e25747af23ac8a393c42ce13d4d0d8eaf71"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/packs/science-cs-medium-03.json",
+      "sha256": "4a71d1c222d6c615303e2d3978795e319fbb41de3fa204715d7d5380f135b579"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/packs/science-en-hard-04.json",
+      "sha256": "687f2956fdaec77f26c21b32c28b9acd4e1ea628ba10c0456f5b365a00a1b5a7"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-hard-04.json",
+      "sha256": "3ba12a3801901af7024d9b26b8fe004cde619a5374e3b16d891bb2608c419541"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b01-v3/packs/general-en-medium-03.json",
+      "sha256": "d2f555963148f81f640a7ebc8e1015cf1d3a74d214aa5e2bdc3e0498432970c4"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/packs/geography-en-medium-03.json",
+      "sha256": "e097363d8700289e549488fb4e3e617574a12dcbefe796b30de3be6920269655"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/packs/general-en-medium-04.json",
+      "sha256": "f7b940a92bb8a91372e7b6046401082433653319d8d0f9bd9a2680ed297e5964"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/general-en-medium-03.json",
+      "sha256": "8375ba0a2456491213be1b7da4d8d36e311719936f6016f1b15e5bc8dc232caa"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/geography-en-medium-03.json",
+      "sha256": "b20735179f3774a38f89b7eedd81599315fbba5c86df688eecc0ed199f485b8f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/nature-cs-easy-03.json",
+      "sha256": "5d6933dd06d5ac3e43a248d1043bec7a426beec3726c72796c116d96addd8208"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/nature-cs-hard-03.json",
+      "sha256": "a2bf2b6720bf29467c5fede53162da90847e2e2c3b3e33a9ab51cf8800c9d70b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/nature-cs-hard-04.json",
+      "sha256": "20b894d6b90123dff7bd583ee3a2eab48840a2e10eb9823b2492c9020c9817bd"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/nature-cs-medium-03.json",
+      "sha256": "cae7635f489d04ba7182c8b0d083db747b2ce2bea2373632553b31854a72c222"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/science-cs-easy-03.json",
+      "sha256": "fb4a2bef0920b01ac44fd6f1fa6b431c2c1cbc3e1cb51e4a700266997eaed899"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/science-cs-medium-03.json",
+      "sha256": "2462652958e270378da6fbf2f0146988d6245120e9eaa1ee40225543eb61ff83"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/science-en-hard-03.json",
+      "sha256": "bc77cfd988206c66342e2619e549613a78113754f91a0e58150cce0d287e24a9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/science-en-hard-04.json",
+      "sha256": "0346af8020d26f9d3e7d4978f1f91b5e63de6fa14405d32cd24e8c25f7717e83"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/delta/science-en-medium-03.json",
+      "sha256": "5f6f0c18cdd87bddf8ca5a1105d2e485176194f1034dbd6a1f4756b416e1d6e8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-01.json",
+      "sha256": "a7800cc3be3a5d9340c24453184796b070637651a4f982e6224543c746ffb167"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-02.json",
+      "sha256": "4297598ce66f6466f41b4ebb31af4305f28842bb5bd69fc26b6b693bd6b84d35"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-03.json",
+      "sha256": "7ef6707046c78ca2f2bbf9466b523ef3868863d70a1cfffe835a2442772f17cd"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-04.json",
+      "sha256": "b12d90532fcc3361150dbde2132a518b070cc34b269f9422527368da00c5afd8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-05.json",
+      "sha256": "f3b3f3f0cb8718fa775c9eadd203f0888691329251960a30548d1382d4b2853a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-06.json",
+      "sha256": "dc8ed3d75370d3f74a03327be01800fc23423c01be99c0549e916a0db4e4f424"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-07.json",
+      "sha256": "2b0d590edaf9e0b88cb7be51d2e1719220ab1efa1f119d0fd25691acb1f8ca2c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-08.json",
+      "sha256": "5138237655f089842c20706aae30661ff7c6ae26ec546ae4900622c29950e101"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-09.json",
+      "sha256": "629640cabf981ff804f0ac8ec3cf3b3ca9c6f1898aa9d4ec72ba0f0406ab2cd7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-10.json",
+      "sha256": "8265a936184656269bf389a84fd1033bcb72403a8bbf50a78b00637f672d248d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-11.json",
+      "sha256": "96c164f0365a940ea00e55732ad9d57f8fa72f011bd40235709c06dc65ddc93b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-12.json",
+      "sha256": "c8ab7c79c8d481a909ca5515c354fa01a43d4224d9192f17bf5b003309183b9e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-13.json",
+      "sha256": "2e65904cd08efb7cbea9faa792679aab02e679b9254df8a2305d977b70d3bd87"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-14.json",
+      "sha256": "4129709b6da8ce403780e9a547164ed45731076056a0c78d501970044d2545c5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-15.json",
+      "sha256": "ad860ded0de682bf27500292cf122aaa0fd4e59511a52453176908e454ea7c9d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-16.json",
+      "sha256": "59b24b059473fef9052a2a86706d239fe502572ca3509daa1007d417c6b2b8a7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-17.json",
+      "sha256": "519767b2595cf4dc3ef0a3f65067fbc9dedcd087fbf16d06937f5e1e08c31ee3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-18.json",
+      "sha256": "5a7d00a10847fe67d290bdadfec1f03c4440b530acb7b6f1bfeff828f04df65e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-19.json",
+      "sha256": "787442e61db31331ae097d02fd125d7273ad635bf0f6d92768724de7b407fe94"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-20.json",
+      "sha256": "cb77d9e1cdeb752a4220797f5485d90547c8be5aa98af359d52daf9a469883fe"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-21.json",
+      "sha256": "bdcee75f4b34a191a467f202c4910184cb397bf680d9d37e6227a7e869b42788"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-22.json",
+      "sha256": "269eb74529e9b65e908274d06aabff61fdb3047c56af25a3b5187c9da5d4376f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-23.json",
+      "sha256": "0884394fc9253b80a2c1664897767b039e1d7bd1487fc4cc7ae6be46f10043cf"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-24.json",
+      "sha256": "0f10f2e6082466b8468987098f69cb7b0fee313dc87b205e03bb0674efbc29a5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-25.json",
+      "sha256": "cfe33e4f86732550f81489696f798b1632a364feddcb2742c7fa2ab97fc883cc"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-26.json",
+      "sha256": "43c613ef27419b535eaa5f472a9cee6a6d6245b8af484351f70ac392642b080b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-27.json",
+      "sha256": "17912db3c149232fff2ccd8fd38dfa9fb7c1f702b56e7ec30b16f02c4c02ef30"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v2-current-adoption/semantics/science-en-easy-03-28.json",
+      "sha256": "b9fa6516417ef982f88a162265a5ade4fc740dc54498c85886e6f910d538dcf3"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v1/sources.json",
+      "sha256": "e146d7d94663ee72b0c42eb63ac3a49ee1f9c91f93d145b24c681bc01c995fda"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v11-native-all92/HANDOFF.json",
+      "sha256": "1fc17d0e302f10dab50136fe3feead08d80866bd9b2278e2ae0ba441b9dd2d2b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v11-native-all92/NATIVE-ALL92-PROOF.json",
+      "sha256": "e631467806c808ac9c65582dd5eae92311a063cce9ee8e62cdb5d4bff286b9e6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v11-native-all92/ALL92-MANIFEST.json",
+      "sha256": "b551cb79355199e6f4a7e9807ab9710ae66a19b3727e1b451b4a8c9df171ef6d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v11-native-all92/ACTUAL-NATIVE-ROOT.json",
+      "sha256": "fc9479e6664bc76d46091ab750a6cfd65ce4d950b73b2e5d62e5c307c93e2d92"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v11-native-all92/FILTERED90-PROOF.json",
+      "sha256": "bde4b9c6ae85688e0bf313c53a9dfce9da10ca30a6a675261fe4e52469da61bf"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/v11-native-all92/SIX-ORIGINAL-CONTINUITIES.json",
+      "sha256": "3f3bd30ad0f93b52012f057d36b1279fc249ff1ae169acbd563660ada2cc0e95"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "838284b1245e0a7e4a24782c0620838d055c1430c74686901aa53a184371d6cf"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/ENTRY-BINDINGS.json",
+      "sha256": "97cc008d8a47175eae363cc8b01b5023ddff758b30f563771ccb1a36d957b996"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/HOLD-RELEVANCE.json",
+      "sha256": "3cc8b9ad6b5d14bd860d61017840b778497443fdc9f29744a1c7a0123b62eb0d"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/CURRENT-CANDIDATES.json",
+      "sha256": "f6d75b593f026ab9666020e4419e1c9440493f77d1f694e1a4783d8c6d25a7a6"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/NATIVE-OBJECTS.json",
+      "sha256": "383c6bb5f5fd47b32d02df6c6d261031e5b5a11a8ed6d717179e53d65d5609e6"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/CURRENT-PREDICATE-PAIRS.json",
+      "sha256": "26621440dff3dce2a7b40678aaa58c6c86cc30481bf7d7f872101c977b0231ef"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/SEMANTIC-DELTA-DECISIONS.json",
+      "sha256": "04b688278ac05c2e44df94f6854666395dec5e723efb1acfc58fe6e9722c1eb0"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/INHERITED-SEMANTIC-JUDGMENTS.json",
+      "sha256": "7bdc97be895ba79ae3a569b6cbb1757376d6b42e4f4314f7fac4ccf3dfaae0c9"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/PARTIAL-PROPOSAL-RELEVANCE.json",
+      "sha256": "67ec9054d1339854a1505b1902c863491fe8f20c69cc3102b4abe5e2d43e77e4"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/SOURCE-AUDIT-LIMITATIONS.json",
+      "sha256": "046bf9508181e4d4ee3be3015a935c37de3b10238e1cd3a23572f3adfb49a687"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v18.json",
+      "sha256": "3116ac59c0ec447b879cfa6b3c27a6441e45e5bee8d1d4640603e0158cc6137c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/packs/general-en-easy-04.json",
+      "sha256": "c55d050fda381cacf3cd117f72d412baccd48d5f22609775a4c34663f392c343"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/packs/geography-en-hard-03.json",
+      "sha256": "eaff6abef1d9d762730361cb868beb8840d7efcfa69d9ba82529f75fab017776"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b01-v3/packs/general-en-hard-03.json",
+      "sha256": "241c14770d29a65c629a3943e5fa41718da808134e9d924f10734a261927ff46"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b01-v3/sources.json",
+      "sha256": "db16cdb4628753659f28dc04c8c303af57a40416cb88cfc31c9aa44f1ba162f6"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/REPORT.md",
+      "sha256": "edc14b71e8a86cb5578e654d99b68cacebf3771991d50910e0f327f1bfb9d7bd"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/SEAL.json",
+      "sha256": "4b9be92170bc6def0bed1d3e9c7bcaf77e7f9176176e8e30ba528dcb1b995cd5"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/notice-delta-v1/REPORT.md",
+      "sha256": "a1d6140c23466a0f45aa19c65fc8acef164d0836d081c33627cc1588cc1ce999"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/notice-delta-v1/SEAL.json",
+      "sha256": "8512a6d19e871ee3ee1657de82f9bc747e4660fa1960c362debcdc56d2150372"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/CURRENT-FULL-CANDIDATES.json",
+      "sha256": "13ca85235e2e19c16564446f62abf68b1372c0192a399dd70f8216b23be19de7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/INPUT-MANIFEST.json",
+      "sha256": "afd4a10ccb178c826f63bab022c38add52544fb019bfb60706d24ab3eea7dc80"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/ENTRY-BINDINGS.json",
+      "sha256": "97cc008d8a47175eae363cc8b01b5023ddff758b30f563771ccb1a36d957b996"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/HOLD-RELEVANCE.json",
+      "sha256": "3cc8b9ad6b5d14bd860d61017840b778497443fdc9f29744a1c7a0123b62eb0d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/CURRENT-CANDIDATES.json",
+      "sha256": "f6d75b593f026ab9666020e4419e1c9440493f77d1f694e1a4783d8c6d25a7a6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/NATIVE-OBJECTS.json",
+      "sha256": "383c6bb5f5fd47b32d02df6c6d261031e5b5a11a8ed6d717179e53d65d5609e6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/CURRENT-PREDICATE-PAIRS.json",
+      "sha256": "26621440dff3dce2a7b40678aaa58c6c86cc30481bf7d7f872101c977b0231ef"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/SEMANTIC-DELTA-DECISIONS.json",
+      "sha256": "04b688278ac05c2e44df94f6854666395dec5e723efb1acfc58fe6e9722c1eb0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/INHERITED-SEMANTIC-JUDGMENTS.json",
+      "sha256": "7bdc97be895ba79ae3a569b6cbb1757376d6b42e4f4314f7fac4ccf3dfaae0c9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/PARTIAL-PROPOSAL-RELEVANCE.json",
+      "sha256": "67ec9054d1339854a1505b1902c863491fe8f20c69cc3102b4abe5e2d43e77e4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/throughput-v1/SOURCE-AUDIT-LIMITATIONS.json",
+      "sha256": "046bf9508181e4d4ee3be3015a935c37de3b10238e1cd3a23572f3adfb49a687"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v20.json",
+      "sha256": "02f98dfd4a44c598555e18b1322b168ea629632bfea9fde55899886ea8c4fe0e"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v20.json",
+      "sha256": "43617f7105bf475ba50836d38c0874d8d945b5a48b0fc49666a14d7f3064e363"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/packs/nature-en-hard-04.json",
+      "sha256": "6d14fde45fc6f5579f085da7f2c9bf9624682fb7f21f90ab549d69419513f628"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b02-v1/packs/politics-en-easy-03.json",
+      "sha256": "b0d27a34de760c8ffebc3f5848e72309b768792acae53e07fb97ead32b0e9f5e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/CURRENT-FULL-CANDIDATES.json",
+      "sha256": "13ca85235e2e19c16564446f62abf68b1372c0192a399dd70f8216b23be19de7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/notice-delta-v1/PROOF.json",
+      "sha256": "e4b385449cdd2034a574458697829db07a7f0e90a9653519f7197363dbd72aed"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/independent-content-delta-v2/MEANINGFUL-CURRENT-PAIRS.json",
+      "sha256": "cbf88957ccaefad758c6cbe43acad326f47490df6e252ad3e3bfe74db87d0991"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-04/throughput-v1/SEAL.json",
+      "sha256": "520d64ecab9aef2c9a4977e09f05aeadac7d4d597bc3bf2d00e32eb9b44c086e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-04/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "c89f49579762fcc32ac327dcc6093229cdf3cb40633d6d73addf88a2617f23b1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-04/throughput-v1/phase-12-nature-en-medium-04-sources.json",
+      "sha256": "8ac2b257cb2d8ea83519f59fe38adc1714528f203ffb60f982652115772cd272"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-medium-04/throughput-v1/CURRENT-CANDIDATES-AND-PAIRS.json",
+      "sha256": "99be1d2ff36f798ffae3280191f7b2b1c7e8ecce003d2f59f71b17a5e23ee107"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-medium-04/throughput-v1/SEAL.json",
+      "sha256": "6364f5cefa660de32c633e2c176a3d91ab3992a2d06d9349456d98fb355c1319"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-medium-04/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "03f51d940fb52857f9fb10cecca9a2c8c8b144e90c3da4efc6d2741318c94da3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-medium-04/throughput-v1/phase-12-science-en-medium-04-sources.json",
+      "sha256": "0c091a0775d4da1f04e3b2325826031eb2a72e08ffd4b0dfbe586c1176eb502e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-medium-04/throughput-v1/science-en-medium-04.json",
+      "sha256": "ec670826de67cadf15821b4994112bccc663df06a73420fca4f3b19da772e2f2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-medium-04/throughput-v1/CURRENT-CONTEXTS.json",
+      "sha256": "4e6b414048296b08e2eb37dc3e344fd6ef53f74a36c60c4c04d2e3fe861290f3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-cs-medium-03/throughput-v1/SEAL.json",
+      "sha256": "ab1bbfd58ae7fffb6a024bcc337f3f72605aed4e7f8d8807de66beae500db55d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-cs-medium-03/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "ebfc5f8859034e72cb0fe3d8ee5b2f6ba25e590cdaf92d2914d2b5097c8007ba"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-cs-medium-03/throughput-v1/phase-12-politics-cs-medium-03-sources.json",
+      "sha256": "826d08cf769cd2d42a806aca9cf4fac05f712271de08ed4565c9aba7dbaacfed"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-cs-medium-03/throughput-v1/CANDIDATE.json",
+      "sha256": "a4869d18509dcf77d65617ccd2436488c338566202b55e68d3a7cebb7ce45047"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v21.json",
+      "sha256": "7600fa68546dd8a6b1c98fe8d981bf5f5918b00e9918db726feb3727906b8bd7"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v21.json",
+      "sha256": "899585cf56694f84e9c53f01ca1ec05eb395611b4417e8091e3b6e86baf5fc16"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b02-v3/packs/general-cs-easy-03.json",
+      "sha256": "be27da13b0de155db75a6b2111379049d37c5a48a90712ed17e9d9b029924595"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/packs/science-en-easy-04.json",
+      "sha256": "98a132bcb478e61932a387243ad75c6fe649c4e4b3f0ea65cdaaddb9df7d15eb"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b02-v3/sources.json",
+      "sha256": "5654e715218b9067f489bed7f300078ae864bd9f40fd0a95f5b11c5dfc299ccd"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-hard-04/throughput-v1/SEAL.json",
+      "sha256": "58dc993e5587ffc593ab4dcdc513a20a340384e30ac85bffe41bd74531e11975"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-hard-04/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "fe57ae1ad98d951d388cd67058b6b14119813e8d97fd624b37cd26609c011fd2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-hard-04/throughput-v1/phase-12-general-en-hard-04-sources.json",
+      "sha256": "7590f61ac43b1035b71bbd569d6b43318747f2524857a3943767eba70c8776c7"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-hard-04/throughput-v1/ACTUAL-CURRENT-PAIR-CONTEXTS.json",
+      "sha256": "3ece190d7356dfa91ec89ad41366dec3a771e1e5ff638ffd1f59898e40962d94"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-hard-04/throughput-v1/QUEUE-IMPACT-DISPOSITION.json",
+      "sha256": "781c83196f444247c1393eb679ca5df58a11728670061b8a5de9d0eda157d576"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v22.json",
+      "sha256": "55144411e5d44c7482c430eb7cb277055f3c21521a43cf25adc1e1267f37f7f8"
+    },
+    {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v22.json",
+      "sha256": "68d209b76577049b2e855a67d55ff65d806fd2ccbe5ab832b4a05871a35cdb25"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/packs/nature-cs-easy-04.json",
+      "sha256": "579b0c9cc2da46114a87184fcf76e1ba73c37fc0c880e4acacf393286fd60abe"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b03-v1/packs/politics-en-medium-04.json",
+      "sha256": "bf1b4be397fe2e8d3272b2e09364763a846da7e64cb98b0142517adcfc71f089"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+      "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c"
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b03-v1/sources.json",
+      "sha256": "f0f77e1d0dfca30743ef85a66673ed928e161370fe86467086334c3106be0384"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-04/throughput-v1/SEAL.json",
+      "sha256": "8797072bf4173529a183dbb8a7e84119ea15e31d13b7090ed8bbb8ce49398b46"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-04/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "5e6f19cf2ba96ec39b117754dfd45cd67c7e21a57ae5783bec340b3762c6905e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/nature-en-hard-04/throughput-v1/phase-12-nature-en-hard-04-sources.json",
+      "sha256": "0f8f2d84b5a7dc48d18a6044970d389de5cd5b9db0fca913ecbdc2e1ab1d211c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-en-easy-03/throughput-v1/SEAL.json",
+      "sha256": "f5f03fa789c7be90f17df367467da88aee1bbe8e0893667986c62b021c72ca03"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-en-easy-03/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "ef5d6f5a0b8a5afe8cd0f0a995a3cfa8dacf728ca304376d552e7237d43473ff"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-en-easy-03/throughput-v1/phase-12-politics-en-easy-03-sources.json",
+      "sha256": "31644c73deae42d5b497704e3b1a88ae65903e2f0582b0979f7fe4aae8e181b9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/politics-en-easy-03/throughput-v1/CANDIDATE.json",
+      "sha256": "b0d27a34de760c8ffebc3f5848e72309b768792acae53e07fb97ead32b0e9f5e"
+    }
+  ],
+  "wholeCoverageArchiveBindings": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/base.css",
+      "sha256": "3f876e51f0a46864ffa7665b4b7a1f5fb5f6f37fb6a28f014e2b12d82962c852"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/block-navigation.js",
+      "sha256": "cd8db34b1fbeb973354a93f8b4133c7c7eab34cdda9429a0434be91384783b7e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/coverage-summary.json",
+      "sha256": "60e52aa18e3c6de4a65010926c05210fb15e9d8ebc0b00c21b967963bfcfa96e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/favicon.png",
+      "sha256": "5b0cfd52dc0bfbe544f4e1a9c77aa46b8629b0e0aad6c54f95eef457b86c2a89"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/index.html",
+      "sha256": "47ef11d119c1baeb46150184467ec2c6f9ace21b8c856dc8cc367a2c1737fb14"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/prettify.css",
+      "sha256": "ea3fe433f9450698ca8a230271688e7aeec12f99c8a7ef6c94379abb38f27823"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/prettify.js",
+      "sha256": "fa1b1e1b906ddcfa08b46f161c0f924f506e1a31b4f3e09b8caaa2463ef52c18"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/sort-arrow-sprite.png",
+      "sha256": "42c895355f9838ede83fdfdca90127d8471aefed5ecf5342374f65ec7c3f10ab"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/sorter.js",
+      "sha256": "f8cc5d157379d844fd695ad567b6c29b3c1f0812964ddf6f95c26327e434bab5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/app.js.html",
+      "sha256": "65aabdc6f02a4031b0c3556eba7bef68444ee9cb61771448056f150b8b79312e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/content/catalog.js.html",
+      "sha256": "e06b1da452d122ce4fda5ca4bf5e58dbf08ed02942d9ffa5af9bf95f016177e9"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/content/index.html",
+      "sha256": "d4febe12cf40624e6956b9835067be20f6effd1be394452dc48797d7a6f726aa"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/actions.js.html",
+      "sha256": "cf67130bb0665f6f94610ae3d27849685cdc6bef4c00c9039d0a008c5c27ffb6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/answers.js.html",
+      "sha256": "fc08629d658bb76327b96675bac34eff3b469b066146da25f92727568cabce2d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/board.js.html",
+      "sha256": "f5ce747b07dfc6c7781568974258e638b82db50fb72f8e770eef529fcefe8686"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/config.js.html",
+      "sha256": "048797afca6dc660f529fa242920cdd2c7ae55f9f72a730f2a1704379e08e670"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/controls.js.html",
+      "sha256": "ea7958611a695d1b7c352db2827622496d403fc87188645e55829d93eb02a1b3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/difficulty.js.html",
+      "sha256": "38e48111e30242def37616519013bad98ff4abfbfef79aa77e522b0720464609"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/duels.js.html",
+      "sha256": "f68653b1b8566ca1cc35007ea32d7701b2a25c78ec55f0b03ee068ce9d947a33"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/errors.js.html",
+      "sha256": "beef54933cde35a3e97897430bd8152db780e11ec761c5059bd887ac48ffa793"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/game.js.html",
+      "sha256": "ce41d8f18e04ecd2423bbb022aba817b88b59590dac4a832500eef97a4dbf678"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/generation.js.html",
+      "sha256": "8fbcb465df5e26996f8cd9766688b46ba679d442f0185f53bb943a02c134eeb0"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/index.html",
+      "sha256": "cf9508df3d49f415a7cee3bcd16affacc88c3c60f1d3189c0827d355fe65fa6c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/outcomes.js.html",
+      "sha256": "140b0a01a19fb03e4885505dc0bae4cbc7f425c81f2f55899d9af0812873f530"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/packs.js.html",
+      "sha256": "ded89dbab17122f94029d8b804d0e84cd5fd36347e922d0c4b0b6393a385fdba"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/portable.js.html",
+      "sha256": "22f11f85b3fa82b8979d645169c65905b931416ead7398dc27cedc21d7673e8d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/preferences.js.html",
+      "sha256": "d0668e0faf563823ffef0da8ab900a59209d3f227d96a0e5b02aa9fb57530c54"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/saves.js.html",
+      "sha256": "357a313635021b7c14fa20c6982db5447128495daef652ec682f8fbfc0194e47"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/domain/validation.js.html",
+      "sha256": "b5326f9b7df2c9a277b7ac8069edc36f02a6a44896feee0ae9b9a36216055f9d"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/index.html",
+      "sha256": "9624dd87e43e095a95bb99fe7e4eb908ea8c0e84946454a272f50921df7b7656"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/main.js.html",
+      "sha256": "5e4eccead04a06baced8180088f3bd1c2e0816d6bc34f2946608abed3dc8b4ab"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/messages.js.html",
+      "sha256": "43b76f42e3d2fe53eba8ac23dbb06717a33bfa1ffc3d61b799c069a4c56d174c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/binding-recorder.js.html",
+      "sha256": "4c614622fd9d97afe61d874bd30314cef4a705af707aba231065419cf0f45f60"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/board-navigation.js.html",
+      "sha256": "037e9d4c67d6efe491ee262f7501f9b6ac7651b1f3f17ac1a8c89ba0557bc5a4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/buzzer.js.html",
+      "sha256": "c2c5c12e21a4913d9867bf2902a4ee2ddc350857e80b78603559150c4c0de2d2"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/clock.js.html",
+      "sha256": "023d799110d442fcda24279ca9229a8092caecf9508514e7d4c2ee23e806a366"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/downloads.js.html",
+      "sha256": "937560fbb87523734eeb6f4779a1a08bb08ded99d275eabe172400f551cf56e6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/game-sounds.js.html",
+      "sha256": "a460bfabdef576a566cd51608ef3f6e769fbfd5c6f6aef90a3b63c1436f67a9b"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/gamepad.js.html",
+      "sha256": "f74959d9c55c6ce9ef984b7aab36381e0d7484b140de475f3f4e4f973ebca021"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/index.html",
+      "sha256": "d7bd07f35629454a7f2aef5924fbbb11a7d2f84d5a9d3baec6cdb2246d045d50"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/input-settings.js.html",
+      "sha256": "62c6c1ae1f435cdfd05676541cb4d4b0d8d35c06445e990be498a7694938d511"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/inputs.js.html",
+      "sha256": "3560fd8a75da7fac08c9db8220f5fedabac4c0fe1d341a113c51ebec1e889b6a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/keyboard.js.html",
+      "sha256": "f843c1a8627782a6ab09b0665734c7139b7c61e67d41cc7d7f33de47916d4c57"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/library.js.html",
+      "sha256": "f62d943431b4105a2559ea36576c602f57583e2b604be1a3103845f886a58afb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/navigation.js.html",
+      "sha256": "94a60098e8a5123664446dba65176ecf9b03914f09dcfdc4d4aca7bd609872a6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/preparation.js.html",
+      "sha256": "7b9384eb9ed79b4e2fcc82e85b6a3025ab373eb89a0703311474eff795f86f16"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/recovery.js.html",
+      "sha256": "1e5528364dc9782ac3e34130a787c3bc4df7d3627e8e4323fd0439cd2693041a"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/sound-player.js.html",
+      "sha256": "fd826856ebe7896984cebebc5d650b38ab384e21eb9b9f5c81bedf9948d7038e"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/symbols.js.html",
+      "sha256": "238522373e1edad45c73f1272121cae36e37a494f13cad945ec5add20e75dbee"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/runtime/touch.js.html",
+      "sha256": "8dc849fa63a8198e03f40bae0924a300dd4e32156740a4af52f63919f639bd23"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/answer-sheet.js.html",
+      "sha256": "5eb32533d10086f61a9251ccb19fc8659dd8aec07828f7cb1d24343650fdb587"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/application.js.html",
+      "sha256": "143c314be5a4069f77d6e097f7ca53a62bbaa6475996783d017a57ec3a856f80"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/board.js.html",
+      "sha256": "72a39aeaca88a9a35d9e1becac5f338b8db376eca308e11d637a38bb5c55e03f"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/catalog-folders.js.html",
+      "sha256": "a34fb53c4b5d64a2c6ae9e03283d73ba93bb8c7d098925566332d8aee1281e3c"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/catalog-names.js.html",
+      "sha256": "65966fababe363a03880ce0282a9ba7f38c23ca81b6a9cb190d049e3370b6ac5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/catalog.js.html",
+      "sha256": "b1f9a6702daef77e45ef2e75f8993f478bdd9127302fbe4f5e0099cac807c738"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/countdown.js.html",
+      "sha256": "109ae485a6e08aa803db57d04ddead465da0c2d6c6ee650c527b35ec5b369dcd"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/device-strings.js.html",
+      "sha256": "14c7bc89ee875b10bfcfae4144dbc7dd0134b78970764f0f46bc58e106396eb4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/dom.js.html",
+      "sha256": "0780eb6f9e2653aa75923e2339185eb2e84f41dba00fb6ebb5d2a8a0d2e039d3"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/editor.js.html",
+      "sha256": "eb903599880bf8312ed29ea973b49b0dda2fad293ed5afe7bbaed3ebdeab3a65"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/game-dialog.js.html",
+      "sha256": "d23cacec4771b2c520b3bb9621e426f4ff4ced5b00fb0cf37c27fbeeb0d8fbeb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/game.js.html",
+      "sha256": "f52e26abeaec33afd0337855be6166493d2895b982db69ba6e6fd00b32be0ea8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/header.js.html",
+      "sha256": "51ce49c207b4f38b6d613f98131be036ab77d75da14b501cc70545feebc3b8b8"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/host.js.html",
+      "sha256": "795144c65ac83a46c3eec997a1e5c5e7b33ef9869b8238fc1ec09ab91b679bfa"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/index.html",
+      "sha256": "ececc795872c37101bcb9f478c6d248d8fd3cc823dc87581f29c505ec123e181"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/inputs.js.html",
+      "sha256": "2098b15fcfd3f4a3793c6d0acdfe9adee5ba9bfb28d95b99775bf2d4474dd9eb"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/library.js.html",
+      "sha256": "d31916794533ed1d18adca95abbf9f65b35dd846f542c804c5bbee9ee43fa595"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/menu.js.html",
+      "sha256": "7e9a90f0c58854ffd0c3cd490d8cf59e6f4b6d2575d0fb15bd9e6bc8cf4a3030"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/preparation-strings.js.html",
+      "sha256": "cb249aee37e01b413f8b964dfeee318e4c48d7171ff0c3b4146338c02de12d91"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/preparation.js.html",
+      "sha256": "019c741f87df9ab98cd84a1e9386e7b238aadc9f3152755de6aba2a4b833bae4"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/recovery.js.html",
+      "sha256": "52c9ab8f1b2a608f520a6563a809fc40e776899b4e110d4a2056eb627ddce3e1"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/round.js.html",
+      "sha256": "1ea3e39662b3aa521875d96d27d9a69c33920c2bb651cfc1e67d11198d09e8df"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/setup.js.html",
+      "sha256": "aec459baffe9ada64a58699d0dc2dc315288d59e9b8397345ce7616a35fd69a5"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/sound.js.html",
+      "sha256": "6a4194194ce2ac7bab48eff28fb85b953feebb89a16e68f8a2d33eb147acd770"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/strings.js.html",
+      "sha256": "2f488f621a0c9ceaaa89b7235770439db1bddb7e5e8ba9b71667811aef9bda63"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/ui/tile-return.js.html",
+      "sha256": "67e9ef495df47ca4171a52e5c6e978ac9e300e0df3bbb9acceab5f535d9303d6"
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1/src/workspace.js.html",
+      "sha256": "5c724c06f984ba59575d44fe9f90ce15e39d3c0e9fd52467ffb41a23daf343ff"
+    }
+  ],
+  "coverage": {
+    "critical": {
+      "files": [
+        "src/app.js",
+        "src/domain/actions.js",
+        "src/domain/answers.js",
+        "src/domain/board.js",
+        "src/domain/config.js",
+        "src/domain/controls.js",
+        "src/domain/difficulty.js",
+        "src/domain/duels.js",
+        "src/domain/errors.js",
+        "src/domain/game.js",
+        "src/domain/generation.js",
+        "src/domain/outcomes.js",
+        "src/domain/packs.js",
+        "src/domain/portable.js",
+        "src/domain/preferences.js",
+        "src/domain/saves.js",
+        "src/domain/validation.js",
+        "src/runtime/binding-recorder.js",
+        "src/runtime/board-navigation.js",
+        "src/runtime/buzzer.js",
+        "src/runtime/clock.js",
+        "src/runtime/downloads.js",
+        "src/runtime/game-sounds.js",
+        "src/runtime/gamepad.js",
+        "src/runtime/input-settings.js",
+        "src/runtime/inputs.js",
+        "src/runtime/keyboard.js",
+        "src/runtime/library.js",
+        "src/runtime/navigation.js",
+        "src/runtime/preparation.js",
+        "src/runtime/recovery.js",
+        "src/runtime/sound-player.js",
+        "src/runtime/symbols.js",
+        "src/runtime/touch.js",
+        "src/workspace.js"
+      ],
+      "lines": {
+        "covered": 4142,
+        "total": 4150,
+        "percent": 99.80722891566265
+      },
+      "statements": {
+        "covered": 4183,
+        "total": 4191,
+        "percent": 99.8091147697447
+      },
+      "functions": {
+        "covered": 308,
+        "total": 312,
+        "percent": 98.71794871794872
+      },
+      "branches": {
+        "covered": 1372,
+        "total": 1412,
+        "percent": 97.1671388101983
+      }
+    },
+    "remaining": {
+      "files": [
+        "src/content/catalog.js",
+        "src/main.js",
+        "src/messages.js",
+        "src/ui/answer-sheet.js",
+        "src/ui/application.js",
+        "src/ui/board.js",
+        "src/ui/catalog-folders.js",
+        "src/ui/catalog-names.js",
+        "src/ui/catalog.js",
+        "src/ui/countdown.js",
+        "src/ui/device-strings.js",
+        "src/ui/dom.js",
+        "src/ui/editor.js",
+        "src/ui/game-dialog.js",
+        "src/ui/game.js",
+        "src/ui/header.js",
+        "src/ui/host.js",
+        "src/ui/inputs.js",
+        "src/ui/library.js",
+        "src/ui/menu.js",
+        "src/ui/preparation-strings.js",
+        "src/ui/preparation.js",
+        "src/ui/recovery.js",
+        "src/ui/round.js",
+        "src/ui/setup.js",
+        "src/ui/sound.js",
+        "src/ui/strings.js",
+        "src/ui/tile-return.js"
+      ],
+      "lines": {
+        "covered": 3616,
+        "total": 3630,
+        "percent": 99.61432506887053
+      },
+      "statements": {
+        "covered": 3759,
+        "total": 3773,
+        "percent": 99.62894248608535
+      },
+      "functions": {
+        "covered": 127,
+        "total": 130,
+        "percent": 97.6923076923077
+      },
+      "branches": {
+        "covered": 594,
+        "total": 623,
+        "percent": 95.34510433386838
+      }
+    }
+  },
+  "units": 1046,
+  "unitFiles": 43,
+  "nativeStats": {
+    "startTime": "2026-11-01T23:06:03.071Z",
+    "duration": 286414.296,
+    "expected": 58,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "commandReceipts": [
+    {
+      "at": "2026-11-01T23:05:55.161460+00:00",
+      "session": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+      "event": "command-end",
+      "command": [
+        "bash",
+        "-lc",
+        "cd /home/jakubmifek/github/HexY/.artifacts/continuation/deck-release-science-en-easy-03-worktree && npm run check && test ! -e ../parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1 && cp -a coverage ../parallel-decks/science-en-easy-03/integration/coverage-full-postreview-v1"
+      ],
+      "exitCode": 0,
+      "log": ".artifacts/continuation/phase12-logs/phase12-science-easy03-full-postreview-v1.log"
+    },
+    {
+      "at": "2026-11-01T23:10:49.528787+00:00",
+      "session": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+      "event": "command-end",
+      "command": [
+        "bash",
+        "-lc",
+        "cd /home/jakubmifek/github/HexY/.artifacts/continuation/deck-release-science-en-easy-03-worktree && HEXY_NATIVE_RUN_LABEL=phase12-science-easy03-native-postreview-v1 npx playwright test --config ../science-easy03-browser.config.js"
+      ],
+      "exitCode": 0,
+      "log": ".artifacts/continuation/phase12-logs/phase12-science-easy03-native-postreview-v1.log"
+    }
+  ],
+  "finalPostreviewGatesPassed": true,
+  "runtimeExcludedOnlyTrulyTypeOnlyDeclaration": "src/domain/types.js",
+  "browserSuccessNotClaimedAsStatementCoverage": true,
+  "actualCommitPushPrivateActiveAndExpiredUpgradeStillRequired": true,
+  "phase12Cleared": false
+}
