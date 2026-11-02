@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "reviewerTaskId": "dc053aa9-3b51-4301-958f-ed1687e82474",
+  "taskId": "dc053aa9-3b51-4301-958f-ed1687e82474",
+  "sealedAt": "2026-11-02T20:07:13.491321+00:00",
+  "deckId": "general-en-hard-04",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "majorFindings": 0,
+  "minorFindings": 0,
+  "exactSourceQAFrozenInputSha256": "ebaf412d1eaa7c3d450143b7cd4e37bff7b53601028ff5bfeb30309940681a46",
+  "reportSha256": "e28486437444f08ed5f20b497357bd8a887f635ef350d1ade0b4f2310e864ace",
+  "actualParent": "235e12149da46c501914081c67ce0b9c617a97f7",
+  "fresh158AllApplicableGatesStillRequired": true,
+  "parent157ResultsNotTransferred": true,
+  "successor159160ActualParentReleasesHeld": true,
+  "phase12Cleared": false,
+  "externalInputCount": 1549,
+  "memberCount": 3,
+  "members": {
+    "REPORT.md": {
+      "sha256": "e28486437444f08ed5f20b497357bd8a887f635ef350d1ade0b4f2310e864ace",
+      "bytes": 5582
+    },
+    "SCOPE.json": {
+      "sha256": "05ce2d90251735ccbe172eaafbb7390b5128d78d1865d8c7c3c1aae18d810b9a",
+      "bytes": 2815
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "d9781e0f1c45c61a72441860c8b3a8749694ac8d135ed4c8357fb46b345822f0",
+      "bytes": 390207
+    }
+  }
+}

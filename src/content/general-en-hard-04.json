@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "id": "general-en-hard-04",
+  "title": "General knowledge · Hard · 04",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-hard-04-01",
+      "text": "What small sheath finishes the end of a shoelace to prevent fraying and help it pass through eyelets?",
+      "initial": "A",
+      "answer": "Aglet",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Aiglet"],
+      "sources": ["https://en.wikipedia.org/wiki/Aglet"]
+    },
+    {
+      "id": "general-en-hard-04-02",
+      "text": "What whitework embroidery combines stitched motifs with small holes finished with overcast stitches?",
+      "initial": "B",
+      "answer": "Broderie anglaise",
+      "language": "en",
+      "category": "general",
+      "aliases": ["English embroidery"],
+      "sources": ["https://en.wikipedia.org/wiki/Broderie_anglaise"]
+    },
+    {
+      "id": "general-en-hard-04-03",
+      "text": "What decorative belt hook or clasp carries useful household items on suspended chains?",
+      "initial": "C",
+      "answer": "Chatelaine",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chatelaine_(chain)"]
+    },
+    {
+      "id": "general-en-hard-04-04",
+      "text": "What rhetorical arrangement reverses the order of parallel elements in an ABBA pattern?",
+      "initial": "CH",
+      "answer": "Chiasmus",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chiasmus"]
+    },
+    {
+      "id": "general-en-hard-04-05",
+      "text": "What weaving mechanism raises selected warp threads to produce small repeating woven patterns, less elaborate than those of a Jacquard mechanism?",
+      "initial": "D",
+      "answer": "Dobby",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Dobby loom", "Dobby mechanism"],
+      "sources": ["https://en.wikipedia.org/wiki/Dobby_loom"]
+    },
+    {
+      "id": "general-en-hard-04-06",
+      "text": "What ornamental table centrepiece has branches or holders for small dishes, fruit or flowers?",
+      "initial": "E",
+      "answer": "Epergne",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Epergne"]
+    },
+    {
+      "id": "general-en-hard-04-07",
+      "text": "What portable folding chair is traditionally used by a bishop away from his own cathedral throne?",
+      "initial": "F",
+      "answer": "Faldstool",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Faldstool"]
+    },
+    {
+      "id": "general-en-hard-04-08",
+      "text": "What ornamental trimming, used on clothing and upholstery, originally took its name from thread with a cord or wire in its centre?",
+      "initial": "G",
+      "answer": "Gimp",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Gimp braid"],
+      "sources": ["https://en.wikipedia.org/wiki/Gimp_(thread)"]
+    },
+    {
+      "id": "general-en-hard-04-09",
+      "text": "What loop or eye on a loom carries an individual warp thread so that it can be raised or lowered?",
+      "initial": "H",
+      "answer": "Heddle",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Heald"],
+      "sources": ["https://en.wikipedia.org/wiki/Heddle"]
+    },
+    {
+      "id": "general-en-hard-04-10",
+      "text": "What decorative technique inserts shaped pieces of wood into a solid wooden matrix, rather than assembling a surface from thin veneers?",
+      "initial": "I",
+      "answer": "Intarsia",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Intarsia"]
+    },
+    {
+      "id": "general-en-hard-04-11",
+      "text": "What pierced stone or lattice screen is characteristic of many Indian and Indo-Islamic buildings?",
+      "initial": "J",
+      "answer": "Jali",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Jaali"],
+      "sources": ["https://en.wikipedia.org/wiki/Jali"]
+    },
+    {
+      "id": "general-en-hard-04-12",
+      "text": "What Japanese craft interlaces strands to create decorative braided cords rather than knotted fabric?",
+      "initial": "K",
+      "answer": "Kumihimo",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Kumi himo"],
+      "sources": ["https://en.wikipedia.org/wiki/Kumihimo"]
+    },
+    {
+      "id": "general-en-hard-04-13",
+      "text": "What hanging or flap-like decorative part of a garment can extend from a cap or headdress?",
+      "initial": "L",
+      "answer": "Lappet",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lappet"]
+    },
+    {
+      "id": "general-en-hard-04-14",
+      "text": "What decorative woodworking technique lays pieces of veneer into a design on the surface of an object?",
+      "initial": "M",
+      "answer": "Marquetry",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Marquetry"]
+    },
+    {
+      "id": "general-en-hard-04-15",
+      "text": "What hand tool with crossbars at opposite ends is used to wind yarn into a skein?",
+      "initial": "N",
+      "answer": "Niddy-noddy",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Niddy noddy", "Niddynoddy"],
+      "sources": ["https://en.wikipedia.org/wiki/Niddy_noddy"]
+    },
+    {
+      "id": "general-en-hard-04-16",
+      "text": "What moulding profile consists of an S-shaped curve combining concave and convex parts?",
+      "initial": "O",
+      "answer": "Ogee",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ogee"]
+    },
+    {
+      "id": "general-en-hard-04-17",
+      "text": "What French-derived collective term describes decorative trimmings such as tassels, fringes, cords and braids?",
+      "initial": "P",
+      "answer": "Passementerie",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Passement", "Passamenterie"],
+      "sources": ["https://en.wikipedia.org/wiki/Passementerie"]
+    },
+    {
+      "id": "general-en-hard-04-18",
+      "text": "What musical composition combines different pre-existing melodies, often humorously, in counterpoint?",
+      "initial": "Q",
+      "answer": "Quodlibet",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Quodlibet"]
+    },
+    {
+      "id": "general-en-hard-04-19",
+      "text": "What metalworking technique raises a relief design by hammering a metal sheet from its reverse side?",
+      "initial": "R",
+      "answer": "Repoussé",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Repoussé work", "Repoussage"],
+      "sources": ["https://en.wikipedia.org/wiki/Repouss%C3%A9_and_chasing"]
+    },
+    {
+      "id": "general-en-hard-04-20",
+      "text": "What decorative material imitates marble using a mixture based on gypsum plaster and pigments?",
+      "initial": "S",
+      "answer": "Scagliola",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Scagliola"]
+    },
+    {
+      "id": "general-en-hard-04-21",
+      "text": "What Japanese alloy of copper with a small proportion of gold can be treated to develop a dark patina?",
+      "initial": "SH",
+      "answer": "Shakudō",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Shakud%C5%8D"]
+    },
+    {
+      "id": "general-en-hard-04-22",
+      "text": "What type of wild silk is produced by silkworms of several Antheraea species rather than the domesticated mulberry silkworm?",
+      "initial": "T",
+      "answer": "Tussar silk",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Tussore", "Tussore silk", "Tasar silk", "Tussah silk"],
+      "sources": ["https://en.wikipedia.org/wiki/Tussar_silk"]
+    },
+    {
+      "id": "general-en-hard-04-23",
+      "text": "What word describes someone who gives opinions or advice on matters beyond their expertise?",
+      "initial": "U",
+      "answer": "Ultracrepidarian",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Ultracrepidarianist"],
+      "sources": ["https://en.wikipedia.org/wiki/Ultracrepidarianism"]
+    },
+    {
+      "id": "general-en-hard-04-24",
+      "text": "What heraldic fur is represented by alternating bell-shaped pieces, conventionally blue and white?",
+      "initial": "V",
+      "answer": "Vair",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Vair"]
+    },
+    {
+      "id": "general-en-hard-04-25",
+      "text": "What medieval women's head covering surrounds the neck and chin while leaving the face exposed?",
+      "initial": "W",
+      "answer": "Wimple",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Wimple"]
+    },
+    {
+      "id": "general-en-hard-04-26",
+      "text": "What Greek-derived architectural term denoted the covered portico of an ancient Greek gymnasium?",
+      "initial": "X",
+      "answer": "Xystus",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Xystos"],
+      "sources": ["https://en.wikipedia.org/wiki/Xystus_(architectural_term)"]
+    },
+    {
+      "id": "general-en-hard-04-27",
+      "text": "What type of Ottoman short sword has a forward-curving blade and typically no crossguard?",
+      "initial": "Y",
+      "answer": "Yataghan",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Yatagan", "Ataghan"],
+      "sources": ["https://en.wikipedia.org/wiki/Yatagan"]
+    },
+    {
+      "id": "general-en-hard-04-28",
+      "text": "What Renaissance fashion accessory was a small fur pelt, often with a jewelled head and paws, carried or worn by wealthy women?",
+      "initial": "Z",
+      "answer": "Zibellino",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Flea fur", "Flea-fur"],
+      "sources": ["https://en.wikipedia.org/wiki/Zibellino"]
+    }
+  ]
+}

@@ -244,6 +244,13 @@ function expectGeneralEditorialRating(rating, deckId, difficulty) {
       distribution: { easy: 2, medium: 21, hard: 5 },
       historicalSemanticVerdict: 'BLOCKED unresolved live Arts reservations',
     },
+    'general-en-hard-04': {
+      difficulty: 'hard',
+      sha256:
+        '1ed89ee877efc25339c99ad6ac8d234c65463efc4fd62b5b21ab180bf73c60f7',
+      distribution: { easy: 0, medium: 2, hard: 26 },
+      historicalSemanticVerdict: 'BLOCKED unresolved live Arts reservations',
+    },
   };
   const expected = accepted[deckId];
   if (!expected) throw new Error(`Unknown original General rating ${deckId}`);

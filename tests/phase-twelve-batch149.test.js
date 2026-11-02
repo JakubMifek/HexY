@@ -30,6 +30,7 @@ for (const deckId of [
   'geography-cs-medium-03',
   'geography-cs-hard-03',
   'general-en-easy-04',
+  'general-en-hard-04',
 ].filter((id) => inventory.additionalDeckIds.includes(id))) {
   /** @type {{deckId: string, entries: SourceEntry[],
    * sourcePackSha256: string, originalAuthorSourcePackSha256: string,

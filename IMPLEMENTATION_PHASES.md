@@ -16,10 +16,10 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Current Phase 12 deck snapshot
 
-This source candidate contains **157 decks / 4,396 questions**,
-adding only `general-en-easy-04` to its 156-deck predecessor.
+This source candidate contains **158 decks / 4,424 questions**,
+adding only `general-en-hard-04` to its 157-deck predecessor.
 Actual delivery at preparation is `db1b9955` (156/4,368), English82/Czech74.
-This intermediate is English83/Czech74; original156 raw packs remain immutable.
+This intermediate is English84/Czech74; original156 raw packs remain immutable.
 All28 own complete questions, full evidence arrays, legitimate aliases and
 individual/whole adult ratings retain exact original/correction bindings.
 The coherent112-entry content/current-duplicate/lifecycle review accepted all112
