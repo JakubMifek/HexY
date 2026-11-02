@@ -1,5 +1,31 @@
 # HexY
 
+**Phase 12 incremental snapshot: 142 decks / 3,976 questions.** Only
+`geography-en-easy-03` is added to actual private revision `840b1637`
+(141 decks / 3,948 questions), preserving every preceding pack byte and order.
+Its [source ledger](docs/phase-12-geography-en-easy-03-sources.json) retains all
+28 complete questions, entire supporting arrays, 89 accepted answer forms and
+the exact original general-adult Easy calibration (22 Easy / 6 Medium).
+[Independent content/current-delta acceptance](reviews/phase-12-geography-en-easy-03-content.md)
+covers all28 through the actual R30 current-candidate scope. The native source
+pointer repair adds metadata only, not factual acceptance or changed evidence.
+Historical audit limitations remain disclosed. The cohesive Phase11 source list
+is extracted to keep production modules within the approved300-line ceiling;
+the [immutable baseline receipt](docs/phase-11-catalog-baseline.json) and
+regressions bind every original132 pack's order and bytes. Validation, old
+normalized names and subsequent append order are unchanged; no glob imports
+or draft discovery are introduced. All64 runtime files remain in coverage.
+Final integration release clearance precedes full quality/native and deliberate
+active/expired old-private recovery gates. This is not publication or phase
+clearance. Final330/9,240/all66 five-deck quotas remain unchanged.
+
+## Historical Science Medium03 adoption checkpoint
+
+Actual `840b1637` subsequently shipped only that deck after independent release,
+1,149 units/46 files, all63 runtime files,58 native cases and deliberate
+active/expired whole-old-data/deadline and full served-deck verification.
+The following is its preserved pre-delivery snapshot.
+
 **Phase 12 incremental snapshot: 141 decks / 3,948 questions.** Only
 `science-en-medium-03` is added to actual private revision `38a11350`
 (140 decks / 3,920 questions), preserving every preceding pack byte and order.

@@ -36,7 +36,27 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current Science Medium03 incremental snapshot:** actual private/remote baseline
+**Current Geography Easy03 incremental snapshot:** actual private/remote baseline
+`840b1637`,141 decks/3,948 questions. Only GeographyEnglishEasy03 is added here,
+giving142/3,976 with all141 earlier pack bytes/order unchanged. Its complete
+28-question/full-support-array/89-form and actual Easy22/Medium6 calibration
+bindings inherit the actual original independent review.
+[Independent content/current-delta acceptance](reviews/phase-12-geography-en-easy-03-content.md)
+covers all28 through actual R30 current-candidate evidence. The source-pointer
+repair is metadata only, not new factual acceptance. To honor the imminent
+300-line ceiling, the cohesive accepted Phase11 data list is extracted with
+all132 original order/byte bindings and unchanged production validation.
+All64 runtime modules remain in coverage; no metric exception, glob import or
+draft discovery is introduced. Focused type checking/lint and202 units/four
+files passed. Final integration release review must precede applicable full
+quality/native and genuine active/expired private upgrade gates. Historical
+audit limitations stay disclosed. Four authors remain isolated; final330/
+9,240/all66 is NOT CLEARED.
+
+**Historical Science Medium03 incremental snapshot:** subsequently delivered
+`840b1637` after independent release,1,149 units/46 files/all63 runtime/native58
+and actual active/expired whole-old-data/deadline/full-served-deck verification.
+The following preserves its pre-delivery snapshot. Actual private/remote baseline
 `38a11350`,140 decks/3,920 questions. Only ScienceEnglishMedium03 is added here,
 giving141/3,948 with all140 earlier pack bytes/order unchanged. Its complete
 28-question/full-support-array/95-form and actual Medium4Easy/21Medium/3Hard

@@ -1,0 +1,85 @@
+{
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "exactSourceQAFrozenInputSha256": "757faac4ad2a0e83a7a271b573a426fee481339a414f0967e10d37ace8a323cf",
+  "reportSha256": "95f4ba18a61174e4ad2094a94f758c0968498ba595e542703ca1275e8dac84be",
+  "members": {
+    "CURRENT-SEMANTIC-FULL-CONTEXT.json": {
+      "sha256": "ee95229131fd556ff868f0e426fd791537e97fce7dd99291cc5d357668db5948",
+      "bytes": 665235
+    },
+    "DECISION-RECORDING-RECEIPT.json": {
+      "sha256": "28305a7c430061c1aa22b2dfb7a7d560e678183e43a7139c514ffc60c0b56422",
+      "bytes": 183
+    },
+    "EXECUTION-HISTORY.json": {
+      "sha256": "9011e6e186398923b513b06bb6c7b34d7c419c38d9106f0dd774b61f854c243b",
+      "bytes": 1437
+    },
+    "EXTERNAL-INPUT-BINDINGS.json": {
+      "sha256": "27a98d8aee51b884015b3d60d3c0a257dcd6653880113450e3df0366d8b84817",
+      "bytes": 168336
+    },
+    "FINAL-SAFE-VERIFICATION.json": {
+      "sha256": "7e429fefb5338bc4544762b460fbb94ade2f668ddc5a9cbc621e52bc7c24114a",
+      "bytes": 853
+    },
+    "INDEPENDENT-RELEASE-DECISIONS.json": {
+      "sha256": "c83765f22786b21d7c27f92eb68176cc31862bd842ebbe8c9ff00429f3a75e98",
+      "bytes": 95342
+    },
+    "INITIAL-CUTOFF-CURRENT-SEMANTIC-FULL-CONTEXT.json": {
+      "sha256": "0347d95e4bfae8c8e6acaa22bfc9b11896fc2b795d49fa0b9225837132920ba4",
+      "bytes": 657475
+    },
+    "INITIAL-CUTOFF-EXTERNAL-INPUT-BINDINGS.json": {
+      "sha256": "6d9055499e7c8da6c05f5da1f3269737933f68a62930a0df23e1cb1c46b21d49",
+      "bytes": 167932
+    },
+    "INITIAL-CUTOFF-VERIFICATION.json": {
+      "sha256": "924033a28e881eb9003e7d22c031d8387872ca1d41c4ab30fc8d4926659162af",
+      "bytes": 1255
+    },
+    "OBSERVED-LATE-GAMES-DELTA.json": {
+      "sha256": "02ba56e86d65395555a9123ea6f497af6666c5616a528e4fdbcd8252f6e18742",
+      "bytes": 16155
+    },
+    "REPORT.md": {
+      "sha256": "95f4ba18a61174e4ad2094a94f758c0968498ba595e542703ca1275e8dac84be",
+      "bytes": 13454
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "d43ab671cf2614034a8c419193ed38b14904bbb4f1ea870242a249fb8d105615",
+      "bytes": 170099
+    },
+    "VERIFICATION.json": {
+      "sha256": "e7e371c8a8fd7d0b7bb305302fb38b1bb04c9484a951995470584c4339d3f268",
+      "bytes": 1397
+    },
+    "capture-observed-delta.py": {
+      "sha256": "adb31e1866e61fe6ece5680213f06df2100390564d1d3cfe761746caaef1e062",
+      "bytes": 3049
+    },
+    "record-release-decisions.py": {
+      "sha256": "487e8a82fce77a394fc150ce41791471dc0b33591e9afab0b0ba00531844462e",
+      "bytes": 11653
+    },
+    "seal-release.py": {
+      "sha256": "05a9574e6e20af667de761f9f26ed5d5f27421e226a5be84792765839e8b0ccc",
+      "bytes": 7451
+    },
+    "verify-release.mjs": {
+      "sha256": "5b3ca27b7a3df0a4acde95cfe28e20f79a5ac5e5e713b3843ae2a1b7fde9ee88",
+      "bytes": 15562
+    }
+  },
+  "externalInputCount": 687,
+  "reviewerIdentity": {
+    "callerDesignatedRole": "ONE fresh independent READ-ONLY reviewer; same-deck final follow-up",
+    "externalRoutingUuid": null,
+    "limitation": "Actual caller reviewer UUID is not exposed here; no self-ID invented. Author shorthand is not independent identity evidence.",
+    "publisherOnly": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+    "originalContentReviewer": "4c3b3561-c8e2-4fb2-b3fd-dca8f4f486c2"
+  },
+  "scope": "One geography-en-easy-03 release and its necessary exact frozen142 integration; not other decks/categories/Phase12 or completed gates."
+}

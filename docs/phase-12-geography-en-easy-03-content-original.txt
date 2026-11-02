@@ -1,0 +1,174 @@
+# Geography EN Easy03 — independent content/current141-R30 review
+
+## CONTENT DELTA ACCEPTED — all28; zero own content blockers
+
+**NOT final release/integration, category or Phase12 clearance. No QA grant.**
+
+Caller-assigned fresh independent read-only reviewer; no runtime reviewer UUID
+was exposed. None is invented or borrowed from the coordinator, author,
+original reviewer or closed Science reviewer. The sole publisher remains
+`75f17f1b-c206-4c60-9d73-51f09ff4cd0f`.
+
+## Fixed content and actual current scope
+
+- Candidate: `b01-v2/packs/geography-en-easy-03.json`, **10,566 bytes**,
+  SHA256 `7383e64bd5c5a3ac30d9fdf7185412aa491e17069f4b32ec0152af44263d4d93`.
+- Whole native source ledger: **231,685 bytes**,
+  `bf18bd0662c38db9fd9af866671f655ce7cf18664a20911ba72c717a97cc2a09`.
+- Accepted portable object: **3,305,919 bytes**,
+  `b7ba7fb01f481bab06a4755d5e6f886dc27ff1ce0fd93dfa2ccb3c5b69a3cfba`.
+  The **entire parsed object**, not an edited projection, must survive later
+  production formatting.
+- Coherent current140 author's HANDOFF/SEAL are exactly caller-specified
+  `a5b6e88d…` / `d76332bb…`. Their70 proposals were **not** accepted merely
+  because the author supplied them; fresh decisions are recorded here.
+- Actual current baseline is `840b16378ac260ff3bbd373baea26d376bd1a5b9`,
+  **141 decks /3,948 questions /75 English**. The actual Science delivery
+  receipt was read and hash-checked. Its1,149 units/46 files,63 runtime
+  modules/77 coverage files,58 native cases and active/naturally expired
+  recovery results are **baseline receipts, not Geography gate results**.
+- Actual R30 `12b5e09d…` and immutable prepublication queue `6bad24a3…` match.
+  **66 selected decks /1,848 questions** is not the final66 combinations.
+  All prior55 whole question/alias arrays equal R29 exactly.
+- All11 additions/308 complete raw questions and aliases were read for own
+  semantic impact, with actual whole native source ledgers bound. Current
+  author roles are the caller's four assignments, not the older current140
+  handoff roles. R30 publication is not independent content acceptance.
+
+Full paths, hashes and byte counts appear in `EXTERNAL-INPUT-BINDINGS.json`
+and `SEAL.json`. No primary159/4fe content is treated as publishable.
+The clean isolated release checkout was **not** reviewed as a final freeze.
+
+## Acceptance evidence
+
+- [x] All28 full raw questions, full source entries/arrays, all61 aliases
+  (**89 canonical+alias forms**) and29 supporting placements equal the
+  **actual original** per-entry receipts, not validator-reordered substitutes.
+  Original reviewer: `4c3b3561-c8e2-4fb2-b3fd-dca8f4f486c2`.
+  Every finite alias decision, wording/initial/source/fact judgment and
+  individual difficulty is inherited only through these exact bindings.
+  All58 original body/text files were rehashed; factual research/HTML parsing
+  already independently accepted was not needlessly repeated.
+- [x] Whole general-adult **Easy accepted:22 Easy /6 Medium**, not all28 Easy
+  and not specialist-relative Easy. Actual original rating locator:
+  `.artifacts/continuation/bundles/reviews/p12/geography/b01/deck-difficulty.json`
+  **`/decks/0`**, file `aac90dd8…`, complete rating `e5527412…`.
+  Famous countries/landmarks, transport and basic landforms dominate; Geneva,
+  Kuwait, Liverpool, Poland, Queensland and Yorkshire form the informed tail.
+- [x] Real production validation, exact English28-position alphabet and
+  **323 real matcher probes** pass. These are bounded checks, not a runtime
+  test suite, coverage or factual proof.
+- [x] Independently resolved all70 current nominations against69 actual
+  whole-source-bound counterpart contexts and all68 actual native pairs.
+  All28 have individual current reasoning. Source arrays, complete predicates,
+  canonicals and every alias remain available in the full-context payload.
+- [x] Current meaningful R29-to-R30 and Science role-promotion delta examined.
+  Added decks are GeneralENM05, GamesENM03, ArtsENM03, GamesENH03,
+  GeneralENH05, ArtsENH03, GamesENE03, GeneralCSE05, ArtsCSE03,
+  GeneralCSM05 and ArtsCSM03. No own conflict is introduced.
+  This includes negative-space/inverse-fact reading, not only lexical hits.
+
+## Specific semantic decisions
+
+**Liverpool city/club:** the eastern-Mersey port city and Anfield football club
+are different entities and identifying relationships. All legitimate club names
+remain; the city retains its accepted alias set. Klopp, Everton and Yesterday
+do not repeat the port-location fact. This accepts the specific relation, not
+Sports facts, difficulty, lifecycle or all shared answers.
+
+**Waterfall/foss/FOSS:** inherit only the actual original Computing homonym
+decision and its exact followup, now rebound to the actual original reports,
+full entry, complete alias set, semantic receipts and selected closing object.
+The initial **CHANGES REQUIRED** and later narrow **CLEARED** are both preserved.
+Physical/political force, fossils, reinforcement and cartographic slope marks
+do not identify the river-drop feature. No legitimate alias is pruned.
+
+**Bilingual relationships are not hidden as different facts:** explicitly
+accept these12 concrete pairs under the original accepted adaptation scope:
+Amazonka/discharge, Everest/altitude and Ottawa/capital from phase11 GeneralCS;
+and actual Czech Geography Brusel/Atomium, Kuba/area, Maďarsko/Balaton,
+Liverpool/Mersey, Norsko/Bergen-fjords, Polsko/Gdańsk-city relation,
+Rumunsko/Transylvania, Thajsko/Phuket and Vodopád/river drop.
+The two full predicates and native language are bound individually. This
+does not fact-clear those other decks or supply a blanket Czech/unknown-language
+exemption. Phase11 priority is retained.
+
+Other distinctions include Geneva fountain versus peace initiative; Kuwait
+versus Shamal; Jerusalem versus a diplomatic order's long name; Moscow landmarks
+versus hotline; Zagreb versus Zadar; baggage imaging versus medical CT, atomic
+relaxation, spectroscopy, transparent fish and anatomical art. Full supporting
+context was considered, not just titles. New Swiss Klee, fictional Journey
+mountain, temple and hachure predicates do not repeat own location/landform facts.
+
+## Previous findings and audit limitations
+
+| Prior issue | Independent outcome |
+|---|---|
+| Liverpool city/club decision | Resolved above, exact entities/aliases retained |
+| Everest, Poland and Liverpool old synopsis/blank-hit provenance | Preserved **unproved audit limitations**, nonblocking under the owner's impact amendment: no specific accepted own fact/alias/rating/current pair depends on inventing their historical producer |
+| foss/FOSS | Exact original independent specific judgment reused; not a new general exception |
+| Historical queue path/hash failures | Failures retained, not relabeled passes; current immutable R30 pair verified |
+| Legacy own missing source pointer | Actual R29 omission and actual R30 metadata-only repair verified; candidate/handoff and entire own28 payload unchanged |
+| Historical generator/root/import-time/old-HTML bookkeeping | Not reconstructed or declared proved; no concrete contradicted/missing own decision demonstrated |
+| Durban factual correction | Original Medium03-05 ambiguity/withdrawal and independent correction retained; no Easy fact changed |
+| Current semantic/release reconciliation | Content portion resolved here; final integration/release remains pending |
+
+Original findings and complete unknown-language/raw-origin captures remain
+bound in the portable object and original lookup artifact. Unknown/omitted
+language, partial aliases and blank predicates are not silently retired or
+declared accepted. A newly demonstrated distinct live conflicting predicate
+would reopen its specific own entry.
+
+Nature9+9, General8 bilingual/same-fact and GamesEasy whole-Easy holds remain
+**other-deck holds**; none is erased, re-rated or transferred into a blanket own
+blocker. Exact Arts retirements, General yields and narrow lifecycle exceptions
+remain limited to their accepted original scopes.
+
+## Six lenses
+
+1. **Correctness/completeness:** complete own content and bounded current
+   semantic delta accepted; no final catalog/count/test/recovery clearance.
+2. **Usability/accessibility:** all natural English, contextual useful aliases,
+   initials and adult calibration retained. No UI was changed or browser run;
+   print/export, keyboard/themes/touch and active/expired recovery are later
+   frozen-release obligations, not passed here.
+3. **Maintainability:** explicit raw/full-array/original-receipt bindings and
+   individual pair reasoning; no erased failures or ambiguous acceptance scope.
+   The coordinator's catalog-size fix is intentionally not reviewed yet.
+4. **OOP/responsibilities:** no runtime object/state/resource changes in this
+   content scope; runtime ownership review awaits actual integration.
+5. **Patterns/proportionality:** bounded named native sources, exact accepted
+   judgment reuse and direct full-pair decisions; no global inventory,
+   historical producer replay, framework, dependency or heavy gate.
+6. **Content/rights/delivery:** original factual/source/editorial/alias/rating
+   acceptance preserved. Secondary-source quality remains disclosed, not
+   promoted to institutional verification. No source prose is newly relicensed,
+   no branding/legal clearance or physical-device claim is made. Private
+   Geography delivery has not occurred or been verified by this reviewer.
+
+## Commands, containment and next gate
+
+From repository root:
+
+```
+node --max-old-space-size=256 .artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/verify-inputs.mjs
+python3 .artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/record-decisions.py
+python3 .artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/seal-and-verify.py
+```
+
+Verification and recording passed; final seal verification is recorded beside
+this report. Observed verification Node `/proc` peak **124,000 KiB** across
+successful bounded runs; final run120,232 KiB. Decision Python peak38,596 KiB.
+The launch-chain `getrusage` high-water anomaly and standalone diagnostic are
+disclosed, not represented as the executable's resident peak.
+
+Only this **new** review subtree was written. No application/source/test/docs,
+native pack/ledger/cache, reservation, Git, primary checkout, service or author
+subtree mutations; no delegation, inventory, build, browser or coverage.
+
+**STOP:** preserve this content snapshot and wait for the coordinator's actual
+one-deck integration/catalog-size fix, counts, usage and metadata to be frozen.
+The same-task final-source followup must review that real snapshot and any
+meaningful semantic delta before final release clearance and QA. Neither this
+content verdict nor the Science baseline permits the runner, commit, push or
+promotion. Final330/9,240/all66 obligations remain unchanged.

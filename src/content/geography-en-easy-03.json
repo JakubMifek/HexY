@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "geography-en-easy-03",
+  "title": "Geography and travel · Easy 03",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-en-easy-03-01",
+      "initial": "A",
+      "text": "Which South American river passes Manaus and has the world's greatest water discharge?",
+      "answer": "Amazon",
+      "aliases": ["Amazon River", "River Amazon"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Amazon_River"]
+    },
+    {
+      "id": "geography-en-easy-03-02",
+      "initial": "B",
+      "text": "Which Belgian capital is home to the Atomium landmark?",
+      "answer": "Brussels",
+      "aliases": ["Bruxelles", "Brussel", "City of Brussels"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Brussels"]
+    },
+    {
+      "id": "geography-en-easy-03-03",
+      "initial": "C",
+      "text": "Which Caribbean country is the largest by area and lies south of Florida?",
+      "answer": "Cuba",
+      "aliases": ["Republic of Cuba"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cuba"]
+    },
+    {
+      "id": "geography-en-easy-03-04",
+      "initial": "CH",
+      "text": "What is the name for a traditional wooden Alpine house with a gently sloping roof and wide overhanging eaves?",
+      "answer": "Chalet",
+      "aliases": ["Swiss chalet", "Alpine chalet"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chalet"]
+    },
+    {
+      "id": "geography-en-easy-03-05",
+      "initial": "D",
+      "text": "Which English Channel port faces France and is famous for its white chalk cliffs?",
+      "answer": "Dover",
+      "aliases": ["Dover, Kent"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Dover"]
+    },
+    {
+      "id": "geography-en-easy-03-06",
+      "initial": "E",
+      "text": "Which mountain on the Nepal-China border is Earth's highest above sea level?",
+      "answer": "Everest",
+      "aliases": [
+        "Mount Everest",
+        "Sagarmatha",
+        "Chomolungma",
+        "Qomolangma",
+        "Chamolangma",
+        "Jomolangma",
+        "Čhomolangma",
+        "Jo-mo-glang-ma"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Mount_Everest"]
+    },
+    {
+      "id": "geography-en-easy-03-07",
+      "initial": "F",
+      "text": "What kind of vessel carries passengers, and often vehicles, on crossings between shores?",
+      "answer": "Ferry",
+      "aliases": ["ferryboat", "ferry boat", "car ferry", "passenger ferry"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ferry"]
+    },
+    {
+      "id": "geography-en-easy-03-08",
+      "initial": "G",
+      "text": "In which Swiss city can visitors see the Jet d'Eau fountain?",
+      "answer": "Geneva",
+      "aliases": ["Genève", "Genf", "Ginevra", "Genevra"],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Geneva",
+        "https://en.wikipedia.org/wiki/Jet_d%27Eau"
+      ]
+    },
+    {
+      "id": "geography-en-easy-03-09",
+      "initial": "H",
+      "text": "In which Central European country would you find Lake Balaton?",
+      "answer": "Hungary",
+      "aliases": ["Magyarország"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hungary"]
+    },
+    {
+      "id": "geography-en-easy-03-10",
+      "initial": "I",
+      "text": "Which sovereign country occupies about five-sixths of the island immediately west of Great Britain?",
+      "answer": "Ireland",
+      "aliases": ["Éire", "Republic of Ireland"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ireland"]
+    },
+    {
+      "id": "geography-en-easy-03-11",
+      "initial": "J",
+      "text": "Which city contains both the Western Wall and the Dome of the Rock?",
+      "answer": "Jerusalem",
+      "aliases": ["Yerushalayim", "Al-Quds", "Al Quds"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jerusalem"]
+    },
+    {
+      "id": "geography-en-easy-03-12",
+      "initial": "K",
+      "text": "Which small country at the head of the Persian Gulf borders both Iraq and Saudi Arabia?",
+      "answer": "Kuwait",
+      "aliases": ["State of Kuwait"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kuwait"]
+    },
+    {
+      "id": "geography-en-easy-03-13",
+      "initial": "L",
+      "text": "Which English port city stands on the eastern side of the Mersey Estuary?",
+      "answer": "Liverpool",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Liverpool"]
+    },
+    {
+      "id": "geography-en-easy-03-14",
+      "initial": "M",
+      "text": "Which Russian city is home to Red Square and Saint Basil's Cathedral?",
+      "answer": "Moscow",
+      "aliases": ["Moskva"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Moscow"]
+    },
+    {
+      "id": "geography-en-easy-03-15",
+      "initial": "N",
+      "text": "Which Scandinavian country includes Bergen and has a coastline deeply cut by fjords?",
+      "answer": "Norway",
+      "aliases": ["Kingdom of Norway", "Norge", "Noreg"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Norway"]
+    },
+    {
+      "id": "geography-en-easy-03-16",
+      "initial": "O",
+      "text": "Which Canadian capital stands where its namesake river meets the Rideau River?",
+      "answer": "Ottawa",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ottawa"]
+    },
+    {
+      "id": "geography-en-easy-03-17",
+      "initial": "P",
+      "text": "Which Central European country contains both Gdańsk and Wrocław?",
+      "answer": "Poland",
+      "aliases": ["Republic of Poland", "Polska"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Poland"]
+    },
+    {
+      "id": "geography-en-easy-03-18",
+      "initial": "Q",
+      "text": "Which Australian state has Brisbane as its capital?",
+      "answer": "Queensland",
+      "aliases": ["State of Queensland", "QLD"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Queensland"]
+    },
+    {
+      "id": "geography-en-easy-03-19",
+      "initial": "R",
+      "text": "In which European country is the region of Transylvania located?",
+      "answer": "Romania",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Romania"]
+    },
+    {
+      "id": "geography-en-easy-03-20",
+      "initial": "S",
+      "text": "Which Alpine country has Bern as the seat of its federal government?",
+      "answer": "Switzerland",
+      "aliases": ["Swiss Confederation"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Switzerland"]
+    },
+    {
+      "id": "geography-en-easy-03-21",
+      "initial": "SH",
+      "text": "What term means the remains of a vessel that has sunk or been destroyed on a shore?",
+      "answer": "Shipwreck",
+      "aliases": ["wreck", "ship wreck"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shipwreck"]
+    },
+    {
+      "id": "geography-en-easy-03-22",
+      "initial": "T",
+      "text": "In which Southeast Asian country are the beach resorts of Phuket located?",
+      "answer": "Thailand",
+      "aliases": ["Kingdom of Thailand", "Siam"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Thailand"]
+    },
+    {
+      "id": "geography-en-easy-03-23",
+      "initial": "U",
+      "text": "Which European country has Kyiv as its capital?",
+      "answer": "Ukraine",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ukraine"]
+    },
+    {
+      "id": "geography-en-easy-03-24",
+      "initial": "V",
+      "text": "Which Southeast Asian country has Ho Chi Minh City as its largest city?",
+      "answer": "Vietnam",
+      "aliases": ["Viet Nam", "Socialist Republic of Vietnam"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Vietnam"]
+    },
+    {
+      "id": "geography-en-easy-03-25",
+      "initial": "W",
+      "text": "What river feature is formed where flowing water plunges over a steep or vertical drop?",
+      "answer": "Waterfall",
+      "aliases": ["water fall", "cascade", "cataract", "foss", "force"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Waterfall"]
+    },
+    {
+      "id": "geography-en-easy-03-26",
+      "initial": "X",
+      "text": "What airport security machine uses penetrating rays to image the contents of hand luggage?",
+      "answer": "X-ray scanner",
+      "aliases": [
+        "baggage X-ray scanner",
+        "X-ray baggage scanner",
+        "baggage scanner",
+        "X-ray machine",
+        "X ray scanner",
+        "X ray machine",
+        "luggage X-ray scanner",
+        "X-ray luggage scanner"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Airport_security"]
+    },
+    {
+      "id": "geography-en-easy-03-27",
+      "initial": "Y",
+      "text": "Which historic county in northern England contains both Leeds and York?",
+      "answer": "Yorkshire",
+      "aliases": ["County of York"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yorkshire"]
+    },
+    {
+      "id": "geography-en-easy-03-28",
+      "initial": "Z",
+      "text": "What is the capital city of Croatia?",
+      "answer": "Zagreb",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zagreb"]
+    }
+  ]
+}

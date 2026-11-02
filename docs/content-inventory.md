@@ -1,6 +1,33 @@
 # Content inventory and provenance
 
-## Current Science Medium03 one-deck snapshot
+## Current Geography Easy03 one-deck snapshot
+
+This isolated snapshot contains **142 decks / 3,976 entries**, adding only
+`geography-en-easy-03` (English, Easy,28 entries) to actual private delivery
+`840b1637` (141/3,948). All141 earlier pack bytes and ordering remain unchanged.
+Geography has15 decks/420 entries, with three English decks at each difficulty.
+General retains13/364, Science15/420 and Nature15/420; Czech66/English76.
+The [shipment manifest](phase-12-deck-inventory.json) retains the unchanged
+final330/9,240/all66 five-deck gate. The
+[source ledger](phase-12-geography-en-easy-03-sources.json) preserves all28
+complete questions, entire supporting arrays,89 forms and exact adult
+Easy22/Medium6 calibration, with actual original independent judgments.
+[Independent content/current-delta acceptance](../reviews/phase-12-geography-en-easy-03-content.md)
+covers all28 through actual R30 current-candidate evidence. Its native source
+pointer backfill is metadata only; no question or full evidence array changed.
+The [Phase11 baseline receipt](phase-11-catalog-baseline.json) and regressions
+preserve original132 pack order/bytes while a cohesive source-list extraction
+keeps modules within300 lines. All64 runtime modules remain in coverage;
+production validation and explicit incremental ordering are unchanged.
+Final integration release clearance precedes full quality/native and deliberate
+active/expired old-private recovery gates. Historical audit limitations remain
+disclosed, not invented proof. No other draft/category/final phase is cleared.
+
+## Historical Science Medium03 one-deck snapshot
+
+Actual `840b1637` subsequently shipped only that deck after independent release,
+full quality/native and deliberate active/expired whole-old-data/deadline and
+full served-deck verification.
 
 This isolated snapshot contains **141 decks / 3,948 entries**, adding only
 `science-en-medium-03` (English, Medium,28 entries) to actual private delivery

@@ -1,0 +1,1043 @@
+{
+  "schemaVersion": 1,
+  "deckId": "geography-en-easy-03",
+  "verdict": "CONTENT DELTA ACCEPTED",
+  "ownEntries": 28,
+  "ownBlockers": 0,
+  "externalInputBindings": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/INPUT-HASHES.json",
+      "sha256": "12e7169c4e6a96f535dc52078b4c89184c4895d3b9010c40c21e4bd05d54bc80",
+      "bytes": 19267
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "5bead2d761a6aa7ac317d929530e16878675c2363d96790c424385c42f84bb41",
+      "bytes": 11670
+    },
+    {
+      "path": "PLAN.md",
+      "sha256": "6f81307da0bb13e6364fa88dc6161bff41b37e1c0d35f94608d834505dd91bb6",
+      "bytes": 58127
+    },
+    {
+      "path": "IMPLEMENTATION_PHASES.md",
+      "sha256": "fbcfc268f785fedaf5f0e8766429a7ac85874f29c2146c84661b9a88134b9667",
+      "bytes": 146890
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "5211efec975efcfc554e32f994f1bbcb20c7f34d2126359800bc042bb7d1ab8b",
+      "bytes": 12648
+    },
+    {
+      "path": "src/domain/answers.js",
+      "sha256": "8f5243284e63963526e94766ba073366c70f5f1d0b3a55ec25e497023d54ecc8",
+      "bytes": 1108
+    },
+    {
+      "path": "src/domain/packs.js",
+      "sha256": "901caf91c5e3fc2a287e513ea70aedb388dacae63e87a54533d5ad57beda92ce",
+      "bytes": 4417
+    },
+    {
+      "path": "src/domain/validation.js",
+      "sha256": "1f93816a1fd73e057e6968c5e82acc47bc44e18eb07ca78560c253cf3825fc82",
+      "bytes": 2101
+    },
+    {
+      "path": "src/domain/errors.js",
+      "sha256": "4951ffc36f38872eea7ab4cbcd407e4d8c8556e964f37a11ae14dc20608abaad",
+      "bytes": 434
+    },
+    {
+      "path": "src/domain/difficulty.js",
+      "sha256": "0aea9f1967ae96aeb5a8cff7b76f1bd76dfbab000bbbbd8e3524d14ce2e57a94",
+      "bytes": 2053
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-v1/predicates.mjs",
+      "sha256": "cac5f8eb63c5fb6b7144faeda2e53c2d0610611c96b7c45453fc5643a5b63978",
+      "bytes": 12949
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/prepare.mjs",
+      "sha256": "747b37751695c19587e41ec19853eec63b92b12504840fa5db290e71fec7d2cb",
+      "bytes": 27117
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/verify.mjs",
+      "sha256": "c3d9c7eb5e506f231e75a7d61c5757c7719fdda1de727c46648ef4aa9549d27d",
+      "bytes": 1476
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/decisions.mjs",
+      "sha256": "bff4c11acb281ab2a0875d8fa7a3939bb4f22ba51956f1a016fec640cb8565e7",
+      "bytes": 10194
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/packs/geography-en-easy-03.json",
+      "sha256": "7383e64bd5c5a3ac30d9fdf7185412aa491e17069f4b32ec0152af44263d4d93",
+      "bytes": 10566
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/frozen/geography-en-easy-03.json",
+      "sha256": "7383e64bd5c5a3ac30d9fdf7185412aa491e17069f4b32ec0152af44263d4d93",
+      "bytes": 10566
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/ADOPTION-HANDOFF.json",
+      "sha256": "567582175f1eafb2f7029ec4d58ea7b42ed4cfebffb076c2c45291b28ac8a814",
+      "bytes": 8314
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/sources.json",
+      "sha256": "bf18bd0662c38db9fd9af866671f655ce7cf18664a20911ba72c717a97cc2a09",
+      "bytes": 231685
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/release-ledger-v1/phase-12-geography-en-easy-03-sources.json",
+      "sha256": "b7ba7fb01f481bab06a4755d5e6f886dc27ff1ce0fd93dfa2ccb3c5b69a3cfba",
+      "bytes": 3305919
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/geography/b01/all-entry-judgments.json",
+      "sha256": "368efa2945b47b838016183046e72bf6fadceee98b46a12484a87b4c3dea2147",
+      "bytes": 1529907
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/geography/b01/deck-difficulty.json",
+      "sha256": "aac90dd8fff22e6433c64a1bd673600f95a26a0ff6cc6ebfee5ece6f2406166b",
+      "bytes": 1623
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/geography/b01/REPORT.md",
+      "sha256": "7a82e97529d8b5aa0641c6ad40b0327f562c5073247cd67ef110e697e4ac24f4",
+      "bytes": 11603
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p12/geography/b01/v2/REPORT.md",
+      "sha256": "9d1d73bb39d48abc7b79e4ccaf5b651495a204dd21d13b357529f288a5c11b49",
+      "bytes": 11358
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/continuity.json",
+      "sha256": "650ae855b252be1f620312408935117fda5f14a7b8977f3c38b4063630b31ab8",
+      "bytes": 116065
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/review-inheritance.json",
+      "sha256": "cbb66bfc55b9516cddca7ec8b3a6f00e7334387d226c3c8a0e4a450569a31c5e",
+      "bytes": 1107
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v29.json",
+      "sha256": "801fdfa191986b827dd910e0472d028373bee4b0b1cbbf22788cc90cd71d31c8",
+      "bytes": 1308494
+    },
+    {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v29.json",
+      "sha256": "6cba98b2c275c284248adcc23eb56908923b9f6d44d4961f97e12a7c706a48e8",
+      "bytes": 139215
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/integration/ACTUAL-DELIVERY-RECEIPT-v1.json",
+      "sha256": "e2b8cc82c05e530306c1a1123497c6474e7d95a7e0382dface21dea630ae42e6",
+      "bytes": 7346
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-v1/CURRENT-PAIRS.json",
+      "sha256": "dc3fa82b949e43b0a78eebacd36ecd13fdeb6c97a7e9945c58aa5e03fb1c5701",
+      "bytes": 6156030
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-v1/CURRENT-NAMED-NATIVE-OBJECTS.json",
+      "sha256": "3f659b0088e6593676e34b97ab08fc256cdf244cf9cd4a67bdb2f8a3c33a3f2f",
+      "bytes": 882961
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/sports/reservations.json",
+      "sha256": "523d7c8aa86394e4eef72b6ef5f8fbcbbcf5b76fd9c439fcf89cf84af36c7c4e",
+      "bytes": 213048
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/reservations.json",
+      "sha256": "a459257caf2ba9ce58305ce561399a90f72a5950401196bd4af55525099b7cf5",
+      "bytes": 22395
+    },
+    {
+      "path": "src/content/programming-en-medium-02.json",
+      "sha256": "a6f3b2b1e45f73a4daca45db65403ab0302f317b5c54ddef1c5cbf947708e349",
+      "bytes": 13130
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b02-v2/packs/geography-cs-easy-03.json",
+      "sha256": "65ebfa082abd63bb67cf6088b63e3d3eb0e07bd3fd0bcf686c2ec1b561053201",
+      "bytes": 12255
+    },
+    {
+      "path": "src/content/general-cs-01.json",
+      "sha256": "7c806c0cc1587138505795ce5f2294982e3b66330a94d3f6d4ec20f330996225",
+      "bytes": 9845
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-v1/DECK-HANDOFF.json",
+      "sha256": "499d434d670eaba3a7a8357b22c69d99965f65994003859c5b10f946b6c4795e",
+      "bytes": 9452
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-v1/PRIOR-FINDINGS.json",
+      "sha256": "d7ce2aa7e4a0d65b2abcb9cb3e036b0edaa607f46edcb844724c93da215008e3",
+      "bytes": 1069036
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-v1/HOLD-RELEVANCE.md",
+      "sha256": "9404ed58484748cf2b7e88c7e6d60b44a4c54749908576515a206a940019c4de",
+      "bytes": 13483
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/POINT-LOOKUPS.json",
+      "sha256": "cf23c7be27e1e2bf55f891f92479179f9c717bdea9637704cd2d5e1820976e17",
+      "bytes": 11235905
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/v2/FOSS-WATERFALL-PROOF.json",
+      "sha256": "b28e4f61d536f501bc4c7a87693d5e72c72429b845b27896784a7c2feca3df8a",
+      "bytes": 41464
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/v2/EVEREST-LINEAGE-PROOF.json",
+      "sha256": "333a001d16732ea373949526726f6c47f5483b7b9a98a3064212563158f6701d",
+      "bytes": 46002
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/v2/POLAND-LINEAGE-PROOF.json",
+      "sha256": "270beff653242c8e25fad53e78b38ea6ce8b7041ac1bffea320f781277004ab7",
+      "bytes": 29976
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/v2/LIVERPOOL-SPORTS-PROOF.json",
+      "sha256": "e6bc75215a305628aeb134168fc0e89b1ee03502938e3d617551ce451a079481",
+      "bytes": 35256
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-easy-03/frozen/general-en-easy-03.json",
+      "sha256": "66743e496776c1f8aae7c87a57394e1c5a61f4971d98f3522b6f1ed8cf98059a",
+      "bytes": 9999
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b01-v3/sources.json",
+      "sha256": "db16cdb4628753659f28dc04c8c303af57a40416cb88cfc31c9aa44f1ba162f6",
+      "bytes": 187073
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-easy-03.json",
+      "sha256": "3857ca57572758f14cb27aad69a7cb1e4dbdd96fbcf55da404e58d2fbc406c46",
+      "bytes": 11724
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/sources.json",
+      "sha256": "355870aeb5cd161f85930ae5a3acde08497328d26287df1d406231285291532c",
+      "bytes": 317552
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-medium-03.json",
+      "sha256": "92e5fba0dea0fca1cfeb27ab2acba9ed4150ec3550f5ea06df2dfe975ade8811",
+      "bytes": 12260
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b01-v1/packs/politics-cs-easy-03.json",
+      "sha256": "7565bbb69f4305d1b07601e5e5c571a174eb41e288dc9744616e0ac286290168",
+      "bytes": 11913
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b01-v1/sources.json",
+      "sha256": "521205f8d80b9e3b613c685ed7c6c988666ac4aee9281ee03767327acffd54a8",
+      "bytes": 249772
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b01-v2/packs/nature-en-hard-03.json",
+      "sha256": "5849ed9eca11e9dc478902fab7db414149467bd83a37b4d0bb3917b0f409a6ed",
+      "bytes": 12581
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-easy-03.json",
+      "sha256": "5b44cc97e2915d8a85b07e72c9029b0015b3e9957af45db9aa1f84bc03e7c768",
+      "bytes": 11992
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/sources.json",
+      "sha256": "1bad1f9eb42fa6cf3caa0f1d40750a00cba7fafe311e1feeb23ef13834f66b90",
+      "bytes": 264586
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/packs/nature-en-easy-04.json",
+      "sha256": "10b10929314d541b4be5d4c426666f8f9d41e2aaf90a1b6d19c03ffaeaa09e23",
+      "bytes": 11514
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b03-v2/sources.json",
+      "sha256": "2ee74dff95196301c1d0b1cb5048928410ee68231a953a0064c4f4d17f5c64c6",
+      "bytes": 320008
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-easy-03.json",
+      "sha256": "02716ef971eacc78ec7770872ca86aec59015ba726eaf8cf9432b62da9ca645f",
+      "bytes": 12394
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/sources.json",
+      "sha256": "6bcedd4ef5c908e503366ddefabb77b08525865e0a1992becda17f4efdbc8c0a",
+      "bytes": 326780
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-hard-03.json",
+      "sha256": "215e6d3e8d963c747159ce5d0041e5e67931ef96c8fb244e2a51910294e61fed",
+      "bytes": 12824
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/nature/batches/b02-v1/packs/nature-cs-hard-03.json",
+      "sha256": "620a53c3f9bd5158c42afd8731a67e25747af23ac8a393c42ce13d4d0d8eaf71",
+      "bytes": 12222
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/packs/science-en-hard-04.json",
+      "sha256": "687f2956fdaec77f26c21b32c28b9acd4e1ea628ba10c0456f5b365a00a1b5a7",
+      "bytes": 13208
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/sources.json",
+      "sha256": "38507d4df3dbaaba74a2a8bc92c709771537bb7727d465f3f659494c1f0c7c13",
+      "bytes": 236836
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/packs/geography-en-medium-03.json",
+      "sha256": "e097363d8700289e549488fb4e3e617574a12dcbefe796b30de3be6920269655",
+      "bytes": 11198
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01-v2/packs/geography-en-hard-03.json",
+      "sha256": "eaff6abef1d9d762730361cb868beb8840d7efcfa69d9ba82529f75fab017776",
+      "bytes": 12210
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b01-v3/packs/general-en-hard-03.json",
+      "sha256": "241c14770d29a65c629a3943e5fa41718da808134e9d924f10734a261927ff46",
+      "bytes": 11156
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b02-v1/packs/politics-en-easy-03.json",
+      "sha256": "b0d27a34de760c8ffebc3f5848e72309b768792acae53e07fb97ead32b0e9f5e",
+      "bytes": 11796
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b02-v1/sources.json",
+      "sha256": "632383f597a4039c11b951f933e4f993501837ec9dfb25321d96b152b7ad3761",
+      "bytes": 269663
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/packs/science-en-medium-04.json",
+      "sha256": "ec670826de67cadf15821b4994112bccc663df06a73420fca4f3b19da772e2f2",
+      "bytes": 11866
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b02-v3/packs/general-cs-easy-03.json",
+      "sha256": "be27da13b0de155db75a6b2111379049d37c5a48a90712ed17e9d9b029924595",
+      "bytes": 10184
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b02-v3/sources.json",
+      "sha256": "5654e715218b9067f489bed7f300078ae864bd9f40fd0a95f5b11c5dfc299ccd",
+      "bytes": 191726
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b03-v1/packs/science-en-easy-04.json",
+      "sha256": "98a132bcb478e61932a387243ad75c6fe649c4e4b3f0ea65cdaaddb9df7d15eb",
+      "bytes": 10334
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b03-v1/packs/politics-en-medium-04.json",
+      "sha256": "bf1b4be397fe2e8d3272b2e09364763a846da7e64cb98b0142517adcfc71f089",
+      "bytes": 11906
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b03-v1/sources.json",
+      "sha256": "f0f77e1d0dfca30743ef85a66673ed928e161370fe86467086334c3106be0384",
+      "bytes": 291069
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b02-v3/packs/general-cs-medium-03.json",
+      "sha256": "03ef259dfa06971d97d751935a97d1c6e64fe6050dc4a8a1aaed34a0d57eef29",
+      "bytes": 10699
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b01-v1/packs/politics-cs-hard-03.json",
+      "sha256": "fcfc0e2b155b7bc337191bfff4c21e5977a268c156101c246439052b8e604f22",
+      "bytes": 15100
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b02-v1/packs/politics-en-hard-03.json",
+      "sha256": "67ad132dc7abea4a6e06b776e9a8641a5ea15e9900eaf06c6aab5f6637e57575",
+      "bytes": 13466
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b04-v2/packs/general-cs-easy-04.json",
+      "sha256": "99d9f9fc76b4dcd4f32f813dcf21e1f5872b510e03c11f498b8eaa79eabc9cf2",
+      "bytes": 11142
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b04-v2/sources.json",
+      "sha256": "3c135c822e4e81dbb0446387124ffb3c3876f7f87600c359b664c4f8667c09fa",
+      "bytes": 222568
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b02-v2/sources.json",
+      "sha256": "05c5d01a959f2997249e54989b38c3d2f23347d277e119182164f8996bcb645c",
+      "bytes": 355888
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b03-v1/packs/politics-cs-easy-04.json",
+      "sha256": "422893655ce04adb5e2f10fe11a256da95240d49a8c00e9f6fd05a5407291b8a",
+      "bytes": 11507
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b02-v2/packs/geography-cs-medium-03.json",
+      "sha256": "03019eb89111272d10765ac1068a60ca8d27cfb28df5f1ec40e3d1aa4dd57ec8",
+      "bytes": 14090
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b03-v1/packs/politics-cs-hard-04.json",
+      "sha256": "2edd1ac2d6a2e87eff95860e7a38739bf4ea813d1da5c7276b050b8dec5111c4",
+      "bytes": 13851
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b04-v2/packs/general-cs-hard-04.json",
+      "sha256": "7a9129d3cc3eef22f99705bc70098359e9fc2e672fb3ba87e630d3b4e949927a",
+      "bytes": 12113
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b04-v1/packs/politics-en-easy-04.json",
+      "sha256": "d239515471bbe8ee0d5786d40245253914a9d7ff5549d5df66156c0230b8dedf",
+      "bytes": 12028
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/politics/batches/b04-v1/sources.json",
+      "sha256": "d20d96f57b55c8f0762c3ec26138cacc83e263f367e1c4cded791cc1cb1d537c",
+      "bytes": 309739
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/batches/b01-v2/packs/arts-en-easy-03.json",
+      "sha256": "ba36cefb80c0dd5abaebceb18bff3effcb4da44022842c7c6b34c8dce46567e9",
+      "bytes": 10790
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/batches/b01-v2/sources.json",
+      "sha256": "0567e862fe4d5a8762fa66efbb7188c3db58608ac17ab4d772a48094423f16a5",
+      "bytes": 205132
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/batches/b01-v2/packs/games-en-medium-03.json",
+      "sha256": "dcbaaba3890145ab346fc25799364c1e070b35ddb47741474bde77a3e0e6c516",
+      "bytes": 10718
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b05-v2/packs/general-en-medium-05.json",
+      "sha256": "a56760aae46551ef0fdfa47b1124e708dfde269f4bbe689e96680d5e8f9d2e15",
+      "bytes": 10169
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b05-v2/sources.json",
+      "sha256": "609c89cf2d2ce6371ea0ef28d534ee4999ddaf24dde9dfe0ab5ae3df53e4b4c5",
+      "bytes": 189618
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/recovery-novelty-v5/REPORT.md",
+      "sha256": "c4dbabf94e7069c8616e4753eea0669b549f9a711d9e0f74a6da952f97d731a7",
+      "bytes": 14019
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/recovery-novelty-v5/reconciliation.json",
+      "sha256": "ecdfaf2f8ab690e86379494c6529c78c25d360ad6d1f91608dc03cdca266e217",
+      "bytes": 39528435
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/SEAL.json",
+      "sha256": "d76332bb7c9cf18499dfe85ac01aba61fc8a79149e8f7398c5003e8481f7c487",
+      "bytes": 2183
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/ENTRY-CONTINUITY.json",
+      "sha256": "45061421de7d1f9a75f6b6d5fbbe0d1f80e172efa5b60b3ec349845fefb040c9",
+      "bytes": 32487
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/SOURCE-BINDING-BACKFILL.json",
+      "sha256": "637ae9e0eea0d5da72fb5e65ea20767c9a693598a0d093798fb680646089ddf1",
+      "bytes": 2456
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/CURRENT-RELEVANT-PAIRS.json",
+      "sha256": "8c33dc086c142b2d50dad4f7ed13492c50afecd6651e8dc399a50bef3311f7f7",
+      "bytes": 543456
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/OWN-ENTRY-DISPOSITIONS.json",
+      "sha256": "c0fba7497cf818859981edd431c08d7ba66fa5de13e0ab212678e1c087d537db",
+      "bytes": 86706
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/AUDIT-AND-DECISION-PROPOSALS.json",
+      "sha256": "1b9a571a083b495be8cbe5843545430b02463ba2f5d0d3df13d05463d6e2a16f",
+      "bytes": 3678
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/FOCUSED-CHECKS.json",
+      "sha256": "1f7f28afc70e22abac684458cd97825241b310451b34a6ee259e2df578116032",
+      "bytes": 603
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/PORTABLE-CURRENT-METADATA.json",
+      "sha256": "f9402b292c90db3ae509767a1dd8f4d5e757d15724bef825c08a287f9e337a92",
+      "bytes": 1722
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-current140-v1/HANDOFF.json",
+      "sha256": "a5b6e88d26d9bcf066f8d0f9da21972db82ce4b581ba3bcb0aab5bcd246991a1",
+      "bytes": 3687
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/49d2dc07acd9eff5.html",
+      "sha256": "1b5bb6c87e2daa315522695bc051c90661430ad7f605a1c37bec09ba1565e8f4",
+      "bytes": 1471358
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/49d2dc07acd9eff5.txt",
+      "sha256": "df3142e65f993a8ae5af95841d3be1270088a12f96680e2057a07cf7a2f6925f",
+      "bytes": 40457
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/9416a1a031ef9d1a.html",
+      "sha256": "54936a2dea724f458fe251093aa9c14d4004ff3be54369a27c403af7b8fff963",
+      "bytes": 1902305
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/9416a1a031ef9d1a.txt",
+      "sha256": "58ea281da8e374aa8f5e72535d5e15239599d3795cdc5a305c018f182fcb01e6",
+      "bytes": 86793
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/0d0b4e41022259f0.html",
+      "sha256": "0eea4c0c94991629ebfe73000b9e47dba0da5952f955c1308e2272884fc15425",
+      "bytes": 2021102
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/0d0b4e41022259f0.txt",
+      "sha256": "9c7f51174d1b10831938aae8582919c22c37556e50a4404fb23088055e0a9076",
+      "bytes": 89863
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6b298632d045875a.html",
+      "sha256": "d2488bda79d8138f2d0293d102abd7657e059b2d9255c388d8103ded946cf9f1",
+      "bytes": 127169
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6b298632d045875a.txt",
+      "sha256": "4baa92f0ad5ddca7c16419ccd35a562b2e610e40c0ca167f2caa8a9d209d4b78",
+      "bytes": 3579
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/88fa0e9c8ec31bd6.html",
+      "sha256": "8f131a4de2a717e0c6b4ae2c17dcebd840bd9ce49ac5d0def7c20bcaad4c3740",
+      "bytes": 467210
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/88fa0e9c8ec31bd6.txt",
+      "sha256": "1c6b43f487e2b33c208bb7880eb3bffea3f7c599562c7bc8cda844f45bbd321b",
+      "bytes": 18815
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/decf398c616b6fd8.html",
+      "sha256": "c28e418f395856b09ef5d1cd267e8359e7647888160f764d99cf3cd71cdddb28",
+      "bytes": 1992882
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/decf398c616b6fd8.txt",
+      "sha256": "04618f8b568d230363cbc54c6e3d8a25c1bbb2372986d8f2a4e4a5ae994f8fe2",
+      "bytes": 87108
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/be3152d00da37fd3.html",
+      "sha256": "436a3bb9d8c57c7e558651d5af87648686721f477236f4037ea8a58501753b49",
+      "bytes": 613173
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/be3152d00da37fd3.txt",
+      "sha256": "073f8236268b427f478e9b18f8b5a6ee9e18911567e8d06a138d7be1d33734af",
+      "bytes": 36726
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/806b1459b451fcbf.html",
+      "sha256": "232a5317f342b1f7d17064494c999d9d4cc66d554ef4824fdda5cd3863bd0216",
+      "bytes": 1295140
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/806b1459b451fcbf.txt",
+      "sha256": "dffa0c760774d19f95c5a17385c04412927fc9d8990c6af87870de203d07a09f",
+      "bytes": 53544
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/extra-geneva-fountain.html",
+      "sha256": "529684815801f82a71a596820d2e2b1d171eb24e09c96a3c1819167461923e9e",
+      "bytes": 132216
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/extra-geneva-fountain.txt",
+      "sha256": "aec23598e60c3ee353e81c3f0689796d3594245c0d6e3dd6d2fe57524c00b3de",
+      "bytes": 2782
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/504be3084f44d3e7.html",
+      "sha256": "302274c49fb277657650cc00c2a0f0f36a70a3d9223cf30f89e2894151225327",
+      "bytes": 1528900
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/504be3084f44d3e7.txt",
+      "sha256": "827b1d17d4a923fa5db25f9a31073ef9a84ec3c14d496f2e5dc4fc099f63f601",
+      "bytes": 85898
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/02bf1dfa9a0365a8.html",
+      "sha256": "880579a0e3c376456ede0f703b3d19daefc6d3b96f5460d0ad0e2cbd6091fd8e",
+      "bytes": 1438845
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/02bf1dfa9a0365a8.txt",
+      "sha256": "a951401621fdff5a9d907bb9a1a64d8ead99f85f47a4be2459faf44358f93507",
+      "bytes": 89844
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/451ebbe3f76682c7.html",
+      "sha256": "2ffd0fbf24e1ec64c7e232ccaeffbff25fb21d80f4674a6e242ae109df6b3105",
+      "bytes": 1960471
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/451ebbe3f76682c7.txt",
+      "sha256": "8efe63011b008ff5efe7faf9190d0c8bdcb40cdac05fc3e2ea72aa6f80ce2515",
+      "bytes": 70053
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/10c3c2e2edc1f1f0.html",
+      "sha256": "03364884e9dc1c409aa272b8bbbcdeb65ee448e0edd22eaf60d82216de18b301",
+      "bytes": 2204945
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/10c3c2e2edc1f1f0.txt",
+      "sha256": "c572439c2115765a3379072fb8877ce9a22b63124f4029936d99540985f2d5d6",
+      "bytes": 80052
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6a5ed83658ef85af.html",
+      "sha256": "712b07087434a6b6c2aaca7e29e43169daa93d1699a395a4bc1842a10d0a4f1a",
+      "bytes": 2399881
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6a5ed83658ef85af.txt",
+      "sha256": "23963bfd622c763b1e934f509a52d99aeb46c0a42f199cacc84385ff6d26be88",
+      "bytes": 114019
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/4661bd5b4b1a3ded.html",
+      "sha256": "f24e0796dc3ef3041ff39e37ab3f38736732f097823792339f584f12928f2bb6",
+      "bytes": 1773244
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/4661bd5b4b1a3ded.txt",
+      "sha256": "db7de5df04a83b47798b60e7ce3cc097da8340af1bf7dcb5d5815a83caf53584",
+      "bytes": 94937
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/bea54a349795017d.html",
+      "sha256": "1ed0b9528b56f9832bfa5ce9072a9885e1d4c07e3ebc623a600539e52d905abd",
+      "bytes": 1565884
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/bea54a349795017d.txt",
+      "sha256": "7f20018dbf9bb50011ceee3c9c0855df3d3b2324280ca8850de3b07178e160ca",
+      "bytes": 95077
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/9c633c81c4f7d3a4.html",
+      "sha256": "bc51090a309a761a6abe6d8121a16259a255ba46ecd1245665316222994eb4c6",
+      "bytes": 1897910
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/9c633c81c4f7d3a4.txt",
+      "sha256": "9ebc1bc7802b329c5bf464ad1df5ab561d6c6969ccc525df569b24e48844ae33",
+      "bytes": 59375
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/7f69649ad70496d4.html",
+      "sha256": "4ffc250f5fe688102946bfba1bd59bd7f5ca74d4352e60c828a83ba9ba90859a",
+      "bytes": 2240430
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/7f69649ad70496d4.txt",
+      "sha256": "de2f92f6b9cf645645e66735809368d56f7ee9362966c34f88caae83e5511938",
+      "bytes": 82096
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/beee2712f137e4c7.html",
+      "sha256": "60d0b68d0429247576e299595ef4980adc09e0e8e2dfdf3f269231faf66c8566",
+      "bytes": 895907
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/beee2712f137e4c7.txt",
+      "sha256": "9dbd4d05baaae158b2469671b5cbd2674c34cf76a9f504bbef712f427835fc9d",
+      "bytes": 43449
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/ea23726dd0fd4e4d.html",
+      "sha256": "11f57b4f14ceb0e5c6307362d398e6d0976add94551294e1d27769de1139f0b6",
+      "bytes": 1716394
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/ea23726dd0fd4e4d.txt",
+      "sha256": "795575239a867940bb3efd3764bb5a4636eb0f9be4f00d80469ff060e0573f5d",
+      "bytes": 67114
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/2275583196d79140.html",
+      "sha256": "8dd1dc5f7b9ce494daad4fb5e3dabc9e3084e0eb86b45bd8b768cd64478d543f",
+      "bytes": 1726696
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/2275583196d79140.txt",
+      "sha256": "0009a6758a84d28636e15efb28d2558a1877bfbb3e9f6066100944d7f1d2d5fd",
+      "bytes": 85667
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/ed615dadd5af9cbb.html",
+      "sha256": "d4a7f83ce810777aba4caed0690e821375ed35ffac34d183d21facb7e1d25dc3",
+      "bytes": 349778
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/ed615dadd5af9cbb.txt",
+      "sha256": "2ccdccc23d0347cb6ae5d82d7acbc399884a99a8a100e0bc14273a6e32ddada1",
+      "bytes": 16938
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6e49e65081b2bcb5.html",
+      "sha256": "507a83a27fb6a61885c9d9f929ce2680cff146cb6c2b2a8a1af2ceae554eb413",
+      "bytes": 1915893
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6e49e65081b2bcb5.txt",
+      "sha256": "87f9592d9d16e650b3832dc0c46e1c3e3724f5fd7a0f5bcbcfae3bfa68895e71",
+      "bytes": 71429
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/580eedc669f3b989.html",
+      "sha256": "874097f596b988a8c1279ab373ea1aa6e226473ec579a6b78f6ca1d681751b75",
+      "bytes": 2060839
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/580eedc669f3b989.txt",
+      "sha256": "af3a54cd1a4551b10551352213e50a9a4141666db17c3a601091d3fee0ed96d4",
+      "bytes": 86516
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/2e5e81066a29cd66.html",
+      "sha256": "41e8cec84ab9220a3f28879abeb7b586a714946770122cfb8a570c1f8b51eeea",
+      "bytes": 2548671
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/2e5e81066a29cd66.txt",
+      "sha256": "679cd63c2e881df54c3047ae50563d7a48f8ecd7a26aa0264abb249f3cee88b6",
+      "bytes": 92985
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6b53bc225e0aae1d.html",
+      "sha256": "c60f529bf7318361c5485641ed47ba91a34edf42c8053d54def4149cd13a7a36",
+      "bytes": 386304
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/6b53bc225e0aae1d.txt",
+      "sha256": "e60b6745525e468c6163b678857071962e0c15fa8785479a9e8762feff2b5f82",
+      "bytes": 14069
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/1909d6243f8b09a6.html",
+      "sha256": "e4aaff0e4cfce70131d19cce77032f269254c676de136fbf8abe7e792026f23b",
+      "bytes": 408630
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/1909d6243f8b09a6.txt",
+      "sha256": "aa56b0c1a567d521c09095eb9229b813dc0dff999183e67cdd19b70970143aa6",
+      "bytes": 33488
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/230283d9886c6728.html",
+      "sha256": "eb278428ab485943480a5b1016a0b0c6f3b25d6f850ed7b11f8a346fc27b9b8e",
+      "bytes": 1287349
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/230283d9886c6728.txt",
+      "sha256": "2dd43febdc2614a79fd2e8b12fed9ee801e38bb5ee3f4a8004c2114a6c1ef119",
+      "bytes": 73179
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/ec0cf9e82c46ad97.html",
+      "sha256": "a8be829318c776a657b50b685b896475ddad11ff8cb7544d8524b9aea2ccf510",
+      "bytes": 1649102
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b01/sources/ec0cf9e82c46ad97.txt",
+      "sha256": "bd9c13c4dae1da45b21afe94f91aedb4c268a391a8f38ea6e6af969e66d318fb",
+      "bytes": 57590
+    },
+    {
+      "path": ".artifacts/continuation/phase12-shared-deck-reservations-v30.json",
+      "sha256": "12b5e09da20e1a1600437b2bf7198c34b85ec479e99ad96b10c2751ae93c2cc4",
+      "bytes": 1561102
+    },
+    {
+      "path": ".artifacts/continuation/phase12-deck-queue-reservation-snapshot-v30.json",
+      "sha256": "6bad24a3a8a858bceb246a1224c3ff80a9ce1afa6ebc359f4d964e7d4e543d5f",
+      "bytes": 164349
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/batches/b01-v2/sources.json",
+      "sha256": "3fccf18858372fe0198bb17d6218e3ee9d7178550f77762a88e013d4f326f60f",
+      "bytes": 281870
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/batches/b01-v2/packs/arts-en-medium-03.json",
+      "sha256": "6e6fc4a1f7cefe9d56d91e1a61018194ebbb94ac150bbc7f9273f121882ee131",
+      "bytes": 11283
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/batches/b01-v2/packs/games-en-hard-03.json",
+      "sha256": "b0d11cda311e7b2219dc4916d66eb676208091c1ccebaca5e8beae258182f1d0",
+      "bytes": 11193
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b05-v2/packs/general-en-hard-05.json",
+      "sha256": "98c7791295fb260e5d1ca1823a92095cad658cc8d72e2f6fa171bfd35087107e",
+      "bytes": 10697
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/batches/b01-v2/packs/arts-en-hard-03.json",
+      "sha256": "7a74839e9269fb4d4a29addafa6bd0ee57497a7fd9dd5dea076713f0fdfdc6e2",
+      "bytes": 11822
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/games/batches/b01-v2/packs/games-en-easy-03.json",
+      "sha256": "73a49633925a095bcbb1b63ce18b40c84fd23e7afc7087a9922607119b54be65",
+      "bytes": 10661
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b06-v2/packs/general-cs-easy-05.json",
+      "sha256": "81ec682c8c724ba1da8f5b806748675ddfeee4e061ed893c5bf04a4f08af4b81",
+      "bytes": 10708
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+      "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+      "bytes": 213681
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/batches/b02-v1/packs/arts-cs-easy-03.json",
+      "sha256": "6431d13f6036536fc3be62de6f9797d8bb77dfef2efc879d2cc1a44a5386b9e6",
+      "bytes": 11197
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/batches/b02-v1/sources.json",
+      "sha256": "a0890d6fb541f55405de7560dade43fff7d9a623d387afca098f43ed59417644",
+      "bytes": 206475
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/general/batches/b06-v2/packs/general-cs-medium-05.json",
+      "sha256": "73e83fd575609aacf23551c4d447af262d24b316b2521dfc0da6a33861a7c25b",
+      "bytes": 11265
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/arts/batches/b02-v1/packs/arts-cs-medium-03.json",
+      "sha256": "a0e9eca2e968faddf54b34026709bf1732752ea192deeb2f985dabad0b5ef227",
+      "bytes": 12144
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/throughput-v1/original-POINT-LOOKUPS.json",
+      "sha256": "cf23c7be27e1e2bf55f891f92479179f9c717bdea9637704cd2d5e1820976e17",
+      "bytes": 11235905
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/science-en-medium-03/integration/ACTUAL-DELIVERY-RECEIPT-v1.json",
+      "sha256": "96b8c653b5760a2d7cdaa60c62668be81206a379a2cd3af97019c1e65f9dc78f",
+      "bytes": 7339
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-easy-03/v2/INPUT-MANIFEST.json",
+      "sha256": "666178f979cbd938136cf36172dbfc831b0b1c5c882f67c10cd1116c903047d1",
+      "bytes": 10015
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/entries.json",
+      "sha256": "b049f6f747bca406848f8e45494d065846f03702be92ae7b0b7f20c279c77e3d",
+      "bytes": 260085
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/v2/continuity.json",
+      "sha256": "7d840c6f2dcf69674f4f2bc0f2a63b9cc1d73366f23efaeada0bc6e4e12d133d",
+      "bytes": 49570
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/semantic-receipts.json",
+      "sha256": "af63b43ba868ed36395bf26ae2c211ebb3b218f462b699c9360e2af49650990f",
+      "bytes": 1647544
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/v2/semantic-receipts.json",
+      "sha256": "c4056f847bf6d4bf02787b0037f818b00d7c4c89ab3b7e3f648dfe45b9cb20f6",
+      "bytes": 566416
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/REPORT.md",
+      "sha256": "7dd5bc21c900ce1891a07eb7fc832e07e0cd92af16f444a6d11cc40da75f31b9",
+      "bytes": 13987
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/v2/REPORT.md",
+      "sha256": "9e26fb56d395555fc761229cea50b3c609e8441a905396d82bd620b53a0faaa0",
+      "bytes": 12337
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/review-output-manifest.sha256",
+      "sha256": "f917ed1c924d0b71b018672f4e4afc440b42fb69eaeeba0e965cc86d4b45448f",
+      "bytes": 3667
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/v2/review-output-manifest.sha256",
+      "sha256": "ebb02bac66419de5046766340c7226c5fe34f08db54f96e07f3e325eab7a3f4a",
+      "bytes": 3040
+    },
+    {
+      "path": ".artifacts/continuation/bundles/reviews/p11/programming/b04-v1/v2/closing-delta.json",
+      "sha256": "3f9d56d1501c3272a3f04407b81d2c33b13a5b3bdfe2426db55d32b575856d3b",
+      "bytes": 1436978
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p11/programming/sources/open-source.html",
+      "sha256": "7a840dce35d943f4c48b3fb29161b5b068916a4a1d60808062520339be7ff7aa",
+      "bytes": 662006
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p11/programming/sources/open-source.txt",
+      "sha256": "1d1d0e8a706f5450f9b205f621b31d055c7c29d390c65d3c99ff26ffdb3e1c74",
+      "bytes": 86625
+    }
+  ],
+  "payloadMembers": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/EXACT-FOSS-HOMONYM-REUSE.json",
+      "sha256": "b3a41043f6e1e5aa26e6215f48a21b6aba7cd3fc3eb44e45724e1d43f36cdc0f",
+      "bytes": 10347
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/EXACT-PRIOR-ACCEPTANCE-REUSE.json",
+      "sha256": "e42c53a69b4df3807bcb0015e993f6522780f43a46f4b8f3172fffcf87856948",
+      "bytes": 48590
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/EXTERNAL-INPUT-BINDINGS.json",
+      "sha256": "562c5a5e74ab91fa621df93981a1ab11bddbf7798a8dec5b39aee0f31c8e2608",
+      "bytes": 40734
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/FINAL-SAFE-VERIFICATION.json",
+      "sha256": "0edea48060400a62a891285b0783a58ebf78922736ba977fa28d0a87538b8f42",
+      "bytes": 735
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/HISTORICAL-FINDING-OUTCOMES.json",
+      "sha256": "06a3d617c9026b675e1f11f84ca2a9d8c51edc9484bf194ddf6835cad469d068",
+      "bytes": 5501
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/INDEPENDENT-ENTRY-AND-PAIR-DECISIONS.json",
+      "sha256": "5c304c9098e022593bf6d27f0400bff8e89bce1f69efdfd4b78a5c384fa67ba9",
+      "bytes": 266768
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/NEW-R30-DECK-IMPACT.json",
+      "sha256": "912abd66c5cf8f3a3589dc6406a706b01bd480cd36f336413ecf0789a84e7703",
+      "bytes": 11883
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/R30-DELTA-FULL-CONTEXT.json",
+      "sha256": "6be25b3482c14f9295a6cd3b95bab02bb3ad2e4a8480bedd7f9ce1842ca99072",
+      "bytes": 1596310
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/REPORT.md",
+      "sha256": "55f86f711b8adf5060b8e030594007f218ea618ac847f6ed70cae1c88d627136",
+      "bytes": 11006
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/REVIEWER-IDENTITY-AND-SCOPE.json",
+      "sha256": "c1858baa28468f32b467b4a600bf394f444988db434dae36095c8f790851d591",
+      "bytes": 1480
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/SAFE-VERIFICATION-RECEIPT.json",
+      "sha256": "0136db7abe1e41c4641c195e6b8b9743e7bc8f782b89cfe63fa0c4b70937524f",
+      "bytes": 907
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/STOP-GUARDS.json",
+      "sha256": "7fab8068702fcb78e800aebeb83d618a615e1e2564f642f86d74660302992c02",
+      "bytes": 45163
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/record-decisions.py",
+      "sha256": "9acfa886bc0483fbf857230132ba1f65b11d747c3bb44915df5f951634e24f54",
+      "bytes": 22976
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/seal-and-verify.py",
+      "sha256": "98bbdccc82a55ebdefc58dba36e8e3588e5f276ba684dcd7d68c5c1451ea537c",
+      "bytes": 6502
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/verify-inputs.mjs",
+      "sha256": "d612e0475ffb3ae48f8648a7fe20323f42e2d394c8ddaf7e46cae1a5b9e3bc32",
+      "bytes": 15569
+    }
+  ],
+  "excludedSelf": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1/SEAL.json",
+  "selfHashClaimed": false,
+  "reviewerIdentity": {
+    "schemaVersion": 1,
+    "callerAssignedRole": "ONE fresh independent READ-ONLY Geography EN Easy03 content/current141-R30 reviewer",
+    "reviewerRuntimeTaskId": null,
+    "identityLimitation": "Caller/tool context does not expose a reviewer routing UUID. No UUID is invented; parent coordinator, original reviewer and closed Science reviewer are not substituted.",
+    "solePublisher": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+    "originalAcceptedContentReviewer": "4c3b3561-c8e2-4fb2-b3fd-dca8f4f486c2",
+    "closedScienceReviewerNotThisReviewer": "730abc76",
+    "authorOfCandidate": false,
+    "writesOnly": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/geography-en-easy-03/independent-content-current141-r30-v1",
+    "baseline": "840b16378ac260ff3bbd373baea26d376bd1a5b9",
+    "scope": "CONTENT DELTA ONLY; all28 + meaningful current141/R30 evidence/semantic impact",
+    "originalFactResearchRepeated": false,
+    "finalSourceFreezeReviewed": false,
+    "delegationServicesHeavyGatesBrowserCoverageQA": false,
+    "measuredPythonProcessVmHWMKiB": 38596,
+    "resourceAccountingDiagnostic": {
+      "initialNodeGetrusageReportedKiB": 2407988,
+      "emptyStandaloneNodeGetrusageReportedKiB": 2408364,
+      "emptyStandaloneNodeActualProcVmHWMKiB": 50520,
+      "interpretation": "Observed launch-chain high-water accounting artifact, not actual Node residency. The successful bounded verification's executable-specific /proc VmHWM is recorded in SAFE-VERIFICATION-RECEIPT.json."
+    }
+  },
+  "finalReleaseClearance": false,
+  "qaGrant": false
+}
