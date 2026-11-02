@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-medium-04",
+  "title": "Všeobecné znalosti · Střední · 04",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-medium-04-01",
+      "text": "Jak se japonsky nazývá výroba drobných vycpaných figurek háčkováním nebo pletením?",
+      "initial": "A",
+      "answer": "Amigurumi",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Amigurumi"]
+    },
+    {
+      "id": "general-cs-medium-04-02",
+      "text": "Jak se nazývá předvařená, usušená a podrcená pšenice používaná například do salátu tabbouleh?",
+      "initial": "B",
+      "answer": "Bulgur",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Bulgur"]
+    },
+    {
+      "id": "general-cs-medium-04-03",
+      "text": "Jak se nazývá průhledná tenká fólie z regenerované celulózy, tradičně používaná k balení?",
+      "initial": "C",
+      "answer": "Celofán",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cellophane"]
+    },
+    {
+      "id": "general-cs-medium-04-04",
+      "text": "Jak se nazývá ozdobná pokrývka pokládaná koni přes hřbet nebo pod sedlo?",
+      "initial": "Č",
+      "answer": "Čabraka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Šabraka", "Šabrak"],
+      "sources": ["https://en.wikipedia.org/wiki/Shabrack"]
+    },
+    {
+      "id": "general-cs-medium-04-05",
+      "text": "Jak se nazývá výtvarná technika, při níž se vystřižené obrázky lepí na předměty a překrývají lakem?",
+      "initial": "D",
+      "answer": "Decoupage",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Dekupáž", "Ubrousková technika"],
+      "sources": ["https://en.wikipedia.org/wiki/Decoupage"]
+    },
+    {
+      "id": "general-cs-medium-04-06",
+      "text": "Jak se nazývá turecké výtvarné umění, při němž se vzor barev plovoucích na kapalině přenáší na papír?",
+      "initial": "E",
+      "answer": "Ebru",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Mramorování papíru"],
+      "sources": ["https://en.wikipedia.org/wiki/Paper_marbling"]
+    },
+    {
+      "id": "general-cs-medium-04-07",
+      "text": "Jak se nazývá tepelná úprava jídla úplným ponořením do horkého tuku?",
+      "initial": "F",
+      "answer": "Fritování",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Hluboké smažení", "Smažení v hlubokém tuku"],
+      "sources": ["https://en.wikipedia.org/wiki/Deep_frying"]
+    },
+    {
+      "id": "general-cs-medium-04-08",
+      "text": "Jak se nazývá pevná hustá tkanina s výrazným šikmým žebrováním, používaná například na pláště?",
+      "initial": "G",
+      "answer": "Gabardén",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Gabardine", "Gabardin"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gabardine",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=gabard%C3%A9n&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-medium-04-09",
+      "text": "Jak se nazývají drobné slovenské noky, které se tradičně podávají například s brynzou a slaninou?",
+      "initial": "H",
+      "answer": "Halušky",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Brynzové halušky", "Bryndzové halušky"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Halu%C5%A1ky",
+        "https://cs.wikipedia.org/wiki/Bryndzov%C3%A9_halu%C5%A1ky"
+      ]
+    },
+    {
+      "id": "general-cs-medium-04-10",
+      "text": "Jak se nazývá typická česká otevřená obložená svačina na plátku veky?",
+      "initial": "Ch",
+      "answer": "Chlebíček",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Obložený chlebíček"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oblo%C5%BEen%C3%A9_chleb%C3%AD%C4%8Dky"
+      ]
+    },
+    {
+      "id": "general-cs-medium-04-11",
+      "text": "Jak se nazývá interpunkční znak, který v jednom symbolu spojuje otazník a vykřičník?",
+      "initial": "I",
+      "answer": "Interrobang",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Interabang"],
+      "sources": ["https://en.wikipedia.org/wiki/Interrobang"]
+    },
+    {
+      "id": "general-cs-medium-04-12",
+      "text": "Jak se nazývá čínský čaj s jemnou květinovou vůní, který se tradičně ovoní opakovaným prokládáním čerstvými bílými květy?",
+      "initial": "J",
+      "answer": "Jasmínový čaj",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jasmine_tea"]
+    },
+    {
+      "id": "general-cs-medium-04-13",
+      "text": "Jak se nazývá nádobka na inkoust, do níž se při psaní namáčí pero?",
+      "initial": "K",
+      "answer": "Kalamář",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Inkwell"]
+    },
+    {
+      "id": "general-cs-medium-04-14",
+      "text": "Jak se nazývá regenerované celulózové textilní vlákno vyráběné přímým rozpouštěním dřevní buničiny a následným zvlákňováním?",
+      "initial": "L",
+      "answer": "Lyocell",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Tencel"],
+      "sources": ["https://en.wikipedia.org/wiki/Lyocell"]
+    },
+    {
+      "id": "general-cs-medium-04-15",
+      "text": "Jak se nazývá hustý tmavý sirup vznikající jako vedlejší produkt při výrobě cukru?",
+      "initial": "M",
+      "answer": "Melasa",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Molasses"]
+    },
+    {
+      "id": "general-cs-medium-04-16",
+      "text": "Jak se nazývá drobná ochranná pomůcka nasazovaná na prst při ručním šití, která usnadňuje protlačení jehly?",
+      "initial": "N",
+      "answer": "Náprstek",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Thimble"]
+    },
+    {
+      "id": "general-cs-medium-04-17",
+      "text": "Jak se nazývá tradiční čínský čaj s částečnou oxidací, stojící způsobem zpracování mezi zeleným a černým čajem?",
+      "initial": "O",
+      "answer": "Oolong",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Wu-lung",
+        "Wulong",
+        "Polozelený čaj",
+        "Modrozelený čaj",
+        "Wu long",
+        "Wu lung",
+        "Wulung"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Oolong"]
+    },
+    {
+      "id": "general-cs-medium-04-18",
+      "text": "Jak se nazývá sešívání menších kusů látek do většího vzorovaného celku?",
+      "initial": "P",
+      "answer": "Patchwork",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Patchwork"]
+    },
+    {
+      "id": "general-cs-medium-04-19",
+      "text": "Jak se nazývá malá zapékací miska na jednotlivou porci, používaná například pro crème brûlée nebo suflé?",
+      "initial": "R",
+      "answer": "Ramekin",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ramequin", "Ramekinová miska"],
+      "sources": ["https://en.wikipedia.org/wiki/Ramekin"]
+    },
+    {
+      "id": "general-cs-medium-04-20",
+      "text": "Jak se nazývá sláma či píce nasekaná na krátké kousky pro krmení zvířat?",
+      "initial": "Ř",
+      "answer": "Řezanka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Slaměná řezanka"],
+      "sources": ["https://en.wikipedia.org/wiki/Chaff_cutter"]
+    },
+    {
+      "id": "general-cs-medium-04-21",
+      "text": "Jak se nazývá živočišný tuk získaný zejména z tukové tkáně prasete, používaný například ke smažení?",
+      "initial": "S",
+      "answer": "Sádlo",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Vepřové sádlo"],
+      "sources": ["https://en.wikipedia.org/wiki/Lard"]
+    },
+    {
+      "id": "general-cs-medium-04-22",
+      "text": "Jak se nazývá ruční nástroj s plochou čepelí používaný například k nanášení a uhlazování tmelu?",
+      "initial": "Š",
+      "answer": "Špachtle",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Stěrka", "Tmelicí nůž"],
+      "sources": ["https://en.wikipedia.org/wiki/Putty_knife"]
+    },
+    {
+      "id": "general-cs-medium-04-23",
+      "text": "Jak se nazývá škrob získávaný z kořenů manioku, používaný například do pudinků a nápojů s perlami?",
+      "initial": "T",
+      "answer": "Tapioka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Tapioca"],
+      "sources": ["https://en.wikipedia.org/wiki/Tapioca"]
+    },
+    {
+      "id": "general-cs-medium-04-24",
+      "text": "Jak se nazývají silné japonské nudle z pšeničné mouky, často podávané v horkém vývaru?",
+      "initial": "U",
+      "answer": "Udon",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Udon"]
+    },
+    {
+      "id": "general-cs-medium-04-25",
+      "text": "Jak se nazývá měkká pružná pletená textilie s hustým vlasem, podobná sametu a používaná na domácí či sportovní oděvy?",
+      "initial": "V",
+      "answer": "Velur",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Velours", "Velour"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Velour",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=velur&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-medium-04-26",
+      "text": "Jak se nazývá salát tradičně připravovaný z jablek, celeru, vlašských ořechů a majonézy, pojmenovaný podle newyorského hotelu?",
+      "initial": "W",
+      "answer": "Waldorfský salát",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Waldorf", "Waldorf salad"],
+      "sources": ["https://en.wikipedia.org/wiki/Waldorf_salad"]
+    },
+    {
+      "id": "general-cs-medium-04-27",
+      "text": "Jak se při šití nazývá sešitý klínovitý sklad, který tvaruje plochou látku podle křivek těla?",
+      "initial": "Z",
+      "answer": "Záševek",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Oděvní záševek"],
+      "sources": ["https://en.wikipedia.org/wiki/Dart_(sewing)"]
+    },
+    {
+      "id": "general-cs-medium-04-28",
+      "text": "Jak se nazývá efektní příze s jemným hustým vlasem, jejíž francouzské jméno znamená housenka?",
+      "initial": "Ž",
+      "answer": "Žinylka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Chenille", "Ženylka", "Žinilka", "Ženilka", "Šenilka"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chenille_fabric",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=%C5%BEinylka&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    }
+  ]
+}

@@ -22,6 +22,11 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  */
 
 /**
+ * @typedef {{id: string, entries: string[], verdict: string,
+ * distribution: Record<string, number>}} LocalizedGeneralRating
+ */
+
+/**
  * @typedef {{
  * entriesReviewed: number, independentDominantGeneralAdultRating: string
  * } | {id: string, entriesRead: number, proposedDifficulty: string,
@@ -31,7 +36,7 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * individualDistribution: Record<string, number>
  * } | {id: string, decision: string, commonEasyIndices: number[],
  * informedMediumIndices: number[], specialistHardIndices: number[]} |
- * GeneralBatchRating | GeographyDeckRating} AcceptedRating
+ * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating} AcceptedRating
  */
 
 /** @param {Record<string, number>} levels */
@@ -103,6 +108,34 @@ function expectGeographyRating(rating, deckId, difficulty) {
 }
 
 /**
+ * @param {LocalizedGeneralRating} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectLocalizedGeneralRating(rating, deckId, difficulty) {
+  expect(deckId).toBe('general-cs-medium-04');
+  expect(difficulty).toBe('medium');
+  expect(rating.id).toBe(deckId);
+  expect(digest(JSON.stringify(rating))).toBe(
+    '6500328345784b0229145385855ad0f7f39fbb9a3f41e4a6990a34e9dec7efd5',
+  );
+  expect(rating.entries).toEqual(
+    Array.from(
+      { length: 28 },
+      (_, index) => `${deckId}-${String(index + 1).padStart(2, '0')}`,
+    ),
+  );
+  expect(rating.distribution).toEqual({
+    informed: 19,
+    'specialist-but-fair': 3,
+    common: 6,
+  });
+  expect(rating.verdict).toBe(
+    'ACCEPTED whole-deck adult difficulty; localized aliases remain separate findings',
+  );
+}
+
+/**
  * @param {AcceptedRating} rating
  * @param {string} deckId
  * @param {string} difficulty
@@ -124,6 +157,8 @@ function expectAcceptedRating(rating, deckId, difficulty) {
     expectGeneralBatchRating(rating, deckId, difficulty);
   } else if ('assignedLevel' in rating) {
     expectGeographyRating(rating, deckId, difficulty);
+  } else if ('distribution' in rating) {
+    expectLocalizedGeneralRating(rating, deckId, difficulty);
   } else {
     expect(rating.id).toBe(deckId);
     expect(rating.decision).toBe(

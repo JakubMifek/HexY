@@ -13,6 +13,7 @@ import scienceEnMedium3 from './science-en-medium-03.json';
 import geographyEnEasy3 from './geography-en-easy-03.json';
 import generalEnMedium5 from './general-en-medium-05.json';
 import geographyEnMedium4 from './geography-en-medium-04.json';
+import generalCsMedium4 from './general-cs-medium-04.json';
 
 const bundledSources = [
   ...phaseElevenSources,
@@ -28,6 +29,7 @@ const bundledSources = [
   geographyEnEasy3,
   generalEnMedium5,
   geographyEnMedium4,
+  generalCsMedium4,
 ];
 
 export function bundledPacks() {

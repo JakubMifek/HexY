@@ -36,7 +36,34 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current Geography Medium04 incremental snapshot:** actual private/remote
+**Current General Czech Medium04 incremental snapshot:** actual private/remote
+baseline `3f3700c3`,144 decks/4,032 questions. Only GeneralCzechMedium04 is
+added here, giving145/4,060 with all144 earlier pack bytes/order unchanged.
+Its28 complete raw questions/FULL raw/enriched/prior support arrays/66 forms/
+actual original receipts and whole Medium6common/19informed/3specialist-but-fair
+judgment remain bound. The original `{id,entries,distribution,verdict,bridges,
+rationale}` rating survives exactly; no English batch schema or fields invented.
+[Independent content/correction/current-delta acceptance](reviews/phase-12-general-cs-medium-04-content.md)
+inherits27 unchanged questions and closes GCM04-IR1 by adding only three
+legitimate Oolong17 forms. The actual original finding, four previous corrections,
+precise same-fact bilingual decisions and ComputingMedium03 own-impact are
+preserved. The accepted projection retains all28 original rich rows inline
+and every52 original root field by exact immutable whole-file/value/pointer
+bindings. That external evidence dependency is explicit.
+Repository formatting changes wholepack bytes, not any raw question/evidence/
+alias/rating object. Accepted Native successor R38 changes only own Q17's
+three aliases, retains the complete prior record and all75 other records exact.
+Original byte-binding and lint failures remain preserved, not skipped.
+All64 runtime modules remain in coverage. Final frozen independent integration
+release review must precede one applicable full quality/coverage/native gate
+and deliberate active/expired entire old-data/private upgrade.
+Historical audit/source-quality/execution limits remain disclosed.
+Four isolated author lanes continue; final330/9,240/all66 NOT CLEARED.
+
+**Historical Geography Medium04 incremental snapshot:** subsequently delivered
+`3f3700c3` after independent release,1,254 units/50files/all64runtime/native58
+and deliberate active/expired entire old-data/deadline/full-served-deck checks.
+The following preserves its pre-delivery snapshot. Actual private/remote
 baseline `cee19767`,143 decks/4,004 questions. Only GeographyEnglishMedium04
 is added here, giving144/4,032 with all143 earlier pack bytes/order unchanged.
 Its28 whole questions/FULL support arrays/104 forms/27 original acceptances

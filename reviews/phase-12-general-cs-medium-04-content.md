@@ -1,0 +1,248 @@
+# General Czech Medium04 — independent coherent correction/current-delta review
+
+**CONTENT DELTA ACCEPTED. GCM04-IR1 CLOSED. Unresolved findings:0.**
+
+All28 current questions are accepted at content level:27 inherit unchanged
+judgments; Oolong17 receives the actual three-alias correction closure below.
+The lossless proposed projection is accepted at content level. This is **not**
+General integration, release, publication, category or Phase12 clearance.
+
+## Independence and actual cutoff
+
+I authored neither the deck, its correction nor the proposed projection. The
+runtime reviewer task ID is not exposed; the coordinator must bind its actual
+external task ID. No older reviewer UUID is substituted as self-identity.
+
+The original accepted/blocked content snapshot remains immutable: General seal
+`9b3296a90b07345c8079e8532458576529d6cdf8da7ebd327335683ff2ca99d1`,
+report `06c5ed2bbfcad4e1121b7ea40e175defe3cea8b3cdae32a50743202b71e4f2ad`.
+Its actual full accepted-continuity,58 current pairs,8 internal proposals,
+original/corrected findings, R36/ComputingEasy/Games/GeneralEasy5 decisions and
+disclosed limitations are inherited through entire byte/value bindings.
+They were not rewritten as initial passes or rerun as new fact reviews.
+
+The original actual GeneralENM05 delivery is bound at `cee19767`,143/4,004.
+During this review I actually read the newer Geography delivery receipt,
+SHA `cabfff095236a471136176d5f4059c6a4c4b652ca94297788b97f171779b4294`:
+commit/remote/served agree at
+`3f3700c36e2767a4c33c0c727a441deb36e8f39c`,144/4,032.
+Its exact accepted Geography raw `a62223…` and public ledger `1b4fdc90…` are
+unchanged. This is an observed lifecycle/count promotion of already accepted
+content, not a new factual/alias/Medium review or my private-endpoint execution.
+`CLOSURE-INPUT-SUMMARY.json` records the actual observation and both receipts.
+
+R36's immutable Native payload remains separately bound at
+`35c870e691db7f24dba4cf5a7a34c667020c1332512a16da86dcd34ba97bf5ba`.
+**Actual current scope is144/R37**, not a pretend unchanged R36 pointer.
+Actual immutable R37 is
+`31a8fb236fec4a9553b65de428810df6ca12cdd6dd95bc2d7ee9bf7176d127cf`,
+with captured queue snapshot
+`f238ff597e59821ba97b638ce571890f4575f50c509055baf13bfc433ffe0071`.
+Mechanical full-record comparison proves all76 Native selections/2,128 entire
+questions/aliases/raw/full-source bindings unchanged: only Geography's
+`sourceLifecycle`, `deliveryCommit` and `actualServedRevision` differ.
+`R37-ROLE-ONLY-CONTINUITY.json` records those actual differences. This is
+whole-record continuity, not a repeated global fact audit. The authorised output
+directory's143-r36 label is historical. The coordinator's471 frozen QA inputs
+plus four later receipt-only document changes are not conflated with an
+unchanged475-file commit-wide artifact identity.
+The original reservation is not silently replaced by the corrected proposal.
+No future mutable queue, STATUS, author-role or usage object is an input.
+
+## Actual corrected objects and finding closure
+
+| Input                                              | SHA256                                                             |
+| -------------------------------------------------- | ------------------------------------------------------------------ |
+| Original Native pack                               | `f836beba31e62941d5be22fe102fd9778fec87d27852e4b413ca02f9bf81550a` |
+| Original entire raw source                         | `3c135c822e4e81dbb0446387124ffb3c3876f7f87600c359b664c4f8667c09fa` |
+| Actual corrected pack                              | `c47b6407cbf6272f165ec59e672bcac12de9f4c30ccea4f9f8689049f22ec389` |
+| Actual corrected entire raw source                 | `87a69defae1da11869447379c967740f994ede96e093717959d5c9bba4848f12` |
+| Unchanged entire enriched original,8,026,259 bytes | `d62f6d7d8ceec243d685028e8b9b4f91c718daf753f8614ebac64e4c4df46fea` |
+| Actual correction author seal                      | `0362f0f1909032dd37ff56660d0800619ec0dd907b308b4ff8c8393763c8c0bd` |
+
+Exactly three aliases are appended at question17 and its matching source entry:
+**Wu long, Wu lung, Wulung**. All other27 whole questions and every other source
+field remain exact. All32 own raw and32 enriched support objects, prior enriched
+arrays and actual original/accepted receipts remain intact.
+
+The full current clue still asks for the traditional Chinese partially oxidized
+tea between green and black processing. The unchanged complete Wikipedia
+evidence explicitly supports that fact; the clue, canonical **Oolong**, valid
+initial **O**, natural Czech and source quality are unchanged.
+
+Every current accepted form is:
+**Oolong; Wu-lung; Wulong; Polozelený čaj; Modrozelený čaj; Wu long; Wu lung;
+Wulung.** The original actual accepted English receipt explicitly supplies
+`Wu long`. The original directly retrieved Taiwanese merchant naming explanation
+explicitly supplies `wu long tea`, `wu lung tea`, and `wulung`; its entire
+118,728-byte response remains byte-bound at `2a9b0c59…`. This is actual
+first-party commercial spelling usage, **not** an institutional dictionary,
+transliteration standard or new tea-process authority. Its exact source-quality
+limits and failed dictionary403 requests remain preserved.
+The retained naming source is
+<https://www.teafromtaiwan.com/blog/29_oolong-tea-or-wulong-tea.html>.
+
+| Changed object          | Original SHA256                                                    | Actual corrected SHA256                                            |
+| ----------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| Entire Q17              | `c7bd0ba4ce279b41bcdc5ba23f5669060c4c28660833bc590a634e8ef1bf65ac` | `7d05fedfc2f0eee301ac23afa65b7d12b06611d686cd8881fa727e1b7a6f85cf` |
+| Entire Q17 source entry | `6d891e3c633a681a466c8e9c0e75a9ceae4d30874e62a986714b9c96442a05af` | `e189cf2b8be8d5238b386c35b5792cc08e2310ffbb9b40bd3afb599734226be0` |
+
+Full raw evidence remains
+`12132921e11ba79c821d56bd5966f5aedc186b8985291c4bdd57c3d7525a13f4`;
+full enriched evidence remains
+`8412cf3dde8a70d56f53d9985ed678afd814f58b5ba3ba6019f8e674797076e6`.
+
+The production matcher reproduces all three old false negatives, then accepts
+all three in the **actual authored corrected file**, not merely an in-memory
+hypothesis. All63 old forms and66 current forms pass; all28 slots/canonical
+initials pass. Other tea classes, generic `Čaj`, and coffee remain rejected.
+No Native, source or candidate is mutated by the check.
+
+| Finding   | Original severity/location                         | Current outcome                                                                                         |
+| --------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| GCM04-IR1 | Minor, content-blocking; `general-cs-medium-04-17` | **CLOSED:** exact finite remedy present, sources/all forms independently rebound, actual matcher passes |
+
+The entire original finding and prior blocked verdict remain in the new
+continuity/finding records. The four earlier corrections and their original
+findings/closures are retained, not relabeled initial acceptances.
+
+## Whole Medium and actual affected pair
+
+The original whole-adult Medium object remains exactly
+`6500328345784b0229145385855ad0f7f39fbb9a3f41e4a6990a34e9dec7efd5`:
+**6 common /19 informed /3 specialist-but-fair**.
+Its real schema is `{id, entries, distribution, verdict, bridges, rationale}`;
+`entries` is the ordered28-ID array. Both original and accepted calibration
+objects match. No English batch-rating schema, invented field or rerating is
+introduced. Spelling completeness changes neither the asked knowledge nor its
+actual whole-deck level.
+
+The affected EnglishM05-16 pair is directly rebound against complete raw
+`a56760aa…`, entire Native source
+`609c89cf2d2ce6371ea0ef28d534ee4999ddaf24dde9dfe0ab5ae3df53e4b4c5`,
+the actual original `/43` and accepted `/entries/71` receipts, every English
+form and actual delivery receipt. Both complete predicates ask for the **same**
+partial-oxidation tea. I accept this specific bilingual adaptation with the
+current expanded Czech forms; it is not a distinct-fact claim or language/level
+waiver. The old exact reverse-pair decision is not misrepresented as prior
+acceptance of the three changed aliases.
+
+The other four specific same-fact judgments—Amigurumi, Decoupage, Interrobang
+and Ramekin—and all unchanged distinct-predicate decisions remain accepted.
+No new whole-English-deck or English alias-completeness clearance is granted.
+
+## Proposed projection: accepted losslessness, not release compatibility
+
+Actual proposed ledger:
+`066b00b9b8f9c2fd4d66a14ec039faf4d618241e91843d833a0bce7d83ed6880`.
+
+- Every52 original root field is inventoried in exact original order. Each
+  whole-value hash, whole-file hash/size and actual pointer was independently
+  dereferenced against the exact8MB `d62f6d…` original.
+- Every one of28 original rich rows is retained **entirely**, equal both to
+  that original ledger and actual independently accepted continuity. No raw,
+  enriched, prior evidence array or receipt is reduced to a URL/canonical string.
+- Generic current28 entries equal the actual corrected Native source entries.
+  Every current whole-question/full-evidence hash was recomputed. Q17 alone
+  receives the new question hash; its full evidence hash stays unchanged.
+- Current raw pack/source bindings,66 forms,27+1 metadata, complete alias-change
+  bindings/continuity, proposed source header and exact original rating match.
+
+Original root values are retained through an explicit external immutable8MB
+dependency, not all duplicated inline. That bound dependency remains required
+for lossless dereferencing; no standalone/public-portability claim is made.
+Historical author/header metadata is not reattested as execution proof.
+The proposal's pending/status flags are not edited: this independent acceptance
+is a separate content-level record. Future integration must preserve the bound
+evidence and recognise the **actual Czech rating schema**; no existing generic
+unit/build/native compatibility is asserted here.
+
+## Actual Computing Medium03 proposal: independent own-General impact
+
+The immutable eight-file cutoff binds actual raw `2587896e…`, entire source
+`71e5bb09…`, lineage/prior continuity/whole Medium/retrieval dispositions/handoff,
+and seal `57232cf8…`. All28 predicates,89 forms and complete original/
+supplementary source contexts are retained. Exactly19 whole questions remain
+Native-identical;9 change. Only CPU03 and Chromebook04 prompts change.
+Seventeen new forms retain all72 old forms. There are also **six real appended
+question-source URLs across five questions**, corresponding to six supplementary
+objects; Safe mode20 is source-URL-only. This is not an aliases-only successor.
+
+The own28 independent current decisions are recorded in
+`CURRENT-COMPUTING-MEDIUM03-IMPACT.json`. Meaningful direct comparisons include:
+
+- Query/Query component/Search string is URL parameter data introduced by `?`,
+  not Interrobang/Interabang's combined question/exclamation glyph.
+- Jack/Mini-phone/Mini-stereo name the3.5mm headphone connector, not Náprstek's
+  finger protector or Špachtle's putty-spreading blade.
+- OCR/Text recognition extracts writing; it is neither Decoupage's glued/
+  varnished cut-outs nor Ebru's floating-colour transfer.
+- Mail merge combines recipient data/documents, not Patchwork's sewn fabric.
+- Zip of death/ZOD is a malicious expanding archive, not Záševek or a zipper.
+- CPU/Chromebook, Opt-out and all remaining actual computing predicates do not
+  identify Oolong or another own craft, food, material, tool or process.
+
+These are complete-predicate/source-context decisions, not a category, language,
+prefix or zero-token exemption. No own accepted fact, alias, Medium or actual
+pair decision changes. Actual prior Native whole-Medium7/18/3 is acknowledged;
+the original author's5/20/3, prior missing-rating assertion, Jack body-binding
+failure and failed FTC requests remain disclosed. Initial Computing facts/
+aliases/source/semantics and affected successor Medium rebinding remain pending.
+Native `a037…`/`e013…` is unchanged. No Computing approval is conferred.
+
+Other unchanged Native R36→R37, ComputingEasy two-entry/five-alias, latest Games and
+GeneralEasy5 own-General decisions remain bound through the original review,
+including the real superseded Underarm and Teapot failures.
+
+## Six lenses, checks and stop
+
+1. **Correctness/completeness:** actual27+1 correction, all evidence/forms,
+   original Medium, affected pair and meaningful current proposal impacts pass.
+   This clears the coherent content batch, not final330/9,240/all66 quotas.
+2. **Usability/accessibility:** natural Czech and old63 forms survive; all three
+   legitimate rejected names now work, with28 proper board initials. No browser,
+   layout, focus, touch, printing, recovery or physical-device result is claimed.
+3. **Readability/maintainability:** full rich originals and precise current
+   bindings remain traceable; no source or runtime code is changed.
+4. **OOP/responsibilities:** no class, resource lifetime or persistence-owner
+   change; runtime lifecycle review is inapplicable to this content correction.
+5. **Patterns/proportionality:** finite aliases, concrete lossless projection
+   and small boundary checks; no new runtime dependency or abstraction.
+6. **Content/rights/delivery:** actual accepted wording/provenance and source
+   quality remain explicit. No legal/name, new private-delivery, category or
+   phase clearance follows from content acceptance.
+
+Actual commands, from repository root:
+
+`PYTHONDONTWRITEBYTECODE=1 python3 .artifacts/continuation/parallel-decks/general-cs-medium-04/independent-correction-current143-r36-v1/review.py`
+
+`node --max-old-space-size=256 .artifacts/continuation/parallel-decks/general-cs-medium-04/independent-correction-current143-r36-v1/matcher-check.mjs`
+
+The complete actual binding-check list and matcher results are sealed.
+**PASS:577 newly executed bounded assertions;244 actual external guards;66
+current forms including all63 old forms;28 slots; three reproduced old false
+negatives now accepted; seven specific nonanswers rejected.**
+All actually read external inputs are rechecked at close. Original historical
+generator/archive/extraction gaps do not undermine this exact unchanged fact/
+evidence/rating and source-supported three-name correction; no missing old
+execution is invented.
+
+Preserved execution failures/violations: the author's first build expected two
+alias replacement sites but encountered one (`1 !== 2`); its failure remains.
+The author acknowledged `git status` despite its no-Git instruction: that was
+an assignment violation, not retroactively authorised. Its historical mutation/
+execution claims are not independently reattested. This reviewer used no Git.
+A first reviewer helper attempted JSON parsing of a hash-bound Markdown report;
+type-aware receipt decoding fixed that helper error, with no changed input.
+None of these failures is relabeled successful QA or concealed by pass counts.
+
+**STOP:** original two-deck content batch complete. Only this General correction
+outcome is issued here. The coordinator must separately integrate/freeze against
+actual latest delivery and obtain final General release review and applicable
+same-snapshot gates. No heavy command, Vite/build/install/global inventory,
+Native/reservation/adoption/source/docs/test/Git/service/publication change or
+next-deck work occurred. All explicit writes stay in this new review directory.
+
+## Coordinator external reviewer identity and formatting binding
+
+The caller records this independent content/correction review task as `647f249c-8649-474e-a079-1b1d6083992a`. Its unavailable self-reported runtime identity is not invented. The original report/seal remain byte-exact in the separately retained files. This is not final integration or release clearance. Repository formatting changes accepted author pack `c47b6407` to `606c302c` bytes only; the entire parsed pack, every whole question, aliases, full supporting evidence and whole rating remain exact. R38 preserves the original Native record and every75 other selected record; the materialization and formatting successor still require frozen final integration/release review. Original failed byte-binding and lint checks remain in coordinator logs; no content or source failure is concealed.

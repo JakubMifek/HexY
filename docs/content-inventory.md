@@ -1,6 +1,39 @@
 # Content inventory and provenance
 
-## Current Geography Medium04 one-deck snapshot
+## Current General Czech Medium04 one-deck snapshot
+
+This isolated snapshot contains **145 decks / 4,060 entries**, adding only
+`general-cs-medium-04` (Czech, Medium,28 entries) to actual private
+`3f3700c3` (144/4,032). All144 earlier pack bytes/order remain unchanged.
+General has15 decks/420 entries; Geography16/448, Science15/420 and
+Nature15/420; Czech67/English78.
+The [manifest](phase-12-deck-inventory.json) retains final330/9,240/all66 quotas.
+The [source ledger](phase-12-general-cs-medium-04-sources.json) preserves
+every own complete question/raw/enriched/prior evidence array/actual receipt
+and exact original whole Medium6common/19informed/3specialist-but-fair object.
+[Independent content/correction/current-delta acceptance](../reviews/phase-12-general-cs-medium-04-content.md)
+inherits27 unchanged questions and closes GCM04-IR1 with only three legitimate
+Oolong17 aliases; all66 forms pass the real matcher.
+The accepted whole-predicate bilingual decisions remain specific to their
+actual pairs, not language/level/category waivers. Actual ComputingMedium03
+proposal impacts are accepted only for this own-General decision.
+All28 original rich rows remain inline. Every52 original root field has an
+exact whole-file/value/pointer binding to the immutable original8MB ledger;
+this is an explicit external evidence dependency, not a standalone archive.
+Repository JSON formatting alters whole-file bytes only; all question/evidence/
+alias/rating objects are unchanged from the accepted correction. R38 preserves
+the original Native record and all75 other selected records unchanged.
+Original findings, source authority limits, actual author execution disclosure
+and genuine failed checks remain recorded. All64 runtime modules stay included.
+Final independent integration release clearance and applicable full
+quality/native/active-and-expired private gates remain required.
+Other drafts, categories and Phase12 remain NOT CLEARED.
+
+## Historical Geography Medium04 one-deck snapshot
+
+Actual `3f3700c3` subsequently shipped only that deck after independent release,
+1,254 units/50files/all64runtime/58native and deliberate active/expired
+whole-old-data/deadline/full-served-deck verification.
 
 This isolated snapshot contains **144 decks / 4,032 entries**, adding only
 `geography-en-medium-04` (English, Medium,28 entries) to actual private delivery

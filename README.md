@@ -1,5 +1,36 @@
 # HexY
 
+**Phase 12 incremental snapshot: 145 decks / 4,060 questions.** Only
+`general-cs-medium-04` is added to actual private revision `3f3700c3`
+(144/4,032), preserving all144 earlier pack bytes/order.
+General now has15 decks/420 questions; English78/Czech67.
+Its [source ledger](docs/phase-12-general-cs-medium-04-sources.json) retains
+all28 complete questions, full raw/enriched/prior evidence arrays, actual
+accepted receipts and the unchanged whole-adult Medium judgment:
+6 common /19 informed /3 specialist-but-fair.
+[Independent content/correction/current-delta acceptance](reviews/phase-12-general-cs-medium-04-content.md)
+inherits27 unchanged judgments and closes GCM04-IR1 by adding only
+Wu long/Wu lung/Wulung to Oolong17; all66 current forms pass the real matcher.
+Original findings and precise bilingual Amigurumi/Decoupage/Interrobang/
+Oolong/Ramekin decisions remain preserved, not blanket duplicate exemptions.
+The lossless projection retains every52 original root field through explicit
+whole-file/value/pointer bindings and every own rich row in full; those
+external immutable evidence dependencies remain required for dereferencing.
+JSON formatting changes pack bytes, not any question or evidence object.
+The original raw and accepted successor bindings remain separately recorded.
+Historical source-quality/audit/execution limits and original failed checks
+are disclosed. All64 runtime modules remain in coverage.
+Final independent integration release clearance must precede applicable full
+quality/native and deliberate active/expired private recovery gates.
+No category or Phase12 clearance: final330/9,240/all66 quotas remain unchanged.
+
+## Historical Geography Medium04 adoption checkpoint
+
+Actual `3f3700c3` subsequently shipped only that deck after independent release,
+1,254 units/50 files, all64 runtime modules,58 native cases and deliberate
+active/expired entire old-data/deadline/full-served-deck verification.
+The following preserves its pre-delivery snapshot.
+
 **Phase 12 incremental snapshot: 144 decks / 4,032 questions.** Only
 `geography-en-medium-04` is added to actual private revision `cee19767`
 (143 decks / 4,004 questions), preserving all143 preceding pack bytes/order.
