@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "deckId": "geography-cs-easy-03",
+  "reviewScope": "Final same-batch narrow actual151-parent DECK RELEASE/integration addendum",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "reportSha256": "6b228da59006adf0034ff6c37060e1fea5b0eee38c2f433b242ac2d1bcfa29e8",
+  "exactSourceQAFrozenInputSha256": "a39e2d5061862386d37b4d48ec1c405f3baabddafcf8ff5a5e13d7b547d258be",
+  "exactSourceQAFrozenInput": ".artifacts/continuation/parallel-decks/geography-cs-easy-03/integration/batch149-v1/FROZEN-RELEASE-INPUT-v2.json",
+  "actualDeliveredParent": "13129ba6619da48e9514415dc282dc11d166e54f",
+  "actualDeliveryReceiptSha256": "d2c9c284380388f6252ec09c12981069b1a80b6e4f59de2d2aaa82c9edc152cc",
+  "inheritedBatchSealSha256": "a9c937ab281a4e0ac8223d0135941ef78d5a41636aaf8d6530a1b33a7ca58f02",
+  "inherited151AddendumSealSha256": "1b4ca3939b273b995004b0a0563dc64ead8158dfcdfcdc56460ecf76913dc620",
+  "sourceFiles": 541,
+  "originalSourceFilesUnchanged": 533,
+  "inheritedReceiptOnlyFiles": 8,
+  "candidateDecks": 152,
+  "candidateQuestions": 4256,
+  "english": 82,
+  "czech": 70,
+  "fullSame541SourceQualityCoverageNative66AndFreshPrivateBeforeAfterStillRequired": true,
+  "publicationPerformed": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "members": {
+    "DELTA-AND-INHERITANCE-PROOF.json": {
+      "sha256": "7b63522d8e6c26c8885214ad9e8600a418b05251fb372f3953729b94b5bfcb83",
+      "bytes": 7129
+    },
+    "REPORT.md": {
+      "sha256": "6b228da59006adf0034ff6c37060e1fea5b0eee38c2f433b242ac2d1bcfa29e8",
+      "bytes": 9953
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "56c659f963fbc006db13e8419cdc355b18c262519bc347534f510f102cc38d91",
+      "bytes": 171262
+    },
+    "verify-and-seal.py": {
+      "sha256": "1025cc6eff41def5437830272ec5e891a8f6fb405fc8c872a3e8893d53d5f6ee",
+      "bytes": 18714
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "geography-cs-easy-03",
+  "title": "Zeměpis a cestování · Lehká 03",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "initial": "A",
+      "text": "Který jihoamerický stát má hlavní město Buenos Aires?",
+      "answer": "Argentina",
+      "aliases": ["Argentinská republika", "Argentine Republic"],
+      "id": "geography-cs-easy-03-01",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Argentina"]
+    },
+    {
+      "initial": "B",
+      "text": "Ve kterém belgickém hlavním městě stojí Atomium?",
+      "answer": "Brusel",
+      "aliases": ["Brussels", "Bruxelles", "Brussel", "City of Brussels"],
+      "id": "geography-cs-easy-03-02",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Brusel",
+        "https://en.wikipedia.org/wiki/Brussels"
+      ]
+    },
+    {
+      "initial": "C",
+      "text": "Jak se nazývá budova, v níž se při převozu zboží přes hranice vybírá clo a sídlí celní správa?",
+      "answer": "Celnice",
+      "aliases": ["celní úřad"],
+      "id": "geography-cs-easy-03-03",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Celnice"]
+    },
+    {
+      "initial": "Č",
+      "text": "Jak se nazývá západní historická země Česka, v níž leží Praha a Plzeň?",
+      "answer": "Čechy",
+      "aliases": ["Bohemia", "Böhmen", "Czechy"],
+      "id": "geography-cs-easy-03-04",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cechy"]
+    },
+    {
+      "initial": "D",
+      "text": "Ve kterém městě Spojených arabských emirátů stojí mrakodrap Burdž Chalífa?",
+      "answer": "Dubaj",
+      "aliases": [
+        "Dubai",
+        "Dubayy",
+        "City of Gold",
+        "the City of Gold",
+        "Dubai City",
+        "město zlata"
+      ],
+      "id": "geography-cs-easy-03-05",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Dubaj",
+        "https://en.wikipedia.org/wiki/Dubai"
+      ]
+    },
+    {
+      "initial": "E",
+      "text": "Která řeka protéká Tureckem, Sýrií a Irákem a na dolním toku se spojuje s Tigridem?",
+      "answer": "Eufrat",
+      "aliases": ["Euphrates", "Fırat", "Firat"],
+      "id": "geography-cs-easy-03-06",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Eufrat"]
+    },
+    {
+      "initial": "F",
+      "text": "Který ostrovní stát v jihovýchodní Asii má hlavní město Manila?",
+      "answer": "Filipíny",
+      "aliases": [
+        "Filipínská republika",
+        "Philippines",
+        "Republic of the Philippines"
+      ],
+      "id": "geography-cs-easy-03-07",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Filip%C3%ADny"]
+    },
+    {
+      "initial": "G",
+      "text": "Který západoafrický stát u Guinejského zálivu má hlavní město Akkra?",
+      "answer": "Ghana",
+      "aliases": [
+        "Ghanská republika",
+        "Republic of Ghana",
+        "Zlaté pobřeží",
+        "Gold Coast"
+      ],
+      "id": "geography-cs-easy-03-08",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Ghana"]
+    },
+    {
+      "initial": "H",
+      "text": "Který stát USA v Tichém oceánu má hlavní město Honolulu?",
+      "answer": "Havaj",
+      "aliases": [
+        "Hawaii",
+        "Hawaiʻi",
+        "State of Hawaii",
+        "Mokuʻāina o Hawaiʻi"
+      ],
+      "id": "geography-cs-easy-03-09",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Havaj"]
+    },
+    {
+      "initial": "Ch",
+      "text": "Ve kterém západočeském městě na Ohři stojí skupina historických domů zvaná Špalíček?",
+      "answer": "Cheb",
+      "aliases": ["Eger", "Egha", "Heb"],
+      "id": "geography-cs-easy-03-10",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Cheb"]
+    },
+    {
+      "initial": "I",
+      "text": "Ke kterému ostrovnímu státu jihovýchodní Asie patří Jáva a Bali?",
+      "answer": "Indonésie",
+      "aliases": ["Indonéská republika", "Indonesia", "Republic of Indonesia"],
+      "id": "geography-cs-easy-03-11",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Indon%C3%A9sie"]
+    },
+    {
+      "initial": "J",
+      "text": "Jak se obecně nazývá přírodní vodní nádrž na souši, jakou jsou například Bajkal či Balaton?",
+      "answer": "Jezero",
+      "aliases": ["lake"],
+      "id": "geography-cs-easy-03-12",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Jezero"]
+    },
+    {
+      "initial": "K",
+      "text": "Který rozlohou největší karibský stát leží jižně od Floridy?",
+      "answer": "Kuba",
+      "aliases": ["Kubánská republika", "Cuba", "Republic of Cuba"],
+      "id": "geography-cs-easy-03-13",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Kuba",
+        "https://en.wikipedia.org/wiki/Cuba"
+      ]
+    },
+    {
+      "initial": "L",
+      "text": "Které anglické přístavní město leží na východní straně estuáru řeky Mersey?",
+      "answer": "Liverpool",
+      "aliases": [],
+      "id": "geography-cs-easy-03-14",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Liverpool",
+        "https://en.wikipedia.org/wiki/Liverpool"
+      ]
+    },
+    {
+      "initial": "M",
+      "text": "Ve které středoevropské zemi leží jezero Balaton?",
+      "answer": "Maďarsko",
+      "aliases": ["Maďarská republika", "Hungary", "Magyarország"],
+      "id": "geography-cs-easy-03-15",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ma%C4%8Farsko",
+        "https://en.wikipedia.org/wiki/Hungary"
+      ]
+    },
+    {
+      "initial": "N",
+      "text": "Ve které skandinávské zemi leží Bergen a pobřeží člení četné fjordy?",
+      "answer": "Norsko",
+      "aliases": [
+        "Norské království",
+        "Norway",
+        "Norge",
+        "Noreg",
+        "Kingdom of Norway"
+      ],
+      "id": "geography-cs-easy-03-16",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Norsko",
+        "https://en.wikipedia.org/wiki/Norway"
+      ]
+    },
+    {
+      "initial": "O",
+      "text": "Které město na pomezí Moravy a Slezska proslulo těžbou uhlí a průmyslovým areálem Dolní Vítkovice?",
+      "answer": "Ostrava",
+      "aliases": ["Ostrawa", "Ostrau"],
+      "id": "geography-cs-easy-03-17",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Ostrava"]
+    },
+    {
+      "initial": "P",
+      "text": "Ve kterém středoevropském státě leží Krakov a Gdaňsk?",
+      "answer": "Polsko",
+      "aliases": [
+        "Polská republika",
+        "Poland",
+        "Polska",
+        "Rzeczpospolita Polska",
+        "Republic of Poland"
+      ],
+      "id": "geography-cs-easy-03-18",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Polsko",
+        "https://en.wikipedia.org/wiki/Poland"
+      ]
+    },
+    {
+      "initial": "R",
+      "text": "Ve které evropské zemi leží Sedmihradsko neboli Transylvánie?",
+      "answer": "Rumunsko",
+      "aliases": ["Romania"],
+      "id": "geography-cs-easy-03-19",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Rumunsko",
+        "https://en.wikipedia.org/wiki/Romania"
+      ]
+    },
+    {
+      "initial": "Ř",
+      "text": "Jaký doklad prokazuje oprávnění řídit motorová vozidla příslušné skupiny?",
+      "answer": "Řidičský průkaz",
+      "aliases": [
+        "řidičák",
+        "driving licence",
+        "driving license",
+        "driver's license",
+        "driver's licence"
+      ],
+      "id": "geography-cs-easy-03-20",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98idi%C4%8Dsk%C3%BD_pr%C5%AFkaz"
+      ]
+    },
+    {
+      "initial": "S",
+      "text": "Jak se nazývá geologický útvar, kterým na povrch proniká magma a sopečné plyny?",
+      "answer": "Sopka",
+      "aliases": ["vulkán"],
+      "id": "geography-cs-easy-03-21",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Sopka"]
+    },
+    {
+      "initial": "Š",
+      "text": "Které pohoří na hranicích Česka, Německa a Rakouska zahrnuje horu Boubín?",
+      "answer": "Šumava",
+      "aliases": ["Bohemian Forest", "Böhmerwald"],
+      "id": "geography-cs-easy-03-22",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0umava"]
+    },
+    {
+      "initial": "T",
+      "text": "Ke kterému státu jihovýchodní Asie patří rekreační ostrov Phuket?",
+      "answer": "Thajsko",
+      "aliases": [
+        "Thajské království",
+        "Thailand",
+        "Kingdom of Thailand",
+        "Siam"
+      ],
+      "id": "geography-cs-easy-03-23",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Thajsko",
+        "https://en.wikipedia.org/wiki/Thailand"
+      ]
+    },
+    {
+      "initial": "U",
+      "text": "Který východoafrický stát u Viktoriina jezera má hlavní město Kampala?",
+      "answer": "Uganda",
+      "aliases": ["Ugandská republika", "Republic of Uganda"],
+      "id": "geography-cs-easy-03-24",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Uganda"]
+    },
+    {
+      "initial": "V",
+      "text": "Jak se nazývá místo v říčním korytě, kde voda přepadá přes prudký nebo svislý skalní stupeň?",
+      "answer": "Vodopád",
+      "aliases": [
+        "kaskáda",
+        "waterfall",
+        "cascade",
+        "cataract",
+        "foss",
+        "force",
+        "water fall"
+      ],
+      "id": "geography-cs-easy-03-25",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Vodop%C3%A1d",
+        "https://en.wikipedia.org/wiki/Waterfall"
+      ]
+    },
+    {
+      "initial": "W",
+      "text": "Které anglické město na Temži je známé stejnojmenným královským hradem naproti Etonu?",
+      "answer": "Windsor",
+      "aliases": ["New Windsor"],
+      "id": "geography-cs-easy-03-26",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Windsor"]
+    },
+    {
+      "initial": "Z",
+      "text": "Jak se nazývá balíček cestovních služeb, například dopravy a ubytování, nabízený jako jeden celek?",
+      "answer": "Zájezd",
+      "aliases": ["souborné služby pro cesty", "paušální zájezd"],
+      "id": "geography-cs-easy-03-27",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Z%C3%A1jezd"]
+    },
+    {
+      "initial": "Ž",
+      "text": "Po které pražské čtvrti je pojmenována televizní věž v Mahlerových sadech?",
+      "answer": "Žižkov",
+      "aliases": [
+        "Zischkaberg",
+        "Žižkow",
+        "Veitsberg",
+        "Žižkaperk",
+        "Královské Vinohrady I."
+      ],
+      "id": "geography-cs-easy-03-28",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDi%C5%BEkov",
+        "https://cs.wikipedia.org/wiki/%C5%BDi%C5%BEkovsk%C3%BD_vys%C3%ADla%C4%8D"
+      ]
+    }
+  ]
+}
