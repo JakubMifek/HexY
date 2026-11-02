@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-11-01T23:22:48.980283+00:00",
+  "deckId": "general-en-hard-03",
+  "verdict": "CONTENT DELTA ACCEPTED",
+  "coordinatorSolePublisher": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+  "report": {
+    "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/REPORT.md",
+    "sha256": "4c2e1160bdd425ec85bf072f761b582dcb6b4a94d9a0ba41442013ae3265ffe6"
+  },
+  "candidate": {
+    "path": ".artifacts/continuation/bundles/p12/general/batches/b01-v3/packs/general-en-hard-03.json",
+    "sha256": "241c14770d29a65c629a3943e5fa41718da808134e9d924f10734a261927ff46"
+  },
+  "entireOriginalSourceLedgerSha256": "db16cdb4628753659f28dc04c8c303af57a40416cb88cfc31c9aa44f1ba162f6",
+  "portableLedgerSha256": "16d0603933ceec23374113a162771d82d280683cae618b537fd27dc52bd2ba95",
+  "actualOriginalWholeAdultHardRatingSha256": "711f038dbf19629cc1a941310c71f49d4c7945a7c6caa87deb119b6a934838fe",
+  "acceptedCorrectionContinuityWholeAdultHardRatingSha256": "98ab878e1f33c4b2127b82039e36732877d6a1886a8a605dbb015d02a9c3aa61",
+  "reviewed": {
+    "entries": 28,
+    "aliases": 40,
+    "recordedForms": 68,
+    "entireRawAndEnrichedEvidenceArraysExact": 28,
+    "entireEnrichedObjectsMatchActualOriginalEntryAndWholeAcceptedReceipt": 28,
+    "wholeAdultHardDistribution": {
+      "hard": 26,
+      "medium": 2
+    },
+    "independentCurrentAuthorPairs": 359,
+    "wholeNativeHistoricalNodes": 711,
+    "historicalNativeFiles": 17,
+    "historicalSourceSpecificProofGuards": 15,
+    "R19toR23AddedDecks": 11,
+    "addedFullQuestionObjectsRead": 308,
+    "meaningfulAdditionPairDecisions": 45,
+    "nearFormPairDecisions": 14,
+    "currentBankRevision": 23,
+    "currentBankDecks": 35,
+    "currentBankQuestions": 980,
+    "priorR22WholeQuestionAliasPayloadsUnchanged": 896,
+    "actualDeliveredRevision": "d59cd85104802f784931f5bd9e6421be9bcced81",
+    "actualDeliveredDecks": 138,
+    "actualDeliveredQuestions": 3864,
+    "initialFocusedChecksPassed": 2005,
+    "initialFocusedChecksFailed": 0,
+    "productionMatcherAcceptedForms": 68,
+    "allFinalR23InputGuardsRechecked": 281
+  },
+  "blockingContentFindings": [],
+  "nonblockingAuditLimitations": [
+    "Original producer/import/root-generator execution and every historical HTML/paragraph extraction attestation were not reconstructed or claimed proven.",
+    "All711 exact native V5 contexts and15 source-specific proof guards are retained; global V5 closure was not reexecuted.",
+    "Actual accepted judgments plus direct current candidate examination resolve relevant decisions under the owner15:37EST amendment; no blanket path-prefix, unknown-language or proposal waiver.",
+    "Deployment/browser/runtime/coverage results were not rerun by this content reviewer; actual prior Science delivery is inherited by exact receipt/proof bindings.",
+    "Oversized read responses were automatically captured by the harness outside this directory; no intentional file operation targeted those captures."
+  ],
+  "integrationFollowup": {
+    "required": true,
+    "coordinatorNotice": "Real General rating-schema support and raw-versus-enriched test correction reported; original v1 failure retained. No rating/content rewrite required.",
+    "noticeNotIndependentlyRunRuntimeVerification": true,
+    "next": "Freeze single-deck source/count/README integration; separate independent integration/release judgment and applicable central gates before publisher action/private verification."
+  },
+  "releaseCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "finalPhaseTargetUnchanged": {
+    "decks": 330,
+    "questions": 9240,
+    "combinations": 66
+  },
+  "writtenDirectoryOnly": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2",
+  "files": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/ALL28-INHERITANCE.json",
+      "sha256": "a71294ed4f81f7ea53da8f1f89f1a4d908c8ad85c3e6ce97390bd04553f17ed8",
+      "bytes": 525092
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/ANSWER-CHECK.json",
+      "sha256": "8725b80d95175c66c5b5247a53f69031e163e269828726f7c89237946afdbd4c",
+      "bytes": 358
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/CHECKS.json",
+      "sha256": "4beafef681d9ecebe7587010e786bde0a9fde4af15fe5f874423ca9e85226df8",
+      "bytes": 139268
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/CURRENT-INPUT-VERIFICATION.json",
+      "sha256": "9ed34a6e61a8a0596fe29dd00ddba66d71ca25b7fbe6ae31d456fd2474bdf12d",
+      "bytes": 586846
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/HISTORICAL-CONTINUITY.json",
+      "sha256": "d70d8e9e2e69ff8a539e85a05d004d2a6a4483893633ef466948f5137c400cc5",
+      "bytes": 437363
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/R23-INPUT-GUARDS.json",
+      "sha256": "cffdf2adafd09e7e2bf1e50c10163a7f93d79f142a123cbb1287874bab10ce41",
+      "bytes": 48713
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/REPORT.md",
+      "sha256": "4c2e1160bdd425ec85bf072f761b582dcb6b4a94d9a0ba41442013ae3265ffe6",
+      "bytes": 14389
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/SEMANTIC-DECISIONS.json",
+      "sha256": "13debd6dc2063b940293498cd6e79de103d8a345cc604bf1371e7ba4e1606957",
+      "bytes": 1219134
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/answer-check.mjs",
+      "sha256": "efaaa3201ed00bb26968cbf4dea60dc9cc3b8adaa11cda62e509318cf8f4aa99",
+      "bytes": 2168
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/check.py",
+      "sha256": "dd9979ef115853ba9a6200eccda1fab5ade24226e7f0383c756d53e6d9d98916",
+      "bytes": 18316
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/seal.py",
+      "sha256": "172d5b9dda934e3c3a7390d1b6201a6b92626744219b32c2425fa8e75e635a66",
+      "bytes": 5638
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/parallel-decks/general-en-hard-03/independent-content-delta-v2/semantic.py",
+      "sha256": "3facb146ed05704901b0971796a74980fc5ff9d07d8a1df42f25637e6a6bde84",
+      "bytes": 25749
+    }
+  ]
+}

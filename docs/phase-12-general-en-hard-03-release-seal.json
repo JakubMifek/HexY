@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-11-01T23:56:57.744940+00:00",
+  "deckId": "general-en-hard-03",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "exactSourceQAFrozenInputSha256": "f5b350e74728e1e3b3bcc89b4128e233f7fd518f29d2bd51b5ad1d23396ae129",
+  "reportSha256": "7aa589d64c46554e67586162c97e24c178d73311aae3f906a05998d62e70a8ee",
+  "members": {
+    "ANSWER-CHECK.json": {
+      "sha256": "0309fec5062d005c2ab803a10aa30ea27295f9b7530c4cc54c041711aa626af0",
+      "bytes": 3049
+    },
+    "INPUT-BINDINGS.json": {
+      "sha256": "8c61dc4aa09b6616d8dedbacba29cbc41d932df18f37ed688c0086c38d09e5b5",
+      "bytes": 301963
+    },
+    "REPORT.md": {
+      "sha256": "7aa589d64c46554e67586162c97e24c178d73311aae3f906a05998d62e70a8ee",
+      "bytes": 9729
+    },
+    "SCIENCE-DECISIONS.json": {
+      "sha256": "3b0b094b3960ef1bf6dc2361b9d07da772a0424e67906bda12bdece2dd8887aa",
+      "bytes": 242649
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "90d799d6e6885f6e7076b47ac76f5262265180df2e0a26834565c80f45959c49",
+      "bytes": 302413
+    },
+    "answer-check.mjs": {
+      "sha256": "826725f9fade0168f8541dba138d2107ac7cd411778038f97aa4f56baaad19d6",
+      "bytes": 2031
+    },
+    "check-and-seal.py": {
+      "sha256": "86f94bcb4ca478a160c2da9a48b2b6402fe8cd189a37990ba8a4978e61b2fbbd",
+      "bytes": 18428
+    }
+  },
+  "externalInputCount": 1427,
+  "inheritsUnchangedWholePriorReleaseReportSha256": "a8c4831ad3f97b97f6ff8e94f76b8ccbdccd714a4871952ccf012c60576f9730",
+  "inheritsUnchangedWholePriorReleaseSealSha256": "a1863c8dedcae0c1e5be5c2248912125866e512cdf608d82781a12a2ac2cb2fe",
+  "scope": "Whole prior all28/content/adoption/integration/R24/six-lens decisions retained; one final actual ScienceMedium04 source-proposal/handoff and preexisting ScienceHard04 counterpart delta.",
+  "solePublisher": "75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+  "permissionBoundary": "Same-source full quality/full-runtime coverage/native success mandatory before authorized one-deck publication and actual private-version/active/naturally-expired data verification. This read-only semantic supplement changes no QA input.",
+  "postreviewFullQualityCoverageNativePassedIndependentlyVerified": false,
+  "actualPrivateCapturePromotionOrDeliveryVerified": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "finalTargetUnchanged": {
+    "decks": 330,
+    "questions": 9240,
+    "combinations": 66
+  }
+}

@@ -1,5 +1,32 @@
 # HexY
 
+**Phase 12 incremental snapshot: 139 decks / 3,892 questions.** Only
+`general-en-hard-03` is added to verified private revision `d59cd851`
+(138 decks / 3,864 questions), preserving every preceding pack byte and order.
+Its [source ledger](docs/phase-12-general-en-hard-03-sources.json) retains all
+28 complete questions, entire supporting arrays, 68 accepted answer forms,
+original correction judgments and actual general-adult Hard calibration
+(26 Hard / 2 Medium).
+[Independent content/current-delta review](reviews/phase-12-general-en-hard-03-content.md)
+accepts all28,359 current pairs,711 exact historical contexts and the actual
+R23 additions. Source quality and historical execution/paragraph audit limits
+remain disclosed, not relabeled proven. The
+[exact original report](docs/phase-12-general-en-hard-03-content-original.txt)
+and seal are retained. Final integration release review precedes quality,
+native flows and genuine active/expired private recovery with unchanged
+original deadlines. Other candidates remain isolated.
+Final330/9,240/all66 five-deck quotas and independent phase clearance remain
+unchanged.
+
+## Historical Science Easy03 adoption checkpoint
+
+The following is its pre-delivery snapshot. Actual `d59cd851` subsequently
+shipped only that deck after independent release, full quality/native and
+deliberate active and naturally expired old-data verification. Its
+[release report](reviews/phase-12-science-en-easy-03-release.md) and
+[exact original postreview receipt](docs/phase-12-science-en-easy-03-postreview-original.txt)
+remain preserved.
+
 **Phase 12 incremental snapshot: 138 decks / 3,864 questions.** Only
 `science-en-easy-03` is added to verified private revision `050045c`
 (137 decks / 3,836 questions), preserving all earlier pack bytes and ordering.

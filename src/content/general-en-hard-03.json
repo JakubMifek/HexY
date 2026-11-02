@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 2,
+  "id": "general-en-hard-03",
+  "title": "General knowledge · Hard · 03",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-hard-03-01",
+      "text": "What rhetorical device leaves a sentence deliberately unfinished, as though emotion or hesitation prevented the speaker from continuing?",
+      "initial": "A",
+      "answer": "Aposiopesis",
+      "language": "en",
+      "category": "general",
+      "aliases": [
+        "Praecisio",
+        "Reticentia",
+        "Obticentia",
+        "Interruptio",
+        "Figure of silence"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Aposiopesis"]
+    },
+    {
+      "id": "general-en-hard-03-02",
+      "text": "What writing arrangement alternates direction on successive lines, like an ox turning while ploughing?",
+      "initial": "B",
+      "answer": "Boustrophedon",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Boustrophedonic writing"],
+      "sources": ["https://en.wikipedia.org/wiki/Boustrophedon"]
+    },
+    {
+      "id": "general-en-hard-03-03",
+      "text": "What name is given to the uppermost moulding crowning a classical cornice?",
+      "initial": "C",
+      "answer": "Cymatium",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Kymation"],
+      "sources": ["https://en.wikipedia.org/wiki/Cymatium"]
+    },
+    {
+      "id": "general-en-hard-03-04",
+      "text": "In which enamelling technique are recesses cut or cast into a metal surface and filled with enamel, rather than enclosed by added wires?",
+      "initial": "CH",
+      "answer": "Champlevé",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Champlev%C3%A9"]
+    },
+    {
+      "id": "general-en-hard-03-05",
+      "text": "What metal-decoration technique inlays contrasting metals, commonly gold or silver into darkened iron or steel?",
+      "initial": "D",
+      "answer": "Damascening",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Damascene work"],
+      "sources": ["https://en.wikipedia.org/wiki/Damascening"]
+    },
+    {
+      "id": "general-en-hard-03-06",
+      "text": "What calendrical term denotes the age of the Moon in days at a specified date, used in calculating Easter?",
+      "initial": "E",
+      "answer": "Epact",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Epact"]
+    },
+    {
+      "id": "general-en-hard-03-07",
+      "text": "What kerchief was traditionally folded into a triangle and tucked into the low neckline of a woman's bodice?",
+      "initial": "F",
+      "answer": "Fichu",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Fichu"]
+    },
+    {
+      "id": "general-en-hard-03-08",
+      "text": "What decorative technique mechanically engraves intricate repeated patterns with a specialised ornamental lathe?",
+      "initial": "G",
+      "answer": "Guilloché",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Engine turning"],
+      "sources": ["https://en.wikipedia.org/wiki/Guilloch%C3%A9"]
+    },
+    {
+      "id": "general-en-hard-03-09",
+      "text": "What ancient Greek outer garment was a mantle draped over a chiton or peplos, though it could also be worn alone?",
+      "initial": "H",
+      "answer": "Himation",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Himation"]
+    },
+    {
+      "id": "general-en-hard-03-10",
+      "text": "What term denotes a European book printed before 1501, in the earliest period of printing with movable type?",
+      "initial": "I",
+      "answer": "Incunabulum",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Incunable", "Incunabula", "Incunables"],
+      "sources": ["https://en.wikipedia.org/wiki/Incunable"]
+    },
+    {
+      "id": "general-en-hard-03-11",
+      "text": "What ornamental neckwear consists of a fall of lace or ruffles at the front of a shirt or blouse?",
+      "initial": "J",
+      "answer": "Jabot",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jabot_(neckwear)"]
+    },
+    {
+      "id": "general-en-hard-03-12",
+      "text": "What Japanese repair technique highlights the joins of broken pottery using lacquer mixed or dusted with precious metal?",
+      "initial": "K",
+      "answer": "Kintsugi",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Kintsukuroi"],
+      "sources": ["https://en.wikipedia.org/wiki/Kintsugi"]
+    },
+    {
+      "id": "general-en-hard-03-13",
+      "text": "What architectural term, literally meaning little moon, denotes a semicircular space such as the area above a doorway?",
+      "initial": "L",
+      "answer": "Lunette",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lunette"]
+    },
+    {
+      "id": "general-en-hard-03-14",
+      "text": "What small ledge beneath a hinged church-stall seat offers support to a person standing during a long service?",
+      "initial": "M",
+      "answer": "Misericord",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Mercy seat", "Misericordia"],
+      "sources": ["https://en.wikipedia.org/wiki/Misericord"]
+    },
+    {
+      "id": "general-en-hard-03-15",
+      "text": "What rounded Arabic calligraphic script became widely used for copying books, including the Qur'an, because of its legibility?",
+      "initial": "N",
+      "answer": "Naskh",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Naskh script", "Naskhi"],
+      "sources": ["https://en.wikipedia.org/wiki/Naskh_(script)"]
+    },
+    {
+      "id": "general-en-hard-03-16",
+      "text": "What French-derived term names the gold-finished copper alloy used for decorative furniture mounts?",
+      "initial": "O",
+      "answer": "Ormolu",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Gilt bronze", "Gilt-bronze", "Bronze doré"],
+      "sources": ["https://en.wikipedia.org/wiki/Ormolu"]
+    },
+    {
+      "id": "general-en-hard-03-17",
+      "text": "What transfer technique passes powder through small holes pricked along a drawing to reproduce its outline on another surface?",
+      "initial": "P",
+      "answer": "Pouncing",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/glossary/pouncing"
+      ]
+    },
+    {
+      "id": "general-en-hard-03-18",
+      "text": "What traditional hand-operated implement grinds grain between two stones?",
+      "initial": "Q",
+      "answer": "Quern",
+      "language": "en",
+      "category": "general",
+      "aliases": [
+        "Quern stone",
+        "Quern-stone",
+        "Hand quern",
+        "Hand mill",
+        "Handmill"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Quern-stone"]
+    },
+    {
+      "id": "general-en-hard-03-19",
+      "text": "What process uses moisture and microbial action to loosen flax fibres from the woody stem before they are separated?",
+      "initial": "R",
+      "answer": "Retting",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Retting"]
+    },
+    {
+      "id": "general-en-hard-03-20",
+      "text": "What decorative technique scratches through an upper surface layer to expose a differently coloured layer beneath?",
+      "initial": "S",
+      "answer": "Sgraffito",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Sgraffiato", "Sgraffiti"],
+      "sources": ["https://en.wikipedia.org/wiki/Sgraffito"]
+    },
+    {
+      "id": "general-en-hard-03-21",
+      "text": "What silk fabric, named after a Chinese province, is known for an irregular surface created by slubbed yarns?",
+      "initial": "SH",
+      "answer": "Shantung",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Shantung silk"],
+      "sources": ["https://en.wikipedia.org/wiki/Shantung_(fabric)"]
+    },
+    {
+      "id": "general-en-hard-03-22",
+      "text": "What type of bobbin lace takes a French name meaning dishcloth and typically uses a coarse thread and geometric patterns?",
+      "initial": "T",
+      "answer": "Torchon lace",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Torchon"],
+      "sources": ["https://en.wikipedia.org/wiki/Torchon_lace"]
+    },
+    {
+      "id": "general-en-hard-03-23",
+      "text": "What ancient Egyptian royal emblem depicts an upright cobra on a headdress?",
+      "initial": "U",
+      "answer": "Uraeus",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Ouraeus"],
+      "sources": ["https://en.wikipedia.org/wiki/Uraeus"]
+    },
+    {
+      "id": "general-en-hard-03-24",
+      "text": "What beard style, named after a Flemish painter, combines a moustache with a pointed chin beard and shaved cheeks?",
+      "initial": "V",
+      "answer": "Vandyke beard",
+      "language": "en",
+      "category": "general",
+      "aliases": [
+        "Van Dyke",
+        "Van Dyck beard",
+        "Vandyke",
+        "Van Dyke beard",
+        "Van Dyck",
+        "Charlie",
+        "Pike-devant",
+        "Pickedevant"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Van_Dyke_beard"]
+    },
+    {
+      "id": "general-en-hard-03-25",
+      "text": "What strip of material joins the upper of a traditionally constructed shoe to its sole?",
+      "initial": "W",
+      "answer": "Welt",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Shoe welt"],
+      "sources": ["https://en.wikipedia.org/wiki/Welt_(shoe)"]
+    },
+    {
+      "id": "general-en-hard-03-26",
+      "text": "What Christian fasting practice takes its name from Greek words for dry eating and restricts the evening meal to plain foods such as bread and nuts?",
+      "initial": "X",
+      "answer": "Xerophagy",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Xerophagy"]
+    },
+    {
+      "id": "general-en-hard-03-27",
+      "text": "What Sanskrit term names the feminine generative symbol associated with Shakti and often paired with a lingam?",
+      "initial": "Y",
+      "answer": "Yoni",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Pindika"],
+      "sources": ["https://en.wikipedia.org/wiki/Yoni"]
+    },
+    {
+      "id": "general-en-hard-03-28",
+      "text": "What holder traditionally protects the fingers from a small handleless coffee cup?",
+      "initial": "Z",
+      "answer": "Zarf",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Zarf"]
+    }
+  ]
+}

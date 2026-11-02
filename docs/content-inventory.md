@@ -1,6 +1,29 @@
 # Content inventory and provenance
 
-## Current Science Easy03 one-deck snapshot
+## Current General Hard03 one-deck snapshot
+
+This isolated snapshot contains **139 decks / 3,892 entries**, adding only
+`general-en-hard-03` (English, Hard,28 entries) to actual private delivery
+`d59cd851` (138/3,864). All138 earlier pack bytes and ordering remain unchanged.
+General has13 decks/364 entries, with three English/Hard decks. Science retains
+14/392, Nature15/420 and Geography13/364. The
+[shipment manifest](phase-12-deck-inventory.json) enforces actual incremental
+quotas and the unchanged final330/9,240/all66 five-deck gate.
+The [source ledger](phase-12-general-en-hard-03-sources.json) preserves all28
+complete questions/full supporting arrays/68 forms, original corrections and
+the exact adult Hard26/Medium2 rating.
+[Independent content/current-delta acceptance](../reviews/phase-12-general-en-hard-03-content.md)
+covers all28,359 full current pairs,711 native historical contexts and R23
+additions, preserving source-quality distinctions and disclosed nonblocking
+historical audit gaps. Missing archive execution is not claimed reconstructed.
+Final integration release review precedes applicable quality/native and genuine
+active/expired old-private recovery. No other draft, category or final phase
+is cleared here.
+
+## Historical Science Easy03 one-deck snapshot
+
+Actual `d59cd851` subsequently shipped only that deck after independent release,
+full quality/native and deliberate active/expired old-data verification.
 
 This isolated snapshot contains **138 decks / 3,864 entries**, adding only
 `science-en-easy-03` (English, Easy,28 entries) to actual private delivery

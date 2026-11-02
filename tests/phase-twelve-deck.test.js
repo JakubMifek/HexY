@@ -10,18 +10,93 @@ const shipment = JSON.parse(
 const digest = (/** @type {string | Buffer} */ bytes) =>
   createHash('sha256').update(bytes).digest('hex');
 
+/**
+ * @typedef {{
+ * entriesReviewed: number, independentDominantGeneralAdultRating: string
+ * } | {id: string, entriesRead: number, proposedDifficulty: string,
+ * difficultyVerdict: string, individualEditorialBuckets: Record<string, number>
+ * } | {id: string, assigned: string, independentDominantRating: string,
+ * disposition: string, entries: number,
+ * individualDistribution: {easy: number, medium: number, hard: number}
+ * } | {id: string, decision: string, commonEasyIndices: number[],
+ * informedMediumIndices: number[], specialistHardIndices: number[]}} AcceptedRating
+ */
+
+/**
+ * @param {{id: string, entriesRead: number, proposedDifficulty: string,
+ * difficultyVerdict: string, individualEditorialBuckets: Record<string, number>}} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectGeneralRating(rating, deckId, difficulty) {
+  expect(rating.id).toBe(deckId);
+  expect(rating.entriesRead).toBe(28);
+  expect(rating.proposedDifficulty).toBe(difficulty);
+  expect(rating.difficultyVerdict).toBe(
+    'CLEARED (early full-deck calibration only)',
+  );
+  const distribution = Object.entries(rating.individualEditorialBuckets);
+  expect(distribution.length).toBeGreaterThan(0);
+  expect(
+    distribution.every(
+      ([level, count]) =>
+        ['easy', 'medium', 'hard'].includes(level) &&
+        Number.isSafeInteger(count) &&
+        count >= 0,
+    ),
+  ).toBe(true);
+  expect(distribution.reduce((total, [, count]) => total + count, 0)).toBe(28);
+}
+
+/**
+ * @param {AcceptedRating} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectAcceptedRating(rating, deckId, difficulty) {
+  if ('entriesReviewed' in rating) {
+    expect(rating.entriesReviewed).toBe(28);
+    expect(rating.independentDominantGeneralAdultRating).toBe(difficulty);
+  } else if ('independentDominantRating' in rating) {
+    expect(rating.id).toBe(deckId);
+    expect(rating.assigned).toBe(difficulty);
+    expect(rating.independentDominantRating).toBe(difficulty);
+    expect(rating.disposition).toBe('ACCEPTED');
+    expect(rating.entries).toBe(28);
+    expect(Object.keys(rating.individualDistribution).sort()).toEqual([
+      'easy',
+      'hard',
+      'medium',
+    ]);
+    const distribution = Object.values(rating.individualDistribution);
+    expect(
+      distribution.every((count) => Number.isSafeInteger(count) && count >= 0),
+    ).toBe(true);
+    expect(distribution.reduce((total, count) => total + count, 0)).toBe(28);
+  } else if ('entriesRead' in rating) {
+    expectGeneralRating(rating, deckId, difficulty);
+  } else {
+    expect(rating.id).toBe(deckId);
+    expect(rating.decision).toBe(
+      `Accept dominant ${difficulty[0].toUpperCase()}${difficulty.slice(1)}`,
+    );
+    const reviewed = [
+      ...rating.commonEasyIndices,
+      ...rating.informedMediumIndices,
+      ...rating.specialistHardIndices,
+    ];
+    expect(reviewed.sort((left, right) => left - right)).toEqual(
+      Array.from({ length: 28 }, (_, index) => index + 1),
+    );
+  }
+}
+
 for (const deckId of shipment.additionalDeckIds) {
   /** @type {{deckId: string, sourcePackSha256: string,
    * exactQuestionAndEntireEvidenceBindings: {id: string, questionSha256: string, evidenceSha256: string}[],
    * entries: {id: string, evidence: unknown[]}[],
    * wholeDeckRatingSha256: string,
-   * wholeDeckGeneralAdultRating:
-   * {entriesReviewed: number, independentDominantGeneralAdultRating: string} |
-   * {id: string, assigned: string, independentDominantRating: string,
-   * disposition: string, entries: number,
-   * individualDistribution: {easy: number, medium: number, hard: number}} |
-   * {id: string, decision: string, commonEasyIndices: number[],
-   * informedMediumIndices: number[], specialistHardIndices: number[]}}} */
+   * wholeDeckGeneralAdultRating: AcceptedRating}} */
   const ledger = JSON.parse(
     readFileSync(`docs/phase-12-${deckId}-sources.json`, 'utf8'),
   );
@@ -48,42 +123,11 @@ for (const deckId of shipment.additionalDeckIds) {
     expect(digest(JSON.stringify(ledger.wholeDeckGeneralAdultRating))).toBe(
       ledger.wholeDeckRatingSha256,
     );
-    const rating = ledger.wholeDeckGeneralAdultRating;
-    if ('entriesReviewed' in rating) {
-      expect(rating.entriesReviewed).toBe(28);
-      expect(rating.independentDominantGeneralAdultRating).toBe(raw.difficulty);
-    } else if ('independentDominantRating' in rating) {
-      expect(rating.id).toBe(deckId);
-      expect(rating.assigned).toBe(raw.difficulty);
-      expect(rating.independentDominantRating).toBe(raw.difficulty);
-      expect(rating.disposition).toBe('ACCEPTED');
-      expect(rating.entries).toBe(28);
-      expect(Object.keys(rating.individualDistribution).sort()).toEqual([
-        'easy',
-        'hard',
-        'medium',
-      ]);
-      const distribution = Object.values(rating.individualDistribution);
-      expect(
-        distribution.every(
-          (count) => Number.isSafeInteger(count) && count >= 0,
-        ),
-      ).toBe(true);
-      expect(distribution.reduce((total, count) => total + count, 0)).toBe(28);
-    } else {
-      expect(rating.id).toBe(deckId);
-      expect(rating.decision).toBe(
-        `Accept dominant ${raw.difficulty[0].toUpperCase()}${raw.difficulty.slice(1)}`,
-      );
-      const reviewed = [
-        ...rating.commonEasyIndices,
-        ...rating.informedMediumIndices,
-        ...rating.specialistHardIndices,
-      ];
-      expect(reviewed.sort((left, right) => left - right)).toEqual(
-        Array.from({ length: 28 }, (_, index) => index + 1),
-      );
-    }
+    expectAcceptedRating(
+      ledger.wholeDeckGeneralAdultRating,
+      deckId,
+      raw.difficulty,
+    );
   });
 }
 

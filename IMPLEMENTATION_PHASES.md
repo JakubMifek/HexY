@@ -36,7 +36,19 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current Science incremental snapshot:** verified private/remote baseline
+**Current General incremental snapshot:** verified private/remote baseline
+`d59cd851`,138 decks/3,864 questions. Only GeneralEnglishHard03 is added here,
+giving139/3,892 with all138 earlier pack bytes/order unchanged. Its complete
+28-question/full-evidence/68-form and actual Hard26/Medium2 calibration/correction
+bindings are inherited.
+[Independent content/current-delta review](reviews/phase-12-general-en-hard-03-content.md)
+accepts all28,359 current pairs,711 exact historical contexts and R23 deltas.
+Source quality and nonblocking historical audit limitations remain disclosed;
+no missing execution proof is invented. Final integration release review
+precedes full quality/native and actual active/expired private upgrade.
+Other author lanes remain isolated. Final330/9,240/all66 is NOT CLEARED.
+
+**Historical Science incremental snapshot:** verified private/remote baseline
 `050045c`,137 decks/3,836 questions. Only ScienceEnglishEasy03 is added here,
 giving138/3,864 with all137 old pack bytes/order retained. Exact28 complete
 question/full-evidence/alias and original adult Easy ratings are inherited;
