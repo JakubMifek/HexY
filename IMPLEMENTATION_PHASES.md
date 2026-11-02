@@ -12,6 +12,37 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+### Current bounded Phase12 release
+
+## Current Phase 12 deck snapshot
+
+This source candidate contains **153 decks / 4,284 questions**,
+adding only `general-cs-easy-03` to its 152-deck predecessor.
+Actual delivery at preparation is `cd9bc76e` (152/4,256), English82/Czech70.
+This intermediate is English82/Czech71; original152 packs are immutable.
+Its lossless source ledger retains all28 whole questions, complete supporting
+arrays, legitimate aliases, original/corrected judgments and adult difficulty.
+Current meaningful peer/lifecycle decisions and independent release clearance
+remain pending; original acceptance is not automatic current release clearance.
+Each intermediate receives applicable quality/coverage/native checks before its
+separate one-deck push and actual private served28/old-data/deadline verification.
+Original active and naturally expired games keep their real deadlines unchanged.
+No other draft is bundled; final330/9,240/all66 remains NOT CLEARED.
+
+**Owner storage requirement, 2026-11-02:** measure all `.artifacts` before
+new batch/heavy work and during scheduled monitoring. Keep allocated storage
+below 75 GB; target 65 GB after maintenance. At pressure, finish running tasks
+naturally, establish a safe boundary and protect active inputs before verified
+lossless archival. Restore archived historical inventory bytes before using
+their original path/hash; archival is not an evidence waiver.
+
+Final Phase12 handoff includes cleanup after independent clearance, postreview
+gates and verified delivery: remove individually identified disposable outputs,
+obsolete worktrees/caches/indexes and redundant snapshots/logs; retain unique
+sources, review/delivery evidence and backups not demonstrated redundant.
+Record exact cleanup scope and before/after allocated bytes before stopping
+the completion monitor. Never recursively remove the artifact root.
+
 **LATEST owner amendment, 2026-11-02 00:39 EST:** safely drain current author
 tasks without interruption, stop refilling lanes, then use **one author worker**
 on coherent two-to-four-deck batches. This explicitly supersedes four-lane
@@ -52,7 +83,7 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current batch sequence candidate:**
+**Historical prior-batch sequence candidate:**
 **Phase 12 incremental candidate: 152 decks / 4,256 questions.**
 Only `geography-cs-easy-03` is added to the proposed 151-deck predecessor.
 Actual delivery at preparation remains `f47f55e4` (149/4,172).

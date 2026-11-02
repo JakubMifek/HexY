@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-easy-03",
+  "title": "Všeobecné znalosti · Lehká · 03",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-easy-03-01",
+      "text": "Jak se nazývá průhledná nádrž, ve které doma chováme ryby a další vodní organismy?",
+      "initial": "A",
+      "answer": "Akvárium",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Aquarium"]
+    },
+    {
+      "id": "general-cs-easy-03-02",
+      "text": "Jak se nazývá zavazadlo se dvěma popruhy, které nosíme na zádech?",
+      "initial": "B",
+      "answer": "Batoh",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ruksak", "Tornistra"],
+      "sources": ["https://en.wikipedia.org/wiki/Backpack"]
+    },
+    {
+      "id": "general-cs-easy-03-03",
+      "text": "Jak se nazývá nádobka na cukr podávaný například ke kávě?",
+      "initial": "C",
+      "answer": "Cukřenka",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sugar_bowl"]
+    },
+    {
+      "id": "general-cs-easy-03-04",
+      "text": "Jak se nazývá pokrývka hlavy, která na rozdíl od klobouku obvykle nemá okraj po celém obvodu?",
+      "initial": "Č",
+      "answer": "Čepice",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cap"]
+    },
+    {
+      "id": "general-cs-easy-03-05",
+      "text": "Jak říkáme velkému kusu měkké tkaniny, kterým se přikryjeme například při odpočinku na pohovce?",
+      "initial": "D",
+      "answer": "Deka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Přikrývka"],
+      "sources": ["https://en.wikipedia.org/wiki/Blanket"]
+    },
+    {
+      "id": "general-cs-easy-03-06",
+      "text": "Jak se nazývá pohyblivé schodiště, kterým se svezeme mezi patry obchodního domu?",
+      "initial": "E",
+      "answer": "Eskalátor",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jezdící schody", "Pohyblivé schody"],
+      "sources": ["https://en.wikipedia.org/wiki/Escalator"]
+    },
+    {
+      "id": "general-cs-easy-03-07",
+      "text": "Jak se nazývá drobná nádoba, která při pečení dá těstu určitý tvar?",
+      "initial": "F",
+      "answer": "Formička",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Forma na cukroví", "Pečicí formička"],
+      "sources": ["https://en.wikipedia.org/wiki/Mold_(cooking_implement)"]
+    },
+    {
+      "id": "general-cs-easy-03-08",
+      "text": "Jak se hovorově nazývají nepromokavé vysoké boty vhodné do bláta a louží?",
+      "initial": "G",
+      "answer": "Gumáky",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Holínky", "Gumové holínky"],
+      "sources": ["https://en.wikipedia.org/wiki/Wellington_boot"]
+    },
+    {
+      "id": "general-cs-easy-03-09",
+      "text": "Jakou pomůckou s řadou zubů si rozčesáváme vlasy?",
+      "initial": "H",
+      "answer": "Hřeben",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Comb"]
+    },
+    {
+      "id": "general-cs-easy-03-10",
+      "text": "Jak se běžně nazývá venkovský obytný dům užívaný například k víkendové rekreaci?",
+      "initial": "Ch",
+      "answer": "Chalupa",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cottage"]
+    },
+    {
+      "id": "general-cs-easy-03-11",
+      "text": "Jak se nazývá krátké veřejné oznámení, jímž někdo například nabízí práci nebo prodává věc?",
+      "initial": "I",
+      "answer": "Inzerát",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Řádkový inzerát"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Classified_advertising",
+        "https://ssjc.ujc.cas.cz/search.php?heslo=inzerce&stype=H&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-easy-03-12",
+      "text": "Jak se nazývá mléčný výrobek, který vzniká kvašením mléka pomocí bakteriálních kultur?",
+      "initial": "J",
+      "answer": "Jogurt",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Yogurt"]
+    },
+    {
+      "id": "general-cs-easy-03-13",
+      "text": "Jakým malým předmětem obvykle odemykáme mechanický zámek dveří?",
+      "initial": "K",
+      "answer": "Klíč",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lock_and_key"]
+    },
+    {
+      "id": "general-cs-easy-03-14",
+      "text": "Jak se nazývá část košile nebo kabátu, která lemuje krk?",
+      "initial": "L",
+      "answer": "Límec",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Límeček"],
+      "sources": ["https://en.wikipedia.org/wiki/Collar_(clothing)"]
+    },
+    {
+      "id": "general-cs-easy-03-15",
+      "text": "Jak se nazývá tradiční mycí prostředek vznikající reakcí tuků se zásadou?",
+      "initial": "M",
+      "answer": "Mýdlo",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Soap"]
+    },
+    {
+      "id": "general-cs-easy-03-16",
+      "text": "Jakým drobným zdravotnickým prostředkem s lepicími okraji zakryjeme malé poranění kůže?",
+      "initial": "N",
+      "answer": "Náplast",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Lepicí náplast", "Náplast s polštářkem"],
+      "sources": ["https://en.wikipedia.org/wiki/Adhesive_bandage"]
+    },
+    {
+      "id": "general-cs-easy-03-17",
+      "text": "Jak se nazývá prosklený otvor ve stěně, kterým do místnosti proniká denní světlo?",
+      "initial": "O",
+      "answer": "Okno",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Window"]
+    },
+    {
+      "id": "general-cs-easy-03-18",
+      "text": "Jak se nazývá malé pouzdro, v němž nosíme bankovky, mince či platební karty?",
+      "initial": "P",
+      "answer": "Peněženka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Portmonka", "Šrajtofle"],
+      "sources": ["https://en.wikipedia.org/wiki/Wallet"]
+    },
+    {
+      "id": "general-cs-easy-03-19",
+      "text": "Jaký kus oděvu chrání ruce například před zimou a může mít podobu palčáků?",
+      "initial": "R",
+      "answer": "Rukavice",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Glove"]
+    },
+    {
+      "id": "general-cs-easy-03-20",
+      "text": "Jak se nazývá kosmetický přípravek, který se kartáčkem nanáší na řasy, aby je ztmavil a zvýraznil?",
+      "initial": "Ř",
+      "answer": "Řasenka",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mascara"]
+    },
+    {
+      "id": "general-cs-easy-03-21",
+      "text": "Jak se nazývá úklidová pomůcka s dlouhou násadou a štětinami pro zametání podlahy?",
+      "initial": "S",
+      "answer": "Smeták",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Koště"],
+      "sources": ["https://en.wikipedia.org/wiki/Broom"]
+    },
+    {
+      "id": "general-cs-easy-03-22",
+      "text": "Jak se nazývá dlouhý pruh látky, který si v zimě omotáme kolem krku?",
+      "initial": "Š",
+      "answer": "Šála",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Šál"],
+      "sources": ["https://en.wikipedia.org/wiki/Scarf"]
+    },
+    {
+      "id": "general-cs-easy-03-23",
+      "text": "Jak se nazývá obvykle plochá nádoba, ze které jíme hlavní jídlo?",
+      "initial": "T",
+      "answer": "Talíř",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jídelní talíř"],
+      "sources": ["https://en.wikipedia.org/wiki/Plate_(dishware)"]
+    },
+    {
+      "id": "general-cs-easy-03-24",
+      "text": "Jak se nazývá textilie rozprostřená přes jídelní stůl, která jej zdobí a chrání?",
+      "initial": "U",
+      "answer": "Ubrus",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tablecloth"]
+    },
+    {
+      "id": "general-cs-easy-03-25",
+      "text": "Kterou součástí příboru s několika hroty napichujeme sousta?",
+      "initial": "V",
+      "answer": "Vidlička",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Fork"]
+    },
+    {
+      "id": "general-cs-easy-03-26",
+      "text": "Jak se nazývá malá digitální kamera připojená k počítači nebo vestavěná do notebooku, běžně používaná při videohovorech?",
+      "initial": "W",
+      "answer": "Webkamera",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Webová kamera", "Webcam"],
+      "sources": ["https://en.wikipedia.org/wiki/Webcam"]
+    },
+    {
+      "id": "general-cs-easy-03-27",
+      "text": "Jak se nazývá předmět s hladkou odraznou plochou, ve kterém vidíme vlastní obraz?",
+      "initial": "Z",
+      "answer": "Zrcadlo",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mirror"]
+    },
+    {
+      "id": "general-cs-easy-03-28",
+      "text": "Jak se nazývá volný domácí plášť, který si často oblékáme po koupeli?",
+      "initial": "Ž",
+      "answer": "Župan",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Koupací plášť"],
+      "sources": ["https://en.wikipedia.org/wiki/Bathrobe"]
+    }
+  ]
+}

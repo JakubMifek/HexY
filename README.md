@@ -1,5 +1,24 @@
 # HexY
 
+## Current Phase 12 deck snapshot
+
+This source candidate contains **153 decks / 4,284 questions**,
+adding only `general-cs-easy-03` to its 152-deck predecessor.
+Actual delivery at preparation is `cd9bc76e` (152/4,256), English82/Czech70.
+This intermediate is English82/Czech71; original152 packs are immutable.
+Its lossless source ledger retains all28 whole questions, complete supporting
+arrays, legitimate aliases, original/corrected judgments and adult difficulty.
+Current meaningful peer/lifecycle decisions and independent release clearance
+remain pending; original acceptance is not automatic current release clearance.
+Each intermediate receives applicable quality/coverage/native checks before its
+separate one-deck push and actual private served28/old-data/deadline verification.
+Original active and naturally expired games keep their real deadlines unchanged.
+No other draft is bundled; final330/9,240/all66 remains NOT CLEARED.
+
+[Exact source ledger](docs/phase-12-general-cs-easy-03-sources.json).
+
+## Retained earlier preparation history
+
 **Phase 12 incremental candidate: 152 decks / 4,256 questions.**
 Only `geography-cs-easy-03` is added to the proposed 151-deck predecessor.
 Actual delivery at preparation remains `f47f55e4` (149/4,172).

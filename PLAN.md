@@ -2,6 +2,16 @@
 
 ## Status and instructions for the next session
 
+**Owner storage amendment, 2026-11-02:** keep all repository `.artifacts`
+below 75 GB (75,000,000,000 allocated bytes), targeting 65 GB after maintenance.
+Prefer verified lossless cold storage of historical generated inventories;
+retain original path/hash metadata and restore exact bytes before any dependent
+check. Do not remove active inputs, unique sources, review evidence or user
+backups to meet the budget. Reuse shared captures and avoid repeated full
+inventory copies. At final Phase12 clearance and verified delivery, clean up
+unnecessary artifacts and obsolete worktrees, preserving required evidence and
+any backup not yet proven redundant. Record reclaimed/retained paths and sizes.
+
 **LATEST owner amendment, 2026-11-02 00:39 EST: ONE batch worker after safe
 drain.** This supersedes every four-worker/refill instruction below. Let existing
 bounded author tasks finish naturally; do not cancel them, refill their slots or

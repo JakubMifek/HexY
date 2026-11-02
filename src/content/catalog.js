@@ -24,6 +24,8 @@ import generalEnMedium4 from './general-en-medium-04.json';
 
 import geographyCsEasy3 from './geography-cs-easy-03.json';
 
+import generalCsEasy3 from './general-cs-easy-03.json';
+
 const bundledSources = [
   ...phaseElevenSources,
   natureEnEasy3,
@@ -46,6 +48,7 @@ const bundledSources = [
   generalCsHard3,
   generalEnMedium4,
   geographyCsEasy3,
+  generalCsEasy3,
 ];
 
 export function bundledPacks() {

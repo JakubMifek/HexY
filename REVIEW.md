@@ -5,6 +5,17 @@ Status: APPROVED by the user on 2026-10-28, together with `AGENTS.md` and
 
 ## Role and independence
 
+### Storage and final cleanup, owner-approved 2026-11-02
+
+Historical generated inventories may be losslessly archived with verified
+original path, SHA-256 and exact-byte restoration. Restore an archived input
+before checking it; absence from the hot working set is not missing evidence
+or permission to waive a check. Protect active/frozen inputs during maintenance.
+Check the 75 GB allocated-artifact budget and final cleanup receipt at Phase12
+handoff. Final cleanup follows independent clearance and verified delivery;
+retain unique factual sources, accepted/rejected review and delivery evidence,
+and any user backup not proven redundant.
+
 ### Latest Phase12 batching amendment, 2026-11-02 00:39 EST
 
 The owner requests safe natural drain of existing tasks, then one author worker

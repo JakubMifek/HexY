@@ -148,6 +148,12 @@ for (const language of ['cs', 'en']) {
 
 const lateAdditions = [
   {
+    added: 'general-cs-medium-03',
+    predecessor: 'general-cs-medium-04',
+    language: 'cs',
+    level: 'medium',
+  },
+  {
     added: 'general-cs-hard-03',
     predecessor: 'general-cs-hard-04',
     language: 'cs',

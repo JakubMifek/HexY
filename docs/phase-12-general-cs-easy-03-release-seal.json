@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "reviewerTaskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "taskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "sealedAt": "2026-11-02T10:32:16.520366+00:00",
+  "deckId": "general-cs-easy-03",
+  "candidateDecks": 153,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "sourceFiles": 547,
+  "exactSourceQAFrozenInputSha256": "0e8c0760a079b7bdf71f431ac7e953d096763ce4fcbc49745b35f11c2cc267fd",
+  "initialAcceptedInherited": 28,
+  "currentIndependentAccepted": 28,
+  "meaningfulCurrentPairDecisions": 119,
+  "explicitSameFactRelatedQueueDecisions": 8,
+  "ownPeerComparisonsInvolvingDeck": 2352,
+  "blockingFindings": 0,
+  "minorFindings": 0,
+  "finalActualParentReleaseHeld": false,
+  "wholeOriginalRatingSha256": "a89a3251371a85f465be18463a24f84eac7c4dcb3d0879ef0d4d06c2349220c3",
+  "coordinatorPostReviewGatesStillPending": true,
+  "reportSha256": "185e36f7afc003d6f60d966740ea23f78d426d23ba86da9254fb94c448ee09ba",
+  "members": {
+    "ACCEPTANCE-CONTINUITY.json": {
+      "sha256": "dfb6fd30ae3a5cf7be37c456e6598860c442e4d85548c3d69203cc9e2a6f3189",
+      "bytes": 32978
+    },
+    "ALL28-CURRENT-DECISIONS.json": {
+      "sha256": "a7b92a926f76dde3a3db729413e5b41632839e8f84813be758c447f33f4c0732",
+      "bytes": 20187
+    },
+    "REPORT.md": {
+      "sha256": "185e36f7afc003d6f60d966740ea23f78d426d23ba86da9254fb94c448ee09ba",
+      "bytes": 5685
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "b95ca4a552febd943fc7bbf098caa63b6b251a9509796f1e0e9e00556f822fbd",
+      "bytes": 648337
+    },
+    "../BATCH-REPORT.md": {
+      "sha256": "660bda959f6678e30ebdae6b32346d189309e9ab3abddb74f771bace57799d42",
+      "bytes": 16303
+    },
+    "../INITIAL-INPUT-ASSERTIONS.json": {
+      "sha256": "6ae3e5703b561b39c5e2d8d16e9c08b5e61b7fce88a21005b4b9e7d81c9f9331",
+      "bytes": 634547
+    },
+    "../INSPECTED-BASELINE-ASSERTIONS.json": {
+      "sha256": "d216188e802a1eaaadcb45401cd0d265a334d843378b78300534fc7f6ac18e2c",
+      "bytes": 15678
+    },
+    "../ACCEPTANCE-CONTINUITY.json": {
+      "sha256": "da5ce8670b4294232f1dc787cd36820d1f79dd1732703ae8e2cffa4a81632d4c",
+      "bytes": 1725
+    },
+    "../COUNTERPART-ACTUAL-SOURCE-ASSERTIONS.json": {
+      "sha256": "e887de28233b6cbb01709df5884385a73972e3cfb75c7c0bf4fd8b265b2c3391",
+      "bytes": 177725
+    },
+    "../MEANINGFUL-PAIR-DECISIONS.json": {
+      "sha256": "c5e3a47684d20932e042fb812872c377b4f4eefb683c23a9473cdad2d6a3d56e",
+      "bytes": 665422
+    },
+    "../EXPLICIT65-DECISIONS.json": {
+      "sha256": "6e57a41a22cf93ce01da9eac0255fa6a98e03af2d4a6fa73ec01924b2be55ad2",
+      "bytes": 179614
+    },
+    "../OWN-PEER4704-DECISIONS.json": {
+      "sha256": "34ec0619e54a24b8b46bd516e9a180d9a2c6ca959b4a9482b032eb42c2893a08",
+      "bytes": 4751930
+    },
+    "../INCIDENTAL51-DECISIONS.json": {
+      "sha256": "ce6aec6f7fa01b5a8d98ae4c88eaa243b6c47006a7d5a9fd058955522d8aa955",
+      "bytes": 29681
+    },
+    "../REVIEWER-BROAD-AND-ADDITIONAL-CURRENT-DECISIONS.json": {
+      "sha256": "4ec5f7c5e70c58ac94be4d1f529c406eee7dc8859d2346a4ed777e09c583d216",
+      "bytes": 55413
+    },
+    "../UNKNOWN-LANGUAGE-DECISIONS.json": {
+      "sha256": "3fcffd5a42edd02107901db80031f510f293a7333cdb50c6c786631bc26b8c66",
+      "bytes": 320820
+    },
+    "../LIFECYCLE-CONTINUITY.json": {
+      "sha256": "922fccc20955a6950eb31e98995e693ba17d27f1e51bea966573c918b12958ff",
+      "bytes": 33149
+    },
+    "../INTEGRATION-STATIC-ASSERTIONS.json": {
+      "sha256": "d984a7054dd4dc14ddda57696d1851c04f5b84d91d09b8ddcd20b9b310374d42",
+      "bytes": 5830
+    },
+    "../COMMANDS-AND-LIMITATIONS.json": {
+      "sha256": "0d3af84be71544323b14c415beb4b5488a0583c8d205004fd36f93cceaf96e30",
+      "bytes": 4428
+    }
+  },
+  "memberCount": 18,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "currentDecisionsNeverAuthoredIntoSourceLedger": true
+}
