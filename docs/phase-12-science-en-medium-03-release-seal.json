@@ -1,0 +1,79 @@
+{
+  "status": "SEALED",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "deckId": "science-en-medium-03",
+  "blockingFindings": 0,
+  "sealedAtUtc": "2026-11-02T01:34:07.573232+00:00",
+  "reportSha256": "ef7179cd2326fa838feafe43fac6e862c153979df33d06c9543bf7cca64d0523",
+  "exactSourceQAFrozenInputSha256": "483f8620b24fd70bbdeab7f2e4dec8ef90bd4b2a976227848790d66edfee10e6",
+  "members": {
+    "BOUNDARY-CHECK.json": {
+      "sha256": "06597b13fa4e9e1ed281f87be416590cf830562376e36fa65d17ce34af8d9dc1",
+      "bytes": 509
+    },
+    "CURRENT-SEMANTIC-DECISIONS.json": {
+      "sha256": "05d7b8ade6f891411cc38932424da1142711a4ed6256e870a4a737ed8cdc1e78",
+      "bytes": 128760
+    },
+    "EXTERNAL-INPUTS.json": {
+      "sha256": "8d5e443eceef59e9d2446d4c932f8e67f9fd21b764dd00b9e9d94ac8870a3581",
+      "bytes": 195355
+    },
+    "FROZEN-INPUT-CAPTURE.json": {
+      "sha256": "483f8620b24fd70bbdeab7f2e4dec8ef90bd4b2a976227848790d66edfee10e6",
+      "bytes": 86228
+    },
+    "INTEGRATION-CHECKS.json": {
+      "sha256": "ba669f42caf0f7440567e0fef8e4ea35e602100c162ab19a520c0a1ddb99ed9e",
+      "bytes": 8316
+    },
+    "INTEGRATION.diff": {
+      "sha256": "9da7d843466fabd047ae2dc5f24c9ef390826e709fab70f467fed8ff1f29764d",
+      "bytes": 8619
+    },
+    "NEW-CURRENT-NATIVE-CONTEXTS.json": {
+      "sha256": "753c477dedbb906397bb524323b68331558e285c243a6093b0dbc9f3ff1da055",
+      "bytes": 569061
+    },
+    "REPORT.md": {
+      "sha256": "ef7179cd2326fa838feafe43fac6e862c153979df33d06c9543bf7cca64d0523",
+      "bytes": 16959
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "0668bc2f3004a742f146a6e10049877679feaeabb3a8ebaf6d876738ec6c44ed",
+      "bytes": 197662
+    },
+    "VERDICT.json": {
+      "sha256": "df8f50305b281fb06501e058a03e795a7f149926414e27b10ffcdcc825a8857e",
+      "bytes": 988
+    },
+    "boundary-check.mjs": {
+      "sha256": "382e2c9d9f33bc810d9677ff8ce4a164146146f8817f85eb6d002fdecd46e2b6",
+      "bytes": 2957
+    },
+    "current-decisions.py": {
+      "sha256": "25ae98ad410b671025169f72c8d9161a3600fe6f6f4ec7c78d888b4f7ab404ed",
+      "bytes": 14306
+    },
+    "finalize.py": {
+      "sha256": "cb5fe50be1bb96e3c7257f65ea3189f19c26971e9dfe032de2f139d29ee077f4",
+      "bytes": 2715
+    },
+    "review-check.py": {
+      "sha256": "acc7a61e37dd12eea91244a748de64788b9ac40802823e4ff7c80be5a691c45e",
+      "bytes": 13978
+    },
+    "verify.py": {
+      "sha256": "26b00c1ee729a1c2267dbc16f0c90ed70535d78f7c5a566415cd7ad4f003c4f0",
+      "bytes": 3908
+    }
+  },
+  "excludedMembers": {
+    "SEAL.json": "A seal cannot recursively hash itself.",
+    "VERIFICATION.json": "Generated after sealing; records actual sealed verification and is not an input."
+  },
+  "selfDiscoveredReviewerTaskId": null,
+  "externallyRecordedReviewerTaskId": "730abc76-5d63-4d2b-aa97-1c44e2a295e0",
+  "identityProvenance": "Caller/coordinator actual task record; not self-discovered. Original null self-ID artifacts are unchanged.",
+  "scope": "Only this frozen Science Medium03 deck; central postreview gates and actual private verification remain required before delivery."
+}

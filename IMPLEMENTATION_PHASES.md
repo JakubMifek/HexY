@@ -36,7 +36,22 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current Geography Hard03 incremental snapshot:** actual private/remote baseline
+**Current Science Medium03 incremental snapshot:** actual private/remote baseline
+`38a11350`,140 decks/3,920 questions. Only ScienceEnglishMedium03 is added here,
+giving141/3,948 with all140 earlier pack bytes/order unchanged. Its complete
+28-question/full-support-array/95-form and actual Medium4Easy/21Medium/3Hard
+calibration bindings are inherited from the actual original independent review.
+The native 26 unchanged questions and two independently accepted alias-corrected
+objects retain full original and correction receipts.
+[Independent content/current-delta acceptance](reviews/phase-12-science-en-medium-03-content.md)
+covers all28 through R29 and the actual concurrent84, resolving the specific
+Ohm/Worm/Xerogel diagnostic roles and archived Gandalf context for this deck.
+Final integration release clearance precedes applicable full quality/native
+and genuine active/expired private upgrade gates. Historical
+audit limitations stay disclosed, not silently proven. Four author lanes remain
+isolated; final330/9,240/all66 is NOT CLEARED.
+
+**Historical Geography Hard03 incremental snapshot:** actual private/remote baseline
 `5a798b9f`,139 decks/3,892 questions. Only GeographyEnglishHard03 is added here,
 giving140/3,920 with all139 earlier pack bytes/order unchanged. Its complete
 28-question/full-evidence/95-form and actual Hard23/Medium5 calibration

@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-medium-03",
+  "title": "Science and technology · Medium · 03",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-medium-03-01",
+      "text": "What instrument measures wind speed, often using rotating cups?",
+      "initial": "A",
+      "answer": "Anemometer",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Anemometer"]
+    },
+    {
+      "id": "science-en-medium-03-02",
+      "text": "What component bends when heated because its two bonded metals expand at different rates?",
+      "initial": "B",
+      "answer": "Bimetallic strip",
+      "language": "en",
+      "aliases": ["Bimetal strip"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Bimetallic_strip"]
+    },
+    {
+      "id": "science-en-medium-03-03",
+      "text": "What phenomenon can draw water up a narrow glass tube through adhesion and surface tension?",
+      "initial": "C",
+      "answer": "Capillarity",
+      "language": "en",
+      "aliases": [
+        "Capillary action",
+        "Capillary rise",
+        "Capillary motion",
+        "Capillary effect",
+        "Wicking"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Capillary_action"]
+    },
+    {
+      "id": "science-en-medium-03-04",
+      "text": "What term means light produced by a chemical reaction without the high temperature of incandescence?",
+      "initial": "CH",
+      "answer": "Chemiluminescence",
+      "language": "en",
+      "aliases": ["Chemoluminescence"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Chemiluminescence"]
+    },
+    {
+      "id": "science-en-medium-03-05",
+      "text": "What process removes dissolved salts from seawater to obtain fresh water?",
+      "initial": "D",
+      "answer": "Desalination",
+      "language": "en",
+      "aliases": ["Desalinization", "Desalinisation"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Desalination",
+        "https://en.wiktionary.org/wiki/desalinisation"
+      ]
+    },
+    {
+      "id": "science-en-medium-03-06",
+      "text": "What process uses an electric current to deposit a coating of metal onto a conducting object?",
+      "initial": "E",
+      "answer": "Electroplating",
+      "language": "en",
+      "aliases": ["Electrodeposition", "Electrochemical deposition"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electroplating"]
+    },
+    {
+      "id": "science-en-medium-03-07",
+      "text": "What form of magnetic ordering aligns neighbouring atomic magnetic moments parallel, producing domains in materials such as iron?",
+      "initial": "F",
+      "answer": "Ferromagnetism",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ferromagnetism"]
+    },
+    {
+      "id": "science-en-medium-03-08",
+      "text": "What assembly changes the speed and torque transmitted through selected sets of gears?",
+      "initial": "G",
+      "answer": "Gearbox",
+      "language": "en",
+      "aliases": ["Gear box", "Gear transmission", "Transmission"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Transmission_(mechanical_device)"
+      ]
+    },
+    {
+      "id": "science-en-medium-03-09",
+      "text": "What floating instrument measures a liquid's relative density, for example when checking brewing sugar content?",
+      "initial": "H",
+      "answer": "Hydrometer",
+      "language": "en",
+      "aliases": ["Areometer"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hydrometer",
+        "https://en.wiktionary.org/wiki/areometer"
+      ]
+    },
+    {
+      "id": "science-en-medium-03-10",
+      "text": "What term describes visible light emitted by an object because it has been heated to a high temperature?",
+      "initial": "I",
+      "answer": "Incandescence",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Incandescence"]
+    },
+    {
+      "id": "science-en-medium-03-11",
+      "text": "What electrical demonstration has an arc that rises between two upward-diverging metal rods?",
+      "initial": "J",
+      "answer": "Jacob's ladder",
+      "language": "en",
+      "aliases": [
+        "Jacobs ladder",
+        "Travelling arc",
+        "Traveling arc",
+        "High voltage travelling arc",
+        "High voltage traveling arc",
+        "High-voltage travelling arc",
+        "High-voltage traveling arc"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electric_arc"]
+    },
+    {
+      "id": "science-en-medium-03-12",
+      "text": "What optical instrument produces changing symmetrical patterns using multiple reflections between angled mirrors?",
+      "initial": "K",
+      "answer": "Kaleidoscope",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Kaleidoscope"]
+    },
+    {
+      "id": "science-en-medium-03-13",
+      "text": "What electroacoustic device commonly uses a voice coil and diaphragm to turn amplified audio signals into sound for a room?",
+      "initial": "L",
+      "answer": "Loudspeaker",
+      "language": "en",
+      "aliases": [
+        "Speaker",
+        "Speaker driver",
+        "Loudspeaker driver",
+        "Speaker system"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Loudspeaker",
+        "https://en.wikipedia.org/wiki/Voice_coil"
+      ]
+    },
+    {
+      "id": "science-en-medium-03-14",
+      "text": "What analytical technique separates ions according to their mass-to-charge ratio?",
+      "initial": "M",
+      "answer": "Mass spectrometry",
+      "language": "en",
+      "aliases": ["Mass spectroscopy", "MS", "Mass spec", "Mass-spec"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Mass_spectrometry"]
+    },
+    {
+      "id": "science-en-medium-03-15",
+      "text": "What phenomenon involves nuclei absorbing radio-frequency energy in a magnetic field and underlies MRI?",
+      "initial": "N",
+      "answer": "Nuclear magnetic resonance",
+      "language": "en",
+      "aliases": ["NMR"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance"]
+    },
+    {
+      "id": "science-en-medium-03-16",
+      "text": "What circuit law states that current through a conductor of constant resistance is proportional to the voltage across it?",
+      "initial": "O",
+      "answer": "Ohm's law",
+      "language": "en",
+      "aliases": ["Ohm law", "Ohms law", "Ohm’s law"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ohm%27s_law"]
+    },
+    {
+      "id": "science-en-medium-03-17",
+      "text": "What effect produces electrical charge when certain crystals are mechanically stressed?",
+      "initial": "P",
+      "answer": "Piezoelectricity",
+      "language": "en",
+      "aliases": ["Piezoelectric effect"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Piezoelectricity"]
+    },
+    {
+      "id": "science-en-medium-03-18",
+      "text": "What quantum phenomenon lets an alpha particle escape a nucleus despite having insufficient energy to pass over the nuclear potential barrier classically?",
+      "initial": "Q",
+      "answer": "Quantum tunnelling",
+      "language": "en",
+      "aliases": [
+        "Quantum tunneling",
+        "Tunnelling",
+        "Tunneling",
+        "Barrier penetration"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Quantum_tunnelling"]
+    },
+    {
+      "id": "science-en-medium-03-19",
+      "text": "What dimensionless quantity compares the speed of light in vacuum with its phase velocity in a material?",
+      "initial": "R",
+      "answer": "Refractive index",
+      "language": "en",
+      "aliases": ["Index of refraction", "Refraction index"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Refractive_index"]
+    },
+    {
+      "id": "science-en-medium-03-20",
+      "text": "What property gives the energy needed per unit mass to raise a material's temperature by one degree, away from a phase transition?",
+      "initial": "S",
+      "answer": "Specific heat capacity",
+      "language": "en",
+      "aliases": [
+        "Specific heat",
+        "Mass-specific heat capacity",
+        "Massic heat capacity"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Specific_heat_capacity"]
+    },
+    {
+      "id": "science-en-medium-03-21",
+      "text": "What class of metallic material can recover a previously set shape when heated after deformation?",
+      "initial": "SH",
+      "answer": "Shape-memory alloy",
+      "language": "en",
+      "aliases": ["Memory metal", "Memory alloy", "Shape memory alloy", "SMA"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Shape-memory_alloy"]
+    },
+    {
+      "id": "science-en-medium-03-22",
+      "text": "What material property describes how readily heat is conducted through a substance?",
+      "initial": "T",
+      "answer": "Thermal conductivity",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Thermal_conductivity"]
+    },
+    {
+      "id": "science-en-medium-03-23",
+      "text": "What process increases the proportion of uranium-235 in a sample of uranium?",
+      "initial": "U",
+      "answer": "Uranium enrichment",
+      "language": "en",
+      "aliases": ["Enrichment of uranium", "Enrichment"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Enriched_uranium"]
+    },
+    {
+      "id": "science-en-medium-03-24",
+      "text": "What small auxiliary scale lets a measuring instrument be read more precisely by comparing line alignments?",
+      "initial": "V",
+      "answer": "Vernier scale",
+      "language": "en",
+      "aliases": ["Nonius", "Vernier"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Vernier_scale"]
+    },
+    {
+      "id": "science-en-medium-03-25",
+      "text": "What gearing arrangement uses a screw-like shaft meshing with a toothed wheel, often for a large speed reduction?",
+      "initial": "W",
+      "answer": "Worm gear",
+      "language": "en",
+      "aliases": [
+        "Worm drive",
+        "Worm gearing",
+        "Endless screw",
+        "Worm and wheel",
+        "Worm-and-wheel drive"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Worm_drive"]
+    },
+    {
+      "id": "science-en-medium-03-26",
+      "text": "What solid porous gel is formed when its liquid is removed by ordinary evaporation rather than supercritical drying?",
+      "initial": "X",
+      "answer": "Xerogel",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Xerogel"]
+    },
+    {
+      "id": "science-en-medium-03-27",
+      "text": "What directional aerial, often mounted on rooftops for television, has one driven element and parallel rods acting as a reflector and directors?",
+      "initial": "Y",
+      "answer": "Yagi antenna",
+      "language": "en",
+      "aliases": [
+        "Yagi–Uda antenna",
+        "Yagi-Uda antenna",
+        "Yagi array",
+        "Yagi–Uda array",
+        "Yagi-Uda array",
+        "Yagi",
+        "Beam antenna",
+        "Parasitic array"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Yagi%E2%80%93Uda_antenna"]
+    },
+    {
+      "id": "science-en-medium-03-28",
+      "text": "What kind of molecule carries both positive and negative formal charges while having zero overall charge?",
+      "initial": "Z",
+      "answer": "Zwitterion",
+      "language": "en",
+      "aliases": ["Dipolar ion", "Inner salt"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Zwitterion"]
+    }
+  ]
+}

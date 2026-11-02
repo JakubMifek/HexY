@@ -1,6 +1,32 @@
 # Content inventory and provenance
 
-## Current Geography Hard03 one-deck snapshot
+## Current Science Medium03 one-deck snapshot
+
+This isolated snapshot contains **141 decks / 3,948 entries**, adding only
+`science-en-medium-03` (English, Medium,28 entries) to actual private delivery
+`38a11350` (140/3,920). All140 earlier pack bytes and ordering remain unchanged.
+Science has15 decks/420 entries, with three English decks at each difficulty.
+General retains13/364, Geography14/392 and Nature15/420; Czech66/English75.
+The [shipment manifest](phase-12-deck-inventory.json) enforces actual incremental
+quotas and the unchanged final330/9,240/all66 five-deck gate.
+The [source ledger](phase-12-science-en-medium-03-sources.json) preserves all28
+complete questions,31 full raw supporting placements, entire enriched reviewer
+evidence,95 forms and exact adult Medium4Easy/21Medium/3Hard calibration.
+The original26 unchanged and two independently accepted alias-corrected objects
+retain complete initial and accepted correction receipts.
+[Independent content/current-delta acceptance](../reviews/phase-12-science-en-medium-03-content.md)
+covers all28 through R29 and the actual concurrent84-question delta.
+The specific Ohm/Worm/Xerogel diagnostic roles and archived Gandalf context
+are resolved for this deck, without broad origin/language exemptions.
+Final integration release clearance precedes full quality/native and deliberate
+active/expired old-private recovery gates.
+Historical audit limitations are disclosed, not reconstructed by assertion.
+No other draft, category or final phase is cleared here.
+
+## Historical Geography Hard03 one-deck snapshot
+
+Actual `38a11350` subsequently shipped only that deck after independent release,
+full quality/native and deliberate active/expired old-data verification.
 
 This isolated snapshot contains **140 decks / 3,920 entries**, adding only
 `geography-en-hard-03` (English, Hard,28 entries) to actual private delivery

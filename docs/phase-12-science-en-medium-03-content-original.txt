@@ -1,0 +1,238 @@
+# Phase12 — science-en-medium-03 independent content/current-delta review
+
+## CONTENT DELTA ACCEPTED
+
+**All28 target entries accepted; zero unresolved own content findings. This is
+not final deck-release, category or Phase12 clearance.**
+
+Reviewer identity is the actual new sole task ID recorded by the caller/coordinator.
+It is not the author `5b48700f-5233-4f37-8aa8-e542d7ef1809`, historical reviewer
+`ea64fe80-7798-4ec3-aee5-f18088088c8c`, or an invented UUID. No self-task-ID
+introspection was available; machine receipts deliberately leave that field null.
+Only this new `independent-content-delta-v2/` directory was written.
+
+### Frozen scope and actual baseline
+
+- Raw candidate:
+  `.artifacts/continuation/bundles/p12/science/batches/b01-v2/packs/science-en-medium-03.json`
+  — `a4f2c0d4d6beae62313032bdfdcb0502854303e06164c8556909edc596f02bed`,
+  12,367 bytes.
+- Complete source ledger:
+  `.artifacts/continuation/bundles/p12/science/batches/b01-v2/sources.json`
+  — `1bad1f9eb42fa6cf3caa0f1d40750a00cba7fafe311e1feeb23ef13834f66b90`.
+- Frozen author handoff:
+  `../throughput-v1/DECK-HANDOFF.json`
+  — `cfd169359befb07e0c4fac4a03e666231046fb2153fa0e7540c8057fcdcabdda`.
+  Its native whole-object bindings, holds, candidate context and predicate inputs
+  were independently checked, not accepted as an author READY verdict.
+- Actual delivered baseline is
+  `38a113508821898fb1d10bab78ebe2ad70f422aa`: **140 decks /3,920 questions,
+  74 English decks**. The immutable Geography EN Hard03 actual-delivery receipt
+  `e2b8cc82c05e530306c1a1123497c6474e7d95a7e0382dface21dea630ae42e6`
+  binds that revision, remote and private served revision. Those delivery/recovery
+  results are inherited, not rerun here. Neither dirty primary159 nor the
+  author's historical f1bca136 handoff is called current delivery.
+- Current immutable R29:
+  `.artifacts/continuation/phase12-shared-deck-reservations-v29.json`
+  — `801fdfa191986b827dd910e0472d028373bee4b0b1cbbf22788cc90cd71d31c8`.
+  Its named immutable queue snapshot is
+  `phase12-deck-queue-reservation-snapshot-v29.json`
+  — `6cba98b2c275c284248adcc23eb56908923b9f6d44d4961f97e12a7c706a48e8`.
+  Local captured copies are included. No future operational queue/usage/ledger
+  is guarded as if it could never change.
+
+`INPUTS.json`, `STOPGUARDS.json`, `SEAL.json` and the read-only `verify.py`
+provide actual paths, SHA256 and byte lengths. The verifier fails on any changed
+bound input or review payload. Later relevant changes require impact assessment;
+this is not all-future semantic clearance.
+
+## Complete native acceptance, not sampling
+
+`WHOLE-ENTRY-CONTINUITY.json` retains every whole question, whole source entry,
+complete support array, both actual native independent receipts and whole adult
+rating. `ENTRY-DECISIONS.json` supplies a substantive current decision for each28,
+complete current native comparisons and meaningful R29 counterparts.
+
+- **26 original whole questions unchanged +2 accepted corrected objects**.
+  The actual corrections are **05 Desalination** and **14 Mass spectrometry**,
+  not Ohm/Worm/Xerogel.
+- All28 current objects equal their actual accepted correction-review questions.
+  Every whole source-entry/evidence-array/receipt hash and all67 aliases match.
+  There are **31 support placements, 28 canonical names, 67 aliases, 95 forms**.
+  Used whole cached body/text and actual metadata-file hashes also verify.
+- Original native receipts:
+  `43e6631ccc1128c4ac671d57071057f18220be55916f54b99ed574a08dbf4925`.
+  Actual accepted correction receipts:
+  `7f36d3c2d57e3d7055568a62f73191414d12135517fb23177d06ae7e1565542a`.
+  Both original reports were read and hash-checked; the original failed complete
+  objects are retained, not retroactively called accepted.
+- Entire adult Medium rating:
+  `26a9b3739d46ace86ad3bb831cf4786618753f2829ace830c9dd6db46f3fc9d1`,
+  within original calibration file
+  `b2d0a1b6bc414da58a99fda2fe82507946016b794e815a51be1e55d759d83c0d`.
+  **4 common /21 informed /3 specialist** is retained with the actual rationale:
+  sustained informed school/technical/popular science, easier desalination/
+  gearbox/kaleidoscope/loudspeaker anchors, specialist xerogel/Yagi/zwitterion
+  outliers, and a scaffolded alpha-barrier clue. No novice-relative rubric,
+  purity rule, alias suppression or difficulty waiver.
+
+The new coordinator portable projection
+`../release-ledger-v1/phase-12-science-en-medium-03-sources.json`,
+`614289c325966783d6e83219b61ff565f76ac56505a0298d9acbc1cfa6d4a40c`,
+2,775,570 bytes, was separately compared to those native objects:
+all28 raw questions, full arrays, aliases, original/accepted receipts and the
+whole rating agree. Its PENDING labels are honest. Projection existence or
+absence is not the authority for initial facts. See `PROJECTION-CONTINUITY.json`.
+
+## Current semantic/source-role delta
+
+R14's23 decks/644 whole question arrays remain unchanged in R29. The bounded
+delta is32 decks/896 whole questions; R29 has55/1,540 full native-bound objects.
+R28's52/1,456 entry arrays are unchanged; R29 adds exactly the three preexisting
+General EN Easy05, Politics CS Medium04 and Arts EN Easy03 packs/84 questions.
+Neutral reservation labels assert neither independent facts nor unshipped status.
+Actual promotion of Geography EN Hard03 changes role, not its raw/source facts.
+
+The review uses the actual unchanged prior judgments, all910 retained contexts,
+all33 incomplete contexts, 212 target-specific native comparisons and52 meaningful
+R29 pairs—not a Cartesian-product count as proof. All211 previously bound native/
+diagnostic contexts still bind their actual named source bytes and full objects;
+the one original missing Gandalf context is separately resolved. Lexical checks
+retain all canonical/alias forms across current55 and the retained contexts.
+The only extra exact own-name representations are the concrete diagnostic copies
+discussed below. Human semantic conclusions are distinct from these mechanical
+checks and do not fact-clear the other55 decks.
+
+Important actual distinctions include:
+
+- Hydrometer liquid density versus Hygrometer air humidity; vernier auxiliary
+  scale versus adjustable-jaw Calipers; Yagi geometry versus generic Antenna.
+- Mass/charge ion separation versus optical Spectrometer, XPS photoelectron
+  energy, XRF photons, electrophoresis and chromatography. Current full support
+  specifically constrains Spectrometer to light despite its broad source title.
+- Capillary rise versus Young–Laplace's static pressure/curvature relation;
+  heat capacity versus named Dulong–Petit/Debye models and thermal transport;
+  conductivity versus the Wiedemann–Franz relation or Kapitza interface resistance.
+- Shape-memory thermal recovery versus unloading elasticity, viscoelasticity and
+  differential bimetal expansion; Xerogel shrinkage/evaporation versus Aerogel
+  network preservation. Actual relevant support contexts are retained.
+- Metal-ion deposition versus electrolysis's umbrella, tin's element identity,
+  inlaid metal decoration, enamel and molten-particle spraying.
+- Alpha tunnelling versus Josephson superconducting current, the actual Czech
+  STM instrument and VPN's explicitly network sense. Distinct subjects are
+  compared; language/category/path prefixes are not universal exemptions.
+- Desalination versus actual Nature osmoregulation, mycorrhiza, water transport
+  and membrane osmosis. No exclusion of Nature or reverse-clue shortcut.
+
+A concrete late Games notice from actual task
+`9fdda46e-a464-4d35-8cb5-d2d37612833a` was also resolved from the actual complete
+draft and full Wavelength entry/support. CMYK's team clue-position party game
+does not ask mass/charge separation or the refractive-index ratio. No shared
+own accepted forms occur in that actual Games28. `LATE-GAMES-PAIR.json` records
+the native paths/hashes, full question, all aliases and publisher source context.
+It does not approve Games facts, unfinished corrections or its adult rating.
+
+The owner's subsequent four-lane refill was also examined **without waiting for
+R30 or unrelated bank bookkeeping**. `ACTIVE-LANE-DELTA.json` captures the actual
+assignment/source bindings and the complete direct General EN Medium05, Games
+EN Medium03 and Arts EN Medium03 **84-question** delta, plus unchanged Geography
+EN Easy03's28 native questions and full source bindings. All full predicates/
+aliases were read and all source entries matched; no own accepted-name collision.
+Kiln versus emission, Filigree versus electrodeposition, musical Polyphony/
+Vibrato/Yodel versus scales/arc/output transduction, and the actual Games products
+are substantively distinct. The captured operational queue copy—not its mutable
+original—is guarded. R29 remains the immutable55/1,540 basis; no R30 is asserted.
+
+Geography's actual raw7383/full sourcesbf18 carry all28 whole questions and aliases
+unchanged. Missing legacy reservation source-pointer metadata is not missing
+initial factual evidence and does not block this Science content decision.
+General's accepted504 inheritance, Games' original84 review and Sherlock21/Valve24
+failures, Arts'80+4 corrections/all31 yields/narrow exceptions are preserved.
+No new Games correction or whole-Medium recalibration approval is implied.
+
+### Findings and prior-hold outcomes
+
+| Finding/hold | Actual outcome |
+|---|---|
+| SCI-P12-B01-R3, target05 | Original rejection of **Desalinisation** reproduced; accepted v2 spelling and naming support retained; actual matcher now accepts. **RESOLVED.** |
+| SCI-P12-B01-R2, target14 | Original rejection of **Mass-spec** reproduced; accepted v2 finite addition and paragraph3 context retained; actual matcher now accepts. **RESOLVED.** |
+| Ohm16/Worm25/Xerogel26 diagnostic/source-role holds | Directly checked actual Sports coverage rows43/52/53 against declared TSV columns, full native Science rows and proper JSON records. Complete predicates/aliases and actual native English bindings identify the **same own Science reservations**, not additional Sports/unknown-language authored questions. **RESOLVED for these decisions**, without global origin attestation. |
+| SCI-M03-NATIVE-CONTEXT, target21 Gandalf | Original missing-path failure preserved. Actual archived full English question, empty alias array, enclosing header, official retirement/classification and prior independent seal checked. Wizard identity from White/Grey return is not thermal recovery of an alloy. Archival status is documented, not inferred from absence. **RESOLVED for this deck.** |
+| Historical generator/import/archive/extraction gaps | **Nonblocking audit limitations under the explicit owner impact amendment**, only after the actual native acceptance and relevant pair decisions above. No missing historical execution proof is fabricated. |
+| Other-deck content/rating holds | **Not cleared or waived.** No concrete connection remains to this deck's28 fact/source/alias/rating/duplicate decisions. |
+
+`HOLD-DISPOSITIONS.json`, `DIAGNOSTIC-ROLE-DECISIONS.json`,
+`GANDALF-DECISION.json` and `INCOMPLETE-CONTEXT-DISPOSITION.json` preserve details.
+The concrete33 incomplete contexts concern movie/person names, diesel/saw/coolant,
+Franck–Condon/Noether and a wrong-concept probe; their actual full accepted sets
+are retained. Their missing clues/provenance are not called verified. The
+scientifically nearby current complete Czech records were considered rather than
+all unknown-language rows being dropped.
+
+Phase11/source-specific retired-yielded V5 constraints remain in force.
+Arts31/Roman32/GeneralTypography/godronGwerz guards and the narrow actual
+Dobby/Čokoláda/Zigzag/Nib/Zrcadlo exceptions are not broadened. Other Nature
+same-sense holds, Dalmatika rating contradiction, Computing CPU/alias/FTC404
+issues and other decks' genuinely missing initial judgments remain unresolved
+where applicable; none is silently transferred to this deck's acceptance.
+
+## Six lenses and remaining release gate
+
+1. **Correctness/completeness:** complete28 native acceptance and current
+   semantic/source-role delta accepted. Real validator/matcher probes pass.
+   Catalog/materialized one-pack integration, full quality/coverage and final
+   release snapshot are **not cleared here**.
+2. **Usability/accessibility:** natural wording, all useful names, fixed initials
+   and absence of own-answer clue disclosure accepted by native continuity and
+   focused checks. No browser, screenshot, printing, focus, tablet/controller or
+   physical-device validation performed. Those integrated journeys remain pending.
+3. **Readability/maintainability:** declarative data, traceable complete sources
+   and additive finite aliases; no new runtime complexity or metric exception.
+4. **OOP/responsibilities:** content-only candidate; no resource-owning class,
+   serialization, event, timer or state-ownership implementation changed.
+5. **Patterns/proportionality:** no framework, dependency, generic matcher change
+   or invented abstraction. Coherent deck-sized review and exact reuse are used.
+6. **Content/rights/delivery:** every target whole question/source/alias/rating is
+   accepted; original wording/rights judgments and secondary-source limitations
+   retained. No legal-name/public-release clearance or new deployment proof claimed.
+
+No heavy test/build/browser/coverage runner, dependency install, historical
+generator, service, Git write, shared cache/bank mutation or delegation was used.
+Existing central limits and the sole coordinator's integration/publication
+ownership are unchanged.
+
+## Commands actually run
+
+All paths below are under this report's directory; run from checkout root.
+
+| Command | Observed result |
+|---|---|
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/check.py` | Whole28/raw full-array/native receipts/all67 aliases/whole rating/cache bindings pass; R14→R29 and R28→R29 exact native deltas pass. |
+| `node --max-old-space-size=128 …/boundary-check.mjs` | Real production validator exact pack equality;28 initials; **380 positive /2,565 negative** probes; zero own-answer disclosures; both original alias failures reproduced and corrected. Lexical nominations are not semantic acceptance. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/native-check.py` | **211 bound contexts /42 named sources** verify; actual missing Gandalf context and three concrete diagnostic roles resolved. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/decisions.py` |28 independent current decisions /52 meaningful R29 pairs persisted; zero own content blockers. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/late-check.py` | Portable projection's actual28 native equalities and actual late Games pair pass. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/active-delta.py` | Latest direct active84 plus unchanged Geography28 native full question/support/alias bindings pass; meaningful own-deck nonconflict decisions persisted; no R30 or other-deck clearance. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/verify.py` | Final strong stopguards and review seal verify; see durable `VERIFICATION.json`. |
+
+Exploratory assumptions were corrected, not counted as passes: `python` is absent
+(used python3); a guessed validator filename did not exist (actual `packs.js`
+read); native contexts include nested diagnostic binding variants (the first
+own check stopped before acceptance, then was corrected and passed). No failing
+product test was hidden or relabeled. Historical parser/import/extraction commands
+were not executed.
+
+The remaining audit limits are historical execution/extraction bookkeeping,
+the two irrelevant Shutdown/Fassbinder static extraction contexts, the33 retained
+incomplete contexts, secondary evidence and editorial rather than population
+difficulty calibration. None currently undermines a specific own decision.
+
+**Next:** coordinator has reported materializing exactly this one deck
+(141/3,948) with native parsed projection equality. The first focused typecheck
+failure and corrected typed-question recheck remain preserved coordinator
+results, not an independently cleared integration snapshot here. Coordinator
+finishes/freezes required source/catalog/tests/usage/count changes and supplies
+the applicable integration/browser/recovery results for this same reviewer's
+final follow-up. Original old-game data/deadlines must remain untouched, with
+active and naturally expired states explicitly distinguished. No release push
+is authorized by this content-delta verdict. Final330/9,240/all66 remains unchanged.

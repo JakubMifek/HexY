@@ -1,5 +1,29 @@
 # HexY
 
+**Phase 12 incremental snapshot: 141 decks / 3,948 questions.** Only
+`science-en-medium-03` is added to actual private revision `38a11350`
+(140 decks / 3,920 questions), preserving every preceding pack byte and order.
+Its [source ledger](docs/phase-12-science-en-medium-03-sources.json) retains all
+28 complete questions, entire raw and enriched supporting arrays, 95 accepted
+answer forms and the exact original general-adult Medium calibration
+(4 Easy / 21 Medium / 3 Hard). The original 26 unchanged questions and two
+independently accepted alias corrections retain their complete original and
+accepted correction receipts.
+[Independent content/current-delta acceptance](reviews/phase-12-science-en-medium-03-content.md)
+covers all28 through R29 and the actual concurrent84-question delta.
+Ohm/Worm/Xerogel diagnostic source roles and the actual archived Gandalf context
+are resolved for this deck; historical audit limitations remain disclosed.
+Final integration release clearance precedes full quality/native and deliberate
+active/expired old-private recovery gates; this is not publication or phase clearance.
+Other candidates remain isolated. Final330/9,240/all66 five-deck quotas and
+independent phase clearance remain unchanged.
+
+## Historical Geography Hard03 adoption checkpoint
+
+Actual `38a11350` subsequently shipped only that deck after independent release,
+full quality/native and deliberate active/expired old-data verification.
+The following is its preserved pre-delivery snapshot.
+
 **Phase 12 incremental snapshot: 140 decks / 3,920 questions.** Only
 `geography-en-hard-03` is added to actual private revision `5a798b9f`
 (139 decks / 3,892 questions), preserving every preceding pack byte and order.
