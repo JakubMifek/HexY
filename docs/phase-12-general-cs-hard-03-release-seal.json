@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "reviewRole": "sole fresh independent reviewer; not author/integrator/publisher",
+  "deckId": "general-cs-hard-03",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "reportSha256": "90cab22dea76ddaadf591ace6cdf78757a0c8177b18d52702d2e4fff2dd3e003",
+  "exactSourceQAFrozenInputSha256": "9ff181475f1d0ec07131497f6227705675916de82dd5f59611def3daa809bd6e",
+  "exactSourceQAFrozenInput": ".artifacts/continuation/parallel-decks/general-cs-hard-03/integration/batch149-v1/FROZEN-RELEASE-INPUT-v1.json",
+  "actualDeliveredBaseline": "f47f55e43824f676d3aa7ed56409475dc3049c35",
+  "candidateDecks": 150,
+  "sourceFiles": 529,
+  "contentAccepted": 28,
+  "releasePermittedAfterCoordinatorSameSnapshotApplicableGates": true,
+  "actualParentRebindingAndNarrowFinalIntegrationAddendumRequired": false,
+  "fullQualityCoverageNativeGatesRunByReviewer": false,
+  "publicationPerformed": false,
+  "phase12Cleared": false,
+  "categoryCleared": false,
+  "members": {
+    "ENTRY-DISPOSITIONS.json": {
+      "sha256": "27cb41fc607dfd9cdab9d7ae6804ea16f221143a331bd2aa0d2b5031d9d8e926",
+      "bytes": 167331
+    },
+    "REPORT.md": {
+      "sha256": "90cab22dea76ddaadf591ace6cdf78757a0c8177b18d52702d2e4fff2dd3e003",
+      "bytes": 9932
+    },
+    "SHARED-REVIEW-BINDINGS.json": {
+      "sha256": "86d200abcdec30356326b7e67f47223ad3f2d8ca6e6b49a9edaee7b5e52e4d09",
+      "bytes": 5660
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "3f5474ce9fc9db15ec1505c9e3c96e35ce2a2dee5dd47f59fac8bf80a0bf2e4f",
+      "bytes": 609611
+    }
+  }
+}

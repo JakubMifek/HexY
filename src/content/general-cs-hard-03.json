@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-hard-03",
+  "title": "Všeobecné znalosti · Těžká · 03",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-hard-03-01",
+      "text": "Jak se v jazykovědě nazývá zánik hlásky nebo slabiky na konci slova?",
+      "initial": "A",
+      "answer": "Apokopa",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Apocope"],
+      "sources": ["https://en.wikipedia.org/wiki/Apocope"]
+    },
+    {
+      "id": "general-cs-hard-03-02",
+      "text": "Jak se nazývá tuhá tkanina zpevněná škrobem nebo jiným pojivem, používaná tradičně na knižní vazby a klobouky?",
+      "initial": "B",
+      "answer": "Buckram",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Bukram"],
+      "sources": ["https://cs.wikipedia.org/wiki/Buckram"]
+    },
+    {
+      "id": "general-cs-hard-03-03",
+      "text": "Jak se nazývá šňůra nebo pás, jímž se v katolické liturgii přepásává alba?",
+      "initial": "C",
+      "answer": "Cingulum",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cincture"]
+    },
+    {
+      "id": "general-cs-hard-03-04",
+      "text": "Jak se nazývá tradiční turecká dýmka s dlouhou, často zdobenou troubelí?",
+      "initial": "Č",
+      "answer": "Čibuk",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Čibouk", "Chibouk"],
+      "sources": ["https://en.wikipedia.org/wiki/Chibouk"]
+    },
+    {
+      "id": "general-cs-hard-03-05",
+      "text": "Jak se nazývá svrchní liturgické roucho v podobě zkrácené tuniky, které při katolické mši obléká jáhen?",
+      "initial": "D",
+      "answer": "Dalmatika",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Dalmatic"],
+      "sources": ["https://cs.wikipedia.org/wiki/Dalmatika"]
+    },
+    {
+      "id": "general-cs-hard-03-06",
+      "text": "Jak se nazývá básnická figura, při níž se poslední slovo jednoho verše nebo úseku opakuje na začátku následujícího?",
+      "initial": "E",
+      "answer": "Epanastrofa",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Anadiploze", "Anadiplosis", "Palilogie"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anadiplosis",
+        "https://ssjc.ujc.cas.cz/search.php?heslo=palilogie&stype=H&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-hard-03-07",
+      "text": "Jak se nazývá ručně vázaná krajka tvořená uzlíky, obloučky a kroužky, tradičně pomocí člunku?",
+      "initial": "F",
+      "answer": "Frivolitka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Frivolitková krajka"],
+      "sources": ["https://en.wikipedia.org/wiki/Tatting"]
+    },
+    {
+      "id": "general-cs-hard-03-08",
+      "text": "Jak se nazývá vytváření jemných opakujících se proplétaných ornamentálních linií, tradičně pomocí speciálního soustruhu?",
+      "initial": "G",
+      "answer": "Gilošování",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Guilloché", "Giloš"],
+      "sources": ["https://en.wikipedia.org/wiki/Guilloch%C3%A9"]
+    },
+    {
+      "id": "general-cs-hard-03-09",
+      "text": "Jak se nazýval starořecký svrchní oděv tvořený velkým obdélníkem látky ovinutým kolem těla?",
+      "initial": "H",
+      "answer": "Himation",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Himation"]
+    },
+    {
+      "id": "general-cs-hard-03-10",
+      "text": "Jak se nazývá smaltérská technika, při níž se smaltem vyplňují prohlubně vytvořené v kovovém podkladu, nikoli přihrádky z přidaných drátků?",
+      "initial": "Ch",
+      "answer": "Champlevé",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jamkový email", "Jamkový smalt"],
+      "sources": ["https://en.wikipedia.org/wiki/Champlev%C3%A9"]
+    },
+    {
+      "id": "general-cs-hard-03-11",
+      "text": "Jaký latinský termín označuje počáteční slova textu, podle nichž lze dílo identifikovat?",
+      "initial": "I",
+      "answer": "Incipit",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Incipit"]
+    },
+    {
+      "id": "general-cs-hard-03-12",
+      "text": "Jak se nazývá ozdobná krajková či řasená náprsenka splývající pod krkem košile nebo halenky?",
+      "initial": "J",
+      "answer": "Jabot",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Žabot", "Žabó"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jabot_(neckwear)",
+        "https://ssjc.ujc.cas.cz/search.php?heslo=%C5%BEabot&stype=H&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-hard-03-13",
+      "text": "Jak se nazývá stroj s válci používaný při konečné úpravě tkanin k jejich hlazení a zvýšení lesku?",
+      "initial": "K",
+      "answer": "Kalandr",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Kalandrovací stroj"],
+      "sources": [
+        "https://ssjc.ujc.cas.cz/search.php?heslo=kalandr&stype=H&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-hard-03-14",
+      "text": "Jak se v architektuře nazývá půlkruhová plocha, například nad dveřmi, jejíž francouzský název znamená malý měsíc?",
+      "initial": "L",
+      "answer": "Luneta",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Lunette"]
+    },
+    {
+      "id": "general-cs-hard-03-15",
+      "text": "Jak se v polygrafii nazývají zkažené nebo odpadní archy vznikající při tisku?",
+      "initial": "M",
+      "answer": "Makulatura",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Tiskařská makulatura"],
+      "sources": ["https://cs.wikipedia.org/wiki/Makulatura"]
+    },
+    {
+      "id": "general-cs-hard-03-16",
+      "text": "Jak se nazývá drobný zaoblený styl arabského písma tradičně používaný k opisování knih včetně Koránu?",
+      "initial": "N",
+      "answer": "Naskh",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Nasch", "Naskhi"],
+      "sources": ["https://en.wikipedia.org/wiki/Naskh_(script)"]
+    },
+    {
+      "id": "general-cs-hard-03-17",
+      "text": "Jak se nazývá dekorativní bronz zlacený tradičně amalgámem zlata a rtuti, užívaný například na nábytkové ozdoby v 18. století?",
+      "initial": "O",
+      "answer": "Ormolu",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Pozlacený bronz", "Zlacený bronz"],
+      "sources": ["https://en.wikipedia.org/wiki/Ormolu"]
+    },
+    {
+      "id": "general-cs-hard-03-18",
+      "text": "Jak se nazývá úzký ozdobný proužek přeložené látky všívaný do švu pro zvýraznění okraje oděvu?",
+      "initial": "P",
+      "answer": "Paspule",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Paspulka", "Piping"],
+      "sources": ["https://en.wikipedia.org/wiki/Piping_(sewing)"]
+    },
+    {
+      "id": "general-cs-hard-03-19",
+      "text": "Jak se při zpracování lnu nazývá rozvolňování lýkových vláken působením vlhkosti a mikroorganismů, které předchází jejich oddělení od stonku?",
+      "initial": "R",
+      "answer": "Rosení",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Máčení", "Máčení lnu", "Rosení lnu"],
+      "sources": ["https://en.wikipedia.org/wiki/Retting"]
+    },
+    {
+      "id": "general-cs-hard-03-20",
+      "text": "Jak se nazývá steh tvořený navzájem provázanými smyčkami, kterým lze ručně vyšívat plynulé zakřivené linie?",
+      "initial": "Ř",
+      "answer": "Řetízkový steh",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Řetízkové vyšívání"],
+      "sources": ["https://en.wikipedia.org/wiki/Chain_stitch"]
+    },
+    {
+      "id": "general-cs-hard-03-21",
+      "text": "Jak se nazývá úzký plochý prýmek používaný k ozdobnému obšívání oděvů?",
+      "initial": "S",
+      "answer": "Sutaška",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Soutache", "Soutaška"],
+      "sources": ["https://en.wikipedia.org/wiki/Soutache"]
+    },
+    {
+      "id": "general-cs-hard-03-22",
+      "text": "Jak se nazývá hedvábná tkanina s nepravidelně zesílenými nitěmi, pojmenovaná podle čínské provincie Šan-tung?",
+      "initial": "Š",
+      "answer": "Šantung",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Shantung", "Šantungové hedvábí"],
+      "sources": ["https://en.wikipedia.org/wiki/Shantung_(fabric)"]
+    },
+    {
+      "id": "general-cs-hard-03-23",
+      "text": "Jak se nazývá druh paličkované krajky s geometrickými vzory a hrubší nití, jehož francouzský název znamená utěrku?",
+      "initial": "T",
+      "answer": "Torchon",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Torchonová krajka"],
+      "sources": ["https://en.wikipedia.org/wiki/Torchon_lace"]
+    },
+    {
+      "id": "general-cs-hard-03-24",
+      "text": "Jak se nazývá vztyčená kobra zobrazená na staroegyptské královské čelence jako ochranný znak panovníka?",
+      "initial": "U",
+      "answer": "Uraeus",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ureus"],
+      "sources": ["https://en.wikipedia.org/wiki/Uraeus"]
+    },
+    {
+      "id": "general-cs-hard-03-25",
+      "text": "Jak se v indické kuchyni nazývá tenoučká jedlá fólie z tepaného stříbra nebo zlata používaná ke zdobení cukrovinek?",
+      "initial": "V",
+      "answer": "Vark",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Varak", "Varakh", "Varaq", "Waraq", "Warq"],
+      "sources": ["https://en.wikipedia.org/wiki/Vark"]
+    },
+    {
+      "id": "general-cs-hard-03-26",
+      "text": "Jak se nazývají korálky ze schránek měkkýšů, které některé původní národy severovýchodní Ameriky používaly například k výrobě pamětních pásů?",
+      "initial": "W",
+      "answer": "Wampum",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Wampum"]
+    },
+    {
+      "id": "general-cs-hard-03-27",
+      "text": "Jak se nazývá tradiční ozdobný držák, do něhož se vkládá malý šálek na kávu bez ouška?",
+      "initial": "Z",
+      "answer": "Zarf",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Zarf"]
+    },
+    {
+      "id": "general-cs-hard-03-28",
+      "text": "Jak se nazývá druh zátažné pleteniny, jehož jméno pochází od jednoho z Normanských ostrovů?",
+      "initial": "Ž",
+      "answer": "Žerzej",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jersey", "Žersej"],
+      "sources": ["https://en.wikipedia.org/wiki/Jersey_(fabric)"]
+    }
+  ]
+}

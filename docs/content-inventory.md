@@ -1,6 +1,31 @@
 # Content inventory and provenance
 
-## Current General Czech Hard04 one-deck sequence candidate
+## Current General Czech Hard03 one-deck candidate
+
+**150 decks / 4,200 entries**, adding only `general-cs-hard-03` to actual private
+`f47f55e4` (149/4,172). General17/476; English81/Czech69.
+The [manifest](phase-12-deck-inventory.json) keeps final330/9,240/all66 quotas.
+The [source ledger](phase-12-general-cs-hard-03-sources.json) preserves the
+28 accepted corrected whole questions, all40 aliases, full evidence arrays,
+original correction findings and whole-adult Hard calibration
+(26 Hard, 1 Easy, 1 Medium), including the exact two alias-removal continuities.
+Current meaningful cross-category/phase/unknown-language and staged/proposal
+decisions still require independent review. Historical audit limitations are
+disclosed by their relevant decision impact, never silently relabelled proven.
+The manifest now also binds stable catalog numbering: all149 existing normalized
+names remain exact even when the new native ID sorts before a shipped one.
+All prior raw packs, ordering and exported titles remain immutable.
+Independent release clearance and applicable full quality/coverage/native gates
+precede the separate one-deck push and actual private served28/old active-and-
+expired data/deadline verification. Preparation is not release or phase clearance.
+
+## Historical delivered General Czech Hard04 preparation checkpoint
+
+Actual `f47f55e4` separately delivered149/4,172 after independent review and
+full applicable gates/private served-deck/old-data/deadline verification.
+The following retains its pre-delivery description, not this150 candidate's result.
+
+### Prior General Czech Hard04 one-deck sequence candidate
 
 **149 decks / 4,172 entries.**
 Only `general-cs-hard-04` is added relative to proposed predecessor148.

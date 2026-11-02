@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { expect, test } from 'vitest';
 import { bundledPacks } from '../src/content/catalog.js';
 import { catalogNames, sortedDecks } from '../src/ui/catalog-names.js';
@@ -43,35 +44,49 @@ test.each(/** @type {const} */ (['cs', 'en']))(
 );
 
 test.each(/** @type {const} */ (['cs', 'en']))(
-  '%s phase-12 additions 03–05 preserve every existing normalized name',
+  '%s each delivered append preserves all preceding normalized names',
   (language) => {
-    const baseline = bundledPacks().filter(
-      (pack) => !/-(easy|medium|hard)-0[3-5]$/.test(pack.id),
-    );
+    const packs = bundledPacks();
+    const baseline = packs.slice(0, 132);
     const t = preparationStrings[language];
-    const before = catalogNames(t, baseline);
-    const additions = DIFFICULTIES.flatMap((level) =>
-      ['03', '04', '05'].map((number) => ({
-        ...sourcePack(language),
-        id: `general-${language}-${level}-${number}`,
-        difficulty: level,
-      })),
-    );
-    additions.forEach((pack) => {
-      pack.questions = pack.questions.map((question) => ({
-        ...question,
-        category: 'general',
-        difficulty: pack.difficulty,
-      }));
-    });
-    const after = catalogNames(t, [...additions, ...baseline].reverse());
-    for (const [id, name] of before) expect(after.get(id)).toBe(name);
-    for (const pack of additions)
-      expect(after.get(pack.id)).toBe(
-        `${t.categories.general} · ${t.difficulties[pack.difficulty]} · ${pack.id.slice(-2)}`,
-      );
+    let before = catalogNames(t, baseline);
+    for (const addition of packs.slice(132)) {
+      baseline.push(addition);
+      const after = catalogNames(t, [...baseline].reverse());
+      for (const [id, name] of before) expect(after.get(id)).toBe(name);
+      before = after;
+    }
   },
 );
+
+test.each(/** @type {const} */ (['cs', 'en']))(
+  '%s all 149 previously shipped names retain their exact historical bindings',
+  (language) => {
+    const packs = bundledPacks();
+    const ids = new Set(packs.slice(0, 149).map((pack) => pack.id));
+    const entries = [...catalogNames(preparationStrings[language], packs)]
+      .filter(([id]) => ids.has(id))
+      .sort(([a], [b]) => a.localeCompare(b, 'en', { numeric: true }));
+    expect(entries).toHaveLength(149);
+    const expected = {
+      cs: 'a48d821283d038b62c7e497fe387849ef43fe2ddf5a0d7b66f7c408090fb073c',
+      en: 'e65e0b045b3ac4691f7535e51046a787753b22384620b80491669989614ae4ee',
+    };
+    expect(
+      createHash('sha256').update(JSON.stringify(entries)).digest('hex'),
+    ).toBe(expected[language]);
+  },
+);
+
+test('a later lower-ID deck receives the next display number without renumbering its predecessor', () => {
+  const names = catalogNames(preparationStrings.cs, bundledPacks());
+  expect(names.get('general-cs-hard-04')).toBe(
+    'Všeobecné znalosti · Těžká · 03',
+  );
+  expect(names.get('general-cs-hard-03')).toBe(
+    'Všeobecné znalosti · Těžká · 04',
+  );
+});
 
 test('custom names stay intact and sort by level, localized natural title, then ID', () => {
   const items = [

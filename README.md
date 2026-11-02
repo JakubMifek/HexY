@@ -1,5 +1,29 @@
 # HexY
 
+**Phase 12 incremental candidate: 150 decks / 4,200 questions.**
+Only `general-cs-hard-03` is added to actual private `f47f55e4`
+(149 decks / 4,172 questions). General17/476; English81/Czech69.
+The [source ledger](docs/phase-12-general-cs-hard-03-sources.json) retains
+the 28 independently accepted corrected questions, all40 aliases, full supporting
+arrays and original whole-adult Hard calibration (26 Hard, 1 Easy, 1 Medium).
+Prior correction findings and two accepted alias-removal continuity judgments
+remain intact. Current semantic/lifecycle deltas and final independent release
+clearance remain required; source retention is not semantic approval.
+All149 preceding pack bytes, positions and normalized names are preserved.
+The display-number fix uses the existing append-only shipment manifest rather
+than raw ID sorting: previously shipped Hard04 stays display03, later Hard03
+receives display04. Raw titles, question IDs and exported metadata never change.
+Each reviewed intermediate receives its applicable quality/coverage/native gates
+and a separate one-deck commit/push/private whole-deck and active/expired old-data
+verification. No other draft is bundled; final330/9,240/all66 remains NOT CLEARED.
+
+## Historical delivered149 candidate — retained preparation description
+
+Actual `f47f55e4` separately delivered the following149-deck snapshot after
+independent release, full quality/coverage/native and private served-deck/
+old active-and-expired data/deadline verification. The text below is its
+preserved preparation state, not the current150 candidate's gate result.
+
 **Phase 12 incremental candidate: 149 decks / 4,172 questions.**
 Only `general-cs-hard-04` is added relative to proposed predecessor148.
 This is the explicit cumulative release-sequence candidate, not a promotion
@@ -601,8 +625,11 @@ Both spoken and typed games use the same preparation workflow:
    by localized name (mixed custom decks use their easiest included level).
    Difficulty uses both a colored symbol and a localized text label.
    Bundled catalog names follow Category · Difficulty · Number, consistently
-   numbered within each language/category/level before filtering; custom titles
-   and all original pack/export metadata remain unchanged.
+   numbered within each language/category/level before filtering. The original
+   132 decks retain their numbering; later decks receive the next number in
+   their manifest delivery order, even when a native ID arrives out of sequence.
+   Already published names never change. Custom titles and all original
+   pack/export metadata remain unchanged.
    A folder checkbox selects/deselects
    only its currently matching decks, shows selected/matching counts and a
    partial-selection state. The summary opens/closes with Enter/Space; the separate

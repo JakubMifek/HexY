@@ -52,7 +52,26 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current General Czech Hard04 sequence candidate:**149/4,172;
+**Current General Czech Hard03 candidate:**150/4,200, adding only this
+28-entry deck to actual private `f47f55e4` (149/4,172).
+The prior independently accepted corrected questions/full evidence/all40 aliases
+and exact original whole-Hard calibration (26 Hard,1 Easy,1 Medium) are inherited;
+current meaningful semantic/lifecycle deltas and final integration remain pending.
+Stable numbering follows the existing manifest's append-only delivery order,
+preserving all149 previous normalized names and raw pack bytes/positions.
+Initial regression failed5 cases on the original raw-ID algorithm; the fix passed
+9 focused naming tests and4 real Chromium/Firefox theme/filter/export flows.
+These are focused pre-review checks, not full postreview release clearance.
+One author handles the coherent Hard03/EnglishMedium04/GeographyCzechEasy03 batch;
+each actual-parent intermediate needs covered applicable gates and its separate
+one-deck push/private old-data/served-content verification.
+Final330/9,240/all66 remains NOT CLEARED; no historical findings are erased.
+
+**Historical delivered General Czech Hard04 preparation:** actual `f47f55e4`
+delivered149/4,172 after independent review/full gates/private verification.
+The following preserves its previous candidate description.
+
+**Prior General Czech Hard04 sequence candidate:**149/4,172;
 proposed predecessor148, original verified batch baseline146/4,088/
 `cc11b261`. Accepted question/full-evidence/alias/adult-level receipts are
 preserved, not re-researched. All meaningful current semantic decisions and

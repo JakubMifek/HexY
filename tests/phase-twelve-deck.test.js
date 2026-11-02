@@ -27,6 +27,23 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  */
 
 /**
+ * @typedef {{id: string, verdict: string, distribution: Record<string, number>,
+ * rationale: string}} GeneralCraftHardRating
+ */
+
+/**
+ * @typedef {{packId: string, proposedDifficulty: string, entriesRead: number,
+ * editorialBuckets: Record<string, number>, difficultyVerdict: string,
+ * contentVerdict: string, latestCrossCategoryVerdict: string}} GeneralMediumFourRating
+ */
+
+/**
+ * @typedef {{deckId: string, declared: string, independentlyAcceptedDominantAdultLevel: string,
+ * accepted: boolean, individualDistribution: Record<string, number>,
+ * all28EntryReceiptsRetained: boolean}} GeographyEasyThreeRating
+ */
+
+/**
  * @typedef {{id: string, verdict: string, reason: string,
  * easierAnchors: string[], specialistOutliers: string[],
  * outlierReason: string}} ScienceInstrumentRating
@@ -47,8 +64,10 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * individualDistribution: Record<string, number>
  * } | {id: string, decision: string, commonEasyIndices: number[],
  * informedMediumIndices: number[], specialistHardIndices: number[]} |
- * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating | ScienceInstrumentRating | ScienceHardBridgeRating} AcceptedRating
+ * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating | ScienceInstrumentRating | ScienceHardBridgeRating | GeneralCraftHardRating} EstablishedRating
  */
+
+/** @typedef {EstablishedRating | GeneralMediumFourRating | GeographyEasyThreeRating} AcceptedRating */
 
 /** @param {Record<string, number>} levels */
 function expectRatingDistribution(levels) {
@@ -119,11 +138,15 @@ function expectGeographyRating(rating, deckId, difficulty) {
 }
 
 /**
- * @param {LocalizedGeneralRating} rating
+ * @param {LocalizedGeneralRating | GeneralCraftHardRating} rating
  * @param {string} deckId
  * @param {string} difficulty
  */
 function expectLocalizedGeneralRating(rating, deckId, difficulty) {
+  if (!('entries' in rating)) {
+    expectGeneralCraftHardRating(rating, deckId, difficulty);
+    return;
+  }
   if (deckId === 'general-cs-hard-04') {
     expect(difficulty).toBe('hard');
     expect(rating.id).toBe(deckId);
@@ -166,6 +189,52 @@ function expectLocalizedGeneralRating(rating, deckId, difficulty) {
   expect(rating.verdict).toBe(
     'ACCEPTED whole-deck adult difficulty; localized aliases remain separate findings',
   );
+}
+
+/** @param {GeneralCraftHardRating} rating @param {string} deckId @param {string} difficulty */
+function expectGeneralCraftHardRating(rating, deckId, difficulty) {
+  expect(deckId).toBe('general-cs-hard-03');
+  expect(difficulty).toBe('hard');
+  expect(rating.id).toBe(deckId);
+  expect(digest(JSON.stringify(rating))).toBe(
+    'bed96564119260b806aaf31dc5b319e4a95b1ed933d881665f15768a318f9d43',
+  );
+  expect(rating.verdict).toBe('ACCEPTED whole-deck adult difficulty');
+  expect(rating.distribution).toEqual({ hard: 26, easy: 1, medium: 1 });
+  expect(rating.rationale).toContain('Neither is relabelled Hard');
+}
+
+/** @param {GeneralMediumFourRating} rating @param {string} deckId @param {string} difficulty */
+function expectGeneralMediumFourRating(rating, deckId, difficulty) {
+  expect(deckId).toBe('general-en-medium-04');
+  expect(difficulty).toBe('medium');
+  expect(digest(JSON.stringify(rating))).toBe(
+    '6bdb63664625e355d948af1f237e52146cdf306cb115310bac3dfd9da8212001',
+  );
+  expect(rating.packId).toBe(deckId);
+  expect(rating.proposedDifficulty).toBe(difficulty);
+  expect(rating.entriesRead).toBe(28);
+  expect(rating.editorialBuckets).toEqual({ easy: 2, medium: 21, hard: 5 });
+  expect(rating.difficultyVerdict).toContain('CLEARED: deck demand');
+  expect(rating.contentVerdict).toBe('CLEARED isolated corrected deck only');
+  expect(rating.latestCrossCategoryVerdict).toBe(
+    'BLOCKED unresolved live Arts reservations',
+  );
+}
+
+/** @param {GeographyEasyThreeRating} rating @param {string} deckId @param {string} difficulty */
+function expectGeographyEasyThreeRating(rating, deckId, difficulty) {
+  expect(deckId).toBe('geography-cs-easy-03');
+  expect(difficulty).toBe('easy');
+  expect(digest(JSON.stringify(rating))).toBe(
+    'c260e2727772ba6f7dd3b8d3feb3864b5f57ffd041131d27e763296f9297b445',
+  );
+  expect(rating.deckId).toBe(deckId);
+  expect(rating.declared).toBe(difficulty);
+  expect(rating.independentlyAcceptedDominantAdultLevel).toBe('Easy');
+  expect(rating.accepted).toBe(true);
+  expect(rating.all28EntryReceiptsRetained).toBe(true);
+  expect(rating.individualDistribution).toEqual({ Easy: 23, Medium: 5 });
 }
 
 /**
@@ -220,6 +289,17 @@ function expectScienceHardBridgeRating(rating, deckId, difficulty) {
  * @param {string} difficulty
  */
 function expectAcceptedRating(rating, deckId, difficulty) {
+  if ('independentlyAcceptedDominantAdultLevel' in rating) {
+    expectGeographyEasyThreeRating(rating, deckId, difficulty);
+  } else if ('editorialBuckets' in rating) {
+    expectGeneralMediumFourRating(rating, deckId, difficulty);
+  } else {
+    expectEstablishedRating(rating, deckId, difficulty);
+  }
+}
+
+/** @param {EstablishedRating} rating @param {string} deckId @param {string} difficulty */
+function expectEstablishedRating(rating, deckId, difficulty) {
   if ('entriesReviewed' in rating) {
     expect(rating.entriesReviewed).toBe(28);
     expect(rating.independentDominantGeneralAdultRating).toBe(difficulty);

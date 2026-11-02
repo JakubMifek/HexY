@@ -146,6 +146,63 @@ for (const language of ['cs', 'en']) {
   }
 }
 
+const lateAdditions = [
+  {
+    added: 'general-cs-hard-03',
+    predecessor: 'general-cs-hard-04',
+    language: 'cs',
+    level: 'hard',
+  },
+  {
+    added: 'general-en-medium-04',
+    predecessor: 'general-en-medium-05',
+    language: 'en',
+    level: 'medium',
+  },
+].filter((pair) => catalogPacks.some((pack) => pack.id === pair.added));
+
+for (const pair of lateAdditions) {
+  for (const theme of ['light', 'dark']) {
+    test(`stable delivered display numbering ${pair.added} ${theme}: native IDs, filters and original exports`, async ({
+      page,
+    }, info) => {
+      await setupPreparation(page, pair.language);
+      await setTheme(page, theme);
+      const t = preparationStrings[pair.language];
+      await page.locator('#decks-general summary').click();
+      const expected = [
+        [pair.predecessor, '03'],
+        [pair.added, '04'],
+      ];
+      for (const level of [pair.level, '']) {
+        await page.locator('#catalog-difficulty').selectOption(level);
+        for (const [id, number] of expected)
+          await expect(
+            page
+              .locator('.deck-row')
+              .filter({ has: page.locator(`[id="source-${id}"]`) })
+              .locator('strong'),
+          ).toHaveText(
+            `${t.categories.general} · ${t.difficulties[pair.level]} · ${number}`,
+          );
+      }
+      await page.locator('#clear-sources').click();
+      await page.locator(`[id="source-${pair.predecessor}"]`).check();
+      await page.locator('#prepare-board').click();
+      await page.locator('#accept-board').click();
+      const exported = await download(
+        page,
+        info,
+        '#export-pack',
+        'stable-original.json',
+      );
+      expect(JSON.parse(exported.text)).toEqual(
+        catalogPacks.find((pack) => pack.id === pair.predecessor),
+      );
+    });
+  }
+}
+
 test('custom folder starts closed, preserves imported titles and sorts names naturally', async ({
   page,
 }) => {
