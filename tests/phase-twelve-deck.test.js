@@ -33,6 +33,11 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  */
 
 /**
+ * @typedef {{id: string, verdict: string, reason: string,
+ * informedBridges: string[], bridgeReason: string}} ScienceHardBridgeRating
+ */
+
+/**
  * @typedef {{
  * entriesReviewed: number, independentDominantGeneralAdultRating: string
  * } | {id: string, entriesRead: number, proposedDifficulty: string,
@@ -42,7 +47,7 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * individualDistribution: Record<string, number>
  * } | {id: string, decision: string, commonEasyIndices: number[],
  * informedMediumIndices: number[], specialistHardIndices: number[]} |
- * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating | ScienceInstrumentRating} AcceptedRating
+ * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating | ScienceInstrumentRating | ScienceHardBridgeRating} AcceptedRating
  */
 
 /** @param {Record<string, number>} levels */
@@ -168,6 +173,26 @@ function expectScienceInstrumentRating(rating, deckId, difficulty) {
 }
 
 /**
+ * @param {ScienceHardBridgeRating} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectScienceHardBridgeRating(rating, deckId, difficulty) {
+  expect(deckId).toBe('science-en-hard-04');
+  expect(difficulty).toBe('hard');
+  expect(rating.id).toBe(deckId);
+  expect(digest(JSON.stringify(rating))).toBe(
+    '64aa583f45324e41e93ebf7a2749d12d4ab9dcd6f833f4ddf8d562ba42ef12f3',
+  );
+  expect(rating.verdict).toBe('ACCEPT HARD');
+  expect(rating.informedBridges).toEqual([
+    'science-en-hard-04-03',
+    'science-en-hard-04-20',
+    'science-en-hard-04-24',
+  ]);
+}
+
+/**
  * @param {AcceptedRating} rating
  * @param {string} deckId
  * @param {string} difficulty
@@ -191,6 +216,8 @@ function expectAcceptedRating(rating, deckId, difficulty) {
     expectGeographyRating(rating, deckId, difficulty);
   } else if ('distribution' in rating) {
     expectLocalizedGeneralRating(rating, deckId, difficulty);
+  } else if ('informedBridges' in rating) {
+    expectScienceHardBridgeRating(rating, deckId, difficulty);
   } else if ('easierAnchors' in rating) {
     expectScienceInstrumentRating(rating, deckId, difficulty);
   } else {

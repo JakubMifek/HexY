@@ -52,6 +52,16 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
+**Current Science English Hard04 sequence candidate:**148/4,144;
+proposed predecessor147, original verified batch baseline146/4,088/
+`cc11b261`. Accepted question/full-evidence/alias/adult-level receipts are
+preserved, not re-researched. All meaningful current semantic decisions and
+independent integration/release clearance remain required, followed by actual
+intermediate inventory/content/build/affected-integration/native/private gates.
+No final149 result substitutes for147/148. Never reset old deadlines or publish
+another draft. Final330/9,240/all66 and separate all64-runtime coverage remain.
+
+**Earlier sequence preparation, not current gate clearance:**
 **Current Science English Medium04 incremental candidate:** actual private
 baseline `cc11b261`,146 decks/4,088 questions; only this28-entry deck is
 added here for147/4,116, preserving all146 earlier pack bytes/order/names.

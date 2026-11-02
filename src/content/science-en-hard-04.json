@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-hard-04",
+  "title": "Science and technology · Hard · 04",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-hard-04-01",
+      "text": "What diffraction-based resolution limit for microscopy is commonly written d = λ/(2NA)?",
+      "initial": "A",
+      "answer": "Abbe limit",
+      "language": "en",
+      "aliases": [
+        "Abbe diffraction limit",
+        "Abbe's limit",
+        "Abbe's diffraction limit",
+        "Abbe resolution limit"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Abbe_diffraction_limit"]
+    },
+    {
+      "id": "science-en-hard-04-02",
+      "text": "What theorem represents electron wavefunctions in a periodic potential as a plane wave times a lattice-periodic function?",
+      "initial": "B",
+      "answer": "Bloch theorem",
+      "language": "en",
+      "aliases": [
+        "Bloch's theorem",
+        "Bloch’s theorem",
+        "Bloch-Floquet theorem",
+        "Bloch–Floquet theorem"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Bloch%27s_theorem"]
+    },
+    {
+      "id": "science-en-hard-04-03",
+      "text": "What velocity-dependent apparent force acts perpendicular to an object’s velocity in a rotating reference frame?",
+      "initial": "C",
+      "answer": "Coriolis force",
+      "language": "en",
+      "aliases": ["Coriolis effect"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Coriolis_force"]
+    },
+    {
+      "id": "science-en-hard-04-04",
+      "text": "What mass limit for an ideal cold, nonrotating white dwarf supported by electron degeneracy is approximately 1.4 solar masses?",
+      "initial": "CH",
+      "answer": "Chandrasekhar limit",
+      "language": "en",
+      "aliases": [
+        "Chandrasekhar's limit",
+        "Chandrasekhar mass",
+        "Chandrasekhar mass limit"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Chandrasekhar_limit"]
+    },
+    {
+      "id": "science-en-hard-04-05",
+      "text": "What classical high-temperature law gives about 3R for the molar constant-volume heat capacity of a solid element?",
+      "initial": "D",
+      "answer": "Dulong–Petit law",
+      "language": "en",
+      "aliases": ["Dulong-Petit law", "Law of Dulong and Petit"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Dulong%E2%80%93Petit_law"]
+    },
+    {
+      "id": "science-en-hard-04-06",
+      "text": "What set of coefficients describes spontaneous emission, stimulated emission and absorption between energy levels?",
+      "initial": "E",
+      "answer": "Einstein coefficients",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Einstein_coefficients"]
+    },
+    {
+      "id": "science-en-hard-04-07",
+      "text": "What asymmetric spectral line shape arises from interference between a discrete state and a continuum?",
+      "initial": "F",
+      "answer": "Fano resonance",
+      "language": "en",
+      "aliases": ["Fano profile", "Fano line shape", "Fano lineshape"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Fano_resonance"]
+    },
+    {
+      "id": "science-en-hard-04-08",
+      "text": "What extra phase term, beyond ordinary propagation, equals arctan(z/zR) for a fundamental Gaussian beam with its waist at z = 0?",
+      "initial": "G",
+      "answer": "Gouy phase",
+      "language": "en",
+      "aliases": ["Gouy phase shift"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Gouy_phase"]
+    },
+    {
+      "id": "science-en-hard-04-09",
+      "text": "What named intensity-correlation effect is observed when two detectors register enhanced coincident photon arrivals from a chaotic light source?",
+      "initial": "H",
+      "answer": "Hanbury Brown–Twiss effect",
+      "language": "en",
+      "aliases": [
+        "HBT effect",
+        "Hanbury Brown and Twiss effect",
+        "HBT",
+        "Hanbury Brown-Twiss effect",
+        "Hanbury-Brown-Twiss effect",
+        "Photon bunching",
+        "Photon bunching effect"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanbury_Brown_and_Twiss_effect"
+      ]
+    },
+    {
+      "id": "science-en-hard-04-10",
+      "text": "What statistical model uses interacting binary spins on a lattice to study magnetism and phase transitions?",
+      "initial": "I",
+      "answer": "Ising model",
+      "language": "en",
+      "aliases": ["Lenz–Ising model", "Lenz-Ising model"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ising_model"]
+    },
+    {
+      "id": "science-en-hard-04-11",
+      "text": "What quantum-optical model describes a two-level system coupled to a single quantized field mode under the rotating-wave approximation?",
+      "initial": "J",
+      "answer": "Jaynes–Cummings model",
+      "language": "en",
+      "aliases": ["Jaynes-Cummings model", "JCM"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Jaynes%E2%80%93Cummings_model"]
+    },
+    {
+      "id": "science-en-hard-04-12",
+      "text": "What electro-optic effect makes a material’s refractive-index change proportional to the square of a static applied electric field?",
+      "initial": "K",
+      "answer": "Kerr effect",
+      "language": "en",
+      "aliases": [
+        "Electro-optic Kerr effect",
+        "Quadratic electro-optic effect",
+        "DC Kerr effect",
+        "Kerr electro-optic effect",
+        "QEO effect"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Kerr_effect"]
+    },
+    {
+      "id": "science-en-hard-04-13",
+      "text": "What small energy separation between hydrogen's 2S½ and 2P½ levels is not predicted by the Dirac equation alone?",
+      "initial": "L",
+      "answer": "Lamb shift",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Lamb_shift"]
+    },
+    {
+      "id": "science-en-hard-04-14",
+      "text": "What material is insulating because of strong electron interactions despite a simple band picture predicting conduction?",
+      "initial": "M",
+      "answer": "Mott insulator",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Mott_insulator"]
+    },
+    {
+      "id": "science-en-hard-04-15",
+      "text": "What temperature marks the loss of long-range antiferromagnetic order on heating?",
+      "initial": "N",
+      "answer": "Néel temperature",
+      "language": "en",
+      "aliases": ["Néel point"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/N%C3%A9el_temperature"]
+    },
+    {
+      "id": "science-en-hard-04-16",
+      "text": "What ideal four-process thermodynamic cycle models a spark-ignition engine with constant-volume heat addition?",
+      "initial": "O",
+      "answer": "Otto cycle",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Otto_cycle"]
+    },
+    {
+      "id": "science-en-hard-04-17",
+      "text": "What phenomenon changes a quantum emitter's spontaneous-emission rate through its electromagnetic environment?",
+      "initial": "P",
+      "answer": "Purcell effect",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Purcell_effect"]
+    },
+    {
+      "id": "science-en-hard-04-18",
+      "text": "What effect produces conductance plateaus at integer multiples of e²/h in a cold two-dimensional electron system under a strong magnetic field?",
+      "initial": "Q",
+      "answer": "Quantum Hall effect",
+      "language": "en",
+      "aliases": ["QHE", "Integer quantum Hall effect", "IQHE"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Quantum_Hall_effect"]
+    },
+    {
+      "id": "science-en-hard-04-19",
+      "text": "What coherent process periodically transfers population between two quantum states under resonant driving?",
+      "initial": "R",
+      "answer": "Rabi oscillation",
+      "language": "en",
+      "aliases": [
+        "Rabi cycling",
+        "Rabi flopping",
+        "Rabi oscillations",
+        "Rabi cycle",
+        "Rabi flop"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Rabi_cycle"]
+    },
+    {
+      "id": "science-en-hard-04-20",
+      "text": "What effect shifts and splits atomic spectral lines in an external electric field?",
+      "initial": "S",
+      "answer": "Stark effect",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Stark_effect"]
+    },
+    {
+      "id": "science-en-hard-04-21",
+      "text": "What semiconductor recombination mechanism proceeds through localized defect states in the band gap?",
+      "initial": "SH",
+      "answer": "Shockley–Read–Hall recombination",
+      "language": "en",
+      "aliases": [
+        "SRH recombination",
+        "Trap-assisted recombination",
+        "Shockley-Read-Hall recombination",
+        "SRH",
+        "Trap assisted recombination"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Carrier_generation_and_recombination"
+      ]
+    },
+    {
+      "id": "science-en-hard-04-22",
+      "text": "What semiclassical statistical model describes an atom’s electrons using a locally uniform density rather than individual wavefunctions?",
+      "initial": "T",
+      "answer": "Thomas–Fermi model",
+      "language": "en",
+      "aliases": [
+        "Thomas-Fermi model",
+        "Thomas–Fermi theory",
+        "Thomas-Fermi theory"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Thomas%E2%80%93Fermi_model"]
+    },
+    {
+      "id": "science-en-hard-04-23",
+      "text": "What crystal scattering process changes total phonon wavevector by a nonzero reciprocal-lattice vector?",
+      "initial": "U",
+      "answer": "Umklapp scattering",
+      "language": "en",
+      "aliases": ["U-process", "Umklapp process", "Umklapp", "U process"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Umklapp_scattering"]
+    },
+    {
+      "id": "science-en-hard-04-24",
+      "text": "What toroidal region around Earth traps energetic charged particles in the planet's magnetic field?",
+      "initial": "V",
+      "answer": "Van Allen belt",
+      "language": "en",
+      "aliases": [
+        "Van Allen radiation belt",
+        "Radiation belt",
+        "Van Allen belts",
+        "Van Allen radiation belts",
+        "Radiation belts"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Van_Allen_radiation_belt"]
+    },
+    {
+      "id": "science-en-hard-04-25",
+      "text": "What ordered electron phase is favoured at low density in a neutralizing background when repulsive potential energy dominates kinetic energy?",
+      "initial": "W",
+      "answer": "Wigner crystal",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Wigner_crystal"]
+    },
+    {
+      "id": "science-en-hard-04-26",
+      "text": "What radiation band used in semiconductor lithography needs vacuum transmission because air strongly absorbs it, and spans roughly 10–120 nanometres?",
+      "initial": "X",
+      "answer": "XUV",
+      "language": "en",
+      "aliases": [
+        "EUV",
+        "Extreme ultraviolet",
+        "Extreme-ultraviolet",
+        "Extreme ultraviolet radiation",
+        "Extreme-ultraviolet radiation",
+        "EUV radiation",
+        "XUV radiation",
+        "High-energy ultraviolet radiation"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Extreme_ultraviolet"]
+    },
+    {
+      "id": "science-en-hard-04-27",
+      "text": "What copper-oxide high-temperature superconductor contains yttrium and barium in a 1:2:3 metal ratio, with seven oxygen atoms per formula unit when fully oxygenated?",
+      "initial": "Y",
+      "answer": "YBa₂Cu₃O₇",
+      "language": "en",
+      "aliases": [
+        "YBCO",
+        "Yttrium barium copper oxide",
+        "YBa2Cu3O7",
+        "Yttrium-barium-copper oxide",
+        "Y123"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Yttrium_barium_copper_oxide"]
+    },
+    {
+      "id": "science-en-hard-04-28",
+      "text": "What mechanism inhibits grain-boundary movement through dispersed second-phase particles?",
+      "initial": "Z",
+      "answer": "Zener pinning",
+      "language": "en",
+      "aliases": ["Zener drag", "Smith–Zener pinning", "Smith-Zener pinning"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Zener_pinning"]
+    }
+  ]
+}
