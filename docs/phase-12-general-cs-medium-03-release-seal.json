@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "reviewerTaskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "taskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "sealedAt": "2026-11-02T11:02:45.283998+00:00",
+  "deckId": "general-cs-medium-03",
+  "candidateDecks": 154,
+  "candidateQuestions": 4312,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "sourceFiles": 553,
+  "initialReviewedSourceFilesByteExact": 549,
+  "inheritedPredecessorReceiptOnlyFiles": 4,
+  "exactSourceQAFrozenInputSha256": "5f8ef9f680dd4f19a228d3fe5b35f09783ea2fe8adfa479d972bb11f66c30686",
+  "exactSourceQAFrozenInput": {
+    "path": ".artifacts/continuation/parallel-decks/general-cs-medium-03/integration/batch152-v1/FROZEN-RELEASE-INPUT-v2.json",
+    "sha256": "5f8ef9f680dd4f19a228d3fe5b35f09783ea2fe8adfa479d972bb11f66c30686",
+    "bytes": 113894
+  },
+  "actualParentCommit": "cd437bcdd4895dadb7a99972d5d479e6887c0560",
+  "baseline": "cd437bcdd4895dadb7a99972d5d479e6887c0560",
+  "initialAcceptedInherited": 28,
+  "currentIndependentAccepted": 28,
+  "meaningfulCurrentPairDecisions": 31,
+  "explicitSameFactRelatedQueueDecisions": 13,
+  "ownPeerComparisonsInvolvingDeck": 2352,
+  "wholeOriginalRatingSha256": "86ba62d13c5239a9897d6d959f4ee68a7610944d1b31601c11d0449b69b38f20",
+  "inheritedBatchSeal": {
+    "path": ".artifacts/continuation/batch-review/single-author-general-geography-current152-v1/BATCH-SEAL.json",
+    "sha256": "90b09f1cb377e08e331c627f1925135ea0bb02e7f13999880b86bb1b2e712296",
+    "bytes": 10667
+  },
+  "inheritedOriginalOwnDeckSeal": {
+    "path": ".artifacts/continuation/batch-review/single-author-general-geography-current152-v1/general-cs-medium-03/SEAL.json",
+    "sha256": "e0fe9b9cac3953bfcd1f0bf15a1700eb01614f81c0fbbc69b0879aea8036ff70",
+    "bytes": 3859
+  },
+  "blockingFindings": 0,
+  "majorFindings": 0,
+  "minorFindings": 0,
+  "finalActualParentReleaseHeld": false,
+  "actualParentHoldDischargedForThisExactFreezeOnly": true,
+  "coordinatorPostReviewGatesStillPending": true,
+  "stage154Native70": "LISTED ONLY; actual execution pending",
+  "externalInputCount": 3196,
+  "reportSha256": "bdf86583a8e057b53baab7dbee5788551d42da06d6df09940f78112d006cd395",
+  "members": {
+    "REPORT.md": {
+      "sha256": "bdf86583a8e057b53baab7dbee5788551d42da06d6df09940f78112d006cd395",
+      "bytes": 13434
+    },
+    "ASSERTIONS.json": {
+      "sha256": "7d30dbcc6f1a22baaedbc6a0ed4b44df9a41b4ac83ce59688223ff88cc273a98",
+      "bytes": 8586
+    },
+    "NATIVE-SERIALIZED-CONTINUITY.json": {
+      "sha256": "25d2c5e281ca897d5a0816900ef70fcfed498fee00dacf832f793311f5515eb4",
+      "bytes": 27440
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "6e02361b55993fa048623067426f26c9fedefcf4f200bed4aba445ff027f9da9",
+      "bytes": 684720
+    },
+    "verify.py": {
+      "sha256": "eb98a9f962031071c0349c1d3066de7f68c428273e229c631b71027e95a95558",
+      "bytes": 20613
+    }
+  },
+  "memberCount": 5,
+  "originalReportsSealsAndDecisionsNeverModified": true,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "other155156ActualParentReleaseHeld": true
+}

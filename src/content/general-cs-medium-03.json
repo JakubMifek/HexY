@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-medium-03",
+  "title": "Všeobecné znalosti · Střední · 03",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-medium-03-01",
+      "text": "Jak se nazývá středomořská omáčka, jejíž tradiční název spojuje česnek a olej, její dvě základní složky?",
+      "initial": "A",
+      "answer": "Aioli",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Allioli"],
+      "sources": ["https://en.wikipedia.org/wiki/Aioli"]
+    },
+    {
+      "id": "general-cs-medium-03-02",
+      "text": "Jak se nazývá sladký moučník z tenkých plátů těsta, ořechů a sirupu nebo medu, známý například z Turecka?",
+      "initial": "B",
+      "answer": "Baklava",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Baklava"]
+    },
+    {
+      "id": "general-cs-medium-03-03",
+      "text": "Jak se označuje alkoholický nápoj vyráběný kvašením jablečné šťávy?",
+      "initial": "C",
+      "answer": "Cider",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Cidre", "Sidra"],
+      "sources": ["https://en.wikipedia.org/wiki/Cider"]
+    },
+    {
+      "id": "general-cs-medium-03-04",
+      "text": "Který tvrdý sýr z kravského mléka pochází ze stejnojmenné vesnice v anglickém Somersetu?",
+      "initial": "Č",
+      "answer": "Čedar",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Cheddar"],
+      "sources": ["https://en.wikipedia.org/wiki/Cheddar_cheese"]
+    },
+    {
+      "id": "general-cs-medium-03-05",
+      "text": "Jak se nazývá malá nádobka s dlouhou rukojetí, v níž se připravuje turecká káva?",
+      "initial": "D",
+      "answer": "Džezva",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Cezve", "Ibrik"],
+      "sources": ["https://en.wikipedia.org/wiki/Cezve"]
+    },
+    {
+      "id": "general-cs-medium-03-06",
+      "text": "Jak se japonsky nazývají nezralé sójové boby, podávané obvykle uvařené v luscích?",
+      "initial": "E",
+      "answer": "Edamame",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Edamame"]
+    },
+    {
+      "id": "general-cs-medium-03-07",
+      "text": "Jak se nazývají smažené blízkovýchodní kuličky nebo placičky z mleté cizrny, bobů či jejich směsi?",
+      "initial": "F",
+      "answer": "Falafel",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Felafel"],
+      "sources": ["https://en.wikipedia.org/wiki/Falafel"]
+    },
+    {
+      "id": "general-cs-medium-03-08",
+      "text": "Jak se nazývají malé italské těstovinové knedlíčky, často připravované z brambor a mouky?",
+      "initial": "G",
+      "answer": "Gnocchi",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Noky", "Bramborové noky"],
+      "sources": ["https://en.wikipedia.org/wiki/Gnocchi"]
+    },
+    {
+      "id": "general-cs-medium-03-09",
+      "text": "Jak se nazývá ostrá severoafrická pasta z chilli papriček, česneku a koření?",
+      "initial": "H",
+      "answer": "Harissa",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Harísa"],
+      "sources": ["https://en.wikipedia.org/wiki/Harissa"]
+    },
+    {
+      "id": "general-cs-medium-03-10",
+      "text": "Jak se nazývá španělská či portugalská kořeněná klobása, jejíž charakteristickou barvu často dodává paprika?",
+      "initial": "Ch",
+      "answer": "Chorizo",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Chouriço"],
+      "sources": ["https://en.wikipedia.org/wiki/Chorizo"]
+    },
+    {
+      "id": "general-cs-medium-03-11",
+      "text": "Jak se nazývá tradiční japonské umění aranžování květin?",
+      "initial": "I",
+      "answer": "Ikebana",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Kadó"],
+      "sources": ["https://en.wikipedia.org/wiki/Ikebana"]
+    },
+    {
+      "id": "general-cs-medium-03-12",
+      "text": "Jak se nazývá přírodní lýkové vlákno používané například k výrobě pytloviny?",
+      "initial": "J",
+      "answer": "Juta",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jutové vlákno"],
+      "sources": ["https://en.wikipedia.org/wiki/Jute"]
+    },
+    {
+      "id": "general-cs-medium-03-13",
+      "text": "Jak se nazývá kvašený mléčný nápoj tradičně připravovaný pomocí kultury bakterií a kvasinek v podobě drobných bělavých zrnek?",
+      "initial": "K",
+      "answer": "Kefír",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Kefir"]
+    },
+    {
+      "id": "general-cs-medium-03-14",
+      "text": "Jak se nazývá podlahová krytina tradičně vyráběná ze zoxidovaného lněného oleje, korkové či dřevěné moučky a dalších složek?",
+      "initial": "L",
+      "answer": "Linoleum",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Linoleum"]
+    },
+    {
+      "id": "general-cs-medium-03-15",
+      "text": "Jak se nazývá sladké japonské rýžové víno užívané při vaření, které má méně alkoholu a více cukru než saké?",
+      "initial": "M",
+      "answer": "Mirin",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mirin"]
+    },
+    {
+      "id": "general-cs-medium-03-16",
+      "text": "Jak se nazývá cukrovinka z cukru či medu, šlehaných bílků a obvykle také ořechů?",
+      "initial": "N",
+      "answer": "Nugát",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Nougat", "Bílý nugát"],
+      "sources": ["https://cs.wikipedia.org/wiki/Nug%C3%A1t"]
+    },
+    {
+      "id": "general-cs-medium-03-17",
+      "text": "Jak se nazývá malý dechový nástroj s uzavřeným dutým tělem, náustkem a otvory pro prsty?",
+      "initial": "O",
+      "answer": "Okarína",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ocarina"]
+    },
+    {
+      "id": "general-cs-medium-03-18",
+      "text": "Jak se nazývá italská kaše, která se dnes běžně připravuje z kukuřičné krupice?",
+      "initial": "P",
+      "answer": "Polenta",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Polenta"]
+    },
+    {
+      "id": "general-cs-medium-03-19",
+      "text": "Jak se nazývá švýcarský pokrm, při jehož přípravě se rozpuštěná vrstva zahřívaného sýra stírá na talíř?",
+      "initial": "R",
+      "answer": "Raclette",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Raclette"]
+    },
+    {
+      "id": "general-cs-medium-03-20",
+      "text": "Jak se při šití nazývá stahování látky do drobných záhybů pomocí nitě, aby se zkrátil její okraj?",
+      "initial": "Ř",
+      "answer": "Řasení",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Nařasení", "Řasování"],
+      "sources": ["https://en.wikipedia.org/wiki/Gather_(sewing)"]
+    },
+    {
+      "id": "general-cs-medium-03-21",
+      "text": "Jak se nazývá hladká lesklá tkanina v atlasové vazbě, používaná například na společenské šaty?",
+      "initial": "S",
+      "answer": "Satén",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Satin"]
+    },
+    {
+      "id": "general-cs-medium-03-22",
+      "text": "Jak se nazývá pokrm z vajec vařených v kořeněné omáčce z rajčat a paprik, rozšířený v severní Africe a na Blízkém východě?",
+      "initial": "Š",
+      "answer": "Šakšuka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Shakshuka", "Shakshouka"],
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0ak%C5%A1uka"]
+    },
+    {
+      "id": "general-cs-medium-03-23",
+      "text": "Jak se nazývá pasta z mletých sezamových semínek používaná například do hummusu?",
+      "initial": "T",
+      "answer": "Tahini",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Tahina", "Sezamová pasta"],
+      "sources": ["https://en.wikipedia.org/wiki/Tahini"]
+    },
+    {
+      "id": "general-cs-medium-03-24",
+      "text": "Jak se nazývá základní chuť spojená například s glutamátem, kterou popisujeme jako masovou či lahodnou?",
+      "initial": "U",
+      "answer": "Umami",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Umami"]
+    },
+    {
+      "id": "general-cs-medium-03-25",
+      "text": "Který italský název dlouhých tenkých těstovin znamená v doslovném překladu červíčci?",
+      "initial": "V",
+      "answer": "Vermicelli",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Vermicelli"]
+    },
+    {
+      "id": "general-cs-medium-03-26",
+      "text": "Jak se nazývá fermentované tekuté dochucovadlo značky Lea & Perrins pojmenované podle anglického města, v němž vzniklo?",
+      "initial": "W",
+      "answer": "Worcestrová omáčka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Worcester", "Worcesterská omáčka", "Worcestershire sauce"],
+      "sources": ["https://en.wikipedia.org/wiki/Worcestershire_sauce"]
+    },
+    {
+      "id": "general-cs-medium-03-27",
+      "text": "Jak se nazývá blízkovýchodní kořenicí směs, která běžně obsahuje byliny, sezam a sumah?",
+      "initial": "Z",
+      "answer": "Za'atar",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Zaatar", "Zatar", "Za’atar"],
+      "sources": ["https://en.wikipedia.org/wiki/Za'atar"]
+    },
+    {
+      "id": "general-cs-medium-03-28",
+      "text": "Jak se nazývá jemný čerstvý smetanový sýr francouzského původu?",
+      "initial": "Ž",
+      "answer": "Žervé",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Gervais"],
+      "sources": [
+        "https://ssjc.ujc.cas.cz/search.php?heslo=%C5%BEerv%C3%A9&stype=H&hsubstr=no"
+      ]
+    }
+  ]
+}

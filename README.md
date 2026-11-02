@@ -2,10 +2,10 @@
 
 ## Current Phase 12 deck snapshot
 
-This source candidate contains **153 decks / 4,284 questions**,
-adding only `general-cs-easy-03` to its 152-deck predecessor.
+This source candidate contains **154 decks / 4,312 questions**,
+adding only `general-cs-medium-03` to its 153-deck predecessor.
 Actual delivery at preparation is `cd9bc76e` (152/4,256), English82/Czech70.
-This intermediate is English82/Czech71; original152 packs are immutable.
+This intermediate is English82/Czech72; original152 packs are immutable.
 Its lossless source ledger retains all28 whole questions, complete supporting
 arrays, legitimate aliases, original/corrected judgments and adult difficulty.
 Current meaningful peer/lifecycle decisions and independent release clearance
@@ -15,7 +15,7 @@ separate one-deck push and actual private served28/old-data/deadline verificatio
 Original active and naturally expired games keep their real deadlines unchanged.
 No other draft is bundled; final330/9,240/all66 remains NOT CLEARED.
 
-[Exact source ledger](docs/phase-12-general-cs-easy-03-sources.json).
+[Exact source ledger](docs/phase-12-general-cs-medium-03-sources.json).
 
 ## Retained earlier preparation history
 
