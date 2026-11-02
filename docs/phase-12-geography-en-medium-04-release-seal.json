@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "deckId": "geography-en-medium-04",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "exactSourceQAFrozenInputSha256": "539f206e45d60fbe6cab0ab982b156cce21cd042739a96a6e67d7efe93d21165",
+  "reportSha256": "0084f2322e64cd2ed8a5f53be38123acd303cad3b3e82ec790da804bf2d6b92a",
+  "members": {
+    "ACTUAL-LATE-COMPUTING-MEDIUM-PROPOSAL-IMPACT.json": {
+      "sha256": "415fe1ca3e3055176eb52d598b5de0dca797483533cae7fcbaa425e0eeef6bd6",
+      "bytes": 796299
+    },
+    "ACTUAL-LATE-GENERAL-PROPOSAL-IMPACT.json": {
+      "sha256": "4c2c28eb8ddbd7ba53667f36a0be6dcb30ebc0af7ac434a946732ff90bf57fec",
+      "bytes": 385428
+    },
+    "ACTUAL-READ-GUARDS.json": {
+      "sha256": "dfa7cb4d91769422027ed3bb6537e36e853fad300491e65a34079dfc7275268c",
+      "bytes": 182097
+    },
+    "CHECKS.json": {
+      "sha256": "049200ba47a6dffcac98a9fd77b3a49eca0fcfa34f0b3cc10e3abdf75111310b",
+      "bytes": 62803
+    },
+    "EXECUTION-NOTES.json": {
+      "sha256": "8671cbaf016f3d2e878e5ba8f0b095f1665edaa068c24e62d9dfeee109e7ed20",
+      "bytes": 2535
+    },
+    "GIT-BASELINE-AND-SCOPE.json": {
+      "sha256": "6e7e70c5e798eaf82d6dfbb2cfb63ebdf35a21405d32632d09d5ce47e0335da6",
+      "bytes": 4508
+    },
+    "REPORT.md": {
+      "sha256": "0084f2322e64cd2ed8a5f53be38123acd303cad3b3e82ec790da804bf2d6b92a",
+      "bytes": 13866
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "c213697118b3bbd72700962f6650d8049c6042c80bc48c09d00c05ecc08b40a4",
+      "bytes": 189034
+    },
+    "review.py": {
+      "sha256": "e27638e0939d12f3bfa6ad034db09042041a5b82f4f3263dc54f9a51be9acde2",
+      "bytes": 19901
+    },
+    "seal.py": {
+      "sha256": "9b4d3cbb9c8d7c49043f1958e136bed6ccd398a2e6681fb416b6f02821004dcf",
+      "bytes": 6300
+    }
+  },
+  "memberCount": 10,
+  "externalInputCount": 743,
+  "boundedReleaseBindingAssertions": 703,
+  "baseline": "cee197671e9bde32ced767db22a9e169c59eb0b2",
+  "prospectiveDecks": 144,
+  "prospectiveQuestions": 4032,
+  "clearancePermitsOnlyMandatorySameSnapshotCoordinatorGatesThenOneDeckDelivery": true,
+  "actualNewDeckDeliveryOrPostreviewQaAlreadyPassed": false,
+  "originalAcceptedContentJudgmentsAndDisclosedLimitsInheritedExactly": true,
+  "bothActualLateProposalOwnDecisionImpactsReviewed": true,
+  "GeneralCorrectionOrComputingContentAcceptanceGranted": false,
+  "runtimeReviewerTaskId": null,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "at": "2026-11-02T03:55:11.493736+00:00",
+  "selfHashIntentionallyExcluded": true
+}

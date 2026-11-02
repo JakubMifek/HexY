@@ -36,7 +36,29 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current General Medium05 incremental snapshot:** actual private/remote baseline
+**Current Geography Medium04 incremental snapshot:** actual private/remote
+baseline `cee19767`,143 decks/4,004 questions. Only GeographyEnglishMedium04
+is added here, giving144/4,032 with all143 earlier pack bytes/order unchanged.
+Its28 whole questions/FULL support arrays/104 forms/27 original acceptances
+plus independently accepted Xuzhou26 correction and actual adult Medium
+2Easy/25Medium/1Hard remain exact. The complete rating object at `/ratings/1`
+and all25 original portable fields/rich own receipts survive losslessly.
+[Independent content/current-delta acceptance](reviews/phase-12-geography-en-medium-04-content.md)
+covers all28/all447 actual nominated relations through actual143/R36/latest
+Computing proposal. Elbe/Labe and Tunisia/Tunisko have specific bilingual
+adaptation decisions, not a blanket language or duplicate exemption.
+The generic test recognizes the original rating schema, preserving every
+previous variant; derived hash bindings do not confer new content acceptance.
+Focused76 units/fourfiles/types/lint pass. All64 runtime modules remain in
+coverage. Final independent integration release clearance must precede full
+quality/native and deliberate active/expired private upgrade.
+Historical audit limitations and other candidates' actual findings remain
+preserved. Four isolated author lanes continue; final330/9,240/all66 NOT CLEARED.
+
+**Historical General Medium05 incremental snapshot:** subsequently delivered
+`cee19767` after independent release,1,219 units/49files/all64runtime/native58
+and deliberate active/expired entire old-data/deadline/full-served-deck checks.
+The following preserves its pre-delivery snapshot. Actual private/remote baseline
 `c3950593`,142 decks/3,976 questions. Only GeneralEnglishMedium05 is added here,
 giving143/4,004 with all142 earlier pack bytes/order unchanged.
 Its28 complete raw questions/FULL raw and accepted support arrays/61 forms

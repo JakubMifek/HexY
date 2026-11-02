@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "deckId": "geography-en-medium-04",
+  "outcome": "CONTENT DELTA ACCEPTED",
+  "unresolvedFindings": 0,
+  "report": {
+    "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/REPORT.md",
+    "sha256": "df2bdf1956b5677827b1bb5a0d313e9552025ec7dda8119c734defb11ec9f378",
+    "bytes": 13617
+  },
+  "stopGuards": {
+    "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/STOP-GUARDS.json",
+    "sha256": "58bf6611d7602cca833cc1b50d29d2846ac1486672d56dc8ec72b8cc29d77a73",
+    "bytes": 48810
+  },
+  "payloads": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/ACCEPTED-CONTINUITY.json",
+      "sha256": "a9692f93859214fd4e74932b74a18c25feecfe0b32304ea179819c612fd5fa15",
+      "bytes": 474489
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/ACTUAL-INPUT-GUARDS.json",
+      "sha256": "49edeb5ada0d03ae6e94869bd06c5778fc06dfece3f7891713e2031f92587b00",
+      "bytes": 40237
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/AUTHOR-SEAL-CHECKS.json",
+      "sha256": "2e70d6ef42e0c7994c279791a991d19eadf4778b2d11aabedc725938842ff5f6",
+      "bytes": 360
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/CHECKS.json",
+      "sha256": "e63df58e268d8cbbe557d598e2bd61b3234ebe0e0c6ac5ac85e75839f418dadd",
+      "bytes": 664262
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/CURRENT-DELTA-DECISIONS.json",
+      "sha256": "1b0f1c50ed282ead6c9c4a2b2c65c501a9d54e963c480d6f14ebd7d02d6b1ba1",
+      "bytes": 720526
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/CURRENT-PAIR-DECISIONS.json",
+      "sha256": "6c34c707e6cea5945fe2e2faf54772ced749ec66bd79fc9a87594e1393b56c61",
+      "bytes": 4942511
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/CURRENT142-R35-INPUTS.json",
+      "sha256": "3ff7e48189b1ce3d11e17bfe1c3fea94da3e1322c3f5e7bafb8e5b266d8a3cb6",
+      "bytes": 3008152
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/CURRENT143-R36-LATE-COMPUTING-DELTA.json",
+      "sha256": "310ce333c4a49e30147f18dd2761712b57596f1d09c8ffc67caa218bff5d5209",
+      "bytes": 2861053
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/FINDINGS.json",
+      "sha256": "19be1a3a046a226a8938606c2a974e281069af8129cab4d3c3f8d260c88a3bf7",
+      "bytes": 228
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/MATCHER-CHECKS.json",
+      "sha256": "27be2996f864efd0a3bd84e1104e5ce63911c0b0fe81ae2fa3ff52decfbad130",
+      "bytes": 95
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/PROGRAMMING-ALREADY-SELECTED-RECHECK.json",
+      "sha256": "fea389448460701d346e62d55f8b86908b74c925cb05b000b0a8c40234ae217f",
+      "bytes": 549
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/R35-HISTORICAL-REPORT.md",
+      "sha256": "59150ba3e4634438f775a67efacb0cbe613e125b60b394f96468dd4d079ad194",
+      "bytes": 9824
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/R35-HISTORICAL-SEAL.json",
+      "sha256": "d6cd1a6ecb3b6f29e45e2d5fa89fcb47f04ea417c4f340caad53e95ca3af3f31",
+      "bytes": 7200
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/R35-HISTORICAL-STOP-GUARDS.json",
+      "sha256": "1ade1ed618866fb8eb6160591cc73d35ff511a8c6380a628af1be5a2b9cd2c3d",
+      "bytes": 43757
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/REPORT.md",
+      "sha256": "df2bdf1956b5677827b1bb5a0d313e9552025ec7dda8119c734defb11ec9f378",
+      "bytes": 13617
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/geography-en-medium-04/STOP-GUARDS.json",
+      "sha256": "58bf6611d7602cca833cc1b50d29d2846ac1486672d56dc8ec72b8cc29d77a73",
+      "bytes": 48810
+    }
+  ],
+  "sharedProofExecutablesAndNotes": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/current_evidence.py",
+      "sha256": "24a65ad35160785b0e01f83eaf0f10547e7c267f6441c4bbe94ad6fa4e00efbd",
+      "bytes": 23327
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/delta_decisions.py",
+      "sha256": "6423f628e08720f09d21ecae350f71eb95a8a26abdd4aa36976603fe7346f632",
+      "bytes": 9147
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/delta_r36.py",
+      "sha256": "0745b0e1d29cef008a4235b609b1714b5af29f8e75d9f1e648f78171cb93ceb8",
+      "bytes": 15190
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/finalize.py",
+      "sha256": "ed96c9a594b7c6c33d0f9c6ce772d409627ef25e283b40034d226ac8518c0940",
+      "bytes": 12050
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/findings.py",
+      "sha256": "f680f561f0377796e719043365b923838a789da9533fed73e641cbe2d4f7a9e7",
+      "bytes": 5970
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/matcher-check.mjs",
+      "sha256": "bcf38f2c35c07098abc868c3fa46a6466350af6505e723a45dd8dd24c7ccfb76",
+      "bytes": 2514
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/review_io.py",
+      "sha256": "13a1ee41f406f93349310de81764868094ce5a5cc4351e73a4a2109641e3d43b",
+      "bytes": 891
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/verify_bindings.py",
+      "sha256": "173e14888044066c75552d8f50ce111cc62b37fb930ce6fa74300b4b1ec27138",
+      "bytes": 11697
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/BINDING-CHECKS.json",
+      "sha256": "febb8472fbbcce9ee2c9506b0698f724c0e8fca627b0f098b5b4f2027a8fe789",
+      "bytes": 83974
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/CURRENT-EVIDENCE-CHECKS.json",
+      "sha256": "50311f2ff94212c53a469702931c24b8e30f5e75f0b4ed580b1eb336032a1865",
+      "bytes": 489021
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/EXECUTION-NOTES.json",
+      "sha256": "7d553906e2e855c587fcc0b63ed231ff78d63dbeeb0fe075ab2c1f8d0309d158",
+      "bytes": 4281
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/R36-LATE-DELTA-CHECKS.json",
+      "sha256": "e3a085100bde87327f7f4aec909f96c28ce8b0d5ad92b0dde77b5f3b7531a474",
+      "bytes": 75512
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-medium04-general-csmedium04-current142-r35-v1/R35-HISTORICAL-FINAL-VERIFICATION.json",
+      "sha256": "5e1b7ce45974b27d65d62c96cde19482f9760f0086fa3f01d9fa71387f6ba714",
+      "bytes": 2525
+    }
+  ],
+  "actualExternalReadFileCount": 173,
+  "onlyAuthorisedNewProofDirectoryWritten": true,
+  "selfHashIntentionallyExcluded": true,
+  "runtimeReviewerTaskId": null,
+  "coordinatorMustRecordActualExternalReviewerTaskId": true,
+  "contentAcceptanceIsNotReleaseAcceptance": true,
+  "effectiveScope": "Actual143/R36 and captured two-entry/five-alias Computing impact; original own Native content unchanged",
+  "releaseCleared": false,
+  "categoryCleared": false,
+  "phaseCleared": false
+}

@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "geography-en-medium-04",
+  "title": "Geography and travel · Medium 04",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "initial": "A",
+      "text": "Which Caribbean island country within the Kingdom of the Netherlands has Oranjestad as its capital?",
+      "answer": "Aruba",
+      "aliases": ["Country of Aruba"],
+      "id": "geography-en-medium-04-01",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Aruba"]
+    },
+    {
+      "initial": "B",
+      "text": "Which Himalayan kingdom has Thimphu as its capital?",
+      "answer": "Bhutan",
+      "aliases": ["Kingdom of Bhutan", "Druk Yul"],
+      "id": "geography-en-medium-04-02",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Bhutan"]
+    },
+    {
+      "initial": "C",
+      "text": "Which large French Mediterranean island has Ajaccio as its prefecture?",
+      "answer": "Corsica",
+      "aliases": ["Corse", "Korsika"],
+      "id": "geography-en-medium-04-03",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Corsica"]
+    },
+    {
+      "initial": "CH",
+      "text": "Which city on New Zealand's South Island has the Avon River running through its centre?",
+      "answer": "Christchurch",
+      "aliases": ["Ōtautahi", "Garden City", "the Garden City"],
+      "id": "geography-en-medium-04-04",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Christchurch"]
+    },
+    {
+      "initial": "D",
+      "text": "Which city is the capital of Bangladesh?",
+      "answer": "Dhaka",
+      "aliases": ["Dacca", "Jahangirnagar", "Venice of the East"],
+      "id": "geography-en-medium-04-05",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Dhaka"]
+    },
+    {
+      "initial": "E",
+      "text": "Which river flows through Dresden and Hamburg before reaching the North Sea?",
+      "answer": "Elbe",
+      "aliases": ["Labe"],
+      "id": "geography-en-medium-04-06",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Elbe"]
+    },
+    {
+      "initial": "F",
+      "text": "Which northern region of Belgium is predominantly Dutch-speaking?",
+      "answer": "Flanders",
+      "aliases": ["Vlaanderen", "Flemish Region"],
+      "id": "geography-en-medium-04-07",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Flanders"]
+    },
+    {
+      "initial": "G",
+      "text": "Which Caucasian country has Tbilisi as its capital?",
+      "answer": "Georgia",
+      "aliases": ["Sakartvelo"],
+      "id": "geography-en-medium-04-08",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Georgia_%28country%29"]
+    },
+    {
+      "initial": "H",
+      "text": "Which Caribbean country occupies the western part of Hispaniola and has Port-au-Prince as its capital?",
+      "answer": "Haiti",
+      "aliases": ["Republic of Haiti", "République d'Haïti", "Ayiti"],
+      "id": "geography-en-medium-04-09",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Haiti"]
+    },
+    {
+      "initial": "I",
+      "text": "Which country has coastlines on both the Caspian Sea and the Persian Gulf and has Tehran as its capital?",
+      "answer": "Iran",
+      "aliases": ["Islamic Republic of Iran", "Persia"],
+      "id": "geography-en-medium-04-10",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Iran"]
+    },
+    {
+      "initial": "J",
+      "text": "Which Saudi Arabian port on the Red Sea serves as a major gateway for pilgrims travelling to Mecca?",
+      "answer": "Jeddah",
+      "aliases": ["Jedda", "Jidda", "Jiddah"],
+      "id": "geography-en-medium-04-11",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jeddah"]
+    },
+    {
+      "initial": "K",
+      "text": "Which landlocked Central Asian country has Bishkek as its capital?",
+      "answer": "Kyrgyzstan",
+      "aliases": ["Kyrgyz Republic", "Kirghizia", "Kirghizstan"],
+      "id": "geography-en-medium-04-12",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kyrgyzstan"]
+    },
+    {
+      "initial": "L",
+      "text": "Which small Alpine principality between Switzerland and Austria has Vaduz as its capital?",
+      "answer": "Liechtenstein",
+      "aliases": [
+        "Principality of Liechtenstein",
+        "Fürstentum Liechtenstein",
+        "Liachtaschta"
+      ],
+      "id": "geography-en-medium-04-13",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Liechtenstein"]
+    },
+    {
+      "initial": "M",
+      "text": "Which country on Africa's southeastern coast has Maputo as its capital?",
+      "answer": "Mozambique",
+      "aliases": ["Republic of Mozambique", "Moçambique"],
+      "id": "geography-en-medium-04-14",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Mozambique"]
+    },
+    {
+      "initial": "N",
+      "text": "Which large Canadian island has St. John's on its southeastern coast?",
+      "answer": "Newfoundland",
+      "aliases": [
+        "Terra Nova",
+        "Terre-Neuve",
+        "Newfoundland Island",
+        "Taqamkuk",
+        "Talamh an Éisc",
+        "Talamh en Eisc",
+        "Kallunasillik",
+        "Ikkarumikluak"
+      ],
+      "id": "geography-en-medium-04-15",
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Newfoundland_%28island%29",
+        "https://fr.wikipedia.org/wiki/Terre-Neuve",
+        "https://pt.wikipedia.org/wiki/Terra_Nova"
+      ]
+    },
+    {
+      "initial": "O",
+      "text": "Which main island of the Ryukyu group contains Naha and Shuri Castle?",
+      "answer": "Okinawa",
+      "aliases": [
+        "Okinawa Island",
+        "Okinawa-jima",
+        "Okinawa Main Island",
+        "Okinawa-hontō",
+        "Uchinā",
+        "Fuchináa"
+      ],
+      "id": "geography-en-medium-04-16",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Okinawa_Island"]
+    },
+    {
+      "initial": "P",
+      "text": "Which coastal city in western Cyprus is known for Roman-period villas with elaborate mosaic floors?",
+      "answer": "Paphos",
+      "aliases": ["Pafos"],
+      "id": "geography-en-medium-04-17",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Paphos"]
+    },
+    {
+      "initial": "Q",
+      "text": "Which New York City borough contains Flushing Meadows–Corona Park and the US Open tennis grounds?",
+      "answer": "Queens",
+      "aliases": ["Queens County"],
+      "id": "geography-en-medium-04-18",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Queens"]
+    },
+    {
+      "initial": "R",
+      "text": "Which East African country has Kigali as its capital?",
+      "answer": "Rwanda",
+      "aliases": ["Republic of Rwanda"],
+      "id": "geography-en-medium-04-19",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rwanda"]
+    },
+    {
+      "initial": "S",
+      "text": "Which Alpine-Adriatic country has Ljubljana as its capital?",
+      "answer": "Slovenia",
+      "aliases": ["Republic of Slovenia", "Slovenija"],
+      "id": "geography-en-medium-04-20",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Slovenia"]
+    },
+    {
+      "initial": "SH",
+      "text": "Which Egyptian resort city stands near the southern tip of the Sinai Peninsula on the Red Sea coast?",
+      "answer": "Sharm el-Sheikh",
+      "aliases": [
+        "Sharm el Sheikh",
+        "Sharm ash-Shaykh",
+        "Sharm Elsheikh",
+        "Charm el Sheikh"
+      ],
+      "id": "geography-en-medium-04-21",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sharm_el-Sheikh"]
+    },
+    {
+      "initial": "T",
+      "text": "Which North African country has Tunis as its capital?",
+      "answer": "Tunisia",
+      "aliases": ["Republic of Tunisia", "Tunisie"],
+      "id": "geography-en-medium-04-22",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Tunisia"]
+    },
+    {
+      "initial": "U",
+      "text": "Which Swedish city north of Stockholm is known for its medieval cathedral and a university founded in 1477?",
+      "answer": "Uppsala",
+      "aliases": ["Upsala"],
+      "id": "geography-en-medium-04-23",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Uppsala"]
+    },
+    {
+      "initial": "V",
+      "text": "Which Spanish city has the City of Arts and Sciences in the former riverbed area of the Turia?",
+      "answer": "Valencia",
+      "aliases": [],
+      "id": "geography-en-medium-04-24",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Valencia"]
+    },
+    {
+      "initial": "W",
+      "text": "Which city in southwestern Poland is known for hundreds of small bronze dwarf statues?",
+      "answer": "Wrocław",
+      "aliases": [
+        "Wroclaw",
+        "Breslau",
+        "Vratislav",
+        "Vratislavia",
+        "Wratislavia",
+        "Wrezlaw",
+        "Brassel"
+      ],
+      "id": "geography-en-medium-04-25",
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wroc%C5%82aw",
+        "https://cs.wikipedia.org/wiki/Vratislav_(m%C4%9Bsto)"
+      ]
+    },
+    {
+      "initial": "X",
+      "text": "Which city in northwestern Jiangsu is a major junction of the Longhai and Beijing–Shanghai railways?",
+      "answer": "Xuzhou",
+      "aliases": ["Hsuchow", "Pengcheng", "Suchow", "Hsu-chou", "Hsü-chow"],
+      "id": "geography-en-medium-04-26",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xuzhou"]
+    },
+    {
+      "initial": "Y",
+      "text": "Which Javanese city is centred on a sultan's palace and is a major cultural centre south of Mount Merapi?",
+      "answer": "Yogyakarta",
+      "aliases": ["Jogjakarta", "Jogja", "Yogya"],
+      "id": "geography-en-medium-04-27",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yogyakarta"]
+    },
+    {
+      "initial": "Z",
+      "text": "Which Greek Ionian island has the cove known as Navagio or Shipwreck Beach?",
+      "answer": "Zakynthos",
+      "aliases": [
+        "Zante",
+        "Zacynthus",
+        "Fiore di Levante",
+        "Flower of the East"
+      ],
+      "id": "geography-en-medium-04-28",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zakynthos"]
+    }
+  ]
+}

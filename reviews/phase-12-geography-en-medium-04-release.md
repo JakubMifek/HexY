@@ -1,0 +1,240 @@
+# Geography English Medium04 — final bounded integration/release review
+
+**CLEARED FOR DECK RELEASE — zero blocking findings.**
+
+This permits only the coordinator's mandatory same-snapshot post-review gates,
+then this one deck's publication and actual-version verification. It does not
+claim those gates ran, authorise another deck, or clear a category or Phase12.
+
+## Snapshot, independence and scope
+
+- Current phase: incremental Phase12, four isolated author lanes, one publisher,
+  one independent reviewer and one heavy runner.
+- Actual checkout:
+  `.artifacts/continuation/deck-release-geography-en-medium-04-worktree`.
+- Actual HEAD and directly queried remote `main`:
+  `cee197671e9bde32ced767db22a9e169c59eb0b2`, delivered143/4,004,
+  English77/Czech66. Read-only Git observations are retained separately.
+- Exact source/QA freeze:
+  `539f206e45d60fbe6cab0ab982b156cce21cd042739a96a6e67d7efe93d21165`.
+  All471 named source files,36 referenced inputs,64 runtime modules and143
+  old-pack byte bindings were independently checked.
+- R36 remains
+  `35c870e691db7f24dba4cf5a7a34c667020c1332512a16da86dcd34ba97bf5ba`,
+  76 selected/2,128 questions. Its immutable prepublication queue remains
+  `ca24f2b1554a842d2a91d2eca66483be2b03a1f447510325a430dc2dfcc9146f`.
+  The actual freeze uses `ACTUAL-QUEUE-AT-FREEZE-v3.json`, not mutable future
+  queue/STATUS or author-role metadata.
+- I authored neither the candidate nor its integration. My runtime reviewer ID
+  is not exposed. The public content wrapper records a coordinator-supplied
+  external identity; that is not my independently verified self-identity.
+
+Exactly seven existing files change: `src/content/catalog.js`,
+`src/ui/strings.js`, `tests/phase-twelve-deck.test.js`, `README.md`,
+`IMPLEMENTATION_PHASES.md`, `docs/content-inventory.md` and the Phase12 shipment
+manifest. Exactly six new files are the own pack, own source ledger, own
+31-regression test, and three content-review preservation/publication files.
+No other runtime module changes.
+
+## Acceptance criteria and inherited complete content
+
+- [x] Exactly one new28-question English Medium pack, explicitly appended at
+      index143. Removing precisely its import/append restores the entire preceding
+      catalog source. Every143 old pack's complete bytes, names and data survive.
+- [x] Actual prospective counts:144/4,032, English78/Czech66, Geography16/448.
+      All66 category/language/difficulty combinations contain two, three or four
+      packs; only English Geography Medium has four. Both localized descriptions
+      and usage/count/phase/inventory documentation accurately reflect that.
+- [x] Accepted raw
+      `a62223a423a753b3c11d623944f6b738ceac3b31feeb27cfd3554683b69a0d82`
+      and entire Native source
+      `f836fc4473b2b0669cdc41eb5fc6d3e5843001cd24c42aaed46f57f085bc06de`
+      bind all28 complete questions, full arrays and104 forms unchanged.
+- [x] Inherit my actual content report
+      `df2bdf1956b5677827b1bb5a0d313e9552025ec7dda8119c734defb11ec9f378`
+      and actual seal
+      `dbbbafdb202d9e3cbf69c29ec26c15491720fb6e455971980e6d8ce7a2e25ef4`,
+      including every sealed payload, shared proof and actual external guard.
+      This retains27 original acceptances plus the accepted Xuzhou26/R5 closure,
+      not an invented initial28 pass.
+- [x] Entire actual Medium object remains
+      `890c2ee7eb80b9c0169f12acf0bb01a37e293218115341a90d388d4afbd4aff1`,
+      exactly2 Easy/25 Medium/1 Hard, with original rationale, IDs and limitations.
+- [x] All447 actual nominated pair decisions remain bound. Elbe/Labe's
+      overlapping river-course and Tunisia/Tunisko's exact Tunis-capital facts
+      remain the two specifically accepted bilingual adaptations, not different
+      facts or a blanket language waiver.
+
+The previously disclosed70 legacy and26 Sports contexts without complete arrays
+retain their individually explained nonblocking relevance decisions. Their
+missing history is not fabricated; neither specific held adaptation lacks its
+actual full array. Source/evidence/wording/alias/initial/rating judgments are
+inherited by exact complete objects, not rerated from counts.
+
+## Compatibility delta, not new content acceptance
+
+PortableV2 is
+`19977997fac2a4bf76a6f272436539035c71579ec17d775ad2f00151fd9cc414`;
+formatted public ledger is
+`1b4fdc9012428ffb6b4cb57976ac032c054a556b6d82b86dc30cd3952fe45428`.
+Their entire parsed objects are equal.
+
+Every one of V1's30 root fields and complete objects remains equal. Its original
+25-field portable inventory and all28 rich original entries survive. The only
+two added fields are28 `exactQuestionAndEntireEvidenceBindings` and the full
+original-field hash inventory/explanation in `genericBindingProjection`.
+Each derived question/evidence hash was recomputed from the actual whole Native
+question/full array. No acceptance flag, source fact, alias or rating is added.
+
+The generic unit test now recognises the real Geography rating schema
+(`deckId`,28 entries, actual verdict/assigned level/distribution/ordered IDs).
+Extraction of the existing distribution checks preserves allowed levels,
+safe nonnegative integer counts and total28 for prior variants. The earlier
+General schemas keep their assertions. The own31 regressions cover the original
+pack bytes, position, all28 complete receipts/evidence/aliases,27+1 acceptance,
+whole Medium and lossless original-field retention. This is a concrete adapter,
+not manufactured fields to satisfy an unrelated schema.
+
+## Actual concurrent proposals — merged own-decision impact
+
+Both new immutable cutoffs and their actual complete candidates/support were
+read and guarded. Neither replaces its old R36 Native reservation.
+
+### General CS Medium04: actual Oolong correction, still separately unreviewed
+
+Actual proposed pack:
+`c47b6407cbf6272f165ec59e672bcac12de9f4c30ccea4f9f8689049f22ec389`;
+entire source:
+`87a69defae1da11869447379c967740f994ede96e093717959d5c9bba4848f12`;
+actual author seal:
+`0362f0f1909032dd37ff56660d0800619ec0dd907b308b4ff8c8393763c8c0bd`.
+
+The actual whole candidate/source/change bindings prove exactly the three
+`Wu long`, `Wu lung`, `Wulung` additions at Oolong17. The other27 whole
+questions, every complete raw array, original receipts/enriched support and
+original whole-Medium `650032…` remain retained. Against every own28 complete
+question, the predicate identifies partially oxidized Chinese tea and its names,
+not an own capital, country, city, island, region or course relationship.
+The full-context comparison does not rely on language or token non-overlap.
+**No own Geography judgment changes. General finding closure/correction
+acceptance is deliberately not granted in this release review.**
+
+### Computing EN Medium03: actual9-question successor, not initial approval
+
+Actual proposed pack:
+`2587896edc0d84d8772daa80563910352f437500067ef9d3729cd3505d53d981`;
+entire proposed source:
+`71e5bb09c9444cd95142b6b3dba5ebf78f36300120e6ccaecfc4b2270bb90ee6`;
+actual author seal:
+`57232cf816a7848f2044280c82c3bb7a48d74ebe097405847f2d6466a28ee566`.
+All eight immutable captures and corresponding original files match.
+
+All28 current predicates and89 forms were read with actual source contexts.
+Exactly19 whole questions remain exact;9 change. Only CPU03 and Chromebook04
+clues change. Seventeen alias proposals retain all72 Native forms. There are
+also six real appended question-source URLs, corresponding to the six separately
+carried supplementary objects; this is not represented as an aliases-only
+successor. All original32 evidence objects remain exact.
+
+Direct relevant decisions:
+
+- CPU's primary processor and Chromebook's ChromeOS laptops are not own places.
+- Jack's3.5mm socket/Mini-phone/Mini-stereo forms are not Jeddah's port city or
+  Xuzhou's railway-junction city.
+- URL Query/Query component/Search string is parameter data after `?`, not
+  Queens' borough/park relationship. The database Query comparison remains a
+  separate unresolved Computing decision.
+- Opt-out/Opting out stop email-list messages; no own place clue asks for that.
+- Zip of death/ZOD identify a malicious archive, not an own island/cove/region.
+- Geotag identifies a digital photo's attached location label, not a particular
+  own place; Pixel's display element is not Paphos' city-with-mosaic-villas fact.
+  All remaining software/network/security/product full contexts were retained.
+
+Actual Native whole-adult Medium7 common/18 informed/3 specialist acceptance is
+acknowledged, correcting the author's earlier missing-rating assertion; original
+author5/20/3 and historical failure remain disclosed. Initial facts/aliases/
+source/semantics and affected successor Medium rebinding remain unreviewed.
+Jack's old body-binding failure and failed FTC attempts are not relabeled passed.
+**No own Geography fact, alias, Medium or pair decision changes; no Computing
+acceptance is conferred.**
+
+The previously guarded Games `8c321…`/`5f767…`, GeneralEasy5 `0ee279…`/`2b501…`
+and ComputingEasy `7868…` proposal contexts and actual original failures remain
+bound through the accepted content seal. Operational role refills of unchanged,
+already selected Native decks do not add a question payload or require waiting
+for an unrelated author packet.
+
+## Six mandatory review lenses
+
+1. **Correctness/completeness:** complete content inheritance, exact one-pack
+   append, counts, original rating compatibility and both actual meaningful
+   proposal deltas verified. The62 unchanged runtime modules preserve engine,
+   deadlines, storage, recovery, controls and serialization. Full phase scope
+   remains330/9,240/all66 quotas, not cleared by this increment.
+2. **Usability/accessibility:** natural accepted English/104 forms survive.
+   Both localized144/two-three-four descriptions match actual folders. No
+   control, CSS, SVG, focus or ownership presentation changes. The corrected
+   native selection includes the own fixed/numbers/JSON/reimport/HTML/PDF/
+   print/recovery journey and English Geography mixture, plus catalog,
+   replacement-recovery and opponent-deadline regressions in both engines.
+   That is58 listed cases/four files, workers1, **not58 executed passes**.
+   New screenshots/browser interaction evidence remain a post-review gate;
+   no physical-device, WCAG recertification or layout execution is claimed.
+3. **Readability/maintainability:** two direct runtime edits, an explicit test
+   schema adapter, small shared distribution assertion and purpose-specific
+   regressions; no unrelated refactoring. Original rich evidence remains
+   traceable, not reduced to URLs or canonical strings.
+4. **OOP/responsibilities:** no new class/resource owner, global service or
+   persistence layer. Pure catalog/validation boundaries are preserved; no
+   artificial class requirement or engine rewrite is introduced.
+5. **Patterns/proportionality:** direct import/append and native test helpers
+   solve the present integration need. No runtime dependency, framework,
+   speculative abstraction, state-machine or adapter-lifecycle change.
+6. **Content/rights/delivery:** all28 accepted original wording/source/alias/
+   initial/difficulty judgments and specific adaptations persist. No rights or
+   trademark clearance is invented. Current143 actual delivery remains receipt-
+   bound; new144 public/private deployment, complete served deck and deliberate
+   active/naturally expired old-game upgrade are **not yet verified**.
+
+## Checks, preserved failures and mandatory next gate
+
+Actual bounded reviewer command, from repository root:
+
+`PYTHONDONTWRITEBYTECODE=1 python3 .artifacts/continuation/parallel-decks/geography-en-medium-04/independent-release-current143-r36-v1/review.py`
+
+`CHECKS.json` records its exact assertion count and complete list;
+`STOP-GUARDS.json` records every actually read external file by absolute path.
+All guards are rechecked before final sealing. These are source/binding and
+own-impact proofs, not gameplay QA.
+
+The bound coordinator focused log actually records type checking and76 tests
+passing across four files, including existing GeneralM05 and all31 own tests.
+The coordinator also reports lint passing; this reviewer did not rerun it.
+Full quality, all64-runtime coverage with separate critical35/remaining29 gates,
+build and native execution remain **UNRUN** here and must pass on this exact
+source freeze before publication. No fresh coverage percentages are invented;
+all64 production runtime JS files remain included, with only the unchanged
+type-only declaration excluded.
+
+Preserved failures: the original54-case list omitted the own module because of
+the wrong spec filename; corrected58-case selection uses the real
+`phase-eleven-general.spec.js`. Freeze attempts failed on optional Playwright
+nesting and an incorrect author handoff filename; neither failure is relabeled
+successful. A first reviewer assertion wrongly assumed question source-URL
+arrays were unchanged in ComputingMedium; it rejected Chromebook04. Exact
+inspection identified the six supplementary URL additions, all matched to their
+actual full supplementary objects, and the corrected bounded checks pass.
+No candidate was altered to make a check pass.
+
+| Findings                              | Severity/location | Outcome                           |
+| ------------------------------------- | ----------------- | --------------------------------- |
+| None affecting this Geography release | —                 | Zero blocker/major/minor findings |
+
+**STOP:** sole coordinator may run the approved exclusive same-snapshot
+quality/coverage/native gate, then commit/push only this deck and its necessary
+integration, and verify exact remote/private revisions, whole served pack,
+all preceding data/settings/bindings/colors/raw libraries and unchanged deadlines
+under deliberately active and naturally expired recovery. A failure or meaningful
+source/current-context change reopens only affected conclusions. General's
+changed-entry review is separate; no next deck, source/Git/service mutation,
+heavy reviewer execution, category or Phase12 clearance was performed here.

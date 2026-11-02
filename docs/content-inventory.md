@@ -1,6 +1,38 @@
 # Content inventory and provenance
 
-## Current General Medium05 one-deck snapshot
+## Current Geography Medium04 one-deck snapshot
+
+This isolated snapshot contains **144 decks / 4,032 entries**, adding only
+`geography-en-medium-04` (English, Medium,28 entries) to actual private delivery
+`cee19767` (143/4,004). All143 preceding pack bytes/order remain unchanged.
+Geography has16 decks/448 entries, including four English Medium decks.
+General retains14/392, Science15/420 and Nature15/420; Czech66/English78.
+The [shipment manifest](phase-12-deck-inventory.json) preserves the unchanged
+final330/9,240/all66 five-deck gate. The
+[source ledger](phase-12-geography-en-medium-04-sources.json) retains all28
+complete questions/supporting entries/full evidence arrays/104 answer forms
+and the exact actual Medium2Easy/25Medium/1Hard judgment at `/ratings/1`.
+All27 original acceptances plus the accepted Xuzhou26 correction retain their
+actual full original/accepted receipts; R5 remains a recorded closed finding.
+The entire original25-field portable and all rich entry objects survive the
+lossless generic projection. Its additional28 compatibility bindings contain
+only existing whole-question/full-evidence hashes; no evidence or acceptance
+flags are invented.
+[Independent content/current-delta acceptance](../reviews/phase-12-geography-en-medium-04-content.md)
+covers all28, all447 actual nominated relations, Elbe/Labe and Tunisia/Tunisko
+specific bilingual adaptations, actual143/R36 and the retained Computing
+proposal. Other unreviewed candidates and their real findings remain unapproved.
+Historical audit limitations are disclosed, not manufactured or globally
+excluded. Focused76 units/four files plus types/lint pass. All64 runtime modules
+remain in coverage; final integration release clearance precedes full
+quality/native and deliberate active/expired entire old-data/private upgrade.
+No other draft/category/final phase is cleared.
+
+## Historical General Medium05 one-deck snapshot
+
+Actual `cee19767` subsequently shipped only that deck after independent release,
+1,219 units/49files/all64runtime/58native and deliberate active/expired
+whole-old-data/deadline/full-served-deck verification.
 
 This isolated snapshot contains **143 decks / 4,004 entries**, adding only
 `general-en-medium-05` (English, Medium,28 entries) to actual private delivery

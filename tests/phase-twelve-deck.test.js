@@ -16,6 +16,12 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  */
 
 /**
+ * @typedef {{deckId: string, entries: number, verdict: string,
+ * assignedLevel: string, individualDistribution: Record<string, number>,
+ * questionIds: string[]}} GeographyDeckRating
+ */
+
+/**
  * @typedef {{
  * entriesReviewed: number, independentDominantGeneralAdultRating: string
  * } | {id: string, entriesRead: number, proposedDifficulty: string,
@@ -25,8 +31,23 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * individualDistribution: Record<string, number>
  * } | {id: string, decision: string, commonEasyIndices: number[],
  * informedMediumIndices: number[], specialistHardIndices: number[]} |
- * GeneralBatchRating} AcceptedRating
+ * GeneralBatchRating | GeographyDeckRating} AcceptedRating
  */
+
+/** @param {Record<string, number>} levels */
+function expectRatingDistribution(levels) {
+  const distribution = Object.entries(levels);
+  expect(distribution.length).toBeGreaterThan(0);
+  expect(
+    distribution.every(
+      ([level, count]) =>
+        ['easy', 'medium', 'hard'].includes(level) &&
+        Number.isSafeInteger(count) &&
+        count >= 0,
+    ),
+  ).toBe(true);
+  expect(distribution.reduce((total, [, count]) => total + count, 0)).toBe(28);
+}
 
 /**
  * @param {{id: string, entriesRead: number, proposedDifficulty: string,
@@ -41,17 +62,7 @@ function expectGeneralRating(rating, deckId, difficulty) {
   expect(rating.difficultyVerdict).toBe(
     'CLEARED (early full-deck calibration only)',
   );
-  const distribution = Object.entries(rating.individualEditorialBuckets);
-  expect(distribution.length).toBeGreaterThan(0);
-  expect(
-    distribution.every(
-      ([level, count]) =>
-        ['easy', 'medium', 'hard'].includes(level) &&
-        Number.isSafeInteger(count) &&
-        count >= 0,
-    ),
-  ).toBe(true);
-  expect(distribution.reduce((total, [, count]) => total + count, 0)).toBe(28);
+  expectRatingDistribution(rating.individualEditorialBuckets);
 }
 
 /**
@@ -73,6 +84,25 @@ function expectGeneralBatchRating(rating, deckId, difficulty) {
 }
 
 /**
+ * @param {GeographyDeckRating} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectGeographyRating(rating, deckId, difficulty) {
+  expect(rating.deckId).toBe(deckId);
+  expect(rating.entries).toBe(28);
+  expect(rating.verdict).toBe('ACCEPTED WHOLE-DECK ADULT RATING');
+  expect(rating.assignedLevel).toBe(difficulty);
+  expectRatingDistribution(rating.individualDistribution);
+  expect(rating.questionIds).toEqual(
+    Array.from(
+      { length: 28 },
+      (_, index) => `${deckId}-${String(index + 1).padStart(2, '0')}`,
+    ),
+  );
+}
+
+/**
  * @param {AcceptedRating} rating
  * @param {string} deckId
  * @param {string} difficulty
@@ -87,23 +117,13 @@ function expectAcceptedRating(rating, deckId, difficulty) {
     expect(rating.independentDominantRating).toBe(difficulty);
     expect(rating.disposition).toBe('ACCEPTED');
     expect(rating.entries).toBe(28);
-    const distribution = Object.entries(rating.individualDistribution);
-    expect(distribution.length).toBeGreaterThan(0);
-    expect(
-      distribution.every(
-        ([level, count]) =>
-          ['easy', 'medium', 'hard'].includes(level) &&
-          Number.isSafeInteger(count) &&
-          count >= 0,
-      ),
-    ).toBe(true);
-    expect(distribution.reduce((total, [, count]) => total + count, 0)).toBe(
-      28,
-    );
+    expectRatingDistribution(rating.individualDistribution);
   } else if ('entriesRead' in rating) {
     expectGeneralRating(rating, deckId, difficulty);
   } else if ('counts' in rating) {
     expectGeneralBatchRating(rating, deckId, difficulty);
+  } else if ('assignedLevel' in rating) {
+    expectGeographyRating(rating, deckId, difficulty);
   } else {
     expect(rating.id).toBe(deckId);
     expect(rating.decision).toBe(

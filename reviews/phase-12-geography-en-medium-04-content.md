@@ -1,0 +1,219 @@
+# Geography English Medium04 — independent bounded content/current-semantic review
+
+**CONTENT DELTA ACCEPTED. Unresolved content findings: 0.**
+
+Not integration, deck-release, category, deployment or Phase12 clearance.
+
+## Independence and fixed scope
+
+I did not author either deck in this two-deck batch. Runtime reviewer task ID is
+not exposed here; the coordinator must record its actual external task ID.
+No older reviewer UUID, author UUID or coordinator UUID is substituted for it.
+Coordinator `75f17f1b-c206-4c60-9d73-51f09ff4cd0f` remains sole publisher.
+
+Effective scope is actual delivered `cee197671e9bde32ced767db22a9e169c59eb0b2`,
+143 decks / 4,004 questions, English77/Czech66, through immutable R36 and the
+specific retained late Computing proposal below. The original142/R35 judgments
+remain intact; their historical report/seal/stop bytes are separately retained.
+The author's `current141` and this proof root's `current142-r35` names are
+historical, not the effective current scope. Actual delivery is receipt-bound,
+not my new private-endpoint or QA execution. Dirty primary159 is not a
+publishable reviewed snapshot. Future meaningful changes are not cleared.
+
+| Actual input                                | SHA256                                                             |
+| ------------------------------------------- | ------------------------------------------------------------------ |
+| Native raw, 11,387 bytes                    | `a62223a423a753b3c11d623944f6b738ceac3b31feeb27cfd3554683b69a0d82` |
+| Entire Native b03-v2 source, 315,874 bytes  | `f836fc4473b2b0669cdc41eb5fc6d3e5843001cd24c42aaed46f57f085bc06de` |
+| Author seal, all21 members checked          | `2de906c598d7883ff425b54f41a98e4123ebd858e0c860610cc738b651735f4b` |
+| Actual original initial judgments           | `44dca521eaab692044a76f7dd0f7768f3203acdd50b9a6d8a8a8d63c9a79d26c` |
+| Actual correction judgments                 | `30b5016cd2bd685764ce038ab0af8eb5f3e53d952cf0e7ced7410fdd7963b465` |
+| Own entire Medium object                    | `890c2ee7eb80b9c0169f12acf0bb01a37e293218115341a90d388d4afbd4aff1` |
+| Lossless coordinator ledger                 | `b060d4cdcf541694c9cd85aea18aba7f4b91e02d67b7a50b6c562ed5758e8cb9` |
+| Original R35, 76 selected / 2,128 questions | `8febf3ebb1180a0fa91f12e683d76012fb38e160cb49a5ec928518e3b123fbb5` |
+| Original immutable R35 prepublication queue | `b9ecd5e0204c7796c114de427acba0852120472894d8bf1777e44662b4b55669` |
+| Actual General143 delivery receipt          | `0cd84cbd8e3e3e76af30097788234a0158cfb52ed0473602e45be7deab7a1b93` |
+| R36, same76 selected / 2,128 questions      | `35c870e691db7f24dba4cf5a7a34c667020c1332512a16da86dcd34ba97bf5ba` |
+| Immutable R36 prepublication queue          | `ca24f2b1554a842d2a91d2eca66483be2b03a1f447510325a430dc2dfcc9146f` |
+
+`ACCEPTED-CONTINUITY.json` retains every actual whole question, entire source
+entry/full evidence array, aliases, original and accepted judgment, and Xuzhou's
+complete correction context/finding closure. Each receipt was dereferenced from
+its actual original file and compared to the Native object, not trusted from the
+author's summary. All27 original acceptances and the accepted Xuzhou26 correction
+bind exactly. Original R5 is preserved as a real missing-alias finding, then CLOSED
+by its actual original reviewer; it has not been silently erased.
+
+The original own English whole-Medium judgment is exactly **2 Easy /25 Medium /
+1 Hard**. The authoritative `/ratings/1` object, rationale, question list and
+limits are unchanged. No Easy04, English03 or Czech rating is substituted.
+Every original fact/source/natural-wording/initial/alias judgment is inherited
+under the explicit impact-based policy, not newly inferred from schema or counts.
+Actual matching accepts all **104 existing forms**, with exact28 board slots
+and canonical prefixes.
+
+## Losslessness
+
+I mechanically compared **all25 original portable root fields**, not a selected
+inventory. Every field other than the intentionally projected `entries` equals
+its original object. All28 rich original entries remain verbatim at
+`entireAuthorOriginalOwnEntries`; generic `entries` equals exactly the28 complete
+Native supporting entries. The actual entire own Medium object survives unchanged.
+The projection receipt confers no new factual, alias or rating acceptance.
+
+## Direct decisions on the two actual held pairs
+
+Both entire actual questions, all aliases, source-entry objects and full evidence
+arrays were read and rebound, including the actual phase11 source-ledger entries.
+
+1. **Elbe06 / `geography-cs-easy-02-14` Labe:** same river and overlapping North
+   Sea endpoint; Dresden/Hamburg versus Giant Mountains/Cuxhaven is not declared
+   semantic novelty. **Accept this specific independently written bilingual
+   course adaptation.** Elbe/Labe remain admitted on both sides.
+2. **Tunisia22 / `geography-cs-easy-02-23` Tunisko:** exactly the Tunis-to-country
+   fact, including the counterpart's legitimate `Tunisia` alias. **Accept this
+   specific independently written bilingual capital adaptation**, not a distinct
+   fact or a different-difficulty exception.
+
+These are fresh direct actual-pair judgments under PLAN669–672 and the actual
+original General b05 report's explicitly permitted independently authored
+Czech/English adaptations. They are not borrowed from GeneralENM05's unrelated
+five pairs. No blanket language waiver is granted. Delivered phase11 stays
+immutable and has priority; neither old question, evidence, alias nor difficulty
+is replaced. Neither counterpart receives a new whole-deck acceptance here.
+
+`CURRENT-PAIR-DECISIONS.json` records **all447** actual nominated relations with
+complete counterpart context and an independent own-specific reason. This
+includes exact own Native representations, not falsely counted new competitors.
+Concrete distinctions include Flanders' language property versus Belgium's
+region list, Paphos' location versus mosaic techniques, Queens versus players
+and boxing rules, Wrocław's statues versus the Oder, and Xuzhou versus
+Shanghai/Wuhan/Beijing. Unknown-language and Sports variants were retained.
+
+## Current R33/R34/R35 and proposals
+
+Actual prior70/74/75 entire question/alias payloads respectively remain identical.
+R33 selects ArtsEasy04, ArtsMedium04, this existing Native deck and GeoHard04;
+R34 adds ArtsHard04; R35 adds **HistoryENE03 only**. ProgrammingENE03 was already
+selected in R34, not a second new fact/source addition.
+
+`CURRENT142-R35-INPUTS.json` preserves actual full additions and source entries;
+`CURRENT-DELTA-DECISIONS.json` records their direct own28 impacts. Relevant
+distinctions include Ellis Island's immigration station versus Queens' park,
+Pompeii's Vesuvius burial versus Paphos' Cypriot villas, Alexander's conquest
+versus Iran's coastlines/capital, and architectural features versus Uppsala city.
+No new candidate's fact, aliases or adult difficulty is approved.
+
+Immutable cutoff `761f89756ef350574ac77eeb9162439a9a5a9acb643e0c91dfd4f9c7cf0f6680`
+binds all56 actual latest Games/GeneralEasy5 proposals and full ledgers/notices.
+Their raw/source pairs remain Games `8c321a63…`/`5f7675b9…`, GeneralEasy5
+`0ee2795c…`/`2b501b8e…`. The actual five Games replacements and Tongs were read;
+none repeats an own place relationship. They remain **UNREVIEWED PROPOSALS**.
+Superseded Underarm truly duplicated delivered Sports despite zero aliases.
+Old Teapot/Čajník was the same vessel fact, not resolved by Teapot/Kettle.
+Those original failures and Native reservations are not overwritten or cleared.
+
+### Actual143/R36 and the real late Computing alias proposal
+
+The actual GeneralENM05 delivery receipt binds its committed/remote/served
+revision to `cee197…`; its raw `a56760…`, original full source `609…`,
+61 forms and own original whole-Medium `2772a154…` judgments do not change.
+I did not re-execute its1219 unit tests, coverage,58 native journeys or synthetic
+old-data/private checks. Those are the coordinator's separately bound results.
+
+All76 entire R35 question/alias payloads, selected raw/full-source hashes and
+other records remain exact in R36. No deck is added. Only GeneralENM05's
+delivery lifecycle/commit/served metadata changes within the selected records.
+Historical inherited Nature metadata in `sourceRoleDeltaOnly` is not treated
+as a new fact or the actual R36 record delta.
+
+`CURRENT143-R36-LATE-COMPUTING-DELTA.json` retains the complete28 current
+Computing questions, complete raw/enriched source ledger, original lineage,
+continuity, latest handoff/seal, both changed full entries and the actual new
+Chrome pair. All six immutable capture bindings were independently checked.
+Successor raw is `7868c5693ed56194e947bb6b266e4c74d2d24005b745ff936e634ecb61483ffc`;
+full proposed ledger is `e908eb41503bd33c78cdd0a1d07c78deabb3a4a7ce1e8dda7b5608b6e4e6011a`;
+captured seal is `68dae91aa86e6f95172df9f41f4cbff8565abea3adc8e632a4a984cd4e418ea4`.
+The original reserved raw `95245b…`/full source `e013ec…` is **not replaced**.
+
+Independent meaningful own impacts:
+
+- **Join11:** only `Join now`, `Joining`, `Join a meeting` are added. The whole
+  clue enters an invited video meeting. Xuzhou's two-railway junction and the
+  Elbe's geographic course do not ask for that digital action.
+- **Voicemail24:** only `Voice bank`, `Voice message` are added. The complete
+  predicate is the recorded-message service for unanswered calls, not any own
+  place, capital, coast, island or river relationship.
+- **New Chrome pair:** actual English Google-browser identity versus Czech
+  `programming-cs-02-10` Google-browser/DevTools/JavaScript/DOM identity. This is
+  retained as the author's **unreviewed same-fact bilingual hold**, not silently
+  accepted here. Neither predicate asks for Yogyakarta's palace/Merapi location
+  or any other own place. The complete Markdown provenance is preserved as
+  its real format, not promoted to an invented accepted JSON evidence array.
+
+I read the retained entire28 current predicates and every answer/alias, not
+only the five new tokens. Exactly26 whole questions remain equal; the other2
+change aliases only. All64 Native forms, all30 complete raw support objects,
+every original evidence field and every lineage object are preserved;69 forms
+are proposed. **No Computing fact/alias/semantic/Easy acceptance is granted**;
+Printer/Print and Chrome holds, initial factual review and affected alias/rating
+rebinding remain pending. No language/category/zero-token exemption was used.
+The own104 forms, original28 acceptances, both direct adaptation decisions and
+whole-Medium object are unchanged. Outcome remains **CONTENT DELTA ACCEPTED**.
+
+## Audit limits and six lenses
+
+- **Correctness/completeness:** all28 accepted fact/evidence/wording/initial/
+  aliases and own whole-Medium continuity verified; both held current pairs
+  resolved. No gameplay or phase-completeness clearance.
+- **Usability/accessibility:** natural English and104 accepted forms preserved.
+  No browser, layout, print, physical-device or recovery claim.
+- **Readability/maintainability:** full source/root objects remain lossless;
+  no runtime implementation or shared-source changes.
+- **OOP/responsibilities:** no class/resource-lifetime change; runtime review
+  not applicable to this content-only delta.
+- **Patterns/proportionality:** no runtime pattern/dependency introduced; only
+  bounded proof helpers, no new architecture.
+- **Content/rights/delivery:** actual accepted source-quality/provenance and
+  original factual wording survive. Secondary evidence is not called primary.
+  No copied TV/commercial question bank, trademark or deployment clearance claimed.
+
+Of402 nominated contexts,306 have their entire actual source entry/array
+mechanically rebound. **70 legacy contexts and26 Sports representations lack
+matching full arrays.** Each receives a specific nonblocking relevance decision:
+its complete predicate/forms identify the different entity/property in the
+recorded reason; that distinction does not depend on newly proving the
+counterpart's fact. Neither held adaptation lacks an array. No absent historical
+generator/import/archive/extraction execution is invented. Those limitations do
+not contradict an own accepted fact, alias, Medium rating or relevant pair.
+This is bounded inherited/current evidence, not a fresh global inventory.
+
+## Checks and stop
+
+From the repository root, prefix each Python command with
+`PYTHONDONTWRITEBYTECODE=1`; scripts are in this report's parent directory:
+
+- `python3 …/verify_bindings.py`: **PASS1262** shared two-deck binding/losslessness
+  assertions.
+- `python3 …/current_evidence.py`: **PASS4855** shared bounded current-source,
+  exact-pair and immutable-delta assertions.
+- `python3 …/delta_decisions.py`: both coherent own28 records persisted.
+- `node --max-old-space-size=256 …/matcher-check.mjs`: **104 forms /28 slots and
+  prefixes PASS** here; the other deck's rejection finding is preserved.
+- `python3 …/delta_r36.py`: **PASS967** bounded actual143/R36 continuity,
+  complete raw/enriched lineage and meaningful late-proposal checks.
+
+Counts are mechanical evidence, not substitutes for the judgments above.
+All173 actually read external files are bound in `STOP-GUARDS.json`; all matched
+at close. Exact executable paths, technical failed-attempt disclosures and
+per-deck check payloads accompany the seal. No heavy QA, global scan, installation,
+browser/build/coverage, nested agent, workflow, source/Git/service or old-data
+write occurred. Only the newly authorised proof directory was written.
+
+**STOP:** coordinator may next integrate and freeze only this deck, reconcile any
+subsequent meaningful delivery/current delta, then obtain separate release review and
+the applicable exclusive central gates. This report does not authorise publishing
+the other blocked deck or clear any category/phase.
+
+## Coordinator external reviewer identity binding
+
+The caller records this independent review task as `647f249c-8649-474e-a079-1b1d6083992a`. This external task binding does not replace any unavailable original self-reported identity. The original report and seal remain byte-exact in the separately retained files. This is content acceptance, not final integration release clearance.
