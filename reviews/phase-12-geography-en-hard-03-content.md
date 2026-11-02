@@ -1,0 +1,319 @@
+# GeographyENHard03 — independent complete content/current-delta review
+
+## Verdict: CONTENT DELTA ACCEPTED
+
+**Blocking own-content findings: 0.** All28 unchanged accepted entries, adoption
+evidence, actual adult rating and meaningful current semantic/lifecycle deltas
+through **R27** are resolved together. This is not a materialization-only
+certificate, integration/release clearance, counterpart acceptance, category
+clearance or Phase12 clearance.
+
+The actual reviewer task identity is to be recorded by the caller; no runtime
+identity has been invented. The author is
+`ce2542ff-840d-4d2d-9d95-236cfb1fa43f`; original factual acceptance belongs to
+the different reviewer `4c3b3561-c8e2-4fb2-b3fd-dca8f4f486c2`.
+Only coordinator `75f17f1b-c206-4c60-9d73-51f09ff4cd0f` integrates/publishes.
+
+## Exact acceptance and adoption
+
+- Raw candidate:
+  `.artifacts/continuation/bundles/p12/geography/batches/b01-v2/packs/geography-en-hard-03.json`
+  — `eaff6abef1d9d762730361cb868beb8840d7efcfa69d9ba82529f75fab017776`.
+- Actual full source ledger, not a28-entry excerpt:
+  `.artifacts/continuation/bundles/p12/geography/batches/b01-v2/sources.json`
+  — `bf18bd0662c38db9fd9af866671f655ce7cf18664a20911ba72c717a97cc2a09`.
+- Frozen author handoff:
+  `../throughput-v1/DECK-HANDOFF.json`
+  — `2c98590c34c75d212c2e0dd16249d5131adb6e79e2efc1b7dc7166a0f91561a6`;
+  actual lowercase author `seal.json`
+  — `6b6b326c41c520595af593dccd164f69e7acb334c2a8ff8692db8c50d97d8213`.
+  Every declared manifest member and175 named author input bindings was checked.
+- Portable evidence is the single
+  `../release-ledger-v1/phase-12-geography-en-hard-03-sources.json`
+  — `5f6e4930366cb53ea509f48bccbde15386cb18fa19e8a823543185495303cf10`.
+  There is no asserted portable READY or portable seal.
+- Original report:
+  `.artifacts/continuation/bundles/reviews/p12/geography/b01/REPORT.md`
+  — `7a82e97529d8b5aa0641c6ad40b0327f562c5073247cd67ef110e697e4ac24f4`.
+  Entire original judgments:
+  `all-entry-judgments.json`
+  — `368efa2945b47b838016183046e72bf6fadceee98b46a12484a87b4c3dea2147`.
+  Whole actual difficulty file:
+  `deck-difficulty.json`
+  — `aac90dd8fff22e6433c64a1bd673600f95a26a0ff6cc6ebfee5ece6f2406166b`.
+
+`ENTRY-CONTINUITY.json` retains every full raw native-order question, entire
+source entry, complete support array, all67 aliases/95 total answer forms,
+entire actual original receipt and entire applicable enriched acceptance.
+The portable object's original entries and14 named projection guards match.
+There are32 original source placements; supplementary acceptance is additional,
+not silently substituted for that array. I inherited actual unchanged accepted
+judgments, not the author's claim of acceptance or a sample of entries.
+
+The exact whole general-adult distribution remains **23 Hard /5 Medium**.
+Medium entries are03 Cenote,04 Chinook,13 Loess,16 Oxbow lake and26 Xizang;
+the other23 remain Hard. The accepted whole rating object's native hash is
+`40fcd01d0e85615b221d0e1ba8bdfeba7b35f6288389ab2d45b0ccbf7326c60c`.
+The original file identifies Hard03 at **`/decks/1`**, found by actual deck ID.
+The historical handoff's `/decks/2` locates Medium03. This is a nonblocking
+locator correction, not a changed rating: this review binds the correct whole
+Hard03 object. New integration metadata must use the correct locator/object
+and must not invent an Easy0 key in the actual partial rating distribution.
+
+All28 fact, canonical, alias, wording, initial and individual/whole-rating
+judgments remain unchanged. No own new fact, alias deletion/addition, revised
+rating or revised source is approved. The Durban/Richards Bay correction is
+GeographyMedium03, not this deck.
+
+### Wave-cut platform support is complete
+
+Entry25 retains the **entire** actual supplementary independent receipt for
+abrasion platform and wave-cut bench, including both evidence objects and all
+four body/text guards. The Wiktionary abrasion-platform body/text hashes are
+`b46a3078024ecae19f0eb7cf80514418cc450d82fd5ef9fa583cf90bc3436129` /
+`7f52e2fcea05afbf4eddac02d762f9ddacc1d860fb96f8e0c40c6b33f6d4c7c2`.
+The MiraCosta/LibreTexts wave-cut-bench body/text hashes are
+`3dddb3645b6ca14e593460ed7da0c06758c805cb0551f8faf77211999bc29b9a` /
+`d05745601f3b1a18c28317a3d9f3bd394f82c81a7271abaebbdbbd3c5044c202`.
+These support the bench, not the cliff. The dictionary remains secondary;
+the educational text is not represented as a new primary field survey.
+
+## Current semantic decisions, not cartesian-count acceptance
+
+`SEMANTIC-DECISIONS.json` contains28 entry-specific decisions with their full
+native inputs,21 explicitly bound close current pairs,19 exact named Czech
+adaptations, all140 original nominated actual-native pairs and all four full
+answer-only materializations. Every16 unknown-language native-line occurrence
+was independently located/read, not excluded by an unknown language label.
+Wind tunnel, U-bend, Republic and Great Depression were examined as actual full
+questions/all forms rather than just answer strings.
+
+The finite author context scope was644 R14 objects plus168 additional actual
+English04/Czech03 contexts. I read the actual current bank predicates and all
+forms, retaining entire recorded source contexts and reading the meaningful
+source passages. No21952 mechanical cartesian rows are treated as distinct
+facts. The current R25 capture has1484 **occurrences**;56 duplicated Czech
+Easy03/Medium03 objects have exactly equal whole questions **and full source
+entries**. R26 adds28; R27 adds56. The resulting captured scope has1512 unique
+questions across54 named decks, including own28: **1484 unique counterpart
+questions**. This does not grant1484 initial factual acceptances.
+
+Principal decisions:
+
+- **Cenote/Doline:** the actual full source distinguishes a groundwater-
+  exposing sinkhole subtype from the general circular karst depression.
+  The former requires the Yucatec naming/groundwater-collapse identification;
+  the latter covers dissolution/collapse without that groundwater condition.
+  This is substantive subtype versus general-form knowledge, not merely two
+  different spellings or a category exemption.
+- **Oxbow lake/Meander:** isolated cutoff water body versus an active channel
+  bend maintained by outer erosion/inner deposition. Formation relationship
+  does not make the resulting lake and precursor bend the same asked fact.
+- **Ridges/deposits:** Hogback's dipping resistant strata differs from a
+  glacially eroded Arête and asymmetric Cuesta. Bajada's coalesced fans differ
+  from glacier-front Outwash; Kame's irregular sorted hill differs from Esker,
+  Drumlin, Rogen moraine and a sediment sheet. Roche moutonnée is sculpted
+  bedrock, not a deposited glacial hill.
+- **Permafrost/soil/processes:** Thermokarst's thaw-subsidence surface differs
+  from a frozen-core peat Palsa and a year-round unfrozen Talik, including a
+  talik beneath a thermokarst lake. Loess is sediment, not humus-rich Chernozem
+  formed on it. Traditional Nivation is not Felsenmeer or Solifluction.
+- **Other actual near-contexts:** fjard/fjord/ria; down-dropped graben/horst/
+  nappe/orogenesis; deflation/abrasion/groundwater suffosion; marine wave-cut
+  bench/fluvial terrace; glacial flood/shaft/excavated forms; regional
+  Chinook/Shamal/foehn/Zonda; deep plain/shelf; administrative Xizang versus
+  Xinjiang, Xining, cultural Tibet and general political status; Qattara
+  versus economic depression; Zeravshan versus another river/upper-course
+  alias. The full28 decisions preserve each actual qualifier and rejected
+  overbroad form.
+
+All19 form-sharing relations identify specific same-category Czech adaptations,
+with actual native predicates and complete forms examined individually.
+Each counterpart's support retains an unchanged passage from the own accepted
+source array; additional native passages were also read. These named adaptations
+are permitted, not a blanket Czech/cross-language exemption or initial
+acceptance of CzechHard03. Actual Nature, Science, General, Politics and
+Programming meanings were examined rather than waived by category. Biological
+ecosystems, equilibrium/instruments/material operations, manufactured objects,
+linguistic predicates, institutions and digital operations do not become own
+landform/region facts merely through shared words.
+
+### R26 and R27 are included
+
+The immutable R25 bank/BEFORE queue are
+`6f8cf834d0ae70ffb19ba06c9251d0645db1c31d80dd2fdf3f04f59f5be36a5f` /
+`ee8f509eff8f8df686539c3caebf28cfcb941e01b9be96b7b5a4fd647e639468`.
+R24's39/1092 whole payload persists; R25's eight existing-deck additions make
+47/1316. NatureCSHard04 was already banked, not one of those new eight.
+
+R26 bank/BEFORE queue:
+`5808199cfd4d1f85e65bc7cde235df9861c2d09f502059d2fbd5af2298d21ac2` /
+`e8c61a1fae7bbcc80d42de14e1bd79974b104580c8074ce875e141e0845d865e`.
+All prior1316 whole question/alias objects persist. New ProgrammingENMedium03
+is the exact existing raw
+`a0370748ce08ad15e731489306fefb6a980be0eb175a85bb9b2b3976c16b1714`,
+with full source
+`e013ec7816607811c2e6f5c09312143838af1f617d97fd353e3da0a1a1bc3633`.
+All28 full questions/forms/source passages were read independently. Geotag is
+digital location metadata; VPN's tunnel is a network connection; shoulder
+surfing is observation of private input; Dark mode is a UI scheme. None asks
+an own geographical fact. The author's concordant impact notification was
+treated as a proposal, not independent evidence of acceptance.
+
+R27 bank/BEFORE queue:
+`0762711363b0d4a63499a274396b87a6f482ca47fa5cdc27ead4ade4725bbbf2` /
+`3733568ed0b449e31f888430ccb31c7c4fc079df71553b13748900eec7a81b1c`.
+All prior48/1344 entire objects persist; exactly two preexisting packs add56
+objects, making50/1400 reservations. GeneralCSHard04 raw/source:
+`7a9129d3cc3eef22f99705bc70098359e9fc2e672fb3ba87e630d3b4e949927a` /
+`3c135c822e4e81dbb0446387124ffb3c3876f7f87600c359b664c4f8667c09fa`.
+PoliticsENEasy04 raw/source:
+`d239515471bbe8ee0d5786d40245253914a9d7ff5549d5df66156c0230b8dedf` /
+`d20d96f57b55c8f0762c3ec26138cacc83e263f367e1c4cded791cc1cb1d537c`.
+I read all56 full predicates/all forms and every recorded support passage.
+Human metal chasing/embossing, ribbed textiles and grainy leather are not
+natural abrasion/relief. Evacuation is a human emergency response, not the
+glacial outburst event. Quiet carriage, Red Cross, Yellow vest and Canada's
+X marker retain their explicit institutional/transport/protest/document
+senses. Typography objects do not identify geological plains or regions.
+Entry-specific full bindings/decisions are retained; neither deck is cleared.
+
+Completed GeneralCSMedium04 bilingual/Wu long proposals, PoliticsCSHard04's
+Article267 context audit/current-pair proposals, ScienceCSHard04's missing
+initial acceptance/rating and six source extensions, and the other notified
+future-deck proposals remain unaccepted here. Their reported completion is not
+an own fact change. No coherent supplied proposal contradicts an own decision.
+
+## Lifecycle and actual delivered base
+
+Actual delivered/private baseline is
+**`5a798b9fd056896bee6cb25b6971960fca76dafb`,139 decks/3892 questions**,
+not dirty primary159 or historical f1bca/R14. The complete actual139-pack file
+list was read/hash-checked from the bound native delivery freeze; all seven
+`-03` packs in that actual library exactly match their captured bank raw bytes
+and complete question objects. Whole-library real-normalizer form screening
+finds no own collision. Original source-specific phase11 decisions/priority
+are retained; this is not fresh factual acceptance of the entire139 library.
+
+The actual General delivery receipt
+`.artifacts/continuation/parallel-decks/general-en-hard-03/integration/ACTUAL-DELIVERY-RECEIPT-v1.json`
+has hash
+`e2ef42ac44f0404223bbb54fd1474ee86ab280ecbc56020ad0e2f5e8628e077b`.
+The actual final independent General supplement is
+`.artifacts/continuation/parallel-decks/general-en-hard-03/independent-release-v1/final-science-current-delta-v3/REPORT.md`
+— `7aa589d64c46554e67586162c97e24c178d73311aae3f906a05998d62e70a8ee`,
+with seal
+`06790db0d4ed62415ab61f51a73a29665e2b740fd1d7524fdb72262bc40df868`.
+These and its actual post-review/precommit receipts are bound, rather than
+mistaking the earlier base release report for the final supplement.
+
+The inherited receipt records1080 units/44 files, all63 runtime files,
+entire77-file coverage archive,58 native passes with0 skipped/unexpected/flaky,
+and genuine active/naturally expired old-data, served-pack, reload and original
+deadline preservation PASS. Those are **prior General actual-delivery**
+results, not tests run here or clearance of future Geography integration.
+No deployment was repeated.
+
+The five retained completed candidates were not discarded on refill; GeneralH03
+is actually delivered with unchanged original content bindings. Neutral
+reservation labels assert neither independent facts nor unshipped status.
+Individual content/delivery receipts decide those roles.
+
+Actual V5 machine and15 source-specific proof guards are retained. Arts31,
+separate Roman32, GeneralTypography and Czech godron/Gwerz retirements/yields
+remain; only actual narrow Dobby/Čokoláda/Zigzag/Nib/Zrcadlo exceptions persist.
+Nothing here reopens those roles, globally waives unknown-language proposals
+or settles future Zigzag/final330 ownership.
+
+The historical R14 queue-pointer failure remains a failure: the author's
+preserved limitation records declared `19f7cf0bf26a9fc8f179078bcb57b0f49ca70d488f84b9293d4d87a0f60e62ab`
+versus actual `e09d3847ac194d5a4967e29480e195f4778911002eb70365864b6c0b9a3c8d53`.
+The actual current R25/R26/R27 queue paths/hashes match their banks, but are
+BEFORE-publication snapshots, not repaired historical execution attestations
+or future mutable-queue identity.
+
+Under the owner15:37 impact amendment, missing old generator/import/root/
+HTML-extraction execution bookkeeping is **nonblocking for this exact deck**:
+all unchanged accepted own objects/receipts survive and the concrete own
+source/alias/rating/duplicate questions above are resolved. No missing proof is
+invented. The original wrong-contract bundle invocation and15-versus30
+Geography quota failure remain failures; they are not current single-deck fact
+defects or final quota satisfaction. This is coherent deck-level
+reclassification, not a global recovery certificate.
+
+## Six review lenses
+
+1. **Correctness/phase completeness:** content/adoption/current semantic scope
+   passes as above. Phase12 and prospective integration are incomplete.
+2. **Usability/accessibility:** actual original natural-English/initial/alias
+   judgments persist, including CH/SH. Production matcher checks pass.
+   No current browser layout, both-language/theme, print numbering,
+   export/reimport, recovery or physical-device clearance is asserted.
+3. **Readability/maintainability:** full native questions/arrays/receipts and
+   correct rating locator are explicit; no primary implementation/test/docs
+   edits. No runtime-size/complexity exception is introduced.
+4. **OOP/responsibilities:** content-only review introduces no runtime owner,
+   storage adapter, authoritative-state change or altered resource lifetime.
+   Integrated runtime behavior still needs its mandatory gate.
+5. **Patterns/proportionality:** bounded named inputs and one small reviewer
+   helper; no dependency, abstraction, service, historical generator,
+   workflow, delegation or global backstop. Mechanical pair counts are not
+   independent facts.
+6. **Content/rights/delivery:** unchanged actual source-quality distinctions
+   persist, mostly secondary encyclopedia/dictionary rather than institutional
+   evidence. No own source reclassification, copied television assets or new
+   rights claim. Whole accepted wording/rating and source arrays survive.
+   Only the coordinator can publish after the remaining gate.
+
+## Verification, stop boundary and next step
+
+The reviewer helper was run with `node --max-old-space-size=192` at this
+directory's `review.mjs`: initial capture, `extend`, `decide`, `extend27`,
+final `decide`, then `stop` and `seal`. Bounded diagnostic reads used96MiB.
+Exact executable path:
+
+```text
+.artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/review.mjs
+```
+
+Independent small proof results:
+
+- Real production `validatePack` and all28 alphabet positions PASS.
+- Every95 actual form in original/uppercase/normalized-padded variants:
+  **285 positives PASS**; nine deliberately rejected meanings PASS.
+- Native question/source/whole receipt/array/alias/rating identity checks PASS.
+- All168 additional contexts equal actual pack and full source objects;
+  16 native-line occurrences and four full materializations PASS.
+- Actual production normalization screen:0 cross-own-entry collisions,
+  0 own/delivered-library collisions, exactly19 individually adjudicated
+  current Czech adaptation relations. The earlier more aggressive lexical
+  screen was only a conservative aid, not production normalization.
+- Final stop/seal rehash **all519 named immutable external inputs**, including
+  meaningful counterpart body/text guards: unchanged,0 mismatches.
+
+`SMALL-PROOF-CHECKS.json` records the R26-stage checks;
+`SEMANTIC-DECISIONS.json` adds the final R27-inclusive bindings/real-normalizer
+results. `START-GUARDS.json` and `STOP-GUARDS.json` contain actual input paths,
+SHA256s and sizes. `SEAL.json` hashes all13 reviewer artifact members, including
+this report and helper, excluding itself to avoid a circular hash.
+
+No heavy test/build/coverage/browser/native suite, install, service,
+administration or publication operation was performed. An initial orientation
+command inadvertently included read-only Git status despite the prohibition;
+it made no repository change, and no further Git command was used. Tooling
+truncated some large console responses; needed evidence was reread in bounded
+native chunks, not from automatic spool files. Early helper assertions caught
+and corrected the wrong rating-index assumption and confusion between an
+entire receipt source entry and its evidence array; those were helper mistakes,
+not candidate edits or concealed content failures.
+
+**Next:** coordinator freezes only prospective140/3920 from actual139, with
+exact own raw bytes and whole portable JSON, correct rating metadata,
+documentation/counts/tests. The reported formatted-ledger identity and focused
+440-test preparation are not independently accepted integration evidence yet.
+The same reviewer then inspects that actual freeze/integration. Full mandated
+post-review quality, all-runtime coverage, native flows and genuine private
+old-data/new-pack/reload/deadline delivery checks remain pending.
+
+Review stops here. No other deck is authored or cleared. Final330 decks /
+9240 questions /all66 quotas and category/phase gates remain unchanged.

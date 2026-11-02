@@ -1,6 +1,31 @@
 # Content inventory and provenance
 
-## Current General Hard03 one-deck snapshot
+## Current Geography Hard03 one-deck snapshot
+
+This isolated snapshot contains **140 decks / 3,920 entries**, adding only
+`geography-en-hard-03` (English, Hard,28 entries) to actual private delivery
+`5a798b9f` (139/3,892). All139 earlier pack bytes and ordering remain unchanged.
+Geography has14 decks/392 entries, with three English/Medium and English/Hard
+decks. General retains13/364, Science14/392 and Nature15/420.
+The [shipment manifest](phase-12-deck-inventory.json) enforces actual incremental
+quotas and the unchanged final330/9,240/all66 five-deck gate.
+The [source ledger](phase-12-geography-en-hard-03-sources.json) preserves all28
+complete questions/full supporting arrays/95 forms and exact adult Hard23/
+Medium5 rating.
+[Independent content/current-delta acceptance](../reviews/phase-12-geography-en-hard-03-content.md)
+covers all28 through R27, specific source-supported subtype/process distinctions,
+19 named Czech adaptations and actual unknown-language contexts. The correct
+original rating locator is `/decks/1`; the archived original handoff's erroneous
+`/decks/2` remains preserved as history, not active rating authority.
+Historical audit limitations are disclosed, not reconstructed by assertion.
+Final integration release clearance must precede applicable quality/native and
+genuine active/expired old-private recovery gates.
+No other draft, category or final phase is cleared here.
+
+## Historical General Hard03 one-deck snapshot
+
+Actual `5a798b9f` subsequently shipped only that deck after independent release,
+full quality/native and deliberate active/expired old-data verification.
 
 This isolated snapshot contains **139 decks / 3,892 entries**, adding only
 `general-en-hard-03` (English, Hard,28 entries) to actual private delivery

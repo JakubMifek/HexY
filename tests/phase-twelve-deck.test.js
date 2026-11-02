@@ -17,7 +17,7 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * difficultyVerdict: string, individualEditorialBuckets: Record<string, number>
  * } | {id: string, assigned: string, independentDominantRating: string,
  * disposition: string, entries: number,
- * individualDistribution: {easy: number, medium: number, hard: number}
+ * individualDistribution: Record<string, number>
  * } | {id: string, decision: string, commonEasyIndices: number[],
  * informedMediumIndices: number[], specialistHardIndices: number[]}} AcceptedRating
  */
@@ -63,16 +63,19 @@ function expectAcceptedRating(rating, deckId, difficulty) {
     expect(rating.independentDominantRating).toBe(difficulty);
     expect(rating.disposition).toBe('ACCEPTED');
     expect(rating.entries).toBe(28);
-    expect(Object.keys(rating.individualDistribution).sort()).toEqual([
-      'easy',
-      'hard',
-      'medium',
-    ]);
-    const distribution = Object.values(rating.individualDistribution);
+    const distribution = Object.entries(rating.individualDistribution);
+    expect(distribution.length).toBeGreaterThan(0);
     expect(
-      distribution.every((count) => Number.isSafeInteger(count) && count >= 0),
+      distribution.every(
+        ([level, count]) =>
+          ['easy', 'medium', 'hard'].includes(level) &&
+          Number.isSafeInteger(count) &&
+          count >= 0,
+      ),
     ).toBe(true);
-    expect(distribution.reduce((total, count) => total + count, 0)).toBe(28);
+    expect(distribution.reduce((total, [, count]) => total + count, 0)).toBe(
+      28,
+    );
   } else if ('entriesRead' in rating) {
     expectGeneralRating(rating, deckId, difficulty);
   } else {

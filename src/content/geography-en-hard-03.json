@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "geography-en-hard-03",
+  "title": "Geography and travel · Hard 03",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-en-hard-03-01",
+      "initial": "A",
+      "text": "What term names an exceptionally flat deep-ocean surface formed as fine sediment blankets uneven oceanic crust?",
+      "answer": "Abyssal plain",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Abyssal_plain"]
+    },
+    {
+      "id": "geography-en-hard-03-02",
+      "initial": "B",
+      "text": "What landform consists of alluvial fans that have merged along the foot of a mountain range?",
+      "answer": "Bajada",
+      "aliases": ["bahada"],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bajada_%28geography%29",
+        "https://en.wiktionary.org/wiki/bahada"
+      ]
+    },
+    {
+      "id": "geography-en-hard-03-03",
+      "initial": "C",
+      "text": "What Yucatec-derived term describes a natural sinkhole where collapsed limestone exposes groundwater?",
+      "answer": "Cenote",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cenote"]
+    },
+    {
+      "id": "geography-en-hard-03-04",
+      "initial": "CH",
+      "text": "What regional name is used for warm, dry downslope winds on the eastern side of the Rockies in Alberta?",
+      "answer": "Chinook",
+      "aliases": [
+        "chinook wind",
+        "snow eater",
+        "Chinook winds",
+        "Chinooks",
+        "interior Chinook",
+        "interior Chinooks"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Chinook_wind"]
+    },
+    {
+      "id": "geography-en-hard-03-05",
+      "initial": "D",
+      "text": "In geomorphology, what process removes loose surface particles by the turbulent action of wind?",
+      "answer": "Deflation",
+      "aliases": ["wind deflation"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Deflation_%28geology%29"]
+    },
+    {
+      "id": "geography-en-hard-03-06",
+      "initial": "E",
+      "text": "What type of drainage basin retains its water rather than draining to the ocean, commonly losing it through evaporation?",
+      "answer": "Endorheic basin",
+      "aliases": [
+        "endoreic basin",
+        "endorreic basin",
+        "endorheic drainage basin",
+        "closed drainage basin",
+        "closed basin",
+        "internal drainage basin",
+        "terminal basin",
+        "internal drainage system"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Endorheic_basin"]
+    },
+    {
+      "id": "geography-en-hard-03-07",
+      "initial": "F",
+      "text": "What term from Swedish names a broad, shallow inlet shaped by retreating glaciers, common along the Baltic coast?",
+      "answer": "Fjard",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Fjard"]
+    },
+    {
+      "id": "geography-en-hard-03-08",
+      "initial": "G",
+      "text": "What geological term names a block of crust lowered between parallel normal faults?",
+      "answer": "Graben",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Graben"]
+    },
+    {
+      "id": "geography-en-hard-03-09",
+      "initial": "H",
+      "text": "What geomorphological term describes a narrow ridge with similarly steep flanks formed from steeply dipping resistant strata?",
+      "answer": "Hogback",
+      "aliases": ["hogback ridge", "hog's back", "hogsback"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hogback_%28geology%29"]
+    },
+    {
+      "id": "geography-en-hard-03-10",
+      "initial": "I",
+      "text": "What is the term for gravitational equilibrium in which the lithosphere floats on the denser underlying mantle?",
+      "answer": "Isostasy",
+      "aliases": ["isostatic equilibrium"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Isostasy"]
+    },
+    {
+      "id": "geography-en-hard-03-11",
+      "initial": "J",
+      "text": "What Icelandic-derived term names a sudden large release of water from a lake beneath or in front of a glacier?",
+      "answer": "Jökulhlaup",
+      "aliases": ["glacial outburst flood", "glacier outburst flood"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/J%C3%B6kulhlaup"]
+    },
+    {
+      "id": "geography-en-hard-03-12",
+      "initial": "K",
+      "text": "What is an irregular hill of sand and gravel deposited by meltwater in or beside retreating glacial ice called?",
+      "answer": "Kame",
+      "aliases": ["kame hill", "knob"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kame"]
+    },
+    {
+      "id": "geography-en-hard-03-13",
+      "initial": "L",
+      "text": "What sediment, composed predominantly of silt, forms through the accumulation of windblown dust?",
+      "answer": "Loess",
+      "aliases": ["loess deposit", "Löss"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Loess"]
+    },
+    {
+      "id": "geography-en-hard-03-14",
+      "initial": "M",
+      "text": "What is a near-vertical shaft in a glacier, formed where surface meltwater enters a weakness in the ice, called?",
+      "answer": "Moulin",
+      "aliases": ["glacier mill", "glacial mill"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Moulin_%28geomorphology%29"]
+    },
+    {
+      "id": "geography-en-hard-03-15",
+      "initial": "N",
+      "text": "What traditional collective term covers weathering, erosion and meltwater processes associated with persistent snow patches?",
+      "answer": "Nivation",
+      "aliases": [],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nivation"]
+    },
+    {
+      "id": "geography-en-hard-03-16",
+      "initial": "O",
+      "text": "What type of U-shaped lake forms when a river meander is cut off from the main channel?",
+      "answer": "Oxbow lake",
+      "aliases": [
+        "oxbow",
+        "cutoff lake",
+        "cut-off lake",
+        "billabong",
+        "resaca"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Oxbow_lake"]
+    },
+    {
+      "id": "geography-en-hard-03-17",
+      "initial": "P",
+      "text": "In the classical cycle of erosion associated with William Morris Davis, what is the nearly level surface approached after prolonged erosion?",
+      "answer": "Peneplain",
+      "aliases": ["peneplane"],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Peneplain",
+        "https://en.wiktionary.org/wiki/peneplane"
+      ]
+    },
+    {
+      "id": "geography-en-hard-03-18",
+      "initial": "Q",
+      "text": "Which below-sea-level depression in northwestern Egypt has a floor of salt pans, dunes and salt marshes?",
+      "answer": "Qattara Depression",
+      "aliases": ["Qattara", "Qaṭṭārah Depression"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Qattara_Depression"]
+    },
+    {
+      "id": "geography-en-hard-03-19",
+      "initial": "R",
+      "text": "What glacially sculpted bedrock outcrop has an abraded upstream side and a plucked downstream side?",
+      "answer": "Roche moutonnée",
+      "aliases": ["sheepback", "sheepback rock"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Roche_moutonn%C3%A9e"]
+    },
+    {
+      "id": "geography-en-hard-03-20",
+      "initial": "S",
+      "text": "What Russian-derived term names wind-eroded snow ridges found in polar and other exposed snowy regions?",
+      "answer": "Sastrugi",
+      "aliases": ["sastruga", "zastrugi", "zastruga", "sastrugus"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sastrugi"]
+    },
+    {
+      "id": "geography-en-hard-03-21",
+      "initial": "SH",
+      "text": "What is the regional name for a northwesterly wind over Iraq and the Persian Gulf that can raise sandstorms?",
+      "answer": "Shamal",
+      "aliases": ["shamal wind"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shamal_%28wind%29"]
+    },
+    {
+      "id": "geography-en-hard-03-22",
+      "initial": "T",
+      "text": "What term describes uneven terrain of hollows and hummocks produced by thawing ice-rich permafrost?",
+      "answer": "Thermokarst",
+      "aliases": ["cryokarst"],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thermokarst",
+        "https://fr.wikipedia.org/wiki/Thermokarst"
+      ]
+    },
+    {
+      "id": "geography-en-hard-03-23",
+      "initial": "U",
+      "text": "In classical French geography, what is the name for the less sun-exposed mountain slope, opposite an adret?",
+      "answer": "Ubac",
+      "aliases": ["ombrée", "envers", "bac"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://fr.wikipedia.org/wiki/Ubac"]
+    },
+    {
+      "id": "geography-en-hard-03-24",
+      "initial": "V",
+      "text": "What is a stone abraded, grooved or polished by wind-driven sand or ice crystals called?",
+      "answer": "Ventifact",
+      "aliases": ["wind-faceted stone", "windkanter"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ventifact"]
+    },
+    {
+      "id": "geography-en-hard-03-25",
+      "initial": "W",
+      "text": "What gently sloping rock bench is exposed at the foot of a retreating sea cliff as wave erosion wears the coast back?",
+      "answer": "Wave-cut platform",
+      "aliases": [
+        "shore platform",
+        "abrasion platform",
+        "wave-cut bench",
+        "wave cut platform",
+        "coastal bench"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Wave-cut_platform"]
+    },
+    {
+      "id": "geography-en-hard-03-26",
+      "initial": "X",
+      "text": "Which autonomous region of the People's Republic of China has Lhasa as its administrative capital?",
+      "answer": "Xizang",
+      "aliases": [
+        "Tibet",
+        "Tibet Autonomous Region",
+        "Xizang Autonomous Region",
+        "TAR"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tibet_Autonomous_Region",
+        "https://en.wikipedia.org/wiki/Lhasa"
+      ]
+    },
+    {
+      "id": "geography-en-hard-03-27",
+      "initial": "Y",
+      "text": "What regional name is used for the humid forest belt along the eastern Andean slopes from Peru and Bolivia into northwestern Argentina?",
+      "answer": "Yungas",
+      "aliases": ["the Yungas"],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yungas"]
+    },
+    {
+      "id": "geography-en-hard-03-28",
+      "initial": "Z",
+      "text": "Which river rises in Tajikistan and feeds the oasis around Samarkand in Uzbekistan?",
+      "answer": "Zeravshan",
+      "aliases": [
+        "Zeravshan River",
+        "Zarafshan",
+        "Zarafshan River",
+        "Zarafshon",
+        "Zerafshan",
+        "Zarafshon River",
+        "Polytimetus",
+        "Sughd River"
+      ],
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zeravshan_%28river%29"]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sealedAt": "2026-11-02T00:24:31.295Z",
+  "deckId": "geography-en-hard-03",
+  "verdict": "CONTENT DELTA ACCEPTED",
+  "blockingFindings": 0,
+  "releaseCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "reviewerIdentity": "Actual task ID to be recorded by caller; not fabricated",
+  "rawPackSha256": "eaff6abef1d9d762730361cb868beb8840d7efcfa69d9ba82529f75fab017776",
+  "completeOriginalSourceLedgerSha256": "bf18bd0662c38db9fd9af866671f655ce7cf18664a20911ba72c717a97cc2a09",
+  "wholeOriginalRatingSha256": "40fcd01d0e85615b221d0e1ba8bdfeba7b35f6288389ab2d45b0ccbf7326c60c",
+  "wholeOriginalRatingPointer": "/decks/1",
+  "immutableExternalInputs": 519,
+  "allExternalInputsUnchanged": true,
+  "actualDeliveredBaseline": "5a798b9fd056896bee6cb25b6971960fca76dafb",
+  "latestReviewedReservationRevision": 27,
+  "members": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/review.mjs",
+      "sha256": "189b58062cbfd47a20ee5f360c64f5696de009f085e7d9dbf1c23df95b902b13",
+      "bytes": 35487
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/DECISION-INPUT.json",
+      "sha256": "1b0c8c89ce3bdc8f9f82bf4d2ebca8ee29ce26fcde7e2e5887bd445c662a934d",
+      "bytes": 15135
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/ENTRY-CONTINUITY.json",
+      "sha256": "7229918582fe8830ca2e8e19a612ddf90d04e1176e9e60959de64329262cfa32",
+      "bytes": 1181836
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/CURRENT-CONTEXTS.json",
+      "sha256": "10a76faf4bb15167250ca60e8ec5889abaea3945b664bd36f68894453bdc7572",
+      "bytes": 8402176
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/R26-DELTA.json",
+      "sha256": "beff91b920bbd0f1fdb97fb489b70dadbba241f5f35aad9d76de07da1bc93412",
+      "bytes": 1561792
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/R27-DELTA.json",
+      "sha256": "eb40a0fe3850582a851450f4a900b3752f2d06c616b9086ecb15e065e131a3ef",
+      "bytes": 1614813
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/DELIVERED-LIBRARY.json",
+      "sha256": "55b839faa9099b7c91fc3c1e1a07756203b3d9917316a9d396027726b5f2fa76",
+      "bytes": 2048057
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/LEXICAL-RELATIONS.json",
+      "sha256": "31408c8f8f866232531a1a7145ad89252f5fb517a92dc0f7106ae71cf73f1c11",
+      "bytes": 15750
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/SMALL-PROOF-CHECKS.json",
+      "sha256": "928806406439d6b7300f9fb65515d1679fbba78e83db1611840a497c0bb5b1c3",
+      "bytes": 603
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/SEMANTIC-DECISIONS.json",
+      "sha256": "849ca6fdd7677428e72e5207fd26368002a1f477d51273a55f7f430a9aaa6868",
+      "bytes": 3438154
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/START-GUARDS.json",
+      "sha256": "97e145a1103a9f0e63e2b62caf34fa18e46caca3b8f5f12029ef25760f0dacd8",
+      "bytes": 115521
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/STOP-GUARDS.json",
+      "sha256": "6bf46345b90b374ff89f40e16a97156e47ce294f0f2aef15bd5fd383cd282466",
+      "bytes": 115289
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/geography-en-hard-03/independent-content-delta-v2/REPORT.md",
+      "sha256": "ac31606055e72bcdad79558330a8b5d83093e7c5fd78a46879ce094df77d6c46",
+      "bytes": 18854
+    }
+  ],
+  "sealSelfExcludedToAvoidCircularHash": true,
+  "remainingGate": "Coordinator freezes exact prospective140 from actual139; same reviewer integration follow-up, all mandatory central QA/native and genuine private upgrade/delivery verification remain pending"
+}

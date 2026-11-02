@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "sealedAt": "2026-11-02T00:45:17.856Z",
+  "deckId": "geography-en-hard-03",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "exactSourceQAFrozenInputSha256": "fcd4c10f189f12516e74c5a8515312ed362e069bfebd36c3bdd15e5bb11689d8",
+  "reportSha256": "6fef43a9dee7804f67bbb250ba3a39af3bdb1abbcad817cac6f447d436395e18",
+  "members": {
+    "check.mjs": {
+      "sha256": "6009116a9d2ae53a2d52aaa44ebe51edf8cda8ad52dc7ec27cde52d15235c888",
+      "bytes": 38450
+    },
+    "INPUT-BINDINGS.json": {
+      "sha256": "9a0e2d72e3f91eec38ff1d5a6863131799a09718aee03a1d6c94f9484b5b2e2a",
+      "bytes": 335881
+    },
+    "SOURCE-COMPARISON.json": {
+      "sha256": "5f39711228b4a18e53303a653f86eed9e5e45a83de67e594d1272b78d5688b66",
+      "bytes": 14707
+    },
+    "R28-CURRENT-DELTA.json": {
+      "sha256": "572ad64369fdd2b0cd6b478fe3b55373ebb90d39758a0a11eee654921824456f",
+      "bytes": 1839025
+    },
+    "R28-DECISION-INPUT.json": {
+      "sha256": "80faa41038d974973943569aed1ef7dfc1e44ac6970fef411fcf5553b4eb7f56",
+      "bytes": 26023
+    },
+    "FINAL-DIRECT-DELTA.json": {
+      "sha256": "82871abacae5a48f996d5fe60ed260df017ecfe1f02d9e0c7db9f18c4e375b01",
+      "bytes": 422238
+    },
+    "FINAL-ARTS-DELTA.json": {
+      "sha256": "2fc2a6c9eb8c54b3c3059674bea63a7b8ea92797974fe066db83a8148fcf7ab0",
+      "bytes": 104042
+    },
+    "R28-DECISIONS.json": {
+      "sha256": "78ed3c0d129a1694c3f6ba8e08a07df381aaba49cc223ab71d60e29ea25fff4d",
+      "bytes": 1431973
+    },
+    "INTEGRATION-CHECKS.json": {
+      "sha256": "f4ca76669c2c64780e993e48150cee021318eac6dacd18ff19039d137c74b0c4",
+      "bytes": 22753
+    },
+    "REPORT.md": {
+      "sha256": "6fef43a9dee7804f67bbb250ba3a39af3bdb1abbcad817cac6f447d436395e18",
+      "bytes": 17751
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "66760d04fd1bfe22856a81d4889d6754d2970c4923d6bae9c6df5ae6ef30bfb6",
+      "bytes": 335966
+    }
+  },
+  "reviewerTaskId": "30308f54-5525-48f6-a3ec-c260f2d2b020",
+  "reviewerIdentityBasis": "Actual caller-recorded identity in the immutable actual queue-at-freeze; not invented",
+  "externalInputCount": 1564,
+  "actualDeliveredBaseline": "5a798b9fd056896bee6cb25b6971960fca76dafb",
+  "prospectiveDecks": 140,
+  "prospectiveQuestions": 3920,
+  "latestReviewedReservationRevision": 28,
+  "additionalDirectStages": [
+    "general-en-easy-05",
+    "politics-cs-medium-04",
+    "arts-en-easy-03"
+  ],
+  "centralQualityNativeActualPrivateDeliveryStillRequired": true,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "publicationExecuted": false
+}

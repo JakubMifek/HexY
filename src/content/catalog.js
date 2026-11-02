@@ -138,6 +138,7 @@ import sportsEnHard2 from './sports-en-hard-02.json';
 import { validatePack } from '../domain/packs.js';
 import scienceEnEasy3 from './science-en-easy-03.json';
 import generalEnHard3 from './general-en-hard-03.json';
+import geographyEnHard3 from './geography-en-hard-03.json';
 
 const bundledSources = [
   cs,
@@ -279,6 +280,7 @@ const bundledSources = [
   geographyEnMedium3,
   scienceEnEasy3,
   generalEnHard3,
+  geographyEnHard3,
 ];
 
 export function bundledPacks() {

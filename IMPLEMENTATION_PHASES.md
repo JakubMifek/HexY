@@ -36,7 +36,21 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current General incremental snapshot:** verified private/remote baseline
+**Current Geography Hard03 incremental snapshot:** actual private/remote baseline
+`5a798b9f`,139 decks/3,892 questions. Only GeographyEnglishHard03 is added here,
+giving140/3,920 with all139 earlier pack bytes/order unchanged. Its complete
+28-question/full-evidence/95-form and actual Hard23/Medium5 calibration
+bindings are inherited from the actual original independent review.
+[Independent content/current-delta acceptance](reviews/phase-12-geography-en-hard-03-content.md)
+covers all28 through R27, actual subtype/process distinctions,19 specific Czech
+adaptations and unknown-language contexts. The actual whole Hard rating locator
+is `/decks/1`; erroneous historical `/decks/2` stays archived, not active.
+Final integration release acceptance precedes full quality/native and actual
+active/expired private upgrade. Historical audit limitations stay disclosed,
+not silently proven.
+Other author lanes remain isolated. Final330/9,240/all66 is NOT CLEARED.
+
+**Historical General incremental snapshot:** verified private/remote baseline
 `d59cd851`,138 decks/3,864 questions. Only GeneralEnglishHard03 is added here,
 giving139/3,892 with all138 earlier pack bytes/order unchanged. Its complete
 28-question/full-evidence/68-form and actual Hard26/Medium2 calibration/correction

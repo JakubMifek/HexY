@@ -1,5 +1,34 @@
 # HexY
 
+**Phase 12 incremental snapshot: 140 decks / 3,920 questions.** Only
+`geography-en-hard-03` is added to actual private revision `5a798b9f`
+(139 decks / 3,892 questions), preserving every preceding pack byte and order.
+Its [source ledger](docs/phase-12-geography-en-hard-03-sources.json) retains all
+28 complete questions, entire supporting arrays, 95 accepted answer forms and
+the exact original general-adult Hard calibration (23 Hard / 5 Medium).
+[Independent content/current-delta review](reviews/phase-12-geography-en-hard-03-content.md)
+accepts all28 and meaningful semantic/lifecycle deltas through R27, including
+Cenote/Doline, Oxbow/Meander,19 specific Czech adaptations and actual
+unknown-language contexts. The actual original Hard rating is at `/decks/1`;
+the incorrect `/decks/2` locator remains only inside the archived original
+handoff, not as the current rating authority. The
+[exact original report](docs/phase-12-geography-en-hard-03-content-original.txt)
+and seal are retained. Historical execution/paragraph audit limitations remain
+disclosed, not invented proof. Final integration release review precedes the
+applicable quality/native and deliberate active/expired private upgrade gates.
+Other candidates remain isolated.
+Final330/9,240/all66 five-deck quotas and independent phase clearance remain
+unchanged.
+
+## Historical General Hard03 adoption checkpoint
+
+The following is its pre-delivery snapshot. Actual `5a798b9f` subsequently
+shipped only that deck after independent release, full quality/native and
+deliberate active and naturally expired old-data verification. Its
+[release report](reviews/phase-12-general-en-hard-03-release.md) and
+[exact original postreview receipt](docs/phase-12-general-en-hard-03-postreview-original.txt)
+remain preserved.
+
 **Phase 12 incremental snapshot: 139 decks / 3,892 questions.** Only
 `general-en-hard-03` is added to verified private revision `d59cd851`
 (138 decks / 3,864 questions), preserving every preceding pack byte and order.
