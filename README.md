@@ -1,5 +1,34 @@
 # HexY
 
+**Phase 12 incremental snapshot: 143 decks / 4,004 questions.** Only
+`general-en-medium-05` is added to actual private revision `c3950593`
+(142 decks / 3,976 questions), preserving every preceding pack byte and order.
+Its [source ledger](docs/phase-12-general-en-medium-05-sources.json) retains all
+28 complete questions, entire raw and accepted supporting arrays, 61 answer
+forms and the exact native general-adult Medium calibration
+(5 common / 21 informed / 2 specialist). The original complete three-deck
+rating object is preserved, not replaced with invented per-deck fields.
+[Independent content/current-delta acceptance](reviews/phase-12-general-en-medium-05-content.md)
+covers all28 through actual R33, including five individually bound bilingual
+same-fact adaptations. This is not a blanket language or duplicate exemption.
+The portable ledger inventories every original projection field and retains
+the exact original/accepted own-entry receipts; whole historical artifacts
+remain hash-bound instead of being silently dropped or repeatedly duplicated.
+The generic rating test recognizes only this exact accepted schema/hash/level;
+its original failing compatibility check is retained in the integration logs.
+All64 runtime files remain included. Final integration release clearance must
+precede full quality/native and deliberate active/expired private recovery
+gates. This pre-release snapshot is not publication or Phase12 clearance.
+Final330/9,240/all66 five-deck quotas remain unchanged.
+
+## Historical Geography Easy03 adoption checkpoint
+
+Actual `c3950593` subsequently shipped only that deck and its reviewed cohesive
+Phase11 baseline-list extraction after independent release,1,185 units/48files,
+all64 runtime modules,58 native cases and deliberate active/expired entire
+old-data/deadline/full-served-deck verification. The following preserves its
+pre-delivery snapshot.
+
 **Phase 12 incremental snapshot: 142 decks / 3,976 questions.** Only
 `geography-en-easy-03` is added to actual private revision `840b1637`
 (141 decks / 3,948 questions), preserving every preceding pack byte and order.

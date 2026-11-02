@@ -1,6 +1,37 @@
 # Content inventory and provenance
 
-## Current Geography Easy03 one-deck snapshot
+## Current General Medium05 one-deck snapshot
+
+This isolated snapshot contains **143 decks / 4,004 entries**, adding only
+`general-en-medium-05` (English, Medium,28 entries) to actual private delivery
+`c3950593` (142/3,976). All142 preceding pack bytes/order remain unchanged.
+General has14 decks/392 entries, including three English Medium and Hard decks.
+Geography, Science and Nature each retain15/420; Czech66/English77.
+The [shipment manifest](phase-12-deck-inventory.json) retains the unchanged
+final330/9,240/all66 five-deck gate. The
+[source ledger](phase-12-general-en-medium-05-sources.json) preserves all28
+complete questions, full raw and accepted evidence arrays,61 forms and exact
+actual Medium5common/21informed/2specialist judgment. Its complete original
+three-deck rating object remains intact; no generic-test fields are invented.
+[Independent content/current-delta acceptance](../reviews/phase-12-general-en-medium-05-content.md)
+covers all28 through actual R33 and five individually accepted Jute/Oolong/
+Ramekin/Saffron/Filigree bilingual relations, not a blanket language exemption.
+All original projection fields retain exact own values or guarded whole-file
+references; original/correction receipts, source quality and historical audit
+limits remain available. No original supporting-array member is omitted.
+The initial generic-rating compatibility failure is preserved, and its narrow
+schema/hash/level test adaptation passes398 focused units/four files plus
+types/lint without changing content or existing rating variants.
+All64 runtime modules remain in coverage. Final integration release clearance
+precedes full quality/native and deliberate active/expired private upgrade.
+No other draft/category/final phase is cleared.
+
+## Historical Geography Easy03 one-deck snapshot
+
+Actual `c3950593` subsequently shipped only that deck and its reviewed cohesive
+Phase11 baseline-list extraction after independent release,1,185 units/48files,
+all64 runtime files,58 native cases and deliberate active/expired entire
+old-data/deadline/full-served-deck verification.
 
 This isolated snapshot contains **142 decks / 3,976 entries**, adding only
 `geography-en-easy-03` (English, Easy,28 entries) to actual private delivery

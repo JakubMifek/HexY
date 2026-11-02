@@ -36,7 +36,27 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current Geography Easy03 incremental snapshot:** actual private/remote baseline
+**Current General Medium05 incremental snapshot:** actual private/remote baseline
+`c3950593`,142 decks/3,976 questions. Only GeneralEnglishMedium05 is added here,
+giving143/4,004 with all142 earlier pack bytes/order unchanged.
+Its28 complete raw questions/FULL raw and accepted support arrays/61 forms
+and actual general-adult Medium5common/21informed/2specialist rating remain exact.
+[Independent content/current-delta acceptance](reviews/phase-12-general-en-medium-05-content.md)
+covers all28 through R33 and five specific bilingual same-fact relations,
+not a blanket language or source-history exemption. Complete original
+three-deck rating object and actual own receipts remain unchanged.
+The initial generic-rating compatibility failure is preserved; its narrow
+schema/hash-bound test adaptation passes focused398 units/fourfiles plus
+types/lint without changing content, calibration or existing rating variants.
+All64 runtime modules remain in coverage. Final integration release clearance
+precedes applicable full quality/native and deliberate active/expired private
+upgrade. Historical audit limitations remain disclosed. Other authors remain
+isolated; final330/9,240/all66 is NOT CLEARED.
+
+**Historical Geography Easy03 incremental snapshot:** subsequently delivered
+`c3950593` after independent release,1,185 units/48files/all64runtime/native58
+and actual active/expired whole-old-data/deadline/full-served-deck verification.
+The following preserves its pre-delivery snapshot. Actual private/remote baseline
 `840b1637`,141 decks/3,948 questions. Only GeographyEnglishEasy03 is added here,
 giving142/3,976 with all141 earlier pack bytes/order unchanged. Its complete
 28-question/full-support-array/89-form and actual Easy22/Medium6 calibration

@@ -1,0 +1,377 @@
+# GeneralENMedium05 — independent frozen deck-release review
+
+**Verdict: CLEARED FOR DECK RELEASE. Blocking findings: 0.**
+
+This is the same independent reviewer's bounded final integration review, including
+the subsequently supplied **R35** semantic delta. It is not category, deployment or
+Phase12 clearance, nor a claim that the coordinator's still-unrun release gates
+passed. The proof-directory name retains R34 because work started on that snapshot;
+the decisions and stop guards explicitly extend through R35.
+
+## Snapshot, identity and authority
+
+- Candidate checkout:
+  `.artifacts/continuation/deck-release-general-en-medium-05-worktree/`.
+- Actual checked HEAD: `c3950593eaaea3d4ddc1068f7f52527927c6c4a3`,
+  delivered142 / 3,976 questions, not the dirty primary159 checkout.
+- Exact immutable source/QA freeze:
+  `.artifacts/continuation/parallel-decks/general-en-medium-05/integration/FROZEN-RELEASE-INPUT-v1.json`,
+  SHA256 **`58a24ebe138059ea26996b50777867fdfad6dddfcc10806662faf274f655d7cd`**.
+  All **461 source files, 34 frozen external inputs and 142 old-pack bindings**
+  were independently checked. Actual source status is exactly seven modified
+  paths plus six new paths; the complete source set is the455 HEAD files plus
+  those six new files.
+- Prospective append only: **143 decks / 4,004 questions; English77 / Czech66**.
+- Caller-provided external reviewer identity:
+  **`647c835b-1a54-4e03-80c9-2eefbe0fafe0`**. This is the coordinator/caller's
+  binding, not a runtime self-identity independently exposed to this reviewer.
+  Runtime self-task ID remains unknown; none is invented or borrowed. The
+  original author-routing42246420 and notice-self-report2a67f9cd remain distinct.
+- Coordinator75f17f1b-c206-4c60-9d73-51f09ff4cd0f alone integrates and publishes.
+  I wrote only this new proof directory. No source, tests, configuration, Native,
+  shared documentation, reservation, index/cache, Git or service was changed.
+  No nested agent, workflow, installation or heavy grant was used.
+
+## Accepted content continuity and losslessness
+
+The original independent **CONTENT DELTA ACCEPTED** judgment remains intact:
+
+| Original proof | SHA256 |
+|---|---|
+| Report | `59e0c34a012e1a7dfb63550609362082b0bfad800c7d49f6198798d60d15250b` |
+| Seal | `ae35890972b4d86488cfaf4da15c8abe7e5afb3da615d3e94cf7a11dc0eb02f4` |
+| Stop guards | `2f2fcb40a0a50c4bb15f31ede46f9231bf5eb4e388a2e1a7d269143019fe1580` |
+
+I revalidated its **424 external guards and 11 sealed payloads**, not merely an
+author's summary. Original complete entry/source/alias/rating judgments and
+findings are inherited under the explicit impact-based owner amendment. The
+original396, current68, original42 and relevant24 decisions remain bound; their
+overlapping scopes are not advertised as that many unique comparisons.
+
+The shipped raw candidate is byte-identical to Native:
+`a56760aae46551ef0fdfa47b1124e708dfde269f4bbe689e96680d5e8f9d2e15`,
+**10,169 bytes**. The full Native General source file remains
+`609c89cf2d2ce6371ea0ef28d534ee4999ddaf24dde9dfe0ab5ae3df53e4b4c5`,
+189,618 bytes. The **entire parsed formatted release ledger**, not a reduced
+field inventory, equals the original 1,270,335-byte portable ledger
+`ab9d796ee89629ab042fbeece3f1c66a4f862e673eeeb6d19824268faca84cb7`.
+Therefore the original complete question objects, full Native entries, complete
+evidence arrays, original/accepted receipts, references and all original
+projection fields survive. The originally verified parent projection's27 root
+fields and each own entry's23 fields have not silently been discarded.
+
+The actual whole three-deck adult-rating object is unchanged, object SHA256
+`2772a1543ee0f75ddc52fad402778c3b4b0c279b2544239125328c65bf6e7fbc`.
+It still contains the original rubric, all easy/medium/hard counts and judgment:
+easy28common; medium**5common / 21informed / 2specialist**;
+hard21specialist / 3informed / 4common. No invented per-deck ID, entriesReviewed,
+adult flag, schema rewrite or rerating was required.
+
+The repository's original-report `.txt` is byte-exact and its copied seal is
+structurally exact. The readable Markdown copy differs only in formatter layout/
+table separator widths plus the separately labelled caller-identity appendix.
+Its substantive original body was compared independently after removing only
+those formatting differences; findings were not rewritten.
+
+## Every own entry: accepted facts and latest current decision
+
+Every row retains its entire original accepted entry, evidence, forms, initial
+and adult judgment. The JSON evidence records those original objects without
+replacing them, and separate all28 current decisions for both new comparator
+decks. All **61 canonical/alias forms** remain accepted.
+
+| Own suffix/answer | Original adult judgment | Current R34/R35 impact; accepted unchanged |
+|---|---|---|
+| 01 Anagram | common | Letter rearrangement, not musical notation or Xerox's genericized brand verb. |
+| 02 Bodkin | informed | Casing-threading sewing tool, not Netsuke toggle or historical garments. |
+| 03 Caper | informed | Pickled flower bud, not Acanthus capital foliage. |
+| 04 Chervil | informed | Culinary anise-flavoured herb, not an architectural leaf motif. |
+| 05 Darning | informed | Thread repair across a hole, not Lierne vault rib or Zoot suit identity. |
+| 06 Epaulette | informed | Uniform shoulder/rank piece, not Yakshagana, Roman civic Toga or Zoot suit's padded shoulders. |
+| 07 Filigree | informed | Twisted ornamental wire, not Fluting, Plique-à-jour, Shibuichi, Baryton strings or Shrapnel. |
+| 08 Grommet/Eyelet | informed | Reinforcing ring, not Netsuke toggle or instrument finger-hole construction. |
+| 09 Hasp | informed | Hinged slotted staple plate, not a cord toggle or gateway. |
+| 10 Icing sugar | common | Ground sweetener, not Jasperware relief or the Versailles bread-price event. |
+| 11 Jute | informed | Sacking fibre, not a zither, Toga's wool or Shrapnel's contextual canvas container. |
+| 12 Kiln | common | Pottery-firing oven, not Jasperware, enamel technique, Pompeii's eruption or executions by fire. |
+| 13 Lentils | common | Lens-shaped edible pulse, not architectural foliage or historical crop-price events. |
+| 14 Miso | informed | Fermented soybean seasoning, not Koto construction or Shibuichi alloy. |
+| 15 Nutmeg | informed | Myristica seed/aril spice distinction, not Magellan's voyage. |
+| 16 Oolong | informed | Partial tea oxidation, not Rhyton vessel or Boston Tea Party protest. |
+| 17 Purl | informed | Knitting bump stitch, not column grooves, chant sign or named garment. |
+| 18 Quatrefoil | informed | Four-rounded-lobe shape, not Acanthus, Spandrel, Lierne, Wimperg, Torana or Pompeii. |
+| 19 Ramekin | informed | Individual baking dish, not Jasperware product or Rhyton drinking/libation vessel. |
+| 20 Saffron | informed | Dried Crocus stigmas, not decorative leaves or historical spice-route navigation. |
+| 21 Sherbet | informed | British fizzy confection powder, not Rhyton or Shrapnel shell. |
+| 22 Trivet | informed | Hot-pot table support, not icon screen/stand or drinking vessel. |
+| 23 Undertaker | common | Funeral profession, not Ecorche figure, named deceased royal, killer or truce burial event. |
+| 24 Verjuice | specialist | Unripe-grape culinary juice, not a drinking/libation vessel. |
+| 25 Whetstone | informed | Blade-sharpening abrasive, not Voussoir arch block, shell or execution biography. |
+| 26 Xinomavro | specialist | Naoussa sour-black red grape, not Xaphoon instrument, Alexander or Xerox company. |
+| 27 Yuletide | informed | Yule/time festive-period word, not Organum, Christmas truce event or Richard's capture. |
+| 28 Zori | informed | V-thong sandals, not Koto, Netsuke, Toga, Zoot suit or dance-theatre tradition. |
+
+The five **actual same-fact bilingual** decisions remain accepted, not erased:
+
+- own11 → `general-cs-medium-03-12`: Jute/Juta, sacking bast fibre.
+- own16 → `general-cs-medium-04-17`: Oolong, partial oxidation.
+- own19 → `general-cs-medium-04-19`: Ramekin, individual baking dish.
+- own20 → `general-cs-medium-01-22`: Saffron/Šafrán, dried Crocus stigmas.
+- own07 → `general-cs-hard-05-07`: Filigree/Filigrán, twisted-wire ornament.
+
+These are the original reviewer's direct actual-pair adaptations, preserved by
+exact original bindings. They were not justified by different difficulty, shared
+answer alone or an invented language waiver. The original accepted b05 adaptation
+rule and PLAN's independently adapted languages support them; different difficulty
+does not make the Filigree fact novel or rerate either deck.
+
+## Concurrent semantic deltas through actual R35
+
+### R34: actual ArtsENHard04 only
+
+R34 is exactly
+`20161390965bfe1435fc1cfc5cc86a9df6cfaeba8310f98aca844219d77aef20`,
+75 selected / 2,100 questions. All74 R33 entire question/alias entry payloads
+remain identical. Its sole added selection is the preexisting Native Arts hard
+deck, raw
+`d57366b228ac60bb91bac826db8ce4e460d064c5b0a4c98f6f417f43fee35aab`
+and whole source
+`02732db9761642c292d9086e29a4fa4468b7cca548b0718838d6384f051603f8`.
+
+I read all28 actual questions, all107 forms and all their actual stored Native
+source passages. No exact inherited ArtsHard04 pair was falsely claimed.
+[SEMANTIC-DELTA.json](SEMANTIC-DELTA.json) supplies28 direct counterpart decisions
+and28 own current decisions. In particular Plique-à-jour's backing-free enamel,
+Filigree's fine-wire technique and Shibuichi's alloy are different queried facts;
+Jasperware/Kiln/Ramekin and Netsuke/Bodkin/Grommet/Hasp were examined in their
+actual full contexts. No category, nationality, difficulty or zero-token shortcut.
+
+### R35: actual HistoryENE03 only, not a second Programming addition
+
+R35 is exactly
+`8febf3ebb1180a0fa91f12e683d76012fb38e160cb49a5ec928518e3b123fbb5`,
+**76 selected / 2,128 questions**. Immutable prepublication queue:
+`b9ecd5e0204c7796c114de427acba0852120472894d8bf1777e44662b4b55669`.
+All75 R34 entire question/alias entry payloads remain identical.
+ProgrammingENE03 was already selected in R34; its raw95245b03/fullsourcee013ec78
+and entire question/alias payloads were actually reconciled, not counted as new.
+
+The sole added selection is HistoryENE03, exact existing Native raw
+`83ece7be6387e4ec8e39a4fcb3af44f5d73e3c6f14f04090f8d9bf41d2829ae9`,
+13,207 bytes, and whole source
+`76c04b42ce2071d4fbfe3fef7995e299fa437457f954c02e4b0f8e381bb6769f`,
+290,130 bytes. I read all28 actual predicates, all115 canonical/alias forms and
+all stored claim-bearing source contexts. The actual original396/current68/
+original42/relevant24 records contain no exact HistoryENE03 pair judgment;
+therefore these are fresh direct impact decisions, not fabricated inheritance.
+[R35-SEMANTIC-DELTA.json](R35-SEMANTIC-DELTA.json) records every new counterpart
+and every own current decision.
+
+The relevant distinctions include Boston Tea Party/Oolong, Christmas truce/
+Yuletide, Toga and Zoot suit/Epaulette and Zori, Shrapnel/Filigree/Whetstone/Jute,
+Magellan/Nutmeg/Saffron, and named deaths or truce burials/Undertaker.
+Shared tea, Christmas, clothing, metal, spice or death context does not identify
+the same queried fact. All own28 remain accepted unchanged.
+
+The immutable queue confirms four current isolated assignments: HistoryENE03,
+ProgrammingENE03, ArtsENH04 and ScienceCSM03. Assignment role changes do not
+supplant runtime identity or authorize mutations. History's own initial/
+correction acceptance trace is still its author's work, not claimed accepted
+here. The reported next GeoMedium04 portable projection is not treated as fresh
+question content or reviewed author output; the actual reservation payloads
+remain exact. No mutable author packet is substituted for frozen Native input.
+
+The corrected Games8c/5f and GeneralEasy0ee/2b proposals at frozen cutoff761f
+remain **PROPOSED UNREVIEWED**. Superseded Underarm truly overlapped delivered
+Sports despite zero aliases. The old Teapot/Čajník same-fact issue remains
+distinct from Teapot/Kettle, and does not turn Oolong's processing fact into a
+vessel question. None of those findings was silently deleted or promoted to
+other-deck clearance.
+
+## All six mandatory review lenses
+
+### 1. Correctness and phase completeness
+
+**Pass for this bounded pre-gate release review.** Catalog integration is exactly
+one explicit import and one append; removing them reproduces HEAD catalog bytes.
+No glob, draft, unpublished deck or duplicate ID is exposed. The explicit132
+baseline extraction is byte-unchanged. All142 old pack bytes were checked against
+both the freeze and actual HEAD Git blobs; their ordering remains unchanged.
+The inventory's prior additional-ID sequence is untouched and gains only this
+deck. Actual143/4004 and77EN/66CS counts reconcile; General14, Nature15,
+Geography15, Science15. The final **330 decks / 9,240 questions / 66 combinations /
+5 per combination** gate is unchanged and remains incomplete.
+
+All64 runtime modules remain in scope: **35 critical / 29 remaining**, no new
+module or runtime exclusion. Only catalog and the two help-count strings change.
+Coverage configuration/checker/package/lock/native base configuration are
+byte-unchanged. All production JS, including untested files, remains in the
+denominator except the genuinely type-only declaration. Critical gates remain
+95/95/95/90; remaining85/85/85/80. No new measured General coverage percentage
+exists yet; old Geo metrics are baseline only.
+
+The new30 regressions comprise the exact append/142-old-byte check, all28 actual
+whole entry/evidence/receipt/alias cases, and the original whole rating hash.
+The generic test correction is narrowly scoped to `general-en-medium-05`,
+`medium`, exact accepted whole-rating2772 and5/21/2. Older rating variants are
+unchanged. This repairs a test's incorrect assumed rating schema without
+altering the accepted Native rating or inventing fields.
+
+### 2. Usability and accessibility
+
+**Integration inspection passes; actual native journeys remain a required next
+gate.** No new UI control, label exposing answers, layout, focus, theme or timer
+implementation is introduced. Both localized help counts change142→143 and no
+other localization text changes. Existing source selection, fixed28 layout,
+letters/numbers, mixtures, printing/export/import and recovery paths remain
+real runtime paths.
+
+The frozen own-deck native configuration lists58 tests across four files,
+Chromium/Firefox, one worker, unique run label, guarded checkout, strict port4203
+and no reused server. Its scope includes own fixed/numbers selection, actual
+JSON/HTML/PDF exports/reimport, mixed General, recovery and opponent flows.
+**LIST58 is not58 browser passes.** I did not run a browser, inspect new live
+screenshots or verify physical Xbox/tablet hardware. The approved visual
+accessibility exception and unchanged browser/physical-device limitations are
+not silently recertified by this content append.
+
+### 3. Readability and maintainability
+
+**Pass.** The explicit append and count updates are traceable and proportional.
+No runtime dependency or redundant production wrapper was added. The generic
+rating helper names the real accepted special schema and requires its whole
+hash, rather than weakening checks or mutating content to satisfy a generic test.
+The new tests use actual complete artifacts and real parser/matcher behavior,
+not a mocked engine or a materialization-only certificate.
+
+README, content inventory, machine inventory and phase ledger agree on the
+prospective counts and still-unrun gates. Their historical checkpoints and
+baseline facts remain historical. The formatted readable content report
+separates the caller identity appendix from the byte-exact original.
+No metric exception or unresolved maintainability finding is needed.
+
+### 4. OOP and responsibilities
+
+**Pass by exact unchanged responsibilities.** No new class, resource owner,
+controller, service or inheritance hierarchy exists. Pure validation/matching
+remains separate from serializable game state and runtime/DOM/storage owners.
+Nothing about this pack append warrants a new OOP abstraction or changes
+listener/timer lifetime. The complete unchanged runtime scope is guarded.
+
+### 5. Design patterns and proportionality
+
+**Pass.** An explicit pack import/append and a strict test-schema helper solve
+the current problems directly. No generic framework, bus, strategy, factory or
+speculative extension point was introduced. The game's explicit state machine
+and resource adapters are unchanged; coverage and native selectors retain their
+real scope rather than accepting a smaller convenient proxy.
+
+### 6. Content, rights and delivery
+
+**Pass for own content and frozen release integration, not actual delivery.**
+All28 inherited accepted factual/source/wording/initial/alias/adult judgments
+remain exact, with meaningful fresh R34 and R35 current decisions above.
+All original full evidence and accepted receipts survive release formatting.
+No own new fact, source, answer, alias or rating mutation exists.
+Original wording/provenance/license judgments are inherited through exact Native
+bytes and the actual original review, not inferred from schema validity.
+No new legal-name/trademark or other-deck rights clearance is asserted.
+
+The actual delivered142 receiptbf04894b and HEADc395 are the baseline.
+The publisher, recorder, JSON guard and dual-recovery helpers are exactly the
+six prior Geo-bound inputs, not newly improvised release paths. Inspection
+confirms fresh **active3600** and **naturally expired10** old-build profiles,
+original absolute deadlines, entire old game/settings/bindings/pack/raw library,
+post-upgrade reload and complete served-deck equality. An actually expired
+active attempt must be preserved and freshly recaptured under a new label;
+the deadline is never extended. Those helpers were **not executed** here.
+New General public/private version, actual served pack and deliberate whole-old-
+data canaries remain coordinator gates, not already-proven delivery.
+
+## Verification actually performed and evidence reused
+
+All commands ran in the actual checkout root. Prefix for these local proof
+scripts:
+`.artifacts/continuation/parallel-decks/general-en-medium-05/independent-release-current142-r34-v1/`.
+
+| Check | Actual result |
+|---|---|
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/verify.py` | PASS:461source/34external,142old Git+byte guards, entire portable equality, actual counts/runtime scope, R34 only-new payload. |
+| `node --max-old-space-size=192 …/matcher-replay.mjs` | PASS:actual frozen parser;61 forms,61 case/space variants,56 negative answers;4,704 bidirectional own/Arts form queries. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/semantic-delta.py` | PASS:28 direct Arts impacts,28 own current decisions, original five adaptations intact. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/r35.py` | PASS:R35's75 unchanged payloads, only History added, actual whole Native/source bindings, Programming alreadyR34, source freeze unchanged. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/r35-semantic.py` | PASS:28 direct History impacts and28 own current decisions. |
+| Bounded `node --max-old-space-size=192 --input-type=module` production replay | PASS:whole History parser preservation,115 History forms/61 own forms,4,928 bidirectional form queries; retained in `R35-MATCHER-REPLAY.json`. |
+| `PYTHONDONTWRITEBYTECODE=1 python3 …/finalize.py` | Final rehash, exact scope/HEAD and own-proof sealing; evidence in `FINAL-VERIFICATION.json`. |
+
+Zero matcher overlaps are only supporting observations: semantic acceptance
+comes from actual full predicates/context, not alias/token absence.
+
+Coordinator evidence, **not reviewer-executed suites**:
+
+- Original focused v1 log is retained: **397 passed / 1 failed**, caused by the
+  generic test expecting a nonexistent rating ID. It is not relabelled passed.
+- Narrowly corrected v2 log: **398 passed / four files**, successful typecheck.
+  The coordinator also reports focused lint; I did not independently execute
+  lint or infer full-quality success from absent diagnostics.
+- Original metadata v1 missing-tool-path failure/exit127 is retained. Corrected
+  v2 uses the existing local tool and records formatter results plus **LIST58**,
+  not browser execution or an installation.
+- Previous Geo1185unit/48file/64runtime/78whole-coverage-file/native58 and actual
+  active/expiry data evidence remain **baseline**, never General143 gate results.
+
+Initial reviewer probes encountered two proof-assumption mismatches, not
+candidate defects: a whitespace-only report-copy comparison failed because
+Markdown table separator widths and the explicitly labelled identity appendix
+were not accounted for; the baseline export is named `phaseElevenSources`,
+not a default export. I inspected the actual representations, corrected only
+my new proof code, and obtained the bounded PASS above. No source was altered.
+
+## Findings, limitations and stop conditions
+
+**No unresolved blocker, major or minor finding in this bounded candidate.**
+
+Original missing-pair acceptance issues were meaningfully resolved in the
+preserved original review, including the fifth Filigree adaptation. Original
+Lipstick ambiguity and Rinceau/Arabesque duplication belonged to other b05
+entries and remain recorded with their actual correction/acceptance continuity;
+they were not attributed to this Medium pack or silently deleted.
+Historical extractor/generator execution gaps remain audit limitations, not
+claimed reconstructed. They are nonblocking only because no relevant own
+accepted question/source/alias/rating decision depends on an unproven missing
+operation, under the explicit owner amendment.
+
+Some stored Arts passages end mid-sentence. Their entire actual Native entries/
+arrays and whole ledger are preserved; the decisive definitions required for the
+own-deck distinctions are present. This does not certify complete web extraction,
+fresh factual research or acceptance of the other Arts/History decks.
+
+Own observed process high-water values: Python verifier **45,288KiB =44.23MiB**;
+Node192 replay **62,628KiB =61.16MiB**; R35 Node192 replay
+**59,512KiB =58.12MiB**. These are `/proc/self/status` values, not inherited
+pre-exec `getrusage` peaks or summed global consumption. Host/service/other-agent/
+swap consumption was not independently measured; the coordinator's frozen
+resource receipt remains separate evidence. No heavy-runner authority is claimed.
+
+One oversized stdout inspection caused an automatic tool-harness spool response.
+I did not choose, intentionally create, read or use that temporary-path file;
+I narrowed the subsequent output instead. The original content report's four
+earlier automatic-spool disclosures remain unchanged. Intentional proof writes
+are exclusively inside this authorized new proof directory.
+
+`STOP-GUARDS.json` binds **918 actual external files** by absolute path, SHA256
+and bytes, including the source freeze, every frozen source/external input,
+original accepted proof and actual R35 registry/queue/History additions.
+The seal binds this report and all new proof members. Changed own content,
+source/rating/alias/receipt, frozen source, meaningful counterpart predicate,
+reservation/main baseline or release-helper scope expires the affected decision
+and requires explicit impact review. Mere role/index label changes do not reopen
+unchanged facts.
+
+**Stop here.** This clearance permits the coordinator's one same-snapshot
+post-review full quality/format/lint/types/unit/build, full-runtime separately
+scoped coverage, actual native58, and fresh deliberate active3600/natural-expiry10
+whole-old-data/served-deck checks, followed only on success by the separately
+authorized one-deck commit/push and actual version verification. A failure
+reopens the affected gate. I have not run or cleared those unrun operations,
+deployed anything, accepted another deck, or cleared a category/Phase12.

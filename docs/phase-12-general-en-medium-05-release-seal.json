@@ -1,0 +1,81 @@
+{
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "exactSourceQAFrozenInputSha256": "58a24ebe138059ea26996b50777867fdfad6dddfcc10806662faf274f655d7cd",
+  "reportSha256": "3ed124172624854e5bd29c7c1998857b6bb28f0724b7066e696c9d3f3bd4e93f",
+  "members": {
+    "ACTUAL-INPUT-GUARDS.json": {
+      "sha256": "a668e357c9f375658882c1d3fac98814eb09500a5eaad627bff911e5bd9775e6",
+      "bytes": 225685
+    },
+    "CHECKS.json": {
+      "sha256": "4b43f47f4b645baf990b690f7a7fc9b31a7c621a2940ffc09c5434e999d12a8d",
+      "bytes": 4107
+    },
+    "FINAL-VERIFICATION.json": {
+      "sha256": "6a8d775a5ac4612a6900adeda4ae2815cad1eb0fa0a88381e8918d67ffcb24d0",
+      "bytes": 705
+    },
+    "MATCHER-REPLAY.json": {
+      "sha256": "148a16704717fc97b55c73621ce67918f06ae48161aa5deb600905e010788a70",
+      "bytes": 430
+    },
+    "R34-ACTUAL-INPUTS.json": {
+      "sha256": "952a69838728f2bea65b73a46b47acaa9f654b1a4f212e2c20b15a25603f26de",
+      "bytes": 82883
+    },
+    "R35-ACTUAL-INPUTS.json": {
+      "sha256": "674b4e19a5ab12c7cc598897c30e4da9d3c8affbf9902096069f553ebfd93680",
+      "bytes": 114178
+    },
+    "R35-MATCHER-REPLAY.json": {
+      "sha256": "c269bf66124ceef644c214d3130f343f8b74afb3aa5dc5452574d6234540aede",
+      "bytes": 433
+    },
+    "R35-SEMANTIC-DELTA.json": {
+      "sha256": "aa7b9515eb56d2e4c8b150637238e88fc951f86f219a2cc9b4190f4eb5140d51",
+      "bytes": 47616
+    },
+    "REPORT.md": {
+      "sha256": "3ed124172624854e5bd29c7c1998857b6bb28f0724b7066e696c9d3f3bd4e93f",
+      "bytes": 23914
+    },
+    "SEMANTIC-DELTA.json": {
+      "sha256": "c96d774fb767afebb5ff85f412f60085085961ab0630e9a2e181edb9fda2f953",
+      "bytes": 247564
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "bd138aab15365663ce4eff8356eefe5d2cf942a5af070038aa0250bee8b79499",
+      "bytes": 227617
+    },
+    "finalize.py": {
+      "sha256": "bebf5f88bd4f903e481ac8ec68d371d3e8f755a0f6d2e702f66b0bb3652c7e6e",
+      "bytes": 6779
+    },
+    "matcher-replay.mjs": {
+      "sha256": "3c5364d9a9a78a1b4d6c09a473ef629445b5b893c3990290fe950ce1b0d44c78",
+      "bytes": 3043
+    },
+    "r35-semantic.py": {
+      "sha256": "cd6a3bda76b327d943f104f96ce38ac9b8825f5cefc02879c439fc2d618c108f",
+      "bytes": 12963
+    },
+    "r35.py": {
+      "sha256": "5bc39a310ff03a8ad28d14a5358c4aa576d77a7a33a6d85ef9c36b87659e9c7a",
+      "bytes": 4264
+    },
+    "semantic-delta.py": {
+      "sha256": "77ee61f62512384aa0485f22b115a249ed9bbce8f937affc933694c199245732",
+      "bytes": 14449
+    },
+    "verify.py": {
+      "sha256": "2ab3d58e82450cba53cee9568d32ea1e4e542eafb2a94fe38b36668c3780c767",
+      "bytes": 14306
+    }
+  },
+  "latestSemanticReservationSha256": "8febf3ebb1180a0fa91f12e683d76012fb38e160cb49a5ec928518e3b123fbb5",
+  "callerProvidedExternalReviewerIdentity": "647c835b-1a54-4e03-80c9-2eefbe0fafe0",
+  "runtimeSelfTaskId": null,
+  "postReviewFullQualityCoverageNativeAndActualPrivatePromotionUnrun": true,
+  "perDeckReviewOnlyNotCategoryPhaseOrDeploymentClearance": true
+}

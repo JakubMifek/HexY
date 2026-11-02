@@ -1,0 +1,316 @@
+# General English Medium05 — independent current-content review
+
+## Verdict
+
+**CONTENT DELTA ACCEPTED — all 28 entries.**
+
+This is meaningful factual/source/alias/adult-difficulty inheritance and
+independent current-semantic acceptance, **not** a materialization-only
+certificate. There is no unresolved finding affecting this deck in the reviewed
+current142/R33 scope. There is **no final integration, deck-release, category,
+Phase12, browser, deployment or post-review-gate clearance**.
+
+The coordinator must freeze the actual General143 integration on delivered142
+and return it to this same reviewer. Its clean checkout exists but was not an
+input to this review. Dirty primary159 is not a publishable source snapshot.
+
+Reviewer runtime task ID was not exposed to this context; the external caller
+records it. No author, former reviewer or coordinator UUID is borrowed as the
+reviewer's identity. The author notice reports
+`2a67f9cd-fedc-4f2d-b64a-cb403efde0da`; external author routing supplied by the
+coordinator is `42246420-b018-42c8-9248-075accf1a2cb`. Both are preserved, not
+silently reconciled into runtime authority. No nested reviewer was launched.
+
+## Frozen scope and exact authority
+
+Latest delivered baseline is
+`c3950593eaaea3d4ddc1068f7f52527927c6c4a3`, **142 decks / 3,976 questions**.
+The actual GeoEasy03 delivery receipt binds matching commit/main/served
+revisions. Its 1,185 units / 48 files, 64 runtime modules, 78 coverage-archive
+files and 58 native cases belong to that **baseline**, not General's release
+gate. No fresh network or remote/private probe was performed here.
+
+The author packet's historical current141 label is preserved. Its own native
+question/source/alias/rating content has not changed when Geo became delivered142.
+R33 is the subsequent immutable selected registry: **74 decks / 2,072 questions**.
+All 70 R32 entire question/alias entry payloads compare exactly equal in R33.
+The four additions select preexisting unchanged Native decks, not newly authored
+facts. The current authors' GeneralCSEasy04 and ScienceCSEasy03 were already
+selected in R32; their role labels do not imply content changes.
+
+Selected full-file guards (complete paths, SHA256 and byte lengths for every
+actually guarded input are in `STOP-GUARDS.json`):
+
+| Input                                                                         | SHA256                                                             |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Native `general/batches/b05-v2/packs/general-en-medium-05.json`, 10,169 bytes | `a56760aae46551ef0fdfa47b1124e708dfde269f4bbe689e96680d5e8f9d2e15` |
+| Entire native `b05-v2/sources.json`, 189,618 bytes                            | `609c89cf2d2ce6371ea0ef28d534ee4999ddaf24dde9dfe0ab5ae3df53e4b4c5` |
+| Current author `PORTABLE-OWN-LEDGER.json`, 1,270,335 bytes                    | `ab9d796ee89629ab042fbeece3f1c66a4f862e673eeeb6d19824268faca84cb7` |
+| Original whole projection, 4,554,607 bytes                                    | `e883e0f78d8ee045f8eca30170e89d29998edefe242e95adbd4ff464ab65ffee` |
+| Actual accepted final504 continuity                                           | `a2a7d4eb997422108cddf4cb1996a3e2ed8cafae7de933ec385250931c0b4c96` |
+| Completed exclusive General handoff                                           | `5a8c2ac953a8d4b6a2f109aa637618d7916dcb96263fb54750fe04a8ade4868b` |
+| Original rating file, 866 bytes                                               | `664556d0691c46893931f11fbda92c8bb872643d1462c6dd31e14f5070743245` |
+| Actual rating **object**, not the file                                        | `2772a1543ee0f75ddc52fad402778c3b4b0c279b2544239125328c65bf6e7fbc` |
+| Actual delivered142 receipt                                                   | `bf04894bda221a3f00fcbaa8df8b752180ef73cd226537f79c8f9eb1ce14faef` |
+| Immutable R32                                                                 | `668f8132a116b6ac53fff77e61b7077dd248253cd6a40d0fac3fac1b7ce55b8a` |
+| Immutable R33                                                                 | `39a0c358502f34f4298f69ee14c1658dd6d4ce8b8d873e5c4212fc1f361bb6a8` |
+| R33 immutable prepublication queue                                            | `3c3bdd49355129c7217ffeb8511a9d1cdc5d758d6753080db5d8e8eb11648447` |
+| Immutable late-concurrent cutoff                                              | `761f89756ef350574ac77eeb9162439a9a5a9acb643e0c91dfd4f9c7cf0f6680` |
+
+## Acceptance evidence
+
+- **28/28 exact factual/source/editorial/initial/alias judgments inherited.**
+  Each actual original b05 receipt, actual accepted composite-b05-v2 receipt
+  and actual full native source entry was dereferenced from its real file and
+  compared with the projection. Every original own receipt is accepted with no
+  finding IDs. Each final504 row matches. This is not reliance on an author's
+  statement that an old review exists.
+- **Full-source preservation accepted.** All 28 complete raw support arrays,
+  complete accepted-evidence projections, original receipts, accepted receipts,
+  native entries and current whole questions match their actual bindings.
+  Original/frozen own source bodies, texts and retrieval metadata were
+  hash-checked. No fresh HTTP or HTML-extraction execution is claimed.
+- **Losslessness genuinely checked.** All 27 original projection root fields
+  have an explicit exact inline value or a guarded whole-original-file pointer
+  and field hash. All 23 fields of every original own entry remain exactly
+  present. The 28 integration `entries` are the actual entire Native source
+  entries, not substituted raw questions or a reduced invented schema.
+- **Aliases accepted unchanged:** all 61 actual answer forms pass the real
+  matcher, including Zouri and normalization of Zōri. No alias was removed to
+  evade difficulty or duplicate checks. Structural validity alone is explicitly
+  not alias-completeness proof; completeness is inherited through actual
+  independent unchanged receipts.
+- **Actual whole Medium accepted:** **5 common / 21 informed / 2 specialist**.
+  The original complete `{rubric, counts:{easy,medium,hard}, judgment}` object
+  equals the actual original rating file and its accepted projection. No
+  invented `id`, `entriesReviewed`, adult flag, forced ratio or rerating is
+  substituted. Verjuice and Xinomavro remain explicit specialist stretches.
+- **Current semantic acceptance:** independently read all 396 actual inherited
+  current comparisons and all 68 packet-delta pairs, including complete
+  canonical/alias sets. Mechanically verified 428 prior native occurrences and
+  420 full counterpart-source contexts across these scopes. Prior396 has
+  **392 distinct-fact decisions and four actual bilingual adaptations**;
+  current68 has **67 distinct-fact decisions and the fifth adaptation**.
+  These are overlapping comparison scopes, not 464 unique questions.
+- All **42 original near candidates and their actual accepted judgments**
+  were independently rebound to original b05 receipt objects. The three
+  changed Find/Potato/Ventifact representations receive direct current-pair
+  decisions; no stale original representation is called unchanged.
+- The six packet rows with unknown language were individually inspected using
+  actual native lines/headers or full query/source context: Find, Medal,
+  Guilloché, Xacuti, Faucet and Ventifact. They were not exempted by language,
+  path prefix, category, missing ID or zero lexical overlap.
+- Exact own **789 source-specific V5 records** and 28 groups are retained through
+  the bound history slice and actual V5 independent report. Their dispositions
+  remain 627 historical-question projections, 156 self-quotations, four
+  General-origin projections and two diagnostic neighbour summaries. No
+  retirement/yield, source-container execution or fresh global inventory is
+  invented. Large historical global containers were not reopened/rehashed.
+
+### All 28 entry dispositions
+
+Every row accepts the exact full question, complete raw/accepted evidence,
+legitimate aliases, original adult judgment and current semantic disposition.
+`SEMANTIC-DECISIONS.json/all28Acceptance` supplies exact hashes, actual receipt
+pointers and per-entry current/prior comparison indices.
+
+| ID suffix / initial | Answer      | Actual adult category | Current semantic conclusion                                                    |
+| ------------------- | ----------- | --------------------- | ------------------------------------------------------------------------------ |
+| 01 / A              | Anagram     | common                | Rearrangement, not acrostic, Find, charades or grid Word search                |
+| 02 / B              | Bodkin      | informed              | Casing-threading tool, not ordinary needle, pin or thimble                     |
+| 03 / C              | Caper       | informed              | Pickled flower bud; no repeated queried fact                                   |
+| 04 / CH             | Chervil     | informed              | Particular culinary herb; no repeated queried fact                             |
+| 05 / D              | Darning     | informed              | Hole repair, not decorative embroidery, seam, fabric or loom                   |
+| 06 / E              | Epaulette   | informed              | Uniform shoulder ornament, not uniform, jewellery or liturgical band           |
+| 07 / F              | Filigree    | informed              | Distinct from paper coils/inlay/engraving; actual Filigrán adaptation accepted |
+| 08 / G              | Grommet     | informed              | Hole reinforcement, not finger ring, escutcheon or drilling tool               |
+| 09 / H              | Hasp        | informed              | Slotted plate/staple padlock fitting, not garment clasp or split pin           |
+| 10 / I              | Icing sugar | common                | Ground sweetener, not finished icing or hockey rule                            |
+| 11 / J              | Jute        | informed              | Actual Juta adaptation accepted; not phloem tissue, parchment or rope          |
+| 12 / K              | Kiln        | common                | Pottery-firing oven, not clay, refractory property or ceramic craft            |
+| 13 / L              | Lentils     | common                | Lens-shaped pulses, not another seasoning/dish/seed-like object                |
+| 14 / M              | Miso        | informed              | Particular fermented paste, not generic fermentation, hoisin or tofu           |
+| 15 / N              | Nutmeg      | informed              | Myristica seed/aril distinction; no repeated queried fact                      |
+| 16 / O              | Oolong      | informed              | Actual Oolong adaptation accepted; processing, not tea vessel                  |
+| 17 / P              | Purl        | informed              | Stitch construction, not yarn, garment, fabric or craft generally              |
+| 18 / Q              | Quatrefoil  | informed              | Four-lobed shape, not shamrock, gadrooning or quadrille                        |
+| 19 / R              | Ramekin     | informed              | Actual Ramekin adaptation accepted; baking dish, not dessert/generic bowl      |
+| 20 / S              | Saffron     | informed              | Actual Šafrán adaptation accepted; not pollination                             |
+| 21 / SH             | Sherbet     | informed              | British fizzy powdered confection; no repeated queried fact                    |
+| 22 / T              | Trivet      | informed              | Table protection, not glove, pillow, mat, washer or tongs                      |
+| 23 / U              | Undertaker  | common                | Funeral profession; no repeated queried fact                                   |
+| 24 / V              | Verjuice    | specialist            | Pressed unripe-fruit juice, not vinegar or dressing                            |
+| 25 / W              | Whetstone   | informed              | Sharpening abrasive, not ventifact, knife/burin or rock landform               |
+| 26 / X              | Xinomavro   | specialist            | Specific grape/etymology/place, not other wine or generic vine                 |
+| 27 / Y              | Yuletide    | informed              | Seasonal compound, not Xmas abbreviation or a Christmas work                   |
+| 28 / Z              | Zori        | informed              | Thong sandals, not other actual Japanese food/art/game/place predicates        |
+
+### Five coherent actual same-fact decisions
+
+These are **fresh independent actual-pair acceptances**, not falsely inherited
+pair-specific judgments. The old four proposal rows have empty exact-original
+near-judgment lists. The original b05 report supplies relevant accepted policy,
+not proof that those four precise pairs were previously examined.
+
+PLAN.md:669–672 calls for independently adapted/written and fact-checked language
+packs; it does not demand that both languages have disjoint facts. The actual
+original independent b05 report:174–175 explicitly permits Czech/English
+adaptation while retaining same-language novelty. Applying that product rule to
+the following complete questions and actual entire source entries is not a
+new reviewer-created waiver.
+
+| Own ID → actual counterpart    | Actual shared fact/source                                                             | Independent decision                                                                                                          |
+| ------------------------------ | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 11 → `general-cs-medium-03-12` | Jute/Juta, bast fibre for sacking; full Jute entry                                    | Accept this natural, supported bilingual adaptation, not semantic novelty                                                     |
+| 16 → `general-cs-medium-04-17` | Oolong, partially oxidised Chinese tea; full Oolong entry and legitimate names        | Accept this actual processing-fact adaptation, not a vessel comparison                                                        |
+| 19 → `general-cs-medium-04-19` | Ramekin/Ramequin, individual heat-resistant baking dish; full Ramekin entry           | Accept this actual dish-fact adaptation, with aliases retained                                                                |
+| 20 → `general-cs-medium-01-22` | Saffron/Šafrán, dried Crocus sativus stigmas; actual phase11 source entry             | Accept this actual bilingual adaptation; phase11 is not replaced                                                              |
+| 07 → `general-cs-hard-05-07`   | Filigree/Filigrán, delicate twisted-metal-wire ornament; actual full Filigree context | Accept this actual fifth bilingual adaptation; different difficulty does **not** make the fact distinct or rerate either deck |
+
+Complete pair questions, every alias, actual source contexts and explicit
+decisions are in `fiveFreshActualBilingualDecisions`.
+
+### Concurrent candidates and R33
+
+Read all 28 actual questions and complete alias sets in each of these six
+preexisting Native staged decks: GeneralCSEasy04, ScienceCSEasy03,
+ArtsENEasy04, ArtsENMedium04, GeoENMedium04 and GeoENHard04. Their source
+bindings are actual whole ledgers, not role-label assertions. The four R33
+newly selected packs contain exactly the reserved entire questions and retain
+the corresponding complete Native source entries.
+
+Twenty-four relevant actual staged comparisons receive concrete, source-bound
+decisions. Examples include bowl/ramekin (general eating container versus
+individual heat-resistant baking dish), oven glove/trivet (hand versus table),
+quadrille/quatrefoil (dance versus shape), glass-fibre composite/jute (different
+material/product fact), drill/grommet (creating versus reinforcing a hole), and
+split pin/hasp (different fastening mechanisms). Whetstone is not any newly
+selected rock landform or craft-knife brand. GeoMedium04's country/city/river
+queries do not repeat any own queried fact. ArtsEasy04 and GeoMedium04 already
+had actual packet contexts; selection alone does not require factual replay.
+
+The immutable late candidates remain **PROPOSED UNREVIEWED for their own facts,
+aliases and whole Easy ratings**, not replacements for Native/R33 content:
+
+- Games has actual Instructions, Unoccupied, Word search, Yellow and Zero.
+  Word search finds intact words in a grid; Anagram rearranges all original
+  letters. Every actual Wordsearch/Word-find alias preserves that distinction.
+  Earlier Underarm genuinely overlapped delivered Sports despite zero aliases;
+  its superseded finding is preserved, not relabeled current or accepted.
+- GeneralEasy05 has actual T22 Tongs, with the other 27 questions unchanged.
+  Tongs lifts food; Trivet supports a hot pot; Oolong concerns tea oxidation.
+  The old Teapot/Čajník same-fact issue was not settled by Teapot/Kettle, and
+  this review does not clear that other deck.
+
+## Findings and re-review outcomes
+
+| ID / severity                          | Initial issue and concrete impact                                                                                                                       | Outcome / verification                                                                                                                                                                                                 |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GEM05-01 / acceptance gap              | Four genuine bilingual same-fact proposals had no independent actual-pair disposition; treating them as distinct or automatically exempt would be false | **Resolved** by the four direct decisions above, with actual sources, full aliases and exact original policy                                                                                                           |
+| GEM05-02 / acceptance gap              | R31 Filigree/Filigrán adds the same wirework fact despite another difficulty                                                                            | **Resolved** by direct fifth adaptation decision, never a shared-answer/difficulty novelty excuse                                                                                                                      |
+| GEM05-03 / evidence observation        | Author current141/R32 labels predate delivered142 and selected R33                                                                                      | **Resolved for content** through actual delivery receipt and exact R32→R33 comparison; final integration remains unreviewed                                                                                            |
+| GEM05-04 / evidence observation        | Newly active/current staged counterparts require actual semantic examination, not role-based dismissal                                                  | **Resolved** by actual six-deck reads, full Native bindings and 24 specific relevant comparisons                                                                                                                       |
+| GEM05-05 / evidence observation        | A compact portable ledger could silently drop original fields/full arrays                                                                               | **Resolved**: all 27 root fields inventoried and bound, all own entry fields exact, actual entries/full arrays/rating preserved, corruption probes reject loss                                                         |
+| GEM05-06 / historical audit limitation | Generator/archive/root/import/extraction execution is not freshly attested                                                                              | **Nonblocking under explicit owner amendment**: no specific own fact/source/alias/rating/relevant-pair contradiction follows; actual accepted unchanged content and current pairs are bound. Old proof is not invented |
+
+The original b05 report's **P12-G-B05-01 Lipstick ambiguity** and
+**P12-G-B05-02 Rinceau/Arabesque repetition** are retained verbatim in the
+portable original reports. Neither is an own Medium05 entry. The actual
+correction-recovery report/composite accepts English05 b05-v2, inheriting 82
+and freshly accepting its two corrections. This review does not erase those
+initial findings or borrow another deck's clearance. Unrelated Czech03 alias
+findings, the Dalmatika rating rationale issue and other-deck pending whole
+ratings are not transitively cleared or automatically imposed on this deck.
+
+## Six lenses
+
+1. **Correctness/completeness:** complete 28-entry content scope, exact accepted
+   raw/full-source/alias/rating continuity, original near judgments and actual
+   current comparisons accepted. Runtime/state-machine/recovery completeness
+   and release counts on General143 await frozen integration review and gates.
+2. **Usability/accessibility:** actual English wording, ambiguity, initial
+   matching and accepted forms inherit complete independent judgments; real
+   matcher/parser checks pass. No DOM/UI change is reviewed. Theme, focus,
+   touch, screen readers, print and actual browser journeys are later
+   integration gates, not claimed browser passes here.
+3. **Maintainability:** explicit Native versus portable versus accepted-receipt
+   contracts and lossless original-field pointers checked. No source/test/doc
+   implementation edits or new production-module metrics are in scope.
+4. **OOP/responsibilities:** no runtime classes/resources changed; not applicable
+   to this content-only delta. Native serializable content remains separate
+   from runtime concerns; no abstraction is demanded for its own sake.
+5. **Patterns/proportionality:** exact accepted judgments reused and relevant
+   deltas reviewed without a new inventory/service/framework or historical
+   generator reconstruction. No new dependency or parallel heavy runner.
+6. **Content/rights/delivery:** all 28 factual/source/editorial/alias/difficulty/
+   initial judgments accepted, current semantic decisions explicit. Original
+   independently written provenance and Native `HexY contributors` /
+   `CC BY 4.0` metadata preserved. Secondary-source limitations are not renamed
+   primary research. No new legal/trademark or private delivery clearance.
+
+## Commands actually executed and observed
+
+Read-only inspection used `git --no-pager status --short`, bounded `head`,
+`sed`, `rg`, and Python3 JSON/pointer/hash queries. `python` was unavailable;
+the failed read-only command was replaced with `python3`, without installation.
+Two initial inspection snippets assumed a missing heterogeneous key/type and
+failed; corrected bounded reads supplied the actual fields. No failed check
+is presented as passing.
+
+```text
+node --max-old-space-size=192 .artifacts/continuation/parallel-decks/general-en-medium-05/throughput-current141-v1/verify.mjs --check-only
+PYTHONDONTWRITEBYTECODE=1 python3 .artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/review.py
+PYTHONDONTWRITEBYTECODE=1 python3 .artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/semantics.py
+PYTHONDONTWRITEBYTECODE=1 python3 .artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/finalize.py
+```
+
+- Actual Node replay **PASS**: 28 entries; 61 positive actual forms; 61
+  case/space variants; 56 rejected answers; ten parser negative probes;
+  17 rejected portable corruptions; 68 exact actual pairs; 134 frozen input
+  guards; 16 sealed author payloads. Its `--check-only` branch was read before
+  execution and writes no artifact.
+- Independent `review.py` **PASS**: actual own originals/composite/full-source/
+  final504/rating objects, full projection inventory, 396+68 actual pair
+  bindings and observed latest queue. Recorded own `/proc/self/status`
+  VmHWM **103,740 KiB (101.31 MiB)**.
+- Independent `semantics.py` **PASS**: 28 current decisions, five direct
+  adaptations, all396/current68 decisions, 24 relevant staged pairs, R33
+  74/2,072 and all prior70 entry payloads exact.
+- Separate actual original-receipt query **PASS**: all42 original complete
+  near candidates and original accepted judgment strings match their actual
+  b05 receipt objects. Finalizer repeats this bound check and rehashes inputs.
+- Node's actual own VmHWM was **147.09 MiB**, with a 192 MiB heap cap, below
+  the authorized Node2048 ceiling. No heavy grant was used. Raw getrusage
+  high-water may inherit pre-exec usage; it is not substituted for measured
+  own VmHWM. Host/service/other-agent RSS and swap were **not measured**.
+
+The proof scripts use create-only output files; rerunning a completed writer
+is intentionally refused rather than overwriting evidence. Finalizer supports
+`--check-only` for read-only guard/seal verification.
+
+## Limitations and stop
+
+No global inventory, build, browser/native run, coverage, workflow, service,
+dependency installation, Git mutation, release checkout read, shared catalog/
+source/test/doc/reservation/index/cache mutation or another-deck review was
+performed. Actual writes were intentionally confined to this new proof
+directory. Four oversized read responses were automatically spooled by the
+tool harness outside it; those spool files were neither intentionally created
+nor subsequently read. Perfect harness-output containment is not claimed.
+
+Accepted unchanged source judgments are not claims of fresh article retrieval,
+fresh historical extractor execution or physical-device testing. The entire
+old generator/V5 global history was not replayed. Bounded actual candidate
+acceptance is not universal absence of every unannounced future proposal.
+
+**Stop here.** Coordinator alone integrates the exact accepted Native/portable
+candidate on actual latest142, freezes the complete release source/counts/docs,
+reconciles any later meaningful candidate/main delta, requests this reviewer's
+final integration review, and runs the applicable same-snapshot release gates.
+Changed questions, evidence, aliases, ratings or relevant counterpart predicates
+expire the affected decisions; metadata-only role changes do not reopen
+unchanged facts. No self-authored content correction or next deck follows.
+
+## Coordinator external reviewer identity binding
+
+The caller records this independent review task as `647c835b-1a54-4e03-80c9-2eefbe0fafe0`. This is an external task binding, not a replacement for any original self-reported or unavailable identity. Author routing42246420 and self-reported2a67f9cd remain distinct. The original report and seal are preserved separately without rewriting findings.

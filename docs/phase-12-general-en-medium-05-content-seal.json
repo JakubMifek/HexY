@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "deckId": "general-en-medium-05",
+  "verdict": "CONTENT DELTA ACCEPTED",
+  "reviewerRuntimeTaskId": null,
+  "report": {
+    "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/REPORT.md",
+    "sha256": "59e0c34a012e1a7dfb63550609362082b0bfad800c7d49f6198798d60d15250b",
+    "bytes": 22336
+  },
+  "stopGuards": {
+    "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/STOP-GUARDS.json",
+    "sha256": "2f2fcb40a0a50c4bb15f31ede46f9231bf5eb4e388a2e1a7d269143019fe1580",
+    "bytes": 103274
+  },
+  "payloads": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/EXTERNAL-INPUT-GUARDS-R33.json",
+      "sha256": "c7c41da8226abe4c885d3d7cd8ed3a817ec7f74629c72f4462cee41b233f2bc7",
+      "bytes": 93155
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/EXTERNAL-INPUT-GUARDS.json",
+      "sha256": "dcece87a4ee5b304ba8aa644fc16fd91ab8aa2c5b9c5d6653ea977f0f245b835",
+      "bytes": 92256
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/MECHANICAL-EVIDENCE.json",
+      "sha256": "3fe65f2127ce7c865c0bc9b68123dd722cc495f7af73a0da31bb377dfe09e01e",
+      "bytes": 72048
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/OBSERVED-CURRENT-QUEUE.json",
+      "sha256": "06b890a5fe8fee6b608651efe2b51a2207abd245ff4873a67c5519cdf9619d8f",
+      "bytes": 43049
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/R33-DELTA.json",
+      "sha256": "d2d6512156e32cd7a4df86a631e410b0f7c4ce51f28ab71feb33f02fb32dac3d",
+      "bytes": 3818
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/REPORT.md",
+      "sha256": "59e0c34a012e1a7dfb63550609362082b0bfad800c7d49f6198798d60d15250b",
+      "bytes": 22336
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/SEMANTIC-DECISIONS.json",
+      "sha256": "b5c701fadefedae7182afa676d915482e7e88c3ecbcde336bb11bf508760ddc9",
+      "bytes": 809215
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/STOP-GUARDS.json",
+      "sha256": "2f2fcb40a0a50c4bb15f31ede46f9231bf5eb4e388a2e1a7d269143019fe1580",
+      "bytes": 103274
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/finalize.py",
+      "sha256": "88257dd5b5ce0e693cd87cd546891fb28e1ca3ea26719f318273be6911649372",
+      "bytes": 8348
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/review.py",
+      "sha256": "c46f03ba6b9a0e6e35bab33dca024079af7642ab87b245944c711dc49d94b95f",
+      "bytes": 14676
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/general-en-medium-05/independent-content-current142-r32-v1/semantics.py",
+      "sha256": "6f9a10f1a4af33d9b181849a423898a87441a9fc75a3df7fef352486d43f3a05",
+      "bytes": 29299
+    }
+  ],
+  "externalGuardsAreActualWholeFileSha256AndByteLengths": true,
+  "selfHashIntentionallyExcluded": true,
+  "finalIntegrationCleared": false,
+  "deckReleaseCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false
+}

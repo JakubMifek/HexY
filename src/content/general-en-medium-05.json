@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 2,
+  "id": "general-en-medium-05",
+  "title": "General knowledge · Medium · 05",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-medium-05-01",
+      "text": "What word puzzle rearranges all the letters of a word or phrase to make another?",
+      "initial": "A",
+      "answer": "Anagram",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Anagram"]
+    },
+    {
+      "id": "general-en-medium-05-02",
+      "text": "What blunt-ended sewing tool draws cord or elastic through a fabric casing?",
+      "initial": "B",
+      "answer": "Bodkin",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Sewing bodkin"],
+      "sources": ["https://en.wikipedia.org/wiki/Bodkin_needle"]
+    },
+    {
+      "id": "general-en-medium-05-03",
+      "text": "What pickled flower bud of Capparis spinosa is used as a salty condiment?",
+      "initial": "C",
+      "answer": "Caper",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Capers"],
+      "sources": ["https://en.wikipedia.org/wiki/Caper"]
+    },
+    {
+      "id": "general-en-medium-05-04",
+      "text": "What delicate anise-flavoured herb, related to parsley, is one of the traditional French fines herbes?",
+      "initial": "CH",
+      "answer": "Chervil",
+      "language": "en",
+      "category": "general",
+      "aliases": ["French parsley"],
+      "sources": ["https://en.wikipedia.org/wiki/Chervil"]
+    },
+    {
+      "id": "general-en-medium-05-05",
+      "text": "What needlework technique repairs a hole by weaving new thread across the gap?",
+      "initial": "D",
+      "answer": "Darning",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Darning"]
+    },
+    {
+      "id": "general-en-medium-05-06",
+      "text": "What decorative shoulder piece is worn on a uniform and may indicate rank?",
+      "initial": "E",
+      "answer": "Epaulette",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Epaulet", "Shoulder epaulette"],
+      "sources": ["https://en.wikipedia.org/wiki/Epaulette"]
+    },
+    {
+      "id": "general-en-medium-05-07",
+      "text": "What metalwork uses fine twisted wires, often gold or silver, to create delicate ornamental patterns?",
+      "initial": "F",
+      "answer": "Filigree",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Filigree"]
+    },
+    {
+      "id": "general-en-medium-05-08",
+      "text": "What ring reinforces a hole in a material, for example to protect a cable passing through it?",
+      "initial": "G",
+      "answer": "Grommet",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Eyelet"],
+      "sources": ["https://en.wikipedia.org/wiki/Grommet"]
+    },
+    {
+      "id": "general-en-medium-05-09",
+      "text": "What hinged fastening has a slotted plate that fits over a staple, often to receive a padlock?",
+      "initial": "H",
+      "answer": "Hasp",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wiktionary.org/wiki/hasp"]
+    },
+    {
+      "id": "general-en-medium-05-10",
+      "text": "What finely ground sweetener is used to make smooth cake coatings and dust desserts?",
+      "initial": "I",
+      "answer": "Icing sugar",
+      "language": "en",
+      "category": "general",
+      "aliases": [
+        "Powdered sugar",
+        "Confectioners' sugar",
+        "Confectioner's sugar",
+        "Confectioners sugar"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Powdered_sugar"]
+    },
+    {
+      "id": "general-en-medium-05-11",
+      "text": "What plant fibre is widely used to make burlap or hessian sacking?",
+      "initial": "J",
+      "answer": "Jute",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Jute"]
+    },
+    {
+      "id": "general-en-medium-05-12",
+      "text": "What high-temperature oven is used to fire pottery?",
+      "initial": "K",
+      "answer": "Kiln",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Pottery kiln"],
+      "sources": ["https://en.wikipedia.org/wiki/Kiln"]
+    },
+    {
+      "id": "general-en-medium-05-13",
+      "text": "What pulses have small lens-shaped seeds and are commonly used in dal?",
+      "initial": "L",
+      "answer": "Lentils",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Lentil"],
+      "sources": ["https://en.wikipedia.org/wiki/Lentil"]
+    },
+    {
+      "id": "general-en-medium-05-14",
+      "text": "What Japanese seasoning paste is made by fermenting soybeans with salt and kōji?",
+      "initial": "M",
+      "answer": "Miso",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Miso"]
+    },
+    {
+      "id": "general-en-medium-05-15",
+      "text": "What spice is the seed of Myristica fragrans, whose surrounding aril gives the different spice mace?",
+      "initial": "N",
+      "answer": "Nutmeg",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Nutmeg"]
+    },
+    {
+      "id": "general-en-medium-05-16",
+      "text": "What Chinese tea is partially oxidised during processing, between green tea and black tea?",
+      "initial": "O",
+      "answer": "Oolong",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Wulong", "Wu long", "Wu-lung"],
+      "sources": ["https://en.wikipedia.org/wiki/Oolong"]
+    },
+    {
+      "id": "general-en-medium-05-17",
+      "text": "What knitting stitch shows a horizontal bump on the side where a knit stitch would show a V?",
+      "initial": "P",
+      "answer": "Purl",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Purl stitch", "Purling"],
+      "sources": ["https://en.wikipedia.org/wiki/Purl_stitch"]
+    },
+    {
+      "id": "general-en-medium-05-18",
+      "text": "What decorative shape consists of four rounded lobes, like a four-leaf clover?",
+      "initial": "Q",
+      "answer": "Quatrefoil",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Quatrefoil"]
+    },
+    {
+      "id": "general-en-medium-05-19",
+      "text": "What small individual baking dish is used for foods such as soufflés or crème brûlée?",
+      "initial": "R",
+      "answer": "Ramekin",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Ramequin"],
+      "sources": ["https://en.wikipedia.org/wiki/Ramekin"]
+    },
+    {
+      "id": "general-en-medium-05-20",
+      "text": "What expensive spice consists of the dried stigmas of Crocus sativus?",
+      "initial": "S",
+      "answer": "Saffron",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Saffron"]
+    },
+    {
+      "id": "general-en-medium-05-21",
+      "text": "What sweet, fizzy powder is traditionally eaten as a confection in Britain?",
+      "initial": "SH",
+      "answer": "Sherbet",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Sherbet powder", "Sherbert", "Soda powder"],
+      "sources": ["https://en.wikipedia.org/wiki/Sherbet_(powder)"]
+    },
+    {
+      "id": "general-en-medium-05-22",
+      "text": "What stand protects a table from a hot cooking pot placed on it?",
+      "initial": "T",
+      "answer": "Trivet",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Pot stand"],
+      "sources": ["https://en.wikipedia.org/wiki/Trivet"]
+    },
+    {
+      "id": "general-en-medium-05-23",
+      "text": "What traditional name describes a professional who arranges funerals and prepares the deceased for burial?",
+      "initial": "U",
+      "answer": "Undertaker",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Funeral director", "Mortician"],
+      "sources": ["https://en.wikipedia.org/wiki/Funeral_director"]
+    },
+    {
+      "id": "general-en-medium-05-24",
+      "text": "What sour cooking juice is traditionally pressed from unripe grapes?",
+      "initial": "V",
+      "answer": "Verjuice",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Verjus", "Green juice"],
+      "sources": ["https://en.wikipedia.org/wiki/Verjuice"]
+    },
+    {
+      "id": "general-en-medium-05-25",
+      "text": "What abrasive stone is used to sharpen the edge of a blade?",
+      "initial": "W",
+      "answer": "Whetstone",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Sharpening stone", "Waterstone", "Oilstone"],
+      "sources": ["https://en.wikipedia.org/wiki/Sharpening_stone"]
+    },
+    {
+      "id": "general-en-medium-05-26",
+      "text": "What Greek red-wine grape has a name meaning sour black and is especially associated with Naoussa?",
+      "initial": "X",
+      "answer": "Xinomavro",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Xinomavro"]
+    },
+    {
+      "id": "general-en-medium-05-27",
+      "text": "What traditional English word names the festive period around December 25 and combines Yule with a word meaning time?",
+      "initial": "Y",
+      "answer": "Yuletide",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Christmas season", "Christmastide", "Christmas time"],
+      "sources": ["https://en.wikipedia.org/wiki/Yule"]
+    },
+    {
+      "id": "general-en-medium-05-28",
+      "text": "What traditional Japanese sandals have woven-straw or fabric-covered soles and a V-shaped thong?",
+      "initial": "Z",
+      "answer": "Zori",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Zouri"],
+      "sources": ["https://en.wikipedia.org/wiki/Z%C5%8Dri"]
+    }
+  ]
+}

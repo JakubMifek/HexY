@@ -11,6 +11,11 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
   createHash('sha256').update(bytes).digest('hex');
 
 /**
+ * @typedef {{rubric: string, counts: Record<string, Record<string, number>>,
+ * judgment: string}} GeneralBatchRating
+ */
+
+/**
  * @typedef {{
  * entriesReviewed: number, independentDominantGeneralAdultRating: string
  * } | {id: string, entriesRead: number, proposedDifficulty: string,
@@ -19,7 +24,8 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * disposition: string, entries: number,
  * individualDistribution: Record<string, number>
  * } | {id: string, decision: string, commonEasyIndices: number[],
- * informedMediumIndices: number[], specialistHardIndices: number[]}} AcceptedRating
+ * informedMediumIndices: number[], specialistHardIndices: number[]} |
+ * GeneralBatchRating} AcceptedRating
  */
 
 /**
@@ -46,6 +52,24 @@ function expectGeneralRating(rating, deckId, difficulty) {
     ),
   ).toBe(true);
   expect(distribution.reduce((total, [, count]) => total + count, 0)).toBe(28);
+}
+
+/**
+ * @param {GeneralBatchRating} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectGeneralBatchRating(rating, deckId, difficulty) {
+  expect(deckId).toBe('general-en-medium-05');
+  expect(difficulty).toBe('medium');
+  expect(digest(JSON.stringify(rating))).toBe(
+    '2772a1543ee0f75ddc52fad402778c3b4b0c279b2544239125328c65bf6e7fbc',
+  );
+  expect(rating.counts.medium).toEqual({
+    common: 5,
+    informed: 21,
+    specialist: 2,
+  });
 }
 
 /**
@@ -78,6 +102,8 @@ function expectAcceptedRating(rating, deckId, difficulty) {
     );
   } else if ('entriesRead' in rating) {
     expectGeneralRating(rating, deckId, difficulty);
+  } else if ('counts' in rating) {
+    expectGeneralBatchRating(rating, deckId, difficulty);
   } else {
     expect(rating.id).toBe(deckId);
     expect(rating.decision).toBe(
