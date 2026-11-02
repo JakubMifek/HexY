@@ -52,6 +52,16 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
+**Current General Czech Hard04 sequence candidate:**149/4,172;
+proposed predecessor148, original verified batch baseline146/4,088/
+`cc11b261`. Accepted question/full-evidence/alias/adult-level receipts are
+preserved, not re-researched. All meaningful current semantic decisions and
+independent integration/release clearance remain required, followed by actual
+intermediate inventory/content/build/affected-integration/native/private gates.
+No final149 result substitutes for147/148. Never reset old deadlines or publish
+another draft. Final330/9,240/all66 and separate all64-runtime coverage remain.
+
+**Earlier sequence preparation, not current gate clearance:**
 **Current Science English Hard04 sequence candidate:**148/4,144;
 proposed predecessor147, original verified batch baseline146/4,088/
 `cc11b261`. Accepted question/full-evidence/alias/adult-level receipts are

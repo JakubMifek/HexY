@@ -1,6 +1,26 @@
 # Content inventory and provenance
 
-## Current Science English Hard04 one-deck sequence candidate
+## Current General Czech Hard04 one-deck sequence candidate
+
+**149 decks / 4,172 entries.**
+Only `general-cs-hard-04` is added relative to proposed predecessor148.
+This is the explicit cumulative release-sequence candidate, not a promotion
+receipt. The batch starts from verified `cc11b261` (146/4,088); its proposed
+predecessor must actually pass and be privately verified before this stage.
+Science17/476, Geography17/476, General16/448, Nature15/420; English81/Czech68.
+The [source ledger](phase-12-general-cs-hard-04-sources.json) retains all28
+accepted questions, all33 complete support objects and all49
+aliases, original rich receipts and the exact whole-adult Hard judgment.
+Current meaningful semantic/peer decisions and independent integration/release
+clearance remain required; source retention is not semantic approval.
+Each intermediate receives actual inventory/content/build/affected-integration/
+native checks and a separate commit/push/private whole-deck and active/expired
+old-data verification. Preserve all prior pack bytes/names/order and deadlines.
+Other drafts remain unpublished; final330/9,240/all66 remains NOT CLEARED.
+
+## Previous sequence candidate — retained preparation history
+
+### Prior Science English Hard04 one-deck sequence candidate
 
 **148 decks / 4,144 entries.**
 Only `science-en-hard-04` is added relative to proposed predecessor147.

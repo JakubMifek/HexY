@@ -124,6 +124,28 @@ function expectGeographyRating(rating, deckId, difficulty) {
  * @param {string} difficulty
  */
 function expectLocalizedGeneralRating(rating, deckId, difficulty) {
+  if (deckId === 'general-cs-hard-04') {
+    expect(difficulty).toBe('hard');
+    expect(rating.id).toBe(deckId);
+    expect(digest(JSON.stringify(rating))).toBe(
+      'e01a1add7aa1f88ca8248d326a528bf47772a0165f6b31c95ffbe8ac19d3d325',
+    );
+    expect(rating.entries).toEqual(
+      Array.from(
+        { length: 28 },
+        (_, index) => `${deckId}-${String(index + 1).padStart(2, '0')}`,
+      ),
+    );
+    expect(rating.distribution).toEqual({
+      'specialist-but-fair': 22,
+      informed: 3,
+      common: 3,
+    });
+    expect(rating.verdict).toBe(
+      'ACCEPTED whole-deck adult difficulty; localized aliases remain separate findings',
+    );
+    return;
+  }
   expect(deckId).toBe('general-cs-medium-04');
   expect(difficulty).toBe('medium');
   expect(rating.id).toBe(deckId);

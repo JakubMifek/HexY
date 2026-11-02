@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-hard-04",
+  "title": "Všeobecné znalosti · Těžká · 04",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-hard-04-01",
+      "text": "Jak se nazývá porušení větné stavby, při němž pokračování věty nenavazuje mluvnicky na její začátek?",
+      "initial": "A",
+      "answer": "Anakolut",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Anakoluth", "Anacoluthon"],
+      "sources": ["https://en.wikipedia.org/wiki/Anacoluthon"]
+    },
+    {
+      "id": "general-cs-hard-04-02",
+      "text": "Jak se nazývá jemná lehká tkanina v plátnové vazbě, tradičně používaná na kapesníky a jemné prádlo?",
+      "initial": "B",
+      "answer": "Batist",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Batiste"],
+      "sources": ["https://en.wikipedia.org/wiki/Cambric"]
+    },
+    {
+      "id": "general-cs-hard-04-03",
+      "text": "Jak se nazývá jemné ruční zdobení kovového povrchu na lícové straně pomocí drobných razníků a kladívka?",
+      "initial": "C",
+      "answer": "Cizelování",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Cizelace", "Ciselování"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Repouss%C3%A9_and_chasing",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=cizelov%C3%A1n%C3%AD&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-hard-04-04",
+      "text": "Jak se nazýval mužský kabát se zdobným šňůrovým zapínáním, spojovaný v 19. století s českým národním oděvem?",
+      "initial": "Č",
+      "answer": "Čamara",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Czamara"],
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Camara"]
+    },
+    {
+      "id": "general-cs-hard-04-05",
+      "text": "Jak se v umělecké knižní vazbě nazývá ozdobná podšívka vnitřní strany desky?",
+      "initial": "D",
+      "answer": "Dublura",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Doublure"],
+      "sources": ["https://en.wikipedia.org/wiki/Doublure_(bookbinding)"]
+    },
+    {
+      "id": "general-cs-hard-04-06",
+      "text": "Jak se nazývá slovní popis výtvarného díla, například obrazu, v literárním textu?",
+      "initial": "E",
+      "answer": "Ekfráze",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ekfrasis", "Ekphrasis"],
+      "sources": ["https://en.wikipedia.org/wiki/Ekphrasis"]
+    },
+    {
+      "id": "general-cs-hard-04-07",
+      "text": "Jak se v ornamentice nazývá závěsný obloukovitý svazek listů, květin či plodů, často zobrazený v architektonické výzdobě?",
+      "initial": "F",
+      "answer": "Feston",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Festonový ornament", "Festoon", "Girlanda"],
+      "sources": ["https://en.wikipedia.org/wiki/Festoon"]
+    },
+    {
+      "id": "general-cs-hard-04-08",
+      "text": "Jak se nazývá vytlačování reliéfního vzoru do povrchu materiálu pomocí tlaku, například na papíru?",
+      "initial": "G",
+      "answer": "Gofrování",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ražba", "Embossing", "Gaufrování"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paper_embossing",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=gofrovati&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-hard-04-09",
+      "text": "Jak se nazývá rukopisné latinské písmo italské renesance, které navazovalo na karolinskou minuskulu a ovlivnilo antikvová tisková písma?",
+      "initial": "H",
+      "answer": "Humanistická minuskula",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Humanistické písmo"],
+      "sources": ["https://en.wikipedia.org/wiki/Humanist_minuscule"]
+    },
+    {
+      "id": "general-cs-hard-04-10",
+      "text": "Jak se nazývá antická sochařská technika kombinující zlato a slonovinu, kterou se proslavila například Feidiova socha Dia v Olympii?",
+      "initial": "Ch",
+      "answer": "Chryselefantina",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Chryselefantinní technika", "Chryselefantinová technika"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chryselephantine_sculpture",
+        "https://cs.wikipedia.org/wiki/Chryselefantina"
+      ]
+    },
+    {
+      "id": "general-cs-hard-04-11",
+      "text": "Jaké latinské slovo označuje církevní schválení k tisku náboženského díla a doslova znamená ať se tiskne?",
+      "initial": "I",
+      "answer": "Imprimatur",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Imprimatur"]
+    },
+    {
+      "id": "general-cs-hard-04-12",
+      "text": "Jak se nazývá tradiční druh usně, do níž se po vyčinění zapracovává březový olej dodávající charakteristickou vůni?",
+      "initial": "J",
+      "answer": "Juchtovina",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Juchta", "Ruská useň"],
+      "sources": ["https://en.wikipedia.org/wiki/Russia_leather"]
+    },
+    {
+      "id": "general-cs-hard-04-13",
+      "text": "Jak se nazývá slovo vytištěné na spodním okraji staré knižní stránky, které opakuje první slovo následující stránky?",
+      "initial": "K",
+      "answer": "Kustoda",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Kustod", "Catchword"],
+      "sources": ["https://en.wikipedia.org/wiki/Catchword"]
+    },
+    {
+      "id": "general-cs-hard-04-14",
+      "text": "Jak se nazývá historická krajkářská technika, při níž se vyšívá vzor na pravidelnou síťovou podložku?",
+      "initial": "L",
+      "answer": "Lacis",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Filetová krajka", "Síťovaná krajka"],
+      "sources": ["https://en.wikipedia.org/wiki/Filet_lace"]
+    },
+    {
+      "id": "general-cs-hard-04-15",
+      "text": "Jak se nazývá svatozář mandlového tvaru obklopující celou postavu Krista nebo Panny Marie?",
+      "initial": "M",
+      "answer": "Mandorla",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mandorla"]
+    },
+    {
+      "id": "general-cs-hard-04-16",
+      "text": "Jak se nazývá očko nebo součást tkalcovského stavu, kterou prochází jednotlivá osnovní nit, aby ji bylo možné zvedat?",
+      "initial": "N",
+      "answer": "Nitěnka",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Heddle"]
+    },
+    {
+      "id": "general-cs-hard-04-17",
+      "text": "Jak se odborně nazývá znak ÷, složený z krátké vodorovné čárky a tečky nad ní i pod ní?",
+      "initial": "O",
+      "answer": "Obelus",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Dělicí znaménko", "Znaménko dělení"],
+      "sources": ["https://en.wikipedia.org/wiki/Obelus"]
+    },
+    {
+      "id": "general-cs-hard-04-18",
+      "text": "Jak se nazývá typ bavlněné pleteniny, z níž se obvykle vyrábějí polokošile?",
+      "initial": "P",
+      "answer": "Piké",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Piqué"],
+      "sources": ["https://en.wikipedia.org/wiki/Polo_shirt"]
+    },
+    {
+      "id": "general-cs-hard-04-19",
+      "text": "Jak se nazývá tkanina s jemnými výraznými žebry vedenými napříč šířkou látky?",
+      "initial": "R",
+      "answer": "Ryps",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Reps", "Rips"],
+      "sources": ["https://en.wikipedia.org/wiki/Rep_(fabric)"]
+    },
+    {
+      "id": "general-cs-hard-04-20",
+      "text": "Jak se nazývá monumentální starořímské majuskulní písmo známé například z nápisu na Trajánově sloupu?",
+      "initial": "Ř",
+      "answer": "Římská kapitála",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Římské kapitály",
+        "Kapitála",
+        "Capitalis monumentalis",
+        "Capitalis quadrata"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Roman_square_capitals"]
+    },
+    {
+      "id": "general-cs-hard-04-21",
+      "text": "Jak se v polygrafii nazývá sestavování textu do podoby určené k tisku?",
+      "initial": "S",
+      "answer": "Sazba",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Typografická sazba"],
+      "sources": ["https://en.wikipedia.org/wiki/Typesetting"]
+    },
+    {
+      "id": "general-cs-hard-04-22",
+      "text": "Jak se nazývá kůže s charakteristickým zrnitým povrchem, původně vyráběná i z kůže rejnoků či žraloků, používaná na ozdobné potahy?",
+      "initial": "Š",
+      "answer": "Šagrén",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Shagreen", "Chagrin"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shagreen",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=%C5%A1agr%C3%A9n&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-hard-04-23",
+      "text": "Jak se nazývá tuhá tkanina používaná v grafické dílně ke stírání přebytečné barvy z hlubotiskových desek?",
+      "initial": "T",
+      "answer": "Tarlatán",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Etching"]
+    },
+    {
+      "id": "general-cs-hard-04-24",
+      "text": "Jak se nazývá zaoblené majuskulní písmo používané zejména v latinských a řeckých rukopisech pozdní antiky a raného středověku?",
+      "initial": "U",
+      "answer": "Unciála",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Unciální písmo", "Uncial"],
+      "sources": ["https://en.wikipedia.org/wiki/Uncial_script"]
+    },
+    {
+      "id": "general-cs-hard-04-25",
+      "text": "Jak se nazývá měkké objemné rouno vkládané jako výplň mezi vrstvy oděvu nebo přikrývky?",
+      "initial": "V",
+      "answer": "Vatelín",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Výplňové rouno", "Vatelínová výplň"],
+      "sources": ["https://en.wikipedia.org/wiki/Batting_(material)"]
+    },
+    {
+      "id": "general-cs-hard-04-26",
+      "text": "Jak se japonsky nazývá tradiční ručně vyráběný papír z rostlinných vláken, často z lýka papírovníku?",
+      "initial": "W",
+      "answer": "Washi",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Waši", "Japonský papír"],
+      "sources": ["https://en.wikipedia.org/wiki/Washi"]
+    },
+    {
+      "id": "general-cs-hard-04-27",
+      "text": "Jak se v knižní typografii nazývá plocha stránky vymezená pro sazbu textu a obrazových prvků uvnitř okrajů?",
+      "initial": "Z",
+      "answer": "Zrcadlo sazby",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Sazební obrazec", "Sazební zrcadlo", "Zrcadlo"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Type_area",
+        "https://encyklopedieknihy.cz/index.php?title=Zrcadlo"
+      ]
+    },
+    {
+      "id": "general-cs-hard-04-28",
+      "text": "Jak se nazývá tkalcovský mechanismus historicky řízený děrnými kartami, který umožňuje vytvářet složité vzorované tkaniny?",
+      "initial": "Ž",
+      "answer": "Žakár",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Žakárový stroj",
+        "Jacquardův stroj",
+        "Žakárský stroj",
+        "Jacquard"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Jacquard_machine"]
+    }
+  ]
+}

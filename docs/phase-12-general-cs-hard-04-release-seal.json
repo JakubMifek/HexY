@@ -1,0 +1,24 @@
+{
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "reportSha256": "1d64b4034cd4b67aa330bca9d96e126af9b37a5d01b04406e4a57921ad9be8ca",
+  "exactSourceQAFrozenInputSha256": "07852b979138412ef0c19b41e1f3fa03f844b43a37763c992ad9a3fb9656cfd3",
+  "members": {
+    "REPORT.md": {
+      "sha256": "1d64b4034cd4b67aa330bca9d96e126af9b37a5d01b04406e4a57921ad9be8ca",
+      "bytes": 4338
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "feb66e9025d35b25b1a6e8938282fce61e0a77a3e5b555fe427b9fa0f59c93cb",
+      "bytes": 257313
+    },
+    "BINDING-PROOF.json": {
+      "sha256": "88de706b6ecf42e2b223376a6ce586206c73857fa3e8995db473a74a71973dd3",
+      "bytes": 6703
+    },
+    "verify-and-seal.mjs": {
+      "sha256": "519a6102c69b2dada702f860dc999dfc79f886a7f7ba5a9d15ec0d2e5167644f",
+      "bytes": 17040
+    }
+  }
+}
