@@ -2,20 +2,27 @@
 
 ## Current Phase 12 deck snapshot
 
-This source candidate contains **156 decks / 4,368 questions**,
-adding only `geography-cs-hard-03` to its 155-deck predecessor.
-Actual delivery at preparation is `cd9bc76e` (152/4,256), English82/Czech70.
-This intermediate is English82/Czech74; original152 packs are immutable.
-Its lossless source ledger retains all28 whole questions, complete supporting
-arrays, legitimate aliases, original/corrected judgments and adult difficulty.
-Current meaningful peer/lifecycle decisions and independent release clearance
-remain pending; original acceptance is not automatic current release clearance.
-Each intermediate receives applicable quality/coverage/native checks before its
-separate one-deck push and actual private served28/old-data/deadline verification.
-Original active and naturally expired games keep their real deadlines unchanged.
-No other draft is bundled; final330/9,240/all66 remains NOT CLEARED.
+This source candidate contains **157 decks / 4,396 questions**,
+adding only `general-en-easy-04` to its 156-deck predecessor.
+Actual delivery at preparation is `db1b9955` (156/4,368), English82/Czech74.
+This intermediate is English83/Czech74; original156 raw packs remain immutable.
+All28 own complete questions, full evidence arrays, legitimate aliases and
+individual/whole adult ratings retain exact original/correction bindings.
+The coherent112-entry content/current-duplicate/lifecycle review accepted all112
+with zero content holds (seal `8bff7357c9d5cd0d7dfec5db0460eefd64f8c51b2c800f5fa7179e9086c4c97f`).
+Original author pending values and old blocked judgments are retained as history;
+the separate current judgment does not rewrite those objects or waive an alias.
+Final source/helper/mapping release clearance and each intermediate applicable
+quality/coverage/native/private gates govern publication separately.
+One newly finished deck is committed/pushed at a time; the actual private
+revision, served28, old data and unchanged active/naturally expired deadlines
+are verified, including reload. No unshipped draft JSON is bundled.
+Specific bilingual companions are individually decided, not a language exemption.
+Historical bookkeeping/source-quality limits remain disclosed in the review;
+no new device, trademark/rights or blanket factual verification is claimed.
+Final330/9,240/all66 remains NOT CLEARED.
 
-[Exact source ledger](docs/phase-12-geography-cs-hard-03-sources.json).
+[Exact source ledger](docs/phase-12-general-en-easy-04-sources.json).
 
 ## Retained earlier preparation history
 

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "reviewerTaskId": "dc053aa9-3b51-4301-958f-ed1687e82474",
+  "taskId": "dc053aa9-3b51-4301-958f-ed1687e82474",
+  "sealedAt": "2026-11-02T19:26:25.758072+00:00",
+  "deckId": "general-en-easy-04",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "majorFindings": 0,
+  "minorFindings": 0,
+  "exactSourceQAFrozenInputSha256": "be0ec9d305a21d7db9b33f83ef79f58e1bd1db7e06930ade49f91ce6f58eca07",
+  "reportSha256": "2ef290a16f68142c40e283f6ba57abebd9e877da149051537c8125c50d9a1375",
+  "executionMode": "MANUAL first157 resume only; original driver replay prohibited",
+  "qualityReusePermittedForExactUnchangedSourceOnly": true,
+  "actualComplete70V3NativeStillRequired": true,
+  "publicationHeldUntilFreshComplete70V3Pass": true,
+  "successorActualParentReleasesHeld": true,
+  "phase12Cleared": false,
+  "externalInputCount": 3285,
+  "memberCount": 3,
+  "members": {
+    "REPORT.md": {
+      "sha256": "2ef290a16f68142c40e283f6ba57abebd9e877da149051537c8125c50d9a1375",
+      "bytes": 4066
+    },
+    "SCOPE.json": {
+      "sha256": "67dc7651ab243ada1410328ed1261ea6b0b4f0cdd14aec8ab2a584b40c97a6ec",
+      "bytes": 4105
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "c069f15f22e03910e4992cb7f1f1f82f8881a9aed9a5de1a95db700b9e43ed45",
+      "bytes": 803205
+    }
+  }
+}

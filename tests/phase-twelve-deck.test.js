@@ -34,7 +34,7 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
 /**
  * @typedef {{packId: string, proposedDifficulty: string, entriesRead: number,
  * editorialBuckets: Record<string, number>, difficultyVerdict: string,
- * contentVerdict: string, latestCrossCategoryVerdict: string}} GeneralMediumFourRating
+ * contentVerdict: string, latestCrossCategoryVerdict: string}} GeneralEditorialRating
  */
 
 /**
@@ -67,7 +67,7 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating | ScienceInstrumentRating | ScienceHardBridgeRating | GeneralBucketRating} EstablishedRating
  */
 
-/** @typedef {EstablishedRating | GeneralMediumFourRating | GeographyB02Rating} AcceptedRating */
+/** @typedef {EstablishedRating | GeneralEditorialRating | GeographyB02Rating} AcceptedRating */
 
 /** @param {Record<string, number>} levels */
 function expectRatingDistribution(levels) {
@@ -225,21 +225,38 @@ function expectGeneralBucketRating(rating, deckId, difficulty) {
     expect(rating.rationale).toContain('Neither is relabelled Hard');
 }
 
-/** @param {GeneralMediumFourRating} rating @param {string} deckId @param {string} difficulty */
-function expectGeneralMediumFourRating(rating, deckId, difficulty) {
-  expect(deckId).toBe('general-en-medium-04');
-  expect(difficulty).toBe('medium');
-  expect(digest(JSON.stringify(rating))).toBe(
-    '6bdb63664625e355d948af1f237e52146cdf306cb115310bac3dfd9da8212001',
-  );
+/** @param {GeneralEditorialRating} rating @param {string} deckId @param {string} difficulty */
+function expectGeneralEditorialRating(rating, deckId, difficulty) {
+  /** @type {Record<string, {difficulty: string, sha256: string, distribution: Record<string, number>, historicalSemanticVerdict: string}>} */
+  const accepted = {
+    'general-en-easy-04': {
+      difficulty: 'easy',
+      sha256:
+        '42ac15195b74ba5581cd310814cfc8ba1dd6e5fc19919489b4d700ee19e55d6a',
+      distribution: { easy: 27, medium: 1, hard: 0 },
+      historicalSemanticVerdict:
+        'No notified b03 entry overlap in this deck; not a category/global clearance',
+    },
+    'general-en-medium-04': {
+      difficulty: 'medium',
+      sha256:
+        '6bdb63664625e355d948af1f237e52146cdf306cb115310bac3dfd9da8212001',
+      distribution: { easy: 2, medium: 21, hard: 5 },
+      historicalSemanticVerdict: 'BLOCKED unresolved live Arts reservations',
+    },
+  };
+  const expected = accepted[deckId];
+  if (!expected) throw new Error(`Unknown original General rating ${deckId}`);
+  expect(difficulty).toBe(expected.difficulty);
+  expect(digest(JSON.stringify(rating))).toBe(expected.sha256);
   expect(rating.packId).toBe(deckId);
   expect(rating.proposedDifficulty).toBe(difficulty);
   expect(rating.entriesRead).toBe(28);
-  expect(rating.editorialBuckets).toEqual({ easy: 2, medium: 21, hard: 5 });
+  expect(rating.editorialBuckets).toEqual(expected.distribution);
   expect(rating.difficultyVerdict).toContain('CLEARED: deck demand');
   expect(rating.contentVerdict).toBe('CLEARED isolated corrected deck only');
   expect(rating.latestCrossCategoryVerdict).toBe(
-    'BLOCKED unresolved live Arts reservations',
+    expected.historicalSemanticVerdict,
   );
 }
 
@@ -335,7 +352,7 @@ function expectAcceptedRating(rating, deckId, difficulty) {
   if ('independentlyAcceptedDominantAdultLevel' in rating) {
     expectGeographyB02Rating(rating, deckId, difficulty);
   } else if ('editorialBuckets' in rating) {
-    expectGeneralMediumFourRating(rating, deckId, difficulty);
+    expectGeneralEditorialRating(rating, deckId, difficulty);
   } else {
     expectEstablishedRating(rating, deckId, difficulty);
   }

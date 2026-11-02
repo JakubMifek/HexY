@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 2,
+  "id": "general-en-easy-04",
+  "title": "General knowledge · Easy · 04",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-easy-04-01",
+      "text": "What vehicle is equipped to carry sick or injured people to medical care?",
+      "initial": "A",
+      "answer": "Ambulance",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ambulance"]
+    },
+    {
+      "id": "general-en-easy-04-02",
+      "text": "What strip of material is fastened around the waist, often through loops in trousers?",
+      "initial": "B",
+      "answer": "Belt",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Waist belt"],
+      "sources": ["https://en.wikipedia.org/wiki/Belt_(clothing)"]
+    },
+    {
+      "id": "general-en-easy-04-03",
+      "text": "What floor covering consists of a textile pile attached to a backing?",
+      "initial": "C",
+      "answer": "Carpet",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Rug"],
+      "sources": ["https://en.wikipedia.org/wiki/Carpet"]
+    },
+    {
+      "id": "general-en-easy-04-04",
+      "text": "What piece of furniture normally has a seat for one person, a back and legs?",
+      "initial": "CH",
+      "answer": "Chair",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chair"]
+    },
+    {
+      "id": "general-en-easy-04-05",
+      "text": "What soft filled bed covering is normally used inside a removable fabric cover?",
+      "initial": "D",
+      "answer": "Duvet",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Continental quilt", "Doona", "Comforter"],
+      "sources": ["https://en.wikipedia.org/wiki/Duvet"]
+    },
+    {
+      "id": "general-en-easy-04-06",
+      "text": "What piece of jewellery hangs from or is fastened to the earlobe?",
+      "initial": "E",
+      "answer": "Earring",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Earring"]
+    },
+    {
+      "id": "general-en-easy-04-07",
+      "text": "What American English word names the fitting you turn on to draw water from a household pipe?",
+      "initial": "F",
+      "answer": "Faucet",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Tap", "Water tap", "Spigot"],
+      "sources": ["https://en.wikipedia.org/wiki/Tap_(valve)"]
+    },
+    {
+      "id": "general-en-easy-04-08",
+      "text": "What optical aid has a pair of lenses in a frame worn in front of the eyes?",
+      "initial": "G",
+      "answer": "Glasses",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Spectacles", "Eyeglasses"],
+      "sources": ["https://en.wikipedia.org/wiki/Glasses"]
+    },
+    {
+      "id": "general-en-easy-04-09",
+      "text": "What bag, commonly carried over the shoulder or in the hand, holds personal items such as money and keys?",
+      "initial": "H",
+      "answer": "Handbag",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Purse", "Pocketbook"],
+      "sources": ["https://en.wikipedia.org/wiki/Handbag"]
+    },
+    {
+      "id": "general-en-easy-04-10",
+      "text": "What sweet frozen dessert is commonly made from cream or milk and served in a cone?",
+      "initial": "I",
+      "answer": "Ice cream",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Ice-cream"],
+      "sources": ["https://en.wikipedia.org/wiki/Ice_cream"]
+    },
+    {
+      "id": "general-en-easy-04-11",
+      "text": "What kind of trousers is traditionally made from denim?",
+      "initial": "J",
+      "answer": "Jeans",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Blue jeans"],
+      "sources": ["https://en.wikipedia.org/wiki/Jeans"]
+    },
+    {
+      "id": "general-en-easy-04-12",
+      "text": "What room in a home is primarily used to prepare and cook food?",
+      "initial": "K",
+      "answer": "Kitchen",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Kitchen"]
+    },
+    {
+      "id": "general-en-easy-04-13",
+      "text": "What meal is normally eaten around the middle of the day, between breakfast and dinner?",
+      "initial": "L",
+      "answer": "Lunch",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Luncheon"],
+      "sources": ["https://en.wikipedia.org/wiki/Lunch"]
+    },
+    {
+      "id": "general-en-easy-04-14",
+      "text": "What cleaning implement has a long handle and an absorbent head for washing floors?",
+      "initial": "M",
+      "answer": "Mop",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mop"]
+    },
+    {
+      "id": "general-en-easy-04-15",
+      "text": "What piece of jewellery is worn around the neck, often as a chain or a string of beads?",
+      "initial": "N",
+      "answer": "Necklace",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Necklace"]
+    },
+    {
+      "id": "general-en-easy-04-16",
+      "text": "What dish is made by cooking beaten eggs in a pan, often folded around a filling?",
+      "initial": "O",
+      "answer": "Omelette",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Omelet"],
+      "sources": ["https://en.wikipedia.org/wiki/Omelette"]
+    },
+    {
+      "id": "general-en-easy-04-17",
+      "text": "What loose-fitting clothes, often a matching top and trousers, are worn for sleeping?",
+      "initial": "P",
+      "answer": "Pajamas",
+      "language": "en",
+      "category": "general",
+      "aliases": [
+        "Pyjamas",
+        "PJs",
+        "PJ's",
+        "Jammies",
+        "Jim-jams",
+        "Night suit"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Pajamas"]
+    },
+    {
+      "id": "general-en-easy-04-18",
+      "text": "What punctuation mark normally ends a direct written question?",
+      "initial": "Q",
+      "answer": "Question mark",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Interrogation mark", "Interrogation point"],
+      "sources": ["https://en.wikipedia.org/wiki/Question_mark"]
+    },
+    {
+      "id": "general-en-easy-04-19",
+      "text": "What circular band of jewellery is worn on a finger, for example to mark a marriage?",
+      "initial": "R",
+      "answer": "Ring",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Finger ring"],
+      "sources": ["https://en.wikipedia.org/wiki/Ring_(jewellery)"]
+    },
+    {
+      "id": "general-en-easy-04-20",
+      "text": "What utensil has a small bowl on a handle and is used to eat soup?",
+      "initial": "S",
+      "answer": "Spoon",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Spoon"]
+    },
+    {
+      "id": "general-en-easy-04-21",
+      "text": "What portable container with handles is commonly supplied to carry purchases home from a shop?",
+      "initial": "SH",
+      "answer": "Shopping bag",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Carrier bag", "Grocery bag"],
+      "sources": ["https://en.wikipedia.org/wiki/Shopping_bag"]
+    },
+    {
+      "id": "general-en-easy-04-22",
+      "text": "What cleaning paste is normally applied to a toothbrush before brushing the teeth?",
+      "initial": "T",
+      "answer": "Toothpaste",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Dentifrice"],
+      "sources": ["https://en.wikipedia.org/wiki/Toothpaste"]
+    },
+    {
+      "id": "general-en-easy-04-23",
+      "text": "What collective name describes clothes worn beneath outer clothes and usually next to the skin?",
+      "initial": "U",
+      "answer": "Underwear",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Undergarments", "Underclothes"],
+      "sources": ["https://en.wikipedia.org/wiki/Underwear"]
+    },
+    {
+      "id": "general-en-easy-04-24",
+      "text": "What sour cooking liquid is made by fermenting alcohol into acetic acid?",
+      "initial": "V",
+      "answer": "Vinegar",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Vinegar"]
+    },
+    {
+      "id": "general-en-easy-04-25",
+      "text": "What small instrument makes a sharp sound when air is blown through it, for example to attract attention?",
+      "initial": "W",
+      "answer": "Whistle",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Whistle"]
+    },
+    {
+      "id": "general-en-easy-04-26",
+      "text": "What four-letter written sign-off represents hugs and kisses using the letters X and O?",
+      "initial": "X",
+      "answer": "XOXO",
+      "language": "en",
+      "category": "general",
+      "aliases": ["XO", "X O X O"],
+      "sources": ["https://en.wikipedia.org/wiki/Hugs_and_kisses"]
+    },
+    {
+      "id": "general-en-easy-04-27",
+      "text": "What toy consists of an axle between two discs and a string that unwinds as it drops and rewinds as it returns?",
+      "initial": "Y",
+      "answer": "Yo-yo",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Yoyo", "Yo yo"],
+      "sources": ["https://en.wikipedia.org/wiki/Yo-yo"]
+    },
+    {
+      "id": "general-en-easy-04-28",
+      "text": "What common long green summer squash is harvested while its skin and seeds are still tender?",
+      "initial": "Z",
+      "answer": "Zucchini",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Courgette"],
+      "sources": ["https://en.wikipedia.org/wiki/Zucchini"]
+    }
+  ]
+}
