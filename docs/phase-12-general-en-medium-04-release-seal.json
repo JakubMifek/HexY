@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "deckId": "general-en-medium-04",
+  "reviewScope": "Same coherent84-entry batch; narrow actual150-parent final release/integration addendum only.",
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "reportSha256": "c8b023edccd36157085abe0724b69ac43b8074e5262873fff9020d6babcbdcfa",
+  "exactSourceQAFrozenInputSha256": "70ee66d62690d760290eff3d19cc48cf900b625fe418f6cdb3fa949d6f2982e2",
+  "exactSourceQAFrozenInput": ".artifacts/continuation/parallel-decks/general-en-medium-04/integration/batch149-v1/FROZEN-RELEASE-INPUT-v2.json",
+  "actualDeliveredParent": "da007581b6e8406a136648705980037b073e99d2",
+  "actualDeliveryReceiptSha256": "c4e44864cfb07cf34e17b724037503f3116a81918c73fe9281dd2e7f4c739166",
+  "inheritedBatchSealSha256": "a9c937ab281a4e0ac8223d0135941ef78d5a41636aaf8d6530a1b33a7ca58f02",
+  "sourceFiles": 535,
+  "originalSourceFilesUnchanged": 531,
+  "inheritedReceiptOnlyFiles": 4,
+  "candidateDecks": 151,
+  "candidateQuestions": 4228,
+  "english": 82,
+  "czech": 69,
+  "fullCurrent535SourceQualityCoverageNative66AndFreshPrivateBeforeAfterStillRequired": true,
+  "publicationPerformed": false,
+  "geographyCsEasy03ReleasePermitted": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "members": {
+    "DELTA-AND-INHERITANCE-PROOF.json": {
+      "sha256": "9fc6942079d9466e9cbbfd8562339b5a29cd4fd48af3f7f439084e362bda3a78",
+      "bytes": 6731
+    },
+    "REPORT.md": {
+      "sha256": "c8b023edccd36157085abe0724b69ac43b8074e5262873fff9020d6babcbdcfa",
+      "bytes": 9736
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "ee98b4511b3af07307bfeb5f0b1b2f40e3c8ec69039f48c74087bf9a8475931a",
+      "bytes": 166923
+    },
+    "verify-and-seal.py": {
+      "sha256": "3564221694fdb8708beab84d260c9575a34b9e099fc8d4c23b89035cf40a6f87",
+      "bytes": 20189
+    }
+  }
+}

@@ -52,7 +52,24 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current General Czech Hard03 candidate:**150/4,200, adding only this
+**Current batch sequence candidate:**
+**Phase 12 incremental candidate: 151 decks / 4,228 questions.**
+Only `general-en-medium-04` is added to the proposed 150-deck predecessor.
+Actual delivery at preparation remains `f47f55e4` (149/4,172).
+General18/504, Geography17/476; English82/Czech69.
+Its [source ledger](docs/phase-12-general-en-medium-04-sources.json) must preserve every
+accepted whole question/full supporting array/alias and original adult rating.
+Meaningful current peer/lifecycle decisions and independent release clearance
+remain pending. All preceding pack bytes, append order and published normalized
+names remain immutable; raw IDs/titles and exported metadata never change.
+Each predecessor must actually be independently gated, pushed and privately
+verified before this stage receives its actual-parent binding and release gates.
+No final-state result substitutes for an untested intermediate. Only one newly
+finished deck per commit/push; full served28 and deliberate active/naturally-expired
+old data/deadlines are verified after actual promotion.
+Final330/9,240/all66 remains NOT CLEARED; no other draft is published.
+
+**Earlier General Czech Hard03 preparation candidate:**150/4,200, adding only this
 28-entry deck to actual private `f47f55e4` (149/4,172).
 The prior independently accepted corrected questions/full evidence/all40 aliases
 and exact original whole-Hard calibration (26 Hard,1 Easy,1 Medium) are inherited;

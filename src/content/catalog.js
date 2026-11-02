@@ -20,6 +20,8 @@ import scienceEnHard4 from './science-en-hard-04.json';
 import generalCsHard4 from './general-cs-hard-04.json';
 import generalCsHard3 from './general-cs-hard-03.json';
 
+import generalEnMedium4 from './general-en-medium-04.json';
+
 const bundledSources = [
   ...phaseElevenSources,
   natureEnEasy3,
@@ -40,6 +42,7 @@ const bundledSources = [
   scienceEnHard4,
   generalCsHard4,
   generalCsHard3,
+  generalEnMedium4,
 ];
 
 export function bundledPacks() {

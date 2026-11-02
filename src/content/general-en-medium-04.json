@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "id": "general-en-medium-04",
+  "title": "General knowledge · Medium · 04",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-en-medium-04-01",
+      "text": "What Japanese craft makes small stuffed creatures by crocheting or knitting yarn?",
+      "initial": "A",
+      "answer": "Amigurumi",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Amigurumi"]
+    },
+    {
+      "id": "general-en-medium-04-02",
+      "text": "What cooking technique repeatedly moistens roasting food with its juices, fat or another liquid?",
+      "initial": "B",
+      "answer": "Basting",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Baste"],
+      "sources": ["https://en.wikipedia.org/wiki/Basting_(cooking)"]
+    },
+    {
+      "id": "general-en-medium-04-03",
+      "text": "What measuring tool uses two adjustable jaws or legs to compare or measure a distance or diameter?",
+      "initial": "C",
+      "answer": "Calipers",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Callipers", "Caliper", "Calliper"],
+      "sources": ["https://en.wikipedia.org/wiki/Calipers"]
+    },
+    {
+      "id": "general-en-medium-04-04",
+      "text": "What soft absorbent leather, traditionally associated with an Alpine antelope, is commonly used for drying and polishing cars?",
+      "initial": "CH",
+      "answer": "Chamois leather",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Chamois", "Shammy"],
+      "sources": ["https://en.wikipedia.org/wiki/Chamois_leather"]
+    },
+    {
+      "id": "general-en-medium-04-05",
+      "text": "What decorative craft glues cut-out pictures to an object and covers them with varnish or lacquer?",
+      "initial": "D",
+      "answer": "Decoupage",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Decoupage"]
+    },
+    {
+      "id": "general-en-medium-04-06",
+      "text": "What craft decorates fabric by stitching patterns with a needle and thread?",
+      "initial": "E",
+      "answer": "Embroidery",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Embroidery"]
+    },
+    {
+      "id": "general-en-medium-04-07",
+      "text": "What smooth sugar icing can be rolled into a sheet and draped over a cake?",
+      "initial": "F",
+      "answer": "Fondant",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Rolled fondant", "Fondant icing"],
+      "sources": ["https://en.wikipedia.org/wiki/Fondant_icing"]
+    },
+    {
+      "id": "general-en-medium-04-08",
+      "text": "What South Asian cooking fat is made by clarifying butter and removing the milk solids?",
+      "initial": "G",
+      "answer": "Ghee",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Clarified butter"],
+      "sources": ["https://en.wikipedia.org/wiki/Ghee"]
+    },
+    {
+      "id": "general-en-medium-04-09",
+      "text": "What pattern of interlocking rectangles, used in floors and textiles, is named after the bones of a fish?",
+      "initial": "H",
+      "answer": "Herringbone",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Herringbone pattern"],
+      "sources": ["https://en.wikipedia.org/wiki/Herringbone_pattern"]
+    },
+    {
+      "id": "general-en-medium-04-10",
+      "text": "What punctuation mark combines a question mark and an exclamation mark into one symbol?",
+      "initial": "I",
+      "answer": "Interrobang",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Interabang"],
+      "sources": ["https://en.wikipedia.org/wiki/Interrobang"]
+    },
+    {
+      "id": "general-en-medium-04-11",
+      "text": "What type of weaving mechanism, historically controlled by punched cards, allows intricate figured patterns to be woven?",
+      "initial": "J",
+      "answer": "Jacquard",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Jacquard loom", "Jacquard mechanism"],
+      "sources": ["https://en.wikipedia.org/wiki/Jacquard_machine"]
+    },
+    {
+      "id": "general-en-medium-04-12",
+      "text": "What woodworking term denotes the width of the cut or slot left by a saw blade?",
+      "initial": "K",
+      "answer": "Kerf",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Saw kerf"],
+      "sources": ["https://en.wikipedia.org/wiki/Saw"]
+    },
+    {
+      "id": "general-en-medium-04-13",
+      "text": "What craftsperson builds or repairs stringed musical instruments such as violins and guitars?",
+      "initial": "L",
+      "answer": "Luthier",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Stringed-instrument maker", "Lute maker"],
+      "sources": ["https://en.wikipedia.org/wiki/Luthier"]
+    },
+    {
+      "id": "general-en-medium-04-14",
+      "text": "What textile craft makes decorative patterns using knots rather than weaving or knitting?",
+      "initial": "M",
+      "answer": "Macramé",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Macram%C3%A9"]
+    },
+    {
+      "id": "general-en-medium-04-15",
+      "text": "What pointed metal part of a dip pen or fountain pen delivers ink to paper?",
+      "initial": "N",
+      "answer": "Nib",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Nib_(pen)"]
+    },
+    {
+      "id": "general-en-medium-04-16",
+      "text": "What upholstered piece of furniture, often without a back or arms, can support a seated person's feet?",
+      "initial": "O",
+      "answer": "Ottoman",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Footstool", "Hassock", "Pouf", "Pouffe"],
+      "sources": ["https://en.wikipedia.org/wiki/Ottoman_(furniture)"]
+    },
+    {
+      "id": "general-en-medium-04-17",
+      "text": "What writing material is made from prepared animal skin rather than plant fibres?",
+      "initial": "P",
+      "answer": "Parchment",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Parchment"]
+    },
+    {
+      "id": "general-en-medium-04-18",
+      "text": "What paper craft rolls narrow strips of paper into coils and arranges them into decorative designs?",
+      "initial": "Q",
+      "answer": "Quilling",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Paper filigree"],
+      "sources": ["https://en.wikipedia.org/wiki/Quilling"]
+    },
+    {
+      "id": "general-en-medium-04-19",
+      "text": "What flexible material from climbing palms is commonly used to make woven furniture?",
+      "initial": "R",
+      "answer": "Rattan",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Rattan"]
+    },
+    {
+      "id": "general-en-medium-04-20",
+      "text": "What lightweight woven fabric has alternating smooth and puckered stripes that help keep it away from the skin?",
+      "initial": "S",
+      "answer": "Seersucker",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Seersucker"]
+    },
+    {
+      "id": "general-en-medium-04-21",
+      "text": "What Japanese textile-dyeing tradition creates patterns by binding, folding, stitching or otherwise resisting the dye?",
+      "initial": "SH",
+      "answer": "Shibori",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Shibori"]
+    },
+    {
+      "id": "general-en-medium-04-22",
+      "text": "What fine lightweight net fabric is used for veils and ballet tutus?",
+      "initial": "T",
+      "answer": "Tulle",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Tulle netting"],
+      "sources": ["https://en.wikipedia.org/wiki/Tulle_(netting)"]
+    },
+    {
+      "id": "general-en-medium-04-23",
+      "text": "What trade fits furniture with padding, springs and fabric or leather covers?",
+      "initial": "U",
+      "answer": "Upholstery",
+      "language": "en",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Upholstery"]
+    },
+    {
+      "id": "general-en-medium-04-24",
+      "text": "What decorative strip of fabric hangs across the top of a window?",
+      "initial": "V",
+      "answer": "Valance",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Pelmet"],
+      "sources": ["https://en.wikipedia.org/wiki/Window_valance"]
+    },
+    {
+      "id": "general-en-medium-04-25",
+      "text": "What kitchen tool uses loops of wire to beat eggs or incorporate air into a mixture?",
+      "initial": "W",
+      "answer": "Whisk",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Balloon whisk"],
+      "sources": ["https://en.wikipedia.org/wiki/Whisk"]
+    },
+    {
+      "id": "general-en-medium-04-26",
+      "text": "What Chinese steamed dumplings, associated with the Jiangnan region, are known for a filling that includes hot broth?",
+      "initial": "X",
+      "answer": "Xiaolongbao",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Xiao long bao", "Xiao-long-bao", "Soup dumplings"],
+      "sources": ["https://en.wikipedia.org/wiki/Xiaolongbao"]
+    },
+    {
+      "id": "general-en-medium-04-27",
+      "text": "What traditional Muslim face veil, especially associated with Ottoman women, takes an English name from Turkish?",
+      "initial": "Y",
+      "answer": "Yashmak",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Yasmak", "Yashmac"],
+      "sources": ["https://en.wikipedia.org/wiki/Yashmak"]
+    },
+    {
+      "id": "general-en-medium-04-28",
+      "text": "What Moroccan decorative craft assembles individually cut glazed tiles into geometric mosaics?",
+      "initial": "Z",
+      "answer": "Zellige",
+      "language": "en",
+      "category": "general",
+      "aliases": ["Zellij", "Zillij", "Zellige tilework"],
+      "sources": ["https://en.wikipedia.org/wiki/Zellij"]
+    }
+  ]
+}

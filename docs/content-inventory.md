@@ -1,5 +1,23 @@
 # Content inventory and provenance
 
+**Phase 12 incremental candidate: 151 decks / 4,228 questions.**
+Only `general-en-medium-04` is added to the proposed 150-deck predecessor.
+Actual delivery at preparation remains `f47f55e4` (149/4,172).
+General18/504, Geography17/476; English82/Czech69.
+Its [source ledger](phase-12-general-en-medium-04-sources.json) must preserve every
+accepted whole question/full supporting array/alias and original adult rating.
+Meaningful current peer/lifecycle decisions and independent release clearance
+remain pending. All preceding pack bytes, append order and published normalized
+names remain immutable; raw IDs/titles and exported metadata never change.
+Each predecessor must actually be independently gated, pushed and privately
+verified before this stage receives its actual-parent binding and release gates.
+No final-state result substitutes for an untested intermediate. Only one newly
+finished deck per commit/push; full served28 and deliberate active/naturally-expired
+old data/deadlines are verified after actual promotion.
+Final330/9,240/all66 remains NOT CLEARED; no other draft is published.
+
+## Prior sequence candidate — retained preparation history
+
 ## Current General Czech Hard03 one-deck candidate
 
 **150 decks / 4,200 entries**, adding only `general-cs-hard-03` to actual private
