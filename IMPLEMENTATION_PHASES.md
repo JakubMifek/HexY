@@ -16,10 +16,10 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Current Phase 12 deck snapshot
 
-This source candidate contains **154 decks / 4,312 questions**,
-adding only `general-cs-medium-03` to its 153-deck predecessor.
+This source candidate contains **155 decks / 4,340 questions**,
+adding only `geography-cs-medium-03` to its 154-deck predecessor.
 Actual delivery at preparation is `cd9bc76e` (152/4,256), English82/Czech70.
-This intermediate is English82/Czech72; original152 packs are immutable.
+This intermediate is English82/Czech73; original152 packs are immutable.
 Its lossless source ledger retains all28 whole questions, complete supporting
 arrays, legitimate aliases, original/corrected judgments and adult difficulty.
 Current meaningful peer/lifecycle decisions and independent release clearance

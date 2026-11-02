@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "reviewerTaskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "taskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "sealedAt": "2026-11-02T11:19:38.640535+00:00",
+  "deckId": "geography-cs-medium-03",
+  "candidateDecks": 155,
+  "candidateQuestions": 4340,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "sourceFiles": 559,
+  "initialReviewedSourceFilesByteExact": 551,
+  "inheritedPredecessorReceiptOnlyFiles": 8,
+  "exactSourceQAFrozenInputSha256": "3be434aa3b83dc6053a75928a53cdf0a885c8ee97f92e17a412e0ce1d1e8d97f",
+  "exactSourceQAFrozenInput": {
+    "path": ".artifacts/continuation/parallel-decks/geography-cs-medium-03/integration/batch152-v1/FROZEN-RELEASE-INPUT-v2.json",
+    "sha256": "3be434aa3b83dc6053a75928a53cdf0a885c8ee97f92e17a412e0ce1d1e8d97f",
+    "bytes": 114822
+  },
+  "actualParentCommit": "9d3c6613052fa5a1edbfa6cb90907aa00d574b67",
+  "baseline": "9d3c6613052fa5a1edbfa6cb90907aa00d574b67",
+  "initialAcceptedInherited": 28,
+  "currentIndependentAccepted": 28,
+  "meaningfulCurrentPairDecisions": 51,
+  "explicitSameFactRelatedQueueDecisions": 23,
+  "ownPeerComparisonsInvolvingDeck": 2352,
+  "wholeOriginalRatingSha256": "f5fdd2f70c94aeca7b66aa30e92d6188c0f8157ccc050ce1c5474154d645326b",
+  "fourOriginalAcceptedCorrectionClosuresInherited": true,
+  "inheritedBatchSeal": {
+    "path": ".artifacts/continuation/batch-review/single-author-general-geography-current152-v1/BATCH-SEAL.json",
+    "sha256": "90b09f1cb377e08e331c627f1925135ea0bb02e7f13999880b86bb1b2e712296",
+    "bytes": 10667
+  },
+  "inheritedOriginalOwnDeckSeal": {
+    "path": ".artifacts/continuation/batch-review/single-author-general-geography-current152-v1/geography-cs-medium-03/SEAL.json",
+    "sha256": "d6fb8731ca4eaca184f4fe9607abba62f3834ab7491c098b3e23f78fa3ac7200",
+    "bytes": 3861
+  },
+  "predecessorIndependentReleaseSeal": {
+    "path": ".artifacts/continuation/batch-review/single-author-general-geography-current152-v1/general-cs-medium-03/actual-parent153-v1/SEAL.json",
+    "sha256": "bb509c6ba16212ea4191ea9ab45e24691cad19568dc787274ba9fb0c8c853a0b",
+    "bytes": 3032
+  },
+  "blockingFindings": 0,
+  "majorFindings": 0,
+  "minorFindings": 0,
+  "finalActualParentReleaseHeld": false,
+  "actualParentHoldDischargedForThisExactFreezeOnly": true,
+  "coordinatorPostReviewGatesStillPending": true,
+  "stage155Native70": "LISTED ONLY; actual execution pending",
+  "externalInputCount": 3311,
+  "reportSha256": "3757e9a8f725e950ff0bdab1bd927113a1d48206827b7b70e79eac966eae0964",
+  "members": {
+    "REPORT.md": {
+      "sha256": "3757e9a8f725e950ff0bdab1bd927113a1d48206827b7b70e79eac966eae0964",
+      "bytes": 13878
+    },
+    "ASSERTIONS.json": {
+      "sha256": "722c1b088100a8898e1e500604841f2f7b2e484fb0873f6b70e019eb47b800cc",
+      "bytes": 8805
+    },
+    "NATIVE-CONTINUITY.json": {
+      "sha256": "572cc53037ac2e195dc79bbeb40accb7d359edbba2b483f2ea645fc1e4058729",
+      "bytes": 27602
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "f619a9b183ce117aca77101fe760cc82dc15ef4e29cc89fb8b0dd241d57a8fb3",
+      "bytes": 713478
+    },
+    "verify.py": {
+      "sha256": "88b43cac00705bcd7a48a4c8e512ff962facf164014d11e113673eeb79f1f853",
+      "bytes": 21987
+    }
+  },
+  "memberCount": 5,
+  "originalReportsSealsAndDecisionsNeverModified": true,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "stage156ActualParentReleaseHeld": true
+}

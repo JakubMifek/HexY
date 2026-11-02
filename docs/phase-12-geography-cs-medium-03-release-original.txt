@@ -1,0 +1,100 @@
+# GeographyCSMedium03 — actual-parent154 release addendum
+
+**Verdict: CLEARED FOR DECK RELEASE**
+
+- Independent reviewer/task: `13c96f15-ec4a-415a-98cc-38ff1b4f80df`.
+- Deck: `geography-cs-medium-03`; exact prospective delivery: **155 decks / 4340 questions / en82 / cs73**.
+- Actual delivered parent: `9d3c6613052fa5a1edbfa6cb90907aa00d574b67`, GeneralCSMedium03, **154 / 4312 / en82 / cs72**.
+- Exact source/QA freeze: `.artifacts/continuation/parallel-decks/geography-cs-medium-03/integration/batch152-v1/FROZEN-RELEASE-INPUT-v2.json`.
+- **Exact freeze SHA-256: `3be434aa3b83dc6053a75928a53cdf0a885c8ee97f92e17a412e0ce1d1e8d97f`.**
+- Findings: **0 blocking, 0 major, 0 minor**.
+
+This same-reviewer, same112-batch addendum discharges only the actual-parent release hold for this deck and exact new freeze. It leaves every original report, seal and content/current decision immutable. This independent verdict is **not a claim that stage155's own full quality, coverage, native70 or private-delivery gates have passed**, permission to bypass those gates, or authorization to publish.
+
+## Inherited acceptance, not repeated initial research
+
+The original batch seal remains `90b09f1cb377e08e331c627f1925135ea0bb02e7f13999880b86bb1b2e712296`; its 42 original members still match. The original GeographyCSMedium03 held seal remains `d6fb8731ca4eaca184f4fe9607abba62f3834ab7491c098b3e23f78fa3ac7200`; all18 of its dependencies still match. The preceding GeneralCSMedium03 actual-parent release seal `bb509c6ba16212ea4191ea9ab45e24691cad19568dc787274ba9fb0c8c853a0b` and its five members also remain exact.
+
+This deck inherits:
+
+- **28/28 original accepted questions**, entire source entries/support arrays and legitimate aliases, and **28/28 independent current acceptances**.
+- **51 meaningful current-pair decisions, 23 explicit same-fact/related decisions and all2352 own-peer comparisons involving this deck**, within the unchanged complete batch261/65/4704/74 decisions and112 accepted entries.
+- The original adult rating **22 Medium / 4 Easy / 2 Hard**, whole-rating hash `f5fdd2f70c94aeca7b66aa30e92d6188c0f8157ccc050ce1c5474154d645326b`.
+- The actual four accepted GeographyB02 correction closures: entry05 Durban requires **both Golden Mile and uShaka**; entry06 retains **Stát Eritrea**; entry20 retains **delta řeky**; entry28 retains **all accepted ß/SS German forms**.
+
+All551 initially reviewed stage155 files, including its raw pack and complete evidence ledger, are byte-identical. Therefore original accepted entry/evidence/alias/rating and correction-closure bindings remain actual unchanged bindings, not an author's self-hash substituted for independent acceptance. The old Medium rationale mentioning the former Durban ambiguity is preserved, not rewritten; the actual accepted correction closure governs. Retired/yielded semantic lineage, rejected alternatives, V5 distinctions and original audit limitations remain inherited explicitly.
+
+The now-delivered GeneralCSMedium03 and earlier GeneralCSEasy03 were already included in the complete original own112/peer predicates and current decisions. Changing their lifecycle to delivered does not introduce a new factual predicate or alias. No language/category exemption, fresh recalibration, global inventory, historical source reconstruction or future-packet review was performed. Historical author current0/pending statements remain historical author projections, not edited reviewer verdicts.
+
+## Actual-parent and eight receipt-only additions
+
+The bounded proof is in `ASSERTIONS.json`, `NATIVE-CONTINUITY.json` and `STOP-GUARDS.json`.
+
+- **559 actual source files, 109 exact frozen inputs**, inspected and end-rehashed.
+- **551/551** original source bindings from initial freeze `8963ecb27deccf2f1c0be5814b6c538b3c9aeae3c4c16778724161ca0564b197` remain byte-exact.
+- The new freeze's actual-parent proof was independently substantiated against real files and immutable Git blobs, not accepted from its flags alone.
+- Git HEAD at both boundaries is actual parent `9d3c6613052fa5a1edbfa6cb90907aa00d574b67`. The parent's original553 frozen source files match that commit.
+- The eight additions are exactly the four GeneralCSEasy03 and four GeneralCSMedium03 predecessor receipts, each consisting of the published review, original review `.txt`, release seal and original post-review receipt. All eight match the exact new freeze and actual parent Git blobs.
+- **Seven** published files equal their originals byte-for-byte. The GeneralCSMedium03 published Markdown review differs only by `*`→`_` emphasis around “actual-parent hold” and Markdown table padding/separator formatting. Its complete table cell values and all other text match. Its original `.txt` is byte-exact; its seal still binds that untouched original report. The formatting difference is explicitly retained, not falsely described as whole-snapshot byte identity.
+- All **154 baseline raw packs** equal the actual154 Git commit, preserving entire objects, IDs, exported titles, aliases and sources. Exactly **one** new pack and its full source ledger remain against that actual parent.
+- The six changed existing paths and two new paths exactly match the freeze. Registration adds only the explicit GeographyCSMedium03 import and append; the two localized help strings change only154→155. The naming inventory preserves its entire old prefix and only appends this deck. The final **330 decks / 9240 questions / all66 combinations / five-per-combination** gate remains unchanged.
+
+### NativeR47 → R48
+
+R47 `2ecc44fe70b9f4d5ce301aea540be53827b4818e0beebb620f9e7e98cde3bce3` and R48 `300b2b89d53ee103d1068963e3da14dda6c2b2cc4b18136b486c5efbede646ab` were compared using complete insertion-order compact-JSON hashes:
+
+- All **76 entire entry arrays / 2128 entries**, including question/source/alias fields actually present, remain identical.
+- The other **75 complete reservation objects** retain their exact whole-object hashes.
+- GeneralCSMedium03 changes only `sourceLifecycle`, `deliveryCommit`, `actualServedRevision`; its entire object with just those three fields removed hashes identically.
+- All76 unchanged candidate raw-file bindings and all73 declared dedicated top-level source-evidence bindings were rehashed.
+- The same three legacy schemas (`general-en-easy-03`, `general-en-easy-04`, `geography-en-hard-03`) lack that dedicated top-level source field. Their complete records and entries remain unchanged. No absent field or historical full-evidence attestation is invented; this retained audit limitation does not contradict any named present-deck acceptance.
+
+Revision, delivered-parent and dispatch/header bookkeeping also changes operationally; “role-only” does not incorrectly claim that the entire R48 document differs in only three keys. The immutable prepublication snapshot is guarded. Live queue/STATUS observations are not factual/end guards and historical scheduler fields do not override the latest single-author policy.
+
+## Actual154 execution and private-delivery evidence
+
+The parent delivery receipt is exactly `70fa24d5d243f19da907c22692ebc0df867966ce2df20b1d4e60cc970004663c`, binding commit, remoteMain and served revision `9d3c6613052fa5a1edbfa6cb90907aa00d574b67`, one newly published pack and153 unchanged preceding raw packs. Its post-review receipt `a72cb4c583fde4f0e6b112fe3062eaa8d6b5f2047ac3d20790615d93f4a1ba01`, named inputs, full78-file coverage archive and native result were rehashed.
+
+The bound coordinator quality command uses:
+
+```sh
+VITEST_MAX_FORKS=1 VITEST_MIN_FORKS=1 VITEST_MAX_THREADS=1 VITEST_MIN_THREADS=1 npm run check
+```
+
+Its command receipt exits0 and its log reports **1605/1605 tests in56 files and a completed build**. All64 runtime modules remain included in separate disjoint35/29 coverage groups:
+
+| Parent scope | Lines | Statements | Functions | Branches |
+|---|---:|---:|---:|---:|
+| Critical35 | 4142/4150 (99.8072%) | 4183/4191 (99.8091%) | 308/312 (98.7179%) | 1374/1414 (97.1711%) |
+| Remaining29 | 3659/3673 (99.6188%) | 3820/3834 (99.6348%) | 127/130 (97.6923%) | 598/627 (95.3748%) |
+
+Parent native execution is **70 expected / 0 skipped / 0 unexpected / 0 flaky**, with no result errors. The four later receipt-only files do not change the original553 source scope; the one Markdown formatting difference is checked separately above rather than presented as a rerun of executable gates.
+
+The original first153 quality-v1 failure remains retained and guarded:13 failed tests/1558 passed plus the Vitest `onTaskUpdate` RPC timeout. Its disclosed unchanged-source one-worker recovery history remains in the immutable preceding addendum. This addendum neither relabels that attempt successful nor invents raised deadlines, weakened assertions or a new resource-causation diagnosis. Stage154's successful one-worker run is distinct evidence.
+
+The actual old active profile retains its original3600s deadline **1793621549783** in question; the naturally expired10s profile retains deadline **1793617961442** in opponent-offer. Both recovered and reloaded exports were independently compared to their actual before exports, excluding only the expected recovery-transient `sessionId`, `revision`, `lastNow`. Entire persistent game, pack, ownership, round/deadline, settings, player colours and bindings match; recovery revision advances and time does not go backward. The bound coordinator after receipts separately attest unchanged raw libraries across reload. Natural expiry is not factual failure or active time extension. The entire served28-question GeneralCSMedium03 object independently matches its actual154 Git pack.
+
+These are supplied immutable coordinator execution/delivery evidence plus this reviewer's bounded file/Git comparisons, **not new reviewer browser/network observations**. Synthetic Chromium upgrade profiles and Firefox native evidence do not establish physical Xbox/tablet verification. Parent154 results do not prove stage155 gates.
+
+## Six review lenses
+
+1. **Correctness and phase completeness:** Accepted for this exact delta. Actual154 now exists and is the verified one-pack baseline. All initial/current semantic acceptance and corrected facts remain bound. Recovery comparisons retain original deadlines and expected stale-event protection tokens. Only this independent release gate is discharged; stage155 post-review gates and finalPhase12 remain open.
+2. **Usability and accessibility:** Accepted for this delta. No control, layout, answer hint, interaction or accessibility representation changes. Old raw pack/export identities and stable localized naming inputs remain immutable; only two catalog counts increment. Original UI/filter/export judgments are inherited without new device/browser claims.
+3. **Readability and maintainability:** Accepted. Eight additions carry predecessor provenance, not runtime duplication. The published Markdown formatting is disclosed and original reports/seals remain exact. Registration is a direct import/append; no test rename/deletion, dependency or unrelated cleanup is introduced.
+4. **OOP and responsibilities:** Accepted. No change to authoritative game state, resource lifetime, input subscriptions, adapters or ownership responsibilities. Receipt files remain evidence rather than business logic.
+5. **Design patterns and proportionality:** Accepted. No new abstraction, naming implementation, service or generator is introduced. Actual hash-based inheritance plus a complete narrow real-parent/receipt/role inspection implements the approved impact-based review rule without substituting a sample or lexical screen for the original meaningful decisions.
+6. **Content, rights and delivery:** Accepted. All28 accepted objects, complete evidence/source projections, legitimate aliases, original22Medium/4Easy/2Hard judgment and four actual correction closures remain unchanged. No old rejected content, factual edit, missing-source attestation, new licensing assertion or language/category waiver is adopted. The predecessor's actual delivery and this prospective one-pack integration are substantiated; stage155's own quality/native/private publication safety must still be completed by the coordinator.
+
+## Verification, guards and residuals
+
+Executed only own bounded named-file hashing, static source/Git-blob comparisons and local proof:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 .artifacts/continuation/batch-review/single-author-general-geography-current152-v1/geography-cs-medium-03/actual-parent154-v1/verify.py
+```
+
+Result: **PASS — 559 source files, 551 original files unchanged, eight receipt-only additions, 154 actual-parent pack bindings, 3311 distinct immutable external bindings end-rehashed**. The full Native serialized-record/entry-array proof also passed. After sealing, `verify.py --check-seal` read-only rechecks every new sealed member and all3311 external bindings.
+
+No heavy npm/build/coverage/browser/native suite, historical generator, global inventory, nested agent, service change, Git-ref mutation, publication, primary-source/shared-cache/queue write or future-packet inspection was performed. All new writes are restricted to this new addendum directory. The observed `q.currentBatch.currentActualParentReview` binds this task, freeze, inherited batch seal and actual parent, but the live queue is deliberately excluded from frozen/end guards.
+
+**Residual gates:** coordinator same-source stage155 full quality, separate35/29 all-runtime coverage, actual native70 execution, fresh deliberately active/naturally-expired private old-data/raw-library/deadline/reload and served28 verification, then authorized single-deck commit/push/private promotion against actual154 and after-delivery verification. Stage156 final actual-parent release remains held. No future-packet, category, batch-publication or finalPhase12 clearance is granted.

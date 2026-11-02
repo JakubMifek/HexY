@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "geography-cs-medium-03",
+  "title": "Zeměpis a cestování · Střední 03",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "initial": "A",
+      "text": "Které město je hlavním městem Jižní Austrálie a bylo založeno poblíž řeky Torrens?",
+      "answer": "Adelaide",
+      "aliases": ["Adelaida", "Tarndanya", "Tarntanya"],
+      "id": "geography-cs-medium-03-01",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Adelaide",
+        "https://en.wikipedia.org/wiki/Adelaide"
+      ]
+    },
+    {
+      "initial": "B",
+      "text": "Který středoamerický stát má hlavní město Belmopan?",
+      "answer": "Belize",
+      "aliases": ["Britský Honduras", "British Honduras"],
+      "id": "geography-cs-medium-03-02",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Belize",
+        "https://en.wikipedia.org/wiki/Belize"
+      ]
+    },
+    {
+      "initial": "C",
+      "text": "Jaký starší název má ostrovní stát jižně od Indie, jehož největším městem je Kolombo?",
+      "answer": "Cejlon",
+      "aliases": [
+        "Srí Lanka",
+        "Ceylon",
+        "Šrílanská demokratická socialistická republika",
+        "Democratic Socialist Republic of Sri Lanka"
+      ],
+      "id": "geography-cs-medium-03-03",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Sr%C3%AD_Lanka"]
+    },
+    {
+      "initial": "Č",
+      "text": "Který poloostrov na severovýchodním konci Asie odděluje od Aljašky Beringův průliv?",
+      "answer": "Čukotský poloostrov",
+      "aliases": ["Čukotka", "Chukchi Peninsula", "Chukotka Peninsula"],
+      "id": "geography-cs-medium-03-04",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cukotsk%C3%BD_poloostrov"]
+    },
+    {
+      "initial": "D",
+      "text": "Které přístavní město v provincii KwaZulu-Natal je známé pobřežním pásem Golden Mile a areálem uShaka Marine World?",
+      "answer": "Durban",
+      "aliases": ["eThekwini", "Port Natal"],
+      "id": "geography-cs-medium-03-05",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Durban",
+        "https://en.wikipedia.org/wiki/Durban"
+      ]
+    },
+    {
+      "initial": "E",
+      "text": "Který africký stát na pobřeží Rudého moře má hlavní město Asmara?",
+      "answer": "Eritrea",
+      "aliases": [
+        "Eritrejský stát",
+        "State of Eritrea",
+        "Ertra",
+        "Hagara Ertra",
+        "Stát Eritrea"
+      ],
+      "id": "geography-cs-medium-03-06",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Eritrea",
+        "https://en.wikipedia.org/wiki/Eritrea"
+      ]
+    },
+    {
+      "initial": "F",
+      "text": "Které souostroví v jižním Atlantiku má hlavní sídlo Stanley?",
+      "answer": "Falklandy",
+      "aliases": [
+        "Falklandské ostrovy",
+        "Falkland Islands",
+        "Falklands",
+        "Malvíny",
+        "Islas Malvinas",
+        "Malvinas"
+      ],
+      "id": "geography-cs-medium-03-07",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Falklandy",
+        "https://en.wikipedia.org/wiki/Falkland_Islands"
+      ]
+    },
+    {
+      "initial": "G",
+      "text": "Které tichomořské vulkanické souostroví zahrnuje ostrovy Isabela, Santa Cruz a Fernandina?",
+      "answer": "Galapágy",
+      "aliases": [
+        "Galapážské ostrovy",
+        "Galápagos Islands",
+        "Galápagos",
+        "Islas Galápagos",
+        "Colónovo souostroví",
+        "Colón Archipelago",
+        "Columbus Archipelago",
+        "Archipiélago de Colón",
+        "Archipiélago del Colón",
+        "Galapážské souostroví",
+        "Galápagos archipiélago",
+        "Galápagos Archipelago",
+        "Ecuador Archipelago",
+        "Archipelago of the Equator",
+        "Archipiélago de Ecuador",
+        "Archipiélago del Ecuador"
+      ],
+      "id": "geography-cs-medium-03-08",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Galap%C3%A1gy",
+        "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+        "https://whc.unesco.org/en/list/1/"
+      ]
+    },
+    {
+      "initial": "H",
+      "text": "Který ze čtyř hlavních japonských ostrovů leží nejseverněji a jeho největším městem je Sapporo?",
+      "answer": "Hokkaidó",
+      "aliases": ["Ezo", "Yezo", "Ezochi", "Ezogashima"],
+      "id": "geography-cs-medium-03-09",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Hokkaid%C3%B3",
+        "https://en.wikipedia.org/wiki/Hokkaido"
+      ]
+    },
+    {
+      "initial": "Ch",
+      "text": "Které město na ruském Dálném východě leží u soutoku Amuru a Ussuri?",
+      "answer": "Chabarovsk",
+      "aliases": ["Khabarovsk"],
+      "id": "geography-cs-medium-03-10",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Chabarovsk"]
+    },
+    {
+      "initial": "I",
+      "text": "Který baleárský ostrov je proslulý letními tanečními kluby?",
+      "answer": "Ibiza",
+      "aliases": ["Eivissa", "Iviza"],
+      "id": "geography-cs-medium-03-11",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ibiza",
+        "https://en.wikipedia.org/wiki/Ibiza"
+      ]
+    },
+    {
+      "initial": "J",
+      "text": "Které indonéské velkoměsto na severozápadním pobřeží Jávy je sídlem organizace ASEAN?",
+      "answer": "Jakarta",
+      "aliases": ["Džakarta", "Batavia", "Batávie", "Djakarta"],
+      "id": "geography-cs-medium-03-12",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Jakarta"]
+    },
+    {
+      "initial": "K",
+      "text": "Která rozsáhlá písčitá oblast pokrývá velkou část Botswany a zasahuje do Namibie i Jihoafrické republiky?",
+      "answer": "Kalahari",
+      "aliases": ["Kalahárská poušť", "Kalahari Desert"],
+      "id": "geography-cs-medium-03-13",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Kalahari",
+        "https://en.wikipedia.org/wiki/Kalahari"
+      ]
+    },
+    {
+      "initial": "L",
+      "text": "Který vnitrozemský stát jihovýchodní Asie má hlavní město Vientiane?",
+      "answer": "Laos",
+      "aliases": [
+        "Laoská lidově demokratická republika",
+        "Lao PDR",
+        "LPDR",
+        "Lao People's Democratic Republic"
+      ],
+      "id": "geography-cs-medium-03-14",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Laos",
+        "https://en.wikipedia.org/wiki/Laos"
+      ]
+    },
+    {
+      "initial": "M",
+      "text": "Který ostrovní stát v Indickém oceánu má hlavní město Malé?",
+      "answer": "Maledivy",
+      "aliases": [
+        "Maledivská republika",
+        "Maldives",
+        "Republic of Maldives",
+        "Maldive Islands",
+        "Maledivské souostroví"
+      ],
+      "id": "geography-cs-medium-03-15",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Maledivy",
+        "https://en.wikipedia.org/wiki/Maldives"
+      ]
+    },
+    {
+      "initial": "N",
+      "text": "Ve které africké zemi na pobřeží Atlantiku leží pobřeží Koster a většina pouště Namib?",
+      "answer": "Namibie",
+      "aliases": ["Namibijská republika", "Namibia", "Republic of Namibia"],
+      "id": "geography-cs-medium-03-16",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Namibie"]
+    },
+    {
+      "initial": "O",
+      "text": "Která země Arabského poloostrova má hlavní město Maskat?",
+      "answer": "Omán",
+      "aliases": ["Sultanát Omán", "Sultanate of Oman"],
+      "id": "geography-cs-medium-03-17",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Om%C3%A1n",
+        "https://en.wikipedia.org/wiki/Oman"
+      ]
+    },
+    {
+      "initial": "P",
+      "text": "Jak se nazývá rozsáhlá oblast na jihu Jižní Ameriky, která zasahuje do Argentiny i Chile?",
+      "answer": "Patagonie",
+      "aliases": ["Patagonia"],
+      "id": "geography-cs-medium-03-18",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Patagonie",
+        "https://en.wikipedia.org/wiki/Patagonia"
+      ]
+    },
+    {
+      "initial": "R",
+      "text": "Který nizozemský přístav se výrazně rozvíjel po otevření plavební cesty Nieuwe Waterweg roku 1872?",
+      "answer": "Rotterdam",
+      "aliases": [],
+      "id": "geography-cs-medium-03-19",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Rotterdam",
+        "https://en.wikipedia.org/wiki/Rotterdam"
+      ]
+    },
+    {
+      "initial": "Ř",
+      "text": "Jak se nazývá nánosový útvar u ústí řeky, v němž se hlavní tok často rozvětvuje do několika ramen?",
+      "answer": "Říční delta",
+      "aliases": ["delta", "delta řeky"],
+      "id": "geography-cs-medium-03-20",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98%C3%AD%C4%8Dn%C3%AD_delta"
+      ]
+    },
+    {
+      "initial": "S",
+      "text": "Která umělá vodní cesta v Egyptě propojuje Středozemní a Rudé moře?",
+      "answer": "Suezský průplav",
+      "aliases": ["Suezský kanál", "Suez Canal"],
+      "id": "geography-cs-medium-03-21",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Suezsk%C3%BD_pr%C5%AFplav",
+        "https://en.wikipedia.org/wiki/Suez_Canal"
+      ]
+    },
+    {
+      "initial": "Š",
+      "text": "Který tichomořský ostrovní stát má hlavní město Honiara?",
+      "answer": "Šalomounovy ostrovy",
+      "aliases": ["Solomon Islands", "Šalamounovy ostrovy"],
+      "id": "geography-cs-medium-03-22",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0alomounovy_ostrovy"]
+    },
+    {
+      "initial": "T",
+      "text": "Který dnešní východoafrický stát vznikl roku 1964 spojením Tanganiky a Zanzibaru?",
+      "answer": "Tanzanie",
+      "aliases": [
+        "Tanzanská sjednocená republika",
+        "Tanzania",
+        "United Republic of Tanzania"
+      ],
+      "id": "geography-cs-medium-03-23",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Tanzanie",
+        "https://en.wikipedia.org/wiki/Tanzania"
+      ]
+    },
+    {
+      "initial": "U",
+      "text": "Ve kterém státě USA leží Velké Solné jezero?",
+      "answer": "Utah",
+      "aliases": ["State of Utah"],
+      "id": "geography-cs-medium-03-24",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Utah",
+        "https://en.wikipedia.org/wiki/Utah"
+      ]
+    },
+    {
+      "initial": "V",
+      "text": "Které hlavní město Malty leží mezi zálivy Grand Harbour a Marsamxett Harbour?",
+      "answer": "Valletta",
+      "aliases": [
+        "Valetta",
+        "La Valletta",
+        "Il-Belt Valletta",
+        "Il-Belt",
+        "Città Umilissima"
+      ],
+      "id": "geography-cs-medium-03-25",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Valletta",
+        "https://en.wikipedia.org/wiki/Valletta"
+      ]
+    },
+    {
+      "initial": "W",
+      "text": "Kterou pobřežní oblast Severního moře podél Nizozemska, Německa a Dánska tvoří rozsáhlé přílivové mělčiny?",
+      "answer": "Waddenské moře",
+      "aliases": [
+        "Wattové moře",
+        "Wadden Sea",
+        "Waddenzee",
+        "Wattenmeer",
+        "Vadehavet",
+        "Wattensee",
+        "Waadsee",
+        "di Heef"
+      ],
+      "id": "geography-cs-medium-03-26",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Waddensk%C3%A9_mo%C5%99e",
+        "https://en.wikipedia.org/wiki/Wadden_Sea",
+        "https://whc.unesco.org/en/list/1314/"
+      ]
+    },
+    {
+      "initial": "Z",
+      "text": "Ve kterém chorvatském městě u Jadranu lze na nábřeží slyšet Mořské varhany rozeznívané vlnami?",
+      "answer": "Zadar",
+      "aliases": ["Zara", "Jadera", "Jàdra", "Iader", "Diadora"],
+      "id": "geography-cs-medium-03-27",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Zadar",
+        "https://en.wikipedia.org/wiki/Zadar",
+        "https://en.wikipedia.org/wiki/Sea_organ"
+      ]
+    },
+    {
+      "initial": "Ž",
+      "text": "Který velký říční ostrov na jihozápadě Slovenska ohraničují Dunaj, Malý Dunaj a dolní Váh?",
+      "answer": "Žitný ostrov",
+      "aliases": [
+        "Velký Žitný ostrov",
+        "Csallóköz",
+        "Große Schütt",
+        "Große Schüttinsel",
+        "Große Schütt-insel",
+        "Grosse Schütt",
+        "Grosse Schüttinsel",
+        "Grosse Schütt-insel"
+      ],
+      "id": "geography-cs-medium-03-28",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDitn%C3%BD_ostrov"]
+    }
+  ]
+}
