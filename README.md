@@ -1,5 +1,37 @@
 # HexY
 
+**Phase 12 incremental snapshot: 146 decks / 4,088 questions.** Only
+`geography-en-hard-04` is added to actual private revision `860cf570`
+(145/4,060), preserving all145 earlier pack bytes and their append order.
+Geography now has17 decks/476 questions; English79/Czech67.
+Its [source ledger](docs/phase-12-geography-en-hard-04-sources.json) retains
+all28 whole questions, complete evidence arrays, all80 aliases, actual
+25 unchanged and three corrected acceptances, and the original whole-adult
+Hard calibration: 3 Easy /7 Medium /18 Hard.
+[Independent current content acceptance](reviews/phase-12-geography-en-hard-04-content.md)
+resolves97 actual pair representations and five named bilingual companions:
+Cirque/Kar, Chernozem/Černozem, Doline/Závrt, Loxodrome/Loxodroma and Würm.
+These remain specifically accepted same facts, not facts made novel by translation
+or a blanket language/category waiver. Original Chernozem, Talik and Shingle
+beach findings and corrections remain intact. Every25 original portable field
+and full rich own row survives the lossless projection; external original
+evidence authorities remain explicit dependencies.
+Historical177 source-incomplete contexts, original Durban roles and unavailable
+generator/import attestations are disclosed, not reconstructed or silently
+cleared. Actual current Portrait and other real proposals are included in the
+own-deck decisions without accepting those other decks.
+All64 runtime modules remain in coverage. Final frozen independent integration
+release clearance must precede applicable full quality/native and deliberate
+active/expired private recovery gates. No category or Phase12 clearance:
+final330/9,240/all66 quotas remain unchanged.
+
+## Historical General Czech Medium04 adoption checkpoint
+
+Actual `860cf570` subsequently shipped only that deck after independent release,
+1,290 units/51files/all64runtime/58native and deliberate active/expired entire
+old-data/deadline/full-served-deck verification. The following preserves its
+pre-delivery snapshot.
+
 **Phase 12 incremental snapshot: 145 decks / 4,060 questions.** Only
 `general-cs-medium-04` is added to actual private revision `3f3700c3`
 (144/4,032), preserving all144 earlier pack bytes/order.

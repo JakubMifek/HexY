@@ -1,0 +1,49 @@
+{
+  "scope": "geography-en-hard-04",
+  "verdict": "CONTENTDELTAACCEPTED",
+  "members": [
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/ACCEPTED-CONTINUITY.json",
+      "sha256": "5246cdd3b88a38c1e6ce108e941a52f411f25225c52fb605586cada772245f38",
+      "bytes": 821129
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/CURRENT-DELTA-DECISIONS.json",
+      "sha256": "bfbb115f13ae162596e4a92fd1384864c2b161c27ac94cf6319f71764169199d",
+      "bytes": 5891857
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/CURRENT-OWN28-DECISIONS.json",
+      "sha256": "a18b89f75e1cde72b9d0ec18977e51f3dc79a64983dd5a3aa61d98c3760b5d9d",
+      "bytes": 31819
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/FINDINGS.json",
+      "sha256": "d2d5f8749c301609228a18a60c211ee1aedc44b9ce6f97f05027881abbcc9ea2",
+      "bytes": 61191
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/FULL-ACTUAL-PAIR-DECISIONS.json",
+      "sha256": "3b34f0340138fec731aae84caa998e1b97292ae0ec4664dd6f78c22e0d41f36d",
+      "bytes": 1174537
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/ORIGINAL-FINDINGS-AND-LINEAGE.json",
+      "sha256": "4b8e3752f4ff69283e2e04b267ebbe77317f108b5cde5963c36885f1e217d42a",
+      "bytes": 39137
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/REPORT.md",
+      "sha256": "d444aa698de7563f8a18fde33b66e16ae7e949a6a3acdc11f7707969fce5cc1a",
+      "bytes": 5226
+    },
+    {
+      "path": ".artifacts/continuation/parallel-decks/independent-content-geo-enhard04-science-enmedium04-general-cshard04-current144-r38-v1/geography-en-hard-04/STOP-GUARDS.json",
+      "sha256": "47852326036544fad7e3e956fbfb8129de68c52df907286e48d63d9ee87d2e97",
+      "bytes": 1426
+    }
+  ],
+  "selfExcluded": true,
+  "actualTaskUuid": null,
+  "identityBinding": "Actual task UUID must be caller-bound externally, not invented."
+}

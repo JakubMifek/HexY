@@ -1,0 +1,46 @@
+{
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "exactSourceQAFrozenInputSha256": "5e2eb62241355799d81a69d3aed6cde38a3f0ed85fa71fe7f724478e39305948",
+  "reportSha256": "207044fdf8c36634dabc4a4f8f655b8a68008572ce2ed8f941d1f44cb693a304",
+  "members": {
+    ".prettierignore": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "ACTUAL-LATE-DELTA.json": {
+      "sha256": "1f66ea081ff4065663c2a17a6468e1381c6beceb704e4793fc21ae1d27d7134b",
+      "bytes": 792
+    },
+    "FINDINGS.json": {
+      "sha256": "9eb48c5ea61124b08324e56146cbddd96568c2c0aaf2149336e8a7423fad88a1",
+      "bytes": 4152
+    },
+    "FULL-QUALITY-SCOPE-INHERITANCE.json": {
+      "sha256": "695bc93f35b827a8887fc3f0043dafe86d1bce5973547d0e4e2c455e50f89532",
+      "bytes": 4996
+    },
+    "OWN28-LATE-IMPACT.json": {
+      "sha256": "58bdb150916ff0921b9ae294bc2553386faa28c9c6c548684cf621f89676f142",
+      "bytes": 1477473
+    },
+    "REPORT.md": {
+      "sha256": "207044fdf8c36634dabc4a4f8f655b8a68008572ce2ed8f941d1f44cb693a304",
+      "bytes": 10487
+    },
+    "SCIENCE-SOURCE-ONLY-RELEVANCE.json": {
+      "sha256": "8c19eefd8615947b7878010bfe190a332cac1c5158219cdddadd8c2832081e77",
+      "bytes": 99811
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "2db47ee7b4665cca77651d0296d1d5194cc4e7313d61a28c29199df443f4e427",
+      "bytes": 245530
+    },
+    "review.py": {
+      "sha256": "59604c1e412ee3f2e47b14e66bbc1169cbe7528bb6a28741fcecef5d1d3ec096",
+      "bytes": 48188
+    }
+  },
+  "inheritedReleaseSealSha256": "bff40ee4daf1033c44ae7e6aa67f3a5f98128898035b95fa107a8caf176ac3dc",
+  "ownLateCorrectionsRequired": 0
+}

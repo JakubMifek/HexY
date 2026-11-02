@@ -36,7 +36,33 @@ snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
 
-**Current General Czech Medium04 incremental snapshot:** actual private/remote
+**Current Geography English Hard04 incremental snapshot:** actual private/remote
+baseline `860cf570`,145 decks/4,060 questions. Only GeographyEnglishHard04 is
+added here, giving146/4,088 with all145 prior pack bytes/order unchanged.
+Its28 whole questions/FULL support arrays/80 aliases/25 original and three
+corrected acceptances retain exact bindings, as does original adultHard
+3Easy/7Medium/18Hard. No new rating schema or purity threshold is invented.
+[Independent current content acceptance](reviews/phase-12-geography-en-hard-04-content.md)
+resolves97 actual meaningful pair representations and five named bilingual
+same-fact companions, without a blanket language/category/unknown-input waiver.
+Original Chernozem/Talik/Shingle beach findings and corrections, original Durban
+roles,177 source-incomplete contexts and historical execution limitations remain
+preserved. All25 original portable fields and28 full own rich rows survive the
+lossless projection; actual original evidence dependencies remain explicit.
+Current full Portrait/Computing/Games/Tongs proposals are retained as proposals,
+not independent approval of another deck. R39 promotes only actual General145
+delivery roles, preserving all76 question/alias payloads and75 other records.
+Sports/Movies author lanes adopt real unchanged staged candidates, not yet
+selected into Native; no blanket staged exclusion follows from that distinction.
+All64 runtime modules remain included. Final frozen independent integration
+release review then one full applicable quality/coverage/native gate and deliberate
+active/expired old-data/private upgrade are still required. Four isolated author
+lanes continue; final330/9,240/all66 NOT CLEARED.
+
+**Historical General Czech Medium04 incremental snapshot:** subsequently
+delivered `860cf570` after independent release,1,290 units/51files/all64runtime/
+58native and deliberate active/expired entire old-data/deadline/full-served-deck
+checks. The following preserves its pre-delivery snapshot. Actual private/remote
 baseline `3f3700c3`,144 decks/4,032 questions. Only GeneralCzechMedium04 is
 added here, giving145/4,060 with all144 earlier pack bytes/order unchanged.
 Its28 complete raw questions/FULL raw/enriched/prior support arrays/66 forms/

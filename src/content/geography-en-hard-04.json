@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "geography-en-hard-04",
+  "title": "Geography and travel · Hard 04",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "initial": "A",
+      "text": "What narrow, sharp mountain ridge forms where glaciers erode adjacent cirques or valleys?",
+      "answer": "Arête",
+      "aliases": ["Grat"],
+      "id": "geography-en-hard-04-01",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ar%C3%AAte"]
+    },
+    {
+      "initial": "B",
+      "text": "What steep-sided, dome-shaped mass of bare resistant rock can rise above a plain as a large residual hill?",
+      "answer": "Bornhardt",
+      "aliases": [],
+      "id": "geography-en-hard-04-02",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Bornhardt"]
+    },
+    {
+      "initial": "C",
+      "text": "What bowl-shaped hollow with steep sides is excavated by a glacier at the head of a valley?",
+      "answer": "Cirque",
+      "aliases": ["corrie", "cwm"],
+      "id": "geography-en-hard-04-03",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Cirque"]
+    },
+    {
+      "initial": "CH",
+      "text": "Which soil group, with a thick humus-rich surface horizon, was named by Dokuchaev for the tall-grass steppes of continental Russia?",
+      "answer": "Chernozem",
+      "aliases": [
+        "black earth",
+        "black soil",
+        "Chernozems",
+        "calcareous black soil",
+        "calcareous black soils",
+        "eluviated black soil",
+        "eluviated black soils"
+      ],
+      "id": "geography-en-hard-04-04",
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://www.fao.org/4/y1899e/y1899e11.htm",
+        "https://www.fao.org/4/y1899e/y1899e06.htm"
+      ]
+    },
+    {
+      "initial": "D",
+      "text": "What usually circular depression in karst forms by dissolution of soluble rock or collapse into a cavity?",
+      "answer": "Doline",
+      "aliases": [
+        "sinkhole",
+        "sink-hole",
+        "swallow hole",
+        "shakehole",
+        "shake hole"
+      ],
+      "id": "geography-en-hard-04-05",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sinkhole"]
+    },
+    {
+      "initial": "E",
+      "text": "What geographical term names a broad desert area covered by windblown sand, with or without dunes?",
+      "answer": "Erg",
+      "aliases": ["sand sea", "dune sea", "sand sheet"],
+      "id": "geography-en-hard-04-06",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Erg_%28landform%29"]
+    },
+    {
+      "initial": "F",
+      "text": "What name is used for extensive ground surfaces strewn with angular rock blocks in many alpine and periglacial settings?",
+      "answer": "Felsenmeer",
+      "aliases": ["blockfield", "block field", "boulder field", "stone field"],
+      "id": "geography-en-hard-04-07",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Blockfield"]
+    },
+    {
+      "initial": "G",
+      "text": "What is a basin formed by weathering in gently sloping rock that can collect rainwater called?",
+      "answer": "Gnamma",
+      "aliases": [
+        "gnamma hole",
+        "weathering pit",
+        "panhole",
+        "rock hole",
+        "rockhole",
+        "armchair hollow",
+        "weathering pan",
+        "solution pan",
+        "solution pit",
+        "pothole"
+      ],
+      "id": "geography-en-hard-04-08",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Gnamma"]
+    },
+    {
+      "initial": "H",
+      "text": "What is a tributary valley whose floor lies well above the floor of the main glacial valley it joins?",
+      "answer": "Hanging valley",
+      "aliases": [],
+      "id": "geography-en-hard-04-09",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hanging_valley"]
+    },
+    {
+      "initial": "I",
+      "text": "What map line joins points of equal water depth?",
+      "answer": "Isobath",
+      "aliases": [
+        "depth contour",
+        "bathymetric contour",
+        "bathymetric contour line"
+      ],
+      "id": "geography-en-hard-04-10",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Contour_line"]
+    },
+    {
+      "initial": "J",
+      "text": "Which highland area of Oman's Hajar Mountains is known for terraced villages and rose cultivation?",
+      "answer": "Jebel Akhdar",
+      "aliases": [
+        "Jabal Akhdar",
+        "Jabal al-Akhdar",
+        "Al Jabal Al Akhdar",
+        "Al-Jabal al-Akhdar",
+        "Jebel al-Akhdar",
+        "Jabal al Akhdar",
+        "Jebel al Akhdar",
+        "Jebel Akhdar Mountains",
+        "Green Mountain"
+      ],
+      "id": "geography-en-hard-04-11",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jebel_Akhdar_%28Oman%29"]
+    },
+    {
+      "initial": "K",
+      "text": "What collective term describes grooves and small solution features etched into exposed limestone surfaces?",
+      "answer": "Karren",
+      "aliases": ["lapies", "lapiaz", "lapiez", "lapié"],
+      "id": "geography-en-hard-04-12",
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Karst",
+        "https://fr.wikipedia.org/wiki/Lapiaz"
+      ]
+    },
+    {
+      "initial": "L",
+      "text": "What navigational curve crosses every meridian at the same angle, maintaining a constant compass bearing?",
+      "answer": "Loxodrome",
+      "aliases": ["rhumb line", "rhumb"],
+      "id": "geography-en-hard-04-13",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rhumb_line"]
+    },
+    {
+      "initial": "M",
+      "text": "What is a winding bend in a river channel, associated with outer-bank erosion and inner-bank deposition?",
+      "answer": "Meander",
+      "aliases": ["river meander"],
+      "id": "geography-en-hard-04-14",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Meander"]
+    },
+    {
+      "initial": "N",
+      "text": "What is a large sheet-like body of rock displaced far over other rocks along a low-angle thrust fault?",
+      "answer": "Nappe",
+      "aliases": ["thrust sheet"],
+      "id": "geography-en-hard-04-15",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nappe"]
+    },
+    {
+      "initial": "O",
+      "text": "What broad plain of sand and gravel is deposited by meltwater beyond the front of a glacier?",
+      "answer": "Outwash plain",
+      "aliases": ["sandur", "sandurs", "sandr", "sandar"],
+      "id": "geography-en-hard-04-16",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Outwash_plain"]
+    },
+    {
+      "initial": "P",
+      "text": "What type of peat-covered frost mound contains a core of permanently frozen peat and mineral soil?",
+      "answer": "Palsa",
+      "aliases": ["palsas"],
+      "id": "geography-en-hard-04-17",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Palsa"]
+    },
+    {
+      "initial": "Q",
+      "text": "What highly sensitive clay can lose most of its strength and behave like a liquid when disturbed or remoulded?",
+      "answer": "Quick clay",
+      "aliases": ["Leda clay", "Champlain Sea clay"],
+      "id": "geography-en-hard-04-18",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Quick_clay"]
+    },
+    {
+      "initial": "R",
+      "text": "What type of subglacial landform consists of a series of sediment ridges lying mainly transverse to the former ice flow?",
+      "answer": "Rogen moraine",
+      "aliases": ["ribbed moraine", "Rogen moraines", "ribbed moraines"],
+      "id": "geography-en-hard-04-19",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Rogen_moraine"]
+    },
+    {
+      "initial": "S",
+      "text": "What loose accumulation of angular rock fragments builds up below a steep rock face?",
+      "answer": "Scree",
+      "aliases": ["talus", "scree slope", "talus slope"],
+      "id": "geography-en-hard-04-20",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Scree"]
+    },
+    {
+      "initial": "SH",
+      "text": "What type of beach is composed chiefly of pebbles and other coarse rounded sediment rather than sand?",
+      "answer": "Shingle beach",
+      "aliases": ["pebble beach", "gravel beach", "cobble beach"],
+      "id": "geography-en-hard-04-21",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shingle_beach"]
+    },
+    {
+      "initial": "T",
+      "text": "What is a body of year-round unfrozen ground within an area of permafrost called?",
+      "answer": "Talik",
+      "aliases": [],
+      "id": "geography-en-hard-04-22",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Talik"]
+    },
+    {
+      "initial": "U",
+      "text": "What term describes a river too small to have carved the much larger valley it now occupies?",
+      "answer": "Underfit stream",
+      "aliases": ["underfit river", "misfit stream", "misfit river"],
+      "id": "geography-en-hard-04-23",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Underfit_stream"]
+    },
+    {
+      "initial": "V",
+      "text": "What type of karst spring emits groundwater that rises under pressure through a rock shaft or cave system?",
+      "answer": "Vauclusian spring",
+      "aliases": [],
+      "id": "geography-en-hard-04-24",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Vauclusian_spring"]
+    },
+    {
+      "initial": "W",
+      "text": "What is the traditional Alpine name for the last glacial period of the Pleistocene?",
+      "answer": "Würm glaciation",
+      "aliases": [
+        "Würm",
+        "Würmian glaciation",
+        "Würm stage",
+        "Würm-Kaltzeit",
+        "Würm-Glazial",
+        "Würmeiszeit",
+        "Würmzeit",
+        "Würm ice age"
+      ],
+      "id": "geography-en-hard-04-25",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/W%C3%BCrm_glaciation"]
+    },
+    {
+      "initial": "X",
+      "text": "What ecological adjective describes a habitat with very low moisture availability, as in desert environments?",
+      "answer": "Xeric",
+      "aliases": ["arid"],
+      "id": "geography-en-hard-04-26",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wiktionary.org/wiki/xeric"]
+    },
+    {
+      "initial": "Y",
+      "text": "What Baltic basin stage included a brackish-water phase after the Baltic Ice Lake and before Ancylus Lake?",
+      "answer": "Yoldia Sea",
+      "aliases": [],
+      "id": "geography-en-hard-04-27",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Yoldia_Sea"]
+    },
+    {
+      "initial": "Z",
+      "text": "Which mountain in the Wetterstein range, on the Austrian border, is Germany's highest summit?",
+      "answer": "Zugspitze",
+      "aliases": [],
+      "id": "geography-en-hard-04-28",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zugspitze"]
+    }
+  ]
+}

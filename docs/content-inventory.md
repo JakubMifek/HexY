@@ -1,6 +1,38 @@
 # Content inventory and provenance
 
-## Current General Czech Medium04 one-deck snapshot
+## Current Geography English Hard04 one-deck snapshot
+
+This isolated snapshot contains **146 decks / 4,088 entries**, adding only
+`geography-en-hard-04` (English, Hard,28 entries) to actual private
+`860cf570` (145/4,060). All145 preceding pack bytes/order remain unchanged.
+Geography has17 decks/476 entries; General15/420, Science15/420 and
+Nature15/420; Czech67/English79.
+The [manifest](phase-12-deck-inventory.json) retains final330/9,240/all66 quotas.
+The [source ledger](phase-12-geography-en-hard-04-sources.json) preserves
+28 complete raw questions/FULL evidence arrays/all80 aliases/actual original
+receipts,25 unchanged plus three independently corrected judgments, and exact
+whole-adult Hard3Easy/7Medium/18Hard.
+[Independent current content acceptance](../reviews/phase-12-geography-en-hard-04-content.md)
+resolves97 actual meaningful pair representations and specifically accepts
+Cirque/Kar, Chernozem/Černozem, Doline/Závrt, Loxodrome/Loxodroma and Würm
+as named bilingual companions. They remain the same facts, not novel merely
+through translation; no category/language/unknown-input waiver is granted.
+Every25 original portable field, all28 original rich rows and the entire current
+own28 independent decision document are retained with actual hash bindings.
+Original external authorities remain explicit dependencies, not a standalone
+source archive. Chernozem/Talik/Shingle beach findings/corrections, historical
+Durban priority,177 source-incomplete contexts and unavailable old execution
+attestations remain disclosed. Real Portrait/Computing/Games/Tongs proposals
+were compared as proposals, not approved by this own-deck review.
+All64 runtime modules remain included. Final integration release and applicable
+full quality/native/private active-and-expired recovery gates remain required.
+Other drafts, categories and Phase12 remain NOT CLEARED.
+
+## Historical General Czech Medium04 one-deck snapshot
+
+Actual `860cf570` subsequently shipped only that deck after independent release,
+1,290 units/51files/all64runtime/58native and deliberate active/expired entire
+old-data/deadline/full-served-deck verification. The following is its prior snapshot.
 
 This isolated snapshot contains **145 decks / 4,060 entries**, adding only
 `general-cs-medium-04` (Czech, Medium,28 entries) to actual private

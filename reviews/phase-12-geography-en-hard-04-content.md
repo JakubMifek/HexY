@@ -1,0 +1,92 @@
+# Geography · EN · Hard04: CONTENTDELTAACCEPTED
+
+## Verdict and evidence boundary
+
+**CONTENTDELTAACCEPTED; zero own blockers.** Content/semantic/lifecycle adoption only.
+This is not final source integration, release, category or Phase12 clearance.
+The sole reviewer did not author/correct candidates or run heavy checks.
+All28 own initial/applicable corrected questions, ENTIRE native source entries,
+ENTIRE evidence arrays, all80 aliases and whole GENERAL-ADULT rating
+were matched to actual independent authorities before inheritance. The full
+objects and original findings remain in `ACCEPTED-CONTINUITY.json`.
+
+## Actual semantic decisions
+
+The five actual same-fact relations—Cirque/Kar, corrected Chernozem/Černozem,
+Doline/Závrt, Loxodrome/Loxodroma (older General, not merely Geography), and
+Würm/Würm—are independently accepted as these named bilingual companions.
+They remain the same facts, not new facts made novel by translation. The
+entire own source arrays and actual counterpart predicates support each
+specific decision. Older delivered/phase11 priority is retained, no target
+is removed, and no blanket language/category exemption is granted.
+
+The original Chernozem ambiguity, Talik year-round wording, and Shingle
+beach/cobble findings and their independently accepted corrections remain
+in the lossless ledger. Unchanged25 plus corrected3 are bound to actual
+initial/applicable correction receipts. The actual adult Hard calibration
+is retained: 3Easy/7Medium/18Hard, without rebranding every item as Hard.
+The nonexistent requested own142 packet is not invented; actual prior141
+is the authority retained. The historical177 source-incomplete foreign
+contexts, original Durban role, and generator/import execution gaps are
+disclosed, not repaired by guessed archive reconstruction. None leaves an
+unresolved predicate, source, alias or rating capable of changing this
+own28 decision after the present direct comparisons.
+
+`FULL-ACTUAL-PAIR-DECISIONS.json` contains all97 actual meaningful pair
+representations, with independent decisions, actual predicates, all forms and
+full supplied sources/lineage, including5 specifically resolved same-fact
+groups. `CURRENT-OWN28-DECISIONS.json` gives the own-entry index.
+Preserved inner author/provisional hold labels remain historical evidence;
+the separate independent decision is this review's current disposition.
+`DIRECT-ACTUAL-COUNTERPART-BINDINGS.json` in the parent directory verifies
+available actual counterpart entries/arrays, not just author nominations.
+
+## Current proposals and lifecycle
+
+`CURRENT-DELTA-DECISIONS.json` retains the actual current full proposal packs
+and entire source ledgers, 141
+individual meaningful delta decisions and all28 own-versus-Portrait
+comparisons. Latest actual Computing Easy is5e727892/Q17 Portrait plus five
+forms and Microsoft/MDN2 source contexts. Other27 whole questions are exact
+prior7868; Q11/Q24 alias additions remain. Native952/e013 is still original;
+7868 is historical proposed parent, not current. Computing Medium's two
+prompt changes,17aliases over9Q and six complete supplemental source
+objects are retained, including the Jack body-binding/FTC-fetch limitations.
+Games five-question/three-alias issues and GeneralEasy Tongs proposal are
+compared as unreviewed actual proposals, never silently promoted to Native.
+Unknown-language, phase11, retired/yielded and Nature contexts are retained
+when meaningful; no token, prefix, language or category exclusion decided
+acceptance.
+
+The author packets remain bound to preceding actual144 baseline
+3f3700c36e2767a4c33c0c727a441deb36e8f39c/4032, EN78/CS66,12delivery rows.
+The final observed actual baseline is **860cf57089eaab7d211f4bf10bea605a677574c2**,
+145/4060, EN78/CS67,
+13delivery rows, independently bound to the named
+actual delivery receipt—not predicted from coordinator plans.
+Own entire R38 Native record is bound;
+75other records exactly matchR37, with only GeneralCSM4 Oolong successor
+606c302c/source87a69def changed. General145 publication was actually observed
+during review; its entire current pack, all28 questions/aliases and ENTIRE
+raw sources remain exactlyR38. This changes that already compared candidate's
+role only and does not change any own content decision. Final R39 observed:
+False; where present the actual role-only delta
+and other75 exact records are verified. No mutable question identity or
+reviewer-run central quality/publication claim is used.
+
+## Verification, limits and stop
+
+See parent `VERIFICATION.json`, `EXTERNAL-INPUTS-AFTER.json`,
+`VALIDATION-AND-LIMITS.json` and `BATCH-INDEX.json` for exact guards, commands,
+failures and scope. Final actually consumed external bytes/hashes are
+unchanged. Member seals exclude themselves. Repository review lenses for
+content correctness, source fidelity, aliases, general-adult usability and
+current lifecycle were applied. No runtime/UI change occurred: tests,
+coverage, native58, browser, accessibility/theme/layout, OOP and patterns
+are not execution claims here; central integration gates remain coordinator
+owned. No app, pack, source, cache, shared queue, docs, refs or service writes.
+Stop after these three bounded outcomes; obey `STOP-GUARDS.json`.
+
+## Coordinator external reviewer identity binding
+
+The caller binds this independent content review to actual task `774420ab-8a42-481f-8707-dd880925b7fa`. The original report/seal remain byte-exact in the separately retained files. This is current content acceptance, not final integration release clearance.
