@@ -1,0 +1,216 @@
+# GeographyCSHard03 — actual-parent155 release addendum
+
+**Verdict: CLEARED FOR DECK RELEASE — unchanged established manual pipeline only.**
+
+- Independent reviewer/task: `13c96f15-ec4a-415a-98cc-38ff1b4f80df`.
+- Deck: `geography-cs-hard-03`; prospective **156 decks / 4368 questions / en82 / cs74**.
+- Actual delivered parent: `1b86f722fa3d7787dae0b534251c757fd27b3c01`, GeographyCSMedium03, **155 / 4340 / en82 / cs73**.
+- Exact source/QA freeze: `.artifacts/continuation/parallel-decks/geography-cs-hard-03/integration/batch152-v1/FROZEN-RELEASE-INPUT-v2.json`.
+- **Exact freeze SHA-256: `ad0aba73271b464114ef04defac77b3a78869420a56552388ee63aab72299d0f`.**
+- Present-deck release findings: **0 blocking, 0 major, 0 minor**.
+- Separate optional execution driver: **CHANGES REQUIRED; execution hold remains**, one blocking major and one nonblocking minor. It is not authorized by this release.
+
+This discharges only the exact actual-parent release hold for the final deck of
+the previously reviewed112 batch. Every stage156 full quality/coverage/native70/
+private-delivery gate remains coordinator-pending. An independently cleared
+last candidate does not mean the four-deck batch is actually delivered or that
+Phase12 is cleared. No publication authorization or gate bypass is granted.
+
+## Inherited initial/current judgments
+
+The original batch seal remains
+`90b09f1cb377e08e331c627f1925135ea0bb02e7f13999880b86bb1b2e712296`;
+all42 members still match. The original held Hard03 seal remains
+`2a767190316ae54f6a2aa59ef716ae3f4e447b16fa14d15ac779ae0a4806c56a`;
+all18 dependencies still match. Predecessor release seal
+`3074178681630c3787c7cce62f43600080824ad74202e7b0ae9064819ad48f92`
+and its five members remain exact.
+
+This inherits the actual original **28/28 accepted questions**, entire
+source-entry/support-array/alias bindings and original whole adult judgment,
+plus **28/28 independent current acceptances,60 meaningful pair decisions,
+21 explicit same-fact/related decisions and all2352 own-peer comparisons
+involving this deck**. The complete original112/261/65/4704/74 decisions,
+correction closures, lifecycle/retired/yielded lineage, V5 distinctions and
+disclosed audit limitations remain immutable. There is no repeated initial
+research, changed fact, alias adoption, historical reconstruction or blanket
+language/category exemption.
+
+The original whole rating remains **20 Hard / 7 Medium / 1 Easy**, hash
+`1877c0acc5706dc02b9f47c2dc9404afaad3194569854f6092147b9ada838f56`.
+All553 original source files, including the complete raw pack and rich source
+ledger, are unchanged from their initially accepted bindings. Historical author
+pending/current0 metadata remains historical, not rewritten as reviewer
+acceptance. The now-live preceding own decks were already fully considered
+within this coherent112/own-peer scope; role promotion adds no predicate.
+
+## Exact parent, source and twelve receipt-only additions
+
+`ASSERTIONS.json` and `STOP-GUARDS.json` substantiate:
+
+- **565** exact current source files and **109** frozen inputs, all inspected and
+  end-rehashed; **553/553** original source bindings remain byte-identical.
+- Initial freeze
+  `57b1ec7dec8c10fe530bf801c32ca14a0d8a7a6a1e1b8c559d361d9f45f76834`
+  and the new actual-parent proof
+  `43fd2c37ae70646030241228c67cb5ccdd97b6112a21ddc95eb4dfc9765c924d`
+  are bound to actual files, not accepted on their flags alone.
+- Git HEAD at both boundaries is actual155
+  `1b86f722fa3d7787dae0b534251c757fd27b3c01`; the parent's original559
+  frozen source blobs match that immutable commit.
+- Exactly **twelve** inherited receipt files: four each for GeneralCSEasy03,
+  GeneralCSMedium03 and GeographyCSMedium03. Each group consists of its
+  published review, exact original review `.txt`, release seal and original
+  post-review receipt. All twelve match the new freeze and actual parent Git.
+- The two published GeneralCSMedium03/GeographyCSMedium03 Markdown reviews have
+  disclosed formatting-only differences. Exact text/table-cell comparisons
+  permit only the already identified emphasis-marker and table-padding/
+  separator formatting changes. Original `.txt` reports, seals and post-review
+  receipts remain byte-exact. No whole-snapshot byte identity is invented.
+- All **155 preceding raw packs** match actual155 Git bytes, preserving IDs,
+  titles, answers, aliases, sources and all other object fields. Exactly
+  **one** new Hard03 pack and its complete source ledger remain.
+- The six changed existing paths and two new paths exactly match the freeze.
+  Catalog changes are only an explicit import and append; two localized help
+  counts change155→156. The naming inventory preserves its entire old prefix
+  and only appends Hard03. The final **330 / 9240 / all66 / five-per-combination**
+  gate is unchanged.
+
+### NativeR48 → R49
+
+Compared exact R48
+`300b2b89d53ee103d1068963e3da14dda6c2b2cc4b18136b486c5efbede646ab`
+and R49 `28d8e43f1beaa3ef02e381309d57f1ec7177618c809e82f0b634690e883047aa`.
+All76 entire entry arrays/2128 question/source/alias entries retain their
+insertion-order compact-JSON hashes; the other75 complete reservation objects
+retain their full hashes. Only GeographyCSMedium03's `sourceLifecycle`,
+`deliveryCommit`, `actualServedRevision` change. Its entire object without just
+those fields hashes identically.
+
+All76 candidate raw-file bindings and all73 declared dedicated top-level
+source-evidence bindings were rehashed. The same three legacy schemas lacking
+that dedicated source field remain unchanged, not backfilled or represented as
+new historical attestation. No present Hard03 acceptance gap is introduced.
+Revision/dispatch/header bookkeeping is operational, not a claim that the
+entire R49 file changes in only three keys. The immutable prepublication
+snapshot is guarded; live queue/STATUS observations are excluded.
+
+## Actual155 execution and private-delivery evidence
+
+Actual predecessor receipt
+`02f894aa2b97c835f4795f1c9539c8cd92f99506eb2ed17826fcc6d98e712b3a`
+binds the same commit, remoteMain and private served revision, one new pack and
+154 unchanged preceding packs. Its post-review receipt
+`ad0783cfc49b52c330f19212b1897585d3dc20496fb72146db1243d6a16cb7df`,
+named inputs, complete78-file coverage archive and actual native result were
+rehashed.
+
+The bound one-worker full `npm run check` command supplies all four
+`VITEST_MAX_FORKS/MIN_FORKS/MAX_THREADS/MIN_THREADS=1` variables, exits0,
+reports **1639/1639 tests in56 files**, and completes the build. All64 runtime
+modules remain included in separate disjoint35/29 groups:
+
+| Parent scope | Lines | Statements | Functions | Branches |
+|---|---:|---:|---:|---:|
+| Critical35 | 4142/4150 (99.8072%) | 4183/4191 (99.8091%) | 308/312 (98.7179%) | 1373/1413 (97.1691%) |
+| Remaining29 | 3661/3675 (99.6190%) | 3823/3837 (99.6351%) | 127/130 (97.6923%) | 598/627 (95.3748%) |
+
+Parent native execution: **70 expected / 0 skipped / 0 unexpected / 0 flaky**,
+no result errors. The earlier failed first153 quality-v1 and disclosed
+unchanged-source one-worker recovery evidence remain preserved in the inherited
+guard chain; no initial failure is relabeled successful and no deadline,
+assertion or coverage policy is weakened.
+
+The fresh actual old active3600s and naturally expired10s profiles retain their
+original round deadlines through recovery and reload. Exact exported persistent
+game/settings/colours/bindings/pack/ownership match before state after excluding
+only expected recovery-transient `sessionId`, `revision`, `lastNow`; recovery
+revisions advance and time does not go backward. The bound coordinator after
+receipts separately attest unchanged raw libraries. The expired profile remains
+opponent-offer, never active. The entire served28-question GeographyCSMedium03
+object independently equals the actual155 Git pack.
+
+These are supplied immutable coordinator execution/delivery evidence plus
+bounded file/Git comparisons, not new reviewer browser/network observations.
+Synthetic Chromium profiles and Firefox native evidence are not physical
+Xbox/tablet verification. Parent155 success does not prove156 gates.
+
+## Optional execution driver remains held
+
+Separate execution review:
+`execution-driver-v1/REPORT.md`, seal
+`386bd696aab0110d1ba5c8ffea9a7c135d363e8d0f4cf035a2ac2218de797e88`.
+Exact driver `f0854f00f0d384b3a43286b9f069eb56b99d92655b805b6e019b750c4e562f48`
+is **not accepted**:
+
+1. Blocking major: its90-attempt promotion loop is not a180s deadline;
+   one-second responses can produce successful acceptance at268s, and requests/
+   bodies have no remaining-budget abort.
+2. Nonblocking minor: an unlimited run label passes preflight although the
+   capture helper rejects labels longer than64 after expensive earlier gates.
+
+The complete held assessment is bound here without rerunning its probes.
+**The driver file is deliberately absent from this release's flat
+`STOP-GUARDS.actualExternalInputBindings`**, so its own pre-use check must refuse
+this release authorization. The existing native config remains explicitly
+guard-bound. The driver is outside565 source files and is not new application
+runtime. Its execution hold does not invalidate the unchanged established
+manual strict helper pipeline used for the previous deliveries.
+
+A corrected driver needs a fresh independently accepted exact-code assessment
+and new explicit guarded execution authorization; these sealed records must
+not be edited to authorize it. No optional driver finding is masked as a
+zero-findings tool certificate.
+
+## Six lenses
+
+1. **Correctness/phase completeness:** Present deck accepted against actual155,
+   with exactly one new pack and unchanged complete initial/current judgments.
+   The separate optional driver is held; every156 post-review gate remains open.
+2. **Usability/accessibility:** No new interaction, layout, control or answer
+   disclosure. Existing raw export identities and naming order are immutable;
+   only two localized counts increment. Original UI judgments are inherited.
+3. **Readability/maintainability:** Explicit registration and provenance copies
+   are proportionate. Formatting-only publication differences are disclosed;
+   no source deletion/test rename/dependency or unrelated cleanup is introduced.
+4. **OOP/responsibilities:** Authoritative state, resource lifetime, input
+   adapters and ownership responsibilities are untouched. Evidence remains
+   documentation, not business logic.
+5. **Patterns/proportionality:** No new production pattern or naming logic.
+   Reusing actual exact accepted bindings and reviewing the narrow real-parent
+   delta is the approved impact-based process, not sampling or lexical waiver.
+6. **Content/rights/delivery:** All28 full accepted entries, legitimate aliases,
+   full evidence projections and original20Hard/7Medium/1Easy rating remain
+   exact. No factual correction, rejected alternative, licensing assertion or
+   historical attestation is invented. Actual preceding delivery is supported;
+   this candidate still requires its own full execution/private-delivery gates.
+
+## Verification and remaining gates
+
+Executed only own bounded named-file hashing/static Git comparisons:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 .artifacts/continuation/batch-review/single-author-general-geography-current152-v1/geography-cs-hard-03/actual-parent155-v1/verify.py
+```
+
+Result: **PASS — 565 source files,553 original files unchanged,12 receipt
+additions,155 actual-parent pack bindings,3435 immutable external end guards**.
+The exact known previously sealed own probe module supplies read-only utility
+functions only; its hash is checked before import, its main is not called,
+bytecode writes are disabled and its output context is the new directory.
+After sealing, `verify.py --check-seal` rechecks new members and all3435 guards.
+
+No heavy test/build/coverage/browser/native suite, historical generator,
+global inventory, nested agent, publication, service change, Git-ref mutation,
+primary/shared/cache/queue/STATUS write or future-packet inspection occurred.
+New writes are confined to the two requested new review prefixes. Live
+`currentActualParentReview` was observed matching this task/freeze/parent,
+but is not an immutable source guard.
+
+**Remaining:** coordinator manual unchanged strict156 pipeline: full quality/
+build, separate35/29 all-runtime coverage, actual native70 execution, fresh
+deliberately active/naturally-expired private old-data/raw-library/deadline/
+reload and served28 checks, authorized one-deck commit/push/private promotion
+and actual after-delivery verification. Only then can this four-deck112 batch
+be called actually delivered. FinalPhase12/category/future-packet clearance
+remains ungranted.

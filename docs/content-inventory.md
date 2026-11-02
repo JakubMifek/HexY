@@ -2,10 +2,10 @@
 
 ## Current Phase 12 deck snapshot
 
-This source candidate contains **155 decks / 4,340 questions**,
-adding only `geography-cs-medium-03` to its 154-deck predecessor.
+This source candidate contains **156 decks / 4,368 questions**,
+adding only `geography-cs-hard-03` to its 155-deck predecessor.
 Actual delivery at preparation is `cd9bc76e` (152/4,256), English82/Czech70.
-This intermediate is English82/Czech73; original152 packs are immutable.
+This intermediate is English82/Czech74; original152 packs are immutable.
 Its lossless source ledger retains all28 whole questions, complete supporting
 arrays, legitimate aliases, original/corrected judgments and adult difficulty.
 Current meaningful peer/lifecycle decisions and independent release clearance
@@ -15,7 +15,7 @@ separate one-deck push and actual private served28/old-data/deadline verificatio
 Original active and naturally expired games keep their real deadlines unchanged.
 No other draft is bundled; final330/9,240/all66 remains NOT CLEARED.
 
-[Exact source ledger](phase-12-geography-cs-medium-03-sources.json).
+[Exact source ledger](phase-12-geography-cs-hard-03-sources.json).
 
 ## Retained earlier preparation history
 

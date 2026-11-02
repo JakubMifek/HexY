@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "geography-cs-hard-03",
+  "title": "Zeměpis a cestování · Těžká 03",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "initial": "A",
+      "text": "Jak se nazývá mírně ukloněná skalní plocha na úpatí mořského útesu, kterou zanechává příboj při ústupu pobřeží?",
+      "answer": "Abrazní plošina",
+      "aliases": [
+        "abrazní terasa",
+        "příbojová plošina",
+        "wave-cut platform",
+        "shore platform",
+        "abrasion platform",
+        "wave-cut bench",
+        "coastal bench",
+        "wave cut platform"
+      ],
+      "id": "geography-cs-hard-03-01",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://app.geology.cz/encyklopedie/gslov.pl?l=e&hltxt=abrasion",
+        "https://en.wikipedia.org/wiki/Wave-cut_platform"
+      ]
+    },
+    {
+      "initial": "B",
+      "text": "Jaký podhorský akumulační tvar vzniká bočním spojením několika náplavových kuželů?",
+      "answer": "Bajada",
+      "aliases": ["bahada"],
+      "id": "geography-cs-hard-03-02",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bajada_%28geography%29",
+        "https://en.wiktionary.org/wiki/bahada"
+      ]
+    },
+    {
+      "initial": "C",
+      "text": "Jakým výrazem původem z Yucatánu se označuje přírodní krasová propadlina, v níž se po zřícení vápencového stropu obnaží podzemní voda?",
+      "answer": "Cenote",
+      "aliases": ["cenot", "cenotes"],
+      "id": "geography-cs-hard-03-03",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Cenote",
+        "https://en.wikipedia.org/wiki/Cenote"
+      ]
+    },
+    {
+      "initial": "Č",
+      "text": "Který velmi úrodný půdní typ je typický pro sprašové pokryvy ve stepích a lesostepích?",
+      "answer": "Černozem",
+      "aliases": ["chernozem", "černozemní půda", "čornozem", "černozjom"],
+      "id": "geography-cs-hard-03-04",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C4%8Cernozem"]
+    },
+    {
+      "initial": "D",
+      "text": "Jak se v geomorfologii nazývá proces, při němž vítr odnáší volné jemné částice z povrchu?",
+      "answer": "Deflace",
+      "aliases": [
+        "větrná deflace",
+        "deflation",
+        "odvívání",
+        "odnos větrem",
+        "wind deflation"
+      ],
+      "id": "geography-cs-hard-03-05",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://app.geology.cz/encyklopedie/gslov.pl?l=e&hltxt=deflation",
+        "https://en.wikipedia.org/wiki/Deflation_%28geology%29"
+      ]
+    },
+    {
+      "initial": "E",
+      "text": "Jak se odborně nazývá území, z něhož voda za běžných podmínek neodtéká do světového oceánu a ztrácí se především výparem či vsakem?",
+      "answer": "Endoreická oblast",
+      "aliases": [
+        "bezodtoká oblast",
+        "endoreická pánev",
+        "bezodtoké povodí",
+        "uzavřené povodí",
+        "endorheic basin",
+        "endoreic basin",
+        "endorreic basin",
+        "closed basin",
+        "terminal basin",
+        "internal drainage basin",
+        "endorheická oblast",
+        "endorheická pánev",
+        "endorheic drainage basin",
+        "closed drainage basin",
+        "internal drainage system"
+      ],
+      "id": "geography-cs-hard-03-06",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Bezodtok%C3%A1_oblast",
+        "https://en.wikipedia.org/wiki/Endorheic_basin"
+      ]
+    },
+    {
+      "initial": "F",
+      "text": "Jaký termín švédského původu označuje široký a mělký mořský záliv modelovaný ledovcem, typický pro baltské pobřeží?",
+      "answer": "Fjärd",
+      "aliases": [],
+      "id": "geography-cs-hard-03-07",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Fjard"]
+    },
+    {
+      "initial": "G",
+      "text": "Jaký geologický termín označuje blok zemské kůry pokleslý mezi přibližně rovnoběžnými zlomy?",
+      "answer": "Graben",
+      "aliases": ["příkopová propadlina", "tektonický příkop"],
+      "id": "geography-cs-hard-03-08",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Graben",
+        "https://en.wikipedia.org/wiki/Graben"
+      ]
+    },
+    {
+      "initial": "H",
+      "text": "Jak se nazývá zlomově omezená zemská kra, která vystupuje nad sousední bloky?",
+      "answer": "Hrást",
+      "aliases": ["horst"],
+      "id": "geography-cs-hard-03-09",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Hr%C3%A1st"]
+    },
+    {
+      "initial": "Ch",
+      "text": "Jaký místní název má teplý suchý sestupný vítr na východní straně Skalnatých hor v kanadské Albertě?",
+      "answer": "Chinook",
+      "aliases": [
+        "činúk",
+        "chinook wind",
+        "chinook winds",
+        "snow eater",
+        "Chinooks",
+        "interior Chinook",
+        "interior Chinooks"
+      ],
+      "id": "geography-cs-hard-03-10",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chinook_%28v%C3%ADtr%29",
+        "https://en.wikipedia.org/wiki/Chinook_wind"
+      ]
+    },
+    {
+      "initial": "I",
+      "text": "Jak se nazývá gravitační rovnováha, při níž litosféra spočívá na hustším podkladu zemského pláště?",
+      "answer": "Izostáze",
+      "aliases": ["izostázie", "isostasy", "isostatic equilibrium", "isostase"],
+      "id": "geography-cs-hard-03-11",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://app.geology.cz/encyklopedie/gslov.pl?l=e&hltxt=isostasy",
+        "https://encyklopedie.vseved.cz/izost%C3%A1ze",
+        "https://en.wikipedia.org/wiki/Isostasy"
+      ]
+    },
+    {
+      "initial": "J",
+      "text": "Jaký islandský termín označuje náhlé uvolnění velkého množství vody z jezera pod ledovcem nebo před jeho čelem?",
+      "answer": "Jökulhlaup",
+      "aliases": [
+        "ledovcová průlomová povodeň",
+        "glacial outburst flood",
+        "glacier outburst flood"
+      ],
+      "id": "geography-cs-hard-03-12",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/J%C3%B6kulhlaup",
+        "https://en.wikipedia.org/wiki/J%C3%B6kulhlaup"
+      ]
+    },
+    {
+      "initial": "K",
+      "text": "Jak se nazývá nepravidelný pahorek písku a štěrku uložených tavnou vodou v tajícím ledovci nebo u jeho okraje?",
+      "answer": "Kam",
+      "aliases": [
+        "kame",
+        "kamový pahorek",
+        "knob",
+        "kamy",
+        "kames",
+        "kame hill"
+      ],
+      "id": "geography-cs-hard-03-13",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://app.geology.cz/encyklopedie/gslov.pl?l=e&hltxt=kame&LAN=E",
+        "https://en.wikipedia.org/wiki/Kame"
+      ]
+    },
+    {
+      "initial": "L",
+      "text": "Jak se nazývá téměř svislá šachta v ledovci, kterou vytváří povrchová tavná voda pronikající do ledu?",
+      "answer": "Ledovcový mlýn",
+      "aliases": ["moulin", "glacier mill", "glacial mill"],
+      "id": "geography-cs-hard-03-14",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Moulin_%28geomorphology%29"]
+    },
+    {
+      "initial": "M",
+      "text": "Jak se nazývá bývalé říční koryto, které se po odříznutí meandru na obou koncích oddělilo od hlavního toku?",
+      "answer": "Mrtvé rameno",
+      "aliases": [
+        "mrtvé říční rameno",
+        "meandrové jezero",
+        "oxbow lake",
+        "oxbow",
+        "cutoff lake",
+        "cut-off lake",
+        "billabong",
+        "resaca",
+        "staré rameno",
+        "plesiopotamon"
+      ],
+      "id": "geography-cs-hard-03-15",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Mrtv%C3%A9_rameno",
+        "https://en.wikipedia.org/wiki/Oxbow_lake"
+      ]
+    },
+    {
+      "initial": "N",
+      "text": "Jaký tradiční souhrnný termín označuje zvětrávání, erozi a působení tavné vody spojené s dlouhodobě přetrvávajícími sněhovými poli?",
+      "answer": "Nivace",
+      "aliases": ["Nivation"],
+      "id": "geography-cs-hard-03-16",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://app.geology.cz/encyklopedie/gslov.pl?l=e&hltxt=nivation",
+        "https://en.wikipedia.org/wiki/Nivation"
+      ]
+    },
+    {
+      "initial": "O",
+      "text": "Jak se nazývá soubor tektonických procesů, při nichž vznikají horská pásma?",
+      "answer": "Orogeneze",
+      "aliases": ["orogenese", "horotvorba", "orogeny", "horotvoření"],
+      "id": "geography-cs-hard-03-17",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Orogeneze"]
+    },
+    {
+      "initial": "P",
+      "text": "Jak se v klasické Davisově koncepci nazývá téměř zarovnaný povrch vznikající v závěru dlouhodobého erozního cyklu?",
+      "answer": "Peneplén",
+      "aliases": ["peneplán", "parovina", "peneplain", "peneplane"],
+      "id": "geography-cs-hard-03-18",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Parovina",
+        "https://en.wikipedia.org/wiki/Peneplain",
+        "https://en.wiktionary.org/wiki/peneplane"
+      ]
+    },
+    {
+      "initial": "R",
+      "text": "Jak se nazývá pokryv nezpevněných horninových úlomků a zvětralin nad celistvým skalním podložím?",
+      "answer": "Regolit",
+      "aliases": ["regolith"],
+      "id": "geography-cs-hard-03-19",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Regolit"]
+    },
+    {
+      "initial": "Ř",
+      "text": "Jak se nazývá stupňovitý zbytek někdejšího údolního dna, který po zahloubení řeky zůstává nad jejím dnešním korytem?",
+      "answer": "Říční terasa",
+      "aliases": ["fluviální terasa", "river terrace", "fluvial terrace"],
+      "id": "geography-cs-hard-03-20",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Terasa_%28geologie%29"]
+    },
+    {
+      "initial": "S",
+      "text": "Jak se nazývá mechanické vyplavování jemných půdních či horninových částic proudící podzemní vodou?",
+      "answer": "Sufoze",
+      "aliases": ["suffosion", "suffóze"],
+      "id": "geography-cs-hard-03-21",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Sufoze"]
+    },
+    {
+      "initial": "Š",
+      "text": "Jak se nazývá zaplavený okraj kontinentu, jehož mírný sklon dna přechází do strmějšího kontinentálního svahu?",
+      "answer": "Šelf",
+      "aliases": [
+        "kontinentální šelf",
+        "pevninský šelf",
+        "continental shelf",
+        "pevninský práh",
+        "pevninská mělčina"
+      ],
+      "id": "geography-cs-hard-03-22",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Kontinent%C3%A1ln%C3%AD_%C5%A1elf"
+      ]
+    },
+    {
+      "initial": "T",
+      "text": "Jak se nazývá nerovný reliéf prohlubní a vyvýšenin vznikající táním podzemního ledu v permafrostu?",
+      "answer": "Termokras",
+      "aliases": ["thermokarst", "kryokras", "cryokarst"],
+      "id": "geography-cs-hard-03-23",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Termokras",
+        "https://en.wikipedia.org/wiki/Thermokarst",
+        "https://fr.wikipedia.org/wiki/Thermokarst"
+      ]
+    },
+    {
+      "initial": "U",
+      "text": "Jaký francouzský geografický termín označuje méně osluněný horský svah, který je protikladem adretu?",
+      "answer": "Ubac",
+      "aliases": ["ombrée", "envers", "bac"],
+      "id": "geography-cs-hard-03-24",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://fr.wikipedia.org/wiki/Ubac"]
+    },
+    {
+      "initial": "V",
+      "text": "Jak se odborně nazývá kámen obroušený a tvarovaný větrem unášeným pískem, často s vyhlazenými ploškami?",
+      "answer": "Ventifakt",
+      "aliases": [
+        "ventifact",
+        "hrance",
+        "hranec",
+        "wind-faceted stone",
+        "windkanter",
+        "eologlyptolit"
+      ],
+      "id": "geography-cs-hard-03-25",
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Hranec",
+        "https://app.geology.cz/encyklopedie/gslov.pl?l=e&hltxt=ventifact",
+        "https://en.wikipedia.org/wiki/Ventifact"
+      ]
+    },
+    {
+      "initial": "W",
+      "text": "Jak se nazývá poslední pleistocenní glaciál v tradičním alpském členění zalednění?",
+      "answer": "Würm",
+      "aliases": [
+        "würmský glaciál",
+        "würmské zalednění",
+        "würmská doba ledová"
+      ],
+      "id": "geography-cs-hard-03-26",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/W%C3%BCrm"]
+    },
+    {
+      "initial": "Z",
+      "text": "Jak se nazývají větrem erodované sněhové hřebínky a brázdy typické pro polární a jiné exponované zasněžené oblasti?",
+      "answer": "Zastrugy",
+      "aliases": ["sastrugi", "zastrugi", "sastruga", "zastruga", "sastrugus"],
+      "id": "geography-cs-hard-03-27",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Sastrugi"]
+    },
+    {
+      "initial": "Ž",
+      "text": "Jaký moravský místopisný výraz označuje hluboké a úzké údolí?",
+      "answer": "Žleb",
+      "aliases": ["rokle", "důl", "dol", "grunt"],
+      "id": "geography-cs-hard-03-28",
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%BDleb"]
+    }
+  ]
+}

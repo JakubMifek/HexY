@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "reviewerTaskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "taskId": "13c96f15-ec4a-415a-98cc-38ff1b4f80df",
+  "sealedAt": "2026-11-02T11:39:10.479711+00:00",
+  "deckId": "geography-cs-hard-03",
+  "candidateDecks": 156,
+  "candidateQuestions": 4368,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "sourceFiles": 565,
+  "initialReviewedSourceFilesByteExact": 553,
+  "inheritedPredecessorReceiptOnlyFiles": 12,
+  "exactSourceQAFrozenInputSha256": "ad0aba73271b464114ef04defac77b3a78869420a56552388ee63aab72299d0f",
+  "exactSourceQAFrozenInput": {
+    "path": ".artifacts/continuation/parallel-decks/geography-cs-hard-03/integration/batch152-v1/FROZEN-RELEASE-INPUT-v2.json",
+    "sha256": "ad0aba73271b464114ef04defac77b3a78869420a56552388ee63aab72299d0f",
+    "bytes": 115732
+  },
+  "actualParentCommit": "1b86f722fa3d7787dae0b534251c757fd27b3c01",
+  "baseline": "1b86f722fa3d7787dae0b534251c757fd27b3c01",
+  "initialAcceptedInherited": 28,
+  "currentIndependentAccepted": 28,
+  "meaningfulCurrentPairDecisions": 60,
+  "explicitSameFactRelatedQueueDecisions": 21,
+  "ownPeerComparisonsInvolvingDeck": 2352,
+  "wholeOriginalRatingSha256": "1877c0acc5706dc02b9f47c2dc9404afaad3194569854f6092147b9ada838f56",
+  "blockingFindings": 0,
+  "majorFindings": 0,
+  "minorFindings": 0,
+  "findingsScope": "Present-deck release through unchanged established manual pipeline only; optional driver findings retained separately",
+  "optionalExecutionDriver": {
+    "verdict": "CHANGES REQUIRED",
+    "executionAccepted": false,
+    "reviewedSha256": "f0854f00f0d384b3a43286b9f069eb56b99d92655b805b6e019b750c4e562f48",
+    "blockingFindings": 1,
+    "majorFindings": 1,
+    "minorFindings": 1,
+    "reviewSeal": {
+      "path": ".artifacts/continuation/batch-review/single-author-general-geography-current152-v1/execution-driver-v1/SEAL.json",
+      "sha256": "386bd696aab0110d1ba5c8ffea9a7c135d363e8d0f4cf035a2ac2218de797e88",
+      "bytes": 1132
+    },
+    "directExecutableBindingIntentionallyAbsent": true
+  },
+  "manualUnchangedExistingPipelineOnly": true,
+  "nativeConfigExplicitlyGuardBound": true,
+  "finalActualParentReleaseHeld": false,
+  "actualParentHoldDischargedForThisExactFreezeOnly": true,
+  "coordinatorPostReviewGatesStillPending": true,
+  "stage156Native70": "LISTED ONLY; actual execution pending",
+  "externalInputCount": 3435,
+  "reportSha256": "6fa476a9ee53745f27ca313556454299609b48ebaf08b9bfa8be9341304b6561",
+  "members": {
+    "REPORT.md": {
+      "sha256": "6fa476a9ee53745f27ca313556454299609b48ebaf08b9bfa8be9341304b6561",
+      "bytes": 12698
+    },
+    "ASSERTIONS.json": {
+      "sha256": "a15f5c3e3b96906f17977a4713ed2d74b53697884db1cbe5fb6acee3729e07d4",
+      "bytes": 33783
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "4fcfa4a18df8c2b73dfe91ce79c8ef0efe1a6c097828a2021a123748c34f33bb",
+      "bytes": 744489
+    },
+    "verify.py": {
+      "sha256": "41e3efd2004ad9300cf932c4e0b7a6fc0b6a28c929b2b01f62456f841e79198c",
+      "bytes": 17773
+    }
+  },
+  "memberCount": 4,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "whole112BatchActuallyDelivered": false
+}
