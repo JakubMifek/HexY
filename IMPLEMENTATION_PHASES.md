@@ -12,6 +12,22 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**LATEST owner amendment, 2026-11-02 00:39 EST:** safely drain current author
+tasks without interruption, stop refilling lanes, then use **one author worker**
+on coherent two-to-four-deck batches. This explicitly supersedes four-lane
+instructions below. Preserve current frozen review/release work and completed
+handoffs. Record drain acknowledgment, actual completion receipts, single author
+task ID, batch deck IDs and a combined review/revision/check matrix.
+
+One independent review may cover the complete batch with deck-specific verdicts.
+Address related findings together; run shared exact-applicable checks once plus
+each deck's necessary flows. Keep per-deck commits/pushes and verify covered
+intermediate inventory/content/build/affected-integration states and private
+promotion; never apply final-state test results to an untested intermediate.
+One publisher/reviewer/heavy runner and unchanged memory limits, evidence reuse,
+quality thresholds and final phase gate remain. Do not launch replacement
+authors merely to satisfy the superseded four-worker minimum.
+
 **Latest throughput policy, owner-approved 2026-11-01 15:37 EST:** four
 different-category deck lanes replace two. Keep one integrator/publisher, one
 independent reviewer, one heavy runner and unchanged memory/browser limits.
@@ -35,6 +51,23 @@ documentation-only changes with exact scope hashes, never claim the entire
 snapshot was unchanged. Active and naturally expired old-game recovery both
 remain valid required scenarios, with original deadlines untouched. Each cleared
 deck is still committed/pushed/promoted separately; final full Phase12 gates stay.
+
+**Current Science English Medium04 incremental candidate:** actual private
+baseline `cc11b261`,146 decks/4,088 questions; only this28-entry deck is
+added here for147/4,116, preserving all146 earlier pack bytes/order/names.
+The28 initial full-evidence/alias judgments and exact whole-adult Medium
+calibration are inherited with the prior c02d53aa content decisions, not
+re-researched. The coherent three-deck author packet is preparation only:
+latest meaningful deltas, complete integration and the actual per-deck
+intermediate state require independent review and applicable postreview gates.
+No final149 result substitutes for147/148. Preserve the final330/9,240/all66
+gate, all64 runtime coverage and actual active/expired private data/deadlines.
+No category or phase clearance is claimed.
+
+**Historical delivered Geo146 context:** actual `cc11b261` shipped only
+GeographyHard04 after final independent release and1,326 units/52files/
+all64runtime/58native plus exact served/old-data/deadline verification.
+The following is its prior candidate checkpoint.
 
 **Current Geography English Hard04 incremental snapshot:** actual private/remote
 baseline `860cf570`,145 decks/4,060 questions. Only GeographyEnglishHard04 is

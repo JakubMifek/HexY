@@ -1,0 +1,88 @@
+{
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "blockingFindings": 0,
+  "reportSha256": "845a60bcfd009fb25fc42051ebab90fefdad2c857e0e1622f8904c26cb9610a9",
+  "exactSourceQAFrozenInputSha256": "6a11c890bcffbdcd3f7927abce8b44dfe2b011a3572a0f4fb6dad47b002c4f05",
+  "members": {
+    "REPORT.md": {
+      "sha256": "845a60bcfd009fb25fc42051ebab90fefdad2c857e0e1622f8904c26cb9610a9",
+      "bytes": 1815
+    },
+    "STOP-GUARDS.json": {
+      "sha256": "9141224da7c2cc34a1fb5aab8d2506a11cce64ee818653db1a9a0a802600b5b5",
+      "bytes": 239639
+    },
+    "../ACTUAL-EXTERNAL-INPUT-BINDINGS.json": {
+      "sha256": "c7f189cececcb0b540669366e108f55345f9ddcb416bcda847220d9aba827c4d",
+      "bytes": 479023
+    },
+    "../BATCH-REPORT.md": {
+      "sha256": "af416c7342ba48d36990904d8f88309a0da54ea62e21690183f4225557844d6f",
+      "bytes": 8048
+    },
+    "../BATCH-REVIEWER-IDENTITY.json": {
+      "sha256": "134937a4b8c72740e20e16108599bbb2bd55316ff999dea46181ee306b35af7a",
+      "bytes": 304
+    },
+    "../CURRENT-OWN84-DECISIONS.json": {
+      "sha256": "3bf0d7cd81d9d6285558c21649d8b718dddb350291b253987cb16e0cafbe88b4",
+      "bytes": 4515674
+    },
+    "../CURRENT-PEER-AND-DRAIN-DECISIONS.json": {
+      "sha256": "e5bf31d09b30007f10f108c3c1b03d035c64f522e003352ebec3605304a498fe",
+      "bytes": 251573
+    },
+    "../END-INPUT-GUARD.json": {
+      "sha256": "3a7ff2c67ff7366a2246c1b90da779b1f8b4d965ea4cb711c22b9f0e84c81af5",
+      "bytes": 1195
+    },
+    "../HARD-RETAINED313-PAIR-DECISIONS.json": {
+      "sha256": "cafaff84574c508759584ff825b1c93d7ed73773893b08b07ef08cfbfd2c4272",
+      "bytes": 2350508
+    },
+    "../INITIAL-BATCH-SUPPLEMENTAL-INPUT-BINDINGS.json": {
+      "sha256": "17332cd6c62fe6de4b90334ec6d06e70d28b8c5765b6a465f35641a1cff77b85",
+      "bytes": 1233
+    },
+    "../KNOWN-LIMITATIONS-AND-FAILURES.json": {
+      "sha256": "19d03ab39b487820a59ce0a23dc7fabf2f7e8b9d2272769a035e48a44b6e6ce9",
+      "bytes": 120026
+    },
+    "../MEANINGFUL-PAIR-SOURCE-DECISIONS.json": {
+      "sha256": "4c1e5af49d8f651da139cca82a98a6e7c2d9e32d3dc7097ef2329a9d913db7a9",
+      "bytes": 1345072
+    },
+    "../RELEASE-SEQUENCE-REVISION-CHECK-MATRIX.json": {
+      "sha256": "07a7fde7f90bee31cad79ffd73b6ba535396f68a80994c7351b8cf7cab34d8a5",
+      "bytes": 29469
+    },
+    "../REVIEW-OUTPUT-VALIDATION.json": {
+      "sha256": "b2422ae82b599c3a994c2b5d108039be34e0a5f14978100e7bc7c9ada797d403",
+      "bytes": 810
+    },
+    "../SNAPSHOT-VERIFICATION.json": {
+      "sha256": "80fa8a1d5fde66069b110287d7cc0bd499f7e6d3707372eed1b6e961f3066927",
+      "bytes": 78148
+    },
+    "../STAGE147-EXTERNAL-INPUT-BINDINGS.json": {
+      "sha256": "2acf4cb4e86dd753386ba5f47522739adcec9f07252de66a2279aee01df32314",
+      "bytes": 232175
+    },
+    "../WHOLE-DECK-CONTINUITY.json": {
+      "sha256": "bd8342bbdcdc87a2cd5e8cb5a164d56f75050d10523a957680015a8bfa4d4712",
+      "bytes": 94634
+    },
+    "../seal-initial-review.mjs": {
+      "sha256": "bee0133b2b8bf3412193a3c198118a94ec69f16011577fb69215f4ea24718374",
+      "bytes": 10109
+    },
+    "../verify-snapshot.mjs": {
+      "sha256": "27ba9b47d85b151d47407dda68dabc6e1011128906c00c36b2626049166eeac4",
+      "bytes": 18076
+    },
+    "../write-review.mjs": {
+      "sha256": "a22e08d75da839ec3e952d8059468e3671c6e76adb28c3f26dca9e9b48027d3a",
+      "bytes": 43124
+    }
+  }
+}

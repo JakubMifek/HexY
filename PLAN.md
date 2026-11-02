@@ -2,6 +2,24 @@
 
 ## Status and instructions for the next session
 
+**LATEST owner amendment, 2026-11-02 00:39 EST: ONE batch worker after safe
+drain.** This supersedes every four-worker/refill instruction below. Let existing
+bounded author tasks finish naturally; do not cancel them, refill their slots or
+extend finished tasks with another deck. Collect their actual handoffs, then use
+one author for coherent multi-deck batches, initially three ready decks (normally
+two to four). Read `.artifacts/continuation/single-worker-batch-request.json`
+and acknowledge the transition in the operational queue/status.
+
+Bundle independent review, related corrections and applicable checks across
+each batch. Keep exact per-deck acceptance and source/alias/difficulty/duplicate
+evidence, with one publisher, one reviewer and one central heavy runner. Share
+unchanged runtime/coverage checks only where their inputs and reviewed scope
+actually apply. Per-deck pushes remain authorized: review the release sequence,
+check each intermediate inventory/content/build and affected integration state,
+then verify each actual private promotion. Final-batch testing is not proof of
+an untested intermediate release. The impact-based evidence policy, final
+330/9,240/all66 quotas and original resource/quality gates remain unchanged.
+
 **Owner throughput amendment, 2026-11-01 15:37 EST:** use **four** isolated
 deck lanes across different categories, one publisher, one independent reviewer
 and one central heavy runner under the existing resource limits. This replaces

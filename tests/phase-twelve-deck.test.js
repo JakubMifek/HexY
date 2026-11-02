@@ -27,6 +27,12 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  */
 
 /**
+ * @typedef {{id: string, verdict: string, reason: string,
+ * easierAnchors: string[], specialistOutliers: string[],
+ * outlierReason: string}} ScienceInstrumentRating
+ */
+
+/**
  * @typedef {{
  * entriesReviewed: number, independentDominantGeneralAdultRating: string
  * } | {id: string, entriesRead: number, proposedDifficulty: string,
@@ -36,7 +42,7 @@ const digest = (/** @type {string | Buffer} */ bytes) =>
  * individualDistribution: Record<string, number>
  * } | {id: string, decision: string, commonEasyIndices: number[],
  * informedMediumIndices: number[], specialistHardIndices: number[]} |
- * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating} AcceptedRating
+ * GeneralBatchRating | GeographyDeckRating | LocalizedGeneralRating | ScienceInstrumentRating} AcceptedRating
  */
 
 /** @param {Record<string, number>} levels */
@@ -136,6 +142,32 @@ function expectLocalizedGeneralRating(rating, deckId, difficulty) {
 }
 
 /**
+ * @param {ScienceInstrumentRating} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectScienceInstrumentRating(rating, deckId, difficulty) {
+  expect(deckId).toBe('science-en-medium-04');
+  expect(difficulty).toBe('medium');
+  expect(rating.id).toBe(deckId);
+  expect(digest(JSON.stringify(rating))).toBe(
+    '6ecfc915d133f15fb5f8a4e228f8314d2b2d6f1b6f7da512d4f02c1cc95be0c6',
+  );
+  expect(rating.verdict).toBe('ACCEPT MEDIUM');
+  expect(rating.easierAnchors).toEqual([
+    'science-en-medium-04-09',
+    'science-en-medium-04-15',
+  ]);
+  expect(rating.specialistOutliers).toEqual([
+    'science-en-medium-04-02',
+    'science-en-medium-04-18',
+    'science-en-medium-04-25',
+    'science-en-medium-04-26',
+    'science-en-medium-04-27',
+  ]);
+}
+
+/**
  * @param {AcceptedRating} rating
  * @param {string} deckId
  * @param {string} difficulty
@@ -159,6 +191,8 @@ function expectAcceptedRating(rating, deckId, difficulty) {
     expectGeographyRating(rating, deckId, difficulty);
   } else if ('distribution' in rating) {
     expectLocalizedGeneralRating(rating, deckId, difficulty);
+  } else if ('easierAnchors' in rating) {
+    expectScienceInstrumentRating(rating, deckId, difficulty);
   } else {
     expect(rating.id).toBe(deckId);
     expect(rating.decision).toBe(

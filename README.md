@@ -1,5 +1,32 @@
 # HexY
 
+**Phase 12 incremental candidate: 147 decks / 4,116 questions.** Only
+`science-en-medium-04` is added to actual private revision `cc11b261`
+(146/4,088), preserving all146 prior pack bytes, ordering and display names.
+Science now has16 decks/448 questions; English80/Czech67.
+Its [source ledger](docs/phase-12-science-en-medium-04-sources.json) retains
+all28 accepted whole questions, all29 supporting evidence objects, all53 aliases,
+the original rich receipts and full original author document.
+[Prior independent content acceptance](reviews/phase-12-science-en-medium-04-content.md)
+retains the actual whole-adult Medium judgment, including two easier anchors
+and five specialist outliers, without inventing a per-question distribution.
+Current meaningful peer/source/alias deltas and final integration still require
+independent release clearance. Historical unavailable execution attestations are
+disclosed limitations, not invented proofs or automatic factual blockers.
+The owner's one-author multi-deck batching policy does not publish other drafts:
+each reviewed intermediate inventory/content/build and affected integration state
+must pass its applicable gates before its separate push and private promotion.
+Deliberately active and naturally expired old games retain their original
+deadlines and complete library/settings/bindings/colour data across the upgrade.
+No category or Phase12 clearance: final330/9,240/all66 quotas remain unchanged.
+
+## Historical delivered Geography English Hard04 checkpoint
+
+Actual `cc11b261` shipped the following146-deck snapshot after independent
+release,1,326 units/52files/all64runtime/58native and exact private served-deck/
+old active-and-expired data/deadline verification. The following is its prior
+pre-delivery description, not this147-deck candidate's current gate result.
+
 **Phase 12 incremental snapshot: 146 decks / 4,088 questions.** Only
 `geography-en-hard-04` is added to actual private revision `860cf570`
 (145/4,060), preserving all145 earlier pack bytes and their append order.

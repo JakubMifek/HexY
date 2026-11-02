@@ -1,6 +1,33 @@
 # Content inventory and provenance
 
-## Current Geography English Hard04 one-deck snapshot
+## Current Science English Medium04 one-deck candidate
+
+This isolated candidate contains **147 decks / 4,116 entries**, adding only
+`science-en-medium-04` to actual private `cc11b261` (146/4,088).
+All146 earlier pack bytes, positions and normalized names remain unchanged.
+Science16/448, Geography17/476, General15/420, Nature15/420; Czech67/English80.
+The [manifest](phase-12-deck-inventory.json) retains final330/9,240/all66 quotas.
+The [lossless source ledger](phase-12-science-en-medium-04-sources.json) preserves
+28 accepted whole questions,29 complete support objects,53 aliases, original
+accepted rich receipts, the full original author document and actual Medium
+judgment with two easier anchors/five specialist outliers. No bucket counts
+are invented. [Prior independent content acceptance](../reviews/phase-12-science-en-medium-04-content.md)
+is inherited only for its exact bound scope; latest peer/source/alias deltas,
+integration and each intermediate release gate remain independently required.
+Other staged/proposed content is preserved, not bundled or approved by this deck.
+Historical audit limitations are disclosed according to their relevant decision
+impact, never erased or relabelled proven. All64 runtime modules remain included
+in the separate critical/remaining coverage gates. Active and naturally expired
+old-game recovery must preserve all original deadlines and complete user data.
+This preparation is not a new factual, semantic, release or Phase12 clearance.
+
+## Historical delivered Geography English Hard04 context
+
+Actual `cc11b261` subsequently delivered146/4,088 after independent release,
+1,326 units/52files/all64runtime/58native and actual private whole-deck/old-data/
+original-deadline verification. The following retains its pre-delivery record.
+
+### Prior Geography English Hard04 one-deck snapshot
 
 This isolated snapshot contains **146 decks / 4,088 entries**, adding only
 `geography-en-hard-04` (English, Hard,28 entries) to actual private

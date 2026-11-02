@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 2,
+  "id": "science-en-medium-04",
+  "title": "Science and technology · Medium · 04",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-en-medium-04-01",
+      "text": "What principle equates buoyant force to the weight of the displaced fluid?",
+      "initial": "A",
+      "answer": "Archimedes' principle",
+      "language": "en",
+      "aliases": [
+        "Archimedes principle",
+        "Archimedes’ principle",
+        "Archimedes' law",
+        "Law of buoyancy",
+        "Principle of buoyancy"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Archimedes%27_principle"]
+    },
+    {
+      "id": "science-en-medium-04-02",
+      "text": "What detector measures incident radiation through the temperature-dependent electrical resistance of an absorber?",
+      "initial": "B",
+      "answer": "Bolometer",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Bolometer"]
+    },
+    {
+      "id": "science-en-medium-04-03",
+      "text": "What inward force component keeps an object following a circular path?",
+      "initial": "C",
+      "answer": "Centripetal force",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Centripetal_force"]
+    },
+    {
+      "id": "science-en-medium-04-04",
+      "text": "What state has equal forward and reverse reaction rates without requiring equal reactant and product concentrations?",
+      "initial": "CH",
+      "answer": "Chemical equilibrium",
+      "language": "en",
+      "aliases": ["Dynamic equilibrium", "Reaction equilibrium"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Chemical_equilibrium"]
+    },
+    {
+      "id": "science-en-medium-04-05",
+      "text": "What material property describes the ability to sustain substantial plastic deformation in tension before breaking?",
+      "initial": "D",
+      "answer": "Ductility",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Ductility"]
+    },
+    {
+      "id": "science-en-medium-04-06",
+      "text": "What device removes suspended particles from a gas stream by electrically charging and collecting them?",
+      "initial": "E",
+      "answer": "Electrostatic precipitator",
+      "language": "en",
+      "aliases": ["Electrofilter", "ESP", "Electrostatic filter"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electrostatic_precipitator"]
+    },
+    {
+      "id": "science-en-medium-04-07",
+      "text": "What failure process can crack a metal part after many cycles of loading, even when each load is below its yield strength?",
+      "initial": "F",
+      "answer": "Fatigue",
+      "language": "en",
+      "aliases": ["Metal fatigue", "Material fatigue"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Fatigue_(material)"]
+    },
+    {
+      "id": "science-en-medium-04-08",
+      "text": "What pivoted support allows an object to rotate about an axis, with nested supports allowing multiple axes?",
+      "initial": "G",
+      "answer": "Gimbal",
+      "language": "en",
+      "aliases": ["Cardan suspension", "Gimbal suspension"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Gimbal"]
+    },
+    {
+      "id": "science-en-medium-04-09",
+      "text": "What instrument measures atmospheric humidity?",
+      "initial": "H",
+      "answer": "Hygrometer",
+      "language": "en",
+      "aliases": ["Humidity meter"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Hygrometer"]
+    },
+    {
+      "id": "science-en-medium-04-10",
+      "text": "What thermodynamic process occurs at constant pressure?",
+      "initial": "I",
+      "answer": "Isobaric process",
+      "language": "en",
+      "aliases": ["Constant-pressure process"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Isobaric_process"]
+    },
+    {
+      "id": "science-en-medium-04-11",
+      "text": "What irreversible gas expansion takes place into an evacuated chamber of a thermally insulated vessel?",
+      "initial": "J",
+      "answer": "Joule expansion",
+      "language": "en",
+      "aliases": ["Free expansion"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Joule_expansion"]
+    },
+    {
+      "id": "science-en-medium-04-12",
+      "text": "What workshop process rolls or cuts a patterned rough surface onto a cylindrical handle to improve grip?",
+      "initial": "K",
+      "answer": "Knurling",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Knurling"]
+    },
+    {
+      "id": "science-en-medium-04-13",
+      "text": "What rule says an induced current opposes the change of magnetic flux that produced it?",
+      "initial": "L",
+      "answer": "Lenz's law",
+      "language": "en",
+      "aliases": ["Lenz law", "Lenz’s law"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Lenz%27s_law"]
+    },
+    {
+      "id": "science-en-medium-04-14",
+      "text": "What vacuum-tube oscillator generates microwaves using electrons moving in crossed electric and magnetic fields?",
+      "initial": "M",
+      "answer": "Magnetron",
+      "language": "en",
+      "aliases": ["Cavity magnetron"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Magnetron"]
+    },
+    {
+      "id": "science-en-medium-04-15",
+      "text": "What process splits a heavy atomic nucleus into smaller nuclei with energy release?",
+      "initial": "N",
+      "answer": "Nuclear fission",
+      "language": "en",
+      "aliases": ["Fission"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Nuclear_fission"]
+    },
+    {
+      "id": "science-en-medium-04-16",
+      "text": "What resonant frequency of a vibrating system lies above its fundamental frequency?",
+      "initial": "O",
+      "answer": "Overtone",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Overtone"]
+    },
+    {
+      "id": "science-en-medium-04-17",
+      "text": "What component changes its electrical resistance in response to incident light?",
+      "initial": "P",
+      "answer": "Photoresistor",
+      "language": "en",
+      "aliases": [
+        "Light-dependent resistor",
+        "LDR",
+        "Photoconductor",
+        "Light dependent resistor",
+        "Photoconductive cell",
+        "Photo-conductive cell"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Photoresistor"]
+    },
+    {
+      "id": "science-en-medium-04-18",
+      "text": "What four-pole magnetic arrangement focuses charged-particle beams in one transverse plane and defocuses them in the other?",
+      "initial": "Q",
+      "answer": "Quadrupole magnet",
+      "language": "en",
+      "aliases": ["Magnetic quadrupole"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Quadrupole_magnet"]
+    },
+    {
+      "id": "science-en-medium-04-19",
+      "text": "What dimensionless flow quantity compares inertial and viscous effects?",
+      "initial": "R",
+      "answer": "Reynolds number",
+      "language": "en",
+      "aliases": ["Reynolds' number", "Re"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Reynolds_number"]
+    },
+    {
+      "id": "science-en-medium-04-20",
+      "text": "What instrument measures properties of light as a function of wavelength or frequency?",
+      "initial": "S",
+      "answer": "Spectrometer",
+      "language": "en",
+      "aliases": [
+        "Optical spectrometer",
+        "Spectroscope",
+        "Spectrograph",
+        "Spectrophotometer",
+        "Spectroradiometer"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spectrometer",
+        "https://en.wikipedia.org/wiki/Optical_spectrometer"
+      ]
+    },
+    {
+      "id": "science-en-medium-04-21",
+      "text": "What technique reduces unwanted electromagnetic coupling by enclosing a region in conducting or magnetic material?",
+      "initial": "SH",
+      "answer": "Shielding",
+      "language": "en",
+      "aliases": [
+        "Electromagnetic shielding",
+        "Screening",
+        "Electromagnetic screening"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electromagnetic_shielding"]
+    },
+    {
+      "id": "science-en-medium-04-22",
+      "text": "What rotational quantity is the vector product of position from a pivot and applied force?",
+      "initial": "T",
+      "answer": "Torque",
+      "language": "en",
+      "aliases": ["Moment of force", "Turning moment", "Moment"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Torque"]
+    },
+    {
+      "id": "science-en-medium-04-23",
+      "text": "What metastable condition occurs when a liquid is cooled below its normal freezing point but has not crystallized?",
+      "initial": "U",
+      "answer": "Undercooling",
+      "language": "en",
+      "aliases": ["Supercooling", "Under-cooling"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Supercooling"]
+    },
+    {
+      "id": "science-en-medium-04-24",
+      "text": "What material behaviour combines elastic recovery with time-dependent viscous deformation?",
+      "initial": "V",
+      "answer": "Viscoelasticity",
+      "language": "en",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Viscoelasticity"]
+    },
+    {
+      "id": "science-en-medium-04-25",
+      "text": "What instrument compares mechanical and electrical power to relate mass to electrical measurements?",
+      "initial": "W",
+      "answer": "Watt balance",
+      "language": "en",
+      "aliases": ["Kibble balance"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Kibble_balance"]
+    },
+    {
+      "id": "science-en-medium-04-26",
+      "text": "What surface-analysis technique measures photoelectron kinetic energies after irradiation with X-rays?",
+      "initial": "X",
+      "answer": "X-ray photoelectron spectroscopy",
+      "language": "en",
+      "aliases": [
+        "XPS",
+        "ESCA",
+        "Electron spectroscopy for chemical analysis",
+        "X-ray photoemission spectroscopy"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/X-ray_photoelectron_spectroscopy"
+      ]
+    },
+    {
+      "id": "science-en-medium-04-27",
+      "text": "What equation relates the pressure difference across a static curved fluid interface to surface tension and its two principal curvatures?",
+      "initial": "Y",
+      "answer": "Young–Laplace equation",
+      "language": "en",
+      "aliases": [
+        "Laplace pressure equation",
+        "Young-Laplace equation",
+        "Young–Laplace law",
+        "Young-Laplace law"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Young%E2%80%93Laplace_equation"
+      ]
+    },
+    {
+      "id": "science-en-medium-04-28",
+      "text": "What law establishes transitive thermal equilibrium and thereby supports the definition of temperature?",
+      "initial": "Z",
+      "answer": "Zeroth law of thermodynamics",
+      "language": "en",
+      "aliases": ["Zeroth law"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Zeroth_law_of_thermodynamics"]
+    }
+  ]
+}

@@ -5,6 +5,22 @@ Status: APPROVED by the user on 2026-10-28, together with `AGENTS.md` and
 
 ## Role and independence
 
+### Latest Phase12 batching amendment, 2026-11-02 00:39 EST
+
+The owner requests safe natural drain of existing tasks, then one author worker
+handling multiple decks together. Review a coherent two-to-four-deck batch in
+one pass, with explicit per-deck verdicts and shared meaningful-delta decisions;
+address related revisions and verification together. Four-lane requirements
+below are superseded, not quality or independence.
+
+Reuse shared test/coverage evidence only for exact unchanged applicable scopes.
+The reviewed release sequence must cover each per-deck intermediate state:
+inventory, content, build and affected integration checks remain required before
+its push/private verification. Do not infer intermediate-state correctness from
+final-batch tests alone. Existing active frozen reviews can finish normally;
+preserve their results and inherit unchanged judgments. All factual/source,
+alias, adult difficulty, real duplicate, recovery and final-phase gates remain.
+
 ### Phase12 impact-based review amendment, 2026-11-01 15:37 EST
 
 The owner approves four parallel deck lanes and the following review efficiencies.
