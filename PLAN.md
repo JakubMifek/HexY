@@ -2,6 +2,28 @@
 
 ## Status and instructions for the next session
 
+**Latest owner scheduling amendment, 2026-11-03 07:10 UTC:** once the runtime
+catalog migration is ready and delivered, resume four isolated one-deck authors
+in parallel, across different categories where possible. Keep one independent
+reviewer/publisher, bundled related revisions, per-deck releases and the reduced
+memory ceilings below. This supersedes the earlier single-author instruction.
+
+**Owner release amendment, 2026-11-03:** question-only releases validate the
+complete current question set and preserve independent factual/source/alias/
+difficulty/duplicate approval, but do not recompile or retest unchanged game
+code. Runtime catalogs are static JSON discovered on page load. After one
+fully reviewed application migration, data-only promotions reuse exact JS/CSS
+and atomically switch the index/catalog; no build or server restart. A changed
+application, dependency, tool or test requires its full applicable code gate.
+Per-deck pushes and final Phase12 acceptance/cleanup remain.
+
+The coordinator uses a fresh compact handoff with a 1 GiB Node heap and its
+own 2 GiB soft / 3 GiB hard memory allocation. Central checks run separately
+with a 2 GiB Node heap and 4 GiB soft / 5 GiB hard allocation; each gets
+512 MiB swap. Combined ceilings remain 6/8 GiB and 1 GiB swap. Check commands
+are bounded to 20 minutes. Resource throttling or prolonged absent progress
+requires checkpointed recovery, not hours of observation without intervention.
+
 **Owner storage amendment, 2026-11-02:** keep all repository `.artifacts`
 below 75 GB (75,000,000,000 allocated bytes), targeting 65 GB after maintenance.
 Prefer verified lossless cold storage of historical generated inventories;

@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { expect, test } from 'vitest';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { catalogNames, sortedDecks } from '../src/ui/catalog-names.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
 import { sourcePack } from './fixtures.js';
@@ -36,9 +36,6 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     expect(names.get(sortedDecks([second], names, language)[0].id)).toBe(
       names.get(second.id),
     );
-    expect(
-      catalogNames(preparationStrings[language], [...packs].reverse()),
-    ).toEqual(names);
     expect(packs).toEqual(original);
   },
 );
@@ -52,7 +49,7 @@ test.each(/** @type {const} */ (['cs', 'en']))(
     let before = catalogNames(t, baseline);
     for (const addition of packs.slice(132)) {
       baseline.push(addition);
-      const after = catalogNames(t, [...baseline].reverse());
+      const after = catalogNames(t, baseline);
       for (const [id, name] of before) expect(after.get(id)).toBe(name);
       before = after;
     }
@@ -86,6 +83,19 @@ test('a later lower-ID deck receives the next display number without renumbering
   expect(names.get('general-cs-hard-03')).toBe(
     'Všeobecné znalosti · Těžká · 04',
   );
+});
+
+test('a new runtime-only lower-ID append preserves every previously displayed number', () => {
+  const packs = bundledPacks();
+  const before = catalogNames(preparationStrings.cs, packs);
+  const extra = structuredClone(
+    packs.find((pack) => pack.id === 'general-cs-easy-03'),
+  );
+  if (!extra) throw new Error('Missing easy predecessor');
+  extra.id = 'general-cs-easy-00';
+  const after = catalogNames(preparationStrings.cs, [...packs, extra]);
+  for (const [id, name] of before) expect(after.get(id)).toBe(name);
+  expect(after.get(extra.id)).toBe('Všeobecné znalosti · Lehká · 04');
 });
 
 test('custom names stay intact and sort by level, localized natural title, then ID', () => {

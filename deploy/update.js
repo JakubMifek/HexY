@@ -11,6 +11,38 @@ import {
 } from './io.js';
 import { manifest, prune, select, selected, stage } from './releases.js';
 import { health } from './server.js';
+import { applicationKey, reuseApplication } from './content.js';
+
+/** @param {string} root @param {string} source @param {string} revision
+ * @param {import('./io.js').Runner} execute */
+function prepareRelease(root, source, revision, execute) {
+  const current = selected(root, 'current');
+  const key = applicationKey(source);
+  const previous = current ? manifest(root, current) : null;
+  if (current && previous?.catalog && previous.application === key) {
+    execute('node', ['scripts/prepare-content.js'], source, 60);
+    reuseApplication(root, current, source, previous);
+    console.log(
+      'Reusing unchanged application assets; updating validated question data',
+    );
+  } else {
+    execute(
+      'npm',
+      [
+        'ci',
+        '--ignore-scripts',
+        '--no-audit',
+        '--no-fund',
+        '--cache',
+        join(root, 'work/cache'),
+      ],
+      source,
+      300,
+    );
+    execute('npm', ['run', 'build', '--', '--base=/hexy/'], source, 180);
+  }
+  stage(root, revision, join(source, 'dist'), key);
+}
 
 /** @typedef {(revision: string, target: 'current'|'candidate') => Promise<void>} Probe */
 /** @param {string} root */
@@ -115,21 +147,7 @@ export async function update(root, options = {}) {
       return;
     }
     if (!existsSync(join(root, 'site/releases', revision))) {
-      execute(
-        'npm',
-        [
-          'ci',
-          '--ignore-scripts',
-          '--no-audit',
-          '--no-fund',
-          '--cache',
-          join(root, 'work/cache'),
-        ],
-        source,
-        300,
-      );
-      execute('npm', ['run', 'build', '--', '--base=/hexy/'], source, 180);
-      stage(root, revision, join(source, 'dist'));
+      prepareRelease(root, source, revision, execute);
     }
     const previous = selected(root, 'current');
     prune(root, previous ? [revision, previous] : [revision]);

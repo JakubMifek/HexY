@@ -7,7 +7,7 @@ import {
 } from '../src/runtime/library.js';
 import { validatePreferences } from '../src/domain/preferences.js';
 import { defaultSetup } from './fixtures.js';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 
 function data() {
   return {

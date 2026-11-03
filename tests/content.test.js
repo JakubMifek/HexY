@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { generateNumbers } from '../src/domain/generation.js';
 import { ALPHABETS, acceptsAnswer } from '../src/domain/answers.js';
 import { strings } from '../src/ui/strings.js';
@@ -65,8 +65,6 @@ test('all UI messages exist in both languages', () => {
     Object.keys(strings.en).sort(),
   );
   expect(Object.values(strings.cs).every(Boolean)).toBe(true);
-  expect(strings.en.catalogHelp).toContain(`${expectedDecks} fixed packs`);
-  expect(strings.cs.catalogHelp).toContain(`${expectedDecks} pevných sad`);
   expect(strings.en.limit).toContain('saved games recover');
   expect(strings.cs.limit).toContain(
     'uložená hra se po obnovení stránky obnoví',

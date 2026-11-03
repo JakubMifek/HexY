@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { acceptsAnswer } from '../src/domain/answers.js';
 import { importPack } from '../src/domain/packs.js';
 

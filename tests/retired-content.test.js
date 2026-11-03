@@ -2,7 +2,7 @@
 import { afterEach, expect, test } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { acceptsAnswer } from '../src/domain/answers.js';
 import { createGame } from '../src/domain/game.js';
 import { validatePack } from '../src/domain/packs.js';

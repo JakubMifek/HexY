@@ -5,7 +5,7 @@ import { App } from '../src/app.js';
 import { Workspace } from '../src/workspace.js';
 import { LocalLibrary, LIBRARY_KEY } from '../src/runtime/library.js';
 import { browserClock } from '../src/runtime/clock.js';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { importPack } from '../src/domain/packs.js';
 import { answerSheet } from '../src/ui/answer-sheet.js';
 import { DomainError } from '../src/domain/errors.js';
@@ -46,7 +46,7 @@ beforeEach(() => {
     },
   );
   vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(() => {});
-  app = new App(root, browserClock, () => 0, id);
+  app = new App(root, browserClock, () => 0, id, bundledPacks());
   prepare(app);
 });
 
@@ -239,7 +239,7 @@ test('saved imports, custom copies and settings survive remount independently of
   click('#save-pack');
   const copy = app.workspace.model.custom[0];
   app.dispose();
-  app = new App(root, browserClock, () => 0, id);
+  app = new App(root, browserClock, () => 0, id, bundledPacks());
   expect(app.language).toBe('en');
   expect(app.theme).toBe('dark');
   expect(app.settings.players.A.name).toBe('Ada');
@@ -260,7 +260,7 @@ test('old library difficulty is never guessed, overwritten or lost; exact origin
   const json = ` \n${JSON.stringify({ schemaVersion: 1, packs: [legacy], preferences: app.workspace.preferences }, null, 3)}\n `;
   app.dispose();
   localStorage.setItem(LIBRARY_KEY, json);
-  app = new App(root, browserClock, () => 0, id);
+  app = new App(root, browserClock, () => 0, id, bundledPacks());
   prepare(app);
   expect(app.workspace.storageError).toBe('storageCorrupt');
   expect(app.workspace.model.custom).toEqual([]);
@@ -295,7 +295,7 @@ test('editor explicitly changes a deck difficulty and persists it through export
   click('#export-pack');
   expect(importPack(await downloads[0].text())).toEqual(pack);
   app.dispose();
-  app = new App(root, browserClock, () => 0, id);
+  app = new App(root, browserClock, () => 0, id, bundledPacks());
   expect(app.workspace.model.custom[0]).toEqual(pack);
   app.workspace.exportOriginalLibrary();
   expect(downloads).toHaveLength(2);
@@ -337,7 +337,7 @@ test.each(['{', '{"schemaVersion":2}'])(
   (json) => {
     app.dispose();
     localStorage.setItem(LIBRARY_KEY, json);
-    app = new App(root, browserClock, () => 0, id);
+    app = new App(root, browserClock, () => 0, id, bundledPacks());
     prepare(app);
     expect(root.querySelector('#storage-error')?.textContent).toContain(
       'přepsána',
@@ -374,7 +374,7 @@ test('storage quota and unavailable storage are visible while custom packs remai
   vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
     throw new Error('Denied');
   });
-  app = new App(root, browserClock, () => 0, id);
+  app = new App(root, browserClock, () => 0, id, bundledPacks());
   prepare(app);
   expect(root.querySelector('#storage-error')?.textContent).toContain(
     'nelze přečíst',
@@ -460,6 +460,7 @@ test('unknown programmer errors are not swallowed by synchronous boundaries', ()
         () => 0,
         id,
         () => {},
+        bundledPacks(),
         library,
       ),
   ).toThrow('Bug');
@@ -553,7 +554,7 @@ test.each(/** @type {const} */ (['en', 'cs']))(
       .mockImplementation(() => {
         throw new DOMException('Denied', 'SecurityError');
       });
-    app = new App(root, browserClock, () => 0, id);
+    app = new App(root, browserClock, () => 0, id, bundledPacks());
     prepare(app);
     set('#ui-language', language);
     click('#edit-proposal');
@@ -571,7 +572,7 @@ test.each(/** @type {const} */ (['en', 'cs']))(
     );
     expect(localStorage.getItem(LIBRARY_KEY)).toBe(before);
     app.dispose();
-    app = new App(root, browserClock, () => 0, id);
+    app = new App(root, browserClock, () => 0, id, bundledPacks());
     expect(app.workspace.model.custom).toEqual([]);
     await app.workspace.importFiles([file(await downloads[0].text())]);
     expect(app.workspace.model.custom).toEqual([copy]);

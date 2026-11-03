@@ -1,3 +1,4 @@
+import { bundledPacks } from './bundled-packs.js';
 // @vitest-environment jsdom
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { App } from '../src/app.js';
@@ -43,6 +44,7 @@ function mount() {
     browserClock,
     () => 0,
     () => `resilience-${++sequence}`,
+    bundledPacks(),
   );
 }
 /** @param {string} selector */

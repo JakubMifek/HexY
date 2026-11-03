@@ -1,10 +1,4 @@
 import { DIFFICULTIES } from '../domain/difficulty.js';
-import inventory from '../../docs/phase-12-deck-inventory.json';
-
-// Native IDs can arrive out of order; published display numbers must not change.
-const deliveryOrder = new Map(
-  inventory.additionalDeckIds.map((id, index) => [id, index + 1]),
-);
 
 /** @typedef {import('../domain/types.js').Pack} Pack */
 /** @typedef {import('./preparation-strings.js').PreparationTexts} Texts */
@@ -16,11 +10,8 @@ export function catalogNames(t, bundled) {
   const counts = new Map();
   /** @type {Map<string, string>} */
   const names = new Map();
-  for (const pack of [...bundled].sort(
-    (a, b) =>
-      (deliveryOrder.get(a.id) ?? 0) - (deliveryOrder.get(b.id) ?? 0) ||
-      a.id.localeCompare(b.id, 'en', { numeric: true }),
-  )) {
+  // The runtime catalog is append-only; presentation sorting must not renumber it.
+  for (const pack of bundled) {
     const category = pack.questions[0].category;
     const levels = DIFFICULTIES.filter((level) =>
       [pack.difficulty].flat().includes(level),

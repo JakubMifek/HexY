@@ -1,5 +1,28 @@
 # HexY
 
+## Question-only releases
+
+The browser fetches a validated JSON catalog at startup. Questions are no longer
+compiled into application JavaScript. `src/content-order.json` lists every pack
+in its stable published order; add the new JSON there and update the inventory
+and reviewed source documentation without changing application code or tests.
+
+Run `npm run release:content -- <exact-delivered-commit>` before publishing each
+independently accepted deck. This verifies the content-only change boundary,
+unchanged existing packs/order and the complete catalog's content tests. It does
+not rerun TypeScript, coverage or unrelated UI tests. Code/tool/test changes use
+the normal full gate; initial runtime-catalog migration also requires that gate.
+
+The private updater fingerprints application inputs. For question-only changes
+it validates and publishes new JSON while reusing the exact existing JS/CSS:
+no npm install, application build or server restart. Catalog and index switch
+atomically; reload the page to see new decks. Games already in progress retain
+their loaded questions and deadlines. Application changes still rebuild.
+
+`npm run content:prepare` generates `public/catalog.json` for local development;
+`npm run dev` and `npm run build` run it automatically. Rerun it after editing
+local question files. Generated catalogs are not committed.
+
 ## Current Phase 12 deck snapshot
 
 This source candidate contains **158 decks / 4,424 questions**,

@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest';
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 
 /** @type {{additionalDeckIds: string[]}} */
 const shipment = JSON.parse(

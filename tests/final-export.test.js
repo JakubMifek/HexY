@@ -1,3 +1,4 @@
+import { bundledPacks } from './bundled-packs.js';
 // @vitest-environment jsdom
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { App } from '../src/app.js';
@@ -37,6 +38,7 @@ function mount() {
     browserClock,
     () => 0,
     () => 'final-export',
+    bundledPacks(),
   );
   app.language = 'en';
 }
@@ -163,6 +165,7 @@ function legacyLibrary() {
   const prep = new Preparation(
     () => 0,
     () => 'legacy-mix',
+    bundledPacks(),
   );
   prep.configure({ ...defaultSetup('en'), mode: 'numbers' });
   prep.generate('My deck');
@@ -172,6 +175,7 @@ function legacyLibrary() {
   const imported = new Preparation(
     () => 0,
     () => 'unused',
+    bundledPacks(),
   );
   imported.import([JSON.stringify(prep.proposal)], imported.revision);
   expect(imported.custom).toEqual(prep.custom);

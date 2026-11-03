@@ -34,14 +34,18 @@ export class App {
   dialog = null;
 
   /** @param {HTMLElement} root @param {import('./runtime/clock.js').Clock} clock
-   * @param {() => number} random @param {() => string} sessionId */
-  constructor(root, clock, random, sessionId) {
+   * @param {() => number} random @param {() => string} sessionId
+   * @param {import('./domain/types.js').Pack[]} bundled */
+  constructor(root, clock, random, sessionId, bundled) {
     this.root = root;
     this.clock = clock;
     this.random = random;
     this.sessionId = sessionId;
-    this.workspace = new Workspace(random, sessionId, () =>
-      this.renderPresentation(),
+    this.workspace = new Workspace(
+      random,
+      sessionId,
+      () => this.renderPresentation(),
+      bundled,
     );
     const preferences = this.workspace.preferences;
     this.settings = preferences.setup;

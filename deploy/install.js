@@ -93,6 +93,7 @@ export async function install(
     'releases.js',
     'server.js',
     'update.js',
+    'content.js',
     'install.js',
     'cli.js',
     'nginx.conf',

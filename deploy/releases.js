@@ -13,10 +13,12 @@ import {
 import { basename, join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { atomicFile, files, plainPath, removeOwned, REVISION } from './io.js';
+import { prepareCatalogAsset } from './content.js';
 
 const MAX_BUILD_BYTES = 32 * 1024 * 1024;
 const MAX_ASSET_BYTES = 512 * 1024 * 1024;
-const ASSET = /^[a-zA-Z0-9_-]+-[a-zA-Z0-9_-]{8,}\.(js|css|svg|png|woff2?)$/;
+const ASSET =
+  /^[a-zA-Z0-9_-]+-[a-zA-Z0-9_-]{8,}\.(js|css|svg|png|woff2?|json)$/;
 
 /** @param {string} path */
 export function digest(path) {
@@ -34,7 +36,10 @@ export function validateBuild(dist) {
     MAX_BUILD_BYTES
   )
     throw new Error('Build exceeds 32 MiB');
-  const assets = entries.filter((file) => file !== join(dist, 'index.html'));
+  const assets = entries.filter(
+    (file) =>
+      file !== join(dist, 'index.html') && file !== join(dist, 'catalog.json'),
+  );
   for (const asset of assets) {
     if (
       asset !== join(dist, 'assets', basename(asset)) ||
@@ -62,9 +67,11 @@ function validateIndex(dist) {
   }
 }
 
-/** @param {string} root @param {string} revision @param {string} dist */
-export function stage(root, revision, dist) {
+/** @param {string} root @param {string} revision @param {string} dist
+ * @param {string|null} [application] */
+export function stage(root, revision, dist, application = null) {
   if (!REVISION.test(revision)) throw new Error('Invalid revision');
+  const catalog = prepareCatalogAsset(dist);
   const assets = validateBuild(dist);
   const assetRoot = join(root, 'site/assets');
   const existing = files(assetRoot);
@@ -107,6 +114,8 @@ export function stage(root, revision, dist) {
     JSON.stringify({
       index: digest(join(staged, 'index.html')),
       assets: hashes,
+      application,
+      catalog,
     }) + '\n',
   );
   renameSync(staged, release);
@@ -167,19 +176,36 @@ export function manifest(root, revision) {
     readFileSync(join(release, 'version.json'), 'utf8'),
   );
   if (version.revision !== revision) throw new Error('Revision mismatch');
-  /** @type {{index: string, assets: Record<string, string>}} */
+  /** @type {{index: string, assets: Record<string, string>,
+   * application?: string|null, catalog?: string|null}} */
   const saved = JSON.parse(
     readFileSync(join(release, 'manifest.json'), 'utf8'),
   );
   if (saved.index !== digest(join(release, 'index.html')))
     throw new Error('Release index mismatch');
   const hashes = saved.assets;
+  validateCatalogReference(
+    saved,
+    readFileSync(join(release, 'index.html'), 'utf8'),
+  );
   if (!Object.keys(hashes).length) throw new Error('Empty release');
   for (const [name, hash] of Object.entries(hashes)) {
     if (!ASSET.test(name) || digest(join(root, 'site/assets', name)) !== hash)
       throw new Error('Release asset mismatch');
   }
   return saved;
+}
+
+/** @param {{catalog?: string|null, assets: Record<string,string>}} saved
+ * @param {string} html */
+function validateCatalogReference(saved, html) {
+  if (!saved.catalog) return;
+  if (
+    !/^catalog-[a-f0-9]{64}\.json$/.test(saved.catalog) ||
+    !saved.assets[saved.catalog] ||
+    !html.includes(`content="/hexy/assets/${saved.catalog}"`)
+  )
+    throw new Error('Release catalog mismatch');
 }
 
 /** @param {string} root @param {string[]} protectedRevisions */
@@ -196,5 +222,13 @@ export function prune(root, protectedRevisions) {
   const keep = new Set([...protectedRevisions, ...sorted.slice(0, 3)]);
   for (const revision of sorted) {
     if (!keep.has(revision)) removeOwned(root, `site/releases/${revision}`);
+  }
+  const catalogs = new Set(
+    [...keep].map((revision) => manifest(root, revision).catalog),
+  );
+  for (const path of files(join(root, 'site/assets'))) {
+    const name = basename(path);
+    if (/^catalog-[a-f0-9]{64}\.json$/.test(name) && !catalogs.has(name))
+      unlinkSync(path);
   }
 }

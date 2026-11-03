@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
 import rawPack from '../src/content/science-en-easy-03.json';
 import ledger from '../docs/phase-12-science-en-easy-03-sources.json';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { acceptsAnswer } from '../src/domain/answers.js';
 
 /** @param {object} value */

@@ -1,5 +1,9 @@
 export const strings = {
   en: {
+    catalogLoading: 'Loading question decks…',
+    catalogUnavailable:
+      'Question decks could not be loaded. Check your connection and retry. Saved games have not been changed.',
+    retryCatalog: 'Retry loading decks',
     menu: 'Your next connection',
     options: 'Options',
     sound: 'Game sounds',
@@ -56,8 +60,6 @@ export const strings = {
     hosted: 'Spoken · host judges',
     automatic: 'Typed · automatic check',
     content: 'Question language',
-    catalogHelp:
-      '158 fixed packs in Czech and English: eleven categories, with two, three or four decks at each difficulty in each language. Browse folders or import your questions below.',
     start: 'Start game',
     limit:
       'Local play only. Successfully saved games recover after reload; check the recovery status. Export custom packs and games as backups, because browser data can be removed.',
@@ -127,6 +129,10 @@ export const strings = {
       'Correct the problem and try again. The question timer has not been paused.',
   },
   cs: {
+    catalogLoading: 'Načítání sad otázek…',
+    catalogUnavailable:
+      'Sady otázek se nepodařilo načíst. Zkontrolujte připojení a zkuste to znovu. Uložené hry zůstaly beze změny.',
+    retryCatalog: 'Načíst sady znovu',
     menu: 'Další vítězné spojení',
     options: 'Možnosti',
     sound: 'Herní zvuky',
@@ -183,8 +189,6 @@ export const strings = {
     hosted: 'Ústní · hodnotí hostitel',
     automatic: 'Psané · automatická kontrola',
     content: 'Jazyk otázek',
-    catalogHelp:
-      '158 pevných sad česky i anglicky: jedenáct kategorií, v každém jazyce po dvou, třech nebo čtyřech sadách každé obtížnosti. Níže procházejte složky nebo importujte své otázky.',
     start: 'Spustit hru',
     limit:
       'Pouze místní hra. Úspěšně uložená hra se po obnovení stránky obnoví; sledujte stav obnovy. Zálohujte vlastní sady i hry exportem, protože data prohlížeče mohou být smazána.',

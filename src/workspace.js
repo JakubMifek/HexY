@@ -26,9 +26,11 @@ export class Workspace {
   excluded = new Set();
 
   /** @param {() => number} random @param {() => string} id
-   * @param {() => void} changed @param {LocalLibrary} [library] */
-  constructor(random, id, changed, library = new LocalLibrary()) {
-    this.model = new Preparation(random, id);
+   * @param {() => void} changed
+   * @param {import('./domain/types.js').Pack[]} bundled
+   * @param {LocalLibrary} [library] */
+  constructor(random, id, changed, bundled, library = new LocalLibrary()) {
+    this.model = new Preparation(random, id, bundled);
     this.changed = changed;
     this.library = library;
     this.load();

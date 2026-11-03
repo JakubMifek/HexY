@@ -1,6 +1,7 @@
 // @vitest-environment jsdom
 import { afterEach, expect, test } from 'vitest';
-import { bundledPacks, filterPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
+import { filterPacks } from '../src/content/catalog.js';
 import { Preparation } from '../src/runtime/preparation.js';
 import { defaultSetup } from './fixtures.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';
@@ -22,6 +23,7 @@ function setup(language = 'en') {
   const model = new Preparation(
     () => 0,
     () => 'custom',
+    bundledPacks(),
   );
   model.configure(defaultSetup(language));
   const lifecycle = new AbortController();

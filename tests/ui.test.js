@@ -1,3 +1,4 @@
+import { bundledPacks } from './bundled-packs.js';
 // @vitest-environment jsdom
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { App } from '../src/app.js';
@@ -22,6 +23,7 @@ beforeEach(() => {
     browserClock,
     () => 0,
     () => 'ui-test-session',
+    bundledPacks(),
   );
   // jsdom has no dialog implementation; real modal behavior is covered in Playwright.
   HTMLDialogElement.prototype.showModal = function () {
@@ -43,6 +45,9 @@ afterEach(() => {
 test('the entry point mounts the real app and pagehide disposes its resources', async () => {
   app.dispose();
   root.id = 'app';
+  vi.spyOn(globalThis, 'fetch').mockResolvedValue(
+    new Response(JSON.stringify({ schemaVersion: 1, packs: bundledPacks() })),
+  );
   await import('../src/main.js');
   expect(document.querySelector('#new-game')).not.toBeNull();
   click('#new-game');

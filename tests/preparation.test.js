@@ -6,7 +6,7 @@ import {
 } from '../src/domain/generation.js';
 import { importPack, validatePack } from '../src/domain/packs.js';
 import { Preparation } from '../src/runtime/preparation.js';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { defaultSetup } from './fixtures.js';
 import { createGame } from '../src/domain/game.js';
 import { recoverGame } from '../src/domain/saves.js';
@@ -32,6 +32,7 @@ function model() {
   const model = new Preparation(
     () => 0,
     () => `custom-${++id}`,
+    bundledPacks(),
   );
   model.configure(defaultSetup('en'));
   return model;

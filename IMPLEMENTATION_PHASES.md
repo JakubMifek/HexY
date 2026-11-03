@@ -12,6 +12,27 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Latest owner scheduling amendment, 2026-11-03 07:10 UTC:** after verified
+runtime-catalog readiness/delivery, run four isolated one-deck author lanes in
+parallel, not four multi-deck batches. One reviewer and publisher remain;
+bundle related review/revisions and retain reduced memory budgets. This
+supersedes earlier single-author requirements.
+
+**Owner release amendment, 2026-11-03:** use `npm run release:content --
+<delivered-commit>` for append-only question releases. It rejects application/
+tool/test changes, preserves old pack bytes/order and tests the complete
+question set. Inherit unchanged runtime type/coverage/UI evidence; do not run
+the old per-deck full application/native pipeline. Runtime JSON promotions reuse
+exact JS/CSS with atomic index/catalog selection and direct served-data checks.
+One-time loader/deployment changes need independent review and the full code
+gate; future code changes still use applicable full checks.
+
+Coordinator and central-check units have separate 2/3 GiB and 4/5 GiB soft/hard
+allocations with 512 MiB swap each, preserving aggregate 6/8 GiB/1 GiB ceilings.
+Fresh compact coordinator handoffs avoid retaining multi-day task transcripts.
+Use bounded 20-minute checks and actionable stall recovery; keep one author
+batch, one reviewer and one publisher. Final Phase12 review/cleanup remains.
+
 ### Current bounded Phase12 release
 
 ## Current Phase 12 deck snapshot

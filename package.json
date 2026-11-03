@@ -7,6 +7,11 @@
     "node": ">=20.19.0"
   },
   "scripts": {
+    "content:prepare": "node scripts/prepare-content.js",
+    "check:content": "npm run content:prepare && vitest run --maxWorkers=1 tests/content.test.js tests/catalog-baseline.test.js tests/catalog.test.js tests/phase-twelve-batch149.test.js",
+    "release:content": "node scripts/check-content-release.js",
+    "predev": "npm run content:prepare",
+    "prebuild": "npm run content:prepare",
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",

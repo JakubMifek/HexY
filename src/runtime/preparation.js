@@ -1,4 +1,3 @@
-import { bundledPacks } from '../content/catalog.js';
 import {
   attributedCopy,
   generateNumbers,
@@ -8,7 +7,6 @@ import { requireValue } from '../domain/errors.js';
 import { importPack, validatePack } from '../domain/packs.js';
 
 export class Preparation {
-  bundled = bundledPacks();
   /** @type {import('../domain/types.js').Pack[]} */
   custom = [];
   /** @type {import('../domain/types.js').Pack | null} */
@@ -29,10 +27,12 @@ export class Preparation {
   /** @type {Set<string>} */
   expandedFolders = new Set();
 
-  /** @param {() => number} random @param {() => string} id */
-  constructor(random, id) {
+  /** @param {() => number} random @param {() => string} id
+   * @param {import('../domain/types.js').Pack[]} bundled */
+  constructor(random, id, bundled) {
     this.random = random;
     this.id = id;
+    this.bundled = bundled;
   }
 
   get packs() {

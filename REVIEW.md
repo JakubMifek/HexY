@@ -5,6 +5,25 @@ Status: APPROVED by the user on 2026-10-28, together with `AGENTS.md` and
 
 ## Role and independence
 
+**Latest owner scheduling amendment, 2026-11-03 07:10 UTC:** after runtime
+migration readiness, four isolated one-deck authors may work concurrently.
+One independent reviewer/publisher, meaningful concurrent-delta review,
+batched related revisions and reduced memory budgets remain mandatory.
+Earlier single-author requirements are superseded.
+
+### Owner content-only release amendment, 2026-11-03
+
+Review question facts, sources, aliases, difficulty, relevant duplicates and
+the actual corpus change. For unchanged application/tool/test bytes, inherit
+runtime/type/coverage/UI judgments and require the complete catalog content
+gate plus atomic served-data verification, not full recompilation/browser
+reruns per deck. Runtime catalog migration is a code change and requires its
+own independent review/full applicable gate. Verify that data-only releases
+reuse identical JS/CSS and that rollback/old saves retain their contents.
+Resource separation is coordinator 2/3 GiB and checks 4/5 GiB soft/hard, with
+512 MiB swap each; aggregate limits unchanged. Older conflicting per-deck
+full-suite requirements are superseded, not content quality or final clearance.
+
 ### Storage and final cleanup, owner-approved 2026-11-02
 
 Historical generated inventories may be losslessly archived with verified

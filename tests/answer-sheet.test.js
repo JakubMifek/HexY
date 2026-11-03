@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { expect, test } from 'vitest';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { generateNumbers } from '../src/domain/generation.js';
 import { answerSheet } from '../src/ui/answer-sheet.js';
 import { preparationStrings } from '../src/ui/preparation-strings.js';

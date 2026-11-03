@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { acceptsAnswer } from '../src/domain/answers.js';
 
 test('all 224 independently reviewed Arts additions bind exact pack bytes, claims and source evidence', () => {

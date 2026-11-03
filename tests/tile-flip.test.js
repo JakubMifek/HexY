@@ -1,3 +1,4 @@
+import { bundledPacks } from './bundled-packs.js';
 // @vitest-environment jsdom
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { App } from '../src/app.js';
@@ -18,6 +19,7 @@ beforeEach(() => {
     browserClock,
     () => 0,
     () => `flip-${++sequence}`,
+    bundledPacks(),
   );
 });
 afterEach(() => {
@@ -91,6 +93,7 @@ test('recovered question retains full initial and original deadline without pers
     browserClock,
     () => 0,
     () => `flip-${++sequence}`,
+    bundledPacks(),
   );
   expect(app.state?.stage).toMatchObject({
     phase: 'question',
@@ -172,6 +175,7 @@ test('recovery resumes elapsed progress and legacy custom colors; disposal remov
     browserClock,
     () => 0,
     () => `flip-${++sequence}`,
+    bundledPacks(),
   );
   const ring = document.querySelector('.tile-countdown');
   expect(ring?.lastElementChild?.getAttribute('stroke')).toBe('#22d3ee');

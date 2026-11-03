@@ -4,7 +4,7 @@ import { expect, test } from 'vitest';
 import rawPack from '../src/content/geography-en-hard-04.json';
 import ledger from '../docs/phase-12-geography-en-hard-04-sources.json';
 import contentSeal from '../docs/phase-12-geography-en-hard-04-content-seal.json';
-import { bundledPacks } from '../src/content/catalog.js';
+import { bundledPacks } from './bundled-packs.js';
 import { acceptsAnswer } from '../src/domain/answers.js';
 
 /** @param {unknown} value */
