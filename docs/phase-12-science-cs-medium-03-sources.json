@@ -1,0 +1,1522 @@
+{
+  "schemaVersion": 1,
+  "baseline": "235e12149da46c501914081c67ce0b9c617a97f7",
+  "category": "science",
+  "scope": "AUTHOR PROPOSAL: Science Czech Medium03 original27 unchanged plus one additive native-alias/source repair at21; pending one coherent Science84 current review.",
+  "task": "bcef: bounded Science84 author for coordinator75f17f1b-c206-4c60-9d73-51f09ff4cd0f",
+  "sourceCachePathsRelativeTo": "checkout root /home/jakubmifek/github/HexY",
+  "method": "Original questions and finite accepted sets. Author actually read the selected full source paragraphs, plus naming/qualifier contexts; paragraph indices and hashes bind those readings. Original retrieval timestamps retained on all actually reused bodies, including the immutable English-batch RSC cache. Native Czech original wording; Czech naming corroboration explicitly bound. Whole body/text caches are content-addressed and manifest-bound. Public Wikipedia articles are secondary references, not primary experimental verification. Czech encyclopedia naming corroboration and one retained RSC helium context are labelled by their actual roles; they are not primary experimental verification.",
+  "readingLimits": "Selected contexts were read, not every paragraph, formula, citation or linked work in every whole cached page. A successful fetch/token/validator is not factual approval. No claim of primary-paper replication or independent all-entry review. Six Czech naming URLs returned404 and OMRON returned403; none are used as evidence. Actual successful alternative Jahn/Noether article URLs were read. Unused incorrect/irrelevant source assertions are not imported as quiz facts. All cached third-party material retains its own rights; CC BY 4.0 applies only to original questions.",
+  "reviewStatus": "AUTHOR PROPOSED; original acceptance retained separately; changed aliases/evidence and complete Medium calibration not independently accepted.",
+  "inputSnapshot": ".artifacts/continuation/bundles/p12/science/b04-author/inventories/2026-10-30T23-57-41-212Z.json",
+  "inputSnapshotSha256": "ab7e4b4a7e6716a1e9312ca27f494cc1661b013e86ebf3e3be40194dc286fcf8",
+  "reservationsSha256": "3ec1ceb1a7603ce5a87d55d857aaa1dd1c168ec6ee96f84e9d6d483e34006c4f",
+  "correctionReview": {
+    "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/REPORT.md",
+    "sha256": "cf91f8ed270c6b95fb42db95ad561bdfa13f4507b2e3f72c9cef9ea383f43585"
+  },
+  "packs": [
+    {
+      "id": "science-cs-medium-03",
+      "language": "cs",
+      "difficulty": "medium",
+      "sha256": "cf28d2c9f70b43e52c6facb7fe7f1f887cbbf0bdb06c9639b38521aab809e3c6",
+      "entryIds": [
+        "science-cs-medium-03-01",
+        "science-cs-medium-03-02",
+        "science-cs-medium-03-03",
+        "science-cs-medium-03-04",
+        "science-cs-medium-03-05",
+        "science-cs-medium-03-06",
+        "science-cs-medium-03-07",
+        "science-cs-medium-03-08",
+        "science-cs-medium-03-09",
+        "science-cs-medium-03-10",
+        "science-cs-medium-03-11",
+        "science-cs-medium-03-12",
+        "science-cs-medium-03-13",
+        "science-cs-medium-03-14",
+        "science-cs-medium-03-15",
+        "science-cs-medium-03-16",
+        "science-cs-medium-03-17",
+        "science-cs-medium-03-18",
+        "science-cs-medium-03-19",
+        "science-cs-medium-03-20",
+        "science-cs-medium-03-21",
+        "science-cs-medium-03-22",
+        "science-cs-medium-03-23",
+        "science-cs-medium-03-24",
+        "science-cs-medium-03-25",
+        "science-cs-medium-03-26",
+        "science-cs-medium-03-27",
+        "science-cs-medium-03-28"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "science-cs-medium-03-01",
+      "initial": "A",
+      "claim": "Jaký přístroj měří rychlost větru, například pomocí otáčivých misek?",
+      "answer": "Anemometr",
+      "aliases": ["Větroměr"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Anemometer",
+          "fetchedAt": "2026-10-30T21:43:57.721986+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "5d95200e382cbc201c5c584af3b0dbb26c2be34347713bc9f27cf9762b36d8ae",
+          "sourceTextSha256": "1814fe3fcb259014481ab9f1333d4f9b61fe62d8119a39a62d653b29f538e321",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/5d95200e382cbc201c5c584af3b0dbb26c2be34347713bc9f27cf9762b36d8ae.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/1814fe3fcb259014481ab9f1333d4f9b61fe62d8119a39a62d653b29f538e321.txt",
+          "passage": "In meteorology, an anemometer (from Ancient Greek άνεμος (ánemos) 'wind' and μέτρον (métron) 'measure') is a device that measures wind speed and direction. It is a common instrument used in weather stations. The earliest known description of an anemometer was by Italian architect and author Leon Battista Alberti (1404–1472) in 1450.\n\nA simple type of anemometer was invented in 1845 by Rev. Dr. John Thomas Romney Robinson of Armagh Observatory. It consisted of four hemispherical cups on horizontal arms mounted on a vertical shaft. The air flow past the cups in any horizontal direction turned the shaft at a rate roughly proportional to the wind's speed. Therefore, counting the shaft's revolutions over a set time interval produced a value proportional to the average wind speed for a wide range of speeds. This type of instrument is also called a rotational anemometer.",
+          "passageSha256": "9a1ac1e0a8a210840124424949d2d6ce9571ad237c62872272fe2028105e40bb",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 334
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 0,
+              "end": 540
+            }
+          ],
+          "readParagraphIndices": [0, 2],
+          "readParagraphSha256": [
+            "641e0a8b3858231f02b75711656d22b6a153239f11d483fc7ac58db421870c46",
+            "0d2fd93dd1d7c775cbc4a0022d8b4bb992a592b98cb80dce3b50d6cbea6f5c53"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/c2deca40d06f50de89fc.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/c2deca40d06f50de89fc.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-02",
+      "initial": "B",
+      "claim": "Jaký prvek se při zahřátí prohýbá kvůli rozdílné tepelné roztažnosti dvou spojených kovů?",
+      "answer": "Bimetalový pásek",
+      "aliases": ["Bimetal", "Bimetalický pásek"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Bimetallic_strip",
+          "fetchedAt": "2026-10-30T21:43:57.059803+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "fdb9fe9018499cc9b48130e7859d55ad66381c0340755ba772693c9c7c8b6df4",
+          "sourceTextSha256": "233f07433c02f712372d9b452146c6a573de7c832189c546a43377b9cb592c3d",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/fdb9fe9018499cc9b48130e7859d55ad66381c0340755ba772693c9c7c8b6df4.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/233f07433c02f712372d9b452146c6a573de7c832189c546a43377b9cb592c3d.txt",
+          "passage": "A bimetallic strip or bimetal strip is a strip that consists of two strips of different metals which expand at different rates as they are heated. The different expansion rates cause the strip to bend one way if heated, and in the opposite direction if cooled below its initial temperature. Thus, a bimetal strip converts a temperature change into mechanical displacement. The metal with the higher coefficient of thermal expansion is on the outer side of the curve when the strip is heated and on the inner side when cooled. Common applications include temperature sensing (thermometer) and regulation (thermostat).",
+          "passageSha256": "605279d20d26d5f7e965964f727f49131f6d507d21714fd7a0b9fb9eae6fe2f9",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 616
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "605279d20d26d5f7e965964f727f49131f6d507d21714fd7a0b9fb9eae6fe2f9"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/8fcd6ed60269c8c1b494.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/8fcd6ed60269c8c1b494.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-03",
+      "initial": "C",
+      "claim": "Jaký zákon říká, že velikost elektrostatické síly mezi dvěma bodovými náboji ve vakuu je nepřímo úměrná druhé mocnině jejich vzdálenosti?",
+      "answer": "Coulombův zákon",
+      "aliases": [
+        "Coulombův elektrostatický zákon",
+        "Coulombův zákon elektrostatiky"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Coulomb%27s_law",
+          "fetchedAt": "2026-10-30T22:37:59.611954+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "f02a8c849576bc8b59cdbdc3c39d70368cae15f65e30273c4528676ca22344a9",
+          "sourceTextSha256": "938fac0bb43ff363192672b1847b85c4deef8f92ca2889c10db01f49a5b47744",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/f02a8c849576bc8b59cdbdc3c39d70368cae15f65e30273c4528676ca22344a9.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/938fac0bb43ff363192672b1847b85c4deef8f92ca2889c10db01f49a5b47744.txt",
+          "passage": "Coulomb's inverse-square law, or simply Coulomb's law, is a scientific law of physics that describes the amount of force between two electrically charged particles at rest. This electric force is conventionally called the electrostatic force or Coulomb force. Although the law was known earlier, it was first published in 1785 by French physicist Charles-Augustin de Coulomb. Coulomb's law was essential to the development of the theory of electromagnetism and may even be its starting point, as it allowed meaningful discussions of the amount of electric charge in a particle.\n\nThe law states that the magnitude, or absolute value, of the attractive or repulsive electrostatic force between two point charges is directly proportional to the product of the magnitudes of their charges and inversely proportional to the square of the distance between them. Coulomb discovered that bodies with like electrical charges repel:",
+          "passageSha256": "290811a5d81aabd7cb8f995c37d28dc2dd66332b8b1f882bcc94e9ce15ef5070",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 577
+            },
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 343
+            }
+          ],
+          "readParagraphIndices": [0, 1],
+          "readParagraphSha256": [
+            "358d16e7d996dbaab8794e2dfef5be17245f86a4db3213b23720c145b48dc7c9",
+            "c2869bdb56eefd575982f26e3635ff2d5ab40564dd8984a7c0856c4e5288701a"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-04",
+      "initial": "Č",
+      "claim": "Jaký parametr při exponenciálním poklesu udává dobu, za niž veličina klesne na 1/e původní hodnoty?",
+      "answer": "Časová konstanta",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Time_constant",
+          "fetchedAt": "2026-10-30T22:31:49.074621+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "44da4ed5ecc035e8d536faa069769bf8f0cc46b01accc06866d38b9024a28dce",
+          "sourceTextSha256": "b3b2607ecd154604409336acb984d1a88048cb7628679d3f3c1dd5483d413c50",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/44da4ed5ecc035e8d536faa069769bf8f0cc46b01accc06866d38b9024a28dce.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/b3b2607ecd154604409336acb984d1a88048cb7628679d3f3c1dd5483d413c50.txt",
+          "passage": "In physics and engineering, the time constant, usually denoted by the Greek letter τ (tau), is the parameter characterizing the response to a step input of a first-order, linear time-invariant (LTI) system. The time constant is the main characteristic unit of a first-order LTI system. It gives speed of the response. For example, in a simple RC circuit driven by a step change in voltage, the time constant τ = RC sets how quickly the capacitor voltage charges toward its new steady-state value.\n\nPhysically, the time constant represents the elapsed time required for the system response to decay to zero if the system had continued to decay at the initial rate, because of the progressive change in the rate of decay the response will have actually decreased in value to 1 / e ≈ 36.8% in this time (say from a step decrease). In an increasing system, the time constant is the time for the system's step response to reach 1 − 1 / e ≈ 63.2% of its final (asymptotic) value (say from a step increase). In radioactive decay the time constant is related to the decay constant (λ), and it represents both the mean lifetime of a decaying system (such as an atom) before it decays, or the time it takes for all but 36.8% of the atoms to decay. For this reason, the time constant is longer than the half-life, which is the time for only 50% of the atoms to decay.\n\nIn practical terms, the time constant is the characteristic time scale over which a first-order system responds to a sudden change in its input. For an increasing first-order response, one time constant is the time it takes the output to reach about 63% (~ 63.2%) of its final value, and for a decreasing response it is the time to fall to about 37% (~ 36.8%) of its initial value.",
+          "passageSha256": "14e942aade052a6140305b626c2a31f5bf11311a5b1317c979cf3ec947086c6c",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 496
+            },
+            {
+              "paragraphIndex": 4,
+              "start": 0,
+              "end": 858
+            },
+            {
+              "paragraphIndex": 5,
+              "start": 0,
+              "end": 381
+            }
+          ],
+          "readParagraphIndices": [0, 4, 5],
+          "readParagraphSha256": [
+            "362ea41828d7ce1eecd1c4c0003cb393c1cbc25ca377c4b6e5df26f6e9367ca9",
+            "f3f7f66e17839d537997aabe29cc164242ec88fa82eed7a1a0a906da31f25acf",
+            "ac6c5005f2fa3cb4ff2975f90b36bbafe140d67c8bb7b022ec885924fc8eba34"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-05",
+      "initial": "D",
+      "claim": "Jaký proces odstraňuje rozpuštěné soli z mořské vody za účelem získání sladké vody?",
+      "answer": "Desalinace",
+      "aliases": ["Odsolování", "Odsolení"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Desalination",
+          "fetchedAt": "2026-10-30T21:44:03.146708+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "f60da34f424f29517bb85b98ab9db7fff7e4a67eccc74843c68495599cbfbfc7",
+          "sourceTextSha256": "de3a8fe993b12dbbd2a75ec6f7ed2f4198b8c3e5943eafb487c49f4ec25ee211",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/f60da34f424f29517bb85b98ab9db7fff7e4a67eccc74843c68495599cbfbfc7.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/de3a8fe993b12dbbd2a75ec6f7ed2f4198b8c3e5943eafb487c49f4ec25ee211.txt",
+          "passage": "Desalination is the artificial process by which salt water (generally sea water) is converted to fresh water. More generally, desalination is the removal of salts and minerals from a substance. It is possible to desalinate saltwater, especially sea water, to produce water for human consumption or irrigation, producing brine as a by-product.",
+          "passageSha256": "2a8d17bda72882145c74f8e1ede3433d4a1ea88113e88c2566e618eb0b559a5a",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 342
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "2a8d17bda72882145c74f8e1ede3433d4a1ea88113e88c2566e618eb0b559a5a"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/5c2c7fc2ef7d3d52fff6.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/5c2c7fc2ef7d3d52fff6.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-06",
+      "initial": "E",
+      "claim": "Jaké zařízení odstraňuje prach z proudícího plynu elektrickým nabíjením a zachycováním částic?",
+      "answer": "Elektrostatický odlučovač",
+      "aliases": ["Elektrofiltr", "Elektrostatický filtr"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Electrostatic_precipitator",
+          "fetchedAt": "2026-10-30T22:31:49.654557+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "6e7709745ac167f3978c66c341019ecc0874918005d173c2ecbcc9547c387eb4",
+          "sourceTextSha256": "14a3bedf293164f1993a5518b4fecb646e35840b58bc32e30785166e509f3a50",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/6e7709745ac167f3978c66c341019ecc0874918005d173c2ecbcc9547c387eb4.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/14a3bedf293164f1993a5518b4fecb646e35840b58bc32e30785166e509f3a50.txt",
+          "passage": "An electrostatic precipitator (ESP) is a filterless device that removes fine particles, such as dust and smoke, from a flowing gas using the force of an induced electrostatic charge minimally impeding the flow of gases through the unit.",
+          "passageSha256": "7f629b1ba170590c8b5d8e1b1818edcad4c6e1feabb5b03b7e78ee9e0e3578e1",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 236
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "7f629b1ba170590c8b5d8e1b1818edcad4c6e1feabb5b03b7e78ee9e0e3578e1"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-07",
+      "initial": "F",
+      "claim": "Jak se nazývá magnetické uspořádání s rovnoběžně orientovanými atomovými momenty v doménách, typické pro železo?",
+      "answer": "Feromagnetismus",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ferromagnetism",
+          "fetchedAt": "2026-10-30T21:44:04.094660+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "cac07879410949d696c0840d1abae29e7c68ff9a791388ebc6e06e4f37388939",
+          "sourceTextSha256": "2884abf58835d94278b415a979426649277b2b8023f3cc865fccbf8b6264da8e",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/cac07879410949d696c0840d1abae29e7c68ff9a791388ebc6e06e4f37388939.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2884abf58835d94278b415a979426649277b2b8023f3cc865fccbf8b6264da8e.txt",
+          "passage": "Ferromagnetism is a property of certain materials (such as iron) that results in a significant, observable magnetic permeability, and in many cases, a significant magnetic coercivity, allowing the material to form a permanent magnet. Ferromagnetic materials are noticeably attracted to a magnet, which is a consequence of their substantial magnetic permeability.\n\nIn 1948, Louis Néel showed that spontaneous magnetization can arise from two distinct types of magnetic ordering. In true ferromagnetic materials, all magnetic moments are aligned parallel to one another. Conversely, in ferrimagnetism, magnetic moments are arranged in two antiparallel sublattices with different magnitudes, resulting in a net magnetization. When these opposing moments are equal in magnitude and thus cancel completely, spontaneous magnetization cannot occur. This is called antiferromagnetism.\n\nThese unpaired dipoles (often called simply \"spins\", even though they also generally include orbital angular momentum) tend to align in parallel to an external magnetic field – leading to a macroscopic effect called paramagnetism. In ferromagnetism, however, the magnetic interaction between neighboring atoms' magnetic dipoles is strong enough that they align with each other regardless of any applied field, resulting in the spontaneous magnetization of so-called domains. This results in the large observed magnetic permeability of ferromagnetics, and the ability of magnetically hard materials to form permanent magnets.",
+          "passageSha256": "045920dab13fc7e03724caf56cb347945e0c960105a9a92710d8ebd5f53b5b7b",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 362
+            },
+            {
+              "paragraphIndex": 7,
+              "start": 0,
+              "end": 512
+            },
+            {
+              "paragraphIndex": 23,
+              "start": 0,
+              "end": 624
+            }
+          ],
+          "readParagraphIndices": [0, 7, 23],
+          "readParagraphSha256": [
+            "0df443dc597f52bb263c8e267cd3f1c2a9d2ae93762ddc7507e9fa6de40812fc",
+            "6c8ac2f346c0393621d54a68a5ccab6cc0671cb2a92664fb7f963de4cbd6d0af",
+            "6b210154a91ad7db9fa5bfce12331ef1ec697c5555f9e49ec82e3f1296544a14"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/ddc72b63862a6aba8514.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/ddc72b63862a6aba8514.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-08",
+      "initial": "G",
+      "claim": "Jaký proces nanáší kovovou vrstvu na předmět zapojený jako katoda redukcí kovových iontů pomocí elektrického proudu?",
+      "answer": "Galvanické pokovování",
+      "aliases": [
+        "Elektrolytické pokovování",
+        "Elektropokovování",
+        "Elektrodepozice",
+        "Galvanostegie"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Electroplating",
+          "fetchedAt": "2026-10-30T21:44:03.378961+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "b35c2bb6abf5ed36e719676dc89566a867b220ed31fff2ce9b27439cd76acbef",
+          "sourceTextSha256": "99123fb5ecce68b1b1b7d03fb0a4ed90d0cc877628732ae1da096a91fc5e2ccf",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/b35c2bb6abf5ed36e719676dc89566a867b220ed31fff2ce9b27439cd76acbef.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/99123fb5ecce68b1b1b7d03fb0a4ed90d0cc877628732ae1da096a91fc5e2ccf.txt",
+          "passage": "Electroplating, also known as electrochemical deposition or electrodeposition, is a process for producing a metal coating on a solid substrate through the reduction of cations of that metal by means of a direct electric current. The part that needs to be coated acts as the cathode (negative electrode) of an electrolytic cell; the electrolyte is a solution of a salt whose cation is the metal to be coated, and the anode (positive electrode) is usually either a block of that metal, or of some inert conductive material. The current is provided by an external power supply.",
+          "passageSha256": "e48a3495330adc835cabd3db4e30d159908d238f471ddac0f34baa6bd04bbf46",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 574
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "e48a3495330adc835cabd3db4e30d159908d238f471ddac0f34baa6bd04bbf46"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/15eb41c777125086cbb9.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/15eb41c777125086cbb9.html"
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/Galvanick%C3%A9_pokovov%C3%A1n%C3%AD",
+          "fetchedAt": "2026-10-30T22:36:02.568460+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "a25d3a5d288e242058119fe906e097f4319f83fa3450ede3c2fc4efd8a866c0a",
+          "sourceTextSha256": "4918382240965d464c998e478c678dca7e1bcb9a35213189146a17e7a8ec1191",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/a25d3a5d288e242058119fe906e097f4319f83fa3450ede3c2fc4efd8a866c0a.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/4918382240965d464c998e478c678dca7e1bcb9a35213189146a17e7a8ec1191.txt",
+          "passage": "Galvanické pokovování nebo také galvanostegie je pokovovací proces, při kterém se kationty kovu v roztoku pohybují v elektrickém poli od anody ke katodě. Kationty kovu se na katodě z roztoku redukují a potahují ji tenkou vrstvou. V procesu se používá stejnosměrný proud. Při tomto procesu lze dosáhnout kovových povlaků o tloušťce pouhých setin milimetru nebo i několika milimetrů.",
+          "passageSha256": "f43c46c86785873a04eca30023eed9710f5ba97f5536dfbdb3a81e00787e84a4",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 381
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "f43c46c86785873a04eca30023eed9710f5ba97f5536dfbdb3a81e00787e84a4"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-09",
+      "initial": "H",
+      "claim": "Jak se obecně nazývá plovoucí přístroj pro měření hustoty kapalin?",
+      "answer": "Hustoměr",
+      "aliases": ["Areometr", "Plovákový hustoměr"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hydrometer",
+          "fetchedAt": "2026-10-30T21:44:09.591992+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "238142061dfcf916bdc4f35612435fc07dcad4cdf347e653fe219ac1224b7331",
+          "sourceTextSha256": "7311f555cd5b0334432b80d667b8529b19f301b4765d15b8ce5d6d80325656c8",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/238142061dfcf916bdc4f35612435fc07dcad4cdf347e653fe219ac1224b7331.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/7311f555cd5b0334432b80d667b8529b19f301b4765d15b8ce5d6d80325656c8.txt",
+          "passage": "A hydrometer or lactometer is an instrument used for measuring density or relative density of liquids based on the concept of buoyancy. They are typically calibrated and graduated with one or more scales such as specific gravity.",
+          "passageSha256": "93dc168d6728a8e99fbf044ac21620eb5802ca1413082ad10dbb9c3e63d6c49c",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 229
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "93dc168d6728a8e99fbf044ac21620eb5802ca1413082ad10dbb9c3e63d6c49c"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/0d88d9823067864b6959.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/0d88d9823067864b6959.html"
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/Hustom%C4%9Br",
+          "fetchedAt": "2026-10-30T22:36:08.794944+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "4d8e59ebf93af46b6333c3f8ee3ebc879c639f1a262294cee8c9d7af1a4f0913",
+          "sourceTextSha256": "1e4e54f8b8635f8d3d72c27c5a24fb5d4dfefd912ca8ff68766d79c3b460601e",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/4d8e59ebf93af46b6333c3f8ee3ebc879c639f1a262294cee8c9d7af1a4f0913.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/1e4e54f8b8635f8d3d72c27c5a24fb5d4dfefd912ca8ff68766d79c3b460601e.txt",
+          "passage": "Hustoměr (nazývaný také areometr) je ponorné těleso většinou ve tvaru baňky s vystupující stopkou, ve které je umístěna stupnice udávající naměřenou hustotu kapaliny.",
+          "passageSha256": "b461896e131136c6027beaf250da9a6308a513648592e191c08def90d008e2b7",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 166
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "b461896e131136c6027beaf250da9a6308a513648592e191c08def90d008e2b7"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-10",
+      "initial": "Ch",
+      "claim": "Jak se nazývá světélkování vznikající při chemické reakci bez vysoké teploty žhnutí?",
+      "answer": "Chemiluminiscence",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Chemiluminescence",
+          "fetchedAt": "2026-10-30T21:44:03.081598+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "c49d6e8a7981ea43f243c298f7058dac98a6c957b10c59b6d1c0ec89275d295b",
+          "sourceTextSha256": "575fa82a0e8a1a882142d89e2208333c60d3d2e69341153b62dcf6c8d407079c",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/c49d6e8a7981ea43f243c298f7058dac98a6c957b10c59b6d1c0ec89275d295b.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/575fa82a0e8a1a882142d89e2208333c60d3d2e69341153b62dcf6c8d407079c.txt",
+          "passage": "Chemiluminescence (also chemoluminescence) is the emission of light (luminescence) as the result of a chemical reaction, i.e. a chemical reaction resulting in a flash or glow of light. A standard example of chemiluminescence in the laboratory setting is the luminol test wherein blood is indicated by luminescence upon contact with iron in hemoglobin. A light stick also emits light by chemiluminescence.",
+          "passageSha256": "3c792daed852d165e9774d8e6a51e28b94df1420b1bf8f24872d03c706d6eb0e",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 404
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "3c792daed852d165e9774d8e6a51e28b94df1420b1bf8f24872d03c706d6eb0e"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/40b4dc29136e6c7fc52a.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/40b4dc29136e6c7fc52a.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-11",
+      "initial": "I",
+      "claim": "Jaký termodynamický děj probíhá za stálé teploty?",
+      "answer": "Izotermický děj",
+      "aliases": ["Izotermický proces"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Isothermal_process",
+          "fetchedAt": "2026-10-30T22:31:49.100580+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "3ff28d0bf5f4354eb160c7767e5f0b5d561829e2ae66c85f10bb7b79900c7727",
+          "sourceTextSha256": "f46169f7d834b2de9c802744929f048a016a08ac62cdf92fddbf5e81726625fd",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/3ff28d0bf5f4354eb160c7767e5f0b5d561829e2ae66c85f10bb7b79900c7727.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/f46169f7d834b2de9c802744929f048a016a08ac62cdf92fddbf5e81726625fd.txt",
+          "passage": "An isothermal process is a type of thermodynamic process in which the temperature T of a system remains constant: ΔT = 0. This typically occurs when a system is in contact with an outside thermal reservoir, and a change in the system occurs slowly enough to allow the system to be continuously adjusted to the temperature of the reservoir through heat exchange (see quasi-equilibrium). In contrast, an adiabatic process is where a system exchanges no heat with its surroundings (Q = 0).",
+          "passageSha256": "7563d199116ab94cb370ccdc43d874dd36c4ad3066d414db50f47a2cefbc4b17",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 486
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "7563d199116ab94cb370ccdc43d874dd36c4ad3066d414db50f47a2cefbc4b17"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-12",
+      "initial": "J",
+      "claim": "Jaký zákon udává tepelný výkon rezistoru jako součin jeho odporu a druhé mocniny stálého elektrického proudu?",
+      "answer": "Jouleův zákon",
+      "aliases": [
+        "Jouleův tepelný zákon",
+        "Jouleův–Lenzův zákon",
+        "Jouleův-Lenzův zákon",
+        "Joule-Lenzův zákon",
+        "První Jouleův zákon"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Joule_heating",
+          "fetchedAt": "2026-10-30T18:55:47.977575+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "2e458e8fe029c2d0367465eb716dd2a8d08e46a8ece00bb50941f391cd12d8ab",
+          "sourceTextSha256": "c63d902f461e4dba7451484b1beeccedbfa97fcaf457ba9c01c83019d4c376b8",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2e458e8fe029c2d0367465eb716dd2a8d08e46a8ece00bb50941f391cd12d8ab.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/c63d902f461e4dba7451484b1beeccedbfa97fcaf457ba9c01c83019d4c376b8.txt",
+          "passage": "Joule heating (also known as resistive heating, resistance heating, or Ohmic heating) is the process by which the passage of an electric current through a conductor produces heat.\n\nJoule's first law (also just Joule's law), also known in countries of the former USSR as the Joule–Lenz law, states that the power of heating generated by an electrical conductor equals the product of its resistance and the square of the current. Joule heating affects the whole electric conductor, unlike the Peltier effect which transfers heat from one electrical junction to another.",
+          "passageSha256": "14aedef33b239af7a957eb2a379f5dbd9ed3c5693e1c01fb69eb189169c03435",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 179
+            },
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 386
+            }
+          ],
+          "readParagraphIndices": [0, 1],
+          "readParagraphSha256": [
+            "d597d7982ae54b0d7d908903baf9d68c4f5321c183ac745ae28d5da78bcb6581",
+            "69208b7780a4513685d7223330b2766cc5833a4764795d8d1ea87241399811d2"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p11/science/sources/1132e15115d0a6d45296.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p11/science/sources/1132e15115d0a6d45296.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-13",
+      "initial": "K",
+      "claim": "Jaký jev může vytáhnout vodu do úzké skleněné trubičky díky smáčení a povrchovému napětí?",
+      "answer": "Kapilarita",
+      "aliases": ["Kapilární elevace", "Kapilární vzlínání"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Capillary_action",
+          "fetchedAt": "2026-10-30T21:44:03.456496+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "447fc50663e150712891a671a011f73e839593d78b37ec2725c4acfc4baa9862",
+          "sourceTextSha256": "44df836354ba751c7c9c6e70d74dd0cab92dc34ad5040d73a465b4cc485afa4b",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/447fc50663e150712891a671a011f73e839593d78b37ec2725c4acfc4baa9862.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/44df836354ba751c7c9c6e70d74dd0cab92dc34ad5040d73a465b4cc485afa4b.txt",
+          "passage": "Capillary action (sometimes called capillarity, capillary motion, capillary rise, capillary effect, or wicking) is the process of a liquid flowing in a narrow space without the assistance of external forces like gravity.\n\nIf the diameter of the tube is sufficiently small, then the combination of surface tension (which is caused by cohesion within the liquid) and adhesive forces between the liquid and container wall act to propel the liquid.",
+          "passageSha256": "90a868f9f297eaf120076e02b9eaa5ca4ade6a7518fe8e640a0002bda7d313d9",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 220
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 95,
+              "end": 317
+            }
+          ],
+          "readParagraphIndices": [0, 2],
+          "readParagraphSha256": [
+            "1f3872f63b681f2793ad47357bf7a06d3046849dbc6bd55c4d0e2d94287e8ab6",
+            "d26398aaea5e6b19f7ddc54bf0fa726144b2473cb7a6c6e88eda1d50d943385e"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/4ffe30d27f2716bb2d08.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/4ffe30d27f2716bb2d08.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-14",
+      "initial": "L",
+      "claim": "Jak se nazývá uspořádané proudění tekutiny ve vrstvách bez turbulentního promíchávání?",
+      "answer": "Laminární proudění",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Laminar_flow",
+          "fetchedAt": "2026-10-30T22:31:49.975224+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "5540329ee2de2cf3f224bbe866a59a559f3d6143789ee67c0c7b1b5ca1777c82",
+          "sourceTextSha256": "3c4612e2062c0a2ad1ad7f4c45157c9813e54150bbd8b7495a3829e7f775c9cb",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/5540329ee2de2cf3f224bbe866a59a559f3d6143789ee67c0c7b1b5ca1777c82.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/3c4612e2062c0a2ad1ad7f4c45157c9813e54150bbd8b7495a3829e7f775c9cb.txt",
+          "passage": "Laminar flow (/ˈlæmɪnər/) is the property of fluid particles in fluid dynamics to follow smooth paths in layers, with each layer moving smoothly past the adjacent layers with little or no mixing. At low velocities, the fluid tends to flow without lateral mixing, and adjacent layers slide past one another smoothly. There are no cross-currents perpendicular to the direction of flow, nor eddies or swirls of fluids. In laminar flow, the motion of the particles of the fluid is very orderly with particles close to a solid surface moving in straight lines parallel to that surface. Laminar flow is a flow regime characterized by high momentum diffusion and low momentum convection.",
+          "passageSha256": "2de450fa694d6ddf3f14ccbcde17fecec4738952818a29b4590a9815b5c24f21",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 680
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "2de450fa694d6ddf3f14ccbcde17fecec4738952818a29b4590a9815b5c24f21"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-15",
+      "initial": "M",
+      "claim": "Jaká materiálová veličina udává teplo potřebné k ohřátí jednotky hmotnosti látky o jeden kelvin?",
+      "answer": "Měrná tepelná kapacita",
+      "aliases": ["Měrné teplo"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Specific_heat_capacity",
+          "fetchedAt": "2026-10-30T21:44:22.371582+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "00597cdaf665c2a9c5e28b30f94733b76619a0f12d51a74ffe0824c3c5c9de1a",
+          "sourceTextSha256": "f82979736c1189ebc57d84da399e1bf75439063e8b8ad40e100a297c601f93cb",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/00597cdaf665c2a9c5e28b30f94733b76619a0f12d51a74ffe0824c3c5c9de1a.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/f82979736c1189ebc57d84da399e1bf75439063e8b8ad40e100a297c601f93cb.txt",
+          "passage": "In thermodynamics, the specific heat capacity (symbol c) of a substance is the amount of heat that must be added to one unit of mass of the substance in order to cause an increase of one unit in temperature. It is also referred to as massic heat capacity or as the specific heat. More formally it is the heat capacity of a sample of the substance divided by the mass of the sample. The SI unit of specific heat capacity is joule per kelvin per kilogram, J⋅kg−1⋅K−1. For example, the heat required to raise the temperature of 1 kg of water by 1 K is 4184 joules, so the specific heat capacity of water is 4184 J⋅kg−1⋅K−1.",
+          "passageSha256": "3cce3048f89ecc6fdae0abf18fcaf90f43c15be9423e66110885d4e4eb6da625",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 620
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "3cce3048f89ecc6fdae0abf18fcaf90f43c15be9423e66110885d4e4eb6da625"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/4da8496abccd003adf65.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/4da8496abccd003adf65.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-16",
+      "initial": "N",
+      "claim": "Jaká slitina niklu a chromu se používá pro odporové topné dráty?",
+      "answer": "Nichrom",
+      "aliases": ["Nikrom", "NiCr"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nichrome",
+          "fetchedAt": "2026-10-30T22:31:49.952369+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "37826ecd712c7993b6016d09b54e4cdb15177f214dd4f4cf136ace3e484e9776",
+          "sourceTextSha256": "17147418a624797d24dfa987961bca3ef7464c72e0e0535964ce126a7908d24c",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/37826ecd712c7993b6016d09b54e4cdb15177f214dd4f4cf136ace3e484e9776.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/17147418a624797d24dfa987961bca3ef7464c72e0e0535964ce126a7908d24c.txt",
+          "passage": "Nichrome (also known as NiCr, nickel-chromium or chromium-nickel) is a family of alloys of nickel and chromium (and occasionally iron) commonly used as resistance wire, heating elements in devices like toasters, electrical kettles and space heaters, in some dental restorations (fillings) and in a few other applications.",
+          "passageSha256": "fcb4f92a7b41f4a3e3aed1f13d53e60a19784158d4c7832cbf2015006b762dd5",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 321
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "fcb4f92a7b41f4a3e3aed1f13d53e60a19784158d4c7832cbf2015006b762dd5"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/Nichrom",
+          "fetchedAt": "2026-10-30T22:36:09.390735+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "96ebddd9ccc2a29a02bb7734f31555b9da80e2eca022956fa9265fce5ac0b21c",
+          "sourceTextSha256": "929caaedabbef9e6161b827ef0d262b01e8b27d671041b2f2bd771b763c9fa6e",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/96ebddd9ccc2a29a02bb7734f31555b9da80e2eca022956fa9265fce5ac0b21c.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/929caaedabbef9e6161b827ef0d262b01e8b27d671041b2f2bd771b763c9fa6e.txt",
+          "passage": "Obecně jde o skupinu slitin niklu, chrómu, případně i železa. ",
+          "passageSha256": "014647bc863e626df74c8d2b5a91962395b2fea9fdedb96a1b2938e0d9cf86da",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 158,
+              "end": 220
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "8c098da7880ace8f121b11e2fd0ea688f9301fe49d6340cfbe7f89d135b61e77"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-17",
+      "initial": "O",
+      "claim": "Jaký zákon udává přímo úměrný vztah napětí a proudu v ohmickém vodiči za stálé teploty?",
+      "answer": "Ohmův zákon",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ohm%27s_law",
+          "fetchedAt": "2026-10-30T21:44:15.995370+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "75485c96a98160e94c9bed9e1306ca3f23566c7d80fb38ca7bbaf10959384c78",
+          "sourceTextSha256": "73f4848f0c3d3f3e48aeac57a301548437129c8385895cd19992037b30b83a65",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/75485c96a98160e94c9bed9e1306ca3f23566c7d80fb38ca7bbaf10959384c78.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/73f4848f0c3d3f3e48aeac57a301548437129c8385895cd19992037b30b83a65.txt",
+          "passage": "Ohm's law states that in a well-behaved conductor (a so-called ohmic conductor), the electric current between two points is directly proportional to the voltage (the difference of electric potential) across the two points. Introducing the constant of proportionality, the resistance, one arrives at the following mathematical equation used to describe this relationship:",
+          "passageSha256": "6e46fa903ef8529e878f91cb9bc9ce722e502bf445e5bee72617c5eb43d9512c",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 370
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "6e46fa903ef8529e878f91cb9bc9ce722e502bf445e5bee72617c5eb43d9512c"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/2a4c5105c43f037fa168.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/2a4c5105c43f037fa168.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-18",
+      "initial": "P",
+      "claim": "Jaký jev vyvolá elektrický náboj při mechanickém namáhání některých krystalů?",
+      "answer": "Piezoelektrický jev",
+      "aliases": ["Piezoelektřina", "Piezoelektrický efekt"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Piezoelectricity",
+          "fetchedAt": "2026-10-30T21:44:16.310340+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "33ab608f307f761233c14337022f89eba73c40b25d19f64261e723691398d444",
+          "sourceTextSha256": "a60faddfbde35967c77e869112390cbdd647c70e41eab68e3cec4f765c9c52f2",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/33ab608f307f761233c14337022f89eba73c40b25d19f64261e723691398d444.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/a60faddfbde35967c77e869112390cbdd647c70e41eab68e3cec4f765c9c52f2.txt",
+          "passage": "Piezoelectricity (/ˌpiːzoʊ-, ˌpiːtsoʊ-, paɪˌiːzoʊ-/, US: /piˌeɪzoʊ-, piˌeɪtsoʊ-/) is the electric charge that accumulates in certain solid materials—such as crystals, certain ceramics, and biological matter such as bone, DNA, and various proteins—in response to applied mechanical stress.",
+          "passageSha256": "59c12230829bc5d00f79988da377c0626bb72c2593d860bb8df25e0f5e841a43",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 288
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "59c12230829bc5d00f79988da377c0626bb72c2593d860bb8df25e0f5e841a43"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/d510a48a38cd61ed2510.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/d510a48a38cd61ed2510.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-19",
+      "initial": "R",
+      "claim": "Jaké bezrozměrné číslo porovnává setrvačné a vazké účinky v proudící tekutině?",
+      "answer": "Reynoldsovo číslo",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Reynolds_number",
+          "fetchedAt": "2026-10-30T22:31:56.631567+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "2f98d31784a2768814446d6f6632390c10c8e2efccc086f1589cce8d5eacb610",
+          "sourceTextSha256": "80280aa76a4089d3ef669181a687e33c298ed9c69023f1e64cdaa898c262d0c2",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2f98d31784a2768814446d6f6632390c10c8e2efccc086f1589cce8d5eacb610.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/80280aa76a4089d3ef669181a687e33c298ed9c69023f1e64cdaa898c262d0c2.txt",
+          "passage": "In fluid dynamics, the Reynolds number (symbol Re) is a characteristic number that helps predict fluid flow patterns in different situations by measuring the ratio between inertial and viscous forces. At low Reynolds numbers, flows tend to be dominated by laminar (sheet-like) flow, while at high Reynolds numbers, flows tend to be turbulent. The turbulence results from differences in the fluid's speed and direction, which may sometimes intersect or even move counter to the overall direction of the flow (eddy currents). These eddy currents begin to churn the flow, using up energy in the process, which for liquids increases the chances of cavitation.",
+          "passageSha256": "1145146b1aed13d57f5ade2212843e5fd8791b58d821296cc182eeb867f404a4",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 655
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "1145146b1aed13d57f5ade2212843e5fd8791b58d821296cc182eeb867f404a4"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-20",
+      "initial": "Ř",
+      "claim": "Jaká zasouvatelná součást jaderného reaktoru pohlcuje neutrony a tím reguluje štěpnou reakci?",
+      "answer": "Řídicí tyč",
+      "aliases": ["Regulační tyč", "Absorpční tyč", "Řídicí tyč reaktoru"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Control_rod",
+          "fetchedAt": "2026-10-30T22:31:56.079407+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "bc5ed8ebd10c52fad985997ccf6c7370db7304f91aa90ac3ae4fa616a7f29070",
+          "sourceTextSha256": "ab61134fa3b4cf19500e12ef46a08c2b21a059ef6f8b87cc9d8d5abc99487db4",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/bc5ed8ebd10c52fad985997ccf6c7370db7304f91aa90ac3ae4fa616a7f29070.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/ab61134fa3b4cf19500e12ef46a08c2b21a059ef6f8b87cc9d8d5abc99487db4.txt",
+          "passage": "Control rods are used in nuclear reactors to control the rate of fission of the nuclear fuel – uranium or plutonium. Their compositions include chemical elements such as boron, cadmium, silver, hafnium, or indium, that are capable of absorbing many neutrons without themselves decaying. These elements have different neutron capture cross sections for neutrons of various energies. Boiling water reactors (BWR), pressurized water reactors (PWR), and heavy-water reactors (HWR) operate with thermal neutrons, while fast reactors operate with fast neutrons. Each reactor design can use different control rod material based on the energy spectrum of its neutrons. Control rods have been used in nuclear aircraft engines like Project Pluto as a method of control.\n\nControl rods are inserted into the core of a nuclear reactor and adjusted in order to control the rate of the nuclear chain reaction and, thereby, the thermal power output of the reactor, the rate of steam production, and the electrical power output of the power station.",
+          "passageSha256": "72bef2483c66f00c370e8411fd5771146135307a88c2980815d56e2e93c46fbe",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 759
+            },
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 271
+            }
+          ],
+          "readParagraphIndices": [0, 1],
+          "readParagraphSha256": [
+            "0d7c8ceb9f338efeabf3dcfac7c84d2ee7cf0b25aebb67031adc769c2effe60e",
+            "c45bcacb849fa9c5795f3a2fb765d3164c60daac3a9eceb3258602d72e2bdcab"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/%C5%98%C3%ADdic%C3%AD_ty%C4%8D",
+          "fetchedAt": "2026-10-30T22:36:09.196699+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "17b0ec2a3335f3197e449fbb4d486898bd211acc2feb1905f69564efb153fc87",
+          "sourceTextSha256": "6f0f5bcce247e502f177f8f39a714d6f53c51de7dd96a4dbd09db1c35ec94a57",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/17b0ec2a3335f3197e449fbb4d486898bd211acc2feb1905f69564efb153fc87.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/6f0f5bcce247e502f177f8f39a714d6f53c51de7dd96a4dbd09db1c35ec94a57.txt",
+          "passage": "Řídicí tyče (nebo také absorpční tyče) slouží k řízení jaderného reaktoru a jsou klíčovou součástí systému nouzového odstavení reaktoru (SCRAM). Obsahují materiál, který intenzivně absorbuje neutrony. Pohlcením neutronů dochází ke zpomalení nebo zastavení štěpné řetězové reakce. Mezi nejrozšířenější absorbátory patří bór a kadmium.",
+          "passageSha256": "a15445ccc534f3751005ddb0cc57a7687ab79225a130c99ec335735295a12c43",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 333
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "a15445ccc534f3751005ddb0cc57a7687ab79225a130c99ec335735295a12c43"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-21",
+      "initial": "S",
+      "claim": "Jaký přístroj měří vlastnosti světla v závislosti na vlnové délce nebo frekvenci?",
+      "answer": "Spektrometr",
+      "aliases": [
+        "Optický spektrometr",
+        "Spektroskop",
+        "Spektrograf",
+        "Spektrofotometr",
+        "Spektroradiometr"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Spectrometer",
+          "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+          "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3.txt",
+          "passage": "A spectrometer (/spɛkˈtrɒmɪtər/) is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed. In visible light a spectrometer can separate white light and measure individual narrow bands of color, called a spectrum. A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. The first spectrometers were used to split light into an array of separate colors. Spectrometers were developed in early studies of physics, astronomy, and chemistry. The capability of spectroscopy to determine chemical composition drove its advancement and continues to be one of its primary uses. Spectrometers are used in astronomy to analyze the chemical composition of stars and planets, and spectrometers gather data on the origin of the universe.\n\nOptical spectrometers (often simply called \"spectrometers\"), in particular, show the intensity of light as a function of wavelength or of frequency. The different wavelengths of light are separated by refraction in a prism or by diffraction by a diffraction grating. Ultraviolet–visible spectroscopy is an example.",
+          "passageSha256": "226fc23def5258c946ed796c78f5b51742077e8e4011cc04a4b488900a0c3e8d",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 974
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 0,
+              "end": 314
+            }
+          ],
+          "readParagraphIndices": [0, 2],
+          "readParagraphSha256": [
+            "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3",
+            "c174d12fce2e390d26f6fda110d161e4430ecd13807ac73d5e3062cf0b26fbe7"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+          "fetchedAt": "2026-10-30T23:23:29.578290+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81",
+          "sourceTextSha256": "54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea.txt",
+          "passage": "An optical spectrometer (spectrophotometer, spectrograph or spectroscope) is an instrument used to measure properties of light over a specific portion of the electromagnetic spectrum, typically used in spectroscopic analysis to identify materials. The variable measured is most often the irradiance of the light but could also, for instance, be the polarization state. The independent variable is usually the wavelength of the light or a closely derived physical quantity, such as the corresponding wavenumber or the photon energy, in units of measurement such as centimeters, reciprocal centimeters, or electron volts, respectively.\n\nA spectrometer is used in spectroscopy for producing spectral lines and measuring their wavelengths and intensities. Spectrometers may operate over a wide range of non-optical wavelengths, from gamma rays and X-rays into the far infrared. If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. The majority of spectrophotometers are used in spectral regions near the visible spectrum.\n\nA spectrometer that is calibrated for measurement of the incident optical power is called a spectroradiometer.",
+          "passageSha256": "b91e6a06a243bc74c283261d9229a8cb34c07fd5f3fbbfe32feeb9f5b195ec8d",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 633
+            },
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 481
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 0,
+              "end": 110
+            }
+          ],
+          "readParagraphIndices": [0, 1, 2],
+          "readParagraphSha256": [
+            "719b083f62fc98f14d9790a927fb557ec47b308f22992c542267d2d1ddb460b7",
+            "7553938e622ec3a19bef5cad55fd7dbb408f823374f44046ed1dfe0662821578",
+            "313863af75b90c2df5cf61a61a22b13a3664fe88906b90b61079e52ecbc7a669"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://prirucka.ujc.cas.cz/?slovo=spektroskop",
+          "fetchedAt": "2026-11-02T19:52:17.437426+00:00",
+          "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+          "sourceBodySha256": "8d76442a69721ac758064d7717395e368e2296774fbee6af47ea492e2a75387b",
+          "sourceTextSha256": "1379cd3c380e1ff50e3882ac257dd2bc256c29b3aa34673ddff393744bbae118",
+          "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop.html",
+          "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop.txt",
+          "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektroskop\ndělení: spek-t-ro-skop1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroskopspektroskopy\n2. pádspektroskopu2spektroskopů\n3. pádspektroskopuspektroskopům\n4. pádspektroskopspektroskopy\n5. pádspektroskope3spektroskopy\n6. pádspektroskopu4spektroskopech5\n7. pádspektroskopemspektroskopy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSČ\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSJČ\nspektroskop,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k pozorování spekter; spektroskopie,\n-e\nž. fyz.\nnauka o spektrech; spektroskopický\npříd.: fyz.\ns. rozbor;\nhvězd.\ns-á dvojhvězda\njejíž dvě složky lze odlišit jen spektroskopicky (ne opticky);\n→ přísl.\nspektroskopicky\n",
+          "passageSha256": "e77c25bb907c6ad1bbfb45127b3c646ad8eababa8956f2af0593163c5fdd38fa",
+          "readingContext": {
+            "textStart": 298,
+            "textEnd": 1116,
+            "wholeContextSha256": "e77c25bb907c6ad1bbfb45127b3c646ad8eababa8956f2af0593163c5fdd38fa",
+            "retrievalMetadata": {
+              "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop-response.json",
+              "sha256": "f6284e8f1575a08ec0c01700e01ed5a2e7a727d6bcdb93d36b7e908426a38278",
+              "bytes": 577,
+              "role": "actual input read"
+            }
+          },
+          "provenance": {
+            "reused": false,
+            "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+          }
+        },
+        {
+          "url": "https://prirucka.ujc.cas.cz/?slovo=spektrograf",
+          "fetchedAt": "2026-11-02T19:51:49.698684+00:00",
+          "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+          "sourceBodySha256": "5349be2e056266d27c807e9d83a32c9b97cba03ddda38786058299d7284ce7ad",
+          "sourceTextSha256": "b2560b1da4e48d859a09c9e0eed49bb04b8c9bb5fb20396b9299dcf2c4261ce6",
+          "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf.html",
+          "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf.txt",
+          "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektrograf\ndělení: spekt-ro-graf1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrografspektrografy\n2. pádspektrografu2spektrografů\n3. pádspektrografuspektrografům\n4. pádspektrografspektrografy\n5. pádspektrografe3spektrografy\n6. pádspektrografu4spektrografech\n7. pádspektrografemspektrografy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektrograf, -u m <l + ř> fyz. přístroj užív. v spektrografii\nSSČ\nspektrograf, -u m <l + ř> přístroj k registraci spekter\nSSJČ\nspektrograf,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k fotografování spekter; spektrografický\npříd.:\ns-á metoda; s. výzkum; s. přístroj;\n→ přísl.\nspektrograficky\n",
+          "passageSha256": "43fab8b0ffcdb4fee8f4e4fe57dcff85ed1316cabddc6181a11dacbfd10e12ee",
+          "readingContext": {
+            "textStart": 298,
+            "textEnd": 1003,
+            "wholeContextSha256": "43fab8b0ffcdb4fee8f4e4fe57dcff85ed1316cabddc6181a11dacbfd10e12ee",
+            "retrievalMetadata": {
+              "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf-response.json",
+              "sha256": "40231e70c1c92032ecaa1c8c9bbbf302306bc22e950ce5c818bf6b48076d267c",
+              "bytes": 577,
+              "role": "actual input read"
+            }
+          },
+          "provenance": {
+            "reused": false,
+            "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+          }
+        },
+        {
+          "url": "https://prirucka.ujc.cas.cz/?slovo=spektrofotometr",
+          "fetchedAt": "2026-11-02T19:51:55.936677+00:00",
+          "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+          "sourceBodySha256": "659841e3977ef810ad167ef514430c13744c931ac4c6153676502c934f84d1c5",
+          "sourceTextSha256": "cbf713686da21ec69189c03e19d55f45cd1e323a2693099aaa0a551800694b51",
+          "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr.html",
+          "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr.txt",
+          "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektrofotometr\ndělení: spekt-ro-fo-to-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrofotometrspektrofotometry\n2. pádspektrofotometru2spektrofotometrů\n3. pádspektrofotometruspektrofotometrům\n4. pádspektrofotometrspektrofotometry\n5. pádspektrofotometre, spektrofotometře3spektrofotometry\n6. pádspektrofotometru4spektrofotometrech\n7. pádspektrofotometremspektrofotometry\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSJČ\nASCS\nspektrofotometr, -u m <l + ř> fyz. přístroj užív. v spektrofotometrii\nSSJČ\nspektrofotometr,\n-u\nm. fyz.\nfotometr k měření množství světla v jednotlivých částech spektra a k měření spektrální propustnosti látek\n",
+          "passageSha256": "2e88cfc46a638e449dcd7a56a91b954d6a3b59d6fa6608e4aba5ea52dd81ce49",
+          "readingContext": {
+            "textStart": 302,
+            "textEnd": 1016,
+            "wholeContextSha256": "2e88cfc46a638e449dcd7a56a91b954d6a3b59d6fa6608e4aba5ea52dd81ce49",
+            "retrievalMetadata": {
+              "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr-response.json",
+              "sha256": "d22cf9a7608b6a4867c052a7fb018927b3bb9fd614cf7fdf160106ad4668aff3",
+              "bytes": 585,
+              "role": "actual input read"
+            }
+          },
+          "provenance": {
+            "reused": false,
+            "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+          }
+        },
+        {
+          "url": "https://prirucka.ujc.cas.cz/?slovo=spektroradiometr",
+          "fetchedAt": "2026-11-02T19:52:23.843833+00:00",
+          "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+          "sourceBodySha256": "1593d78b5acd3200dfd29aca2b5458a459867a092731bbf75d10531e4eafad97",
+          "sourceTextSha256": "20cfc0c839e0b92129be3858a38c1abe28510eb93da3ae21d7d87548ff43a649",
+          "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr.html",
+          "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr.txt",
+          "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektroradiometr\ndělení: spek-t-ro-ra-dio-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroradiometrspektroradiometry\n2. pádspektroradiometru2spektroradiometrů\n3. pádspektroradiometruspektroradiometrům\n4. pádspektroradiometrspektroradiometry\n5. pádspektroradiometre, spektroradiometře3spektroradiometry\n6. pádspektroradiometru4spektroradiometrech\n7. pádspektroradiometremspektroradiometry\nHeslové slovo bylo nalezeno také v následujícím slovníku:\nASCS\nASCS\nspektroradiometr [-dy-], -u m <l + ř> fyz. přístroj k měření spektrální hustoty zářivé veličiny\n",
+          "passageSha256": "438450d3c35548fce158149d03f6c02a09f82d38a8ca07dfd5648152bed4c408",
+          "readingContext": {
+            "textStart": 303,
+            "textEnd": 913,
+            "wholeContextSha256": "438450d3c35548fce158149d03f6c02a09f82d38a8ca07dfd5648152bed4c408",
+            "retrievalMetadata": {
+              "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr-response.json",
+              "sha256": "f7a428269994313d37be0c3b674569d6acbc8ba86f116d39fb4afc18f33de4aa",
+              "bytes": 587,
+              "role": "actual input read"
+            }
+          },
+          "provenance": {
+            "reused": false,
+            "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-22",
+      "initial": "Š",
+      "claim": "Jaký převod používá šroubovitý hřídel zabírající do ozubeného kola?",
+      "answer": "Šnekový převod",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Worm_drive",
+          "fetchedAt": "2026-10-30T21:44:28.806598+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "c23a0e721eb67752a21ccd03eca56c8e06de9d6726394e18b38c729defcea1f7",
+          "sourceTextSha256": "0a110a5497c1d7c7c90cb14324279206fc589485a2bb6f4c75f1ca94c34b4ec1",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/c23a0e721eb67752a21ccd03eca56c8e06de9d6726394e18b38c729defcea1f7.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/0a110a5497c1d7c7c90cb14324279206fc589485a2bb6f4c75f1ca94c34b4ec1.txt",
+          "passage": "A worm drive is a gear arrangement in which a worm (which is a gear in the form of a screw) meshes with a worm wheel (which is similar in appearance to a spur gear). Its main purpose is to translate the motion of two perpendicular axes or to translate circular motion to linear motion (example: band type hose clamp).The two elements are also called the worm screw and worm gear. The terminology is often confused by imprecise use of the term worm gear to refer to the worm, the worm wheel, or the worm drive as a unit.",
+          "passageSha256": "ea2cd7a888d8d39234bfbe8b8918fa5237e53eed804d5602c965a9da7bd5a9b2",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 519
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "ea2cd7a888d8d39234bfbe8b8918fa5237e53eed804d5602c965a9da7bd5a9b2"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/dbef6fd5a52e87b00f6d.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/dbef6fd5a52e87b00f6d.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-23",
+      "initial": "T",
+      "claim": "Jaký snímač měří mechanickou deformaci prostřednictvím změny elektrického odporu?",
+      "answer": "Tenzometr",
+      "aliases": ["Odporový tenzometr", "Tenzometrický snímač"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Strain_gauge",
+          "fetchedAt": "2026-10-30T22:31:56.286113+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "c01c8bc6445f3817e3feefe1a223060af4d8fdca48e256215c5ba56a064cae6f",
+          "sourceTextSha256": "d4da8c2de46f1b05ea4494c2210eb66c30c35a6c45a3d519fcf2aa1a4c20b201",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/c01c8bc6445f3817e3feefe1a223060af4d8fdca48e256215c5ba56a064cae6f.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/d4da8c2de46f1b05ea4494c2210eb66c30c35a6c45a3d519fcf2aa1a4c20b201.txt",
+          "passage": "A strain gauge (also spelled strain gage) is a device used to measure strain on an object. Invented by Edward E. Simmons and Arthur C. Ruge in 1938, the most common type of strain gauge consists of an insulating flexible backing which supports a metallic foil pattern. The gauge is attached to the object by a suitable adhesive, such as cyanoacrylate. Proper adhesion is critical, as any air gaps or flexibility in the bonding layer will introduce measurement errors known as creep or hysteresis. As the object is deformed, the foil is deformed, causing its electrical resistance to change. This resistance change, usually measured using a Wheatstone bridge, is related to the strain by the quantity known as the gauge factor.",
+          "passageSha256": "58afdee64783e8a7ab4b7ff694c69e979d1b047dc65ab99a3411e05b01b28754",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 726
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "58afdee64783e8a7ab4b7ff694c69e979d1b047dc65ab99a3411e05b01b28754"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-24",
+      "initial": "U",
+      "claim": "Jaká směs barviv mění barvu v širokém rozsahu pH a rozlišuje kyselé i zásadité roztoky?",
+      "answer": "Univerzální indikátor",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Universal_indicator",
+          "fetchedAt": "2026-10-30T21:43:50.326372+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "d74dde20acaad42169f0977cb8d5b2ef2cee92504e9b1ef44ec644d89348eff6",
+          "sourceTextSha256": "27ab2a8e044b0d7bba5b7ab977e6b073a6f09867ade7acaa7bd5b14fa17b98ed",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/d74dde20acaad42169f0977cb8d5b2ef2cee92504e9b1ef44ec644d89348eff6.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/27ab2a8e044b0d7bba5b7ab977e6b073a6f09867ade7acaa7bd5b14fa17b98ed.txt",
+          "passage": "A universal indicator is a pH indicator made of a solution of several compounds that exhibit various smooth colour changes over a wide range pH values to indicate the acidity or alkalinity of solutions. A universal indicator can be in paper form or present in a form of a solution.",
+          "passageSha256": "d679b718c0c4eafe009d64eceabb4634dfd7f5bb59c38983ccfc7f0be88afcc8",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 281
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "d679b718c0c4eafe009d64eceabb4634dfd7f5bb59c38983ccfc7f0be88afcc8"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/29ddec733e61ee0fa791.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/29ddec733e61ee0fa791.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-25",
+      "initial": "V",
+      "claim": "Jak se nazývá dutá vodivá kovová trubice používaná k přenosu mikrovln?",
+      "answer": "Vlnovod",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Waveguide",
+          "fetchedAt": "2026-10-30T18:56:48.870736+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "d6a216565e6d92e4574bbd5e6828e9cf63861e6de2eac8ed27b82b2d4db5c620",
+          "sourceTextSha256": "3921a1363a74976dc1247543cbca9466eec1349fdc352a324a7706130ca558d3",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/d6a216565e6d92e4574bbd5e6828e9cf63861e6de2eac8ed27b82b2d4db5c620.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/3921a1363a74976dc1247543cbca9466eec1349fdc352a324a7706130ca558d3.txt",
+          "passage": "A waveguide is a structure that guides waves by restricting the direction of transmission of energy. Common types of waveguides include acoustic waveguides which direct sound, optical waveguides which direct light, and radio-frequency waveguides which direct electromagnetic waves other than visible, or near visible, light, like radio waves.\n\nThere are different types of waveguides for different types of waves. The original and most common meaning is a hollow conductive metal pipe used to carry high frequency radio waves, particularly microwaves. Dielectric waveguides are used at higher radio frequencies, and transparent dielectric waveguides and optical fibers serve as waveguides for light. In acoustics, air ducts and horns are used as waveguides for sound in musical instruments and loudspeakers, and specially-shaped metal rods conduct ultrasonic waves in ultrasonic machining.",
+          "passageSha256": "b7888f9023a5d8a2a2eb11fd58898c1081663d0f2bf59b777a545a2ed3ad589b",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 342
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 0,
+              "end": 545
+            }
+          ],
+          "readParagraphIndices": [0, 2],
+          "readParagraphSha256": [
+            "857a25c5a42a69957ae63b9e2094321e14ddba0cb3767411555d932b40da2592",
+            "e9707f29542b7931a287fe72d4df942a1a06348912b46ce69ce98dd069b7ff4a"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p11/science/sources/438f739140772ac6b530.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p11/science/sources/438f739140772ac6b530.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-26",
+      "initial": "W",
+      "claim": "Jak se nazývá jednotka magnetického toku v SI se značkou Wb?",
+      "answer": "Weber",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Weber_(unit)",
+          "fetchedAt": "2026-10-30T22:31:56.273511+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "ff8f02c8f869eede767dca3db498b6fbf2a2109d8e94bff3a7a1f42f79b60e51",
+          "sourceTextSha256": "c3a2fc9eaebc88d21560e90c092baf729f1cc477ee242a284503ed41dd6ad1a8",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/ff8f02c8f869eede767dca3db498b6fbf2a2109d8e94bff3a7a1f42f79b60e51.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/c3a2fc9eaebc88d21560e90c092baf729f1cc477ee242a284503ed41dd6ad1a8.txt",
+          "passage": "In physics, the weber (/ˈveɪb-, ˈwɛb.ər/ VAY-, WEH-bər; symbol: Wb) is the unit of magnetic flux in the International System of Units (SI). The unit is derived (through Faraday's law of induction) from the relationship 1 Wb = 1 V⋅s (volt-second). A magnetic flux density of 1 Wb/m2 (one weber per square metre) is one tesla.",
+          "passageSha256": "047c9fecf1bb81228e390a4477fbd5d569294c40a46aab3b7ed2bf11a0f650ef",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 324
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "047c9fecf1bb81228e390a4477fbd5d569294c40a46aab3b7ed2bf11a0f650ef"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-27",
+      "initial": "Z",
+      "claim": "Jaký transformátor v zážehovém motoru vytváří vysoké napětí pro jiskru na svíčce?",
+      "answer": "Zapalovací cívka",
+      "aliases": ["Indukční cívka"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ignition_coil",
+          "fetchedAt": "2026-10-30T22:32:02.306754+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "3bde229e3302e365ed014b3e68910198922e27baad1fa345f95caf1bf14b7bdf",
+          "sourceTextSha256": "12e3871d16652c6a0b984139e2bcd5d6bbfa98c4a910e493da350571531ec9b2",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/3bde229e3302e365ed014b3e68910198922e27baad1fa345f95caf1bf14b7bdf.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/12e3871d16652c6a0b984139e2bcd5d6bbfa98c4a910e493da350571531ec9b2.txt",
+          "passage": "An ignition coil is used in the ignition system of a spark-ignition engine to transform the battery voltage to the much higher voltages required to operate the spark plug(s). The spark plugs then use this burst of high-voltage electricity to ignite the air-fuel mixture.",
+          "passageSha256": "78541bb18039ced0c13bb01466d0df8514c1582a20a54bd04e9e0bf622d14dd2",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 270
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "78541bb18039ced0c13bb01466d0df8514c1582a20a54bd04e9e0bf622d14dd2"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-28",
+      "initial": "Ž",
+      "claim": "Jaká úprava povrchu chladiče zvětšuje plochu pro předávání tepla okolí?",
+      "answer": "Žebrování",
+      "aliases": ["Chladicí žebra"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fin_(extended_surface)",
+          "fetchedAt": "2026-10-30T22:32:02.570471+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "f39b1898909bd8f07ff6ef7610fb88dd8e02359cc6eecbaf3127f31d74c6f093",
+          "sourceTextSha256": "c3ad81b13b7127064801023cc247b34135b89d8798c53e5cf48a625e6b2a85c2",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/f39b1898909bd8f07ff6ef7610fb88dd8e02359cc6eecbaf3127f31d74c6f093.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/c3ad81b13b7127064801023cc247b34135b89d8798c53e5cf48a625e6b2a85c2.txt",
+          "passage": "In the study of heat transfer, fins are surfaces that extend from an object to increase the rate of heat transfer to or from the environment by increasing convection. The amount of conduction, convection, or radiation of an object determines the amount of heat it transfers. Increasing the temperature gradient between the object and the environment, increasing the convection heat transfer coefficient, or increasing the surface area of the object increases the heat transfer. Sometimes it is not feasible or economical to change the first two options. Thus, adding a fin to an object, increases the surface area and can sometimes be an economical solution to heat transfer problems.",
+          "passageSha256": "1986045842ef1c6bfb9fd88558a794b66cc25ff1394d63447279af1dff741153",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 684
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "1986045842ef1c6bfb9fd88558a794b66cc25ff1394d63447279af1dff741153"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    }
+  ],
+  "additiveAuthorProposalMetadata": {
+    "notIndependentAcceptance": true,
+    "originalFullSource": {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+      "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+      "bytes": 246712,
+      "role": "actual input read"
+    },
+    "originalPackAndHistoricalMetadataNotRewritten": true,
+    "proposalPack": {
+      "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/PROPOSED-science-cs-medium-03.json",
+      "sha256": "cf28d2c9f70b43e52c6facb7fe7f1f887cbbf0bdb06c9639b38521aab809e3c6",
+      "bytes": 12756
+    },
+    "change": {
+      "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/PROPOSED-CORRECTIONS.json",
+      "sha256": "7e3ecb906c9510de2c118667c8abbfa28b1db79af68beb0d5e4673976b1a7356",
+      "bytes": 122374
+    },
+    "historicalRootAndPackHashesAboveAreOriginalNotProposed": false,
+    "actualProposedPackHashInPacksTable": true,
+    "supersedesUnsealedInitialProjectionForAdoption": {
+      "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/PROPOSED-science-cs-medium-03-sources.json",
+      "sha256": "8f9a7e2071ae8169f31d6088f2c8a57de87224f408bd52e273ebbe4b5037dc32",
+      "bytes": 93221
+    }
+  },
+  "entireOriginalLedgerRootMetadataPreserved": {
+    "schemaVersion": 1,
+    "baseline": "54b34b1505a6ff3087269bdaae4a4ca790ea4f18",
+    "category": "science",
+    "scope": "b02-v2: exactly eight localized Czech03 corrections; 76 whole accepted objects and all three independent adult ratings retained. No new decks.",
+    "task": "e4290e25-4615-4aaf-b6a2-fd8a9e4746a9",
+    "sourceCachePathsRelativeTo": "checkout root /home/jakubmifek/github/HexY",
+    "method": "Original questions and finite accepted sets. Author actually read the selected full source paragraphs, plus naming/qualifier contexts; paragraph indices and hashes bind those readings. Original retrieval timestamps retained on all actually reused bodies, including the immutable English-batch RSC cache. Native Czech original wording; Czech naming corroboration explicitly bound. Whole body/text caches are content-addressed and manifest-bound. Public Wikipedia articles are secondary references, not primary experimental verification. Czech encyclopedia naming corroboration and one retained RSC helium context are labelled by their actual roles; they are not primary experimental verification.",
+    "readingLimits": "Selected contexts were read, not every paragraph, formula, citation or linked work in every whole cached page. A successful fetch/token/validator is not factual approval. No claim of primary-paper replication or independent all-entry review. Six Czech naming URLs returned404 and OMRON returned403; none are used as evidence. Actual successful alternative Jahn/Noether article URLs were read. Unused incorrect/irrelevant source assertions are not imported as quiz facts. All cached third-party material retains its own rights; CC BY 4.0 applies only to original questions.",
+    "reviewStatus": "76 accepted complete objects retained; eight localized corrections await same reviewer 65ad5a77 narrow recheck; no category/phase/integration clearance",
+    "inputSnapshot": ".artifacts/continuation/bundles/p12/science/b04-author/inventories/2026-10-30T23-57-41-212Z.json",
+    "inputSnapshotSha256": "ab7e4b4a7e6716a1e9312ca27f494cc1661b013e86ebf3e3be40194dc286fcf8",
+    "reservationsSha256": "3ec1ceb1a7603ce5a87d55d857aaa1dd1c168ec6ee96f84e9d6d483e34006c4f",
+    "packs": [
+      {
+        "id": "science-cs-easy-03",
+        "language": "cs",
+        "difficulty": "easy",
+        "sha256": "7ad2dcf132a7acfc7323fd7e6e519cca8feac777bd1a0282818a5e91397410f7",
+        "entryIds": [
+          "science-cs-easy-03-01",
+          "science-cs-easy-03-02",
+          "science-cs-easy-03-03",
+          "science-cs-easy-03-04",
+          "science-cs-easy-03-05",
+          "science-cs-easy-03-06",
+          "science-cs-easy-03-07",
+          "science-cs-easy-03-08",
+          "science-cs-easy-03-09",
+          "science-cs-easy-03-10",
+          "science-cs-easy-03-11",
+          "science-cs-easy-03-12",
+          "science-cs-easy-03-13",
+          "science-cs-easy-03-14",
+          "science-cs-easy-03-15",
+          "science-cs-easy-03-16",
+          "science-cs-easy-03-17",
+          "science-cs-easy-03-18",
+          "science-cs-easy-03-19",
+          "science-cs-easy-03-20",
+          "science-cs-easy-03-21",
+          "science-cs-easy-03-22",
+          "science-cs-easy-03-23",
+          "science-cs-easy-03-24",
+          "science-cs-easy-03-25",
+          "science-cs-easy-03-26",
+          "science-cs-easy-03-27",
+          "science-cs-easy-03-28"
+        ]
+      },
+      {
+        "id": "science-cs-medium-03",
+        "language": "cs",
+        "difficulty": "medium",
+        "sha256": "4a71d1c222d6c615303e2d3978795e319fbb41de3fa204715d7d5380f135b579",
+        "entryIds": [
+          "science-cs-medium-03-01",
+          "science-cs-medium-03-02",
+          "science-cs-medium-03-03",
+          "science-cs-medium-03-04",
+          "science-cs-medium-03-05",
+          "science-cs-medium-03-06",
+          "science-cs-medium-03-07",
+          "science-cs-medium-03-08",
+          "science-cs-medium-03-09",
+          "science-cs-medium-03-10",
+          "science-cs-medium-03-11",
+          "science-cs-medium-03-12",
+          "science-cs-medium-03-13",
+          "science-cs-medium-03-14",
+          "science-cs-medium-03-15",
+          "science-cs-medium-03-16",
+          "science-cs-medium-03-17",
+          "science-cs-medium-03-18",
+          "science-cs-medium-03-19",
+          "science-cs-medium-03-20",
+          "science-cs-medium-03-21",
+          "science-cs-medium-03-22",
+          "science-cs-medium-03-23",
+          "science-cs-medium-03-24",
+          "science-cs-medium-03-25",
+          "science-cs-medium-03-26",
+          "science-cs-medium-03-27",
+          "science-cs-medium-03-28"
+        ]
+      },
+      {
+        "id": "science-cs-hard-03",
+        "language": "cs",
+        "difficulty": "hard",
+        "sha256": "2388c1cdd7dee00696ac87e2f7828957fc49b133b3c1c47becdd9894f1745110",
+        "entryIds": [
+          "science-cs-hard-03-01",
+          "science-cs-hard-03-02",
+          "science-cs-hard-03-03",
+          "science-cs-hard-03-04",
+          "science-cs-hard-03-05",
+          "science-cs-hard-03-06",
+          "science-cs-hard-03-07",
+          "science-cs-hard-03-08",
+          "science-cs-hard-03-09",
+          "science-cs-hard-03-10",
+          "science-cs-hard-03-11",
+          "science-cs-hard-03-12",
+          "science-cs-hard-03-13",
+          "science-cs-hard-03-14",
+          "science-cs-hard-03-15",
+          "science-cs-hard-03-16",
+          "science-cs-hard-03-17",
+          "science-cs-hard-03-18",
+          "science-cs-hard-03-19",
+          "science-cs-hard-03-20",
+          "science-cs-hard-03-21",
+          "science-cs-hard-03-22",
+          "science-cs-hard-03-23",
+          "science-cs-hard-03-24",
+          "science-cs-hard-03-25",
+          "science-cs-hard-03-26",
+          "science-cs-hard-03-27",
+          "science-cs-hard-03-28"
+        ]
+      }
+    ],
+    "correctionReview": {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/REPORT.md",
+      "sha256": "cf91f8ed270c6b95fb42db95ad561bdfa13f4507b2e3f72c9cef9ea383f43585"
+    }
+  }
+}

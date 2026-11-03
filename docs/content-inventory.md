@@ -2,6 +2,26 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only candidate contains **166 decks / 4,648 questions**, English85/
+Czech81. Only `science-cs-medium-03` is added to actual delivered `da28aab0`
+(165/4,620); all165 earlier packs/order and application inputs stay immutable.
+All28 current/full-source/alias/adult judgments are independently accepted in
+the [review](../reviews/phase-12-science-cs-medium-03-content-review.md).
+The [source ledger](phase-12-science-cs-medium-03-sources.json),
+[original continuity](phase-12-science-cs-medium-03-source-continuity.json)
+and [exact optical correction](phase-12-science-cs-medium-03-optical-correction.json)
+preserve complete original history and full before/after evidence.
+Twenty-seven whole questions inherit exactly; entry21's four additive native
+optical aliases and full evidence are freshly accepted, not fictional initial
+acceptance. All22 original and269 current pair nominations have independent
+decisions. General-adult Medium1common/22informed/5specialist retained.
+EN05 remains unaccepted; Debye/Donnan adjacent holds are not cleared.
+Only own28 enters play; other source-ledger decks are not newly cleared.
+Actual-parent integration/content gate and individual push/private catalog/
+unchanged-asset checks remain separate. Final330/9,240/all66 and cleanup OPEN.
+
+## Retained165 preparation history
+
 The append-only candidate contains **165 decks / 4,620 questions**, English85/
 Czech80. Only `general-cs-medium-05` is added to actual delivered `cfb9694b`
 (164/4,592); all164 earlier packs/order and application inputs stay immutable.

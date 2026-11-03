@@ -1,0 +1,1880 @@
+{
+  "id": "SCS03-M21-USEFUL-NATIVE-OPTICAL-FORMS",
+  "status": "ADDITIVE AUTHOR PROPOSAL ONLY; NOT INDEPENDENTLY ACCEPTED OR NATIVE",
+  "entryId": "science-cs-medium-03-21",
+  "entireOriginalAcceptedQuestion": {
+    "id": "science-cs-medium-03-21",
+    "text": "Jaký přístroj měří vlastnosti světla v závislosti na vlnové délce nebo frekvenci?",
+    "initial": "S",
+    "answer": "Spektrometr",
+    "language": "cs",
+    "aliases": ["Optický spektrometr"],
+    "category": "science",
+    "sources": ["https://en.wikipedia.org/wiki/Spectrometer"]
+  },
+  "entireProposedChangedQuestion": {
+    "id": "science-cs-medium-03-21",
+    "text": "Jaký přístroj měří vlastnosti světla v závislosti na vlnové délce nebo frekvenci?",
+    "initial": "S",
+    "answer": "Spektrometr",
+    "language": "cs",
+    "aliases": [
+      "Optický spektrometr",
+      "Spektroskop",
+      "Spektrograf",
+      "Spektrofotometr",
+      "Spektroradiometr"
+    ],
+    "category": "science",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Spectrometer",
+      "https://en.wikipedia.org/wiki/Optical_spectrometer",
+      "https://prirucka.ujc.cas.cz/?slovo=spektroskop",
+      "https://prirucka.ujc.cas.cz/?slovo=spektrograf",
+      "https://prirucka.ujc.cas.cz/?slovo=spektrofotometr",
+      "https://prirucka.ujc.cas.cz/?slovo=spektroradiometr"
+    ]
+  },
+  "originalQuestionSha256": "30473bc399b9c12e2ad223d1d7889cb8b663f1f31546a7636af0ada743c6b516",
+  "proposedQuestionSha256": "1f6b98a4e4e2e82eca8b673cb81dc348f81a9d7494b2946cca4a0176cadde330",
+  "entireOriginalAcceptedSourceEntry": {
+    "id": "science-cs-medium-03-21",
+    "initial": "S",
+    "claim": "Jaký přístroj měří vlastnosti světla v závislosti na vlnové délce nebo frekvenci?",
+    "answer": "Spektrometr",
+    "aliases": ["Optický spektrometr"],
+    "evidence": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spectrometer",
+        "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+        "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+        "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+        "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327.html",
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3.txt",
+        "passage": "A spectrometer (/spɛkˈtrɒmɪtər/) is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed. In visible light a spectrometer can separate white light and measure individual narrow bands of color, called a spectrum. A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. The first spectrometers were used to split light into an array of separate colors. Spectrometers were developed in early studies of physics, astronomy, and chemistry. The capability of spectroscopy to determine chemical composition drove its advancement and continues to be one of its primary uses. Spectrometers are used in astronomy to analyze the chemical composition of stars and planets, and spectrometers gather data on the origin of the universe.\n\nOptical spectrometers (often simply called \"spectrometers\"), in particular, show the intensity of light as a function of wavelength or of frequency. The different wavelengths of light are separated by refraction in a prism or by diffraction by a diffraction grating. Ultraviolet–visible spectroscopy is an example.",
+        "passageSha256": "226fc23def5258c946ed796c78f5b51742077e8e4011cc04a4b488900a0c3e8d",
+        "excerptRanges": [
+          {
+            "paragraphIndex": 0,
+            "start": 0,
+            "end": 974
+          },
+          {
+            "paragraphIndex": 2,
+            "start": 0,
+            "end": 314
+          }
+        ],
+        "readParagraphIndices": [0, 2],
+        "readParagraphSha256": [
+          "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3",
+          "c174d12fce2e390d26f6fda110d161e4430ecd13807ac73d5e3062cf0b26fbe7"
+        ],
+        "provenance": {
+          "reused": false
+        }
+      }
+    ]
+  },
+  "entireProposedChangedSourceEntryWithFullSupportingEvidenceArray": {
+    "id": "science-cs-medium-03-21",
+    "initial": "S",
+    "claim": "Jaký přístroj měří vlastnosti světla v závislosti na vlnové délce nebo frekvenci?",
+    "answer": "Spektrometr",
+    "aliases": [
+      "Optický spektrometr",
+      "Spektroskop",
+      "Spektrograf",
+      "Spektrofotometr",
+      "Spektroradiometr"
+    ],
+    "evidence": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spectrometer",
+        "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+        "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+        "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+        "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327.html",
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3.txt",
+        "passage": "A spectrometer (/spɛkˈtrɒmɪtər/) is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed. In visible light a spectrometer can separate white light and measure individual narrow bands of color, called a spectrum. A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. The first spectrometers were used to split light into an array of separate colors. Spectrometers were developed in early studies of physics, astronomy, and chemistry. The capability of spectroscopy to determine chemical composition drove its advancement and continues to be one of its primary uses. Spectrometers are used in astronomy to analyze the chemical composition of stars and planets, and spectrometers gather data on the origin of the universe.\n\nOptical spectrometers (often simply called \"spectrometers\"), in particular, show the intensity of light as a function of wavelength or of frequency. The different wavelengths of light are separated by refraction in a prism or by diffraction by a diffraction grating. Ultraviolet–visible spectroscopy is an example.",
+        "passageSha256": "226fc23def5258c946ed796c78f5b51742077e8e4011cc04a4b488900a0c3e8d",
+        "excerptRanges": [
+          {
+            "paragraphIndex": 0,
+            "start": 0,
+            "end": 974
+          },
+          {
+            "paragraphIndex": 2,
+            "start": 0,
+            "end": 314
+          }
+        ],
+        "readParagraphIndices": [0, 2],
+        "readParagraphSha256": [
+          "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3",
+          "c174d12fce2e390d26f6fda110d161e4430ecd13807ac73d5e3062cf0b26fbe7"
+        ],
+        "provenance": {
+          "reused": false
+        }
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+        "fetchedAt": "2026-10-30T23:23:29.578290+00:00",
+        "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+        "sourceBodySha256": "a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81",
+        "sourceTextSha256": "54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81.html",
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea.txt",
+        "passage": "An optical spectrometer (spectrophotometer, spectrograph or spectroscope) is an instrument used to measure properties of light over a specific portion of the electromagnetic spectrum, typically used in spectroscopic analysis to identify materials. The variable measured is most often the irradiance of the light but could also, for instance, be the polarization state. The independent variable is usually the wavelength of the light or a closely derived physical quantity, such as the corresponding wavenumber or the photon energy, in units of measurement such as centimeters, reciprocal centimeters, or electron volts, respectively.\n\nA spectrometer is used in spectroscopy for producing spectral lines and measuring their wavelengths and intensities. Spectrometers may operate over a wide range of non-optical wavelengths, from gamma rays and X-rays into the far infrared. If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. The majority of spectrophotometers are used in spectral regions near the visible spectrum.\n\nA spectrometer that is calibrated for measurement of the incident optical power is called a spectroradiometer.",
+        "passageSha256": "b91e6a06a243bc74c283261d9229a8cb34c07fd5f3fbbfe32feeb9f5b195ec8d",
+        "excerptRanges": [
+          {
+            "paragraphIndex": 0,
+            "start": 0,
+            "end": 633
+          },
+          {
+            "paragraphIndex": 1,
+            "start": 0,
+            "end": 481
+          },
+          {
+            "paragraphIndex": 2,
+            "start": 0,
+            "end": 110
+          }
+        ],
+        "readParagraphIndices": [0, 1, 2],
+        "readParagraphSha256": [
+          "719b083f62fc98f14d9790a927fb557ec47b308f22992c542267d2d1ddb460b7",
+          "7553938e622ec3a19bef5cad55fd7dbb408f823374f44046ed1dfe0662821578",
+          "313863af75b90c2df5cf61a61a22b13a3664fe88906b90b61079e52ecbc7a669"
+        ],
+        "provenance": {
+          "reused": false
+        }
+      },
+      {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektroskop",
+        "fetchedAt": "2026-11-02T19:52:17.437426+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "8d76442a69721ac758064d7717395e368e2296774fbee6af47ea492e2a75387b",
+        "sourceTextSha256": "1379cd3c380e1ff50e3882ac257dd2bc256c29b3aa34673ddff393744bbae118",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektroskop\ndělení: spek-t-ro-skop1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroskopspektroskopy\n2. pádspektroskopu2spektroskopů\n3. pádspektroskopuspektroskopům\n4. pádspektroskopspektroskopy\n5. pádspektroskope3spektroskopy\n6. pádspektroskopu4spektroskopech5\n7. pádspektroskopemspektroskopy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSČ\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSJČ\nspektroskop,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k pozorování spekter; spektroskopie,\n-e\nž. fyz.\nnauka o spektrech; spektroskopický\npříd.: fyz.\ns. rozbor;\nhvězd.\ns-á dvojhvězda\njejíž dvě složky lze odlišit jen spektroskopicky (ne opticky);\n→ přísl.\nspektroskopicky\n",
+        "passageSha256": "e77c25bb907c6ad1bbfb45127b3c646ad8eababa8956f2af0593163c5fdd38fa",
+        "readingContext": {
+          "textStart": 298,
+          "textEnd": 1116,
+          "wholeContextSha256": "e77c25bb907c6ad1bbfb45127b3c646ad8eababa8956f2af0593163c5fdd38fa",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop-response.json",
+            "sha256": "f6284e8f1575a08ec0c01700e01ed5a2e7a727d6bcdb93d36b7e908426a38278",
+            "bytes": 577,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      },
+      {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektrograf",
+        "fetchedAt": "2026-11-02T19:51:49.698684+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "5349be2e056266d27c807e9d83a32c9b97cba03ddda38786058299d7284ce7ad",
+        "sourceTextSha256": "b2560b1da4e48d859a09c9e0eed49bb04b8c9bb5fb20396b9299dcf2c4261ce6",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektrograf\ndělení: spekt-ro-graf1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrografspektrografy\n2. pádspektrografu2spektrografů\n3. pádspektrografuspektrografům\n4. pádspektrografspektrografy\n5. pádspektrografe3spektrografy\n6. pádspektrografu4spektrografech\n7. pádspektrografemspektrografy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektrograf, -u m <l + ř> fyz. přístroj užív. v spektrografii\nSSČ\nspektrograf, -u m <l + ř> přístroj k registraci spekter\nSSJČ\nspektrograf,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k fotografování spekter; spektrografický\npříd.:\ns-á metoda; s. výzkum; s. přístroj;\n→ přísl.\nspektrograficky\n",
+        "passageSha256": "43fab8b0ffcdb4fee8f4e4fe57dcff85ed1316cabddc6181a11dacbfd10e12ee",
+        "readingContext": {
+          "textStart": 298,
+          "textEnd": 1003,
+          "wholeContextSha256": "43fab8b0ffcdb4fee8f4e4fe57dcff85ed1316cabddc6181a11dacbfd10e12ee",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf-response.json",
+            "sha256": "40231e70c1c92032ecaa1c8c9bbbf302306bc22e950ce5c818bf6b48076d267c",
+            "bytes": 577,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      },
+      {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektrofotometr",
+        "fetchedAt": "2026-11-02T19:51:55.936677+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "659841e3977ef810ad167ef514430c13744c931ac4c6153676502c934f84d1c5",
+        "sourceTextSha256": "cbf713686da21ec69189c03e19d55f45cd1e323a2693099aaa0a551800694b51",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektrofotometr\ndělení: spekt-ro-fo-to-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrofotometrspektrofotometry\n2. pádspektrofotometru2spektrofotometrů\n3. pádspektrofotometruspektrofotometrům\n4. pádspektrofotometrspektrofotometry\n5. pádspektrofotometre, spektrofotometře3spektrofotometry\n6. pádspektrofotometru4spektrofotometrech\n7. pádspektrofotometremspektrofotometry\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSJČ\nASCS\nspektrofotometr, -u m <l + ř> fyz. přístroj užív. v spektrofotometrii\nSSJČ\nspektrofotometr,\n-u\nm. fyz.\nfotometr k měření množství světla v jednotlivých částech spektra a k měření spektrální propustnosti látek\n",
+        "passageSha256": "2e88cfc46a638e449dcd7a56a91b954d6a3b59d6fa6608e4aba5ea52dd81ce49",
+        "readingContext": {
+          "textStart": 302,
+          "textEnd": 1016,
+          "wholeContextSha256": "2e88cfc46a638e449dcd7a56a91b954d6a3b59d6fa6608e4aba5ea52dd81ce49",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr-response.json",
+            "sha256": "d22cf9a7608b6a4867c052a7fb018927b3bb9fd614cf7fdf160106ad4668aff3",
+            "bytes": 585,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      },
+      {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektroradiometr",
+        "fetchedAt": "2026-11-02T19:52:23.843833+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "1593d78b5acd3200dfd29aca2b5458a459867a092731bbf75d10531e4eafad97",
+        "sourceTextSha256": "20cfc0c839e0b92129be3858a38c1abe28510eb93da3ae21d7d87548ff43a649",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektroradiometr\ndělení: spek-t-ro-ra-dio-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroradiometrspektroradiometry\n2. pádspektroradiometru2spektroradiometrů\n3. pádspektroradiometruspektroradiometrům\n4. pádspektroradiometrspektroradiometry\n5. pádspektroradiometre, spektroradiometře3spektroradiometry\n6. pádspektroradiometru4spektroradiometrech\n7. pádspektroradiometremspektroradiometry\nHeslové slovo bylo nalezeno také v následujícím slovníku:\nASCS\nASCS\nspektroradiometr [-dy-], -u m <l + ř> fyz. přístroj k měření spektrální hustoty zářivé veličiny\n",
+        "passageSha256": "438450d3c35548fce158149d03f6c02a09f82d38a8ca07dfd5648152bed4c408",
+        "readingContext": {
+          "textStart": 303,
+          "textEnd": 913,
+          "wholeContextSha256": "438450d3c35548fce158149d03f6c02a09f82d38a8ca07dfd5648152bed4c408",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr-response.json",
+            "sha256": "f7a428269994313d37be0c3b674569d6acbc8ba86f116d39fb4afc18f33de4aa",
+            "bytes": 587,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      }
+    ]
+  },
+  "proposedWholeSourceEntrySha256": "2c44259faaa6095e38bc2079221e0f7dc9fa84146b5af3f642ab3171497158ec",
+  "proposedEntireEvidenceArraySha256": "93bd1d32f382a7d994c0a7dd4d1e5f990effe774abd5899dccd74232fde6d8ec",
+  "allPriorEvidenceAndAliasesPreservedExactly": true,
+  "addedAliases": [
+    "Spektroskop",
+    "Spektrograf",
+    "Spektrofotometr",
+    "Spektroradiometr"
+  ],
+  "actualAcceptedCounterpartAuthority": {
+    "ownSlot": "21",
+    "counterpartId": "science-en-medium-04-20",
+    "entireActualCounterpart": {
+      "id": "science-en-medium-04-20",
+      "text": "What instrument measures properties of light as a function of wavelength or frequency?",
+      "initial": "S",
+      "answer": "Spectrometer",
+      "language": "en",
+      "aliases": [
+        "Optical spectrometer",
+        "Spectroscope",
+        "Spectrograph",
+        "Spectrophotometer",
+        "Spectroradiometer"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spectrometer",
+        "https://en.wikipedia.org/wiki/Optical_spectrometer"
+      ]
+    },
+    "counterpartSha256": "c461e98e16d0b0df70deedff07433d4bb64de03a3da2c235d97d06f113d4021d",
+    "fullActualRawSourceEntry": {
+      "id": "science-en-medium-04-20",
+      "initial": "S",
+      "claim": "What instrument measures properties of light as a function of wavelength or frequency?",
+      "answer": "Spectrometer",
+      "aliases": [
+        "Optical spectrometer",
+        "Spectroscope",
+        "Spectrograph",
+        "Spectrophotometer",
+        "Spectroradiometer"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Spectrometer",
+          "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+          "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3.txt",
+          "passage": "A spectrometer (/spɛkˈtrɒmɪtər/) is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed. In visible light a spectrometer can separate white light and measure individual narrow bands of color, called a spectrum. A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. The first spectrometers were used to split light into an array of separate colors. Spectrometers were developed in early studies of physics, astronomy, and chemistry. The capability of spectroscopy to determine chemical composition drove its advancement and continues to be one of its primary uses. Spectrometers are used in astronomy to analyze the chemical composition of stars and planets, and spectrometers gather data on the origin of the universe.",
+          "passageSha256": "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 974
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.html"
+          }
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+          "fetchedAt": "2026-10-30T23:23:29.578290+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81",
+          "sourceTextSha256": "54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea.txt",
+          "passage": "An optical spectrometer (spectrophotometer, spectrograph or spectroscope) is an instrument used to measure properties of light over a specific portion of the electromagnetic spectrum, typically used in spectroscopic analysis to identify materials. The variable measured is most often the irradiance of the light but could also, for instance, be the polarization state. The independent variable is usually the wavelength of the light or a closely derived physical quantity, such as the corresponding wavenumber or the photon energy, in units of measurement such as centimeters, reciprocal centimeters, or electron volts, respectively.\n\nA spectrometer is used in spectroscopy for producing spectral lines and measuring their wavelengths and intensities. Spectrometers may operate over a wide range of non-optical wavelengths, from gamma rays and X-rays into the far infrared. If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. The majority of spectrophotometers are used in spectral regions near the visible spectrum.\n\nA spectrometer that is calibrated for measurement of the incident optical power is called a spectroradiometer.",
+          "passageSha256": "b91e6a06a243bc74c283261d9229a8cb34c07fd5f3fbbfe32feeb9f5b195ec8d",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 633
+            },
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 481
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 0,
+              "end": 110
+            }
+          ],
+          "readParagraphIndices": [0, 1, 2],
+          "readParagraphSha256": [
+            "719b083f62fc98f14d9790a927fb557ec47b308f22992c542267d2d1ddb460b7",
+            "7553938e622ec3a19bef5cad55fd7dbb408f823374f44046ed1dfe0662821578",
+            "313863af75b90c2df5cf61a61a22b13a3664fe88906b90b61079e52ecbc7a669"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    "fullRawEvidenceArraySha256": "4c49d1bfb373c425cb9084ffd71d4990e01d213ed824f6d6ce31cb4a7fe923ac",
+    "entireActualAcceptedSourceReceipt": {
+      "id": "science-en-medium-04-20",
+      "wholeQuestion": {
+        "id": "science-en-medium-04-20",
+        "text": "What instrument measures properties of light as a function of wavelength or frequency?",
+        "initial": "S",
+        "answer": "Spectrometer",
+        "language": "en",
+        "aliases": [
+          "Optical spectrometer",
+          "Spectroscope",
+          "Spectrograph",
+          "Spectrophotometer",
+          "Spectroradiometer"
+        ],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Spectrometer",
+          "https://en.wikipedia.org/wiki/Optical_spectrometer"
+        ]
+      },
+      "wholeQuestionSha256": "c461e98e16d0b0df70deedff07433d4bb64de03a3da2c235d97d06f113d4021d",
+      "wholeLedgerEntry": {
+        "id": "science-en-medium-04-20",
+        "initial": "S",
+        "claim": "What instrument measures properties of light as a function of wavelength or frequency?",
+        "answer": "Spectrometer",
+        "aliases": [
+          "Optical spectrometer",
+          "Spectroscope",
+          "Spectrograph",
+          "Spectrophotometer",
+          "Spectroradiometer"
+        ],
+        "evidence": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Spectrometer",
+            "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+            "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+            "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+            "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+            "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327.html",
+            "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3.txt",
+            "passage": "A spectrometer (/spɛkˈtrɒmɪtər/) is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed. In visible light a spectrometer can separate white light and measure individual narrow bands of color, called a spectrum. A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. The first spectrometers were used to split light into an array of separate colors. Spectrometers were developed in early studies of physics, astronomy, and chemistry. The capability of spectroscopy to determine chemical composition drove its advancement and continues to be one of its primary uses. Spectrometers are used in astronomy to analyze the chemical composition of stars and planets, and spectrometers gather data on the origin of the universe.",
+            "passageSha256": "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3",
+            "excerptRanges": [
+              {
+                "paragraphIndex": 0,
+                "start": 0,
+                "end": 974
+              }
+            ],
+            "readParagraphIndices": [0],
+            "readParagraphSha256": [
+              "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3"
+            ],
+            "provenance": {
+              "reused": true,
+              "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.json",
+              "originalBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.html"
+            }
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+            "fetchedAt": "2026-10-30T23:23:29.578290+00:00",
+            "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+            "sourceBodySha256": "a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81",
+            "sourceTextSha256": "54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea",
+            "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81.html",
+            "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea.txt",
+            "passage": "An optical spectrometer (spectrophotometer, spectrograph or spectroscope) is an instrument used to measure properties of light over a specific portion of the electromagnetic spectrum, typically used in spectroscopic analysis to identify materials. The variable measured is most often the irradiance of the light but could also, for instance, be the polarization state. The independent variable is usually the wavelength of the light or a closely derived physical quantity, such as the corresponding wavenumber or the photon energy, in units of measurement such as centimeters, reciprocal centimeters, or electron volts, respectively.\n\nA spectrometer is used in spectroscopy for producing spectral lines and measuring their wavelengths and intensities. Spectrometers may operate over a wide range of non-optical wavelengths, from gamma rays and X-rays into the far infrared. If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. The majority of spectrophotometers are used in spectral regions near the visible spectrum.\n\nA spectrometer that is calibrated for measurement of the incident optical power is called a spectroradiometer.",
+            "passageSha256": "b91e6a06a243bc74c283261d9229a8cb34c07fd5f3fbbfe32feeb9f5b195ec8d",
+            "excerptRanges": [
+              {
+                "paragraphIndex": 0,
+                "start": 0,
+                "end": 633
+              },
+              {
+                "paragraphIndex": 1,
+                "start": 0,
+                "end": 481
+              },
+              {
+                "paragraphIndex": 2,
+                "start": 0,
+                "end": 110
+              }
+            ],
+            "readParagraphIndices": [0, 1, 2],
+            "readParagraphSha256": [
+              "719b083f62fc98f14d9790a927fb557ec47b308f22992c542267d2d1ddb460b7",
+              "7553938e622ec3a19bef5cad55fd7dbb408f823374f44046ed1dfe0662821578",
+              "313863af75b90c2df5cf61a61a22b13a3664fe88906b90b61079e52ecbc7a669"
+            ],
+            "provenance": {
+              "reused": false
+            }
+          }
+        ]
+      },
+      "wholeEvidenceSha256": "4c49d1bfb373c425cb9084ffd71d4990e01d213ed824f6d6ce31cb4a7fe923ac",
+      "judgment": {
+        "id": "science-en-medium-04-20",
+        "level": "medium",
+        "independent judgment": "The light-spectrum instrument is an optical spectrometer; spectroscope, spectrograph, spectrophotometer and spectroradiometer fit this deliberately broad property-versus-wavelength wording. Actual optical supplementary context supports each subtype. Not an ion mass-to-charge method."
+      },
+      "dispositions": {
+        "factualAndSourceSupport": "accepted",
+        "nativeWording": "accepted",
+        "finiteAcceptedSet": "accepted",
+        "initial": "accepted",
+        "category": "accepted science and technology",
+        "qualifiers": "accepted",
+        "noAcceptedAnswerDisclosure": "accepted, independently checked with production normalization",
+        "originalWordingAndRights": "original concise clue; referenced source retains its rights",
+        "semanticTargetAndInversions": "see individual judgment and combined inventory nominations"
+      },
+      "sourceReceipts": [
+        {
+          "wholeEvidenceObject": {
+            "url": "https://en.wikipedia.org/wiki/Spectrometer",
+            "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+            "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+            "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+            "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+            "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327.html",
+            "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3.txt",
+            "passage": "A spectrometer (/spɛkˈtrɒmɪtər/) is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed. In visible light a spectrometer can separate white light and measure individual narrow bands of color, called a spectrum. A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. The first spectrometers were used to split light into an array of separate colors. Spectrometers were developed in early studies of physics, astronomy, and chemistry. The capability of spectroscopy to determine chemical composition drove its advancement and continues to be one of its primary uses. Spectrometers are used in astronomy to analyze the chemical composition of stars and planets, and spectrometers gather data on the origin of the universe.",
+            "passageSha256": "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3",
+            "excerptRanges": [
+              {
+                "paragraphIndex": 0,
+                "start": 0,
+                "end": 974
+              }
+            ],
+            "readParagraphIndices": [0],
+            "readParagraphSha256": [
+              "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3"
+            ],
+            "provenance": {
+              "reused": true,
+              "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.json",
+              "originalBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.html"
+            }
+          },
+          "wholeEvidenceObjectSha256": "bcf6c3c78197c464ae168a65369452db72e1a4a9b1a18e47fc70a55113595245",
+          "wholeBodyReference": {
+            "path": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327.html",
+            "sha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+            "bytes": 209580
+          },
+          "wholeTextReference": {
+            "path": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3.txt",
+            "sha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+            "bytes": 4919
+          },
+          "actualOriginalRetrievalMetadata": [
+            {
+              "path": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.json",
+              "sha256": "5fe4d3242994032bcf12fa35e0e9e4db4cf766543dd44a66c72ad20974a23f84",
+              "wholeMetadata": {
+                "url": "https://en.wikipedia.org/wiki/Spectrometer",
+                "resolvedUrl": "https://en.wikipedia.org/wiki/Spectrometer",
+                "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+                "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+                "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.html",
+                "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.txt",
+                "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+                "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+                "extractedAt": "2026-10-30T22:31:56.359199+00:00",
+                "extractionMethod": "Actual HTML paragraphs with citation markers omitted and mathematical superscripts retained",
+                "provenance": {
+                  "reused": false
+                }
+              }
+            },
+            {
+              "path": ".artifacts/continuation/bundles/p12/science/b03-author/sources/b1c19b05290478b6c5f3.json",
+              "sha256": "ec149db94a2ce287089851f39a87143e34ca342b04071789497f4066ef948389",
+              "wholeMetadata": {
+                "url": "https://en.wikipedia.org/wiki/Spectrometer",
+                "resolvedUrl": "https://en.wikipedia.org/wiki/Spectrometer",
+                "fetchedAt": "2026-10-30T22:31:56.303462+00:00",
+                "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+                "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/sources/b1c19b05290478b6c5f3.html",
+                "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/sources/b1c19b05290478b6c5f3.txt",
+                "sourceBodySha256": "9d4cb347a8cba2b51a45b01640955742697cad451972b68a04efb90326206327",
+                "sourceTextSha256": "ffb3194b6a742cde18b5c632940e7f15494ebfa55f3b6cfff47ed9c54625cfe3",
+                "extractedAt": "2026-10-30T23:18:01.688119+00:00",
+                "extractionMethod": "Actual HTML paragraphs with citation markers omitted and mathematical superscripts retained",
+                "provenance": {
+                  "reused": true,
+                  "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.json",
+                  "originalBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/sources/b1c19b05290478b6c5f3.html"
+                }
+              }
+            }
+          ],
+          "selectedFullContextsReadAndReconstructedFromHTML": [
+            {
+              "paragraphIndex": 0,
+              "sha256": "816b7a09fa32dd6207c7e8c1ee59a3c2f282ff668524ae90bc04559cb11d1eb3",
+              "completeContextActuallyRead": "A spectrometer (/spɛkˈtrɒmɪtər/) is a scientific instrument used to separate and measure spectral components of a physical phenomenon. Spectrometer is a broad term often used to describe instruments that measure a continuous variable of a phenomenon where the spectral components are somehow mixed. In visible light a spectrometer can separate white light and measure individual narrow bands of color, called a spectrum. A mass spectrometer measures the spectrum of the masses of the atoms or molecules present in a gas. The first spectrometers were used to split light into an array of separate colors. Spectrometers were developed in early studies of physics, astronomy, and chemistry. The capability of spectroscopy to determine chemical composition drove its advancement and continues to be one of its primary uses. Spectrometers are used in astronomy to analyze the chemical composition of stars and planets, and spectrometers gather data on the origin of the universe."
+            }
+          ]
+        },
+        {
+          "wholeEvidenceObject": {
+            "url": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+            "fetchedAt": "2026-10-30T23:23:29.578290+00:00",
+            "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+            "sourceBodySha256": "a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81",
+            "sourceTextSha256": "54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea",
+            "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81.html",
+            "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea.txt",
+            "passage": "An optical spectrometer (spectrophotometer, spectrograph or spectroscope) is an instrument used to measure properties of light over a specific portion of the electromagnetic spectrum, typically used in spectroscopic analysis to identify materials. The variable measured is most often the irradiance of the light but could also, for instance, be the polarization state. The independent variable is usually the wavelength of the light or a closely derived physical quantity, such as the corresponding wavenumber or the photon energy, in units of measurement such as centimeters, reciprocal centimeters, or electron volts, respectively.\n\nA spectrometer is used in spectroscopy for producing spectral lines and measuring their wavelengths and intensities. Spectrometers may operate over a wide range of non-optical wavelengths, from gamma rays and X-rays into the far infrared. If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. The majority of spectrophotometers are used in spectral regions near the visible spectrum.\n\nA spectrometer that is calibrated for measurement of the incident optical power is called a spectroradiometer.",
+            "passageSha256": "b91e6a06a243bc74c283261d9229a8cb34c07fd5f3fbbfe32feeb9f5b195ec8d",
+            "excerptRanges": [
+              {
+                "paragraphIndex": 0,
+                "start": 0,
+                "end": 633
+              },
+              {
+                "paragraphIndex": 1,
+                "start": 0,
+                "end": 481
+              },
+              {
+                "paragraphIndex": 2,
+                "start": 0,
+                "end": 110
+              }
+            ],
+            "readParagraphIndices": [0, 1, 2],
+            "readParagraphSha256": [
+              "719b083f62fc98f14d9790a927fb557ec47b308f22992c542267d2d1ddb460b7",
+              "7553938e622ec3a19bef5cad55fd7dbb408f823374f44046ed1dfe0662821578",
+              "313863af75b90c2df5cf61a61a22b13a3664fe88906b90b61079e52ecbc7a669"
+            ],
+            "provenance": {
+              "reused": false
+            }
+          },
+          "wholeEvidenceObjectSha256": "48a1d7960eb38d5df0db22e956f70a6cc21e233db6ae711d764109f5f67512b1",
+          "wholeBodyReference": {
+            "path": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81.html",
+            "sha256": "a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81",
+            "bytes": 197474
+          },
+          "wholeTextReference": {
+            "path": ".artifacts/continuation/bundles/p12/science/b03-author/frozen-sources/54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea.txt",
+            "sha256": "54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea",
+            "bytes": 8370
+          },
+          "actualOriginalRetrievalMetadata": [
+            {
+              "path": ".artifacts/continuation/bundles/p12/science/b03-author/sources/5a7c951c204e4691a6a9.json",
+              "sha256": "f394b23381e4c55dbf1075a762cd8ab2d28c87225f7c474da274b9c52723f161",
+              "wholeMetadata": {
+                "url": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+                "resolvedUrl": "https://en.wikipedia.org/wiki/Optical_spectrometer",
+                "fetchedAt": "2026-10-30T23:23:29.578290+00:00",
+                "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+                "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b03-author/sources/5a7c951c204e4691a6a9.html",
+                "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b03-author/sources/5a7c951c204e4691a6a9.txt",
+                "sourceBodySha256": "a68d028789567f5a14186a33cfc4febeea6c1f7d4b0f67d8f426914d4b7d1b81",
+                "sourceTextSha256": "54e9133999b632f9db7711941d3a2d5366785cbc7d58e533af4b7c2ecb18a8ea",
+                "extractedAt": "2026-10-30T23:23:29.623589+00:00",
+                "extractionMethod": "Actual HTML paragraphs with citation markers omitted and mathematical superscripts retained",
+                "provenance": {
+                  "reused": false
+                }
+              }
+            }
+          ],
+          "selectedFullContextsReadAndReconstructedFromHTML": [
+            {
+              "paragraphIndex": 0,
+              "sha256": "719b083f62fc98f14d9790a927fb557ec47b308f22992c542267d2d1ddb460b7",
+              "completeContextActuallyRead": "An optical spectrometer (spectrophotometer, spectrograph or spectroscope) is an instrument used to measure properties of light over a specific portion of the electromagnetic spectrum, typically used in spectroscopic analysis to identify materials. The variable measured is most often the irradiance of the light but could also, for instance, be the polarization state. The independent variable is usually the wavelength of the light or a closely derived physical quantity, such as the corresponding wavenumber or the photon energy, in units of measurement such as centimeters, reciprocal centimeters, or electron volts, respectively."
+            },
+            {
+              "paragraphIndex": 1,
+              "sha256": "7553938e622ec3a19bef5cad55fd7dbb408f823374f44046ed1dfe0662821578",
+              "completeContextActuallyRead": "A spectrometer is used in spectroscopy for producing spectral lines and measuring their wavelengths and intensities. Spectrometers may operate over a wide range of non-optical wavelengths, from gamma rays and X-rays into the far infrared. If the instrument is designed to measure the spectrum on an absolute scale rather than a relative one, then it is typically called a spectrophotometer. The majority of spectrophotometers are used in spectral regions near the visible spectrum."
+            },
+            {
+              "paragraphIndex": 2,
+              "sha256": "313863af75b90c2df5cf61a61a22b13a3664fe88906b90b61079e52ecbc7a669",
+              "completeContextActuallyRead": "A spectrometer that is calibrated for measurement of the incident optical power is called a spectroradiometer."
+            }
+          ]
+        }
+      ]
+    },
+    "acceptedReceiptSha256": "970c45fd4145b2e7ee1234123b9c3624165f5c1c85902a5dab04c1eb264c85f8",
+    "actualAcceptedReceiptPath": ".artifacts/continuation/bundles/reviews/p12/science/b03-v1/receipts.json",
+    "actualSelectedFullContextsVerified": 4,
+    "actualReviewSourceStatus": "EXACT counterpart fact/source/alias acceptance reusable; NOT own pair/rating acceptance",
+    "preservedRawRowLabelsNotReclassified": null
+  },
+  "nativeAliasReadings": [
+    {
+      "alias": "Spektroskop",
+      "completeNativeReading": "Hledání konkrétního slova nebo tvaru slova.\nspektroskop\ndělení: spek-t-ro-skop1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroskopspektroskopy\n2. pádspektroskopu2spektroskopů\n3. pádspektroskopuspektroskopům\n4. pádspektroskopspektroskopy\n5. pádspektroskope3spektroskopy\n6. pádspektroskopu4spektroskopech5\n7. pádspektroskopemspektroskopy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSČ\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSJČ\nspektroskop,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k pozorování spekter; spektroskopie,\n-e\nž. fyz.\nnauka o spektrech; spektroskopický\npříd.: fyz.\ns. rozbor;\nhvězd.\ns-á dvojhvězda\njejíž dvě složky lze odlišit jen spektroskopicky (ne opticky);\n→ přísl.\nspektroskopicky\n",
+      "wholeEvidence": {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektroskop",
+        "fetchedAt": "2026-11-02T19:52:17.437426+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "8d76442a69721ac758064d7717395e368e2296774fbee6af47ea492e2a75387b",
+        "sourceTextSha256": "1379cd3c380e1ff50e3882ac257dd2bc256c29b3aa34673ddff393744bbae118",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektroskop\ndělení: spek-t-ro-skop1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroskopspektroskopy\n2. pádspektroskopu2spektroskopů\n3. pádspektroskopuspektroskopům\n4. pádspektroskopspektroskopy\n5. pádspektroskope3spektroskopy\n6. pádspektroskopu4spektroskopech5\n7. pádspektroskopemspektroskopy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSČ\nspektroskop, -u m <l + ř> fyz. přístroj k pozorování spekter\nSSJČ\nspektroskop,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k pozorování spekter; spektroskopie,\n-e\nž. fyz.\nnauka o spektrech; spektroskopický\npříd.: fyz.\ns. rozbor;\nhvězd.\ns-á dvojhvězda\njejíž dvě složky lze odlišit jen spektroskopicky (ne opticky);\n→ přísl.\nspektroskopicky\n",
+        "passageSha256": "e77c25bb907c6ad1bbfb45127b3c646ad8eababa8956f2af0593163c5fdd38fa",
+        "readingContext": {
+          "textStart": 298,
+          "textEnd": 1116,
+          "wholeContextSha256": "e77c25bb907c6ad1bbfb45127b3c646ad8eababa8956f2af0593163c5fdd38fa",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroskop-response.json",
+            "sha256": "f6284e8f1575a08ec0c01700e01ed5a2e7a727d6bcdb93d36b7e908426a38278",
+            "bytes": 577,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      },
+      "scope": "Czech dictionary defines observing spectra. This alone is not proof every qualitative spectroscope measures numerical properties. The already accepted Optical_spectrometer scientific source explicitly includes spectroscope under this same broad measuring-instrument name; propose retaining the useful finite subtype name for the broad clue, not treating every observing device as a spectrometer."
+    },
+    {
+      "alias": "Spektrograf",
+      "completeNativeReading": "Hledání konkrétního slova nebo tvaru slova.\nspektrograf\ndělení: spekt-ro-graf1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrografspektrografy\n2. pádspektrografu2spektrografů\n3. pádspektrografuspektrografům\n4. pádspektrografspektrografy\n5. pádspektrografe3spektrografy\n6. pádspektrografu4spektrografech\n7. pádspektrografemspektrografy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektrograf, -u m <l + ř> fyz. přístroj užív. v spektrografii\nSSČ\nspektrograf, -u m <l + ř> přístroj k registraci spekter\nSSJČ\nspektrograf,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k fotografování spekter; spektrografický\npříd.:\ns-á metoda; s. výzkum; s. přístroj;\n→ přísl.\nspektrograficky\n",
+      "wholeEvidence": {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektrograf",
+        "fetchedAt": "2026-11-02T19:51:49.698684+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "5349be2e056266d27c807e9d83a32c9b97cba03ddda38786058299d7284ce7ad",
+        "sourceTextSha256": "b2560b1da4e48d859a09c9e0eed49bb04b8c9bb5fb20396b9299dcf2c4261ce6",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektrograf\ndělení: spekt-ro-graf1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrografspektrografy\n2. pádspektrografu2spektrografů\n3. pádspektrografuspektrografům\n4. pádspektrografspektrografy\n5. pádspektrografe3spektrografy\n6. pádspektrografu4spektrografech\n7. pádspektrografemspektrografy\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSČ, SSJČ\nASCS\nspektrograf, -u m <l + ř> fyz. přístroj užív. v spektrografii\nSSČ\nspektrograf, -u m <l + ř> přístroj k registraci spekter\nSSJČ\nspektrograf,\n-u\nm. (6. j.\n-u)\nfyz.\npřístroj k fotografování spekter; spektrografický\npříd.:\ns-á metoda; s. výzkum; s. přístroj;\n→ přísl.\nspektrograficky\n",
+        "passageSha256": "43fab8b0ffcdb4fee8f4e4fe57dcff85ed1316cabddc6181a11dacbfd10e12ee",
+        "readingContext": {
+          "textStart": 298,
+          "textEnd": 1003,
+          "wholeContextSha256": "43fab8b0ffcdb4fee8f4e4fe57dcff85ed1316cabddc6181a11dacbfd10e12ee",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrograf-response.json",
+            "sha256": "40231e70c1c92032ecaa1c8c9bbbf302306bc22e950ce5c818bf6b48076d267c",
+            "bytes": 577,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      },
+      "scope": "Czech dictionary defines recording/photographing spectra. Together with the accepted optical-spectrometer context this is a useful specific instrumental form of the broad clue, not a new factual target."
+    },
+    {
+      "alias": "Spektrofotometr",
+      "completeNativeReading": "Hledání konkrétního slova nebo tvaru slova.\nspektrofotometr\ndělení: spekt-ro-fo-to-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrofotometrspektrofotometry\n2. pádspektrofotometru2spektrofotometrů\n3. pádspektrofotometruspektrofotometrům\n4. pádspektrofotometrspektrofotometry\n5. pádspektrofotometre, spektrofotometře3spektrofotometry\n6. pádspektrofotometru4spektrofotometrech\n7. pádspektrofotometremspektrofotometry\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSJČ\nASCS\nspektrofotometr, -u m <l + ř> fyz. přístroj užív. v spektrofotometrii\nSSJČ\nspektrofotometr,\n-u\nm. fyz.\nfotometr k měření množství světla v jednotlivých částech spektra a k měření spektrální propustnosti látek\n",
+      "wholeEvidence": {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektrofotometr",
+        "fetchedAt": "2026-11-02T19:51:55.936677+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "659841e3977ef810ad167ef514430c13744c931ac4c6153676502c934f84d1c5",
+        "sourceTextSha256": "cbf713686da21ec69189c03e19d55f45cd1e323a2693099aaa0a551800694b51",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektrofotometr\ndělení: spekt-ro-fo-to-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektrofotometrspektrofotometry\n2. pádspektrofotometru2spektrofotometrů\n3. pádspektrofotometruspektrofotometrům\n4. pádspektrofotometrspektrofotometry\n5. pádspektrofotometre, spektrofotometře3spektrofotometry\n6. pádspektrofotometru4spektrofotometrech\n7. pádspektrofotometremspektrofotometry\nHeslové slovo bylo nalezeno také v následujících slovnících:\nASCS, SSJČ\nASCS\nspektrofotometr, -u m <l + ř> fyz. přístroj užív. v spektrofotometrii\nSSJČ\nspektrofotometr,\n-u\nm. fyz.\nfotometr k měření množství světla v jednotlivých částech spektra a k měření spektrální propustnosti látek\n",
+        "passageSha256": "2e88cfc46a638e449dcd7a56a91b954d6a3b59d6fa6608e4aba5ea52dd81ce49",
+        "readingContext": {
+          "textStart": 302,
+          "textEnd": 1016,
+          "wholeContextSha256": "2e88cfc46a638e449dcd7a56a91b954d6a3b59d6fa6608e4aba5ea52dd81ce49",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektrofotometr-response.json",
+            "sha256": "d22cf9a7608b6a4867c052a7fb018927b3bb9fd614cf7fdf160106ad4668aff3",
+            "bytes": 585,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      },
+      "scope": "Czech dictionary explicitly defines measurement of light quantity in individual spectral regions and spectral transmittance; directly within the original light-property versus wavelength/frequency wording."
+    },
+    {
+      "alias": "Spektroradiometr",
+      "completeNativeReading": "Hledání konkrétního slova nebo tvaru slova.\nspektroradiometr\ndělení: spek-t-ro-ra-dio-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroradiometrspektroradiometry\n2. pádspektroradiometru2spektroradiometrů\n3. pádspektroradiometruspektroradiometrům\n4. pádspektroradiometrspektroradiometry\n5. pádspektroradiometre, spektroradiometře3spektroradiometry\n6. pádspektroradiometru4spektroradiometrech\n7. pádspektroradiometremspektroradiometry\nHeslové slovo bylo nalezeno také v následujícím slovníku:\nASCS\nASCS\nspektroradiometr [-dy-], -u m <l + ř> fyz. přístroj k měření spektrální hustoty zářivé veličiny\n",
+      "wholeEvidence": {
+        "url": "https://prirucka.ujc.cas.cz/?slovo=spektroradiometr",
+        "fetchedAt": "2026-11-02T19:52:23.843833+00:00",
+        "sourceQuality": "ÚJČ AV ČR institutional Czech dictionary: native term and stated instrument role; optical taxonomy separately bound to the exact accepted English04 scientific source",
+        "sourceBodySha256": "1593d78b5acd3200dfd29aca2b5458a459867a092731bbf75d10531e4eafad97",
+        "sourceTextSha256": "20cfc0c839e0b92129be3858a38c1abe28510eb93da3ae21d7d87548ff43a649",
+        "sourceBodyPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr.html",
+        "sourceTextPath": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr.txt",
+        "passage": "Hledání konkrétního slova nebo tvaru slova.\nspektroradiometr\ndělení: spek-t-ro-ra-dio-me-tr1\nrod: m. neživ.\njednotné číslomnožné číslo\n1. pádspektroradiometrspektroradiometry\n2. pádspektroradiometru2spektroradiometrů\n3. pádspektroradiometruspektroradiometrům\n4. pádspektroradiometrspektroradiometry\n5. pádspektroradiometre, spektroradiometře3spektroradiometry\n6. pádspektroradiometru4spektroradiometrech\n7. pádspektroradiometremspektroradiometry\nHeslové slovo bylo nalezeno také v následujícím slovníku:\nASCS\nASCS\nspektroradiometr [-dy-], -u m <l + ř> fyz. přístroj k měření spektrální hustoty zářivé veličiny\n",
+        "passageSha256": "438450d3c35548fce158149d03f6c02a09f82d38a8ca07dfd5648152bed4c408",
+        "readingContext": {
+          "textStart": 303,
+          "textEnd": 913,
+          "wholeContextSha256": "438450d3c35548fce158149d03f6c02a09f82d38a8ca07dfd5648152bed4c408",
+          "retrievalMetadata": {
+            "path": ".artifacts/continuation/batch-work/single-author-science-cs03-three-next-v1/sources/ujc-spektroradiometr-response.json",
+            "sha256": "f7a428269994313d37be0c3b674569d6acbc8ba86f116d39fb4afc18f33de4aa",
+            "bytes": 587,
+            "role": "actual input read"
+          }
+        },
+        "provenance": {
+          "reused": false,
+          "extractionMethod": "HTMLParser visible data; script/style omitted; exact retained text offsets, no invented paragraph attestation"
+        }
+      },
+      "scope": "Czech dictionary explicitly defines spectral density measurement of a radiative quantity; accepted scientific source separately describes optical power calibration. This is a calibrated subtype, not every non-optical spectrometer."
+    }
+  ],
+  "originalWholeAdultRating": {
+    "packId": "science-cs-medium-03",
+    "entries": 28,
+    "result": "ACCEPTED ADULT WHOLE-DECK RATING",
+    "descriptiveBandsNotQuotas": {
+      "common": 1,
+      "informed": 22,
+      "specialist": 5
+    },
+    "assessment": "The full deck predominantly requires informed school/practical scientific knowledge of laws, measurements, materials and industrial processes. Time constant, Reynolds number, strain gauge, microwave waveguide and magnetic-flux unit are harder edges; not assessed relative to science specialists.",
+    "rule": "General adult common / informed / specialist; no purity requirement, bridge quota or valid-alias deletion. Rating is independently accepted, not entry clearance."
+  },
+  "authorAdultRebindingReason": "The same informed-adult spectral-instrument identification is asked by exactly the same clue, with the same S board initial. Useful subtype names make answer acceptance fairer without substituting a common/specialist fact or purging valid names. Original accepted 1 common/22 informed/5 specialist whole rating remains exact historical authority; fresh independent binding of this changed alias/evidence object and the actual complete Medium deck is required.",
+  "exactUnchangedOther27MediumQuestionBindings": [
+    {
+      "id": "science-cs-medium-03-01",
+      "wholeQuestionSha256": "0f06a5290decbe0cdda19338dee31a72cc30c00b73199ee71b38be70c31ec6e3"
+    },
+    {
+      "id": "science-cs-medium-03-02",
+      "wholeQuestionSha256": "e48285686a64e8d01cbf2b75ef8f6eb8d2e7a85f62899f07e336091f75703048"
+    },
+    {
+      "id": "science-cs-medium-03-03",
+      "wholeQuestionSha256": "afa22d5381f3d7fe765abaea0f33890821d7599345fe132c4db2e79e11b08317"
+    },
+    {
+      "id": "science-cs-medium-03-04",
+      "wholeQuestionSha256": "d6c52b1c2f25783b29e8eedd93b96830e527cc4c858e3f7d3bca0118e4a268ed"
+    },
+    {
+      "id": "science-cs-medium-03-05",
+      "wholeQuestionSha256": "6fe73480f0848a8f4f0e4f5ed71d73060069b3582cfdd22b0c079e9a6715ecd4"
+    },
+    {
+      "id": "science-cs-medium-03-06",
+      "wholeQuestionSha256": "ae9c336e0fe79154b65e5ec2860c729cc72b8cb1fcf928c4901ff2ce2cae3d80"
+    },
+    {
+      "id": "science-cs-medium-03-07",
+      "wholeQuestionSha256": "dc0d0e0970fa1fd27b96c6249d5d4158f5f6f0a153701393a1634eccf95bada0"
+    },
+    {
+      "id": "science-cs-medium-03-08",
+      "wholeQuestionSha256": "c2439f5d7562776b91d93a76227b78168a3aa62f2d094def1113cd1e37a45e27"
+    },
+    {
+      "id": "science-cs-medium-03-09",
+      "wholeQuestionSha256": "d75f5bbba426f6eee3f4734118c614296b7695aa5f1e28bca5b02515e94b0714"
+    },
+    {
+      "id": "science-cs-medium-03-10",
+      "wholeQuestionSha256": "2cfb415c16e97ccac740265f08a3080e9821d34b519af2d938f63063fb8cded3"
+    },
+    {
+      "id": "science-cs-medium-03-11",
+      "wholeQuestionSha256": "3b27fb05f539d57d156bb6857c9bf341d91764e1accfbda504b8b5df2b80eaa7"
+    },
+    {
+      "id": "science-cs-medium-03-12",
+      "wholeQuestionSha256": "25ba520583f00c532c9e00cf0509821a90fb4a20c63adb60200368f4c9aeb2ac"
+    },
+    {
+      "id": "science-cs-medium-03-13",
+      "wholeQuestionSha256": "39a9c51ce1dcc35bc4f60ee51360e66a84d0406223c7a34906a36e216b1821c6"
+    },
+    {
+      "id": "science-cs-medium-03-14",
+      "wholeQuestionSha256": "e494cd59d613df0e1dae1398b21b5d94d873dc6e9629793275ee940dfa6efb40"
+    },
+    {
+      "id": "science-cs-medium-03-15",
+      "wholeQuestionSha256": "d4ce7f58e5445bf1e00594af8c3bdc46f5b7f9d964b2298c6dbb7454f2fdbb98"
+    },
+    {
+      "id": "science-cs-medium-03-16",
+      "wholeQuestionSha256": "8343b12128a9cbcf24833cd7f137a6977248171b50be071d179e15daf29d0b29"
+    },
+    {
+      "id": "science-cs-medium-03-17",
+      "wholeQuestionSha256": "662a7e65481403748dd055c1952453d7f3817a476fdaf2aabba0ff1e83b62d12"
+    },
+    {
+      "id": "science-cs-medium-03-18",
+      "wholeQuestionSha256": "32c9b38f4afb4b13ab1ef4afbacfbed51d4c961c30646c1d58a46143d0d980d7"
+    },
+    {
+      "id": "science-cs-medium-03-19",
+      "wholeQuestionSha256": "896cbe323e52a4b82777e97502254ad3f2417cd703cd05615d43fa5b718564d1"
+    },
+    {
+      "id": "science-cs-medium-03-20",
+      "wholeQuestionSha256": "8d173f155a811f6bd0e0613316fb5f24d7581a450661b3df751c64ceda805157"
+    },
+    {
+      "id": "science-cs-medium-03-22",
+      "wholeQuestionSha256": "61ddfcd7c9ffe4175d781ab173c4c35bfefcbf78506000c260491afdf93153ee"
+    },
+    {
+      "id": "science-cs-medium-03-23",
+      "wholeQuestionSha256": "371ec40a0310ba3870cea9a1ebd5069370114822d43c5a58876b187c94c14eb1"
+    },
+    {
+      "id": "science-cs-medium-03-24",
+      "wholeQuestionSha256": "e0ebeed90a9c7eee6f3b7611c4dbce7f6d9791033dc272b6de40f4d18def1419"
+    },
+    {
+      "id": "science-cs-medium-03-25",
+      "wholeQuestionSha256": "e7df556cb380fc046f3e9637068c3faa43764541b8f5dbf585fd82990fa53fab"
+    },
+    {
+      "id": "science-cs-medium-03-26",
+      "wholeQuestionSha256": "9c3c9a910cfe901ca04b64907e83974b08263066cbaeb5f42c6be1777f0227e9"
+    },
+    {
+      "id": "science-cs-medium-03-27",
+      "wholeQuestionSha256": "ea6ffbf95495e8ffd720a1b0f002ff63a1fefe1c8cef928578701ad35adbaca2"
+    },
+    {
+      "id": "science-cs-medium-03-28",
+      "wholeQuestionSha256": "58f44c5935f5ad162b87da4a5c368743e5f3c5753f4e965d321ea53d58d68554"
+    }
+  ],
+  "entireOriginal83OtherQuestionsAndAll84OriginalSourceObjectsRemainUnmodified": true,
+  "concurrentReleaseRelevance": [
+    {
+      "deckId": "general-en-hard-04",
+      "candidate": {
+        "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/packs/general-en-hard-04.json",
+        "sha256": "9a69108a28eb106121ee699000564bbffa3a0c40d0d141a08a37d6e1306f4fb4",
+        "bytes": 10544,
+        "role": "actual input read"
+      },
+      "entireActualQuestionsAndAllAliases": [
+        {
+          "id": "general-en-hard-04-01",
+          "text": "What small sheath finishes the end of a shoelace to prevent fraying and help it pass through eyelets?",
+          "initial": "A",
+          "answer": "Aglet",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Aiglet"],
+          "sources": ["https://en.wikipedia.org/wiki/Aglet"]
+        },
+        {
+          "id": "general-en-hard-04-02",
+          "text": "What whitework embroidery combines stitched motifs with small holes finished with overcast stitches?",
+          "initial": "B",
+          "answer": "Broderie anglaise",
+          "language": "en",
+          "category": "general",
+          "aliases": ["English embroidery"],
+          "sources": ["https://en.wikipedia.org/wiki/Broderie_anglaise"]
+        },
+        {
+          "id": "general-en-hard-04-03",
+          "text": "What decorative belt hook or clasp carries useful household items on suspended chains?",
+          "initial": "C",
+          "answer": "Chatelaine",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Chatelaine_(chain)"]
+        },
+        {
+          "id": "general-en-hard-04-04",
+          "text": "What rhetorical arrangement reverses the order of parallel elements in an ABBA pattern?",
+          "initial": "CH",
+          "answer": "Chiasmus",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Chiasmus"]
+        },
+        {
+          "id": "general-en-hard-04-05",
+          "text": "What weaving mechanism raises selected warp threads to produce small repeating woven patterns, less elaborate than those of a Jacquard mechanism?",
+          "initial": "D",
+          "answer": "Dobby",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Dobby loom", "Dobby mechanism"],
+          "sources": ["https://en.wikipedia.org/wiki/Dobby_loom"]
+        },
+        {
+          "id": "general-en-hard-04-06",
+          "text": "What ornamental table centrepiece has branches or holders for small dishes, fruit or flowers?",
+          "initial": "E",
+          "answer": "Epergne",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Epergne"]
+        },
+        {
+          "id": "general-en-hard-04-07",
+          "text": "What portable folding chair is traditionally used by a bishop away from his own cathedral throne?",
+          "initial": "F",
+          "answer": "Faldstool",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Faldstool"]
+        },
+        {
+          "id": "general-en-hard-04-08",
+          "text": "What ornamental trimming, used on clothing and upholstery, originally took its name from thread with a cord or wire in its centre?",
+          "initial": "G",
+          "answer": "Gimp",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Gimp braid"],
+          "sources": ["https://en.wikipedia.org/wiki/Gimp_(thread)"]
+        },
+        {
+          "id": "general-en-hard-04-09",
+          "text": "What loop or eye on a loom carries an individual warp thread so that it can be raised or lowered?",
+          "initial": "H",
+          "answer": "Heddle",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Heald"],
+          "sources": ["https://en.wikipedia.org/wiki/Heddle"]
+        },
+        {
+          "id": "general-en-hard-04-10",
+          "text": "What decorative technique inserts shaped pieces of wood into a solid wooden matrix, rather than assembling a surface from thin veneers?",
+          "initial": "I",
+          "answer": "Intarsia",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Intarsia"]
+        },
+        {
+          "id": "general-en-hard-04-11",
+          "text": "What pierced stone or lattice screen is characteristic of many Indian and Indo-Islamic buildings?",
+          "initial": "J",
+          "answer": "Jali",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Jaali"],
+          "sources": ["https://en.wikipedia.org/wiki/Jali"]
+        },
+        {
+          "id": "general-en-hard-04-12",
+          "text": "What Japanese craft interlaces strands to create decorative braided cords rather than knotted fabric?",
+          "initial": "K",
+          "answer": "Kumihimo",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Kumi himo"],
+          "sources": ["https://en.wikipedia.org/wiki/Kumihimo"]
+        },
+        {
+          "id": "general-en-hard-04-13",
+          "text": "What hanging or flap-like decorative part of a garment can extend from a cap or headdress?",
+          "initial": "L",
+          "answer": "Lappet",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Lappet"]
+        },
+        {
+          "id": "general-en-hard-04-14",
+          "text": "What decorative woodworking technique lays pieces of veneer into a design on the surface of an object?",
+          "initial": "M",
+          "answer": "Marquetry",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Marquetry"]
+        },
+        {
+          "id": "general-en-hard-04-15",
+          "text": "What hand tool with crossbars at opposite ends is used to wind yarn into a skein?",
+          "initial": "N",
+          "answer": "Niddy-noddy",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Niddy noddy", "Niddynoddy"],
+          "sources": ["https://en.wikipedia.org/wiki/Niddy_noddy"]
+        },
+        {
+          "id": "general-en-hard-04-16",
+          "text": "What moulding profile consists of an S-shaped curve combining concave and convex parts?",
+          "initial": "O",
+          "answer": "Ogee",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Ogee"]
+        },
+        {
+          "id": "general-en-hard-04-17",
+          "text": "What French-derived collective term describes decorative trimmings such as tassels, fringes, cords and braids?",
+          "initial": "P",
+          "answer": "Passementerie",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Passement", "Passamenterie"],
+          "sources": ["https://en.wikipedia.org/wiki/Passementerie"]
+        },
+        {
+          "id": "general-en-hard-04-18",
+          "text": "What musical composition combines different pre-existing melodies, often humorously, in counterpoint?",
+          "initial": "Q",
+          "answer": "Quodlibet",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Quodlibet"]
+        },
+        {
+          "id": "general-en-hard-04-19",
+          "text": "What metalworking technique raises a relief design by hammering a metal sheet from its reverse side?",
+          "initial": "R",
+          "answer": "Repoussé",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Repoussé work", "Repoussage"],
+          "sources": ["https://en.wikipedia.org/wiki/Repouss%C3%A9_and_chasing"]
+        },
+        {
+          "id": "general-en-hard-04-20",
+          "text": "What decorative material imitates marble using a mixture based on gypsum plaster and pigments?",
+          "initial": "S",
+          "answer": "Scagliola",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Scagliola"]
+        },
+        {
+          "id": "general-en-hard-04-21",
+          "text": "What Japanese alloy of copper with a small proportion of gold can be treated to develop a dark patina?",
+          "initial": "SH",
+          "answer": "Shakudō",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Shakud%C5%8D"]
+        },
+        {
+          "id": "general-en-hard-04-22",
+          "text": "What type of wild silk is produced by silkworms of several Antheraea species rather than the domesticated mulberry silkworm?",
+          "initial": "T",
+          "answer": "Tussar silk",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Tussore", "Tussore silk", "Tasar silk", "Tussah silk"],
+          "sources": ["https://en.wikipedia.org/wiki/Tussar_silk"]
+        },
+        {
+          "id": "general-en-hard-04-23",
+          "text": "What word describes someone who gives opinions or advice on matters beyond their expertise?",
+          "initial": "U",
+          "answer": "Ultracrepidarian",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Ultracrepidarianist"],
+          "sources": ["https://en.wikipedia.org/wiki/Ultracrepidarianism"]
+        },
+        {
+          "id": "general-en-hard-04-24",
+          "text": "What heraldic fur is represented by alternating bell-shaped pieces, conventionally blue and white?",
+          "initial": "V",
+          "answer": "Vair",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Vair"]
+        },
+        {
+          "id": "general-en-hard-04-25",
+          "text": "What medieval women's head covering surrounds the neck and chin while leaving the face exposed?",
+          "initial": "W",
+          "answer": "Wimple",
+          "language": "en",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Wimple"]
+        },
+        {
+          "id": "general-en-hard-04-26",
+          "text": "What Greek-derived architectural term denoted the covered portico of an ancient Greek gymnasium?",
+          "initial": "X",
+          "answer": "Xystus",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Xystos"],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Xystus_(architectural_term)"
+          ]
+        },
+        {
+          "id": "general-en-hard-04-27",
+          "text": "What type of Ottoman short sword has a forward-curving blade and typically no crossguard?",
+          "initial": "Y",
+          "answer": "Yataghan",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Yatagan", "Ataghan"],
+          "sources": ["https://en.wikipedia.org/wiki/Yatagan"]
+        },
+        {
+          "id": "general-en-hard-04-28",
+          "text": "What Renaissance fashion accessory was a small fur pelt, often with a jewelled head and paws, carried or worn by wealthy women?",
+          "initial": "Z",
+          "answer": "Zibellino",
+          "language": "en",
+          "category": "general",
+          "aliases": ["Flea fur", "Flea-fur"],
+          "sources": ["https://en.wikipedia.org/wiki/Zibellino"]
+        }
+      ],
+      "completeSourceBinding": {
+        "path": ".artifacts/continuation/bundles/p12/general/batches/b03-v3/sources.json",
+        "sha256": "e046639d250a996bf58e42d35b1ae62324599faf2adfc22ed6508259ff443698",
+        "bytes": 183539,
+        "role": "actual input read"
+      },
+      "proposedScienceCorrectionRelevantToFrozenCandidate": false,
+      "authorReason": "All 28 actual predicates concern named crafts, objects, garments, rhetorical/musical forms and Shakudō alloy identity. None asks spectral measurement or supplies any of the four new native optical-instrument names. Shakudō's composition/patination is distinct from the existing Wiedemann–Franz conductivity ratio; this correction changes neither.",
+      "coordination": "No Science change is applied to this frozen candidate, no release rebind claimed. Coordinator alone must evaluate any later real relevance delta before staging/promotion."
+    },
+    {
+      "deckId": "general-cs-easy-04",
+      "candidate": {
+        "path": ".artifacts/continuation/bundles/p12/general/batches/b04-v2/packs/general-cs-easy-04.json",
+        "sha256": "99d9f9fc76b4dcd4f32f813dcf21e1f5872b510e03c11f498b8eaa79eabc9cf2",
+        "bytes": 11142,
+        "role": "actual input read"
+      },
+      "entireActualQuestionsAndAllAliases": [
+        {
+          "id": "general-cs-easy-04-01",
+          "text": "Jak se nazývá hranaté zavazadlo s držadlem určené především k nošení dokumentů nebo školních potřeb?",
+          "initial": "A",
+          "answer": "Aktovka",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Diplomatka", "Školní aktovka"],
+          "sources": ["https://en.wikipedia.org/wiki/Briefcase"]
+        },
+        {
+          "id": "general-cs-easy-04-02",
+          "text": "Jaká optická pomůcka má dvě čočky v obrubě a nosí se před očima?",
+          "initial": "B",
+          "answer": "Brýle",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Glasses"]
+        },
+        {
+          "id": "general-cs-easy-04-03",
+          "text": "Jak se nazývá děrovaná kuchyňská nádoba, v níž slijeme vodu z uvařených těstovin?",
+          "initial": "C",
+          "answer": "Cedník",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Sítko"],
+          "sources": ["https://en.wikipedia.org/wiki/Colander"]
+        },
+        {
+          "id": "general-cs-easy-04-04",
+          "text": "Jak se nazývá cukrovinka z kakaových součástí a cukru, prodávaná často v tabulkách?",
+          "initial": "Č",
+          "answer": "Čokoláda",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Chocolate"]
+        },
+        {
+          "id": "general-cs-easy-04-05",
+          "text": "Jak se nazývá slavnostní moučník, do kterého se při narozeninách často zapichují svíčky?",
+          "initial": "D",
+          "answer": "Dort",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Narozeninový dort"],
+          "sources": ["https://en.wikipedia.org/wiki/Birthday_cake"]
+        },
+        {
+          "id": "general-cs-easy-04-06",
+          "text": "Jak se nazývá přenosná jídelní nádoba používaná například táborníky a vojáky?",
+          "initial": "E",
+          "answer": "Ešus",
+          "language": "cs",
+          "category": "general",
+          "aliases": [
+            "Jídelní miska",
+            "Vojenská jídelní souprava",
+            "Esšálek",
+            "Menážka"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mess_kit",
+            "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=es%C5%A1%C3%A1lek&sti=EMPTY&where=hesla&hsubstr=no",
+            "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=men%C3%A1%C5%BEka&sti=EMPTY&where=hesla&hsubstr=no"
+          ]
+        },
+        {
+          "id": "general-cs-easy-04-07",
+          "text": "Jak se hovorově nazývá pomůcka na kouření tabáku s hlavičkou a dutou troubelí?",
+          "initial": "F",
+          "answer": "Fajfka",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Dýmka", "Fajka", "Fejfka"],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Tobacco_pipe",
+            "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=fajfka&sti=15021&where=hesla&hsubstr=no"
+          ]
+        },
+        {
+          "id": "general-cs-easy-04-08",
+          "text": "Jak se nazývá uzavřený prostor určený k parkování automobilu?",
+          "initial": "G",
+          "answer": "Garáž",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Garage_(residential)"]
+        },
+        {
+          "id": "general-cs-easy-04-09",
+          "text": "Jak se nazývá zavěšené textilní či síťované lůžko, které lze upevnit například mezi dva stromy?",
+          "initial": "H",
+          "answer": "Houpací síť",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Hamak", "Hammock", "Hamaka"],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Hammock",
+            "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=hamak&sti=EMPTY&where=hesla&hsubstr=no"
+          ]
+        },
+        {
+          "id": "general-cs-easy-04-10",
+          "text": "Jak se nazývá silná ochranná rukavice, kterou držíme horký pekáč při vyndávání z trouby?",
+          "initial": "Ch",
+          "answer": "Chňapka",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Kuchyňská chňapka", "Kuchyňská rukavice"],
+          "sources": ["https://en.wikipedia.org/wiki/Oven_glove"]
+        },
+        {
+          "id": "general-cs-easy-04-11",
+          "text": "Jak se nazývá podání léčiva do těla jehlou, například pomocí stříkačky?",
+          "initial": "I",
+          "answer": "Injekce",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Injection_(medicine)"]
+        },
+        {
+          "id": "general-cs-easy-04-12",
+          "text": "Jak se nazývá cedulka se jménem člověka, kterou může nosit například účastník konference?",
+          "initial": "J",
+          "answer": "Jmenovka",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Name_tag"]
+        },
+        {
+          "id": "general-cs-easy-04-13",
+          "text": "Jak se nazývá horní díl oděvu s límcem a knoflíky vpředu, obvykle s dlouhými či krátkými rukávy?",
+          "initial": "K",
+          "answer": "Košile",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Dress_shirt"]
+        },
+        {
+          "id": "general-cs-easy-04-14",
+          "text": "Jak se nazývá silný dlouhý útvar ze spletených nebo zkroucených vláken, používaný například k tažení?",
+          "initial": "L",
+          "answer": "Lano",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Provaz"],
+          "sources": ["https://en.wikipedia.org/wiki/Rope"]
+        },
+        {
+          "id": "general-cs-easy-04-15",
+          "text": "Jak se nazývá menší otevřená nádoba s prohloubeným dnem, z níž lze jíst například kompot?",
+          "initial": "M",
+          "answer": "Miska",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Mísa"],
+          "sources": ["https://en.wikipedia.org/wiki/Bowl"]
+        },
+        {
+          "id": "general-cs-easy-04-16",
+          "text": "Která součást příboru má čepel a slouží ke krájení jídla?",
+          "initial": "N",
+          "answer": "Nůž",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Příborový nůž"],
+          "sources": ["https://en.wikipedia.org/wiki/Table_knife"]
+        },
+        {
+          "id": "general-cs-easy-04-17",
+          "text": "Jak se nazývá pomůcka, kterou znovu vytvoříme špičku na tužce?",
+          "initial": "O",
+          "answer": "Ořezávátko",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Ořezávač tužek", "Struhátko", "Strouhátko"],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Pencil_sharpener",
+            "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=struh%C3%A1tko&sti=88381&where=hesla&hsubstr=no"
+          ]
+        },
+        {
+          "id": "general-cs-easy-04-18",
+          "text": "Jak se nazývá krátký pletený oděv na chodidlo, který obvykle oblékáme před obutím?",
+          "initial": "P",
+          "answer": "Ponožka",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Sock"]
+        },
+        {
+          "id": "general-cs-easy-04-19",
+          "text": "Jakým savým kusem textilie si po umytí osušíme ruce nebo tělo?",
+          "initial": "R",
+          "answer": "Ručník",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Osuška"],
+          "sources": ["https://en.wikipedia.org/wiki/Towel"]
+        },
+        {
+          "id": "general-cs-easy-04-20",
+          "text": "Jak se nazývá plátek masa obalený v mouce, vejci a strouhance a usmažený na tuku?",
+          "initial": "Ř",
+          "answer": "Řízek",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Smažený řízek", "Obalovaný řízek"],
+          "sources": ["https://en.wikipedia.org/wiki/Schnitzel"]
+        },
+        {
+          "id": "general-cs-easy-04-21",
+          "text": "Jak se nazývá drobná vlasová pomůcka se dvěma rameny, která přidržuje pramen vlasů na místě?",
+          "initial": "S",
+          "answer": "Sponka",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Vlásenka", "Vlasová sponka"],
+          "sources": ["https://en.wikipedia.org/wiki/Bobby_pin"]
+        },
+        {
+          "id": "general-cs-easy-04-22",
+          "text": "Jak se nazývá mycí přípravek určený především k mytí vlasů a pokožky hlavy?",
+          "initial": "Š",
+          "answer": "Šampon",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Shampon", "Shampoon"],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Shampoo",
+            "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=%C5%A1ampon&sti=EMPTY&where=hesla&hsubstr=no"
+          ]
+        },
+        {
+          "id": "general-cs-easy-04-23",
+          "text": "Jak se nazývá papírový hygienický prostředek používaný k očistě po použití toalety?",
+          "initial": "T",
+          "answer": "Toaletní papír",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Záchodový papír"],
+          "sources": ["https://en.wikipedia.org/wiki/Toilet_paper"]
+        },
+        {
+          "id": "general-cs-easy-04-24",
+          "text": "Jak se nazývá sanitární nádoba s odtokem, nad kterou si běžně myjeme ruce?",
+          "initial": "U",
+          "answer": "Umyvadlo",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Sink"]
+        },
+        {
+          "id": "general-cs-easy-04-25",
+          "text": "Jak se nazývá otevřená nádoba určená k vystavení řezaných květin?",
+          "initial": "V",
+          "answer": "Váza",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Vase"]
+        },
+        {
+          "id": "general-cs-easy-04-26",
+          "text": "Jak se nazývá destilovaný alkoholický nápoj z obilí, který obvykle zraje v dřevěných sudech?",
+          "initial": "W",
+          "answer": "Whisky",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Whiskey"],
+          "sources": ["https://en.wikipedia.org/wiki/Whisky"]
+        },
+        {
+          "id": "general-cs-easy-04-27",
+          "text": "Jak se nazývá ochranná část oděvu uvazovaná před tělo, například při vaření?",
+          "initial": "Z",
+          "answer": "Zástěra",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Apron"]
+        },
+        {
+          "id": "general-cs-easy-04-28",
+          "text": "Jak se nazývá pomůcka se dvěma postranicemi a příčkami, po níž vylezeme například ke stropu?",
+          "initial": "Ž",
+          "answer": "Žebřík",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Ladder"]
+        }
+      ],
+      "completeSourceBinding": {
+        "path": ".artifacts/continuation/bundles/p12/general/batches/b04-v2/sources.json",
+        "sha256": "3c135c822e4e81dbb0446387124ffb3c3876f7f87600c359b664c4f8667c09fa",
+        "bytes": 222568,
+        "role": "actual input read"
+      },
+      "proposedScienceCorrectionRelevantToFrozenCandidate": false,
+      "authorReason": "The actual Brýle clue asks for a worn pair of framed lenses, not a device measuring properties of light against wavelength/frequency. None of all 28 predicates or finite aliases asks or accepts any proposed spectrometer form. Existing Sponka is a hair fastener, not the existing split mechanical Závlačka; no new Science fastener term is introduced.",
+      "coordination": "No Science change is applied to this frozen candidate, no release rebind claimed. Coordinator alone must evaluate any later real relevance delta before staging/promotion."
+    },
+    {
+      "deckId": "geography-en-easy-04",
+      "candidate": {
+        "path": ".artifacts/continuation/bundles/p12/geography/batches/b03-v2/packs/geography-en-easy-04.json",
+        "sha256": "a10f313fad868b7d203f91306f60287473d5dae3bce2b97124422566abd9b880",
+        "bytes": 10732,
+        "role": "actual input read"
+      },
+      "entireActualQuestionsAndAllAliases": [
+        {
+          "initial": "A",
+          "text": "Which Alpine country has Vienna as its capital?",
+          "answer": "Austria",
+          "aliases": ["Republic of Austria", "Österreich"],
+          "id": "geography-en-easy-04-01",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Austria"]
+        },
+        {
+          "initial": "B",
+          "text": "Which European country is divided into Flanders, Wallonia and the Brussels-Capital Region?",
+          "answer": "Belgium",
+          "aliases": ["Kingdom of Belgium", "België", "Belgique", "Belgien"],
+          "id": "geography-en-easy-04-02",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Belgium"]
+        },
+        {
+          "initial": "C",
+          "text": "Which US state contains both Los Angeles and San Francisco?",
+          "answer": "California",
+          "aliases": ["State of California", "CA"],
+          "id": "geography-en-easy-04-03",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/California"]
+        },
+        {
+          "initial": "CH",
+          "text": "What airport procedure confirms a passenger's arrival for a booked flight and may include handing over hold baggage?",
+          "answer": "Check-in",
+          "aliases": ["check in", "checking in"],
+          "id": "geography-en-easy-04-04",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Airport_check-in"]
+        },
+        {
+          "initial": "D",
+          "text": "Which large Texas city is linked with Fort Worth in the name of a major international airport?",
+          "answer": "Dallas",
+          "aliases": [],
+          "id": "geography-en-easy-04-05",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Dallas"]
+        },
+        {
+          "initial": "E",
+          "text": "Which country within the United Kingdom contains Manchester, Liverpool and Birmingham?",
+          "answer": "England",
+          "aliases": [],
+          "id": "geography-en-easy-04-06",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/England"]
+        },
+        {
+          "initial": "F",
+          "text": "What ornamental water feature sends jets or streams of water into the air in a public square or garden?",
+          "answer": "Fountain",
+          "aliases": [],
+          "id": "geography-en-easy-04-07",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Fountain"]
+        },
+        {
+          "initial": "G",
+          "text": "Which West African country on the Gulf of Guinea has Accra as its capital?",
+          "answer": "Ghana",
+          "aliases": ["Republic of Ghana", "Gold Coast"],
+          "id": "geography-en-easy-04-08",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Ghana"]
+        },
+        {
+          "initial": "H",
+          "text": "Which Chinese special administrative region includes Kowloon and Victoria Harbour?",
+          "answer": "Hong Kong",
+          "aliases": [
+            "Hong Kong Special Administrative Region",
+            "HKSAR",
+            "Hongkong"
+          ],
+          "id": "geography-en-easy-04-09",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Hong_Kong"]
+        },
+        {
+          "initial": "I",
+          "text": "Which Southeast Asian island country includes Java and Bali?",
+          "answer": "Indonesia",
+          "aliases": ["Republic of Indonesia"],
+          "id": "geography-en-easy-04-10",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Indonesia"]
+        },
+        {
+          "initial": "J",
+          "text": "What temporary sleep disturbance can follow rapid travel across several time zones?",
+          "answer": "Jet lag",
+          "aliases": ["jetlag", "jet-lag"],
+          "id": "geography-en-easy-04-11",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Jet_lag"]
+        },
+        {
+          "initial": "K",
+          "text": "Which large Central Asian country has Astana as its capital?",
+          "answer": "Kazakhstan",
+          "aliases": ["Republic of Kazakhstan", "Qazaqstan"],
+          "id": "geography-en-easy-04-12",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Kazakhstan"]
+        },
+        {
+          "initial": "L",
+          "text": "Which mountainous region of northwestern England contains Windermere and Derwentwater?",
+          "answer": "Lake District",
+          "aliases": ["the Lakes", "Lakeland"],
+          "id": "geography-en-easy-04-13",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Lake_District"]
+        },
+        {
+          "initial": "M",
+          "text": "Which North African country contains the cities of Rabat, Casablanca and Marrakesh?",
+          "answer": "Morocco",
+          "aliases": ["Kingdom of Morocco", "Maroc"],
+          "id": "geography-en-easy-04-14",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Morocco"]
+        },
+        {
+          "initial": "N",
+          "text": "Which West African country has Abuja as its capital and Lagos as its largest city?",
+          "answer": "Nigeria",
+          "aliases": ["Federal Republic of Nigeria"],
+          "id": "geography-en-easy-04-15",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Nigeria"]
+        },
+        {
+          "initial": "O",
+          "text": "What geographical region includes Australasia, Melanesia, Micronesia and Polynesia?",
+          "answer": "Oceania",
+          "aliases": [],
+          "id": "geography-en-easy-04-16",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Oceania"]
+        },
+        {
+          "initial": "P",
+          "text": "What official travel document identifies its holder and their nationality when travelling abroad?",
+          "answer": "Passport",
+          "aliases": [],
+          "id": "geography-en-easy-04-17",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Passport"]
+        },
+        {
+          "initial": "Q",
+          "text": "Which airline is Australia's flag carrier and a founding member of the Oneworld alliance?",
+          "answer": "Qantas",
+          "aliases": [
+            "Qantas Airways",
+            "Qantas Airways Limited",
+            "Queensland and Northern Territory Aerial Services",
+            "The Flying Kangaroo",
+            "Flying Kangaroo"
+          ],
+          "id": "geography-en-easy-04-18",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Qantas"]
+        },
+        {
+          "initial": "R",
+          "text": "Which sea lies between northeastern Africa and the Arabian Peninsula?",
+          "answer": "Red Sea",
+          "aliases": [],
+          "id": "geography-en-easy-04-19",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Red_Sea"]
+        },
+        {
+          "initial": "S",
+          "text": "Which Scandinavian country has Stockholm as its capital?",
+          "answer": "Sweden",
+          "aliases": ["Kingdom of Sweden", "Sverige"],
+          "id": "geography-en-easy-04-20",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Sweden"]
+        },
+        {
+          "initial": "SH",
+          "text": "What is the Japanese name for the high-speed railway network linking cities such as Tokyo and Osaka?",
+          "answer": "Shinkansen",
+          "aliases": ["bullet train", "bullet trains"],
+          "id": "geography-en-easy-04-21",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Shinkansen"]
+        },
+        {
+          "initial": "T",
+          "text": "Which island off southeastern China contains Taipei and Kaohsiung?",
+          "answer": "Taiwan",
+          "aliases": ["Formosa", "Ilha Formosa", "Taiwan Island"],
+          "id": "geography-en-easy-04-22",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Geography_of_Taiwan"]
+        },
+        {
+          "initial": "U",
+          "text": "Which Gulf federation has Abu Dhabi as its capital and includes Dubai?",
+          "answer": "United Arab Emirates",
+          "aliases": ["UAE", "U.A.E.", "the Emirates"],
+          "id": "geography-en-easy-04-23",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/United_Arab_Emirates"]
+        },
+        {
+          "initial": "V",
+          "text": "What elongated low area between hills or mountains often contains a river or stream?",
+          "answer": "Valley",
+          "aliases": ["vale"],
+          "id": "geography-en-easy-04-24",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Valley"]
+        },
+        {
+          "initial": "W",
+          "text": "Which English town on the Thames is known for its royal castle opposite Eton?",
+          "answer": "Windsor",
+          "aliases": ["New Windsor"],
+          "id": "geography-en-easy-04-25",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Windsor%2C_Berkshire"]
+        },
+        {
+          "initial": "X",
+          "text": "Which Mexico City borough is known for canals and traditional chinampa gardens?",
+          "answer": "Xochimilco",
+          "aliases": [],
+          "id": "geography-en-easy-04-26",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Xochimilco"]
+        },
+        {
+          "initial": "Y",
+          "text": "Which sea lies between mainland China and the Korean Peninsula?",
+          "answer": "Yellow Sea",
+          "aliases": [
+            "North Sea",
+            "Huáng Hǎi",
+            "Hwanghae",
+            "Hwang Hai",
+            "West Sea",
+            "Seohae"
+          ],
+          "id": "geography-en-easy-04-27",
+          "category": "geography",
+          "language": "en",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Yellow_Sea",
+            "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_The_Yellow_Sea_of_China"
+          ]
+        },
+        {
+          "initial": "Z",
+          "text": "What pedestrian road crossing is marked by alternating light and dark stripes?",
+          "answer": "Zebra crossing",
+          "aliases": ["marked crosswalk"],
+          "id": "geography-en-easy-04-28",
+          "category": "geography",
+          "language": "en",
+          "sources": ["https://en.wikipedia.org/wiki/Zebra_crossing"]
+        }
+      ],
+      "completeSourceBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/batches/b03-v2/sources.json",
+        "sha256": "f836fc4473b2b0669cdc41eb5fc6d3e5843001cd24c42aaed46f57f085bc06de",
+        "bytes": 315874,
+        "role": "actual input read"
+      },
+      "proposedScienceCorrectionRelevantToFrozenCandidate": false,
+      "authorReason": "All 28 actual predicates and full aliases identify places/travel features, an airline/network, jet lag or a marked crossing. None identifies a spectral instrument or accepts any new native optical form. New evidence does not alter any geographic/travel predicate or source judgment.",
+      "coordination": "No Science change is applied to this frozen candidate, no release rebind claimed. Coordinator alone must evaluate any later real relevance delta before staging/promotion."
+    }
+  ],
+  "currentIndependent": 0,
+  "releaseCleared": false
+}

@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 2,
+  "id": "science-cs-medium-03",
+  "title": "Věda a technika · Střední · 03",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": [
+    "HexY contributors"
+  ],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-medium-03-01",
+      "text": "Jaký přístroj měří rychlost větru, například pomocí otáčivých misek?",
+      "initial": "A",
+      "answer": "Anemometr",
+      "language": "cs",
+      "aliases": [
+        "Větroměr"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anemometer"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-02",
+      "text": "Jaký prvek se při zahřátí prohýbá kvůli rozdílné tepelné roztažnosti dvou spojených kovů?",
+      "initial": "B",
+      "answer": "Bimetalový pásek",
+      "language": "cs",
+      "aliases": [
+        "Bimetal",
+        "Bimetalický pásek"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bimetallic_strip"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-03",
+      "text": "Jaký zákon říká, že velikost elektrostatické síly mezi dvěma bodovými náboji ve vakuu je nepřímo úměrná druhé mocnině jejich vzdálenosti?",
+      "initial": "C",
+      "answer": "Coulombův zákon",
+      "language": "cs",
+      "aliases": [
+        "Coulombův elektrostatický zákon",
+        "Coulombův zákon elektrostatiky"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Coulomb%27s_law"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-04",
+      "text": "Jaký parametr při exponenciálním poklesu udává dobu, za niž veličina klesne na 1/e původní hodnoty?",
+      "initial": "Č",
+      "answer": "Časová konstanta",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Time_constant"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-05",
+      "text": "Jaký proces odstraňuje rozpuštěné soli z mořské vody za účelem získání sladké vody?",
+      "initial": "D",
+      "answer": "Desalinace",
+      "language": "cs",
+      "aliases": [
+        "Odsolování",
+        "Odsolení"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Desalination"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-06",
+      "text": "Jaké zařízení odstraňuje prach z proudícího plynu elektrickým nabíjením a zachycováním částic?",
+      "initial": "E",
+      "answer": "Elektrostatický odlučovač",
+      "language": "cs",
+      "aliases": [
+        "Elektrofiltr",
+        "Elektrostatický filtr"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electrostatic_precipitator"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-07",
+      "text": "Jak se nazývá magnetické uspořádání s rovnoběžně orientovanými atomovými momenty v doménách, typické pro železo?",
+      "initial": "F",
+      "answer": "Feromagnetismus",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ferromagnetism"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-08",
+      "text": "Jaký proces nanáší kovovou vrstvu na předmět zapojený jako katoda redukcí kovových iontů pomocí elektrického proudu?",
+      "initial": "G",
+      "answer": "Galvanické pokovování",
+      "language": "cs",
+      "aliases": [
+        "Elektrolytické pokovování",
+        "Elektropokovování",
+        "Elektrodepozice",
+        "Galvanostegie"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Electroplating",
+        "https://cs.wikipedia.org/wiki/Galvanick%C3%A9_pokovov%C3%A1n%C3%AD"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-09",
+      "text": "Jak se obecně nazývá plovoucí přístroj pro měření hustoty kapalin?",
+      "initial": "H",
+      "answer": "Hustoměr",
+      "language": "cs",
+      "aliases": [
+        "Areometr",
+        "Plovákový hustoměr"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hydrometer",
+        "https://cs.wikipedia.org/wiki/Hustom%C4%9Br"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-10",
+      "text": "Jak se nazývá světélkování vznikající při chemické reakci bez vysoké teploty žhnutí?",
+      "initial": "Ch",
+      "answer": "Chemiluminiscence",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chemiluminescence"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-11",
+      "text": "Jaký termodynamický děj probíhá za stálé teploty?",
+      "initial": "I",
+      "answer": "Izotermický děj",
+      "language": "cs",
+      "aliases": [
+        "Izotermický proces"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Isothermal_process"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-12",
+      "text": "Jaký zákon udává tepelný výkon rezistoru jako součin jeho odporu a druhé mocniny stálého elektrického proudu?",
+      "initial": "J",
+      "answer": "Jouleův zákon",
+      "language": "cs",
+      "aliases": [
+        "Jouleův tepelný zákon",
+        "Jouleův–Lenzův zákon",
+        "Jouleův-Lenzův zákon",
+        "Joule-Lenzův zákon",
+        "První Jouleův zákon"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Joule_heating"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-13",
+      "text": "Jaký jev může vytáhnout vodu do úzké skleněné trubičky díky smáčení a povrchovému napětí?",
+      "initial": "K",
+      "answer": "Kapilarita",
+      "language": "cs",
+      "aliases": [
+        "Kapilární elevace",
+        "Kapilární vzlínání"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Capillary_action"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-14",
+      "text": "Jak se nazývá uspořádané proudění tekutiny ve vrstvách bez turbulentního promíchávání?",
+      "initial": "L",
+      "answer": "Laminární proudění",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Laminar_flow"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-15",
+      "text": "Jaká materiálová veličina udává teplo potřebné k ohřátí jednotky hmotnosti látky o jeden kelvin?",
+      "initial": "M",
+      "answer": "Měrná tepelná kapacita",
+      "language": "cs",
+      "aliases": [
+        "Měrné teplo"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Specific_heat_capacity"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-16",
+      "text": "Jaká slitina niklu a chromu se používá pro odporové topné dráty?",
+      "initial": "N",
+      "answer": "Nichrom",
+      "language": "cs",
+      "aliases": [
+        "Nikrom",
+        "NiCr"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nichrome",
+        "https://cs.wikipedia.org/wiki/Nichrom"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-17",
+      "text": "Jaký zákon udává přímo úměrný vztah napětí a proudu v ohmickém vodiči za stálé teploty?",
+      "initial": "O",
+      "answer": "Ohmův zákon",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ohm%27s_law"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-18",
+      "text": "Jaký jev vyvolá elektrický náboj při mechanickém namáhání některých krystalů?",
+      "initial": "P",
+      "answer": "Piezoelektrický jev",
+      "language": "cs",
+      "aliases": [
+        "Piezoelektřina",
+        "Piezoelektrický efekt"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Piezoelectricity"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-19",
+      "text": "Jaké bezrozměrné číslo porovnává setrvačné a vazké účinky v proudící tekutině?",
+      "initial": "R",
+      "answer": "Reynoldsovo číslo",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reynolds_number"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-20",
+      "text": "Jaká zasouvatelná součást jaderného reaktoru pohlcuje neutrony a tím reguluje štěpnou reakci?",
+      "initial": "Ř",
+      "answer": "Řídicí tyč",
+      "language": "cs",
+      "aliases": [
+        "Regulační tyč",
+        "Absorpční tyč",
+        "Řídicí tyč reaktoru"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Control_rod",
+        "https://cs.wikipedia.org/wiki/%C5%98%C3%ADdic%C3%AD_ty%C4%8D"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-21",
+      "text": "Jaký přístroj měří vlastnosti světla v závislosti na vlnové délce nebo frekvenci?",
+      "initial": "S",
+      "answer": "Spektrometr",
+      "language": "cs",
+      "aliases": [
+        "Optický spektrometr",
+        "Spektroskop",
+        "Spektrograf",
+        "Spektrofotometr",
+        "Spektroradiometr"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spectrometer",
+        "https://en.wikipedia.org/wiki/Optical_spectrometer",
+        "https://prirucka.ujc.cas.cz/?slovo=spektroskop",
+        "https://prirucka.ujc.cas.cz/?slovo=spektrograf",
+        "https://prirucka.ujc.cas.cz/?slovo=spektrofotometr",
+        "https://prirucka.ujc.cas.cz/?slovo=spektroradiometr"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-22",
+      "text": "Jaký převod používá šroubovitý hřídel zabírající do ozubeného kola?",
+      "initial": "Š",
+      "answer": "Šnekový převod",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Worm_drive"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-23",
+      "text": "Jaký snímač měří mechanickou deformaci prostřednictvím změny elektrického odporu?",
+      "initial": "T",
+      "answer": "Tenzometr",
+      "language": "cs",
+      "aliases": [
+        "Odporový tenzometr",
+        "Tenzometrický snímač"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Strain_gauge"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-24",
+      "text": "Jaká směs barviv mění barvu v širokém rozsahu pH a rozlišuje kyselé i zásadité roztoky?",
+      "initial": "U",
+      "answer": "Univerzální indikátor",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Universal_indicator"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-25",
+      "text": "Jak se nazývá dutá vodivá kovová trubice používaná k přenosu mikrovln?",
+      "initial": "V",
+      "answer": "Vlnovod",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Waveguide"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-26",
+      "text": "Jak se nazývá jednotka magnetického toku v SI se značkou Wb?",
+      "initial": "W",
+      "answer": "Weber",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Weber_(unit)"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-27",
+      "text": "Jaký transformátor v zážehovém motoru vytváří vysoké napětí pro jiskru na svíčce?",
+      "initial": "Z",
+      "answer": "Zapalovací cívka",
+      "language": "cs",
+      "aliases": [
+        "Indukční cívka"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ignition_coil"
+      ]
+    },
+    {
+      "id": "science-cs-medium-03-28",
+      "text": "Jaká úprava povrchu chladiče zvětšuje plochu pro předávání tepla okolí?",
+      "initial": "Ž",
+      "answer": "Žebrování",
+      "language": "cs",
+      "aliases": [
+        "Chladicí žebra"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fin_(extended_surface)"
+      ]
+    }
+  ]
+}

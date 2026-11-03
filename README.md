@@ -25,6 +25,18 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The runtime candidate contains **166 decks / 4,648 questions**, English85/
+Czech81. Only accepted `science-cs-medium-03` is added to actual delivered
+`da28aab0` (165/4,620). All165 earlier pack bytes/order and application inputs
+remain unchanged. [Full source evidence](docs/phase-12-science-cs-medium-03-sources.json)
+and [independent review](reviews/phase-12-science-cs-medium-03-content-review.md)
+retain original judgments and fresh acceptance of entry21's additive optical
+aliases. Only own28 enters play; retained history does not clear other packs.
+Actual-parent release/content gates precede individual private delivery, without
+app build/restart. Final330/9,240/all66 and final cleanup remain OPEN.
+
+## Retained165 preparation history
+
 The runtime candidate contains **165 decks / 4,620 questions**, English85/
 Czech80. Only accepted `general-cs-medium-05` is added to actual delivered
 `cfb9694b` (164/4,592). All164 earlier pack bytes/order and application inputs

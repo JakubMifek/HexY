@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate166:** ScienceCSMedium03 alone adds28 to actual
+delivered `da28aab0` (165/4,620), yielding166/4,648, English85/Czech81.
+All28 current/full-source/alias/adult judgments independently accepted;27 whole
+originals inherit, entry21's additive native optical alias/evidence correction
+is freshly accepted with exact before/after retained. EN05 and adjacent
+Debye/Donnan holds are not cleared. Previous165 packs/order/application inputs
+remain immutable. Exact-parent release review/content gate and individual
+push/private catalog/assets checks remain separate. Final gates NOT CLEARED.
+
 **Current runtime-data candidate165:** GeneralCSMedium05 alone adds28 to actual
 delivered `cfb9694b` (164/4,592), yielding165/4,620, English85/Czech80.
 All28 original/current/full-source/alias/adult and specific semantic judgments
