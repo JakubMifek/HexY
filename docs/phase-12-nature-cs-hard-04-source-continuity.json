@@ -1,0 +1,1725 @@
+{
+  "status": "28 AUTHOR JUDGMENTS; INITIAL ACCEPTANCE INHERITED, CURRENT SEMANTIC/LIFECYCLE ZERO",
+  "entries": [
+    {
+      "id": "nature-cs-hard-04-01",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-01",
+        "initial": "A",
+        "text": "Jak se nazývá rostlinné pletivo s velkými mezibuněčnými vzdušnými prostory, časté u vodních a mokřadních rostlin?",
+        "answer": "Aerenchym",
+        "aliases": [
+          "aerenchyma",
+          "provzdušňovací pletivo",
+          "provzdušňovací parenchym"
+        ],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Aerenchyma"]
+      },
+      "nativeQuestionSha256": "51b1f901c58b74e616ab257da87886acbb5e2f5df66e1157807b878f3165bb09",
+      "allCanonicalAndAliases": [
+        "Aerenchym",
+        "aerenchyma",
+        "provzdušňovací pletivo",
+        "provzdušňovací parenchym"
+      ],
+      "entireEvidenceArraySha256": "5e23c5a4cd98dcbfa2d4d334ced74365e429aeff8bba6667796be447e3929649",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/28",
+        "nativeSha256": "21c974bc4dbd12ce7ec3bd2223e3d0ceb47d2549c6f618ceacab4d2df41e2f4c"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist plant anatomy: identifying an aerating tissue from its intercellular structure is beyond everyday wetland knowledge.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-cs-02-28",
+          "questionSha256": "04e4d57520fad9d76a2e9f3058af0518152a007933fb9d47c03a7609aed39482",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-01-19",
+          "questionSha256": "2b843fe1bf833547339f92651289882c58fc968eb05de88d67f5c7a3e03fd360",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-hard-01-09",
+          "questionSha256": "bd3b21ada0c6b0d799d560726a2fce052fe273f12bc6cc0085fe72b6f6420947",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-hard-01-25",
+          "questionSha256": "19713969f277a58ca6148cfcb195b23ec19f073b75f887d7b4f87bf1123f1fae",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-01-17",
+          "questionSha256": "f0d49008c36036bbd64461e042f673f1c38d19e6dd89a4fb44c04e9489e8039d",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-en-hard-03-19",
+          "questionSha256": "8a9b09671c2898fe233061eb69f26caeac2040704d2de87e3bfa7373278e202e",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-01",
+          "questionSha256": "fc41cf4281820496a55203998217c3124a588fe9c818d064770fe4fe4ff0bb78",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-cs-medium-04-01",
+          "questionSha256": "53b9afa85eb09e65520465d6f0cd7e2eb421097d3f747746deda6bc4d4d6d007",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [43],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-02",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-02",
+        "initial": "B",
+        "text": "Na kterém mikroskopickém výtrusorodém útvaru stopkovýtrusných hub vznikají pohlavní výtrusy obvykle zevně na drobných stopečkách?",
+        "answer": "Bazidie",
+        "aliases": ["basidie", "basidium", "bazidium", "bazidie hub"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Basidium"]
+      },
+      "nativeQuestionSha256": "d35fa218c75e48b70f8aa7c30ecaaed8ec0145d4fb2cdeb5dd9a59c75e8c1872",
+      "allCanonicalAndAliases": [
+        "Bazidie",
+        "basidie",
+        "basidium",
+        "bazidium",
+        "bazidie hub"
+      ],
+      "entireEvidenceArraySha256": "0a4e69ad0db92f2b6699a7e0d1b3cacead06685194d0a2423c5e62f6b95d06b8",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/29",
+        "nativeSha256": "1b5635aac7a8dd70e4a2abde9618f8ab730384a72f8adcb9bb0265a349b26e82"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist mycology: identifying the externally spore-bearing basidiomycete structure requires fungal reproductive anatomy; the clue does not require every basidium to be unicellular.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-02-02",
+          "questionSha256": "05cacd33591e7767dc92b45498b7949752a20a0309d452bfe2d2f8a1532b75d6",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        },
+        {
+          "id": "nature-en-hard-04-05",
+          "questionSha256": "1156404b2462384a766c38025e76551e5ad08fb402be0f826ef446fec728f594",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-20",
+          "questionSha256": "077a58dfcdd223c533530442da37e2bb130c14706164862615fe2ccac4d93701",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-21"],
+      "actualRealSameFactCounterparts": ["nature-en-hard-02-02"],
+      "historicalHolds": [2, 20, 26, 27, 44, 94],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-03",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-03",
+        "initial": "C",
+        "text": "Jak se nazývá chromozomová oblast, v níž se spojují sesterské chromatidy a sestavuje kinetochor?",
+        "answer": "Centromera",
+        "aliases": ["centromery"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Centromere"]
+      },
+      "nativeQuestionSha256": "e5b57299a08361fae3a0df6dd7dc47371bde843d21e48c0c44b1e6257216508d",
+      "allCanonicalAndAliases": ["Centromera", "centromery"],
+      "entireEvidenceArraySha256": "b13161600824674680d95daf84b2ce3cdb3fb1c9677f1d09321a49719b737b97",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/30",
+        "nativeSha256": "708872292ad9af84d26bfa0300e498b9e971fd03cadaa51f1f6366dd6a14a977"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "informed",
+      "freshAuthorAdultRationale": "Informed school-cell-biology bridge: sister-chromatid chromosome region is recognizable without professional practice; not the protein complex assembled there.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-02-04",
+          "questionSha256": "0510b0d5b7ef5fd0aa8a96c3e4ed65d620916af55d2320433c46e68e263bd8f8",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-12",
+          "questionSha256": "75ccc899b3f7e468d97b06100d45b732ffdd83460b7b21a20252a1a54f1743c5",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-15",
+          "questionSha256": "b9fc270b0b33034c01907a168a0c6898604553689dcffbc8d10e85cd21c92c99",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-13"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [45],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-04",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-04",
+        "initial": "Č",
+        "text": "Která jedovatá houba má na mladých plodnicích výrazně podvinutý okraj klobouku a byla dříve mylně pokládána za jedlou?",
+        "answer": "Čechratka podvinutá",
+        "aliases": ["čechratka", "Paxillus involutus"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Paxillus_involutus"]
+      },
+      "nativeQuestionSha256": "089bf71c8c2d7f0fe376696885ae386eaa9121a83537109fb4ca61501dffae95",
+      "allCanonicalAndAliases": [
+        "Čechratka podvinutá",
+        "čechratka",
+        "Paxillus involutus"
+      ],
+      "entireEvidenceArraySha256": "55547586d40ee6cf8d13f5ffb7b974c0cec01cf712334c927929161a919d03ab",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/31",
+        "nativeSha256": "d1749901be755fc8b6ca6ffff1c7fce7a660366bf447af92ae394ba95a68e245"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "informed",
+      "freshAuthorAdultRationale": "Informed natural-history bridge: the inrolled young cap and historical poisonous/edible misclassification support a named fungus, not a practical edibility test.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [46],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-05",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-05",
+        "initial": "D",
+        "text": "Jak se nazývá buněčný spoj, který bodově propojuje mezibuněčnou adhezi se sítí intermediárních filament?",
+        "answer": "Desmozom",
+        "aliases": ["desmosom", "desmozomy", "desmosomy", "macula adherens"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Desmosome"]
+      },
+      "nativeQuestionSha256": "8001dba579f5d8a9c4db4ce854543147a36b9a791bab9daca4ac86530fadd61a",
+      "allCanonicalAndAliases": [
+        "Desmozom",
+        "desmosom",
+        "desmozomy",
+        "desmosomy",
+        "macula adherens"
+      ],
+      "entireEvidenceArraySha256": "e87017183c4dffde195767fd9007687d85ff68274675fe7ce4d61f269113b40e",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/32",
+        "nativeSha256": "ad64df0c5f1ed097646e7853d20a0586c04551099e8137f208225c608c7de7cd"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist cell adhesion: spot junction plus intermediate-filament linkage specifies desmosome rather than a generic junction.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-04-07",
+          "questionSha256": "4b95cca7b0a76e6b88f95fb0babe4346270a677e16128c21c5ccc6c63c8567f9",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-25"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [47, 96, 99],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-06",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-06",
+        "initial": "E",
+        "text": "Který steroidní prohormon z předohrudních žláz hmyzu se podílí na řízení svlékání?",
+        "answer": "Ekdyson",
+        "aliases": ["ekdyzon", "ecdysone", "svlékací hormon"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Ecdysone"]
+      },
+      "nativeQuestionSha256": "db9f94c4ec6f48fa2b979f658b4bc467e3532a7750266ae68b82eae10ca9556a",
+      "allCanonicalAndAliases": [
+        "Ekdyson",
+        "ekdyzon",
+        "ecdysone",
+        "svlékací hormon"
+      ],
+      "entireEvidenceArraySha256": "c27008647327b0e3e98825780f49527305209adeaa6adfce377c7950b2d77cd9",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/33",
+        "nativeSha256": "c561989ba6925863ac1786fb8d1cf7890d8be3f83b3bd878cd17815015ef741a"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist insect endocrinology: steroid prohormone and prothoracic glands distinguish ecdysone from a moulting event, juvenile hormone or an endocrine organ.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "science-en-medium-02-28",
+          "questionSha256": "bebb350f5e3c52a6ed9aa9f98543ac3ef21d016096171ff93da4a7c63f7219e1",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-hard-01-11",
+          "questionSha256": "b53c9016da5064323b10c55688eee4af92a8c0e7b24c99bf3c07e4fa4fee2dd2",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-02-06",
+          "questionSha256": "6313e3d13ab5e8be4abeb56a06f346e2b412a3ae3ca05241efb4f2cf5f4eadc5",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-03-11",
+          "questionSha256": "50aa3c188ea08535fdc195c8eb67f8f9a44231f613c21b5fdba6c2462af52c80",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-03-27",
+          "questionSha256": "ae7f2b89e308a459efc6a246774a395570738d79e390212577a01e8fccbcdcff",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "games-en-medium-03-09",
+          "questionSha256": "a3cb5054a9027de88e3aa0fc898e1be9269281a45573457c13315a095c3b3f07",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-en-hard-05-22",
+          "questionSha256": "49b3d9a7d0a352c9ad42f7aa69bd60800f544f41ea928de24423ce738c804103",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-27"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [48],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-07",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-07",
+        "initial": "F",
+        "text": "Který typ rostlinného receptoru modrého světla se podílí na fototropismu a obsahuje domény LOV?",
+        "answer": "Fototropin",
+        "aliases": ["fototropiny", "phototropin"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Phototropin"]
+      },
+      "nativeQuestionSha256": "24ee5f17eedf0c0d9e9631717558689b3a7a7b025c9414f760e1dbcc8142f747",
+      "allCanonicalAndAliases": ["Fototropin", "fototropiny", "phototropin"],
+      "entireEvidenceArraySha256": "b18714615bcffd0d2c9f5b0a5c60c8d48d79d2aacca3034139de7761a352e22e",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/34",
+        "nativeSha256": "99ea9c119da1674656fb19a8498bc86010f044c777c0070d270d09f674d1ae37"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist photobiology: LOV-domain blue-light receptor identification is a molecular demand, not merely naming bending towards light.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-medium-03-17",
+          "questionSha256": "0c70ffc51700074b9c796cbe803b203d74306d1ddeebde14aa9bf21f98d4ec62",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [49],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-08",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-08",
+        "initial": "G",
+        "text": "Jak se nazývá specializovaný peroxizom rostlin, v němž probíhá glyoxylátový cyklus umožňující využití zásobních tuků při klíčení?",
+        "answer": "Glyoxyzom",
+        "aliases": ["glyoxysom", "glyoxyzomy", "glyoxysomy"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Glyoxysome"]
+      },
+      "nativeQuestionSha256": "514385bff9cb68184bcfa286443ba84ea46b3b30e2da280282ef2cae31dfff7b",
+      "allCanonicalAndAliases": [
+        "Glyoxyzom",
+        "glyoxysom",
+        "glyoxyzomy",
+        "glyoxysomy"
+      ],
+      "entireEvidenceArraySha256": "ad7cc37eed356eb8b83303867cccd6cb5fc6cde8aa199e311c0f6b6daef636fd",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/35",
+        "nativeSha256": "31fe62ded36c92ddbc3047e655ea08956f3f1be852a425b343c086a16fef7f68"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist plant-cell metabolism: the glyoxylate-cycle compartment during seed fat utilisation is more demanding than general organelle recall.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-03-25",
+          "questionSha256": "b544bceab5814684a229ac80d9732bf6c3e6a90c9b01ddef3c1948cd90196c21",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-en-easy-04-09",
+          "questionSha256": "a2b694c577f6d8632ecd02bee496faaad161d3e7fef69b8b4abde49c499cd8db",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-14"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [50],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-09",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-09",
+        "initial": "H",
+        "text": "Jak se nazývá absorpční útvar parazitické houby nebo rostliny, který proniká do hostitelských tkání a odebírá živiny?",
+        "answer": "Haustorium",
+        "aliases": ["haustoria", "přísavka", "přísavné vlákno"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Haustorium"]
+      },
+      "nativeQuestionSha256": "069cddcb25751aa4d8c2397f73f46eb393e26c237dd0f9341b7336865af42f01",
+      "allCanonicalAndAliases": [
+        "Haustorium",
+        "haustoria",
+        "přísavka",
+        "přísavné vlákno"
+      ],
+      "entireEvidenceArraySha256": "1da7beca63fbc8d8c81aa6d0d6a2b5bf8a47504a50bc0ccc527ffff81f411198",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/36",
+        "nativeSha256": "ee7d4bf65b6829269d76af6764c05b6a24ec3c9b1f4afe36ef0c07c841f50b65"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist parasitic anatomy: identify a nutrient-absorbing penetrating structure, not the parasite organism or all symbiotic relationships.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-cs-02-23",
+          "questionSha256": "9bb5980090cd2e6a1d272d020bbd3352b702b7ed1f93709f4027a8059533baad",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-01-12",
+          "questionSha256": "e3558f17062680fbe1adfe0cbde524e9fec3cd3ffda0edf1957e1e694c72b97a",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-01-18",
+          "questionSha256": "f604a04148f6e381e0246b11e94bfebe353793646ff9e2de8335128f94989d6c",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-01-09",
+          "questionSha256": "2844d877029ecd800f62fbb7dc1478bbd5f0cb191941230bd9290376c6e6448a",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        },
+        {
+          "id": "nature-en-medium-03-20",
+          "questionSha256": "360f2b0611ecbf5f302a8ec195a2e0d12cf05d1e6ae74503597ee83def0c753d",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-03-12",
+          "questionSha256": "f7d567dabb87ec2e158e0c2a6dd98c60ae192f77294b109e06f57cb35a62e584",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-en-hard-03-19",
+          "questionSha256": "8a9b09671c2898fe233061eb69f26caeac2040704d2de87e3bfa7373278e202e",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-en-medium-03-27",
+          "questionSha256": "d2f3afc7fd915f06889d13c5efaf409aa628f678a36ded013241edea58562811",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-03-22",
+          "questionSha256": "5395560b9391b1e6da2a66b41497cd09b3ed7af65298cd363c637e360d5cb67e",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": ["nature-en-hard-01-09"],
+      "historicalHolds": [0, 21, 28, 29, 51, 92, 95, 97, 100],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-10",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-10",
+        "initial": "Ch",
+        "text": "Jak se nazývá směrovaný pohyb buňky nebo organismu vyvolaný gradientem chemické látky?",
+        "answer": "Chemotaxe",
+        "aliases": ["chemotaxis", "chemotaktický pohyb"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Chemotaxis"]
+      },
+      "nativeQuestionSha256": "6782a01bba17db6263fd0bcd106f9c4fb1a862e042fc87d501fa094e858a97fc",
+      "allCanonicalAndAliases": [
+        "Chemotaxe",
+        "chemotaxis",
+        "chemotaktický pohyb"
+      ],
+      "entireEvidenceArraySha256": "11c13334e2144a56ff904a07c5e805a203a9bce48d2e0991bc054fd3a38df189",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/37",
+        "nativeSha256": "8e68d44fe8a2fefeaa1ddff41faa58e08c1e46c20468b0162cc13e33ed98cec5"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist biological terminology: directed movement along a chemical gradient distinguishes chemotaxis from undirected chemokinesis and growth responses.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-medium-03-17",
+          "questionSha256": "0c70ffc51700074b9c796cbe803b203d74306d1ddeebde14aa9bf21f98d4ec62",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [52],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-11",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-11",
+        "initial": "I",
+        "text": "Jak se nazývá vnější vrstva rostlinného vajíčka, která se po oplození mění v osemení?",
+        "answer": "Integument",
+        "aliases": ["integumenty", "obal vajíčka"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Ovule"]
+      },
+      "nativeQuestionSha256": "c99612e87750c75bfe53f3f3b84e20b23f5fb31df62ca01a0f2131bd824378cd",
+      "allCanonicalAndAliases": ["Integument", "integumenty", "obal vajíčka"],
+      "entireEvidenceArraySha256": "f3004a33429d3ddd03bd670880497b7cb1df232ba0611f62d8cae78c6c0dedd0",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/38",
+        "nativeSha256": "41e8e800bb33cbbc8f60324a213def4d58970d8d6405dd16d2fca2973515c467"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist plant reproduction: follow the ovule envelope into the seed coat; retain obal vajíčka without exposing that exact alias in the clue.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-03-07",
+          "questionSha256": "8884ad80e7573c8e8479fed7ec0fea7e931477574b9e0be2d484e567a1902ed2",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-en-medium-05-15",
+          "questionSha256": "a25ed15a37a3155bff5f5234bfb2bd3bc4f093c76439dccb23fd0b346ecbf209",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-03-08",
+          "questionSha256": "7eea50d37d850b3816bf5437701e0435d50bfdd4d02db4b965bb1143ebfaaa41",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-03-18",
+          "questionSha256": "ee805bfded32ecc4852bd54578d334dc4ce243288ad4302452542a4da60aebfe",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-04",
+          "questionSha256": "27a9d79eaafade7006c0ce122ade515600b430874dcf5f6067bfca049806aab1",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-04-25",
+          "questionSha256": "72f5c238f9534efceb915a313d806403c5ab88653d8af39944475601bafa342c",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-28"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [53],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-12",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-12",
+        "initial": "J",
+        "text": "Která specializovaná buňka ve stěně ledvinné arterioly syntetizuje a uvolňuje renin?",
+        "answer": "Juxtaglomerulární buňka",
+        "aliases": [
+          "juxtaglomerulární buňky",
+          "JG buňka",
+          "granulární buňka",
+          "granulární buňky"
+        ],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Juxtaglomerular_cell"]
+      },
+      "nativeQuestionSha256": "1940822f8bdd7ef6f2c40c67d77ee1c087e31d11adac39f8567f86aef2857f0d",
+      "allCanonicalAndAliases": [
+        "Juxtaglomerulární buňka",
+        "juxtaglomerulární buňky",
+        "JG buňka",
+        "granulární buňka",
+        "granulární buňky"
+      ],
+      "entireEvidenceArraySha256": "959e4aed2256501b1b5b4a247cf9005a4297e3fa2996b434e7e0cd4a06888231",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/39",
+        "nativeSha256": "54b08aeec174d1285d655109870ff168f59f64802972f27287c64aeb3bbce074"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist renal histology: renin-secreting arteriolar-wall cell and contextual granular/JG aliases are more demanding than naming the kidney.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "arts-cs-01-23",
+          "questionSha256": "f92e494816d56e11a06070f2619aeff8cc33426831793586eaa85bdc0be9ae56",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "arts-en-01-22",
+          "questionSha256": "58ce622f98fe8abe8cc207bcd52199497e3f0a09aa3f3d99d606eeb35e7950c3",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "sports-cs-medium-02-07",
+          "questionSha256": "21461a51601124f8491bfe1e378845a83785b910fe30f0df37f158a986f79be8",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-03-04",
+          "questionSha256": "513ddd30fe6594adfb779c396d87cbdfa89b9f6282b6a43b0404d7ed890d6e2c",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-11",
+          "questionSha256": "8f2d950d3a7599b2ab8b6e88363b5a63dff588071a2129bd1db4a6334d3a5e7c",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        },
+        {
+          "id": "general-cs-medium-05-05",
+          "questionSha256": "a18e7394f959f098a90241f5ea9cecd33b0c9326a7ecccaed486150f7eeee175",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": ["nature-en-hard-04-11"],
+      "historicalHolds": [54],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-13",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-13",
+        "initial": "K",
+        "text": "Jak se nazývá proteinový komplex na centromeře, na který se při dělení buňky připojují mikrotubuly dělícího vřeténka?",
+        "answer": "Kinetochor",
+        "aliases": ["kinetochory", "kinetochore"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Kinetochore"]
+      },
+      "nativeQuestionSha256": "800b26c8d2e9d318463bb359cda60c06f62b901de4be0c08f345c05421d35f20",
+      "allCanonicalAndAliases": ["Kinetochor", "kinetochory", "kinetochore"],
+      "entireEvidenceArraySha256": "30928e9a517f39a933cf85b63f4fa2fbea5632532d57572608fcac83fb6c04cb",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/40",
+        "nativeSha256": "868f06805058d9c8d325a5f2921b97278341905dafdeaa867a659fccbeb89024"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist chromosome machinery: identify the centromeric spindle attachment complex, not centromeric DNA or nuclear division.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-04-12",
+          "questionSha256": "75ccc899b3f7e468d97b06100d45b732ffdd83460b7b21a20252a1a54f1743c5",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        },
+        {
+          "id": "nature-en-medium-04-14",
+          "questionSha256": "9ffb88c672e61b0598b8d9a061fa6443b04c1f0c4ebc753c9249430da939a75c",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-03"],
+      "actualRealSameFactCounterparts": ["nature-en-hard-04-12"],
+      "historicalHolds": [15, 22, 30, 31, 55, 79, 80, 87],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-14",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-14",
+        "initial": "L",
+        "text": "Jak se nazývá membránový buněčný váček s kyselým prostředím a hydrolytickými enzymy pro vnitrobuněčné trávení?",
+        "answer": "Lysozom",
+        "aliases": ["lyzosom", "lysosom", "lysozomy", "lyzosomy", "lysosomy"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Lysosome"]
+      },
+      "nativeQuestionSha256": "61136fc4f1cc617ee3253fd0ff6e8d80fb2d52abc6c916391182f13b929c0de9",
+      "allCanonicalAndAliases": [
+        "Lysozom",
+        "lyzosom",
+        "lysosom",
+        "lysozomy",
+        "lyzosomy",
+        "lysosomy"
+      ],
+      "entireEvidenceArraySha256": "7e1d4f3ad5a4551a40c83ddf5a786ba44163f5bd678825491039b42467ba6f25",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/41",
+        "nativeSha256": "b0753420bd1751538c28304d57976a1ca431f59defa918914712f2cec8e8cff3"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "informed",
+      "freshAuthorAdultRationale": "Informed school-cell-biology bridge: acidic hydrolase-containing digestive organelle is familiar to informed adults, without laboratory expertise.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "science-cs-medium-01-09",
+          "questionSha256": "b5282fbc3519642bf2dda74c9cf43cd2bf24d3887c40f4663ff41cc37b3fc295",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-en-medium-01-09",
+          "questionSha256": "eaa1b2b24b98da3ff211a1b3fc9d8167af7c1dfc2c62ee45bcc0ec6fee781fa4",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-08"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [56],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-15",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-15",
+        "initial": "M",
+        "text": "Jak se nazývá převážně vodnatá mimobuněčná hmota, která u medúz slouží jako hydrostatická opora?",
+        "answer": "Mezoglea",
+        "aliases": ["mesoglea", "mezogloea", "mesogloea"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Mesoglea"]
+      },
+      "nativeQuestionSha256": "7215e448b72586bf9a2d65acf19ced91b855998ca1f54c498b676545a1bae0e6",
+      "allCanonicalAndAliases": [
+        "Mezoglea",
+        "mesoglea",
+        "mezogloea",
+        "mesogloea"
+      ],
+      "entireEvidenceArraySha256": "5cc75d0c147339f9a7bbef8c135dcbeb61c74e9cd08d1f71ff6ceac0df2033fd",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/42",
+        "nativeSha256": "e037c7dce6aa0e10f07a5537bacf346d240d1ab2c04553947828176f34eb7982"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist cnidarian anatomy: extracellular water-rich hydrostatic matrix identifies mesoglea; the prompt does not assert an entirely cell-free material.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-01-11",
+          "questionSha256": "52b60a698d86cccc16a2756ba97a35ec5c9c258863497d8e01cf56b3bbf3852a",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-hard-03-28",
+          "questionSha256": "5e5868fa96bf3f16e97b2dbab8dbc2c5b1aaeabc41f4dff431697aa5369db024",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-14",
+          "questionSha256": "f3265924cd94582c5275cddc28a8a3a1c1c1c29d059339c22e3a8aea4581ab24",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        },
+        {
+          "id": "science-cs-medium-04-01",
+          "questionSha256": "53b9afa85eb09e65520465d6f0cd7e2eb421097d3f747746deda6bc4d4d6d007",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": ["nature-en-hard-04-14"],
+      "historicalHolds": [
+        3, 4, 7, 8, 9, 13, 18, 32, 33, 34, 57, 73, 74, 77, 81, 88
+      ],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-16",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-16",
+        "initial": "N",
+        "text": "Jak se nazývá embryonální proces, při němž se neurální ploténka přetváří v neurální trubici?",
+        "answer": "Neurulace",
+        "aliases": ["neurulatio"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Neurulation"]
+      },
+      "nativeQuestionSha256": "b2e841e0051f326af02bd6c8551128d8648a2a921a573cd880258a8b9d9bfc5a",
+      "allCanonicalAndAliases": ["Neurulace", "neurulatio"],
+      "entireEvidenceArraySha256": "d3d4bfd939914016dcd50374cdb1e1d7e56e2346274439ed543684c3265b8dd9",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/43",
+        "nativeSha256": "685be5d782ea13ad02d0944392e915dad964a2b240903b6651327db3c235f59b"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist embryology: neural plate-to-tube transformation asks for a particular developmental process, not an embryo or a germ layer.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-04-06",
+          "questionSha256": "5fdf393496fbebe3c3bce108f0c6754684a7a46de5f84b8e6a69b9d074b3dec6",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-04-27",
+          "questionSha256": "1c05c1173d7736e99ec4ce6af9c3e2a7ff90f46e4aa62117c79024880d59c27c",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-cs-medium-04-16",
+          "questionSha256": "385e29c2925436818374fc0907c0db734c617ab1d9af5843a235f5e70e789961",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-26"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [58],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-17",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-17",
+        "initial": "O",
+        "text": "Která mnohojaderná buňka odbourává kostní hmotu při přestavbě kosti?",
+        "answer": "Osteoklast",
+        "aliases": ["osteoklasty", "osteoclast"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Osteoclast"]
+      },
+      "nativeQuestionSha256": "5ed270b4539fa32c738f46429990603f60d8c5e84288ea8a8afafedab6f3109c",
+      "allCanonicalAndAliases": ["Osteoklast", "osteoklasty", "osteoclast"],
+      "entireEvidenceArraySha256": "13342afd7ce042d2ddc3140a4124bbcfcf46adaed0ba844e6876a1ed7d8a9fba",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/44",
+        "nativeSha256": "8211c4bdf6d54a6904ac511b7127e590b837fee07f029f813f1a24aeb135398b"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "informed",
+      "freshAuthorAdultRationale": "Informed anatomy bridge: multinucleated bone-resorbing cell is distinguishable from bone-forming osteoblast and mature osteocyte.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-04-16",
+          "questionSha256": "fd3f3cb760f2d5d187cc1cfc5ed998657b0d75a70ccff356c1a7e87f7cce18de",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": ["nature-en-hard-04-16"],
+      "historicalHolds": [16, 19, 23, 35, 36, 59, 82, 85, 86, 89],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-18",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-18",
+        "initial": "P",
+        "text": "Jak se nazývá vrstva buněk kořene těsně na vnitřní straně endodermis, z níž vznikají postranní kořeny?",
+        "answer": "Pericykl",
+        "aliases": ["pericykl kořene", "pericycle"],
+        "category": "nature",
+        "language": "cs",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pericycle",
+          "https://openstax.org/books/biology-2e/pages/30-3-roots"
+        ]
+      },
+      "nativeQuestionSha256": "b9ed3063e2f03fae9f7de2306055e0d5b5e302888e5c6a9ae88fc7e85bff4b2c",
+      "allCanonicalAndAliases": ["Pericykl", "pericykl kořene", "pericycle"],
+      "entireEvidenceArraySha256": "14863f0bab01a01766a0359e93fde07b993c95b5bd3048f48d8e6f7935c7c761",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/45",
+        "nativeSha256": "eca6d13f64e680818a0104de038d060f880f67f233691d7ad756d5f0a29e8d9e"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist root anatomy: layer immediately inside endodermis and lateral-root origin jointly specify pericycle.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-medium-03-22",
+          "questionSha256": "418ce9392975f15d5ff53a4a5cf8d6248fcf9fc39d4a2060a41c334fd188ed2a",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-hard-03-06",
+          "questionSha256": "666a415335c26d15d777a80d0836591272ffa5fcd09ae054291d5f3fdc4177d1",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-03",
+          "questionSha256": "48883c2df4d5e47d1acf3ab34b35e59375c490ec3516bb32595877f64c69b5b6",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-06",
+          "questionSha256": "5fdf393496fbebe3c3bce108f0c6754684a7a46de5f84b8e6a69b9d074b3dec6",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-27",
+          "questionSha256": "9306f5f5cc73016912f9ad5f8206d8ea9fdaccf525f00cd18698fb90605a8a15",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [60],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-19",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-19",
+        "initial": "R",
+        "text": "Jak se nazývají jehlicovité krystaly šťavelanu vápenatého v rostlinných buňkách?",
+        "answer": "Rafidy",
+        "aliases": ["rafid", "rafida", "raphides", "raphide"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Raphide"]
+      },
+      "nativeQuestionSha256": "0a91dde3cff23881035b73660fe39f459bb93be6bc794e6f4cfcddaf4064b976",
+      "allCanonicalAndAliases": [
+        "Rafidy",
+        "rafid",
+        "rafida",
+        "raphides",
+        "raphide"
+      ],
+      "entireEvidenceArraySha256": "0941e6239b96042e8582c741209d74ca0ef71c13025db0f3e308991cd29da8fa",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/46",
+        "nativeSha256": "48570e7532bc156c4c6c44eccb8b49512d94d5a8fc8b780457b3e2c61fedafad"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist plant microscopy: needle-shaped intracellular calcium oxalate is a named crystal form; not all crystals or every calcium compound.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "science-cs-hard-04-26",
+          "questionSha256": "77c0c1bac4f03678ff854eb03eeb72f5ca88ff26a567d2799a975fd3cc54696d",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-en-easy-05-04",
+          "questionSha256": "c2dc844dae3a7bc6c4a85870ae519970f9ad00e47f6ee6d6a4b91407ee022b9e",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [61],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-20",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-20",
+        "initial": "Ř",
+        "text": "Která vodní rostlina vytváří růžice tuhých pilovitých listů a v zimě obvykle klesá pod hladinu?",
+        "answer": "Řezan pilolistý",
+        "aliases": ["řezan", "Stratiotes aloides", "řezan aloesovitý"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Řezan_pilolistý"]
+      },
+      "nativeQuestionSha256": "df32a855cb1ce23a17ea41b7cbfd2c5b2a88598acd5e7a0eec4f1801afefbce7",
+      "allCanonicalAndAliases": [
+        "Řezan pilolistý",
+        "řezan",
+        "Stratiotes aloides",
+        "řezan aloesovitý"
+      ],
+      "entireEvidenceArraySha256": "29e70b98d349dffb92195969a63235f736c59dd654daafb5a968327907045c2b",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/47",
+        "nativeSha256": "fe4f9228055446e4d81f05cb0f198997c5f2475543620b3359093212d4cb67e2"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist local botanical identification: serrated rosette and usual winter sinking distinguish Stratiotes; the rare Czech initial is no difficulty waiver.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-cs-easy-02-08",
+          "questionSha256": "c7ddf7d04c2a18f1c2148577940db632661a3321674cbb33bf84681368c7059e",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-03-18",
+          "questionSha256": "f878472f02b0ae555b7a36fbecbad3abe0953afdc79cef0d878250da0441ab8b",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-cs-medium-04-20",
+          "questionSha256": "2025ae087899de5d9826a1063648377d9210cf3200c60f5963dab436a0d11f2f",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-cs-easy-04-25",
+          "questionSha256": "daf643213edf81028ec9b3163dabbf6cbb0fc46374e740979122c070376a8f76",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-cs-easy-03-03",
+          "questionSha256": "eebfb1ea47fcdcc2cc1c9fcfc462471935770bc40c693c007659fbc8500892b9",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-en-hard-05-25",
+          "questionSha256": "250253c44c68d8a2f7dac5dd7bffd216f08aaf10fb9c1fc5d7406903a8a12815",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "arts-cs-hard-03-17",
+          "questionSha256": "675409b55488c94efc4198a373d0facc73526b6cd5943b0e7928f0f383d6531f",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "arts-cs-hard-03-27",
+          "questionSha256": "fcddeb47b3a339b130726c0e964a83fc84d257570e137f463833246c869e94e8",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [62],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-21",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-21",
+        "initial": "S",
+        "text": "Jak se nazývá uzavřený výtrusotvorný útvar hub a řady rostlin, uvnitř kterého vznikají výtrusy?",
+        "answer": "Sporangium",
+        "aliases": ["výtrusnice", "sporangia"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Sporangium"]
+      },
+      "nativeQuestionSha256": "11ccd36a51caf2fb2014ceffe3de5628f28083d2e08fbebdd867e3f3aa9b3e8a",
+      "allCanonicalAndAliases": ["Sporangium", "výtrusnice", "sporangia"],
+      "entireEvidenceArraySha256": "b21e4fc3ade88dccc020e984165d022736a62e4f5115ba64d27a07a2e96913f2",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/48",
+        "nativeSha256": "d0d51ede5e18318bd229bd60f25a7e223cbbff6e27682e70e0c0b906bd9c16ea"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist reproductive morphology: an internal spore-producing enclosure is not a whole fungal fruiting body or its release apparatus.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-02-17",
+          "questionSha256": "9866542f4b344a7fcf573caa4929ad9c89ed8ffbdfbfe86896951f5c4b38a616",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-03-18",
+          "questionSha256": "f878472f02b0ae555b7a36fbecbad3abe0953afdc79cef0d878250da0441ab8b",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-20",
+          "questionSha256": "077a58dfcdd223c533530442da37e2bb130c14706164862615fe2ccac4d93701",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        },
+        {
+          "id": "nature-cs-medium-04-18",
+          "questionSha256": "d67e0f30aedde08090a3d1e2eb9a5a32877d5a961112a7fe5d220ce67720495a",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-02"],
+      "actualRealSameFactCounterparts": ["nature-en-hard-04-20"],
+      "historicalHolds": [5, 6, 10, 11, 12, 14, 37, 38, 63, 75, 76, 78, 90],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-22",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-22",
+        "initial": "Š",
+        "text": "Která houba roste v trsech při patách stromů a má na žlutohnědém klobouku i třeni nápadně odstálé šupiny?",
+        "answer": "Šupinovka kostrbatá",
+        "aliases": ["šupinovka", "Pholiota squarrosa"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Pholiota_squarrosa"]
+      },
+      "nativeQuestionSha256": "8260c16eea7aee1493d495fadcb52e58b92288f305bb24ed2f44c6a4e56604dc",
+      "allCanonicalAndAliases": [
+        "Šupinovka kostrbatá",
+        "šupinovka",
+        "Pholiota squarrosa"
+      ],
+      "entireEvidenceArraySha256": "2fba97369e5d6f643e075f93e90cd73282e2f41f34f1fb58922df7299828aff8",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/49",
+        "nativeSha256": "51a1cade4db44f24ae17c9fa6ed19ce2989895826e912abcbbae2e0fa6d6dcab"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist mycological identification: tufted tree-base growth plus cap/stem scales and colour narrow the fungus; preserve the accepted source caveat about similar species.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [64],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-23",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-23",
+        "initial": "T",
+        "text": "Jak se nazývá odrazivá vrstva v oku mnoha živočichů, která zlepšuje vidění za šera a způsobuje odlesk očí ve světle?",
+        "answer": "Tapetum lucidum",
+        "aliases": ["tapetum"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Tapetum_lucidum"]
+      },
+      "nativeQuestionSha256": "7a8887b86c2e2d687a5ed18371b1a826cc67f9040373fb98ed571e329c6ea0b9",
+      "allCanonicalAndAliases": ["Tapetum lucidum", "tapetum"],
+      "entireEvidenceArraySha256": "89cb0183d74071c1f35a1bbbc4abe265f4f1225ee675c39f54f457d00d123837",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/50",
+        "nativeSha256": "cd557bda0a1eabcce9a40a00b8a0d077cbfa12f3e1e832efef68449cd131852c"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "informed",
+      "freshAuthorAdultRationale": "Informed natural-history bridge: low-light vision and eyeshine locate a reflective eye layer, not a plant tapetum or fictional X-ray sight.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-cs-medium-03-12",
+          "questionSha256": "4aaec3f50b01820e8fd8fc2cc269cec1419c9ec6f05f8c5a3eeb8fc2c2f4242f",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "arts-en-easy-03-26",
+          "questionSha256": "9a516c82c86299539eefbb82cdf58e0496976840242b2df8dd1e3d30be7fb1f4",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [65, 71],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-24",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-24",
+        "initial": "U",
+        "text": "Který podkmen mořských strunatců má vnější plášť a strunu hřbetní u většiny druhů jen v larválním stadiu?",
+        "answer": "Urochordata",
+        "aliases": ["pláštěnci", "Tunicata", "urochordáti"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Tunicata"]
+      },
+      "nativeQuestionSha256": "b7a8137e8ccbd01101fa805b0188d5f4757e68cd6017e1939c6b6b6f4c34d711",
+      "allCanonicalAndAliases": [
+        "Urochordata",
+        "pláštěnci",
+        "Tunicata",
+        "urochordáti"
+      ],
+      "entireEvidenceArraySha256": "1d3deb337ba8bff399f21132c22cae85b1643a8a91008cca04f4376484d68a17",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/51",
+        "nativeSha256": "0bd1d6c0f89dcc280869e53bd890ebfdee6dbb3c174995c4b348e3e8d3d829ca"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist chordate classification: tunic and mostly larval notochord identify a subphylum; the majority qualifier respects adult larvaceans.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-01-23",
+          "questionSha256": "6043d59df92d18ad1a80b68e685dc9546be0d9d4ccfd2cde41b7099a8905873a",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        },
+        {
+          "id": "nature-en-hard-02-15",
+          "questionSha256": "64c6bf7b8c50c07721713fcab0e85b1502012973b0d0cb6228518be1bc97a276",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": [],
+      "actualRealSameFactCounterparts": ["nature-en-hard-01-23"],
+      "historicalHolds": [1, 24, 39, 40, 66, 72, 93, 98, 101, 102, 103],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-25",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-25",
+        "initial": "V",
+        "text": "Který protein intermediárních filament je typický zejména pro buňky mezenchymového původu?",
+        "answer": "Vimentin",
+        "aliases": ["vimentinový protein"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Vimentin"]
+      },
+      "nativeQuestionSha256": "679baa55e6fad19de0cb0c6b57a055e5e2d00079d8374943e29a3a3e0c49ab53",
+      "allCanonicalAndAliases": ["Vimentin", "vimentinový protein"],
+      "entireEvidenceArraySha256": "d355009bf32576c97a29a12563614c8fce4cf8564327879f08e9af555e1ff02d",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/52",
+        "nativeSha256": "17fb7c386e5258f17f840e6f80c6f407c0064dc867c682240ede6f73ecce6d35"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist cytoskeleton terminology: identify a mesenchymal intermediate-filament protein rather than the junction attached to such filaments.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-04-07",
+          "questionSha256": "4b95cca7b0a76e6b88f95fb0babe4346270a677e16128c21c5ccc6c63c8567f9",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-05"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [67],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-26",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-26",
+        "initial": "W",
+        "text": "Jak se nazývá rozpad úseku axonu odděleného poraněním od těla nervové buňky?",
+        "answer": "Wallerova degenerace",
+        "aliases": [
+          "Wallerova degenerace axonu",
+          "Wallerian degeneration",
+          "anterográdní degenerace",
+          "anterograde degeneration"
+        ],
+        "category": "nature",
+        "language": "cs",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Wallerian_degeneration",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7850934/"
+        ]
+      },
+      "nativeQuestionSha256": "6ee3ca717ced5fe34fa915c935bab7ee703c7350c82eca8cffd958b4f25113d2",
+      "allCanonicalAndAliases": [
+        "Wallerova degenerace",
+        "Wallerova degenerace axonu",
+        "Wallerian degeneration",
+        "anterográdní degenerace",
+        "anterograde degeneration"
+      ],
+      "entireEvidenceArraySha256": "95b7165169c554e4bad77c6b1e0dff43f7a756e125756c4a510750125aa26861",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/53",
+        "nativeSha256": "1a32135574a68ec4a3e556b746c5b7c89813c0cb8904d75383c04235312cf0e2"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist neurobiology: injury-disconnected distal axon breakdown identifies Wallerian degeneration; contextual anterograde names remain legitimate.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "geography-en-easy-01-08",
+          "questionSha256": "c8fcffb30ec8dbddfddc1004544ccbfa2c2a6742dc15d060b441a676ae0182f5",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "history-en-medium-02-24",
+          "questionSha256": "ae8f1f2f611e3483bc144da91b342f5cc3b0ec7e5bd1df9195b57a6c9aa1e27b",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "movies-cs-medium-02-07",
+          "questionSha256": "f6a879a6e99d0b5a38416cd50e377f1f20ea540876978e9a00eb40f2a222710f",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "movies-en-medium-02-07",
+          "questionSha256": "03835a3ecc9a94f8ed519af45cf03ebabfe2dfcfe0af86ffce273c7ce65ac8fe",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-en-hard-03-12",
+          "questionSha256": "b3b0047526eb4757a9c4d99bb0865c1f2f3e599c514553a05606a61729c2c793",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-en-hard-04-04",
+          "questionSha256": "2b98d9ecbb0ebc1f0743185b91452757432cb48c61f557b9d830752c8fe05b66",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-cs-hard-03-12",
+          "questionSha256": "b13f2c7c041dd83ca20a92f8305a82bf3d25f027416f43fa0a91f3ba23bfa5a9",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "science-cs-hard-03-13",
+          "questionSha256": "ff93656095d4f67df9db25c8c24d5208c85c5996086a2efca8da504c2af4a052",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-medium-04-04",
+          "questionSha256": "a07dbcdfcdb445211ed6f00102cad29c72c59fa145aa95d313781c0959028eb5",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-medium-04-15",
+          "questionSha256": "77d46b00d8753110da309868bf7861d34d5ba94a6988fad7acbb8cff9f69c46e",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-16"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [68],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    },
+    {
+      "id": "nature-cs-hard-04-27",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-27",
+        "initial": "Z",
+        "text": "Jak se nazývá neaktivní prekurzor enzymu, který musí být aktivován například proteolytickým štěpením?",
+        "answer": "Zymogen",
+        "aliases": ["proenzym", "proenzymy", "zymogeny"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Zymogen"]
+      },
+      "nativeQuestionSha256": "e57cda5605e989e3c1ee25207814734e562c644391f7777370578fd51de6081b",
+      "allCanonicalAndAliases": [
+        "Zymogen",
+        "proenzym",
+        "proenzymy",
+        "zymogeny"
+      ],
+      "entireEvidenceArraySha256": "c9791f1c7e539574a7c5598a4eed2f7af1f08ce5c6ffd926d919583cbd9d6898",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/54",
+        "nativeSha256": "3b5c7fd21ef3c59ef7e328414f00e2fde2ada7e5cdf01ca61c240fae224cb4ae"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "specialist",
+      "freshAuthorAdultRationale": "Specialist biochemistry: identify an inactive enzyme precursor, with cleavage as an example rather than a universal activation mechanism.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-hard-04-23",
+          "questionSha256": "497bee0dd3ea04ffd291fbd01d1ca9dd15512dd6c5adad389d39bb73d383eab5",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-en-hard-04-28",
+          "questionSha256": "77838a0ac35b01d38242a0896a72f49814be033e59473dd0ae9235490149477d",
+          "disposition": "REAL SAME-FACT DUPLICATE; HOLD FOR INDIVIDUAL INDEPENDENT DECISION"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-06"],
+      "actualRealSameFactCounterparts": ["nature-en-hard-04-28"],
+      "historicalHolds": [17, 25, 41, 42, 69, 83, 84, 91],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current semantic/lifecycle review including the specific real duplicate and any associated unknown-language/expression rows; no author clearance."
+    },
+    {
+      "id": "nature-cs-hard-04-28",
+      "entireQuestion": {
+        "id": "nature-cs-hard-04-28",
+        "initial": "Ž",
+        "text": "Jak se nazývá dočasný útvar ve vaječníku vznikající z prasklého folikulu po ovulaci a produkující zejména progesteron?",
+        "answer": "Žluté tělísko",
+        "aliases": ["corpus luteum", "luteální tělísko"],
+        "category": "nature",
+        "language": "cs",
+        "sources": ["https://en.wikipedia.org/wiki/Corpus_luteum"]
+      },
+      "nativeQuestionSha256": "45aa99b125d03249dd40c506bd6e54b14e1675d40dcc12b65f2e21a8d0bb9c65",
+      "allCanonicalAndAliases": [
+        "Žluté tělísko",
+        "corpus luteum",
+        "luteální tělísko"
+      ],
+      "entireEvidenceArraySha256": "40aa804e078c92ec8b99b92565943204bd7584bc6f19652dd9b815325f2d0440",
+      "initialIndependentJudgment": {
+        "path": ".artifacts/continuation/phase12-nature-czech04-review-v1/entry-judgments.json",
+        "pointer": "/55",
+        "nativeSha256": "f82f1f0e8fed947250959836259f1a2660f2f6349ad2570ed6cb3cbbb1cf3b4b"
+      },
+      "inheritedFactualSourceEditorialInitialSuppliedAliasAndAliasCompleteness": true,
+      "authorGeneralAdultDiagnosticBand": "informed",
+      "freshAuthorAdultRationale": "Informed reproductive-anatomy bridge: temporary postovulatory progesterone-producing structure is distinct from ovum and pregnancy.",
+      "authorAliasJudgment": "Retain the complete accepted finite answer/alias set in this exact prompt context; no synonym removed or new gameplay expression invented.",
+      "authorSourceJudgment": "Exact whole supporting evidence and bounded accepted source contexts inherited; no new fetch or blanket endorsement of unrelated article claims.",
+      "actualRelevantExternalCounterparts": [
+        {
+          "id": "nature-en-medium-03-08",
+          "questionSha256": "b718ea361766263cdde592f001d0b9648808816edefa85574eb3fd2658c4a931",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "general-en-hard-03-27",
+          "questionSha256": "6d28eb2a3429b76f501633afd66eb75352b8b3039bcd8dea286c58da09a0165b",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        },
+        {
+          "id": "nature-cs-easy-03-24",
+          "questionSha256": "b723cdaaa343958e85b7fc1b6ed088087ebdfc83a4b1e645de81d133bf1e6df1",
+          "disposition": "DISTINCT ACTUAL ENTITY/PREDICATE; AUTHOR PROPOSAL ONLY"
+        }
+      ],
+      "actualOwnCounterparts": ["nature-cs-hard-04-11"],
+      "actualRealSameFactCounterparts": [],
+      "historicalHolds": [70],
+      "independentCurrentSemanticAccepted": false,
+      "independentCurrentLifecycleAccepted": false,
+      "requiredIndependentDecision": "Current meaningful semantic/alias/lifecycle review; exact initial content and adult judgments may be inherited, not reauthored."
+    }
+  ],
+  "wholeDeckGeneralAdult": {
+    "proposedRating": "hard",
+    "complete28PromptsAnswersAndAliasesRead": true,
+    "rationale": "Specialist cell biology, mycology, botany, embryology and neurobiology predominate. Six informed school/anatomy/natural-history bridges add playability without redefining Hard relative to a biologist. The questions require identifying named structures/processes from distinguishing clues, not carrying out professional procedures. No rare-initial waiver, difficulty quota, vocabulary length or numeric threshold is used.",
+    "diagnosticBands": {
+      "specialist": 22,
+      "informed": 6
+    },
+    "inheritedActualIndependentRatingSha256": "dd164b359e53f1b1e4f69fb4eb63c602f904c69698ed36228f620689ab9c16e2",
+    "actualIndependentRating": {
+      "id": "nature-cs-hard-04",
+      "packSha256": "3ba12a3801901af7024d9b26b8fe004cde619a5374e3b16d891bb2608c419541",
+      "authorRatingFileSha256": "7520bb19e4817e74f70692f7151cbd090005fee8ed9d434ed3e0583532fc389c",
+      "judgment": "ACCEPTED bounded whole-deck general-adult Hard rating: specialist cellular, fungal, botanical, embryological and neurological terms predominate. The clues specify actual distinguishing mechanisms/features rather than professional procedures or guesswork. Centromere/lysosome/osteoclast/corpus luteum and some natural-history items are informed bridges, not evidence of a biologist-relative scale. Source-specific exceptions have to remain qualified; no rare-initial exemption.",
+      "acceptedRating": "hard",
+      "all28PromptsAnswersAndAliasesRead": true,
+      "entryIds": [
+        "nature-cs-hard-04-01",
+        "nature-cs-hard-04-02",
+        "nature-cs-hard-04-03",
+        "nature-cs-hard-04-04",
+        "nature-cs-hard-04-05",
+        "nature-cs-hard-04-06",
+        "nature-cs-hard-04-07",
+        "nature-cs-hard-04-08",
+        "nature-cs-hard-04-09",
+        "nature-cs-hard-04-10",
+        "nature-cs-hard-04-11",
+        "nature-cs-hard-04-12",
+        "nature-cs-hard-04-13",
+        "nature-cs-hard-04-14",
+        "nature-cs-hard-04-15",
+        "nature-cs-hard-04-16",
+        "nature-cs-hard-04-17",
+        "nature-cs-hard-04-18",
+        "nature-cs-hard-04-19",
+        "nature-cs-hard-04-20",
+        "nature-cs-hard-04-21",
+        "nature-cs-hard-04-22",
+        "nature-cs-hard-04-23",
+        "nature-cs-hard-04-24",
+        "nature-cs-hard-04-25",
+        "nature-cs-hard-04-26",
+        "nature-cs-hard-04-27",
+        "nature-cs-hard-04-28"
+      ],
+      "diagnosticBands": [
+        {
+          "id": "nature-cs-hard-04-01",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-02",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-03",
+          "band": "informed"
+        },
+        {
+          "id": "nature-cs-hard-04-04",
+          "band": "informed"
+        },
+        {
+          "id": "nature-cs-hard-04-05",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-06",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-07",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-08",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-09",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-10",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-11",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-12",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-13",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-14",
+          "band": "informed"
+        },
+        {
+          "id": "nature-cs-hard-04-15",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-16",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-17",
+          "band": "informed"
+        },
+        {
+          "id": "nature-cs-hard-04-18",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-19",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-20",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-21",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-22",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-23",
+          "band": "informed"
+        },
+        {
+          "id": "nature-cs-hard-04-24",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-25",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-26",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-27",
+          "band": "specialist"
+        },
+        {
+          "id": "nature-cs-hard-04-28",
+          "band": "informed"
+        }
+      ],
+      "numericBandsAreNotThresholdsOrWaivers": true,
+      "entryFactualAliasSemanticAcceptanceInferred": false
+    },
+    "noNewIndependentRatingClaimed": true
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "hard",
+  "id": "nature-cs-hard-04",
+  "title": "Příroda · Těžké 04",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-cs-hard-04-01",
+      "initial": "A",
+      "text": "Jak se nazývá rostlinné pletivo s velkými mezibuněčnými vzdušnými prostory, časté u vodních a mokřadních rostlin?",
+      "answer": "Aerenchym",
+      "aliases": [
+        "aerenchyma",
+        "provzdušňovací pletivo",
+        "provzdušňovací parenchym"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Aerenchyma"]
+    },
+    {
+      "id": "nature-cs-hard-04-02",
+      "initial": "B",
+      "text": "Na kterém mikroskopickém výtrusorodém útvaru stopkovýtrusných hub vznikají pohlavní výtrusy obvykle zevně na drobných stopečkách?",
+      "answer": "Bazidie",
+      "aliases": ["basidie", "basidium", "bazidium", "bazidie hub"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Basidium"]
+    },
+    {
+      "id": "nature-cs-hard-04-03",
+      "initial": "C",
+      "text": "Jak se nazývá chromozomová oblast, v níž se spojují sesterské chromatidy a sestavuje kinetochor?",
+      "answer": "Centromera",
+      "aliases": ["centromery"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Centromere"]
+    },
+    {
+      "id": "nature-cs-hard-04-04",
+      "initial": "Č",
+      "text": "Která jedovatá houba má na mladých plodnicích výrazně podvinutý okraj klobouku a byla dříve mylně pokládána za jedlou?",
+      "answer": "Čechratka podvinutá",
+      "aliases": ["čechratka", "Paxillus involutus"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Paxillus_involutus"]
+    },
+    {
+      "id": "nature-cs-hard-04-05",
+      "initial": "D",
+      "text": "Jak se nazývá buněčný spoj, který bodově propojuje mezibuněčnou adhezi se sítí intermediárních filament?",
+      "answer": "Desmozom",
+      "aliases": ["desmosom", "desmozomy", "desmosomy", "macula adherens"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Desmosome"]
+    },
+    {
+      "id": "nature-cs-hard-04-06",
+      "initial": "E",
+      "text": "Který steroidní prohormon z předohrudních žláz hmyzu se podílí na řízení svlékání?",
+      "answer": "Ekdyson",
+      "aliases": ["ekdyzon", "ecdysone", "svlékací hormon"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Ecdysone"]
+    },
+    {
+      "id": "nature-cs-hard-04-07",
+      "initial": "F",
+      "text": "Který typ rostlinného receptoru modrého světla se podílí na fototropismu a obsahuje domény LOV?",
+      "answer": "Fototropin",
+      "aliases": ["fototropiny", "phototropin"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Phototropin"]
+    },
+    {
+      "id": "nature-cs-hard-04-08",
+      "initial": "G",
+      "text": "Jak se nazývá specializovaný peroxizom rostlin, v němž probíhá glyoxylátový cyklus umožňující využití zásobních tuků při klíčení?",
+      "answer": "Glyoxyzom",
+      "aliases": ["glyoxysom", "glyoxyzomy", "glyoxysomy"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Glyoxysome"]
+    },
+    {
+      "id": "nature-cs-hard-04-09",
+      "initial": "H",
+      "text": "Jak se nazývá absorpční útvar parazitické houby nebo rostliny, který proniká do hostitelských tkání a odebírá živiny?",
+      "answer": "Haustorium",
+      "aliases": ["haustoria", "přísavka", "přísavné vlákno"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Haustorium"]
+    },
+    {
+      "id": "nature-cs-hard-04-10",
+      "initial": "Ch",
+      "text": "Jak se nazývá směrovaný pohyb buňky nebo organismu vyvolaný gradientem chemické látky?",
+      "answer": "Chemotaxe",
+      "aliases": ["chemotaxis", "chemotaktický pohyb"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Chemotaxis"]
+    },
+    {
+      "id": "nature-cs-hard-04-11",
+      "initial": "I",
+      "text": "Jak se nazývá vnější vrstva rostlinného vajíčka, která se po oplození mění v osemení?",
+      "answer": "Integument",
+      "aliases": ["integumenty", "obal vajíčka"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Ovule"]
+    },
+    {
+      "id": "nature-cs-hard-04-12",
+      "initial": "J",
+      "text": "Která specializovaná buňka ve stěně ledvinné arterioly syntetizuje a uvolňuje renin?",
+      "answer": "Juxtaglomerulární buňka",
+      "aliases": [
+        "juxtaglomerulární buňky",
+        "JG buňka",
+        "granulární buňka",
+        "granulární buňky"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Juxtaglomerular_cell"]
+    },
+    {
+      "id": "nature-cs-hard-04-13",
+      "initial": "K",
+      "text": "Jak se nazývá proteinový komplex na centromeře, na který se při dělení buňky připojují mikrotubuly dělícího vřeténka?",
+      "answer": "Kinetochor",
+      "aliases": ["kinetochory", "kinetochore"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Kinetochore"]
+    },
+    {
+      "id": "nature-cs-hard-04-14",
+      "initial": "L",
+      "text": "Jak se nazývá membránový buněčný váček s kyselým prostředím a hydrolytickými enzymy pro vnitrobuněčné trávení?",
+      "answer": "Lysozom",
+      "aliases": ["lyzosom", "lysosom", "lysozomy", "lyzosomy", "lysosomy"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Lysosome"]
+    },
+    {
+      "id": "nature-cs-hard-04-15",
+      "initial": "M",
+      "text": "Jak se nazývá převážně vodnatá mimobuněčná hmota, která u medúz slouží jako hydrostatická opora?",
+      "answer": "Mezoglea",
+      "aliases": ["mesoglea", "mezogloea", "mesogloea"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Mesoglea"]
+    },
+    {
+      "id": "nature-cs-hard-04-16",
+      "initial": "N",
+      "text": "Jak se nazývá embryonální proces, při němž se neurální ploténka přetváří v neurální trubici?",
+      "answer": "Neurulace",
+      "aliases": ["neurulatio"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Neurulation"]
+    },
+    {
+      "id": "nature-cs-hard-04-17",
+      "initial": "O",
+      "text": "Která mnohojaderná buňka odbourává kostní hmotu při přestavbě kosti?",
+      "answer": "Osteoklast",
+      "aliases": ["osteoklasty", "osteoclast"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Osteoclast"]
+    },
+    {
+      "id": "nature-cs-hard-04-18",
+      "initial": "P",
+      "text": "Jak se nazývá vrstva buněk kořene těsně na vnitřní straně endodermis, z níž vznikají postranní kořeny?",
+      "answer": "Pericykl",
+      "aliases": ["pericykl kořene", "pericycle"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pericycle",
+        "https://openstax.org/books/biology-2e/pages/30-3-roots"
+      ]
+    },
+    {
+      "id": "nature-cs-hard-04-19",
+      "initial": "R",
+      "text": "Jak se nazývají jehlicovité krystaly šťavelanu vápenatého v rostlinných buňkách?",
+      "answer": "Rafidy",
+      "aliases": ["rafid", "rafida", "raphides", "raphide"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Raphide"]
+    },
+    {
+      "id": "nature-cs-hard-04-20",
+      "initial": "Ř",
+      "text": "Která vodní rostlina vytváří růžice tuhých pilovitých listů a v zimě obvykle klesá pod hladinu?",
+      "answer": "Řezan pilolistý",
+      "aliases": ["řezan", "Stratiotes aloides", "řezan aloesovitý"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Řezan_pilolistý"]
+    },
+    {
+      "id": "nature-cs-hard-04-21",
+      "initial": "S",
+      "text": "Jak se nazývá uzavřený výtrusotvorný útvar hub a řady rostlin, uvnitř kterého vznikají výtrusy?",
+      "answer": "Sporangium",
+      "aliases": ["výtrusnice", "sporangia"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Sporangium"]
+    },
+    {
+      "id": "nature-cs-hard-04-22",
+      "initial": "Š",
+      "text": "Která houba roste v trsech při patách stromů a má na žlutohnědém klobouku i třeni nápadně odstálé šupiny?",
+      "answer": "Šupinovka kostrbatá",
+      "aliases": ["šupinovka", "Pholiota squarrosa"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Pholiota_squarrosa"]
+    },
+    {
+      "id": "nature-cs-hard-04-23",
+      "initial": "T",
+      "text": "Jak se nazývá odrazivá vrstva v oku mnoha živočichů, která zlepšuje vidění za šera a způsobuje odlesk očí ve světle?",
+      "answer": "Tapetum lucidum",
+      "aliases": ["tapetum"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Tapetum_lucidum"]
+    },
+    {
+      "id": "nature-cs-hard-04-24",
+      "initial": "U",
+      "text": "Který podkmen mořských strunatců má vnější plášť a strunu hřbetní u většiny druhů jen v larválním stadiu?",
+      "answer": "Urochordata",
+      "aliases": ["pláštěnci", "Tunicata", "urochordáti"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Tunicata"]
+    },
+    {
+      "id": "nature-cs-hard-04-25",
+      "initial": "V",
+      "text": "Který protein intermediárních filament je typický zejména pro buňky mezenchymového původu?",
+      "answer": "Vimentin",
+      "aliases": ["vimentinový protein"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Vimentin"]
+    },
+    {
+      "id": "nature-cs-hard-04-26",
+      "initial": "W",
+      "text": "Jak se nazývá rozpad úseku axonu odděleného poraněním od těla nervové buňky?",
+      "answer": "Wallerova degenerace",
+      "aliases": [
+        "Wallerova degenerace axonu",
+        "Wallerian degeneration",
+        "anterográdní degenerace",
+        "anterograde degeneration"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wallerian_degeneration",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7850934/"
+      ]
+    },
+    {
+      "id": "nature-cs-hard-04-27",
+      "initial": "Z",
+      "text": "Jak se nazývá neaktivní prekurzor enzymu, který musí být aktivován například proteolytickým štěpením?",
+      "answer": "Zymogen",
+      "aliases": ["proenzym", "proenzymy", "zymogeny"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Zymogen"]
+    },
+    {
+      "id": "nature-cs-hard-04-28",
+      "initial": "Ž",
+      "text": "Jak se nazývá dočasný útvar ve vaječníku vznikající z prasklého folikulu po ovulaci a produkující zejména progesteron?",
+      "answer": "Žluté tělísko",
+      "aliases": ["corpus luteum", "luteální tělísko"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Corpus_luteum"]
+    }
+  ]
+}

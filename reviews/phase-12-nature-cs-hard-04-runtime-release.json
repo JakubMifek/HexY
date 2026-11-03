@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "scope": "Exact ten frozen inputs of NatureCSHard04 alone against actual delivered163 parent",
+  "reviewerTaskId": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "publisherSessionId": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "actualParent": "d1b51b1537f0624dfd759826706b8942877571f5",
+  "candidateCheckout": ".artifacts/continuation/fresh38-release-164-worktree",
+  "deckId": "nature-cs-hard-04",
+  "entries": 28,
+  "initialAcceptedInheritedFromExactIndependentReview": 28,
+  "currentAcceptedInherited": 28,
+  "held": 0,
+  "packSha256": "3ba12a3801901af7024d9b26b8fe004cde619a5374e3b16d891bb2608c419541",
+  "reportPath": ".artifacts/continuation/fresh38-review-164/REPORT.md",
+  "reportSha256": "b2ac35e23b0a6a563bfde9c1433321f62987938e0a9e6821aa15328ffb96437b",
+  "freezePath": ".artifacts/continuation/fresh38-review-164/FROZEN-SHA256SUMS",
+  "freezeSha256": "73709bb8ad8f2abee39d9ae0c5e71f0b8a35b9d6f6dec1d0e9c45ae9c2a467b2",
+  "candidateDiffSha256": "60cf1b84d805882f809f73bbfcad95271cfc3504e4917f87fc0a59bb1937df72",
+  "frozenSourceBindings": {
+    ".artifacts/continuation/fresh38-release-164-worktree/IMPLEMENTATION_PHASES.md": "68c12d2b2f7481594c3133052c7d71a5b209e1401abefcb7e6c6053cb9dfa636",
+    ".artifacts/continuation/fresh38-release-164-worktree/README.md": "e666d7973160f25d42d94a87857f3149d5093f849990a8b4dca210188aa3fa40",
+    ".artifacts/continuation/fresh38-release-164-worktree/docs/content-inventory.md": "d951077431bbec8ee2dfd627292855f61babba93965a3f91a26686cea7f4f2ed",
+    ".artifacts/continuation/fresh38-release-164-worktree/docs/phase-12-deck-inventory.json": "8c433af96a3ab14aa786972a91777f465d313dde9d4dcc993ef9a59e5f886993",
+    ".artifacts/continuation/fresh38-release-164-worktree/docs/phase-12-nature-cs-hard-04-source-continuity.json": "da66a2ecd86902d7a2d3ae17559c1cb2b39cece99cbf99125b5ca78221d5f633",
+    ".artifacts/continuation/fresh38-release-164-worktree/docs/phase-12-nature-cs-hard-04-sources.json": "f57a7dbecbbe8d0c8635ce5ab9ea35297a5fe81ecb856ca7120c0c24fc0fa177",
+    ".artifacts/continuation/fresh38-release-164-worktree/reviews/phase-12-nature-cs-hard-04-content-review.json": "42a5ba22ff0b4299f9d7c341f5785de913b35857c22cdc1933bbaeeaa5becac8",
+    ".artifacts/continuation/fresh38-release-164-worktree/reviews/phase-12-nature-cs-hard-04-content-review.md": "97aa45e5d37f56e5ab0ee47dc6293fdaea702d75569bd7390bfdc880f7b8b7f9",
+    ".artifacts/continuation/fresh38-release-164-worktree/src/content-order.json": "f5f445e54b5f75263690e8c34d43f4e200128a1437c5689db7f56f462d30dce5",
+    ".artifacts/continuation/fresh38-release-164-worktree/src/content/nature-cs-hard-04.json": "3ba12a3801901af7024d9b26b8fe004cde619a5374e3b16d891bb2608c419541"
+  },
+  "authorityBindings": {
+    ".artifacts/continuation/fresh38-review-next/nature-cs-hard-04/SEAL.json": "15b7a9988526f53d85c0d9b85db578445080ca5c4cfb3515d773ec43bf09760f",
+    ".artifacts/continuation/fresh38-review-next/nature-cs-hard-04/REPORT.md": "97aa45e5d37f56e5ab0ee47dc6293fdaea702d75569bd7390bfdc880f7b8b7f9",
+    ".artifacts/continuation/fresh38-review-next/nature-cs-hard-04/ENTRY-DECISIONS.json": "f33205133e5893339bde8065e27f70301492ad3c889db263d7bc59f9cb070ea7",
+    ".artifacts/continuation/fresh38-review-next/nature-cs-hard-04/INPUT-BINDINGS.json": "dcd45be9da5023bcd566ad4301527b4dae4385e9c05bf023910263ef81f708a5",
+    ".artifacts/continuation/fresh38-authors/nature-cs-hard-04/HANDOFF.json": "b1d4bb8d32dd85545013635120632fc6909a4a78263779220807de909d54a6a5",
+    ".artifacts/continuation/fresh38-authors/nature-cs-hard-04/sources.json": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+    ".artifacts/continuation/fresh38-authors/nature-cs-hard-04/ENTRY-AUTHOR-JUDGMENTS.json": "d05ae8b860cc706a484fbd41a65bebad1f33b77ef79ef4ec822c0f822fd2599a",
+    ".artifacts/continuation/fresh38-review-next/BUNDLE-SEAL.json": "cd70d56ea1c328553f08e712fcd4d81def09fc317584f6dfa5ac72bdc13df8ad",
+    ".artifacts/continuation/fresh38-deck163-actual-delivery.json": "bf9d2b4519c3de6ebed2209e50ed951ba81d9861c685f843669554f7896f09c5",
+    ".artifacts/continuation/runtime-content-delivery.json": "deceaefc919d39b73c6e7116da26ecb30f368515878d3b3cf9fc751360f1d3b7",
+    ".artifacts/continuation/fresh38-release-163-worktree/reviews/runtime-catalog-migration.json": "d5079ee627e5ac4a00dd90fcec3604d694f87605a1c45589f1fc438305efec9f",
+    ".artifacts/continuation/fresh38-release-163-worktree/reviews/phase-12-geography-cs-easy-04-runtime-release.json": "3d613b162cbcf483f78ef4dd1a99c2fa742bab1f1d96667d5d014486fcf1d30e"
+  },
+  "completeFormattingOnlyJSONCopies": [
+    {
+      "originalPath": ".artifacts/continuation/fresh38-authors/nature-cs-hard-04/sources.json",
+      "originalSha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+      "formattedPath": ".artifacts/continuation/fresh38-release-164-worktree/docs/phase-12-nature-cs-hard-04-sources.json",
+      "formattedSha256": "f57a7dbecbbe8d0c8635ce5ab9ea35297a5fe81ecb856ca7120c0c24fc0fa177",
+      "wholeJSONValueSha256": "baa88cf8db1b4694adae679db2cb10fe95c62179bbd54d0917948ffda752ac21",
+      "entireValueAndOrderedProjectionEqual": true
+    },
+    {
+      "originalPath": ".artifacts/continuation/fresh38-authors/nature-cs-hard-04/ENTRY-AUTHOR-JUDGMENTS.json",
+      "originalSha256": "d05ae8b860cc706a484fbd41a65bebad1f33b77ef79ef4ec822c0f822fd2599a",
+      "formattedPath": ".artifacts/continuation/fresh38-release-164-worktree/docs/phase-12-nature-cs-hard-04-source-continuity.json",
+      "formattedSha256": "da66a2ecd86902d7a2d3ae17559c1cb2b39cece99cbf99125b5ca78221d5f633",
+      "wholeJSONValueSha256": "cfb5abec0f6de5b7bdbf5a4bd4f4433f39ea037ba24e148418df09768b28c1f2",
+      "entireValueAndOrderedProjectionEqual": true
+    },
+    {
+      "originalPath": ".artifacts/continuation/fresh38-review-next/nature-cs-hard-04/ENTRY-DECISIONS.json",
+      "originalSha256": "f33205133e5893339bde8065e27f70301492ad3c889db263d7bc59f9cb070ea7",
+      "formattedPath": ".artifacts/continuation/fresh38-release-164-worktree/reviews/phase-12-nature-cs-hard-04-content-review.json",
+      "formattedSha256": "42a5ba22ff0b4299f9d7c341f5785de913b35857c22cdc1933bbaeeaa5becac8",
+      "wholeJSONValueSha256": "3e834a14d9c43950493623a2fe633227aa92c94fff90bc126a9a1f33f275d72a",
+      "entireValueAndOrderedProjectionEqual": true
+    }
+  ],
+  "copiedContentReportByteIdentical": true,
+  "inheritedContentScope": "Exact sealed own28 full factual/source/evidence/wording/initial/73finite-alias/Hard22specialist6informed individual-and-whole adult judgments; nine specific bilingual and nine expression-meaning decisions, all104 meanings retained; no re-research or producer attestation",
+  "sourceScope": {
+    "originalEntriesRetained": 84,
+    "ownAcceptedPublishedEntries": 28,
+    "ownEvidenceObjects": 30,
+    "other56NotPublishedOrCleared": true,
+    "historicalAuthorLabelsPreserved": true,
+    "finiteAliases": 73
+  },
+  "meaningfulDeltaAssessment": "Actual General161/Science162/Geography163 are exact already accepted cross-own112 objects; no new substantive proposal, all8 authors stopped. Earlier priority and legitimate aliases preserved. Next112 and other source-ledger decks remain outside scope.",
+  "sixLenses": {
+    "behavior": "Exact accepted28 and previous163 raw bytes/order; all legitimate finite names preserved",
+    "design": "One append-only native data pack, complete original84-source/own28-continuity and separate current acceptance, unchanged runtime",
+    "maintainability": "Complete original evidence/judgments and historical pending labels preserved without fictional execution",
+    "quality": "Fresh exact-copy/parent/count/quota/inventory/full-boundary verification; exact applicable independent content acceptance inherited",
+    "accessibilityLocalization": "Native wording/initials/useful names and general-adult Hard22specialist6informed calibration unchanged",
+    "securityPrivacy": "Data-only, no executable/dependency/imported-HTML execution or publisher/shared mutation"
+  },
+  "verificationPath": ".artifacts/continuation/fresh38-review-164/VERIFICATION.json",
+  "verificationSha256": "1ca08cb5fac3b106ea11c781f421c7f48c4861474dcfc89ff081026e14c16143",
+  "inputBindingsSha256": "f8b464a6944e21d65429f9205f23ba7d035dfcd9aa0879952b0560a5d40f405d",
+  "applicationBoundary": {
+    "baselineComparableFiles": 617,
+    "candidateComparableFiles": 622,
+    "added": [
+      "docs/phase-12-nature-cs-hard-04-source-continuity.json",
+      "docs/phase-12-nature-cs-hard-04-sources.json",
+      "reviews/phase-12-nature-cs-hard-04-content-review.json",
+      "reviews/phase-12-nature-cs-hard-04-content-review.md",
+      "src/content/nature-cs-hard-04.json"
+    ],
+    "changed": [
+      "IMPLEMENTATION_PHASES.md",
+      "README.md",
+      "docs/content-inventory.md",
+      "docs/phase-12-deck-inventory.json",
+      "src/content-order.json"
+    ],
+    "deleted": [],
+    "unchangedComparableFiles": 612,
+    "allExistingPermissionBitsPreserved": true,
+    "baselineScopeSha256": "ad473224692faeb67cebb5d58b23ee01119a15d95420e4115572604014b40957",
+    "candidateScopeSha256": "1b067273b3bd21a734db06fc07d4023f001d65a8a2a23cb73db38e86fc4e8f95",
+    "executableApplicationToolTestDependencyConfigurationChanges": [],
+    "generatedCatalogExcludedByExactUnchangedGitignore": true
+  },
+  "previousPacksPreserved": 163,
+  "candidateCounts": {
+    "decks": 164,
+    "questions": 4592,
+    "en": 85,
+    "cs": 79,
+    "combinations": 66
+  },
+  "inheritedApplicationGateRevision": "c7cdaafb1969017728d00e35ceb2f6a731a700cf",
+  "unchangedActuallyReferencedAssets": {
+    "/hexy/assets/index-Ck_9oRvP.js": "2bf488f03685b99bf40d1bf295883e131bf2162066c51f6273398eb7a4497717",
+    "/hexy/assets/index-DPcmLzC0.css": "dfcaaf71a4cc9429d3f38589e9e3a747d1532af9c692372b1e3d21d535d9af89"
+  },
+  "remainingPublisherGates": [
+    "Copy exact standalone review receipt into reviews and mechanically rehash final candidate; no substantive changes",
+    "Separate central npm run release:content -- d1b51b1537f0624dfd759826706b8942877571f5",
+    "Individual164 push/atomic promotion; verify actual full164 catalog/objects/order and unchanged referenced JS/CSS"
+  ],
+  "unresolvedFindings": [],
+  "centralContentGateExecuted": false,
+  "actuallyPublishedOrDelivered": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "limitations": [
+    "Exact accepted content report source-quality/missing counterpart full-ledger/older capture-path and historical execution limits remain",
+    "Original84-entry source ledger retained as evidence, only ownHard28 published/accepted; historical held/pending labels preserved separately from current independent acceptance",
+    "Actual163 receipt/runtime authority bound; no new live remote/private fetch claimed",
+    "No full application/compiler/coverage/browser/build/test/runner, services, Git commands, global historical guard reconstruction or subagents",
+    "Next112, other source-ledger decks, final330/9240/all66 and cleanup remain outside clearance"
+  ]
+}

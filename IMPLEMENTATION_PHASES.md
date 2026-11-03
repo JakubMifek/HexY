@@ -12,6 +12,14 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate164:** NatureCSHard04 alone adds28 to actual
+delivered `d1b51b15` (163/4,564), yielding164/4,592, English85/Czech79.
+All28 initial/current/alias/adult and specific semantic judgments independently
+accepted; full original source/own28 continuity retained without clearing other
+source-ledger decks. Previous163 packs/order/application inputs remain immutable.
+Exact-parent release review/content gate and individual push/private catalog/
+assets checks remain separate. Final330/9,240/all66 and cleanup NOT CLEARED.
+
 **Current runtime-data candidate163:** GeographyCSEasy04 alone adds28 to actual
 delivered `3a46238b` (162/4,536), yielding163/4,564, English85/Czech78. Its28
 initial/current/adult judgments are directly independently accepted; source

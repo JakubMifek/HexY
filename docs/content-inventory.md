@@ -2,6 +2,23 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only candidate contains **164 decks / 4,592 questions**, English85/
+Czech79. Only `nature-cs-hard-04` is added to actual delivered `d1b51b15`
+(163/4,564); all163 earlier packs/order and application inputs stay immutable.
+All28 initial/current/full-source/alias/adult judgments are independently
+accepted in the [review](../reviews/phase-12-nature-cs-hard-04-content-review.md).
+The [source ledger](phase-12-nature-cs-hard-04-sources.json) retains the entire
+original84-entry ledger as evidence, not publication or clearance of its other56.
+[Own28 continuity](phase-12-nature-cs-hard-04-source-continuity.json) preserves
+complete original judgments and Hard22-specialist/6-informed adult calibration.
+Nine specific bilingual same-fact relations and nine expression meanings were
+independently decided, not made novel by translation or stripped of aliases.
+Source/provenance limits remain disclosed. Actual-parent integration/content
+gate and individual push/private catalog/unchanged-asset checks remain separate.
+Final330/9,240/all66, final phase review and cleanup remain OPEN.
+
+## Retained163 preparation history
+
 The append-only candidate contains **163 decks / 4,564 questions**, English85/
 Czech78, adding only `geography-cs-easy-04` to actual delivered `3a46238b`
 (162/4,536). All162 old packs/order and application inputs remain immutable.

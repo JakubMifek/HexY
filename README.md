@@ -25,6 +25,18 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The runtime candidate contains **164 decks / 4,592 questions**, English85/
+Czech79. Only accepted `nature-cs-hard-04` is added to actual delivered
+`d1b51b15` (163/4,564). All163 earlier pack bytes/order and application inputs
+remain unchanged. [Full source evidence](docs/phase-12-nature-cs-hard-04-sources.json)
+and [independent review](reviews/phase-12-nature-cs-hard-04-content-review.md)
+retain all28 factual/alias/adult/current decisions. Only the own28 pack enters
+play; the retained84-entry source ledger does not clear or publish its other56.
+Actual-parent release/content gates precede individual private delivery, without
+app build/restart. Final330/9,240/all66 and final cleanup remain OPEN.
+
+## Retained163 preparation history
+
 The runtime candidate contains **163 decks / 4,564 questions**, English85/
 Czech78. Only independently accepted `geography-cs-easy-04` is added to actual
 delivered `3a46238b` (162/4,536). All162 old pack bytes/order and application
