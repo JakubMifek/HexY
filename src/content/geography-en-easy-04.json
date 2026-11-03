@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "geography-en-easy-04",
+  "title": "Geography and travel · Easy 04",
+  "language": "en",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "initial": "A",
+      "text": "Which Alpine country has Vienna as its capital?",
+      "answer": "Austria",
+      "aliases": ["Republic of Austria", "Österreich"],
+      "id": "geography-en-easy-04-01",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Austria"]
+    },
+    {
+      "initial": "B",
+      "text": "Which European country is divided into Flanders, Wallonia and the Brussels-Capital Region?",
+      "answer": "Belgium",
+      "aliases": ["Kingdom of Belgium", "België", "Belgique", "Belgien"],
+      "id": "geography-en-easy-04-02",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Belgium"]
+    },
+    {
+      "initial": "C",
+      "text": "Which US state contains both Los Angeles and San Francisco?",
+      "answer": "California",
+      "aliases": ["State of California", "CA"],
+      "id": "geography-en-easy-04-03",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/California"]
+    },
+    {
+      "initial": "CH",
+      "text": "What airport procedure confirms a passenger's arrival for a booked flight and may include handing over hold baggage?",
+      "answer": "Check-in",
+      "aliases": ["check in", "checking in"],
+      "id": "geography-en-easy-04-04",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Airport_check-in"]
+    },
+    {
+      "initial": "D",
+      "text": "Which large Texas city is linked with Fort Worth in the name of a major international airport?",
+      "answer": "Dallas",
+      "aliases": [],
+      "id": "geography-en-easy-04-05",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Dallas"]
+    },
+    {
+      "initial": "E",
+      "text": "Which country within the United Kingdom contains Manchester, Liverpool and Birmingham?",
+      "answer": "England",
+      "aliases": [],
+      "id": "geography-en-easy-04-06",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/England"]
+    },
+    {
+      "initial": "F",
+      "text": "What ornamental water feature sends jets or streams of water into the air in a public square or garden?",
+      "answer": "Fountain",
+      "aliases": [],
+      "id": "geography-en-easy-04-07",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Fountain"]
+    },
+    {
+      "initial": "G",
+      "text": "Which West African country on the Gulf of Guinea has Accra as its capital?",
+      "answer": "Ghana",
+      "aliases": ["Republic of Ghana", "Gold Coast"],
+      "id": "geography-en-easy-04-08",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Ghana"]
+    },
+    {
+      "initial": "H",
+      "text": "Which Chinese special administrative region includes Kowloon and Victoria Harbour?",
+      "answer": "Hong Kong",
+      "aliases": [
+        "Hong Kong Special Administrative Region",
+        "HKSAR",
+        "Hongkong"
+      ],
+      "id": "geography-en-easy-04-09",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Hong_Kong"]
+    },
+    {
+      "initial": "I",
+      "text": "Which Southeast Asian island country includes Java and Bali?",
+      "answer": "Indonesia",
+      "aliases": ["Republic of Indonesia"],
+      "id": "geography-en-easy-04-10",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Indonesia"]
+    },
+    {
+      "initial": "J",
+      "text": "What temporary sleep disturbance can follow rapid travel across several time zones?",
+      "answer": "Jet lag",
+      "aliases": ["jetlag", "jet-lag"],
+      "id": "geography-en-easy-04-11",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Jet_lag"]
+    },
+    {
+      "initial": "K",
+      "text": "Which large Central Asian country has Astana as its capital?",
+      "answer": "Kazakhstan",
+      "aliases": ["Republic of Kazakhstan", "Qazaqstan"],
+      "id": "geography-en-easy-04-12",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Kazakhstan"]
+    },
+    {
+      "initial": "L",
+      "text": "Which mountainous region of northwestern England contains Windermere and Derwentwater?",
+      "answer": "Lake District",
+      "aliases": ["the Lakes", "Lakeland"],
+      "id": "geography-en-easy-04-13",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Lake_District"]
+    },
+    {
+      "initial": "M",
+      "text": "Which North African country contains the cities of Rabat, Casablanca and Marrakesh?",
+      "answer": "Morocco",
+      "aliases": ["Kingdom of Morocco", "Maroc"],
+      "id": "geography-en-easy-04-14",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Morocco"]
+    },
+    {
+      "initial": "N",
+      "text": "Which West African country has Abuja as its capital and Lagos as its largest city?",
+      "answer": "Nigeria",
+      "aliases": ["Federal Republic of Nigeria"],
+      "id": "geography-en-easy-04-15",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Nigeria"]
+    },
+    {
+      "initial": "O",
+      "text": "What geographical region includes Australasia, Melanesia, Micronesia and Polynesia?",
+      "answer": "Oceania",
+      "aliases": [],
+      "id": "geography-en-easy-04-16",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Oceania"]
+    },
+    {
+      "initial": "P",
+      "text": "What official travel document identifies its holder and their nationality when travelling abroad?",
+      "answer": "Passport",
+      "aliases": [],
+      "id": "geography-en-easy-04-17",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Passport"]
+    },
+    {
+      "initial": "Q",
+      "text": "Which airline is Australia's flag carrier and a founding member of the Oneworld alliance?",
+      "answer": "Qantas",
+      "aliases": [
+        "Qantas Airways",
+        "Qantas Airways Limited",
+        "Queensland and Northern Territory Aerial Services",
+        "The Flying Kangaroo",
+        "Flying Kangaroo"
+      ],
+      "id": "geography-en-easy-04-18",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Qantas"]
+    },
+    {
+      "initial": "R",
+      "text": "Which sea lies between northeastern Africa and the Arabian Peninsula?",
+      "answer": "Red Sea",
+      "aliases": [],
+      "id": "geography-en-easy-04-19",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Red_Sea"]
+    },
+    {
+      "initial": "S",
+      "text": "Which Scandinavian country has Stockholm as its capital?",
+      "answer": "Sweden",
+      "aliases": ["Kingdom of Sweden", "Sverige"],
+      "id": "geography-en-easy-04-20",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Sweden"]
+    },
+    {
+      "initial": "SH",
+      "text": "What is the Japanese name for the high-speed railway network linking cities such as Tokyo and Osaka?",
+      "answer": "Shinkansen",
+      "aliases": ["bullet train", "bullet trains"],
+      "id": "geography-en-easy-04-21",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Shinkansen"]
+    },
+    {
+      "initial": "T",
+      "text": "Which island off southeastern China contains Taipei and Kaohsiung?",
+      "answer": "Taiwan",
+      "aliases": ["Formosa", "Ilha Formosa", "Taiwan Island"],
+      "id": "geography-en-easy-04-22",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Geography_of_Taiwan"]
+    },
+    {
+      "initial": "U",
+      "text": "Which Gulf federation has Abu Dhabi as its capital and includes Dubai?",
+      "answer": "United Arab Emirates",
+      "aliases": ["UAE", "U.A.E.", "the Emirates"],
+      "id": "geography-en-easy-04-23",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/United_Arab_Emirates"]
+    },
+    {
+      "initial": "V",
+      "text": "What elongated low area between hills or mountains often contains a river or stream?",
+      "answer": "Valley",
+      "aliases": ["vale"],
+      "id": "geography-en-easy-04-24",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Valley"]
+    },
+    {
+      "initial": "W",
+      "text": "Which English town on the Thames is known for its royal castle opposite Eton?",
+      "answer": "Windsor",
+      "aliases": ["New Windsor"],
+      "id": "geography-en-easy-04-25",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Windsor%2C_Berkshire"]
+    },
+    {
+      "initial": "X",
+      "text": "Which Mexico City borough is known for canals and traditional chinampa gardens?",
+      "answer": "Xochimilco",
+      "aliases": [],
+      "id": "geography-en-easy-04-26",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Xochimilco"]
+    },
+    {
+      "initial": "Y",
+      "text": "Which sea lies between mainland China and the Korean Peninsula?",
+      "answer": "Yellow Sea",
+      "aliases": [
+        "North Sea",
+        "Huáng Hǎi",
+        "Hwanghae",
+        "Hwang Hai",
+        "West Sea",
+        "Seohae"
+      ],
+      "id": "geography-en-easy-04-27",
+      "category": "geography",
+      "language": "en",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yellow_Sea",
+        "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_The_Yellow_Sea_of_China"
+      ]
+    },
+    {
+      "initial": "Z",
+      "text": "What pedestrian road crossing is marked by alternating light and dark stripes?",
+      "answer": "Zebra crossing",
+      "aliases": ["marked crosswalk"],
+      "id": "geography-en-easy-04-28",
+      "category": "geography",
+      "language": "en",
+      "sources": ["https://en.wikipedia.org/wiki/Zebra_crossing"]
+    }
+  ]
+}

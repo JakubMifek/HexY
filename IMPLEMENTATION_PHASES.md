@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate, 2026-11-03:** GeographyENEasy04 adds one
+accepted28-question deck to actual delivered `e77d966f` (159/4,452),
+yielding160/4,480, English85/Czech75. Previous159 packs/order and application
+bytes stay immutable. Inherit the exact accepted content/source/alias/adult/
+current judgments and obtain independent actual-parent integration binding.
+Then run the central complete-corpus `release:content` gate and individually
+push/verify actual private catalog/questions/unchanged JS-CSS. No full app gate
+for this data-only delta. Final330/9,240/all66 and cleanup are NOT CLEARED.
+
 **Latest owner scheduling amendment, 2026-11-03 07:10 UTC:** after verified
 runtime-catalog readiness/delivery, run four isolated one-deck author lanes in
 parallel, not four multi-deck batches. One reviewer and publisher remain;

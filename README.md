@@ -25,6 +25,19 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The append-only runtime candidate contains **160 decks / 4,480 questions**,
+English85/Czech75. Only `geography-en-easy-04` is added to actual delivered
+`e77d966f0a642c958e1837f2f7d3b1fce39f7d5d` (159/4,452).
+All159 previous pack bytes/order and application code remain unchanged.
+Its [complete source ledger](docs/phase-12-geography-en-easy-04-sources.json)
+preserves the independently accepted facts, full evidence, aliases and adult
+rating. Actual-parent release acceptance and complete-corpus content checks
+precede the individual push and private hashed-catalog/whole28/unchanged-asset
+verification. No application rebuild or server restart is needed.
+Final330/9,240/all66, independent final clearance and cleanup remain OPEN.
+
+## Retained159 preparation history
+
 This source candidate contains **159 decks / 4,452 questions**,
 adding only `general-cs-easy-04` to its 158-deck predecessor.
 Actual delivery at preparation is `db1b9955` (156/4,368), English82/Czech74.

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "scope": "Only geography-en-easy-04 exact28 plus seven frozen necessary content/order/inventory/source/documentation files; actual159-parent integration, not category or Phase12 clearance",
+  "reviewer": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "reviewerTaskId": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "publisherSessionId": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "actualParent": "e77d966f0a642c958e1837f2f7d3b1fce39f7d5d",
+  "candidateCheckout": ".artifacts/continuation/fresh38-release-160-worktree",
+  "reportPath": ".artifacts/continuation/fresh38-review-160/REPORT.md",
+  "reportSha256": "1fed79c37e8dede9ff2a012feb960d7375dce8f09a4a575716a80b9c094a8111",
+  "deckId": "geography-en-easy-04",
+  "entries": 28,
+  "packSha256": "a10f313fad868b7d203f91306f60287473d5dae3bce2b97124422566abd9b880",
+  "completeDeckEvidenceLedgerSha256": "a0510148e7f813bfad32b59b494366d81d83bb56b014586d33704620dda40411",
+  "freeze": {
+    "path": ".artifacts/continuation/fresh38-review-160/FROZEN-SHA256SUMS",
+    "sha256": "c3eefe212f25a0b66d11e3ff4053a09a69b92486125820cf1aa36510dd02e1c7",
+    "candidateDiffPath": ".artifacts/continuation/fresh38-review-160/CANDIDATE.diff",
+    "candidateDiffSha256": "6d5259a3f34b13ee624ecd7eb8cee5f93e5953384f86bed12316c3cccaf3cd6e"
+  },
+  "sourceBindings": {
+    "src/content/geography-en-easy-04.json": "a10f313fad868b7d203f91306f60287473d5dae3bce2b97124422566abd9b880",
+    "src/content-order.json": "eeb54fa0d248b37c2c0765f303fc990c8e994cafbe9050386cc7ea4ccfbb7099",
+    "docs/phase-12-geography-en-easy-04-sources.json": "a0510148e7f813bfad32b59b494366d81d83bb56b014586d33704620dda40411",
+    "docs/phase-12-deck-inventory.json": "c0590b5c7bfdecb95cfbe1b893b6b413f8e03f5c0448d1cd750aeddb62600288",
+    "docs/content-inventory.md": "a482edadfe5db4c9a6f20a01fdd4a8a2444888bea373829da03505937a774c67",
+    "README.md": "6950fa75650c94803f7e23010c182b75735829a4e65ecb5d7c6969caea5c4b1c",
+    "IMPLEMENTATION_PHASES.md": "c72cc98b755d98d7a492cdbf42e5a1e4e861b0099eb61a5d412f4dda839cf56a"
+  },
+  "authorityBindings": {
+    ".artifacts/continuation/runtime-content-delivery.json": "59c20ff0216d569230d45741ab4678dee5bd370ce34335ce8090e2f195f09139",
+    ".artifacts/continuation/runtime-data-159-actual-delivery.json": "86361b350a28b7b0279c13d00638622dac8dd218c66dc9ecd20d7cf667353c52",
+    ".artifacts/continuation/runtime-content-private-data.json": "076cb1262da9e6d30d13ce73913c5be479495dcc6f6fe1c0dfeeac4bd97e1d86",
+    ".artifacts/continuation/fresh38-actual-baseline-159.json": "7afe94dbf1b7462c4bbc5c01341f331469f447738f657dede7679045d72cd5d6",
+    ".artifacts/continuation/batch-review/single-author-general-geography-next-after152-v1/BATCH-SEAL.json": "8bff7357c9d5cd0d7dfec5db0460eefd64f8c51b2c800f5fa7179e9086c4c97f",
+    ".artifacts/continuation/batch-review/single-author-general-geography-next-after152-v1/BATCH-REPORT.md": "e199d97fbdcba372130d97f2e9fca33ad82a33efdc20a3e3fe36b2500f15c14b",
+    ".artifacts/continuation/batch-review/single-author-general-geography-next-after152-v1/ENTRY-AND-DECK-DECISIONS.json": "4cdab3d0d4f03d4837f45ead5a13181625a8e927978676292e944faa64aa4153",
+    ".artifacts/continuation/batch-review/single-author-general-geography-next-after152-v1/integration-final-v1/REPORT.md": "69b77b961183b9390e711a5b10b7ae2f805565ecf746c3a977b0c34610490fcd",
+    ".artifacts/continuation/batch-review/single-author-general-geography-next-after152-v1/integration-final-v1/geography-en-easy-04/REPORT.md": "7c965c85252670534a46283714df2f3e5f10228dc8e60a7918f32082610c7ff5"
+  },
+  "inheritedContentScope": {
+    "entireQuestions": 28,
+    "entireEvidenceArraysAliasesAndIndividualAdultBindings": 28,
+    "unchangedOriginalQuestions": 27,
+    "acceptedCorrection": "geography-en-easy-04-28 marked crosswalk",
+    "originalWholeAdultDistribution": {
+      "easy": 22,
+      "medium": 5,
+      "hard": 1
+    },
+    "fullLedgerExactlyEqualsPriorAcceptedProspectiveSource": true,
+    "unchangedCurrentSemanticLifecycleJudgmentsInherited": true,
+    "no112FactReresearchOrHistoricalExecutionReconstruction": true,
+    "historicalPendingAndRejectedLabelsPreserved": true
+  },
+  "actualParentIntegration": {
+    "previousPackBytesAndOrderPreserved": 159,
+    "newDecks": 1,
+    "candidateDecks": 160,
+    "candidateQuestions": 4480,
+    "languages": {
+      "en": 85,
+      "cs": 75
+    },
+    "quotaCombinationsPresent": 66,
+    "maximumDecksInAnyQuota": 4,
+    "unchangedApplicationToolTestBrowserDeploymentAndDependencyScope": true,
+    "parentActualDeployedObjectsObservation": "Bound supplied independently fetched fresh38-actual-baseline-159.json; reviewer did not repeat network or remote Git observation",
+    "primaryDirty4fe0bc5UsedAsReleaseParent": false
+  },
+  "currentMeaningfulDeltas": {
+    "nativeRevision": 53,
+    "nativeSha256": "e6f931f9f6c9f3eefbdcfcaa93c454dd8caee87e8832cdaa055382c5f2e108f9",
+    "queueObservationSha256": "8295e4f5453a45f1627cc3c911154b835817179acf44cda4b7d4702a15c7d255",
+    "queueObservationIsNotAnImmutableFutureOperationalState": true,
+    "r50ToR53EntireQuestionAndAliasEntriesUnchanged": 2128,
+    "r50ToR53ChangedOuterRecords": "Only approved GeneralENEasy04 source-header additions and delivered GeneralENEasy04/GeneralENHard04 lifecycle fields",
+    "completedPackets": "GeneralCS05 84, GeneralEN05 56 and ScienceCS03 84 originals exactly match Native; completed GeographyCS04 84 originals separately examined because outside Native",
+    "interruptedScienceEN05": "Actual84 original predicates and partial source/alias proposals examined; not a completed handoff or independently cleared deck",
+    "newIndependentSpecificPairDecisions": [
+      {
+        "ownId": "geography-en-easy-04-02",
+        "counterpartId": "geography-cs-easy-04-02",
+        "decision": "ACCEPTED SPECIFIC BILINGUAL SAME-FACT COMPANION",
+        "reason": "Both complete native predicates identify Belgium from its three regions; actual Czech source text and accepted English full support agree. All finite names retained; B/B placement is valid."
+      },
+      {
+        "ownId": "geography-en-easy-04-07",
+        "counterpartId": "geography-cs-easy-04-07",
+        "decision": "ACCEPTED SPECIFIC BILINGUAL SAME-CONCEPT COMPANION",
+        "reason": "Both ask the ornamental water-jet installation. Actual Czech source supports Fontana/vodotrysk/kasna native context; no pen, spring, town or pump-machine substitution. Full original accented aliases retained."
+      },
+      {
+        "ownId": "geography-en-easy-04-04",
+        "counterpartId": "geography-cs-easy-04-17",
+        "decision": "ACCEPTED SPECIFIC BILINGUAL SAME-PROCEDURE COMPANION",
+        "reason": "Actual primary Prague Airport text ties online/counter/self-service check-in to boarding passes and baggage. Native Odbaveni and all finite aliases fit O; English Check-in fits CH. No Czech deck clearance transferred."
+      },
+      {
+        "ownId": "geography-en-easy-04-24",
+        "counterpartId": "geography-cs-hard-04-25",
+        "decision": "ACCEPTED SPECIFIC CROSS-LANGUAGE BROAD-SPECIFIC RELATED PAIR",
+        "reason": "Accepted generic Valley definition versus actual source-supported hanging side glacial valley with elevated floor caused by differential erosion; generic Valley is not silently narrowed."
+      }
+    ],
+    "otherDirectRelatedSourceDecisions": "California US state versus Mexico/Baja peninsula; Morocco versus Marrakesh's square; Austria versus Mozart's Salzburg are distinct explicit country/city or jurisdiction predicates",
+    "otherRealProposals": "ScienceCS03 additive optical instrument aliases/support, ScienceEN05 limewater/Joule-cycle source additions and Venturi aliases do not overlap this deck's28 predicates; no acceptance of those proposals claimed",
+    "activeAuthorNotices": "GeneralCSEasy05, ScienceCSEasy03 and GeographyCSEasy04 report unchanged own content; specific Bota/Shoe, Diesel/retirement and Pumpa holds retained for their own scopes",
+    "durableScienceAuthorNotice": {
+      "path": ".artifacts/continuation/fresh38-authors/science-cs-easy-03/CONCURRENT160-NOTICE.json",
+      "sha256": "eb75353d1e2a2518ec863bc900d5fcb0c3d2a27089eaf479f5affe53a18d1bff",
+      "scope": "No affecting content proposal; exact candidate/full-ledger comparison; not clearance of the author's own deck"
+    },
+    "durableGeographyAuthorNotice": {
+      "path": ".artifacts/continuation/fresh38-authors/geography-cs-easy-04/PUBLISHER-DELTA-NOTICE.json",
+      "sha256": "869b7c9fac978c9bb35bf8a322ca9e6922380d6023e18790cbee4b52bb87e2c6",
+      "scope": "No substantive delta; exactly the three disclosed bilingual relationships resolved above for this release only; Czech whole-deck acceptance remains pending"
+    },
+    "noBlanketPathCategoryLanguageOrIncompleteStatusExemption": true,
+    "laterMeaningfulProposalRequiresFocusedRecheck": true
+  },
+  "sixLenses": {
+    "correctnessCompleteness": "Satisfied for exact one-deck actual-parent delta; full phase quotas remain open",
+    "usabilityAccessibility": "Accepted wording/initials/aliases and old order preserved; unchanged exact migration UI/browser/recovery evidence inherited, no fresh browser/device claim",
+    "readabilityMaintainability": "Declarative data and lossless evidence with qualified current/history docs; no executable change",
+    "oopResponsibilities": "No runtime ownership/lifecycle change; independent reviewer and sole publisher preserved",
+    "patternsProportionality": "Existing append-only runtime content mechanism; no new dependency/framework/agent or obsolete full-app gate",
+    "contentRightsDelivery": "Full28 inherited accepted scopes plus explicit new pair/source rulings; original factual-source/legal limits retained; actual160 delivery pending"
+  },
+  "verification": {
+    "command": "python3 -B .artifacts/continuation/fresh38-review-160/check.py",
+    "result": "PASS",
+    "readOnlyReproduction": "python3 -B .artifacts/continuation/fresh38-review-160/check.py --verify-only",
+    "readOnlyReproductionResult": "PASS",
+    "checkerSha256": "a87db9d7e613aed28ad8f312c22bfbe3015834c441dd3aad62dbafa27b9b4972",
+    "receipt": ".artifacts/continuation/fresh38-review-160/VERIFICATION.json",
+    "receiptSha256": "aeee57108d5a0fa56a0e7542a04a9fe0746e663244aeb8d6c1765f82c04461ba",
+    "observedInputs": ".artifacts/continuation/fresh38-review-160/INPUT-BINDINGS.json",
+    "observedInputsSha256": "ab3cb235c9d19b1f49a4687b3eaad73d0b1f4c7488e26ddb427823b861d2118c",
+    "endHashesUnchanged": true,
+    "appCompilerCoverageBrowserBuildOrCentralContentGateRunByReviewer": false,
+    "gitCommandsServicesSubagentsOrCandidateWrites": false
+  },
+  "unresolvedFindings": [],
+  "inheritedApplicationGateRevision": "c7cdaafb1969017728d00e35ceb2f6a731a700cf",
+  "unchangedServedAssets": {
+    "/hexy/assets/index-Ck_9oRvP.js": "2bf488f03685b99bf40d1bf295883e131bf2162066c51f6273398eb7a4497717",
+    "/hexy/assets/index-DPcmLzC0.css": "dfcaaf71a4cc9429d3f38589e9e3a747d1532af9c692372b1e3d21d535d9af89"
+  },
+  "executionGatesRemaining": [
+    "Rehash exact seven source bindings and copied standalone review receipt",
+    "Central complete-corpus content-only release gate against e77d966f0a642c958e1837f2f7d3b1fce39f7d5d",
+    "Individual one-deck commit/push and actual private revision/SHA-named160 catalog/order/whole28 verification",
+    "Verify unchanged JS/CSS and applicable old-data continuity"
+  ],
+  "centralContentGateExecuted": false,
+  "actuallyPublishedOrDelivered": false,
+  "phase12Cleared": false,
+  "limitations": [
+    "No new historical generator/archive/every-source execution attestation",
+    "Original secondary-source and rights/trademark limitations retained",
+    "No physical Xbox/tablet or new browser/print/recovery execution claimed",
+    "Other author packets and proposals receive no whole-deck or release clearance"
+  ]
+}

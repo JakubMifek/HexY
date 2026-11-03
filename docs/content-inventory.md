@@ -2,6 +2,24 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only runtime candidate contains **160 decks / 4,480 questions**:
+English85/Czech75, adding only `geography-en-easy-04` to actual delivered
+`e77d966f0a642c958e1837f2f7d3b1fce39f7d5d` (159/4,452).
+All159 previous pack bytes and positions remain immutable.
+The [complete source ledger](phase-12-geography-en-easy-04-sources.json)
+retains the independently accepted28 questions, full evidence/aliases,
+27 unchanged originals plus the accepted marked-crosswalk correction,
+and the original Easy22/Medium5/Hard1 general-adult judgment.
+The original112-entry content/current review and prospective source acceptance
+are inherited unchanged; actual-parent integration acceptance is separately
+recorded in the deck runtime-release review. Only the complete-corpus content
+gate applies to this question-only delta; unchanged application evidence and
+JS/CSS are inherited from the delivered runtime migration.
+Individual push and actual hashed catalog/whole28/asset verification remain
+required. Final330/9,240/all66 and final cleanup remain OPEN.
+
+## Retained159 preparation history
+
 This source candidate contains **159 decks / 4,452 questions**,
 adding only `general-cs-easy-04` to its 158-deck predecessor.
 Actual delivery at preparation is `db1b9955` (156/4,368), English82/Czech74.
