@@ -25,6 +25,17 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The runtime candidate contains **162 decks / 4,536 questions**, English85/
+Czech77. Only accepted `science-cs-easy-03` is added to actual delivered
+`1d1fdf7b` (161/4,508). Old161 pack bytes/order and application inputs remain
+unchanged. [Full source evidence](docs/phase-12-science-cs-easy-03-sources.json)
+and [review](reviews/phase-12-science-cs-easy-03-content-review.md) retain
+all28 accepted facts, aliases, adult and specific semantic judgments.
+Actual-parent integration/content gates precede individual push/private
+verification; no app build/restart. Final330/9,240/all66 and cleanup remain OPEN.
+
+## Retained161 preparation history
+
 The append-only runtime candidate contains **161 decks / 4,508 questions**,
 English85/Czech76. Only independently content-accepted `general-cs-easy-05`
 is added to actual delivered `aa85d3bf` (160/4,480), with all previous pack

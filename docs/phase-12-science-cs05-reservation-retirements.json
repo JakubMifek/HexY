@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "at": "2026-11-03T08:14:03.888605+00:00",
+  "coordinator": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "state": "ACTIVE ORIGINAL-ROOT RESERVATION RETIREMENT OVERLAY",
+  "scope": "Only the two original Czech05 predicates; original roots and exact proposed replacements retained unchanged. Existing latest author table already contains these replacement rows. No Native selected deck payload is altered.",
+  "independentAuthority": {
+    "path": ".artifacts/continuation/fresh38-review-next/science-cs-easy-03/NARROW-RETIREMENT-DECISIONS.json",
+    "sha256": "17b9705bc55054941838fac5d135eae27021be320bd65a6815c08c2e403cb6df"
+  },
+  "retirements": [
+    {
+      "id": "science-cs-easy-05-05",
+      "retiredOriginalRootQuestion": {
+        "deck": "cs-easy-05",
+        "id": "science-cs-easy-05-05",
+        "language": "cs",
+        "difficulty": "easy",
+        "initial": "D",
+        "answer": "Dřevěné uhlí",
+        "aliases": [],
+        "text": "Jaké černé palivo vzniká zahříváním dřeva s omezeným přístupem kyslíku?",
+        "sourceLead": "Charcoal",
+        "normalizedAnswers": ["drevene uhli"]
+      },
+      "retiredOriginalRootActive": false,
+      "retainedReplacementProposal": {
+        "deck": "cs-easy-05",
+        "id": "science-cs-easy-05-05",
+        "language": "cs",
+        "difficulty": "easy",
+        "initial": "D",
+        "answer": "Dláto",
+        "aliases": [],
+        "text": "Jaký ruční nástroj s ostrým břitem se používá k odebírání dřeva, často údery paličkou?",
+        "sourceLead": "Chisel",
+        "normalizedAnswers": ["dlato"]
+      },
+      "replacementIndependentFactOrWholeDeckAccepted": false,
+      "fullIndependentNarrowDecisionUnchanged": {
+        "originalCompleteBinding": {
+          "conflictingFutureId": "science-cs-easy-05-05",
+          "ownId": "science-cs-easy-03-05",
+          "wholeOriginalCurrentRecommendation": {
+            "id": "science-cs-easy-05-05",
+            "ownId": "science-cs-easy-03-05",
+            "entireActualOriginalRootQuestion": {
+              "deck": "cs-easy-05",
+              "id": "science-cs-easy-05-05",
+              "language": "cs",
+              "difficulty": "easy",
+              "initial": "D",
+              "answer": "Dřevěné uhlí",
+              "aliases": [],
+              "text": "Jaké černé palivo vzniká zahříváním dřeva s omezeným přístupem kyslíku?",
+              "sourceLead": "Charcoal",
+              "normalizedAnswers": ["drevene uhli"]
+            },
+            "originalRootInput": {
+              "path": ".artifacts/continuation/bundles/p12/science/reservations.json",
+              "sha256": "dfc5a5677370122432660cef78f49cfd87ba4975fcdd036cf539f1aa50034af1",
+              "bytes": 238556
+            },
+            "entireActualReplacementProposal": {
+              "deck": "cs-easy-05",
+              "id": "science-cs-easy-05-05",
+              "language": "cs",
+              "difficulty": "easy",
+              "initial": "D",
+              "answer": "Dláto",
+              "aliases": [],
+              "text": "Jaký ruční nástroj s ostrým břitem se používá k odebírání dřeva, často údery paličkou?",
+              "sourceLead": "Chisel",
+              "normalizedAnswers": ["dlato"]
+            },
+            "frozenExactReplacementRow": "Dláto|Jaký ruční nástroj s ostrým břitem se používá k odebírání dřeva, často údery paličkou?|Chisel|",
+            "frozenInput": {
+              "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/active-reservations-at-correction.tsv",
+              "sha256": "3ec1ceb1a7603ce5a87d55d857aaa1dd1c168ec6ee96f84e9d6d483e34006c4f",
+              "bytes": 76901
+            },
+            "actualLatestAuthorTableInput": {
+              "path": ".artifacts/continuation/bundles/p12/science/b05-author/reservations.tsv",
+              "sha256": "907b3183dd91e0ae340e294359b8bdd49d62f39eeb1c9a0467308b433b7d948f",
+              "bytes": 82326
+            },
+            "currentExactRowVerifiedNotWholeTableIdentity": true,
+            "authorRecommendation": "RETAIN accepted Czech03 charcoal. Coordinator should explicitly retire only this original Czech05 charcoal predicate in favor of its actual Dláto replacement after reviewer approval; retain both roots and unchanged aliases.",
+            "replacementFactResearchOrAcceptanceClaimed": false,
+            "coordinatorOnlyReservationMutationRequiredAfterIndependentDecision": true
+          },
+          "actualCurrentTable": {
+            "path": ".artifacts/continuation/bundles/p12/science/b05-author/reservations.tsv",
+            "sha256": "907b3183dd91e0ae340e294359b8bdd49d62f39eeb1c9a0467308b433b7d948f",
+            "bytes": 82326
+          },
+          "exactReplacementRowStillPresent": true,
+          "retirementPerformed": false,
+          "coordinatorOnlyAfterIndependentAcceptance": true
+        },
+        "decision": "ACCEPTED NARROW CONFLICTING ORIGINAL RESERVATION RETIREMENT",
+        "reason": "Wood carbonization identifies charcoal in both actual native/English clues. Accept that particular bilingual fact; retain Czech03 priority and independently approve only the conflicting old Czech05 charcoal reservation's retirement.",
+        "performed": false,
+        "requiredPublisherMechanicalAction": true,
+        "replacementFactsOrWholeCzech05Accepted": false
+      }
+    },
+    {
+      "id": "science-cs-easy-05-19",
+      "retiredOriginalRootQuestion": {
+        "deck": "cs-easy-05",
+        "id": "science-cs-easy-05-19",
+        "language": "cs",
+        "difficulty": "easy",
+        "initial": "R",
+        "answer": "Rozpouštědlo",
+        "aliases": [],
+        "text": "Jak se nazývá látka tvořící prostředí roztoku, v níž se rozpouští jiná látka?",
+        "sourceLead": "Solvent",
+        "normalizedAnswers": ["rozpoustedlo"]
+      },
+      "retiredOriginalRootActive": false,
+      "retainedReplacementProposal": {
+        "deck": "cs-easy-05",
+        "id": "science-cs-easy-05-19",
+        "language": "cs",
+        "difficulty": "easy",
+        "initial": "R",
+        "answer": "Ropovod",
+        "aliases": [],
+        "text": "Jak se nazývá potrubní zařízení pro dálkovou přepravu ropy?",
+        "sourceLead": "Pipeline_transport",
+        "normalizedAnswers": ["ropovod"]
+      },
+      "replacementIndependentFactOrWholeDeckAccepted": false,
+      "fullIndependentNarrowDecisionUnchanged": {
+        "originalCompleteBinding": {
+          "conflictingFutureId": "science-cs-easy-05-19",
+          "ownId": "science-cs-easy-03-20",
+          "wholeOriginalCurrentRecommendation": {
+            "id": "science-cs-easy-05-19",
+            "ownId": "science-cs-easy-03-20",
+            "entireActualOriginalRootQuestion": {
+              "deck": "cs-easy-05",
+              "id": "science-cs-easy-05-19",
+              "language": "cs",
+              "difficulty": "easy",
+              "initial": "R",
+              "answer": "Rozpouštědlo",
+              "aliases": [],
+              "text": "Jak se nazývá látka tvořící prostředí roztoku, v níž se rozpouští jiná látka?",
+              "sourceLead": "Solvent",
+              "normalizedAnswers": ["rozpoustedlo"]
+            },
+            "originalRootInput": {
+              "path": ".artifacts/continuation/bundles/p12/science/reservations.json",
+              "sha256": "dfc5a5677370122432660cef78f49cfd87ba4975fcdd036cf539f1aa50034af1",
+              "bytes": 238556
+            },
+            "entireActualReplacementProposal": {
+              "deck": "cs-easy-05",
+              "id": "science-cs-easy-05-19",
+              "language": "cs",
+              "difficulty": "easy",
+              "initial": "R",
+              "answer": "Ropovod",
+              "aliases": [],
+              "text": "Jak se nazývá potrubní zařízení pro dálkovou přepravu ropy?",
+              "sourceLead": "Pipeline_transport",
+              "normalizedAnswers": ["ropovod"]
+            },
+            "frozenExactReplacementRow": "Ropovod|Jak se nazývá potrubní zařízení pro dálkovou přepravu ropy?|Pipeline_transport|",
+            "frozenInput": {
+              "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/active-reservations-at-correction.tsv",
+              "sha256": "3ec1ceb1a7603ce5a87d55d857aaa1dd1c168ec6ee96f84e9d6d483e34006c4f",
+              "bytes": 76901
+            },
+            "actualLatestAuthorTableInput": {
+              "path": ".artifacts/continuation/bundles/p12/science/b05-author/reservations.tsv",
+              "sha256": "907b3183dd91e0ae340e294359b8bdd49d62f39eeb1c9a0467308b433b7d948f",
+              "bytes": 82326
+            },
+            "currentExactRowVerifiedNotWholeTableIdentity": true,
+            "authorRecommendation": "RETAIN accepted Ředidlo and legitimate Rozpouštědlo alias. Its paint-thinning role is contained within the broad original Czech05 solvent role, so recommend explicit retirement of that conflicting future predicate in favor of actual Ropovod replacement. Do not retire all Czech05 or delete the broad useful alias.",
+            "replacementFactResearchOrAcceptanceClaimed": false,
+            "coordinatorOnlyReservationMutationRequiredAfterIndependentDecision": true
+          },
+          "actualCurrentTable": {
+            "path": ".artifacts/continuation/bundles/p12/science/b05-author/reservations.tsv",
+            "sha256": "907b3183dd91e0ae340e294359b8bdd49d62f39eeb1c9a0467308b433b7d948f",
+            "bytes": 82326
+          },
+          "exactReplacementRowStillPresent": true,
+          "retirementPerformed": false,
+          "coordinatorOnlyAfterIndependentAcceptance": true
+        },
+        "decision": "ACCEPTED NARROW CONFLICTING ORIGINAL RESERVATION RETIREMENT",
+        "reason": "Paint thinner's solvent role genuinely overlaps the broad old Czech05 solvent reservation; keep the useful Rozpouštědlo alias and approve only that original reservation's retirement. Viscosity is a property, shear thickening a flow response and osmosis membrane transport, not the added thinning liquid.",
+        "performed": false,
+        "requiredPublisherMechanicalAction": true,
+        "replacementFactsOrWholeCzech05Accepted": false
+      }
+    }
+  ],
+  "aliasDeleted": false,
+  "originalFilesMutated": false,
+  "selectedNative53ContainsCzechEasy05": false,
+  "phase12Cleared": false
+}

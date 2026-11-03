@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "id": "science-cs-easy-03",
+  "title": "Věda a technika · Snadné · 03",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-easy-03-01",
+      "text": "Jak se nazývá automobilová ochranná součást, která se při nárazu během okamžiku nafoukne a tlumí náraz těla cestujícího?",
+      "initial": "A",
+      "answer": "Airbag",
+      "language": "cs",
+      "aliases": ["Bezpečnostní vak"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Airbag"]
+    },
+    {
+      "id": "science-cs-easy-03-02",
+      "text": "Jaké kapalné ropné palivo běžně pohání zážehové automobilové motory?",
+      "initial": "B",
+      "answer": "Benzín",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Gasoline"]
+    },
+    {
+      "id": "science-cs-easy-03-03",
+      "text": "Jak se běžně nazývá pila s rotujícím ozubeným kotoučem používaná například k řezání dřeva?",
+      "initial": "C",
+      "answer": "Cirkulárka",
+      "language": "cs",
+      "aliases": [
+        "Kotoučová pila",
+        "Okružní pila",
+        "Mafl",
+        "Ruční kotoučová pila"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Circular_saw",
+        "https://cs.wikipedia.org/wiki/Kotou%C4%8Dov%C3%A1_pila"
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-04",
+      "text": "Jaké zařízení odstraňuje znečištění ze splaškové vody před jejím vypouštěním do přírody?",
+      "initial": "Č",
+      "answer": "Čistírna odpadních vod",
+      "language": "cs",
+      "aliases": ["ČOV"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Sewage_treatment"]
+    },
+    {
+      "id": "science-cs-easy-03-05",
+      "text": "Jaké černé palivo vzniká zahříváním dřeva za velmi omezeného přístupu vzduchu?",
+      "initial": "D",
+      "answer": "Dřevěné uhlí",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Charcoal"]
+    },
+    {
+      "id": "science-cs-easy-03-06",
+      "text": "Jaký typ motoru využívá působení magnetického pole na vodiče s proudem k otáčení rotoru?",
+      "initial": "E",
+      "answer": "Elektromotor",
+      "language": "cs",
+      "aliases": ["Elektrický motor"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Electric_motor"]
+    },
+    {
+      "id": "science-cs-easy-03-07",
+      "text": "Jak se běžně říká světelnému snímači, který pozná přítomnost předmětu podle přerušení paprsku mezi vysílačem a přijímačem?",
+      "initial": "F",
+      "answer": "Fotobuňka",
+      "language": "cs",
+      "aliases": [
+        "Fotoelektrický snímač",
+        "Fotoelektrická buňka",
+        "Optická závora",
+        "Světelná závora",
+        "Fotoelektrická závora"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Photoelectric_sensor"]
+    },
+    {
+      "id": "science-cs-easy-03-08",
+      "text": "Jaké zařízení vyrábí elektřinu s využitím tepla ze zemského nitra?",
+      "initial": "G",
+      "answer": "Geotermální elektrárna",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Geothermal_power"]
+    },
+    {
+      "id": "science-cs-easy-03-09",
+      "text": "Který nehořlavý plyn se značkou He se používá k plnění létajících pouťových balónků?",
+      "initial": "H",
+      "answer": "Helium",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Helium",
+        "https://periodic-table.rsc.org/element/2/helium"
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-10",
+      "text": "Jak se nazývá kapalná směs odvádějící teplo z motoru do chladiče?",
+      "initial": "Ch",
+      "answer": "Chladicí kapalina",
+      "language": "cs",
+      "aliases": [
+        "Chladicí směs",
+        "Chladicí médium",
+        "Teplonosná kapalina",
+        "Nemrznoucí směs",
+        "Nemrznoucí kapalina"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Antifreeze",
+        "https://cs.wikipedia.org/wiki/Chladic%C3%AD_kapalina"
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-11",
+      "text": "Jaké záření za červeným okrajem viditelného spektra využívají mnohé televizní ovladače?",
+      "initial": "I",
+      "answer": "Infračervené záření",
+      "language": "cs",
+      "aliases": ["Infračervené světlo"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Infrared"]
+    },
+    {
+      "id": "science-cs-easy-03-12",
+      "text": "Jak se nazývá dohodnutá velikost veličiny používaná jako základ měření, například metr pro délku?",
+      "initial": "J",
+      "answer": "Jednotka",
+      "language": "cs",
+      "aliases": ["Měřicí jednotka", "Jednotka měření"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Unit_of_measurement"]
+    },
+    {
+      "id": "science-cs-easy-03-13",
+      "text": "Jaký jednoduchý stroj má dvě sbíhající se šikmé plochy a používá se například ke štípání dřeva?",
+      "initial": "K",
+      "answer": "Klín",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Wedge"]
+    },
+    {
+      "id": "science-cs-easy-03-14",
+      "text": "Jak se běžně nazývá kompozit ze skleněných vláken spojených pryskyřicí, používaný například na trupy člunů?",
+      "initial": "L",
+      "answer": "Laminát",
+      "language": "cs",
+      "aliases": ["Sklolaminát", "Skelný laminát", "Sklem vyztužený plast"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fibreglass",
+        "https://cs.wikipedia.org/wiki/Sklolamin%C3%A1t"
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-15",
+      "text": "Který načervenalý kov má značku Cu a dobře vede elektrický proud?",
+      "initial": "M",
+      "answer": "Měď",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Copper"]
+    },
+    {
+      "id": "science-cs-easy-03-16",
+      "text": "Jaké kapalné palivo se běžně používá ve vznětových automobilových motorech?",
+      "initial": "N",
+      "answer": "Nafta",
+      "language": "cs",
+      "aliases": ["Motorová nafta", "Diesel", "Dieselové palivo"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Diesel_fuel"]
+    },
+    {
+      "id": "science-cs-easy-03-17",
+      "text": "Který plyn vydechujeme a vzniká také při úplném spalování uhlíku?",
+      "initial": "O",
+      "answer": "Oxid uhličitý",
+      "language": "cs",
+      "aliases": ["CO2", "CO₂"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Carbon_dioxide"]
+    },
+    {
+      "id": "science-cs-easy-03-18",
+      "text": "Jaký elektrický ochranný prvek přeruší obvod přetavením vodiče při nadměrném proudu?",
+      "initial": "P",
+      "answer": "Pojistka",
+      "language": "cs",
+      "aliases": ["Tavná pojistka"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Fuse_(electrical)"]
+    },
+    {
+      "id": "science-cs-easy-03-19",
+      "text": "Jak se nazývají načervenalé produkty koroze železa na vlhkém vzduchu?",
+      "initial": "R",
+      "answer": "Rez",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Rust"]
+    },
+    {
+      "id": "science-cs-easy-03-20",
+      "text": "Jak se nazývá kapalina přidávaná do nátěrové hmoty ke snížení její viskozity?",
+      "initial": "Ř",
+      "answer": "Ředidlo",
+      "language": "cs",
+      "aliases": ["Rozpouštědlo"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Paint_thinner"]
+    },
+    {
+      "id": "science-cs-easy-03-21",
+      "text": "Jaké černé jemné částice bohaté na uhlík vznikají při nedokonalém spalování?",
+      "initial": "S",
+      "answer": "Saze",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Soot"]
+    },
+    {
+      "id": "science-cs-easy-03-22",
+      "text": "Jaký otočný prvek reguluje množství vzduchu přiváděného do mnoha zážehových motorů?",
+      "initial": "Š",
+      "answer": "Škrticí klapka",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Throttle"]
+    },
+    {
+      "id": "science-cs-easy-03-23",
+      "text": "Jak se nazývá přechod pevné látky do kapalného stavu?",
+      "initial": "T",
+      "answer": "Tání",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Melting"]
+    },
+    {
+      "id": "science-cs-easy-03-24",
+      "text": "Jaké pevné fosilní palivo vzniklo přeměnou pravěké rostlinné hmoty?",
+      "initial": "U",
+      "answer": "Uhlí",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Coal"]
+    },
+    {
+      "id": "science-cs-easy-03-25",
+      "text": "Jaký řezný nástroj vytváří otvory otáčením kolem své osy?",
+      "initial": "V",
+      "answer": "Vrták",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Drill_bit"]
+    },
+    {
+      "id": "science-cs-easy-03-26",
+      "text": "Jak se běžně nazývá ruční přenosná radiostanice, kterou lze střídavě vysílat i přijímat?",
+      "initial": "W",
+      "answer": "Walkie-talkie",
+      "language": "cs",
+      "aliases": [
+        "Vysílačka",
+        "Ruční radiostanice",
+        "Ruční vysílačka",
+        "Walkie talkie",
+        "Walkietalkie"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Walkie-talkie"]
+    },
+    {
+      "id": "science-cs-easy-03-27",
+      "text": "Jaký kovový kolík se dvěma raménky se po prostrčení otvorem zajistí jejich rozehnutím?",
+      "initial": "Z",
+      "answer": "Závlačka",
+      "language": "cs",
+      "aliases": ["Rozštěpená závlačka"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Split_pin"]
+    },
+    {
+      "id": "science-cs-easy-03-28",
+      "text": "Jaký elektricky vyhřívaný prvek pomáhá studenému vznětovému motoru nastartovat?",
+      "initial": "Ž",
+      "answer": "Žhavicí svíčka",
+      "language": "cs",
+      "aliases": ["Žhavicí kolík"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Glowplug"]
+    }
+  ]
+}

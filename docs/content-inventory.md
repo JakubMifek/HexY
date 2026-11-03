@@ -2,6 +2,23 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only candidate contains **162 decks / 4,536 questions**, English85/
+Czech77, adding only `science-cs-easy-03` to actual delivered `1d1fdf7b`
+(161/4,508). All161 old pack bytes/order and application inputs stay unchanged.
+The [source ledger](phase-12-science-cs-easy-03-sources.json),
+[complete evidence continuity](phase-12-science-cs-easy-03-source-continuity.json)
+and [independent review](../reviews/phase-12-science-cs-easy-03-content-review.md)
+retain all28 accepted questions/full sources/aliases and original Easy25-common/
+3-informed adult judgment. The specific bilingual and Diesel fuel/engine
+decisions are accepted. Only the two old conflicting Czech05 root reservations
+are [retired](phase-12-science-cs05-reservation-retirements.json); original roots
+and actual Dláto/Ropovod replacement proposals remain, with no replacement-fact
+or future-deck acceptance. Exact actual-parent integration/content gate and
+individual push/private catalog/unchanged-asset checks remain separate.
+Final330/9,240/all66, final review and cleanup remain OPEN.
+
+## Retained161 preparation history
+
 The append-only runtime candidate contains **161 decks / 4,508 questions**,
 English85/Czech76. Only `general-cs-easy-05` is added to actual delivered
 `aa85d3bf1fd9319f8dfe3869cb839c59989cbcf9` (160/4,480).

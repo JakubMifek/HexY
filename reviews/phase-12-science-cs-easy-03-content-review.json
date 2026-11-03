@@ -1,0 +1,959 @@
+{
+  "reviewer": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "actualDeliveredParent": "aa85d3bf1fd9319f8dfe3869cb839c59989cbcf9",
+  "deckId": "science-cs-easy-03",
+  "verdict": "CONTENT ACCEPTED; READY FOR ACTUAL-PARENT INTEGRATION REVIEW",
+  "initialAccepted": 28,
+  "initialHeld": 0,
+  "currentAccepted": 28,
+  "currentHeld": 0,
+  "entries": [
+    {
+      "id": "science-cs-easy-03-01",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-01",
+        "text": "Jak se nazývá automobilová ochranná součást, která se při nárazu během okamžiku nafoukne a tlumí náraz těla cestujícího?",
+        "initial": "A",
+        "answer": "Airbag",
+        "language": "cs",
+        "aliases": ["Bezpečnostní vak"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Airbag"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "34e8c9113db6f44f0d517e730324391ef46928be251be3af510bd9d747e915da",
+        "sourceEntrySha256": "a1fc80e9a5cfd5bfa5e2d4f84f25bb7b3f2a9b23132f6d4c37010578d2ce7c6d",
+        "wholeEvidenceArraySha256": "712d6bfc8955c017eba3b83e7ec70ddedbf302ef9590b5a261758927a976199f",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "9ab50731db06d4478a8036b65bec5ae2e629ecabf4df283d96fb792370231ebf",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Inflatable collision restraint is not a rigid child seat. The specific English Airbag predicate requests the same protective cushion; accept this source-bound native adaptation, preserving delivered English priority.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-02",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-02",
+        "text": "Jaké kapalné ropné palivo běžně pohání zážehové automobilové motory?",
+        "initial": "B",
+        "answer": "Benzín",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Gasoline"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "771644d2acf9fc415ee5445017f890bb2482584110052f9831c32ef73940f59e",
+        "sourceEntrySha256": "d3549224113bfeb3774ef7f59d9159fbaca472c1bc1f43185c73acca011a798b",
+        "wholeEvidenceArraySha256": "7363276abc073b6d0a8616e960894ea9830368cc371bbcf4f31d90c8f291d9f0",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "e1ee3ce64ce225c849300e5bf5f997005a85215d8bb8895ce74ff7bbb227bda0",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Petrol/gasoline is the same spark-ignition fuel in the English companion, not a spark plug, ignition coil, octane measure, thermodynamic cycle or fuel-selling place.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-03",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-03",
+        "text": "Jak se běžně nazývá pila s rotujícím ozubeným kotoučem používaná například k řezání dřeva?",
+        "initial": "C",
+        "answer": "Cirkulárka",
+        "language": "cs",
+        "aliases": [
+          "Kotoučová pila",
+          "Okružní pila",
+          "Mafl",
+          "Ruční kotoučová pila"
+        ],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Circular_saw",
+          "https://cs.wikipedia.org/wiki/Kotou%C4%8Dov%C3%A1_pila"
+        ]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "eebfb1ea47fcdcc2cc1c9fcfc462471935770bc40c693c007659fbc8500892b9",
+        "sourceEntrySha256": "5e7513f9818a880918252556dbc62496a72fc6c8b0138a128272bc388ac23548",
+        "wholeEvidenceArraySha256": "1eb75364ca4babb12e2c92caf3dec100cfda09d081dee92e7ab642db52166a53",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "b2f2faf30719ec6f33ecf91905b9f1a5802d7ca9a0c10fe45ba475fe4f8a443d",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A toothed rotating circular saw is neither a compiler/compilation target nor a reciprocating single-point shaping machine.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-04",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-04",
+        "text": "Jaké zařízení odstraňuje znečištění ze splaškové vody před jejím vypouštěním do přírody?",
+        "initial": "Č",
+        "answer": "Čistírna odpadních vod",
+        "language": "cs",
+        "aliases": ["ČOV"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Sewage_treatment"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "b2b1d12fab6b42bcb64c42df67efdc5c9c74c794f02b2c6e32bba46688001a19",
+        "sourceEntrySha256": "48df0cd883f2f5a5449b1714fc5979d499b68176f253fdf22fd23e0d55a3bc58",
+        "wholeEvidenceArraySha256": "c4c914c2ae26cb316db521da126dcdfa02f897f69ce7cfbf23bd766c88e45063",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "eea3608dc0f2dc1f4f04a79924634147bd195f0e32f001bbebf504650f70ee88",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Wastewater treatment removes sewage contaminants; printing waste sheets are a lexical-source coincidence, not the same apparatus.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-05",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-05",
+        "text": "Jaké černé palivo vzniká zahříváním dřeva za velmi omezeného přístupu vzduchu?",
+        "initial": "D",
+        "answer": "Dřevěné uhlí",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Charcoal"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "0e21269c27f53fa66a9b4df9418a571e6a8a4208eb8cb657d00286f5618f052a",
+        "sourceEntrySha256": "83ac892f0a0d951c83bafdadde66cbd60b067d0bbd9be141787b57254ce2adab",
+        "wholeEvidenceArraySha256": "26ab3281633bc88a669af1fc5e972ee3f01d001e034184b7d2e725271be4a6f1",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "c02649e615170337cb275c5832ee1ac5a91b05284707a8c8e46229d26d2925b7",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Wood carbonization identifies charcoal in both actual native/English clues. Accept that particular bilingual fact; retain Czech03 priority and independently approve only the conflicting old Czech05 charcoal reservation's retirement.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-06",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-06",
+        "text": "Jaký typ motoru využívá působení magnetického pole na vodiče s proudem k otáčení rotoru?",
+        "initial": "E",
+        "answer": "Elektromotor",
+        "language": "cs",
+        "aliases": ["Elektrický motor"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Electric_motor"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "b15d25420f1562c131455a13fffb96844b1fcde1b38d3df40b94d1c801843554",
+        "sourceEntrySha256": "bf4f181766699a1e942b50fb3ae5d649e296fe6a96c4efe666e15b23b8974adb",
+        "wholeEvidenceArraySha256": "f9639af4c9baf3c5a13b4567bd33e179656ce7b7a8f9046cd001ec2169ff89d5",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "0043c59fd51652a1e9fbdeb362b6acf5012a753964751373d6f5f2bc20177901",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Electric-current/magnetic-field production of rotor motion differs from a general energy-to-motion motor and from mechanical-to-electrical generation. Reversible machines do not erase the opposite specified operating direction; the remaining motor parts, algorithms and historical Dynamo operation are different targets.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-07",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-07",
+        "text": "Jak se běžně říká světelnému snímači, který pozná přítomnost předmětu podle přerušení paprsku mezi vysílačem a přijímačem?",
+        "initial": "F",
+        "answer": "Fotobuňka",
+        "language": "cs",
+        "aliases": [
+          "Fotoelektrický snímač",
+          "Fotoelektrická buňka",
+          "Optická závora",
+          "Světelná závora",
+          "Fotoelektrická závora"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Photoelectric_sensor"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "af1f677a313df2ce7508fdb7e9183dfa667907b62438c076ff80fb17708e554c",
+        "sourceEntrySha256": "05e3d5385abc23c37ccf7ae82376b58d5c772231fa4f63120d8f513f97c15e32",
+        "wholeEvidenceArraySha256": "5c12ce777c65546171371c7162ea9a226ffd0d740990a1d7b40010f6c983fdc3",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "2e8d577850fb3f1b370fd8844d66f6fc6045d8e6278dc045906df3edfbc84a89",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "informed",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "An interrupted-beam presence detector is not electron ejection, a lens, a Sagnac rotation interferometer or the Goos–Hänchen displacement of a reflected beam. Preserve broad photoelectric-cell aliases in the specified sensor context.",
+      "individualAdultBand": "informed",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-08",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-08",
+        "text": "Jaké zařízení vyrábí elektřinu s využitím tepla ze zemského nitra?",
+        "initial": "G",
+        "answer": "Geotermální elektrárna",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Geothermal_power"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "c8230aa786d8ac4bdbd2da78cea2e682ced4172ecd70ebc1c2e8ee19dd1e13d4",
+        "sourceEntrySha256": "544ae149c99c9c239478709f948175d9ca9a7bd507ec7b8cd7e341e0155072c6",
+        "wholeEvidenceArraySha256": "40ffc9ffaf324b327cae4a8c3cb2b02b14badb31c2828330eface5c2ee1ebd47",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "46a9e3470a7e65ad9d9c2df7a6d014897830ba61813dfacd63144fa313ea691c",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Geothermal electricity generation is a heat-source-specific installation, not an electrical motor or the heat-carrying coolant.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-09",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-09",
+        "text": "Který nehořlavý plyn se značkou He se používá k plnění létajících pouťových balónků?",
+        "initial": "H",
+        "answer": "Helium",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Helium",
+          "https://periodic-table.rsc.org/element/2/helium"
+        ]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "48d51422eb662aa45b36e55e6e5d95d990ec17d4749d280b60b6ce4989d4bd5a",
+        "sourceEntrySha256": "5f74dd76031710d8f9347a0f39fe4f15ed9ad9fe525a3d021f2cf73d327d9346",
+        "wholeEvidenceArraySha256": "520c30d8b5917e630a0c2767706aaee77d7501fd58a2ad2863a0df52a795f2b9",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "8289ee8861e4f2c615120337341dbb1015fe6a16337c88c10d6ee92b11020c7a",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The He/nonflammable balloon gas is the specific English Helium companion. Helios-name plants and embryonic tissue do not request that gas.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-10",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-10",
+        "text": "Jak se nazývá kapalná směs odvádějící teplo z motoru do chladiče?",
+        "initial": "Ch",
+        "answer": "Chladicí kapalina",
+        "language": "cs",
+        "aliases": [
+          "Chladicí směs",
+          "Chladicí médium",
+          "Teplonosná kapalina",
+          "Nemrznoucí směs",
+          "Nemrznoucí kapalina"
+        ],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Antifreeze",
+          "https://cs.wikipedia.org/wiki/Chladic%C3%AD_kapalina"
+        ]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "8d93835a6e952b556b9a2991239c081428ccbca2d7900d4d44e28fc3ddb46005",
+        "sourceEntrySha256": "b012c3403b30b788c213c1605176009af9bea83fde92f92c70f95569c33e23df",
+        "wholeEvidenceArraySha256": "dfff9894c065c6bee84e694985ac4008e25223e6c8fd7c5016163081fa1d0a76",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "938e3690b96f1c2fbd92a2f4d28af2c821433dc7ee6dce07c6050087745cbb7d",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Engine coolant is a circulating heat-transfer mixture; the actual Antifreeze source expressly keeps it liquid. Chladivo's actual source specifies vapor/liquid phase changes in a refrigeration cycle. These related media roles are independently distinguishable without deleting Chladicí médium or Teplonosná kapalina. Radiators, fins, cast iron and Radiator Springs are different referents.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-11",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-11",
+        "text": "Jaké záření za červeným okrajem viditelného spektra využívají mnohé televizní ovladače?",
+        "initial": "I",
+        "answer": "Infračervené záření",
+        "language": "cs",
+        "aliases": ["Infračervené světlo"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Infrared"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "0d5a97f0c35353573681bd45ecc0052197ba8b5928874e4741b9b6dc14a96ce9",
+        "sourceEntrySha256": "ed0eda1b7f63e13ee094634b03bfe7df1f49e9f5a6a0ac7b54e9670a639d81e1",
+        "wholeEvidenceArraySha256": "4e1fce222d30678953e398c40a9a0e52478aba53fb1c087b7260dd4b227c7f9b",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "2c5a57f708ea4575f37b11f8239edc8d0be45b2b0fa067553a5e20e8f656fac9",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The specified beyond-red remote-control radiation is the English Infrared/Infrared radiation fact in a native formulation; accept that exact adaptation, not a blanket language exception.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-12",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-12",
+        "text": "Jak se nazývá dohodnutá velikost veličiny používaná jako základ měření, například metr pro délku?",
+        "initial": "J",
+        "answer": "Jednotka",
+        "language": "cs",
+        "aliases": ["Měřicí jednotka", "Jednotka měření"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Unit_of_measurement"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "ef4bd1820f915e8de4c06d9f5363c47aec4310180b50378dbc40f0bb1d08acde",
+        "sourceEntrySha256": "311528b3c3c80785431398eeea3f09a3b94c55c79ff20d197a8fd32ecce9f91e",
+        "wholeEvidenceArraySha256": "a4d424e43c41f3b9c666e6c459c04001f2b62d8c18cf37404bda680436c180c5",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "baddaf7e8a7b04233b1d049917e3f585342a2fa0bc32d49de4a8bbd5e750729a",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A conventional magnitude used as a measurement standard is not a particular unit name, measuring instrument, administrative district, information unit, chromatin particle or heredity unit. Metrological classification and biological structural units are genuinely different predicates.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-13",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-13",
+        "text": "Jaký jednoduchý stroj má dvě sbíhající se šikmé plochy a používá se například ke štípání dřeva?",
+        "initial": "K",
+        "answer": "Klín",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Wedge"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "ccadc420c92abd8b8dee12af361f1077fba08b1aa6586c23d28d06a1ad30f5bb",
+        "sourceEntrySha256": "eb925514c6ec9b37ebb57763409097a2a781058501ab219a1eed800f3e9e1da3",
+        "wholeEvidenceArraySha256": "7c9d5cc386dd3ef188f8ccbb812d28d8d1469c52bf962287aea663672b74670c",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "f813731f7761a3d16a53229f68a6cc4b7314f9e74cea5560dfb1ef9a936909f2",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Two converging inclined faces define a splitting wedge, not a screw, lever, pulley, single inclined plane, joystick, game token, garment dart or an arched masonry voussoir.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-14",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-14",
+        "text": "Jak se běžně nazývá kompozit ze skleněných vláken spojených pryskyřicí, používaný například na trupy člunů?",
+        "initial": "L",
+        "answer": "Laminát",
+        "language": "cs",
+        "aliases": ["Sklolaminát", "Skelný laminát", "Sklem vyztužený plast"],
+        "category": "science",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Fibreglass",
+          "https://cs.wikipedia.org/wiki/Sklolamin%C3%A1t"
+        ]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "280daaf2f97e267f94c00e2009edd864760475713bf633ec43c16911116f562d",
+        "sourceEntrySha256": "e60b87e6c3748d1e4e30b3baf6d6af514ce7bc99fe64db5ba439896c1ca8a620",
+        "wholeEvidenceArraySha256": "c03df00d63d57d91542e1536980a1aa40c5c9de3324d92f31993b1aea2d39a59",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "1a2b23fe5285eec1fcac57b1ec4ed2d44e085a687d4d73ce59edd6be879466a8",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Resin-bound glass-fibre composite is not a light-guiding optical fibre, rubber footwear or chewing gum; shared material words are insufficient.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-15",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-15",
+        "text": "Který načervenalý kov má značku Cu a dobře vede elektrický proud?",
+        "initial": "M",
+        "answer": "Měď",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Copper"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "c3adf549646727a8604d7c3b40eafce6fe16023931e9eef2f0194de44b3f31d2",
+        "sourceEntrySha256": "c036257fc279bfdabf88a4436bff3a4c98a4ff7e2a1a735253b71e7a6b232a66",
+        "wholeEvidenceArraySha256": "4ed89ae8901d72ce60dd404503bec87f6ad681201b7ea797dabf6412603e2b67",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "40d935897089b8edad0e266b955a7f274e1c19953428e24a9fe4ac93d4c87361",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The reddish element Cu is the actual English Copper companion. Its alloys, conductors, metal-plate engraving tools and unrelated Cu/name substring nominations do not request the same element.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-16",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-16",
+        "text": "Jaké kapalné palivo se běžně používá ve vznětových automobilových motorech?",
+        "initial": "N",
+        "answer": "Nafta",
+        "language": "cs",
+        "aliases": ["Motorová nafta", "Diesel", "Dieselové palivo"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Diesel_fuel"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "722a07ec02121cceec30354ca41b2e6c2f6c47e32e28acfe27a4661f26d5a272",
+        "sourceEntrySha256": "d9a8edf6fd46b8cc5ed374dc756eb2057cacea38e2c3466d59de7b17b787e1d1",
+        "wholeEvidenceArraySha256": "8a196e7be26ebd98792baa224ef6e710e9d90c0231e899fe28f25c533d6a068b",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "dcb06d9f7cf53fb352f9420dd7bcc44ae0ced6eaedc4c5e49bbf8dda1c2f07ab",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Nafta/Diesel is the liquid fuel; Diesel engine/Diesel is the compression-ignition machine. Both complete sources explicitly distinguish fuel from engine. Accept this actual contextual homonym, preserving every legitimate Diesel alias and delivered engine priority.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-17",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-17",
+        "text": "Který plyn vydechujeme a vzniká také při úplném spalování uhlíku?",
+        "initial": "O",
+        "answer": "Oxid uhličitý",
+        "language": "cs",
+        "aliases": ["CO2", "CO₂"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Carbon_dioxide"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "98d2f49405db3eaaaf3fa01a31795002ab2d4d2d5ebe5b6557405ff5c44c340f",
+        "sourceEntrySha256": "336c8224055512badcf256e82051b731df40a04bf7077af6fca19f197e63799f",
+        "wholeEvidenceArraySha256": "86946e5e6821843e336d6a7b292aa5dfa889e8ae2d4ad3cccce755682d7ed143",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "6988fa52528b34adb7616459a848f9d3b85dd6da375a55443e508deb5caba8a8",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Respiration/carbon combustion identifies the English Carbon dioxide companion. Accept the actual final formula-omitting English question, not the obsolete formula-disclosing prototype. Urease, photosynthesis, fermentation, carbon tax, extinguisher and limewater test request different entities/processes.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-18",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-18",
+        "text": "Jaký elektrický ochranný prvek přeruší obvod přetavením vodiče při nadměrném proudu?",
+        "initial": "P",
+        "answer": "Pojistka",
+        "language": "cs",
+        "aliases": ["Tavná pojistka"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Fuse_(electrical)"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "2e3f175c803a4664e0318dd7e0948ce2eff117689e8cc72c4e0531a18e791c01",
+        "sourceEntrySha256": "21acf5a4e680a65922d46aa4ce3bdb198763d1c823fe87276c9605f56c4c1818",
+        "wholeEvidenceArraySha256": "211dc1e1187d0d535a0bbe3b0e5909cab3f06e2831516e2c6141fa430cdac350",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "4d70ae40eef92088e8f97be16fa5b924e87c0e88778ef44f0213af6c48b4d42a",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A meltable overcurrent link is the specific English Fuse companion. A resettable breaker is reusable switching, a short circuit a fault, fusion fertilization a biological event, fused silica glass a material and niello an inlay.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-19",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-19",
+        "text": "Jak se nazývají načervenalé produkty koroze železa na vlhkém vzduchu?",
+        "initial": "R",
+        "answer": "Rez",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Rust"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "81bb9ef8a70d15aa5713b0a69d10c7b1c63f8ae55a74ed44a1d6fd4269051bef",
+        "sourceEntrySha256": "b6047caf25506513d0e92b50c5fb26a60bc7edc0cc3fd99c35ad055defaf2d00",
+        "wholeEvidenceArraySha256": "b0fe8bcf0df71547b83302ccc7e7dfb578f8173d687a6a80483c5c8be743de0b",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "789c346e113c6c6bcc4b0343552690cb3799ab33dcb2989fc40b14d2bbad26e1",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Iron's reddish moist-air corrosion products are the English Rust fact. Galvanic corrosion specifies electrically connected unlike metals; Rust Cohle and unrelated growth/name uses remain distinct.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-20",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-20",
+        "text": "Jak se nazývá kapalina přidávaná do nátěrové hmoty ke snížení její viskozity?",
+        "initial": "Ř",
+        "answer": "Ředidlo",
+        "language": "cs",
+        "aliases": ["Rozpouštědlo"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Paint_thinner"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "b4f4dc3a876061481057b4184c943e61f937a8c09084156eb8112a3f81495f08",
+        "sourceEntrySha256": "f812025c60ad78f805ea3a8033cb9c6c86fbe4dfc1880ae4428c135e35fd1f02",
+        "wholeEvidenceArraySha256": "34ddaf392e9eb74ef4893225ab494e8fa8102e756326ac4a2bb5c38c63826a03",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "9ed5d82b683660846cc3a087779daaad2f091c316cb8670cc2cb69bfd76c1b2d",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Paint thinner's solvent role genuinely overlaps the broad old Czech05 solvent reservation; keep the useful Rozpouštědlo alias and approve only that original reservation's retirement. Viscosity is a property, shear thickening a flow response and osmosis membrane transport, not the added thinning liquid.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-21",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-21",
+        "text": "Jaké černé jemné částice bohaté na uhlík vznikají při nedokonalém spalování?",
+        "initial": "S",
+        "answer": "Saze",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Soot"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "d00444fa40573a97c5918ef4c2383418e7f3e6bc2611c5103bb32c948e8f9ef9",
+        "sourceEntrySha256": "b2d250a81b29c00d792cc6605989e7d8938b7aa50421293499b6d5c12ca16ff4",
+        "wholeEvidenceArraySha256": "9d016a2234462ca5c98631bbe49e797b365f7eb4ff8beced040ae8316660346a",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "520018be84619da8f86cdf7764a5a4985fea283bcc364b7063ab2eaddf613225",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Carbon-rich soot from incomplete combustion is not printing layout, wind deflation or phagocytosis; causative/source vocabulary does not identify those other targets.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-22",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-22",
+        "text": "Jaký otočný prvek reguluje množství vzduchu přiváděného do mnoha zážehových motorů?",
+        "initial": "Š",
+        "answer": "Škrticí klapka",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Throttle"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "a8e2888e178b8c27c31df0ab973846d1dec20f3500f2e0f99b3f3a2f701e953c",
+        "sourceEntrySha256": "270ccf0c9bc20cf4fd48e165957ecc11a3ffbe814439ddc22dc85257fffb8400",
+        "wholeEvidenceArraySha256": "4a5933f2304bcb6c78ae7008143dd13b8a47811ee87fff0500e5571ffde45a21",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "b6d212f664195361507e996ab9e721d133a7a73b2889ef7397137ce76c9cf46e",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "informed",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The rotating intake-air throttle is a specific flow-regulating engine component, not a generic motor or a fuel.",
+      "individualAdultBand": "informed",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-23",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-23",
+        "text": "Jak se nazývá přechod pevné látky do kapalného stavu?",
+        "initial": "T",
+        "answer": "Tání",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Melting"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "dd3c377b05050544a52f77cb000f02b7d0fde072acf499db9137b58b0eac4c49",
+        "sourceEntrySha256": "15217121d72537cd4dc05d75eab2c81b5d6a0dfd045564d255dcfd921f42fd7e",
+        "wholeEvidenceArraySha256": "c20bb7c7f6e55640f3f3554aee72be82314b7896cd8865aeabec3308880dc97e",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "18e3932123c7b0aa278e804d3f5af6607a4ec281f67571b0f14eee8854daf67d",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Solid-to-liquid melting differs from direct sublimation, dry-gel formation, snow/ground-ice landforms, solder joining, zone purification and the metal with the highest melting point.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-24",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-24",
+        "text": "Jaké pevné fosilní palivo vzniklo přeměnou pravěké rostlinné hmoty?",
+        "initial": "U",
+        "answer": "Uhlí",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Coal"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "5c4ecdfc9e0163b62eab14f7578b334c2dfa371928faa3223b2244d933ffd5f1",
+        "sourceEntrySha256": "219b814d5decbf591216fef49e2383898d1ba55bde2aff9e52895519135f7a0d",
+        "wholeEvidenceArraySha256": "1e7b1816c65851a7bad72e321e44182c6f70c3801b089366ab041dd323efcdf0",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "af1849174ff907491820ee1cfe626e9878ae9f953f51b9204a81eb687f7de755",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Coal from ancient plant matter is not recently wood-carbonized charcoal, kerosene, an element, alloy, carbon fibre/nanotube, carbon copy paper, industrial city or carbon tax. Preserve useful Karbon aliases on their actual other targets.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-25",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-25",
+        "text": "Jaký řezný nástroj vytváří otvory otáčením kolem své osy?",
+        "initial": "V",
+        "answer": "Vrták",
+        "language": "cs",
+        "aliases": [],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Drill_bit"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "33b9ce0963ffb1895665427de42ff0901acffd227d4cac2e15af0e31b3714076",
+        "sourceEntrySha256": "3d58a79aae1baa743dcbe4e8f6d3a699303c3a5ee61f645d11ab6783b35342aa",
+        "wholeEvidenceArraySha256": "f172a39e6d331434af83e09eba54b9f3be3e03a642f82b81459f8ef4caed2215",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "853dbb613d833b1cb792315a9d0687b6f8343dcdad2589a238a493ada6ce7aff",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Vrták is the rotating cutting bit; Drill is the powered complete tool and Jackhammer reciprocates a chisel. A lathe rotates its workpiece, Shaper reciprocates one cutting point, burin incises a plate, carbide a material and piano/keyboard/Chopin unrelated names.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-26",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-26",
+        "text": "Jak se běžně nazývá ruční přenosná radiostanice, kterou lze střídavě vysílat i přijímat?",
+        "initial": "W",
+        "answer": "Walkie-talkie",
+        "language": "cs",
+        "aliases": [
+          "Vysílačka",
+          "Ruční radiostanice",
+          "Ruční vysílačka",
+          "Walkie talkie",
+          "Walkietalkie"
+        ],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Walkie-talkie"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "3df5a1c64e93bdf4911304c06fbb210923f44045b9dc847df9bbdd966b8b78f5",
+        "sourceEntrySha256": "ffc917264b84bee35aa3e6abcf900bbd62af15c9f739ae272ceab07a7cb6171e",
+        "wholeEvidenceArraySha256": "02d28a290008394623288da90c8a303f67a33938dd2fdc5a9c0354c131cffaa2",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "ab5c742e18f32b75487da2f173dbc66f1915239930dd83a060079d386fca37a2",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The portable alternating-transmit/receive radio has legitimate finite walkie-talkie forms; no corresponding frozen112 or current nominated question asks this same target.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-27",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-27",
+        "text": "Jaký kovový kolík se dvěma raménky se po prostrčení otvorem zajistí jejich rozehnutím?",
+        "initial": "Z",
+        "answer": "Závlačka",
+        "language": "cs",
+        "aliases": ["Rozštěpená závlačka"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Split_pin"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "4f796360433aa83ec2cfbf758968aa75c87c937ff1f51d7d8f5993ff57132bce",
+        "sourceEntrySha256": "7f75f05398e58e0e39dc4a922663c3dcd125663beee4594f6054cad31a1c71d0",
+        "wholeEvidenceArraySha256": "fb61b50442acda5f7120cd098edc51ed801bd626069b3a3736c10cbd7b06bf3a",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "f58edd60789715872c3c8db3d0a8e5ed4ed6d3005d1ff0f70273787133555621",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "informed",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The split retaining pin locked by spreading two legs is not a sewing needle or straight fabric-holding pin; actual construction and use distinguish them.",
+      "individualAdultBand": "informed",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "science-cs-easy-03-28",
+      "entireQuestion": {
+        "id": "science-cs-easy-03-28",
+        "text": "Jaký elektricky vyhřívaný prvek pomáhá studenému vznětovému motoru nastartovat?",
+        "initial": "Ž",
+        "answer": "Žhavicí svíčka",
+        "language": "cs",
+        "aliases": ["Žhavicí kolík"],
+        "category": "science",
+        "sources": ["https://en.wikipedia.org/wiki/Glowplug"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "questionSha256": "5d7804c26df1772ecfff16baa282e47fb2f16217f981f09aeb0fca8b9c865e0b",
+        "sourceEntrySha256": "5dbaf34bc39a88db6628698b174c6ea0036bb80778d93948b64ca0d2062750d7",
+        "wholeEvidenceArraySha256": "0562f10b41d71afb6f0396cdff99c3095195bf436d970ebef55a92ff05f90cbd",
+        "actualOriginalReceipt": {
+          "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/entry-receipts.json",
+          "sha256": "aef13eacb0b560bd5b2c10886ee2887cfdc8d5bf65d672e05c18c4383e9ec28c",
+          "bytes": 547237
+        },
+        "receiptObjectSha256": "a1fb45a0356069f74f58b0c8b5217bcba64229c8bf475f8efc32847061f219f5",
+        "reviewer": "Independent b02-v1 reviewer; routing task ID not supplied; no environment UUID substituted",
+        "individualAdultBand": "common",
+        "wholeRatingSha256": "50fcbaa560efee06036367cbbae770bd272a17d78325ba90ebc847d56d87c7f9"
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "An electrically heated diesel-start aid is not a spark-producing petrol ignition plug, candle or candle support despite svíčka vocabulary.",
+      "individualAdultBand": "common",
+      "finiteAliasesUnchanged": true
+    }
+  ],
+  "wholeAdult": {
+    "packId": "science-cs-easy-03",
+    "entries": 28,
+    "result": "ACCEPTED ADULT WHOLE-DECK RATING",
+    "descriptiveBandsNotQuotas": {
+      "common": 25,
+      "informed": 3,
+      "specialist": 0
+    },
+    "assessment": "Everyday automotive safety/fuels, household/workshop tools, familiar elements and school phase changes dominate the complete deck. Fotobuňka, Škrticí klapka and Závlačka are the more technical practical edge, not its dominant experience.",
+    "rule": "General adult common / informed / specialist; no purity requirement, bridge quota or valid-alias deletion. Rating is independently accepted, not entry clearance."
+  },
+  "publisherIntegrationPrerequisites": "Mechanically record only the two explicitly approved Czech05 original-reservation retirements, retaining the roots and actual Dláto/Ropovod proposals; do not claim those replacement facts/deck accepted.",
+  "releaseCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false
+}

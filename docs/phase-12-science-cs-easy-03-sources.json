@@ -1,0 +1,1263 @@
+{
+  "schemaVersion": 1,
+  "deckId": "science-cs-easy-03",
+  "originalAuthorityAndHistoricalRootMetadata": {
+    "schemaVersion": 1,
+    "baseline": "54b34b1505a6ff3087269bdaae4a4ca790ea4f18",
+    "category": "science",
+    "scope": "b02-v2: exactly eight localized Czech03 corrections; 76 whole accepted objects and all three independent adult ratings retained. No new decks.",
+    "task": "e4290e25-4615-4aaf-b6a2-fd8a9e4746a9",
+    "sourceCachePathsRelativeTo": "checkout root /home/jakubmifek/github/HexY",
+    "method": "Original questions and finite accepted sets. Author actually read the selected full source paragraphs, plus naming/qualifier contexts; paragraph indices and hashes bind those readings. Original retrieval timestamps retained on all actually reused bodies, including the immutable English-batch RSC cache. Native Czech original wording; Czech naming corroboration explicitly bound. Whole body/text caches are content-addressed and manifest-bound. Public Wikipedia articles are secondary references, not primary experimental verification. Czech encyclopedia naming corroboration and one retained RSC helium context are labelled by their actual roles; they are not primary experimental verification.",
+    "readingLimits": "Selected contexts were read, not every paragraph, formula, citation or linked work in every whole cached page. A successful fetch/token/validator is not factual approval. No claim of primary-paper replication or independent all-entry review. Six Czech naming URLs returned404 and OMRON returned403; none are used as evidence. Actual successful alternative Jahn/Noether article URLs were read. Unused incorrect/irrelevant source assertions are not imported as quiz facts. All cached third-party material retains its own rights; CC BY 4.0 applies only to original questions.",
+    "reviewStatus": "76 accepted complete objects retained; eight localized corrections await same reviewer 65ad5a77 narrow recheck; no category/phase/integration clearance",
+    "inputSnapshot": ".artifacts/continuation/bundles/p12/science/b04-author/inventories/2026-10-30T23-57-41-212Z.json",
+    "inputSnapshotSha256": "ab7e4b4a7e6716a1e9312ca27f494cc1661b013e86ebf3e3be40194dc286fcf8",
+    "reservationsSha256": "3ec1ceb1a7603ce5a87d55d857aaa1dd1c168ec6ee96f84e9d6d483e34006c4f",
+    "correctionReview": {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/REPORT.md",
+      "sha256": "cf91f8ed270c6b95fb42db95ad561bdfa13f4507b2e3f72c9cef9ea383f43585"
+    }
+  },
+  "originalPackMetadata": [
+    {
+      "id": "science-cs-easy-03",
+      "language": "cs",
+      "difficulty": "easy",
+      "sha256": "7ad2dcf132a7acfc7323fd7e6e519cca8feac777bd1a0282818a5e91397410f7",
+      "entryIds": [
+        "science-cs-easy-03-01",
+        "science-cs-easy-03-02",
+        "science-cs-easy-03-03",
+        "science-cs-easy-03-04",
+        "science-cs-easy-03-05",
+        "science-cs-easy-03-06",
+        "science-cs-easy-03-07",
+        "science-cs-easy-03-08",
+        "science-cs-easy-03-09",
+        "science-cs-easy-03-10",
+        "science-cs-easy-03-11",
+        "science-cs-easy-03-12",
+        "science-cs-easy-03-13",
+        "science-cs-easy-03-14",
+        "science-cs-easy-03-15",
+        "science-cs-easy-03-16",
+        "science-cs-easy-03-17",
+        "science-cs-easy-03-18",
+        "science-cs-easy-03-19",
+        "science-cs-easy-03-20",
+        "science-cs-easy-03-21",
+        "science-cs-easy-03-22",
+        "science-cs-easy-03-23",
+        "science-cs-easy-03-24",
+        "science-cs-easy-03-25",
+        "science-cs-easy-03-26",
+        "science-cs-easy-03-27",
+        "science-cs-easy-03-28"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "science-cs-easy-03-01",
+      "initial": "A",
+      "claim": "Jak se nazývá automobilová ochranná součást, která se při nárazu během okamžiku nafoukne a tlumí náraz těla cestujícího?",
+      "answer": "Airbag",
+      "aliases": ["Bezpečnostní vak"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Airbag",
+          "fetchedAt": "2026-10-30T21:43:24.692614+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "ac09713ba072919e8db39a2223a44d5424f297282db81c8fc4d7eed73372076f",
+          "sourceTextSha256": "15ca1342cf7402ada62e6ed1d5b9233ee91a6106f393ea84d07bc32f7b20b3da",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/ac09713ba072919e8db39a2223a44d5424f297282db81c8fc4d7eed73372076f.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/15ca1342cf7402ada62e6ed1d5b9233ee91a6106f393ea84d07bc32f7b20b3da.txt",
+          "passage": "An airbag or supplemental inflatable restraint is a vehicle occupant-restraint system using a bag designed to inflate in milliseconds during a collision and then deflate afterwards. It consists of an airbag cushion, a flexible fabric bag, an inflation module, and an impact sensor. The purpose of the airbag is to provide a vehicle occupant with soft cushioning and restraint during a collision. It can reduce injuries between the flailing occupant and the vehicle's interior.",
+          "passageSha256": "702c35bc8b202820add016269cd7fe0c42fcf576c947f7863dc8d7ba35fbdf5d",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 476
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "702c35bc8b202820add016269cd7fe0c42fcf576c947f7863dc8d7ba35fbdf5d"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/a48425f611b59046f74c.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/a48425f611b59046f74c.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-02",
+      "initial": "B",
+      "claim": "Jaké kapalné ropné palivo běžně pohání zážehové automobilové motory?",
+      "answer": "Benzín",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gasoline",
+          "fetchedAt": "2026-10-30T21:43:43.760166+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "25519d90547d496e3fd76b01eff270416a0633aeebf64bb502bafecb6afb9b58",
+          "sourceTextSha256": "03336f71e93bf35c4842cbdb60130ec01255a16f4b14a6e51e09d0b419cfd6df",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/25519d90547d496e3fd76b01eff270416a0633aeebf64bb502bafecb6afb9b58.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/03336f71e93bf35c4842cbdb60130ec01255a16f4b14a6e51e09d0b419cfd6df.txt",
+          "passage": "Gasoline (North American English) or petrol (in other English-speaking countries) is a petrochemical product, a transparent, yellowish and flammable liquid normally used as a fuel for spark-ignited internal combustion engines. It is chemically composed of organic compounds derived from the fractional distillation of petroleum and later chemically enhanced with gasoline additives. It is a high-volume profitable product produced in crude oil refineries.",
+          "passageSha256": "3aa7f3110436201eb4db2d3b5c650f4d3db9f79f2b0726d66a88cf37b1deee68",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 455
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "3aa7f3110436201eb4db2d3b5c650f4d3db9f79f2b0726d66a88cf37b1deee68"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/ad440dc731108875c1e2.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/ad440dc731108875c1e2.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-03",
+      "initial": "C",
+      "claim": "Jak se běžně nazývá pila s rotujícím ozubeným kotoučem používaná například k řezání dřeva?",
+      "answer": "Cirkulárka",
+      "aliases": [
+        "Kotoučová pila",
+        "Okružní pila",
+        "Mafl",
+        "Ruční kotoučová pila"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Circular_saw",
+          "fetchedAt": "2026-10-30T22:31:18.327561+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "a74144bd1f5acf0dbb8b9e6369e2ac6250f508f439b93462dee07de06e93e123",
+          "sourceTextSha256": "0fd450ebccdbe83852ec1e9436e42f2ae33f07a5ba9311b84764cde1d569a39b",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/a74144bd1f5acf0dbb8b9e6369e2ac6250f508f439b93462dee07de06e93e123.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/0fd450ebccdbe83852ec1e9436e42f2ae33f07a5ba9311b84764cde1d569a39b.txt",
+          "passage": "A circular saw or buzz saw is a power-saw using a toothed or abrasive disc or blade to cut different materials using a rotary motion spinning around an arbor. A hole saw and ring saw also use a rotary motion but are different from a circular saw. Circular saw may also be loosely used for the blade itself. Circular saws were invented in the late 18th century and were in common use in sawmills in the United States by the middle of the 19th century.\n\nA circular saw is a tool for cutting many materials such as wood, masonry, plastic, or metal and may be hand-held or mounted to a machine. In woodworking the term circular saw refers specifically to the hand-held type and the table saw and chop saw are other common forms of circular saws. Skilsaw and Skil saw have become generic trademarks for conventional hand-held circular saws in the United States. Circular saw blades are specially designed for each particular material they are intended to cut and in cutting wood are specifically designed for making rip-cuts, cross-cuts, or a combination of both. Circular saws are commonly powered by electricity, but may be powered by a gasoline engine or a hydraulic motor which allows it to be fastened to heavy equipment, eliminating the need for a separate energy source.",
+          "passageSha256": "cb0c433e7a7b3413b1022278412ceeeb807bfb87b87bec7353f011717d438e5c",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 450
+            },
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 820
+            }
+          ],
+          "readParagraphIndices": [0, 1],
+          "readParagraphSha256": [
+            "4a07051bc2a07705759d7bf2b46815dc52543c5f2b701613121fb0e0c8666ed7",
+            "a330c85754ac06c29b4e24f78937d91f6da5b8fd43b9bcae0d4980bf5b953753"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/Kotou%C4%8Dov%C3%A1_pila",
+          "fetchedAt": "2026-10-30T22:36:02.543959+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "f773c0e115bf716bfccfdf7dc4ec5e62ecda51d0980678c04db41fb9928e98d4",
+          "sourceTextSha256": "f76087da54e7526a5ea96fc7a03108dc6697fb19b8df9ae78b88039ab75f787d",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/f773c0e115bf716bfccfdf7dc4ec5e62ecda51d0980678c04db41fb9928e98d4.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/f76087da54e7526a5ea96fc7a03108dc6697fb19b8df9ae78b88039ab75f787d.txt",
+          "passage": "Kotoučová pila (okružní pila, cirkulárka, ruční pak „mafl“) je stroj určený k řezání dřeva, kovů či dalších materiálů. Skládá se z ozubeného kovového disku (kotouče) a poháněcího mechanismu, který disk roztáčí. Může být konstruována jako ruční, stolní nebo i ve stojanovém provedení jako statický obráběcí stroj. Strojní kotoučová pila byla vynalezena v Anglii v roce 1780. Její ruční provedení bylo patentováno v roce 1927 firmou SKIL v USA. Slangové označení mafl vzniklo z názvu německé firmy MAFELL.",
+          "passageSha256": "362339fcfe19f1e7175f6ae69419df79e2947955ec016d06a918ce13068bb55c",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 503
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "362339fcfe19f1e7175f6ae69419df79e2947955ec016d06a918ce13068bb55c"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-04",
+      "initial": "Č",
+      "claim": "Jaké zařízení odstraňuje znečištění ze splaškové vody před jejím vypouštěním do přírody?",
+      "answer": "Čistírna odpadních vod",
+      "aliases": ["ČOV"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sewage_treatment",
+          "fetchedAt": "2026-10-30T22:31:17.881846+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "e576e14707be3a5b9eed2b09c84448f3b3fe7dc85e1bdc2b402ede17feb79367",
+          "sourceTextSha256": "aff958c16797690f3746319cb9fdfc54b0e7a4701a2ffd4caa2abc8c64ab5c00",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/e576e14707be3a5b9eed2b09c84448f3b3fe7dc85e1bdc2b402ede17feb79367.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/aff958c16797690f3746319cb9fdfc54b0e7a4701a2ffd4caa2abc8c64ab5c00.txt",
+          "passage": "Sewage treatment is a type of wastewater treatment which aims to remove contaminants from sewage to produce an effluent that is suitable for discharge to the surrounding environment or an intended reuse application, thereby preventing water pollution from raw sewage discharges. Sewage contains wastewater from households and businesses and possibly pre-treated industrial wastewater. There are a large number of sewage treatment processes to choose from. These can range from decentralized systems (including on-site treatment systems) to large centralized systems involving a network of pipes and pump stations (called sewerage) which convey the sewage to a treatment plant. For cities that have a combined sewer, the sewers will also carry urban runoff (stormwater) to the sewage treatment plant. Sewage treatment often involves two main stages, called primary and secondary treatment, while advanced treatment also incorporates a tertiary treatment stage with polishing processes and nutrient removal. Secondary treatment can reduce organic matter (measured as biological oxygen demand) from sewage, using aerobic or anaerobic biological processes. A quaternary treatment step (sometimes referred to as advanced treatment) can also be added for the removal of organic micropollutants, such as pharmaceuticals. This has been implemented in full-scale in Sweden.",
+          "passageSha256": "2e9c1e0e4283d258ea3138957d2974d2d08d560ca5ecbbeb0b2ee6b7770f50ea",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 1364
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "2e9c1e0e4283d258ea3138957d2974d2d08d560ca5ecbbeb0b2ee6b7770f50ea"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-05",
+      "initial": "D",
+      "claim": "Jaké černé palivo vzniká zahříváním dřeva za velmi omezeného přístupu vzduchu?",
+      "answer": "Dřevěné uhlí",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Charcoal",
+          "fetchedAt": "2026-10-30T21:43:24.606767+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "806c334d48a679760f6f9126e2bf4c05a10f58afa00e0433ec2f84494ca3f0d9",
+          "sourceTextSha256": "49433b1d9862ed11cbadb9774ff6efcabb68b7ed8503d8b2d9ffbd9264c7afe1",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/806c334d48a679760f6f9126e2bf4c05a10f58afa00e0433ec2f84494ca3f0d9.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/49433b1d9862ed11cbadb9774ff6efcabb68b7ed8503d8b2d9ffbd9264c7afe1.txt",
+          "passage": "Charcoal is a lightweight black residue made of carbon that is produced by strongly heating wood (or other animal and plant materials) in minimal oxygen to remove all water and volatile constituents. In the traditional version of this pyrolysis process, called charcoal burning, often by forming a charcoal kiln, the heat is supplied by burning part of the starting material itself, with a limited supply of oxygen. The material can also be heated in a closed retort. Modern charcoal briquettes used for outdoor cooking may contain many other additives, e.g. coal.",
+          "passageSha256": "429f330e3febdf4d75577d53413ae3572a8f1e2b92cab2ab22304ec57629251c",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 564
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "429f330e3febdf4d75577d53413ae3572a8f1e2b92cab2ab22304ec57629251c"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/4b49bf24e1dd690f306c.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/4b49bf24e1dd690f306c.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-06",
+      "initial": "E",
+      "claim": "Jaký typ motoru využívá působení magnetického pole na vodiče s proudem k otáčení rotoru?",
+      "answer": "Elektromotor",
+      "aliases": ["Elektrický motor"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Electric_motor",
+          "fetchedAt": "2026-10-30T22:31:18.216781+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "00fe0b07ebf43d6b01eff1c82edbd1e15d84e0bff74aae61d210df3ca283962f",
+          "sourceTextSha256": "930ef1e8ff5800499045a483cb860daded81bfcd0693d2e00b1dbab19b1f57c5",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/00fe0b07ebf43d6b01eff1c82edbd1e15d84e0bff74aae61d210df3ca283962f.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/930ef1e8ff5800499045a483cb860daded81bfcd0693d2e00b1dbab19b1f57c5.txt",
+          "passage": "An electric motor is a machine that converts electrical energy into mechanical energy. Most electric motors operate through the interaction between the motor's magnetic field and electric current in a wire winding to generate Lorentz force in the form of torque applied on the motor's shaft. An electric generator is mechanically identical to an electric motor but operates inversely, converting mechanical energy into electrical energy.\n\nAn electric motor has two mechanical parts: the rotor, which moves, and the stator, which does not. Electrically, the motor consists of two parts, the field magnets and the armature, one of which is attached to the rotor and the other to the stator. Together they form a magnetic circuit. The magnets create a magnetic field that passes through the armature. These can be electromagnets or permanent magnets. The field magnet is usually on the stator and the armature on the rotor, but these may be reversed.\n\nThe rotor is the moving part that delivers the mechanical power. The rotor typically holds conductors that carry currents, on which the magnetic field of the stator exerts force to turn the shaft.",
+          "passageSha256": "3dfe3008ec7176f5a95f8140f4624a0edbf0413f26cd0b83e78412717af535e5",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 437
+            },
+            {
+              "paragraphIndex": 4,
+              "start": 0,
+              "end": 508
+            },
+            {
+              "paragraphIndex": 5,
+              "start": 0,
+              "end": 196
+            }
+          ],
+          "readParagraphIndices": [0, 4, 5],
+          "readParagraphSha256": [
+            "3bcd09b77b06cfe1e6d779ce86fa02d9ba9c61669184dd2ba01923e2d7d2679d",
+            "29d0fa4f4804862c89ef3dd7fe996bb0c01eb3ad1dbcf2e8cfe021bd2674b7b4",
+            "7f5ee79171daeef8078804d249e7a0b88ba63670ce0081462219eeafddc4fcaf"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-07",
+      "initial": "F",
+      "claim": "Jak se běžně říká světelnému snímači, který pozná přítomnost předmětu podle přerušení paprsku mezi vysílačem a přijímačem?",
+      "answer": "Fotobuňka",
+      "aliases": [
+        "Fotoelektrický snímač",
+        "Fotoelektrická buňka",
+        "Optická závora",
+        "Světelná závora",
+        "Fotoelektrická závora"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Photoelectric_sensor",
+          "fetchedAt": "2026-10-30T22:31:18.183682+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "127468e62878e6867aa179c691958bcef45912e908255063002d64e98f92ff4c",
+          "sourceTextSha256": "051d52dc5a6b7121abd266dbb12399cc81c565475407967ba4c391527d7d7444",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/127468e62878e6867aa179c691958bcef45912e908255063002d64e98f92ff4c.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/051d52dc5a6b7121abd266dbb12399cc81c565475407967ba4c391527d7d7444.txt",
+          "passage": "A photoelectric sensor is a device used to determine the distance, absence, or presence of an object by using a light transmitter, often infrared, and a photoelectric receiver. They are largely used in industrial manufacturing. There are three different useful types: opposed (through-beam), retro-reflective, and proximity-sensing (diffused).",
+          "passageSha256": "5882674ca53e165a54ede1a9462ff408e6108645525b6ccccd5211d6df9381e5",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 343
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "5882674ca53e165a54ede1a9462ff408e6108645525b6ccccd5211d6df9381e5"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-08",
+      "initial": "G",
+      "claim": "Jaké zařízení vyrábí elektřinu s využitím tepla ze zemského nitra?",
+      "answer": "Geotermální elektrárna",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Geothermal_power",
+          "fetchedAt": "2026-10-30T22:31:18.270780+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "0844e5bba236d040fc6c3d592c0236f993c9dc8fb67baa3802d7c719aa1bf195",
+          "sourceTextSha256": "d60f21f8af8482f7e4f8f3288db820e9876269eb5916cc193e621e64c9dd9caf",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/0844e5bba236d040fc6c3d592c0236f993c9dc8fb67baa3802d7c719aa1bf195.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/d60f21f8af8482f7e4f8f3288db820e9876269eb5916cc193e621e64c9dd9caf.txt",
+          "passage": "Geothermal power is electrical power generated from geothermal energy. Technologies in use include dry steam power stations, flash steam power stations and binary cycle power stations. 32 countries had operational geothermal power stations as of 2022[update].\n\nGeothermal power is considered to be a sustainable, renewable source of energy because the heat extraction is small compared with the Earth's heat content. The greenhouse gas emissions of geothermal electric stations average 45 grams of carbon dioxide per kilowatt-hour of electricity, or less than 5% of those of conventional coal-fired plants.",
+          "passageSha256": "473c7c23920a369ac61240a4579a9bf4b869c066f01bec7966a547373d65e0ca",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 259
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 0,
+              "end": 345
+            }
+          ],
+          "readParagraphIndices": [0, 2],
+          "readParagraphSha256": [
+            "165c3237dfca5e94cfc8c633575776c461ed4e043e4344c6b392a06ad76ca19b",
+            "d543d8a21138f179c7c95f304634b84e05e3fe73d0685e38264da2eaa2a62c32"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-09",
+      "initial": "H",
+      "claim": "Který nehořlavý plyn se značkou He se používá k plnění létajících pouťových balónků?",
+      "answer": "Helium",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Helium",
+          "fetchedAt": "2026-10-30T21:43:31.141421+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "0ad7f709035d374e66f3cd44e78f91fc87308ba9a7b39fd786dd7accf8a68e26",
+          "sourceTextSha256": "6218e7378a9d47b94a873bb77474181becbc2a3b8f215c07d6394bc5ae4b9f4a",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/0ad7f709035d374e66f3cd44e78f91fc87308ba9a7b39fd786dd7accf8a68e26.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/6218e7378a9d47b94a873bb77474181becbc2a3b8f215c07d6394bc5ae4b9f4a.txt",
+          "passage": "Helium (from Ancient Greek: ἥλιος, romanized: helios, lit. 'sun') is a chemical element; it has symbol He and atomic number 2. It is a colorless, odorless, non-toxic, inert, monatomic gas and the first in the noble gas group in the periodic table.\n\nFollowing a suggestion by Sir Richard Threlfall, the United States Navy sponsored three small experimental helium plants during World War I. The goal was to supply barrage balloons with the non-flammable, lighter-than-air gas. A total of 5,700 m3 (200,000 ft3) of 92% helium was produced in the program even though less than a cubic meter of the gas had previously been obtained. Some of this gas was used in the world's first helium-filled airship, the U.S. Navy's C-class blimp C-7, which flew its maiden voyage from Hampton Roads, Virginia, to Bolling Field in Washington, D.C., on December 1, 1921, nearly two years before the Navy's first rigid helium-filled airship, the Naval Aircraft Factory-built USS Shenandoah, flew in September 1923.\n\nWhile balloons are perhaps the best-known use of helium, they are a minor part of all helium use. Helium is used for many purposes that require some of its unique properties, such as its low boiling point, low density, low solubility, high thermal conductivity, or inertness. Of the 2014 world helium total production of about 32 million kg (180 million standard cubic meters) of helium per year, the largest use (about 32% of the total in 2014) is in cryogenic applications, most of which involves cooling the superconducting magnets in medical MRI scanners and NMR spectrometers. Other major uses were pressurizing and purging systems, welding, maintenance of controlled atmospheres, and leak detection. Other uses by category were relatively minor fractions.",
+          "passageSha256": "c0855891fd957038f5dc51715ca2df88573615c388d77d020ead2ec07af820d0",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 247
+            },
+            {
+              "paragraphIndex": 12,
+              "start": 0,
+              "end": 745
+            },
+            {
+              "paragraphIndex": 60,
+              "start": 0,
+              "end": 761
+            }
+          ],
+          "readParagraphIndices": [0, 12, 60],
+          "readParagraphSha256": [
+            "2216b519e83be918f04dad332ee5426068f476f896bd9f59cb758dd8fdb1db6d",
+            "6faa949f4b94a8fa15b174658a16eeb6c421f9c26685e79d05629f7919ddd71e",
+            "e754f2af4ceae369499de1523de417c73b077f55d96e242216d7e76239ee6262"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/9701599bb6ebf4065f2d.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/9701599bb6ebf4065f2d.html"
+          }
+        },
+        {
+          "url": "https://periodic-table.rsc.org/element/2/helium",
+          "fetchedAt": "2026-10-30T21:50:00.608368+00:00",
+          "sourceQuality": "Royal Society of Chemistry institutional secondary chemistry reference",
+          "sourceBodySha256": "76f33e3503e4cadc253fc7f69ac1cb233c41c9d046fa0782fb1647951f520373",
+          "sourceTextSha256": "59dc81e18011fafe884b1c4ce281ca5afa496c13c0bef5391ad79ef9017e51d5",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/76f33e3503e4cadc253fc7f69ac1cb233c41c9d046fa0782fb1647951f520373.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/59dc81e18011fafe884b1c4ce281ca5afa496c13c0bef5391ad79ef9017e51d5.txt",
+          "passage": "Because of its low density helium is often used to fill decorative balloons, weather balloons and airships. Hydrogen was once used to fill balloons but it is dangerously reactive.",
+          "passageSha256": "0a068187b7ed6b6a9c472b498dc5bd6d8294a746d89f34c572158a92d7f4dae1",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 43,
+              "start": 0,
+              "end": 179
+            }
+          ],
+          "readParagraphIndices": [43],
+          "readParagraphSha256": [
+            "0a068187b7ed6b6a9c472b498dc5bd6d8294a746d89f34c572158a92d7f4dae1"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalLedgerPath": ".artifacts/continuation/bundles/p12/science/batches/b01-v1/sources.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/frozen-sources/76f33e3503e4cadc253fc7f69ac1cb233c41c9d046fa0782fb1647951f520373.html",
+            "originalFetchedAt": "2026-10-30T21:50:00.608368+00:00",
+            "note": "Read immutable actual original cache, no HTTP request or old-cache write"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-10",
+      "initial": "Ch",
+      "claim": "Jak se nazývá kapalná směs odvádějící teplo z motoru do chladiče?",
+      "answer": "Chladicí kapalina",
+      "aliases": [
+        "Chladicí směs",
+        "Chladicí médium",
+        "Teplonosná kapalina",
+        "Nemrznoucí směs",
+        "Nemrznoucí kapalina"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Antifreeze",
+          "fetchedAt": "2026-10-30T22:31:24.602423+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "7ad2f5841c2ed4e77beecf223ca5fa7dceb915e1d04cd73490429043556e6532",
+          "sourceTextSha256": "a7c1d79ff96b574d44652788949306890ef80cf00d1667d712ebad198f5569a6",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/7ad2f5841c2ed4e77beecf223ca5fa7dceb915e1d04cd73490429043556e6532.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/a7c1d79ff96b574d44652788949306890ef80cf00d1667d712ebad198f5569a6.txt",
+          "passage": "Because water has good properties as a coolant, water plus antifreeze is used in internal combustion engines and other heat transfer applications, such as HVAC chillers and solar water heaters. The purpose of antifreeze is to prevent a rigid enclosure from bursting due to expansion when water freezes. Commercially, both the additive (pure concentrate) and the mixture (diluted solution) are called antifreeze, depending on the context. Careful selection of an antifreeze can enable a wide temperature range in which the mixture remains in the liquid phase, which is critical to efficient heat transfer and the proper functioning of heat exchangers. Most if not all commercial antifreeze formulations intended for use in heat transfer applications include anti-corrosion and anti-cavitation agents (that protect the hydraulic circuit from progressive wear).\n\nMost automotive engines are \"water\"-cooled to remove waste heat, though the \"water\" used is actually a mixture of water and antifreeze. The term engine coolant is widely used in the automotive industry, which covers its primary function of convective heat transfer for internal combustion engines. When used in an automotive context, corrosion inhibitors are added to help protect vehicles' radiators, which often contain a range of electrochemically incompatible metals (aluminum, cast iron, copper, brass, solder, etc.). Water pump seal lubricant is also added.",
+          "passageSha256": "3e0d7e159a81110dfeffdbf91321ebc5ca83e8158b95ab3cf91d203a2df8fcf6",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 858
+            },
+            {
+              "paragraphIndex": 3,
+              "start": 0,
+              "end": 563
+            }
+          ],
+          "readParagraphIndices": [1, 3],
+          "readParagraphSha256": [
+            "ea8f5b696c3fdca1724bab4d92bd28c3f5b888a854d3ad7b4298a3e38d32ca7c",
+            "47e1973df16739aa002b64f816523ae82181bd05b46dbcc54b3ca7ddbc2e46b1"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/Chladic%C3%AD_kapalina",
+          "fetchedAt": "2026-10-30T22:36:02.985516+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "106879b0223f67259af4a38bd897f2cb2d6b755f935ccee81657433c993b5a60",
+          "sourceTextSha256": "0bc6a2698ef1037a79f0b2596283d15430a05a5ce26bd397815afd72047a6625",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/106879b0223f67259af4a38bd897f2cb2d6b755f935ccee81657433c993b5a60.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/0bc6a2698ef1037a79f0b2596283d15430a05a5ce26bd397815afd72047a6625.txt",
+          "passage": "Chladicí médium je tekutina, která proudí skrz zařízení, aby ho ochránila před přehřátím a přenášela teplo produkované tímto zařízením do jiného zařízení, kde se využije nebo rozptýlí. Ideální médium má velkou tepelnou kapacitu, nízkou viskozitu, je levné, chemicky inertní a nezpůsobuje ani nepodporuje korozi chladicího systému. Některé aplikace navíc vyžadují, aby bylo chladicí médium elektrickým izolantem.",
+          "passageSha256": "c5b49606b257b689bfafbf60dc6c17f32579f5637fc9a46c6d8693d508d34036",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 411
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "c5b49606b257b689bfafbf60dc6c17f32579f5637fc9a46c6d8693d508d34036"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-11",
+      "initial": "I",
+      "claim": "Jaké záření za červeným okrajem viditelného spektra využívají mnohé televizní ovladače?",
+      "answer": "Infračervené záření",
+      "aliases": ["Infračervené světlo"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Infrared",
+          "fetchedAt": "2026-10-30T22:31:24.970582+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "938a9c7da0b3c1f89423ef6782d6fd8ae3c4fd55c4a7c1c03d73b19c11fa8bbf",
+          "sourceTextSha256": "ad6bcca0b7412f61aa0898167d229148521cbc426b7b8d9828587a69e0173988",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/938a9c7da0b3c1f89423ef6782d6fd8ae3c4fd55c4a7c1c03d73b19c11fa8bbf.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/ad6bcca0b7412f61aa0898167d229148521cbc426b7b8d9828587a69e0173988.txt",
+          "passage": "Infrared radiation (IR; sometimes called infrared light) is electromagnetic radiation (EMR) with wavelengths longer than that of visible light but shorter than microwaves. The infrared spectral band begins with the waves that are just longer than those of red light (the longest waves in the visible spectrum), so IR is, per definition, invisible to the human eye. IR is generally (according to ISO, CIE) understood to include wavelengths from around 780 nm (380 THz) to 1 mm (300 GHz). IR is commonly divided between longer-wavelength thermal IR, emitted from terrestrial sources, and shorter-wavelength IR, or near IR, part of the solar spectrum. Longer IR wavelengths (30–100 μm) are sometimes included as part of the terahertz radiation band. Almost all black-body radiation from objects near room temperature is in the IR band. As a form of EMR, IR carries energy and momentum, exerts radiation pressure, and has properties corresponding to both those of a wave and of a particle, the photon.\n\nIR data transmission is also employed in short-range communication among computer peripherals and personal digital assistants. These devices usually conform to standards published by IrDA, the Infrared Data Association. Remote controls and IrDA devices use infrared light-emitting diodes (LEDs) to emit infrared radiation that may be concentrated by a lens into a beam that the user aims at the detector. The beam is modulated, i.e. switched on and off, according to a code which the receiver interprets. Usually very-near IR is used (below 800 nm) for practical reasons. This wavelength is efficiently detected by inexpensive silicon photodiodes, which the receiver uses to convert the detected radiation to an electric current. That electrical signal is passed through a high-pass filter which retains the rapid pulsations due to the IR transmitter but filters out slowly changing infrared radiation from ambient light. Infrared communications are useful for indoor use in areas of high population density. IR does not penetrate walls and so does not interfere with other devices in adjoining rooms. Infrared is the most common way for remote controls to command appliances. Infrared remote control protocols like RC-5, SIRC, are used to communicate with infrared.",
+          "passageSha256": "1916f4640ef9becd89cbc61101027a3a330fe72a8628663755803d71e8de5acd",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 997
+            },
+            {
+              "paragraphIndex": 33,
+              "start": 0,
+              "end": 1266
+            }
+          ],
+          "readParagraphIndices": [0, 33],
+          "readParagraphSha256": [
+            "6b28313d7ca29af155697649ca4ebaf2d8f0d3bb8d6483999ca5ec917e54b407",
+            "89879524476848544f385c3afe21826b15dd98c2444b384b1d24284ac07f210d"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-12",
+      "initial": "J",
+      "claim": "Jak se nazývá dohodnutá velikost veličiny používaná jako základ měření, například metr pro délku?",
+      "answer": "Jednotka",
+      "aliases": ["Měřicí jednotka", "Jednotka měření"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Unit_of_measurement",
+          "fetchedAt": "2026-10-30T22:31:24.897972+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "cc13135ad84bf1ee5116578948d9af8bd8d90f69c52cc6b20f8afe58e3cbc587",
+          "sourceTextSha256": "179cff96248116611cb747fa2d6872cdd8c3c5211883a0340321de936a3eb506",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/cc13135ad84bf1ee5116578948d9af8bd8d90f69c52cc6b20f8afe58e3cbc587.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/179cff96248116611cb747fa2d6872cdd8c3c5211883a0340321de936a3eb506.txt",
+          "passage": "A unit of measurement, or unit of measure, is a definite magnitude of a quantity, defined and adopted by convention or by law, that is used as a standard for measurement of the same kind of quantity. Any other quantity of that kind can be expressed as a multiple of the unit of measurement, For example, a length is a physical quantity. The metre (symbol: m) is a unit of length that represents a definite predetermined length. For instance, when referencing \"10 metres\" (or 10 m), what is meant is 10 times the definite predetermined length called \"metre\".",
+          "passageSha256": "a179f3f3cda020b0567952ff74f86d0f4da71ec85689914bcf03290a19a27053",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 557
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "a179f3f3cda020b0567952ff74f86d0f4da71ec85689914bcf03290a19a27053"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-13",
+      "initial": "K",
+      "claim": "Jaký jednoduchý stroj má dvě sbíhající se šikmé plochy a používá se například ke štípání dřeva?",
+      "answer": "Klín",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wedge",
+          "fetchedAt": "2026-10-30T22:31:24.843845+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "556c54781977ee111f7a53b4de129e0a5c5437aaab9dd2dfd8202b5cbe005f75",
+          "sourceTextSha256": "e7e2296926fdd8459a90c42476240ce1ea6fb32c87c43b57fa0354617f608aba",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/556c54781977ee111f7a53b4de129e0a5c5437aaab9dd2dfd8202b5cbe005f75.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/e7e2296926fdd8459a90c42476240ce1ea6fb32c87c43b57fa0354617f608aba.txt",
+          "passage": "A wedge is a triangular shaped tool, a portable inclined plane, and one of the six simple machines. It can be used to separate two objects or portions of an object, lift up an object, or hold an object in place. It functions by converting a force applied to its blunt end into forces perpendicular (normal) to its inclined surfaces. The mechanical advantage of a wedge is given by the ratio of the length of its slope to its width.\n\nThey can also be used to separate objects, such as blocks of cut stone. Splitting mauls and splitting wedges are used to split wood along the grain.",
+          "passageSha256": "14ad212f947ae36b03f6bba2497dc38b18608da17ac4eff176e3076c0231be1a",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 431
+            },
+            {
+              "paragraphIndex": 9,
+              "start": 0,
+              "end": 148
+            }
+          ],
+          "readParagraphIndices": [0, 9],
+          "readParagraphSha256": [
+            "c0b1529e282929242c9fea3cfaf7148afeaee1e0bc5349717627cdea77e30bd0",
+            "34348d86eda285f11a59d5982f5b5ca5b1e579cdb8b86f865480bd12547723d6"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-14",
+      "initial": "L",
+      "claim": "Jak se běžně nazývá kompozit ze skleněných vláken spojených pryskyřicí, používaný například na trupy člunů?",
+      "answer": "Laminát",
+      "aliases": ["Sklolaminát", "Skelný laminát", "Sklem vyztužený plast"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fibreglass",
+          "fetchedAt": "2026-10-30T22:31:24.876380+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "6ef90da556b2280782d0f00fd26c779da66a90e1daa78c6ca62635317cd99a8c",
+          "sourceTextSha256": "009bce26edb94c22c65418445d72a22324d8b3df9a89d8a7719292f457f5fd67",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/6ef90da556b2280782d0f00fd26c779da66a90e1daa78c6ca62635317cd99a8c.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/009bce26edb94c22c65418445d72a22324d8b3df9a89d8a7719292f457f5fd67.txt",
+          "passage": "Fiberglass (American English) or fibreglass (Commonwealth English) is a common type of fiber-reinforced plastic using glass fiber. The fibers may be randomly arranged, flattened into a sheet called a chopped strand mat, or woven into glass cloth. The plastic matrix may be a thermoset polymer matrix—most often based on thermosetting polymers such as epoxy, polyester resin, or vinyl ester resin—or a thermoplastic.\n\nCheaper and more flexible than carbon fiber, it is stronger than many metals by weight, non-magnetic, non-conductive, transparent to electromagnetic radiation, can be molded into complex shapes, and is chemically inert under many circumstances. Applications include aircraft, boats, automobiles, bath tubs and enclosures, swimming pools, hot tubs, septic tanks, water tanks, roofing, pipes, cladding, orthopedic casts, surfboards, and external door skins.",
+          "passageSha256": "cd3e5b53e2901019319005ff3951b994c7ecf02c8a1c2f76940bdd7d0ae6ec28",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 415
+            },
+            {
+              "paragraphIndex": 1,
+              "start": 0,
+              "end": 455
+            }
+          ],
+          "readParagraphIndices": [0, 1],
+          "readParagraphSha256": [
+            "a31b6a8c5d1b92b7043a462c05710929c58bf2b95a56955eed3a6291fb35df87",
+            "6126f48bb8107d1ca9d663539778f616ed51ecdd24ac73ee057a239e89d41b9a"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/Sklolamin%C3%A1t",
+          "fetchedAt": "2026-10-30T22:36:02.549791+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "2e829608208f1deb137f8a43de17d56c4fea98b515fc342cd6e5691d563bab71",
+          "sourceTextSha256": "3c88d1a20871d4106a1d3c2250c563ef74080613fb397ee4dd2a3c50ce03f706",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2e829608208f1deb137f8a43de17d56c4fea98b515fc342cd6e5691d563bab71.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/3c88d1a20871d4106a1d3c2250c563ef74080613fb397ee4dd2a3c50ce03f706.txt",
+          "passage": "Sklolaminát je kompozitní materiál, tvořený skleněnými vlákny (tkaninou) a vytvrzenou umělou pryskyřicí (polymerem). Vyznačuje se velkou pevností, odolností vůči chemikáliím i počasí, nízkou hmotností i cenou a dobrými hygienickými vlastnostmi. Jako pryskyřice se užívají epoxidy, termosety (polyester, vinylester) nebo termoplasty.",
+          "passageSha256": "1478b6b542dd75ba29813f62d81a486e2e0a4989e88ab254c38be7508f90ae8e",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 332
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "1478b6b542dd75ba29813f62d81a486e2e0a4989e88ab254c38be7508f90ae8e"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-15",
+      "initial": "M",
+      "claim": "Který načervenalý kov má značku Cu a dobře vede elektrický proud?",
+      "answer": "Měď",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Copper",
+          "fetchedAt": "2026-10-30T21:43:24.845726+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "2b625da27f9dd80bc60b4305edbd2b13a0fca14ed8c0caafdb1aa03de43d0bd5",
+          "sourceTextSha256": "64ea11f5967ea62eaca839a50453ba9a2a581795ebf53ab801ec48969171f9e4",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2b625da27f9dd80bc60b4305edbd2b13a0fca14ed8c0caafdb1aa03de43d0bd5.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/64ea11f5967ea62eaca839a50453ba9a2a581795ebf53ab801ec48969171f9e4.txt",
+          "passage": "Copper is a chemical element; it has symbol Cu (from Latin cuprum) and atomic number 29. It is a soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange color. Copper is used as a conductor of heat and electricity, as a building material, and as a constituent of various metal alloys, such as sterling silver used in jewelry, cupronickel used to make marine hardware and coins, and constantan used in strain gauges and thermocouples for temperature measurement.",
+          "passageSha256": "a64d1483d2e71306d8bf0f43294d2d9d73daac5d7daebf6b700572bacc294f98",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 554
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "a64d1483d2e71306d8bf0f43294d2d9d73daac5d7daebf6b700572bacc294f98"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/dc1cb3eac01bb9bfb9c3.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/dc1cb3eac01bb9bfb9c3.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-16",
+      "initial": "N",
+      "claim": "Jaké kapalné palivo se běžně používá ve vznětových automobilových motorech?",
+      "answer": "Nafta",
+      "aliases": ["Motorová nafta", "Diesel", "Dieselové palivo"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Diesel_fuel",
+          "fetchedAt": "2026-10-30T22:31:32.117367+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "1723ea54d505a619b0a5722b600c5003b11a5d7be5f3ff01cddd3f2c7ee8e1e9",
+          "sourceTextSha256": "85f9067b7df16b1ec691557eecefb6dec83d4c1b367702655f5bf72824b40859",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/1723ea54d505a619b0a5722b600c5003b11a5d7be5f3ff01cddd3f2c7ee8e1e9.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/85f9067b7df16b1ec691557eecefb6dec83d4c1b367702655f5bf72824b40859.txt",
+          "passage": "Diesel fuel, also called diesel oil, fuel oil (historically), or simply diesel, is any liquid fuel specifically designed for use in a diesel engine, a type of internal combustion engine in which fuel ignition takes place as a result of compression of the inlet air and then injection of fuel without a spark. Therefore, diesel fuel needs good compression ignition characteristics.",
+          "passageSha256": "fd541cafcd555906b830390a2bf8f8b5b40edaa97ff568e3428cd859037038f0",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 380
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "fd541cafcd555906b830390a2bf8f8b5b40edaa97ff568e3428cd859037038f0"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-17",
+      "initial": "O",
+      "claim": "Který plyn vydechujeme a vzniká také při úplném spalování uhlíku?",
+      "answer": "Oxid uhličitý",
+      "aliases": ["CO2", "CO₂"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Carbon_dioxide",
+          "fetchedAt": "2026-10-30T22:31:31.389923+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "aa35f9355a04c63856249b30190f65889582a98f0031dafad5e0e5361c95ac20",
+          "sourceTextSha256": "a075eacf755455644c729cfaa5b31c6d38871a3079b59bd8ffc5cf7a08e71305",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/aa35f9355a04c63856249b30190f65889582a98f0031dafad5e0e5361c95ac20.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/a075eacf755455644c729cfaa5b31c6d38871a3079b59bd8ffc5cf7a08e71305.txt",
+          "passage": "Carbon dioxide is a chemical compound with the chemical formula CO2. It is made up of molecules that each have one carbon atom covalently double bonded to two oxygen atoms. It is found in a gas state at room temperature and at normally-encountered concentrations it is odorless. As the source of carbon in the carbon cycle, atmospheric CO2 is the primary carbon source for life on Earth. In the air, carbon dioxide is transparent to visible light but absorbs infrared radiation, acting as a greenhouse gas. Carbon dioxide is soluble in water and is found in groundwater, lakes, ice caps, and seawater.\n\nIts concentration in Earth's pre-industrial atmosphere since late in the Precambrian was regulated by organisms and geological features. Plants, algae and cyanobacteria use energy from sunlight to synthesize carbohydrates from carbon dioxide and water in a process called photosynthesis, which produces oxygen as a waste product. In turn, oxygen is consumed and CO2 is released as waste by all aerobic organisms when they metabolize organic compounds to produce energy by respiration. CO2 is released from organic materials when they decay or combust, such as in forest fires. When carbon dioxide dissolves in water, it forms carbonate and mainly bicarbonate (HCO3–), which causes ocean acidification as atmospheric CO2 levels increase.\n\nCarbon dioxide is an end product of cellular respiration in organisms that obtain energy by breaking down sugars, fats and amino acids with oxygen as part of their metabolism. This includes all plants, algae and animals and aerobic fungi and bacteria. In vertebrates, the carbon dioxide travels in the blood from the body's tissues to the skin (e.g., amphibians) or the gills (e.g., fish), from where it dissolves in the water, or to the lungs from where it is exhaled. During active photosynthesis, plants can absorb more carbon dioxide from the atmosphere than they release in respiration.",
+          "passageSha256": "8908109609e04ae25021aeb93adb185e55503ae58db1579e4928bc87a94a8c81",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 601
+            },
+            {
+              "paragraphIndex": 2,
+              "start": 0,
+              "end": 736
+            },
+            {
+              "paragraphIndex": 29,
+              "start": 0,
+              "end": 591
+            }
+          ],
+          "readParagraphIndices": [0, 2, 29],
+          "readParagraphSha256": [
+            "c4859adb7e00a2a1687c398489bb6670a82ae8a6d861c863a5c6fb1c3868f7d0",
+            "646c765a1b150f64b5e084590f9f585ca4cc017f94616ee0605359a6b4732630",
+            "0c33850d508551444d3b54ef08c6f9f0104ef297345322d317e83190f9319ec7"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-18",
+      "initial": "P",
+      "claim": "Jaký elektrický ochranný prvek přeruší obvod přetavením vodiče při nadměrném proudu?",
+      "answer": "Pojistka",
+      "aliases": ["Tavná pojistka"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fuse_(electrical)",
+          "fetchedAt": "2026-10-30T21:43:31.044823+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "86877644f80eebd7f25f7719056cd573f03d2fae9f233c0a40d8d314c4fb7afb",
+          "sourceTextSha256": "42ac54c4c68ea5bba392a5fa67ce50fcbddc449c1f5d73e0e858b7e67009d9cd",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/86877644f80eebd7f25f7719056cd573f03d2fae9f233c0a40d8d314c4fb7afb.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/42ac54c4c68ea5bba392a5fa67ce50fcbddc449c1f5d73e0e858b7e67009d9cd.txt",
+          "passage": "In electronics and electrical engineering, a fuse is an electrical safety device that operates to provide overcurrent protection of an electrical circuit. Its essential component is a metal wire or strip that melts when too much current flows through it, thereby stopping or interrupting the current. It is a sacrificial device; once a fuse has operated, it is an open circuit, and must be replaced or rewired, depending on its type.",
+          "passageSha256": "bd90db75876b306bb7da111e06aab1b508701c2ed60ce30bac2537283f6c735f",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 433
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "bd90db75876b306bb7da111e06aab1b508701c2ed60ce30bac2537283f6c735f"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/32fcafccba3c3f34de83.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/32fcafccba3c3f34de83.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-19",
+      "initial": "R",
+      "claim": "Jak se nazývají načervenalé produkty koroze železa na vlhkém vzduchu?",
+      "answer": "Rez",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Rust",
+          "fetchedAt": "2026-10-30T21:43:44.254602+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "2a7937159a0e0ed32e66643f3cdbbdda3ad7cc63fddbc8ad7991e2b9ae30bc82",
+          "sourceTextSha256": "e2d4d99e84b023661e4f87ca127833d19d453364611fa59140b9967b6e490278",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2a7937159a0e0ed32e66643f3cdbbdda3ad7cc63fddbc8ad7991e2b9ae30bc82.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/e2d4d99e84b023661e4f87ca127833d19d453364611fa59140b9967b6e490278.txt",
+          "passage": "Rust is an iron oxide, a usually reddish-brown oxide formed by the reaction of iron and oxygen in the catalytic presence of water or air moisture. Rust consists of hydrous iron(III) oxides (Fe2O3·nH2O) and iron(III) oxide-hydroxide (FeO(OH), Fe(OH)3), and is typically associated with the corrosion of refined iron.",
+          "passageSha256": "f245d6c3486c817cadd360c8e19b91d606577a85a6daf697f883b5e346463c19",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 315
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "f245d6c3486c817cadd360c8e19b91d606577a85a6daf697f883b5e346463c19"
+          ],
+          "provenance": {
+            "reused": true,
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/science/sources/3d8c9b04a3c7b26ee786.json",
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/science/sources/3d8c9b04a3c7b26ee786.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-20",
+      "initial": "Ř",
+      "claim": "Jak se nazývá kapalina přidávaná do nátěrové hmoty ke snížení její viskozity?",
+      "answer": "Ředidlo",
+      "aliases": ["Rozpouštědlo"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Paint_thinner",
+          "fetchedAt": "2026-10-30T22:31:31.604623+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "daf91649c742d495d77f01e81e39aec0bd465458574e2a12bcb346bcacf35ca6",
+          "sourceTextSha256": "b8d25bce57610f0ff4e0e2d31f24ff926fb723f5a1e55e30d3692ce0420e2220",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/daf91649c742d495d77f01e81e39aec0bd465458574e2a12bcb346bcacf35ca6.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/b8d25bce57610f0ff4e0e2d31f24ff926fb723f5a1e55e30d3692ce0420e2220.txt",
+          "passage": "A paint thinner is a solvent used to thin (i.e. make it less thick) paints or varnish. Paint thinners are diluents. Solvents labeled \"paint thinner\" are usually white or mineral spirits.",
+          "passageSha256": "cd25e783e22f12f03b6ee33ebf38b8582810e0326a42669652e4bf937069b437",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 186
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "cd25e783e22f12f03b6ee33ebf38b8582810e0326a42669652e4bf937069b437"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-21",
+      "initial": "S",
+      "claim": "Jaké černé jemné částice bohaté na uhlík vznikají při nedokonalém spalování?",
+      "answer": "Saze",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Soot",
+          "fetchedAt": "2026-10-30T22:31:31.635564+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "9f00d208b056a88aaec389f8ec4fb8a880a429db12061c6645eab9dcc3173433",
+          "sourceTextSha256": "a5e12a547f8c0c47bfb142173d78d55920863c445b4bf5b4ed35c85f6d7eddfd",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/9f00d208b056a88aaec389f8ec4fb8a880a429db12061c6645eab9dcc3173433.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/a5e12a547f8c0c47bfb142173d78d55920863c445b4bf5b4ed35c85f6d7eddfd.txt",
+          "passage": "Soot (/sʊt/ suut) is a mass of impure carbon particles resulting from the incomplete combustion of hydrocarbons. Soot is considered a hazardous substance with carcinogenic properties. Most broadly, the term includes all the particulate matter produced by this process, including black carbon and residual pyrolysed fuel particles such as coal, cenospheres, charred wood, and petroleum coke classified as cokes or char. It can include polycyclic aromatic hydrocarbons and heavy metals like mercury.",
+          "passageSha256": "c4e57871d0b3e043b88e7eae190275ef8ba339a3babdbe6bfd17d8c174e1ef38",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 497
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "c4e57871d0b3e043b88e7eae190275ef8ba339a3babdbe6bfd17d8c174e1ef38"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-22",
+      "initial": "Š",
+      "claim": "Jaký otočný prvek reguluje množství vzduchu přiváděného do mnoha zážehových motorů?",
+      "answer": "Škrticí klapka",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Throttle",
+          "fetchedAt": "2026-10-30T22:31:31.596496+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "7119f2b0c336346aa6644626f9cfce058a47291ac331aa2a51e0cf59d3c56a99",
+          "sourceTextSha256": "5992d43c178da597c0f3a7aff44cb3e04ab72c28fd7cbde4767ef9b57c32ac67",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/7119f2b0c336346aa6644626f9cfce058a47291ac331aa2a51e0cf59d3c56a99.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/5992d43c178da597c0f3a7aff44cb3e04ab72c28fd7cbde4767ef9b57c32ac67.txt",
+          "passage": "The throttle on a gasoline engine is typically a butterfly valve. In a fuel-injected engine, the throttle valve is placed on the entrance of the intake manifold, or housed in the throttle body. In a carbureted engine, it is found in the carburetor. When a throttle is wide open, the intake manifold is usually close to ambient atmospheric pressure. When the throttle is partially closed, manifold vacuum drops further below ambient pressure.",
+          "passageSha256": "3473d38422ce4940eebf77b4a429f6266ba41cba129d6525fdd6220a05ec2ab0",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 5,
+              "start": 0,
+              "end": 441
+            }
+          ],
+          "readParagraphIndices": [5],
+          "readParagraphSha256": [
+            "3473d38422ce4940eebf77b4a429f6266ba41cba129d6525fdd6220a05ec2ab0"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-23",
+      "initial": "T",
+      "claim": "Jak se nazývá přechod pevné látky do kapalného stavu?",
+      "answer": "Tání",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Melting",
+          "fetchedAt": "2026-10-30T22:31:37.821483+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "62e2a903d89ff205dd512f28022a3f0262bcc665ff91c1434f0df99817bf7563",
+          "sourceTextSha256": "7f8ae3763534effdfe66d6a5c7f678143deb22d0f6363d9e56ba95fd772dafb6",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/62e2a903d89ff205dd512f28022a3f0262bcc665ff91c1434f0df99817bf7563.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/7f8ae3763534effdfe66d6a5c7f678143deb22d0f6363d9e56ba95fd772dafb6.txt",
+          "passage": "Melting, or fusion, is a physical process that results in the phase transition of a substance from a solid to a liquid. This occurs when the internal energy of the solid increases, typically by the application of heat or pressure, which increases the substance's temperature to the melting point. At the melting point, the ordering of ions or molecules in the solid breaks down to a less ordered state, and the solid melts to become a liquid.",
+          "passageSha256": "9fe896b2cb0d1c3f581bf565bf3f9aaccb9f7b5640e9ac9932edc3b4a977c039",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 442
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "9fe896b2cb0d1c3f581bf565bf3f9aaccb9f7b5640e9ac9932edc3b4a977c039"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-24",
+      "initial": "U",
+      "claim": "Jaké pevné fosilní palivo vzniklo přeměnou pravěké rostlinné hmoty?",
+      "answer": "Uhlí",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Coal",
+          "fetchedAt": "2026-10-30T22:31:38.120000+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "34a0875ecc35ca756c03e65c431598e70405503487d8ca6d3810970c65c03b1d",
+          "sourceTextSha256": "dd3e6515f40e3e7c089189b1d2b41c8de8e0bde98e7f99309a2a396c7441a5fe",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/34a0875ecc35ca756c03e65c431598e70405503487d8ca6d3810970c65c03b1d.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/dd3e6515f40e3e7c089189b1d2b41c8de8e0bde98e7f99309a2a396c7441a5fe.txt",
+          "passage": "Coal is a combustible black or brownish-black sedimentary rock, formed as layers called coal seams. Coal is mostly carbon with variable amounts of other elements, chiefly hydrogen, sulfur, oxygen, and nitrogen. It is a fossil fuel, formed when plants decay into peat which is converted into coal by the heat and pressure of deep burial over millions of years. Vast deposits formed from wetlands called coal forests that covered much of the tropics during the late Carboniferous and early Permian.",
+          "passageSha256": "dedd2d149b28ad02bb88b5baf67278f0d0d497bd18b2cddb868c4caf8faa3565",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 496
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "dedd2d149b28ad02bb88b5baf67278f0d0d497bd18b2cddb868c4caf8faa3565"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-25",
+      "initial": "V",
+      "claim": "Jaký řezný nástroj vytváří otvory otáčením kolem své osy?",
+      "answer": "Vrták",
+      "aliases": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Drill_bit",
+          "fetchedAt": "2026-10-30T22:31:38.067687+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "cf60530b6421074564682bc3311eb52d5ed07799d26a1a4fef0cf79277334556",
+          "sourceTextSha256": "e27c2f52a6fb012b3ee78f104fafcf2bcb4fa1cfff882db1ab9943fa9e4217fa",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/cf60530b6421074564682bc3311eb52d5ed07799d26a1a4fef0cf79277334556.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/e27c2f52a6fb012b3ee78f104fafcf2bcb4fa1cfff882db1ab9943fa9e4217fa.txt",
+          "passage": "A drill bit is a cutting tool used with a drill to remove material and create holes, typically with a circular cross-section. Drill bits are available in various sizes and shapes, designed to produce different types of holes in a wide range of materials. To function, drill bits are usually mounted in a drill, which provides the rotational force needed to cut into the workpiece. The drill will grasp the upper end of a bit called the shank in the chuck.",
+          "passageSha256": "27ce56fcd9264c52e9fcc151b07100849707d96c9308ef56fe7850bb45515e87",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 455
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "27ce56fcd9264c52e9fcc151b07100849707d96c9308ef56fe7850bb45515e87"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-26",
+      "initial": "W",
+      "claim": "Jak se běžně nazývá ruční přenosná radiostanice, kterou lze střídavě vysílat i přijímat?",
+      "answer": "Walkie-talkie",
+      "aliases": [
+        "Vysílačka",
+        "Ruční radiostanice",
+        "Ruční vysílačka",
+        "Walkie talkie",
+        "Walkietalkie"
+      ],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Walkie-talkie",
+          "fetchedAt": "2026-10-30T22:31:38.038944+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "5f4aa98dff1c8a3ac6b4e4aac3a2666a5606f0dd48de13b261638dd6f36754e0",
+          "sourceTextSha256": "868a3b2b4138e08b73acd8a3dddafcbdceaa6fe1035091411e260249abdda3aa",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/5f4aa98dff1c8a3ac6b4e4aac3a2666a5606f0dd48de13b261638dd6f36754e0.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/868a3b2b4138e08b73acd8a3dddafcbdceaa6fe1035091411e260249abdda3aa.txt",
+          "passage": "A walkie-talkie, more formally known as a handheld transceiver or handheld radio, is a hand-held, portable, two-way radio transceiver. Its development during the Second World War has been variously credited to Donald Hings, radio engineer Alfred J. Gross, and to Henryk Magnuski and engineering teams at Motorola. First used for infantry, similar designs were created for field artillery and tank units. After the war, walkie-talkies spread to public safety and eventually commercial and jobsite work.",
+          "passageSha256": "546d094e13430420070b7c8f2cb92fccffab7555152cbcfb649b236b7d61b1ac",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 501
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "546d094e13430420070b7c8f2cb92fccffab7555152cbcfb649b236b7d61b1ac"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-27",
+      "initial": "Z",
+      "claim": "Jaký kovový kolík se dvěma raménky se po prostrčení otvorem zajistí jejich rozehnutím?",
+      "answer": "Závlačka",
+      "aliases": ["Rozštěpená závlačka"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Split_pin",
+          "fetchedAt": "2026-10-30T22:31:38.444047+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "4a87e72faa917c3cf5d843a5580e4f0021d7fff2c67854733a7bc55f6649b9cd",
+          "sourceTextSha256": "57d6c5926482290561207c34d5d68a2a97e49217a6fd3ef59822079ee139f254",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/4a87e72faa917c3cf5d843a5580e4f0021d7fff2c67854733a7bc55f6649b9cd.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/57d6c5926482290561207c34d5d68a2a97e49217a6fd3ef59822079ee139f254.txt",
+          "passage": "A split pin, also known as a cotter pin, or cotter key in the US, is a metal fastener with two tines that are bent during installation, similar to a staple or rivet. Typically made of thick wire with a half-circular cross section, split pins come in multiple sizes and types.",
+          "passageSha256": "dcb57ca4d7732ebdb85e814ad55d844da526867d69273f3371755ffb22197552",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 275
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "dcb57ca4d7732ebdb85e814ad55d844da526867d69273f3371755ffb22197552"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-easy-03-28",
+      "initial": "Ž",
+      "claim": "Jaký elektricky vyhřívaný prvek pomáhá studenému vznětovému motoru nastartovat?",
+      "answer": "Žhavicí svíčka",
+      "aliases": ["Žhavicí kolík"],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Glowplug",
+          "fetchedAt": "2026-10-30T22:31:49.789388+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "3e648c1f145c1a283a07e9f9a1477b50835a2440c700b2c51fefb28de24a4c66",
+          "sourceTextSha256": "6d38518c421cff13316eab5364a7eb4a8383c4fbc370ff5eeb252e116d212c17",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/3e648c1f145c1a283a07e9f9a1477b50835a2440c700b2c51fefb28de24a4c66.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/6d38518c421cff13316eab5364a7eb4a8383c4fbc370ff5eeb252e116d212c17.txt",
+          "passage": "In a diesel engine, a glow plug (also spelled glowplug) is a heating device used to aid starting of the engine in cold weather. This device is a pencil-shaped piece of metal with an electric heating element at the tip.",
+          "passageSha256": "949731c2ccf729676811eaf54e53fea98dbb09dea04ba48e3a5f3c0f915c2f22",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 218
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "949731c2ccf729676811eaf54e53fea98dbb09dea04ba48e3a5f3c0f915c2f22"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    }
+  ],
+  "originalFullLedgerBinding": {
+    "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+    "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+    "bytes": 246712,
+    "role": "actual input read"
+  },
+  "acceptedAuthority": {
+    "substantiveV2Review": {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/v2/REPORT.md",
+      "sha256": "4c8a82cc22f422e99a3fbf54d1654d635e2836c2ba9ca140ae8438e0078368ea",
+      "bytes": 11138,
+      "role": "actual input read"
+    },
+    "metadataV3Review": {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/v3/REPORT.md",
+      "sha256": "f5e4b9fd6749f40d65acb230568cfbe3e095fe652a67e0549ce87e318413e67a",
+      "bytes": 4309,
+      "role": "actual input read"
+    },
+    "metadataV3ReviewSeal": {
+      "path": ".artifacts/continuation/bundles/reviews/p12/science/b02-v1/v3/seal.json",
+      "sha256": "3372d30a6766f3399d46c09af4fcdbc666b61b3e3353fc65b76576d845c8c375",
+      "bytes": 1514,
+      "role": "actual input read"
+    },
+    "actualV3Mapping": {
+      "path": ".artifacts/continuation/bundles/p12/science/batches/b02-v3/future-R3-mapping.json",
+      "sha256": "bb30c4555b00bb29e3e7d1a284bafb71fe798baae9603d07bed98a72865de9a4",
+      "bytes": 1268,
+      "role": "actual input read"
+    }
+  },
+  "note": "Original historical reviewStatus and baseline are preserved metadata, not current clearance. Complete accepted enrichment and receipts are in FULL-SOURCE-EVIDENCE-PROJECTION.json.",
+  "initialAccepted": 28,
+  "currentIndependent": 0,
+  "releaseCleared": false
+}

@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate162:** accepted ScienceCSEasy03 alone adds28
+to actual delivered `1d1fdf7b` (161/4,508), yielding162/4,536, English85/Czech77.
+All28 initial/current/adult decisions are independently accepted. The narrow
+two-root Czech05 retirement overlay is active with original/replacement evidence
+retained and replacement facts unaccepted. Previous161 packs/order/application
+inputs remain immutable. Actual-parent release review, complete-corpus content
+gate, separate push/private catalog/assets verification precede delivery.
+Final330/9,240/all66 and final cleanup are NOT CLEARED.
+
 **Current runtime-data candidate161, 2026-11-03:** GeneralCSEasy05 alone adds28
 to actual delivered `aa85d3bf` (160/4,480), yielding161/4,508, English85/Czech76.
 All28 initial/current content and original adult judgments independently
