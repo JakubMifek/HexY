@@ -2,6 +2,21 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only runtime candidate contains **161 decks / 4,508 questions**,
+English85/Czech76. Only `general-cs-easy-05` is added to actual delivered
+`aa85d3bf1fd9319f8dfe3869cb839c59989cbcf9` (160/4,480).
+All160 old pack bytes/order and application inputs are immutable.
+Its [complete source ledger](phase-12-general-cs-easy-05-sources.json) and
+[independent content review](../reviews/phase-12-general-cs-easy-05-content-review.md)
+retain all28 accepted questions/full evidence/aliases/whole Easy28-common
+adult judgment and actual current semantic decisions, including the specific
+Bota/Sports Shoe bilingual companion. Historical author labels are not rewritten.
+Actual-parent integration review, the central complete-corpus content gate,
+individual push and private hashed-catalog/whole28/unchanged-asset checks remain
+separate gates. Final330/9,240/all66, final review and cleanup remain OPEN.
+
+## Retained160 preparation history
+
 The append-only runtime candidate contains **160 decks / 4,480 questions**:
 English85/Czech75, adding only `geography-en-easy-04` to actual delivered
 `e77d966f0a642c958e1837f2f7d3b1fce39f7d5d` (159/4,452).

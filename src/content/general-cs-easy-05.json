@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-easy-05",
+  "title": "Všeobecné znalosti · Lehká · 05",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-easy-05-01",
+      "text": "Jak se nazývá zvláštní zádržné sedadlo, ve kterém se při jízdě autem přepravuje malé dítě?",
+      "initial": "A",
+      "answer": "Autosedačka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Dětská autosedačka", "Dětská sedačka"],
+      "sources": ["https://en.wikipedia.org/wiki/Child_safety_seat"]
+    },
+    {
+      "id": "general-cs-easy-05-02",
+      "text": "Jak se nazývá základní kus obuvi, který kryje a chrání chodidlo?",
+      "initial": "B",
+      "answer": "Bota",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Shoe"]
+    },
+    {
+      "id": "general-cs-easy-05-03",
+      "text": "Jak se nazývá plocha s nápisem nebo obrázkem, která něco oznamuje či označuje?",
+      "initial": "C",
+      "answer": "Cedule",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Tabule", "Informační tabule"],
+      "sources": ["https://en.wikipedia.org/wiki/Sign"]
+    },
+    {
+      "id": "general-cs-easy-05-04",
+      "text": "Jak se nazývá nádoba s víkem, uchem a hubičkou používaná k louhování a nalévání čaje?",
+      "initial": "Č",
+      "answer": "Čajník",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Čajová konvice", "Konvice na čaj"],
+      "sources": ["https://en.wikipedia.org/wiki/Teapot"]
+    },
+    {
+      "id": "general-cs-easy-05-05",
+      "text": "Jak se nazývá nádoba s uchem a výlevkou určená například k nalévání vody?",
+      "initial": "D",
+      "answer": "Džbán",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Džbánek"],
+      "sources": ["https://en.wikipedia.org/wiki/Pitcher_(container)"]
+    },
+    {
+      "id": "general-cs-easy-05-06",
+      "text": "Jak se nazývá malá silná káva připravená protlačením horké vody pod tlakem přes jemně mletou kávu?",
+      "initial": "E",
+      "answer": "Espresso",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Espreso"],
+      "sources": ["https://en.wikipedia.org/wiki/Espresso"]
+    },
+    {
+      "id": "general-cs-easy-05-07",
+      "text": "Jak se běžně říká psací a kreslicí pomůcce s hrotem z plsti či porézního vlákna napuštěného inkoustem?",
+      "initial": "F",
+      "answer": "Fix",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Fixka", "Fixový popisovač", "Popisovač"],
+      "sources": ["https://en.wikipedia.org/wiki/Marker_pen"]
+    },
+    {
+      "id": "general-cs-easy-05-08",
+      "text": "Jak se nazývá jídlo maďarského původu z masa a papriky, v české kuchyni obvykle podávané jako hustý masový pokrm?",
+      "initial": "G",
+      "answer": "Guláš",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Goulash"]
+    },
+    {
+      "id": "general-cs-easy-05-09",
+      "text": "Jak se nazývá zavěšené sedátko, na kterém se děti pohybují dopředu a dozadu?",
+      "initial": "H",
+      "answer": "Houpačka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Dětská houpačka"],
+      "sources": ["https://en.wikipedia.org/wiki/Swing_(seat)"]
+    },
+    {
+      "id": "general-cs-easy-05-10",
+      "text": "Jak se nazývá úzký vnitřní prostor budovy, který propojuje jednotlivé místnosti?",
+      "initial": "Ch",
+      "answer": "Chodba",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Koridor"],
+      "sources": ["https://en.wikipedia.org/wiki/Hallway"]
+    },
+    {
+      "id": "general-cs-easy-05-11",
+      "text": "Jak se nazývá klíč s pravidelným šestihranným průřezem používaný pro šrouby s vnitřním šestihranem?",
+      "initial": "I",
+      "answer": "Inbus",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Imbus",
+        "Inbusový klíč",
+        "Imbusový klíč",
+        "Allenův klíč",
+        "Šestihranný klíč"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Hex_key"]
+    },
+    {
+      "id": "general-cs-easy-05-12",
+      "text": "Jaká tenká pomůcka s ouškem protahuje při ručním šití nit látkou?",
+      "initial": "J",
+      "answer": "Jehla",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Šicí jehla"],
+      "sources": ["https://en.wikipedia.org/wiki/Sewing_needle"]
+    },
+    {
+      "id": "general-cs-easy-05-13",
+      "text": "Jak se nazývá otevřená nádoba s držadlem, ve které se nosí například voda při úklidu?",
+      "initial": "K",
+      "answer": "Kbelík",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Vědro", "Kýbl"],
+      "sources": ["https://en.wikipedia.org/wiki/Bucket"]
+    },
+    {
+      "id": "general-cs-easy-05-14",
+      "text": "Jak se nazývá sladký nealkoholický nápoj, jehož citronová varianta se připravuje z citronové šťávy, vody a cukru?",
+      "initial": "L",
+      "answer": "Limonáda",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Citronáda", "Citronová limonáda"],
+      "sources": ["https://en.wikipedia.org/wiki/Lemonade"]
+    },
+    {
+      "id": "general-cs-easy-05-15",
+      "text": "Jak se nazývá ruční kuchyňský nástroj, který otáčením mechanismu drtí například zrnka pepře?",
+      "initial": "M",
+      "answer": "Mlýnek",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Mlýnek na pepř", "Ruční mlýnek", "Pepřový mlýnek"],
+      "sources": ["https://en.wikipedia.org/wiki/Burr_mill"]
+    },
+    {
+      "id": "general-cs-easy-05-16",
+      "text": "Jak se nazývá šperk nošený kolem krku, například v podobě řetízku nebo řady korálků?",
+      "initial": "N",
+      "answer": "Náhrdelník",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Necklace"]
+    },
+    {
+      "id": "general-cs-easy-05-17",
+      "text": "Jak se nazývá pruh kůže či jiného materiálu zapínaný kolem pasu, například k přidržení kalhot?",
+      "initial": "O",
+      "answer": "Opasek",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Pásek"],
+      "sources": ["https://en.wikipedia.org/wiki/Belt_(clothing)"]
+    },
+    {
+      "id": "general-cs-easy-05-18",
+      "text": "Jak se nazývá měkká vyplněná podložka, na níž při spánku spočívá hlava?",
+      "initial": "P",
+      "answer": "Polštář",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Podhlavník"],
+      "sources": ["https://en.wikipedia.org/wiki/Pillow"]
+    },
+    {
+      "id": "general-cs-easy-05-19",
+      "text": "Jak se nazývá podložka u vchodu, o kterou si před vstupem očistíme boty?",
+      "initial": "R",
+      "answer": "Rohožka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Vstupní rohožka"],
+      "sources": ["https://en.wikipedia.org/wiki/Mat"]
+    },
+    {
+      "id": "general-cs-easy-05-20",
+      "text": "Jak se nazývá obchod specializující se na prodej masa a masných výrobků?",
+      "initial": "Ř",
+      "answer": "Řeznictví",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Masna", "Řeznický obchod"],
+      "sources": ["https://en.wikipedia.org/wiki/Butcher"]
+    },
+    {
+      "id": "general-cs-easy-05-21",
+      "text": "Jak se nazývá stojánek nebo držák, do něhož se upevňuje svíčka?",
+      "initial": "S",
+      "answer": "Svícen",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Držák na svíčku"],
+      "sources": ["https://en.wikipedia.org/wiki/Candlestick"]
+    },
+    {
+      "id": "general-cs-easy-05-22",
+      "text": "Jak se nazývá tenký kovový předmět s hrotem, kterým si při šití dočasně přichytíme látku?",
+      "initial": "Š",
+      "answer": "Špendlík",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Krejčovský špendlík"],
+      "sources": ["https://en.wikipedia.org/wiki/Pin"]
+    },
+    {
+      "id": "general-cs-easy-05-23",
+      "text": "Jak se nazývá šňůrka provlečená očky boty, jejímž zavázáním si botu upevníme na noze?",
+      "initial": "T",
+      "answer": "Tkanička",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Tkanička do bot", "Šněrovadlo", "Tkanice"],
+      "sources": ["https://en.wikipedia.org/wiki/Shoelaces"]
+    },
+    {
+      "id": "general-cs-easy-05-24",
+      "text": "Jak se nazývá kus savé textilie používaný v kuchyni k osušení umytého nádobí?",
+      "initial": "U",
+      "answer": "Utěrka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Kuchyňská utěrka"],
+      "sources": ["https://en.wikipedia.org/wiki/Dishcloth"]
+    },
+    {
+      "id": "general-cs-easy-05-25",
+      "text": "Jak se nazývá stojan nebo soustava háčků, na něž po příchodu pověsíme kabát?",
+      "initial": "V",
+      "answer": "Věšák",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Stojanový věšák", "Věšák na kabáty"],
+      "sources": ["https://en.wikipedia.org/wiki/Hatstand"]
+    },
+    {
+      "id": "general-cs-easy-05-26",
+      "text": "Jakou běžnou dvoupísmennou zkratkou se na dveřích označuje toaleta?",
+      "initial": "W",
+      "answer": "WC",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["W.C.", "Water closet"],
+      "sources": ["https://en.wikipedia.org/wiki/Flush_toilet"]
+    },
+    {
+      "id": "general-cs-easy-05-27",
+      "text": "Jaký čisticí prostředek naneseme na kartáček před čištěním zubů?",
+      "initial": "Z",
+      "answer": "Zubní pasta",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Pasta na zuby"],
+      "sources": ["https://en.wikipedia.org/wiki/Toothpaste"]
+    },
+    {
+      "id": "general-cs-easy-05-28",
+      "text": "Jak se nazývá ochucená hmota určená k opakovanému žvýkání, nikoli k polykání?",
+      "initial": "Ž",
+      "answer": "Žvýkačka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Žvýkací guma"],
+      "sources": ["https://en.wikipedia.org/wiki/Chewing_gum"]
+    }
+  ]
+}

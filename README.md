@@ -25,6 +25,19 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The append-only runtime candidate contains **161 decks / 4,508 questions**,
+English85/Czech76. Only independently content-accepted `general-cs-easy-05`
+is added to actual delivered `aa85d3bf` (160/4,480), with all previous pack
+bytes/order and application inputs unchanged. Its complete
+[source ledger](docs/phase-12-general-cs-easy-05-sources.json) and
+[review](reviews/phase-12-general-cs-easy-05-content-review.md) preserve full
+facts/evidence/aliases/adult and current specific semantic judgments.
+Actual-parent release review and content-only validation precede its separate
+push/private whole-catalog verification, without an application build/restart.
+Final330/9,240/all66 and final cleanup remain OPEN.
+
+## Retained160 preparation history
+
 The append-only runtime candidate contains **160 decks / 4,480 questions**,
 English85/Czech75. Only `geography-en-easy-04` is added to actual delivered
 `e77d966f0a642c958e1837f2f7d3b1fce39f7d5d` (159/4,452).

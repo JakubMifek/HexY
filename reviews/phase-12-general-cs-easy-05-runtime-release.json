@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "scope": "Exact frozen nine-input GeneralCSEasy05 append-only actual-parent161 candidate; data/docs integration only",
+  "reviewerTaskId": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "publisherSessionId": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "actualParent": "aa85d3bf1fd9319f8dfe3869cb839c59989cbcf9",
+  "candidateCheckout": ".artifacts/continuation/fresh38-release-161-worktree",
+  "deckId": "general-cs-easy-05",
+  "entries": 28,
+  "initialAcceptedInherited": 28,
+  "currentAcceptedInherited": 28,
+  "held": 0,
+  "packSha256": "81ec682c8c724ba1da8f5b806748675ddfeee4e061ed893c5bf04a4f08af4b81",
+  "completeAuthorLedgerRawSha256": "0f49c7cd28336bfbe927f1ff1ba418eddfeca88f3d9552275d7868832b39ccde",
+  "completeIntegratedLedgerRawSha256": "f314bcf1bef3572f8e70c54b0d6af97e3f9e5c6c6965eda90e08eae4867ad0b1",
+  "completeLedgerJSONValueSha256": "e5295ffa75110a218ddcd1212a5f2832e943f7824ed55f3f107d2dc82b1b646f",
+  "formattingOnlyWholeLedgerAndCurrentEntryDecisionValuesExactlyEqual": true,
+  "reportPath": ".artifacts/continuation/fresh38-review-161/REPORT.md",
+  "reportSha256": "154795bdfe666c3c86c693ee330bb32203cf6bede7edac7bd00f4152a776c4af",
+  "freezePath": ".artifacts/continuation/fresh38-review-161/FROZEN-SHA256SUMS",
+  "freezeSha256": "fb5dc0929544fff38ccfa8ae8afd6dd483d23a18967b2688d7d0d2435b874870",
+  "candidateDiffSha256": "29fb72cf022ce23dbd3294c245f1b7e9c9f74413243b57eddff9cd335064273a",
+  "frozenSourceBindings": {
+    ".artifacts/continuation/fresh38-release-161-worktree/src/content/general-cs-easy-05.json": "81ec682c8c724ba1da8f5b806748675ddfeee4e061ed893c5bf04a4f08af4b81",
+    ".artifacts/continuation/fresh38-release-161-worktree/src/content-order.json": "6ccca860a4c01eae92e4b0f3563be2e0aef12bc56b274ff01208c9c5ebcb28e1",
+    ".artifacts/continuation/fresh38-release-161-worktree/docs/phase-12-general-cs-easy-05-sources.json": "f314bcf1bef3572f8e70c54b0d6af97e3f9e5c6c6965eda90e08eae4867ad0b1",
+    ".artifacts/continuation/fresh38-release-161-worktree/docs/phase-12-deck-inventory.json": "1ad6494c98552b92a766adb80e0121c0d2458ff6f987bccc1370361b52e437e2",
+    ".artifacts/continuation/fresh38-release-161-worktree/docs/content-inventory.md": "a71492e576cae4a8698736094e1db7c36d4e980e72d9bd2f10c78adf9ed0031c",
+    ".artifacts/continuation/fresh38-release-161-worktree/README.md": "0427eef84f09033f94d849db7948944b1f04f2cd05e05931193314cb9d960129",
+    ".artifacts/continuation/fresh38-release-161-worktree/IMPLEMENTATION_PHASES.md": "a7458b82e289538140a149502b7c890a727f011491dec6e5b1b255d77b01a0eb",
+    ".artifacts/continuation/fresh38-release-161-worktree/reviews/phase-12-general-cs-easy-05-content-review.json": "74ce814d3b6596ff66bd9fef7e374a0421e9daa1b31177bc2b38faa1b690ed32",
+    ".artifacts/continuation/fresh38-release-161-worktree/reviews/phase-12-general-cs-easy-05-content-review.md": "a55bb42f398faf31d0543b5df3fdbaeac3f3bb1b98eadd63e3ba47251221cb8c"
+  },
+  "authorityBindings": {
+    ".artifacts/continuation/fresh38-review-next/general-cs-easy-05/SEAL.json": "7f2046c132f0564cea2efc9b1ee951051f6ad408938a1c18230c43b840a83519",
+    ".artifacts/continuation/fresh38-review-next/general-cs-easy-05/REPORT.md": "a55bb42f398faf31d0543b5df3fdbaeac3f3bb1b98eadd63e3ba47251221cb8c",
+    ".artifacts/continuation/fresh38-review-next/general-cs-easy-05/ENTRY-DECISIONS.json": "ce4315bcc6920e714533337e55e80fa0e10df3c27a0f5d7fdae4293d3bfde7b6",
+    ".artifacts/continuation/fresh38-authors/general-cs-easy-05/HANDOFF.json": "041d99d888f72bf1df8a8a634ed387b2dddd4f6dc5e9a70363bde9dbbec2074f",
+    ".artifacts/continuation/fresh38-authors/general-cs-easy-05/SOURCE-LEDGER.json": "0f49c7cd28336bfbe927f1ff1ba418eddfeca88f3d9552275d7868832b39ccde",
+    ".artifacts/continuation/fresh38-review-next/BUNDLE-SEAL.json": "cd70d56ea1c328553f08e712fcd4d81def09fc317584f6dfa5ac72bdc13df8ad",
+    ".artifacts/continuation/fresh38-review-next/BUNDLE-DECISIONS.json": "0e4a9a178ff5fb62620c1559d2f04acecc6edfedc24808d10ac196fb1609c2cd",
+    ".artifacts/continuation/fresh38-deck160-actual-delivery.json": "e0ce48357f8906779eb3055338d9138e7fd251ae45f6ef6428758a5869d9163a",
+    ".artifacts/continuation/runtime-content-delivery.json": "9f782128bc582d6b76d80b1080bcdf51b41dac151a7fd9d4df6379986f0e2144",
+    ".artifacts/continuation/fresh38-release-160-worktree/reviews/runtime-catalog-migration.json": "d5079ee627e5ac4a00dd90fcec3604d694f87605a1c45589f1fc438305efec9f"
+  },
+  "inheritedContentScope": "Exact sealed28 full questions, entire source/evidence, legitimate aliases, original Easy28-common individual/whole adult and current semantic judgments; no re-review or acceptance of other decks",
+  "meaningfulDeltaAssessment": "No new substantive General-affecting proposal; all8 authors stopped. Science's two original-root retirement overlay is a later Science integration matter, not a General source/alias/priority delta or blocker. Next112 remains unreviewed.",
+  "sixLenses": {
+    "behavior": "Exact accepted28 and160 previous raw packs/order; complete JSON values unchanged",
+    "design": "One append-only native data pack; unchanged runtime catalog application",
+    "maintainability": "Complete source/current decision authority, bounded docs and actual-parent bindings",
+    "quality": "Fresh exact-boundary/count/quota/source-copy checks; initial/current factual acceptance inherited only for unchanged exact scope",
+    "accessibilityLocalization": "Native wording/initials/finite names and general-adult calibration unchanged",
+    "securityPrivacy": "No executable/dependency/imported-HTML change or publisher/shared writes"
+  },
+  "verificationPath": ".artifacts/continuation/fresh38-review-161/VERIFICATION.json",
+  "verificationSha256": "d1147098914dbd06fe66b8acac990c98f7d90486c7c968db7d3c54ca5b7be1bf",
+  "inputBindingsSha256": "8c314d57c13ec66bd38774668b800cfeed26b842b118372df43a41aca932d430",
+  "applicationBoundary": {
+    "baselineComparableFiles": 598,
+    "candidateComparableFiles": 602,
+    "added": [
+      "docs/phase-12-general-cs-easy-05-sources.json",
+      "reviews/phase-12-general-cs-easy-05-content-review.json",
+      "reviews/phase-12-general-cs-easy-05-content-review.md",
+      "src/content/general-cs-easy-05.json"
+    ],
+    "changed": [
+      "IMPLEMENTATION_PHASES.md",
+      "README.md",
+      "docs/content-inventory.md",
+      "docs/phase-12-deck-inventory.json",
+      "src/content-order.json"
+    ],
+    "deleted": [],
+    "unchangedComparableFiles": 593,
+    "allExistingPermissionBitsPreserved": true,
+    "baselineScopeSha256": "4adc93b5e861a5c269969c894e650f4040e471e71f5ae614a0fb83dca8666ed3",
+    "candidateScopeSha256": "aa0025ff7b2ec5e9c842be209ec9e7180b5e3bcdcbc441151495e495e57e456a",
+    "ignoredGeneratedCatalogDifference": "Reference public/catalog.json absent in candidate; exact unchanged .gitignore explicitly excludes this generated output, not an application-input deletion.",
+    "executableApplicationToolTestDependencyConfigurationChanges": []
+  },
+  "previousPacksPreserved": 160,
+  "candidateCounts": {
+    "decks": 161,
+    "questions": 4508,
+    "en": 85,
+    "cs": 76,
+    "combinationsPresent": 66
+  },
+  "inheritedApplicationGateRevision": "c7cdaafb1969017728d00e35ceb2f6a731a700cf",
+  "unchangedActuallyReferencedAssets": {
+    "/hexy/assets/index-Ck_9oRvP.js": "2bf488f03685b99bf40d1bf295883e131bf2162066c51f6273398eb7a4497717",
+    "/hexy/assets/index-DPcmLzC0.css": "dfcaaf71a4cc9429d3f38589e9e3a747d1532af9c692372b1e3d21d535d9af89"
+  },
+  "remainingPublisherGates": [
+    "Mechanically copy only this exact standalone review receipt into reviews and rehash final candidate; no substantive changes",
+    "Separate central npm run release:content -- aa85d3bf1fd9319f8dfe3869cb839c59989cbcf9",
+    "Individual161 push/atomic promotion and actual full161 catalog/object/order plus unchanged referenced JS/CSS verification"
+  ],
+  "unresolvedFindings": [],
+  "centralContentGateExecuted": false,
+  "actuallyPublishedOrDelivered": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "limitations": [
+    "All source-quality and bounded provenance limits of exact accepted content report retained",
+    "Ignored generated catalog is not treated as a tracked source deletion",
+    "Actual160 delivery inherited from bound receipt; no new live remote/private fetch claimed",
+    "No full application/compiler/coverage/browser/build/test/runner/services/Git commands or subagents used",
+    "Final330/9240/all66 completion and cleanup remain open"
+  ]
+}

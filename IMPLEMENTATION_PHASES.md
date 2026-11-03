@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate161, 2026-11-03:** GeneralCSEasy05 alone adds28
+to actual delivered `aa85d3bf` (160/4,480), yielding161/4,508, English85/Czech76.
+All28 initial/current content and original adult judgments independently
+accepted in the first112 review; source ledger/individual decisions retained.
+Actual-parent integration acceptance, central `release:content`, individual
+push and actual private catalog/whole28/unchanged JS-CSS checks remain separate.
+No executable/test/tool delta or full application gate. Final330/9,240/all66
+and final cleanup are NOT CLEARED.
+
 **Current runtime-data candidate, 2026-11-03:** GeographyENEasy04 adds one
 accepted28-question deck to actual delivered `e77d966f` (159/4,452),
 yielding160/4,480, English85/Czech75. Previous159 packs/order and application

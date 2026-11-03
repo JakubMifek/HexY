@@ -1,0 +1,1281 @@
+{
+  "reviewer": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "actualDeliveredParent": "aa85d3bf1fd9319f8dfe3869cb839c59989cbcf9",
+  "deckId": "general-cs-easy-05",
+  "verdict": "CONTENT ACCEPTED; READY FOR ACTUAL-PARENT INTEGRATION REVIEW",
+  "initialAccepted": 28,
+  "initialHeld": 0,
+  "currentAccepted": 28,
+  "currentHeld": 0,
+  "entries": [
+    {
+      "id": "general-cs-easy-05-01",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-01",
+        "text": "Jak se nazývá zvláštní zádržné sedadlo, ve kterém se při jízdě autem přepravuje malé dítě?",
+        "initial": "A",
+        "answer": "Autosedačka",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Dětská autosedačka", "Dětská sedačka"],
+        "sources": ["https://en.wikipedia.org/wiki/Child_safety_seat"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-01",
+        "questionSha256": "ac280d38301a9a7507f0eb9ba06af24f27bf2b84f9cd188f85b4a2ef9634834e",
+        "entireSourceEntrySha256": "6495cbd08d66e72b07471109e0305f90e046caf76f8c94d1f5bacb1af6e1a893",
+        "entireSupportingEvidenceArraySha256": "fc57bd3d6d24b584aa365bb8ab28d12ca7c595f308d731896cfec737a8f7faec",
+        "aliasesSha256": "320d99041cfa0d406138a6a86476ce2391147b555b1274a88258978f410792bc",
+        "individualAdultRatingSha256": "799c4a47c142f755406e16255f5068f8bc951a3d107c07d96f4a2ca0698c53e9",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/0",
+          "objectSha256": "47cd44932bdbbe07dba074fc757e04784ae279c1115d12b9b16bceb300e72b2c"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/0",
+          "objectSha256": "9470d83b33fa19db8f24f84524675bb3d70bbc1ae7b1449bf00d17cd0ef08083"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A child-specific rigid restraint seat is not a rapidly inflatable collision cushion; shared protection function does not identify the same object.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-02",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-02",
+        "text": "Jak se nazývá základní kus obuvi, který kryje a chrání chodidlo?",
+        "initial": "B",
+        "answer": "Bota",
+        "language": "cs",
+        "category": "general",
+        "aliases": [],
+        "sources": ["https://en.wikipedia.org/wiki/Shoe"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-02",
+        "questionSha256": "b2aa7993c510c20df7f8bded1c5ad5ba971bdb5329e5a301d6aa0e0adb75a078",
+        "entireSourceEntrySha256": "1ed30259b7fef6c569ed90db64827fdee1623d80c6263295b85b2e395eee09df",
+        "entireSupportingEvidenceArraySha256": "3698f105cb18410f77e59ed3b55e4780a0010011cd555da35c25d7b485574efd",
+        "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "individualAdultRatingSha256": "ab541c98a390617078719c2c9a73d9bfb1e904be82f6bc3e92d63e8cd66fa977",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/1",
+          "objectSha256": "7c878bb856a369229b1e9128cf9ca32bfa6ba60d525b001b38044c1000ec7482"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/1",
+          "objectSha256": "4acf4ed0590864843ab1b6223be41ce4e48db87daa290dcaf3c56564b6bf0d2c"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Generic protective footwear differs from a waterproof high boot, cleated football shoe, bladed ice skate, fastening cord, lace tip, welt strip, mat or worn sock. The actual broad Sports Shoes/Shoe wording is explicitly accepted as the specific bilingual same-object case, not falsely restricted to a subtype.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-03",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-03",
+        "text": "Jak se nazývá plocha s nápisem nebo obrázkem, která něco oznamuje či označuje?",
+        "initial": "C",
+        "answer": "Cedule",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Tabule", "Informační tabule"],
+        "sources": ["https://en.wikipedia.org/wiki/Sign"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-03",
+        "questionSha256": "ac59e0bc5d832c4f9bdb5a67e583725ed0062641c725d86eaaa752a680f9a536",
+        "entireSourceEntrySha256": "393ac4812811fedbd75d012d6eeafb4fd89a57e0a5686ffa3edc032a7e4c52d7",
+        "entireSupportingEvidenceArraySha256": "f4c934d997fbd66c421441d8bb4af1de778fba40008d61c22b4c72a72947976f",
+        "aliasesSha256": "b78481685ed86ffcd5edcc1c24a50bcfc0bc3b2f57d957bd28a7dadb6478326f",
+        "individualAdultRatingSha256": "a31aae80ee0b95d0588daa8fae59e486a13df9753792df0d5fdb34db4df059ea",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/2",
+          "objectSha256": "be67e7392575df9be89659744ab7efa27a9c30ff908a5b0955718fd402aa8687"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/2",
+          "objectSha256": "82e869dddac5a1d4e395578a4f43718708fff130559c832e32ed0986f832124b"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A physical announcing/identifying sign is not a row-column data table, name badge or campaign-specific yard sign. Broad/specific sign relationships retain their actual different requested functions and all aliases.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-04",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-04",
+        "text": "Jak se nazývá nádoba s víkem, uchem a hubičkou používaná k louhování a nalévání čaje?",
+        "initial": "Č",
+        "answer": "Čajník",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Čajová konvice", "Konvice na čaj"],
+        "sources": ["https://en.wikipedia.org/wiki/Teapot"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-04",
+        "questionSha256": "006ab596746512b5c435f1effa1d77e5dd847920d69e5c8affa893eeee77d57a",
+        "entireSourceEntrySha256": "f8bb3cb3937e46fae399f1e946fb209531e11613eef92872b25ccf5a5c03ac50",
+        "entireSupportingEvidenceArraySha256": "e2181136368ecc2150de806ce4c3f633c72cab945c92eae5b5227f1744155c23",
+        "aliasesSha256": "3ae80c55f762efd08086e021feaf7812deac6ff30984e015a2d46a9df3e9ed2b",
+        "individualAdultRatingSha256": "92db9bab9fd6fbf5865c0a8c317d09b843afa875b0042fec7505a7354a4eee2e",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/3",
+          "objectSha256": "3c747fcf61b45e8a16023495fb948faab16b29d1ec0d64c81c995a01d4d920ff"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/3",
+          "objectSha256": "5b87bbfe7b16defde8767f76e49e37ddcfef01744c184a9da6cb3c8179adfb7e"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The vessel steeps and serves tea; a kettle boils water. Actual Teapot/Tea pot is a specific bilingual same-object companion. A tea-steeping pot is not a liquid-carrying bucket or an unqualified pouring jug.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-05",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-05",
+        "text": "Jak se nazývá nádoba s uchem a výlevkou určená například k nalévání vody?",
+        "initial": "D",
+        "answer": "Džbán",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Džbánek"],
+        "sources": ["https://en.wikipedia.org/wiki/Pitcher_(container)"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-05",
+        "questionSha256": "9290bd2aa16186e2a5dd76cd8f01d95a6699fdd98233fd7c894937afc507b720",
+        "entireSourceEntrySha256": "fe7ab6f6d6cd8883106e39957373f18f576c1370f31dcbea2ce51f3e210f2883",
+        "entireSupportingEvidenceArraySha256": "f0ddb86b694e86a971ea9adb2b73247ec4636d4fb4ed46f16e41bd1732848e76",
+        "aliasesSha256": "ef3e1586093f12530eede6d2b726dc77be4a46cc434ba32b84bc67031d218193",
+        "individualAdultRatingSha256": "8e03adca1dba4d65f987e53d986bc8f8adc911b97b7a348900a30036c28dd042",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/4",
+          "objectSha256": "dd2727ce09bd4164af179b0cf1de9752a5a5e11efa0b70116ba3d201ebf74cd7"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/4",
+          "objectSha256": "07db97c2920f7a4f7a94cf2e09f75056e2991c9ab04bc7166328b7b4b946a05a"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A handled, spouted pouring jug differs from the open carrying bucket and the lidded steeping teapot.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-06",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-06",
+        "text": "Jak se nazývá malá silná káva připravená protlačením horké vody pod tlakem přes jemně mletou kávu?",
+        "initial": "E",
+        "answer": "Espresso",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Espreso"],
+        "sources": ["https://en.wikipedia.org/wiki/Espresso"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-06",
+        "questionSha256": "08c3d32871c8c0ea97a71c26959ea740546111276a0a70cbe372cec6038d0317",
+        "entireSourceEntrySha256": "682fe060a077211ba81d1ad4706af05f0bfe294f5cea513182a73f19902caa79",
+        "entireSupportingEvidenceArraySha256": "866819626f4ecf7cd2f87e1ead4736f180f53f7a915ed3e74bd1e104e67aed93",
+        "aliasesSha256": "19cd58c85a51197e78eed12e0b107532fd9a15769dd255fa7994fcfb567300d3",
+        "individualAdultRatingSha256": "ec8b30903e42a0c5cf9925a69a51584dd06553c5b38a8dc0c742e5b5593e739c",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/5",
+          "objectSha256": "f488a0df2b6b2a1bff40aff6401feaa09a6b30c591d567a483f7d1c00dfb79d9"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/5",
+          "objectSha256": "11c3ccf40263b1b36f9a1e9ebf3436ad224134541ee792e1fb7056594d71228b"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Both actual Espresso predicates define pressure extraction through finely ground coffee; accept this specific E/E bilingual same-process companion, not a fictional different fact.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-07",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-07",
+        "text": "Jak se běžně říká psací a kreslicí pomůcce s hrotem z plsti či porézního vlákna napuštěného inkoustem?",
+        "initial": "F",
+        "answer": "Fix",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Fixka", "Fixový popisovač", "Popisovač"],
+        "sources": ["https://en.wikipedia.org/wiki/Marker_pen"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-07",
+        "questionSha256": "2c02c1261c63251f31e38b3aab4534c6b12e25bbe7f1615ba18df29eec7202d7",
+        "entireSourceEntrySha256": "7d5afeee0580fc8a06a69c1dfb7be195bcd97f8b4bad85bb989f187a889eee1f",
+        "entireSupportingEvidenceArraySha256": "1d3122d6529e50d56293678577b3067dad70c2b63eee548e43bef77fd09ec5e5",
+        "aliasesSha256": "4170653dd079f482439119afdb5fbaa8d028ef71e72bad54f57393c09d3e42ce",
+        "individualAdultRatingSha256": "0a53b82ff85a4e4f44894ec55d9908f635605774e19929499bc4b361a55573e2",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/6",
+          "objectSha256": "5ff156c28ad8880f9201a50207e2600214d5253206f2024e4e548228aa927df9"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/6",
+          "objectSha256": "c630cf43a4506a97ceb413f49bbf3065091726e5b502769fdc35341e551c4a88"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "An ink-fed felt/porous-tip writing implement is not a filmmaker named Marker, software repair/release or passport sex-marker symbol.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-08",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-08",
+        "text": "Jak se nazývá jídlo maďarského původu z masa a papriky, v české kuchyni obvykle podávané jako hustý masový pokrm?",
+        "initial": "G",
+        "answer": "Guláš",
+        "language": "cs",
+        "category": "general",
+        "aliases": [],
+        "sources": ["https://en.wikipedia.org/wiki/Goulash"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-08",
+        "questionSha256": "cdd40cd4f33c15f7b2263540b477c917b12878d94d4d1be5710744638a792b9c",
+        "entireSourceEntrySha256": "f824b8487c253f5b51ce5ef92ae513bf6b1f97ce3b435c061368982d83e074a3",
+        "entireSupportingEvidenceArraySha256": "af7026ce0245db292b5ee8196ce9c2f049f1bf08225e98a018a761da88dae89d",
+        "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "individualAdultRatingSha256": "84640d7aa360efe08490bebd26d2b21c9005c0fc88830e6d952090ee9f6fa6ca",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/7",
+          "objectSha256": "2c7dfdd674c4ad2162727d8fab81b3a745e4f1598af9731faad7bc5279846104"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/7",
+          "objectSha256": "a10b469175f97c6816cf040b31665c94a23a4bc7d51a81812b5e8d951f75e3c1"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The specified Hungarian-origin meat-and-paprika dish remains a food, not another requested household object or a paprika ingredient.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-09",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-09",
+        "text": "Jak se nazývá zavěšené sedátko, na kterém se děti pohybují dopředu a dozadu?",
+        "initial": "H",
+        "answer": "Houpačka",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Dětská houpačka"],
+        "sources": ["https://en.wikipedia.org/wiki/Swing_(seat)"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-09",
+        "questionSha256": "798da5566ce63aa73c4273cca00556bc2160b628f3cac1624457561ccdd232ef",
+        "entireSourceEntrySha256": "d7f137df750efc60f2a9be0b2b6cfb2d833eaae5c23da2ecd0bd316978d941c1",
+        "entireSupportingEvidenceArraySha256": "5b8e127f75d31ad9e3ddac004850bf1180209da4e943161f94cc11179a188e09",
+        "aliasesSha256": "f4fe9ff0037cc9a572815d763e282ebbe52598787b63618cc548f19534648469",
+        "individualAdultRatingSha256": "fac059c708d33583fbeac313a0461a752de93c3a6873e6278e73a8a489088c6a",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/8",
+          "objectSha256": "128f868037f3b2e29155150a51557018065d19e9f6b5f71a8a080599e8f991b7"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/8",
+          "objectSha256": "4541879dee8f9c261086017a7bea00c6e3631856d93ab82f13acd790c441bf07"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A suspended swinging seat is not a suspended sleeping bed, an experimental pendulum, an election state or a musical style.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-10",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-10",
+        "text": "Jak se nazývá úzký vnitřní prostor budovy, který propojuje jednotlivé místnosti?",
+        "initial": "Ch",
+        "answer": "Chodba",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Koridor"],
+        "sources": ["https://en.wikipedia.org/wiki/Hallway"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-10",
+        "questionSha256": "625041d4d9ee672e83e9e92b73c9fb093f8bda5525d545f3bb8588dd683063c7",
+        "entireSourceEntrySha256": "b971764a171016f65881928433bdeb736ddca7941e8056e79aa72a107a53900a",
+        "entireSupportingEvidenceArraySha256": "1c4d31a956b2fa04ec8987bccca5c09d835884e9e236a3b07d4f5948404d07af",
+        "aliasesSha256": "c03061a7c5d6d2008d33b9ec968ce6fa88042665bbb5a9fe6b4f2867b1d57cbf",
+        "individualAdultRatingSha256": "8d36ff40a615b9663d67405d1a08e3bd6425dd167a6e54f85dbe9bff67b0d164",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/9",
+          "objectSha256": "723e736520a1728cbf301179a3a10cbafb9559a5603945d5e437cbb51fdcdb53"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/9",
+          "objectSha256": "bdfd9fd1a3f8d38e337e483a59d8821b8da45cd1efd5a555e7dc00e7273f980b"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "An interior passage joining building rooms is not a railway station, transport network, airport facility or a computer/data object.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-11",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-11",
+        "text": "Jak se nazývá klíč s pravidelným šestihranným průřezem používaný pro šrouby s vnitřním šestihranem?",
+        "initial": "I",
+        "answer": "Inbus",
+        "language": "cs",
+        "category": "general",
+        "aliases": [
+          "Imbus",
+          "Inbusový klíč",
+          "Imbusový klíč",
+          "Allenův klíč",
+          "Šestihranný klíč"
+        ],
+        "sources": ["https://en.wikipedia.org/wiki/Hex_key"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-11",
+        "questionSha256": "ad6f39b81a9d0a4bcfdf7bbddcec3b91c8be9b12ef5fe94236d24e91d49a588d",
+        "entireSourceEntrySha256": "a600f8866adb392d16688bd1fa2ca4a8c3a7d0f348e7019adbb8a9110f0d3a93",
+        "entireSupportingEvidenceArraySha256": "1a95ae250aa6caf373d15c76b1c4af683902b387dd4b386294561903427e37f4",
+        "aliasesSha256": "7ad6de7fbdd3e498bc9f5312345b8cd386ed72667aecb82bf36a8fa1d7fa9b41",
+        "individualAdultRatingSha256": "1bd84a39ca9525b483e9060ba3ba59b5fc3149a9001422195e651b88945a24f8",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/10",
+          "objectSha256": "cd2f40f23dd78623edf558478ae8e8f04ad952e8ab6e3f052a6c2d2f015cb2c1"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/10",
+          "objectSha256": "c436fa0ec58ab6578bf398ea4af3cccb262eaba146561dccb8ea6a66c6509f50"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A hexagonal-section torque key for socket-head screws is not a rotating cutting drill, Allen-named person or radiation belt.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-12",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-12",
+        "text": "Jaká tenká pomůcka s ouškem protahuje při ručním šití nit látkou?",
+        "initial": "J",
+        "answer": "Jehla",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Šicí jehla"],
+        "sources": ["https://en.wikipedia.org/wiki/Sewing_needle"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-12",
+        "questionSha256": "ae665f8508d985800c34072730525a1e15f854067ffa774fdb80e0f01a262530",
+        "entireSourceEntrySha256": "8fe0c34356b22b5b751c97d437cc07b18f2ba12d831b44fce51fff598a671f58",
+        "entireSupportingEvidenceArraySha256": "72e74b3f7d5f7c7a0a0c30bce9ea050d8348f331e3d9fdc66e42608852be85d5",
+        "aliasesSha256": "07a7a74488b2bbce7f9d57cd813087824e97899e3a69cbb4b48a364271037385",
+        "individualAdultRatingSha256": "d76110bcc600995e45f72c403564b345fa8f520837dc22641b8d7baeaff4dd31",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/11",
+          "objectSha256": "fbd300f54d59acb8c3a738c39711d693f444fcffba9b912bfaa2fcae0c53257e"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/11",
+          "objectSha256": "1123f8e08179f3bf7ecd92f65ea26cff3b7db20ba59357a43e0119de35ac45b4"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The eye-bearing needle carries thread in hand sewing. A syringe injects fluid, compass indicates north, thimble shields a finger, embroidery/darning are techniques, haberdasher a seller, and raphides plant crystals. Actual sewing Needle is the specific bilingual companion; broad needle-shaped things are not silently equated.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-13",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-13",
+        "text": "Jak se nazývá otevřená nádoba s držadlem, ve které se nosí například voda při úklidu?",
+        "initial": "K",
+        "answer": "Kbelík",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Vědro", "Kýbl"],
+        "sources": ["https://en.wikipedia.org/wiki/Bucket"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-13",
+        "questionSha256": "f29e15339a93d990b4444f798d9a36ff5e547cb0d579b6b8ee026173f8af2266",
+        "entireSourceEntrySha256": "0728db7a07de7d5231f39f17e23c4f9d690b041c5cdbc9535b75901ed1633998",
+        "entireSupportingEvidenceArraySha256": "f9197035fe996b499fdda45f44efee73f0d1078877eac14aa2ec6c4be4d0e85e",
+        "aliasesSha256": "bd704624204c2396ad0d1c31bebce4643b8bb16520582c6937e63cb8f255d453",
+        "individualAdultRatingSha256": "3145621226f8be868b859f4138955eb09ca653b05a2c048cb5f979c9e17145c7",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/12",
+          "objectSha256": "dab5c3ca543f7458c4f41564ad3d31acac769aa6e12df57a973688a65ed2f188"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/12",
+          "objectSha256": "fa5abfde7914a063ca4ada6da0779a6794ea44222b8439deca6ec0815753df26"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Actual Bucket/Pail is the bilingual open-top water-carrying container; a hash-table bucket is data storage and a spouted jug performs a different pouring/carrying role.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-14",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-14",
+        "text": "Jak se nazývá sladký nealkoholický nápoj, jehož citronová varianta se připravuje z citronové šťávy, vody a cukru?",
+        "initial": "L",
+        "answer": "Limonáda",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Citronáda", "Citronová limonáda"],
+        "sources": ["https://en.wikipedia.org/wiki/Lemonade"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-14",
+        "questionSha256": "9ea80bfbd7f4321ed10d2741a74843351204b45534a821180ec220050fc7f68b",
+        "entireSourceEntrySha256": "5c6e40d6151abf416fc0f344d77848f62ab48fedc995f9c8621b6f1a634ed1d0",
+        "entireSupportingEvidenceArraySha256": "8a24c141c0d01be8ec0ef6741a73f0d0f87372236f178a8bcecf199fefc0ea5c",
+        "aliasesSha256": "e60d6f28db7cb8c30e55e826f609c20037c16b5402a6465d9924b27ad72a0dff",
+        "individualAdultRatingSha256": "6c1c4855370a4861ed3f59fdd9cfc2cdfe8f406f1d0dbba1e26638b928f81f2e",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/13",
+          "objectSha256": "cc701c01fe000f91b1ff8593027eec86a2976aef6c348d3ef6e15658e5f75a60"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/13",
+          "objectSha256": "0809c6b26d115da19db58dc320a2b1001a2144ebb109f221024092ae1c1d814b"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The sweet citrus drink is not its lemon fruit, paprika seasoning or the name of a children's game.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-15",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-15",
+        "text": "Jak se nazývá ruční kuchyňský nástroj, který otáčením mechanismu drtí například zrnka pepře?",
+        "initial": "M",
+        "answer": "Mlýnek",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Mlýnek na pepř", "Ruční mlýnek", "Pepřový mlýnek"],
+        "sources": ["https://en.wikipedia.org/wiki/Burr_mill"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-15",
+        "questionSha256": "77f695766d108a6609c909633bd0feb89ee06767ac89bfa1ce03ca8061272507",
+        "entireSourceEntrySha256": "669b1f52bb2d42ffa6dc71419a9d4f5b2f1427d4bcc820c965e3e5252b4f7101",
+        "entireSupportingEvidenceArraySha256": "942a06a6e610c0453e0e8bc6dddc79793ec54510666d297ae559168bf8b465a3",
+        "aliasesSha256": "0f08cf3a91d37ecde1e120ce5b555739b8e7970afbb43108b5dd59e76a47bdc3",
+        "individualAdultRatingSha256": "acfebcd9803b7fccc1e364064f1aec81562a2a881b9ff922fa4a3ce55c575cc3",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/14",
+          "objectSha256": "e8461dafea6fe6e224651b462fb7247f188b18f94233c66a485683631cc7a49c"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/14",
+          "objectSha256": "b4fa1860d12d2668ab89fcd20d83eb50f3d99fa534b2692548a2b22b5edfdaff"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The rotating kitchen spice grinder is not the two-stone grain quern, a glacial shaft or a spice. Quern/Hand mill is an explicit related construction-and-use distinction, with all legitimate names retained.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-16",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-16",
+        "text": "Jak se nazývá šperk nošený kolem krku, například v podobě řetízku nebo řady korálků?",
+        "initial": "N",
+        "answer": "Náhrdelník",
+        "language": "cs",
+        "category": "general",
+        "aliases": [],
+        "sources": ["https://en.wikipedia.org/wiki/Necklace"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-16",
+        "questionSha256": "a47472f46a469aa7391b0a6a8aa1d2756834f0fef91bf0faf79a7e31504ab35b",
+        "entireSourceEntrySha256": "64a11d889237c1aeada220ef1835bf1d4c9fb9e9144ef914ab6bda7d4aadfdff",
+        "entireSupportingEvidenceArraySha256": "24872cb2d9d61c5bc5f06fe8df190371b05d6ce4472d132b9a08322961b0a127",
+        "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "individualAdultRatingSha256": "83396bc3c6376488b54bd3765ae739c8b56f933154259e6e388766a79888092c",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/15",
+          "objectSha256": "cdca11d141fe0c8a8f7ab023c36490e2b1f0e8d1be633990171dbf5907fecc90"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/15",
+          "objectSha256": "36af3ad0431867563e8eac1cc150fafd877af934b6816217ea66106a0d065a70"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A neck-worn ornament differs from ear- or finger-worn ornaments, their maker and a film about a jeweller. Necklace is the exact inherited bilingual same-object case.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-17",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-17",
+        "text": "Jak se nazývá pruh kůže či jiného materiálu zapínaný kolem pasu, například k přidržení kalhot?",
+        "initial": "O",
+        "answer": "Opasek",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Pásek"],
+        "sources": ["https://en.wikipedia.org/wiki/Belt_(clothing)"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-17",
+        "questionSha256": "34004e7780174374a3b90107f63a05e69d150e1f6ab64b3a2f2c2f3229ef0851",
+        "entireSourceEntrySha256": "6f27cff35225c9dd36e79a9aaabc8a4980e828cfaec70b876cbb6bfd134f69ac",
+        "entireSupportingEvidenceArraySha256": "1b322358ed7449639092ee6c75d3b11fc1b590be9761201e03690ed9e3a77efa",
+        "aliasesSha256": "bc0588454e61a5235d3dd224c7d347746574d0019ebe49b26bc3836ed99692a3",
+        "individualAdultRatingSha256": "b82ee443ddeaf856151dfdd93975f6f937003c818933d13b905646dbc81bf2d1",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/16",
+          "objectSha256": "2a77ffb585e72586d6fe0edbc624fe3fcf49fc0ad392e312ca5e01f59905ab6b"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/16",
+          "objectSha256": "481f3d5007403a650e3e6eb6fbfed242ed8afdc866bb5de93f9ebce36ecdfa6d"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The waist-retaining band differs in location/function from pedal straps, suspended chatelaine fittings, thermally bending metal strip and a root-wall barrier. Belt/Waist belt is the exact inherited bilingual companion.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-18",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-18",
+        "text": "Jak se nazývá měkká vyplněná podložka, na níž při spánku spočívá hlava?",
+        "initial": "P",
+        "answer": "Polštář",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Podhlavník"],
+        "sources": ["https://en.wikipedia.org/wiki/Pillow"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-18",
+        "questionSha256": "217a2a959dfb6282050a005131aa1370679bba00e72822d292d4fb74bd72eafb",
+        "entireSourceEntrySha256": "0a19b140c4aae1ea02c80af49e5c6cbed8e7e3cd72e5ba85d8e123396d585eeb",
+        "entireSupportingEvidenceArraySha256": "f0fc004548a75ea8e699db3fd100bb60b306f9c173e1ae90e0d9ee3ae10c15f5",
+        "aliasesSha256": "2c4b1bbdff7c015ce06dfaa479f77105a19f6dc9062e1041e698e5bdc99e816f",
+        "individualAdultRatingSha256": "c3a95844930271d29b858d27d91e1ee7e6f1cfcedfebfc8f3eb5b1d2f67cb6bd",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/17",
+          "objectSha256": "39eff5c19067c8d41ee57eb27c220dcc43fd299a1530aa890dcbaa4999b024f4"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/17",
+          "objectSha256": "93bd5c88997e62a21da44acdb0d170b2dd6f1fd99bc87a8e1b58284b841b6038"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A sleep head-support cushion differs from a collision-deployed airbag, wound dressing or child car seat; actual Pillow is the specific bilingual same-object case.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-19",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-19",
+        "text": "Jak se nazývá podložka u vchodu, o kterou si před vstupem očistíme boty?",
+        "initial": "R",
+        "answer": "Rohožka",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Vstupní rohožka"],
+        "sources": ["https://en.wikipedia.org/wiki/Mat"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-19",
+        "questionSha256": "c47cf2a798fa9783e79a0dedf33a89ff49eb75cc7585c6808051b6c8a90558ef",
+        "entireSourceEntrySha256": "807b184e04de1fc91caa93a7daa609ee07fa00fc0516d8e0891fde67cc21edf5",
+        "entireSupportingEvidenceArraySha256": "8d4c1da8908d3aac49e343f3ffd6d183661bf7f6a6e0e7837318544b8ee9d6d5",
+        "aliasesSha256": "49f5bf55e1e923588189dcc25b044feec81a93a256a310fa24a0ec7715d06645",
+        "individualAdultRatingSha256": "7b52caa45f84c09501ea938cd8ff046fede08988363c5808ce313fdd04371a5d",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/18",
+          "objectSha256": "a22d5078dbf360d8053ac315a6325148b315d1b24bb027326facaef052ab9c7d"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/18",
+          "objectSha256": "10c29bc9d2a438b6f3128d358df5dcb73019a53732cfbeb1c02a692b1908cc9f"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Actual Doormat is the specific bilingual entrance-cleaning mat, not the shoe wiped on it or another cloth.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-20",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-20",
+        "text": "Jak se nazývá obchod specializující se na prodej masa a masných výrobků?",
+        "initial": "Ř",
+        "answer": "Řeznictví",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Masna", "Řeznický obchod"],
+        "sources": ["https://en.wikipedia.org/wiki/Butcher"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-20",
+        "questionSha256": "0c53045a1065a558124d0fd05b3a503792a40c5823e73a7957bb2e8ac96de736",
+        "entireSourceEntrySha256": "ff48d81c914d7d2347155f2331d781a799966310393b9977ac48d15a11e7e8ee",
+        "entireSupportingEvidenceArraySha256": "3f8c7b953955911bf80d92298cbbed2c48db94f3de4736c890d932230eb0b159",
+        "aliasesSha256": "2c828904ca9751ffd174f3ed191f06ef73ba69c0e7dd3d7f1efa924812fd626c",
+        "individualAdultRatingSha256": "656d086738d45d6d9f984b9fcdf004187f1cb74687c747123204ca745c9b358a",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/19",
+          "objectSha256": "d49b900d9cee9085ac016ccf90f1f9992671a30fa9b84f9285d09c38f3870883"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/19",
+          "objectSha256": "482727d7412534c7d5c1b434498a024cd82f977c486b44eade02b90e9c8d96d2"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A meat-selling shop is neither a named demon, a Chabrol film, a shrike nickname nor the profession/person alone. Actual title/name homonyms remain source-specific and intact.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-21",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-21",
+        "text": "Jak se nazývá stojánek nebo držák, do něhož se upevňuje svíčka?",
+        "initial": "S",
+        "answer": "Svícen",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Držák na svíčku"],
+        "sources": ["https://en.wikipedia.org/wiki/Candlestick"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-21",
+        "questionSha256": "ee9fbdbd8e64d9eb0c22c094869be3aaf278a48b202015723dde2b2d49951c16",
+        "entireSourceEntrySha256": "3efb124faa31b624944ef46cd04617d80dd91dff1c41498f6525a20c4a8787fe",
+        "entireSupportingEvidenceArraySha256": "707563b86cace3e14a46e7f25a025125d6ec415b2a5c0114b44cca67d4d21c43",
+        "aliasesSha256": "003c10e541a849e417236bebf795de4e076e510b8742b99878e7c56f17b35fa4",
+        "individualAdultRatingSha256": "672dc945996d801e89d853d03d21a37a59816b6f69d73b238f7b407fa8c07e36",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/20",
+          "objectSha256": "a7962f2b3f9d64f7a3faa8f8195af49d818c11c96105fa314ef7a4313ccddcb0"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/20",
+          "objectSha256": "314015f3dd82c237c3e2f2fe11edfa7784f14d71ab2ce621b998b308f69606ed"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A candle support differs from the wax/wick light itself and from spark/glow ignition devices despite Czech svicka name overlap.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-22",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-22",
+        "text": "Jak se nazývá tenký kovový předmět s hrotem, kterým si při šití dočasně přichytíme látku?",
+        "initial": "Š",
+        "answer": "Špendlík",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Krejčovský špendlík"],
+        "sources": ["https://en.wikipedia.org/wiki/Pin"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-22",
+        "questionSha256": "3e77ac08f8cabefde9ed0ce6e67ee2ace68ac08421652d057ec30123e1af8769",
+        "entireSourceEntrySha256": "3af531d8aa42c40f53c5c5b8dbc5304ff43803965e5a432aaf177e06ceb332c9",
+        "entireSupportingEvidenceArraySha256": "14b1b2f1adb7cb58126dd3e41a056e191e9ebd59d4db2c0e8c5137df649fe3fe",
+        "aliasesSha256": "621baebe10ff60a36389695f0e1bd803b535d3e59fe76924e0132e2db4e2c735",
+        "individualAdultRatingSha256": "a356117303512f01a586b59d910a4c28bf402f2263015a56add250a18937acf2",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/21",
+          "objectSha256": "1ec0b5cda8b5732e117d6ad53c40a90d7c01ea98cfde2ca98e119adc237fbbe6"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/21",
+          "objectSha256": "424b2efa1677afd3dd7787a548f944beeff7c7486626538a8914e7ad9c9eee16"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A pointed pin temporarily holds fabric; the eye-bearing needle transports thread. PIN as a charity/security acronym and observing PIN entry are different referents/actions.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-23",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-23",
+        "text": "Jak se nazývá šňůrka provlečená očky boty, jejímž zavázáním si botu upevníme na noze?",
+        "initial": "T",
+        "answer": "Tkanička",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Tkanička do bot", "Šněrovadlo", "Tkanice"],
+        "sources": ["https://en.wikipedia.org/wiki/Shoelaces"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-23",
+        "questionSha256": "a5f17c2e9c2634db18f70458b36c8100bbe429a4176bfd7f2b518f99f839b231",
+        "entireSourceEntrySha256": "1373f300a63b36a266e9bd0aac28f1eb90f7b43cfb02e5b194a77262fb7f6153",
+        "entireSupportingEvidenceArraySha256": "74c1286284fb1d68897d1bafac8b94f67b5050c9e7090738552f1244a21bc068",
+        "aliasesSha256": "490f1c9f5cb54d066f3d507675b5f619c866784e21fad6a822a9b7a3600b5de1",
+        "individualAdultRatingSha256": "8c85eaf3affeac7f98ce505fc6e92b4707422d9d67bb94ddb1dcc508e93c01c9",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/22",
+          "objectSha256": "e97b2164972c2229636354abe4588cb2cda5f98133b4b7c9d06ce6a8f8f7de64"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/22",
+          "objectSha256": "3fb75589b18d593beb61379da19a853a66ca7528e9c679f64da18a7e3f06d919"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The threaded fastening cord is the specific Shoelace bilingual companion; an aglet caps its end, a shoe contains it and textiles/biological fibres do not become that cord.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-24",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-24",
+        "text": "Jak se nazývá kus savé textilie používaný v kuchyni k osušení umytého nádobí?",
+        "initial": "U",
+        "answer": "Utěrka",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Kuchyňská utěrka"],
+        "sources": ["https://en.wikipedia.org/wiki/Dishcloth"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-24",
+        "questionSha256": "d8e6fb1b6598e01b8361edf90acbbe32814b5bb2a6964080a8ce7df5b06b499f",
+        "entireSourceEntrySha256": "406c6cf628014ec4e35af618bfaf167dc2270b456857c84bad3904200e9bc9c1",
+        "entireSupportingEvidenceArraySha256": "51d62b1e09fcb43c5a99721ea7a0d24bdf55c2c0514a14780cd394fd70125423",
+        "aliasesSha256": "020b885401d60794ec6145b08e7d12e4953e1460bdbcb76d6f36256d5b726810",
+        "individualAdultRatingSha256": "6178e8bcdf80ff7aeebd21330a24440fff8a6e1b13b76f440188e85da2ae2a59",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/23",
+          "objectSha256": "7ff1c556fec469aa5bf940a44ed305207e2bbd768e3af1d1e5b32db121f3f875"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/23",
+          "objectSha256": "4c9cedbebbb1ecd537e5f1ec5bfc821109f6a42b1641565ef73ab9cc7ec2d2bc"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The kitchen dish-drying cloth differs from a body towel and from Torchon lace named after a dishcloth. The actual inherited towel pair remains exact.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-25",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-25",
+        "text": "Jak se nazývá stojan nebo soustava háčků, na něž po příchodu pověsíme kabát?",
+        "initial": "V",
+        "answer": "Věšák",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Stojanový věšák", "Věšák na kabáty"],
+        "sources": ["https://en.wikipedia.org/wiki/Hatstand"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-25",
+        "questionSha256": "0d0fb204256354548a63565c33a19c0177ae021b8e17e8f31544826181ac4fa9",
+        "entireSourceEntrySha256": "50c1e749e3c3cf500abc8408ecf2ad70e789ebfc1ac09607d353772674fbffef",
+        "entireSupportingEvidenceArraySha256": "aef841f51b9e538cd765e292e1f50cd3384004902cf42d73564d366387a2de2c",
+        "aliasesSha256": "8b3b20b6627fd622d0bd13ffc34973d9ae02ea2de8b3265a15ec4e6806730f4c",
+        "individualAdultRatingSha256": "3f371c6b63160c449a01a74f8101ac5d95ae8383b5fa9581859e9761ecb7237f",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/24",
+          "objectSha256": "9aad9287d728fbff081fd4e5c3e9240752aafbce3031dace9f63717b89459a3f"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/24",
+          "objectSha256": "2e5bc608addba07a5e763eea8b77f64dfb17d9ab76876ebdf3b291800186112b"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "A coat-supporting stand/hooks remain a coat rack, not clothing, transport equipment or a separate source-named person.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-26",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-26",
+        "text": "Jakou běžnou dvoupísmennou zkratkou se na dveřích označuje toaleta?",
+        "initial": "W",
+        "answer": "WC",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["W.C.", "Water closet"],
+        "sources": ["https://en.wikipedia.org/wiki/Flush_toilet"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-26",
+        "questionSha256": "4e661e861964284c0b184de48d7fc1dae657d8432d9d760f77cfb47bdc43815b",
+        "entireSourceEntrySha256": "f666ecf6e3b0ee756120e83e249bddbc0af011cabc1669797f8866be3ec43de7",
+        "entireSupportingEvidenceArraySha256": "d9df7745e435777df035f421219c692fa8eb62b64a3b831018a5deb5db929c5c",
+        "aliasesSha256": "b6bdb9dd6f0c94716d4a0c433ba92f1aa2cd4ab225d3ae52cdedbdedb87b7b84",
+        "individualAdultRatingSha256": "d78afef39b245e833211c457015ee38e57af008a85673e0deee5c5392ed232d9",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/25",
+          "objectSha256": "d42c9f34d7106439d081aebe8a1b52745ced94d92589c98db664499a9dec93a8"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/25",
+          "objectSha256": "e90bc64ed3d2d5533e00de9763fd0a012b712b204eb102b94cca63b0cf6ce0f8"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The two-letter written WC abbreviation is neither cleaning paper nor an unlettered pictogram. Preserve actual Water closet and punctuation forms.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-27",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-27",
+        "text": "Jaký čisticí prostředek naneseme na kartáček před čištěním zubů?",
+        "initial": "Z",
+        "answer": "Zubní pasta",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Pasta na zuby"],
+        "sources": ["https://en.wikipedia.org/wiki/Toothpaste"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-27",
+        "questionSha256": "cc8adc0feb5512bfccd64fe064f3bc1e53b704888e788091d6f2895cab3dbe10",
+        "entireSourceEntrySha256": "7b3fb9c313f821cdeb528dd8651b2810e0839dc6d4f40d483d73b397869b8dfb",
+        "entireSupportingEvidenceArraySha256": "e63e0eac0147b7e9a0e4f44033c5bca81a41c9cae158dd6dbbfc02d642b0ca19",
+        "aliasesSha256": "d2c3a2a30ab6b57ae64b91465b3c4fce0213a300e3082aeced9dd43e8c53f537",
+        "individualAdultRatingSha256": "54bebece9ba390d99a2a482bf1ee90d2e5b52d0e424431e49b9d45cc00c41cae",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/26",
+          "objectSha256": "609bdf1dd958756844f7111bf6de23e4b5dfb32aacf507910a5610865298a749"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/26",
+          "objectSha256": "081cba3751bbcffe8a4c003c1dc88e3b732f3676bd48f3a807c47dd096d2a5f2"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "Cleaning paste differs from the bristled brush and its nylon material. Toothpaste/Dentifrice is the inherited exact bilingual same-substance case.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    },
+    {
+      "id": "general-cs-easy-05-28",
+      "entireQuestion": {
+        "id": "general-cs-easy-05-28",
+        "text": "Jak se nazývá ochucená hmota určená k opakovanému žvýkání, nikoli k polykání?",
+        "initial": "Ž",
+        "answer": "Žvýkačka",
+        "language": "cs",
+        "category": "general",
+        "aliases": ["Žvýkací guma"],
+        "sources": ["https://en.wikipedia.org/wiki/Chewing_gum"]
+      },
+      "initial": "INHERITED EXACT ACCEPTED",
+      "initialBindings": {
+        "id": "general-cs-easy-05-28",
+        "questionSha256": "0606e5297705b4ca75b29cd05eb106edfd2e9d72acb09d82bef1985e58740df5",
+        "entireSourceEntrySha256": "41a0caf86914c94eb10d44a81dbc4079f36627e721f484289e02aee8031d3fe2",
+        "entireSupportingEvidenceArraySha256": "01a472de8c14afc5796dfa33a5769f937afe332260ce1ea19b1eac9332e122f3",
+        "aliasesSha256": "a8f52a27d504e78afa86471d4ab86936ebcbb555c25dd9cd0fa5a3eebee7ed54",
+        "individualAdultRatingSha256": "1df95c43e5b5c0d7d35828b953a05634a0f1be5e50a0975401ff368e2e3b9b4c",
+        "wholeDeckRatingSha256": "ba4693901fb991cc59b527baf3472e6328c4dc09a96ac17d80fbe13c2a737255",
+        "acceptedReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+            "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+            "bytes": 3081316
+          },
+          "jsonPointer": "/entries/27",
+          "objectSha256": "4218237112e38b9fed0e20c84de7b229e8e728921a738e664a8611ecafd15324"
+        },
+        "originalReceiptBinding": {
+          "file": {
+            "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+            "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+            "bytes": 2664119
+          },
+          "jsonPointer": "/27",
+          "objectSha256": "0d5f25dbb3bf43190ff2999789b527cf90beb0384a6770769cbe8496078948dc"
+        }
+      },
+      "current": "ACCEPTED",
+      "independentReasoning": "The repeatedly chewed gum is not its xylitol sweetener; the ingredient relationship does not equate the requested objects.",
+      "wholeAdult": "ACCEPTED EXACT ORIGINAL EASY",
+      "finiteAliasesUnchanged": true
+    }
+  ],
+  "releaseCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false
+}
