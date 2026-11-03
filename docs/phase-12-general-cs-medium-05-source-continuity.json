@@ -1,0 +1,765 @@
+{
+  "entries": [
+    {
+      "id": "general-cs-medium-05-01",
+      "questionSha256": "a329990b55cb9bdeb9fe0831adc1b523e19381e31809c347db85f28d359dd386",
+      "entireSourceEntrySha256": "0c48dc84be8c645da587d5bc41f100ae65312fe1dda8ac5c5536681478404f99",
+      "entireSupportingEvidenceArraySha256": "bfb931fae6834aaba67e8647fd74f326bdcd74cf49f07e96454002633f7ef82e",
+      "aliasesSha256": "c4b41402d1949d59becb6bab60860ee4e9968f538f30acad36963b12c5edb838",
+      "individualAdultRatingSha256": "244e7a9eb077a907ec63e136de44c969a22625dfb913c910b94fb8ab68abd129",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/28",
+        "objectSha256": "9c503b8799b6bad50fe529c25dfb396b262131780322a91cfdcea14206fa2c56"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/28",
+        "objectSha256": "288eeef3612213b9984d5f80a44b6e2506f05a2a0b314d03e2a7a701fed83a71"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-02",
+      "questionSha256": "db326cebec88c913f3e7be181c5ed6ef28a2bcba1272ba7443035997c17c731c",
+      "entireSourceEntrySha256": "93b28caec993f936e13cd497eb6c098f8a4bab463c9a0cab4ac4146011988e13",
+      "entireSupportingEvidenceArraySha256": "49901f43354affb252131d4b170db8ccf65b691ea80b23ef11ed17cc5dcbc777",
+      "aliasesSha256": "6f810e45b6d5b38a74239e7d7079fe4754cca08f186d013c3066239c099698fc",
+      "individualAdultRatingSha256": "cefdc321e6a5d1af6f9c21c29024597e11a8382f0aec36b62942655e17fc262a",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/29",
+        "objectSha256": "93c382078eec0d2bf422c3a7d7ba3b551118ce0881ba9f75f087c095a6d48a5f"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/29",
+        "objectSha256": "b0475e666cbb2e9098f97f0b420ebefb975d5d17a748fc7ad684cd71aa79606c"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-03",
+      "questionSha256": "8225ed846d9d865daef8ff6f1489be435d1a3ef94ecbbc89e17f7d618d1fabc5",
+      "entireSourceEntrySha256": "7ac16f8e1b7cbbe3693cc348c3a911d831093a306c1ccc85892d5f211d004876",
+      "entireSupportingEvidenceArraySha256": "19399389b4c03fbbbd0312b62151fb655ca8240f7a620043a499ff2ac2ef3a6b",
+      "aliasesSha256": "1a502a89c67e2a4f8cd2760166aa97ce4c69c6892f588ae1a206592a78b4ac35",
+      "individualAdultRatingSha256": "e2026f44fd19cd686926a794a9edb687f8f0ecf042333b2011882c77817c8b4f",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/30",
+        "objectSha256": "b48ce0b47e5e9c8e5df0b9234db856a2e433891916e799f05f8d52357b762d0e"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/30",
+        "objectSha256": "9eb973def7b069e84c9b94fc000c9d207c6fc270a0a65e01120cbd924afbe61f"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-04",
+      "questionSha256": "897e9a99b8e14389aa89bc7665af236b018861e518082bf462052af030085da0",
+      "entireSourceEntrySha256": "114edf042f2cf61089ecf03502b8bcd4d5fc2e3a1475202a83e90bd1e8c409f9",
+      "entireSupportingEvidenceArraySha256": "cc4bda26fbeec0f2b37704c5113a1dba60056d1f6274ce7fa2986ba84ce3623b",
+      "aliasesSha256": "a702dee20e8754ba1ceb7d26bab6c463ceb86be84d413cd0f611bd60c817f0c0",
+      "individualAdultRatingSha256": "3d4b59cf1b092793bfb1410e131726d156852f7fed912e718f406ccfc7176a08",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/31",
+        "objectSha256": "92536322d69100a9e75acc1f9bc000e89ccfceac0957d5ad9f2828a06829f076"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/31",
+        "objectSha256": "40519cfb43bf7cbd725517be313afd9f45614aa06ce778e8b3f2f82c06a6cd5c"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-05",
+      "questionSha256": "a18e7394f959f098a90241f5ea9cecd33b0c9326a7ecccaed486150f7eeee175",
+      "entireSourceEntrySha256": "9432ba4ffaea40ad2456b0ae95426a920895b97148d367883346ef6abeb3ca1c",
+      "entireSupportingEvidenceArraySha256": "c572eb2ff72c0d97fc0134fec9a40ec92926432f990ab79f3d566ab4713cf594",
+      "aliasesSha256": "5531a3555c43f88337f15000f342e0ffc4684e2923f34c2af3590dc9509b5cc3",
+      "individualAdultRatingSha256": "6217041e61c7f655cac623ab69702cab7e1176b65787d39d6c2989ab2c1f0b19",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/32",
+        "objectSha256": "9f3a82a71023b76f7229a5f1286c179c303a3cd2829d017d5bf0cf7a56feb96b"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/32",
+        "objectSha256": "817e1e049bf711ef00f46aebe6d66afaeb64004473fe889dbeaf2482d281a035"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-06",
+      "questionSha256": "5b493164ba5117906b8e6efd62a35629332a78a82adb38ae608857c97749956a",
+      "entireSourceEntrySha256": "7821d76472295c0f12f40032c29f1c1719c020ef5674d0b88344d668c31f1f7a",
+      "entireSupportingEvidenceArraySha256": "20f0a606d33f579f969bbe4301bb01210c592a6eef2aa409898c0f44cd59c990",
+      "aliasesSha256": "ff680346ce34038fca3c6951a37a0afa3ade955d7ef46662336672f036a4fd49",
+      "individualAdultRatingSha256": "e1dca497b7dea52656c67093b6cad96e4c4dc3d3cb11220464b9376d5c788325",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/33",
+        "objectSha256": "fdfda39b88c2aaec4745b317da56687b8533fcbe3e71c148ebf0050615fcd9d9"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/33",
+        "objectSha256": "205e313e50749f8ca7b0e566aa55af28997f2a398e3028f90181307d758ea94c"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-07",
+      "questionSha256": "ff7d9e5e3df0299a85508bf01fcb3ea1b916ae076b3214c2708b2e55b5d6239a",
+      "entireSourceEntrySha256": "e8e68de1aa8b96ed08b63556510ea814d51f4ebfaa65de55ee906592e9830521",
+      "entireSupportingEvidenceArraySha256": "74180ddd7a3adf82e0d3a0f59285635dd0cd85003ed25ecd11622f7cb3ae5d3c",
+      "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "individualAdultRatingSha256": "13b4e35ce1b79533572b68467ff261b01c6952b9198db7f48c2b6afef04d1b66",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/34",
+        "objectSha256": "af12827fc6737da3e15fb12cdf31ee46681ee236640f37fe8f79604b2266bba6"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/34",
+        "objectSha256": "79129426fb398ac6943d574ada868e41fefa5ae2ebacf4954a5e1322b22e2924"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-08",
+      "questionSha256": "d86237dc3c1abaebd53e77574ebaf0a7ded8715820a38aef2a114d1b212561d1",
+      "entireSourceEntrySha256": "c8793656a790235f1be1b1790da8f869f953c9d91cfda36588b1030c8abae89d",
+      "entireSupportingEvidenceArraySha256": "a324ad4d92ca0de051f1c2bb3ee04feb35a0e7bf5d9bfa7174d2d048fe2a95c6",
+      "aliasesSha256": "b94d50ce0110c51ab122cf13bb62ee14c8882d1dc444ce7994afd443717d58d1",
+      "individualAdultRatingSha256": "fc98ebdd217e066bd61ed22f3525ca7b5c088e47e4d251e7cc1266b6ba83a44b",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/35",
+        "objectSha256": "0188d720e887e700bc259812a8db2d2cd98b021b94f32a8ba7ca90c989d8e9eb"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/35",
+        "objectSha256": "63e0cdab0a736eba197dfdf93f596a3a9082f496795d7a197dfe28b1f9ad00f3"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-09",
+      "questionSha256": "903572c8cea73551e2bed3494e908b84f7c117b4730a38872958d510f3037a78",
+      "entireSourceEntrySha256": "df1660c7d66bdcfc568fae8a9f9461336d0163d75adce5f51e9d325182cee6de",
+      "entireSupportingEvidenceArraySha256": "41889c9583b4c0d37ee44dfc664418b82f030802602892b04e6e439a8db34a18",
+      "aliasesSha256": "5f6cad56876259d12fd98457036de37b4bea91512868029047611503ddb8b5e1",
+      "individualAdultRatingSha256": "19250e16d0b693b115f128f93aafa5cd97dad7175491a708a8ac1cc3f725efbc",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/36",
+        "objectSha256": "70be5b091a9a4d26f786a48f1ebb6176a7ccca75d0ecd3c2995eba86c64e8b93"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/36",
+        "objectSha256": "531fc4dc5b367415b2a8681645efae32dc606c81cbabe2297ad2325fbdc57052"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-10",
+      "questionSha256": "03e37cf94e00fcc8bbfca04a7af22e0f88864da7b07cceece4c31e7b7c51d58e",
+      "entireSourceEntrySha256": "36ed700b691e6af994bc2eaf62b8ad3d2d32b0649350956ff1edad1261d87db0",
+      "entireSupportingEvidenceArraySha256": "f94074eb5995d3d3478be4f509fc529329ff1fde3d140315b3f8a2a7fe72d042",
+      "aliasesSha256": "6d61ad5239638c3ae798ad5590bd0f5f2754b3f3c43e71434d7e5354213d8339",
+      "individualAdultRatingSha256": "689bf3b28f51bda8f6a4e685e07a27158a45a532d0f1f2532bf20838fcfa48e3",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/37",
+        "objectSha256": "e72846f7d4e931e491dba86f870bb5016c75e0371e47096b6411a220b30f5186"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/37",
+        "objectSha256": "ed752774577eafc25650103fcc440874678cdfc2a459367e8fb3596c27fd1708"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-11",
+      "questionSha256": "5c4dc7da1ad0696079475c3615356edf63bb15709c168b10cc138d66cfdbe04e",
+      "entireSourceEntrySha256": "aca4588d3ee8953daa5e415b8dc3241f8f4e96419ff5817740107699892376b6",
+      "entireSupportingEvidenceArraySha256": "9db8f7e92388740cdaa79cf09d7ce98c0b439411e0aad6797c7e37dbb121cef9",
+      "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "individualAdultRatingSha256": "8e5d45e3ea8fb06a0ff74e0c8d494a65b628d5478365ae3fc3fca474d5133b24",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/38",
+        "objectSha256": "fabd16e8b87ed64677b0910e572209c2fb32be6afdb59c090d87a1bd9c9349e8"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/38",
+        "objectSha256": "22853273ce2a069d3db69cb584805e8dd8c771ed13dffa7cc5d1782570ce4e92"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-12",
+      "questionSha256": "5f19e363d023e1265a7fe6a4624fb4d215b6e4f21280b8385cbfbef7504daefd",
+      "entireSourceEntrySha256": "4236d5b05371fea880cc05da4ec0589c3a515846bdc369b93be922ae5bb22ecc",
+      "entireSupportingEvidenceArraySha256": "bf79f9ac521f277a090bb29b40e3557543c451c32e586e0a0c4d22ad7a47a13b",
+      "aliasesSha256": "9c6b4290f820fefdf6d0dbc902d79da2d2cd35fbdf22da7f8683088d632d6827",
+      "individualAdultRatingSha256": "2f68a134c8e61497e32e804cc3d875ea12225e08fd452077bbe5abaa7ca16a56",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/39",
+        "objectSha256": "0d65fc9440809e2da113670b237e33e72e88e66813be4ffe50d9b67c2a529fd4"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/39",
+        "objectSha256": "4374970c4a0589c8b8ddbb16dcaeab9909b18d23ac4a3232afe8d28463e7eaaa"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-13",
+      "questionSha256": "c5424ac89790fc1bfef9192ecb25bc2f5ef2b2de803d7a43aa0825068bb8d4b6",
+      "entireSourceEntrySha256": "e962435fbea9a1f938e535af530e8c328311bbb9f6b5202fabf861e1c51dfdf8",
+      "entireSupportingEvidenceArraySha256": "3f8a067bf21c18d51a7258d6f8ece28f2d73d7e2536c67c1ec39adc53d93ec00",
+      "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "individualAdultRatingSha256": "c04c0884d9cadf14a677c110a1b64c321fbe9b67cc1a3428c661c385500481d8",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/40",
+        "objectSha256": "f201d3371f827d0d50cbfee541e6f5152f3aafa2d98be6e714bb43eb502a8407"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/40",
+        "objectSha256": "2b8ee0208d86e0b56f265a13d320af341295af8c8ff8a4ab7f5e0a17e6ab1484"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-14",
+      "questionSha256": "41ca2bd7904316c880222c2fc17606f6c18ce662d4335a48b12caf951ca6361f",
+      "entireSourceEntrySha256": "e77cf526ea778e982bb58f41b8848a83fb23d4d1c4a40abf994b571c0ca6d011",
+      "entireSupportingEvidenceArraySha256": "8bd173a2538e37437d27be14bef2ff279178f7df5a5feb4a15cd2776379569ac",
+      "aliasesSha256": "fb4ca21dbc58c20f45a224d6a4bc97bcbfee8aec46e1e20c33278ab6b17b301a",
+      "individualAdultRatingSha256": "38f8fe870e8a076d159e4709f63347b9ee62581264000b01a1c8903ae907277c",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/41",
+        "objectSha256": "7d1ff39f14920601095f480bfa6100058e58bf5bb9c31eb846bc2e60e7a77c90"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/41",
+        "objectSha256": "ab303a2105416f59f75301287be6c1b9f1e9e2d34732a456673b8369efa7aa47"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-15",
+      "questionSha256": "0b75409cf5a21d79fd7e1fe25eb37df4c22cc3c178b27e56ca4faff8c857de2b",
+      "entireSourceEntrySha256": "8f8835b38123371c59183843c56a91b9a16f77825b12edee75233d77197746a8",
+      "entireSupportingEvidenceArraySha256": "990cfaf8053a42e8b5819aee07cbdd601637f24fe2e25037625f1b90a7f8396d",
+      "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "individualAdultRatingSha256": "db978462b55dce4960df855ab9c7f3f7b151f3161ae6e0e362360413e8613e99",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/42",
+        "objectSha256": "8c852d200ec83a3d16cd738eb4091c6bcda05ab07840c088d841d2e600580cc1"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/42",
+        "objectSha256": "67112ec1d540c1e8a7b983421777f0f2f0e011d4408f8aece8fe473dcb09f075"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-16",
+      "questionSha256": "8cb5fcc4ec26479a1317aedb1de74ccad3b48eb81202a16219a3b0d75ff56f0b",
+      "entireSourceEntrySha256": "44e1d56fc1c924c0e3454615b90c7b1daefcfa10e51e905ffd61a0879ebff97b",
+      "entireSupportingEvidenceArraySha256": "d94dd5be134bd1205b64dc0c7d8ce83322555e419e721a7ff916b93394c3fa81",
+      "aliasesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "individualAdultRatingSha256": "6de9d83b006bc6fb2d9fe0ad046d45a2fccc10699efbcdac808176f184113f1d",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/43",
+        "objectSha256": "33a964436cdadc137396afa5443394a3534704d6bcaba20ac9d7d36a9a45788a"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/43",
+        "objectSha256": "d25e9f22df6438d28fa41addd8647200264e2f17e736051aecd0aa188f3c00e6"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-17",
+      "questionSha256": "b45c23957601d1033cf08ea1a82eab52509921a9849b8212b8138df596aa7bc6",
+      "entireSourceEntrySha256": "ab521dfc8d614f6895119f66114dba5e3c1b4ec49972020a1f29b9cb430545a4",
+      "entireSupportingEvidenceArraySha256": "e7364829cdd11048c184d79402d1d1009d62fab771599548cbe7bd630f580d1f",
+      "aliasesSha256": "7a10382009487e8b3324e6c6194f585d084d20746498ff11155a0b1635580833",
+      "individualAdultRatingSha256": "650a7b6fbe6722d700613cfd458d81c96b77217bd8987c6fb3afbd480617400c",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/44",
+        "objectSha256": "5b17e5a9c98a7e7a0f3a5ef34c76ed0ccf7521ee0de1507a9d3b073655c57d92"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/44",
+        "objectSha256": "12bc438ca53735ee4cb1773fa2573415be606174b5569bd915641e8612241784"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-18",
+      "questionSha256": "522e0198eb8396de6b772c311de8cd4b642c2abd4e8ebecbe73354d2391730b4",
+      "entireSourceEntrySha256": "49b066670b86b494ea53b9379d7836c5bf82c408a7a9535684f3e31559d61a1a",
+      "entireSupportingEvidenceArraySha256": "7d5777204a2fa2197682821272a071d936520a23d5a2c6c0294bb9bf568fc725",
+      "aliasesSha256": "8e29105e2fa6808c7d4ef962694b1a8eef65b0c2b6d015168f782136bc39b35a",
+      "individualAdultRatingSha256": "6be5c9b9797f93db77db84a1a695e6c04591318c3b314979448c0e18a1cb352c",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/45",
+        "objectSha256": "0a52ab8bcd3d30c6a50b0d9a0d99a27f77c12314425377efef35f21085431bb9"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/45",
+        "objectSha256": "3fdcb9a0595205883cc4867441ddffcf7d51d86b0c178aa462a318099c7a5fe2"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-19",
+      "questionSha256": "72f7855ef61c1753fdbbd1cec956b5953c6ec3fd7a631fe2c8df7308bbc3fff7",
+      "entireSourceEntrySha256": "68656b7042375fd459e694d1a348306e6cf6e3fc3f720d3465afeb7d7a5dfc34",
+      "entireSupportingEvidenceArraySha256": "24fbe2c42f207a78ed4d75383042b133bc692bfbb623e75353d569e30a93d166",
+      "aliasesSha256": "0ea093e8a86b2d7fdbfced7d3166147da2ec8911f7b07babd1ae2f8810d75866",
+      "individualAdultRatingSha256": "7c1ef0cde98221836f7c1712340c3adaa9453dc1e6bf21dad34e1a1c31758277",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/46",
+        "objectSha256": "79a63623e1026ed9c7bdebc2316debc2a1234bfa67974a4b9ba1fc1bafd28122"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/46",
+        "objectSha256": "961eca76b5b45ffbe48452263689a2cda73c9642021346f3748b7d821c41ae1e"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-20",
+      "questionSha256": "c9cbcd2e97300935c9b6aee26bb0382eb0937726be1a55d1993776e8c84dffa8",
+      "entireSourceEntrySha256": "802ca11f367145de4b0d35d904c84869b6ab7deeda7fe08d83e1266a5dab2be1",
+      "entireSupportingEvidenceArraySha256": "c7f3814d02e65ef5229d1532fc49f628a41094b56056590672b438004aeb77ef",
+      "aliasesSha256": "996744425eb5c28781c0f28ba8db18f8e8d895149d127621930824229e9c8f2b",
+      "individualAdultRatingSha256": "5c4e1f97e8a7d1310466642edb2622a723bdc4e36fc3236a350e9194eb60e113",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/47",
+        "objectSha256": "9a69f2b95dcab0a1eb320d4f2ac09cf98b04f1520e886f95201352b42eae0008"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/47",
+        "objectSha256": "0eda8d7a1efa729569188c7b00f801ca6f8505adfba05b7419f77fc15d9339e4"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-21",
+      "questionSha256": "03810815409bdebbf11922d4ca371c7fc8f9764da97bfe14c2ad46101918df36",
+      "entireSourceEntrySha256": "bc38df104797a0856053191e32f39b02d32dcdd627b2b488e07e74e402735748",
+      "entireSupportingEvidenceArraySha256": "d1564fb654ab3e00cb3e6a83736948a66e5d0f07ee0f688bdbe82a343d2be8dc",
+      "aliasesSha256": "0fe1146e37881be75d81a09a8fe91b4cbb5055329d72bf71ff4c2e6d9dcdc253",
+      "individualAdultRatingSha256": "9dae5e1796747d6f70025e185d72a90df7f274e283df9373e8c3e64713cf85da",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/48",
+        "objectSha256": "f26f4d617616f749e965e051863a6ffd597f9d56695000bee12d99579e1bdc2e"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/48",
+        "objectSha256": "2add92dd653923333a6201552b8a4c9eb6d34553da97f575b5ac450ad162ecf8"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-22",
+      "questionSha256": "b835fbbec1000d6f97a910df5e7d3aae2fd0568f48c76ca14de56f870c2406c1",
+      "entireSourceEntrySha256": "7975ba9f3b9bee74ab49fb65876319e06efd0df8461eae305ee5ed55eb2a0692",
+      "entireSupportingEvidenceArraySha256": "75d61122fc9ac43ee1598faf5287efe43d166aa29a02d5b973a9bfcddc2dc412",
+      "aliasesSha256": "221a78566be4f43743854e02f2d17706436d17d57de8d7aca89a98c1d1957b2e",
+      "individualAdultRatingSha256": "606451c6ad536aad9222152cafecff800f684ad04ab462dc164269ac2f5b928f",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/49",
+        "objectSha256": "06ccb58049df13563a7500e812bebc2e9726d0f41254058b077a0c000f7bce66"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/49",
+        "objectSha256": "379d066acaa91e9c019b288521d254fc93fa3e9e4904433fcd21fda518e173f0"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-23",
+      "questionSha256": "33fddc3c0b0bb6fd86dc60599296480bcf10e67e2bdb94a608fc76446e39d85c",
+      "entireSourceEntrySha256": "9f738ab356e57cbbea6852c7efbd5a679ed296b9d14f84da3f11fcb6cb16ce80",
+      "entireSupportingEvidenceArraySha256": "8fee6ce558887697713799131e719a94b0b2fc9ec9f6726cdb49d65c0e1695e6",
+      "aliasesSha256": "b0e5230d3fac5589dd83584fb7cd591172cdc6ce1722afaa5da9ded6643fc2f2",
+      "individualAdultRatingSha256": "4ddbe4c6905e1e58877adeb47fdf66f3c71a3213dc419ab38a20a8b2bc94eae0",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/50",
+        "objectSha256": "c5725057cfcb89af46b7ea7956c8c494d82bcce9425f080f44e1973d836715a9"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/50",
+        "objectSha256": "a79c9c8e8ef0f5d4654cd90db9b343b8e656d8802af4087f917b45f4eee651b2"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-24",
+      "questionSha256": "c7d669d1ee5b9b3747a9480ff4ad249e66d6576171862d2812bc55108a5b6199",
+      "entireSourceEntrySha256": "fbd5bece8a1f2ebf6b4d8a9373467c3fe8dcc7e9ab61b4b9862f5f29afac9fc2",
+      "entireSupportingEvidenceArraySha256": "d021f06f36d6e5bc494741675d86d565a02f8f2254a7c3c19864c6514b09553e",
+      "aliasesSha256": "338c46fa8bec8edf9054f4e34d72434411125a75f3dbb52be777f585909bc562",
+      "individualAdultRatingSha256": "8c3fca304033dca5e2641f9b6cf661853495c35fc41771de9638c7649ccac8df",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/51",
+        "objectSha256": "c092da66b9a106ef79521b001dcfc0fa861cc6e5089f199b4aab22a43a835268"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/51",
+        "objectSha256": "a170540c93be92b6d5ceabec78e91593775d4d14101c7473f3bd5f000312b05d"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-25",
+      "questionSha256": "adc4add586d775a25388f4d80b67bef94dfb3d01a2fd79f5f187f624d4e71383",
+      "entireSourceEntrySha256": "671cdfeb91bbd6c6d846a18c4286373a90a91e8c08fe6c329d8c69721822e215",
+      "entireSupportingEvidenceArraySha256": "3576bead16091d995af3d90358b3f63f30e7f7202f8e9a0966825907176b7348",
+      "aliasesSha256": "11a515cfa50b2362d3f5bdd5f76687c6ea5c8cee2eb8a3b8d94fed9a1bff5e14",
+      "individualAdultRatingSha256": "123d63b140498ae15533ab81dae4b2b03426b8d0e3ea2ac1046bf601c5be2d5c",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/52",
+        "objectSha256": "2cbbc3b2cab3d07ddd8fd7a223b8be29573ecf51a9c244f46d3c2c72b2b0a181"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/52",
+        "objectSha256": "0fe43c1191562486f9a3130aa02f5343be2c21013c6187ad46e092e43d0db485"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-26",
+      "questionSha256": "e0087ce6d74a65883016cce789365b97fd797aadd4956016a0789ed6b219cd47",
+      "entireSourceEntrySha256": "b1fa8e1fc2b2be0c4a96d368d179f5ec229cf48a4309bef318680e502b7a8b21",
+      "entireSupportingEvidenceArraySha256": "039c27ffeda570ef71e84b907138b965d6da18885f5d4d77f7f9f46c70e2a9d8",
+      "aliasesSha256": "4d5bda40870b00b04216f6863f5b37648986b73a924c421957d8faf48a87ccca",
+      "individualAdultRatingSha256": "454ba3b4b596b5cd689ba241c64ae647c34fedf1240751e3e55337b5d4bb27e8",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/53",
+        "objectSha256": "9727ada76ac24dcc354781a7b2ca6885abcc0b1ddb92de706cd1a44de0ff625a"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/53",
+        "objectSha256": "5f7f40a3a443055de6d47ff24c30089596c537db1e87f2b110125eca7e4ba138"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-27",
+      "questionSha256": "33a1c442b03a01c1c889835889b0dabb5e7f31d9798092ec60f21a7f5f7b1f1a",
+      "entireSourceEntrySha256": "c66938b55c11f3a8b8463b0cae7a11d8bd602ababc29ca93cff0b91db3605da8",
+      "entireSupportingEvidenceArraySha256": "e3b1506e3e69917a89f78b531ad7169c64bba79b65158639d63c52b43241ef3f",
+      "aliasesSha256": "becaf23b380a57c0839c9ce1d73b9861aa559dd2122e11e88635d77c475907b6",
+      "individualAdultRatingSha256": "b36ade33a05175827b8f287cf3e1b1b2f9da0733812ae4070c0abe1ed8b1a517",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/54",
+        "objectSha256": "28781dda601c20aaa252d7fd16f49a7548c50330958160c7cba38b9e03033b1b"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/54",
+        "objectSha256": "f4539e2cac35421da66cb932d5a938c4cc29fbd449e0067ebf812f4c71c033f3"
+      }
+    },
+    {
+      "id": "general-cs-medium-05-28",
+      "questionSha256": "cdaf0dfb386f6d2b97a011428f83ff43d54bc0f2352d7dcc0e94a3883faae4ee",
+      "entireSourceEntrySha256": "47073e206927d48478b9a5aead640e8b4d1948537c1c8dc18189c755dc660bb4",
+      "entireSupportingEvidenceArraySha256": "b7ee190ff83f29c02a3fb3a9b3e45919ca795cc7f169c10f99b886e2ae732632",
+      "aliasesSha256": "d78dc1296deac4a7fa669c6b97b318aebf45e4f40fa75708ada47977f920ef23",
+      "individualAdultRatingSha256": "9d441cd5535ae31d8b85c131a8579a109a601edd0ab8e1fd4073ecb44d29915a",
+      "wholeDeckRatingSha256": "8ec2217dc72119dcd6d27eaab6a2d6365d95b24ed2876220a59ee51346e2c4e9",
+      "acceptedReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/55",
+        "objectSha256": "df2bc211d98fee579448ac192e59e076d7ba628e9b2794bc2d60a18fcefcdff8"
+      },
+      "originalReceiptBinding": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06/receipts.json",
+          "sha256": "1008c61d9ecfcaea5dc5a2ac35dce70268198bcd34e5fa1d204f30eee7f5768e",
+          "bytes": 2664119
+        },
+        "jsonPointer": "/55",
+        "objectSha256": "47e7129ef3f676cd59b5360c5c0622f6f57904fe0de7babc4c7f2a25ac6e0d8f"
+      }
+    }
+  ],
+  "initialContentAcceptedInherited": 28,
+  "actualAcceptedCorrections": [
+    "general-cs-medium-05-03",
+    "general-cs-medium-05-05"
+  ]
+}

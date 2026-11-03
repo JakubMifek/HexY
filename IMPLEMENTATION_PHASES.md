@@ -12,6 +12,14 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate165:** GeneralCSMedium05 alone adds28 to actual
+delivered `cfb9694b` (164/4,592), yielding165/4,620, English85/Czech80.
+All28 original/current/full-source/alias/adult and specific semantic judgments
+independently accepted. Complete source ledger/own28 continuity retained without
+clearing other source-ledger decks. Previous164 packs/order/application inputs
+remain immutable. Exact-parent release review/content gate and individual
+push/private catalog/assets checks remain separate. Final gates NOT CLEARED.
+
 **Current runtime-data candidate164:** NatureCSHard04 alone adds28 to actual
 delivered `d1b51b15` (163/4,564), yielding164/4,592, English85/Czech79.
 All28 initial/current/alias/adult and specific semantic judgments independently

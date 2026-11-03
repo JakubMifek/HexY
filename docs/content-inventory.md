@@ -2,6 +2,23 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only candidate contains **165 decks / 4,620 questions**, English85/
+Czech80. Only `general-cs-medium-05` is added to actual delivered `cfb9694b`
+(164/4,592); all164 earlier packs/order and application inputs stay immutable.
+All28 initial/current/full-source/alias/adult judgments are independently
+accepted in the [review](../reviews/phase-12-general-cs-medium-05-content-review.md).
+The [source ledger](phase-12-general-cs-medium-05-sources.json) and
+[own28 continuity](phase-12-general-cs-medium-05-source-continuity.json)
+retain complete original evidence and accepted-judgment bindings.
+Four specific bilingual rulings (Čatní/Chutney, Džem/Jam, Nori, Wasabi) are
+accepted; exact Ghee and Ocet/Vinegar decisions inherited. Ocet remains informed.
+Real cress-to-Fritillaria retirement and unrelated Arts/Computing holds remain.
+Only own28 enters play; retained history does not clear other source decks.
+Actual-parent integration/content gate and individual push/private catalog/
+unchanged-asset checks remain separate. Final330/9,240/all66, review and cleanup OPEN.
+
+## Retained164 preparation history
+
 The append-only candidate contains **164 decks / 4,592 questions**, English85/
 Czech79. Only `nature-cs-hard-04` is added to actual delivered `d1b51b15`
 (163/4,564); all163 earlier packs/order and application inputs stay immutable.

@@ -1,0 +1,587 @@
+{
+  "deckId": "general-cs-medium-05",
+  "reviewer": "sole independent wave2 content reviewer; runtime session ID not exposed",
+  "scope": "CONTENT ONLY",
+  "entries": [
+    {
+      "id": "general-cs-medium-05-01",
+      "questionSha256": "53d5212392f153a7d786c531a344f1a267bbd89a12680a6e990b8922dd07f9b0",
+      "fullEvidenceSha256": "4409b85ecec2c93f901d0217d7bb771c81d61e49ab3101d7fa36625ef7db6e3d",
+      "input": "SOURCE-LEDGER.json#/entries/0",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/28",
+        "objectSha256": "9c503b8799b6bad50fe529c25dfb396b262131780322a91cfdcea14206fa2c56"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Italian opening course before primo piatto; cured meat, cheese and pickles are supported examples. Singular/plural Italian forms both accepted."
+    },
+    {
+      "id": "general-cs-medium-05-02",
+      "questionSha256": "a04f25aa3f39265590d09edff1e2c3fbd5eaefb13569fdbd5bf56205c74f3103",
+      "fullEvidenceSha256": "6b53a694a78d4500e3103882f654f4dfb4c8f9564a27f60142c33cc22b047ea5",
+      "input": "SOURCE-LEDGER.json#/entries/1",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/29",
+        "objectSha256": "93c382078eec0d2bf422c3a7d7ba3b551118ce0881ba9f75f087c095a6d48a5f"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "French yeast pastry rich in eggs and butter identifies brioška/brioche; not a generic bread or croissant."
+    },
+    {
+      "id": "general-cs-medium-05-03",
+      "questionSha256": "5301f582b70f01067a9790ec1411b6b064ad86e96013506487d5853e302436bc",
+      "fullEvidenceSha256": "55df61f168f18506a7a36f601ac38b236cad0996381345441f562a4d3278d2fa",
+      "input": "SOURCE-LEDGER.json#/entries/2",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/30",
+        "objectSha256": "b48ce0b47e5e9c8e5df0b9234db856a2e433891916e799f05f8d52357b762d0e"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Recognition of an international dessert remains informed culinary knowledge. Accepting the overlapping Catalan answer improves fairness without manufacturing difficulty."
+    },
+    {
+      "id": "general-cs-medium-05-04",
+      "questionSha256": "f9ff0eaa2af7e0157798a0ff6bef84dd4477a3bfafcbe4b018de267097267b0e",
+      "fullEvidenceSha256": "b52965a49bd6a488b2158397edae7e2c69db7e31520be4447679996de95cf268",
+      "input": "SOURCE-LEDGER.json#/entries/3",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/31",
+        "objectSha256": "92536322d69100a9e75acc1f9bc000e89ccfceac0957d5ad9f2828a06829f076"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Indian condiment with fruit/vegetable variants, not solely a sweet jam; čatní/čatný/chutney are reasonable native/borrowed forms."
+    },
+    {
+      "id": "general-cs-medium-05-05",
+      "questionSha256": "88f0cf50d1f8624ac285f90c1c886790bcd513e1bf17f907b5a8e24f77e7e061",
+      "fullEvidenceSha256": "a666ac9da0b3efc760b25e6bab96f7df0aef1fb3c3f6e832eaf7875c5e555d2f",
+      "input": "SOURCE-LEDGER.json#/entries/4",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/32",
+        "objectSha256": "9f3a82a71023b76f7229a5f1286c179c303a3cd2829d017d5bf0cf7a56feb96b"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "A familiar preserve is an explicit common bridge within the informed Medium deck; the precision repair does not make it specialist."
+    },
+    {
+      "id": "general-cs-medium-05-06",
+      "questionSha256": "ef6748ad51d5ff40e07f4b959003e847b3e7a27f87cc323f5c957de4590f6174",
+      "fullEvidenceSha256": "1f4db5a991f8bf02d81e8d1c30d379361c71de73105c94f19f7d38991bd12ed8",
+      "input": "SOURCE-LEDGER.json#/entries/5",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/33",
+        "objectSha256": "fdfda39b88c2aaec4745b317da56687b8533fcbe3e71c148ebf0050615fcd9d9"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Filled corn tortilla under sauce identifies enchilada, not a bare taco or flour-tortilla burrito; singular/plural accepted."
+    },
+    {
+      "id": "general-cs-medium-05-07",
+      "questionSha256": "3069b0d92163cc38621e16db83c4343d4fb7819667cbf986b0a28e4cf04330a2",
+      "fullEvidenceSha256": "a0db1233da316b4f58fa7b4eb42bcf6bf29ce6af0596c29093cb9c99ce930ecf",
+      "input": "SOURCE-LEDGER.json#/entries/6",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/34",
+        "objectSha256": "af12827fc6737da3e15fb12cdf31ee46681ee236640f37fe8f79604b2266bba6"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Italian flat yeast bread with olive-oil surface identifies focaccia. Roman pizza bianca is a related bread, not a universal synonym; the source calls it similar."
+    },
+    {
+      "id": "general-cs-medium-05-08",
+      "questionSha256": "d8854964bbb637e4f5b9c792d43c4f3df819fdb3a02e7cd895a6e85ce4d57c8a",
+      "fullEvidenceSha256": "518a6be2bc6042e0462023b62a332fd7394794672676af04a4ec280893ffe16c",
+      "input": "SOURCE-LEDGER.json#/entries/7",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/35",
+        "objectSha256": "0188d720e887e700bc259812a8db2d2cd98b021b94f32a8ba7ca90c989d8e9eb"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Indian butterfat production identifies ghee; broader přepuštěné máslo is deliberately accepted. The clue does not falsely require an unsupported precise simmering time."
+    },
+    {
+      "id": "general-cs-medium-05-09",
+      "questionSha256": "0f8b76afc430fa9cd2d83c457344625746d9392f09ecdad0c396da670ee9c954",
+      "fullEvidenceSha256": "d7951d615d9ae810723137c7cdd6ad84f20e3aafa194ae62a23d28b2fdfa8728",
+      "input": "SOURCE-LEDGER.json#/entries/8",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/36",
+        "objectSha256": "70be5b091a9a4d26f786a48f1ebb6176a7ccca75d0ecd3c2995eba86c64e8b93"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Thick Chinese sweet-salty soybean condiment used with Peking duck fits hoisin. Not any soy sauce, whose thinness and typical use differ."
+    },
+    {
+      "id": "general-cs-medium-05-10",
+      "questionSha256": "bf9dde32c0420d0e849ca6ed8f7deb0a852b7345628663c5cf7a0bce350ff676",
+      "fullEvidenceSha256": "2074d37cc2d569d7ff875bd17b90942e9dbd669b1d6d3cc6ffcc343c249fb5b3",
+      "input": "SOURCE-LEDGER.json#/entries/9",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/37",
+        "objectSha256": "e72846f7d4e931e491dba86f870bb5016c75e0371e47096b6411a220b30f5186"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Spanish fried dough sticks with sugar/hot chocolate identify churros; singular accepted. Regional porras are a thicker variant, not needed as a universal synonym."
+    },
+    {
+      "id": "general-cs-medium-05-11",
+      "questionSha256": "18e6a07cf78b6ee92a98e972e3995847f97dc29b4dcedeeda79f6f335784c19c",
+      "fullEvidenceSha256": "c59967dfeb29d5896a1349c7d12a3b0ac3c528ce9b66ff4c27670e51615bb273",
+      "input": "SOURCE-LEDGER.json#/entries/10",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/38",
+        "objectSha256": "fabd16e8b87ed64677b0910e572209c2fb32be6afdb59c090d87a1bd9c9349e8"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "specialist-but-fair",
+      "adultReason": "Resistance to crystallization in hard candy and sugar sculpture supports isomalt. This is pastry/food-technology knowledge, a genuine harder bridge rather than informed-adult baseline."
+    },
+    {
+      "id": "general-cs-medium-05-12",
+      "questionSha256": "c3877967ff4a071d3d3b9b9ef75740b7522bbb2581d5e93c46ad482cad095cc7",
+      "fullEvidenceSha256": "0517cd32c4c0da508d1f2f5a713027f352373d82f8c55c3955571029716860af",
+      "input": "SOURCE-LEDGER.json#/entries/11",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/39",
+        "objectSha256": "0d65fc9440809e2da113670b237e33e72e88e66813be4ffe50d9b67c2a529fd4"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "Polished barley grains for soup are ječné/ječmenné kroupy; unqualified kroupy is accepted. Perlový ječmen is contextual pearl-barley terminology, not an unrelated grain."
+    },
+    {
+      "id": "general-cs-medium-05-13",
+      "questionSha256": "da1f3625e25294f6669d0735653d6053bd0389959442842d205fb13aa452078a",
+      "fullEvidenceSha256": "cd61de8e3b6c7f66d1c089bca4d589885f75d7ea8b1720304cda812a0321532b",
+      "input": "SOURCE-LEDGER.json#/entries/12",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/40",
+        "objectSha256": "f201d3371f827d0d50cbfee541e6f5152f3aafa2d98be6e714bb43eb502a8407"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "Brown heated-sugar ingredient is karamel, not the process karamelizace or molasses produced during sugar manufacture."
+    },
+    {
+      "id": "general-cs-medium-05-14",
+      "questionSha256": "09c03f3a6288b1406d359f7ce0e09b26cc59d1bf094c8677a5774d035b7e2c39",
+      "fullEvidenceSha256": "ce5b87c7b55de5e40863938a3fb88c05a72116aad4bccc427366f36e8875fe2d",
+      "input": "SOURCE-LEDGER.json#/entries/13",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/41",
+        "objectSha256": "7d1ff39f14920601095f480bfa6100058e58bf5bb9c31eb846bc2e60e7a77c90"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "Espresso with much hot milk supports latte and the stated Italian coffee-with-milk etymology. Not latte macchiato as a mandatory equivalent preparation."
+    },
+    {
+      "id": "general-cs-medium-05-15",
+      "questionSha256": "5b1659f93222bfe8eb410aa456d3ee5df1c38ce857a8077f503900cc17552fea",
+      "fullEvidenceSha256": "6af4d9f040b14d4610e4098c6de8e22ead6da0fa087ced31676333c52b5f435c",
+      "input": "SOURCE-LEDGER.json#/entries/14",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/42",
+        "objectSha256": "8c852d200ec83a3d16cd738eb4091c6bcda05ab07840c088d841d2e600580cc1"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Fresh southern Italian stretched-curd cheese traditionally buffalo and also cow milk identifies mozzarella; not cheddar or whey ricotta."
+    },
+    {
+      "id": "general-cs-medium-05-16",
+      "questionSha256": "42694282dbe575cbdc79e8b1098b105593344682c370f27ba76e0d948a3bd892",
+      "fullEvidenceSha256": "8ddc1bef9d88cf98360b1c7ed44f02970d73d26e5ebb4cefb7167c0d427218d7",
+      "input": "SOURCE-LEDGER.json#/entries/15",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/43",
+        "objectSha256": "33a964436cdadc137396afa5443394a3534704d6bcaba20ac9d7d36a9a45788a"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Japanese dried edible seaweed sheets for sushi identify nori, not every seaweed or a plant taxonomic family."
+    },
+    {
+      "id": "general-cs-medium-05-17",
+      "questionSha256": "62195a8df3f5adc81ce9a5911d7daba5eb01a4394a0d384eeccef6cf8d3f1f05",
+      "fullEvidenceSha256": "edb0759c9cd8b890a8cad71a848c3a193a54113369208c5bb10771d87da9c3b8",
+      "input": "SOURCE-LEDGER.json#/entries/16",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/44",
+        "objectSha256": "5b17e5a9c98a7e7a0f3a5ef34c76ed0ccf7521ee0de1507a9d3b073655c57d92"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Alcohol converted to acetic acid adds food-chemistry knowledge beyond recognising a vinegar bottle; the source supports the fermentation description."
+    },
+    {
+      "id": "general-cs-medium-05-18",
+      "questionSha256": "4ce3f673117172e8a72f1b9a2e175c81e385a6496a0361f8d8c705f4b4a7e726",
+      "fullEvidenceSha256": "a4211fbed5075fe3ae103e9e7f6e1cdd0d2529490570aa1769c22d0e736dc0d2",
+      "input": "SOURCE-LEDGER.json#/entries/17",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/45",
+        "objectSha256": "0a52ab8bcd3d30c6a50b0d9a0d99a27f77c12314425377efef35f21085431bb9"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "Flat leaves and pale bundle of leaf sheaths identify leek/pór rather than garlic cloves. The wording avoids the false stem equivalence."
+    },
+    {
+      "id": "general-cs-medium-05-19",
+      "questionSha256": "dd8e52b573ad3585e19b744e8811c45c3ae229f2fd3e9573e477b1c3cb37570f",
+      "fullEvidenceSha256": "56501d3076617f6f3b381d0c0a417363771ad3cfb5b7e8e68959671dc779a458",
+      "input": "SOURCE-LEDGER.json#/entries/18",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/46",
+        "objectSha256": "79a63623e1026ed9c7bdebc2316debc2a1234bfa67974a4b9ba1fc1bafd28122"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Traditional heating of whey distinguishes ricotta from curdled whole-milk cheese; modern milk production does not invalidate the explicit traditionally qualifier."
+    },
+    {
+      "id": "general-cs-medium-05-20",
+      "questionSha256": "e08d4d10af1dbbff41d8dc385a7e038dabd63e8722cb8f74c6945a9a9a9b2513",
+      "fullEvidenceSha256": "5612f4783843cd8ed6c08d297a98ae2005e84ac6666bcf4e0d864f3885884330",
+      "input": "SOURCE-LEDGER.json#/entries/19",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/47",
+        "objectSha256": "9a69f2b95dcab0a1eb320d4f2ac09cf98b04f1520e886f95201352b42eae0008"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "Lepidium sativum and growing fresh shoots on damp cotton identify garden cress. Current Nature uses Řebčík královský in the retired earlier cress slot."
+    },
+    {
+      "id": "general-cs-medium-05-21",
+      "questionSha256": "6027e92515aeed6c5beb9535b89532f0ee85ea97507f97e33e191a5943f29959",
+      "fullEvidenceSha256": "5e528e418ec32e9e1f8520cd95809e5cf9a589560a270c8b5d04bce96cd81d65",
+      "input": "SOURCE-LEDGER.json#/entries/20",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/48",
+        "objectSha256": "f26f4d617616f749e965e051863a6ffd597f9d56695000bee12d99579e1bdc2e"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "South Asian draped long cloth identifies sárí, not ancient Greek himation or its accompanying stitched bodice."
+    },
+    {
+      "id": "general-cs-medium-05-22",
+      "questionSha256": "3231d358e30c2c614cef9d7ed103f8366e1358bf927650bb4e299d0b68aa83ee",
+      "fullEvidenceSha256": "a549e51ea15cadcc9563a4a26c17ad1a800d40ed80e175d6957df1bc8a4bf187",
+      "input": "SOURCE-LEDGER.json#/entries/21",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/49",
+        "objectSha256": "06ccb58049df13563a7500e812bebc2e9726d0f41254058b077a0c000f7bce66"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "Join of fabric layers by a row of stitches is šev, not an individual steh, gathering or a dart."
+    },
+    {
+      "id": "general-cs-medium-05-23",
+      "questionSha256": "5d706d4de06b984f50e9a7c36d23b0768d226aa7732c022b9adc1d00cdb59b58",
+      "fullEvidenceSha256": "a3ea280be2adb19affd6adfc8fd9128ba0e593438497cc9bf4ba0e56a400d9cd",
+      "input": "SOURCE-LEDGER.json#/entries/22",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/50",
+        "objectSha256": "c5725057cfcb89af46b7ea7956c8c494d82bcce9425f080f44e1973d836715a9"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Coagulating soy drink and pressing curds identifies tofu; sójový tvaroh is an appropriate native equivalent, not fermented tempeh."
+    },
+    {
+      "id": "general-cs-medium-05-24",
+      "questionSha256": "46776a44b84593aed936b7719e6b421664849aeb50ead9ee2805a2a3389ae722",
+      "fullEvidenceSha256": "82c350d9962a3743e6952d47fabffc1eed3268d7a7b41aaa29fe03b1da711aee",
+      "input": "SOURCE-LEDGER.json#/entries/23",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/51",
+        "objectSha256": "c092da66b9a106ef79521b001dcfc0fa861cc6e5089f199b4aab22a43a835268"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "specialist-but-fair",
+      "adultReason": "Dark southeastern Turkish pepper and smoky character fit Urfa/isot. This is regional spice-specialist knowledge; retained as an explicit harder bridge, not automatically declared ordinary informed knowledge."
+    },
+    {
+      "id": "general-cs-medium-05-25",
+      "questionSha256": "deca7c69e283194134a8105c0e33259d63420ea5e6921d01795158b0c776c67a",
+      "fullEvidenceSha256": "cb856e7ede9d7c2b25750c81033eb389bd9a31adf25f423ec0b4cc7497798ae1",
+      "input": "SOURCE-LEDGER.json#/entries/24",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/52",
+        "objectSha256": "2cbbc3b2cab3d07ddd8fd7a223b8be29573ecf51a9c244f46d3c2c72b2b0a181"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Book chapter ornament is the native ornament sense of viněta, explicitly supported by Czech source text; not an epigraph quotation, wine label or vignette photograph."
+    },
+    {
+      "id": "general-cs-medium-05-26",
+      "questionSha256": "cdc1580fb18c02628cbc45cf626e6d0d625510037af01a0a6c29253ac7bdaad7",
+      "fullEvidenceSha256": "e41867268d14688024deb725da0e4bbec5b982141f50cafe08ef45b99ddd57f3",
+      "input": "SOURCE-LEDGER.json#/entries/25",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/53",
+        "objectSha256": "9727ada76ac24dcc354781a7b2ca6885abcc0b1ddb92de706cd1a44de0ff625a"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Traditional grated Eutrema rhizome paste identifies wasabi; japonský křen is the contextual culinary common name, not claiming ordinary horseradish is the same plant."
+    },
+    {
+      "id": "general-cs-medium-05-27",
+      "questionSha256": "e199e4004ea65c92f049424772456e8de6e8bd0753cc380f0465fb0e0abcb7bd",
+      "fullEvidenceSha256": "b8ad1d518d2187d040710290222d364fa8b515590f1bd3fb1090fac79778a7c1",
+      "input": "SOURCE-LEDGER.json#/entries/26",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/54",
+        "objectSha256": "28781dda601c20aaa252d7fd16f49a7548c50330958160c7cba38b9e03033b1b"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "common",
+      "adultReason": "Fresh/dried aromatic Zingiber rhizome is ordinary zázvor; Latin botanical cue clarifies but does not by itself manufacture difficulty."
+    },
+    {
+      "id": "general-cs-medium-05-28",
+      "questionSha256": "b7a6981e08852246d31749c93ed2a82be4e273d852d9dbd7670ca82491266235",
+      "fullEvidenceSha256": "ce259381e7ceebe535457999ad4eb100977b3f1f046ecde92229ce568a57fda9",
+      "input": "SOURCE-LEDGER.json#/entries/27",
+      "priorIndependentReceipt": {
+        "file": {
+          "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/composite84-receipts.json",
+          "sha256": "3cbc5b40ae756a1487340d8fc524102269718682038814c7de3ab09cfbf6eb99",
+          "bytes": 3081316
+        },
+        "jsonPointer": "/entries/55",
+        "objectSha256": "df2bc211d98fee579448ac192e59e076d7ba628e9b2794bc2d60a18fcefcdff8"
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "aliases": "All legitimate accepted forms retained, including the custard alternatives.",
+      "adult": "informed",
+      "adultReason": "Formal daytime cutaway front and long back tails identify žaket, not an evening tailcoat, Čamara or Čerkeska. Morning coat/cutaway are correct garment-level equivalents."
+    }
+  ],
+  "wholeAdult": {
+    "decision": "ACCEPTED MEDIUM; exact prior whole-adult judgment inherited",
+    "bandsNotQuotas": {
+      "common": 8,
+      "informed": 18,
+      "specialist-but-fair": 2
+    },
+    "reason": "Informed international food/cultural terms dominate the experience; Isomalt and Urfa biber remain fair specialist edges. Ocet retains INFORMED, not the erroneous common-bridge pair prose.",
+    "authority": {
+      "path": ".artifacts/continuation/bundles/p12/general/reviews/b06-v2/difficulty-calibration.json",
+      "sha256": "27561dd34609433d1d9a1fe00032da9a49465474364c3cbd2477e9287d1a2149",
+      "bytes": 10739
+    }
+  },
+  "originalInitialAccepted": 28,
+  "currentAccepted": 28,
+  "currentHeld": 0,
+  "currentPairClosure": "PAIR-DECISIONS.json is a required separate component of this verdict",
+  "sourcePacketRoot": ".artifacts/continuation/fresh38-authors/general-cs-medium-05",
+  "pointerConvention": "Source-input filenames/JSON pointers resolve from sourcePacketRoot; all complete input files are SHA-bound in shared INPUT-BINDINGS.json."
+}

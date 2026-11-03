@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-medium-05",
+  "title": "Všeobecné znalosti · Střední · 05",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "medium",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-medium-05-01",
+      "text": "Jak se italsky nazývá první chod tradičního jídla, často tvořený uzeninami, sýry či nakládanou zeleninou?",
+      "initial": "A",
+      "answer": "Antipasto",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Antipasti"],
+      "sources": ["https://en.wikipedia.org/wiki/Antipasto"]
+    },
+    {
+      "id": "general-cs-medium-05-02",
+      "text": "Jak se nazývá jemné francouzské kynuté pečivo, jehož těsto obsahuje větší množství vajec a másla?",
+      "initial": "B",
+      "answer": "Brioška",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Brioche"],
+      "sources": ["https://en.wikipedia.org/wiki/Brioche"]
+    },
+    {
+      "id": "general-cs-medium-05-03",
+      "text": "Jak se nazývá dezert z vaječného krému s tvrdou krustou z karamelizovaného cukru na povrchu?",
+      "initial": "C",
+      "answer": "Crème brûlée",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Krém brulé",
+        "Burnt cream",
+        "Cambridge burnt cream",
+        "Trinity cream",
+        "Crema catalana",
+        "Katalánský krém"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e",
+        "https://www.toprecepty.cz/recept/24601-katalansky-krem-crema-catalana/"
+      ]
+    },
+    {
+      "id": "general-cs-medium-05-04",
+      "text": "Jak se nazývá indická kořeněná příloha či omáčka, často připravovaná z ovoce nebo zeleniny?",
+      "initial": "Č",
+      "answer": "Čatní",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Chutney", "Čatný"],
+      "sources": ["https://en.wikipedia.org/wiki/Chutney"]
+    },
+    {
+      "id": "general-cs-medium-05-05",
+      "text": "Jak se nazývá řidší ovocná zavařenina s nerozvařenými kousky ovocné dřeně?",
+      "initial": "D",
+      "answer": "Džem",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jam", "Ovocný džem"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fruit_preserves",
+        "https://ssjc.ujc.cas.cz/search.php?heslo=d%C5%BEem&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-medium-05-06",
+      "text": "Jak se nazývá mexické jídlo z plněné kukuřičné tortilly přelité omáčkou?",
+      "initial": "E",
+      "answer": "Enchilada",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Enchiladas"],
+      "sources": ["https://en.wikipedia.org/wiki/Enchilada"]
+    },
+    {
+      "id": "general-cs-medium-05-07",
+      "text": "Jak se nazývá italský plochý kynutý chléb, jehož povrch se obvykle potírá olivovým olejem?",
+      "initial": "F",
+      "answer": "Focaccia",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Focaccia"]
+    },
+    {
+      "id": "general-cs-medium-05-08",
+      "text": "Jak se v indické kuchyni nazývá tuk získaný z másla odstraněním vody a mléčných pevných složek?",
+      "initial": "G",
+      "answer": "Ghee",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ghí", "Přepuštěné máslo"],
+      "sources": ["https://en.wikipedia.org/wiki/Ghee"]
+    },
+    {
+      "id": "general-cs-medium-05-09",
+      "text": "Jak se nazývá hustá čínská sladkoslaná omáčka, obvykle ze sójových bobů, používaná například k pekingské kachně?",
+      "initial": "H",
+      "answer": "Hoisin",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Omáčka hoisin", "Hoisin sauce"],
+      "sources": ["https://en.wikipedia.org/wiki/Hoisin_sauce"]
+    },
+    {
+      "id": "general-cs-medium-05-10",
+      "text": "Jak se nazývají španělské smažené tyčinky z těsta, často obalené v cukru a podávané s horkou čokoládou?",
+      "initial": "Ch",
+      "answer": "Churros",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Churro"],
+      "sources": ["https://en.wikipedia.org/wiki/Churro"]
+    },
+    {
+      "id": "general-cs-medium-05-11",
+      "text": "Jak se nazývá náhradní sladidlo používané pro tvrdé bonbony a cukrové plastiky, protože při zpracování dobře odolává krystalizaci?",
+      "initial": "I",
+      "answer": "Isomalt",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Isomalt"]
+    },
+    {
+      "id": "general-cs-medium-05-12",
+      "text": "Jak se nazývají obroušená zrna ječmene zbavená obalů, používaná například v polévkách?",
+      "initial": "J",
+      "answer": "Ječné kroupy",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Kroupy", "Ječmenné kroupy", "Perlový ječmen"],
+      "sources": ["https://en.wikipedia.org/wiki/Pearl_barley"]
+    },
+    {
+      "id": "general-cs-medium-05-13",
+      "text": "Jak se nazývá hnědá hmota vznikající zahříváním cukru, používaná k dochucování a barvení dezertů?",
+      "initial": "K",
+      "answer": "Karamel",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Caramel"]
+    },
+    {
+      "id": "general-cs-medium-05-14",
+      "text": "Jak se nazývá kávový nápoj z espressa a většího množství teplého mléka, jehož italský název znamená káva s mlékem?",
+      "initial": "L",
+      "answer": "Latté",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Caffè latte", "Café latte"],
+      "sources": ["https://en.wikipedia.org/wiki/Latte"]
+    },
+    {
+      "id": "general-cs-medium-05-15",
+      "text": "Který čerstvý italský sýr se tradičně vyrábí z buvolího mléka a běžně také z kravského?",
+      "initial": "M",
+      "answer": "Mozzarella",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Mozzarella"]
+    },
+    {
+      "id": "general-cs-medium-05-16",
+      "text": "Jak se japonsky nazývají sušené pláty jedlých řas používané například k obalování sushi?",
+      "initial": "N",
+      "answer": "Nori",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Nori"]
+    },
+    {
+      "id": "general-cs-medium-05-17",
+      "text": "Jak se nazývá kyselé dochucovadlo vznikající přeměnou alkoholu na kyselinu octovou?",
+      "initial": "O",
+      "answer": "Ocet",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Kuchyňský ocet"],
+      "sources": ["https://en.wikipedia.org/wiki/Vinegar"]
+    },
+    {
+      "id": "general-cs-medium-05-18",
+      "text": "Jak se nazývá cibulová zelenina s dlouhými plochými listy a bělavou spodní částí tvořenou listovými pochvami?",
+      "initial": "P",
+      "answer": "Pórek",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Pór", "Pór zahradní"],
+      "sources": ["https://en.wikipedia.org/wiki/Leek"]
+    },
+    {
+      "id": "general-cs-medium-05-19",
+      "text": "Jak se nazývá jemný italský výrobek podobný čerstvému sýru, tradičně získávaný zahříváním syrovátky?",
+      "initial": "R",
+      "answer": "Ricotta",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Rikota"],
+      "sources": ["https://en.wikipedia.org/wiki/Ricotta"]
+    },
+    {
+      "id": "general-cs-medium-05-20",
+      "text": "Jak se nazývá drobná bylina Lepidium sativum, jejíž mladé výhonky se pěstují například na vlhké vatě a jedí se čerstvé?",
+      "initial": "Ř",
+      "answer": "Řeřicha",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Řeřicha setá"],
+      "sources": ["https://en.wikipedia.org/wiki/Garden_cress"]
+    },
+    {
+      "id": "general-cs-medium-05-21",
+      "text": "Jak se nazývá jihoasijský ženský oděv tvořený dlouhým pruhem látky ovinutým kolem těla?",
+      "initial": "S",
+      "answer": "Sárí",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Saree"],
+      "sources": ["https://en.wikipedia.org/wiki/Sari"]
+    },
+    {
+      "id": "general-cs-medium-05-22",
+      "text": "Jak se při šití nazývá spojení dvou nebo více vrstev látky řadou stehů?",
+      "initial": "Š",
+      "answer": "Šev",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Šitý šev"],
+      "sources": ["https://en.wikipedia.org/wiki/Seam_(sewing)"]
+    },
+    {
+      "id": "general-cs-medium-05-23",
+      "text": "Jak se nazývá sójový výrobek vznikající srážením sójového nápoje a lisováním získané sraženiny?",
+      "initial": "T",
+      "answer": "Tofu",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Sójový tvaroh"],
+      "sources": ["https://en.wikipedia.org/wiki/Tofu"]
+    },
+    {
+      "id": "general-cs-medium-05-24",
+      "text": "Jak se nazývá turecké koření z tmavých sušených paprik z jihovýchodu země, známé kouřovou chutí?",
+      "initial": "U",
+      "answer": "Urfa biber",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Isot", "Urfa pepper", "Urfa"],
+      "sources": ["https://en.wikipedia.org/wiki/Urfa_biber"]
+    },
+    {
+      "id": "general-cs-medium-05-25",
+      "text": "Jak se nazývá drobný grafický ornament užívaný například k ozdobě začátku či konce kapitoly knihy?",
+      "initial": "V",
+      "answer": "Viněta",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Vignette"],
+      "sources": ["https://cs.wikipedia.org/wiki/Vin%C4%9Bta"]
+    },
+    {
+      "id": "general-cs-medium-05-26",
+      "text": "Jak se nazývá ostrá zelená japonská pasta tradičně připravovaná ze strouhaného oddenku Eutrema japonicum?",
+      "initial": "W",
+      "answer": "Wasabi",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Japonský křen"],
+      "sources": ["https://en.wikipedia.org/wiki/Wasabi"]
+    },
+    {
+      "id": "general-cs-medium-05-27",
+      "text": "Jak se nazývá koření z aromatického oddenku Zingiber officinale, používané čerstvé i sušené?",
+      "initial": "Z",
+      "answer": "Zázvor",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Zázvor lékařský"],
+      "sources": ["https://en.wikipedia.org/wiki/Ginger"]
+    },
+    {
+      "id": "general-cs-medium-05-28",
+      "text": "Jak se nazývá slavnostní mužský denní kabát se šikmo sestřiženými předními díly a prodlouženými zadními šosy?",
+      "initial": "Ž",
+      "answer": "Žaket",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Morning coat", "Cutaway"],
+      "sources": ["https://en.wikipedia.org/wiki/Morning_dress"]
+    }
+  ]
+}

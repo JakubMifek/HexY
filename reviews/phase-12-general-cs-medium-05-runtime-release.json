@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "scope": "Only GeneralCSMedium05 exact ten frozen inputs against actual164",
+  "reviewer": "Same sole independent wave2 content reviewer; identity retained in original seals",
+  "publisherSessionId": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "actualParent": "cfb9694b45552c3aaf6a2502db5162124993ba6a",
+  "candidateCheckout": ".artifacts/continuation/fresh38-release-165-worktree",
+  "deckId": "general-cs-medium-05",
+  "entries": 28,
+  "initialAcceptedInherited": 28,
+  "currentAcceptedInherited": 28,
+  "held": 0,
+  "pack": {
+    "path": ".artifacts/continuation/fresh38-release-165-worktree/src/content/general-cs-medium-05.json",
+    "sha256": "73e83fd575609aacf23551c4d447af262d24b316b2521dfc0da6a33861a7c25b",
+    "bytes": 11265
+  },
+  "freeze": {
+    "path": ".artifacts/continuation/fresh38-review-165/FROZEN-SHA256SUMS",
+    "sha256": "0a673312a4a91818e58dc75f7ee64c81978eec110bf6ccefba365122f796d0fc",
+    "bytes": 1566
+  },
+  "candidateDiff": {
+    "path": ".artifacts/continuation/fresh38-review-165/CANDIDATE.diff",
+    "sha256": "28216011228549b4ced5dae8d1628f6b96ddd989c650ebc110af60ffebcea881",
+    "bytes": 4620
+  },
+  "frozenSourceBindings": {
+    "IMPLEMENTATION_PHASES.md": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/IMPLEMENTATION_PHASES.md",
+      "sha256": "a342becfe7a36136dfcbe850c5875217d1bde1baf0519270e962ddbf8c90cca9",
+      "bytes": 176567
+    },
+    "README.md": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/README.md",
+      "sha256": "211e2d0c486c81066f647783631fd070741bbbb3cac2edcff31ee0fcc3813b26",
+      "bytes": 75086
+    },
+    "docs/content-inventory.md": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/docs/content-inventory.md",
+      "sha256": "936bc15e3d9de56cb67e41ef972be74383ae2772b45a54a426d8215234c60a35",
+      "bytes": 56231
+    },
+    "docs/phase-12-deck-inventory.json": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/docs/phase-12-deck-inventory.json",
+      "sha256": "c81ea213fcdc43d8af5a1f03acbe31a6f44b9077c39b0b1782b91e30a1790146",
+      "bytes": 1185
+    },
+    "docs/phase-12-general-cs-medium-05-source-continuity.json": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/docs/phase-12-general-cs-medium-05-source-continuity.json",
+      "sha256": "e215086146ab6966f1b4a624d24d96eeac4802d6f64d4f6d3ca92b2e98be9208",
+      "bytes": 41406
+    },
+    "docs/phase-12-general-cs-medium-05-sources.json": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/docs/phase-12-general-cs-medium-05-sources.json",
+      "sha256": "59865c4005e1e41ff1b9b417ce3bf5909e21a300bc40202fc04f2759dd6fde84",
+      "bytes": 2857120
+    },
+    "reviews/phase-12-general-cs-medium-05-content-review.json": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/reviews/phase-12-general-cs-medium-05-content-review.json",
+      "sha256": "4354e50317775f47e665abcc04888cb09cef62ea5779f80a290198e80b226e16",
+      "bytes": 32219
+    },
+    "reviews/phase-12-general-cs-medium-05-content-review.md": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/reviews/phase-12-general-cs-medium-05-content-review.md",
+      "sha256": "0e36291fa297a8141b9b0065e11a6903b8744e874154f60328269bea163e5316",
+      "bytes": 3360
+    },
+    "src/content-order.json": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/src/content-order.json",
+      "sha256": "812dfb6eef3a08db495f5f40f2b99317bc3ba2558505162834d056df6e90accb",
+      "bytes": 4716
+    },
+    "src/content/general-cs-medium-05.json": {
+      "path": ".artifacts/continuation/fresh38-release-165-worktree/src/content/general-cs-medium-05.json",
+      "sha256": "73e83fd575609aacf23551c4d447af262d24b316b2521dfc0da6a33861a7c25b",
+      "bytes": 11265
+    }
+  },
+  "contentSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/general-cs-medium-05/SEAL.json",
+    "sha256": "ef5f46bb18bbd722aa9dd862e454cc0b9be9091a548909c23e43b1d70a24e9ce",
+    "bytes": 2665
+  },
+  "substantivePairDecisions": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/general-cs-medium-05/PAIR-DECISIONS.json",
+    "sha256": "16b4e7f43e25fcd33ea1b6aa803a1046fe9d383457a2dc251bb990f0ac2a1a9d",
+    "bytes": 93446
+  },
+  "crossOwn112": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/CROSS-OWN112.json",
+    "sha256": "6d464f6d809806e1ad11838b833fd92c7cd9c5d91a775f83b0d36f332a5e818d",
+    "bytes": 30005
+  },
+  "crossOwnBundleSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/BUNDLE-SEAL.json",
+    "sha256": "8fe9643bc45e2f369d49c3a84f01c4599e0dbab99365b7f39430b5ace807a395",
+    "bytes": 7457
+  },
+  "originalFullSourceLedger": {
+    "path": ".artifacts/continuation/fresh38-authors/general-cs-medium-05/SOURCE-LEDGER.json",
+    "sha256": "73a206bc1e5e7cc029c7b50e0a9384ff77a59fb212e060e24bbea6b84fc6b34d",
+    "bytes": 2887588
+  },
+  "originalOwn28Continuity": {
+    "path": ".artifacts/continuation/fresh38-authors/general-cs-medium-05/ENTRY-INHERITANCE.json",
+    "sha256": "e215086146ab6966f1b4a624d24d96eeac4802d6f64d4f6d3ca92b2e98be9208",
+    "bytes": 41406
+  },
+  "originalAcceptedEntryDecisions": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/general-cs-medium-05/ENTRY-DECISIONS.json",
+    "sha256": "4354e50317775f47e665abcc04888cb09cef62ea5779f80a290198e80b226e16",
+    "bytes": 32219
+  },
+  "completeFormattingOnlyJSONCopies": [
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/general-cs-medium-05/SOURCE-LEDGER.json",
+        "sha256": "73a206bc1e5e7cc029c7b50e0a9384ff77a59fb212e060e24bbea6b84fc6b34d",
+        "bytes": 2887588
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-165-worktree/docs/phase-12-general-cs-medium-05-sources.json",
+        "sha256": "59865c4005e1e41ff1b9b417ce3bf5909e21a300bc40202fc04f2759dd6fde84",
+        "bytes": 2857120
+      },
+      "wholeJSONValueSha256": "1798474aee43760322f63146395b5f643b6ea3e7537dca36dafa7ac21f6318c6",
+      "wholeOrderedProjectionSha256": "9a8db7d8189f4f0898029c4cecc37961aa7fc7a7c19e9ff7199f1a3d6f05d5fc",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/general-cs-medium-05/ENTRY-INHERITANCE.json",
+        "sha256": "e215086146ab6966f1b4a624d24d96eeac4802d6f64d4f6d3ca92b2e98be9208",
+        "bytes": 41406
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-165-worktree/docs/phase-12-general-cs-medium-05-source-continuity.json",
+        "sha256": "e215086146ab6966f1b4a624d24d96eeac4802d6f64d4f6d3ca92b2e98be9208",
+        "bytes": 41406
+      },
+      "wholeJSONValueSha256": "beeddfed99b866fe01b8992b28de897feb5f5d15d9158f72e7bcdfff8119b007",
+      "wholeOrderedProjectionSha256": "93d023aac537caa7a4685f0950608ff6c932c60edc344a9f7319489a81e2902d",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-review-wave2/general-cs-medium-05/ENTRY-DECISIONS.json",
+        "sha256": "4354e50317775f47e665abcc04888cb09cef62ea5779f80a290198e80b226e16",
+        "bytes": 32219
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-165-worktree/reviews/phase-12-general-cs-medium-05-content-review.json",
+        "sha256": "4354e50317775f47e665abcc04888cb09cef62ea5779f80a290198e80b226e16",
+        "bytes": 32219
+      },
+      "wholeJSONValueSha256": "270a446e96429d5b55a8c07f2e05253b8687863313c4a4d1479077d130b04418",
+      "wholeOrderedProjectionSha256": "655ac48215e319da05ee412a73c513ea8df09176dd2e20ebb8b5627abe9ee760",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    }
+  ],
+  "sourceScope": "Own28 projected entries are the only newly published questions. Whole2.8MB ledger history retains other native records as evidence only, without clearing them.",
+  "sourceHistoryNotCleared": true,
+  "report": {
+    "path": ".artifacts/continuation/fresh38-review-165/REPORT.md",
+    "sha256": "e8680c2f02d00c7a75ab3434f0c1595cff089622a955fcc95700b65c2a673c7b",
+    "bytes": 4188
+  },
+  "verification": {
+    "path": ".artifacts/continuation/fresh38-review-165/VERIFICATION.json",
+    "sha256": "b8d5ce3ded52f2f12fe9d79da5814e604f17afd47bcb2aca14828358c5fb86c0",
+    "bytes": 8318
+  },
+  "inputBindings": {
+    "path": ".artifacts/continuation/fresh38-review-165/INPUT-BINDINGS.json",
+    "sha256": "1d10c7917ef64c9360dc0b2a0cc9853775e96cf611ff0a293adb239dcc33918a",
+    "bytes": 48959
+  },
+  "applicationBoundary": {
+    "actualParent": "cfb9694b45552c3aaf6a2502db5162124993ba6a",
+    "baselineTrackedFiles": 623,
+    "candidateComparableFiles": 628,
+    "changed": [
+      "IMPLEMENTATION_PHASES.md",
+      "README.md",
+      "docs/content-inventory.md",
+      "docs/phase-12-deck-inventory.json",
+      "src/content-order.json"
+    ],
+    "added": [
+      "docs/phase-12-general-cs-medium-05-source-continuity.json",
+      "docs/phase-12-general-cs-medium-05-sources.json",
+      "reviews/phase-12-general-cs-medium-05-content-review.json",
+      "reviews/phase-12-general-cs-medium-05-content-review.md",
+      "src/content/general-cs-medium-05.json"
+    ],
+    "deleted": [],
+    "unchangedTrackedFiles": 618,
+    "existingPermissionBitsPreserved": true,
+    "executableToolTestDependencyConfigurationChanges": [],
+    "old164PackBytesAndOrderPreserved": true,
+    "onlyOwn28PackPublishedByCandidate": true
+  },
+  "candidateCounts": {
+    "decks": 165,
+    "questions": 4620,
+    "cs": 80,
+    "en": 85,
+    "combinations": 66,
+    "maximumPerQuota": 5,
+    "completedQuotas": 2
+  },
+  "concurrentDelta": [
+    {
+      "deckId": "general-cs-hard-05",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-general-hard05.json",
+        "sha256": "a83b48e932c75b9a26057f0dc5db44ab0ffa654810b1e53babe766dce0625208",
+        "bytes": 1030
+      },
+      "handoff": {
+        "path": ".artifacts/continuation/fresh38-authors/general-cs-hard-05/HANDOFF.json",
+        "sha256": "19f43423fa71bd7e9b522a0f7b629b316650b93e5e06024482c01a633705495d",
+        "bytes": 5957
+      },
+      "manifest": {
+        "path": ".artifacts/continuation/fresh38-authors/general-cs-hard-05/SHA256SUMS.json",
+        "sha256": "9291776727fe171b69a9acc0b9c1458814ec47588ed529e716d359809aaa832c",
+        "bytes": 4973
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/general-cs-hard-05/general-cs-hard-05.json",
+        "sha256": "dbd53e6f3481599f6dad898f6f6e91458260be579d6163530db8610dcec5d095",
+        "bytes": 12032
+      },
+      "currentAccepted": 0,
+      "meaningfulDeltaReported": false
+    },
+    {
+      "deckId": "science-cs-hard-03",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-science-geography-hard.json",
+        "sha256": "bbfbfdd6f9f99d629d2e80380039131a263621892acae32e5209be594270849f",
+        "bytes": 1960
+      },
+      "handoff": {
+        "path": ".artifacts/continuation/fresh38-authors/science-cs-hard-03/HANDOFF.json",
+        "sha256": "07f35557f5eedaaf8b20198dc0ad12f6ebea789cde74859481a0ee351347ec0e",
+        "bytes": 6438
+      },
+      "manifest": {
+        "path": ".artifacts/continuation/fresh38-authors/science-cs-hard-03/HASH-MANIFEST.json",
+        "sha256": "d3cd4016fb7d17b28d96fd3f04dcb8ade3dbd4c479d8acb305445e5f3f18103a",
+        "bytes": 3091
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/science-cs-hard-03/science-cs-hard-03.json",
+        "sha256": "2388c1cdd7dee00696ac87e2f7828957fc49b133b3c1c47becdd9894f1745110",
+        "bytes": 13321
+      },
+      "currentAccepted": 0,
+      "meaningfulDeltaReported": false
+    },
+    {
+      "deckId": "geography-cs-hard-04",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-science-geography-hard.json",
+        "sha256": "bbfbfdd6f9f99d629d2e80380039131a263621892acae32e5209be594270849f",
+        "bytes": 1960
+      },
+      "handoff": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-hard-04/HANDOFF.json",
+        "sha256": "4fc0f7b237f055b2833cf05f908e370cfdc2c4338ca0b044a019d3c3d4dba46c",
+        "bytes": 4917
+      },
+      "manifest": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-hard-04/HASH-MANIFEST.json",
+        "sha256": "b963c160d5d49f478db0a27bc0128f1a5e93d4cdd27fc9f1051702545d5d6469",
+        "bytes": 5552
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-hard-04/geography-cs-hard-04.json",
+        "sha256": "00ee9081d7e2eb9e23c27e37b6dee1083b53e8c64f88910a0d3332dbcccfe175",
+        "bytes": 12843
+      },
+      "currentAccepted": 0,
+      "meaningfulDeltaReported": false
+    },
+    {
+      "deckId": "nature-cs-easy-04",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-nature-easy04.json",
+        "sha256": "e0a6b0b01a011c7cd6ac307b99143b40950cd32e13e28f697260e9eace9c90e0",
+        "bytes": 1156
+      },
+      "handoff": {
+        "path": ".artifacts/continuation/fresh38-authors/nature-cs-easy-04/HANDOFF.json",
+        "sha256": "2e5adf0be9ea389aa88aaeca21ef18c085acd1ab7601f3e2b4518d2df51216f8",
+        "bytes": 5381
+      },
+      "manifest": {
+        "path": ".artifacts/continuation/fresh38-authors/nature-cs-easy-04/SHA256SUMS.json",
+        "sha256": "735f87e01102f10d3c4025af0316824ab2990c0d8a27c830ce0be5ede9accb92",
+        "bytes": 4741
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/nature-cs-easy-04/nature-cs-easy-04.json",
+        "sha256": "579b0c9cc2da46114a87184fcf76e1ba73c37fc0c880e4acacf393286fd60abe",
+        "bytes": 11485
+      },
+      "currentAccepted": 0,
+      "meaningfulDeltaReported": false
+    }
+  ],
+  "inheritedApplicationGateRevision": "c7cdaafb1969017728d00e35ceb2f6a731a700cf",
+  "migrationReview": {
+    "path": ".artifacts/continuation/fresh38-release-165-worktree/reviews/runtime-catalog-migration.json",
+    "sha256": "d5079ee627e5ac4a00dd90fcec3604d694f87605a1c45589f1fc438305efec9f",
+    "bytes": 2912
+  },
+  "actualPrivateMigrationProof": {
+    "path": ".artifacts/continuation/runtime-content-private-migration.json",
+    "sha256": "51c88190e17ddf14d7e7071959f1238d55c9d441fbf2b4fb88e98d49553881ed",
+    "bytes": 24675
+  },
+  "priorBrowserResults": {
+    "path": ".artifacts/continuation/runtime-content-browser-results.json",
+    "sha256": "fdb5c1b3a97857f7b8e7b940f07a69da38516bd147a6d458ed074576afea64f5",
+    "bytes": 42722
+  },
+  "actualParentDelivery": {
+    "path": ".artifacts/continuation/fresh38-deck164-actual-delivery.json",
+    "sha256": "137d09727753aaf9cc225622fbd8302e7c3ccffe1fee26ac4e14e714848716f1",
+    "bytes": 2072
+  },
+  "actualParentReleaseReview": {
+    "path": ".artifacts/continuation/fresh38-release-165-worktree/reviews/phase-12-nature-cs-hard-04-runtime-release.json",
+    "sha256": "3fbf88cd200ee28c15cc748cbbcc4466a10c954fc83851480a6b761294fd4062",
+    "bytes": 11087
+  },
+  "unchangedActuallyReferencedAssets": {
+    "/hexy/assets/index-Ck_9oRvP.js": "2bf488f03685b99bf40d1bf295883e131bf2162066c51f6273398eb7a4497717",
+    "/hexy/assets/index-DPcmLzC0.css": "dfcaaf71a4cc9429d3f38589e9e3a747d1532af9c692372b1e3d21d535d9af89"
+  },
+  "sixLenses": [
+    "correctness",
+    "usability/accessibility",
+    "readability/maintainability",
+    "ownership/OOP",
+    "patterns/proportionality",
+    "content/rights/delivery"
+  ],
+  "unresolvedFindings": [],
+  "remainingPublisherGates": [
+    "Mechanically bind exact review receipt/final documentation, without substantive candidate edits",
+    "Separate same-snapshot content-only release gate against cfb9694b45552c3aaf6a2502db5162124993ba6a",
+    "One-deck push/atomic promotion and actual full165 catalog/objects/order plus unchanged referenced JS/CSS verification"
+  ],
+  "centralContentGateExecuted": false,
+  "actuallyPublishedOrDelivered": false,
+  "otherDecksCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false
+}
