@@ -1,0 +1,17 @@
+{
+  "url": "https://www.pustitkvode.cz/pujcovna/na-hladine-orlik",
+  "bodyPath": ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/supplemental-sources/vodni-kolo-orlik.html",
+  "bodySha256": "ff0cc9c928fe4a8afc50613001ee3d799b2c414c037c6aa634c28960fe4f2c27",
+  "retrieval": "Actual HTTP200 with curl; also directly read with web_fetch",
+  "sourceQuality": "Regional tourism description of named hire fleet; primary contextual usage, not technical certification",
+  "actualNamingContext": "Vodní kolo – v podstatě jde o spinningové kolo přidělané na SUP, které poháníš vlastním šlapáním Vodní stepper – pro ty, co ve fitku upřednostňují stepper před rotopedem Family board – obří SUP pro celou rodinu s rozměry 470 x 150 cm Party board – mega obří paddleboard ",
+  "decision": "The actual native/English sources support a recreational pedal-powered craft. Directly retrieved regional-tourism text also calls a SUP-mounted, human-pedalled watercraft Vodní kolo. That actual subtype satisfies this broad complete clue; the alias does not accept a stationary mechanical waterwheel. Keep both useful finite native names.",
+  "failedOtherSource": {
+    "url": "https://lodeaclny.sk/cs/12-vodni-kola",
+    "actualHTTP": 429,
+    "retainedResponsePath": ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/supplemental-sources/vodni-kola.html",
+    "notUsedAsSuccessfulDirectSource": true
+  },
+  "candidateSourceLedgerEdited": false,
+  "integrationPrerequisite": "Carry this supplemental naming evidence/receipt into documentation when materialising the actual candidate, binding this exact source and review; no question or alias edit is requested."
+}

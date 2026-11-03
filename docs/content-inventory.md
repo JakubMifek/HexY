@@ -2,6 +2,23 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only candidate contains **163 decks / 4,564 questions**, English85/
+Czech78, adding only `geography-cs-easy-04` to actual delivered `3a46238b`
+(162/4,536). All162 old packs/order and application inputs remain immutable.
+All28 initial/current facts, full sources, aliases and Easy26-common/2-informed
+general-adult judgments have fresh independent acceptance in the
+[content review](../reviews/phase-12-geography-cs-easy-04-content-review.md).
+The [source ledger](phase-12-geography-cs-easy-04-sources.json),
+[original continuity](phase-12-geography-cs-easy-04-source-continuity.json)
+and [fresh naming support](phase-12-geography-cs-easy-04-supplemental-sources.json)
+retain all33 original evidence placements and the directly retrieved `vodní kolo`
+support. No question/alias was altered. Specific bilingual relations and the
+Pumpa station/machine homonym are accepted, not a blanket exemption.
+Actual-parent integration/content gate and individual push/private catalog/
+unchanged-asset checks remain separate. Final330/9,240/all66 and cleanup OPEN.
+
+## Retained162 preparation history
+
 The append-only candidate contains **162 decks / 4,536 questions**, English85/
 Czech77, adding only `science-cs-easy-03` to actual delivered `1d1fdf7b`
 (161/4,508). All161 old pack bytes/order and application inputs stay unchanged.

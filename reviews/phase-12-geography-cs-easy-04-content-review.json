@@ -1,0 +1,701 @@
+{
+  "reviewer": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "actualDeliveredParent": "aa85d3bf1fd9319f8dfe3869cb839c59989cbcf9",
+  "deckId": "geography-cs-easy-04",
+  "verdict": "CONTENT ACCEPTED; READY FOR ACTUAL-PARENT INTEGRATION REVIEW",
+  "initialAccepted": 28,
+  "initialHeld": 0,
+  "currentAccepted": 28,
+  "currentHeld": 0,
+  "entries": [
+    {
+      "id": "geography-cs-easy-04-01",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-01",
+        "initial": "A",
+        "text": "Který balkánský stát s hlavním městem Tiranou má pobřeží Jaderského i Jónského moře?",
+        "answer": "Albánie",
+        "aliases": [
+          "Albania",
+          "Albánská republika",
+          "Republika Albánie",
+          "Shqipëri",
+          "Shqipëria",
+          "Republika e Shqipërisë"
+        ],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Alb%C3%A1nie"]
+      },
+      "questionSha256": "33efa0d3736f0c954cb33e8a691f860943e0493866c4d6a94c2eb8ebcaf3a8b6",
+      "completeSourceEntrySha256": "c410d5c4a2a2648e43ee083401611168483d1e7445bf2b42abd82dfeaeb856a4",
+      "fullEvidenceArraySha256": "1c9297bb34272ba37d098b00ad13fcd4048eb6b1a851d50afda806b7a6063eb0",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Tirana plus both Adriatic/Ionian coasts identifies Albania. Actual native lead supports the country and Albanian/official names; no territorial or historical-name substitution.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-02",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-02",
+        "initial": "B",
+        "text": "Který evropský stát tvoří Vlámský, Valonský a Bruselský region?",
+        "answer": "Belgie",
+        "aliases": ["Belgické království", "Belgium"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Belgie"]
+      },
+      "questionSha256": "34b2c08714763f94ccb10793424c4daa45243503bb17373f9c5b1d2dcd6f6aca",
+      "completeSourceEntrySha256": "0d2d483f9bb9dce5e050ba0c83ac4db7be4e034a86fa7c008185a27bead4adba",
+      "fullEvidenceArraySha256": "84ec39cf0ca64b4ade932fbd9f80af30ba2dd642c43350720214782bf035585c",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "The country's three actual regions identify Belgium, not Brussels city or Flanders alone. Official Dutch/French/German country forms are valid. Exact reviewer160 bilingual same-fact ruling inherited.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-03",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-03",
+        "initial": "C",
+        "text": "Jak se nazývá podnik, který sestavuje a prodává vlastní zájezdy, například spojením dopravy a ubytování?",
+        "answer": "Cestovní kancelář",
+        "aliases": ["CK", "touroperátor", "tour operátor"],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/Cestovn%C3%AD_kancel%C3%A1%C5%99",
+          "https://en.wikipedia.org/wiki/Tour_operator"
+        ]
+      },
+      "questionSha256": "d7cabb05ed3ed17a1a3817aa382fb683c4e1a0117c5b4effc9223e17b00219f1",
+      "completeSourceEntrySha256": "d3ea6973290d387988bc1b439989ceec2335f7b4782409d8642210da8cf4683e",
+      "fullEvidenceArraySha256": "fb4f00aa27a6c50c8a28885261d09a8dc17edbe6507a7b483b86507c8fec69c7",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "A travel agency/tour operator organises and sells the combined trip; the trip package itself is a product, not the organiser. Native and Tour operator sources support this operational context, not a claim that every mere retail agent is a tour operator.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-04",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-04",
+        "initial": "Č",
+        "text": "Jak se nazývá místo u silnice, kde mohou řidiči natankovat benzin nebo naftu?",
+        "answer": "Čerpací stanice",
+        "aliases": [
+          "benzínka",
+          "benzinová pumpa",
+          "čerpací stanice pohonných hmot",
+          "čerpačka",
+          "pumpa"
+        ],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/%C4%8Cerpac%C3%AD_stanice_pohonn%C3%BDch_hmot"
+        ]
+      },
+      "questionSha256": "290a4b72bc1ef1fc9f7addd7c8d5b70e4b2928fbbcf3cc27771a3d1b8dac3fe6",
+      "completeSourceEntrySha256": "3030d3ad9043520849bd08312ffe24283b9082747239c5191c3729f8c6076fdc",
+      "fullEvidenceArraySha256": "cbfed874fa977d5e33542df2a5d07a8fc95074c0c7684936318e6978b390fd73",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Actual native source defines the roadside place supplying vehicle fuel. Pumpa is legitimate here; the earlier Science Čerpadlo/Pumpa source defines the energy-imparting machine. Accept this source-specific PLACE/MACHINE homonym, retain both aliases and earlier machine priority. Benzín/Nafta identify sold fuels, not the place.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-05",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-05",
+        "initial": "D",
+        "text": "Jak se běžně nazývá pracovní volno, které zaměstnanec čerpá k odpočinku a zotavení?",
+        "answer": "Dovolená",
+        "aliases": ["dovolená na zotavenou"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Dovolen%C3%A1"]
+      },
+      "questionSha256": "c8c28dc3d2c01d28fe15f3bc10300dec144610760d858aede9d69e5bf9c39195",
+      "completeSourceEntrySha256": "349b69072710266c64fa523cc6ba899d8604d7a0dac5a90a4a7ebfe380a4d4e7",
+      "fullEvidenceArraySha256": "e3c52b2f6100b6ffbc763f1455a6716d5c15f0579f117f401e1fb315c72d4951",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Ordinary employment leave for rest is source-supported Dovolená, including dovolená na zotavenou. Parental care leave has a different specified reason and legal role.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-06",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-06",
+        "initial": "E",
+        "text": "Který stát v oblasti Afrického rohu má hlavní město Addis Abebu?",
+        "answer": "Etiopie",
+        "aliases": [
+          "Ethiopia",
+          "Etiopská federativní demokratická republika",
+          "Habeš"
+        ],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Etiopie"]
+      },
+      "questionSha256": "3df2ac60df111cb61cd473e89c0b4e9f84de5c42b2c9aa5d433291e9808cb0e7",
+      "completeSourceEntrySha256": "b9e92bed6a40826503ba2f2bf0d33f6e1532155106397c4502bd97ea936c87ba",
+      "fullEvidenceArraySha256": "2771b05c40bcdf39a2dc97e50a94c724dce75fa7fb74d7e590cbdf8e6dc66e53",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Addis Ababa identifies Ethiopia; Habeš is a legitimate historical/native name for this country in the present question, not a different requested state.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-07",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-07",
+        "initial": "F",
+        "text": "Jak se nazývá okrasné vodní zařízení, které v parku či na náměstí vystřikuje vodu do vzduchu?",
+        "answer": "Fontána",
+        "aliases": ["vodotrysk", "kašna"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Font%C3%A1na"]
+      },
+      "questionSha256": "48ee67897442c8f174cad9a25e1e85bcde30947e7887ad447d04923fae19aca0",
+      "completeSourceEntrySha256": "d3619e800dd5acbf3eb06499e518fe165df84cbc1b0975eeb4d849443f34317c",
+      "fullEvidenceArraySha256": "56d8ecd6a0a1768ec0a8321e29e0135cd5f9d54bb4b0839eb4c54abb08f630c8",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "An ornamental installation emitting water jets supports Fontána/vodotrysk/kašna in this context. Geneva's Jet d'Eau is a located instance, not the requested generic installation. Exact reviewer160 bilingual companion inherited.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-08",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-08",
+        "initial": "G",
+        "text": "Který teplý mořský proud směřuje podél východního pobřeží Spojených států do severního Atlantiku?",
+        "answer": "Golfský proud",
+        "aliases": ["Gulf Stream"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Golfsk%C3%BD_proud"]
+      },
+      "questionSha256": "9ec2bc5fbb97a8bb9c14ecb2695d3fa316668ca743d7bec8eac38f5e3277779f",
+      "completeSourceEntrySha256": "22e6122b11968fd3c71aae35cc59e5fa452e8f6c0f52194a08afb7962f2ce0ae",
+      "fullEvidenceArraySha256": "f6a5409bcc79a9780c670b5336f550e632cbc6c638c811c4a167387e26b1de85",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "The warm current from the eastern US into the North Atlantic identifies Gulf Stream. The clue does not conflate the entire overturning circulation or claim a fixed speed.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-09",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-09",
+        "initial": "H",
+        "text": "Jak se běžně nazývá zařízení poskytující turistům placené krátkodobé ubytování v jednotlivých pokojích, zpravidla i se službami, například stravováním?",
+        "answer": "Hotel",
+        "aliases": ["hotelové zařízení"],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/Hotel",
+          "https://en.wikipedia.org/wiki/Hotel"
+        ]
+      },
+      "questionSha256": "1c4aac67a24076e0da97879f021a02c90e0d5087c421f954459058287662303c",
+      "completeSourceEntrySha256": "da43f699fe64053987d0d4486e20e8ab17a9b620a22825ed2d5639037b1492eb",
+      "fullEvidenceArraySha256": "36a4294c4c2623c2590d737e2a19f95b83e05fde8c45b9805d9d6928b849868f",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "A paid short-stay building with rooms/services is a hotel/hotelové zařízení, not emergency shelter or a horror-film title merely mentioning the Overlook.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-10",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-10",
+        "initial": "Ch",
+        "text": "Jak se v Česku nazývá velkoplošná kategorie ochrany přírody pro harmonickou krajinu s významným podílem přirozených lesů a travních porostů?",
+        "answer": "Chráněná krajinná oblast",
+        "aliases": ["CHKO"],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/Chr%C3%A1n%C4%9Bn%C3%A1_krajinn%C3%A1_oblast",
+          "https://www.zakonyprolidi.cz/cs/1992-114"
+        ]
+      },
+      "questionSha256": "5850b5297f90c974ac89e2abe0cb6d04ae0c5d41ef249f6de4a6a08ec3141fd1",
+      "completeSourceEntrySha256": "e1df7374cc17e8c30fbf384abbfd0d34e234ee689ea6bd9534537c42d26ae253",
+      "fullEvidenceArraySha256": "ac4e157da03bc356cbcc9484abea365574e4aab1de7a7acbcb993b4964a61360",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "The actual native source and reproduced §25 of law114/1992 define a CHKO through extensive harmonious landscape and natural/settlement features. CHKO is a generic protection category, not the named Český kras example. The law website is a reproduction, not invented institutional primary retrieval.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-11",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-11",
+        "initial": "I",
+        "text": "Ve kterém státě leží středomořský přístav Haifa?",
+        "answer": "Izrael",
+        "aliases": ["Stát Izrael", "Israel"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Haifa"]
+      },
+      "questionSha256": "ba2dd2740ae8db8dc43fd3d12641e5f0001bb9bc522fd46dd90251fbe35ad507",
+      "completeSourceEntrySha256": "214e1c18cd575e78e5ff2e37646cd732e9b5fc1c16d562d63ab799083c9841c6",
+      "fullEvidenceArraySha256": "c47871e58ebb2d501c00013583a5ab50c887357aee492f7fade36151c67c82f7",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Haifa's actual Mediterranean port location identifies Israel. Native full country names fit the same state; no capital or political-status claim is introduced.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-12",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-12",
+        "initial": "J",
+        "text": "Jak se nazývá doklad, který opravňuje cestujícího k jízdě vlakem nebo autobusem?",
+        "answer": "Jízdenka",
+        "aliases": ["jízdní doklad", "přepravní doklad", "lístek"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/J%C3%ADzdenka"]
+      },
+      "questionSha256": "914eb23953aacf51b5ef99ccfed100fef0c88816ad152a639419bc05a866181c",
+      "completeSourceEntrySha256": "129aabb4ca395e55f42ad91bfa9894d7a874419f90f7f655651f1af9f3dc917d",
+      "fullEvidenceArraySha256": "c0f57fce2a428bf1a38c762de104c9fc703c8472d1c9d4180958a22bd9331beb",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "The passenger's paid transport document supports Jízdenka, jízdní/přepravní doklad and contextual lístek. A board game called Ticket to Ride/Jízdenky, prosím is not that actual travel document.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-13",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-13",
+        "initial": "K",
+        "text": "Jak se nazývá ubytovací areál vyhrazený pro pobyt ve stanech a karavanech?",
+        "answer": "Kemp",
+        "aliases": ["tábořiště", "autokemp", "camping"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Kemp"]
+      },
+      "questionSha256": "69e0e8c4bd63d124acebde175930dbda27a6501782663a07021e00d9b5a1e5cd",
+      "completeSourceEntrySha256": "a81c6426bc4c27e743a8a09c09d31936b6534bd58899bc33e82486a7f5c20bdb",
+      "fullEvidenceArraySha256": "3f93d2300523479d20c09bc7fc0c915a0f96997e3c8369e50c2cd301a62ad671",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "A recreational site accommodating tents/caravans supports Kemp/tábořiště/autokemp/camping. A yurt is a shelter structure; a refugee camp specifies forced displacement/basic aid rather than the recreational accommodation role.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-14",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-14",
+        "initial": "L",
+        "text": "Jak se nazývá plocha se zázemím určená pro vzlety, přistání a pozemní pohyb letadel?",
+        "answer": "Letiště",
+        "aliases": ["aerodrom"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Leti%C5%A1t%C4%9B"]
+      },
+      "questionSha256": "0b770696831c0d7f0af2e880dceaa998628f97c9d6cab76ef0d28416a738e4f1",
+      "completeSourceEntrySha256": "107ec9d646cecc382d4afce36dfd77cb4dad05561cab764a24c4be5b797a9e13",
+      "fullEvidenceArraySha256": "45e9c91f8ee1a2ab15732e6b9dc5b324f42cad8aca3a39d647e313f15d42fe36",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "A designated area for aircraft arrival/departure and ground operation supports Letiště/aerodrom. A boarding bridge or luggage X-ray scanner is a component/device at the airport, not the whole facility.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-15",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-15",
+        "initial": "M",
+        "text": "Kterému severoamerickému státu patří celý Kalifornský poloostrov, oddělený stejnojmenným zálivem od pevniny?",
+        "answer": "Mexiko",
+        "aliases": ["Spojené státy mexické", "Mexico"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Kalifornsk%C3%BD_poloostrov"]
+      },
+      "questionSha256": "9ad3cf6e1d8b68bbf1fcf31cb335e061f6076564d2591f6a2140d7fb1e3a37d6",
+      "completeSourceEntrySha256": "cc31befcd8b0d91aca3f41f295e0e17146d14e9a78f79161d54ce5e754bd3388",
+      "fullEvidenceArraySha256": "5657078875d00002cbcf1b1e2fe400550b060d1f1403a5a14b2e9d4699cbaf9d",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "The actual Baja California source places its two states in Mexico, between the Pacific and the Gulf of California. Accept the jurisdiction asked, not the page's unrelated dubious historical USA sentence. English Mexico asks other borders; Yucatán, US California and Xochimilco have distinct specified scopes.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-16",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-16",
+        "initial": "N",
+        "text": "Jak se běžně nazývá místo se zázemím a nástupišti pro cestující, jehož kolejové rozvětvení umožňuje křižování nebo předjíždění vlaků?",
+        "answer": "Nádraží",
+        "aliases": ["železniční stanice", "vlakové nádraží", "vlaková stanice"],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/%C5%BDelezni%C4%8Dn%C3%AD_stanice"
+        ]
+      },
+      "questionSha256": "e442f695ecde885fd48d898ea363be3138c94c9ab1955511c6664be7fddc0bd6",
+      "completeSourceEntrySha256": "b683487e842b0f10550bf950a32ec92833e8061a0e56770c7798ae63f74b0167",
+      "fullEvidenceArraySha256": "e901ebf3a228d6fedf21025532424e769fc921aafde4d7a954d9889c08b97f82",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "A station with tracks/points serving railway operations supports Nádraží and the full station aliases. A railway junction city is a location, not the generic facility; a nonbranching halt is not silently equated.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-17",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-17",
+        "initial": "O",
+        "text": "Jak se nazývá předletový postup, který lze provést on-line nebo na letištní přepážce a jehož výsledkem je palubní vstupenka?",
+        "answer": "Odbavení",
+        "aliases": [
+          "check-in",
+          "check in",
+          "letištní odbavení",
+          "odbavení cestujících"
+        ],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://www.prg.aero/odbaveni-cestujicich"]
+      },
+      "questionSha256": "3f437bc3453f49144b553fbb6368d6114be00df14583d6cd887b280b649a1998",
+      "completeSourceEntrySha256": "fb6a55c038fca4f8e00ef468def31ef5569851d8641fa6d762683e93f4a1aacc",
+      "fullEvidenceArraySha256": "f9a3a3ec8a55104596952595b66cca2dc91e0fc45ae7c3060ef857cf0ab7deb6",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Actual Prague Airport text ties check-in, passenger processing, boarding passes and baggage to Odbavení. Preserve check-in/check in/letištní odbavení/odbavení cestujících. Exact reviewer160 same-procedure bilingual ruling inherited.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-18",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-18",
+        "initial": "P",
+        "text": "Který stát na západě Pyrenejského poloostrova má pevninskou hranici pouze se Španělskem?",
+        "answer": "Portugalsko",
+        "aliases": ["Portugalská republika", "Portugal"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Portugalsko"]
+      },
+      "questionSha256": "f352af95316c2153e5380c2aa22ccb64ed35a9770dec21ffdd3e20d3679fe5e4",
+      "completeSourceEntrySha256": "2ec1cbade00ce1451519baaafe5e1e8484a5973b33a1cf152bf43344f642c401",
+      "fullEvidenceArraySha256": "e2edce8b38311dadfb0d72cdbdd994b13c2fe8fc0df69ffb3f9b361f2f327aec",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Western Iberian mainland plus only Spanish land border identifies Portugal; actual native lead supports full official names. Independently accept this exact English/native same-fact adaptation, preserving English priority, not inventing a novel fact.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-19",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-19",
+        "initial": "R",
+        "text": "Ve kterém brazilském městě stojí socha Krista Spasitele na vrchu Corcovado?",
+        "answer": "Rio de Janeiro",
+        "aliases": ["Rio"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Rio_de_Janeiro"]
+      },
+      "questionSha256": "1f513feb8d38734b37be6c986dde89d58a4922a2d97e695ee3daea6b09b53c3d",
+      "completeSourceEntrySha256": "7043c040146ed63a757cc41316301500073c5cd80e5ebe66af4d03469faa9ef4",
+      "fullEvidenceArraySha256": "57371592c1e78dd761ba9f47afed7fcc515edbd607213c3aa4fdb459c1d6cf26",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Actual Rio source places Christ the Redeemer on Corcovado in Rio de Janeiro; Rio is the legitimate contextual short city name.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-20",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-20",
+        "initial": "Ř",
+        "text": "Jak se odborně nazývá výrazný zákrut říčního koryta?",
+        "answer": "Říční meandr",
+        "aliases": ["meandr", "zákrut řeky", "říční zákrut"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Meandr"]
+      },
+      "questionSha256": "3d3494a7b3d49dd3a5587eea54771445b6562a64a6bae54565e31a9083f66a24",
+      "completeSourceEntrySha256": "a307f79baba8411fe3177dc12a672d9f7e5a8e789dac497f8928918a0b8a2165",
+      "fullEvidenceArraySha256": "fe949e9ced56e1233fc3fec06a8b723ad3b3831e29a995a4f4d360d10096c170",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Outer-bank erosion and inner deposition form a river meander. Preserve contextual meandr/zákrut řeky/říční zákrut; the source notes stricter geometric conventions, but the clue's process and winding course request the actual meander, not an arbitrary geometric bend. A cut-off oxbow is a distinct later landform. Accept the specific English bilingual same-fact companion.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-21",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-21",
+        "initial": "S",
+        "text": "Který alpsko-jadranský stát má hlavní město Lublaň?",
+        "answer": "Slovinsko",
+        "aliases": [
+          "Slovinská republika",
+          "Slovenia",
+          "Slovenija",
+          "Republika Slovenija"
+        ],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Slovinsko"]
+      },
+      "questionSha256": "add2f8e9cd77083151f37e17c162a0dfce441a1fad6acce3e26577467f09c993",
+      "completeSourceEntrySha256": "e8c3e873c75b9343b5e0bd6cab41f32b2cdb4e03dec0cd5993a2d6b95a30fce1",
+      "fullEvidenceArraySha256": "7487c65c48d120eb657f68db10ecea3acbe6e5af7734ab63b3b35dd3944ff417",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Ljubljana identifies Slovenia, not Slovakia; actual native source supports Slovenija and both official full-name forms. Accept the specific English/native same-country-capital adaptation with English priority.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-22",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-22",
+        "initial": "Š",
+        "text": "Jak se nazývá rekreační vodní plavidlo, na kterém se pasažéři pohánějí šlapáním do pedálů?",
+        "answer": "Šlapadlo",
+        "aliases": ["vodní šlapadlo", "vodní kolo"],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/%C5%A0lapadlo",
+          "https://en.wikipedia.org/wiki/Pedalo"
+        ]
+      },
+      "questionSha256": "edb7d706c4d38367f7d93a4c6e6bf5249f58ba873752ea1be2fcc8103c0b867d",
+      "completeSourceEntrySha256": "ec56c9796da908f82c4d7ef205100bb6ef3d34dbb67301731cebdee6ad73cab3",
+      "fullEvidenceArraySha256": "0632aeb016307336c2a21158a42f16187ca9b1ff1335ad9e1877658622335572",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "The actual native/English sources support a recreational pedal-powered craft. Directly retrieved regional-tourism text also calls a SUP-mounted, human-pedalled watercraft Vodní kolo. That actual subtype satisfies this broad complete clue; the alias does not accept a stationary mechanical waterwheel. Keep both useful finite native names.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-23",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-23",
+        "initial": "T",
+        "text": "Který stát zaujímá převážnou část poloostrova Malá Asie neboli Anatolie?",
+        "answer": "Turecko",
+        "aliases": [
+          "Turecká republika",
+          "Türkiye",
+          "Turkey",
+          "Türkiye Cumhuriyeti"
+        ],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Turecko"]
+      },
+      "questionSha256": "19bc4ee329057e971b4749d0658935be1ac12fc8beb63a408db63dc2efd69fd1",
+      "completeSourceEntrySha256": "2d94b4ba10786c8e2f75b7f5bb9aee2391a58dcc4d9b644cf31c633e8583057b",
+      "fullEvidenceArraySha256": "a5611157aa1e4cab0e44bb4ba6c7987c2f26c66ac1ff2b33fd889392db5ff936",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Most of Anatolia/Asia Minor identifies Turkey, with a smaller European part explicitly allowed by the actual source. Turkish and official native country forms are legitimate. English Ankara/Anatolia is an acknowledged specific bilingual related-fact companion; Urfa biber requests a spice, not its country.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-24",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-24",
+        "initial": "U",
+        "text": "Které ukrajinské město na řece Uhu je správním centrem Zakarpatské oblasti?",
+        "answer": "Užhorod",
+        "aliases": [
+          "Užgorod",
+          "Uzhhorod",
+          "Uzhgorod",
+          "Ungvár",
+          "Ужгород",
+          "Ungwar",
+          "Ungver",
+          "אונגווער"
+        ],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/U%C5%BEhorod",
+          "https://en.wikipedia.org/wiki/Uzhhorod"
+        ]
+      },
+      "questionSha256": "afd01dcba6d0d0b7ae08e0e85a74720bef0e46d6ea5e83beb9f9ee345e15a4ab",
+      "completeSourceEntrySha256": "1bff4b152f0d49997ef73fd1cb7dfc20993010d26d792685b97c7ac53736acda",
+      "fullEvidenceArraySha256": "8b531e02ceb326eee67804ee780c943dbbcd008873311e5ea8f01e6f78601575",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "informed / medium",
+      "independentFactualSourceAliasWordingInitialReasoning": "The Uzh-river city at Slovakia's border and administrative centre of Zakarpattia identifies Užhorod. Both actual native and English sources support Uzhhorod and the historical Hungarian/German/Yiddish forms; transliteration variants do not change the referent. Informed adult edge, not specialist-only geography.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-25",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-25",
+        "initial": "V",
+        "text": "Jak se nazývá po železnici jedoucí souprava, která může být tvořena lokomotivou a vagony?",
+        "answer": "Vlak",
+        "aliases": ["železniční vlak", "vlaková souprava"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Vlak"]
+      },
+      "questionSha256": "ec6d7ea95e859efa570ea279f3a1b784d106f0d13164007e5893b1198a99a63b",
+      "completeSourceEntrySha256": "413416d66b3a91c0063c2a89b1bf9d452f6a27946e350518296dfa3727fd8e46",
+      "fullEvidenceArraySha256": "8847911a776797bfb659717c00d8e4ff964f841bceabc898c4dc8e23244810e2",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Coupled vehicles moving on rails support Vlak and the railway-train/formation forms. A quiet carriage is one designated part, Shinkansen a particular network/service family and Xuzhou a junction city, not the generic coupled vehicle formation.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-26",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-26",
+        "initial": "W",
+        "text": "Jaký hrad nad německým Eisenachem je spojen s pobytem Martina Luthera a jeho překladem Nového zákona?",
+        "answer": "Wartburg",
+        "aliases": ["Wartburk", "hrad Wartburg"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Wartburg"]
+      },
+      "questionSha256": "ba097624d884edd43bbc1aa23fc49786209ac77849f2dfd44cb3492529fcff59",
+      "completeSourceEntrySha256": "57443a43c29f2fda1d1d199e440412c254a4ed466f66fc1b65a4ea95d5a54804",
+      "fullEvidenceArraySha256": "d3b84c5b20b4d0e50df7e9b6629619759ee3f37ff2abd4cb531df2f4728cd87e",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "informed / medium",
+      "independentFactualSourceAliasWordingInitialReasoning": "The actual source places Wartburg above Eisenach and Luther's concealment/translation there. Wartburk and hrad Wartburg remain legitimate native/name forms. The castle is not the whole Reformation movement. Informed adult historical-travel edge.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-27",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-27",
+        "initial": "Z",
+        "text": "Který vnitrozemský stát jižní Afriky má hlavní město Harare?",
+        "answer": "Zimbabwe",
+        "aliases": ["Zimbabwská republika", "Republika Zimbabwe"],
+        "category": "geography",
+        "language": "cs",
+        "sources": ["https://cs.wikipedia.org/wiki/Zimbabwe"]
+      },
+      "questionSha256": "808ce6e7a5d08afcda44e2f1e1c5b71ce1c3ea845c3f053aa635424b6c8e7b30",
+      "completeSourceEntrySha256": "c23b83098395f37eecda7014f90070f70dfc6c3b89f21d77eb7b095ddea58b76",
+      "fullEvidenceArraySha256": "cf31280a4a64b181dddc3fef149eb7c853b46afe50ea2233769d3db6773af2a4",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "Harare as capital identifies Zimbabwe, including full official names. English Zimbabwe's1980 independence fact asks the same country through a different historical predicate; explicitly accept this bilingual related-fact companion without claiming novelty.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    },
+    {
+      "id": "geography-cs-easy-04-28",
+      "entireQuestion": {
+        "id": "geography-cs-easy-04-28",
+        "initial": "Ž",
+        "text": "Jak se nazývá označené místo, kde se pozemní komunikace kříží se železniční tratí ve stejné výškové úrovni?",
+        "answer": "Železniční přejezd",
+        "aliases": ["přejezd", "úrovňový železniční přejezd"],
+        "category": "geography",
+        "language": "cs",
+        "sources": [
+          "https://cs.wikipedia.org/wiki/%C5%BDelezni%C4%8Dn%C3%AD_p%C5%99ejezd"
+        ]
+      },
+      "questionSha256": "31a2d477db7c5e3a5f005beb1f09d5f02e604a587456293174f01ac7aed1e1ee",
+      "completeSourceEntrySha256": "2857293ee521b8f17071fcb35448fd385938102e03a8a6845eea0eea3906477c",
+      "fullEvidenceArraySha256": "f2e50ed42a50f3e0c76980277572cde2d3784070a28446d95e8fd64394e9147a",
+      "initial": "FRESH INDEPENDENT ACCEPTED",
+      "current": "ACCEPTED",
+      "individualGeneralAdult": "common / easy",
+      "independentFactualSourceAliasWordingInitialReasoning": "A marked same-level road/rail crossing supports Železniční přejezd and qualified/short contextual forms. Actual source distinguishes unmarked railway-station crossings. English Zebra crossing concerns a striped pedestrian road crossing, not rails; preserve both meanings.",
+      "finiteAliasesUnchanged": true,
+      "initialSlotVerified": true
+    }
+  ],
+  "wholeGeneralAdult": {
+    "rating": "Easy",
+    "common": 26,
+    "informed": 2,
+    "specialist": 0,
+    "independentReasoning": "Common travel, transport, recreation and country orientation dominate; Užhorod and Luther's Wartburg are retained informed edges. Concurred before item dispositions; no specialist-audience grading or arbitrary bridge quota."
+  },
+  "publisherIntegrationPrerequisite": "Carry this supplemental naming evidence/receipt into documentation when materialising the actual candidate, binding this exact source and review; no question or alias edit is requested.",
+  "releaseCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false
+}

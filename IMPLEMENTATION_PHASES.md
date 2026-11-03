@@ -12,6 +12,14 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate163:** GeographyCSEasy04 alone adds28 to actual
+delivered `3a46238b` (162/4,536), yielding163/4,564, English85/Czech78. Its28
+initial/current/adult judgments are directly independently accepted; source
+documentation carries the newly retrieved `vodní kolo` naming evidence.
+Previous162 packs/order/application inputs remain immutable. Exact-parent
+release review/content gate and individual push/private catalog/assets checks
+remain separate. Final330/9,240/all66 and cleanup are NOT CLEARED.
+
 **Current runtime-data candidate162:** accepted ScienceCSEasy03 alone adds28
 to actual delivered `1d1fdf7b` (161/4,508), yielding162/4,536, English85/Czech77.
 All28 initial/current/adult decisions are independently accepted. The narrow

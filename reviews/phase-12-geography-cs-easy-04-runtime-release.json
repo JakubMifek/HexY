@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "scope": "Exact eleven frozen inputs of GeographyCSEasy04 alone against actual delivered162 parent",
+  "reviewerTaskId": "d8f34434-c168-4e5e-959d-3a24b6e7e0fb",
+  "publisherSessionId": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "actualParent": "3a46238baa48aec050116f189c08788519893c20",
+  "candidateCheckout": ".artifacts/continuation/fresh38-release-163-worktree",
+  "deckId": "geography-cs-easy-04",
+  "entries": 28,
+  "initialAcceptedInheritedFromFreshIndependentReview": 28,
+  "currentAcceptedInherited": 28,
+  "held": 0,
+  "packSha256": "ad420b01f017b1ba95b04bef5054eb22c94af40cfbe4c31c4789091f057b2bf1",
+  "reportPath": ".artifacts/continuation/fresh38-review-163/REPORT.md",
+  "reportSha256": "9d456275090cdb429826b3882c9aead30d6c1f78edc3e2583a0862214624b2c6",
+  "freezePath": ".artifacts/continuation/fresh38-review-163/FROZEN-SHA256SUMS",
+  "freezeSha256": "488b05340292c8ac0e9f3f7c15601822ffcd6ff257046b5b3da8f7406f2c0109",
+  "candidateDiffSha256": "3a9dddf426eff53025caa69815123e0076c39dc28f9fba3e63e41ad191bfd095",
+  "frozenSourceBindings": {
+    ".artifacts/continuation/fresh38-release-163-worktree/IMPLEMENTATION_PHASES.md": "f091cfd0552771618d09a012db7e695dbdad1c25180990bd57faddcb3c991892",
+    ".artifacts/continuation/fresh38-release-163-worktree/README.md": "8199f804d374fba760da76ed17a752296ad81300fa901f864c42860e8a3177ce",
+    ".artifacts/continuation/fresh38-release-163-worktree/docs/content-inventory.md": "9ad69599762b0d19ceeaf53c9b7caad20fff1839f851974835576e0617acb6b1",
+    ".artifacts/continuation/fresh38-release-163-worktree/docs/phase-12-deck-inventory.json": "d8660b46c2a480fc3bda506b9f95367638a754aa6bed008e7da81b59b5f578ab",
+    ".artifacts/continuation/fresh38-release-163-worktree/docs/phase-12-geography-cs-easy-04-source-continuity.json": "6be4f3718573aae85ca1effeac1ac76d6b3e59d00587b5c0c2d0ce9c73a0c654",
+    ".artifacts/continuation/fresh38-release-163-worktree/docs/phase-12-geography-cs-easy-04-sources.json": "81b302981e349cf7e8a33ae096bbd03863d45ba6ec87ca30a5f9f3496805cf24",
+    ".artifacts/continuation/fresh38-release-163-worktree/docs/phase-12-geography-cs-easy-04-supplemental-sources.json": "4d4fc1424b98b98d8201ef5cb970b882a1f5fa9dab5d648d12e3c6425b68c4aa",
+    ".artifacts/continuation/fresh38-release-163-worktree/reviews/phase-12-geography-cs-easy-04-content-review.json": "4e7a3596a06a61ee4527d0c0e58d06e9785aa5011633091117bacce282c987b7",
+    ".artifacts/continuation/fresh38-release-163-worktree/reviews/phase-12-geography-cs-easy-04-content-review.md": "9d500cb2e433bfafe087084c680d11b9d5947a655299e28a427d7416ac4695bb",
+    ".artifacts/continuation/fresh38-release-163-worktree/src/content-order.json": "05a34ec539f03826ff71f49b0c5a0bc884e3bd29d4b0cb81ff531ed91428c622",
+    ".artifacts/continuation/fresh38-release-163-worktree/src/content/geography-cs-easy-04.json": "ad420b01f017b1ba95b04bef5054eb22c94af40cfbe4c31c4789091f057b2bf1"
+  },
+  "authorityBindings": {
+    ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/SEAL.json": "d5c769d016f8d83d8845186437e7081d9cd7719ad0275babb179780d0824e14e",
+    ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/REPORT.md": "06fc82aabb3b17ae761ef925e97b1c577762ca03c0dac6b794d81955b60035c6",
+    ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/ENTRY-DECISIONS.json": "dd5da7aa26900c5993b256956deb30d5830c57a434812e42cef0d9d7df94987b",
+    ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/SUPPLEMENTAL-ALIAS-SOURCE.json": "4d4fc1424b98b98d8201ef5cb970b882a1f5fa9dab5d648d12e3c6425b68c4aa",
+    ".artifacts/continuation/fresh38-authors/geography-cs-easy-04/HANDOFF.json": "e39f2b0b235a3ff9bf0f6fac9593618481fa081311bf089160685ae9ededbc85",
+    ".artifacts/continuation/fresh38-authors/geography-cs-easy-04/sources.json": "0a16a3daf57458d1981a0e52b5656546284b7ec17db3b0ea80dbe9f0822ea717",
+    ".artifacts/continuation/fresh38-authors/geography-cs-easy-04/FULL-SOURCE-LEDGER.json": "421519a1064ffdb94ad29c7b8522c55264817910af3f06c4c6ed59a52f3005b9",
+    ".artifacts/continuation/fresh38-review-next/BUNDLE-SEAL.json": "cd70d56ea1c328553f08e712fcd4d81def09fc317584f6dfa5ac72bdc13df8ad",
+    ".artifacts/continuation/fresh38-deck162-actual-delivery.json": "2485b47c4bd0eee54dc8ed69d76bc589a86a5d5d927781ca16239e9505748d84",
+    ".artifacts/continuation/runtime-content-delivery.json": "8432e6131e8f540a655556efe1c63604dbe69d148c6134969a135f4c79eceaf8",
+    ".artifacts/continuation/fresh38-release-162-worktree/reviews/runtime-catalog-migration.json": "d5079ee627e5ac4a00dd90fcec3604d694f87605a1c45589f1fc438305efec9f"
+  },
+  "completeFormattingOnlyJSONCopies": [
+    {
+      "originalPath": ".artifacts/continuation/fresh38-authors/geography-cs-easy-04/sources.json",
+      "originalSha256": "0a16a3daf57458d1981a0e52b5656546284b7ec17db3b0ea80dbe9f0822ea717",
+      "formattedPath": ".artifacts/continuation/fresh38-release-163-worktree/docs/phase-12-geography-cs-easy-04-sources.json",
+      "formattedSha256": "81b302981e349cf7e8a33ae096bbd03863d45ba6ec87ca30a5f9f3496805cf24",
+      "wholeJSONValueSha256": "f3baddae312a31440e2daa2711e6380bf12d5c5a5cd4ecd6520e1bbc3289c2eb",
+      "entireValueAndOrderedProjectionEqual": true
+    },
+    {
+      "originalPath": ".artifacts/continuation/fresh38-authors/geography-cs-easy-04/FULL-SOURCE-LEDGER.json",
+      "originalSha256": "421519a1064ffdb94ad29c7b8522c55264817910af3f06c4c6ed59a52f3005b9",
+      "formattedPath": ".artifacts/continuation/fresh38-release-163-worktree/docs/phase-12-geography-cs-easy-04-source-continuity.json",
+      "formattedSha256": "6be4f3718573aae85ca1effeac1ac76d6b3e59d00587b5c0c2d0ce9c73a0c654",
+      "wholeJSONValueSha256": "0fff1b088335e95ba0f4d04a36bf7f711177ce8530c7829f30eeb3e408cfdc81",
+      "entireValueAndOrderedProjectionEqual": true
+    },
+    {
+      "originalPath": ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/SUPPLEMENTAL-ALIAS-SOURCE.json",
+      "originalSha256": "4d4fc1424b98b98d8201ef5cb970b882a1f5fa9dab5d648d12e3c6425b68c4aa",
+      "formattedPath": ".artifacts/continuation/fresh38-release-163-worktree/docs/phase-12-geography-cs-easy-04-supplemental-sources.json",
+      "formattedSha256": "4d4fc1424b98b98d8201ef5cb970b882a1f5fa9dab5d648d12e3c6425b68c4aa",
+      "wholeJSONValueSha256": "06c353577b60d76421e9e87d9c53c45fb67ec34658490583108c10f70acfd3d2",
+      "entireValueAndOrderedProjectionEqual": true
+    },
+    {
+      "originalPath": ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/ENTRY-DECISIONS.json",
+      "originalSha256": "dd5da7aa26900c5993b256956deb30d5830c57a434812e42cef0d9d7df94987b",
+      "formattedPath": ".artifacts/continuation/fresh38-release-163-worktree/reviews/phase-12-geography-cs-easy-04-content-review.json",
+      "formattedSha256": "4e7a3596a06a61ee4527d0c0e58d06e9785aa5011633091117bacce282c987b7",
+      "wholeJSONValueSha256": "b2f3b7bebd540a27454d553ae0900328c1923db419fa7033de93a8ede02b639f",
+      "entireValueAndOrderedProjectionEqual": true
+    }
+  ],
+  "contentReportProseUnchangedOnlyFourBulletMarkersFormatted": true,
+  "inheritedContentScope": "Exact sealed fresh28 full facts/sources/evidence/wording/initials/legitimate aliases, Easy26common2informed adult, Pumpa contextual homonym and individually accepted current bilingual relations; not re-researched",
+  "supplementalEvidencePrerequisite": {
+    "status": "FULFILLED: entire accepted naming receipt carried into documentation with original immutable captures retained",
+    "captureBindings": {
+      "successfulCapture": {
+        "path": ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/supplemental-sources/vodni-kolo-orlik.html",
+        "sha256": "ff0cc9c928fe4a8afc50613001ee3d799b2c414c037c6aa634c28960fe4f2c27",
+        "bytes": 180487
+      },
+      "failed429Capture": {
+        "path": ".artifacts/continuation/fresh38-review-next/geography-cs-easy-04/supplemental-sources/vodni-kola.html",
+        "sha256": "2bad815f69babf4dee6443269e669f91132f0859b8ba2aa7aeadfde5a517b6cb",
+        "bytes": 9151
+      },
+      "entireAcceptedReceiptPreserved": true,
+      "freshRetrievalPerformed": false,
+      "evidenceCarryingPrerequisiteFulfilled": true,
+      "failureNotClaimedAsSuccessfulSource": true
+    },
+    "integratedReceiptSha256": "4d4fc1424b98b98d8201ef5cb970b882a1f5fa9dab5d648d12e3c6425b68c4aa",
+    "successfulOriginalRawCaptureSha256": "ff0cc9c928fe4a8afc50613001ee3d799b2c414c037c6aa634c28960fe4f2c27",
+    "failureNotUsedAsSuccessfulSource": true,
+    "candidateQuestionOrAliasChanges": false
+  },
+  "meaningfulDeltaAssessment": "Actual General161 and Science162 are exact already accepted cross-own112 objects; no new substantive proposal, all8 authors stopped. Earlier pump-machine priority preserved; next112 and other integrations remain outside scope.",
+  "sixLenses": {
+    "behavior": "Exact accepted28 and previous162 raw bytes/order; all legitimate finite names preserved",
+    "design": "One append-only native data pack, complete source/receipt continuity, unchanged runtime",
+    "maintainability": "Complete source and fresh naming evidence retained without recreation or invented history",
+    "quality": "Fresh exact-copy/parent/count/quota/boundary/capture verification; unchanged fresh content acceptance inherited only for exact scope",
+    "accessibilityLocalization": "Native wording/initials/useful names and general-adult Easy calibration unchanged",
+    "securityPrivacy": "Data-only integration, no executable/dependency/imported-HTML execution or publisher/shared mutation"
+  },
+  "verificationPath": ".artifacts/continuation/fresh38-review-163/VERIFICATION.json",
+  "verificationSha256": "2982cc1ac97b2f2a5a665a30dd10590a16130f68130bd79c92a358a7f70b6b02",
+  "inputBindingsSha256": "236ec679940508932f338112d2fd382827f4cbbfdb549cd653c14e62f5ff1f24",
+  "applicationBoundary": {
+    "baselineComparableFiles": 610,
+    "candidateComparableFiles": 616,
+    "added": [
+      "docs/phase-12-geography-cs-easy-04-source-continuity.json",
+      "docs/phase-12-geography-cs-easy-04-sources.json",
+      "docs/phase-12-geography-cs-easy-04-supplemental-sources.json",
+      "reviews/phase-12-geography-cs-easy-04-content-review.json",
+      "reviews/phase-12-geography-cs-easy-04-content-review.md",
+      "src/content/geography-cs-easy-04.json"
+    ],
+    "changed": [
+      "IMPLEMENTATION_PHASES.md",
+      "README.md",
+      "docs/content-inventory.md",
+      "docs/phase-12-deck-inventory.json",
+      "src/content-order.json"
+    ],
+    "deleted": [],
+    "unchangedComparableFiles": 605,
+    "allExistingPermissionBitsPreserved": true,
+    "baselineScopeSha256": "ca6dee59a8fa9bdff7992526f5655ef51447142b7ba06ac97464b97c35f06919",
+    "candidateScopeSha256": "e3bef49bac3d39193ef00ae4b7d45ec953a1cd8fb84801198c1769eda1da670b",
+    "executableApplicationToolTestDependencyConfigurationChanges": [],
+    "generatedCatalogExcludedByExactUnchangedGitignore": true
+  },
+  "previousPacksPreserved": 162,
+  "candidateCounts": {
+    "decks": 163,
+    "questions": 4564,
+    "en": 85,
+    "cs": 78,
+    "combinations": 66
+  },
+  "inheritedApplicationGateRevision": "c7cdaafb1969017728d00e35ceb2f6a731a700cf",
+  "unchangedActuallyReferencedAssets": {
+    "/hexy/assets/index-Ck_9oRvP.js": "2bf488f03685b99bf40d1bf295883e131bf2162066c51f6273398eb7a4497717",
+    "/hexy/assets/index-DPcmLzC0.css": "dfcaaf71a4cc9429d3f38589e9e3a747d1532af9c692372b1e3d21d535d9af89"
+  },
+  "remainingPublisherGates": [
+    "Copy exact standalone review receipt into reviews and mechanically rehash final candidate; no substantive changes",
+    "Separate central npm run release:content -- 3a46238baa48aec050116f189c08788519893c20",
+    "Individual163 push/atomic promotion; verify actual full163 catalog/objects/order and unchanged referenced JS/CSS"
+  ],
+  "unresolvedFindings": [],
+  "centralContentGateExecuted": false,
+  "actuallyPublishedOrDelivered": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "limitations": [
+    "Source-quality and bounded historical-provenance limits from exact accepted content report retained",
+    "Retained supplemental bodies are evidence artifacts; no new retrieval or publication of raw HTML claimed",
+    "Actual162 receipt/runtime authority bound; no new live remote/private fetch claimed",
+    "No full application/compiler/coverage/browser/build/test/runner, services, Git commands or subagents",
+    "Nature integration, next112, final330/9240/all66 and cleanup remain outside clearance"
+  ]
+}

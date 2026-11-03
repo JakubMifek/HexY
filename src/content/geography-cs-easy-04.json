@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "geography-cs-easy-04",
+  "title": "Zeměpis a cestování · Lehké 04",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-cs-easy-04-01",
+      "initial": "A",
+      "text": "Který balkánský stát s hlavním městem Tiranou má pobřeží Jaderského i Jónského moře?",
+      "answer": "Albánie",
+      "aliases": [
+        "Albania",
+        "Albánská republika",
+        "Republika Albánie",
+        "Shqipëri",
+        "Shqipëria",
+        "Republika e Shqipërisë"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Alb%C3%A1nie"]
+    },
+    {
+      "id": "geography-cs-easy-04-02",
+      "initial": "B",
+      "text": "Který evropský stát tvoří Vlámský, Valonský a Bruselský region?",
+      "answer": "Belgie",
+      "aliases": ["Belgické království", "Belgium"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Belgie"]
+    },
+    {
+      "id": "geography-cs-easy-04-03",
+      "initial": "C",
+      "text": "Jak se nazývá podnik, který sestavuje a prodává vlastní zájezdy, například spojením dopravy a ubytování?",
+      "answer": "Cestovní kancelář",
+      "aliases": ["CK", "touroperátor", "tour operátor"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Cestovn%C3%AD_kancel%C3%A1%C5%99",
+        "https://en.wikipedia.org/wiki/Tour_operator"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-04-04",
+      "initial": "Č",
+      "text": "Jak se nazývá místo u silnice, kde mohou řidiči natankovat benzin nebo naftu?",
+      "answer": "Čerpací stanice",
+      "aliases": [
+        "benzínka",
+        "benzinová pumpa",
+        "čerpací stanice pohonných hmot",
+        "čerpačka",
+        "pumpa"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cerpac%C3%AD_stanice_pohonn%C3%BDch_hmot"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-04-05",
+      "initial": "D",
+      "text": "Jak se běžně nazývá pracovní volno, které zaměstnanec čerpá k odpočinku a zotavení?",
+      "answer": "Dovolená",
+      "aliases": ["dovolená na zotavenou"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Dovolen%C3%A1"]
+    },
+    {
+      "id": "geography-cs-easy-04-06",
+      "initial": "E",
+      "text": "Který stát v oblasti Afrického rohu má hlavní město Addis Abebu?",
+      "answer": "Etiopie",
+      "aliases": [
+        "Ethiopia",
+        "Etiopská federativní demokratická republika",
+        "Habeš"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Etiopie"]
+    },
+    {
+      "id": "geography-cs-easy-04-07",
+      "initial": "F",
+      "text": "Jak se nazývá okrasné vodní zařízení, které v parku či na náměstí vystřikuje vodu do vzduchu?",
+      "answer": "Fontána",
+      "aliases": ["vodotrysk", "kašna"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Font%C3%A1na"]
+    },
+    {
+      "id": "geography-cs-easy-04-08",
+      "initial": "G",
+      "text": "Který teplý mořský proud směřuje podél východního pobřeží Spojených států do severního Atlantiku?",
+      "answer": "Golfský proud",
+      "aliases": ["Gulf Stream"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Golfsk%C3%BD_proud"]
+    },
+    {
+      "id": "geography-cs-easy-04-09",
+      "initial": "H",
+      "text": "Jak se běžně nazývá zařízení poskytující turistům placené krátkodobé ubytování v jednotlivých pokojích, zpravidla i se službami, například stravováním?",
+      "answer": "Hotel",
+      "aliases": ["hotelové zařízení"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Hotel",
+        "https://en.wikipedia.org/wiki/Hotel"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-04-10",
+      "initial": "Ch",
+      "text": "Jak se v Česku nazývá velkoplošná kategorie ochrany přírody pro harmonickou krajinu s významným podílem přirozených lesů a travních porostů?",
+      "answer": "Chráněná krajinná oblast",
+      "aliases": ["CHKO"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Chr%C3%A1n%C4%9Bn%C3%A1_krajinn%C3%A1_oblast",
+        "https://www.zakonyprolidi.cz/cs/1992-114"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-04-11",
+      "initial": "I",
+      "text": "Ve kterém státě leží středomořský přístav Haifa?",
+      "answer": "Izrael",
+      "aliases": ["Stát Izrael", "Israel"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Haifa"]
+    },
+    {
+      "id": "geography-cs-easy-04-12",
+      "initial": "J",
+      "text": "Jak se nazývá doklad, který opravňuje cestujícího k jízdě vlakem nebo autobusem?",
+      "answer": "Jízdenka",
+      "aliases": ["jízdní doklad", "přepravní doklad", "lístek"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/J%C3%ADzdenka"]
+    },
+    {
+      "id": "geography-cs-easy-04-13",
+      "initial": "K",
+      "text": "Jak se nazývá ubytovací areál vyhrazený pro pobyt ve stanech a karavanech?",
+      "answer": "Kemp",
+      "aliases": ["tábořiště", "autokemp", "camping"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Kemp"]
+    },
+    {
+      "id": "geography-cs-easy-04-14",
+      "initial": "L",
+      "text": "Jak se nazývá plocha se zázemím určená pro vzlety, přistání a pozemní pohyb letadel?",
+      "answer": "Letiště",
+      "aliases": ["aerodrom"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Leti%C5%A1t%C4%9B"]
+    },
+    {
+      "id": "geography-cs-easy-04-15",
+      "initial": "M",
+      "text": "Kterému severoamerickému státu patří celý Kalifornský poloostrov, oddělený stejnojmenným zálivem od pevniny?",
+      "answer": "Mexiko",
+      "aliases": ["Spojené státy mexické", "Mexico"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Kalifornsk%C3%BD_poloostrov"]
+    },
+    {
+      "id": "geography-cs-easy-04-16",
+      "initial": "N",
+      "text": "Jak se běžně nazývá místo se zázemím a nástupišti pro cestující, jehož kolejové rozvětvení umožňuje křižování nebo předjíždění vlaků?",
+      "answer": "Nádraží",
+      "aliases": ["železniční stanice", "vlakové nádraží", "vlaková stanice"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDelezni%C4%8Dn%C3%AD_stanice"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-04-17",
+      "initial": "O",
+      "text": "Jak se nazývá předletový postup, který lze provést on-line nebo na letištní přepážce a jehož výsledkem je palubní vstupenka?",
+      "answer": "Odbavení",
+      "aliases": [
+        "check-in",
+        "check in",
+        "letištní odbavení",
+        "odbavení cestujících"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://www.prg.aero/odbaveni-cestujicich"]
+    },
+    {
+      "id": "geography-cs-easy-04-18",
+      "initial": "P",
+      "text": "Který stát na západě Pyrenejského poloostrova má pevninskou hranici pouze se Španělskem?",
+      "answer": "Portugalsko",
+      "aliases": ["Portugalská republika", "Portugal"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Portugalsko"]
+    },
+    {
+      "id": "geography-cs-easy-04-19",
+      "initial": "R",
+      "text": "Ve kterém brazilském městě stojí socha Krista Spasitele na vrchu Corcovado?",
+      "answer": "Rio de Janeiro",
+      "aliases": ["Rio"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Rio_de_Janeiro"]
+    },
+    {
+      "id": "geography-cs-easy-04-20",
+      "initial": "Ř",
+      "text": "Jak se odborně nazývá výrazný zákrut říčního koryta?",
+      "answer": "Říční meandr",
+      "aliases": ["meandr", "zákrut řeky", "říční zákrut"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Meandr"]
+    },
+    {
+      "id": "geography-cs-easy-04-21",
+      "initial": "S",
+      "text": "Který alpsko-jadranský stát má hlavní město Lublaň?",
+      "answer": "Slovinsko",
+      "aliases": [
+        "Slovinská republika",
+        "Slovenia",
+        "Slovenija",
+        "Republika Slovenija"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Slovinsko"]
+    },
+    {
+      "id": "geography-cs-easy-04-22",
+      "initial": "Š",
+      "text": "Jak se nazývá rekreační vodní plavidlo, na kterém se pasažéři pohánějí šlapáním do pedálů?",
+      "answer": "Šlapadlo",
+      "aliases": ["vodní šlapadlo", "vodní kolo"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%A0lapadlo",
+        "https://en.wikipedia.org/wiki/Pedalo"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-04-23",
+      "initial": "T",
+      "text": "Který stát zaujímá převážnou část poloostrova Malá Asie neboli Anatolie?",
+      "answer": "Turecko",
+      "aliases": [
+        "Turecká republika",
+        "Türkiye",
+        "Turkey",
+        "Türkiye Cumhuriyeti"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Turecko"]
+    },
+    {
+      "id": "geography-cs-easy-04-24",
+      "initial": "U",
+      "text": "Které ukrajinské město na řece Uhu je správním centrem Zakarpatské oblasti?",
+      "answer": "Užhorod",
+      "aliases": [
+        "Užgorod",
+        "Uzhhorod",
+        "Uzhgorod",
+        "Ungvár",
+        "Ужгород",
+        "Ungwar",
+        "Ungver",
+        "אונגווער"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/U%C5%BEhorod",
+        "https://en.wikipedia.org/wiki/Uzhhorod"
+      ]
+    },
+    {
+      "id": "geography-cs-easy-04-25",
+      "initial": "V",
+      "text": "Jak se nazývá po železnici jedoucí souprava, která může být tvořena lokomotivou a vagony?",
+      "answer": "Vlak",
+      "aliases": ["železniční vlak", "vlaková souprava"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Vlak"]
+    },
+    {
+      "id": "geography-cs-easy-04-26",
+      "initial": "W",
+      "text": "Jaký hrad nad německým Eisenachem je spojen s pobytem Martina Luthera a jeho překladem Nového zákona?",
+      "answer": "Wartburg",
+      "aliases": ["Wartburk", "hrad Wartburg"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Wartburg"]
+    },
+    {
+      "id": "geography-cs-easy-04-27",
+      "initial": "Z",
+      "text": "Který vnitrozemský stát jižní Afriky má hlavní město Harare?",
+      "answer": "Zimbabwe",
+      "aliases": ["Zimbabwská republika", "Republika Zimbabwe"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Zimbabwe"]
+    },
+    {
+      "id": "geography-cs-easy-04-28",
+      "initial": "Ž",
+      "text": "Jak se nazývá označené místo, kde se pozemní komunikace kříží se železniční tratí ve stejné výškové úrovni?",
+      "answer": "Železniční přejezd",
+      "aliases": ["přejezd", "úrovňový železniční přejezd"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDelezni%C4%8Dn%C3%AD_p%C5%99ejezd"
+      ]
+    }
+  ]
+}

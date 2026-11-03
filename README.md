@@ -25,6 +25,17 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The runtime candidate contains **163 decks / 4,564 questions**, English85/
+Czech78. Only independently accepted `geography-cs-easy-04` is added to actual
+delivered `3a46238b` (162/4,536). All162 old pack bytes/order and application
+inputs remain unchanged. [Complete source support](docs/phase-12-geography-cs-easy-04-sources.json)
+and [fresh independent review](reviews/phase-12-geography-cs-easy-04-content-review.md)
+retain the28 full factual/alias/adult/current decisions and supplemental naming
+support. Actual-parent release/content gates precede individual private
+delivery, without app build/restart. Final330/9,240/all66 and cleanup remain OPEN.
+
+## Retained162 preparation history
+
 The runtime candidate contains **162 decks / 4,536 questions**, English85/
 Czech77. Only accepted `science-cs-easy-03` is added to actual delivered
 `1d1fdf7b` (161/4,508). Old161 pack bytes/order and application inputs remain
