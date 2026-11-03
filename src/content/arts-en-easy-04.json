@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 2,
+  "id": "arts-en-easy-04",
+  "title": "Arts and literature · Easy · 04",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "arts-en-easy-04-01",
+      "text": "What kind of song is adopted to express the identity of a nation, organization or other group?",
+      "initial": "A",
+      "answer": "Anthem",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["anthems", "national anthem", "national anthems"],
+      "sources": ["https://en.wikipedia.org/wiki/Anthem"]
+    },
+    {
+      "id": "arts-en-easy-04-02",
+      "text": "What small stick may a conductor hold to make the beat and musical gestures clearer to an orchestra?",
+      "initial": "B",
+      "answer": "Baton",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["conductor's baton", "conducting baton"],
+      "sources": ["https://en.wikipedia.org/wiki/Baton_(conducting)"]
+    },
+    {
+      "id": "arts-en-easy-04-03",
+      "text": "Which woodwind has a single reed attached to its mouthpiece and a largely cylindrical bore ending in a flared bell?",
+      "initial": "C",
+      "answer": "Clarinet",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["clarinets"],
+      "sources": ["https://en.wikipedia.org/wiki/Clarinet"]
+    },
+    {
+      "id": "arts-en-easy-04-04",
+      "text": "What is a row of dancers performing coordinated routines together in a musical-theatre production called?",
+      "initial": "CH",
+      "answer": "Chorus line",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["chorus lines", "chorus", "dance chorus", "dance line"],
+      "sources": ["https://en.wikipedia.org/wiki/Chorus_line"]
+    },
+    {
+      "id": "arts-en-easy-04-05",
+      "text": "What do we call a musical composition or performance involving two performers?",
+      "initial": "D",
+      "answer": "Duet",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["duo", "duetto", "duets"],
+      "sources": ["https://en.wikipedia.org/wiki/Duet"]
+    },
+    {
+      "id": "arts-en-easy-04-06",
+      "text": "Which kind of fretted string instrument, usually with six strings tuned E–A–D–G–B–E from lowest to highest, commonly uses magnetic pickups to send its string vibrations to an amplifier?",
+      "initial": "E",
+      "answer": "Electric guitar",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["electric guitars"],
+      "sources": ["https://en.wikipedia.org/wiki/Electric_guitar"]
+    },
+    {
+      "id": "arts-en-easy-04-07",
+      "text": "What is fiction written by fans using characters or settings from an existing work, rather than by that work's original creator, called?",
+      "initial": "F",
+      "answer": "Fan fiction",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "fanfiction",
+        "fan-fiction",
+        "fanfic",
+        "fan fic",
+        "fic",
+        "FF"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Fan_fiction"]
+    },
+    {
+      "id": "arts-en-easy-04-08",
+      "text": "What genre of Christian music is strongly associated with worship, choirs and expressive singing, including African American church traditions?",
+      "initial": "G",
+      "answer": "Gospel",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["gospel music"],
+      "sources": ["https://en.wikipedia.org/wiki/Gospel_music"]
+    },
+    {
+      "id": "arts-en-easy-04-09",
+      "text": "Which nursery-rhyme figure sat on a wall and had a fall that all the king's horses and men could not put right?",
+      "initial": "H",
+      "answer": "Humpty Dumpty",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Humpty_Dumpty"]
+    },
+    {
+      "id": "arts-en-easy-04-10",
+      "text": "Which lanky schoolmaster competes with Brom Bones for Katrina Van Tassel's affection before his frightening encounter with a headless rider?",
+      "initial": "I",
+      "answer": "Ichabod Crane",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Ichabod"],
+      "sources": ["https://en.wikipedia.org/wiki/Ichabod_Crane"]
+    },
+    {
+      "id": "arts-en-easy-04-11",
+      "text": "What coin-operated machine lets a customer choose a recording to be played, traditionally in places such as diners and bars?",
+      "initial": "J",
+      "answer": "Jukebox",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["juke box", "jukeboxes"],
+      "sources": ["https://en.wikipedia.org/wiki/Jukebox"]
+    },
+    {
+      "id": "arts-en-easy-04-12",
+      "text": "What small musical instrument adds a buzzing quality to your voice when you hum into it rather than simply blow?",
+      "initial": "K",
+      "answer": "Kazoo",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["kazoos"],
+      "sources": ["https://en.wikipedia.org/wiki/Kazoo"]
+    },
+    {
+      "id": "arts-en-easy-04-13",
+      "text": "What gentle kind of song is sung to soothe a child and help them fall asleep?",
+      "initial": "L",
+      "answer": "Lullaby",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["cradle song", "cradlesong", "lullabies"],
+      "sources": ["https://en.wikipedia.org/wiki/Lullaby"]
+    },
+    {
+      "id": "arts-en-easy-04-14",
+      "text": "What face covering can a stage performer wear to represent another person, an animal or a stylized character?",
+      "initial": "M",
+      "answer": "Mask",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["theatrical mask", "theatre mask", "theater mask", "masks"],
+      "sources": ["https://en.wikipedia.org/wiki/Mask"]
+    },
+    {
+      "id": "arts-en-easy-04-15",
+      "text": "What do we call the voice or character that tells a story, which need not be the same person as its author?",
+      "initial": "N",
+      "answer": "Narrator",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["storyteller", "narrators"],
+      "sources": ["https://en.wikipedia.org/wiki/Narration"]
+    },
+    {
+      "id": "arts-en-easy-04-16",
+      "text": "What musical interval connects one pitch with the next higher or lower pitch bearing the same note name, ideally at a frequency ratio of two to one?",
+      "initial": "O",
+      "answer": "Octave",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["perfect octave", "diapason", "octaves"],
+      "sources": ["https://en.wikipedia.org/wiki/Octave"]
+    },
+    {
+      "id": "arts-en-easy-04-17",
+      "text": "What kind of figure is brought to life by a performer moving it with a hand, rods or strings in a theatrical show?",
+      "initial": "P",
+      "answer": "Puppet",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["puppets"],
+      "sources": ["https://en.wikipedia.org/wiki/Puppet"]
+    },
+    {
+      "id": "arts-en-easy-04-18",
+      "text": "What is an ensemble of five musicians called?",
+      "initial": "Q",
+      "answer": "Quintet",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["quintette", "quintets"],
+      "sources": ["https://en.wikipedia.org/wiki/Quintet"]
+    },
+    {
+      "id": "arts-en-easy-04-19",
+      "text": "Which end-blown woodwind, familiar from school lessons, normally has seven finger holes at the front and a thumb hole at the back?",
+      "initial": "R",
+      "answer": "Recorder",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["recorders", "block flute", "blockflute", "English flute"],
+      "sources": ["https://en.wikipedia.org/wiki/Recorder_(musical_instrument)"]
+    },
+    {
+      "id": "arts-en-easy-04-20",
+      "text": "What book of blank drawing pages does an artist use to try out ideas, make studies and capture observations?",
+      "initial": "S",
+      "answer": "Sketchbook",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["sketch book", "sketchbooks"],
+      "sources": ["https://en.wikipedia.org/wiki/Sketchbook"]
+    },
+    {
+      "id": "arts-en-easy-04-21",
+      "text": "Which Irish-born playwright wrote the eighteenth-century comedy The School for Scandal?",
+      "initial": "SH",
+      "answer": "Sheridan",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Richard Brinsley Sheridan",
+        "Richard Brinsley Butler Sheridan",
+        "Richard Sheridan",
+        "R. B. Sheridan",
+        "R.B. Sheridan",
+        "R B Sheridan"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Richard_Brinsley_Sheridan"]
+    },
+    {
+      "id": "arts-en-easy-04-22",
+      "text": "What hand-held frame percussion instrument has small metal jingles around its rim and is commonly shaken or struck?",
+      "initial": "T",
+      "answer": "Tambourine",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["tambourines"],
+      "sources": ["https://en.wikipedia.org/wiki/Tambourine"]
+    },
+    {
+      "id": "arts-en-easy-04-23",
+      "text": "Which wealthy duck created by Carl Barks is famous for a huge money bin and for being Donald Duck's uncle?",
+      "initial": "U",
+      "answer": "Uncle Scrooge",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Scrooge McDuck",
+        "Scrooge",
+        "Uncle Scrooge McDuck",
+        "$crooge McDuck"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Scrooge_McDuck"]
+    },
+    {
+      "id": "arts-en-easy-04-24",
+      "text": "What woven fabric, historically associated with silk, has a dense, even pile that gives it a soft, plush feel?",
+      "initial": "V",
+      "answer": "Velvet",
+      "language": "en",
+      "category": "arts",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Velvet"]
+    },
+    {
+      "id": "arts-en-easy-04-25",
+      "text": "Which stage musical follows Elphaba and Glinda and presents events in Oz from the witches' point of view?",
+      "initial": "W",
+      "answer": "Wicked",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Wicked: The Untold Story of the Witches of Oz"],
+      "sources": ["https://en.wikipedia.org/wiki/Wicked_(musical)"]
+    },
+    {
+      "id": "arts-en-easy-04-26",
+      "text": "What brand of precision craft knives, often shaped like a pen, was created by Sundel Doniger?",
+      "initial": "X",
+      "answer": "X-Acto",
+      "language": "en",
+      "category": "arts",
+      "aliases": [
+        "Xacto",
+        "X Acto",
+        "X-Acto knife",
+        "Xacto knife",
+        "X Acto knife",
+        "Exacto",
+        "Exacto knife"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/X-Acto"]
+    },
+    {
+      "id": "arts-en-easy-04-27",
+      "text": "Which Japanese musical-instrument maker has a logo featuring three crossed tuning forks?",
+      "initial": "Y",
+      "answer": "Yamaha",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["Yamaha Corporation", "Yamaha Corp.", "Yamaha Corp"],
+      "sources": ["https://en.wikipedia.org/wiki/Yamaha_Corporation"]
+    },
+    {
+      "id": "arts-en-easy-04-28",
+      "text": "What French Caribbean dance-music style was pioneered by Kassav' and associated especially with Guadeloupe and Martinique?",
+      "initial": "Z",
+      "answer": "Zouk",
+      "language": "en",
+      "category": "arts",
+      "aliases": ["zouk music"],
+      "sources": ["https://en.wikipedia.org/wiki/Zouk"]
+    }
+  ]
+}

@@ -2,6 +2,24 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only candidate contains **168 decks / 4,704 questions**, English86/
+Czech82. Only `arts-en-easy-04` is added to actual delivered `7b5eb11a`
+(167/4,676); all167 earlier packs/order and application inputs stay immutable.
+All28 initial/current/full-source/alias/adult judgments are independently
+accepted in the [review](../reviews/phase-12-arts-en-easy-04-content-review.md).
+The [source ledger](phase-12-arts-en-easy-04-sources.json) and
+[own28 continuity](phase-12-arts-en-easy-04-source-continuity.json)
+retain original full evidence, finite aliases and accepted-judgment bindings.
+General-adult Easy23easy/5medium,17 exact inherited and99 actual current pair
+decisions retained. All31 priority yields remain, including Album to Anthem,
+Chalk to Chorus line and Vase to Velvet. Historical Sidney prose typo remains
+disclosed; actual question/source say Sundel Doniger and are unchanged.
+Only own28 enters play; other source-ledger decks and real adjacent holds
+are not newly cleared. Actual-parent integration/content gate and individual
+push/private catalog/unchanged-asset checks remain separate. Final gates OPEN.
+
+## Retained167 preparation history
+
 The append-only candidate contains **167 decks / 4,676 questions**, English85/
 Czech82. Only `geography-cs-medium-04` is added to actual delivered `e2270b1b`
 (166/4,648); all166 earlier packs/order and application inputs stay immutable.

@@ -1,0 +1,731 @@
+{
+  "entries": [
+    {
+      "id": "arts-en-easy-04-01",
+      "wholeQuestionSha256SortedJSON": "71f4020d9220ab08ca92eade95f8842c4ba75b072dcb30953ca4efb5d236ee07",
+      "initial": "A",
+      "canonicalAnswer": "Anthem",
+      "allLegitimateAliases": [
+        "anthems",
+        "national anthem",
+        "national anthems"
+      ],
+      "fullEvidenceSha256SortedJSON": "33f438875ec68c6e7bef086288944f52985d03ab3c31513e9d4e5e2934f8ce4e",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-01.json",
+        "sha256": "3c2c1d1343d103f7659c265161dfaf389f14319dee32cd40ebdc05d53af1eadc",
+        "bytes": 13999
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-01.json",
+        "sha256": "e91d0ecd387fc68349c52028f71a5e20c6c15d40b972bf0c2235d81968baebe0",
+        "bytes": 14580
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-02",
+      "wholeQuestionSha256SortedJSON": "a8c6f360c9b9ce50895f096f2f27042b0643b8cdc97a176c916d03e3acd0f844",
+      "initial": "B",
+      "canonicalAnswer": "Baton",
+      "allLegitimateAliases": ["conductor's baton", "conducting baton"],
+      "fullEvidenceSha256SortedJSON": "9f6467ef81194542999c31642b4f6d6e3b28fd110ad6389ae518caac70417052",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-02.json",
+        "sha256": "da2c1f1408ae5086a433156f6b0a9a6f701e49656836f9230be7a0eaf346546a",
+        "bytes": 33004
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-02.json",
+        "sha256": "83351a8a4c74a6240f6c04b0e2370e3cd53e38b5e6c2da4b8775a1a9c23a2b51",
+        "bytes": 33585
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-03",
+      "wholeQuestionSha256SortedJSON": "4f98ed82ea30bb54cd2f58a49e04199203652af7e490c68b413197ba31aa23d8",
+      "initial": "C",
+      "canonicalAnswer": "Clarinet",
+      "allLegitimateAliases": ["clarinets"],
+      "fullEvidenceSha256SortedJSON": "f06dfc4080502bda595f8770dcb76ac41cb38c238da53a28d49ab790983a489f",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-03.json",
+        "sha256": "94e3692d6728690012d0a7fa3f7033a0d746fa7db6c3d21883a7070d7b265b45",
+        "bytes": 32698
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-03.json",
+        "sha256": "d417b712d86c51b8737d87b5d40477b8d078d669364629c3ad87d2950c6095ed",
+        "bytes": 33279
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-04",
+      "wholeQuestionSha256SortedJSON": "9c8ebdbb62240205759a3550ea85afa18bd43677389bb82bc405a466d8f878c9",
+      "initial": "CH",
+      "canonicalAnswer": "Chorus line",
+      "allLegitimateAliases": [
+        "chorus lines",
+        "chorus",
+        "dance chorus",
+        "dance line"
+      ],
+      "fullEvidenceSha256SortedJSON": "ba2ccea05ad6e1a62695bd167804f782decbe394f415d8e2ace38de106e4f747",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-04.json",
+        "sha256": "e3bb918f98be0deec1460cee66494bbbd538dbd6ff48c318c6087dbca0dadf20",
+        "bytes": 73074
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-04.json",
+        "sha256": "9270063f092378316ee3c0521e387e95549bd4ac5b0f49fd7305dcc2f0910632",
+        "bytes": 73655
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-05",
+      "wholeQuestionSha256SortedJSON": "043e22bbbf6011a63b9a6ee1bda2133d1fa5e834d69014e6bd2261ed21bec335",
+      "initial": "D",
+      "canonicalAnswer": "Duet",
+      "allLegitimateAliases": ["duo", "duetto", "duets"],
+      "fullEvidenceSha256SortedJSON": "862a3fddf33606bcea16d39ceb3724bb6d3f4d441245ff77f8dd747fdca6b969",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-05.json",
+        "sha256": "68b966d4ef3a055602ccfa69d53132ea3d9ae7754d3985cc64dee2e1bd1f53b9",
+        "bytes": 64617
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-05.json",
+        "sha256": "0e5a3234c4ab996b1dd58b435be0d02cd5943edc46e47f7edf959170d24f3202",
+        "bytes": 65198
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-06",
+      "wholeQuestionSha256SortedJSON": "eb91baec292e2f152db6a1cc2ffae5654663a8549a7e507c6d227221352cba9c",
+      "initial": "E",
+      "canonicalAnswer": "Electric guitar",
+      "allLegitimateAliases": ["electric guitars"],
+      "fullEvidenceSha256SortedJSON": "db1861bfea37f27775465567154b11653092b0258e523d7b3f7a3a90e4c013ad",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-06.json",
+        "sha256": "fa7ac44675fef4689716da5cbc81a6860d79d407398f0453e05a7f5e90a95b99",
+        "bytes": 56915
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-06.json",
+        "sha256": "99e8bedda90770d947f1266d85af79a9213910b1e7b78ba49e1507cd30ef5052",
+        "bytes": 69849
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-07",
+      "wholeQuestionSha256SortedJSON": "088b0eee2ac3d3ef0531b29f82992bb51549291caf711f342479f9edaf62e0e4",
+      "initial": "F",
+      "canonicalAnswer": "Fan fiction",
+      "allLegitimateAliases": [
+        "fanfiction",
+        "fan-fiction",
+        "fanfic",
+        "fan fic",
+        "fic",
+        "FF"
+      ],
+      "fullEvidenceSha256SortedJSON": "762863e1c37e0f376bf2a31deffc9d8773aae75aa124cb5648317761c5074582",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-07.json",
+        "sha256": "96aedb0d39f4b9fd4b39b4b53d908f5681811e79e28f6ccc74a4b3d55fa4ae0b",
+        "bytes": 52876
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-07.json",
+        "sha256": "d790eeb7bc4a648c5abcb955aaf072920dd08e9ca456c7d60570f39871f46e3f",
+        "bytes": 53457
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-08",
+      "wholeQuestionSha256SortedJSON": "4c039ffd45e0b8b5a80338e890c051870464022460ae03bedd5e49496b5b5f1c",
+      "initial": "G",
+      "canonicalAnswer": "Gospel",
+      "allLegitimateAliases": ["gospel music"],
+      "fullEvidenceSha256SortedJSON": "a3f37860ca0626fce6a08aa521624ff694fa3298e6f67343d82445a68c9d177c",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-08.json",
+        "sha256": "c37d79dee8092bab4e4698add90821f999ad24bdaf9baa5526e15308e52bfc2e",
+        "bytes": 31526
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-08.json",
+        "sha256": "472f00af7ec9b1a1e4d01d1532cfb223dbbcbfe2133d45aebd05c0dceb8126a9",
+        "bytes": 32107
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-09",
+      "wholeQuestionSha256SortedJSON": "8b0fc0fd5870caf4f214e7d5e895c78344e5e95a4e6e115ab9f34ecec0742a0a",
+      "initial": "H",
+      "canonicalAnswer": "Humpty Dumpty",
+      "allLegitimateAliases": [],
+      "fullEvidenceSha256SortedJSON": "fb284fa6400db4368866e7740f2cb2c69b8551ee20440082e1cfcd8f7352d76f",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-09.json",
+        "sha256": "65907cfb772483580312e2b4194b093e4d529c4ac7574cc1fdfcae47715fd81d",
+        "bytes": 38675
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-09.json",
+        "sha256": "60e600233ad5e6e2e8e2c8bf239287f865a8461f7a9e20fd278fcdbcf1ab95fe",
+        "bytes": 39256
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-10",
+      "wholeQuestionSha256SortedJSON": "aedb28e9f2aa6dda50cee1f1d87918e93fd06b2ccc99d8537e9a2e6868efe34e",
+      "initial": "I",
+      "canonicalAnswer": "Ichabod Crane",
+      "allLegitimateAliases": ["Ichabod"],
+      "fullEvidenceSha256SortedJSON": "090eb20da8888be9f79f2e516cd44776c2fdffefe4e316c60365d1871a324306",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-10.json",
+        "sha256": "2ce13d0a97f64ebe6270548c7098fb8a70826845053dfdff15ca3b907b7709a1",
+        "bytes": 6945
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-10.json",
+        "sha256": "fa89a7973d958ef0bb0b6415871fb4f1fa800a0e104e2813beaec8d59ace1c7f",
+        "bytes": 7526
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "medium",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-11",
+      "wholeQuestionSha256SortedJSON": "f09fcd80be6f7b7df65c2446be6e34f839966aae0f71964bf1f9df8e29220c98",
+      "initial": "J",
+      "canonicalAnswer": "Jukebox",
+      "allLegitimateAliases": ["juke box", "jukeboxes"],
+      "fullEvidenceSha256SortedJSON": "cf1e4a1fb83e108bc80bc8bf87a854eec3bdf9c50e5fea22ac9a4439b405969e",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-11.json",
+        "sha256": "4f104f0e8e4cff5a055eeed24201898a2a0a75e8f8b590346c2a82a5de71af47",
+        "bytes": 68714
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-11.json",
+        "sha256": "038988b11098431fc7771296be8734a9affd4c5971200656e29fa17d488c7b54",
+        "bytes": 69295
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-12",
+      "wholeQuestionSha256SortedJSON": "a63ce51717bb8603055b872a4a2ca3d7a6ced7145706e88a0d03c0fb5d070e82",
+      "initial": "K",
+      "canonicalAnswer": "Kazoo",
+      "allLegitimateAliases": ["kazoos"],
+      "fullEvidenceSha256SortedJSON": "87d1a2dc6bc8d661ebe27593e7fdba50cd3aa37321ff864046c8e6407bca2c3f",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-12.json",
+        "sha256": "35b570159eee4b84732f2fe3f0db41e51aaa143895b5c525107fb5868332f83f",
+        "bytes": 29839
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-12.json",
+        "sha256": "18da036372ac14184ca55460b3eb257ac85d6ee3a583b88b969472d69d78ea71",
+        "bytes": 30420
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-13",
+      "wholeQuestionSha256SortedJSON": "f48649ef7e86f845b53f9e2cc2c6ecc171aa80aea462156bbc2b7ffa9fbf652a",
+      "initial": "L",
+      "canonicalAnswer": "Lullaby",
+      "allLegitimateAliases": ["cradle song", "cradlesong", "lullabies"],
+      "fullEvidenceSha256SortedJSON": "c2c2466b95f83e499232f3e6de5be87633bc319dedbf0bb2f072e508c64e2347",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-13.json",
+        "sha256": "b692e0f045e6f4b9572101cac25895f3471fa7c90777a603e79464ba12aaa734",
+        "bytes": 31005
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-13.json",
+        "sha256": "f252b1b15b760067d9e15417147828bf1a1df3a328f0dd5da785b2b86bc5a1aa",
+        "bytes": 31586
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-14",
+      "wholeQuestionSha256SortedJSON": "ce34c3cbd6aef090198b5a3d169117bdfaea3aac3e12eb6271c745e1a33e597c",
+      "initial": "M",
+      "canonicalAnswer": "Mask",
+      "allLegitimateAliases": [
+        "theatrical mask",
+        "theatre mask",
+        "theater mask",
+        "masks"
+      ],
+      "fullEvidenceSha256SortedJSON": "b2ac92038f0ed0842204d0db17e3760df186f208d719f76db85185eb07a7b3e2",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-14.json",
+        "sha256": "5607402037dc1549804d3acc27fb1d9e36b0f0a21b651182d1d10c735740cc18",
+        "bytes": 48050
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-14.json",
+        "sha256": "28ef338d6162badc87456c49bb408847d06af13e1fa8a85735c43e8000ec10c7",
+        "bytes": 48631
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-15",
+      "wholeQuestionSha256SortedJSON": "5ce8c84ab8cdb65e13a7e67952e9d66dd929106396b46e0af5a873755e4ee077",
+      "initial": "N",
+      "canonicalAnswer": "Narrator",
+      "allLegitimateAliases": ["storyteller", "narrators"],
+      "fullEvidenceSha256SortedJSON": "9f01a20b1c2cf8850b09247aa853731082e1c50c0685ef9b57cf3061ddcaa032",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-15.json",
+        "sha256": "49a724f17dc6280961584dba25d66c8aed103205ffe5d1d7226e1dad0817a3d1",
+        "bytes": 64441
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-15.json",
+        "sha256": "87b4f49f9f77ef002ccb044d354222d86c97e7e9ed8a6d38e127a5d693918ef3",
+        "bytes": 65022
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-16",
+      "wholeQuestionSha256SortedJSON": "01a59e8ab7131ae1acc0af45569daf0a4682f7eea6df416fe07f5e90d9caa8d2",
+      "initial": "O",
+      "canonicalAnswer": "Octave",
+      "allLegitimateAliases": ["perfect octave", "diapason", "octaves"],
+      "fullEvidenceSha256SortedJSON": "1d4b23de3335af44cc07ae74b142747810c6489b30143c0ea54c4e60562ac209",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-16.json",
+        "sha256": "6efa310b99d163d13330415939c57de96a85fe2c64ca16a40d88f10ca390be37",
+        "bytes": 42647
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-16.json",
+        "sha256": "597ba590d5fbe97833bba76504b2372e3ae8e13ae61017f9cfa76b22b64e9040",
+        "bytes": 43228
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-17",
+      "wholeQuestionSha256SortedJSON": "19956782e9e07b4fae2ba6e3efd34c97aefc6d2a250b292af6ea69d9171dcabd",
+      "initial": "P",
+      "canonicalAnswer": "Puppet",
+      "allLegitimateAliases": ["puppets"],
+      "fullEvidenceSha256SortedJSON": "1b9f90d9c1db507d04b2f7fc2e7c01940361502f5ba4895465b7861f9a8e4b4c",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-17.json",
+        "sha256": "1f5dd490b7281dd96b3e0aee9e47f58bd2bb03dc5247fa9f78c132a2362fdf77",
+        "bytes": 38359
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-17.json",
+        "sha256": "729908bc7418691a326e3054953a1be9811a84ff1f89505272767f0b69452a85",
+        "bytes": 38940
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-18",
+      "wholeQuestionSha256SortedJSON": "02275c397a30e4e94536aae4b93fd5eb3d1b528a9e67b93ad8005fec6cb8f949",
+      "initial": "Q",
+      "canonicalAnswer": "Quintet",
+      "allLegitimateAliases": ["quintette", "quintets"],
+      "fullEvidenceSha256SortedJSON": "f0b5444bbd1521099204ce8c3f76ea827d3c547442957d28e3b667e7df029502",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-18.json",
+        "sha256": "e67c2ad4433e3722f5829b3e52c4b8d3ab9732b547a363d526beccec545e0af3",
+        "bytes": 5764
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-18.json",
+        "sha256": "0a74ab1e7c32d911a34b663bb4dcd2a7b4a89fcc511e703413f5cbfbf4ce8d05",
+        "bytes": 6345
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-19",
+      "wholeQuestionSha256SortedJSON": "81f7c604eaf9d37ddafd5999a41f0911614ab9487b059f44a1eddf53f59fcd21",
+      "initial": "R",
+      "canonicalAnswer": "Recorder",
+      "allLegitimateAliases": [
+        "recorders",
+        "block flute",
+        "blockflute",
+        "English flute"
+      ],
+      "fullEvidenceSha256SortedJSON": "161492562ce58c84353cc1218efa705ba12e3d5b07589a354cc48fd255715cce",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-19.json",
+        "sha256": "dbf7ead5a53172f883c4d7278390992366d88ed0babd16cbcf5ec01f9413a1b9",
+        "bytes": 76024
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-19.json",
+        "sha256": "1338db7d3f49cf04056a9cb477135cabc8bb89a2916938ad203b49d35a114946",
+        "bytes": 76605
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-20",
+      "wholeQuestionSha256SortedJSON": "34f489ef4749f0f16349df3dafb00d2d10355f594f92ae5b381f35434a0d1310",
+      "initial": "S",
+      "canonicalAnswer": "Sketchbook",
+      "allLegitimateAliases": ["sketch book", "sketchbooks"],
+      "fullEvidenceSha256SortedJSON": "37b07592f1045fb43b2ea58a9eb37881e38a755e0e0057ce86ff918595a6f00b",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-20.json",
+        "sha256": "c5750a1e0b4425c4c3fdd3c88cce5c4ecc8592b5b920f0bdbaf34e0360401864",
+        "bytes": 44623
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-20.json",
+        "sha256": "279bf6baa33e8cc8533421579f6a67d74522db7982fff38d10c7d511012b2b5e",
+        "bytes": 45204
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-21",
+      "wholeQuestionSha256SortedJSON": "1b12e88e7ad7f9307385057320898b73c8e378ffef9ece23e9634ffc032f1bbc",
+      "initial": "SH",
+      "canonicalAnswer": "Sheridan",
+      "allLegitimateAliases": [
+        "Richard Brinsley Sheridan",
+        "Richard Brinsley Butler Sheridan",
+        "Richard Sheridan",
+        "R. B. Sheridan",
+        "R.B. Sheridan",
+        "R B Sheridan"
+      ],
+      "fullEvidenceSha256SortedJSON": "5b3c06aeee7601846c722bf56943b5e1cbee242954f6edd445cd3c8086288776",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-21.json",
+        "sha256": "dfcfda7aef1929727f7e4da40c8808b05afe1f6b66842951a91de20cea1e764e",
+        "bytes": 30814
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-21.json",
+        "sha256": "c19fd266ba60e26501a6963e8fbe29e3dcd99584ad2f7e65c9e3ea53398b5b05",
+        "bytes": 31395
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "medium",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-22",
+      "wholeQuestionSha256SortedJSON": "e497ab5d405eb15c4dc760fafc4f1b8ca8e4ac119202626c034b3dd91db88fe4",
+      "initial": "T",
+      "canonicalAnswer": "Tambourine",
+      "allLegitimateAliases": ["tambourines"],
+      "fullEvidenceSha256SortedJSON": "30300ee9fd991d098f44c68ee5afe796294f84ebf20ce2d823f5748fc8861f81",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-22.json",
+        "sha256": "824241d3a7e694a9acc719ef49fdf93dd7becf150b7596068debd5fba6a7a382",
+        "bytes": 45829
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-22.json",
+        "sha256": "2f6792831bbfeee655c2d328e3f6aa91d03135f5794182b5ff2e06bc1b52fe92",
+        "bytes": 46410
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-23",
+      "wholeQuestionSha256SortedJSON": "3fb74f00b5a75b26f281869c52505389a855ce23350601044c5574ae909d3b1f",
+      "initial": "U",
+      "canonicalAnswer": "Uncle Scrooge",
+      "allLegitimateAliases": [
+        "Scrooge McDuck",
+        "Scrooge",
+        "Uncle Scrooge McDuck",
+        "$crooge McDuck"
+      ],
+      "fullEvidenceSha256SortedJSON": "4bcdb9b96e3c39b4dfac158b2da01a68f6cdae0a1dba429f1ae5fb242584fe8d",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-23.json",
+        "sha256": "daf254d7c1a8886d4dc45034dba6984a1f631dab51d3acc255a82b77eaafeeca",
+        "bytes": 54906
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-23.json",
+        "sha256": "adbb06557147e4c7e299617adef3a1c9c4ac513f0f705c077f6f722d89c3a89c",
+        "bytes": 55487
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-24",
+      "wholeQuestionSha256SortedJSON": "384afc25d70300261c504d5acee5094890227679910ed14f07fa210260e0b8c1",
+      "initial": "V",
+      "canonicalAnswer": "Velvet",
+      "allLegitimateAliases": [],
+      "fullEvidenceSha256SortedJSON": "f8ad7e5830bccafe47aa3ec483eef2855cb738b911ab10e875b9e43738c30dae",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-24.json",
+        "sha256": "9585518b6185612fd62a6ec7a8c39b04ef892106df1ecb57cd14e9508d09c9ff",
+        "bytes": 62091
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-24.json",
+        "sha256": "91aa4936e0d11888c56041a9e573a1beba21fc0f8c6d17133e02e16c9ee17ab0",
+        "bytes": 62672
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-25",
+      "wholeQuestionSha256SortedJSON": "86c45371d44ea4d4c51c23ac300097c7ce5e243a7ea31dd47b64f19cbcb8d78a",
+      "initial": "W",
+      "canonicalAnswer": "Wicked",
+      "allLegitimateAliases": ["Wicked: The Untold Story of the Witches of Oz"],
+      "fullEvidenceSha256SortedJSON": "a4d897cafa4a7e003dc84dc4958e23d4d154ebbbfab6783c0b4e813509456475",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-25.json",
+        "sha256": "d9ba4c799ca395eac43fef4c5b660db6a61e7c99fdb86d9b8ab41b60b3258911",
+        "bytes": 40394
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-25.json",
+        "sha256": "2a2b409b5c9d21866af5140b328b0c745c762826eff626c75780f658e8becec5",
+        "bytes": 40975
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "medium",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-26",
+      "wholeQuestionSha256SortedJSON": "7c7b691aba061d6ad13a8241904970a7c6d3759251685bcf75a12af30debc11a",
+      "initial": "X",
+      "canonicalAnswer": "X-Acto",
+      "allLegitimateAliases": [
+        "Xacto",
+        "X Acto",
+        "X-Acto knife",
+        "Xacto knife",
+        "X Acto knife",
+        "Exacto",
+        "Exacto knife"
+      ],
+      "fullEvidenceSha256SortedJSON": "8f8d5607b6a381ff6a7d95a036dbd2a46b8bf65eca74993281d1dd8c712c4a5c",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-26.json",
+        "sha256": "8ad8fafacc8c11d50c99c69c85e0f7d0ef4ff5b83076f96da78373296ebf9ecd",
+        "bytes": 36700
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-26.json",
+        "sha256": "07ff0c69a304588bed2179a842845e04e0eb35156939622df23f23730d16b80b",
+        "bytes": 37281
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "medium",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-27",
+      "wholeQuestionSha256SortedJSON": "558e67cdded9c9ed4dd7f314ca398f899e507bf7ad05d8409ed1b69285b45509",
+      "initial": "Y",
+      "canonicalAnswer": "Yamaha",
+      "allLegitimateAliases": [
+        "Yamaha Corporation",
+        "Yamaha Corp.",
+        "Yamaha Corp"
+      ],
+      "fullEvidenceSha256SortedJSON": "63253b0d9ceac08f0d6b4760340e8afcdce8b9e1380b97e37eed937b775bb029",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-27.json",
+        "sha256": "87a4f3efad1884c130d1415400381f7e294eb86adde3a77eb2430c1da9588de6",
+        "bytes": 55322
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-27.json",
+        "sha256": "8909ba542f75a32122ce41ee2f8d9c08bba3b85eebe4cec8acaea5a022777a9f",
+        "bytes": 55903
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "easy",
+      "currentSemanticReleaseAcceptance": false
+    },
+    {
+      "id": "arts-en-easy-04-28",
+      "wholeQuestionSha256SortedJSON": "2409c30524cc02ee070522bba99b2a5621ee7fdd67a7218a77e1bf9ed1475276",
+      "initial": "Z",
+      "canonicalAnswer": "Zouk",
+      "allLegitimateAliases": ["zouk music"],
+      "fullEvidenceSha256SortedJSON": "4a3f4495dd012e683c808c0fafda93f611059639b9214c124dba7e7277683056",
+      "initialIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/entries/arts-en-easy-04-28.json",
+        "sha256": "e9e2227734c09b3bbc1f518fc5d5387e2c45e047c3eae7c83d26237bc96e370b",
+        "bytes": 54259
+      },
+      "actualAcceptedFollowup": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-28.json",
+        "sha256": "84f7c493832bc899e41b525f2b5fc50f0cc67a5178e4da68762ffc263b02eecd",
+        "bytes": 54840
+      },
+      "actualIndependentReviewer": "818d3fa7-1bde-49e9-9717-bee34b66feaa",
+      "authorJudgment": "ADOPT unchanged actual source/wording/qualifier/initial/alias acceptance; no new independent acceptance",
+      "nativeEnglish": "Direct natural clue and finite legitimate forms retained, including historical/name/brand variants",
+      "sourceQuality": "Actual cached secondary Wikipedia source; not primary or institutional authority",
+      "individualGeneralAdultRating": "medium",
+      "currentSemanticReleaseAcceptance": false
+    }
+  ],
+  "initialAccepted": 27,
+  "initialChangesRequired": 1,
+  "correctedElectricGuitarAccepted": 1,
+  "currentOwnExactFactualSourceAliasAcceptedInherited": 28,
+  "newIndependentAcceptances": 0
+}

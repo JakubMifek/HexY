@@ -25,6 +25,18 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The runtime candidate contains **168 decks / 4,704 questions**, English86/
+Czech82. Only accepted `arts-en-easy-04` is added to actual delivered
+`7b5eb11a` (167/4,676). All167 earlier pack bytes/order and application inputs
+remain unchanged. [Full source evidence](docs/phase-12-arts-en-easy-04-sources.json)
+and [independent review](reviews/phase-12-arts-en-easy-04-content-review.md)
+retain all28 factual/alias/adult/current decisions and legitimate earlier yields.
+Only own28 enters play; retained history does not publish or clear other packs.
+Actual-parent release/content gates precede individual private delivery, without
+app build/restart. Final330/9,240/all66 and final cleanup remain OPEN.
+
+## Retained167 preparation history
+
 The runtime candidate contains **167 decks / 4,676 questions**, English85/
 Czech82. Only accepted `geography-cs-medium-04` is added to actual delivered
 `e2270b1b` (166/4,648). All166 earlier pack bytes/order and application inputs

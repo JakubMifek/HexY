@@ -1,0 +1,446 @@
+{
+  "deckId": "arts-en-easy-04",
+  "reviewer": "sole independent wave2 content reviewer; runtime session ID not exposed",
+  "scope": "CONTENT ONLY",
+  "entries": [
+    {
+      "id": "arts-en-easy-04-01",
+      "questionSha256": "71f4020d9220ab08ca92eade95f8842c4ba75b072dcb30953ca4efb5d236ee07",
+      "fullEvidenceSha256": "efc85406992cff853b34d008fb5eea8b783149e14014c1188e1668d77c04b00e",
+      "input": "SOURCE-LEDGER.json#/ownEntries/0",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-01.json",
+        "sha256": "e91d0ecd387fc68349c52028f71a5e20c6c15d40b972bf0c2235d81968baebe0",
+        "bytes": 14580
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-02",
+      "questionSha256": "a8c6f360c9b9ce50895f096f2f27042b0643b8cdc97a176c916d03e3acd0f844",
+      "fullEvidenceSha256": "6407bef1cf8c96f22f6278109e093ec2d678b0f9792eb82e75b101c43df9303f",
+      "input": "SOURCE-LEDGER.json#/ownEntries/1",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-02.json",
+        "sha256": "83351a8a4c74a6240f6c04b0e2370e3cd53e38b5e6c2da4b8775a1a9c23a2b51",
+        "bytes": 33585
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-03",
+      "questionSha256": "4f98ed82ea30bb54cd2f58a49e04199203652af7e490c68b413197ba31aa23d8",
+      "fullEvidenceSha256": "e30cbe35d8ce5d20a1b41532554d192f07f9a68c0d0afbff4c1e46ca628e6af8",
+      "input": "SOURCE-LEDGER.json#/ownEntries/2",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-03.json",
+        "sha256": "d417b712d86c51b8737d87b5d40477b8d078d669364629c3ad87d2950c6095ed",
+        "bytes": 33279
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-04",
+      "questionSha256": "9c8ebdbb62240205759a3550ea85afa18bd43677389bb82bc405a466d8f878c9",
+      "fullEvidenceSha256": "a756cc71b19e94ce28f7b67c10ba10e504a558565f8c6a230653fc34b0c35135",
+      "input": "SOURCE-LEDGER.json#/ownEntries/3",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-04.json",
+        "sha256": "9270063f092378316ee3c0521e387e95549bd4ac5b0f49fd7305dcc2f0910632",
+        "bytes": 73655
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-05",
+      "questionSha256": "043e22bbbf6011a63b9a6ee1bda2133d1fa5e834d69014e6bd2261ed21bec335",
+      "fullEvidenceSha256": "cbb4e8f092f7449f45adb2f80eca669f502bdded89877873a6d616245285966c",
+      "input": "SOURCE-LEDGER.json#/ownEntries/4",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-05.json",
+        "sha256": "0e5a3234c4ab996b1dd58b435be0d02cd5943edc46e47f7edf959170d24f3202",
+        "bytes": 65198
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-06",
+      "questionSha256": "eb91baec292e2f152db6a1cc2ffae5654663a8549a7e507c6d227221352cba9c",
+      "fullEvidenceSha256": "756703f554bcfdb0f3cadb9a0e8407bc537f4ebd66be0d51b73e0e287e2d6421",
+      "input": "SOURCE-LEDGER.json#/ownEntries/5",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-06.json",
+        "sha256": "99e8bedda90770d947f1266d85af79a9213910b1e7b78ba49e1507cd30ef5052",
+        "bytes": 69849
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-07",
+      "questionSha256": "088b0eee2ac3d3ef0531b29f82992bb51549291caf711f342479f9edaf62e0e4",
+      "fullEvidenceSha256": "782e787690c3bf805ef9daf9654e76327eda3ac586f6c2b7fe70e04c33884021",
+      "input": "SOURCE-LEDGER.json#/ownEntries/6",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-07.json",
+        "sha256": "d790eeb7bc4a648c5abcb955aaf072920dd08e9ca456c7d60570f39871f46e3f",
+        "bytes": 53457
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-08",
+      "questionSha256": "4c039ffd45e0b8b5a80338e890c051870464022460ae03bedd5e49496b5b5f1c",
+      "fullEvidenceSha256": "637e51acae33404125a402fb4e2e48f51837f6e1306de190569871ca8d74c528",
+      "input": "SOURCE-LEDGER.json#/ownEntries/7",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-08.json",
+        "sha256": "472f00af7ec9b1a1e4d01d1532cfb223dbbcbfe2133d45aebd05c0dceb8126a9",
+        "bytes": 32107
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-09",
+      "questionSha256": "8b0fc0fd5870caf4f214e7d5e895c78344e5e95a4e6e115ab9f34ecec0742a0a",
+      "fullEvidenceSha256": "dd88dfd61351d7709ce2d90502321ff7f972379fc540a094ef0ffb71f2c444d1",
+      "input": "SOURCE-LEDGER.json#/ownEntries/8",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-09.json",
+        "sha256": "60e600233ad5e6e2e8e2c8bf239287f865a8461f7a9e20fd278fcdbcf1ab95fe",
+        "bytes": 39256
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-10",
+      "questionSha256": "aedb28e9f2aa6dda50cee1f1d87918e93fd06b2ccc99d8537e9a2e6868efe34e",
+      "fullEvidenceSha256": "7fb7f3ef84b9cea614fc350a1eeb58b33ce1500c6c8981d60be9a9a4275a1dbd",
+      "input": "SOURCE-LEDGER.json#/ownEntries/9",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-10.json",
+        "sha256": "fa89a7973d958ef0bb0b6415871fb4f1fa800a0e104e2813beaec8d59ace1c7f",
+        "bytes": 7526
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "medium",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-11",
+      "questionSha256": "f09fcd80be6f7b7df65c2446be6e34f839966aae0f71964bf1f9df8e29220c98",
+      "fullEvidenceSha256": "1683926107052c4717f3c6858bf159db21e6aefa77f966af8421d1af4ad7604f",
+      "input": "SOURCE-LEDGER.json#/ownEntries/10",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-11.json",
+        "sha256": "038988b11098431fc7771296be8734a9affd4c5971200656e29fa17d488c7b54",
+        "bytes": 69295
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-12",
+      "questionSha256": "a63ce51717bb8603055b872a4a2ca3d7a6ced7145706e88a0d03c0fb5d070e82",
+      "fullEvidenceSha256": "185c7b20506fa8ceea072ee6d13cb3fe5effb2222640d9c688daee12b12d8987",
+      "input": "SOURCE-LEDGER.json#/ownEntries/11",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-12.json",
+        "sha256": "18da036372ac14184ca55460b3eb257ac85d6ee3a583b88b969472d69d78ea71",
+        "bytes": 30420
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-13",
+      "questionSha256": "f48649ef7e86f845b53f9e2cc2c6ecc171aa80aea462156bbc2b7ffa9fbf652a",
+      "fullEvidenceSha256": "0eddab1b837cf472b02dd9a34fe92492c70d1307d269089e7c68b8a07fa4e0ba",
+      "input": "SOURCE-LEDGER.json#/ownEntries/12",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-13.json",
+        "sha256": "f252b1b15b760067d9e15417147828bf1a1df3a328f0dd5da785b2b86bc5a1aa",
+        "bytes": 31586
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-14",
+      "questionSha256": "ce34c3cbd6aef090198b5a3d169117bdfaea3aac3e12eb6271c745e1a33e597c",
+      "fullEvidenceSha256": "b48bd7195c5d2e487ea4967b2bf21f73a0c174cb66168f3ef04b1d3482174e43",
+      "input": "SOURCE-LEDGER.json#/ownEntries/13",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-14.json",
+        "sha256": "28ef338d6162badc87456c49bb408847d06af13e1fa8a85735c43e8000ec10c7",
+        "bytes": 48631
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-15",
+      "questionSha256": "5ce8c84ab8cdb65e13a7e67952e9d66dd929106396b46e0af5a873755e4ee077",
+      "fullEvidenceSha256": "73570ab3dec25bdb2e07436dcdd6a4c14d21a8a40e66e1726936bb66aa37f3a4",
+      "input": "SOURCE-LEDGER.json#/ownEntries/14",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-15.json",
+        "sha256": "87b4f49f9f77ef002ccb044d354222d86c97e7e9ed8a6d38e127a5d693918ef3",
+        "bytes": 65022
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-16",
+      "questionSha256": "01a59e8ab7131ae1acc0af45569daf0a4682f7eea6df416fe07f5e90d9caa8d2",
+      "fullEvidenceSha256": "3d4134ae3c0044498843820d215bb61a5de0e8d31ca1e25fa32a855f85a4c49a",
+      "input": "SOURCE-LEDGER.json#/ownEntries/15",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-16.json",
+        "sha256": "597ba590d5fbe97833bba76504b2372e3ae8e13ae61017f9cfa76b22b64e9040",
+        "bytes": 43228
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-17",
+      "questionSha256": "19956782e9e07b4fae2ba6e3efd34c97aefc6d2a250b292af6ea69d9171dcabd",
+      "fullEvidenceSha256": "70f50e94fc1b5c67bbd1a51f0fda00a13e487008e490a753ccccfa350a073723",
+      "input": "SOURCE-LEDGER.json#/ownEntries/16",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-17.json",
+        "sha256": "729908bc7418691a326e3054953a1be9811a84ff1f89505272767f0b69452a85",
+        "bytes": 38940
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-18",
+      "questionSha256": "02275c397a30e4e94536aae4b93fd5eb3d1b528a9e67b93ad8005fec6cb8f949",
+      "fullEvidenceSha256": "022866d7592100f103fc05ddf2cc0129dc5baabefdc4eee71fd66f92cb70e7d2",
+      "input": "SOURCE-LEDGER.json#/ownEntries/17",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-18.json",
+        "sha256": "0a74ab1e7c32d911a34b663bb4dcd2a7b4a89fcc511e703413f5cbfbf4ce8d05",
+        "bytes": 6345
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-19",
+      "questionSha256": "81f7c604eaf9d37ddafd5999a41f0911614ab9487b059f44a1eddf53f59fcd21",
+      "fullEvidenceSha256": "e40f2e8b256922c03797edec25be64692852ae11fe19a3fc063e1d13a5556cb1",
+      "input": "SOURCE-LEDGER.json#/ownEntries/18",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-19.json",
+        "sha256": "1338db7d3f49cf04056a9cb477135cabc8bb89a2916938ad203b49d35a114946",
+        "bytes": 76605
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-20",
+      "questionSha256": "34f489ef4749f0f16349df3dafb00d2d10355f594f92ae5b381f35434a0d1310",
+      "fullEvidenceSha256": "5c23ac4fd12f7d0a22f7d923123e08523ca8189dd15cf4e3f1e264b5db4520a2",
+      "input": "SOURCE-LEDGER.json#/ownEntries/19",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-20.json",
+        "sha256": "279bf6baa33e8cc8533421579f6a67d74522db7982fff38d10c7d511012b2b5e",
+        "bytes": 45204
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-21",
+      "questionSha256": "1b12e88e7ad7f9307385057320898b73c8e378ffef9ece23e9634ffc032f1bbc",
+      "fullEvidenceSha256": "5cae66a1600f9f0e0208b74133d5231b7826e44c955e6623ac16ebe3c04ce75f",
+      "input": "SOURCE-LEDGER.json#/ownEntries/20",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-21.json",
+        "sha256": "c19fd266ba60e26501a6963e8fbe29e3dcd99584ad2f7e65c9e3ea53398b5b05",
+        "bytes": 31395
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "medium",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-22",
+      "questionSha256": "e497ab5d405eb15c4dc760fafc4f1b8ca8e4ac119202626c034b3dd91db88fe4",
+      "fullEvidenceSha256": "1fc5d431a5adc912a1acab20b5b8b8892de28b2ce6d70ee4b7e72da00f868ef1",
+      "input": "SOURCE-LEDGER.json#/ownEntries/21",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-22.json",
+        "sha256": "2f6792831bbfeee655c2d328e3f6aa91d03135f5794182b5ff2e06bc1b52fe92",
+        "bytes": 46410
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-23",
+      "questionSha256": "3fb74f00b5a75b26f281869c52505389a855ce23350601044c5574ae909d3b1f",
+      "fullEvidenceSha256": "1aa17b265d0b11c5b1bf1e8296ba426b518c66db27d5965ac2c166e580b8b01a",
+      "input": "SOURCE-LEDGER.json#/ownEntries/22",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-23.json",
+        "sha256": "adbb06557147e4c7e299617adef3a1c9c4ac513f0f705c077f6f722d89c3a89c",
+        "bytes": 55487
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-24",
+      "questionSha256": "384afc25d70300261c504d5acee5094890227679910ed14f07fa210260e0b8c1",
+      "fullEvidenceSha256": "70f3304e26cb6c0ab8a1200f3a7f36993102605f6013abb95d1aae0719e98619",
+      "input": "SOURCE-LEDGER.json#/ownEntries/23",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-24.json",
+        "sha256": "91aa4936e0d11888c56041a9e573a1beba21fc0f8c6d17133e02e16c9ee17ab0",
+        "bytes": 62672
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-25",
+      "questionSha256": "86c45371d44ea4d4c51c23ac300097c7ce5e243a7ea31dd47b64f19cbcb8d78a",
+      "fullEvidenceSha256": "f2a2b81e207addf3f737cd37d2d52808d336e5427c8577f1fa0c98b36f53883d",
+      "input": "SOURCE-LEDGER.json#/ownEntries/24",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-25.json",
+        "sha256": "2a2b409b5c9d21866af5140b328b0c745c762826eff626c75780f658e8becec5",
+        "bytes": 40975
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "medium",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-26",
+      "questionSha256": "7c7b691aba061d6ad13a8241904970a7c6d3759251685bcf75a12af30debc11a",
+      "fullEvidenceSha256": "17d72ed0a709f375b8faf8b42c5521ddc79a24164d9c0409e339266cd245dfee",
+      "input": "SOURCE-LEDGER.json#/ownEntries/25",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-26.json",
+        "sha256": "07ff0c69a304588bed2179a842845e04e0eb35156939622df23f23730d16b80b",
+        "bytes": 37281
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "medium",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-27",
+      "questionSha256": "558e67cdded9c9ed4dd7f314ca398f899e507bf7ad05d8409ed1b69285b45509",
+      "fullEvidenceSha256": "e498147ebaa50c56230171a6991c762dfa20773ef8ab53a43f5132ffbe269c80",
+      "input": "SOURCE-LEDGER.json#/ownEntries/26",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-27.json",
+        "sha256": "8909ba542f75a32122ce41ee2f8d9c08bba3b85eebe4cec8acaea5a022777a9f",
+        "bytes": 55903
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "easy",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    },
+    {
+      "id": "arts-en-easy-04-28",
+      "questionSha256": "2409c30524cc02ee070522bba99b2a5621ee7fdd67a7218a77e1bf9ed1475276",
+      "fullEvidenceSha256": "67e001b0c06450da723011dc651183c29962814c2a0e1bc4e160988edaa7c09c",
+      "input": "SOURCE-LEDGER.json#/ownEntries/27",
+      "priorIndependentReceipt": {
+        "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/entries/arts-en-easy-04-28.json",
+        "sha256": "84f7c493832bc899e41b525f2b5fc50f0cc67a5178e4da68762ffc263b02eecd",
+        "bytes": 54840
+      },
+      "initialDecision": "INHERIT EXACT ACCEPTED WHOLE OBJECT",
+      "currentDecision": "ACCEPTED",
+      "adult": "medium",
+      "factSourceAliasDecision": "Exact actual accepted question and complete supporting source entry retained; all finite variants preserved."
+    }
+  ],
+  "wholeAdult": {
+    "decision": "ACCEPTED EASY; exact accepted whole-adult judgment inherited",
+    "bandsNotQuotas": {
+      "easy": 23,
+      "medium": 5
+    },
+    "reason": "Common vocabulary and recognizable cultural objects dominate: anthem, baton, duet, electric guitar, lullaby, mask, narrator, puppet, recorder, sketchbook, tambourine and velvet. Ichabod, Sheridan, X-Acto's creator anchor and especially Zouk are harder tails, not a new novice-musician rubric. The local guitar ambiguity is a content finding, not grounds to relabel the deck.",
+    "authority": {
+      "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/ratings.json",
+      "sha256": "966d04727f22304d3639781c6850d5668aa9d0d1a604e852a61bc1518d0dd8d8",
+      "bytes": 1613
+    }
+  },
+  "originalInitialAccepted": 28,
+  "currentAccepted": 28,
+  "currentHeld": 0,
+  "currentPairClosure": "PAIR-DECISIONS.json is a required separate component of this verdict",
+  "sourcePacketRoot": ".artifacts/continuation/fresh38-authors/arts-en-easy-04",
+  "pointerConvention": "Source-input filenames/JSON pointers resolve from sourcePacketRoot; all complete input files are SHA-bound in shared INPUT-BINDINGS.json."
+}

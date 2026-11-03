@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "deckId": "arts-en-easy-04",
+  "scope": "Only ten frozen ArtsEasy04 inputs against actual167; final wave2 integration review",
+  "publisherSessionId": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "actualParent": "7b5eb11aff6a7422dc2c8eaa61b0202cb31a09f1",
+  "candidateCheckout": ".artifacts/continuation/fresh38-release-168-worktree",
+  "entries": 28,
+  "initialAcceptedInherited": 28,
+  "currentAcceptedInherited": 28,
+  "held": 0,
+  "pack": {
+    "path": ".artifacts/continuation/fresh38-authors/arts-en-easy-04/arts-en-easy-04.json",
+    "sha256": "f0b95c5adb1db064e87cc5b6dead942581d0246aab5531176fbb9961aac9d1b4",
+    "bytes": 11547
+  },
+  "freeze": {
+    "path": ".artifacts/continuation/fresh38-review-168/FROZEN-SHA256SUMS",
+    "sha256": "7c6d285cc83410a7ce22c8ecc22b21de0be923ad3ff34294a16614fc5abbff84",
+    "bytes": 1541
+  },
+  "candidateDiff": {
+    "path": ".artifacts/continuation/fresh38-review-168/CANDIDATE.diff",
+    "sha256": "eff41dd7d99147a6de6966a24596483704203f681ef8e7e6571a5617af7aae05",
+    "bytes": 4766
+  },
+  "frozenSourceBindings": {
+    "IMPLEMENTATION_PHASES.md": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/IMPLEMENTATION_PHASES.md",
+      "sha256": "125659287da74e5e32b554601834d7fa13a4ac014a8de314a5122d28b8dc89a8",
+      "bytes": 178472
+    },
+    "README.md": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/README.md",
+      "sha256": "df55bfc6d01f29029a8fd11dcdb978a5b22e2906b28b381615f13b8579d4e835",
+      "bytes": 77345
+    },
+    "docs/content-inventory.md": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/docs/content-inventory.md",
+      "sha256": "6c61940c0a2d7a53c47bb42e85b3b38974fd1f94464b708c4b959fa18ce632d7",
+      "bytes": 60222
+    },
+    "docs/phase-12-arts-en-easy-04-source-continuity.json": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/docs/phase-12-arts-en-easy-04-source-continuity.json",
+      "sha256": "dad5df38ae3d12bc26976167cc38a3caa95f94b79375eea270bfd3def83ca7a2",
+      "bytes": 41072
+    },
+    "docs/phase-12-arts-en-easy-04-sources.json": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/docs/phase-12-arts-en-easy-04-sources.json",
+      "sha256": "ca34b79981938450b83440ee236f351be57349605276db6cc2892310acebd55c",
+      "bytes": 1540470
+    },
+    "docs/phase-12-deck-inventory.json": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/docs/phase-12-deck-inventory.json",
+      "sha256": "535238b54cedeea97c69192699d1edbfc5e67be1a3abccbfbde31837dcb8483c",
+      "bytes": 1266
+    },
+    "reviews/phase-12-arts-en-easy-04-content-review.json": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/reviews/phase-12-arts-en-easy-04-content-review.json",
+      "sha256": "854a2d955c157e7100d92bc6f34a70363b82473ce4cdcc6d03b556f4cfdae383",
+      "bytes": 24270
+    },
+    "reviews/phase-12-arts-en-easy-04-content-review.md": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/reviews/phase-12-arts-en-easy-04-content-review.md",
+      "sha256": "986c0c57ca264fc8e84f470a8ef65007f5072268ad94c92536b89b42cd4d6cc7",
+      "bytes": 3710
+    },
+    "src/content-order.json": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/src/content-order.json",
+      "sha256": "9d949f9db6234901ab0194d8d2d6297b1d0c7341a5dc565a6a47f86bcc63effa",
+      "bytes": 4806
+    },
+    "src/content/arts-en-easy-04.json": {
+      "path": ".artifacts/continuation/fresh38-release-168-worktree/src/content/arts-en-easy-04.json",
+      "sha256": "f0b95c5adb1db064e87cc5b6dead942581d0246aab5531176fbb9961aac9d1b4",
+      "bytes": 11547
+    }
+  },
+  "acceptedContentSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/arts-en-easy-04/SEAL.json",
+    "sha256": "f9186292ccd0f88f5072f5f66cd135840a4309cfe268051bd7bdc87530def6fb",
+    "bytes": 2621
+  },
+  "substantivePairDecisions": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/arts-en-easy-04/PAIR-DECISIONS.json",
+    "sha256": "5d6a42d76b13cef4f86d96858b61539c36f7ae6492b89f012bd8dc0db0e7dc3f",
+    "bytes": 192961
+  },
+  "crossOwn112": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/CROSS-OWN112.json",
+    "sha256": "6d464f6d809806e1ad11838b833fd92c7cd9c5d91a775f83b0d36f332a5e818d",
+    "bytes": 30005
+  },
+  "crossOwnBundleSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/BUNDLE-SEAL.json",
+    "sha256": "8fe9643bc45e2f369d49c3a84f01c4599e0dbab99365b7f39430b5ace807a395",
+    "bytes": 7457
+  },
+  "completeFormattingOnlyJSONCopies": [
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/arts-en-easy-04/SOURCE-LEDGER.json",
+        "sha256": "6679b14a328e6b4377d3d48b13c5f15bbef150018e881c5bebf6e229e5435cf2",
+        "bytes": 1546640
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-168-worktree/docs/phase-12-arts-en-easy-04-sources.json",
+        "sha256": "ca34b79981938450b83440ee236f351be57349605276db6cc2892310acebd55c",
+        "bytes": 1540470
+      },
+      "wholeJSONValueSha256": "9b7fbe19f2f6fb30cda28989925e33fd80df0c3df5f901438f3f9ce7b1e83ea5",
+      "wholeOrderedProjectionSha256": "efaa4e427ed2947d38bf2917b1d6edcd814d90baa774f40d422c844ee310ed83",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/arts-en-easy-04/ENTRY-AUTHOR-JUDGMENTS.json",
+        "sha256": "002ad69e718990512ae11481d1e7e885e7c60a8a9734b0f84326c3572245e2f8",
+        "bytes": 41432
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-168-worktree/docs/phase-12-arts-en-easy-04-source-continuity.json",
+        "sha256": "dad5df38ae3d12bc26976167cc38a3caa95f94b79375eea270bfd3def83ca7a2",
+        "bytes": 41072
+      },
+      "wholeJSONValueSha256": "f5a4a4cb893aaa5cb861fa7fc707f8eabcf04ac2c1a3ceb08fc4848f65af97bc",
+      "wholeOrderedProjectionSha256": "5d41ef5772cac4ba5b3086c8b001dec9433f6bb278f7449c3a4e8957cf306710",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-review-wave2/arts-en-easy-04/ENTRY-DECISIONS.json",
+        "sha256": "854a2d955c157e7100d92bc6f34a70363b82473ce4cdcc6d03b556f4cfdae383",
+        "bytes": 24270
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-168-worktree/reviews/phase-12-arts-en-easy-04-content-review.json",
+        "sha256": "854a2d955c157e7100d92bc6f34a70363b82473ce4cdcc6d03b556f4cfdae383",
+        "bytes": 24270
+      },
+      "wholeJSONValueSha256": "1f7f9a2b5ea576d2cfaa44e82672abdb87e70a56994b09b6c3887663203172a5",
+      "wholeOrderedProjectionSha256": "34097d52bd1f0aee4f4ebda407337fb519eb6c2fc2a2dfba08edc10045e0abca",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    }
+  ],
+  "fullOriginalSourceLedger": {
+    "path": ".artifacts/continuation/fresh38-authors/arts-en-easy-04/SOURCE-LEDGER.json",
+    "sha256": "6679b14a328e6b4377d3d48b13c5f15bbef150018e881c5bebf6e229e5435cf2",
+    "bytes": 1546640
+  },
+  "originalOwn28Continuity": {
+    "path": ".artifacts/continuation/fresh38-authors/arts-en-easy-04/ENTRY-AUTHOR-JUDGMENTS.json",
+    "sha256": "002ad69e718990512ae11481d1e7e885e7c60a8a9734b0f84326c3572245e2f8",
+    "bytes": 41432
+  },
+  "finiteForms": 97,
+  "wholeAdult": {
+    "decision": "ACCEPTED EASY; exact accepted whole-adult judgment inherited",
+    "bandsNotQuotas": {
+      "easy": 23,
+      "medium": 5
+    },
+    "reason": "Common vocabulary and recognizable cultural objects dominate: anthem, baton, duet, electric guitar, lullaby, mask, narrator, puppet, recorder, sketchbook, tambourine and velvet. Ichabod, Sheridan, X-Acto's creator anchor and especially Zouk are harder tails, not a new novice-musician rubric. The local guitar ambiguity is a content finding, not grounds to relabel the deck.",
+    "authority": {
+      "path": ".artifacts/continuation/bundles/reviews/p12/arts/b03-v1/v2/ratings.json",
+      "sha256": "966d04727f22304d3639781c6850d5668aa9d0d1a604e852a61bc1518d0dd8d8",
+      "bytes": 1613
+    }
+  },
+  "relations": {
+    "inherited": 17,
+    "current": 99,
+    "priorityYields": 31
+  },
+  "SidneyProseVersusActualSundelDonigerQualificationPreserved": true,
+  "onlyOwn28PublishedNotOtherSourceLedgerDecks": true,
+  "EN05OtherGenuineAdjacentHoldsNotCleared": true,
+  "General165Science166DeliveryRoleOnly": true,
+  "Geo167CorrectedPackAndPriorActualArtsImpactInherited": true,
+  "geoCorrectionSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04-correction-r1/SEAL.json",
+    "sha256": "b37b0de5424a1d5b12eaf2acf26d53280b5fc9015837592a0877ed9b8ce50b18",
+    "bytes": 3082
+  },
+  "geoCorrectionMeaningfulAliasImpact": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04-correction-r1/PAIR-DECISIONS.json",
+    "sha256": "3f25ff53260e8e6bc7fc3925916558055b6d79d6d333b1b62e9bb0305e9300c4",
+    "bytes": 1763
+  },
+  "formatAssessment": {
+    "packPrettierPassed": true,
+    "scope": "Only exact new Arts pack, in memory; no candidate writes"
+  },
+  "report": {
+    "path": ".artifacts/continuation/fresh38-review-168/REPORT.md",
+    "sha256": "111cd76dc3996c91d8bfa21230a0e0d89f372334020ae38b027200f6f51ff9ed",
+    "bytes": 5604
+  },
+  "verification": {
+    "path": ".artifacts/continuation/fresh38-review-168/VERIFICATION.json",
+    "sha256": "dfa983b6e6b05cf39bad4615f3f74fe63782f96776a842c8e8fc0ec9dfee6123",
+    "bytes": 7842
+  },
+  "inputBindings": {
+    "path": ".artifacts/continuation/fresh38-review-168/INPUT-BINDINGS.json",
+    "sha256": "11c64cbec4b85ff2829097d3993075700702d20888e9f14d45c8391f5f51656a",
+    "bytes": 52157
+  },
+  "applicationBoundary": {
+    "baselineTrackedFiles": 646,
+    "candidateComparableFiles": 651,
+    "changed": [
+      "IMPLEMENTATION_PHASES.md",
+      "README.md",
+      "docs/content-inventory.md",
+      "docs/phase-12-deck-inventory.json",
+      "src/content-order.json"
+    ],
+    "added": [
+      "docs/phase-12-arts-en-easy-04-source-continuity.json",
+      "docs/phase-12-arts-en-easy-04-sources.json",
+      "reviews/phase-12-arts-en-easy-04-content-review.json",
+      "reviews/phase-12-arts-en-easy-04-content-review.md",
+      "src/content/arts-en-easy-04.json"
+    ],
+    "deleted": [],
+    "unchangedTrackedFiles": 641,
+    "existingPermissionBitsPreserved": true,
+    "executableApplicationToolTestDependencyConfigurationChanges": [],
+    "previousPacksPreserved": 167,
+    "priorOrderExactPrefix": true
+  },
+  "candidateCounts": {
+    "decks": 168,
+    "questions": 4704,
+    "cs": 82,
+    "en": 86,
+    "combinations": 66,
+    "maximumPerQuota": 5,
+    "completedQuotas": 2
+  },
+  "concurrentDelta": [
+    {
+      "deckId": "general-cs-hard-05",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-general-hard05.json",
+        "sha256": "a83b48e932c75b9a26057f0dc5db44ab0ffa654810b1e53babe766dce0625208",
+        "bytes": 1030
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/general-cs-hard-05/general-cs-hard-05.json",
+        "sha256": "dbd53e6f3481599f6dad898f6f6e91458260be579d6163530db8610dcec5d095",
+        "bytes": 12032
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    },
+    {
+      "deckId": "science-cs-hard-03",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-science-geography-hard.json",
+        "sha256": "bbfbfdd6f9f99d629d2e80380039131a263621892acae32e5209be594270849f",
+        "bytes": 1960
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/science-cs-hard-03/science-cs-hard-03.json",
+        "sha256": "2388c1cdd7dee00696ac87e2f7828957fc49b133b3c1c47becdd9894f1745110",
+        "bytes": 13321
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    },
+    {
+      "deckId": "geography-cs-hard-04",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-science-geography-hard.json",
+        "sha256": "bbfbfdd6f9f99d629d2e80380039131a263621892acae32e5209be594270849f",
+        "bytes": 1960
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-hard-04/geography-cs-hard-04.json",
+        "sha256": "00ee9081d7e2eb9e23c27e37b6dee1083b53e8c64f88910a0d3332dbcccfe175",
+        "bytes": 12843
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    },
+    {
+      "deckId": "nature-cs-easy-04",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-nature-easy04.json",
+        "sha256": "e0a6b0b01a011c7cd6ac307b99143b40950cd32e13e28f697260e9eace9c90e0",
+        "bytes": 1156
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/nature-cs-easy-04/nature-cs-easy-04.json",
+        "sha256": "579b0c9cc2da46114a87184fcf76e1ba73c37fc0c880e4acacf393286fd60abe",
+        "bytes": 11485
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    }
+  ],
+  "actualParentDelivery": {
+    "path": ".artifacts/continuation/fresh38-deck167-actual-delivery.json",
+    "sha256": "d5277c5eb8f40b66396219b91cdbf8ab2b4cb329ac6d6761d5347fd66997c130",
+    "bytes": 2298
+  },
+  "actualParentReleaseReview": {
+    "path": ".artifacts/continuation/fresh38-release-168-worktree/reviews/phase-12-geography-cs-medium-04-runtime-release.json",
+    "sha256": "7c8611a9b8b0b50be3812f4ca8a11040486ada4b31c8f1bd4d3a35b41e960eb9",
+    "bytes": 20716
+  },
+  "inheritedApplicationGateRevision": "c7cdaafb1969017728d00e35ceb2f6a731a700cf",
+  "migrationReview": {
+    "path": ".artifacts/continuation/fresh38-release-168-worktree/reviews/runtime-catalog-migration.json",
+    "sha256": "d5079ee627e5ac4a00dd90fcec3604d694f87605a1c45589f1fc438305efec9f",
+    "bytes": 2912
+  },
+  "actualPrivateMigrationProof": {
+    "path": ".artifacts/continuation/runtime-content-private-migration.json",
+    "sha256": "51c88190e17ddf14d7e7071959f1238d55c9d441fbf2b4fb88e98d49553881ed",
+    "bytes": 24675
+  },
+  "priorBrowserResults": {
+    "path": ".artifacts/continuation/runtime-content-browser-results.json",
+    "sha256": "fdb5c1b3a97857f7b8e7b940f07a69da38516bd147a6d458ed074576afea64f5",
+    "bytes": 42722
+  },
+  "unchangedActuallyReferencedAssets": {
+    "/hexy/assets/index-Ck_9oRvP.js": "2bf488f03685b99bf40d1bf295883e131bf2162066c51f6273398eb7a4497717",
+    "/hexy/assets/index-DPcmLzC0.css": "dfcaaf71a4cc9429d3f38589e9e3a747d1532af9c692372b1e3d21d535d9af89"
+  },
+  "sixLenses": [
+    "correctness",
+    "usability/accessibility",
+    "readability/maintainability",
+    "ownership/OOP",
+    "patterns/proportionality",
+    "content/rights/delivery"
+  ],
+  "unresolvedFindings": [],
+  "remainingPublisherGates": [
+    "Separate mandatory exact-parent same-snapshot content gate",
+    "Individual168 publication and actual full catalog/objects/order/unchanged JS-CSS verification"
+  ],
+  "centralContentGateExecuted": false,
+  "actuallyPublishedOrDelivered": false,
+  "otherDecksCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false,
+  "newReviewerBatchOrStorageOperationsStarted": false
+}

@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate168:** ArtsENEasy04 alone adds28 to actual
+delivered `7b5eb11a` (167/4,676), yielding168/4,704, English86/Czech82.
+All28 original/current/full-source/alias/adult and specific semantic judgments
+independently accepted; original priority yields and source/prose limitations
+retained. Whole general-adult Easy23easy/5medium unchanged. Complete source
+ledger/own28 continuity does not clear other source decks. Previous167 packs/
+order/application inputs remain immutable. Exact-parent release/content gate
+and individual private verification remain separate. Final gates NOT CLEARED.
+
 **Current runtime-data candidate167:** GeographyCSMedium04 alone adds28 to actual
 delivered `e2270b1b` (166/4,648), yielding167/4,676, English85/Czech82.
 Current28 independently accepted, held0:27 original accepted entries preserved,
