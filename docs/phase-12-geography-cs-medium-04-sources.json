@@ -1,0 +1,2008 @@
+{
+  "scope": "geography-cs-medium-04",
+  "placements": [
+    {
+      "id": "geography-cs-medium-04-01",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Andorra",
+        "fetchedAt": "2026-10-31T00:34:13.178364+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/e5efdd164f96f48c51c0.html",
+        "sourceBodySha256": "5ea00f08b976f77e813455ec87563dad6f4d17a5c357c20b324bb7c83a89f014",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 28
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/e5efdd164f96f48c51c0.txt",
+        "sourceTextSha256": "c85738570c1c0f7239a35551784e5d49f48e88cb4950f32d1e2388ee8394c145",
+        "passage": "Poloha Andorry\n\nAndorra, plným názvem Andorrské knížectví (katalánsky Principat d’Andorra), je suverénní vnitrozemský stát na Pyrenejském poloostrově, v jižní Evropě a podle některých definic i v západní Evropě. Hraničí na severu s Francií a na jihu se Španělskem, leží ve východních Pyrenejích, které jsou tvořeny především vysokými horami. S rozlohou 468 km² je šestým nejmenším suverénním státem v Evropě, má přibližně 87 000 obyvatel.[1] Andorru tvoří převážně členitá pohoří s průměrnou nadmořskou výškou kolem 2 000 m, v údolích panuje oceánské podnebí, ale vzhledem k vyšší nadmořské výšce bývají zimy drsnější a vlhkost je nižší. Její hlavní a největší město je Andorra la Vella. Andořané tvoří necelých 50 % obyvatel, dále zde žijí Španělé (25 %), Portugalci (11 %) a Francouzi (5 %). Úředním jazykem je katalánština, ale běžně se mluví také španělsky, portugalsky a francouzsky; celkem 86 % obyvatel se hlásí ke katolické církvi.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/e5efdd164f96f48c51c0.html",
+        "sha256": "5ea00f08b976f77e813455ec87563dad6f4d17a5c357c20b324bb7c83a89f014",
+        "bytes": 399135
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/e5efdd164f96f48c51c0.txt",
+        "sha256": "c85738570c1c0f7239a35551784e5d49f48e88cb4950f32d1e2388ee8394c145",
+        "bytes": 22231
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Pyrenean principality between the two named neighbours is Andorra, not its capital Andorra la Vella. Both borders and mountain location occur in the retained complete lead.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-02",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/B%C4%9Blehrad",
+        "fetchedAt": "2026-10-31T00:34:13.239556+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/cc9bca89035615d63687.html",
+        "sourceBodySha256": "9830e0e7f649b9478df7108578e1c2cd3518ff42e022f06e1c0f332ace442972",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 29
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/cc9bca89035615d63687.txt",
+        "sourceTextSha256": "370fb75499fb501fca4d9eb2ebe0efc3a3ab715bb68a0760e3a5d31d476c42fe",
+        "passage": "Bělehrad (srbsky Београд / Beograd) je hlavním a největším městem Srbska. Mezi lety 1918–1941 a 1945–1992 byl také hlavním městem Království Srbů, Chorvatů a Slovinců, resp. Jugoslávie. Žije zde přibližně 1,20 milionu[1] obyvatel. Město se nachází na soutoku řek Dunaj a Sáva. Je přirozeným politickým, ekonomickým i dopravním centrem Srbska. Kříží se zde celá řada mezinárodně významných silničních i železničních tahů[2] spojující Střední Evropu s Balkánem.[3]\n\nNázev města je slovanského původu a znamená Bílé město. V staroslověnštině měl podobu Бѣлградъ nebo Бѣлиградъ; poprvé byl zaznamenán v roce 878 v dopisu papeže bulharskému carovi Borisovi.[4][5] Odsud byl převzat do všech jazyků; jen v němčině se objevuje jako kalk v podobě Weizzenburg.[6] V tureckých zdrojích je doložen jako Tuna Belgrad (Dunajský Bělehrad) pro odlišení podobných měst.[6]",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/cc9bca89035615d63687.html",
+        "sha256": "9830e0e7f649b9478df7108578e1c2cd3518ff42e022f06e1c0f332ace442972",
+        "bytes": 702683
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/cc9bca89035615d63687.txt",
+        "sha256": "370fb75499fb501fca4d9eb2ebe0efc3a3ab715bb68a0760e3a5d31d476c42fe",
+        "bytes": 43737
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The source explicitly places Belgrade at the Sava–Danube confluence and identifies the Serbian city.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-03",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/C%C3%B3rdoba_%28%C5%A0pan%C4%9Blsko%29",
+        "fetchedAt": "2026-10-31T02:10:46.838070+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/6fe43862ea2d0f564248.html",
+        "sourceBodySha256": "df5794c91d64addb70298078ae3856057d5a116b6b661f3199437c2688d89208",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/6fe43862ea2d0f564248.json",
+          "sha256": "ab066229cc572e74ba9483917996f3e6d8e660dddb55b53e43e05b3ffb1e04f3",
+          "index": null
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/6fe43862ea2d0f564248.txt",
+        "sourceTextSha256": "cc146d1edb8061b6cc4509e302dd1594128f29d749533ac4bb59a9a534411491",
+        "passage": "Córdoba je město v jižním Španělsku v autonomním společenství Andalusie na řece Guadalquivir; hlavní město stejnojmenné provincie. Žije zde přibližně 323 tisíc[1] obyvatel.\n\nCórdoba stojí na místě starého iberského sídla, v roce 169 př. n. l. bylo město pod názvem Corduba připojeno k Římské říši. Kolem roku 300 zde vzniklo biskupství. Během stěhování národů zde dočasně vládli Vandalové, potom město dobyla Byzantská říše (544–571) a později Vizigóti (572). V té době město upadalo. Roku 711 ho dobyli Arabové a o pět let později se Córdoba stala hlavním městem islámského emirátu v Al-Andalus (od roku 756 Córdobského emirátu, od roku 929 Córdobského chalífátu).\n\nV období arabské vlády byla Qurtuba jedním z nejbohatších měst, byla i duchovním a kulturním centrem islámu. Okolo roku 1000 byla jedním z největších měst na světě; žilo tu asi 500 000 obyvatel. Žili zde vedle sebe křesťané, muslimové i Židé. V této době vznikla i známá Mezquita (dnes katedrála). Po zániku Córdobského kalifátu (1031) připadla Córdoba Džahvanidům, roku 1069 Abbadidům ze Sevilly, roku 1091 Almorávidům a od 12. století patřila Almohádům. V roce 1236 Córdobu v rámci reconquisty dobyla Kastilie.",
+        "consultedParagraphIndices": [0, 1, 2],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/6fe43862ea2d0f564248.html",
+        "sha256": "df5794c91d64addb70298078ae3856057d5a116b6b661f3199437c2688d89208",
+        "bytes": 214006
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/6fe43862ea2d0f564248.txt",
+        "sha256": "cc146d1edb8061b6cc4509e302dd1594128f29d749533ac4bb59a9a534411491",
+        "bytes": 4848
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/6fe43862ea2d0f564248.json",
+        "sha256": "ab066229cc572e74ba9483917996f3e6d8e660dddb55b53e43e05b3ffb1e04f3",
+        "bytes": 5711
+      },
+      "completePassageParagraphsFoundInActualText": [true, true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The actual Spanish Córdoba article links the Mezquita to the city and explains that it is now a cathedral. It is not the earlier disambiguation page.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-04",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_kras",
+        "fetchedAt": "2026-10-31T00:34:19.624509+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/2c965a40edb5164e30ae.html",
+        "sourceBodySha256": "8ab6666b0219dfb292f13d2144c09bc7420414119a0cf76aae43a5f50e479bda",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 31
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/2c965a40edb5164e30ae.txt",
+        "sourceTextSha256": "ac625bd837e4017b6b32cbc8c1084390031e4f8da57db30c8acb1d1446d74fc0",
+        "passage": "Chráněná krajinná oblast Český kras (CHKO Český kras) je chráněná krajinná oblast v Česku. Vyhlášena byla 19. září 1972. Správa CHKO sídlí v Karlštejně, Dům přírody se nachází u Koněpruských jeskyní nedaleko Koněprus. Rozloha CHKO činí 132 km², nadmořská výška se pohybuje v rozmezí 199 až 499 metrů, nejvyšším bodem je vrchol Bacína.\n\nCHKO byla vyhlášena k ochraně nejcennější části barrandienské pánve, Českého krasu. Nachází se převážně ve Středočeském kraji mezi Prahou (okrajovou částí Radotín) a Berounem, turisticky nejznámější částí je oblast Karlštejna. Na severu sahá až po Zadní Kopaninu a Loděnici, na západě po Koněprusy, na jihu po Všeradice a Zadní Třebaň.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/2c965a40edb5164e30ae.html",
+        "sha256": "8ab6666b0219dfb292f13d2144c09bc7420414119a0cf76aae43a5f50e479bda",
+        "bytes": 134168
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/2c965a40edb5164e30ae.txt",
+        "sha256": "ac625bd837e4017b6b32cbc8c1084390031e4f8da57db30c8acb1d1446d74fc0",
+        "bytes": 3420
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The cave article explicitly puts Koněpruské caves in CHKO Český kras; the area article establishes the protected-area designation near Beroun.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-04",
+      "evidenceIndex": 1,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Kon%C4%9Bprusk%C3%A9_jeskyn%C4%9B",
+        "fetchedAt": "2026-10-31T02:10:47.210677+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/378ff7c68a7676025251.html",
+        "sourceBodySha256": "8d681fc447c855331e44b50683a8e9259be0d7e47dacf13a84020108edaabc5a",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/378ff7c68a7676025251.json",
+          "sha256": "a4b0d6348e64c00fbef1f34c05ace61a13b977eba20022821db18b56de257de1",
+          "index": null
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/378ff7c68a7676025251.txt",
+        "sourceTextSha256": "8c828fa83a005e0b18ed1937a495e248802bf14c0c38bcfeecd393247d1308fc",
+        "passage": "Koněpruské jeskyně se nalézají uvnitř návrší Zlatý kůň nad obcí Koněprusy v CHKO Český kras asi 5 km jižně od okresního města Beroun a asi 4 km jihovýchodně od města Králův Dvůr. Jsou chráněny jako kulturní památka ČR.[2]",
+        "consultedParagraphIndices": [0],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/378ff7c68a7676025251.html",
+        "sha256": "8d681fc447c855331e44b50683a8e9259be0d7e47dacf13a84020108edaabc5a",
+        "bytes": 95509
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/378ff7c68a7676025251.txt",
+        "sha256": "8c828fa83a005e0b18ed1937a495e248802bf14c0c38bcfeecd393247d1308fc",
+        "bytes": 3291
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/378ff7c68a7676025251.json",
+        "sha256": "a4b0d6348e64c00fbef1f34c05ace61a13b977eba20022821db18b56de257de1",
+        "bytes": 4148
+      },
+      "completePassageParagraphsFoundInActualText": [true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The cave article explicitly puts Koněpruské caves in CHKO Český kras; the area article establishes the protected-area designation near Beroun.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-05",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Dill%C3%AD",
+        "fetchedAt": "2026-10-31T00:34:19.665959+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/dbb00dd279ad9446d4a8.html",
+        "sourceBodySha256": "1ae41460fd429a07d6c11560e742fcfd7dd3b175219ca349eac5530829d3186b",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 32
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/dbb00dd279ad9446d4a8.txt",
+        "sourceTextSha256": "47f6bc9eb5f88750af74d526d85cfebc34ca780c4fad6c210dad2edc853c06f8",
+        "passage": "Dillí (hindsky दिल्ली, urdsky دہلی nebo دلّی‎, paňdžábsky ਦਿੱਲੀ, anglicky Delhi) je největší město Indie (po něm následuje Bombaj). Jeho součástí je Nové Dillí, hlavní město Indie (je společně spravováno federální vládou Indie a místní vládou). Dillí má téměř 19 milionů obyvatel (v aglomeraci 28 milionů lidí, což z ní podle OSN dělá druhou největší metropolitní oblast na světě). Leží v severní části země (28°23' s. š. a 77°7' v. d.) na rozloze 1483 čtverečních kilometrů v průměrné nadmořské výšce 293 m n. m. Na délku i na šířku má město kolem 50 km. Městem protéká řeka Jamuna, jedna z nejposvátnějších hinduistických řek.\n\nDillí je po Bombaji druhým nejbohatším městem v Indii a je domovem 18 miliardářů a 23 000 milionářů. Je jedním z nejstarších měst na světě a je nepřetržitě osídleno od 6. století př. n. l. Po většinu své historie Dillí sloužilo jako hlavní město různých království a říší, především pak Dillíského sultanátu (1206–1526) a Mughalské říše (1526–1857).",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/dbb00dd279ad9446d4a8.html",
+        "sha256": "1ae41460fd429a07d6c11560e742fcfd7dd3b175219ca349eac5530829d3186b",
+        "bytes": 218987
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/dbb00dd279ad9446d4a8.txt",
+        "sha256": "47f6bc9eb5f88750af74d526d85cfebc34ca780c4fad6c210dad2edc853c06f8",
+        "bytes": 7257
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The English Delhi lead explicitly states that the NCT contains New Delhi; the Czech article supplies Jamuna and the containing-city relationship.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-05",
+      "evidenceIndex": 1,
+      "entireOriginalEvidence": {
+        "url": "https://en.wikipedia.org/wiki/Delhi",
+        "fetchedAt": "2026-10-31T02:10:51.786375+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/1a7850ae7741dab6b508.html",
+        "sourceBodySha256": "14c5365e0d7a3e4cba1e5eeb75706419f7f43ecf1e316529e8349814bb833b4e",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/1a7850ae7741dab6b508.json",
+          "sha256": "59b3c4d63fc290716783a3be2b334098638162aceaf5b576e6133bbcadb3e3c6",
+          "index": null
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/1a7850ae7741dab6b508.txt",
+        "sourceTextSha256": "bb851cf6eda2d0e2a7077d20f5a28526cfdfb556bea51de041b6b18feb9d5d22",
+        "passage": "Delhi,[b] officially the National Capital Territory (NCT) of Delhi, is a megacity and a union territory of India containing New Delhi, the capital of India. Straddling the Yamuna river, but spread chiefly to the west, or beyond its right bank, Delhi shares borders with the state of Uttar Pradesh in the east and with the state of Haryana in the remaining directions. Delhi became a union territory on 1 November 1956 and the NCT in 1995.[23] The NCT covers an area of 1,484 square kilometres (573 sq mi).[4] According to the 2011 census, Delhi's city proper population was over 11 million,[7][24] while the NCT's population was about 16.8 million.[9]",
+        "consultedParagraphIndices": [0],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/1a7850ae7741dab6b508.html",
+        "sha256": "14c5365e0d7a3e4cba1e5eeb75706419f7f43ecf1e316529e8349814bb833b4e",
+        "bytes": 1603928
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/1a7850ae7741dab6b508.txt",
+        "sha256": "bb851cf6eda2d0e2a7077d20f5a28526cfdfb556bea51de041b6b18feb9d5d22",
+        "bytes": 51093
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/1a7850ae7741dab6b508.json",
+        "sha256": "59b3c4d63fc290716783a3be2b334098638162aceaf5b576e6133bbcadb3e3c6",
+        "bytes": 52324
+      },
+      "completePassageParagraphsFoundInActualText": [true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The English Delhi lead explicitly states that the NCT contains New Delhi; the Czech article supplies Jamuna and the containing-city relationship.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-06",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Essen",
+        "fetchedAt": "2026-10-31T00:34:19.706448+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/dd300a88510a80914d8a.html",
+        "sourceBodySha256": "f8582aee0f28ee573f25702868f8ccb2d66311c2a920bbf8a3ea42a217e7bb9b",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 33
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/dd300a88510a80914d8a.txt",
+        "sourceTextSha256": "cb0746f9717cd700ff21cfca211c24e83d7a097c1660a180d2b93a68909198d8",
+        "passage": "Essen [ˈɛsn̩] je město v Porúří v německé spolkové zemi Severní Porýní-Vestfálsko. Leží na břehu řeky Rúr (německy Ruhr) a žije zde přibližně 574 tisíc[2] obyvatel, což ho řadí mezi deset největších měst v Německu.\n\nOd 19. století se Essen stal jedním z nejdůležitějších center těžby uhlí a výroby oceli. Dnes je jeho ekonomika postavena na jiných průmyslových odvětvích a na službách. Je sídlem třinácti ze sta největších německých firem. Essenská univerzita byla založena roku 1972 a roku 2003 se sloučila s Duisburskou univerzitou, čímž vznikla současná Duisbursko-essenská univerzita.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/dd300a88510a80914d8a.html",
+        "sha256": "f8582aee0f28ee573f25702868f8ccb2d66311c2a920bbf8a3ea42a217e7bb9b",
+        "bytes": 255904
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/dd300a88510a80914d8a.txt",
+        "sha256": "cb0746f9717cd700ff21cfca211c24e83d7a097c1660a180d2b93a68909198d8",
+        "bytes": 9093
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The UNESCO property975 description itself names Essen and the coal-mine complex. The city article independently supplies the Ruhr location.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-06",
+      "evidenceIndex": 1,
+      "entireOriginalEvidence": {
+        "url": "https://whc.unesco.org/en/list/975/",
+        "fetchedAt": "2026-10-31T02:10:51.785300+00:00",
+        "sourceQuality": "Primary UNESCO World Heritage property description; actual property and city context.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/93b5dbb9e9ddd0d14578.html",
+        "sourceBodySha256": "b7a36abd6a11a56cc18aa8ea8b10bc19bf300f1c8dd05e6b3bf027835b1b6977",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/93b5dbb9e9ddd0d14578.json",
+          "sha256": "94bf46f34148ea1ca1685d81eb7eea36aa2da5db5816639b59e4aa11a32d434e",
+          "index": null
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/93b5dbb9e9ddd0d14578.txt",
+        "sourceTextSha256": "08e4649e874b771e2bc397d3c226e76ff14977fdf44ea8826b17e37bfea84536",
+        "passage": "The Zollverein industrial complex in Land Nordrhein-Westfalen consists of the complete infrastructure of a historical coal-mining site, with some 20th-century buildings of outstanding architectural merit. It constitutes remarkable material evidence of the evolution and decline of an essential industry over the past 150 years.\n\nThe Zollverein Coal Mine Industrial Complex in Essen comprises all the elements of intensive 19th and 20th century industrial exploitation – the complete complex of buildings and equipment necessary for the extraction and treatment of coal and the production of coke, the required transportation network (in the case of railways) as well as the vast heaps of pit waste.",
+        "consultedParagraphIndices": [5, 26],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/93b5dbb9e9ddd0d14578.html",
+        "sha256": "b7a36abd6a11a56cc18aa8ea8b10bc19bf300f1c8dd05e6b3bf027835b1b6977",
+        "bytes": 147624
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/93b5dbb9e9ddd0d14578.txt",
+        "sha256": "08e4649e874b771e2bc397d3c226e76ff14977fdf44ea8826b17e37bfea84536",
+        "bytes": 8419
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/93b5dbb9e9ddd0d14578.json",
+        "sha256": "94bf46f34148ea1ca1685d81eb7eea36aa2da5db5816639b59e4aa11a32d434e",
+        "bytes": 9364
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The UNESCO property975 description itself names Essen and the coal-mine complex. The city article independently supplies the Ruhr location.",
+      "sourceRoleDecision": "Direct UNESCO property description names Essen; primary institutional support for the property's location.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-07",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Frankfurt_nad_Mohanem",
+        "fetchedAt": "2026-10-31T00:34:20.585612+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a4bf45f25ed09ed9714d.html",
+        "sourceBodySha256": "23b9f1aa8e2fc6a14494aafd5c4fac4f217de35b6f12e23611f8e4691d98e110",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 34
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a4bf45f25ed09ed9714d.txt",
+        "sourceTextSha256": "eb49c14ffc4dab9718ad264c8953a998a4f23e4041ace455aceb9f780ce42209",
+        "passage": "Frankfurt nad Mohanem (německy Frankfurt am Main, česky zastarale též Frankobrod[1][2]) je město na řece Mohanu, nacházející se v jižní části německé spolkové země Hesensko, jehož je největším městem a zároveň pátým největším městem Německa. Žije zde přibližně 761 tisíc[3] obyvatel.\n\nFrankfurt je také přezdíván „Bankfurt“, protože je finančním srdcem Evropy, v jeho centru sídlí bankovní instituce světového významu. Tato městská čtvrť se nachází na jednom břehu řeky Mohanu a je podle něj označována „Mainhattan“.[4] Frankfurt nad Mohanem je důležitým veletržním městem a pro Evropu významným dopravním a internetovým uzlem.\n\nFrankfurt je nejdůležitější evropskou bankovní a burzovní metropolí. Banky stojí také za zrodem nového symbolu Frankfurtu – tzv. Skyline,[6] které tvoří nejmodernějšími mrakodrapy jako důkaz hospodářské síly, moci a bohatství bank. Ve Frankfurtu sídlí až 315 kreditních institutů a 175 zahraničních bank.[7] Sídlo zde našla Bundesbank (Německá národní banka), Deutsche Bank, od roku 1998 zde sídlí také Evropská centrální banka.[8] Největší úřední budovou v Evropě je mrakodrap Komerční banky – Commerzbank (300 m včetně antény).",
+        "consultedParagraphIndices": [0, 1, 12],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a4bf45f25ed09ed9714d.html",
+        "sha256": "23b9f1aa8e2fc6a14494aafd5c4fac4f217de35b6f12e23611f8e4691d98e110",
+        "bytes": 481879
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a4bf45f25ed09ed9714d.txt",
+        "sha256": "eb49c14ffc4dab9718ad264c8953a998a4f23e4041ace455aceb9f780ce42209",
+        "bytes": 19616
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The retained Frankfurt paragraph explicitly locates the ECB there; the lead locates the city on the Main.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-08",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Gda%C5%88sk",
+        "fetchedAt": "2026-10-31T00:34:26.004264+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/67517257f8ea35fd425a.html",
+        "sourceBodySha256": "d3d858be9ed68866d0107c54e90add9273111378b7123e0ef1ad7c2ac2e8d9f9",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 35
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/67517257f8ea35fd425a.txt",
+        "sourceTextSha256": "b09de39878812c67a6668ac731c4b115ae1bd9654b4a28d4f4a1e696972c9c6b",
+        "passage": "Gdaňsk (polsky Gdańsk s výslovností [gdaɲsk]IPA, kašubsky Gduńsk, německy Danzig s výslovností [ˈdantsɪç]IPA, latinsky Gedania, Gedanum anebo Dantiscum) je jedno z nejstarších a největších polských měst, metropolí Pomořského vojvodství, ležící v Pomoří na řekách Visle a Motławě na břehu Baltského moře u Gdaňského zálivu. Po dobu téměř 800 let, do roku 1793, byl součástí polských státních útvarů, poté byl na necelých 152 let ovládán Pruskem a později Německým císařstvím, mezi léty 1920–1939 byl svobodným městem pod správou Společnosti národů a nakonec byl pohlcen Třetí říší. Roku 1945 byl navrácen Polské republice. Gdaňsk hraje také roli kašubského hlavního města, jejich kulturního centra a sídla nejdůležitějších kašubských institucí. V současnosti má rozlohu 262,5 km² a přibližně 488 tisíc[2] obyvatel.[3] Nachází se zde velký námořní přístav.\n\nSpolečně s městy Sopoty a Gdyně tvoří aglomeraci, pro kterou se běžně užívá název Trojměstí (polsky 'Trójmiasto'). Město leží při ústí řeky Motlavy do Visly. Ústí Visly tvoří východní administrativní hranici města.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/67517257f8ea35fd425a.html",
+        "sha256": "d3d858be9ed68866d0107c54e90add9273111378b7123e0ef1ad7c2ac2e8d9f9",
+        "bytes": 294551
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/67517257f8ea35fd425a.txt",
+        "sha256": "b09de39878812c67a6668ac731c4b115ae1bd9654b4a28d4f4a1e696972c9c6b",
+        "bytes": 4739
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Gdańsk lead supplies Motława, Pomeranian voivodeship and the seaport. These are not facts about West Pomerania's capital.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-09",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Honduras",
+        "fetchedAt": "2026-10-31T00:34:26.048578+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/e79ede6623ac951d97b5.html",
+        "sourceBodySha256": "3e2dd4cd159fa7d330f05fce407f79cb174c785fb5aec3ff57cecb0f9019b57d",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 36
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/e79ede6623ac951d97b5.txt",
+        "sourceTextSha256": "904b2e37e18168832a5e05ed33e6d863d27cf733c081c1ce77eb1a389315c7eb",
+        "passage": "Poloha Hondurasu\n\nHonduras, plným názvem Honduraská republika (španělsky República de Honduras), je stát ve Střední Americe. Na západě hraničí s Guatemalou, na jihozápadě se Salvadorem, na jihovýchodě s Nikaraguou, na jihu ve Fonseckém zálivu s Tichým oceánem a na severu s Karibským mořem. Čtyři pětiny území jsou hornaté, zbytek vyplňují dvě úzké pobřežní nížiny, tvořené náplavovými rovinami. Podnebí je tropické, v horských oblastech mírné.[3] Honduras se dělí do 18 departementů, na ploše 112 000 km² žije 11 milionů obyvatel.[4][1] To z něj činí druhou nejrozlehlejší a druhou nejlidnatější zemi Střední Ameriky. Hlavním a největším městem je Tegucigalpa, mezi další významná města patří San Pedro Sula, Choloma a La Ceiba. Přes čtyři pětiny obyvatel jsou mestici, 8 % běloši, 7 % domorodí indiáni a 1 % černoši. Úředním jazykem je španělština, velká většina obyvatel se hlásí ke křesťanství.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/e79ede6623ac951d97b5.html",
+        "sha256": "3e2dd4cd159fa7d330f05fce407f79cb174c785fb5aec3ff57cecb0f9019b57d",
+        "bytes": 510489
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/e79ede6623ac951d97b5.txt",
+        "sha256": "904b2e37e18168832a5e05ed33e6d863d27cf733c081c1ce77eb1a389315c7eb",
+        "bytes": 34954
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Honduras lead explicitly identifies Tegucigalpa as capital of the Central American republic.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-10",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Charkov",
+        "fetchedAt": "2026-10-31T00:34:26.608627+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/236139932b65c2dd6341.html",
+        "sourceBodySha256": "29fec151518c8f6cac06bf6f7964f57a4ccff1d40275e8bfd471236f015c085a",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 37
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/236139932b65c2dd6341.txt",
+        "sourceTextSha256": "2c69af110fc819358a6e243b7f9b7bb09437474ca02244ea7bb8408b858a4337",
+        "passage": "Charkov[2] (ukrajinsky Харків, Charkiv; rusky Харьков, Charkov) je druhé největší město Ukrajiny (žije zde přibližně 1,42 milionů obyvatel). Leží v severovýchodní části země, 410 km od Kyjeva a 34 km od rusko-ukrajinské hranice. Je centrem Charkovské oblasti, historického kraje Slobodská Ukrajina a celého širšího regionu východní Ukrajiny. Charkovská aglomerace s populací přes 2,2 miliony lidí tvoří třetí největší aglomeraci v rámci aglomerací velkých měst Ukrajiny.\n\nVe městě sídlí Charkovská národní univerzita V. N. Karazina, což je jedna z nejlepších 500 univerzit na světě, a Národní technická univerzita Charkovský polytechnický institut, která je jednou z 1000 nejlepších na světě.[3]\n\nNejvýraznější stavbou je zřejmě obří konstruktivistická budova Deržpromu, vystavěná ve 20. letech 20. století a známější spíše pod ruským názvem Gosprom, která dominuje Náměstí Svobody – zřejmě nejrozlehlejšímu náměstí v Evropě o ploše 12 ha.",
+        "consultedParagraphIndices": [0, 1, 15],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/236139932b65c2dd6341.html",
+        "sha256": "29fec151518c8f6cac06bf6f7964f57a4ccff1d40275e8bfd471236f015c085a",
+        "bytes": 256487
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/236139932b65c2dd6341.txt",
+        "sha256": "2c69af110fc819358a6e243b7f9b7bb09437474ca02244ea7bb8408b858a4337",
+        "bytes": 8272
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The city source's retained landmark paragraph identifies Deržprom as the constructivist building dominating Freedom Square in Kharkiv.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-11",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Irkutsk",
+        "fetchedAt": "2026-10-31T00:34:27.289457+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c8593f0d2a7a3028a4ce.html",
+        "sourceBodySha256": "6b1dccbd030f4353bb11803699ef1ee4ace471dd117b2d9508ecb7d62b3d46d6",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 38
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c8593f0d2a7a3028a4ce.txt",
+        "sourceTextSha256": "b531b0c8ec27f3dfe4a5917bef6aaeafe2f215937ce7c96f9becae3a1ce1f7d4",
+        "passage": "Irkutsk (rusky Иркутск) je město v Rusku. Nachází se v jihovýchodní Sibiři na řece Angaře zhruba 70 km od jejího výtoku z Bajkalského jezera, u ústí řeky Irkut (odtud název města). Je centrem rozlehlé Irkutské oblasti a důležitou stanicí na Transsibiřské magistrále. Jedná se o 6. největší sídlo Sibiře. Žije zde přibližně 606 tisíc[3] obyvatel, v přilehlé aglomeraci až 1,1 milionu.\n\nNázev je odvozen od řeky Irkut, poblíž které vznikla roku 1661 Irkutská pevnost. Na nákresu ruského kartografa S. U. Remezova z roku 1701 je místo označeno jako Irkutské město (град Иркуцкой).",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/c8593f0d2a7a3028a4ce.html",
+        "sha256": "6b1dccbd030f4353bb11803699ef1ee4ace471dd117b2d9508ecb7d62b3d46d6",
+        "bytes": 332760
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/c8593f0d2a7a3028a4ce.txt",
+        "sha256": "b531b0c8ec27f3dfe4a5917bef6aaeafe2f215937ce7c96f9becae3a1ce1f7d4",
+        "bytes": 16873
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Irkutsk lead gives the Angara, proximity to Baikal and regional administrative-centre role together.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-12",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Jemen",
+        "fetchedAt": "2026-10-31T00:34:32.813480+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/ff2725537279a1895d8b.html",
+        "sourceBodySha256": "a9f6e723179a74ca8ec51333b1e6add517888001aba13136747eea0e7e26fb14",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 39
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/ff2725537279a1895d8b.txt",
+        "sourceTextSha256": "d03b4280e5e300a91dd407b544d5c1810ed8207fa6af8f85201d1a17ce3928fb",
+        "passage": "Poloha Jemenu\n\nJemen,[pozn. 1] plným názvem Jemenská republika,[pozn. 2] je stát v jihozápadní Asii na Blízkém východě.[6] Nachází se na jihu Arabského poloostrova, na severu sousedí se Saúdskou Arábií, na severovýchodě s Ománem, na východě s jihovýchodní částí Arabského moře, na jihu s Adenským zálivem a na západě s Rudým mořem a přes Africký roh sdílí námořní hranice s Džibutskem, Eritreou a Somálskem. Území je převážně vysoko položené, jih a západ jsou velmi hornaté, na východě a severovýchodě hory přecházejí do pouštní náhorní plošiny; panuje zde horké pouštní klima, avšak díky nadmořské výšce o něco chladnější než v okolních zemích. Jemen se dělí na 21 guvernorátů, na ploše 456 000 km² žije asi 41 milionů obyvatel,[2] je tak druhou největší zemí na Arabském poloostrově.[7] Jeho ústavním hlavním a největším městem je Saná, mezi další významná města patří Taiz, Hudajda a Aden. Přes devadesát procent obyvatel jsou Arabové, největší menšinou jsou Somálci, úředním jazykem je arabština. Prakticky všichni obyvatelé jsou muslimové, z nichž 65 % jsou sunnité a 35 % zajdovci.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/ff2725537279a1895d8b.html",
+        "sha256": "a9f6e723179a74ca8ec51333b1e6add517888001aba13136747eea0e7e26fb14",
+        "bytes": 579781
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/ff2725537279a1895d8b.txt",
+        "sha256": "d03b4280e5e300a91dd407b544d5c1810ed8207fa6af8f85201d1a17ce3928fb",
+        "bytes": 31158
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Yemen lead gives the southern Arabian location and includes Aden among its cities. The question avoids claiming Aden's current governmental role.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-13",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Koda%C5%88",
+        "fetchedAt": "2026-10-31T00:34:33.570261+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/28ffe81bd6ba9942c2df.html",
+        "sourceBodySha256": "09f0cd70ec77a4c2b05fbdf695522f295ef5fa148e9cb051afa4c1fcad29f569",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 40
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/28ffe81bd6ba9942c2df.txt",
+        "sourceTextSha256": "013081e06e8c6a47a6209e726cd5f9e329537bceb23878b5ac2c33f8ea2c6c1a",
+        "passage": "Kodaň (dánsky København, výslovnost: [kʰøb̥ənˈhaʊ̯ˀn]) je hlavní a největší město Dánska. Leží na východním pobřeží ostrova Sjælland a částečně na ostrově Amager. Žije zde přibližně 667 tisíc[2] obyvatel, v celé městské aglomeraci přes jeden milion. Kodaň je sídlem dánského krále.\n\nKodaň je hlavním regionálním centrem podnikání, kultury, médií a vědy, což potvrzují mnohé mezinárodní průzkumy a žebříčky. Byla označena za jedno z měst s nejkvalitnější životní úrovní a rovněž s nejšetrnějším přístupem k přírodě na světě. Je zde největší skandinávské letiště. Jednou z nejnavštěvovanějších turistických atrakcí je bronzová socha malé mořské víly, v jejíž blízkosti je historická přístavní pevnost Kastellet ze 17. století. V centru Kodaně leží známý zábavní park Tivoli a Nová glyptotéka Carlsbergu. Roku 1996 byla Kodaň Evropským městem kultury.",
+        "consultedParagraphIndices": [0, 2],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/28ffe81bd6ba9942c2df.html",
+        "sha256": "09f0cd70ec77a4c2b05fbdf695522f295ef5fa148e9cb051afa4c1fcad29f569",
+        "bytes": 292590
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/28ffe81bd6ba9942c2df.txt",
+        "sha256": "013081e06e8c6a47a6209e726cd5f9e329537bceb23878b5ac2c33f8ea2c6c1a",
+        "bytes": 10998
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Copenhagen passage directly links the Little Mermaid statue and the nearby Kastellet fort within the city.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-14",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Lyon",
+        "fetchedAt": "2026-10-31T00:34:34.687304+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/1ec29ca1816c32503456.html",
+        "sourceBodySha256": "d54b5a18d3d303fb0d5228ea0cb1d0151adcda6adc9651898b5f499bff7de7c3",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 41
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/1ec29ca1816c32503456.txt",
+        "sourceTextSha256": "4ae4e30109f2d4e3f37f11542023c75bdae0fad3ca058d4f2c6ec01ebedeb5ae",
+        "passage": "Lyon (francouzsky li.jɔ̃) je město ve středovýchodní Francii, hlavní město regionu Auvergne-Rhône-Alpes a hlavní město metropole Lyonu. Dohromady se svými příměstskými částmi a satelitními městečky tvoří po Paříži a Marseille třetí největší aglomeraci ve Francii s 1 757 180 obyvateli a je přibližně 20. až 25. v Evropě.\n\nLeží na soutoku řek Rhôny a Saôny, které je dělí na tři části, spojené 22 mosty. Město je významné průmyslové, obchodní a finanční centrum s mnoha vysokými školami, vědeckými ústavy, je kulturním a náboženským střediskem a je proslulé svou zvláštní kuchyní. Městem prochází nejdůležitější francouzská železniční trať Paříž – Lyon – Marseille, setkává se zde několik dálnic a východně od města je mezinárodní letiště. V Lyonu sídlí mezinárodní centrála Interpolu, televize Euronews a Mezinárodní institut pro výzkum rakoviny (IARC). Historické centrum je součástí Světového dědictví UNESCO.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/1ec29ca1816c32503456.html",
+        "sha256": "d54b5a18d3d303fb0d5228ea0cb1d0151adcda6adc9651898b5f499bff7de7c3",
+        "bytes": 279023
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/1ec29ca1816c32503456.txt",
+        "sha256": "4ae4e30109f2d4e3f37f11542023c75bdae0fad3ca058d4f2c6ec01ebedeb5ae",
+        "bytes": 9990
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Lyon passage expressly places the city at the Rhône–Saône confluence.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-15",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Marr%C3%A1ke%C5%A1",
+        "fetchedAt": "2026-10-31T00:34:36.718598+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/037082fd581e8fbbe8ea.html",
+        "sourceBodySha256": "3f7159e41f559cd678bba2581ce19ba3d35da0b8244047446815b4efd8840b4d",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 42
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/037082fd581e8fbbe8ea.txt",
+        "sourceTextSha256": "a5f1d12ec3617b3011b9b49ad1e5e1d1e18f746e145d556f6372421e9dff9f17",
+        "passage": "Marrákeš[2] (arabsky مراكش [marrākuš]‎, v marocké hovorové arabštině Mrrākeš, francouzsky Marrakech, původně berbersky tamurt'n'Akkuc, „Boží země“) je město ve vnitrozemí Maroka na úpatí Vysokého Atlasu.[3] Je hospodářským a kulturním střediskem jižní části státu. Se svými přibližně 1 milionem[1] obyvateli je čtvrté největší město v zemi (po Casablance, Rabatu a Fèsu). Zároveň je jedním ze čtyř královských měst Maroka (kromě Marrákeše jsou to ještě Fès, Rabat a Meknes). Rozprostírá se v průměrné nadmořské výšce 468 m n. m. Marrákeš je dopravní křižovatkou centrálního Maroka – vlakové spojení má s městy Casablancou a Safi, nachází se zde mezinárodní letiště Menara.\n\nMarrákeš je turisticky nejnavštěvovanějším městem Maroka a na 5. místě v Africe (2,1 milionu turistů v roce 2013).[7] Ekonomika města je založena zejména na turistice – v centru města (zejména na náměstí Džamá el-Fná) se tak soustřeďuje mnoho obchodníků, stánkařů a umělců. Rozvoji cestovního ruchu napomáhá i zápis na seznam kulturního dědictví UNESCO z roku 1985. Marrákeš hostí nejrůznější národní i mezinárodní akce. Ve městě jsou četná muzea.",
+        "consultedParagraphIndices": [0, 12],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/037082fd581e8fbbe8ea.html",
+        "sha256": "3f7159e41f559cd678bba2581ce19ba3d35da0b8244047446815b4efd8840b4d",
+        "bytes": 206846
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/037082fd581e8fbbe8ea.txt",
+        "sha256": "a5f1d12ec3617b3011b9b49ad1e5e1d1e18f746e145d556f6372421e9dff9f17",
+        "bytes": 8112
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Marrakesh passage expressly places traders, stalls and artists around Džamá el-Fná in the city's tourist centre.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-16",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Nikaragua",
+        "fetchedAt": "2026-10-31T00:34:39.112220+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/ade070d58a2d0ff0a731.html",
+        "sourceBodySha256": "51fb372419d5fdcaa60c08efc0602391fd289ac41e04de747d875663e8b2e50f",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 43
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/ade070d58a2d0ff0a731.txt",
+        "sourceTextSha256": "7c5c22ae2cf20b8fb725b701988ed46d7770131ead513afe726c136de6500251",
+        "passage": "Poloha Nikaraguy\n\nNikaragua (španělsky Nikaragua), plným názvem Nikaragujská republika (španělsky República de Nicaragua), je stát ve Střední Americe. Na severu sousedí s Hondurasem, na východě s Karibským mořem, na jihu s Kostarikou a na západě s Tichým oceánem. Podél obou pobřeží se nacházejí rozsáhlé nížiny, na tichomořské straně velmi úrodné, severovýchod zaplňuje centrální vysočina. V Nikaragui panuje po celý rok teplé tropické podnebí, ovlivněné pasáty od Tichého oceánu a Karibského moře. Dělí se do 15 departementů, na ploše asi 130 000 km² žije 6,7 mil obyvatel.[1] To z ní činí nejrozlehlejší a třetí nejlidnatější zemi Střední Ameriky. Hlavním a největším městem je Managua, mezi další významná města patří León, Masaya a Matagalpa. Celkem 69 % obyvatel jsou mestici, 17 % běloši, 9 % černoši a 5 % domorodí indiáni. Úředním jazykem je španělština, ačkoli domorodé kmeny na Pobřeží Moskytů hovoří svými vlastními jazyky a angličtinou. Více než čtyři pětiny obyvatel se hlásí ke křesťanství.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/ade070d58a2d0ff0a731.html",
+        "sha256": "51fb372419d5fdcaa60c08efc0602391fd289ac41e04de747d875663e8b2e50f",
+        "bytes": 448826
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/ade070d58a2d0ff0a731.txt",
+        "sha256": "7c5c22ae2cf20b8fb725b701988ed46d7770131ead513afe726c136de6500251",
+        "bytes": 26132
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Nicaragua lead explicitly gives Managua as capital. The full official Spanish state name also establishes the Nicaragua spelling despite the article's introductory typo.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-17",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Olomouc",
+        "fetchedAt": "2026-10-31T00:34:39.896178+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/46ebc88aee7d07b06015.html",
+        "sourceBodySha256": "937a38ac41b2541170a19806b3f40409b9e2b7e03d6593ad6d6bc1a8a74e46cd",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 44
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/46ebc88aee7d07b06015.txt",
+        "sourceTextSha256": "e10c0bc3c9d198f191b5b5ae96f06d244e277de639c306ccd7edf56bfa026624",
+        "passage": "Olomouc (rod ženský, v místním úzu i mužský,[4][5] hanácky Olomóc nebo Holomóc;[pozn. 1] německy Olmütz) je statutární a univerzitní město v okrese Olomouc, šesté nejlidnatější město v Česku (třetí na Moravě). Jedná se o krajské město Olomouckého kraje a jedno z bývalých hlavních měst Moravy. Ve městě o rozloze 10 336 hektarů žije přibližně 103 tisíc[1] obyvatel. Jedná se o největší město na řece Moravě. V její aglomeraci žije zhruba 400 tisíc obyvatel.[6][7]\n\nOlomouc je významné historické město bohaté na památky různého druhu. Nejvýznamnější památkou je sloup Nejsvětější Trojice od roku 2000 zařazen na seznam UNESCO díky své unikátní podobě a největšímu sousoší ve střední Evropě. Městská památková rezervace je pak jednou z největších a nejvýznamnějších v České republice.[11] Šest památek má status národní kulturní památky. Historická část města je chráněna jako městská památková rezervace. Podle výnosu ministerstva kultury ze dne 21. prosince 1987, čj. 16 417/87-VI/1, jsou její hranice vymezeny ulicemi Studentskou, Dobrovského a Jiřího z Poděbrad, poté linií tereziánského opevnění, ulicí Aksamitovou, třídou Svobody a Legionářskou ulicí. Po pražské je tato památková rezervace druhá nejvýznamnější v Česku.[12] Národní kulturní památky ve městě jsou Olomoucký hrad, klášter Hradisko, kostel svatého Mořice, sloup Nejsvětější Trojice a mariánský sloup se souborem barokních kašen, vila Primavesi a poutní areál na Svatém Kopečku.",
+        "consultedParagraphIndices": [0, 3],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/46ebc88aee7d07b06015.html",
+        "sha256": "937a38ac41b2541170a19806b3f40409b9e2b7e03d6593ad6d6bc1a8a74e46cd",
+        "bytes": 909194
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/46ebc88aee7d07b06015.txt",
+        "sha256": "e10c0bc3c9d198f191b5b5ae96f06d244e277de639c306ccd7edf56bfa026624",
+        "bytes": 40707
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Olomouc paragraph specifically locates the Holy Trinity Column in the city and states its UNESCO listing; the lead establishes the Moravian city.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-18",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Palermo",
+        "fetchedAt": "2026-10-31T00:34:41.066081+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.html",
+        "sourceBodySha256": "560191af0ccf8df2293377a1a058bce21a5380a52d5bed3cd004b32bd47494d4",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 45
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.txt",
+        "sourceTextSha256": "a5a04ee347417011b6ded4d7ab5636b60ed4bf5476185f1ba259f2f9397e7713",
+        "passage": "Palermo (sicilsky Palermu) je páté největší italské město, hlavní město oblasti Sicílie a Metropolitního města Palermo. Konurbace kolem Palerma má okolo miliónu obyvatel. Průměrná nadmořská výška je asi 1 m. K 31. srpnu 2020 bylo na území města registrováno 642 809 obyvatel.[1]\n\nMěsto založili v 7. století př. n. l. Féničané jako obchodní překladiště, později zde Řekové vybudovali přístav s názvem Panormos (v překladu značí „přístav pro všechny“).[2] V roce 254 př. n. l. dobyli město Římané, před tím zde pobývali Kartáginci. Po zániku římské říše Palermo převzali Vandalové, následně Ostrogóti, v roce 535 se stalo součástí Byzantské říše. V té době obyvatelstvo Palerma tvořili především Římané, Řekové a Kartáginci. V roce 831 dobyli město Arabové. V této době žilo ve městě okolo 300 000 obyvatel. V roce 1072 získali Palermo Normané. Roger I. vybudoval přepychový královský palác s proslulou Capellou Palatinou a v letech 1184 až 1185 zde byla znovuvybudována katedrála. Za normanské nadvlády zažilo město období největšího rozkvětu. Ve městě žili v toleranci Arabové, Byzantinci i Židé. Po vymření normanské dynastie v roce 1194 přešla vláda do rukou Štaufů, po nich v roce 1266 získali město Anjouovci. Jejich nadvláda skončila v roce 1282 lidovým povstáním nazývaným sicilské nešpory. Palermo a celou Sicílii následně ovládli Aragonci. Spravovali ji prostřednictvím místokrálů. V 18. století se Palermo dostalo pod nadvládu Neapole a následně Bourbonů. V roce 1860 město obsadil Garibaldi a od roku 1861 se stalo součástí Italského království a následně Itálie. Od roku 2015 je město zapsané na seznamu Světového kulturního dědictví UNESCO.",
+        "consultedParagraphIndices": [0, 2],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.html",
+        "sha256": "560191af0ccf8df2293377a1a058bce21a5380a52d5bed3cd004b32bd47494d4",
+        "bytes": 228080
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.txt",
+        "sha256": "a5a04ee347417011b6ded4d7ab5636b60ed4bf5476185f1ba259f2f9397e7713",
+        "bytes": 5690
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Palermo history passage locates the Norman royal palace and Capella Palatina in the city. Incidental dynastic attribution is not a predicate of this question.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-19",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Rhodos",
+        "fetchedAt": "2026-10-31T00:34:43.041652+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/8bbd3f9e81cbef8e1a0d.html",
+        "sourceBodySha256": "84a8d9e51f098a0aace9da8f725196bef8fcc47e5d67e49a3336454435e358ea",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 46
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/8bbd3f9e81cbef8e1a0d.txt",
+        "sourceTextSha256": "f65a420fa7d4e0f96506360e41a709525f0429f13da70967e8c39165e483f821",
+        "passage": "Rhodos (druhý pád Rhodu, případně Rhodosu; řecky Ρόδος, výslovnost [ˈɾo̞ðo̞s]IPA) je řecký ostrov v Egejském moři, největší z Dodekanéských ostrovů, když dosahuje rozlohy 1400 km².[1] Na délku ostrov měří zhruba 78 km a na šířku 38 km. Leží v jihovýchodní části souostroví u pobřeží Malé Asie, od kterého jej na severu dělí průliv široký 17,5 km. U západního pobřeží se nacházejí ostrovy Chalki a Alimia, které tvoří samostatnou obec. Spolu s okolními neobydlenými ostrůvky tvoří stejnojmennou obec, jež je součástí regionální jednotky Rhodos spadající pod kraj Jižní Egeis. V blízkosti se nachází také ostrov Kos.\n\nV roce 2011 žilo na ostrově 115 490 obyvatel. Hlavním a největším městem ostrova je stejnojmenné město Rhodos (49541) a tvoří také jednu z deseti obecních jednotek obce Rhodos. Obecní jednotky se dále skládají z komunit a ty z jednotlivých sídel, tj. měst a vesnic. V závorkách je uveden počet obyvatel obecních jednotek.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/8bbd3f9e81cbef8e1a0d.html",
+        "sha256": "84a8d9e51f098a0aace9da8f725196bef8fcc47e5d67e49a3336454435e358ea",
+        "bytes": 201823
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/8bbd3f9e81cbef8e1a0d.txt",
+        "sha256": "f65a420fa7d4e0f96506360e41a709525f0429f13da70967e8c39165e483f821",
+        "bytes": 13111
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Rhodes lead explicitly calls the island the largest of the Dodecanese and distinguishes its same-named capital city.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-20",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/%C5%98ezn%C3%A1",
+        "fetchedAt": "2026-10-31T00:34:46.427555+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/0f7c5d5202e321c6fc39.html",
+        "sourceBodySha256": "dc11a7b86cd4289e043e5b59ac15272573563f1df23bc26a9cf515b59e545b98",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 47
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/0f7c5d5202e321c6fc39.txt",
+        "sourceTextSha256": "6737ca9b8284f3f55a07f923342fdfd66f4c81c070fd569dc5aa430d1f378375",
+        "passage": "Řezná (německy Regen, Schwarzer Regen, Großer Regen) je řeka pramenící na české straně Šumavy (Plzeňský kraj) a ústící v Německu (Bavorsko) zleva do Dunaje. Je 169 km dlouhá. Povodí má rozlohu 2953 km².\n\nPramení v přírodní rezervaci Prameniště na jižním svahu hory Pancíř v Železnorudské hornatině v nadmořské výšce 1031 m. Poté teče směrem na jihozápad, protéká Železnou Rudou a Alžbětínem a po 8,2 km opouští v nadmořské výšce 709 m území České republiky. Na německém území má jméno Großer Regen, protéká obcí Bayerisch Eisenstein a svůj tok stáčí směrem na jihovýchod a jih. U Zwieselu se stéká s Malou Řeznou (Kleiner Regen), mění svůj směr na západ až severozápad a nese název Schwarzer Regen. Poblíž Bad Kötztingu přijímá zprava Weißer Regen a od tohoto soutoku se jmenuje Regen. V dalším úseku teče na západ, ale zhruba 10 km za Nittenau se ostře stáčí k jihu a v Řezně ústí do Dunaje.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/0f7c5d5202e321c6fc39.html",
+        "sha256": "dc11a7b86cd4289e043e5b59ac15272573563f1df23bc26a9cf515b59e545b98",
+        "bytes": 102467
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/0f7c5d5202e321c6fc39.txt",
+        "sha256": "6737ca9b8284f3f55a07f923342fdfd66f4c81c070fd569dc5aa430d1f378375",
+        "bytes": 1057
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The river source gives the Regen's mouth at Regensburg; the independent Cham article explicitly places Cham on the Regen. The tributary Chamb/Kouba is distinguished.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-20",
+      "evidenceIndex": 1,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Cham_%28N%C4%9Bmecko%29",
+        "fetchedAt": "2026-10-31T02:13:04.706141+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3086aecf9d8e03a96c53.html",
+        "sourceBodySha256": "06d144177d6e87d11d1ae8e438e86d3097dc54ee11b6876ff2764601408f65ee",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3086aecf9d8e03a96c53.json",
+          "sha256": "6794050a728e98f90d78836495794d46c3bc439c6983a09b87e2c9d54b72a48f",
+          "index": null
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3086aecf9d8e03a96c53.txt",
+        "sourceTextSha256": "01a9b0a4ef3a2ca1cf01e61c2a0c0bbfe3b9c047cea6c2e54868d710644beafc",
+        "passage": "Cham (česky Kouba) /česká výslovnost je: Kám, nikoliv s Ch/ je německé město, sídlo zemského okresu Cham ve vládním obvodu Horní Falc spolkové země Bavorsko. Žije zde přibližně 18 tisíc[2] obyvatel.\n\nMěsto se nalézá uprostřed přírodního parku Horní Bavorský les, na řece Regen, poblíž hranice s Českem. Řeka Regen obloukem obtéká chamské staré město, proto se Chamu říká „Stadt am Regenbogen“. Město Cham dostalo své jméno od řeky Chamb (česky též Kouba). Tato řeka pramení v Čechách (Plzeňském kraji) a protéká Všerubskou vrchovinou, která byla odnepaměti migrační i obchodní trasou, do Chamu, kde u městské části Altenstadt ústí do řeky Regen (česky Řezná).",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3086aecf9d8e03a96c53.html",
+        "sha256": "06d144177d6e87d11d1ae8e438e86d3097dc54ee11b6876ff2764601408f65ee",
+        "bytes": 145416
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3086aecf9d8e03a96c53.txt",
+        "sha256": "01a9b0a4ef3a2ca1cf01e61c2a0c0bbfe3b9c047cea6c2e54868d710644beafc",
+        "bytes": 3649
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3086aecf9d8e03a96c53.json",
+        "sha256": "6794050a728e98f90d78836495794d46c3bc439c6983a09b87e2c9d54b72a48f",
+        "bytes": 4487
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The river source gives the Regen's mouth at Regensburg; the independent Cham article explicitly places Cham on the Regen. The tributary Chamb/Kouba is distinguished.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-21",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Salcburk",
+        "fetchedAt": "2026-10-31T00:34:47.304120+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/1cc8631f24154dfd63af.html",
+        "sourceBodySha256": "8757493f9943828f6b62bae251c860fe0ed507161a78fbe1ade44a92d15d7813",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 48
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/1cc8631f24154dfd63af.txt",
+        "sourceTextSha256": "c3da88d407ed39e3248338ad10e29698a38871b465ddc3df409e2b99275fdbf6",
+        "passage": "Salcburk[2] (německy Salzburg, dříve též Solnohrad,[2] Salzburk,[3][4][pozn. 1] dříve česky též Salcpurk) je statutární město, hlavní město rakouské spolkové země Salcbursko a centrum okresu Salcburk-venkov. Leží na řece Salice ve výšce kolem 425 m n. m. nedaleko hranic s Německem.\n\nSalcburk je po Vídni, Štýrském Hradci a Linci čtvrtým největším městem Rakouska. Žilo zde k roku 2025 157 tisíc obyvatel. Spádová oblast Salcburku dosahuje až přes hranice s Německem do sousedního jihovýchodního Horního Bavorska a do hornorakouských a hornoštýrských území. Město je centrem Euroregionu Salcbursko – Berchtesgadensko – Traunstein. Město se někdy také nazývá Mozartovým městem, neboť se zde narodil slavný skladatel Wolfgang Amadeus Mozart.",
+        "consultedParagraphIndices": [0, 2],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/1cc8631f24154dfd63af.html",
+        "sha256": "8757493f9943828f6b62bae251c860fe0ed507161a78fbe1ade44a92d15d7813",
+        "bytes": 427699
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/1cc8631f24154dfd63af.txt",
+        "sha256": "c3da88d407ed39e3248338ad10e29698a38871b465ddc3df409e2b99275fdbf6",
+        "bytes": 37026
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Salzburg source directly states Mozart was born there and places the city on Salice, the Czech name of the Salzach.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-22",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/%C5%A0t%C4%9Bt%C3%ADn",
+        "fetchedAt": "2026-10-31T00:34:48.669951+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a9cb02a29c553635869b.html",
+        "sourceBodySha256": "7987b0b6fa772259fb1fcc2115925411ce23aca8ef6bad161d57c32cd553fa8b",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 49
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a9cb02a29c553635869b.txt",
+        "sourceTextSha256": "1a3427e90fdebdc50596535de0c83bd479fdcc8847f6d746312dffb9fff4eabf",
+        "passage": "Štětín (polsky Szczecin, výslovnost [ˈʃtʃɛtɕin]IPA, německy Stettin) je město (a přístav) položené na Odře v severozápadním Polsku, hlavní město Západopomořanského vojvodství a historická metropole Pomořanska. Město bylo založeno slovanskými osadníky nejspíše již v 7. století, avšak městská práva získalo v roce 1243. Do počátku 16. století ve Štětíně dominovala polština, ale ještě v tomtéž století docházelo k rapidní germanizaci tamního obyvatelstva. Žije zde přibližně 388 tisíc[1] obyvatel. Rozloha města je 301 km². Je zde mezinárodní letiště.\n\nMěsto o rozloze 300,55 km² se od roku 1990 člení na 4 městské čtvrti (dzielnice): Północ, Prawobrzeże, Śródmieście a Zachód. Každá čtvrt se člení na menší části, sídliště (osiedla). Mezi největší městské sídliště Štětína patří (dle počtu obyvatel) Pogodno, Gumieńce, Niebuszewo-Bolinko a Pomorzany. Naopak nejmenší městské sídliště jsou Międzyodrze-Wyspa Pucka, Głębokie-Pilchowo, Żydowce-Klucz a Golęcino-Gocław. Dle katastrální výměry jsou největšími městskými sídlišti Dąbie, Międzyodrze-Wyspa Pucka, Płonia-Śmierdnica-Jezierzyce a Wielgowo-Sławociesze-Zdunowo, nejmenšími pak Śródmieście-Zachód a Centrum.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a9cb02a29c553635869b.html",
+        "sha256": "7987b0b6fa772259fb1fcc2115925411ce23aca8ef6bad161d57c32cd553fa8b",
+        "bytes": 259390
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a9cb02a29c553635869b.txt",
+        "sha256": "1a3427e90fdebdc50596535de0c83bd479fdcc8847f6d746312dffb9fff4eabf",
+        "bytes": 6258
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Szczecin lead expressly identifies the port as capital of West Pomeranian voivodeship.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-23",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Trinidad",
+        "fetchedAt": "2026-10-31T00:37:11.722309+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a7557f2d2d8f7bed2f29.html",
+        "sourceBodySha256": "efc8c4128260a2e034e67298e85062b3e457f7232f303bb8fd07ed4c914394df",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04-supplement.json",
+          "sha256": "5b99f806ea664d354b98a3bdc81b0ad3cb5c29d7c70c41b5ab1ab0bd4bffa943",
+          "index": 0
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a7557f2d2d8f7bed2f29.txt",
+        "sourceTextSha256": "2426495a799d56fbfe5fcff0660f14505d645a949dfbbd021788313eae600e3d",
+        "passage": "Trinidad (španělsky doslova „Trojice“) je ostrov v Karibském moři. Je to nejrozsáhlejší a nejlidnatější ostrov státu Trinidad a Tobago, je domovem 96 % obyvatel země.\n\nTrinidad je nejjižnější ostrov v Karibiku a nachází se 11 km severně od pobřeží Venezuely. Rozloha ostrova je 4 769 km². Ostrov je 80 km dlouhý a 59 km široký. Je pevninského původu; oddělený od pevniny úžinou Bocas del Dragon, zálivem Paria a úžinou Boca de la Sierpe. Břehy jsou mírně členité, na severu jsou ohraničeny korálovými útesy, na jihu mangrovníky.\n\nNejvětším městem na ostrově je přístav Port of Spain, který se nachází na severozápadě ostrova.",
+        "consultedParagraphIndices": [0, 1, 5],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a7557f2d2d8f7bed2f29.html",
+        "sha256": "efc8c4128260a2e034e67298e85062b3e457f7232f303bb8fd07ed4c914394df",
+        "bytes": 127459
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a7557f2d2d8f7bed2f29.txt",
+        "sha256": "2426495a799d56fbfe5fcff0660f14505d645a949dfbbd021788313eae600e3d",
+        "bytes": 2695
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04-supplement.json",
+        "sha256": "5b99f806ea664d354b98a3bdc81b0ad3cb5c29d7c70c41b5ab1ab0bd4bffa943",
+        "bytes": 47043
+      },
+      "completePassageParagraphsFoundInActualText": [true, true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The island article explicitly places Port of Spain on northwest Trinidad. Its incidental largest-city claim is not used by the question.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-24",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Ulan-Ude",
+        "fetchedAt": "2026-10-31T00:34:53.502770+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a039533fbc3871b4e74b.html",
+        "sourceBodySha256": "1f9f68febc2fc0675c18f5386389c92c1a400ca36d852413c76498bdeccbabb6",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 51
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a039533fbc3871b4e74b.txt",
+        "sourceTextSha256": "85e636bfe5f630abde053b16ce8f7b24c2c8fbc4c38b5825cb74a37e75a555c3",
+        "passage": "Ulan-Ude (rusky Улан-Удэ, burjatsky Улаан-Yдэ) je hlavní město Republiky Burjatsko v rámci Ruské federace. Žije zde přibližně 435 tisíc[2] obyvatel, převážně ruské a burjatské národnosti. Město založili v 17. století ruští kozáci. Původně se jmenovalo Verchněudinsk podle místní řeky Uda, současný název získalo v roce 1934.\n\nPrvní název, který neslo osídlení v tomto místě, pochází z roku 1666, kdy zde ruští kozáci založili Udinské zimoviště (Удинское зимовье, podle řeky Uda), jakýsi opěrný bod pro výběr daní v oblasti.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a039533fbc3871b4e74b.html",
+        "sha256": "1f9f68febc2fc0675c18f5386389c92c1a400ca36d852413c76498bdeccbabb6",
+        "bytes": 239220
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/a039533fbc3871b4e74b.txt",
+        "sha256": "85e636bfe5f630abde053b16ce8f7b24c2c8fbc4c38b5825cb74a37e75a555c3",
+        "bytes": 12935
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "Both retained language sources explicitly identify Ulan-Ude as capital of Buryatia; English gives correct Cyrillic Ү and the older name.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-24",
+      "evidenceIndex": 1,
+      "entireOriginalEvidence": {
+        "url": "https://en.wikipedia.org/wiki/Ulan-Ude",
+        "fetchedAt": "2026-10-31T02:11:04.218735+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7c42a8b0f361420c8ff0.html",
+        "sourceBodySha256": "20bc45bc3da5003a3697dd5d6c03352f90784e22b1d1f526714f1fbe9dc22731",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7c42a8b0f361420c8ff0.json",
+          "sha256": "4fe3bed629ed7ff5b1741cf6ee27c308a33506e7e239735a3b0e1c05d41e399a",
+          "index": null
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7c42a8b0f361420c8ff0.txt",
+        "sourceTextSha256": "4789c31a207fad9a8c753332e293c1621ec685712766350d7d6462eb8c46a285",
+        "passage": "Ulan-Ude (/ʊˈlɑːnʊˈdɛ/;[8] Russian: Улан-Удэ, .mw-parser-output .IPA-label-small{font-size:85%}.mw-parser-output .references .IPA-label-small,.mw-parser-output .infobox .IPA-label-small,.mw-parser-output .navbox .IPA-label-small{font-size:100%}Russian pronunciation: [ʊˈlan ʊˈdɛ]; Buryat: Улаан-Үдэ, romanized: Ulaan-Üde, IPA: [ʊˌlaːɴ‿ˈʉdə]) is the capital city of Buryatia, Russia, located about 100 kilometers (62 mi) southeast of Lake Baikal on the Uda River at its confluence with the Selenga. According to the 2021 Census, 437,565 people lived in Ulan-Ude; up from 404,426 recorded in the 2010 Census,[9] making the city the third-largest in the Russian Far East by population.\n\nUlan-Ude was first called Udinskoye (Удинское, [ˈudʲɪnskəjə]) for its location on the Uda River. It was founded as a small fort in 1666.[10] From around 1735, the settlement was called Udinsk (Удинск, [ʊˈdʲinsk]) and was granted town status under that name in 1775.[citation needed] It was renamed Verkhneudinsk (Верхнеудинск, [vʲɪrxnʲɪˈudʲɪnsk]; \"Upper Udinsk\") in 1783, to differentiate it from Nizhneudinsk (\"Lower Udinsk\") lying on a different Uda River near Irkutsk which was granted town status that year.[citation needed]",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7c42a8b0f361420c8ff0.html",
+        "sha256": "20bc45bc3da5003a3697dd5d6c03352f90784e22b1d1f526714f1fbe9dc22731",
+        "bytes": 366381
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7c42a8b0f361420c8ff0.txt",
+        "sha256": "4789c31a207fad9a8c753332e293c1621ec685712766350d7d6462eb8c46a285",
+        "bytes": 8415
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7c42a8b0f361420c8ff0.json",
+        "sha256": "4fe3bed629ed7ff5b1741cf6ee27c308a33506e7e239735a3b0e1c05d41e399a",
+        "bytes": 9349
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "Both retained language sources explicitly identify Ulan-Ude as capital of Buryatia; English gives correct Cyrillic Ү and the older name.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-25",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Vancouver",
+        "fetchedAt": "2026-10-31T00:34:53.594589+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/43a35e315c4fb19529a1.html",
+        "sourceBodySha256": "4b6170fd07aaa64b550ae2fe0ab827352c7508cc3eac5055d6638896f2c7eb3d",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 52
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/43a35e315c4fb19529a1.txt",
+        "sourceTextSha256": "b6fc63a973dc56cbd3bbc2bbcc91445e09493e51f5e2170d04c08ccef0291a12",
+        "passage": "Vancouver (anglicky vænˈkuːvər) je přístavní město v jihozápadní části kanadské provincie Britská Kolumbie, největší metropolitní centrum v západní Kanadě a třetí největší v celé Kanadě.[2] Okolo města se rozkládá Regionální okres Metro Vancouver, který náleží do většího celku obecně známého jako Lower Mainland. Vancouverský přístav vykazuje největší objem přepravy v celé Severní Americe.[3] Po Hollywoodu a New Yorku je Vancouver třetím největším centrem filmové produkce v Severní Americe, občas je označovaný jako Hollywood severu.[4][5][6][7][8] Vancouver hostil XXI. zimní olympijské hry.[9][10][11]\n\nVe Vancouveru existuje přes 1 298 hektarů parků. Se 404 hektary je největší Stanley Park.[59]",
+        "consultedParagraphIndices": [0, 50],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/43a35e315c4fb19529a1.html",
+        "sha256": "4b6170fd07aaa64b550ae2fe0ab827352c7508cc3eac5055d6638896f2c7eb3d",
+        "bytes": 467979
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/43a35e315c4fb19529a1.txt",
+        "sha256": "b6fc63a973dc56cbd3bbc2bbcc91445e09493e51f5e2170d04c08ccef0291a12",
+        "bytes": 35663
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Vancouver lead supplies British Columbia and the park paragraph expressly names Stanley Park as being in the city.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-26",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Wiesbaden",
+        "fetchedAt": "2026-10-31T00:34:55.491213+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/60241bdc3e23ec7dcbee.html",
+        "sourceBodySha256": "db79d0e7377bf78cdb1b4c8f3b5309aa3ac48078d0001fc6681bb11cef7d21e9",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 53
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/60241bdc3e23ec7dcbee.txt",
+        "sourceTextSha256": "050344cf795677b3257b65c345d13b200a3cf02b71e4b07d6d2a2869d96831fd",
+        "passage": "Wiesbaden [viːzbaːdn] se rozkládá na pravém břehu Rýna a je hlavním městem německé spolkové země Hesenska. Sídlí v něm hesenská zemská vláda (Hessische Landesregierung) a zemský parlament (Hessischer Landtag). Žije zde přibližně 289 tisíc[2] obyvatel. Po Frankfurtu nad Mohanem je Wiesbaden druhé největší město Hesenska. Ve Wiesbadenu je také sídlo německého Spolkového kriminálního úřadu a Spolkového statistického úřadu.\n\nWiesbaden se svými 15 minerálními a termálními prameny patří k nejstarším lázeňským městům Evropy.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/60241bdc3e23ec7dcbee.html",
+        "sha256": "db79d0e7377bf78cdb1b4c8f3b5309aa3ac48078d0001fc6681bb11cef7d21e9",
+        "bytes": 276796
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/60241bdc3e23ec7dcbee.txt",
+        "sha256": "050344cf795677b3257b65c345d13b200a3cf02b71e4b07d6d2a2869d96831fd",
+        "bytes": 5541
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Wiesbaden lead expressly identifies the city as Hesse's capital and contrasts Frankfurt as the larger city.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-27",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Zaragoza",
+        "fetchedAt": "2026-10-31T00:34:55.996105+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/19499062d064082cd8f0.html",
+        "sourceBodySha256": "f5a833c7d2a4497dbc74bda2f91742be9582dca8fa4a6c90ce12ff6a912cb82e",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 54
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/19499062d064082cd8f0.txt",
+        "sourceTextSha256": "e7b1e7ed3fdb47fada3942c5f76a950d96f24e863cf42218db05399574511209",
+        "passage": "Zaragoza (katalánsky Saragossa, latinsky Caesaraugusta) je hlavním městem autonomního společenství Aragonie a provincie Zaragoza. Leží na severovýchodě Španělska, na soutoku řeky Ebro s jejími přítoky Huerva a Gállego, téměř ve středu regionu v širokém údolí s různými terény od pouště (Los Monegros) k řídkým lesům a stepím.\n\nPři sčítání lidu roce 2007 žilo v Zaragoze 667 034 obyvatel, což je víc než 50 % obyvatel Aragonie a páté místo mezi španělskými městy. Leží 200 metrů nad mořem a je křižovatkou mezi městy Madrid, Barcelona, Bilbao, Valencia a Toulouse; všechna tato města jsou od Zaragozy vzdálená přibližně 300 kilometrů. Roku 2008 hostila Zaragoza světovou výstavu Expo 2008 a roku 2011 byla řada zdejších stavebních památek zařazena do souboru Mudéjarská architektura v Aragonii jako součást světového dědictví.",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/19499062d064082cd8f0.html",
+        "sha256": "f5a833c7d2a4497dbc74bda2f91742be9582dca8fa4a6c90ce12ff6a912cb82e",
+        "bytes": 214746
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/19499062d064082cd8f0.txt",
+        "sha256": "e7b1e7ed3fdb47fada3942c5f76a950d96f24e863cf42218db05399574511209",
+        "bytes": 4396
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The Zaragoza lead supplies Aragon's capital and the Ebro location in the same paragraph.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-28",
+      "evidenceIndex": 0,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/%C5%BDelezn%C3%A9_hory",
+        "fetchedAt": "2026-10-31T00:34:56.205915+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/6da2a0be265ef3bfcb3a.html",
+        "sourceBodySha256": "ebb7cf1db89a465a9c7a89c911f036ab857463d7125c8e4bae4f9829557206ff",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 55
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/6da2a0be265ef3bfcb3a.txt",
+        "sourceTextSha256": "b8a7feca72a416c227e157c26fad4e4bc761a99cd409019b01af0c19aa57b461",
+        "passage": "Železné hory jsou pohořím a geomorfologickým celkem o rozloze 761,77 km² v severní části Českomoravské vrchoviny[1], na vymezené části území i stejnojmennou chráněnou krajinnou oblastí a národním geoparkem v České republice. Z hlediska administrativně správního náleží největší částí své rozlohy do Pardubického kraje, jihozápadní část do Kraje Vysočina a okrajem na severozápadě do Středočeského kraje.[2]\n\nPohoří orientované jihovýchod – severozápad má přibližně trojúhelníkový tvar zužující se k nejsevernějšímu výběžku na území Týnce nad Labem nedaleko Kolína, náležejícímu do Středočeského kraje. Směrem k jihovýchodu je protažené do vzdálenosti v rozmezí 50–60 km, na severovýchodním okraji v nižších nadmořských výškách k Proseči v okrese Chrudim, náležejícímu do Pardubického kraje, na jihozápadě podél tektonické linie nazvané železnohorský zlom ke Ždírci nad Doubravou v okrese Havlíčkův Brod a v územním výběžku dosahujícím až k Vojnovu Městci v okrese Žďár nad Sázavou, obcí náležejícími do Kraje Vysočina.[2]",
+        "consultedParagraphIndices": [0, 1],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/6da2a0be265ef3bfcb3a.html",
+        "sha256": "ebb7cf1db89a465a9c7a89c911f036ab857463d7125c8e4bae4f9829557206ff",
+        "bytes": 528278
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/6da2a0be265ef3bfcb3a.txt",
+        "sha256": "b8a7feca72a416c227e157c26fad4e4bc761a99cd409019b01af0c19aa57b461",
+        "bytes": 38184
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+        "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+        "bytes": 1245795
+      },
+      "completePassageParagraphsFoundInActualText": [true, true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The mountains article establishes the Českomoravská vrchovina setting; the Lichnice article explicitly places the ruin above Třemošnice on the western edge of Železné hory.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    },
+    {
+      "id": "geography-cs-medium-04-28",
+      "evidenceIndex": 1,
+      "entireOriginalEvidence": {
+        "url": "https://cs.wikipedia.org/wiki/Lichnice",
+        "fetchedAt": "2026-10-31T02:13:17.488978+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/cbfb86cec5b254ee9ece.html",
+        "sourceBodySha256": "d9259a08e26270c2870cf21491bc98d772c5640d3e8e153dcc0b82974e1bb523",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/cbfb86cec5b254ee9ece.json",
+          "sha256": "7f79ce42a3ea86b7131ac75390600616e36c05670b50f4cb84d0f90d8bae0a0c",
+          "index": null
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/cbfb86cec5b254ee9ece.txt",
+        "sourceTextSha256": "6eee5e35dd7e1a94bc0b5d3c757a1a72254de9a8558d3e67276ef3a5c51179aa",
+        "passage": "Lichnice je zřícenina hradu u Třemošnice v okrese Chrudim v Pardubickém kraji. Nachází se nad vesnicí Podhradí na západním okraji Železných hor. Pozůstatky hradu jsou chráněny jako kulturní památka[1] a veřejnosti jsou přístupné v návštěvních hodinách. Hrad stojí na území chráněné krajinné oblasti Železné hory, geoparku Železné hory a západní úbočí hradního vrchu je součástí národní přírodní rezervace Lichnice.",
+        "consultedParagraphIndices": [0],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      },
+      "actualBodyBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/cbfb86cec5b254ee9ece.html",
+        "sha256": "d9259a08e26270c2870cf21491bc98d772c5640d3e8e153dcc0b82974e1bb523",
+        "bytes": 229918
+      },
+      "actualTextBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/cbfb86cec5b254ee9ece.txt",
+        "sha256": "6eee5e35dd7e1a94bc0b5d3c757a1a72254de9a8558d3e67276ef3a5c51179aa",
+        "bytes": 19087
+      },
+      "actualMetadataBinding": {
+        "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/cbfb86cec5b254ee9ece.json",
+        "sha256": "7f79ce42a3ea86b7131ac75390600616e36c05670b50f4cb84d0f90d8bae0a0c",
+        "bytes": 20016
+      },
+      "completePassageParagraphsFoundInActualText": [true],
+      "actualFullTextReadByCollection": true,
+      "humanSourceAssessment": "The mountains article establishes the Českomoravská vrchovina setting; the Lichnice article explicitly places the ruin above Třemošnice on the western edge of Železné hory.",
+      "sourceRoleDecision": "Secondary encyclopedic factual/naming context; not primary or live-current certification.",
+      "semanticReading": "Complete retained supporting passage read in this author task; no whole-article semantic-reading claim.",
+      "independentDisposition": "PENDING"
+    }
+  ],
+  "sourcePlacements": 34,
+  "uniqueTextCaptures": 34,
+  "hashMatchAll": true,
+  "readMeaning": "The collection script opens the exact text; semantic reading is separately recorded, not inferred from hashing.",
+  "rawBodiesCopied": false,
+  "independentAccepted": 0,
+  "actualPerEntryFiniteAliasSourceAssessment": [
+    {
+      "id": "geography-cs-medium-04-01",
+      "completeAliasJudgment": "All three aliases name the same principality. Straight/curly apostrophes are separate finite strings, not presumed equivalent by the matcher.",
+      "finiteAliases": [
+        {
+          "alias": "Andorrské knížectví",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Principat d'Andorra",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Principat d’Andorra",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-02",
+      "completeAliasJudgment": "Beograd, Belgrade and Београд are conventional names of this city. No second town named White City is accepted.",
+      "finiteAliases": [
+        {
+          "alias": "Beograd",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Belgrade",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Београд",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-03",
+      "completeAliasJudgment": "Corduba and Qurtuba are the historically attested names of the same city. Unaccented Cordoba is already normalisation-equivalent.",
+      "finiteAliases": [
+        {
+          "alias": "Corduba",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Qurtuba",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-04",
+      "completeAliasJudgment": "Český kras and both expanded CHKO names designate this particular protected area. Bare CHKO names the category, not this member.",
+      "finiteAliases": [
+        {
+          "alias": "CHKO Český kras",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Chráněná krajinná oblast Český kras",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-05",
+      "completeAliasJudgment": "Delhi, the Czech descriptive territory name and both NCT abbreviations name the containing territory. New Delhi remains excluded. NCT Delhi is a composed abbreviation, not claimed verbatim quotation.",
+      "finiteAliases": [
+        {
+          "alias": "Delhi",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Národní svazové území Dillí",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "National Capital Territory of Delhi",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "NCT of Delhi",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "NCT Delhi",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-06",
+      "completeAliasJudgment": "Essen needs no invented expansion. Zollverein names the property, not the requested city.",
+      "finiteAliases": []
+    },
+    {
+      "id": "geography-cs-medium-04-07",
+      "completeAliasJudgment": "Frankfurt am Main, Frankfurt, Frankobrod and source-attested city nickname Bankfurt are retained. Mainhattan is not added as a whole-city name on evidence describing a district.",
+      "finiteAliases": [
+        {
+          "alias": "Frankfurt am Main",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Frankfurt",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Frankobrod",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Bankfurt",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-08",
+      "completeAliasJudgment": "Every retained Kashubian, German and Latin form names Gdańsk. Gdańsk/Gdaňsk/Gdansk already share the runtime's normalised form.",
+      "finiteAliases": [
+        {
+          "alias": "Danzig",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Gduńsk",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Gedania",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Gedanum",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Dantiscum",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-09",
+      "completeAliasJudgment": "All three republic-name forms designate Honduras. British Honduras/Britský Honduras designate Belize and must remain excluded.",
+      "finiteAliases": [
+        {
+          "alias": "Honduraská republika",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Republika Honduras",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "República de Honduras",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-10",
+      "completeAliasJudgment": "Charkiv, Kharkiv, Kharkov and both Cyrillic forms refer to the same Ukrainian city; alternate transliterations are legitimate even when not all are literal strings in the Czech passage.",
+      "finiteAliases": [
+        {
+          "alias": "Charkiv",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Kharkiv",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Kharkov",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Харків",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Харьков",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-11",
+      "completeAliasJudgment": "Иркутск is the same name in Cyrillic; no other Siberian city is treated as a synonym.",
+      "finiteAliases": [
+        {
+          "alias": "Иркутск",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-12",
+      "completeAliasJudgment": "Jemenská republika and Yemen name the state. Aden is a city clue, not an accepted answer.",
+      "finiteAliases": [
+        {
+          "alias": "Jemenská republika",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Yemen",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-13",
+      "completeAliasJudgment": "København, its finite ø-less transliteration Kobenhavn, Copenhagen and Kopenhagen all name the city. Ø is not removed by NFD accent stripping.",
+      "finiteAliases": [
+        {
+          "alias": "København",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Kobenhavn",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Copenhagen",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Kopenhagen",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-14",
+      "completeAliasJudgment": "Lyon is the city; a person's Bowes-Lyon surname does not become an alternative city name.",
+      "finiteAliases": []
+    },
+    {
+      "id": "geography-cs-medium-04-15",
+      "completeAliasJudgment": "Marrakech and Marrakesh are conventional city spellings; Marrakeš is already accepted through accent normalisation.",
+      "finiteAliases": [
+        {
+          "alias": "Marrakech",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Marrakesh",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-16",
+      "completeAliasJudgment": "Nicaragua and both republic-name forms are preserved. The source typo presenting Nikaragua as Spanish is not promoted into a distinct naming fact.",
+      "finiteAliases": [
+        {
+          "alias": "Nikaragujská republika",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Nicaragua",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "República de Nicaragua",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-17",
+      "completeAliasJudgment": "Olmütz, Olomóc and Holomóc are source-attested German and dialect city names, not separate municipalities.",
+      "finiteAliases": [
+        {
+          "alias": "Olmütz",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Olomóc",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Holomóc",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-18",
+      "completeAliasJudgment": "Palermu is the attested Sicilian city name. The source also names ancient Panormos; independent review must expressly decide whether that historical label belongs in the finite answer set. No alias is removed or silently rejected.",
+      "finiteAliases": [
+        {
+          "alias": "Palermu",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-19",
+      "completeAliasJudgment": "Rodos, Rhodes and Ρόδος are conventional spellings of the island's name; neither all Greece nor the Dodecanese archipelago is an alias.",
+      "finiteAliases": [
+        {
+          "alias": "Rodos",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Rhodes",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Ρόδος",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-20",
+      "completeAliasJudgment": "Regen names the whole requested reach. Schwarzer/Großer/Kleiner Regen denote upstream branches or sections, not interchangeable whole-river answers.",
+      "finiteAliases": [
+        {
+          "alias": "Regen",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-21",
+      "completeAliasJudgment": "Salzburg, Solnohrad, Salzburk and Salcpurk are retained attested names of the same city.",
+      "finiteAliases": [
+        {
+          "alias": "Salzburg",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Solnohrad",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Salzburk",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Salcpurk",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-22",
+      "completeAliasJudgment": "Szczecin and Stettin designate this city. The word štětiny in a brush question is not a city alias.",
+      "finiteAliases": [
+        {
+          "alias": "Szczecin",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Stettin",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-23",
+      "completeAliasJudgment": "Ostrov Trinidad is a typed expansion of Trinidad, not a different island. Tobago does not satisfy the clue.",
+      "finiteAliases": [
+        {
+          "alias": "ostrov Trinidad",
+          "literalAccentFoldedSubstringInActualSourceText": false,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-24",
+      "completeAliasJudgment": "All six finite aliases name the same city. Historical Verchněudinsk/Verkhneudinsk are retained; the malformed Latin-Y Cyrillic form from the Czech source is not. Ulan-Ude is already accepted by the canonical Ulán-Ude after accent normalisation.",
+      "finiteAliases": [
+        {
+          "alias": "Ulan Ude",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Verchněudinsk",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Verkhneudinsk",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Улан-Удэ",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Улаан-Үдэ",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Ulaan-Üde",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-25",
+      "completeAliasJudgment": "Vancouver denotes the British Columbia city, not Vancouver Island or the Washington-state namesake.",
+      "finiteAliases": []
+    },
+    {
+      "id": "geography-cs-medium-04-26",
+      "completeAliasJudgment": "Wiesbaden needs no fabricated nickname. Frankfurt is an incorrect answer to this clue.",
+      "finiteAliases": []
+    },
+    {
+      "id": "geography-cs-medium-04-27",
+      "completeAliasJudgment": "Saragossa and Caesaraugusta are retained attested names. Unsupported Zaragozza is not introduced; normalisation does not silently correct spelling.",
+      "finiteAliases": [
+        {
+          "alias": "Saragossa",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        },
+        {
+          "alias": "Caesaraugusta",
+          "literalAccentFoldedSubstringInActualSourceText": true,
+          "legitimacy": "Retained legitimate same-referent name/type expansion or conventional transcription; exact literal membership is disclosed, not substituted for semantic review.",
+          "independentDisposition": "PENDING"
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-28",
+      "completeAliasJudgment": "Železné hory is the requested range. Českomoravská vrchovina is a containing larger unit, not an alias.",
+      "finiteAliases": []
+    }
+  ],
+  "authorFactSourceAssessments": 28,
+  "allSelectedPassageParagraphsFoundInActualCapturedTexts": true
+}

@@ -25,6 +25,18 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The runtime candidate contains **167 decks / 4,676 questions**, English85/
+Czech82. Only accepted `geography-cs-medium-04` is added to actual delivered
+`e2270b1b` (166/4,648). All166 earlier pack bytes/order and application inputs
+remain unchanged. [Original source evidence](docs/phase-12-geography-cs-medium-04-sources.json)
+and [independent correction review](reviews/phase-12-geography-cs-medium-04-content-review.md)
+retain27 unchanged accepted entries and fresh acceptance of the source-supported
+Panormos alias. Only own28 enters play; retained history does not clear other packs.
+Actual-parent release/content gates precede individual private delivery, without
+app build/restart. Final330/9,240/all66 and final cleanup remain OPEN.
+
+## Retained166 preparation history
+
 The runtime candidate contains **166 decks / 4,648 questions**, English85/
 Czech81. Only accepted `science-cs-medium-03` is added to actual delivered
 `da28aab0` (165/4,620). All165 earlier pack bytes/order and application inputs

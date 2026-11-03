@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "verdict": "CLEARED FOR DECK RELEASE",
+  "deckId": "geography-cs-medium-04",
+  "scope": "Only fourteen frozen GeographyMedium04 inputs against actual166",
+  "publisherSessionId": "38bcca12-664f-4981-8407-71e8e5f7a6d4",
+  "actualParent": "e2270b1b85a923d0cfd7ea6cae0ea8ce9c50ad20",
+  "candidateCheckout": ".artifacts/continuation/fresh38-release-167-worktree",
+  "entries": 28,
+  "initialAcceptedNow": 28,
+  "currentAccepted": 28,
+  "held": 0,
+  "unchangedWholeEntriesInherited": 27,
+  "freshCorrectedEntryPreviouslyAccepted": 1,
+  "originalHeldReviewRetainedAt27Accepted1Held": true,
+  "pack": {
+    "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/geography-cs-medium-04.json",
+    "sha256": "081fc96f24e1a4d9119046e035ec2508afc289741262dc26d7137ecbd1322c03",
+    "bytes": 11557
+  },
+  "freeze": {
+    "path": ".artifacts/continuation/fresh38-review-167/FROZEN-SHA256SUMS",
+    "sha256": "1822997bde7785f711e9e75a1e1285d0f0fc4fb143790f242a6a7e341dfe4851",
+    "bytes": 2290
+  },
+  "candidateDiff": {
+    "path": ".artifacts/continuation/fresh38-review-167/CANDIDATE.diff",
+    "sha256": "5e459ad074f6a20798366f3b52dd1defdc44d0dfe18fb009e1dd517c7432d7d3",
+    "bytes": 5214
+  },
+  "frozenSourceBindings": {
+    "IMPLEMENTATION_PHASES.md": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/IMPLEMENTATION_PHASES.md",
+      "sha256": "b87c5dd0546c944bbec1d2f4a79c6bf0b4e25c68635f2a4c69a9572e5b9651c4",
+      "bytes": 177858
+    },
+    "README.md": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/README.md",
+      "sha256": "b07d0a509601feb99ea886a2b74e8ac32134f6bde95e3637c99e5813b1fd7c72",
+      "bytes": 76608
+    },
+    "docs/content-inventory.md": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/content-inventory.md",
+      "sha256": "ac27e4f3f7f57f5f4c670f96eff25455952be62c086967b21d7c90ae3acc8dae",
+      "bytes": 59056
+    },
+    "docs/phase-12-deck-inventory.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-deck-inventory.json",
+      "sha256": "ae6b37288e817ed584998e42cd0db6eefd272c1a89e1de9f42428134e1f0aa52",
+      "bytes": 1243
+    },
+    "docs/phase-12-geography-cs-medium-04-alias-after.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-alias-after.json",
+      "sha256": "6ac2d9809a27a527fc9241234785d8264ce8339e31752135f5eca61261804ab8",
+      "bytes": 7561
+    },
+    "docs/phase-12-geography-cs-medium-04-alias-before.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-alias-before.json",
+      "sha256": "d34800518da73e91982157c7e83f1a5a17313dd059aa7ac52feac64b9b32c155",
+      "bytes": 7537
+    },
+    "docs/phase-12-geography-cs-medium-04-source-continuity.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-source-continuity.json",
+      "sha256": "b69bdeb76ad4d8f44abe13a420d18a628b032abcca81d215186796b0eca7f00d",
+      "bytes": 53128
+    },
+    "docs/phase-12-geography-cs-medium-04-source-correction.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-source-correction.json",
+      "sha256": "452443736487c842c4d5db2cc02bdc9169cd3674363c54a385e59444fb81bd2c",
+      "bytes": 6249
+    },
+    "docs/phase-12-geography-cs-medium-04-sources.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-sources.json",
+      "sha256": "26f4fd4ebf3c0e6e099fded5123cdb4c4bde46ef09a69c72b8960bcdc838b82b",
+      "bytes": 158615
+    },
+    "reviews/phase-12-geography-cs-medium-04-content-review.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/reviews/phase-12-geography-cs-medium-04-content-review.json",
+      "sha256": "693ad29bd421ae02cb6caf511e8ffa30eb2133201071128bf83d9142e0491c87",
+      "bytes": 30438
+    },
+    "reviews/phase-12-geography-cs-medium-04-content-review.md": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/reviews/phase-12-geography-cs-medium-04-content-review.md",
+      "sha256": "bead8c6e7157d1b7d5155a762e5f9a6ac42768aab9aafb322d67c91e9491d235",
+      "bytes": 4919
+    },
+    "reviews/phase-12-geography-cs-medium-04-original-content-review.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/reviews/phase-12-geography-cs-medium-04-original-content-review.json",
+      "sha256": "2f99ad7c1494a93d60c69f6f9aa49ee9db44c9627d49f6cbca5c929ac8ebff34",
+      "bytes": 28820
+    },
+    "src/content-order.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/src/content-order.json",
+      "sha256": "b056d4726e04e181510246df255366b3c86ffcd899007aa71bc014576c679bb9",
+      "bytes": 4780
+    },
+    "src/content/geography-cs-medium-04.json": {
+      "path": ".artifacts/continuation/fresh38-release-167-worktree/src/content/geography-cs-medium-04.json",
+      "sha256": "081fc96f24e1a4d9119046e035ec2508afc289741262dc26d7137ecbd1322c03",
+      "bytes": 11557
+    }
+  },
+  "acceptedCorrectionSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04-correction-r1/SEAL.json",
+    "sha256": "b37b0de5424a1d5b12eaf2acf26d53280b5fc9015837592a0877ed9b8ce50b18",
+    "bytes": 3082
+  },
+  "originalHeldContentSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04/SEAL.json",
+    "sha256": "8a1918ec21b71689baff0e1a543fbcb31f5d25a0d5fb936bea8763593c5b7a05",
+    "bytes": 3150
+  },
+  "originalSubstantivePairDecisions": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04/PAIR-DECISIONS.json",
+    "sha256": "4cc15b1e1ca80e50b7e94eed1941a6845a1b9ed60b331c2a5fa4992b0ff2f6b8",
+    "bytes": 104911
+  },
+  "correctionMeaningfulAliasImpactDecisions": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04-correction-r1/PAIR-DECISIONS.json",
+    "sha256": "3f25ff53260e8e6bc7fc3925916558055b6d79d6d333b1b62e9bb0305e9300c4",
+    "bytes": 1763
+  },
+  "inheritedActualMatcherReceipt": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04-correction-r1/MATCHER-CHECK.json",
+    "sha256": "5d46a0add1a716ce407067b3c8de14924f83bfab9fbaf30e3670845f0f70d415",
+    "bytes": 788
+  },
+  "originalCrossOwn112": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/CROSS-OWN112.json",
+    "sha256": "6d464f6d809806e1ad11838b833fd92c7cd9c5d91a775f83b0d36f332a5e818d",
+    "bytes": 30005
+  },
+  "originalCrossOwnBundleSeal": {
+    "path": ".artifacts/continuation/fresh38-review-wave2/BUNDLE-SEAL.json",
+    "sha256": "8fe9643bc45e2f369d49c3a84f01c4599e0dbab99365b7f39430b5ace807a395",
+    "bytes": 7457
+  },
+  "completeFormattingOnlyJSONCopies": [
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04/FULL-SOURCE-LEDGER.json",
+        "sha256": "8960dfefa47b22805ba5467c0af770e253e20a2dfb1639073b20662fcf91c49f",
+        "bytes": 160469
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-sources.json",
+        "sha256": "26f4fd4ebf3c0e6e099fded5123cdb4c4bde46ef09a69c72b8960bcdc838b82b",
+        "bytes": 158615
+      },
+      "wholeJSONValueSha256": "b48225d6b9b07e45c2a52c8d55c8a10e59043c1a24ecc6f12aa5d0c362749470",
+      "wholeOrderedProjectionSha256": "86d70640297758a8d199e317a9b2503e0942372610d376184774fd224ee3b3c4",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04/ENTRY-AUTHOR-JUDGMENTS.json",
+        "sha256": "2352ec1a54b415cedac822ef17042a3a7eaa85f9e4f98aa40c5bf2c9b7afae1e",
+        "bytes": 54198
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-source-continuity.json",
+        "sha256": "b69bdeb76ad4d8f44abe13a420d18a628b032abcca81d215186796b0eca7f00d",
+        "bytes": 53128
+      },
+      "wholeJSONValueSha256": "e78238cacb5a94aacd9c3fcf44b9aa947aa2292fc3f93b9fd57e31392c31864b",
+      "wholeOrderedProjectionSha256": "1cb1e143e0f94ac003c4a9cf6b4ec6e116f3d79f1d3aee315e97a3440e0511ce",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/SOURCE-CORRECTION-BINDING.json",
+        "sha256": "2035983cef3ce134e1882af4d85f66d0ec55e9813abe94e5e021645557e71ad3",
+        "bytes": 6267
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-source-correction.json",
+        "sha256": "452443736487c842c4d5db2cc02bdc9169cd3674363c54a385e59444fb81bd2c",
+        "bytes": 6249
+      },
+      "wholeJSONValueSha256": "d86878daa1c938cb011787c6df302725931937232be550ed8b7b0f3a4bb8bdc1",
+      "wholeOrderedProjectionSha256": "afeea93c7d08d33b9acffd6f93731ae2944a8a350ad55deb20387326a704db1a",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/FULL-BEFORE.json",
+        "sha256": "c784284cad87df25b966dd33a0a412d08915ceb9a26a47ddc481f35439cf98bf",
+        "bytes": 7651
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-alias-before.json",
+        "sha256": "d34800518da73e91982157c7e83f1a5a17313dd059aa7ac52feac64b9b32c155",
+        "bytes": 7537
+      },
+      "wholeJSONValueSha256": "b2449d0cb7e902b1739bcc5a8db92fbd6e8dd14fae65d1dab822ea80a40df16b",
+      "wholeOrderedProjectionSha256": "393c9bb18242ee4a627ee0bba3470885249ff85ec4eedcc08504f107b90b443b",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/FULL-AFTER.json",
+        "sha256": "dd6ee3e8abb687b18af60a28b72c0481ba435c72c5914f80aea048b89b1a7f78",
+        "bytes": 7687
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-167-worktree/docs/phase-12-geography-cs-medium-04-alias-after.json",
+        "sha256": "6ac2d9809a27a527fc9241234785d8264ce8339e31752135f5eca61261804ab8",
+        "bytes": 7561
+      },
+      "wholeJSONValueSha256": "0a0b11b8b6a7ab7a42741762d45d9bf3f94a4320bd5246837cc6f7f3cb3740a2",
+      "wholeOrderedProjectionSha256": "79558652d37394d1b8592aac4a93a608b24658888eeb8ec5750247476a6ad694",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04/ENTRY-DECISIONS.json",
+        "sha256": "e990d5326008760778e23f9003633f2f9b113b85f8b1371db13ed170ebdef056",
+        "bytes": 29156
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-167-worktree/reviews/phase-12-geography-cs-medium-04-original-content-review.json",
+        "sha256": "2f99ad7c1494a93d60c69f6f9aa49ee9db44c9627d49f6cbca5c929ac8ebff34",
+        "bytes": 28820
+      },
+      "wholeJSONValueSha256": "0dad26a8828e937b72432e0e524afb13ac7493aafd0974ab8c1697b741901778",
+      "wholeOrderedProjectionSha256": "b88947d8f9d4f08148bf0e9daeb3485c2d5cd81d37d8dfd5cda29f35b8dbea41",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    },
+    {
+      "original": {
+        "path": ".artifacts/continuation/fresh38-review-wave2/geography-cs-medium-04-correction-r1/ENTRY-DECISIONS.json",
+        "sha256": "f9f417c636d978e61f1c09add246bd7bd7bad66bc2e028ec3a918fe815e31a98",
+        "bytes": 30782
+      },
+      "formatted": {
+        "path": ".artifacts/continuation/fresh38-release-167-worktree/reviews/phase-12-geography-cs-medium-04-content-review.json",
+        "sha256": "693ad29bd421ae02cb6caf511e8ffa30eb2133201071128bf83d9142e0491c87",
+        "bytes": 30438
+      },
+      "wholeJSONValueSha256": "3eed101e388a969f57a18bb47bcb045e30d5e125a17efb632d0fe0ca53598e7e",
+      "wholeOrderedProjectionSha256": "0b4962b18e3e1aea3379d422ab996e91111f41ae7697979ea33707bdf144418f",
+      "entireValueAndPropertyArrayOrderingIdentical": true
+    }
+  ],
+  "completeChangedEntry": {
+    "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/FULL-AFTER.json",
+    "sha256": "dd6ee3e8abb687b18af60a28b72c0481ba435c72c5914f80aea048b89b1a7f78",
+    "bytes": 7687
+  },
+  "fullOriginalSourceLedger": {
+    "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04/FULL-SOURCE-LEDGER.json",
+    "sha256": "8960dfefa47b22805ba5467c0af770e253e20a2dfb1639073b20662fcf91c49f",
+    "bytes": 160469
+  },
+  "completeCorrectedSourceEntry": {
+    "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/CORRECTED-SUPPORTING-SOURCE-ENTRY.json",
+    "sha256": "0d6bcd69aadce88d94768756c6fb008119644a409c8061aa0906faff6d3df4d8",
+    "bytes": 4405
+  },
+  "sourceCorrectionBinding": {
+    "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/SOURCE-CORRECTION-BINDING.json",
+    "sha256": "2035983cef3ce134e1882af4d85f66d0ec55e9813abe94e5e021645557e71ad3",
+    "bytes": 6267
+  },
+  "onlyOwn28PublishedNotOtherSourceLedgerDecks": true,
+  "allOriginalHistoricalLabelsPreserved": true,
+  "sourceOverlayCoherent": true,
+  "wholeAdult": {
+    "decision": "FRESH INDEPENDENT ACCEPTED MEDIUM",
+    "audience": "general Czech-speaking adult, not a specialist geographer",
+    "bandsNotQuotas": {
+      "medium": 21,
+      "hard": 4,
+      "easy": 3
+    },
+    "reason": "Informed monument, confluence and administrative associations dominate. Familiar Copenhagen/Olomouc/Salzburg anchors and harder Essen/Deržprom/Regen/Buryatia edges do not change the overall informed experience. Place-identification monotony is a nonblocking editorial limitation, not a reason to manufacture difficulty. No percentage quota used."
+  },
+  "formatAssessment": {
+    "packPrettierPassed": true,
+    "scope": "Only exact new Geography pack, in memory; no candidate writes"
+  },
+  "report": {
+    "path": ".artifacts/continuation/fresh38-review-167/REPORT.md",
+    "sha256": "86d25c90725c220b3db6ef3039b267807392f80c154dd025345f491890328449",
+    "bytes": 5706
+  },
+  "verification": {
+    "path": ".artifacts/continuation/fresh38-review-167/VERIFICATION.json",
+    "sha256": "c4c0ca23d0c1b863a6b79f149de3bcb5c84c55b0c8328771c222e647502bbf08",
+    "bytes": 10314
+  },
+  "inputBindings": {
+    "path": ".artifacts/continuation/fresh38-review-167/INPUT-BINDINGS.json",
+    "sha256": "aa4abe67fb890538993d2a8992919030b8fc6a7e9b2de9a965c88fd2b927c1ba",
+    "bytes": 54852
+  },
+  "applicationBoundary": {
+    "baselineTrackedFiles": 636,
+    "candidateComparableFiles": 645,
+    "changed": [
+      "IMPLEMENTATION_PHASES.md",
+      "README.md",
+      "docs/content-inventory.md",
+      "docs/phase-12-deck-inventory.json",
+      "src/content-order.json"
+    ],
+    "added": [
+      "docs/phase-12-geography-cs-medium-04-alias-after.json",
+      "docs/phase-12-geography-cs-medium-04-alias-before.json",
+      "docs/phase-12-geography-cs-medium-04-source-continuity.json",
+      "docs/phase-12-geography-cs-medium-04-source-correction.json",
+      "docs/phase-12-geography-cs-medium-04-sources.json",
+      "reviews/phase-12-geography-cs-medium-04-content-review.json",
+      "reviews/phase-12-geography-cs-medium-04-content-review.md",
+      "reviews/phase-12-geography-cs-medium-04-original-content-review.json",
+      "src/content/geography-cs-medium-04.json"
+    ],
+    "deleted": [],
+    "unchangedTrackedFiles": 631,
+    "existingPermissionBitsPreserved": true,
+    "executableApplicationToolTestDependencyConfigurationChanges": [],
+    "previousPacksPreserved": 166,
+    "priorOrderExactPrefix": true
+  },
+  "candidateCounts": {
+    "decks": 167,
+    "questions": 4676,
+    "cs": 82,
+    "en": 85,
+    "combinations": 66,
+    "maximumPerQuota": 5,
+    "completedQuotas": 2
+  },
+  "concurrentDelta": [
+    {
+      "deckId": "general-cs-hard-05",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-general-hard05.json",
+        "sha256": "a83b48e932c75b9a26057f0dc5db44ab0ffa654810b1e53babe766dce0625208",
+        "bytes": 1030
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/general-cs-hard-05/general-cs-hard-05.json",
+        "sha256": "dbd53e6f3481599f6dad898f6f6e91458260be579d6163530db8610dcec5d095",
+        "bytes": 12032
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    },
+    {
+      "deckId": "science-cs-hard-03",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-science-geography-hard.json",
+        "sha256": "bbfbfdd6f9f99d629d2e80380039131a263621892acae32e5209be594270849f",
+        "bytes": 1960
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/science-cs-hard-03/science-cs-hard-03.json",
+        "sha256": "2388c1cdd7dee00696ac87e2f7828957fc49b133b3c1c47becdd9894f1745110",
+        "bytes": 13321
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    },
+    {
+      "deckId": "geography-cs-hard-04",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-science-geography-hard.json",
+        "sha256": "bbfbfdd6f9f99d629d2e80380039131a263621892acae32e5209be594270849f",
+        "bytes": 1960
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/geography-cs-hard-04/geography-cs-hard-04.json",
+        "sha256": "00ee9081d7e2eb9e23c27e37b6dee1083b53e8c64f88910a0d3332dbcccfe175",
+        "bytes": 12843
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    },
+    {
+      "deckId": "nature-cs-easy-04",
+      "collection": {
+        "path": ".artifacts/continuation/fresh38-collected-nature-easy04.json",
+        "sha256": "e0a6b0b01a011c7cd6ac307b99143b40950cd32e13e28f697260e9eace9c90e0",
+        "bytes": 1156
+      },
+      "pack": {
+        "path": ".artifacts/continuation/fresh38-authors/nature-cs-easy-04/nature-cs-easy-04.json",
+        "sha256": "579b0c9cc2da46114a87184fcf76e1ba73c37fc0c880e4acacf393286fd60abe",
+        "bytes": 11485
+      },
+      "currentAccepted": 0,
+      "affectingWave2DeltaReported": false
+    }
+  ],
+  "actualParentDelivery": {
+    "path": ".artifacts/continuation/fresh38-deck166-actual-delivery.json",
+    "sha256": "ee4460ea7e51bd9724a496cabfaf22dcee40e5160257a382c7368f0b87d7841d",
+    "bytes": 2266
+  },
+  "actualParentReleaseReview": {
+    "path": ".artifacts/continuation/fresh38-release-167-worktree/reviews/phase-12-science-cs-medium-03-runtime-release.json",
+    "sha256": "46290132dcbfabad7bab02c13b52060f2c24344729c239be80cb8c465ff53b6b",
+    "bytes": 15589
+  },
+  "earlierScienceOptionalPackPrettierFailureStillExplicitlyRetained": true,
+  "inheritedApplicationGateRevision": "c7cdaafb1969017728d00e35ceb2f6a731a700cf",
+  "migrationReview": {
+    "path": ".artifacts/continuation/fresh38-release-167-worktree/reviews/runtime-catalog-migration.json",
+    "sha256": "d5079ee627e5ac4a00dd90fcec3604d694f87605a1c45589f1fc438305efec9f",
+    "bytes": 2912
+  },
+  "actualPrivateMigrationProof": {
+    "path": ".artifacts/continuation/runtime-content-private-migration.json",
+    "sha256": "51c88190e17ddf14d7e7071959f1238d55c9d441fbf2b4fb88e98d49553881ed",
+    "bytes": 24675
+  },
+  "priorBrowserResults": {
+    "path": ".artifacts/continuation/runtime-content-browser-results.json",
+    "sha256": "fdb5c1b3a97857f7b8e7b940f07a69da38516bd147a6d458ed074576afea64f5",
+    "bytes": 42722
+  },
+  "unchangedActuallyReferencedAssets": {
+    "/hexy/assets/index-Ck_9oRvP.js": "2bf488f03685b99bf40d1bf295883e131bf2162066c51f6273398eb7a4497717",
+    "/hexy/assets/index-DPcmLzC0.css": "dfcaaf71a4cc9429d3f38589e9e3a747d1532af9c692372b1e3d21d535d9af89"
+  },
+  "sixLenses": [
+    "correctness",
+    "usability/accessibility",
+    "readability/maintainability",
+    "ownership/OOP",
+    "patterns/proportionality",
+    "content/rights/delivery"
+  ],
+  "unresolvedFindings": [],
+  "remainingPublisherGates": [
+    "Separate mandatory exact-parent same-snapshot content gate",
+    "Individual167 publication and actual full catalog/objects/order/unchanged JS-CSS verification"
+  ],
+  "centralContentGateExecuted": false,
+  "actuallyPublishedOrDelivered": false,
+  "otherDecksCleared": false,
+  "categoryCleared": false,
+  "phase12Cleared": false
+}

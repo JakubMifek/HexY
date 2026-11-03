@@ -12,6 +12,16 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Current runtime-data candidate167:** GeographyCSMedium04 alone adds28 to actual
+delivered `e2270b1b` (166/4,648), yielding167/4,676, English85/Czech82.
+Current28 independently accepted, held0:27 original accepted entries preserved,
+one complete Panormos alias correction freshly accepted. Original held review,
+full source ledger/author continuity, exact before/after and source overlay
+retained separately; no fictional historical acceptance. Whole Medium3/21/4
+unchanged. Previous166 packs/order/application inputs remain immutable.
+Exact-parent release/content gate and individual private verification remain
+separate. Final330/9,240/all66 and final cleanup NOT CLEARED.
+
 **Current runtime-data candidate166:** ScienceCSMedium03 alone adds28 to actual
 delivered `da28aab0` (165/4,620), yielding166/4,648, English85/Czech81.
 All28 current/full-source/alias/adult judgments independently accepted;27 whole

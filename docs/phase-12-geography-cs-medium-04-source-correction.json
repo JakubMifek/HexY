@@ -1,0 +1,70 @@
+{
+  "finding": {
+    "id": "W2-GEO-01",
+    "severity": "minor",
+    "entryId": "geography-cs-medium-04-18",
+    "issue": "Missing legitimate historical same-city answer Panormos.",
+    "source": "https://cs.wikipedia.org/wiki/Palermo",
+    "sourceText": {
+      "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.txt",
+      "sha256": "a5a04ee347417011b6ded4d7ab5636b60ed4bf5476185f1ba259f2f9397e7713",
+      "bytes": 5690
+    },
+    "excerpt": "později zde Řekové vybudovali přístav s názvem Panormos",
+    "reason": "The clue has no modern-name-only restriction. Palermo/Palermu/Panormos identify the same city; the pack already intentionally accepts analogous Corduba, Qurtuba, Caesaraugusta and Verchněudinsk. A correct historical city answer must not be rejected to keep a two-form finite set.",
+    "requiredChange": "Add Panormos without removing Palermo or Palermu. Rebind the changed entire question/source alias array and affected current pair/adult judgments. No full factual redo or reauthoring of the other27.",
+    "verification": "The actual production answer matcher must accept Panormos, Palermo and Palermu; the unchanged initial P and Medium whole rating remain. Publisher/check runner verifies the corrected pack and data release gate separately."
+  },
+  "actualCapturedBodyTextAndRetrievalBindings": [
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.html",
+      "sha256": "560191af0ccf8df2293377a1a058bce21a5380a52d5bed3cd004b32bd47494d4",
+      "bytes": 228080
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.txt",
+      "sha256": "a5a04ee347417011b6ded4d7ab5636b60ed4bf5476185f1ba259f2f9397e7713",
+      "bytes": 5690
+    },
+    {
+      "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+      "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+      "bytes": 1245795
+    }
+  ],
+  "actualCompleteSupportingEvidence": {
+    "url": "https://cs.wikipedia.org/wiki/Palermo",
+    "fetchedAt": "2026-10-31T00:34:41.066081+00:00",
+    "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+    "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.html",
+    "sourceBodySha256": "560191af0ccf8df2293377a1a058bce21a5380a52d5bed3cd004b32bd47494d4",
+    "originalMetadata": {
+      "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+      "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+      "index": 45
+    },
+    "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.txt",
+    "sourceTextSha256": "a5a04ee347417011b6ded4d7ab5636b60ed4bf5476185f1ba259f2f9397e7713",
+    "passage": "Palermo (sicilsky Palermu) je páté největší italské město, hlavní město oblasti Sicílie a Metropolitního města Palermo. Konurbace kolem Palerma má okolo miliónu obyvatel. Průměrná nadmořská výška je asi 1 m. K 31. srpnu 2020 bylo na území města registrováno 642 809 obyvatel.[1]\n\nMěsto založili v 7. století př. n. l. Féničané jako obchodní překladiště, později zde Řekové vybudovali přístav s názvem Panormos (v překladu značí „přístav pro všechny“).[2] V roce 254 př. n. l. dobyli město Římané, před tím zde pobývali Kartáginci. Po zániku římské říše Palermo převzali Vandalové, následně Ostrogóti, v roce 535 se stalo součástí Byzantské říše. V té době obyvatelstvo Palerma tvořili především Římané, Řekové a Kartáginci. V roce 831 dobyli město Arabové. V této době žilo ve městě okolo 300 000 obyvatel. V roce 1072 získali Palermo Normané. Roger I. vybudoval přepychový královský palác s proslulou Capellou Palatinou a v letech 1184 až 1185 zde byla znovuvybudována katedrála. Za normanské nadvlády zažilo město období největšího rozkvětu. Ve městě žili v toleranci Arabové, Byzantinci i Židé. Po vymření normanské dynastie v roce 1194 přešla vláda do rukou Štaufů, po nich v roce 1266 získali město Anjouovci. Jejich nadvláda skončila v roce 1282 lidovým povstáním nazývaným sicilské nešpory. Palermo a celou Sicílii následně ovládli Aragonci. Spravovali ji prostřednictvím místokrálů. V 18. století se Palermo dostalo pod nadvládu Neapole a následně Bourbonů. V roce 1860 město obsadil Garibaldi a od roku 1861 se stalo součástí Italského království a následně Itálie. Od roku 2015 je město zapsané na seznamu Světového kulturního dědictví UNESCO.",
+    "consultedParagraphIndices": [0, 2],
+    "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+  },
+  "originalFull34PlacementLedgerUnchanged": {
+    "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04/FULL-SOURCE-LEDGER.json",
+    "sha256": "8960dfefa47b22805ba5467c0af770e253e20a2dfb1639073b20662fcf91c49f",
+    "bytes": 160469
+  },
+  "currentLedgerOverlay": {
+    "replaceEntry": "geography-cs-medium-04-18",
+    "correctedEntry": {
+      "path": ".artifacts/continuation/fresh38-authors/geography-cs-medium-04-w2-r1/CORRECTED-SUPPORTING-SOURCE-ENTRY.json",
+      "sha256": "0d6bcd69aadce88d94768756c6fb008119644a409c8061aa0906faff6d3df4d8",
+      "bytes": 4405
+    },
+    "change": "Supporting entry finite aliases Palermu -> Palermu, Panormos only; evidence array, all source values, factual/adult values remain exact.",
+    "other33SourcePlacementsUnchanged": true
+  },
+  "sourceRole": "Existing secondary encyclopedia capture, not a new live retrieval or primary certification",
+  "sourceReading": "Actual source paragraph explicitly names Panormos as the historical port of the same city; no modern-name-only restriction in the question.",
+  "currentIndependentCorrectionAccepted": false
+}

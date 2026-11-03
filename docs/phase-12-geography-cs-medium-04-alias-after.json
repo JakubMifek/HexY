@@ -1,0 +1,91 @@
+{
+  "id": "geography-cs-medium-04-18",
+  "entireQuestion": {
+    "id": "geography-cs-medium-04-18",
+    "initial": "P",
+    "text": "Ve kterém sicilském městě se nachází Normanský palác s Palatinskou kaplí?",
+    "answer": "Palermo",
+    "aliases": ["Palermu", "Panormos"],
+    "category": "geography",
+    "language": "cs",
+    "sources": ["https://cs.wikipedia.org/wiki/Palermo"]
+  },
+  "entireSupportingEvidenceAndAuthorJudgments": {
+    "id": "geography-cs-medium-04-18",
+    "initial": "P",
+    "claim": "Ve kterém sicilském městě se nachází Normanský palác s Palatinskou kaplí?",
+    "answer": "Palermo",
+    "aliases": ["Palermu", "Panormos"],
+    "difficulty": "medium",
+    "individualAdultLevel": "medium",
+    "difficultyJudgment": "Pro běžného dospělého: medium; nejde o hodnocení pouze vzhledem k odborníkům. Skutečný odstavec2 dokládá Normanský palác a kapli. Sicilské Palermu je jméno téhož města; neplete se celý ostrov s jeho metropolí.",
+    "editorialJudgment": "Skutečný odstavec2 dokládá Normanský palác a kapli. Sicilské Palermu je jméno téhož města; neplete se celý ostrov s jeho metropolí.",
+    "aliasJudgment": "Konečné věcně platné názvy v daném kontextu, bez změny runtime. Normalizačně totožné podoby zůstávají automaticky uznány; rozdílná interpunkce a nerozložitelné znaky potřebují vlastní konečná data. Skutečný odstavec2 dokládá Normanský palác a kapli. Sicilské Palermu je jméno téhož města; neplete se celý ostrov s jeho metropolí.",
+    "wrongConcepts": ["Catania", "Messina"],
+    "evidence": [
+      {
+        "url": "https://cs.wikipedia.org/wiki/Palermo",
+        "fetchedAt": "2026-10-31T00:34:41.066081+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.html",
+        "sourceBodySha256": "560191af0ccf8df2293377a1a058bce21a5380a52d5bed3cd004b32bd47494d4",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 45
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.txt",
+        "sourceTextSha256": "a5a04ee347417011b6ded4d7ab5636b60ed4bf5476185f1ba259f2f9397e7713",
+        "passage": "Palermo (sicilsky Palermu) je páté největší italské město, hlavní město oblasti Sicílie a Metropolitního města Palermo. Konurbace kolem Palerma má okolo miliónu obyvatel. Průměrná nadmořská výška je asi 1 m. K 31. srpnu 2020 bylo na území města registrováno 642 809 obyvatel.[1]\n\nMěsto založili v 7. století př. n. l. Féničané jako obchodní překladiště, později zde Řekové vybudovali přístav s názvem Panormos (v překladu značí „přístav pro všechny“).[2] V roce 254 př. n. l. dobyli město Římané, před tím zde pobývali Kartáginci. Po zániku římské říše Palermo převzali Vandalové, následně Ostrogóti, v roce 535 se stalo součástí Byzantské říše. V té době obyvatelstvo Palerma tvořili především Římané, Řekové a Kartáginci. V roce 831 dobyli město Arabové. V této době žilo ve městě okolo 300 000 obyvatel. V roce 1072 získali Palermo Normané. Roger I. vybudoval přepychový královský palác s proslulou Capellou Palatinou a v letech 1184 až 1185 zde byla znovuvybudována katedrála. Za normanské nadvlády zažilo město období největšího rozkvětu. Ve městě žili v toleranci Arabové, Byzantinci i Židé. Po vymření normanské dynastie v roce 1194 přešla vláda do rukou Štaufů, po nich v roce 1266 získali město Anjouovci. Jejich nadvláda skončila v roce 1282 lidovým povstáním nazývaným sicilské nešpory. Palermo a celou Sicílii následně ovládli Aragonci. Spravovali ji prostřednictvím místokrálů. V 18. století se Palermo dostalo pod nadvládu Neapole a následně Bourbonů. V roce 1860 město obsadil Garibaldi a od roku 1861 se stalo součástí Italského království a následně Itálie. Od roku 2015 je město zapsané na seznamu Světového kulturního dědictví UNESCO.",
+        "consultedParagraphIndices": [0, 2],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      }
+    ],
+    "reviewStatus": "developer-inspected; independent all-entry review pending"
+  },
+  "entireOriginalReadingEntry": {
+    "id": "geography-cs-medium-04-18",
+    "answer": "Palermo",
+    "judgment": "Skutečný odstavec2 dokládá Normanský palác a kapli. Sicilské Palermu je jméno téhož města; neplete se celý ostrov s jeho metropolí.",
+    "consultedSources": [
+      {
+        "url": "https://cs.wikipedia.org/wiki/Palermo",
+        "fetchedAt": "2026-10-31T00:34:41.066081+00:00",
+        "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+        "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.html",
+        "sourceBodySha256": "560191af0ccf8df2293377a1a058bce21a5380a52d5bed3cd004b32bd47494d4",
+        "originalMetadata": {
+          "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+          "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+          "index": 45
+        },
+        "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c9f3afa252880c30096b.txt",
+        "sourceTextSha256": "a5a04ee347417011b6ded4d7ab5636b60ed4bf5476185f1ba259f2f9397e7713",
+        "consultedParagraphIndices": [0, 2],
+        "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+      }
+    ]
+  },
+  "questionCanonicalSha256": "1f21c7b14cf088da835750e8165704636111371a0aae75312ac03433eb4f11aa",
+  "fullEvidenceAndJudgmentsCanonicalSha256": "7bb05b7104f84c09d9affe5782f2c19f1e0c4d266a9cccb1e03d7dcb955eb5d7",
+  "entireReadingCanonicalSha256": "a7f746cf32fc56f3507e8556498ee1587f629ace9dfdf961e5592264704d82a3",
+  "origin": {
+    "pack": {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b04/packs/geography-cs-medium-04.json",
+      "sha256": "75e5760c36b64ce8695354a256e1ae8ac6091ea8ab018d4fa362733867490b90",
+      "bytes": 11545
+    },
+    "sourceLedger": {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b04/sources.json",
+      "sha256": "0c29f7a80c771c78b425d3f11b88f5ea01c4029c1e706cf009e8e6e8ceb79e86",
+      "bytes": 360855
+    },
+    "sourcePointer": "/entries/45",
+    "readingLedger": {
+      "path": ".artifacts/continuation/bundles/p12/geography/batches/b04/reading-checkpoint.json",
+      "sha256": "a0e428b844d541a884d9ef5182223a205198d42073b5f1f932e26c8ad5a85799",
+      "bytes": 165330
+    },
+    "readingPointer": "/entries/45"
+  }
+}

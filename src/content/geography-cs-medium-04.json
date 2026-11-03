@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "medium",
+  "id": "geography-cs-medium-04",
+  "title": "Zeměpis a cestování · Střední 04",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "geography-cs-medium-04-01",
+      "initial": "A",
+      "text": "Které malé knížectví leží v Pyrenejích mezi Francií a Španělskem?",
+      "answer": "Andorra",
+      "aliases": [
+        "Andorrské knížectví",
+        "Principat d'Andorra",
+        "Principat d’Andorra"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Andorra"]
+    },
+    {
+      "id": "geography-cs-medium-04-02",
+      "initial": "B",
+      "text": "Které srbské město leží při soutoku Sávy a Dunaje?",
+      "answer": "Bělehrad",
+      "aliases": ["Beograd", "Belgrade", "Београд"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/B%C4%9Blehrad"]
+    },
+    {
+      "id": "geography-cs-medium-04-03",
+      "initial": "C",
+      "text": "Ve kterém andaluském městě se nachází Mezquita, někdejší mešita přeměněná na katedrálu?",
+      "answer": "Córdoba",
+      "aliases": ["Corduba", "Qurtuba"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/C%C3%B3rdoba_%28%C5%A0pan%C4%9Blsko%29"
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-04",
+      "initial": "Č",
+      "text": "Která chráněná krajinná oblast u Berouna zahrnuje Koněpruské jeskyně?",
+      "answer": "Český kras",
+      "aliases": ["CHKO Český kras", "Chráněná krajinná oblast Český kras"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_kras",
+        "https://cs.wikipedia.org/wiki/Kon%C4%9Bprusk%C3%A9_jeskyn%C4%9B"
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-05",
+      "initial": "D",
+      "text": "Které indické svazové území při řece Jamuně zahrnuje i město, které je oficiálním sídlem ústřední vlády celé země?",
+      "answer": "Dillí",
+      "aliases": [
+        "Delhi",
+        "Národní svazové území Dillí",
+        "National Capital Territory of Delhi",
+        "NCT of Delhi",
+        "NCT Delhi"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Dill%C3%AD",
+        "https://en.wikipedia.org/wiki/Delhi"
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-06",
+      "initial": "E",
+      "text": "Ve kterém německém městě v Porúří leží průmyslový areál dolu Zollverein zapsaný na seznamu UNESCO?",
+      "answer": "Essen",
+      "aliases": [],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Essen",
+        "https://whc.unesco.org/en/list/975/"
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-07",
+      "initial": "F",
+      "text": "Ve kterém německém městě sídlí Evropská centrální banka?",
+      "answer": "Frankfurt nad Mohanem",
+      "aliases": ["Frankfurt am Main", "Frankfurt", "Frankobrod", "Bankfurt"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Frankfurt_nad_Mohanem"]
+    },
+    {
+      "id": "geography-cs-medium-04-08",
+      "initial": "G",
+      "text": "Který polský přístav na Motławě je hlavním městem Pomořského vojvodství?",
+      "answer": "Gdaňsk",
+      "aliases": ["Danzig", "Gduńsk", "Gedania", "Gedanum", "Dantiscum"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Gda%C5%88sk"]
+    },
+    {
+      "id": "geography-cs-medium-04-09",
+      "initial": "H",
+      "text": "Který středoamerický stát má hlavní město Tegucigalpu?",
+      "answer": "Honduras",
+      "aliases": [
+        "Honduraská republika",
+        "Republika Honduras",
+        "República de Honduras"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Honduras"]
+    },
+    {
+      "id": "geography-cs-medium-04-10",
+      "initial": "Ch",
+      "text": "Ve kterém ukrajinském městě stojí na náměstí Svobody konstruktivistická budova Deržprom?",
+      "answer": "Charkov",
+      "aliases": ["Charkiv", "Kharkiv", "Kharkov", "Харків", "Харьков"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Charkov"]
+    },
+    {
+      "id": "geography-cs-medium-04-11",
+      "initial": "I",
+      "text": "Které sibiřské město na Angaře je správním centrem stejnojmenné oblasti nedaleko Bajkalu?",
+      "answer": "Irkutsk",
+      "aliases": ["Иркутск"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Irkutsk"]
+    },
+    {
+      "id": "geography-cs-medium-04-12",
+      "initial": "J",
+      "text": "Který stát na jihozápadě Arabského poloostrova zahrnuje město Aden?",
+      "answer": "Jemen",
+      "aliases": ["Jemenská republika", "Yemen"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Jemen"]
+    },
+    {
+      "id": "geography-cs-medium-04-13",
+      "initial": "K",
+      "text": "Ve kterém dánském městě stojí socha Malé mořské víly poblíž pevnosti Kastellet?",
+      "answer": "Kodaň",
+      "aliases": ["København", "Kobenhavn", "Copenhagen", "Kopenhagen"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Koda%C5%88"]
+    },
+    {
+      "id": "geography-cs-medium-04-14",
+      "initial": "L",
+      "text": "Které francouzské město leží na soutoku Rhôny a Saôny?",
+      "answer": "Lyon",
+      "aliases": [],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Lyon"]
+    },
+    {
+      "id": "geography-cs-medium-04-15",
+      "initial": "M",
+      "text": "Ve kterém marockém městě se nachází náměstí Džamá al-Fna, proslulé trhovci a pouličními umělci?",
+      "answer": "Marrákeš",
+      "aliases": ["Marrakech", "Marrakesh"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Marr%C3%A1ke%C5%A1"]
+    },
+    {
+      "id": "geography-cs-medium-04-16",
+      "initial": "N",
+      "text": "Který středoamerický stát má hlavní město Managuu?",
+      "answer": "Nikaragua",
+      "aliases": [
+        "Nikaragujská republika",
+        "Nicaragua",
+        "República de Nicaragua"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Nikaragua"]
+    },
+    {
+      "id": "geography-cs-medium-04-17",
+      "initial": "O",
+      "text": "Ve kterém moravském městě stojí barokní sloup Nejsvětější Trojice zapsaný na seznamu UNESCO?",
+      "answer": "Olomouc",
+      "aliases": ["Olmütz", "Olomóc", "Holomóc"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Olomouc"]
+    },
+    {
+      "id": "geography-cs-medium-04-18",
+      "initial": "P",
+      "text": "Ve kterém sicilském městě se nachází Normanský palác s Palatinskou kaplí?",
+      "answer": "Palermo",
+      "aliases": ["Palermu", "Panormos"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Palermo"]
+    },
+    {
+      "id": "geography-cs-medium-04-19",
+      "initial": "R",
+      "text": "Který řecký ostrov je největší v souostroví Dodekanés?",
+      "answer": "Rhodos",
+      "aliases": ["Rodos", "Rhodes", "Ρόδος"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Rhodos"]
+    },
+    {
+      "id": "geography-cs-medium-04-20",
+      "initial": "Ř",
+      "text": "Která bavorská řeka protéká městem Cham a v Řezně se vlévá do Dunaje?",
+      "answer": "Řezná",
+      "aliases": ["Regen"],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%98ezn%C3%A1",
+        "https://cs.wikipedia.org/wiki/Cham_%28N%C4%9Bmecko%29"
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-21",
+      "initial": "S",
+      "text": "Které rakouské město na řece Salzach je rodištěm Wolfganga Amadea Mozarta?",
+      "answer": "Salcburk",
+      "aliases": ["Salzburg", "Solnohrad", "Salzburk", "Salcpurk"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Salcburk"]
+    },
+    {
+      "id": "geography-cs-medium-04-22",
+      "initial": "Š",
+      "text": "Který polský přístav je hlavním městem Západopomořanského vojvodství?",
+      "answer": "Štětín",
+      "aliases": ["Szczecin", "Stettin"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/%C5%A0t%C4%9Bt%C3%ADn"]
+    },
+    {
+      "id": "geography-cs-medium-04-23",
+      "initial": "T",
+      "text": "Na kterém karibském ostrově leží město Port of Spain?",
+      "answer": "Trinidad",
+      "aliases": ["ostrov Trinidad"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Trinidad"]
+    },
+    {
+      "id": "geography-cs-medium-04-24",
+      "initial": "U",
+      "text": "Které ruské město je hlavním městem Burjatska?",
+      "answer": "Ulán-Ude",
+      "aliases": [
+        "Ulan Ude",
+        "Verchněudinsk",
+        "Verkhneudinsk",
+        "Улан-Удэ",
+        "Улаан-Үдэ",
+        "Ulaan-Üde"
+      ],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Ulan-Ude",
+        "https://en.wikipedia.org/wiki/Ulan-Ude"
+      ]
+    },
+    {
+      "id": "geography-cs-medium-04-25",
+      "initial": "V",
+      "text": "Ve kterém kanadském městě v Britské Kolumbii leží Stanley Park?",
+      "answer": "Vancouver",
+      "aliases": [],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Vancouver"]
+    },
+    {
+      "id": "geography-cs-medium-04-26",
+      "initial": "W",
+      "text": "Které město je hlavním městem německé spolkové země Hesensko?",
+      "answer": "Wiesbaden",
+      "aliases": [],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Wiesbaden"]
+    },
+    {
+      "id": "geography-cs-medium-04-27",
+      "initial": "Z",
+      "text": "Které španělské město na Ebru je hlavním městem Aragonie?",
+      "answer": "Zaragoza",
+      "aliases": ["Saragossa", "Caesaraugusta"],
+      "category": "geography",
+      "language": "cs",
+      "sources": ["https://cs.wikipedia.org/wiki/Zaragoza"]
+    },
+    {
+      "id": "geography-cs-medium-04-28",
+      "initial": "Ž",
+      "text": "Ve kterém pohoří na severozápadním okraji Českomoravské vrchoviny leží zřícenina Lichnice u Třemošnice?",
+      "answer": "Železné hory",
+      "aliases": [],
+      "category": "geography",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/%C5%BDelezn%C3%A9_hory",
+        "https://cs.wikipedia.org/wiki/Lichnice"
+      ]
+    }
+  ]
+}

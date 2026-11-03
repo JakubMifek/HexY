@@ -2,6 +2,28 @@
 
 ## Current Phase 12 deck snapshot
 
+The append-only candidate contains **167 decks / 4,676 questions**, English85/
+Czech82. Only `geography-cs-medium-04` is added to actual delivered `e2270b1b`
+(166/4,648); all166 earlier packs/order and application inputs stay immutable.
+[Current review](../reviews/phase-12-geography-cs-medium-04-content-review.md)
+accepts28, held0:27 original independent judgments inherited and the complete
+corrected Palermo entry freshly accepted. Original27-accepted/1-held decisions
+are separately retained, not relabeled historical acceptance of the corrected pack.
+The [source ledger](phase-12-geography-cs-medium-04-sources.json) and
+[original author continuity](phase-12-geography-cs-medium-04-source-continuity.json)
+retain original full evidence and historical pending labels. The
+[source correction binding](phase-12-geography-cs-medium-04-source-correction.json)
+and exact [before](phase-12-geography-cs-medium-04-alias-before.json)/
+[after](phase-12-geography-cs-medium-04-alias-after.json) overlay only the
+source-supported Panormos alias; Palermo/Palermu and other27 are unchanged.
+Original34 source placements and accepted general-adult Medium3easy/21medium/
+4hard remain. All actual semantic/source/priority decisions retain their scope.
+Only own28 enters play; other source-ledger decks are not newly cleared.
+Actual-parent integration/content gate and individual push/private catalog/
+unchanged-asset checks remain separate. Final330/9,240/all66 and cleanup OPEN.
+
+## Retained166 preparation history
+
 The append-only candidate contains **166 decks / 4,648 questions**, English85/
 Czech81. Only `science-cs-medium-03` is added to actual delivered `da28aab0`
 (165/4,620); all165 earlier packs/order and application inputs stay immutable.
