@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-easy-04",
+  "title": "Všeobecné znalosti · Lehká · 04",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "easy",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-easy-04-01",
+      "text": "Jak se nazývá hranaté zavazadlo s držadlem určené především k nošení dokumentů nebo školních potřeb?",
+      "initial": "A",
+      "answer": "Aktovka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Diplomatka", "Školní aktovka"],
+      "sources": ["https://en.wikipedia.org/wiki/Briefcase"]
+    },
+    {
+      "id": "general-cs-easy-04-02",
+      "text": "Jaká optická pomůcka má dvě čočky v obrubě a nosí se před očima?",
+      "initial": "B",
+      "answer": "Brýle",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Glasses"]
+    },
+    {
+      "id": "general-cs-easy-04-03",
+      "text": "Jak se nazývá děrovaná kuchyňská nádoba, v níž slijeme vodu z uvařených těstovin?",
+      "initial": "C",
+      "answer": "Cedník",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Sítko"],
+      "sources": ["https://en.wikipedia.org/wiki/Colander"]
+    },
+    {
+      "id": "general-cs-easy-04-04",
+      "text": "Jak se nazývá cukrovinka z kakaových součástí a cukru, prodávaná často v tabulkách?",
+      "initial": "Č",
+      "answer": "Čokoláda",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chocolate"]
+    },
+    {
+      "id": "general-cs-easy-04-05",
+      "text": "Jak se nazývá slavnostní moučník, do kterého se při narozeninách často zapichují svíčky?",
+      "initial": "D",
+      "answer": "Dort",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Narozeninový dort"],
+      "sources": ["https://en.wikipedia.org/wiki/Birthday_cake"]
+    },
+    {
+      "id": "general-cs-easy-04-06",
+      "text": "Jak se nazývá přenosná jídelní nádoba používaná například táborníky a vojáky?",
+      "initial": "E",
+      "answer": "Ešus",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Jídelní miska",
+        "Vojenská jídelní souprava",
+        "Esšálek",
+        "Menážka"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mess_kit",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=es%C5%A1%C3%A1lek&sti=EMPTY&where=hesla&hsubstr=no",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=men%C3%A1%C5%BEka&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-easy-04-07",
+      "text": "Jak se hovorově nazývá pomůcka na kouření tabáku s hlavičkou a dutou troubelí?",
+      "initial": "F",
+      "answer": "Fajfka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Dýmka", "Fajka", "Fejfka"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tobacco_pipe",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=fajfka&sti=15021&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-easy-04-08",
+      "text": "Jak se nazývá uzavřený prostor určený k parkování automobilu?",
+      "initial": "G",
+      "answer": "Garáž",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Garage_(residential)"]
+    },
+    {
+      "id": "general-cs-easy-04-09",
+      "text": "Jak se nazývá zavěšené textilní či síťované lůžko, které lze upevnit například mezi dva stromy?",
+      "initial": "H",
+      "answer": "Houpací síť",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Hamak", "Hammock", "Hamaka"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hammock",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=hamak&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-easy-04-10",
+      "text": "Jak se nazývá silná ochranná rukavice, kterou držíme horký pekáč při vyndávání z trouby?",
+      "initial": "Ch",
+      "answer": "Chňapka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Kuchyňská chňapka", "Kuchyňská rukavice"],
+      "sources": ["https://en.wikipedia.org/wiki/Oven_glove"]
+    },
+    {
+      "id": "general-cs-easy-04-11",
+      "text": "Jak se nazývá podání léčiva do těla jehlou, například pomocí stříkačky?",
+      "initial": "I",
+      "answer": "Injekce",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Injection_(medicine)"]
+    },
+    {
+      "id": "general-cs-easy-04-12",
+      "text": "Jak se nazývá cedulka se jménem člověka, kterou může nosit například účastník konference?",
+      "initial": "J",
+      "answer": "Jmenovka",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Name_tag"]
+    },
+    {
+      "id": "general-cs-easy-04-13",
+      "text": "Jak se nazývá horní díl oděvu s límcem a knoflíky vpředu, obvykle s dlouhými či krátkými rukávy?",
+      "initial": "K",
+      "answer": "Košile",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Dress_shirt"]
+    },
+    {
+      "id": "general-cs-easy-04-14",
+      "text": "Jak se nazývá silný dlouhý útvar ze spletených nebo zkroucených vláken, používaný například k tažení?",
+      "initial": "L",
+      "answer": "Lano",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Provaz"],
+      "sources": ["https://en.wikipedia.org/wiki/Rope"]
+    },
+    {
+      "id": "general-cs-easy-04-15",
+      "text": "Jak se nazývá menší otevřená nádoba s prohloubeným dnem, z níž lze jíst například kompot?",
+      "initial": "M",
+      "answer": "Miska",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Mísa"],
+      "sources": ["https://en.wikipedia.org/wiki/Bowl"]
+    },
+    {
+      "id": "general-cs-easy-04-16",
+      "text": "Která součást příboru má čepel a slouží ke krájení jídla?",
+      "initial": "N",
+      "answer": "Nůž",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Příborový nůž"],
+      "sources": ["https://en.wikipedia.org/wiki/Table_knife"]
+    },
+    {
+      "id": "general-cs-easy-04-17",
+      "text": "Jak se nazývá pomůcka, kterou znovu vytvoříme špičku na tužce?",
+      "initial": "O",
+      "answer": "Ořezávátko",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ořezávač tužek", "Struhátko", "Strouhátko"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pencil_sharpener",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=struh%C3%A1tko&sti=88381&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-easy-04-18",
+      "text": "Jak se nazývá krátký pletený oděv na chodidlo, který obvykle oblékáme před obutím?",
+      "initial": "P",
+      "answer": "Ponožka",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sock"]
+    },
+    {
+      "id": "general-cs-easy-04-19",
+      "text": "Jakým savým kusem textilie si po umytí osušíme ruce nebo tělo?",
+      "initial": "R",
+      "answer": "Ručník",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Osuška"],
+      "sources": ["https://en.wikipedia.org/wiki/Towel"]
+    },
+    {
+      "id": "general-cs-easy-04-20",
+      "text": "Jak se nazývá plátek masa obalený v mouce, vejci a strouhance a usmažený na tuku?",
+      "initial": "Ř",
+      "answer": "Řízek",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Smažený řízek", "Obalovaný řízek"],
+      "sources": ["https://en.wikipedia.org/wiki/Schnitzel"]
+    },
+    {
+      "id": "general-cs-easy-04-21",
+      "text": "Jak se nazývá drobná vlasová pomůcka se dvěma rameny, která přidržuje pramen vlasů na místě?",
+      "initial": "S",
+      "answer": "Sponka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Vlásenka", "Vlasová sponka"],
+      "sources": ["https://en.wikipedia.org/wiki/Bobby_pin"]
+    },
+    {
+      "id": "general-cs-easy-04-22",
+      "text": "Jak se nazývá mycí přípravek určený především k mytí vlasů a pokožky hlavy?",
+      "initial": "Š",
+      "answer": "Šampon",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Shampon", "Shampoon"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shampoo",
+        "https://ssjc.ujc.cas.cz/search.php?hledej=Hledat&heslo=%C5%A1ampon&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-easy-04-23",
+      "text": "Jak se nazývá papírový hygienický prostředek používaný k očistě po použití toalety?",
+      "initial": "T",
+      "answer": "Toaletní papír",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Záchodový papír"],
+      "sources": ["https://en.wikipedia.org/wiki/Toilet_paper"]
+    },
+    {
+      "id": "general-cs-easy-04-24",
+      "text": "Jak se nazývá sanitární nádoba s odtokem, nad kterou si běžně myjeme ruce?",
+      "initial": "U",
+      "answer": "Umyvadlo",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Sink"]
+    },
+    {
+      "id": "general-cs-easy-04-25",
+      "text": "Jak se nazývá otevřená nádoba určená k vystavení řezaných květin?",
+      "initial": "V",
+      "answer": "Váza",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Vase"]
+    },
+    {
+      "id": "general-cs-easy-04-26",
+      "text": "Jak se nazývá destilovaný alkoholický nápoj z obilí, který obvykle zraje v dřevěných sudech?",
+      "initial": "W",
+      "answer": "Whisky",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Whiskey"],
+      "sources": ["https://en.wikipedia.org/wiki/Whisky"]
+    },
+    {
+      "id": "general-cs-easy-04-27",
+      "text": "Jak se nazývá ochranná část oděvu uvazovaná před tělo, například při vaření?",
+      "initial": "Z",
+      "answer": "Zástěra",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Apron"]
+    },
+    {
+      "id": "general-cs-easy-04-28",
+      "text": "Jak se nazývá pomůcka se dvěma postranicemi a příčkami, po níž vylezeme například ke stropu?",
+      "initial": "Ž",
+      "answer": "Žebřík",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Ladder"]
+    }
+  ]
+}

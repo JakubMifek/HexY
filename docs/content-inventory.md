@@ -2,10 +2,10 @@
 
 ## Current Phase 12 deck snapshot
 
-This source candidate contains **158 decks / 4,424 questions**,
-adding only `general-en-hard-04` to its 157-deck predecessor.
+This source candidate contains **159 decks / 4,452 questions**,
+adding only `general-cs-easy-04` to its 158-deck predecessor.
 Actual delivery at preparation is `db1b9955` (156/4,368), English82/Czech74.
-This intermediate is English84/Czech74; original156 raw packs remain immutable.
+This intermediate is English84/Czech75; original156 raw packs remain immutable.
 All28 own complete questions, full evidence arrays, legitimate aliases and
 individual/whole adult ratings retain exact original/correction bindings.
 The coherent112-entry content/current-duplicate/lifecycle review accepted all112
@@ -22,7 +22,7 @@ Historical bookkeeping/source-quality limits remain disclosed in the review;
 no new device, trademark/rights or blanket factual verification is claimed.
 Final330/9,240/all66 remains NOT CLEARED.
 
-[Exact source ledger](phase-12-general-en-hard-04-sources.json).
+[Exact source ledger](phase-12-general-cs-easy-04-sources.json).
 
 ## Retained earlier preparation history
 
