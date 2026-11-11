@@ -357,6 +357,8 @@ gate or authorize competing primary-checkout writers.
 - Add original synthesized selection, tile-win, black-tile, ongoing timer,
   timeout/give-up and game-end cues with a localized sound toggle. Do not copy
   television audio or add audio/network dependencies.
+- Play ongoing timer cues only during the final five seconds of each answer
+  deadline.
 - After the first player gives up or times out, the opponent must explicitly
   accept or decline. Acceptance starts half the configured duration with
   unlimited attempts and spends the opponent's turn even on failure. The original

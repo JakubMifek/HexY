@@ -85,7 +85,7 @@ test('rejected stale events, wrong answers, presentation and corrections do not 
   expect(play.mock.calls.map(([cue]) => cue)).toEqual(['select', 'award']);
 });
 
-test('deadline ticks have no duplicate renders, backlog, zero tick or duel ticking', () => {
+test('deadline ticks start at five seconds and avoid duplicate, backlog, zero, or duel ticks', () => {
   const player = new SoundPlayer(true, () => {});
   const play = vi.spyOn(player, 'play');
   const sounds = new GameSounds(true, () => {}, player);
@@ -96,11 +96,23 @@ test('deadline ticks have no duplicate renders, backlog, zero tick or duel ticki
   sounds.display(state, 2000);
   sounds.display(state, 12000);
   sounds.display(state, 13000);
-  expect(play.mock.calls.map(([cue]) => cue)).toEqual(['tick', 'tick']);
+  sounds.display(state, 25000);
+  expect(play).not.toHaveBeenCalled();
+  for (const now of [26000, 27000, 28000, 29000, 30000]) {
+    sounds.display(state, now);
+    sounds.display(state, now);
+  }
   sounds.display(state, 31000);
+  expect(play.mock.calls.map(([cue]) => cue)).toEqual([
+    'tick',
+    'tick',
+    'tick',
+    'tick',
+    'tick',
+  ]);
   sounds.display(game(), 32000);
   sounds.display(state, 32001);
-  expect(play).toHaveBeenCalledTimes(2);
+  expect(play).toHaveBeenCalledTimes(5);
   sounds.dispose();
 });
 
@@ -175,6 +187,9 @@ test('offer retains the enlarged initial; accepted opponent gets their color, ti
   send({ type: 'judge', correct: false });
   expect(app.state?.stage.phase).toBe('opponent');
   vi.advanceTimersByTime(1000);
+  expect(play.mock.calls.map(([cue]) => cue)).toEqual(['select', 'timeout']);
+  vi.advanceTimersByTime(9000);
+  vi.advanceTimersByTime(4000);
   send({ type: 'judge', correct: true });
   expect(app.state?.cells[3]).toBe('B');
   expect(app.state?.chooser).toBe('A');
@@ -184,6 +199,10 @@ test('offer retains the enlarged initial; accepted opponent gets their color, ti
   expect(play.mock.calls.map(([cue]) => cue)).toEqual([
     'select',
     'timeout',
+    'tick',
+    'tick',
+    'tick',
+    'tick',
     'tick',
     'award',
   ]);
