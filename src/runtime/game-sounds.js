@@ -1,5 +1,7 @@
 import { SoundPlayer } from './sound-player.js';
 
+const TIMER_CUE_WINDOW_MS = 5_000;
+
 /** @param {import('../domain/types.js').Game} before
  * @param {import('../domain/types.js').Game} after
  * @param {import('../domain/types.js').Action} action
@@ -81,7 +83,11 @@ export class GameSounds {
     const previous = this.observed;
     this.observed = { key, seconds, now };
     if (!previous || previous.key !== key || seconds <= 0) return;
-    if (previous.seconds - seconds === 1 && now - previous.now <= 1500)
+    if (
+      previous.seconds - seconds === 1 &&
+      now - previous.now <= 1500 &&
+      round.deadline - now <= TIMER_CUE_WINDOW_MS
+    )
       this.player.play('tick');
   }
 
