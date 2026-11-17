@@ -13,8 +13,17 @@ test('all 224 independently reviewed Arts additions bind exact pack bytes, claim
    * entries: {id: string, claim: string, answer: string, aliases: string[],
    * initial: string, evidence: {url: string}[]}[]}} */
   const ledger = JSON.parse(bytes.toString());
-  const additions = bundledPacks().filter((pack) =>
-    /^arts-(cs|en)-(easy|medium|hard)-\d{2}$/.test(pack.id),
+  /** @type {{additionalDeckIds: string[]}} */
+  const phaseTwelve = JSON.parse(
+    readFileSync('docs/phase-12-deck-inventory.json', 'utf8'),
+  );
+  const additions = bundledPacks().filter(
+    (pack) =>
+      /^arts-(cs|en)-(easy|medium|hard)-\d{2}$/.test(pack.id) &&
+      !phaseTwelve.additionalDeckIds.includes(pack.id),
+  );
+  expect(additions.map((pack) => pack.id).sort()).toEqual(
+    ledger.packs.map((pack) => pack.id).sort(),
   );
   expect(additions).toHaveLength(8);
   expect(ledger.entries).toHaveLength(224);

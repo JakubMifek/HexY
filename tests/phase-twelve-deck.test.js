@@ -138,6 +138,29 @@ function expectGeographyRating(rating, deckId, difficulty) {
 }
 
 /**
+ * @param {LocalizedGeneralRating} rating
+ * @param {string} deckId
+ * @param {string} difficulty
+ */
+function expectGeneralEasy04Rating(rating, deckId, difficulty) {
+  expect(difficulty).toBe('easy');
+  expect(rating.id).toBe(deckId);
+  expect(digest(JSON.stringify(rating))).toBe(
+    'b574faa23790db04b09335f3be1fa720b893bce97836663e4445a3189bc88967',
+  );
+  expect(rating.entries).toEqual(
+    Array.from(
+      { length: 28 },
+      (_, index) => `${deckId}-${String(index + 1).padStart(2, '0')}`,
+    ),
+  );
+  expect(rating.distribution).toEqual({ common: 28 });
+  expect(rating.verdict).toBe(
+    'ACCEPTED whole-deck adult difficulty; localized aliases remain separate findings',
+  );
+}
+
+/**
  * @param {LocalizedGeneralRating | GeneralBucketRating} rating
  * @param {string} deckId
  * @param {string} difficulty
@@ -145,6 +168,10 @@ function expectGeographyRating(rating, deckId, difficulty) {
 function expectLocalizedGeneralRating(rating, deckId, difficulty) {
   if (!('entries' in rating)) {
     expectGeneralBucketRating(rating, deckId, difficulty);
+    return;
+  }
+  if (deckId === 'general-cs-easy-04') {
+    expectGeneralEasy04Rating(rating, deckId, difficulty);
     return;
   }
   if (deckId === 'general-cs-hard-04') {
@@ -405,7 +432,81 @@ function expectEstablishedRating(rating, deckId, difficulty) {
   }
 }
 
+/** @type {Record<string, string>} */
+const runtimeReceipts = {
+  'general-cs-easy-05':
+    'd214c779ed394e664c5fdbd4642afff8948a33bea2c9bd5c383833b077304c6d',
+  'science-cs-easy-03':
+    '75ed439343f90bc6f9d026af68f0617bc0777426166a9e45a4fb69c59e21cb49',
+  'geography-cs-easy-04':
+    '3d613b162cbcf483f78ef4dd1a99c2fa742bab1f1d96667d5d014486fcf1d30e',
+  'nature-cs-hard-04':
+    '3fbf88cd200ee28c15cc748cbbcc4466a10c954fc83851480a6b761294fd4062',
+  'general-cs-medium-05':
+    '0445f5e5e0b3219b0e1b63a8b2691d18887b2cfd4f98f8509423570a689db871',
+  'science-cs-medium-03':
+    '46290132dcbfabad7bab02c13b52060f2c24344729c239be80cb8c465ff53b6b',
+  'geography-cs-medium-04':
+    '7c8611a9b8b0b50be3812f4ca8a11040486ada4b31c8f1bd4d3a35b41e960eb9',
+  'arts-en-easy-04':
+    '265bfc332ad0aaccaa8778f3f71416a40167e975c874e1e6ade9d3898dc06b29',
+};
+
 for (const deckId of shipment.additionalDeckIds) {
+  if (runtimeReceipts[deckId]) {
+    test(`${deckId} retains its independently reviewed runtime release and evidence`, () => {
+      const receiptBytes = readFileSync(
+        `reviews/phase-12-${deckId}-runtime-release.json`,
+      );
+      expect(digest(receiptBytes)).toBe(runtimeReceipts[deckId]);
+      /** @type {{deckId: string, verdict: string, entries: number, held: number,
+       * initialAcceptedInherited?: number, initialAcceptedInheritedFromFreshIndependentReview?: number,
+       * initialAcceptedInheritedFromExactIndependentReview?: number, initialAcceptedNow?: number,
+       * currentAcceptedInherited?: number, currentAccepted?: number,
+       * packSha256?: string, pack?: {sha256: string},
+       * frozenSourceBindings: Record<string, string | {sha256: string}>}} */
+      const receipt = JSON.parse(receiptBytes.toString());
+      expect(receipt.deckId).toBe(deckId);
+      expect(receipt.verdict).toBe('CLEARED FOR DECK RELEASE');
+      expect(receipt.entries).toBe(28);
+      expect(receipt.held).toBe(0);
+      expect(
+        receipt.initialAcceptedInherited ??
+          receipt.initialAcceptedInheritedFromFreshIndependentReview ??
+          receipt.initialAcceptedInheritedFromExactIndependentReview ??
+          receipt.initialAcceptedNow,
+      ).toBe(28);
+      expect(receipt.currentAcceptedInherited ?? receipt.currentAccepted).toBe(
+        28,
+      );
+      const bytes = readFileSync(`src/content/${deckId}.json`);
+      expect(digest(bytes)).toBe(receipt.packSha256 ?? receipt.pack?.sha256);
+      expect(JSON.parse(bytes.toString()).questions).toHaveLength(28);
+      const bindings = Object.entries(receipt.frozenSourceBindings).filter(
+        ([path]) =>
+          path.includes(`docs/phase-12-${deckId}-`) ||
+          path.includes(`reviews/phase-12-${deckId}-`),
+      );
+      expect(
+        bindings.some(([path]) =>
+          path.endsWith(`docs/phase-12-${deckId}-sources.json`),
+        ),
+      ).toBe(true);
+      expect(
+        bindings.some(([path]) =>
+          path.endsWith(`reviews/phase-12-${deckId}-content-review.json`),
+        ),
+      ).toBe(true);
+      for (const [path, binding] of bindings) {
+        const match = path.match(/(?:docs|reviews)\/phase-12-.+$/);
+        if (!match) throw new Error(`Invalid evidence path ${path}`);
+        expect(digest(readFileSync(match[0]))).toBe(
+          typeof binding === 'string' ? binding : binding.sha256,
+        );
+      }
+    });
+    continue;
+  }
   /** @type {{deckId: string, sourcePackSha256: string,
    * exactQuestionAndEntireEvidenceBindings: {id: string, questionSha256: string, evidenceSha256: string}[],
    * entries: {id: string, evidence: unknown[]}[],
