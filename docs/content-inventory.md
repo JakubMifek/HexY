@@ -1,5 +1,15 @@
 # Content inventory and provenance
 
+## Bounded sports expansion, 2026-11-18
+
+`sports-en-hard-03` adds 28 original English sports questions in an unfilled
+Hard slot, bringing the library to **169 decks / 4,732 questions**.
+English Sports now has seven decks: two Easy, two Medium and three Hard.
+The previous 168 pack files and their order remain unchanged.
+[Evidence and review records](phase-12-sports-en-hard-03-sources.json) describe
+the duplicate iteration, source judgments and two independent content reviews.
+This is one deck release, not final Phase 12 clearance.
+
 ## Current Phase 12 deck snapshot
 
 The append-only candidate contains **168 decks / 4,704 questions**, English86/

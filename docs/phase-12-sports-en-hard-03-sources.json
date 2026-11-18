@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "deckId": "sports-en-hard-03",
+  "date": "2026-11-18",
+  "baselineRevision": "b9568dd657ea071198462a56e52fd3bbfa98bac4",
+  "packSha256": "ed8d661c13a6599781479a846c78669f3c8aca78e5cd2ccf47178f645d60c454",
+  "scope": {
+    "category": "sports",
+    "language": "en",
+    "difficulty": "hard",
+    "questions": 28,
+    "previousDecks": 168,
+    "resultingDecks": 169,
+    "resultingQuestions": 4732,
+    "resultingEnglishDecks": 87,
+    "resultingCzechDecks": 82,
+    "previousPacksAndOrder": "Preserve exact bytes and positions.",
+    "phase12Cleared": false
+  },
+  "provenance": {
+    "wording": "New questions composed for this deck; not copied from television or commercial quiz banks.",
+    "facts": "Public factual references linked from every question and independently inspected in the review records.",
+    "authors": ["HexY contributors"],
+    "license": "CC BY 4.0",
+    "originalityLimit": "Bounded library/staged-content review, not a claim that no similar question exists anywhere on the web."
+  },
+  "duplicateIteration": [
+    {
+      "stage": "pre-draft",
+      "rejected": ["Fartlek", "Wing Chun"],
+      "reason": "Same facts already present in Czech sports packs.",
+      "replacements": ["Fanny Blankers-Koen", "Wankdorf Stadium"]
+    },
+    {
+      "stage": "independent round one",
+      "rejected": ["Chukker"],
+      "reason": "The published Czech polo clue already supplies chukka, repeating the playing-period fact.",
+      "replacement": "Chinlone"
+    }
+  ],
+  "duplicateScreeningScope": {
+    "packFileInstances": 345,
+    "questionRows": 9660,
+    "includesDuplicateSnapshots": true,
+    "inputs": [
+      "All 168 baseline published packs from src/content-order.json.",
+      "The new candidate and native JSON packs in the preserved primary checkout's src/content.",
+      "Retired native packs in the preserved primary checkout's docs/retired.",
+      "Accessible named native pack files under currentDeckAssignments in the paused continuation queue."
+    ],
+    "automatedChecks": [
+      "Normalized prompt equality.",
+      "Canonical-answer and alias-set intersections across both languages.",
+      "Normalized accepted-answer phrases appearing in other questions' clues."
+    ],
+    "semanticChecks": "Independent reviewers inspect facts and related clues; exact-match success alone is not semantic acceptance.",
+    "exclusions": "No blanket recursive scan of all historical generated artifacts, private custom decks or every web quiz."
+  },
+  "correctedEntrySupport": [
+    {
+      "question": "04",
+      "claim": "Traditional Chinlone is cooperative circle play using a rattan ball.",
+      "source": "https://myanmar.anu.edu.au/content-centre/article/series/chinlone-agile-art-burmese-cane-soccer",
+      "authorAccess": "Search passages; independent source judgment recorded in round one.",
+      "aliasClaim": "Also called caneball.",
+      "aliasSource": "https://english.news.cn/20250323/61ec5bc49f30469b9bd47415a0a95d24/c.html"
+    },
+    {
+      "question": "05",
+      "claim": "Duleep Trophy began in 1961–62 with five geographical zones.",
+      "source": "https://i.imgci.com/db/NATIONAL/IND/DULEEP_WINNERS.html",
+      "authorAccess": "Search passages; independent direct relevant-passage reading recorded in round one."
+    },
+    {
+      "question": "19",
+      "claim": "Ranji Trophy was first contested in 1934–35.",
+      "source": "https://www.britannica.com/sports/Ranji-Trophy",
+      "authorAccess": "Search passages; independent search-passage reading recorded in round one."
+    }
+  ],
+  "reviewRecords": [
+    "../reviews/phase-12-sports-en-hard-03-round-one.json",
+    "../reviews/phase-12-sports-en-hard-03-round-two.json"
+  ],
+  "reviewCompletion": {
+    "packSha256": "ed8d661c13a6599781479a846c78669f3c8aca78e5cd2ccf47178f645d60c454",
+    "independentRounds": 2,
+    "acceptedQuestionsPerRound": 28,
+    "openFindings": 0,
+    "roundOneFinalContinuity": "Original full review plus independently accepted corrections and two-alias final rebinding.",
+    "roundTwoFinalContinuity": "Fresh full review plus independently accepted two-alias corrections."
+  },
+  "reviewRequirements": "Two separate non-author reviewers inspect all 28 entries for source-supported facts, useful aliases, initials, wording, category, general-adult difficulty and meaningful duplication. Corrections return to their reviewer; only final accepted bytes may merge.",
+  "verificationPolicy": {
+    "contentGate": "NODE_OPTIONS=--max-old-space-size=2048 timeout 1200 npm run release:content -- b9568dd657ea071198462a56e52fd3bbfa98bac4",
+    "initialsAndAnswers": "All 28 fixed English board labels in order; canonical prefixes match; every accepted form passes production normalization and matching; export/reimport preserves the complete pack.",
+    "unchangedApplication": "No application, dependency, tooling or test changes. No local app build, browser suite, coverage or unrelated unit suite.",
+    "deployment": "Existing GitHub Actions main deployment is unchanged and may perform its own build."
+  },
+  "finalCandidateValidation": {
+    "packSha256": "ed8d661c13a6599781479a846c78669f3c8aca78e5cd2ccf47178f645d60c454",
+    "validFixedInitials": 28,
+    "uniqueAcceptedForms": 99,
+    "allAcceptedFormsMatch": true,
+    "exportReimport": "passed",
+    "exactDuplicateCollisions": 0,
+    "acceptedFormInOtherClueNominations": 0,
+    "independentSemanticDisposition": "See both review records; automated screening alone is not acceptance.",
+    "releaseGate": {
+      "command": "NODE_OPTIONS=--max-old-space-size=2048 timeout 1200 npm run release:content -- b9568dd657ea071198462a56e52fd3bbfa98bac4",
+      "result": "passed",
+      "testFiles": 4,
+      "tests": 864,
+      "catalogDecks": 169,
+      "previous168PackBytesAndPositions": "unchanged",
+      "scope": "Final ed8d661c question bytes, catalog order and inventory. Later review-receipt updates are documentation-only and do not invalidate this content result."
+    }
+  },
+  "limitations": [
+    "Direct access to some reference sites failed. Review records distinguish full/relevant-passage fetches from search-passage evidence.",
+    "Hard is assessed for general adults across the whole deck, not as a requirement that every entry is equally difficult.",
+    "This athlete-heavy deck extends one unfilled slot; it does not finish Phase 12 or resume historical automation."
+  ]
+}

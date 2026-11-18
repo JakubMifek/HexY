@@ -25,6 +25,17 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
+The catalog contains **169 decks / 4,732 questions**, English 87 / Czech 82,
+after adding `sports-en-hard-03`: 28 independently worded English Hard sports
+questions. The previous 168 packs and their catalog order are unchanged.
+This bounded content-only expansion uses duplicate screening, answer/initial
+validation and two independent content review rounds, without local app builds
+or unrelated application tests. Existing automatic deployment is unchanged. See the
+[content evidence](docs/phase-12-sports-en-hard-03-sources.json).
+Final Phase 12 quotas and cleanup remain open.
+
+## Retained 168-deck checkpoint
+
 The runtime candidate contains **168 decks / 4,704 questions**, English86/
 Czech82. Only accepted `arts-en-easy-04` is added to actual delivered
 `7b5eb11a` (167/4,676). All167 earlier pack bytes/order and application inputs

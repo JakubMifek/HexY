@@ -12,6 +12,16 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Owner-scoped content expansion, 2026-11-18:** one new 28-question deck,
+`sports-en-hard-03`, follows draft/duplicate iteration, answer/initial validation
+and two independent content review rounds before merge. This bounded release
+supersedes the old multi-author scheduling and maintenance-resume procedure for
+this task only; historical automation remains paused and evidence is preserved.
+The content-only candidate is 169 decks / 4,732 questions (English 87 / Czech 82)
+against `b9568dd657ea071198462a56e52fd3bbfa98bac4`. No application/tool/test
+changes or whole-application checks are needed. Prior 168 packs/order remain
+immutable; final Phase 12 clearance and cleanup are not claimed.
+
 **Current runtime-data candidate168:** ArtsENEasy04 alone adds28 to actual
 delivered `7b5eb11a` (167/4,676), yielding168/4,704, English86/Czech82.
 All28 original/current/full-source/alias/adult and specific semantic judgments

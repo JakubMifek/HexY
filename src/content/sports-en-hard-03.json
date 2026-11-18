@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 2,
+  "id": "sports-en-hard-03",
+  "title": "Sports · Hard · 03",
+  "language": "en",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "sports-en-hard-03-01",
+      "text": "Which Ethiopian runner won the 1960 Olympic marathon in Rome while running barefoot?",
+      "initial": "A",
+      "answer": "Abebe Bikila",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Bikila"],
+      "sources": ["https://www.britannica.com/biography/Abebe-Bikila"]
+    },
+    {
+      "id": "sports-en-hard-03-02",
+      "text": "What name is commonly given to the 1995 European court judgment that removed transfer fees for out-of-contract EU footballers moving between clubs in different EU countries?",
+      "initial": "B",
+      "answer": "Bosman ruling",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Bosman",
+        "Bosman judgment",
+        "Bosman judgement",
+        "Bosman decision",
+        "Bosman case"
+      ],
+      "sources": ["https://audiovisual.ec.europa.eu/en/media/video/I-033451"]
+    },
+    {
+      "id": "sports-en-hard-03-03",
+      "text": "What was the surname of Fausto, the Italian cyclist who won the Giro d'Italia five times and the Tour de France twice?",
+      "initial": "C",
+      "answer": "Coppi",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Fausto Coppi", "Angelo Fausto Coppi"],
+      "sources": ["https://www.britannica.com/biography/Fausto-Coppi"]
+    },
+    {
+      "id": "sports-en-hard-03-04",
+      "text": "In the traditional circle form of which Myanmar sport do players keep a rattan ball aloft together, without an opposing team?",
+      "initial": "CH",
+      "answer": "Chinlone",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Chinlon",
+        "Chin lone",
+        "Chin-lone",
+        "Caneball",
+        "Cane ball",
+        "Cane-ball"
+      ],
+      "sources": [
+        "https://myanmar.anu.edu.au/content-centre/article/series/chinlone-agile-art-burmese-cane-soccer",
+        "https://en.wikipedia.org/wiki/Chinlone"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-05",
+      "text": "Which Indian first-class cricket competition began in 1961–62 with teams representing five geographical zones?",
+      "initial": "D",
+      "answer": "Duleep Trophy",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Duleep"],
+      "sources": ["https://i.imgci.com/db/NATIONAL/IND/DULEEP_WINNERS.html"]
+    },
+    {
+      "id": "sports-en-hard-03-06",
+      "text": "Which Brazilian boxer won world titles at bantamweight in 1960 and featherweight in 1973?",
+      "initial": "E",
+      "answer": "Eder Jofre",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Jofre"],
+      "sources": ["https://www.britannica.com/biography/Eder-Jofre"]
+    },
+    {
+      "id": "sports-en-hard-03-07",
+      "text": "Which Dutch athlete won four gold medals in athletics at the 1948 London Olympics?",
+      "initial": "F",
+      "answer": "Fanny Blankers-Koen",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Fanny Blankers Koen",
+        "Blankers-Koen",
+        "Blankers Koen",
+        "Francina Blankers-Koen",
+        "Francina Elsje Blankers-Koen"
+      ],
+      "sources": ["https://www.britannica.com/biography/Fanny-Blankers-Koen"]
+    },
+    {
+      "id": "sports-en-hard-03-08",
+      "text": "Which Swedish runner set the mile world record of 4 minutes 1.4 seconds in 1945 that stood until Roger Bannister's first sub-four-minute mile?",
+      "initial": "G",
+      "answer": "Gunder Hägg",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Hägg", "Nils Gunder Hägg"],
+      "sources": [
+        "https://worldathletics.org/heritage/news/gunder-hagg-mile-world-record"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-09",
+      "text": "Which Moroccan runner won both the men's 1,500 metres and 5,000 metres at the 2004 Athens Olympics?",
+      "initial": "H",
+      "answer": "Hicham El Guerrouj",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["El Guerrouj", "Hicham Guerrouj"],
+      "sources": [
+        "https://worldathletics.org/news/news/el-guerrouj-the-greatest-of-all-time"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-10",
+      "text": "By what traditional name is São Paulo's Autódromo José Carlos Pace motor-racing circuit known?",
+      "initial": "I",
+      "answer": "Interlagos",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Interlagos circuit", "Autódromo de Interlagos"],
+      "sources": ["https://autodromodeinterlagos.prefeitura.sp.gov.br/circuito"]
+    },
+    {
+      "id": "sports-en-hard-03-11",
+      "text": "What name, meaning 'merry festival', is used for the form of Basque pelota played with a long curved basket called a cesta?",
+      "initial": "J",
+      "answer": "Jai alai",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Jai-alai",
+        "Cesta punta",
+        "Zesta punta",
+        "Cesta-punta",
+        "Zesta-punta"
+      ],
+      "sources": ["https://www.britannica.com/sports/jai-alai"]
+    },
+    {
+      "id": "sports-en-hard-03-12",
+      "text": "Which Kenyan runner won Olympic gold in the 1,500 metres in 1968 and the 3,000-metre steeplechase in 1972?",
+      "initial": "K",
+      "answer": "Kipchoge Keino",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Kip Keino",
+        "Keino",
+        "Hezekiah Kipchoge Keino",
+        "Kipchoge Hezekiah Keino"
+      ],
+      "sources": ["https://www.britannica.com/biography/Kip-Keino"]
+    },
+    {
+      "id": "sports-en-hard-03-13",
+      "text": "Which Belgian one-day cycling race, first held in 1892, is nicknamed La Doyenne?",
+      "initial": "L",
+      "answer": "Liège–Bastogne–Liège",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Liège-Bastogne-Liège", "Liège Bastogne Liège", "LBL"],
+      "sources": ["https://www.liege-bastogne-liege.be/en/history"]
+    },
+    {
+      "id": "sports-en-hard-03-14",
+      "text": "Which Scottish golf course has been the home of the Honourable Company of Edinburgh Golfers since 1891?",
+      "initial": "M",
+      "answer": "Muirfield",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Muirfield golf course", "Muirfield links"],
+      "sources": ["https://www.muirfield.org.uk/"]
+    },
+    {
+      "id": "sports-en-hard-03-15",
+      "text": "Which Romanian gymnast received the first perfect 10 in Olympic gymnastics at the 1976 Montreal Games?",
+      "initial": "N",
+      "answer": "Nadia Comăneci",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Comăneci", "Nadia Elena Comăneci"],
+      "sources": ["https://www.britannica.com/biography/Nadia-Comaneci"]
+    },
+    {
+      "id": "sports-en-hard-03-16",
+      "text": "Which Soviet gymnast performed the backward somersault on the uneven bars that became a sensation at the 1972 Munich Olympics?",
+      "initial": "O",
+      "answer": "Olga Korbut",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Korbut", "Olga Valentinovna Korbut"],
+      "sources": ["https://www.britannica.com/biography/Olga-Korbut"]
+    },
+    {
+      "id": "sports-en-hard-03-17",
+      "text": "Which Finnish distance runner won nine Olympic gold medals across the 1920, 1924 and 1928 Games?",
+      "initial": "P",
+      "answer": "Paavo Nurmi",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Nurmi", "Paavo Johannes Nurmi"],
+      "sources": ["https://www.britannica.com/biography/Paavo-Nurmi"]
+    },
+    {
+      "id": "sports-en-hard-03-18",
+      "text": "Which South African wicketkeeper-batter scored four centuries at the 2023 men's Cricket World Cup?",
+      "initial": "Q",
+      "answer": "Quinton de Kock",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["De Kock", "Q de Kock"],
+      "sources": [
+        "https://www.icc-cricket.com/tournaments/cricketworldcup/news/south-africa-great-in-awe-of-de-kocks-world-cup-run-scoring-exploits"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-19",
+      "text": "Which Indian domestic first-class cricket championship was first contested in the 1934–35 season?",
+      "initial": "R",
+      "answer": "Ranji Trophy",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Ranji"],
+      "sources": ["https://www.britannica.com/sports/Ranji-Trophy"]
+    },
+    {
+      "id": "sports-en-hard-03-20",
+      "text": "Which Romanian gymnast gives her name to the vault with a round-off entry, a back handspring onto the table and a stretched backward somersault with two and a half twists?",
+      "initial": "S",
+      "answer": "Simona Amânar",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Amânar"],
+      "sources": [
+        "https://www.gymnastics.sport/site/pages/disciplines/ele-wag.php"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-21",
+      "text": "What Japanese karate term names the knife-hand block?",
+      "initial": "SH",
+      "answer": "Shuto-uke",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Shuto uke", "Shutou uke", "Shutou-uke"],
+      "sources": ["https://martialindex.com/terms/shuto-uke/"]
+    },
+    {
+      "id": "sports-en-hard-03-22",
+      "text": "By what nickname is Eduardo Gonçalves de Andrade, a forward in Brazil's 1970 World Cup-winning team, known?",
+      "initial": "T",
+      "answer": "Tostão",
+      "language": "en",
+      "category": "sports",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Tost%C3%A3o"]
+    },
+    {
+      "id": "sports-en-hard-03-23",
+      "text": "Which Hamburger SV striker captained West Germany in the 1966 men's World Cup final?",
+      "initial": "U",
+      "answer": "Uwe Seeler",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Seeler"],
+      "sources": ["https://en.wikipedia.org/wiki/Uwe_Seeler"]
+    },
+    {
+      "id": "sports-en-hard-03-24",
+      "text": "Which Indian cricketer shared a then-record Test opening partnership of 413 with Pankaj Roy against New Zealand in 1956?",
+      "initial": "V",
+      "answer": "Vinoo Mankad",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Mankad", "Mulvantrai Himmatlal Mankad", "Mulvantrai Mankad"],
+      "sources": [
+        "https://www.icc-cricket.com/hall-of-fame/hall-of-famers/hall-of-famer-vinoo-mankad?appview=true"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-25",
+      "text": "What was the name of the stadium in Bern that hosted the 1954 men's football World Cup final?",
+      "initial": "W",
+      "answer": "Wankdorf Stadium",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Wankdorf", "Wankdorfstadion", "Wankdorf Stadion"],
+      "sources": [
+        "https://www.fifa.com/en/tournaments/mens/worldcup/articles/west-germany-hungary-1954-final"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-26",
+      "text": "Which Chinese badminton player won the women's singles world title in both 2005 and 2006?",
+      "initial": "X",
+      "answer": "Xie Xingfang",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Xie", "Hsieh Hsing-fang", "Xie Xing Fang", "Xingfang Xie"],
+      "sources": [
+        "https://bwfworldtour.bwfbadminton.com/tournament/611/bwf-world-championships-2005/results/podium",
+        "https://bwfworldchampionships.bwfbadminton.com/results/552/bwf-world-championships-2006/podium"
+      ]
+    },
+    {
+      "id": "sports-en-hard-03-27",
+      "text": "Which Japanese judoka won the open-weight gold medal at the 1984 Los Angeles Olympics despite an injured right calf?",
+      "initial": "Y",
+      "answer": "Yasuhiro Yamashita",
+      "language": "en",
+      "category": "sports",
+      "aliases": ["Yamashita", "Yamashita Yasuhiro"],
+      "sources": ["https://en.wikipedia.org/wiki/Yasuhiro_Yamashita"]
+    },
+    {
+      "id": "sports-en-hard-03-28",
+      "text": "Which South African-born runner competed barefoot for Great Britain in the women's 3,000 metres at the 1984 Los Angeles Olympics?",
+      "initial": "Z",
+      "answer": "Zola Budd",
+      "language": "en",
+      "category": "sports",
+      "aliases": [
+        "Budd",
+        "Zola Pieterse",
+        "Zola Budd Pieterse",
+        "Zola Budd-Pieterse"
+      ],
+      "sources": ["https://en.wikipedia.org/wiki/Zola_Budd"]
+    }
+  ]
+}
