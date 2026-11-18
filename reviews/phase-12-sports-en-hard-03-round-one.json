@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "round": 1,
+  "reviewerAgent": "25e5a43d-ffb8-4e26-b075-d4cdea56a778",
+  "reviewedAt": "2026-11-18",
+  "deckId": "sports-en-hard-03",
+  "initialPackSha256": "917e662a50e5c0c8a98f51f8d73f7c37bb8d891e95b8df18a8aeec69cc25748d",
+  "initialVerdict": "CHANGES REQUIRED",
+  "findings": [
+    {
+      "id": "R1-01",
+      "severity": "major",
+      "questions": ["04"],
+      "finding": "Polo-period fact repeats the published sports-cs-medium-02 clue, which explicitly supplies chukka.",
+      "correction": "Replace the entire CH fact with Chinlone, the traditional cooperative Myanmar ball sport.",
+      "status": "closed by independent correction review"
+    },
+    {
+      "id": "R1-02",
+      "severity": "major",
+      "questions": ["05", "19"],
+      "finding": "Duleepsinhji and Ranjitsinhji disclose the accepted Duleep and Ranji answers.",
+      "correction": "Ask about the competitions' founding seasons and original format without their namesakes.",
+      "status": "closed by independent correction review"
+    },
+    {
+      "id": "R1-03",
+      "severity": "minor",
+      "questions": ["11"],
+      "finding": "Legitimate Cesta-punta and Zesta-punta spellings were missing.",
+      "correction": "Add both hyphenated forms.",
+      "status": "closed by independent correction review"
+    },
+    {
+      "id": "R1-04",
+      "severity": "suggestion",
+      "questions": ["02"],
+      "finding": "The European Commission also calls the judgment the Bosman case.",
+      "correction": "Add Bosman case.",
+      "status": "closed by independent correction review"
+    },
+    {
+      "id": "R1-05",
+      "severity": "minor",
+      "questions": ["04"],
+      "finding": "Chinlone is also called Caneball; a non-initial alias is needed.",
+      "source": "https://english.news.cn/20250323/61ec5bc49f30469b9bd47415a0a95d24/c.html",
+      "correction": "Add Caneball, Cane ball and Cane-ball.",
+      "status": "closed by independent correction review"
+    }
+  ],
+  "initialEntryReadings": [
+    {
+      "question": "01",
+      "fact": "Barefoot Rome marathon winner in 1960.",
+      "source": "https://www.olympedia.org/results/59715",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "medium",
+      "duplicate": "none found"
+    },
+    {
+      "question": "02",
+      "fact": "1995 free-movement judgment for out-of-contract footballers.",
+      "source": "https://audiovisual.ec.europa.eu/en/media/video/I-033451",
+      "access": "direct relevant passage",
+      "aliases": "R1-04",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "03",
+      "fact": "Coppi won five Giros and two Tours.",
+      "source": "https://www.lequipe.fr/fiche/fausto-coppi/64083",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "04",
+      "fact": "Chukker denotes a polo playing period; superseded candidate.",
+      "source": "https://www.uspolo.org/sport/rules",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium",
+      "duplicate": "R1-01"
+    },
+    {
+      "question": "05",
+      "fact": "Duleep Trophy named for Duleepsinhji; superseded clue.",
+      "source": "https://blog.cricheroes.com/duleep-trophy/",
+      "access": "search passages",
+      "aliases": "disclosed in clue; R1-02",
+      "difficulty": "easy",
+      "duplicate": "none found"
+    },
+    {
+      "question": "06",
+      "fact": "Bantamweight title in 1960 and featherweight title in 1973.",
+      "source": "https://www.britannica.com/biography/Eder-Jofre",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "07",
+      "fact": "Four London 1948 gold medals.",
+      "source": "https://www.britannica.com/biography/Fanny-Blankers-Koen",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium",
+      "duplicate": "none found"
+    },
+    {
+      "question": "08",
+      "fact": "1945 mile record preceding Bannister.",
+      "source": "https://worldathletics.org/heritage/news/gunder-hagg-mile-world-record",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "09",
+      "fact": "Athens 2004 1500/5000 double.",
+      "source": "https://worldathletics.org/competitions/olympic-games/28th-olympic-games-6913163/news/article/mens-5000m-final-2",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "10",
+      "fact": "Interlagos is the Jose Carlos Pace circuit.",
+      "source": "https://autodromodeinterlagos.prefeitura.sp.gov.br/circuito",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium",
+      "duplicate": "none found"
+    },
+    {
+      "question": "11",
+      "fact": "Merry festival; curved cesta basket.",
+      "source": "https://www.britannica.com/sports/jai-alai",
+      "access": "search passages",
+      "aliases": "R1-03; additional source https://pelotavasca.com.uy/cesta-punta-jai-alai/",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "12",
+      "fact": "1968 1500m and 1972 steeplechase golds.",
+      "source": "https://worldathletics.org/download/downloadnsa?filename=190d44f1-7250-4882-add9-4083b57b44ee.pdf&urlslug=whatever-happened-to-kipchoge-keino",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "13",
+      "fact": "La Doyenne began in 1892.",
+      "source": "https://www.brusselstimes.com/1540950/why-liege-bastogne-liege-still-breaks-the-best",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "14",
+      "fact": "Club moved to Muirfield in 1891.",
+      "source": "https://www.muirfield.org.uk/",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "15",
+      "fact": "First Olympic gymnastics perfect 10 in Montreal.",
+      "source": "https://www.britannica.com/biography/Nadia-Comaneci",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "easy",
+      "duplicate": "none found"
+    },
+    {
+      "question": "16",
+      "fact": "1972 uneven-bars backward somersault.",
+      "source": "https://www.olympics.com/en/athletes/olga-korbut?displayAsWebViewdark=true",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium",
+      "duplicate": "none found"
+    },
+    {
+      "question": "17",
+      "fact": "Nine golds across the 1920, 1924 and 1928 Games.",
+      "source": "https://www.britannica.com/biography/Paavo-Nurmi",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "18",
+      "fact": "Four 2023 World Cup hundreds.",
+      "source": "https://www.cricbuzz.com/cricket-news/128538/quinton-de-kock-rounds-off-odi-career-with-world-cup-redemption-cricbuzzcom",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "19",
+      "fact": "Championship began in 1934–35; superseded namesake clue.",
+      "source": "https://www.britannica.com/sports/Ranji-Trophy",
+      "access": "search passages",
+      "aliases": "disclosed in clue; R1-02",
+      "difficulty": "medium",
+      "duplicate": "none found"
+    },
+    {
+      "question": "20",
+      "fact": "Named two-and-a-half-twist layout vault.",
+      "source": "https://www.gymnastics.sport/site/pages/disciplines/ele-wag.php",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "21",
+      "fact": "Knife-hand block.",
+      "source": "https://martialindex.com/terms/shuto-uke/",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "22",
+      "fact": "Eduardo de Andrade, Brazil's 1970 forward.",
+      "source": "https://www.cbf.com.br/selecao-brasileira/noticias/detalhes/selecao-masculina/tostao-completa-78-anos",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "23",
+      "fact": "Hamburg striker and West Germany's 1966 captain.",
+      "source": "https://www.skysports.com/football/news/12656427/uwe-seeler-west-germany-captain-at-1966-world-cup-final-against-england-dies-aged-85",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium",
+      "duplicate": "none found"
+    },
+    {
+      "question": "24",
+      "fact": "413-run opening stand against New Zealand in 1956.",
+      "source": "https://www.icc-cricket.com/hall-of-fame/hall-of-famers/hall-of-famer-vinoo-mankad?appview=true",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "25",
+      "fact": "Bern's 1954 World Cup final venue.",
+      "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/west-germany-hungary-1954-final",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "26",
+      "fact": "Women's singles world champion in 2005 and 2006.",
+      "source": "https://bwfworldtour.bwfbadminton.com/tournament/611/bwf-world-championships-2005/results/podium",
+      "additionalSource": "https://bwfworldchampionships.bwfbadminton.com/results/552/bwf-world-championships-2006/podium",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "27",
+      "fact": "1984 open-weight gold despite injured right calf.",
+      "source": "https://www.britannica.com/topic/Yamashita-Yasuhiro-The-Gentle-Way-1795660",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard",
+      "duplicate": "none found"
+    },
+    {
+      "question": "28",
+      "fact": "British barefoot runner in the 1984 Olympic 3000m.",
+      "source": "http://news.bbc.co.uk/onthisday/low/dates/stories/august/11/newsid_3561000/3561846.stm",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium",
+      "duplicate": "none found"
+    }
+  ],
+  "correctionReview": {
+    "packSha256": "c484feda6f09dc8928b44f78bc9eaa7f6f612f09a3d8a99ef4e7a95dd8a6c59d",
+    "verdict": "CHANGES REQUIRED: R1-05 only",
+    "closedFindings": ["R1-01", "R1-02", "R1-03", "R1-04"],
+    "entryReadings": [
+      {
+        "question": "04",
+        "fact": "Traditional Chinlone uses cooperative circle play with a rattan ball.",
+        "source": "https://myanmar.anu.edu.au/content-centre/article/series/chinlone-agile-art-burmese-cane-soccer",
+        "category": "sports accepted",
+        "difficulty": "hard",
+        "duplicate": "none found in bounded semantic screening",
+        "aliases": "R1-05"
+      },
+      {
+        "question": "05",
+        "fact": "Duleep Trophy began in 1961–62 with five geographical zones.",
+        "source": "https://i.imgci.com/db/NATIONAL/IND/DULEEP_WINNERS.html",
+        "access": "direct relevant passage",
+        "aliases": "accepted; disclosure removed",
+        "difficulty": "hard",
+        "duplicate": "none found"
+      },
+      {
+        "question": "19",
+        "fact": "Ranji Trophy began in 1934–35.",
+        "source": "https://www.britannica.com/sports/Ranji-Trophy",
+        "access": "search passages",
+        "aliases": "accepted; disclosure removed",
+        "difficulty": "hard",
+        "duplicate": "none found"
+      }
+    ],
+    "sourceRebindings": "Changed sources support their claims. Entry 18's ICC source supports centuries and the initial Cricbuzz reading supports wicketkeeper-batter."
+  },
+  "finalReview": {
+    "packSha256": "b44b609761fde0052fb79f1d547e3bf5be5717a59eb061dba81040c899f3f8b6",
+    "verdict": "CLEARED FOR DECK RELEASE",
+    "acceptedQuestions": 28,
+    "openContentFindings": 0,
+    "closedFindings": ["R1-01", "R1-02", "R1-03", "R1-04", "R1-05"],
+    "statement": "Round one cleared for all 28 questions. R1-05 is closed; the only deck change since the preceding review adds the three aliases. No content findings remain.",
+    "secondIndependentRound": "Still required; this is round one only."
+  },
+  "finalAliasRebinding": {
+    "packSha256": "ed8d661c13a6599781479a846c78669f3c8aca78e5cd2ccf47178f645d60c454",
+    "verdict": "CLEARED FOR DECK RELEASE",
+    "acceptedQuestions": 28,
+    "openContentFindings": 0,
+    "delta": "Only add Kipchoge Hezekiah Keino to question 12 and Xingfang Xie to question 26.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kipchoge_Keino",
+      "https://www.olympics.com/en/athletes/xingfang-xie"
+    ],
+    "access": "Independent search-passage inspection",
+    "statement": "Round-one acceptance rebound: all 28 entries accepted; 0 open findings."
+  },
+  "wholeDeckDifficulty": "Hard accepted; athlete-heavy mix.",
+  "limitations": [
+    "Direct Britannica requests returned 403 and Wikipedia requests had transport failures. Search passages, not full pages, were used where marked.",
+    "Duplicate screening covered published packs, retired files and 12 accessible native queued-pack instances, not all historical artifacts or the entire web."
+  ]
+}

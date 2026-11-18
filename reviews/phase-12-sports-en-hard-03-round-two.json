@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "round": 2,
+  "reviewerAgent": "a8bc7617-4b7c-4c01-85c2-aed06bb3fbca",
+  "reviewedAt": "2026-11-18",
+  "deckId": "sports-en-hard-03",
+  "initialPackSha256": "b44b609761fde0052fb79f1d547e3bf5be5717a59eb061dba81040c899f3f8b6",
+  "initialVerdict": "CHANGES REQUIRED",
+  "findings": [
+    {
+      "id": "R2-01",
+      "severity": "minor",
+      "questions": ["12"],
+      "finding": "The documented full-name form Kipchoge Hezekiah Keino was rejected by production matching.",
+      "source": "https://en.wikipedia.org/wiki/Kipchoge_Keino",
+      "access": "search passages",
+      "correction": "Add Kipchoge Hezekiah Keino.",
+      "status": "closed by independent correction review"
+    },
+    {
+      "id": "R2-02",
+      "severity": "minor",
+      "questions": ["26"],
+      "finding": "The Olympics' name order Xingfang Xie was rejected by production matching.",
+      "source": "https://www.olympics.com/en/athletes/xingfang-xie",
+      "access": "search passages",
+      "correction": "Add Xingfang Xie.",
+      "status": "closed by independent correction review"
+    }
+  ],
+  "entryReadings": [
+    {
+      "question": "01",
+      "fact": "Bikila won Rome's 1960 marathon barefoot.",
+      "source": "https://www.olympedia.org/results/59715",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "medium"
+    },
+    {
+      "question": "02",
+      "fact": "1995 ruling concerned expired contracts and free movement.",
+      "source": "https://audiovisual.ec.europa.eu/en/media/video/I-033451",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "03",
+      "fact": "Coppi won five Giros and two Tours.",
+      "source": "https://www.sport-histoire.fr/en/Sport/Person/fausto-coppi.php",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "04",
+      "fact": "Myanmar circle play uses a rattan ball; also called caneball.",
+      "source": "https://myanmar.anu.edu.au/content-centre/article/series/chinlone-agile-art-burmese-cane-soccer",
+      "additionalSource": "https://en.wikipedia.org/wiki/Chinlone",
+      "access": "direct ANU relevant passage; Wikipedia search passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "05",
+      "fact": "Duleep Trophy began in 1961–62 with five zones.",
+      "source": "https://i.imgci.com/db/NATIONAL/IND/DULEEP_WINNERS.html",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "06",
+      "fact": "Jofre won bantamweight and featherweight titles in the stated years.",
+      "source": "https://www.britannica.com/biography/Eder-Jofre",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "07",
+      "fact": "Four London 1948 golds.",
+      "source": "https://www.britannica.com/biography/Fanny-Blankers-Koen",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium"
+    },
+    {
+      "question": "08",
+      "fact": "Hagg's ratified 4:01.4 preceded Bannister.",
+      "source": "https://worldathletics.org/heritage/news/gunder-hagg-mile-world-record",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "09",
+      "fact": "Moroccan Athens 1500/5000 double.",
+      "source": "https://worldathletics.org/news/news/el-guerrouj-the-greatest-of-all-time",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "medium-hard"
+    },
+    {
+      "question": "10",
+      "fact": "Interlagos is the Sao Paulo circuit renamed for Pace.",
+      "source": "https://global.honda/en/F1/circuit/autodromo-jose-carlos-pace/",
+      "additionalSource": "https://autodromodeinterlagos.prefeitura.sp.gov.br/circuito",
+      "access": "direct Honda relevant passage; municipal search passages",
+      "aliases": "accepted",
+      "difficulty": "medium"
+    },
+    {
+      "question": "11",
+      "fact": "Basque merry festival; curved cesta.",
+      "source": "https://www.britannica.com/sports/jai-alai",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium-hard"
+    },
+    {
+      "question": "12",
+      "fact": "Keino's 1968 and 1972 Olympic golds.",
+      "source": "https://www.olympedia.org/athletes/72762",
+      "access": "direct relevant passage",
+      "aliases": "R2-01",
+      "difficulty": "hard"
+    },
+    {
+      "question": "13",
+      "fact": "Race winners since 1892; La Doyenne nickname.",
+      "source": "https://www.liege-bastogne-liege.be/en/history",
+      "additionalSource": "https://www.brusselstimes.com/1540950/why-liege-bastogne-liege-still-breaks-the-best",
+      "access": "direct relevant passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "14",
+      "fact": "The company moved to Muirfield in 1891.",
+      "source": "https://www.muirfield.org.uk/",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "15",
+      "fact": "First Olympic perfect 10 in Montreal 1976.",
+      "source": "https://www.britannica.com/biography/Nadia-Comaneci",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "easy"
+    },
+    {
+      "question": "16",
+      "fact": "Korbut's Munich uneven-bars backward somersault.",
+      "source": "https://www.olympics.com/en/athletes/olga-korbut?displayAsWebViewdark=true",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "medium"
+    },
+    {
+      "question": "17",
+      "fact": "Nine golds across the three stated Games.",
+      "source": "https://www.britannica.com/biography/Paavo-Nurmi",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "18",
+      "fact": "Four 2023 centuries; wicketkeeper-batter.",
+      "source": "https://www.icc-cricket.com/tournaments/cricketworldcup/news/south-africa-great-in-awe-of-de-kocks-world-cup-run-scoring-exploits",
+      "additionalSource": "https://www.cricbuzz.com/cricket-news/128538/quinton-de-kock-rounds-off-odi-career-with-world-cup-redemption-cricbuzzcom",
+      "access": "direct ICC relevant passage; Cricbuzz search passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "19",
+      "fact": "First tournament in 1934–35.",
+      "source": "https://www.britannica.com/sports/Ranji-Trophy",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "20",
+      "fact": "Amanar's named layout vault with two and a half twists.",
+      "source": "https://www.gymnastics.sport/site/pages/disciplines/ele-wag.php",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "21",
+      "fact": "Knife-hand block.",
+      "source": "https://martialindex.com/terms/shuto-uke/",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "22",
+      "fact": "Eduardo de Andrade, Tostao, Brazil's 1970 forward.",
+      "source": "https://www.cbf.com.br/selecao-brasileira/noticias/detalhes/selecao-masculina/tostao-completa-78-anos",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "23",
+      "fact": "Hamburg forward captained West Germany in 1966.",
+      "source": "https://www.skysports.com/football/news/11095/12656427",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "medium-hard"
+    },
+    {
+      "question": "24",
+      "fact": "Mankad's 413 opening stand against New Zealand in 1956.",
+      "source": "https://www.icc-cricket.com/hall-of-fame/hall-of-famers/hall-of-famer-vinoo-mankad?appview=true",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "25",
+      "fact": "Wankdorf in Bern hosted the 1954 final.",
+      "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/west-germany-hungary-1954-final",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "26",
+      "fact": "Xie won both women's singles world titles.",
+      "source": "https://bwfworldtour.bwfbadminton.com/tournament/611/bwf-world-championships-2005/results/podium",
+      "additionalSource": "https://bwfworldchampionships.bwfbadminton.com/results/552/bwf-world-championships-2006/podium",
+      "access": "direct relevant passages",
+      "aliases": "R2-02",
+      "difficulty": "hard"
+    },
+    {
+      "question": "27",
+      "fact": "Yamashita won the open category despite a torn right calf.",
+      "source": "https://en.wikipedia.org/wiki/Judo_at_the_1984_Summer_Olympics_%E2%80%93_Men%27s_open_category",
+      "access": "search passages",
+      "aliases": "accepted",
+      "difficulty": "hard"
+    },
+    {
+      "question": "28",
+      "fact": "South African-born British runner competed barefoot in the Los Angeles 3000m.",
+      "source": "https://www.bbc.co.uk/onthisday/hi/dates/stories/august/11/newsid_3561000/3561846.stm",
+      "access": "direct relevant passage",
+      "aliases": "accepted",
+      "difficulty": "medium"
+    }
+  ],
+  "duplicateDispositionForAllEntries": "None nominated in bounded screening and related-clue inspection; not exhaustive semantic or web-wide proof.",
+  "finalReview": {
+    "packSha256": "ed8d661c13a6599781479a846c78669f3c8aca78e5cd2ccf47178f645d60c454",
+    "verdict": "CLEARED FOR DECK RELEASE",
+    "acceptedQuestions": 28,
+    "openContentFindings": 0,
+    "closedFindings": ["R2-01", "R2-02"],
+    "delta": "Independent reconstruction confirmed only the two supported aliases and formatting changed.",
+    "validation": "Both names accepted by production matching; all 28 labels/canonical prefixes valid; all 99 normalized accepted forms unique; no affected duplicates found.",
+    "integration": "Counts and prior-pack/order preservation verified; current source ledger binds the accepted pack hash."
+  },
+  "wholeDeckDifficulty": "Hard accepted despite several medium and one easy entry; athlete-heavy.",
+  "lenses": {
+    "correctness": "Facts, initials and wording accepted; R2-01 and R2-02 remain answer-matching omissions until correction review.",
+    "usability": "Valid name variants must match. Browser accessibility not applicable: no UI change.",
+    "maintainability": "Understandable clues; catalog and evidence scoped to one deck.",
+    "oop": "Not applicable: no application or class changes.",
+    "patterns": "Not applicable: no architecture or dependency changes.",
+    "contentRightsDelivery": "Wording appears independently composed against inspected sources, without blanket rights clearance. No deployment performed by reviewer."
+  },
+  "integration": {
+    "decks": 169,
+    "questions": 4732,
+    "englishDecks": 87,
+    "czechDecks": 82,
+    "priorOrder": "Exact prefix",
+    "priorPackFiles": "Unchanged",
+    "inventory": "New ID appended; no whole-phase completion claim"
+  },
+  "limitations": [
+    "Britannica and some Wikipedia pages could not be fetched directly; evidence is explicitly marked as search passages.",
+    "The listed Britannica Coppi page returned 403; its specific passage remains uninspected, while an independent directly inspected reference supports the fact.",
+    "Duplicate screening covered published, primary, retired and accessible named staged inputs, not every historical artifact or web quiz."
+  ]
+}
