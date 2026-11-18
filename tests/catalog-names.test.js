@@ -95,7 +95,15 @@ test('a new runtime-only lower-ID append preserves every previously displayed nu
   extra.id = 'general-cs-easy-00';
   const after = catalogNames(preparationStrings.cs, [...packs, extra]);
   for (const [id, name] of before) expect(after.get(id)).toBe(name);
-  expect(after.get(extra.id)).toBe('Všeobecné znalosti · Lehká · 04');
+  const existingEasy = packs.filter(
+    (pack) =>
+      pack.language === 'cs' &&
+      pack.questions[0].category === 'general' &&
+      pack.difficulty === 'easy',
+  ).length;
+  expect(after.get(extra.id)).toBe(
+    `Všeobecné znalosti · Lehká · ${String(existingEasy + 1).padStart(2, '0')}`,
+  );
 });
 
 test('custom names stay intact and sort by level, localized natural title, then ID', () => {
