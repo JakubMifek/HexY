@@ -1,0 +1,99 @@
+name: Deploy HexY to Mifek Games
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hexy-games-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.sha }}
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build -- --base=/HexY/
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: hexy-production
+          path: dist/
+          if-no-files-found: error
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.sha }}
+
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: hexy-production
+          path: ${{ runner.temp }}/hexy-production
+
+      - name: Configure hosting SSH access
+        env:
+          DEPLOY_KEY: ${{ secrets.GAMES_DEPLOY_SSH_KEY }}
+        run: |
+          if [[ -z "$DEPLOY_KEY" ]]; then
+            echo "::error::Add the GAMES_DEPLOY_SSH_KEY repository secret before deploying."
+            exit 1
+          fi
+
+          install -m 700 -d "$HOME/.ssh"
+          printf '%s\n' "$DEPLOY_KEY" > "$HOME/.ssh/games-deploy"
+          chmod 600 "$HOME/.ssh/games-deploy"
+          install -m 600 .github/deploy-known-hosts "$HOME/.ssh/known_hosts"
+          ssh-keygen -F lanstrom.thinline.cz -f "$HOME/.ssh/known_hosts" >/dev/null
+
+      - name: Publish HexY to games-deploy
+        env:
+          GIT_SSH_COMMAND: ssh -i $HOME/.ssh/games-deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts
+        run: |
+          set -euo pipefail
+
+          dist="$RUNNER_TEMP/hexy-production"
+          deploy_dir="$RUNNER_TEMP/mifek-games"
+          test -s "$dist/index.html"
+          test -s "$dist/catalog.json"
+          grep -q '/HexY/assets/' "$dist/index.html"
+
+          latest_main="$(git ls-remote origin refs/heads/main | cut -f1)"
+          if [[ "$latest_main" != "$GITHUB_SHA" ]]; then
+            echo "::notice::Skipping superseded main commit $GITHUB_SHA; current main is $latest_main."
+            exit 0
+          fi
+
+          git clone --single-branch --branch games-deploy \
+            ssh://mifek_org__git@lanstrom.thinline.cz/~/mifek.org \
+            "$deploy_dir"
+          mkdir -p "$deploy_dir/HexY"
+          cp -R "$dist/." "$deploy_dir/HexY/"
+
+          git -C "$deploy_dir" add -- HexY/
+          if git -C "$deploy_dir" diff --cached --quiet -- HexY/; then
+            echo "The current HexY build is already deployed."
+            exit 0
+          fi
+
+          git -C "$deploy_dir" config user.name "HexY deployment"
+          git -C "$deploy_dir" config user.email "github-actions[bot]@users.noreply.github.com"
+          git -C "$deploy_dir" commit -m "Deploy HexY ${GITHUB_SHA::7}"
+          git -C "$deploy_dir" push origin HEAD:games-deploy
