@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 2,
+  "id": "general-cs-hard-05",
+  "title": "Všeobecné znalosti · Těžká · 05",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "general-cs-hard-05-01",
+      "text": "Jak se nazývá vyšívací technika, při níž se část nití tkaniny vytahuje a zbývající nitě se obšívají do průsvitného vzoru?",
+      "initial": "A",
+      "answer": "Ažura",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Ažurování",
+        "Ažúr",
+        "Tažená výšivka",
+        "Ažurová výšivka",
+        "Mřížka",
+        "Mřížky"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Drawn_thread_work",
+        "https://vysivani-online.cz/azury-mrizky/",
+        "https://www.rucniprace.cz/azura-mrizka.php"
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-02",
+      "text": "Jak se tradičně nazývá písmový stupeň o devíti typografických bodech, tedy přibližně 3,38 mm?",
+      "initial": "B",
+      "answer": "Borgis",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Bourgeois", "Burgos", "Gaillarde"],
+      "sources": [
+        "https://encyklopedieknihy.cz/index.php?title=Borgis",
+        "https://ssjc.ujc.cas.cz/search.php?heslo=borgis&sti=EMPTY&where=hesla&hsubstr=no"
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-03",
+      "text": "Jak se nazývá tradiční evropská typografická jednotka odpovídající dvanácti didotovským bodům?",
+      "initial": "C",
+      "answer": "Cicero",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Cicero_(typography)"]
+    },
+    {
+      "id": "general-cs-hard-05-04",
+      "text": "Jak se nazývá tkalcovská pomůcka, která přenáší útkovou nit prošlupem mezi osnovními nitěmi?",
+      "initial": "Č",
+      "answer": "Člunek",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Tkalcovský člunek"],
+      "sources": ["https://en.wikipedia.org/wiki/Shuttle_(weaving)"]
+    },
+    {
+      "id": "general-cs-hard-05-05",
+      "text": "Jak se odborně nazývá způsob vedení tahů při psaní, zahrnující jejich směr, pořadí a návaznost?",
+      "initial": "D",
+      "answer": "Duktus",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Ductus"],
+      "sources": ["https://en.wikipedia.org/wiki/Ductus_(linguistics)"]
+    },
+    {
+      "id": "general-cs-hard-05-06",
+      "text": "Jak se v architektuře nazývá řada místností s dveřmi v jedné ose, která umožňuje průhled několika pokoji?",
+      "initial": "E",
+      "answer": "Enfiláda",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Enfilade"],
+      "sources": ["https://en.wikipedia.org/wiki/Enfilade_(architecture)"]
+    },
+    {
+      "id": "general-cs-hard-05-07",
+      "text": "Jak se v popisu rukopisů nazývá číslování jednotlivých listů, nikoli každé jejich strany?",
+      "initial": "F",
+      "answer": "Foliace",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Foliování", "Číslování listů"],
+      "sources": ["https://encyklopedieknihy.cz/index.php?title=Foliace"]
+    },
+    {
+      "id": "general-cs-hard-05-08",
+      "text": "Jak se nazývá nauka o navrhování a konstrukci slunečních hodin?",
+      "initial": "G",
+      "answer": "Gnomonika",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": [
+        "https://www.slunecni-hodiny.webzdarma.cz/osobnosti.html",
+        "https://pl.wikipedia.org/wiki/Gnomonika"
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-09",
+      "text": "Jak se v literatuře nazývá smyšlená autorská osobnost s vlastním životopisem a stylem, jaké vytvářel Fernando Pessoa, na rozdíl od pouhého krycího jména?",
+      "initial": "H",
+      "answer": "Heteronym",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Heteronymum"],
+      "sources": ["https://en.wikipedia.org/wiki/Heteronym_(literature)"]
+    },
+    {
+      "id": "general-cs-hard-05-10",
+      "text": "Jakým termínem označoval Aristotelés získávání peněžního bohatství, zejména když se hromadění peněz stává cílem samo o sobě?",
+      "initial": "Ch",
+      "answer": "Chrematistika",
+      "language": "cs",
+      "category": "general",
+      "aliases": [],
+      "sources": ["https://en.wikipedia.org/wiki/Chrematistics"]
+    },
+    {
+      "id": "general-cs-hard-05-11",
+      "text": "Jak se italským termínem nazývá poslední jemná omítková vrstva, na niž se maluje pravá freska?",
+      "initial": "I",
+      "answer": "Intonaco",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Intonako"],
+      "sources": ["https://en.wikipedia.org/wiki/Intonaco"]
+    },
+    {
+      "id": "general-cs-hard-05-12",
+      "text": "Jak se nazývá bílá useň tradičně zpracovaná pomocí kamence, používaná například na rukavice?",
+      "initial": "J",
+      "answer": "Jircha",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jirchová useň", "Bělouseň", "Glazé"],
+      "sources": ["https://cs.wikipedia.org/wiki/Jircha"]
+    },
+    {
+      "id": "general-cs-hard-05-13",
+      "text": "Jak se nazývá uzavřená část kláštera, do níž mají osoby mimo řeholní komunitu omezený přístup?",
+      "initial": "K",
+      "answer": "Klauzura",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Klášterní klauzura"],
+      "sources": ["https://en.wikipedia.org/wiki/Enclosed_religious_orders"]
+    },
+    {
+      "id": "general-cs-hard-05-14",
+      "text": "Jaký latinský výraz označoval pětileté období mezi římskými censy a původně také očistný obřad po jejich dokončení?",
+      "initial": "L",
+      "answer": "Lustrum",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Pětiletí"],
+      "sources": ["https://en.wikipedia.org/wiki/Lustrum"]
+    },
+    {
+      "id": "general-cs-hard-05-15",
+      "text": "Jak se nazývá tradiční španělský krajkový nebo hedvábný závoj nošený přes hlavu a ramena, často přes vysoký hřeben?",
+      "initial": "M",
+      "answer": "Mantila",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Mantilla"],
+      "sources": ["https://en.wikipedia.org/wiki/Mantilla"]
+    },
+    {
+      "id": "general-cs-hard-05-16",
+      "text": "Jak se nazývá lehká bavlněná tkanina původně vyráběná z přirozeně nažloutlé bavlny a pojmenovaná podle čínského města?",
+      "initial": "N",
+      "answer": "Nankin",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Nanking", "Nankeen"],
+      "sources": ["https://en.wikipedia.org/wiki/Nankeen"]
+    },
+    {
+      "id": "general-cs-hard-05-17",
+      "text": "Jak se nazývá široký liturgický pás nošený přes ramena pravoslavného biskupa jako znak jeho úřadu?",
+      "initial": "O",
+      "answer": "Omofor",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Omoforion", "Omophorion"],
+      "sources": ["https://en.wikipedia.org/wiki/Omophorion"]
+    },
+    {
+      "id": "general-cs-hard-05-18",
+      "text": "Jak se nazývá úřední značka, kterou nezávislá zkušebna potvrzuje ryzost zlatého či stříbrného výrobku, na rozdíl od pouhého vyraženého čísla?",
+      "initial": "P",
+      "answer": "Punc",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Puncovní značka", "Státní punc"],
+      "sources": ["https://www.puncovniurad.eu/identifikacni-znacky/"]
+    },
+    {
+      "id": "general-cs-hard-05-19",
+      "text": "Jakým latinským termínem se označuje úzký rukopisný svitek odvíjený svisle, jehož řádky probíhají napříč pásem?",
+      "initial": "R",
+      "answer": "Rotulus",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Rotula"],
+      "sources": ["https://en.wikipedia.org/wiki/Rotulus"]
+    },
+    {
+      "id": "general-cs-hard-05-20",
+      "text": "Jak se nazývá veřejné přijetí závazku chudoby, čistoty a poslušnosti při vstupu do katolického řeholního života?",
+      "initial": "Ř",
+      "answer": "Řeholní profese",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Řeholní sliby",
+        "Řeholní slib",
+        "Složení řeholních slibů",
+        "Religious profession",
+        "Professio religiosa"
+      ],
+      "sources": [
+        "https://provincie.minorite.cz/co-je-to-reholni-profese/",
+        "https://cs.wikipedia.org/wiki/%C5%98eholn%C3%AD_sliby",
+        "https://en.wikipedia.org/wiki/Religious_profession"
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-21",
+      "text": "Jak se nazývá drobný příčný tah zakončující hlavní tah písmene?",
+      "initial": "S",
+      "answer": "Serifa",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Patka", "Patka písma", "Serif"],
+      "sources": ["https://en.wikipedia.org/wiki/Serif"]
+    },
+    {
+      "id": "general-cs-hard-05-22",
+      "text": "Jak se nazývá podkladová vrstva nanášená na malířské plátno před vlastní malbou?",
+      "initial": "Š",
+      "answer": "Šeps",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Malířský šeps",
+        "Gesso",
+        "Malířský podklad",
+        "Malířský základ",
+        "Podkladový nátěr"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gesso",
+        "https://www.cojeco.cz/seps"
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-23",
+      "text": "Jak se nazývá soustava latinských těsnopisných značek připisovaná osobnímu tajemníkovi Cicerona?",
+      "initial": "T",
+      "answer": "Tironské noty",
+      "language": "cs",
+      "category": "general",
+      "aliases": [
+        "Tironovy noty",
+        "Tironské značky",
+        "Notae Tironianae",
+        "Tironian notes"
+      ],
+      "sources": ["https://www.britannica.com/topic/Tironian-notes"]
+    },
+    {
+      "id": "general-cs-hard-05-24",
+      "text": "Jak se odborně nazývá vystouplý kovový prvek uprostřed štítu, který odráží rány a uvnitř poskytuje místo pro upevnění držadla?",
+      "initial": "U",
+      "answer": "Umbo",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Puklice štítu", "Štítová puklice", "Puklice", "Shield boss"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shield_boss",
+        "https://www.drakkaria.cz/keltsky-stit-pozdni-laten"
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-25",
+      "text": "Jak se v klasické architektuře nazývá vodorovný pás kladí mezi architrávem a římsou, často zdobený reliéfem?",
+      "initial": "V",
+      "answer": "Vlys",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Fríz"],
+      "sources": ["https://en.wikipedia.org/wiki/Frieze"]
+    },
+    {
+      "id": "general-cs-hard-05-26",
+      "text": "Jak se souhrnně japonsky nazývají tradiční cukrovinky často podávané k zelenému čaji?",
+      "initial": "W",
+      "answer": "Wagashi",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Wagaši"],
+      "sources": ["https://en.wikipedia.org/wiki/Wagashi"]
+    },
+    {
+      "id": "general-cs-hard-05-27",
+      "text": "Jak se nazývá kovový předmět se zapínacím mechanismem sloužící k sepnutí oděvu, například pláště?",
+      "initial": "Z",
+      "answer": "Záponka",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Spona", "Oděvní spona", "Zápona", "Fibula", "Brož"],
+      "sources": ["https://en.wikipedia.org/wiki/Fibula_(brooch)"]
+    },
+    {
+      "id": "general-cs-hard-05-28",
+      "text": "Jak se nazývá velké selské povstání, které vypuklo roku 1358 v severní Francii?",
+      "initial": "Ž",
+      "answer": "Žakerie",
+      "language": "cs",
+      "category": "general",
+      "aliases": ["Jacquerie", "Jacquerie z roku 1358"],
+      "sources": ["https://en.wikipedia.org/wiki/Jacquerie"]
+    }
+  ]
+}
