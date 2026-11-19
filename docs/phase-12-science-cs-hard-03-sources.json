@@ -1,0 +1,1356 @@
+{
+  "schemaVersion": 1,
+  "deckId": "science-cs-hard-03",
+  "date": "2026-11-19",
+  "baselineRevision": "94814032e66fda6e600d5f73227e6e3bc1c144e6",
+  "packSha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+  "scope": {
+    "questions": 28,
+    "language": "cs",
+    "difficulty": "hard",
+    "previousDecks": 170,
+    "resultingDecks": 171,
+    "resultingQuestions": 4788,
+    "resultingEnglishDecks": 87,
+    "resultingCzechDecks": 84,
+    "previousPacksAndOrder": "Preserve exact bytes and positions.",
+    "phase12Cleared": false
+  },
+  "provenance": {
+    "originalPack": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/science-cs-hard-03/science-cs-hard-03.json",
+      "sha256": "2388c1cdd7dee00696ac87e2f7828957fc49b133b3c1c47becdd9894f1745110"
+    },
+    "originalHandoff": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/science-cs-hard-03/HANDOFF.json",
+      "sha256": "07f35557f5eedaaf8b20198dc0ad12f6ebea789cde74859481a0ee351347ec0e"
+    },
+    "originalHoldRecords": [
+      {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/science-cs-hard-03/DEBYE-EN05-CONTEXT.json",
+        "sha256": "f99ab503095f19c36f4f95088c1ab9e5feaf275d24927da43f8f356cb76e1658"
+      },
+      {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/science-cs-hard-03/CURRENT-43-DECISIONS.json",
+        "sha256": "6712265980efd1ab7c536c3b1379e8ddf96166edf0e924babd9382d409f4323e"
+      }
+    ],
+    "authorship": "Adopted existing draft, with original Czech replacement wording where factual/semantic conflicts or unfair ambiguity required it; not copied from commercial quizzes or television.",
+    "history": "Original packets, source captures and failed/partial holds remain immutable. Fresh review accepts actual current bytes, not historical lifecycle claims."
+  },
+  "duplicateScreening": {
+    "corpusManifestSha256": "b964ed1f81ab7d7b2281a5e4364767f4b7483b96f03a978bb205b99b07dca0a9",
+    "packInstances": 519,
+    "questionRows": 14532,
+    "scope": "Actual main, primary native/unpublished, retired, all accessible queue-named native files and shallow named packet pack/original/proposal directories. Duplicate historical instances retained; no blanket language exemption.",
+    "checks": [
+      "Normalized prompts",
+      "Canonical and full-alias intersections",
+      "Accepted forms inside other clues",
+      "Independent bilingual fact/semantic judgments",
+      "Four owned candidates compared to one another"
+    ],
+    "limitations": "Bounded actual-main/primary/retired/accessible named-staged review, not universal web originality or retirement of other proposals."
+  },
+  "entries": [
+    {
+      "id": "science-cs-hard-03-01",
+      "answer": "Andersonova lokalizace",
+      "questionSha256": "90c2bfbe07b2389a288c3999af32cb0ffc852f18947d6a714cd39bbfc216f06b",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-01"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-01",
+        "before": {
+          "id": "science-cs-hard-03-01",
+          "text": "Jaký neradiační proces při zaplnění vakance vnitřní elektronové slupky vyrazí další elektron?",
+          "initial": "A",
+          "answer": "Augerův jev",
+          "language": "cs",
+          "aliases": [
+            "Augerův efekt",
+            "Augerův–Meitnerové jev",
+            "Augerův-Meitnerové jev",
+            "Meitnerové–Augerův jev",
+            "Meitnerové-Augerův jev"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Auger_effect",
+            "https://cs.wikipedia.org/wiki/Auger%C5%AFv_jev",
+            "https://en.wikipedia.org/wiki/Lise_Meitner"
+          ]
+        },
+        "after": {
+          "id": "science-cs-hard-03-01",
+          "text": "Jak se nazývá kvantové potlačení šíření elektronových vln v neuspořádaném prostředí v důsledku interference, nikoli jejich vzájemného odpuzování?",
+          "initial": "A",
+          "answer": "Andersonova lokalizace",
+          "language": "cs",
+          "aliases": ["Anderson localization"],
+          "category": "science",
+          "sources": ["https://link.springer.com/book/10.1007/b13139"]
+        },
+        "reason": "Replace published same-mechanism Auger relaxation identification.",
+        "support": "Anderson localization concerns localization of electronic wavefunctions in random media as a manifestation of quantum coherence; sufficiently strong disorder suppresses long-range diffusion.",
+        "sourceAccess": "web_search Springer reference-book description plus explicit academic preprint passage; attempted Wikipedia direct access returned 403"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-02",
+      "answer": "Blochovy oscilace",
+      "questionSha256": "f47e4f3439d4dddd384fb360d0a821e6db507865a9efed4cf1ec80e42092e819",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-02"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-02",
+        "before": {
+          "id": "science-cs-hard-03-02",
+          "text": "Jaké elektromagnetické záření vzniká při zpomalování nabité částice v elektrickém poli?",
+          "initial": "B",
+          "answer": "Brzdné záření",
+          "language": "cs",
+          "aliases": ["Bremsstrahlung"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Bremsstrahlung"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-02",
+          "text": "Jak se nazývá periodický pohyb elektronu v ideální krystalové mřížce pod působením stálého elektrického pole, namísto neomezeného zrychlování?",
+          "initial": "B",
+          "answer": "Blochovy oscilace",
+          "language": "cs",
+          "aliases": [
+            "Blochova oscilace",
+            "Blochovo kmitání",
+            "Bloch oscillations",
+            "Bloch oscillation"
+          ],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Bloch_oscillation"]
+        },
+        "reason": "Replace published Bremsstrahlung identification; distinct from the English Bloch theorem about wavefunction form. Second-round Science02: add the legitimate singular English name, preserving the plural and Czech forms.",
+        "support": "The independently inspected reference search passage uses the singular Bloch oscillation name.",
+        "sourceAccess": "Reviewer two inspected the explicitly labeled reference search passage."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-03",
+      "answer": "Clausiova–Clapeyronova rovnice",
+      "questionSha256": "468b030cb218a877f271d6ac2999ffdb57da464c073b010798c061306a93aca1",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-03"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-03",
+        "before": {
+          "id": "science-cs-hard-03-03",
+          "text": "Jaký kvantový jev může přitahovat dvě blízké nenabité vodivé desky ve vakuu?",
+          "initial": "C",
+          "answer": "Casimirův jev",
+          "language": "cs",
+          "aliases": ["Casimirova síla", "Casimirův efekt"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Casimir_effect"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-03",
+          "text": "Která rovnice umožňuje odhadnout tlak nasycené páry při jiné teplotě ze známého tlaku a výparné entalpie, předpokládáme-li ideální páru, zanedbatelný objem kapaliny vůči páře a přibližně konstantní výparnou entalpii?",
+          "initial": "C",
+          "answer": "Clausiova–Clapeyronova rovnice",
+          "language": "cs",
+          "aliases": [
+            "Clausiova-Clapeyronova rovnice",
+            "Clausiusova–Clapeyronova rovnice",
+            "Clausiusova-Clapeyronova rovnice",
+            "Clausius-Clapeyronova rovnice",
+            "Clausius–Clapeyronova rovnice",
+            "Clausius-Clapeyron equation",
+            "Clausius–Clapeyron equation"
+          ],
+          "category": "science",
+          "sources": [
+            "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/23:_Phase_Equilibria/23.04:_The_Clausius-Clapeyron_Equation",
+            "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node64.html"
+          ]
+        },
+        "reason": "Replace published Casimir plate-attraction identification. Second-round Science03 hold: state all three approximations used by the integrated two-temperature pressure estimate, not only ideal vapor.",
+        "support": "MIT section 8.4 explicitly lists negligible vaporization-enthalpy variation, ideal-gas vapor and liquid specific volume small relative to vapor before integration.",
+        "sourceAccess": "Author and reviewer two independently directly inspected the full relevant MIT section; no missing approximation is represented as exact universal behavior."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-04",
+      "answer": "Čtyřpól",
+      "questionSha256": "e9a47635bd4be910fa598db6bebd489c1084e22eec025d846bfb43a8a5db6f3b",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-04"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-04",
+        "before": {
+          "id": "science-cs-hard-03-04",
+          "text": "Jak se v teorii elektrických obvodů nazývá síť se dvěma vstupními a dvěma výstupními svorkami?",
+          "initial": "Č",
+          "answer": "Čtyřpól",
+          "language": "cs",
+          "aliases": ["Dvojbran"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Two-port_network"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-04",
+          "text": "Jak se v teorii elektrických obvodů nazývá síť se vstupní a výstupní dvojicí svorek, přičemž do jedné svorky každé dvojice vtéká stejný proud, jaký druhou vytéká?",
+          "initial": "Č",
+          "answer": "Čtyřpól",
+          "language": "cs",
+          "aliases": ["Dvojbran"],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Two-port_network",
+            "https://www.engineeringdevotion.com/electric-circuits/chapter-19-two-port-networks.html"
+          ]
+        },
+        "reason": "Round-one S01: explicitly state the port-current condition so both Čtyřpól and the retained Dvojbran alias are valid.",
+        "support": "Textbook defines a port as a pair whose entering and leaving currents are equal, and a two-port as input and output pairs.",
+        "sourceAccess": "Author and reviewer one independently directly inspected the textbook introduction and port-condition definition."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-05",
+      "answer": "Dielsova–Alderova reakce",
+      "questionSha256": "e33c99a001522edee2af9094e927af3fc0b376d8078c5ec76eea86cd7de25db2",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-05"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-05",
+        "before": {
+          "id": "science-cs-hard-03-05",
+          "text": "Jaký model tepelné kapacity krystalů používá spojité spektrum fononových módů s mezní frekvencí?",
+          "initial": "D",
+          "answer": "Debyeův model",
+          "language": "cs",
+          "aliases": ["Debyeův model tepelné kapacity"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Debye_model"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-05",
+          "text": "Jak se nazývá cykloadice typu [4+2], při níž konjugovaný dien reaguje s dienofilem za vzniku šestičlenného kruhu?",
+          "initial": "D",
+          "answer": "Dielsova–Alderova reakce",
+          "language": "cs",
+          "aliases": [
+            "Dielsova-Alderova reakce",
+            "Diels-Alderova reakce",
+            "Diels–Alderova reakce",
+            "Dielsova–Alderova cykloadice",
+            "Dielsova-Alderova cykloadice",
+            "Diels-Alder reaction",
+            "Diels–Alder reaction"
+          ],
+          "category": "science",
+          "sources": [
+            "https://www.sigmaaldrich.com/SN/en/technical-documents/technical-article/chemistry-and-synthesis/organic-reaction-toolbox/diels-alder-reaction"
+          ]
+        },
+        "reason": "Replace real same-model Debye English05 conflict, retaining original English possessive aliases and source context as immutable references. Second-round Science05: add the conventional English name under both relevant dash forms.",
+        "support": "The organic-chemistry textbook source uses the Diels-Alder reaction name and supports the [4+2] cycloaddition.",
+        "sourceAccess": "Reviewer two independently inspected the chemistry textbook search passage; direct access is not claimed."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-06",
+      "answer": "Efimovův stav",
+      "questionSha256": "4d9c2661ceabea41237af610e9dcde12b68a400f23a724e5fabd1abe1d5f5ebe",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-06"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-06",
+        "before": {
+          "id": "science-cs-hard-03-06",
+          "text": "Jaká věta vztahuje časový vývoj kvantových středních hodnot k rovnicím podobným klasické mechanice?",
+          "initial": "E",
+          "answer": "Ehrenfestův teorém",
+          "language": "cs",
+          "aliases": ["Ehrenfestova věta"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Ehrenfest_theorem"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-06",
+          "text": "Jak se nazývá kvantový stav tří částic patřící do charakteristické geometricky škálované řady vázaných stavů, která může vzniknout poblíž rezonance i tehdy, když žádná dvojice částic sama není vázaná?",
+          "initial": "E",
+          "answer": "Efimovův stav",
+          "language": "cs",
+          "aliases": ["Efimovovy stavy", "Efimovův trimer", "Efimov state"],
+          "category": "science",
+          "sources": ["https://physics.aps.org/articles/v7/51"]
+        },
+        "reason": "Replace published Ehrenfest expectation-value identification. Second-round Science06: distinguish Efimov states through their characteristic discrete geometrical scaling, rather than describing every Borromean trimer.",
+        "support": "APS explicitly describes resonant pairwise interactions, binding without a bound pair, and a whole trimer series with discretely geometrically scaled sizes and energies.",
+        "sourceAccess": "Author and reviewer two independently directly inspected the APS explanation and scaling paragraphs."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-07",
+      "answer": "Fermiho zlaté pravidlo",
+      "questionSha256": "7037897cb202cb4b407c4cca3b9a33c186912353b0fbc562a6911483f7e415ab",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-07"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-07",
+        "before": {
+          "id": "science-cs-hard-03-07",
+          "text": "Jaký princip při rychlém elektronovém přechodu považuje polohy jader za prakticky neměnné?",
+          "initial": "F",
+          "answer": "Franckův–Condonův princip",
+          "language": "cs",
+          "aliases": [
+            "Franck-Condonův princip",
+            "Franck–Condonův princip",
+            "Franckův-Condonův princip"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Franck%E2%80%93Condon_principle"
+          ]
+        },
+        "after": {
+          "id": "science-cs-hard-03-07",
+          "text": "Jaké pravidlo poruchové teorie určuje rychlost kvantového přechodu jako veličinu úměrnou čtverci absolutní hodnoty maticového elementu poruchy a hustotě konečných stavů?",
+          "initial": "F",
+          "answer": "Fermiho zlaté pravidlo",
+          "language": "cs",
+          "aliases": [
+            "Zlaté pravidlo poruchové teorie",
+            "Fermiho pravidlo",
+            "Fermi's golden rule",
+            "Fermi’s golden rule"
+          ],
+          "category": "science",
+          "sources": [
+            "https://ocw.mit.edu/courses/5-74-introductory-quantum-mechanics-ii-spring-2004/5f974b9793d98ad090ddd658764df01d_6.pdf"
+          ]
+        },
+        "reason": "Replace published Franck-Condon principle; distinct from the existing Fermi-energy question.",
+        "support": "MIT quantum mechanics lecture describes Fermi's golden rule as matrix element squared plus density of states for transition rates.",
+        "sourceAccess": "web_search explicit MIT OpenCourseWare PDF passage; direct Wikipedia attempt failed"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-08",
+      "answer": "Grüneisenův parametr",
+      "questionSha256": "23803d235e6d3a1585a4b979ed9ab9203b1d7b7a72d12cb163d0083de03106db",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-08"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-08",
+        "before": {
+          "id": "science-cs-hard-03-08",
+          "text": "Jaké pravidlo vztahuje počet stupňů volnosti k počtu složek a fází v rovnováze?",
+          "initial": "G",
+          "answer": "Gibbsovo fázové pravidlo",
+          "language": "cs",
+          "aliases": [
+            "Fázové pravidlo",
+            "Gibbsův fázový zákon",
+            "Gibbsovo pravidlo fází"
+          ],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Phase_rule"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-08",
+          "text": "Jaký bezrozměrný parametr fononového módu je definován zápornou logaritmickou derivací jeho frekvence podle objemu krystalu?",
+          "initial": "G",
+          "answer": "Grüneisenův parametr",
+          "language": "cs",
+          "aliases": [
+            "Grüneisenův módový parametr",
+            "Módový Grüneisenův parametr"
+          ],
+          "category": "science",
+          "sources": ["https://phonopy.github.io/phonopy/gruneisen.html"]
+        },
+        "reason": "Replace published Gibbs phase-rule identification. The same bounded four-candidate check found Gruneisenův parametr redundant with canonical Grüneisenův parametr under production normalization. Preserve its automatic acceptance and both distinct modal-parameter aliases while removing redundant storage.",
+        "support": "Production normalizeAnswer and acceptsAnswer prove identical accepted-answer sets before/after; factual support, prompt, canonical and source URLs are unchanged.",
+        "sourceAccess": "No new source judgment; lossless representation correction documented by normalization-equivalence.json."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-09",
+      "answer": "Hystereze",
+      "questionSha256": "828f824ef2c0f552829ee1499c1c660409089dc3612c525ffaf62d48d79ddcc7",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-09"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hysteresis",
+          "fetchedAt": "2026-10-30T22:32:03.223355+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "2caac5e4fa72df962875030b9b767f75adfac24543d6e6b9f7e54a24a4e3484f",
+          "sourceTextSha256": "b19594f64cdf716d804c808cfba36778bad3a50eeba89f994d3aeca582aa6349",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2caac5e4fa72df962875030b9b767f75adfac24543d6e6b9f7e54a24a4e3484f.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/b19594f64cdf716d804c808cfba36778bad3a50eeba89f994d3aeca582aa6349.txt",
+          "passage": "Hysteresis is the dependence of the state of a system on its history. For example, a magnet may have more than one possible magnetic moment in a given magnetic field, depending on how the field changed in the past. Such a system is called hysteretic. Plots of a single component of the moment often form a loop or hysteresis curve, where there are different values of one variable depending on the direction of change of another variable. This history dependence is the basis of memory in a hard disk drive and the remanence that retains a record of the Earth's magnetic field magnitude in the past. Hysteresis occurs in ferromagnetic and ferroelectric materials, as well as in the deformation of rubber bands and shape-memory alloys and many other natural phenomena. In natural systems, it is often associated with irreversible thermodynamic change such as phase transitions and with internal friction; and dissipation is a common side effect.",
+          "passageSha256": "3a425aaaea743d0c1f4507e6537b334f874c358c478163b086230a2d306d481b",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 944
+            }
+          ],
+          "readParagraphIndices": [0],
+          "readParagraphSha256": [
+            "3a425aaaea743d0c1f4507e6537b334f874c358c478163b086230a2d306d481b"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-10",
+      "answer": "Chemická aktivita",
+      "questionSha256": "44e41e59fc0003b4e43f6b1dd2cf8c2d971f6d7eaaba99873d6251636bcaaa50",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-10"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-10",
+        "before": {
+          "id": "science-cs-hard-03-10",
+          "text": "Jaká bezrozměrná veličina nahrazuje koncentraci v přesném popisu neideální chemické rovnováhy?",
+          "initial": "Ch",
+          "answer": "Chemická aktivita",
+          "language": "cs",
+          "aliases": ["Aktivita"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Activity_(chemistry)"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-10",
+          "text": "Jaká bezrozměrná veličina nahrazuje koncentraci v přesném popisu neideální chemické rovnováhy?",
+          "initial": "Ch",
+          "answer": "Chemická aktivita",
+          "language": "cs",
+          "aliases": ["Aktivita", "Termodynamická aktivita"],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Activity_(chemistry)",
+            "https://www.wikiskripta.eu/w/Chemick%C3%A1_aktivita"
+          ]
+        },
+        "reason": "Round-one S02: add the legitimate thermodynamic-activity name while retaining Aktivita.",
+        "support": "Czech medical university reference explicitly names chemická aktivita, termodynamická aktivita and aktivita as equivalent names.",
+        "sourceAccess": "Author and reviewer one independently directly inspected the reference definition; unchanged dimensionless fact also retains original source."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-11",
+      "answer": "Izoelektrický bod",
+      "questionSha256": "6295b9bc21b0a74672defe0d3dfd3963c52a9a4d5f6bcb055332a4fd894ee53a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-11"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-11",
+        "before": {
+          "id": "science-cs-hard-03-11",
+          "text": "Jaký termodynamický děj probíhá za stálé entropie?",
+          "initial": "I",
+          "answer": "Izoentropický děj",
+          "language": "cs",
+          "aliases": [
+            "Izentropický děj",
+            "Izoentropický proces",
+            "Izentropický proces"
+          ],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Isentropic_process"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-11",
+          "text": "Jak se nazývá hodnota pH, při níž má aminokyselina nebo bílkovina v roztoku v průměru nulový výsledný elektrický náboj?",
+          "initial": "I",
+          "answer": "Izoelektrický bod",
+          "language": "cs",
+          "aliases": ["Isoelektrický bod", "pI"],
+          "category": "science",
+          "sources": [
+            "https://www.old.goldbook.iupac.org/plain/I03275-plain.html"
+          ]
+        },
+        "reason": "Replace published constant-entropy-process identification.",
+        "support": "IUPAC defines isoelectric point by zero net charge; LibreTexts explicitly applies pI to amino acids/peptides in aqueous solution.",
+        "sourceAccess": "web_search explicit IUPAC Gold Book and university LibreTexts passages; Wikipedia direct attempt failed"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-12",
+      "answer": "Janusovy částice",
+      "questionSha256": "6534d2df205c8b7248285b2090498da031c046a850a6dd98658c8cadb39a925b",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-12"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-12",
+        "before": {
+          "id": "science-cs-hard-03-12",
+          "text": "Jaký jev vede k deformaci nelineární molekuly s prostorově degenerovaným elektronovým základním stavem a tím k odstranění degenerace?",
+          "initial": "J",
+          "answer": "Jahnův–Tellerův jev",
+          "language": "cs",
+          "aliases": [
+            "Jahn-Tellerův jev",
+            "Jahn–Tellerův jev",
+            "Jahnův-Tellerův jev",
+            "Jahnův–Tellerův efekt",
+            "Jahnův-Tellerův efekt",
+            "Jahn-Tellerův efekt",
+            "Jahn–Tellerův efekt"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jahn%E2%80%93Teller_effect",
+            "https://cs.wikipedia.org/wiki/Jahn%C5%AFv%E2%80%93Teller%C5%AFv_efekt"
+          ]
+        },
+        "after": {
+          "id": "science-cs-hard-03-12",
+          "text": "Jak se nazývají částice se dvěma odlišně funkčními stranami povrchu, například jednou hydrofilní a druhou hydrofobní, pojmenované po římském bohu dvou tváří?",
+          "initial": "J",
+          "answer": "Janusovy částice",
+          "language": "cs",
+          "aliases": [
+            "Janusova částice",
+            "Janus particles",
+            "Janusovy nanočástice"
+          ],
+          "category": "science",
+          "sources": ["https://www.mdpi.com/2413-4155/8/8/201"]
+        },
+        "reason": "Replace published Jahn-Teller distortion identification.",
+        "support": "Peer-reviewed review describes Janus particles with contrasting faces, including hydrophilic/hydrophobic hemispheres, named for the two-faced Roman god.",
+        "sourceAccess": "web_search explicit journal review passage, not full-page fetch"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-13",
+      "answer": "Kondoův jev",
+      "questionSha256": "5bce162edac5c31296d8b769146582d56baf4de3bbf03810c01c3a012f463918",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-13"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-13",
+        "before": {
+          "id": "science-cs-hard-03-13",
+          "text": "Jaký výsledek zaručuje nejméně dvojnásobnou degeneraci energetických hladin systému s lichým počtem fermionů, má-li symetrii vůči obrácení času?",
+          "initial": "K",
+          "answer": "Kramersova degenerace",
+          "language": "cs",
+          "aliases": ["Kramersův teorém", "Kramersova věta"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Kramers%27_theorem"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-13",
+          "text": "Jaký jev vysvětluje, proč odpor kovu s malým množstvím magnetických příměsí po dosažení minima při dalším ochlazování znovu roste?",
+          "initial": "K",
+          "answer": "Kondoův jev",
+          "language": "cs",
+          "aliases": [
+            "Kondův jev",
+            "Kondoův efekt",
+            "Kondův efekt",
+            "Kondo effect"
+          ],
+          "category": "science",
+          "sources": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC4338838/"]
+        },
+        "reason": "Replace published Kramers degeneracy identification.",
+        "support": "The academic review explains low-temperature resistance minima in dilute magnetic-impurity metals and increasing resistivity on cooling from Kondo scattering.",
+        "sourceAccess": "web_search explicit journal article and Wikipedia passages, not direct full-text inspection"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-14",
+      "answer": "Luttingerova kapalina",
+      "questionSha256": "90e5ee03fb4b54d6c2d72e6d8e1116041ca294d997f26c40014d56b9701a9cea",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-14"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-14",
+        "before": {
+          "id": "science-cs-hard-03-14",
+          "text": "Jaký bezsrážkový mechanismus tlumí plazmovou vlnu rezonanční výměnou energie s částicemi?",
+          "initial": "L",
+          "answer": "Landauův útlum",
+          "language": "cs",
+          "aliases": ["Landauovo tlumení"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Landau_damping"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-14",
+          "text": "Jak se nazývá model jednorozměrného systému interagujících elektronů, v němž se mohou spinové a nábojové excitace šířit různými rychlostmi?",
+          "initial": "L",
+          "answer": "Luttingerova kapalina",
+          "language": "cs",
+          "aliases": [
+            "Tomonagova–Luttingerova kapalina",
+            "Tomonagova-Luttingerova kapalina",
+            "Tomonaga-Luttingerova kapalina",
+            "Tomonaga–Luttingerova kapalina",
+            "Luttinger liquid",
+            "Tomonaga-Luttinger liquid",
+            "Tomonaga–Luttinger liquid"
+          ],
+          "category": "science",
+          "sources": [
+            "https://www.sp.phy.cam.ac.uk/research/phds-jobs/many-body-effects-in-one-dimensional-wires"
+          ]
+        },
+        "reason": "Replace published Landau damping identification. Second-round Science14: add the conventional English en-dash form while preserving all supplied forms.",
+        "support": "Cambridge many-body research page supplies the Tomonaga-Luttinger liquid name for the one-dimensional interacting-electron model.",
+        "sourceAccess": "Reviewer two independently directly inspected the Cambridge research page."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-15",
+      "answer": "Madelungova konstanta",
+      "questionSha256": "bba37cdb04edb4dbd670a7209ae0ad4a573aa2a7104e6937c092a0dd1303d824",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-15"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-15",
+        "before": {
+          "id": "science-cs-hard-03-15",
+          "text": "Jaký jev umožňuje bezzpětnorázovou emisi a rezonanční absorpci gama záření jádry v pevné látce?",
+          "initial": "M",
+          "answer": "Mössbauerův jev",
+          "language": "cs",
+          "aliases": [
+            "Mössbauerův efekt",
+            "Mößbauerův jev",
+            "Mößbauerův efekt"
+          ],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/M%C3%B6ssbauer_effect"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-15",
+          "text": "Jak se nazývá bezrozměrný geometrický faktor v elektrostatické energii iontového krystalu, který má stejnou hodnotu pro NaCl a MgO se shodným typem struktury?",
+          "initial": "M",
+          "answer": "Madelungova konstanta",
+          "language": "cs",
+          "aliases": ["Madelung constant"],
+          "category": "science",
+          "sources": [
+            "https://chem.libretexts.org/Courses/East_Tennessee_State_University/CHEM_3110%3A_Descriptive_Inorganic_Chemistry/05%3A_Structure_and_Energetics_of_Solids/5.02%3A_Energetics_of_Ionic_Solids-_Lattice_Energy"
+          ]
+        },
+        "reason": "Replace published Mössbauer recoil-free gamma identification.",
+        "support": "LibreTexts states that the Madelung constant depends only on ion geometry; NaCl and MgO have the same constant because they have the same structure.",
+        "sourceAccess": "web_search explicit university LibreTexts passage"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-16",
+      "answer": "Nukleofil",
+      "questionSha256": "1e7f7913369cb12d8b4ac396f7e29de908c18a9e51e389e372b3a88883e30f6e",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-16"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-16",
+        "before": {
+          "id": "science-cs-hard-03-16",
+          "text": "Jaká věta spojuje spojitou symetrii akce s odpovídajícím zákonem zachování?",
+          "initial": "N",
+          "answer": "Noetherové věta",
+          "language": "cs",
+          "aliases": [
+            "Noetherové teorém",
+            "Teorém Noetherové",
+            "Věta Noetherové",
+            "První věta Noetherové",
+            "První Noetherové teorém"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Noether%27s_theorem",
+            "https://cs.wikipedia.org/wiki/Teor%C3%A9m_Noetherov%C3%A9"
+          ]
+        },
+        "after": {
+          "id": "science-cs-hard-03-16",
+          "text": "Jak se v organické chemii nazývá činidlo, které poskytuje elektronový pár elektrofilu při tvorbě nové kovalentní vazby?",
+          "initial": "N",
+          "answer": "Nukleofil",
+          "language": "cs",
+          "aliases": ["Nukleofilní činidlo", "Nucleophile", "Lewisova báze"],
+          "category": "science",
+          "sources": [
+            "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Basic_Principles_of_Organic_Chemistry_(Roberts_and_Caserio)/08%3A_Nucleophilic_Substitution_and_Elimination_Reactions/8.02%3A_Classification_of_Reagents_as_Electrophiles_and_Nucleophiles._Acids_and_Bases"
+          ]
+        },
+        "reason": "Replace published Noether symmetry/conservation theorem.",
+        "support": "Roberts and Caserio textbook defines a nucleophile as a neutral or charged reagent supplying an electron pair to make a new covalent bond; it explicitly relates the definition to a Lewis base.",
+        "sourceAccess": "web_search explicit university LibreTexts textbook passage; direct Gold Book attempt returned 403 and is not claimed inspected"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-17",
+      "answer": "Ostwaldovo zrání",
+      "questionSha256": "3c2fe0cb00e78cfed1c0fab9ac95ba2722bb42f902de8aa4dbea2d667acd9678",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-17"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-17",
+        "before": {
+          "id": "science-cs-hard-03-17",
+          "text": "Jaké vztahy vyjadřují symetrii křížových lineárních transportních koeficientů poblíž rovnováhy při zachování symetrie vůči obrácení času?",
+          "initial": "O",
+          "answer": "Onsagerovy reciproční relace",
+          "language": "cs",
+          "aliases": [
+            "Onsagerovy relace",
+            "Onsagerovy reciproční vztahy",
+            "Onsagerovy vztahy reciprocity"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Onsager_reciprocal_relations"
+          ]
+        },
+        "after": {
+          "id": "science-cs-hard-03-17",
+          "text": "Jak se nazývá proces, při němž se menší částice disperze rozpouštějí a materiál přechází na větší částice, čímž se snižuje celková povrchová energie?",
+          "initial": "O",
+          "answer": "Ostwaldovo zrání",
+          "language": "cs",
+          "aliases": ["Ostwaldovo dozrávání", "Ostwald ripening"],
+          "category": "science",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/pdf/10.1002/agt2.70116"
+          ]
+        },
+        "reason": "Replace published Onsager reciprocal-relations identification; distinct from Ostwald ammonia oxidation process.",
+        "support": "Review explains size-dependent solubility, net diffusion from smaller to larger particles and reduced total surface energy.",
+        "sourceAccess": "web_search explicit Wiley review passages"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-18",
+      "answer": "Pauliho paramagnetismus",
+      "questionSha256": "409fb4f26bde49773a2113c58d6d7709cb4bb6dac3a8a339c3e85c1ddb3548fb",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-18"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-18",
+        "before": {
+          "id": "science-cs-hard-03-18",
+          "text": "Jaký zákon popisuje průrazné napětí mezi elektrodami v daném plynu jako funkci součinu tlaku a jejich vzdálenosti?",
+          "initial": "P",
+          "answer": "Paschenův zákon",
+          "language": "cs",
+          "aliases": [],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Paschen%27s_law"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-18",
+          "text": "Jak se nazývá slabý paramagnetismus vodivostních elektronů v kovu, jehož susceptibilita je při teplotách hluboko pod Fermiho teplotou téměř nezávislá na teplotě?",
+          "initial": "P",
+          "answer": "Pauliho paramagnetismus",
+          "language": "cs",
+          "aliases": ["Pauliův paramagnetismus", "Pauli paramagnetism"],
+          "category": "science",
+          "sources": [
+            "https://bingweb.binghamton.edu/~suzuki/SolidStatePhysics/30-2_Pauli_paramagnetism.pdf"
+          ]
+        },
+        "reason": "Replace published Paschen breakdown-voltage identification.",
+        "support": "University solid-state physics notes derive conduction-electron spin paramagnetism and temperature-independent magnetization in the degenerate regime.",
+        "sourceAccess": "web_search explicit Binghamton University lecture passage"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-19",
+      "answer": "Rayleighův–Jeansův zákon",
+      "questionSha256": "94d37c754deeea4ba839ff4750db88109dfbc870f258ea4e33b99c73d663668a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-19"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-19",
+        "before": {
+          "id": "science-cs-hard-03-19",
+          "text": "Jak se nazývá rozptyl alfa částic Coulombovým odpuzováním na atomových jádrech, který vysvětlil velké úhly odchylky v pokusu se zlatou fólií?",
+          "initial": "R",
+          "answer": "Rutherfordův rozptyl",
+          "language": "cs",
+          "aliases": ["Coulombův rozptyl", "Rutherfordovo rozptylování"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Rutherford_scattering"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-19",
+          "text": "Jaký klasický zákon pro spektrum záření černého tělesa souhlasí s měřením při dlouhých vlnách, ale při krátkých vede k ultrafialové katastrofě?",
+          "initial": "R",
+          "answer": "Rayleighův–Jeansův zákon",
+          "language": "cs",
+          "aliases": [
+            "Rayleighův-Jeansův zákon",
+            "Rayleigh-Jeansův zákon",
+            "Rayleigh–Jeansův zákon",
+            "Rayleigh-Jeans law",
+            "Rayleigh–Jeans law"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law"
+          ]
+        },
+        "reason": "Replace published Rutherford alpha-scattering identification.",
+        "support": "Rayleigh-Jeans describes classical blackbody spectral radiance, valid at long wavelengths and divergent at short wavelengths.",
+        "sourceAccess": "web_search explicit Wikipedia and university LibreTexts passages"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-20",
+      "answer": "Řád reakce",
+      "questionSha256": "36fc1635e3eea45218bdb2184f25c26eccf5b00d5f03ed6f257f9c42a7894e1c",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-20"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-20",
+        "before": {
+          "id": "science-cs-hard-03-20",
+          "text": "Jaká veličina je součtem exponentů (mocnitelů) u koncentrací v empirické rychlostní rovnici chemické reakce?",
+          "initial": "Ř",
+          "answer": "Řád reakce",
+          "language": "cs",
+          "aliases": ["Reakční řád"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Order_of_reaction"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-20",
+          "text": "Jaká veličina je součtem exponentů (mocnitelů) u koncentrací v empirické rychlostní rovnici chemické reakce?",
+          "initial": "Ř",
+          "answer": "Řád reakce",
+          "language": "cs",
+          "aliases": [
+            "Reakční řád",
+            "Celkový řád reakce",
+            "Celkový reakční řád"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Order_of_reaction",
+            "https://cs.khanacademy.org/test-prep/mcat/chemical-processes/kinetics/v/experimental-determination-of-rate-laws"
+          ]
+        },
+        "reason": "Round-one S03: accept the explicit overall-reaction-order answer and its natural Czech word order; retain Reakční řád.",
+        "support": "Original source defines overall reaction order as the sum of rate-law concentration exponents; Czech Khan Academy passage inspected by reviewer supports the celkový řád wording.",
+        "sourceAccess": "Reviewer one inspected original captured passage and Czech educational search passage."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-21",
+      "answer": "Soretův jev",
+      "questionSha256": "865166629276c7c4e33c509a3cceccb792b1e418167a7742c3224fe4d9fec5af",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-21"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-21",
+        "before": {
+          "id": "science-cs-hard-03-21",
+          "text": "Jaký jev vytváří fázový rozdíl světla obíhajícího opačnými směry po uzavřené dráze při rotaci kolem osy kolmé k její rovině?",
+          "initial": "S",
+          "answer": "Sagnacův jev",
+          "language": "cs",
+          "aliases": ["Sagnacův efekt"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Sagnac_effect"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-21",
+          "text": "Jak se nazývá vznik koncentračního rozdílu mezi složkami směsi působením teplotního gradientu, tedy protějšek Dufourova jevu?",
+          "initial": "S",
+          "answer": "Soretův jev",
+          "language": "cs",
+          "aliases": [
+            "Soretův efekt",
+            "Termodifuze",
+            "Tepelná difuze",
+            "Soret effect"
+          ],
+          "category": "science",
+          "sources": ["https://ar5iv.labs.arxiv.org/html/2109.05082"]
+        },
+        "reason": "Replace published Sagnac rotation-induced phase identification.",
+        "support": "Academic thermodiffusion framework defines Soret effect as temperature-gradient-driven diffusion, and Dufour as the converse concentration-gradient-driven heat flux.",
+        "sourceAccess": "web_search explicit academic article passage"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-22",
+      "answer": "Šroubová dislokace",
+      "questionSha256": "7e550cff85a6ca299baca7eef06793f58bf67bbbabf036919b336c8ab978c9ef",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-22"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Dislocation",
+          "fetchedAt": "2026-10-30T22:32:09.601410+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "bd5457892a5db8bcb9b84326872c40d252e5e71cd817e5b12212b83629c1a832",
+          "sourceTextSha256": "2fc01e977cb30206faa34811a0cef5f119fa2b08d21fe63a6488cd643eeaa4af",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/bd5457892a5db8bcb9b84326872c40d252e5e71cd817e5b12212b83629c1a832.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/2fc01e977cb30206faa34811a0cef5f119fa2b08d21fe63a6488cd643eeaa4af.txt",
+          "passage": "In materials science, a dislocation is a linear crystallographic defect or irregularity within a crystal structure that contains an abrupt change in the arrangement of atoms. The movement of dislocations allows atoms to slide over each other at low stress levels and is known as glide or slip. The crystalline order is restored on either side of a glide dislocation but the atoms on one side have moved by one position. The crystalline order is not fully restored with a partial dislocation. A dislocation defines the boundary between slipped and unslipped regions of material and as a result, must either form a complete loop, intersect other dislocations or defects, or extend to the edges of the crystal. A dislocation can be characterised by the distance and direction of movement it causes to atoms which is defined by the Burgers vector. Plastic deformation of a material occurs by the creation and movement of many dislocations. The number and arrangement of dislocations influences many of the properties of materials.\n\nA screw dislocation can be visualized by cutting a crystal along a plane and slipping one half across the other by a lattice vector, the halves fitting back together without leaving a defect. If the cut only goes part way through the crystal, and then slipped, the boundary of the cut is a screw dislocation. It comprises a structure in which a helical path is traced around the linear defect (dislocation line) by the atomic planes in the crystal lattice. In pure screw dislocations, the Burgers vector is parallel to the line direction. An array of screw dislocations can cause what is known as a twist boundary. In a twist boundary, the misalignment between adjacent crystal grains occurs due to the cumulative effect of screw dislocations within the material. These dislocations cause a rotational misorientation between the adjacent grains, leading to a twist-like deformation along the boundary. Twist boundaries can significantly influence the mechanical and electrical properties of materials, affecting phenomena such as grain boundary sliding, creep, and fracture behavior The stresses caused by a screw dislocation are less complex than those of an edge dislocation and need only one equation, as symmetry allows one radial coordinate to be used:",
+          "passageSha256": "5043878426381c7f2ffa565623dd798d5c04ced52ca6b4fbf04505c10922b3d1",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 1026
+            },
+            {
+              "paragraphIndex": 41,
+              "start": 0,
+              "end": 1257
+            }
+          ],
+          "readParagraphIndices": [0, 41],
+          "readParagraphSha256": [
+            "d5540777d4d5233e1e35fdd555e17ec0a4e05c9fe541e5fd9e2bc5421f1e20dd",
+            "eb6b6dcd9812afca9509c08169ebec3b2827cd67f228efe816b85eec5ff8cf7b"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-23",
+      "answer": "Thomasova precese",
+      "questionSha256": "130521085bc89355b7550b77b78fdfdf197fcecdb2aac444aba593e6dee72e51",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-23"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-23",
+        "before": {
+          "id": "science-cs-hard-03-23",
+          "text": "Jaký proces násobí elektrony postupnými ionizačními srážkami v plynu vystaveném elektrickému poli?",
+          "initial": "T",
+          "answer": "Townsendova lavina",
+          "language": "cs",
+          "aliases": ["Elektronová lavina", "Townsendův výboj"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Townsend_discharge"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-23",
+          "text": "Jak se nazývá relativistická precese spinu spojená se změnami okamžité klidové soustavy zrychlované částice, jejíž započtení opravuje faktor dvě ve spin-orbitální interakci elektronu?",
+          "initial": "T",
+          "answer": "Thomasova precese",
+          "language": "cs",
+          "aliases": ["Thomasova rotace", "Thomas precession"],
+          "category": "science",
+          "sources": [
+            "https://scipp-legacy.pbsci.ucsc.edu/~haber/webpage/Thomas.pdf"
+          ]
+        },
+        "reason": "Replace published Townsend electron-avalanche identification.",
+        "support": "UCSC derives Thomas precession and states that neglecting it makes the electron spin-orbit result twice the correct value.",
+        "sourceAccess": "web_search explicit University of California Santa Cruz lecture passage"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-24",
+      "answer": "Ureyův–Millerův experiment",
+      "questionSha256": "129dc6074eeff90d08b6dec2e26a78577220601f61951151be6c643ee1617fb5",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-24"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-24",
+        "before": {
+          "id": "science-cs-hard-03-24",
+          "text": "Jaký jaderný mechanismus ochlazuje hustou hvězdnou hmotu emisí neutrin a antineutrin při střídání beta rozpadu a elektronového záchytu?",
+          "initial": "U",
+          "answer": "Urca proces",
+          "language": "cs",
+          "aliases": ["Proces Urca", "Urca mechanismus"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Urca_process"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-24",
+          "text": "Jak se nazývá pokus, jehož výsledky byly zveřejněny v roce 1953 a při němž elektrické výboje ve směsi jednoduchých plynů a vodní páry vedly ke vzniku aminokyselin?",
+          "initial": "U",
+          "answer": "Ureyův–Millerův experiment",
+          "language": "cs",
+          "aliases": [
+            "Ureyův-Millerův experiment",
+            "Millerův–Ureyův experiment",
+            "Millerův-Ureyův experiment",
+            "Miller-Ureyův experiment",
+            "Miller–Ureyův experiment",
+            "Millerův experiment",
+            "Urey-Millerův experiment",
+            "Urey–Millerův experiment",
+            "Millerův pokus",
+            "Ureyův–Millerův pokus",
+            "Ureyův-Millerův pokus",
+            "Millerův–Ureyův pokus",
+            "Millerův-Ureyův pokus",
+            "Miller-Ureyův pokus",
+            "Miller–Ureyův pokus",
+            "Urey-Millerův pokus",
+            "Urey–Millerův pokus",
+            "Miller-Urey experiment",
+            "Miller–Urey experiment"
+          ],
+          "category": "science",
+          "sources": [
+            "https://www.britannica.com/science/Miller-Urey-experiment",
+            "https://edu.ceskatelevize.cz/video/5788-pokus-tvorba-aminokyselin",
+            "https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/"
+          ]
+        },
+        "reason": "Replace published Urca neutrino-cooling identification. Round-one S04: preserve all existing experiment names and add legitimate Czech pokus forms, both name orders, hyphen variants and the standard English name. Second-round Science24: use the stable 1953 publication date rather than an execution year disputed by the inspected sources; preserve all legitimate name orders and punctuation forms.",
+        "support": "Linda Hall Library describes the fall 1952 setup and explicitly dates the original Science publication to 15 May 1953. No gas-composition detail from its inconsistent mixture list is needed by this clue.",
+        "sourceAccess": "Author and reviewer two independently directly inspected the library's publication-history paragraphs."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-25",
+      "answer": "Viriálový teorém",
+      "questionSha256": "10fd2a4226ab4a976ef3151f850c1982c197f919b11102a0613f4caaa707ee17",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-25"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-25",
+        "before": {
+          "id": "science-cs-hard-03-25",
+          "text": "Jaká metoda určuje plošný odpor tenkého homogenního izotropního vzorku bez otvorů se stálou tloušťkou pomocí čtyř malých kontaktů na jeho obvodu?",
+          "initial": "V",
+          "answer": "Van der Pauwova metoda",
+          "language": "cs",
+          "aliases": [],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Van_der_Pauw_method"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-25",
+          "text": "Jaká věta dává pro dlouhodobě ustálenou gravitačně vázanou soustavu vztah, podle něhož je dvojnásobek časově středované kinetické energie roven záporné středované potenciální energii?",
+          "initial": "V",
+          "answer": "Viriálový teorém",
+          "language": "cs",
+          "aliases": ["Viriálová věta", "Virial theorem"],
+          "category": "science",
+          "sources": ["https://mathworld.wolfram.com/VirialTheorem.html"]
+        },
+        "reason": "Replace published van der Pauw resistance-method identification.",
+        "support": "Virial theorem relates time-averaged kinetic energy and forces; for inverse-square gravity, 2<T> = -<V> under bounded/steady averaging conditions.",
+        "sourceAccess": "web_search explicit Wolfram MathWorld formula and LibreTexts central-force specialization"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-26",
+      "answer": "Weissenbergův jev",
+      "questionSha256": "699dd66b5e57c58d9f33cd03be6960a10f416064e17870f5fb35a9c93e2ad5fb",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-26"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-26",
+        "before": {
+          "id": "science-cs-hard-03-26",
+          "text": "Jaký zákon říká, že poměr elektronové tepelné vodivosti k elektrické vodivosti kovu je úměrný absolutní teplotě?",
+          "initial": "W",
+          "answer": "Wiedemannův–Franzův zákon",
+          "language": "cs",
+          "aliases": [
+            "Wiedemann-Franzův zákon",
+            "Wiedemann–Franzův zákon",
+            "Wiedemannův-Franzův zákon"
+          ],
+          "category": "science",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Wiedemann%E2%80%93Franz_law"
+          ]
+        },
+        "after": {
+          "id": "science-cs-hard-03-26",
+          "text": "Jak se nazývá jev, při němž viskoelastická kapalina při míchání stoupá po rotující tyči vlivem rozdílů normálových napětí?",
+          "initial": "W",
+          "answer": "Weissenbergův jev",
+          "language": "cs",
+          "aliases": [
+            "Weissenbergův efekt",
+            "Weissenberg effect",
+            "Rod-climbing effect"
+          ],
+          "category": "science",
+          "sources": [
+            "https://collaborate.princeton.edu/en/publications/transient-rod-climbing-in-a-viscoelastic-fluid/"
+          ]
+        },
+        "reason": "Replace published Wiedemann-Franz conductivity-law identification.",
+        "support": "Princeton research abstract identifies rod climbing as Weissenberg effect; journal passage attributes ascent to normal-stress differences.",
+        "sourceAccess": "web_search explicit Princeton research abstract and Cambridge journal passage"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-27",
+      "answer": "Zitterbewegung",
+      "questionSha256": "1e52bc948d8a9ff8a684574296dff7e6c2bbc15997de80c7de2778982645c562",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-27"
+      },
+      "revision": {
+        "id": "science-cs-hard-03-27",
+        "before": {
+          "id": "science-cs-hard-03-27",
+          "text": "Jaký jev rozštěpuje atomovou spektrální čáru ve vnějším magnetickém poli?",
+          "initial": "Z",
+          "answer": "Zeemanův jev",
+          "language": "cs",
+          "aliases": ["Zeemanův efekt"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Zeeman_effect"]
+        },
+        "after": {
+          "id": "science-cs-hard-03-27",
+          "text": "Jakým německým názvem se označují rychlé oscilace polohy v Diracově popisu elektronu, spojované s interferencí složek s kladnou a zápornou energií?",
+          "initial": "Z",
+          "answer": "Zitterbewegung",
+          "language": "cs",
+          "aliases": ["Chvějivý pohyb", "Třesavý pohyb"],
+          "category": "science",
+          "sources": ["https://en.wikipedia.org/wiki/Zitterbewegung"]
+        },
+        "reason": "Replace published Zeeman spectral-splitting identification.",
+        "support": "Reference explains apparent rapid position fluctuations from positive/negative energy interference in Dirac wave packets, not a classical orbit.",
+        "sourceAccess": "web_search explicit Wikipedia passages"
+      }
+    },
+    {
+      "id": "science-cs-hard-03-28",
+      "answer": "Železitý ion",
+      "questionSha256": "4f04d371c19ac31b7437d21a5c14112e6896cbdf8f7efcd365653d4f890f2337",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/science/batches/b02-v2/sources.json",
+        "sha256": "563ef3b3f49cc765c303d873e9b5020e4fed1dd9adc3077926941c3c46963ae6",
+        "entryId": "science-cs-hard-03-28"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Iron(III)",
+          "fetchedAt": "2026-10-30T22:32:10.252111+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "85589692273f359cbc5e45090c44eaf10d7efae9ffb901a451d43684316871d1",
+          "sourceTextSha256": "d8f76db960de1d72ee706d9bd82c4958371ca14eefa68283334f331e0dd384d6",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/85589692273f359cbc5e45090c44eaf10d7efae9ffb901a451d43684316871d1.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/d8f76db960de1d72ee706d9bd82c4958371ca14eefa68283334f331e0dd384d6.txt",
+          "passage": "In chemistry, iron(III) or ferric refers to the element iron in its +3 oxidation state. Ferric chloride is an alternative name for iron(III) chloride (FeCl3). The adjective ferrous is used instead for iron(II) salts, containing the cation Fe2+. The word ferric is derived from the Latin word ferrum, meaning \"iron\".\n\nThe aquo ligands on iron(III) complexes are labile. This behavior is visualized by the color change brought about by reaction with thiocyanate to give a deep red thiocyanate complex.",
+          "passageSha256": "75c946e6c69f09e4aa0027b6432739d593a17b5d1888c483a87b7c674024ea65",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 0,
+              "start": 0,
+              "end": 315
+            },
+            {
+              "paragraphIndex": 6,
+              "start": 0,
+              "end": 182
+            }
+          ],
+          "readParagraphIndices": [0, 6],
+          "readParagraphSha256": [
+            "c64d8c45b29a5b415c0bf1054e3f0d144aee7bf04e9e5e8e422d179f4a689f5a",
+            "1c1e43cf2a104f11bd065e9156d8fb6707d486b0d2472cb919a323e362c9a3f4"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/%C5%BDelezo",
+          "fetchedAt": "2026-10-30T22:36:16.119137+00:00",
+          "sourceQuality": "public secondary encyclopedia; not institutional primary evidence",
+          "sourceBodySha256": "fc28f2da6d0973f65623c1a9a921a3d36438db3724d31f89a9c53523e34043e8",
+          "sourceTextSha256": "152d23411c42aa958bee6d31ec3d27b9a17fa5b761a079662addb20ce5e55379",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/fc28f2da6d0973f65623c1a9a921a3d36438db3724d31f89a9c53523e34043e8.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/science/b02-author/frozen-sources/152d23411c42aa958bee6d31ec3d27b9a17fa5b761a079662addb20ce5e55379.txt",
+          "passage": "Charakteristické krvavě červené zbarvení dávají železité soli po přidání SCN−. Způsobují ho vznikající thiokyanatoželezitany (rhodanoželezitany) [Fe(SCN)6]3−, [Fe(SCN)4]−, Fe(SCN)3 a převládající [Fe(H2O)5(SCN)]2+.",
+          "passageSha256": "cabf82ab8cebc7270b38f257dd4c380f1dfd381f294a4764fbd378a4f794c072",
+          "excerptRanges": [
+            {
+              "paragraphIndex": 73,
+              "start": 0,
+              "end": 214
+            }
+          ],
+          "readParagraphIndices": [73],
+          "readParagraphSha256": [
+            "cabf82ab8cebc7270b38f257dd4c380f1dfd381f294a4764fbd378a4f794c072"
+          ],
+          "provenance": {
+            "reused": false
+          }
+        }
+      ]
+    }
+  ],
+  "reviewRecords": [
+    "../reviews/phase-12-science-cs-hard-03-round-1.json",
+    "../reviews/phase-12-science-cs-hard-03-round-2.json"
+  ],
+  "reviewRecordHashes": [
+    {
+      "path": "reviews/phase-12-science-cs-hard-03-round-1.json",
+      "sha256": "9c91a485cfa6d9a21919911e23bd77e10041499ed311e62cbe7df3f2fe23e3a5"
+    },
+    {
+      "path": "reviews/phase-12-science-cs-hard-03-round-2.json",
+      "sha256": "47467d1bb8f63ab5296020dabde1d43c5b6c0b02db60c321840682a4ad4fe388"
+    }
+  ],
+  "reviewCompletion": {
+    "packSha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+    "independentRounds": 2,
+    "acceptedQuestionsPerRound": 28,
+    "openFindings": 0,
+    "continuity": "Two distinct non-author research reviewers completed all 28 entries and all relevant source, alias, wording, initial, difficulty and bilingual semantic judgments. Original failed/held snapshots remain preserved; both rounds explicitly accept every final question under this actual pack hash after narrow correction review."
+  },
+  "validation": {
+    "id": "science-cs-hard-03",
+    "packSha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+    "questions": 28,
+    "fixedCzechLabels": true,
+    "acceptedForms": 133,
+    "allFormsMatch": true,
+    "importExportRoundtrip": true
+  },
+  "normalizationContinuity": {
+    "proof": {
+      "id": "science-cs-hard-03",
+      "beforePackSha256": "4ead8c4bfd9f6e281a52e49d489b37818c1d7f19282bb3093fb660b3a271d63d",
+      "packSha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+      "acceptedAnswerSetExactlyUnchanged": true,
+      "changed": [
+        {
+          "id": "science-cs-hard-03-08",
+          "beforeAliases": [
+            "Gruneisenův parametr",
+            "Grüneisenův módový parametr",
+            "Módový Grüneisenův parametr"
+          ],
+          "afterAliases": [
+            "Grüneisenův módový parametr",
+            "Módový Grüneisenův parametr"
+          ],
+          "allPriorFormsRemainAccepted": true
+        }
+      ]
+    },
+    "history": "The first General exact-parent content gate exposed redundant normalization-equivalent alias storage. Three redundant strings across General/Science were removed without changing any accepted-answer set; both independent reviewers explicitly accepted the resulting final hashes. No tests or application code were changed.",
+    "preservedInitialFailedGate": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../general-cs-hard-05-content-gate-initial-failed.log",
+      "sha256": "96256ecf3450aec601876ca03b07440c061c70c307991cf6375b363f32cbd830"
+    }
+  },
+  "releasePolicy": {
+    "contentOnlyCommand": "NODE_OPTIONS=--max-old-space-size=2048 timeout 1200 npm run release:content -- 94814032e66fda6e600d5f73227e6e3bc1c144e6",
+    "application": "No application/tool/test/dependency changes and no local app build/typecheck/coverage/browser suites.",
+    "deployment": "Unchanged existing GitHub Actions main deployment may build the application; verify its actual merge revision separately. No live browser/private-host check claimed."
+  },
+  "limitations": [
+    "Search-passage support is labeled as such; direct access failures are not represented as full-page inspection.",
+    "Historical capture/paperwork gaps are not reconstructed or relabeled as proven.",
+    "Bounded deck release is not Phase12 clearance; final quotas and cleanup remain open."
+  ]
+}

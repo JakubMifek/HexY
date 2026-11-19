@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 2,
+  "id": "science-cs-hard-03",
+  "title": "Věda a technika · Těžké · 03",
+  "language": "cs",
+  "mode": "letters",
+  "difficulty": "hard",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "science-cs-hard-03-01",
+      "text": "Jak se nazývá kvantové potlačení šíření elektronových vln v neuspořádaném prostředí v důsledku interference, nikoli jejich vzájemného odpuzování?",
+      "initial": "A",
+      "answer": "Andersonova lokalizace",
+      "language": "cs",
+      "aliases": ["Anderson localization"],
+      "category": "science",
+      "sources": ["https://link.springer.com/book/10.1007/b13139"]
+    },
+    {
+      "id": "science-cs-hard-03-02",
+      "text": "Jak se nazývá periodický pohyb elektronu v ideální krystalové mřížce pod působením stálého elektrického pole, namísto neomezeného zrychlování?",
+      "initial": "B",
+      "answer": "Blochovy oscilace",
+      "language": "cs",
+      "aliases": [
+        "Blochova oscilace",
+        "Blochovo kmitání",
+        "Bloch oscillations",
+        "Bloch oscillation"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Bloch_oscillation"]
+    },
+    {
+      "id": "science-cs-hard-03-03",
+      "text": "Která rovnice umožňuje odhadnout tlak nasycené páry při jiné teplotě ze známého tlaku a výparné entalpie, předpokládáme-li ideální páru, zanedbatelný objem kapaliny vůči páře a přibližně konstantní výparnou entalpii?",
+      "initial": "C",
+      "answer": "Clausiova–Clapeyronova rovnice",
+      "language": "cs",
+      "aliases": [
+        "Clausiova-Clapeyronova rovnice",
+        "Clausiusova–Clapeyronova rovnice",
+        "Clausiusova-Clapeyronova rovnice",
+        "Clausius-Clapeyronova rovnice",
+        "Clausius–Clapeyronova rovnice",
+        "Clausius-Clapeyron equation",
+        "Clausius–Clapeyron equation"
+      ],
+      "category": "science",
+      "sources": [
+        "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/23:_Phase_Equilibria/23.04:_The_Clausius-Clapeyron_Equation",
+        "https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node64.html"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-04",
+      "text": "Jak se v teorii elektrických obvodů nazývá síť se vstupní a výstupní dvojicí svorek, přičemž do jedné svorky každé dvojice vtéká stejný proud, jaký druhou vytéká?",
+      "initial": "Č",
+      "answer": "Čtyřpól",
+      "language": "cs",
+      "aliases": ["Dvojbran"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Two-port_network",
+        "https://www.engineeringdevotion.com/electric-circuits/chapter-19-two-port-networks.html"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-05",
+      "text": "Jak se nazývá cykloadice typu [4+2], při níž konjugovaný dien reaguje s dienofilem za vzniku šestičlenného kruhu?",
+      "initial": "D",
+      "answer": "Dielsova–Alderova reakce",
+      "language": "cs",
+      "aliases": [
+        "Dielsova-Alderova reakce",
+        "Diels-Alderova reakce",
+        "Diels–Alderova reakce",
+        "Dielsova–Alderova cykloadice",
+        "Dielsova-Alderova cykloadice",
+        "Diels-Alder reaction",
+        "Diels–Alder reaction"
+      ],
+      "category": "science",
+      "sources": [
+        "https://www.sigmaaldrich.com/SN/en/technical-documents/technical-article/chemistry-and-synthesis/organic-reaction-toolbox/diels-alder-reaction"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-06",
+      "text": "Jak se nazývá kvantový stav tří částic patřící do charakteristické geometricky škálované řady vázaných stavů, která může vzniknout poblíž rezonance i tehdy, když žádná dvojice částic sama není vázaná?",
+      "initial": "E",
+      "answer": "Efimovův stav",
+      "language": "cs",
+      "aliases": ["Efimovovy stavy", "Efimovův trimer", "Efimov state"],
+      "category": "science",
+      "sources": ["https://physics.aps.org/articles/v7/51"]
+    },
+    {
+      "id": "science-cs-hard-03-07",
+      "text": "Jaké pravidlo poruchové teorie určuje rychlost kvantového přechodu jako veličinu úměrnou čtverci absolutní hodnoty maticového elementu poruchy a hustotě konečných stavů?",
+      "initial": "F",
+      "answer": "Fermiho zlaté pravidlo",
+      "language": "cs",
+      "aliases": [
+        "Zlaté pravidlo poruchové teorie",
+        "Fermiho pravidlo",
+        "Fermi's golden rule",
+        "Fermi’s golden rule"
+      ],
+      "category": "science",
+      "sources": [
+        "https://ocw.mit.edu/courses/5-74-introductory-quantum-mechanics-ii-spring-2004/5f974b9793d98ad090ddd658764df01d_6.pdf"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-08",
+      "text": "Jaký bezrozměrný parametr fononového módu je definován zápornou logaritmickou derivací jeho frekvence podle objemu krystalu?",
+      "initial": "G",
+      "answer": "Grüneisenův parametr",
+      "language": "cs",
+      "aliases": ["Grüneisenův módový parametr", "Módový Grüneisenův parametr"],
+      "category": "science",
+      "sources": ["https://phonopy.github.io/phonopy/gruneisen.html"]
+    },
+    {
+      "id": "science-cs-hard-03-09",
+      "text": "Jak se nazývá závislost okamžité odezvy systému také na jeho předchozím průběhu, typická pro magnetizační smyčku?",
+      "initial": "H",
+      "answer": "Hystereze",
+      "language": "cs",
+      "aliases": [],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Hysteresis"]
+    },
+    {
+      "id": "science-cs-hard-03-10",
+      "text": "Jaká bezrozměrná veličina nahrazuje koncentraci v přesném popisu neideální chemické rovnováhy?",
+      "initial": "Ch",
+      "answer": "Chemická aktivita",
+      "language": "cs",
+      "aliases": ["Aktivita", "Termodynamická aktivita"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Activity_(chemistry)",
+        "https://www.wikiskripta.eu/w/Chemick%C3%A1_aktivita"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-11",
+      "text": "Jak se nazývá hodnota pH, při níž má aminokyselina nebo bílkovina v roztoku v průměru nulový výsledný elektrický náboj?",
+      "initial": "I",
+      "answer": "Izoelektrický bod",
+      "language": "cs",
+      "aliases": ["Isoelektrický bod", "pI"],
+      "category": "science",
+      "sources": ["https://www.old.goldbook.iupac.org/plain/I03275-plain.html"]
+    },
+    {
+      "id": "science-cs-hard-03-12",
+      "text": "Jak se nazývají částice se dvěma odlišně funkčními stranami povrchu, například jednou hydrofilní a druhou hydrofobní, pojmenované po římském bohu dvou tváří?",
+      "initial": "J",
+      "answer": "Janusovy částice",
+      "language": "cs",
+      "aliases": [
+        "Janusova částice",
+        "Janus particles",
+        "Janusovy nanočástice"
+      ],
+      "category": "science",
+      "sources": ["https://www.mdpi.com/2413-4155/8/8/201"]
+    },
+    {
+      "id": "science-cs-hard-03-13",
+      "text": "Jaký jev vysvětluje, proč odpor kovu s malým množstvím magnetických příměsí po dosažení minima při dalším ochlazování znovu roste?",
+      "initial": "K",
+      "answer": "Kondoův jev",
+      "language": "cs",
+      "aliases": [
+        "Kondův jev",
+        "Kondoův efekt",
+        "Kondův efekt",
+        "Kondo effect"
+      ],
+      "category": "science",
+      "sources": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC4338838/"]
+    },
+    {
+      "id": "science-cs-hard-03-14",
+      "text": "Jak se nazývá model jednorozměrného systému interagujících elektronů, v němž se mohou spinové a nábojové excitace šířit různými rychlostmi?",
+      "initial": "L",
+      "answer": "Luttingerova kapalina",
+      "language": "cs",
+      "aliases": [
+        "Tomonagova–Luttingerova kapalina",
+        "Tomonagova-Luttingerova kapalina",
+        "Tomonaga-Luttingerova kapalina",
+        "Tomonaga–Luttingerova kapalina",
+        "Luttinger liquid",
+        "Tomonaga-Luttinger liquid",
+        "Tomonaga–Luttinger liquid"
+      ],
+      "category": "science",
+      "sources": [
+        "https://www.sp.phy.cam.ac.uk/research/phds-jobs/many-body-effects-in-one-dimensional-wires"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-15",
+      "text": "Jak se nazývá bezrozměrný geometrický faktor v elektrostatické energii iontového krystalu, který má stejnou hodnotu pro NaCl a MgO se shodným typem struktury?",
+      "initial": "M",
+      "answer": "Madelungova konstanta",
+      "language": "cs",
+      "aliases": ["Madelung constant"],
+      "category": "science",
+      "sources": [
+        "https://chem.libretexts.org/Courses/East_Tennessee_State_University/CHEM_3110%3A_Descriptive_Inorganic_Chemistry/05%3A_Structure_and_Energetics_of_Solids/5.02%3A_Energetics_of_Ionic_Solids-_Lattice_Energy"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-16",
+      "text": "Jak se v organické chemii nazývá činidlo, které poskytuje elektronový pár elektrofilu při tvorbě nové kovalentní vazby?",
+      "initial": "N",
+      "answer": "Nukleofil",
+      "language": "cs",
+      "aliases": ["Nukleofilní činidlo", "Nucleophile", "Lewisova báze"],
+      "category": "science",
+      "sources": [
+        "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Basic_Principles_of_Organic_Chemistry_(Roberts_and_Caserio)/08%3A_Nucleophilic_Substitution_and_Elimination_Reactions/8.02%3A_Classification_of_Reagents_as_Electrophiles_and_Nucleophiles._Acids_and_Bases"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-17",
+      "text": "Jak se nazývá proces, při němž se menší částice disperze rozpouštějí a materiál přechází na větší částice, čímž se snižuje celková povrchová energie?",
+      "initial": "O",
+      "answer": "Ostwaldovo zrání",
+      "language": "cs",
+      "aliases": ["Ostwaldovo dozrávání", "Ostwald ripening"],
+      "category": "science",
+      "sources": ["https://onlinelibrary.wiley.com/doi/pdf/10.1002/agt2.70116"]
+    },
+    {
+      "id": "science-cs-hard-03-18",
+      "text": "Jak se nazývá slabý paramagnetismus vodivostních elektronů v kovu, jehož susceptibilita je při teplotách hluboko pod Fermiho teplotou téměř nezávislá na teplotě?",
+      "initial": "P",
+      "answer": "Pauliho paramagnetismus",
+      "language": "cs",
+      "aliases": ["Pauliův paramagnetismus", "Pauli paramagnetism"],
+      "category": "science",
+      "sources": [
+        "https://bingweb.binghamton.edu/~suzuki/SolidStatePhysics/30-2_Pauli_paramagnetism.pdf"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-19",
+      "text": "Jaký klasický zákon pro spektrum záření černého tělesa souhlasí s měřením při dlouhých vlnách, ale při krátkých vede k ultrafialové katastrofě?",
+      "initial": "R",
+      "answer": "Rayleighův–Jeansův zákon",
+      "language": "cs",
+      "aliases": [
+        "Rayleighův-Jeansův zákon",
+        "Rayleigh-Jeansův zákon",
+        "Rayleigh–Jeansův zákon",
+        "Rayleigh-Jeans law",
+        "Rayleigh–Jeans law"
+      ],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law"]
+    },
+    {
+      "id": "science-cs-hard-03-20",
+      "text": "Jaká veličina je součtem exponentů (mocnitelů) u koncentrací v empirické rychlostní rovnici chemické reakce?",
+      "initial": "Ř",
+      "answer": "Řád reakce",
+      "language": "cs",
+      "aliases": ["Reakční řád", "Celkový řád reakce", "Celkový reakční řád"],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Order_of_reaction",
+        "https://cs.khanacademy.org/test-prep/mcat/chemical-processes/kinetics/v/experimental-determination-of-rate-laws"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-21",
+      "text": "Jak se nazývá vznik koncentračního rozdílu mezi složkami směsi působením teplotního gradientu, tedy protějšek Dufourova jevu?",
+      "initial": "S",
+      "answer": "Soretův jev",
+      "language": "cs",
+      "aliases": [
+        "Soretův efekt",
+        "Termodifuze",
+        "Tepelná difuze",
+        "Soret effect"
+      ],
+      "category": "science",
+      "sources": ["https://ar5iv.labs.arxiv.org/html/2109.05082"]
+    },
+    {
+      "id": "science-cs-hard-03-22",
+      "text": "Jaká krystalová porucha má Burgersův vektor rovnoběžný s dislokační čárou?",
+      "initial": "Š",
+      "answer": "Šroubová dislokace",
+      "language": "cs",
+      "aliases": ["Šroubovitá dislokace"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Dislocation"]
+    },
+    {
+      "id": "science-cs-hard-03-23",
+      "text": "Jak se nazývá relativistická precese spinu spojená se změnami okamžité klidové soustavy zrychlované částice, jejíž započtení opravuje faktor dvě ve spin-orbitální interakci elektronu?",
+      "initial": "T",
+      "answer": "Thomasova precese",
+      "language": "cs",
+      "aliases": ["Thomasova rotace", "Thomas precession"],
+      "category": "science",
+      "sources": [
+        "https://scipp-legacy.pbsci.ucsc.edu/~haber/webpage/Thomas.pdf"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-24",
+      "text": "Jak se nazývá pokus, jehož výsledky byly zveřejněny v roce 1953 a při němž elektrické výboje ve směsi jednoduchých plynů a vodní páry vedly ke vzniku aminokyselin?",
+      "initial": "U",
+      "answer": "Ureyův–Millerův experiment",
+      "language": "cs",
+      "aliases": [
+        "Ureyův-Millerův experiment",
+        "Millerův–Ureyův experiment",
+        "Millerův-Ureyův experiment",
+        "Miller-Ureyův experiment",
+        "Miller–Ureyův experiment",
+        "Millerův experiment",
+        "Urey-Millerův experiment",
+        "Urey–Millerův experiment",
+        "Millerův pokus",
+        "Ureyův–Millerův pokus",
+        "Ureyův-Millerův pokus",
+        "Millerův–Ureyův pokus",
+        "Millerův-Ureyův pokus",
+        "Miller-Ureyův pokus",
+        "Miller–Ureyův pokus",
+        "Urey-Millerův pokus",
+        "Urey–Millerův pokus",
+        "Miller-Urey experiment",
+        "Miller–Urey experiment"
+      ],
+      "category": "science",
+      "sources": [
+        "https://www.britannica.com/science/Miller-Urey-experiment",
+        "https://edu.ceskatelevize.cz/video/5788-pokus-tvorba-aminokyselin",
+        "https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-25",
+      "text": "Jaká věta dává pro dlouhodobě ustálenou gravitačně vázanou soustavu vztah, podle něhož je dvojnásobek časově středované kinetické energie roven záporné středované potenciální energii?",
+      "initial": "V",
+      "answer": "Viriálový teorém",
+      "language": "cs",
+      "aliases": ["Viriálová věta", "Virial theorem"],
+      "category": "science",
+      "sources": ["https://mathworld.wolfram.com/VirialTheorem.html"]
+    },
+    {
+      "id": "science-cs-hard-03-26",
+      "text": "Jak se nazývá jev, při němž viskoelastická kapalina při míchání stoupá po rotující tyči vlivem rozdílů normálových napětí?",
+      "initial": "W",
+      "answer": "Weissenbergův jev",
+      "language": "cs",
+      "aliases": [
+        "Weissenbergův efekt",
+        "Weissenberg effect",
+        "Rod-climbing effect"
+      ],
+      "category": "science",
+      "sources": [
+        "https://collaborate.princeton.edu/en/publications/transient-rod-climbing-in-a-viscoelastic-fluid/"
+      ]
+    },
+    {
+      "id": "science-cs-hard-03-27",
+      "text": "Jakým německým názvem se označují rychlé oscilace polohy v Diracově popisu elektronu, spojované s interferencí složek s kladnou a zápornou energií?",
+      "initial": "Z",
+      "answer": "Zitterbewegung",
+      "language": "cs",
+      "aliases": ["Chvějivý pohyb", "Třesavý pohyb"],
+      "category": "science",
+      "sources": ["https://en.wikipedia.org/wiki/Zitterbewegung"]
+    },
+    {
+      "id": "science-cs-hard-03-28",
+      "text": "Jak se nazývá kation železa, který v kyselém vodném roztoku tvoří s thiokyanatanovými ionty intenzivně červené komplexy?",
+      "initial": "Ž",
+      "answer": "Železitý ion",
+      "language": "cs",
+      "aliases": [
+        "Fe3+",
+        "Fe³⁺",
+        "Iont železitý",
+        "Ion železitý",
+        "Železitý iont",
+        "Železitý kation",
+        "Železitý kationt",
+        "Kation železa(III)",
+        "Kation železa (III)"
+      ],
+      "category": "science",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iron(III)",
+        "https://cs.wikipedia.org/wiki/%C5%BDelezo"
+      ]
+    }
+  ]
+}
