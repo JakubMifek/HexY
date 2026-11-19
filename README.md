@@ -25,13 +25,13 @@ local question files. Generated catalogs are not committed.
 
 ## Current Phase 12 deck snapshot
 
-The catalog contains **171 decks / 4,788 questions**, English 87 / Czech 84,
-after adding `science-cs-hard-03`: 28 reviewed Czech Hard questions.
-The previous 170 packs and their catalog order are unchanged. This adopted
+The catalog contains **172 decks / 4,816 questions**, English 87 / Czech 85,
+after adding `geography-cs-hard-04`: 28 reviewed Czech Hard questions.
+The previous 171 packs and their catalog order are unchanged. This adopted
 draft uses corrected distinct facts, complete answer/initial validation and two
 independent content review rounds. No application code changes or local app
 rebuilds are included; existing automatic deployment is unchanged. See the
-[source and review evidence](docs/phase-12-science-cs-hard-03-sources.json).
+[source and review evidence](docs/phase-12-geography-cs-hard-04-sources.json).
 Final Phase 12 quotas and cleanup remain open.
 
 ## Retained 168-deck checkpoint

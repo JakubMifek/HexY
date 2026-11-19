@@ -1,0 +1,1107 @@
+{
+  "schemaVersion": 1,
+  "deckId": "geography-cs-hard-04",
+  "date": "2026-11-19",
+  "baselineRevision": "a816b826849042f70be41ee9cd5eee147fa32c4a",
+  "packSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+  "scope": {
+    "questions": 28,
+    "language": "cs",
+    "difficulty": "hard",
+    "previousDecks": 171,
+    "resultingDecks": 172,
+    "resultingQuestions": 4816,
+    "resultingEnglishDecks": 87,
+    "resultingCzechDecks": 85,
+    "previousPacksAndOrder": "Preserve exact bytes and positions.",
+    "phase12Cleared": false
+  },
+  "provenance": {
+    "originalPack": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/geography-cs-hard-04.json",
+      "sha256": "00ee9081d7e2eb9e23c27e37b6dee1083b53e8c64f88910a0d3332dbcccfe175"
+    },
+    "originalHandoff": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/HANDOFF.json",
+      "sha256": "4fc0f7b237f055b2833cf05f908e370cfdc2c4338ca0b044a019d3c3d4dba46c"
+    },
+    "originalHoldRecords": [
+      {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/SOURCE-QUALIFIER-ADDENDUM.json",
+        "sha256": "f7dd7894c7a7fcde2186dd28c3c6120706e001aa0c1aed7db987da44ec68d5d9"
+      },
+      {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/EXISTING-MEANINGFUL-PAIRS.json",
+        "sha256": "33fdd3aca5f68eae020b7cc0733b94d48b2df9c2f8ab5b05b323f51b303378d2"
+      }
+    ],
+    "authorship": "Adopted existing draft, with original Czech replacement wording where factual/semantic conflicts or unfair ambiguity required it; not copied from commercial quizzes or television.",
+    "history": "Original packets, source captures and failed/partial holds remain immutable. Fresh review accepts actual current bytes, not historical lifecycle claims."
+  },
+  "duplicateScreening": {
+    "corpusManifestSha256": "b964ed1f81ab7d7b2281a5e4364767f4b7483b96f03a978bb205b99b07dca0a9",
+    "packInstances": 519,
+    "questionRows": 14532,
+    "scope": "Actual main, primary native/unpublished, retired, all accessible queue-named native files and shallow named packet pack/original/proposal directories. Duplicate historical instances retained; no blanket language exemption.",
+    "checks": [
+      "Normalized prompts",
+      "Canonical and full-alias intersections",
+      "Accepted forms inside other clues",
+      "Independent bilingual fact/semantic judgments",
+      "Four owned candidates compared to one another"
+    ],
+    "limitations": "Bounded actual-main/primary/retired/accessible named-staged review, not universal web originality or retirement of other proposals."
+  },
+  "entries": [
+    {
+      "id": "geography-cs-hard-04-01",
+      "answer": "Abraze",
+      "questionSha256": "a2f6f7c2d89512d17b10a465c845524ee3861f82f502c93f735821e6356fb2ba",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-01"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Abraze_%28geologie%29",
+          "fetchedAt": "2026-10-31T02:10:53.672140+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/89fba916d6a1cf83327e.html",
+          "sourceBodySha256": "a06ddd99852fb009d7809b8c6beee708c444c63c118fc59f88d87af26fa12965",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/89fba916d6a1cf83327e.json",
+            "sha256": "701969aabec71e66277c1270201c0e0700d8ee418de23f65813538e4a5c821d0",
+            "index": null
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/89fba916d6a1cf83327e.txt",
+          "sourceTextSha256": "a0d53715ade405421602e11d131c77dcbad315fa3571b7f61a1e11473955bb19",
+          "passage": "Abraze je mechanické obrušování povrchu hornin třením a nárazy horninových částic, které se dostaly do pohybu vlněním vody nebo jsou unášeny tekoucí vodou, větrem nebo ledem. Činností vln vznikají abrazní terasy, abrazní plošiny a abrazní sruby. Taková abrazní terasa je tvořená skalním podkladem, někdy překrytým sedimenty. Při poklesu hladiny nebo zdvihu pevniny se plošina ocitá na souši a od vodní hladiny je oddělena pobřežním klifem (stupněm).\n\nPojem koraze se používá pro označení abraze způsobované činností větru. Vznikají tak typické geomorfologické formy jako hrance a skalní hřiby (ne všechny skalní hřiby však vznikají korazí). Korazí jsou dotvářeny i pouštní laky.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-02",
+      "answer": "Bludný balvan",
+      "questionSha256": "95302de5236790790af57e189618a52af97723e5f8f986d3a0517d679d4ddd1a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-02"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Bludn%C3%BD_balvan",
+          "fetchedAt": "2026-10-31T00:35:01.803419+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/cf6d73e44c38be818d71.html",
+          "sourceBodySha256": "75e31d5d0538fceabdfa332899642aa23e32cc266619f0784860822479c7701e",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 57
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/cf6d73e44c38be818d71.txt",
+          "sourceTextSha256": "b5b5a54253fca7af27457dcdf5808aefaf0a8b9388acf6ed8150f52e5130e902",
+          "passage": "Bludný balvan, či též eratický balvan, eratikum (polsky głaz narzutowy) je balvan transportovaný ze své domoviny na jiné místo ledovcem.\n\nBludný balvan je blok horniny, který byl v době ledové přepraven ledovcem na velkou vzdálenost, kde byl po roztátí ledovce usazen v geologicky zcela odlišném prostředí. Tato teorie se objevila až koncem 19. století, do té doby se jejich výskyt vysvětloval potopou světa, vulkanickou činností či „činností“ čertů, kyklopů a dalších bájných tvorů. Označení pochází z latinského slova errare, které znamená „bloudit“.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-03",
+      "answer": "Cementace",
+      "questionSha256": "e093aa461aca43c353a2f54c7372150e5c445334b34ab24f6d7f4338da315628",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-03"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cementation_%28geology%29",
+          "fetchedAt": "2026-10-31T02:13:04.696723+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3962244e4aadb22342be.html",
+          "sourceBodySha256": "eb992a4289515af5dd63a524fd49e1103f050444e9adc9f92e5d0c15c1cffa9f",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3962244e4aadb22342be.json",
+            "sha256": "27a7597e6555c259e17fe9c1d5ce4b1981354eda70f120c3a51249a007aa374c",
+            "index": null
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3962244e4aadb22342be.txt",
+          "sourceTextSha256": "6927b4ca028f94ac0eee7b917b8be2b184acbefe6e6c128f19ea6f52e6ff9b98",
+          "passage": "Cementation is a process where minerals bond grains of sediment together by growing around them. This means precipitation of ions carried in groundwater to form new crystalline material between sedimentary grains. The new pore-filling minerals form \"bridges\" between original sediment grains, thereby binding them together. In this way, sand becomes sandstone, and gravel becomes conglomerate or breccia.\n\nCementation occurs as part of the diagenesis or lithification of sediments and occurs primarily below the water table regardless of sedimentary grain sizes present. Large volumes of pore water must pass through sediment pores for new mineral cements to crystallize and so millions of years are generally required to complete the cementation process. Common mineral cements include calcite, quartz, and silica phases like cristobalite, iron oxides, and clay minerals; other mineral cements also occur.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-04",
+      "answer": "Čedičové varhany",
+      "questionSha256": "116720e7f0ea7f33fc3842ac3d4898ad40a033462c2555bd60a0bb7feac51be6",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-04"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-04",
+        "before": {
+          "id": "geography-cs-hard-04-04",
+          "initial": "Č",
+          "text": "Jak se obrazně nazývají čedičové skalní útvary, jejichž pravidelné sloupce vznikají smršťováním lávy při chladnutí a připomínají píšťaly hudebního nástroje?",
+          "answer": "Čedičové varhany",
+          "aliases": ["kamenné varhany", "čedičové sloupce", "skalní varhany"],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/Sloupcov%C3%A1_odlu%C4%8Dnost"
+          ]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-04",
+          "initial": "Č",
+          "text": "Jak se obrazně nazývají čedičové skalní útvary, jejichž pravidelné sloupce vznikají smršťováním lávy při chladnutí a připomínají píšťaly hudebního nástroje?",
+          "answer": "Čedičové varhany",
+          "aliases": [
+            "kamenné varhany",
+            "čedičové sloupce",
+            "skalní varhany",
+            "Čedičové sloupy",
+            "Varhany"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/Sloupcov%C3%A1_odlu%C4%8Dnost"
+          ]
+        },
+        "reason": "Round-one GEO01: add both documented natural names without removing existing forms.",
+        "support": "Columnar basalt forms by cooling contraction; Czech source passage uses the short figurative Varhany name.",
+        "sourceAccess": "Reviewer independently inspected USGS directly, original captured paragraphs and a Czech search passage; full access is recorded in round-one-geography-nature.json."
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-05",
+      "answer": "Denudace",
+      "questionSha256": "c64369de9c903ea06b60ac28d17b8df7ddcac708c028844ba4defd6d17f78886",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-05"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Denudace",
+          "fetchedAt": "2026-10-31T00:35:06.772159+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/dc2aaa20a825af69c314.html",
+          "sourceBodySha256": "ed040531cd7cf7a11d4e7e49c4232b122de17a399c75606921c5c7ff48d963e5",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 60
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/dc2aaa20a825af69c314.txt",
+          "sourceTextSha256": "bdbeeb196f5518119e924b98d6ec6606149c91a9bbff6a9fbf92f6c01b380eb8",
+          "passage": "Denudace je oborový termín z exogenní geologie a také z oboru lékařství.\n\nObecně se denudací nazývá soubor pochodů, které vedou ke snižování (zarovnávání) zemského povrchu, a tedy snižování nadmořské výšky a výškových rozdílů v terénu. Tento soubor pochodů je složen z odnášení rozrušených hornin jako důsledku působení větru, mrazu, vody a dalších erozních vlivů. Jinými slovy je to soubor pochodů, které obnažují podložní pevné horniny. Denudace zahrnuje zvětrávání, gravitační přesuny hmot (v podstatě svahové pohyby) a erozi.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-06",
+      "answer": "Epigeneze",
+      "questionSha256": "ae0bd193f553a62477cd1609e378b958933cf2c39b432d9561ad8f2839a707d0",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-06"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://www.cojeco.cz/epigeneze",
+          "fetchedAt": "2026-10-31T02:12:52.175766+00:00",
+          "sourceQuality": "Czech encyclopedia; distinguish geological sense from biological sense.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/b92fbd4c2054edc34b15.html",
+          "sourceBodySha256": "7c7168fb9525a6e9c889fc332c6d7ce4eec05685698b5d768472097b4e5e00c5",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/b92fbd4c2054edc34b15.json",
+            "sha256": "2e84854d6aac9d7de68813e0497d0dd901e296f38f9573ae05752de748b45eea",
+            "index": null
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/work/b04-resume/selected-contexts/b92fbd4c2054edc34b15-visible.txt",
+          "sourceTextSha256": "c8660ee9d32ba6a8689a9272e7d5bde9f72a319ce7713865fb8f182df7d4e582",
+          "passage": "epigeneze Menu: Hesla Kategorie Blog O projektu Datum od: Rok Měsíc Den Datum do: Rok Měsíc Den Datum před n.l.  (datum od největšího po nejmenší) Kategorie: epigeneze Geologie [Řečtina], geologie , vznik údolí z původně rovného povrchu (se systémem údolí), který přikrývá zlomově vrásný složitý podklad. Epigenezí vznikající údolí si zachovávají směr původních údolí napříč spodními tektonickými a zlomovými směry tvrdších hornin. Nový reliéf se nazývá epigenetický. Vytvořeno:\n\n                                    14. 3. 2000 Aktualizováno:\n\n                                    20. 6. 2006 Autor: -red- Odkazující hesla: údolí . Vyzkoušejte si s přáteli Kvízy encyklopedie CoJeCo.cz! Reklama: O projektu Zdroje Kontakt Licence příloh MSE Ochrana osobních údajů Jak citovat CoJeCo About... © 1999-2026 OPTIMUS s.r.o.",
+          "consultedParagraphIndices": [],
+          "consultedHtmlDefinition": true,
+          "extraction": "Complete visible cached body; actual definition is in a div, not the five paragraph-only navigation/statistics items. Original HTTP metadata and original paragraph extraction remain unchanged.",
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-07",
+      "answer": "Firn",
+      "questionSha256": "b134ed195afb621fd0dea0b98e8406bce78392b229d3386d99ed9da8a009ee49",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-07"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Firn",
+          "fetchedAt": "2026-10-31T00:35:09.043086+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c6a8a91325d053e0c909.html",
+          "sourceBodySha256": "51475433e0aff9b0ab0a2130ef15f10a01e7b995cd76821ca7545367b71434dd",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 62
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/c6a8a91325d053e0c909.txt",
+          "sourceTextSha256": "ef3503842c46fae9b312234470f759dd1032f69668b53e445f0b9c3e4d5e8d7b",
+          "passage": "Firn (česky též sled, či srež) je přechodné stádium mezi sněhem a ledem. Vzniká opakovaným natáváním a mrznutím sněhu, kdy vzniká zrnitý led. Během něho dochází ke zmenšování objemu sněhového tělesa a zvyšování jeho hustoty. Změny ve struktuře krystalů postupně mění sníh na led, který v dostatečné mocnosti začne tvořit ledovec.[1]\n\nOttův slovník naučný: Firn (franc. névé) nazývá se ve velehorách starý sníh, jehož povrch následkem střídavého tání a zamrzání (regelace) přijal sloh zrnitý; tvoří přechod mezi obyčejným sněhem a ledem. Pokračuje-li regelace, mění se firn v pravý led a nahrazuje tak ledovcům ztráty, jež tyto na spodním svém kraji táním utrpí. V Alpách mnohé firnem kryté vrcholy nesou název Firne nebo Ferner, v Tyrolsku pak užívá se jména toho i pro skutečné ledovce.[2]",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-08",
+      "answer": "Geoid",
+      "questionSha256": "3fdd59d252a28e40aae360e0263d0b1cf4c6a8af75ac214ae3b7ebb94c8e2e96",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-08"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Geoid",
+          "fetchedAt": "2026-10-31T00:35:09.401594+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/8b08e6544a0a8b63e078.html",
+          "sourceBodySha256": "8379b062bd2e19eb2715acef7ad38264fd0f6d5cd6ed0890de50b93313045ae1",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 63
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/8b08e6544a0a8b63e078.txt",
+          "sourceTextSha256": "d8788cdbdcbac893b664682adae5aa29ac248c499f5d062f39a2bcd9e83c05f2",
+          "passage": "Geoid je fyzikální model povrchu Země při střední hladině světových oceánů. Je definován jako ekvipotenciální plocha vůči gravitaci, to jest plocha se stejnou úrovní tíhového potenciálu, na kterou je vektor tíhového zrychlení kolmý.\n\nGeoid je vlastně reprezentovaný ekvipotenciální plochou, která co možná nejvíce přimyká ke střední klidové hladině oceánu, ale také myšleně prochází i pod povrchem Země.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-09",
+      "answer": "Habúb",
+      "questionSha256": "849a10d828c527e3f5128caf0b3cc95f0f2c8a2e5e088c25e1c0415fa7007001",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-09"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Haboob",
+          "fetchedAt": "2026-10-31T00:38:33.930412+00:00",
+          "sourceQuality": "Secondary English encyclopedia; actual definition/context, not independent Czech terminology certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/1cedd2b4157d646e8938.html",
+          "sourceBodySha256": "cbf8965e1cc0857d8dcc965e4fec352ca07be705e3596d909560004ec6675865",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04-supplement.json",
+            "sha256": "5b99f806ea664d354b98a3bdc81b0ad3cb5c29d7c70c41b5ab1ab0bd4bffa943",
+            "index": 13
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/1cedd2b4157d646e8938.txt",
+          "sourceTextSha256": "599a45ec92d2cfe7f394c6a8c96a83ecae9399b0c94b26dd024da6df38fe3650",
+          "passage": "A haboob[1] (Arabic: هَبوب, romanized: habūb, lit. 'blasting/drifting') is an atmospheric density current forming an intense dust storm generated by strong winds from the downdrafts of thunderstorms or, less commonly, weather fronts. These storms occur in arid and semi-arid regions worldwide, including West Asia, North Africa, Australia, and North America, and have also been observed on Mars and Titan. A haboob typically forms when cold air from a thunderstorm rushes downward, causing high winds at the surface which lift dust into the air.\n\nIn Khartoum, Sudan, haboobs have been historically documented as reaching up to 2,000 m (7,000 ft) high, advancing at up to 70 km/h (45 mph), and lasting as long as 6 1/2 hours.[2] Haboobs can occasionally span distances as long as 1,000 km (600 mi).[3]",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-10",
+      "answer": "Chionosféra",
+      "questionSha256": "0a23baa57aaeaa46001e52b825a8364cc883a8f3b60f5425fbe8818a544630a7",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-10"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B8%D0%BE%D0%BD%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%B0",
+          "fetchedAt": "2026-10-31T02:17:42.876761+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3e62f4b6f0db56ad8934.html",
+          "sourceBodySha256": "01e586de6026a1eda53a81213b632969dabb6b74d1e19e5b80f9c00e38c4482d",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3e62f4b6f0db56ad8934.json",
+            "sha256": "d24e8175a97818713890a8f3addc7acd4da0e2bdb8527307aa318d6b3e1c9e7f",
+            "index": null
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/3e62f4b6f0db56ad8934.txt",
+          "sourceTextSha256": "09ec896128255b4e58e9131477a4174fdd25b838c974b32ea0ea850a64bd4023",
+          "passage": "Хионосфе́ра — часть тропосферы, в которой при благоприятных условиях возможно образование снега и льда, вне зависимости от того, достигает она поверхности Земли или нет[1][2].\n\nВ пределах хионосферы существуют такие климатические условия, при которых годовое количество выпадающих на горизонтальную незатенённую поверхность твёрдых осадков превышает их убыль. При пересечении нижней границы хионосферы горными хребтами образуется снеговая линия, в то время как верхняя находится выше самых высоких гор и и соответствует нулевому балансу твёрдых атмосферных осадков. Наибольшая высота нижней границы хионосферы от земной поверхности — в экваториальном поясе, в то время, как в высоких широтах она может опускаться до уровня моря. По мере удаления от источников влаги нижняя граница хионосферы повышается[1][2].",
+          "consultedParagraphIndices": [0, 3],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-11",
+      "answer": "Izotacha",
+      "questionSha256": "83f18dccc88db47afbc770bee5048ac670ee9e73863909ad65a8b31199ba0900",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-11"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-11",
+        "before": {
+          "id": "geography-cs-hard-04-11",
+          "initial": "I",
+          "text": "Jak se obecně nazývá osamocený zbytkový skalnatý vrch nad okolní rovinou, přičemž tento pojem zahrnuje různé tvary od kuželovitých kopců po klenuté skalní kupy?",
+          "answer": "Inselberg",
+          "aliases": [
+            "ostrovní hora",
+            "ostrovní vrch",
+            "monadnok",
+            "monadnock"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Inselberg",
+            "https://www.cojeco.cz/inselberg"
+          ]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-11",
+          "initial": "I",
+          "text": "Jak se na meteorologické mapě nazývá čára spojující místa se stejnou rychlostí větru?",
+          "answer": "Izotacha",
+          "aliases": [
+            "Isotacha",
+            "Izotachy",
+            "Isotach",
+            "Izanemona",
+            "Izovela",
+            "Isovel",
+            "Isokinetic"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://glossary.ametsoc.org/wiki/isotach/",
+            "https://cs.wikipedia.org/wiki/Izotacha",
+            "https://beliana.sav.sk/heslo/izotacha"
+          ]
+        },
+        "reason": "Replace the same isolated residual-hill fact as published English Inselberg, without denying the historical class/subtype overlap with bornhardts and tors.",
+        "support": "AMS defines an equal-wind-speed line and names isovel/isokinetic; Czech reference names izanemona; Slovak Academy encyclopedia confirms native izotacha usage.",
+        "sourceAccess": "web_search explicit AMS, Czech Wikipedia and Slovak Academy Beliana passages"
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-12",
+      "answer": "Jeskynní perla",
+      "questionSha256": "2f755c30ee548170d63fc03581188e2df16b2ea92ca6093466ed93bf837a1201",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-12"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-12",
+        "before": {
+          "id": "geography-cs-hard-04-12",
+          "initial": "J",
+          "text": "Jak se nazývá obvykle kulovitý jeskynní útvar, jehož vápenaté vrstvy narůstají kolem jádra volně uloženého v mělké vodě?",
+          "answer": "Jeskynní perla",
+          "aliases": ["jeskynní perly", "cave pearl"],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/Jeskynn%C3%AD_perla",
+            "https://en.wikipedia.org/wiki/Cave_pearl"
+          ]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-12",
+          "initial": "J",
+          "text": "Jak se nazývá obvykle kulovitý jeskynní útvar, jehož vápenaté vrstvy narůstají kolem drobného jádra omývaného pohybující se vodou?",
+          "answer": "Jeskynní perla",
+          "aliases": ["jeskynní perly", "cave pearl"],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/Jeskynn%C3%AD_perla",
+            "https://en.wikipedia.org/wiki/Cave_pearl"
+          ]
+        },
+        "reason": "Remove unnecessary implication that every cave pearl must remain freely unattached in a shallow pool; source notes pools are not necessary and occasional adhesion occurs.",
+        "support": "Original SOURCE-QUALIFIER-ADDENDUM contains actual full paragraphs on nuclei, moving water, no-pool necessity and adhesion exceptions.",
+        "sourceAccess": "Read exact original captured paragraphs in immutable SOURCE-QUALIFIER-ADDENDUM.json"
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-13",
+      "answer": "Kryoturbace",
+      "questionSha256": "18e3ce170dd953f3c8b7023ddd539a4a6bbf84780c35b56e05e938c791e35e2f",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-13"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-13",
+        "before": {
+          "id": "geography-cs-hard-04-13",
+          "initial": "K",
+          "text": "Jak se nazývá promíchávání a deformování půdního či sedimentárního materiálu vlivem opakovaného mrznutí a rozmrzání?",
+          "answer": "Kryoturbace",
+          "aliases": ["mrazové víření"],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Kryoturbace"]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-13",
+          "initial": "K",
+          "text": "Jak se nazývá promíchávání a deformování půdního či sedimentárního materiálu působením mrazu?",
+          "answer": "Kryoturbace",
+          "aliases": ["mrazové víření"],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://nsidc.org/learn/cryosphere-glossary/cryoturbation",
+            "https://cs.wikipedia.org/wiki/Kryoturbace"
+          ]
+        },
+        "reason": "Align freeze-action qualifier with explicit original Czech evidence and NSIDC definition instead of claiming unsupported detailed freeze-thaw cycles.",
+        "support": "NSIDC defines cryoturbation collectively as soil movements due to frost action; original capture describes freezing expansion and soil disturbance.",
+        "sourceAccess": "web_search explicit NSIDC passage plus original captured context"
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-14",
+      "answer": "Lahar",
+      "questionSha256": "a97a33456d5ce2b180fe36491bbdab010c93b449ba1bd2f772b6abe36c3df7fd",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-14"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-14",
+        "before": {
+          "id": "geography-cs-hard-04-14",
+          "initial": "L",
+          "text": "Jak se nazývá proud směsi vody a sopečného materiálu, který stéká po svahu vulkánu či údolím pod ním?",
+          "answer": "Lahar",
+          "aliases": ["sopečný bahnotok", "vulkanický bahnotok"],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Lahar"]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-14",
+          "initial": "L",
+          "text": "Jak se nazývá proud směsi vody a sopečného materiálu, který stéká po svahu vulkánu či údolím pod ním?",
+          "answer": "Lahar",
+          "aliases": ["sopečný bahnotok", "vulkanický bahnotok", "Bahnotok"],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Lahar"]
+        },
+        "reason": "Round-one GEO02: accept the valid contextual short Czech name.",
+        "support": "The original captured lahar definition and the Czech geological search passage support a volcanic mudflow.",
+        "sourceAccess": "Reviewer inspected original relevant passage and Czech geological search passage."
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-15",
+      "answer": "Mofeta",
+      "questionSha256": "de5cd110ac860bbf7bd91b5480335424a86295bf53fba53c1e9134b8871908b8",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-15"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Mofeta",
+          "fetchedAt": "2026-10-31T00:35:22.214325+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a2840d0d2b3a84038007.html",
+          "sourceBodySha256": "1033f1c47f16d12e235a76d944d548840f87491a8f7fd5a311a85553767941d2",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 70
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/a2840d0d2b3a84038007.txt",
+          "sourceTextSha256": "1fbb7663e612bcef6415345854ff65d7694c6e6e248fab0f83f6ab08fe55a177",
+          "passage": "Mofeta je výron suchého oxidu uhličitého o teplotě nižší než 100 °C (nejčastěji 20–30 °C) z puklin na zemský povrch.[1] Většinou jde o doprovodný jev vulkanické činnosti či projev postvulkanické činnosti. Zaznamenána byla i přítomnost metanu, sirovodíku či hélia.\n\nPokud proniká CO2 v bahnitém terénu, vzniká tlakem plynu mofetový kráter. V případě, že CO2 probublává vodou, může při dostatečném tlaku dojít k vytvoření kráterového valu (o výšce několik cm, vzácněji do 1 m), tvořeného travertinem či pramenitem. Dojde-li k pohlcení plynu studenými vodami, mohou vznikat kyselky (Karlovy Vary). Je-li přívodní kanál dostatečně stabilní, za určitých předpokladů může docházet ke vzniku studeného gejzíru.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-16",
+      "answer": "Nafúd",
+      "questionSha256": "b701a8f1fb7e46883985d1d456b06737db16aa4a71a509b32e5698bf50677530",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-16"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-16",
+        "before": {
+          "id": "geography-cs-hard-04-16",
+          "initial": "N",
+          "text": "Jak se nazývá vějířovitý sedimentární útvar, který vzniká ukládáním říčních nánosů při výstupu toku z úzkého údolí na plošší terén?",
+          "answer": "Náplavový kužel",
+          "aliases": [
+            "aluviální kužel",
+            "náplavový vějíř",
+            "aluviální vějíř",
+            "dejekční kužel"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/N%C3%A1plavov%C3%BD_ku%C5%BEel"
+          ]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-16",
+          "initial": "N",
+          "text": "Která písečná poušť v severní Saúdské Arábii je známá načervenalými dunami a je s Rub al-Chálí propojena pásem pouště Dahná?",
+          "answer": "Nafúd",
+          "aliases": [
+            "Nefúd",
+            "Velký Nefúd",
+            "Velký Nafúd",
+            "An Nafud",
+            "An-Nafud",
+            "Al-Nefud",
+            "Al Nefud",
+            "Al-Nafud",
+            "Al Nafud",
+            "Great Nafud",
+            "Nafud Desert",
+            "Al-Nafud al-Kabir",
+            "Al Nafud al Kabir",
+            "Al-Nufud al-Kabir",
+            "Al Nufud al Kabir",
+            "An Nafud Desert",
+            "Al-Nafud Desert",
+            "Nefud Desert",
+            "An-Nafud Desert",
+            "Al Nafud Desert"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://saudipedia.com/en/deserts-of-saudi-arabia",
+            "https://www.britannica.com/place/al-Nafud",
+            "https://cs.wikipedia.org/wiki/Naf%C3%BAd"
+          ]
+        },
+        "reason": "Second-round Geography16: replace the owned alluvial-fan identification exposed by the shipped Bajada clue with a distinct northern Arabian desert fact; do not remove a legitimate fan synonym or change the shipped clue. Second-round final Geography16 alias hold: preserve every accepted name and add the directly attested English article/transliteration-plus-Desert forms and their ordinary article-hyphen variants.",
+        "support": "Reviewer directly inspected EBSCO's Nafud Desert article identifying An Nafud Desert and Al-Nafud Desert, plus the Nefud Desert reference heading/location section.",
+        "sourceAccess": "Reviewer two directly inspected https://www.ebsco.com/research-starters/science/nafud-desert/ and https://desertsoftheworld.com/nefud-desert/; the author does not claim independent full-page access to these two pages. Previously verified Saudipedia support for the unchanged fact remains authoritative."
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-17",
+      "answer": "Obdukce",
+      "questionSha256": "d87ae69a06cffa42fccdfb8715180048a03c18b55b2db4b421559e271c0fe5d5",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-17"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Obduction",
+          "fetchedAt": "2026-10-31T02:11:00.581086+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7e9a49be581c8c00e0b4.html",
+          "sourceBodySha256": "21d84c591683706913648ce4e1fa61e1b85275f7eead18b0a261a9f0cc062d7f",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7e9a49be581c8c00e0b4.json",
+            "sha256": "4ed5c02764b40e142c8c2d3ec38b68266b90bd41b67d93614929b8b2d6d18fd7",
+            "index": null
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/7e9a49be581c8c00e0b4.txt",
+          "sourceTextSha256": "b610b1d84ad19e18cb3bfbaf7a022de38baedb7bc261b169569a0c703f56844d",
+          "passage": "Obduction is a geological process whereby denser oceanic crust (and even upper mantle) is scraped off a descending ocean plate at a convergent plate boundary and thrust on top of an adjacent plate.[1][2] When oceanic and continental plates converge, normally the denser oceanic crust sinks under the continental crust in the process of subduction.[3] Obduction, which is less common, normally occurs in plate collisions at orogenic belts (some of the material from the subducting oceanic plate is emplaced onto the continental plate)[4] or back-arc basins (regions where the edge of a continent is pulled away from the rest of the continent due to the stress of plate collision).[5]\n\nObduction of oceanic lithosphere produces a characteristic set of rock types called an ophiolite. This assemblage consists of deep-marine sedimentary rock (chert, limestone, clastic sediments), volcanic rocks (pillow lavas, volcanic glass, volcanic ash, sheeted dykes and gabbros) and peridotite (mantle rock).[6] John McPhee describes ophiolite formation by obduction as \"where ocean crust slides into a trench and goes under a continent, [and] a part of the crust—i.e., an ophiolite—is shaved off the top and ends up on the lip of the continent.\"[7]",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-18",
+      "answer": "Pahoehoe",
+      "questionSha256": "e65c6f197290d69aaa24a6b6b40b01764256096e1b07354764536b98773241a6",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-18"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-18",
+        "before": {
+          "id": "geography-cs-hard-04-18",
+          "initial": "P",
+          "text": "Jak se nazývá typ lávy, jejíž utuhlý povrch je hladký či zvlněný a často vytváří záhyby připomínající stočená lana?",
+          "answer": "Pahoehoe",
+          "aliases": ["provazcovitá láva", "provazcová láva"],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Pahoehoe"]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-18",
+          "initial": "P",
+          "text": "Jak se nazývá typ lávy, jejíž utuhlý povrch je hladký či zvlněný a často vytváří záhyby připomínající stočená lana?",
+          "answer": "Pahoehoe",
+          "aliases": [
+            "provazcovitá láva",
+            "provazcová láva",
+            "Provazovitá láva",
+            "Provazovitá čedičová láva"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Pahoehoe"]
+        },
+        "reason": "Round-one GEO03: preserve existing ropy-lava names and add the documented provazovitá forms.",
+        "support": "Czech Geological Survey encyclopedia search passage describes the provazovitý surface; the inspected dictionary passage supplies the Czech lava name.",
+        "sourceAccess": "Reviewer inspected captured definition and explicitly labeled geological/dictionary search passages, not inaccessible full pages."
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-19",
+      "answer": "Regrese moře",
+      "questionSha256": "f27408cddfc946b1425e089a8f6e9bf1dce5545ed3107dce87ce46b75e430fad",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-19"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Marine_regression",
+          "fetchedAt": "2026-10-31T00:39:00.511943+00:00",
+          "sourceQuality": "Secondary English encyclopedia; actual definition/context, not independent Czech terminology certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/b54807086c702ddfc806.html",
+          "sourceBodySha256": "3fd5b59db75839f5dd56261bb740c2708102983e362398677cb9ef5fac997cdc",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04-supplement.json",
+            "sha256": "5b99f806ea664d354b98a3bdc81b0ad3cb5c29d7c70c41b5ab1ab0bd4bffa943",
+            "index": 17
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/b54807086c702ddfc806.txt",
+          "sourceTextSha256": "a92b860a909eff400016654c37f55c76a12b977a8b7bc2fc7fd00697dce27201",
+          "passage": "A marine regression is a geological process occurring when areas of submerged seafloor are exposed during a drop in sea level. The opposite event, marine transgression, occurs when flooding from the sea covers previously-exposed land.[1]\n\nAccording to one hypothesis, regressions may be linked to a \"slowdown in sea-floor spreading, leading to a generalized drop in sea level (as the mid-ocean ridges would take up less space)....\"[2] That view considers major marine regressions to be one aspect of a normal variation in rates of plate tectonic activity, which leads to major episodes of global volcanism like the Siberian Traps and the Deccan Traps, which in turn cause large extinction events.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-20",
+      "answer": "Říční bifurkace",
+      "questionSha256": "1611cc7c4fc2637a90e467f870ebd35c7b957ea1fc32e73914648be0c3154ee8",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-20"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-20",
+        "before": {
+          "id": "geography-cs-hard-04-20",
+          "initial": "Ř",
+          "text": "Jak se nazývá rozdělení říčního toku, při kterém jeho ramena odvádějí vodu do dvou různých povodí?",
+          "answer": "Říční bifurkace",
+          "aliases": ["bifurkace", "rozdvojení toku", "bifurkace řeky"],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Bifurkace_%28geografie%29"]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-20",
+          "initial": "Ř",
+          "text": "Jak se nazývá rozdělení říčního toku, při kterém jeho ramena odvádějí vodu do dvou různých povodí?",
+          "answer": "Říční bifurkace",
+          "aliases": [
+            "bifurkace",
+            "rozdvojení toku",
+            "bifurkace řeky",
+            "Bifurkace toku"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Bifurkace_%28geografie%29"]
+        },
+        "reason": "Round-one GEO04: accept the natural precise Czech word order.",
+        "support": "Original relevant captured source describes river bifurcation between drainage systems.",
+        "sourceAccess": "Reviewer independently inspected captured relevant source passage."
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-21",
+      "answer": "Sérak",
+      "questionSha256": "dcff7fccb2863e673ff583032adeee191052d17f44b67a66f9cd69517d8ec935",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-21"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/S%C3%A9rak",
+          "fetchedAt": "2026-10-31T00:35:33.056164+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/00803af7308d5a4ede24.html",
+          "sourceBodySha256": "cb4a6b40dd26dc6d298f690e5b06b90ceb7ef844604d80e75895ac83758dc24f",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 76
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/00803af7308d5a4ede24.txt",
+          "sourceTextSha256": "79dc292830c7787dab0c627050d41b12a002eab047bd16fe160dad38961b02f3",
+          "passage": "Serak (také sérak,[1] původně ze švýcarské francouzštiny sérac[p 1] [2]) je blok nebo pilíř ledovcového ledu. Obyčejně mají velikost několika metrů nebo i větší.\n\nNa rozdíl od lavin jsou pády seraků obtížně předvídatelné, protože odtávání má na jejich stabilitu menší vliv než mechanika pohybu ledovcového pole, a tak se mohou zhroutit i v noci. Proto představují nebezpečí pro horolezce. I když bývají za trvale chladného počasí stabilní, mohou být překážkou při pohybu na ledovci. Jsou dobře známy na mnoha světových horách, například na Kančendženze.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Serac",
+          "fetchedAt": "2026-10-31T02:13:11.533725+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual complete source context still requires reading, not HTTP certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/de0dc9772c27cc90aa3b.html",
+          "sourceBodySha256": "3707292bfdb36b2584f5656a0826e49d0599e6054ccbbe0304e5180fea2484a2",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/de0dc9772c27cc90aa3b.json",
+            "sha256": "7c67a5592a1ed5da7e0f3e4bccc5b031d02d407e35f56a9d909689b36dcbbc92",
+            "index": null
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04-resume/de0dc9772c27cc90aa3b.txt",
+          "sourceTextSha256": "e5d8ec086e5a6f8a35adf3bd3513b0acb4e2cbd2c7c8857b48ebcfa6e2d3c89d",
+          "passage": "A serac (/səˈræk, ˈsɛræk/; from Swiss French sérac [seʁak], a type of cheese) is a block or column of glacial ice, often formed by intersecting crevasses on a glacier. Commonly house-sized or larger, they are dangerous to mountaineers and alpinists, since they may topple with little warning. Even if stabilized by persistent cold weather, they can be an impediment to glacier travel.\n\nSeracs are found within an icefall, often in large numbers, or on ice faces on the lower edge of a hanging glacier.[1] Notable examples of the overhanging glacier edge type are well-known obstacles on some of the world's highest mountains, including K2 at \"The Bottleneck\" and Kanchenjunga on the border of India and Nepal. Significant seracs in the Alps are found on the northeast face of Piz Roseg, the north face of the Dent d'Hérens, and the north face of Lyskamm.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-22",
+      "answer": "Šelfový ledovec",
+      "questionSha256": "4059072cc0ecc14f94648c8d2561f0d9c9e49479d445155095fd497ec0e29076",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-22"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/%C5%A0elfov%C3%BD_ledovec",
+          "fetchedAt": "2026-10-31T00:35:34.940517+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/29aa187eac014da80de4.html",
+          "sourceBodySha256": "d581db885b6ded35e77bdcf3021df270003b109ef37e4afb5d5d4907800cd234",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 77
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/29aa187eac014da80de4.txt",
+          "sourceTextSha256": "3a40d93298306bf63846245241f9db00c898e2cd11b83ab06b50a89d7b1592fd",
+          "passage": "Šelfový ledovec (ice shelf) je tlustá plovoucí ledová plošina, která se vyskytuje tam, kde ledovce nebo další toky ledu z ledového příkrovu tečou dolů k pobřeží a na povrch oceánu. Šelfové ledovce se nacházejí pouze v Antarktidě, Grónsku, Kanadě (viz str. 23 a 24 v[1] ) a v ruské Arktidě. Hranice mezi plovoucím šelfovým ledovcem a ledovcem spočívajícím na podloží, z nějž se šelfový ledovec „vytváří“, se nazývá bazální linie (čára ukotvení). Tloušťka šelfových ledovců se pohybuje od cca 100 m do 1000 m.\n\nOznačení šelf se v češtině používá pro útvar mořského dna, totiž málo se svažující část kontinentu ležící pod mořskou hladinou. Slovo je z anglického shelf, znamenajícího např. polici či mělčinu.",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-23",
+      "answer": "Tor",
+      "questionSha256": "20e695f464d3380c94a38327595b1536c4fa3b78778393a7911b9469e7ba2b9b",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-23"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Tor_(rock_formation)",
+          "fetchedAt": "2026-10-31T00:39:06.575774+00:00",
+          "sourceQuality": "Secondary English encyclopedia; actual definition/context, not independent Czech terminology certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/915b9f2922d779771d5a.html",
+          "sourceBodySha256": "e7fee79c80fe7c2228dc04fd937893682897d00073fa06e80a5223c0cbfdded2",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04-supplement.json",
+            "sha256": "5b99f806ea664d354b98a3bdc81b0ad3cb5c29d7c70c41b5ab1ab0bd4bffa943",
+            "index": 18
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/915b9f2922d779771d5a.txt",
+          "sourceTextSha256": "53756fcfacd69ca8617945e903a2818477b37fb0246f100aba67a4777798f559",
+          "passage": "A tor, which is also known by geomorphologists as either a castle koppie or kopje, is a large, free-standing rock outcrop that rises abruptly from the surrounding smooth and gentle slopes of a rounded hill summit or ridge crest. In the South West of England, the term is commonly also used for the hills themselves – particularly the high points of Dartmoor in Devon and Bodmin Moor in Cornwall.[1]\n\nAlthough English topographical names often have a Celtic etymology, the Oxford English Dictionary lists no cognates to the Old English word in either the Breton or Cornish languages (the Scottish Gaelic tòrr is thought to derive from the Old English word). It is therefore accepted that the English word Tor derives from the Old Welsh word tẁrr or twr,[2] meaning a cluster or heap.[3]\n\nTors are landforms created by the erosion and weathering of rock, most commonly granites but also schists, dacites, dolerites, ignimbrites,[4] coarse sandstones and others.[5] Tors are mostly less than 5 meters (16 ft) high. Many hypotheses have been proposed to explain their origin and this remains a topic of discussion among geologists, geomorphologists and physical geographers. It is considered likely that tors were created by geomorphic processes that differed widely in type and duration according to regional and local differences in climate and rock types.[1][6]\n\nWhere joints happen to be unusually widely spaced, core blocks can survive and remain above the weathering surface, developing into tors. These can be monolithic, as at Haytor and Blackingstone Rock, but are more usually subdivided into stacks, often arranged in avenues. Each stack may include several tiers or pillows, which may become separated: rocking pillows are called logan stones. These stacks are vulnerable to frost action and often collapse, leaving trails of blocks down the slopes called clitter or clatter. Weathering has also given rise to circular ‘rock basins’ formed by the accumulation of water and repeated freezing and thawing. An example is found at Kes Tor on Dartmoor.",
+          "consultedParagraphIndices": [0, 1, 2, 4],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-24",
+      "answer": "Urbanizace",
+      "questionSha256": "ef0142b291e491b4ad2a8e39dddef0690211da5fdb903725fa8ba8cda4e4101f",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-24"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Urbanizace",
+          "fetchedAt": "2026-10-31T00:35:35.326603+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/ece1ce484057a900e1d8.html",
+          "sourceBodySha256": "1d8471f166e0e609c534fd97243c9233cc7de4c383095ba3cc5e8b1ab049b356",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 79
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/ece1ce484057a900e1d8.txt",
+          "sourceTextSha256": "44871582fd36516553751345b3743ab64400390f55e3f4d58e5782980be7998e",
+          "passage": "Urbanizace (také poměšťování) je proces, při kterém společnost mění způsob života z venkovského na městský. S urbanizací je spojen zvyšující se podíl lidí žijících, resp. bydlících ve městech. Města se zvětšují i kvůli narůstání počtu pracujících, kteří do měst dojíždějí za prací.\n\nNejobecněji je urbanizace definována jako „prostorová koncentrace lidských činností i obyvatelstva projevující se změnami v chování lidí, v jejich motivacích, v kulturních vzorech i ve formách organizace společnosti. Změny jsou vyvolány životem v prostředí s velkým počtem, vysokou hustotou a značnou různorodostí obyvatel, aktivit i lidských výtvorů.“[1]",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-25",
+      "answer": "Varva",
+      "questionSha256": "35356660b3fbf2ddd26ed1c42aae41c18b8c7acca4df33f113f526895a05be66",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-25"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-25",
+        "before": {
+          "id": "geography-cs-hard-04-25",
+          "initial": "V",
+          "text": "Jak se nazývá boční ledovcové údolí, jehož dno ústí vysoko nad dnem hlavního, hlouběji vyhloubeného údolí?",
+          "answer": "Visuté údolí",
+          "aliases": ["zavěšené údolí"],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/Visut%C3%A9_%C3%BAdol%C3%AD"
+          ]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-25",
+          "initial": "V",
+          "text": "Jak se nazývá roční sedimentární vrstvička tvořená typicky dvojicí letní a zimní laminy v jezerních usazeninách, kterou lze využít k datování?",
+          "answer": "Varva",
+          "aliases": ["Varvy", "Varve", "Roční vrstva"],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://www.britannica.com/science/varved-deposit",
+            "https://www.britannica.com/science/varve-analysis"
+          ]
+        },
+        "reason": "Replace published English hanging-glacial-valley fact.",
+        "support": "Varves represent annual deposits, commonly paired contrasting summer/winter lake laminations counted for chronology.",
+        "sourceAccess": "web_search explicit Britannica stratification and varve-analysis passages"
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-26",
+      "answer": "Wilsonův cyklus",
+      "questionSha256": "954630368d0a57280174559ce882f3f767658742023f9abe3cd2a15b9b9d3dfb",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-26"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wilson_Cycle",
+          "fetchedAt": "2026-10-31T00:39:12.765665+00:00",
+          "sourceQuality": "Secondary English encyclopedia; actual definition/context, not independent Czech terminology certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/4f6c0c675d04b69394c4.html",
+          "sourceBodySha256": "cc2cb3cdb4123bb4c205fb563876cd3e23e8d35487dcb66a5578dba7470a0472",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04-supplement.json",
+            "sha256": "5b99f806ea664d354b98a3bdc81b0ad3cb5c29d7c70c41b5ab1ab0bd4bffa943",
+            "index": 19
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/4f6c0c675d04b69394c4.txt",
+          "sourceTextSha256": "d82b3ca371d9d91fa9faa315566e469c0d982768096b99e9b441379b74df6598",
+          "passage": "The Wilson Cycle is a model that describes the opening and closing of ocean basins and the subduction and divergence of tectonic plates during the assembly and disassembly of supercontinents. A classic example of the Wilson Cycle is the opening and closing of the Atlantic Ocean. It has been suggested that Wilson cycles on Earth started about 3 Ga in the Archean Eon.[1] The Wilson Cycle model was a key development in the theory of plate tectonics during the Plate Tectonics Revolution.\n\nThe model is named after John Tuzo Wilson in recognition of his iconic observation that the present-day Atlantic Ocean appears along a former suture zone[2] and his development in a classic 1968 paper[3] of what was later named the \"Wilson cycle\" in 1975 by Kevin C. A. Burke, a colleague and friend of Wilson.[4]",
+          "consultedParagraphIndices": [0, 1],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    },
+    {
+      "id": "geography-cs-hard-04-27",
+      "answer": "Zagros",
+      "questionSha256": "d7f04ddd9c42b53dca1467aeeafdd183cf74261f0672138617ce3ba0fcc64113",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-27"
+      },
+      "revision": {
+        "id": "geography-cs-hard-04-27",
+        "before": {
+          "id": "geography-cs-hard-04-27",
+          "initial": "Z",
+          "text": "Jak se nazývá eroze, při níž zahlubování říčního koryta postupuje proti směru toku, tedy směrem k prameni?",
+          "answer": "Zpětná eroze",
+          "aliases": ["zpětné zahlubování", "headward erosion"],
+          "category": "geography",
+          "language": "cs",
+          "sources": ["https://cs.wikipedia.org/wiki/Zp%C4%9Btn%C3%A1_eroze"]
+        },
+        "after": {
+          "id": "geography-cs-hard-04-27",
+          "initial": "Z",
+          "text": "Které pohoří táhnoucí se hlavně západním Íránem vzniklo při srážce Arabské a Eurasijské desky?",
+          "answer": "Zagros",
+          "aliases": [
+            "Pohoří Zagros",
+            "Zagroské pohoří",
+            "Zagroské hory",
+            "Zagros Mountains"
+          ],
+          "category": "geography",
+          "language": "cs",
+          "sources": [
+            "https://www.geolsoc.org.uk/science-and-policy/plate-tectonic-stories/zagros-ramge/",
+            "https://www.britannica.com/place/Zagros-Mountains",
+            "https://cs.wikipedia.org/wiki/Zagros"
+          ]
+        },
+        "reason": "Second-round Geography27: replace the owned headward-erosion target exposed by the shipped river-capture clue with a distinct mountain-range/location/tectonic-origin identification; preserve the shipped clue.",
+        "support": "Geological Society of London directly describes formation by Arabian-Eurasian convergence. Britannica explicitly places the range mostly in Iran along the plateau's western boundary; Czech reference confirms its western Iran course and standard name.",
+        "sourceAccess": "Author directly inspected Geological Society tectonic paragraphs; the page's anomalous southeastern-Iran sentence is not relied on for location. Britannica direct fetch returned 403; its explicit western-location search passage and Czech reference search passage support location/name. No target mention found in the bounded 519-instance corpus search."
+      }
+    },
+    {
+      "id": "geography-cs-hard-04-28",
+      "answer": "Žermanická přehrada",
+      "questionSha256": "6a6d339013cb86fbb2bce36c10b0b4942d3ff23e9850ef717a8788292196d6ff",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/FULL-EVIDENCE28.json",
+        "sha256": "311135077b67457dccbffe1b0ac0c796433a5918dc7005e76ba4309d2dac9214",
+        "entryId": "geography-cs-hard-04-28"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Vodn%C3%AD_n%C3%A1dr%C5%BE_%C5%BDermanice",
+          "fetchedAt": "2026-10-31T00:35:41.579576+00:00",
+          "sourceQuality": "Secondary encyclopedia; actual native factual/naming contexts, not primary certification.",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/2a6f2ac0a35d8732d53f.html",
+          "sourceBodySha256": "78ee6f2d7ddcdbb2ddfcd24a019ac817d3feb8230c852d8af08002a511ee4fe9",
+          "originalMetadata": {
+            "path": ".artifacts/continuation/bundles/p12/geography/retrieval-b04.json",
+            "sha256": "6bf6557449fbbe6ebbc1e593f19332357fec9dcfe81d181167f25f035f2af66e",
+            "index": 83
+          },
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/geography/sources/b04/2a6f2ac0a35d8732d53f.txt",
+          "sourceTextSha256": "efdab10b161cd7277710c6063a79787aa0dc3961290982cac42bab7a2f158217",
+          "passage": "Žermanická přehrada je údolní nádrž na řece Lučině u Žermanic. Byla vybudována v letech 1951 až 1958 pro zásobení ostravského průmyslu provozní vodou. Na hráz bylo spotřebováno 116 600 m³ betonu. Je dlouhá 314 m a vysoká 38 m. Vodní plocha zabírá 248 ha a celkový objem přehrady činí 25 300 000 m³ vody. Maximální hloubka je 28 m. V důsledku stavby přehrady byly zatopeny vesnice Horní a Dolní Soběšovice. Při stavbě přehrady vznikla přírodní památka Žermanický lom, ten byl v roce 1992 vyhlášen přírodní památkou.\n\nNedostatečná vodnost vlastní Lučiny si vyžádala vybudování přivaděče Morávka-Žermanice z řeky Morávky, který byl dokončen v roce 1959. Systém vodohospodářských děl v povodí Morávky a Lučiny doplnila později vybudovaná nádrž na Morávce.\n\nÚčelem vodního díla Žermanice je zásobení podniků v ostravském regionu provozní vodou, dále pak nalepšování průtoků v toku pod přehradou a výroba elektrické energie. Slavnostně zprovozněna byla 8. listopadu 1958 a zpočátku dodávala vodu ostravské Nové huti a papírně ve Vratimově.[2]. Vodní nádrž slouží také jako zásobárna pro Biocel Paskov, je vhodná a hodně využívána k rekreaci, ke koupání, k vodním sportům a rybaření. V nádrži žije spousta druhů ryb, je zde možno ulovit tradičního kapra nebo cejna, ale i velké štiky a candáty, líny, úhoře, okouny, tlouště, ostroretky, amury, boleny, v horní části nádrže i pstruhy.",
+          "consultedParagraphIndices": [0, 1, 2],
+          "readingDisposition": "Actual complete selected contexts read, with retained141 native lead paragraphs, 19 supplemental paragraphs and29 deeper native paragraphs reused without restart. New actual source-context reading is separately recorded; no whole-article or HTTP-only certification. Original retrieval dates and cache bytes are retained."
+        }
+      ]
+    }
+  ],
+  "reviewRecords": [
+    "../reviews/phase-12-geography-cs-hard-04-round-1.json",
+    "../reviews/phase-12-geography-cs-hard-04-round-2.json"
+  ],
+  "reviewRecordHashes": [
+    {
+      "path": "reviews/phase-12-geography-cs-hard-04-round-1.json",
+      "sha256": "0791144bcd616bbb6bf275af4e94ea6bc02d651e9ae437f1aadd2000808223b3"
+    },
+    {
+      "path": "reviews/phase-12-geography-cs-hard-04-round-2.json",
+      "sha256": "7cb06db80a1e1bf0ce5f036b1aa317e97edabb9c339e90ba9c49806e58fb132e"
+    }
+  ],
+  "reviewCompletion": {
+    "packSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+    "independentRounds": 2,
+    "acceptedQuestionsPerRound": 28,
+    "openFindings": 0,
+    "continuity": "Two distinct non-author research reviewers completed all 28 entries and all relevant source, alias, wording, initial, difficulty and bilingual semantic judgments. Original failed/held snapshots remain preserved; both rounds explicitly accept every final question under this actual pack hash after narrow correction review."
+  },
+  "validation": {
+    "id": "geography-cs-hard-04",
+    "packSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+    "questions": 28,
+    "fixedCzechLabels": true,
+    "acceptedForms": 118,
+    "allFormsMatch": true,
+    "importExportRoundtrip": true
+  },
+  "normalizationContinuity": {
+    "proof": {
+      "id": "geography-cs-hard-04",
+      "beforePackSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+      "packSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+      "acceptedAnswerSetExactlyUnchanged": true,
+      "changed": []
+    },
+    "history": "The first General exact-parent content gate exposed redundant normalization-equivalent alias storage. Three redundant strings across General/Science were removed without changing any accepted-answer set; both independent reviewers explicitly accepted the resulting final hashes. No tests or application code were changed.",
+    "preservedInitialFailedGate": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../general-cs-hard-05-content-gate-initial-failed.log",
+      "sha256": "96256ecf3450aec601876ca03b07440c061c70c307991cf6375b363f32cbd830"
+    }
+  },
+  "releasePolicy": {
+    "contentOnlyCommand": "NODE_OPTIONS=--max-old-space-size=2048 timeout 1200 npm run release:content -- a816b826849042f70be41ee9cd5eee147fa32c4a",
+    "application": "No application/tool/test/dependency changes and no local app build/typecheck/coverage/browser suites.",
+    "deployment": "Unchanged existing GitHub Actions main deployment may build the application; verify its actual merge revision separately. No live browser/private-host check claimed."
+  },
+  "limitations": [
+    "Search-passage support is labeled as such; direct access failures are not represented as full-page inspection.",
+    "Historical capture/paperwork gaps are not reconstructed or relabeled as proven.",
+    "Bounded deck release is not Phase12 clearance; final quotas and cleanup remain open."
+  ]
+}
