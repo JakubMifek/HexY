@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 1,
+  "deckId": "geography-cs-hard-04",
+  "reviewRound": 2,
+  "reviewer": {
+    "name": "Independent non-author, round 2",
+    "agentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "role": "Fresh independent non-author research reviewer"
+  },
+  "packSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+  "verdict": "ACCEPTED",
+  "openFindings": 0,
+  "wholeDeckDifficulty": "HARD",
+  "readingKey": {
+    "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "candidateLines": "Line range within the deck JSON.",
+    "evidenceLines": "Line range within the corresponding -evidence.json.",
+    "CACHED": "Personally read historical relevant passage in evidence projection; not fresh network access.",
+    "DIRECT": "Personally fetched and read the identified source section.",
+    "SEARCH": "Personally read the identified search passage, not the full page.",
+    "defaultsForAccepted": {
+      "fact": "Supported by the indicated source.",
+      "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+      "duplicate": "No same-fact collision identified in the accessible indexed scope.",
+      "wording": "Natural Czech; no material ambiguity or giveaway identified.",
+      "initial": "Canonical matches fixed Czech position, including Ch.",
+      "category": "Appropriate for the deck."
+    },
+    "heldOverrides": "Held entries retain the defaults except where explicitly overridden below."
+  },
+  "entries": [
+    {
+      "id": "geography-cs-hard-04-01",
+      "questionSha256": "a2f6f7c2d89512d17b10a465c845524ee3861f82f502c93f735821e6356fb2ba",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "01",
+        "verdict": "ACCEPTED",
+        "candidateLines": "11-20",
+        "evidenceLines": "6-53",
+        "source": "CACHED",
+        "duplicate": "Coastal abrasion is the process, distinct from an abrasion platform landform."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-02",
+      "questionSha256": "95302de5236790790af57e189618a52af97723e5f8f986d3a0517d679d4ddd1a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "02",
+        "verdict": "ACCEPTED",
+        "candidateLines": "21-37",
+        "evidenceLines": "54-105",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-03",
+      "questionSha256": "e093aa461aca43c353a2f54c7372150e5c445334b34ab24f6d7f4338da315628",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "03",
+        "verdict": "ACCEPTED",
+        "candidateLines": "38-47",
+        "evidenceLines": "106-152",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-04",
+      "questionSha256": "116720e7f0ea7f33fc3842ac3d4898ad40a033462c2555bd60a0bb7feac51be6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "04",
+        "verdict": "ACCEPTED",
+        "candidateLines": "48-63",
+        "evidenceLines": "153-217",
+        "source": "CACHED plus CACHED qualifier addendum",
+        "duplicate": "Zadar's musical sea organ is not the basalt formation."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-05",
+      "questionSha256": "c64369de9c903ea06b60ac28d17b8df7ddcac708c028844ba4defd6d17f78886",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "05",
+        "verdict": "ACCEPTED",
+        "candidateLines": "64-73",
+        "evidenceLines": "218-262",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-06",
+      "questionSha256": "ae0bd193f553a62477cd1609e378b958933cf2c39b432d9561ad8f2839a707d0",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "06",
+        "verdict": "ACCEPTED",
+        "candidateLines": "74-83",
+        "evidenceLines": "263-309",
+        "source": "CACHED plus DIRECT GEO06"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-07",
+      "questionSha256": "b134ed195afb621fd0dea0b98e8406bce78392b229d3386d99ed9da8a009ee49",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "07",
+        "verdict": "ACCEPTED",
+        "candidateLines": "84-93",
+        "evidenceLines": "310-360",
+        "source": "CACHED",
+        "duplicate": "The unrelated programming use of sled means sequence, not firn."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-08",
+      "questionSha256": "3fdd59d252a28e40aae360e0263d0b1cf4c6a8af75ac214ae3b7ebb94c8e2e96",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "08",
+        "verdict": "ACCEPTED",
+        "candidateLines": "94-103",
+        "evidenceLines": "361-405",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-09",
+      "questionSha256": "849a10d828c527e3f5128caf0b3cc95f0f2c8a2e5e088c25e1c0415fa7007001",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "09",
+        "verdict": "ACCEPTED",
+        "candidateLines": "104-113",
+        "evidenceLines": "406-452",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-10",
+      "questionSha256": "0a23baa57aaeaa46001e52b825a8364cc883a8f3b60f5425fbe8818a544630a7",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "10",
+        "verdict": "ACCEPTED",
+        "candidateLines": "114-125",
+        "evidenceLines": "453-499",
+        "source": "CACHED plus SEARCH GEO10"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-11",
+      "questionSha256": "83f18dccc88db47afbc770bee5048ac670ee9e73863909ad65a8b31199ba0900",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "11",
+        "verdict": "ACCEPTED",
+        "candidateLines": "126-147",
+        "evidenceLines": "500-596",
+        "source": "DIRECT GEO11",
+        "duplicate": "Isotach is not the replaced inselberg fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-12",
+      "questionSha256": "2f755c30ee548170d63fc03581188e2df16b2ea92ca6093466ed93bf837a1201",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "12",
+        "verdict": "ACCEPTED",
+        "candidateLines": "148-160",
+        "evidenceLines": "597-671",
+        "source": "CACHED plus CACHED qualifier addendum",
+        "fact": "Current wording does not require a shallow pool or perpetual freedom from adhesion."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-13",
+      "questionSha256": "18e3ce170dd953f3c8b7023ddd539a4a6bbf84780c35b56e05e938c791e35e2f",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "13",
+        "verdict": "ACCEPTED",
+        "candidateLines": "161-173",
+        "evidenceLines": "672-729",
+        "source": "CACHED plus DIRECT GEO13",
+        "fact": "Frost action is supported without claiming a particular repeated thaw cycle."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-14",
+      "questionSha256": "a97a33456d5ce2b180fe36491bbdab010c93b449ba1bd2f772b6abe36c3df7fd",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "14",
+        "verdict": "ACCEPTED",
+        "candidateLines": "174-183",
+        "evidenceLines": "730-789",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-15",
+      "questionSha256": "de5cd110ac860bbf7bd91b5480335424a86295bf53fba53c1e9134b8871908b8",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "15",
+        "verdict": "ACCEPTED",
+        "candidateLines": "184-193",
+        "evidenceLines": "790-836",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-16",
+      "questionSha256": "b701a8f1fb7e46883985d1d456b06737db16aa4a71a509b32e5698bf50677530",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "16",
+        "verdict": "HELD",
+        "candidateLines": "194-210",
+        "evidenceLines": "837-886",
+        "source": "CACHED plus DIRECT GEO16",
+        "aliases": "Alluvial fan is a legitimate English equivalent missing from accepted forms.",
+        "duplicate": "The current English Bajada clue names alluvial fans; this is a same-concept cross-clue giveaway, not the same target fact."
+      },
+      "priorDelta": "HELD for missing attested English answer forms. The replacement fact, Czech wording, initial, category and bounded originality are otherwise acceptable; candidates/geography-cs-hard-04.json:195-222.",
+      "finalResolution": "Geography 16 ACCEPTED: the five forms were added, all prior aliases retained, and no other candidate bytes changed against the held snapshot. The final hold is resolved. See /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/candidates/geography-cs-hard-04.json:195-219."
+    },
+    {
+      "id": "geography-cs-hard-04-17",
+      "questionSha256": "d87ae69a06cffa42fccdfb8715180048a03c18b55b2db4b421559e271c0fe5d5",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "17",
+        "verdict": "ACCEPTED",
+        "candidateLines": "211-220",
+        "evidenceLines": "887-933",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-18",
+      "questionSha256": "e65c6f197290d69aaa24a6b6b40b01764256096e1b07354764536b98773241a6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "18",
+        "verdict": "ACCEPTED",
+        "candidateLines": "221-236",
+        "evidenceLines": "934-995",
+        "source": "CACHED plus SEARCH GEO18"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-19",
+      "questionSha256": "f27408cddfc946b1425e089a8f6e9bf1dce5545ed3107dce87ce46b75e430fad",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "19",
+        "verdict": "ACCEPTED",
+        "candidateLines": "237-246",
+        "evidenceLines": "996-1043",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-20",
+      "questionSha256": "1611cc7c4fc2637a90e467f870ebd35c7b957ea1fc32e73914648be0c3154ee8",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "20",
+        "verdict": "ACCEPTED",
+        "candidateLines": "247-261",
+        "evidenceLines": "1044-1105",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-21",
+      "questionSha256": "dcff7fccb2863e673ff583032adeee191052d17f44b67a66f9cd69517d8ec935",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "21",
+        "verdict": "ACCEPTED",
+        "candidateLines": "262-274",
+        "evidenceLines": "1106-1173",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-22",
+      "questionSha256": "4059072cc0ecc14f94648c8d2561f0d9c9e49479d445155095fd497ec0e29076",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "22",
+        "verdict": "ACCEPTED",
+        "candidateLines": "275-284",
+        "evidenceLines": "1174-1221",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-23",
+      "questionSha256": "20e695f464d3380c94a38327595b1536c4fa3b78778393a7911b9469e7ba2b9b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "23",
+        "verdict": "ACCEPTED",
+        "candidateLines": "285-300",
+        "evidenceLines": "1222-1274",
+        "source": "CACHED plus DIRECT GEO23",
+        "duplicate": "Summit outcrop predicate differs from the replaced isolated inselberg rising from a plain; overlapping geomorphic terminology is acknowledged."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-24",
+      "questionSha256": "ef0142b291e491b4ad2a8e39dddef0690211da5fdb903725fa8ba8cda4e4101f",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "24",
+        "verdict": "ACCEPTED",
+        "candidateLines": "301-310",
+        "evidenceLines": "1275-1321",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-25",
+      "questionSha256": "35356660b3fbf2ddd26ed1c42aae41c18b8c7acca4df33f113f526895a05be66",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "25",
+        "verdict": "ACCEPTED",
+        "candidateLines": "311-323",
+        "evidenceLines": "1322-1388",
+        "source": "DIRECT GEO25",
+        "duplicate": "Annual sediment layer is distinct from the replaced hanging valley."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-26",
+      "questionSha256": "954630368d0a57280174559ce882f3f767658742023f9abe3cd2a15b9b9d3dfb",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "26",
+        "verdict": "ACCEPTED",
+        "candidateLines": "324-337",
+        "evidenceLines": "1389-1437",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "geography-cs-hard-04-27",
+      "questionSha256": "d7f04ddd9c42b53dca1467aeeafdd183cf74261f0672138617ce3ba0fcc64113",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "27",
+        "verdict": "HELD",
+        "candidateLines": "338-347",
+        "evidenceLines": "1438-1484",
+        "source": "CACHED",
+        "fact": "Supported.",
+        "duplicate": "A current Czech river-capture clue explicitly names zpětnou erozí, the declined form of this target; the target facts differ but the answer is exposed."
+      },
+      "priorDelta": "ACCEPTED: western-Iran location and Arabian–Eurasian convergence identify Zagros; candidates/geography-cs-hard-04.json:351-367.",
+      "finalResolution": "ACCEPTED: western-Iran location and Arabian–Eurasian convergence identify Zagros; candidates/geography-cs-hard-04.json:351-367."
+    },
+    {
+      "id": "geography-cs-hard-04-28",
+      "questionSha256": "6a6d339013cb86fbb2bce36c10b0b4942d3ff23e9850ef717a8788292196d6ff",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "28",
+        "verdict": "ACCEPTED",
+        "candidateLines": "348-358",
+        "evidenceLines": "1485-1538",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    }
+  ],
+  "originalSnapshot": {
+    "packSha256": "12f340ff97c0ff9a70ef98e7847018bb7fa502523a0f0ea0e7de8bbcb7c1d22d",
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/geography-cs-hard-04.json",
+    "evidenceSha256": "e807f07a36065fbf63cd5ff4d955afb98121ef96e6ca46df04e1c6c3141f1cb0",
+    "note": "Original HELD findings and subsequent held delta are preserved as history, not relabeled as original passes."
+  },
+  "originalReviewContext": {
+    "reviewer": "independent non-author, round 2",
+    "scope": "General and Geography only; 56 entries reviewed",
+    "readingKey": {
+      "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/candidates/",
+      "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/",
+      "candidateLines": "Line range within the deck JSON.",
+      "evidenceLines": "Line range within the corresponding -evidence.json.",
+      "CACHED": "Personally read historical relevant passage in evidence projection; not fresh network access.",
+      "DIRECT": "Personally fetched and read the identified source section.",
+      "SEARCH": "Personally read the identified search passage, not the full page.",
+      "defaultsForAccepted": {
+        "fact": "Supported by the indicated source.",
+        "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+        "duplicate": "No same-fact collision identified in the accessible indexed scope.",
+        "wording": "Natural Czech; no material ambiguity or giveaway identified.",
+        "initial": "Canonical matches fixed Czech position, including Ch.",
+        "category": "Appropriate for the deck."
+      },
+      "heldOverrides": "Held entries retain the defaults except where explicitly overridden below."
+    },
+    "requiredCorrections": [
+      {
+        "entry": "general-cs-hard-05-01",
+        "action": "Add Ažurová výšivka and Mřížka/Mřížky; retain existing forms.",
+        "source": "DIRECT G01"
+      },
+      {
+        "entry": "general-cs-hard-05-22",
+        "action": "Add the contextual Czech ground/base-coat forms identified above; retain existing forms.",
+        "source": "DIRECT G22"
+      },
+      {
+        "entry": "general-cs-hard-05-24",
+        "action": "Add Shield boss; retain existing forms.",
+        "source": "SEARCH G24 and original captured definition"
+      },
+      {
+        "entry": "geography-cs-hard-04-16",
+        "action": "Resolve the cross-clue giveaway, preferably by replacing the owned target; do not omit the legitimate Alluvial fan equivalent merely to conceal the collision.",
+        "otherClue": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/content/geography-en-hard-03.json:21-29",
+        "source": "DIRECT GEO16"
+      },
+      {
+        "entry": "geography-cs-hard-04-27",
+        "action": "Resolve the cross-clue giveaway, preferably by replacing the owned target; do not alter the published clue.",
+        "otherClue": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/content/geography-cs-hard-01.json:218-230"
+      }
+    ],
+    "sourcesInspected": {
+      "G01": [
+        "DIRECT https://vysivani-online.cz/azury-mrizky/ introductory definition and basic technique",
+        "DIRECT https://www.rucniprace.cz/azura-mrizka.php Co je ažura"
+      ],
+      "G02": ["DIRECT https://encyklopedieknihy.cz/index.php?title=Borgis"],
+      "G07": ["DIRECT https://encyklopedieknihy.cz/index.php?title=Foliace"],
+      "G08": [
+        "SEARCH https://dbpedia.org/page/Gnomonics definition",
+        "DIRECT https://www.slunecni-hodiny.webzdarma.cz/osobnosti.html context only"
+      ],
+      "G09": [
+        "DIRECT https://linguagem.pt/en/literatura/fernando-pessoa-e-os-heteronimos/ introduction and examples"
+      ],
+      "G10": [
+        "SEARCH https://era.ed.ac.uk/items/c8ca3092-8190-4ad1-be9e-5c45a3df765c abstract"
+      ],
+      "G14": [
+        "SEARCH https://en.wikipedia.org/wiki/Lustrum census and purification passage"
+      ],
+      "G18": [
+        "DIRECT https://www.puncovniurad.eu/identifikacni-znacky/ opening definition"
+      ],
+      "G19": ["SEARCH https://www.wikiwand.com/en/Rotulus definition"],
+      "G20": ["DIRECT https://provincie.minorite.cz/co-je-to-reholni-profese/"],
+      "G21": ["SEARCH https://cs.wikipedia.org/wiki/Serif"],
+      "G22": [
+        "DIRECT https://www.cojeco.cz/seps definition",
+        "SEARCH https://www.wikiwand.com/cs/%C5%A0eps"
+      ],
+      "G23": [
+        "SEARCH https://www.wikiwand.com/cs/articles/Tironsk%C3%A9_noty",
+        "SEARCH https://www.wikiwand.com/en/articles/Tironian_notae"
+      ],
+      "G24": [
+        "SEARCH https://cs.bab.la/slovnik/cesky-anglicky/%C5%A1t%C3%ADtov%C3%A1-puklice"
+      ],
+      "GEO06": ["DIRECT https://www.cojeco.cz/epigeneze"],
+      "GEO10": ["SEARCH http://slovnik.cmes.cz/heslo/1162"],
+      "GEO11": [
+        "DIRECT https://glossary.ametsoc.org/wiki/isotach/",
+        "DIRECT https://beliana.sav.sk/heslo/izotacha"
+      ],
+      "GEO13": [
+        "DIRECT https://nsidc.org/learn/cryosphere-glossary/cryoturbation"
+      ],
+      "GEO16": [
+        "DIRECT https://journals.muni.cz/gvms/article/view/4776 title and abstract",
+        "DIRECT https://geography.upol.cz/soubory/studium/e-ucebnice/Smolova-2010/lexikon/fluvialni/naplavovy_kuzel.html"
+      ],
+      "GEO18": ["SEARCH https://www.wikiwand.com/cs/articles/L%C3%A1va"],
+      "GEO23": [
+        "DIRECT https://geography.upol.cz/soubory/studium/e-ucebnice/Smolova-2010/lexikon/periglacialni/tor.html"
+      ],
+      "GEO25": ["DIRECT https://app.geology.cz/encyklopedie/term.pl?varva"],
+      "qualifierAddendum": "CACHED /home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/SOURCE-QUALIFIER-ADDENDUM.json:4-42"
+    },
+    "scopeAndLimits": "Compared accessible indexed main, staged, unpublished and retired instances using bilingual concept leads and accepted-form checks in both directions, including the other frozen candidates. Index: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/corpus-manifest.json:1-9. Semantic comparison cannot prove absence of every possible paraphrase; inaccessible archives are not claimed. Replaced-target historical passages were not treated as evidence for replacements. Direct Britannica and Wikiwand fetches failed with 403; cited search passages are labeled SEARCH. The Czech meteorological dictionary direct request was unavailable.",
+    "integration": "Both decks remain held. Conditional future integration is one independently gated content-only PR per corrected deck on fresh actual main, preserving prior packs and order; no gate, merge or deployment was executed. Phase 12 is not cleared."
+  },
+  "deltaSourcesInspected": [
+    "DIRECT: https://saudipedia.com/en/deserts-of-saudi-arabia — Al-Nufud al-Kabir location, red sands and Dahna connection.",
+    "DIRECT: https://saudipedia.com/en/al-dahna-desert — Dahna connects Great al-Nafud to the Empty Quarter.",
+    "DIRECT: https://www.geolsoc.org.uk/science-and-policy/plate-tectonic-stories/zagros-ramge/ — Arabian–Eurasian convergence. Its anomalous southeastern-Iran sentence was not used for location.",
+    "SEARCH only: https://www.britannica.com/place/Zagros-Mountains — western-Iran location; direct fetch returned 403.",
+    "DIRECT: https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node64.html — three approximations.",
+    "DIRECT: https://physics.aps.org/articles/v7/51 — Efimov trimer scaling.",
+    "DIRECT: https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/ — publication history.",
+    "DIRECT: https://ceske-bylinky.cz/content/210-hermanek-pravy — folk-name list only.",
+    "DIRECT: https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/ and https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy — names and leaf comparison.",
+    "DIRECT: https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety — seal locomotion.",
+    "DIRECT: https://www.nasiptaci.info/zluna-zelena-2/ — green woodpecker identification, feeding and breeding.",
+    "Other prior DIRECT, SEARCH and CACHED source readings are preserved in round-two-general-geography.json and round-two-science-nature.json."
+  ],
+  "deltaContinuityAndLimits": "The actual diff changes only the 18 held entries; existing aliases are retained except those belonging to the two replaced Geography targets. The 29 mechanical nominations include unrelated generic overlaps, not identified same-fact duplicates. New-target comparison was bounded to the accessible 519-instance index and candidates; inaccessible archives were not reviewed. The production validation receipt was inspected, not independently rerun. No app checks, changes or deployment were performed.",
+  "finalHashRebinding": {
+    "id": "geography-cs-hard-04",
+    "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+    "verdict": "ACCEPTED",
+    "entries": "01–28"
+  },
+  "continuity": "All 112 entries are accepted under these hashes, carrying forward the completed original and delta judgments in round-two-general-geography.json, round-two-science-nature.json and round-two-delta-first.json.",
+  "integrationVerdict": "Conditional on separate exact-parent content-only gates and deployment for each deck; no integration or Phase 12 clearance is claimed.",
+  "rawReportReceipts": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-partial-original.json",
+      "sha256": "e1c42bad1700fbc37faee65da230181f7470da35c69c2cd86f92e194e04b0f31"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-general-geography.json",
+      "sha256": "e4253a70957182609ea0d8c3063816376469ba051528d2661f3d90b8b6f4999c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-science-nature.json",
+      "sha256": "b6d0143f3deba41e4cfe3f76b81b3a18ca45d34da456ec6d51178c853480e283"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-delta-first.json",
+      "sha256": "c63a6a365c427b7f6c350ffaefda659fbea155e32782567441d02d1b9238cb6c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-final.json",
+      "sha256": "a5bfe3eefcbcacf73fc53238b990c02731aefdab6538ae2887fb5ff6ce67b391"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-round-two.json",
+      "sha256": "f47540fbecaf3995c26870aa63e2b3bb47704895d4583df81a54cbadaab0109a"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-equivalence.json",
+      "sha256": "8255d7f7ec05a74663c456753ec68e19e1f2522d011add0e952409b6222a6cbc"
+    }
+  ],
+  "preNormalizationFinalHashRebinding": {
+    "id": "geography-cs-hard-04",
+    "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+    "verdict": "ACCEPTED",
+    "difficulty": "HARD",
+    "acceptedEntries": "01–28 inclusive"
+  },
+  "normalizationProof": {
+    "id": "geography-cs-hard-04",
+    "beforePackSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+    "packSha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+    "acceptedAnswerSetExactlyUnchanged": true,
+    "changed": []
+  },
+  "normalizationReview": {
+    "reviewer": "Independent non-author, round 2",
+    "reviewerAgentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "decks": [
+      {
+        "id": "general-cs-hard-05",
+        "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "science-cs-hard-03",
+        "sha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "geography-cs-hard-04",
+        "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "nature-cs-easy-04",
+        "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      }
+    ],
+    "changedEntries": {
+      "general-cs-hard-05-08": "ACCEPTED",
+      "general-cs-hard-05-10": "ACCEPTED",
+      "science-cs-hard-03-08": "ACCEPTED"
+    },
+    "basis": "The only candidate changes remove three aliases equivalent to their canonicals under production normalization; the equivalence receipt reports unchanged accepted sets. Inspected /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/normalization-equivalence.json:1-60 and /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/domain/answers.js:64-79. No checks were rerun.",
+    "continuity": "All 112 prior judgments in round-two-final.json remain accepted under these hashes.",
+    "openFindings": [],
+    "integration": "Conditional on separate exact-parent content-only gates and deployment; no Phase 12 clearance claimed."
+  },
+  "preNormalizationReceipt": {
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../pre-normalization-snapshot/accepted-reviews/geography-cs-hard-04-round-2.json",
+    "sha256": "2d2e46a15f7b2c313a226632fd174069ac7769e28371f865d0158044f488d9cd"
+  }
+}

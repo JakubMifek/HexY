@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Bounded four-draft release, 2026-11-19:** `geography-cs-hard-04` adds only
+its independently twice-reviewed 28 entries to `a816b826849042f70be41ee9cd5eee147fa32c4a`:
+**172 decks / 4,816 questions**, English 87 / Czech 85.
+All prior 171 pack bytes/positions and application inputs remain immutable.
+[Sources and both final-hash review receipts](docs/phase-12-geography-cs-hard-04-sources.json) retain original
+holds and fresh corrections honestly. Exact-parent content-only gate and existing
+automatic deployment are separate release steps. Historical automation and timezone
+work remain paused; this checkpoint does not clear Phase12 or its final cleanup.
+
 **Bounded four-draft release, 2026-11-19:** `science-cs-hard-03` adds only
 its independently twice-reviewed 28 entries to `94814032e66fda6e600d5f73227e6e3bc1c144e6`:
 **171 decks / 4,788 questions**, English 87 / Czech 84.
