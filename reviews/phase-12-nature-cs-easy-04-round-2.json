@@ -1,0 +1,877 @@
+{
+  "schemaVersion": 1,
+  "deckId": "nature-cs-easy-04",
+  "reviewRound": 2,
+  "reviewer": {
+    "name": "Independent non-author, round 2",
+    "agentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "role": "Fresh independent non-author research reviewer"
+  },
+  "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+  "verdict": "ACCEPTED",
+  "openFindings": 0,
+  "wholeDeckDifficulty": "EASY",
+  "readingKey": {
+    "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "lineRanges": "Candidate and evidence ranges refer to the respective deck JSON and -evidence.json under these bases.",
+    "DIRECT": "Personally fetched and read the identified source section.",
+    "SEARCH": "Personally read the identified search passage, not the full page.",
+    "CACHED": "Personally read the relevant captured passage in the evidence projection.",
+    "defaults": {
+      "fact": "Supported by the cited evidence.",
+      "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+      "duplicate": "No same-fact collision or material cross-clue giveaway identified in the accessible indexed scope.",
+      "wording": "Natural Czech; no material ambiguity identified.",
+      "initial": "Canonical matches the fixed Czech position, including Ch.",
+      "category": "Appropriate for the deck."
+    },
+    "heldOverrides": "Defaults apply except where the entry or finding explicitly says otherwise. Historical passages for replaced targets were not used as evidence for their replacements."
+  },
+  "entries": [
+    {
+      "id": "nature-cs-easy-04-01",
+      "questionSha256": "88d841e802cf951e79f466d350e6cfa62dd835c15a800072fbd05b149f76336e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "01",
+        "verdict": "ACCEPTED",
+        "candidateLines": "11-21",
+        "evidenceLines": "6-69",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-02",
+      "questionSha256": "952de016890e820fe5514bbf7b3994d3d9675c737106ac3e8ba6dfc4ee7780e1",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "02",
+        "verdict": "ACCEPTED",
+        "candidateLines": "21-33",
+        "evidenceLines": "70-139",
+        "source": "DIRECT N02",
+        "duplicate": "Cabbage and butterfly are contextual broader subjects, not the same species-identification fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-03",
+      "questionSha256": "70e8c4b436c93ca7c812f443417aeb54d3c973c852e3cf595c86a0bbf462238a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "03",
+        "verdict": "ACCEPTED",
+        "candidateLines": "34-43",
+        "evidenceLines": "140-208",
+        "source": "CACHED plus DIRECT N03",
+        "duplicate": "The abdominal sound mechanism distinguishes cicada from the previously problematic cricket clue."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-04",
+      "questionSha256": "c8a5f942a0d3af04d68fe8ad7b2e16668c568a1450fed547aae43cd35b98d153",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "04",
+        "verdict": "ACCEPTED",
+        "candidateLines": "43-53",
+        "evidenceLines": "209-271",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-05",
+      "questionSha256": "2acad5b779852ab6007daf2a8751ac00d2c182abf658dbf415fb9fe312b6bc85",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "05",
+        "verdict": "ACCEPTED",
+        "candidateLines": "53-63",
+        "evidenceLines": "272-322",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-06",
+      "questionSha256": "9858bb49b947661319304d6dfc1f8f3867d1aaa1401e85341f916613ddb69a92",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "06",
+        "verdict": "ACCEPTED",
+        "candidateLines": "63-78",
+        "evidenceLines": "323-395",
+        "source": "CACHED plus DIRECT N06",
+        "aliases": "Třapatkovka, třapatka nachová and Echinacea purpurea are retained."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-07",
+      "questionSha256": "950209bd5073e207937382c33cca69485aca686db84811ebdb58836b6e25db7a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "07",
+        "verdict": "ACCEPTED",
+        "candidateLines": "78-88",
+        "evidenceLines": "396-450",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-08",
+      "questionSha256": "907970ea22dbefd3e0aaa46f0fdebaab8a7adafc4d90ae9bae314da011f96f2a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "08",
+        "verdict": "ACCEPTED",
+        "candidateLines": "88-98",
+        "evidenceLines": "451-505",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-09",
+      "questionSha256": "f7568a8dbd9b53c82dea3bf18fd95851e2ac2440d6afaad7e0d09695a5d0f137",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "09",
+        "verdict": "HELD",
+        "candidateLines": "98-114",
+        "evidenceLines": "506-585",
+        "source": "DIRECT N09",
+        "aliases": "Missing attested contextual folk names kamilka, rumánek, marunka and harmaníček."
+      },
+      "priorDelta": "ACCEPTED: all 19 added contextual folk names are listed for this plant; candidates/nature-cs-easy-04.json:99-135.",
+      "finalResolution": "ACCEPTED: all 19 added contextual folk names are listed for this plant; candidates/nature-cs-easy-04.json:99-135."
+    },
+    {
+      "id": "nature-cs-easy-04-10",
+      "questionSha256": "bfcf51491ead6ff19dd6fa817d53ce719972c5aa97333338947d6bab65fa792a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "10",
+        "verdict": "HELD",
+        "candidateLines": "114-124",
+        "evidenceLines": "586-655",
+        "source": "DIRECT N10",
+        "wording": "The generic description also admits specifically named bracket fungi not currently accepted."
+      },
+      "priorDelta": "ACCEPTED: wording asks for the common group rather than one species; candidates/nature-cs-easy-04.json:137-147.",
+      "finalResolution": "ACCEPTED: wording asks for the common group rather than one species; candidates/nature-cs-easy-04.json:137-147."
+    },
+    {
+      "id": "nature-cs-easy-04-11",
+      "questionSha256": "bd02bb52b634752f2e0ef3b3ef479bb2fcbcfe9897801d70768bc12eaa912403",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "11",
+        "verdict": "ACCEPTED",
+        "candidateLines": "124-134",
+        "evidenceLines": "656-709",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-12",
+      "questionSha256": "7c80466e213c1a2dd1761afdb415bc03f03b4b7eac59ff4006b653f674789d4a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "12",
+        "verdict": "ACCEPTED",
+        "candidateLines": "134-147",
+        "evidenceLines": "710-781",
+        "source": "SEARCH N12",
+        "fact": "Mívá appropriately avoids claiming every barley cultivar has long awns."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-13",
+      "questionSha256": "ad4549de2a728baaa3225f119bd7c2a8d7f4f7dd13119f2c2fc63ebf04190b17",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "13",
+        "verdict": "HELD",
+        "candidateLines": "147-159",
+        "evidenceLines": "782-857",
+        "source": "DIRECT N13",
+        "wording": "The flower description also fits heřmánkovec nevonný.",
+        "aliases": "Attested folk names husička, svatojánské kvítko and rmenec are missing for the intended daisy."
+      },
+      "priorDelta": "ACCEPTED: basal leaves distinguish the intended daisy; added names are attested; candidates/nature-cs-easy-04.json:170-191.",
+      "finalResolution": "ACCEPTED: basal leaves distinguish the intended daisy; added names are attested; candidates/nature-cs-easy-04.json:170-191."
+    },
+    {
+      "id": "nature-cs-easy-04-14",
+      "questionSha256": "3ddcf050d39c2d1fd758d26028397350a1faf5a486107ed7f7dd34e13ce979b0",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "14",
+        "verdict": "ACCEPTED",
+        "candidateLines": "159-169",
+        "evidenceLines": "858-917",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-15",
+      "questionSha256": "1ba028f4b803974daf331254aa05cda2ad1cdb51c71ec552eccd9afe2d686188",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "15",
+        "verdict": "HELD",
+        "candidateLines": "169-188",
+        "evidenceLines": "918-999",
+        "source": "DIRECT N15",
+        "wording": "Orange beta-carotene-rich storage root also fits orange-fleshed sweet potato; the current clue does not distinguish it."
+      },
+      "priorDelta": "ACCEPTED: finely divided foliage distinguishes carrot from sweet potato; candidates/nature-cs-easy-04.json:203-220.",
+      "finalResolution": "ACCEPTED: finely divided foliage distinguishes carrot from sweet potato; candidates/nature-cs-easy-04.json:203-220."
+    },
+    {
+      "id": "nature-cs-easy-04-16",
+      "questionSha256": "7e29c1d8a5e45f2791dbb61fb65600053c21b0eb628472aa843815f618636094",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "16",
+        "verdict": "ACCEPTED",
+        "candidateLines": "188-198",
+        "evidenceLines": "1000-1049",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-17",
+      "questionSha256": "ae06797019038489a2b396c19becd768166ac37fc649c0b9eec4bb86d631799b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "17",
+        "verdict": "ACCEPTED",
+        "candidateLines": "198-208",
+        "evidenceLines": "1050-1103",
+        "source": "CACHED",
+        "duplicate": "The existing raspberry-bush identification is a different target and predicate."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-18",
+      "questionSha256": "768b52a23979d68b10bf8bf58087bf9fc58a61e30a1351e1e41840dc5963f910",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "18",
+        "verdict": "ACCEPTED",
+        "candidateLines": "208-223",
+        "evidenceLines": "1104-1185",
+        "source": "SEARCH N18",
+        "aliases": "Kudrnka and petržel kadeřavá are legitimate narrower forms."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-19",
+      "questionSha256": "07e533a66d2253576e288342db4ade56aa1b807983b60e285414378298b74ce8",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "19",
+        "verdict": "HELD",
+        "candidateLines": "223-233",
+        "evidenceLines": "1186-1240",
+        "source": "CACHED plus DIRECT N19",
+        "wording": "The broad coastal, grey-and-white, harbor-food description also admits a tern."
+      },
+      "priorDelta": "ACCEPTED: stronger slightly hooked bill addresses the tern ambiguity; candidates/nature-cs-easy-04.json:257-269.",
+      "finalResolution": "ACCEPTED: stronger slightly hooked bill addresses the tern ambiguity; candidates/nature-cs-easy-04.json:257-269."
+    },
+    {
+      "id": "nature-cs-easy-04-20",
+      "questionSha256": "f4a03509b5576be0fac0adb3eddd1ee1ee270cdb27fe337a21b876b96255a726",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "20",
+        "verdict": "ACCEPTED",
+        "candidateLines": "233-248",
+        "evidenceLines": "1241-1301",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-21",
+      "questionSha256": "dbc0848ef1f69524a5a192b428d08b244b96740cf886e81a1e802ba702bfbea9",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "21",
+        "verdict": "ACCEPTED",
+        "candidateLines": "248-258",
+        "evidenceLines": "1302-1373",
+        "source": "DIRECT N21"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-22",
+      "questionSha256": "cb3eeab01f605b1abdb77d6235e9f32572944ce354be6449fd3a99f9f11183ff",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "22",
+        "verdict": "ACCEPTED",
+        "candidateLines": "258-268",
+        "evidenceLines": "1374-1428",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-23",
+      "questionSha256": "9c33c7c845212f73904ab52b39c952ac6c0e9e864c5576d096f158cc98eb87db",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "23",
+        "verdict": "HELD",
+        "candidateLines": "268-278",
+        "evidenceLines": "1429-1489",
+        "source": "CACHED plus DIRECT N23",
+        "wording": "Walrus also has flippers and no visible external ear flaps."
+      },
+      "priorDelta": "ACCEPTED: belly locomotion distinguishes true seals from walrus; candidates/nature-cs-easy-04.json:305-316.",
+      "finalResolution": "ACCEPTED: belly locomotion distinguishes true seals from walrus; candidates/nature-cs-easy-04.json:305-316."
+    },
+    {
+      "id": "nature-cs-easy-04-24",
+      "questionSha256": "03057561c499a089442408d16af8448c517b9f5c1088c379775f4c9eba28e2f4",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "24",
+        "verdict": "ACCEPTED",
+        "candidateLines": "278-293",
+        "evidenceLines": "1490-1566",
+        "source": "CACHED plus DIRECT N24",
+        "aliases": "Kukuřičný had is directly attested. Do not require Užovka kukuřičná on the weak sources inspected; this is not a claim that the name is universally absent."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-25",
+      "questionSha256": "ba30f77f6d9f50b9ada56443f0c90b987d13db3b942cb4fc523b4b8d993c33f6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "25",
+        "verdict": "ACCEPTED",
+        "candidateLines": "293-303",
+        "evidenceLines": "1567-1663",
+        "source": "DIRECT N25"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-26",
+      "questionSha256": "c822e03250943946642562a24fc74372816cf9188b3a0d32f058106caf67bf5e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "26",
+        "verdict": "ACCEPTED",
+        "candidateLines": "303-322",
+        "evidenceLines": "1664-1766",
+        "source": "DIRECT N26",
+        "aliases": "Ankole and Vahumský skot are supported contextual names."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-27",
+      "questionSha256": "4c2370c8e2828a09d4e22447aee36ff2e52f5f0c751abf75a552b1d14c852bb4",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "27",
+        "verdict": "ACCEPTED",
+        "candidateLines": "322-335",
+        "evidenceLines": "1767-1844",
+        "source": "DIRECT N27",
+        "duplicate": "The existing iris-control question asks for the iris, not the pupil."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "nature-cs-easy-04-28",
+      "questionSha256": "43519146397d824f29d009966fc5578975d6af5f1b9e9dcb030e74601db0c973",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "28",
+        "verdict": "HELD",
+        "candidateLines": "335-344",
+        "evidenceLines": "1845-1900",
+        "source": "CACHED plus DIRECT N28",
+        "wording": "Žluna šedá and the Iberian green woodpecker also fit the current European green-ant-eating description."
+      },
+      "priorDelta": "ACCEPTED: Czech breeding and red crown in both sexes distinguish the relevant alternatives; candidates/nature-cs-easy-04.json:375-388.",
+      "finalResolution": "ACCEPTED: Czech breeding and red crown in both sexes distinguish the relevant alternatives; candidates/nature-cs-easy-04.json:375-388."
+    }
+  ],
+  "originalSnapshot": {
+    "packSha256": "cc8245c36d4a734bf00b3e1f280ca9e45375ad2621147ef65c7ab0033d2837ba",
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/nature-cs-easy-04.json",
+    "evidenceSha256": "bfb3c40c6386a9724f82d231ab2c6c47247dd8f050be2323ab713107e05c2b63",
+    "note": "Original HELD findings and subsequent held delta are preserved as history, not relabeled as original passes."
+  },
+  "originalReviewContext": {
+    "reviewer": "Independent non-author, round 2",
+    "scope": "Science and Nature only; all 56 entries reviewed",
+    "readingKey": {
+      "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/candidates/",
+      "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/",
+      "lineRanges": "Candidate and evidence ranges refer to the respective deck JSON and -evidence.json under these bases.",
+      "DIRECT": "Personally fetched and read the identified source section.",
+      "SEARCH": "Personally read the identified search passage, not the full page.",
+      "CACHED": "Personally read the relevant captured passage in the evidence projection.",
+      "defaults": {
+        "fact": "Supported by the cited evidence.",
+        "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+        "duplicate": "No same-fact collision or material cross-clue giveaway identified in the accessible indexed scope.",
+        "wording": "Natural Czech; no material ambiguity identified.",
+        "initial": "Canonical matches the fixed Czech position, including Ch.",
+        "category": "Appropriate for the deck."
+      },
+      "heldOverrides": "Defaults apply except where the entry or finding explicitly says otherwise. Historical passages for replaced targets were not used as evidence for their replacements."
+    },
+    "findings": [
+      {
+        "entry": "science-cs-hard-03-02",
+        "required": "Add Bloch oscillation; retain the plural form.",
+        "evidence": "SEARCH S02; candidate lines 22-33."
+      },
+      {
+        "entry": "science-cs-hard-03-03",
+        "required": "Specify ideal vapor, negligible liquid volume and approximately constant vaporization enthalpy over the temperature interval; add the two English punctuation forms listed above.",
+        "evidence": "DIRECT S03; candidate lines 36-50. The author's pending wording is not part of the frozen candidate."
+      },
+      {
+        "entry": "science-cs-hard-03-05",
+        "required": "Add Diels-Alder reaction and Diels–Alder reaction; retain the Czech forms.",
+        "evidence": "SEARCH S05; candidate lines 68-81."
+      },
+      {
+        "entry": "science-cs-hard-03-06",
+        "required": "Distinguish the Efimov family, for example by its characteristic geometrically scaled sequence, or otherwise handle the broader Borromean answer fairly.",
+        "evidence": "DIRECT S06: APS describes Efimov trimers and their discrete scaling; the Rydberg-trimer paper describes Borromean states of a fundamentally different origin. Candidate lines 85-92."
+      },
+      {
+        "entry": "science-cs-hard-03-14",
+        "required": "Add Tomonaga–Luttinger liquid.",
+        "evidence": "DIRECT S14; candidate lines 188-203."
+      },
+      {
+        "entry": "science-cs-hard-03-24",
+        "required": "Change the date qualification to results published in 1953, or remove the execution-year assertion. Retain the legitimate existing name orders and punctuation forms.",
+        "evidence": "DIRECT S24: Linda Hall describes setup in fall 1952 and publication in May 1953; SEARCH S24b records Britannica's conflicting 1953 execution claim. Candidate lines 319-348."
+      },
+      {
+        "entry": "nature-cs-easy-04-09",
+        "required": "Add the attested contextual forms kamilka, rumánek, marunka and harmaníček.",
+        "evidence": "DIRECT N09; candidate lines 99-112."
+      },
+      {
+        "entry": "nature-cs-easy-04-10",
+        "required": "Make the requested generic grouping explicit enough to exclude specific identifications, or accept relevant specific forms including troudnatec kopytovitý/Fomes fomentarius and outkovka pestrá/Trametes versicolor.",
+        "evidence": "DIRECT N10; candidate lines 115-122."
+      },
+      {
+        "entry": "nature-cs-easy-04-13",
+        "required": "Add a distinguishing leaf or other reliable feature separating kopretina from heřmánkovec; add attested intended-plant folk forms husička, svatojánské kvítko and rmenec.",
+        "evidence": "DIRECT N13: Ontario compares leaf shapes; BOTANY gives heřmánkovec's overlapping 3–4.5 cm flower heads, and Pladias includes meadow habitat. NašeFlora attests the folk names. Candidate lines 148-157."
+      },
+      {
+        "entry": "nature-cs-easy-04-15",
+        "required": "Add a carrot-specific clue rather than treating sweet potato as a carrot synonym.",
+        "evidence": "DIRECT N15: Harvard and Frontiers describe orange, beta-carotene-rich sweet-potato storage roots. Candidate lines 169-185."
+      },
+      {
+        "entry": "nature-cs-easy-04-19",
+        "required": "Add a distinguishing gull behavior or morphology; do not make a tern an alias for racek.",
+        "evidence": "DIRECT N19: RSPB describes grey-and-white coastal terns; Valdez describes terns at a boat harbor catching food. Candidate lines 224-231."
+      },
+      {
+        "entry": "nature-cs-easy-04-23",
+        "required": "Distinguish true seals from walrus, for example using their land locomotion, without calling walrus a true seal.",
+        "evidence": "DIRECT N23: NOAA distinguishes pinniped families and true-seal locomotion; Biology Insights explicitly says walruses also lack external ear flaps. Candidate lines 269-276."
+      },
+      {
+        "entry": "nature-cs-easy-04-28",
+        "required": "Distinguish the intended species from other fitting European green woodpeckers, or fairly accept all fitting species names. A red crown alone distinguishes the grey-headed bird but also fits the Iberian bird.",
+        "evidence": "DIRECT N28; candidate lines 335-343. The author's pending wording is not part of the frozen candidate."
+      }
+    ],
+    "sourcesInspected": {
+      "S01": {
+        "access": "DIRECT",
+        "url": "https://journals.aps.org/prx/abstract/10.1103/y5kd-7prs"
+      },
+      "S02": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Bloch_oscillation"
+      },
+      "S03": {
+        "access": "DIRECT",
+        "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/23:_Phase_Equilibria/23.04:_The_Clausius-Clapeyron_Equation"
+      },
+      "S04": {
+        "access": "DIRECT",
+        "url": "https://www.engineeringdevotion.com/electric-circuits/chapter-19-two-port-networks.html"
+      },
+      "S05": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map:_Organic_Chemistry_(Wade)_Complete_and_Semesters_I_and_II/Map:_Organic_Chemistry_(Wade)/16:_Conjugated_Systems_Orbital_Symmetry_and_Ultraviolet_Spectroscopy/16.06:_The_Diels-Alder_(4__2)_Cycloaddition_Reaction"
+      },
+      "S06": {
+        "access": "DIRECT",
+        "urls": [
+          "https://physics.aps.org/articles/v7/51",
+          "https://ar5iv.labs.arxiv.org/html/1311.5373",
+          "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.013090"
+        ]
+      },
+      "S07": {
+        "access": "SEARCH",
+        "url": "https://ocw.mit.edu/courses/5-74-introductory-quantum-mechanics-ii-spring-2004/5f974b9793d98ad090ddd658764df01d_6.pdf"
+      },
+      "S07b": {
+        "access": "DIRECT",
+        "url": "https://ar5iv.labs.arxiv.org/html/1604.06916"
+      },
+      "S08": {
+        "access": "DIRECT",
+        "url": "https://phonopy.github.io/phonopy/gruneisen.html"
+      },
+      "S10": {
+        "access": "DIRECT",
+        "url": "https://www.wikiskripta.eu/w/Chemick%C3%A1_aktivita"
+      },
+      "S11": {
+        "access": "SEARCH",
+        "url": "https://www.news-medical.net/life-sciences/Overview-of-the-Isoelectric-Point.aspx"
+      },
+      "S12": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Janus_particles"
+      },
+      "S13": {
+        "access": "SEARCH",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4338838/"
+      },
+      "S14": {
+        "access": "DIRECT",
+        "url": "https://www.sp.phy.cam.ac.uk/research/phds-jobs/many-body-effects-in-one-dimensional-wires"
+      },
+      "S15": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/06%3A_Structures_and_Energetics_of_Metallic_and_Ionic_solids/6.13%3A_Lattice_Energy_-_Estimates_from_an_Electrostatic_Model/6.13E%3A_Madelung_Constants"
+      },
+      "S16": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Courses/University_of_California_Davis/Chem_4B%3A_General_Chemistry_for_Majors_II/03%3A_Chemical_Equilibria/3.06%3A_AcidBase_Equilibria/3.6.10%3A_Lewis_Bases_as_Nucleophilic_Reactants_in_Organic_Reactions"
+      },
+      "S17": {
+        "access": "SEARCH",
+        "url": "https://www.sciencedirect.com/topics/physics-and-astronomy/ostwald-ripening"
+      },
+      "S18": {
+        "access": "SEARCH",
+        "url": "https://bingweb.binghamton.edu/~suzuki/SolidStatePhysics/30-2_Pauli_paramagnetism.pdf"
+      },
+      "S19": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law"
+      },
+      "S20": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/03%3A_Rate_Laws/3.03%3A_The_Rate_Law/3.3.03%3A_Reaction_Order"
+      },
+      "S21": {
+        "access": "DIRECT",
+        "url": "https://ar5iv.labs.arxiv.org/html/2109.05082"
+      },
+      "S23": {
+        "access": "SEARCH",
+        "url": "https://scipp-legacy.pbsci.ucsc.edu/~haber/webpage/Thomas.pdf"
+      },
+      "S24": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/",
+          "https://edu.ceskatelevize.cz/video/5788-pokus-tvorba-aminokyselin"
+        ]
+      },
+      "S24b": {
+        "access": "SEARCH",
+        "url": "https://www.britannica.com/science/Miller-Urey-experiment"
+      },
+      "S25": {
+        "access": "DIRECT",
+        "url": "https://mathworld.wolfram.com/VirialTheorem.html"
+      },
+      "S26": {
+        "access": "DIRECT",
+        "url": "https://collaborate.princeton.edu/en/publications/transient-rod-climbing-in-a-viscoelastic-fluid/"
+      },
+      "S27": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Zitterbewegung"
+      },
+      "N02": {
+        "access": "DIRECT",
+        "url": "https://www.cropscience.bayer.cz/aktuality-a-zdroje/atlas-chorob-plevelu-skudcu/skudci/belasek-zelny"
+      },
+      "N03": {
+        "access": "DIRECT",
+        "url": "https://www.abicko.cz/clanek/precti-si-priroda/14163/cikady-zpevaci-s-bubinkem.html"
+      },
+      "N06": {
+        "access": "DIRECT",
+        "url": "https://pladias.cz/taxon/data/Echinacea%20purpurea"
+      },
+      "N09": {
+        "access": "DIRECT",
+        "urls": [
+          "https://botany.cz/cs/matricaria-recutita/",
+          "https://ceske-bylinky.cz/content/210-hermanek-pravy"
+        ]
+      },
+      "N10": {
+        "access": "DIRECT",
+        "urls": [
+          "https://botany.cz/cs/fomes-fomentarius/",
+          "https://botany.cz/cs/trametes-versicolor/"
+        ]
+      },
+      "N12": {
+        "access": "SEARCH",
+        "url": "https://www.britannica.com/plant/barley-cereal"
+      },
+      "N13": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy",
+          "https://botany.cz/cs/tripleurospermum-inodorum/",
+          "https://pladias.cz/taxon/data/Tripleurospermum%20inodorum",
+          "https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/"
+        ]
+      },
+      "N15": {
+        "access": "DIRECT",
+        "urls": [
+          "https://nutritionsource.hsph.harvard.edu/food-features/sweet-potatoes/",
+          "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1744016/full"
+        ]
+      },
+      "N18": {
+        "access": "SEARCH",
+        "url": "https://www.britannica.com/plant/parsley"
+      },
+      "N19": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.rspb.org.uk/birds-and-wildlife/common-tern",
+          "https://www.valdezalaska.org/discover/explore-the-region/wildlife/birds/arctic-terns/"
+        ]
+      },
+      "N21": {
+        "access": "DIRECT",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/great-tit"
+      },
+      "N23": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety",
+          "https://biologyinsights.com/are-walruses-seals-explaining-the-key-differences/"
+        ]
+      },
+      "N24": {
+        "access": "DIRECT",
+        "url": "https://www.superzoo.cz/uzovka-cervena-elaphe-guttata/",
+        "qualification": "Used for the Czech name only; its South America range claim is erroneous."
+      },
+      "N25": {
+        "access": "DIRECT",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/house-sparrow"
+      },
+      "N26": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.cschms.cz/index.php?page=pl_novinka&id=3504",
+          "https://www.zoodvorec.cz/lexikon/watusi_33.html"
+        ]
+      },
+      "N27": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+          "https://www.ncbi.nlm.nih.gov/sites/books/NBK381/"
+        ]
+      },
+      "N28": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.nasiptaci.info/zluna-seda-2/",
+          "https://www.nasiptaci.info/zluna-zelena-2/",
+          "https://www.birdforum.net/opus/Iberian_Green_Woodpecker"
+        ]
+      }
+    },
+    "originality": {
+      "scope": "Compared the 56 entries with the accessible indexed corpus and other candidates using accepted-form intersections, bidirectional clue checks and bilingual concept/predicate leads. The manifest identifies 519 pack instances and 14,532 rows: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/corpus-manifest.json:1-9.",
+      "result": "No additional same-fact collision identified in these two decks. Contextual overlaps were assessed rather than automatically treated as duplicates.",
+      "limit": "This is a bounded indexed comparison, not a claim about inaccessible archives or an exhaustive proof of originality."
+    },
+    "sourceLimits": [
+      "Wikipedia, Britannica, some plant sources and PMC were inaccessible directly; SEARCH and CACHED labels do not imply full-page access.",
+      "Springer S01 returned 406, Sigma S05 timed out, IUPAC S11 had a transport failure, MDPI S12 returned 403, and PMC S13 presented a browser check; alternative sources are identified above.",
+      "The relevant preserved evidence passages were read; original passages for replaced targets were treated as historical only.",
+      "No GitHub identity tool was available in this environment."
+    ],
+    "validationAndIntegration": {
+      "receipt": "The existing receipt reports 28 questions, fixed labels, matching accepted forms and roundtrip for each deck; it is not content approval: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/candidate-validation.json:20-36.",
+      "verdict": "Conditional only. Neither deck is approved while its holds remain. After corrections and independent binding to new hashes, the append-only, one-deck-per-PR contract is reasonable subject to the separate exact-parent gate and deployment workflow: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/freeze.json:25-32.",
+      "notExecuted": "No app checks, tests, builds, installations, authorship, commits, merge, deployment or Phase 12 clearance."
+    }
+  },
+  "deltaSourcesInspected": [
+    "DIRECT: https://saudipedia.com/en/deserts-of-saudi-arabia — Al-Nufud al-Kabir location, red sands and Dahna connection.",
+    "DIRECT: https://saudipedia.com/en/al-dahna-desert — Dahna connects Great al-Nafud to the Empty Quarter.",
+    "DIRECT: https://www.geolsoc.org.uk/science-and-policy/plate-tectonic-stories/zagros-ramge/ — Arabian–Eurasian convergence. Its anomalous southeastern-Iran sentence was not used for location.",
+    "SEARCH only: https://www.britannica.com/place/Zagros-Mountains — western-Iran location; direct fetch returned 403.",
+    "DIRECT: https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node64.html — three approximations.",
+    "DIRECT: https://physics.aps.org/articles/v7/51 — Efimov trimer scaling.",
+    "DIRECT: https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/ — publication history.",
+    "DIRECT: https://ceske-bylinky.cz/content/210-hermanek-pravy — folk-name list only.",
+    "DIRECT: https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/ and https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy — names and leaf comparison.",
+    "DIRECT: https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety — seal locomotion.",
+    "DIRECT: https://www.nasiptaci.info/zluna-zelena-2/ — green woodpecker identification, feeding and breeding.",
+    "Other prior DIRECT, SEARCH and CACHED source readings are preserved in round-two-general-geography.json and round-two-science-nature.json."
+  ],
+  "deltaContinuityAndLimits": "The actual diff changes only the 18 held entries; existing aliases are retained except those belonging to the two replaced Geography targets. The 29 mechanical nominations include unrelated generic overlaps, not identified same-fact duplicates. New-target comparison was bounded to the accessible 519-instance index and candidates; inaccessible archives were not reviewed. The production validation receipt was inspected, not independently rerun. No app checks, changes or deployment were performed.",
+  "finalHashRebinding": {
+    "id": "nature-cs-easy-04",
+    "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "verdict": "ACCEPTED",
+    "entries": "01–28"
+  },
+  "continuity": "All 112 entries are accepted under these hashes, carrying forward the completed original and delta judgments in round-two-general-geography.json, round-two-science-nature.json and round-two-delta-first.json.",
+  "integrationVerdict": "Conditional on separate exact-parent content-only gates and deployment for each deck; no integration or Phase 12 clearance is claimed.",
+  "rawReportReceipts": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-partial-original.json",
+      "sha256": "e1c42bad1700fbc37faee65da230181f7470da35c69c2cd86f92e194e04b0f31"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-general-geography.json",
+      "sha256": "e4253a70957182609ea0d8c3063816376469ba051528d2661f3d90b8b6f4999c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-science-nature.json",
+      "sha256": "b6d0143f3deba41e4cfe3f76b81b3a18ca45d34da456ec6d51178c853480e283"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-delta-first.json",
+      "sha256": "c63a6a365c427b7f6c350ffaefda659fbea155e32782567441d02d1b9238cb6c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-final.json",
+      "sha256": "a5bfe3eefcbcacf73fc53238b990c02731aefdab6538ae2887fb5ff6ce67b391"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-round-two.json",
+      "sha256": "f47540fbecaf3995c26870aa63e2b3bb47704895d4583df81a54cbadaab0109a"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-equivalence.json",
+      "sha256": "8255d7f7ec05a74663c456753ec68e19e1f2522d011add0e952409b6222a6cbc"
+    }
+  ],
+  "preNormalizationFinalHashRebinding": {
+    "id": "nature-cs-easy-04",
+    "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "verdict": "ACCEPTED",
+    "difficulty": "EASY"
+  },
+  "normalizationProof": {
+    "id": "nature-cs-easy-04",
+    "beforePackSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "acceptedAnswerSetExactlyUnchanged": true,
+    "changed": []
+  },
+  "normalizationReview": {
+    "reviewer": "Independent non-author, round 2",
+    "reviewerAgentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "decks": [
+      {
+        "id": "general-cs-hard-05",
+        "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "science-cs-hard-03",
+        "sha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "geography-cs-hard-04",
+        "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "nature-cs-easy-04",
+        "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      }
+    ],
+    "changedEntries": {
+      "general-cs-hard-05-08": "ACCEPTED",
+      "general-cs-hard-05-10": "ACCEPTED",
+      "science-cs-hard-03-08": "ACCEPTED"
+    },
+    "basis": "The only candidate changes remove three aliases equivalent to their canonicals under production normalization; the equivalence receipt reports unchanged accepted sets. Inspected /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/normalization-equivalence.json:1-60 and /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/domain/answers.js:64-79. No checks were rerun.",
+    "continuity": "All 112 prior judgments in round-two-final.json remain accepted under these hashes.",
+    "openFindings": [],
+    "integration": "Conditional on separate exact-parent content-only gates and deployment; no Phase 12 clearance claimed."
+  },
+  "preNormalizationReceipt": {
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../pre-normalization-snapshot/accepted-reviews/nature-cs-easy-04-round-2.json",
+    "sha256": "e23b4f71fbe7c6e74cd785fd4df5fddafb8c24b7ac0492f6e7e496a5b0ae478a"
+  }
+}
