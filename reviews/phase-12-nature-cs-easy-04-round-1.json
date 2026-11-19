@@ -1,0 +1,1016 @@
+{
+  "schemaVersion": 1,
+  "deckId": "nature-cs-easy-04",
+  "reviewRound": 1,
+  "reviewer": {
+    "name": "independent content-round-one",
+    "agentId": "0677afbc-3a84-46b8-a340-559142402ba3",
+    "role": "Independent non-author research reviewer"
+  },
+  "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+  "verdict": "ACCEPTED",
+  "openFindings": 0,
+  "wholeDeckDifficulty": "Easy",
+  "originalWholeDeckDifficulty": {
+    "verdict": "Easy",
+    "distributionIfAssessed": {
+      "easy": 19,
+      "medium": 6,
+      "hard": 3
+    },
+    "reason": "Most requested organisms, foods and body parts are familiar to general adults. The crown imperial, corn snake and Watusi are harder individual identifications, without a purity quota."
+  },
+  "readingKey": {
+    "G": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-snapshot/geography-cs-hard-04-evidence.json",
+    "N": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-snapshot/nature-cs-easy-04-evidence.json",
+    "id": "Two-digit suffix of the enclosing deck ID.",
+    "defaults": "Each entry's wording, Czech initial and category are acceptable, and its supplied aliases are legitimate. No same-requested-fact collision was identified in the bounded indexed corpus or four candidates, except as discussed. For HELD entries, alias completeness requires the specified correction.",
+    "sourceNotation": "G or N plus a line range identifies the independently inspected cached passage and source pointer. URLs are independently inspected direct pages or search passages as labeled. Original evidence for replaced targets was not used as replacement support."
+  },
+  "entries": [
+    {
+      "id": "nature-cs-easy-04-01",
+      "questionSha256": "88d841e802cf951e79f466d350e6cfa62dd835c15a800072fbd05b149f76336e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "01",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "The alpaca is a South American camelid kept for fine fiber.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:6-69",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-02",
+      "questionSha256": "952de016890e820fe5514bbf7b3994d3d9675c737106ac3e8ba6dfc4ee7780e1",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "02",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "The large white has black forewing tips and cabbage-family larvae that occur in groups.",
+        "duplicates": "The former bison identification was replaced; cabbage and butterfly clues elsewhere request different entities.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.wildlifetrusts.org/wildlife-explorer/invertebrates/butterflies/large-white",
+            "access": "search passage; direct request returned 403"
+          },
+          {
+            "urlOrPath": "https://wlgf.org/wildlife/arthropods/insects/butterflies-and-moths/butterflies/whites/large-white/",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-03",
+      "questionSha256": "70e8c4b436c93ca7c812f443417aeb54d3c973c852e3cf595c86a0bbf462238a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "03",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Cicada tymbals are abdominal sound-producing membranes; the revised clue distinguishes cricket forewing rubbing.",
+        "duplicates": "The existing Cvrček question requests forewing stridulation, a different mechanism.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:140-208",
+            "access": "cached full relevant sound-organ passage"
+          },
+          {
+            "urlOrPath": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4340955/",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-04",
+      "questionSha256": "c8a5f942a0d3af04d68fe8ad7b2e16668c568a1450fed547aae43cd35b98d153",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "04",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "The northern lapwing has a crest, black-and-white plumage and green-tinged back.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:209-271",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-05",
+      "questionSha256": "2acad5b779852ab6007daf2a8751ac00d2c182abf658dbf415fb9fe312b6bc85",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "05",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "The hoopoe has an erectile crest, black-and-white wings and a downcurved bill.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:272-322",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-06",
+      "questionSha256": "9858bb49b947661319304d6dfc1f8f3867d1aaa1401e85341f916613ddb69a92",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "06",
+        "verdict": "HELD",
+        "difficulty": "Medium",
+        "factSource": "Echinacea includes the described North American purple coneflower; the Czech genus name Třapatkovka is missing.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:323-382",
+            "access": "cached relevant passage"
+          },
+          {
+            "urlOrPath": "https://www.wikiwand.com/cs/articles/T%C5%99apatkovka",
+            "access": "search passage; direct request returned 403"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "06",
+        "finding": "NAT01",
+        "verdict": "ACCEPTED",
+        "reason": "Třapatkovka added."
+      },
+      "finalResolution": {
+        "entry": "06",
+        "finding": "NAT01",
+        "verdict": "ACCEPTED",
+        "reason": "Třapatkovka added."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-07",
+      "questionSha256": "950209bd5073e207937382c33cca69485aca686db84811ebdb58836b6e25db7a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "07",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Fuchsia commonly has pendulous red-and-purple flowers.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:383-437",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-08",
+      "questionSha256": "907970ea22dbefd3e0aaa46f0fdebaab8a7adafc4d90ae9bae314da011f96f2a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "08",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Gibbons are tailless Asian apes that commonly move by brachiation.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:438-492",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-09",
+      "questionSha256": "f7568a8dbd9b53c82dea3bf18fd95851e2ac2440d6afaad7e0d09695a5d0f137",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "09",
+        "verdict": "HELD",
+        "difficulty": "Easy",
+        "factSource": "True chamomile has the specified aromatic flowers and hollow conical receptacle; Heřmánek lékařský is another legitimate Czech name.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://botany.cz/cs/matricaria-recutita/",
+            "access": "direct specialist botanical page"
+          },
+          {
+            "urlOrPath": "https://cs.wikipedia.org/wiki/He%C5%99m%C3%A1nek_prav%C3%BD",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "09",
+        "finding": "NAT02",
+        "verdict": "ACCEPTED",
+        "reason": "Heřmánek lékařský added."
+      },
+      "finalResolution": {
+        "entry": "09",
+        "verdict": "ACCEPTED",
+        "judgment": "All 19 added folk names are listed for the identified chamomile; original names remain.",
+        "sources": [
+          "Direct, names only: https://ceske-bylinky.cz/content/210-hermanek-pravy",
+          "Direct, identification: https://botany.cz/cs/matricaria-recutita/"
+        ]
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-10",
+      "questionSha256": "bfcf51491ead6ff19dd6fa817d53ce719972c5aa97333338947d6bab65fa792a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "10",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "Wood-decay bracket fungi commonly have hard shelf-like fruiting bodies and pores underneath; this is a morphological group rather than one strict taxon.",
+        "duplicates": "The former kelp identification and its broader-algae conflict were replaced.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://bio.libretexts.org/Bookshelves/Botany/Inanimate_Life_(Briggs)/02%3A_Organisms/2.05%3A_Bracket_Fungi",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "entry": "10",
+        "verdict": "ACCEPTED",
+        "judgment": "The wording now explicitly requests the common fungal-group name rather than one species; existing aliases remain."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-11",
+      "questionSha256": "bd02bb52b634752f2e0ef3b3ef479bb2fcbcfe9897801d70768bc12eaa912403",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "11",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Pancreatic insulin lowers blood glucose.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:641-694",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-12",
+      "questionSha256": "7c80466e213c1a2dd1761afdb415bc03f03b4b7eac59ff4006b653f674789d4a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "12",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Barley is a major beer-malt cereal; the clue appropriately qualifies awns with mívá.",
+        "duplicates": "The staged Ječné kroupy clue mentions barley but requests the processed grain product, not the malt cereal identification.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.britannica.com/plant/barley-cereal",
+            "access": "search passage; direct request returned 403"
+          },
+          {
+            "urlOrPath": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8073869/",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-13",
+      "questionSha256": "ad4549de2a728baaa3225f119bd7c2a8d7f4f7dd13119f2c2fc63ebf04190b17",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "13",
+        "verdict": "HELD",
+        "difficulty": "Easy",
+        "factSource": "The oxeye daisy is a tall meadow flower with white rays around a yellow disc; Kopretina luční is an additional Czech name.",
+        "duplicates": "The existing gerbera clue compares its flower to a kopretina but requests a different plant.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.wtwales.org/wildlife-explorer/wildflowers/oxeye-daisy",
+            "access": "search passage; direct request returned 403"
+          },
+          {
+            "urlOrPath": "https://www.biano.cz/plants/p/leucanthemum-vulgare",
+            "access": "direct page; Czech name"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "13",
+        "finding": "NAT03",
+        "verdict": "ACCEPTED",
+        "reason": "Kopretina luční added."
+      },
+      "finalResolution": {
+        "entry": "13",
+        "verdict": "ACCEPTED",
+        "judgment": "Spoon-shaped toothed basal leaves distinguish the intended daisy from scentless chamomile; the added folk and scientific names are supported.",
+        "sources": [
+          "Direct: https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy",
+          "Direct: https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/"
+        ]
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-14",
+      "questionSha256": "3ddcf050d39c2d1fd758d26028397350a1faf5a486107ed7f7dd34e13ce979b0",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "14",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Eggplant commonly bears purple fruit with spongy flesh.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:841-900",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-15",
+      "questionSha256": "1ba028f4b803974daf331254aa05cda2ad1cdb51c71ec552eccd9afe2d686188",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "15",
+        "verdict": "HELD",
+        "difficulty": "Easy",
+        "factSource": "Cultivated carrots commonly have orange storage roots rich in beta-carotene; Karotka is a legitimate narrower/common answer.",
+        "duplicates": "The existing taproot question requests a root-system structure, not the carrot vegetable.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:841063-1/general-information",
+            "access": "search passage; direct request returned 403"
+          },
+          {
+            "urlOrPath": "https://atranet.zdravinadlani.cz/zelenina/karotka-mrkev",
+            "access": "search passage; Czech name"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "15",
+        "finding": "NAT04",
+        "verdict": "ACCEPTED",
+        "reason": "Karotka is encompassed by the clue."
+      },
+      "finalResolution": {
+        "entry": "15",
+        "verdict": "ACCEPTED",
+        "judgment": "Finely divided foliage distinguishes carrot from the cited sweet-potato counterexample.",
+        "source": "Search passage: https://www.britannica.com/plant/carrot"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-16",
+      "questionSha256": "7e29c1d8a5e45f2791dbb61fb65600053c21b0eb628472aa843815f618636094",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "16",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "A human nail is a hard keratin plate at the end of a digit.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:981-1030",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-17",
+      "questionSha256": "ae06797019038489a2b396c19becd768166ac37fc649c0b9eec4bb86d631799b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "17",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Unlike a picked raspberry, a blackberry retains its receptacle rather than leaving a hollow core.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1031-1084",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-18",
+      "questionSha256": "768b52a23979d68b10bf8bf58087bf9fc58a61e30a1351e1e41840dc5963f910",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "18",
+        "verdict": "HELD",
+        "difficulty": "Easy",
+        "factSource": "Parsley has flat and curly culinary forms; the common curly form Kudrnka is not accepted.",
+        "duplicates": "The staged chervil clue mentions parsley as a relative but requests chervil.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.britannica.com/plant/parsley",
+            "access": "search passage; direct request returned 403"
+          },
+          {
+            "urlOrPath": "https://www.atlasrostlin.cz/ovoce-zelenina/petrzel-kaderava",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "18",
+        "finding": "NAT05",
+        "verdict": "ACCEPTED",
+        "reason": "Kudrnka and Petržel kadeřavá are encompassed by the explicit curly-form wording."
+      },
+      "finalResolution": {
+        "entry": "18",
+        "finding": "NAT05",
+        "verdict": "ACCEPTED",
+        "reason": "Kudrnka and Petržel kadeřavá are encompassed by the explicit curly-form wording."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-19",
+      "questionSha256": "07e533a66d2253576e288342db4ade56aa1b807983b60e285414378298b74ce8",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "19",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Gulls are typically gray-and-white coastal birds and often scavenge.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1163-1217",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "entry": "19",
+        "verdict": "ACCEPTED",
+        "judgment": "The strong, slightly hooked bill supports gull rather than the tern counterexample.",
+        "source": "Search passage: https://www.britannica.com/animal/gull"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-20",
+      "questionSha256": "f4a03509b5576be0fac0adb3eddd1ee1ee270cdb27fe337a21b876b96255a726",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "20",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Crown imperial has a whorl of hanging orange or yellow flowers topped by leaves.",
+        "duplicates": "The longer historic Fritillaria proposal is this same slot's predecessor, not an independent competing question. The earlier cress fact remains separate.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1218-1278",
+            "access": "cached relevant passage"
+          },
+          {
+            "urlOrPath": "https://botany.cz/cs/fritillaria-imperialis/",
+            "access": "direct botanical page"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-21",
+      "questionSha256": "dbc0848ef1f69524a5a192b428d08b244b96740cf886e81a1e802ba702bfbea9",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "21",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "The great tit has white cheeks, a black head and a black stripe on its yellow underside.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.rspb.org.uk/birds-and-wildlife/great-tit",
+            "access": "direct conservation-organization page"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-22",
+      "questionSha256": "cb3eeab01f605b1abdb77d6235e9f32572944ce354be6449fd3a99f9f11183ff",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "22",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "Culinary sage has grayish leaves and is used as seasoning.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1351-1405",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-23",
+      "questionSha256": "9c33c7c845212f73904ab52b39c952ac6c0e9e864c5576d096f158cc98eb87db",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "23",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "True seals lack the visible external ear flaps of sea lions.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1406-1466",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "entry": "23",
+        "verdict": "ACCEPTED",
+        "judgment": "Belly locomotion distinguishes true seals from the walking walrus and eared seals.",
+        "sources": [
+          "Direct: https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety",
+          "Walrus comparison search passage: https://biologyinsights.com/how-does-a-walrus-move-on-land-and-in-water/"
+        ]
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-24",
+      "questionSha256": "03057561c499a089442408d16af8448c517b9f5c1088c379775f4c9eba28e2f4",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "24",
+        "verdict": "HELD",
+        "difficulty": "Hard",
+        "factSource": "The corn snake is the described North American, nonvenomous, commonly kept snake; a Czech corn-snake name is missing.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1467-1530",
+            "access": "cached relevant passage"
+          },
+          {
+            "urlOrPath": "https://www.superzoo.cz/uzovka-cervena-elaphe-guttata/",
+            "access": "direct retailer page; name only"
+          },
+          {
+            "urlOrPath": "https://cs.alegsaonline.com/art/23121",
+            "access": "search passage; alternative name, lower-quality source"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "24",
+        "finding": "NAT06",
+        "verdict": "ACCEPTED",
+        "reason": "Kukuřičný had is directly evidenced and added; the less reliably attested Užovka kukuřičná was not added."
+      },
+      "finalResolution": {
+        "entry": "24",
+        "finding": "NAT06",
+        "verdict": "ACCEPTED",
+        "reason": "Kukuřičný had is directly evidenced and added; the less reliably attested Užovka kukuřičná was not added."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-25",
+      "questionSha256": "ba30f77f6d9f50b9ada56443f0c90b987d13db3b942cb4fc523b4b8d993c33f6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "25",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "Male house sparrows have a gray cap, chestnut head and black bib and live near people.",
+        "duplicates": "The original squirrel broad/subtype hold was resolved by replacing the target, not by waiving the overlap.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.rspb.org.uk/birds-and-wildlife/house-sparrow",
+            "access": "direct conservation-organization page"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-26",
+      "questionSha256": "c822e03250943946642562a24fc74372816cf9188b3a0d32f058106caf67bf5e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "26",
+        "verdict": "HELD",
+        "difficulty": "Hard",
+        "factSource": "Watusi and related Ankole cattle have African origins and exceptionally large horns; Ankole is a valid answer to this clue and the supplied list already accepts ankolský skot.",
+        "duplicates": "Distinct from the earlier zebu shoulder-hump identification; ancestry and related strains are not asserted to be identical.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1628-1716",
+            "access": "cached Czech and English passages"
+          },
+          {
+            "urlOrPath": "https://livestockconservancy.org/ankole-watusi-cattle/",
+            "access": "direct breed-conservation page"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "26",
+        "finding": "NAT07",
+        "verdict": "ACCEPTED",
+        "reason": "Ankole added as a valid short name."
+      },
+      "finalResolution": {
+        "entry": "26",
+        "finding": "NAT07",
+        "verdict": "ACCEPTED",
+        "reason": "Ankole added as a valid short name."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-27",
+      "questionSha256": "4c2370c8e2828a09d4e22447aee36ff2e52f5f0c751abf75a552b1d14c852bb4",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "27",
+        "verdict": "ACCEPTED",
+        "difficulty": "Easy",
+        "factSource": "The pupil is the opening controlled by the iris; it constricts in light and dilates in darkness.",
+        "duplicates": "The existing Iris clue requests the colored controlling structure, not the pupil aperture.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "access": "direct institutional page"
+          },
+          {
+            "urlOrPath": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4601080/",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-28",
+      "questionSha256": "43519146397d824f29d009966fc5578975d6af5f1b9e9dcb030e74601db0c973",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "28",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "The green woodpecker is predominantly green and often feeds on ants on the ground.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "N:1795-1850",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "entry": "28",
+        "verdict": "ACCEPTED",
+        "judgment": "Czech breeding and the entire red crown in both sexes distinguish the intended green woodpecker from the cited Iberian and grey-headed alternatives.",
+        "source": "Direct: https://www.nasiptaci.info/zluna-zelena-2/"
+      }
+    }
+  ],
+  "originalSnapshot": {
+    "packSha256": "3f46e0c1eeb77044d8ec24f2a9f8d5cb45d8a281787f3cd66d7f1721557e12ea",
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-snapshot/nature-cs-easy-04.json",
+    "evidenceSha256": "2fa88b2cd635d7d1d7f5826852371e0fc03f8d0ff6b073bd3a2f44d1233828fa",
+    "note": "Original HELD dispositions are preserved in originalReview, not relabeled as original passes."
+  },
+  "finalHashRebinding": {
+    "id": "nature-cs-easy-04",
+    "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "verdict": "ACCEPTED",
+    "entries": "01–28"
+  },
+  "earlierFinalHashRebinding": {
+    "id": "nature-cs-easy-04",
+    "packSha256": "cc8245c36d4a734bf00b3e1f280ca9e45375ad2621147ef65c7ab0033d2837ba",
+    "verdict": "ACCEPTED",
+    "acceptedEntries": "01–28",
+    "wholeDeckDifficulty": {
+      "verdict": "Easy",
+      "distribution": {
+        "easy": 19,
+        "medium": 6,
+        "hard": 3
+      }
+    },
+    "affectedEntries": [
+      {
+        "entry": "06",
+        "finding": "NAT01",
+        "verdict": "ACCEPTED",
+        "reason": "Třapatkovka added."
+      },
+      {
+        "entry": "09",
+        "finding": "NAT02",
+        "verdict": "ACCEPTED",
+        "reason": "Heřmánek lékařský added."
+      },
+      {
+        "entry": "13",
+        "finding": "NAT03",
+        "verdict": "ACCEPTED",
+        "reason": "Kopretina luční added."
+      },
+      {
+        "entry": "15",
+        "finding": "NAT04",
+        "verdict": "ACCEPTED",
+        "reason": "Karotka is encompassed by the clue."
+      },
+      {
+        "entry": "18",
+        "finding": "NAT05",
+        "verdict": "ACCEPTED",
+        "reason": "Kudrnka and Petržel kadeřavá are encompassed by the explicit curly-form wording."
+      },
+      {
+        "entry": "24",
+        "finding": "NAT06",
+        "verdict": "ACCEPTED",
+        "reason": "Kukuřičný had is directly evidenced and added; the less reliably attested Užovka kukuřičná was not added."
+      },
+      {
+        "entry": "26",
+        "finding": "NAT07",
+        "verdict": "ACCEPTED",
+        "reason": "Ankole added as a valid short name."
+      }
+    ]
+  },
+  "continuity": {
+    "initial": {
+      "originalReports": [
+        "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-general-science.json",
+        "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-geography-nature.json"
+      ],
+      "statement": "Prior accepted judgments for every unaffected entry are retained and bound to the final hashes below. All 17 previously held entries are now accepted. Each deck has 28 accepted entries, numbered 01–28.",
+      "integrity": "Final and snapshot packs have identical metadata, question counts and ID order. Only the 17 specified entries changed; prior aliases were preserved. Regenerated evidence hashes and all evidence question objects match the final packs."
+    },
+    "afterSecondRound": {
+      "priorReport": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-final.json",
+      "unchangedEntries": 94,
+      "statement": "My prior accepted judgments for all 94 unchanged entries are retained. The 18 changed entries were independently reviewed below. All 28 entries per deck are accepted and bound to the final hashes.",
+      "integrity": "Final pack hashes, evidence hashes and evidence question objects match freeze.json. Metadata, counts and ID order are unchanged. Only the specified 18 entries changed; aliases were retained except where the entire Geography target was replaced.",
+      "semanticReview": "The original semantic judgments remain applicable to unchanged targets. An independent bounded scan of 519 corpus instances and the four candidates found no other answer or clue mentioning the newly added names or replacement targets; the Geography replacements also resolve the exposed-answer conflicts.",
+      "difficulty": "Changed clues and aliases do not change the whole-deck ratings."
+    }
+  },
+  "sourceAccessLimitations": [
+    "Britannica, Wildlife Trusts, Kew and some other direct requests returned 403; relevant independently inspected search passages are labeled as such.",
+    "The corn-snake retailer page was used for its Czech name only, not its erroneous South America range statement.",
+    "The indexed corpus was examined for semantic relations and cross-clue mentions; no claim is made about inaccessible archives outside that bounded corpus.",
+    "The original reports distinguish direct pages, captured relevant passages and search passages. Some full pages returned 403; no direct access is claimed for those.",
+    "The Nature 24 retailer page supports the Czech name only, not its erroneous geographic-range statement.",
+    "The existing validation receipt was inspected; validation was not rerun.",
+    "Britannica pages and the shield-boss Wikipedia page returned 403; relevant search passages are labeled as such.",
+    "The Geological Society's anomalous southeastern-Iran sentence was not used for Zagros location.",
+    "The commercial chamomile herbarium was used for names, not medical claims.",
+    "The production validation receipt was not rerun by this reviewer."
+  ],
+  "integrationVerdict": "Conditional acceptance of the specified per-deck append-only contract. Actual future branches, exact-parent content gates, pushes and deployments remain coordinator responsibilities.",
+  "rawReportReceipts": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-partial-original.json",
+      "sha256": "05414ff076a5ad391b5a1c6d4ad393a414fbeb94d65760cfd9af6a9170853f0e"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-general-science.json",
+      "sha256": "edcf70e9c14a8dad328b65eb3cca96d8c504cf4d3dd3d83e170b7c3b11d0acba"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-geography-nature.json",
+      "sha256": "dfb8008f801659ea644b0257f7a964d3717756684c608ba46384ac3e80996a45"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-final.json",
+      "sha256": "a0b352e2f7b2c665ac914fad6275197444998f2faa6521b270d7e666492222f3"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-rebinding-after-two.json",
+      "sha256": "df5d24bc1906ebfd31fe6197f786e532de776e96597ba561ab21c63481915bd3"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-round-one.json",
+      "sha256": "66b6bc5321b1d09401f56b6961ace11522a068612f4e29327d7897d53013bbc3"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-equivalence.json",
+      "sha256": "8255d7f7ec05a74663c456753ec68e19e1f2522d011add0e952409b6222a6cbc"
+    }
+  ],
+  "preNormalizationFinalHashRebinding": {
+    "id": "nature-cs-easy-04",
+    "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "verdict": "ACCEPTED",
+    "acceptedEntries": "01–28",
+    "wholeDeckDifficulty": "Easy",
+    "affectedEntries": [
+      {
+        "entry": "09",
+        "verdict": "ACCEPTED",
+        "judgment": "All 19 added folk names are listed for the identified chamomile; original names remain.",
+        "sources": [
+          "Direct, names only: https://ceske-bylinky.cz/content/210-hermanek-pravy",
+          "Direct, identification: https://botany.cz/cs/matricaria-recutita/"
+        ]
+      },
+      {
+        "entry": "10",
+        "verdict": "ACCEPTED",
+        "judgment": "The wording now explicitly requests the common fungal-group name rather than one species; existing aliases remain."
+      },
+      {
+        "entry": "13",
+        "verdict": "ACCEPTED",
+        "judgment": "Spoon-shaped toothed basal leaves distinguish the intended daisy from scentless chamomile; the added folk and scientific names are supported.",
+        "sources": [
+          "Direct: https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy",
+          "Direct: https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/"
+        ]
+      },
+      {
+        "entry": "15",
+        "verdict": "ACCEPTED",
+        "judgment": "Finely divided foliage distinguishes carrot from the cited sweet-potato counterexample.",
+        "source": "Search passage: https://www.britannica.com/plant/carrot"
+      },
+      {
+        "entry": "19",
+        "verdict": "ACCEPTED",
+        "judgment": "The strong, slightly hooked bill supports gull rather than the tern counterexample.",
+        "source": "Search passage: https://www.britannica.com/animal/gull"
+      },
+      {
+        "entry": "23",
+        "verdict": "ACCEPTED",
+        "judgment": "Belly locomotion distinguishes true seals from the walking walrus and eared seals.",
+        "sources": [
+          "Direct: https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety",
+          "Walrus comparison search passage: https://biologyinsights.com/how-does-a-walrus-move-on-land-and-in-water/"
+        ]
+      },
+      {
+        "entry": "28",
+        "verdict": "ACCEPTED",
+        "judgment": "Czech breeding and the entire red crown in both sexes distinguish the intended green woodpecker from the cited Iberian and grey-headed alternatives.",
+        "source": "Direct: https://www.nasiptaci.info/zluna-zelena-2/"
+      }
+    ]
+  },
+  "normalizationProof": {
+    "id": "nature-cs-easy-04",
+    "beforePackSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "acceptedAnswerSetExactlyUnchanged": true,
+    "changed": []
+  },
+  "normalizationReview": {
+    "round": 1,
+    "reviewerAgentId": "0677afbc-3a84-46b8-a340-559142402ba3",
+    "continuity": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-rebinding-after-two.json",
+    "normalization": "Inspected the three alias-array changes, production normalization and equivalence receipt. Each removed form normalizes to its retained canonical answer; accepted answer sets remain unchanged.",
+    "affectedEntries": {
+      "general-cs-hard-05-08": "ACCEPTED",
+      "general-cs-hard-05-10": "ACCEPTED",
+      "science-cs-hard-03-08": "ACCEPTED"
+    },
+    "decks": [
+      {
+        "id": "general-cs-hard-05",
+        "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "science-cs-hard-03",
+        "sha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "geography-cs-hard-04",
+        "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "nature-cs-easy-04",
+        "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      }
+    ],
+    "integrationVerdict": "Conditional on the append-only per-deck contract and successful exact-parent gates and deployment; no gate was rerun by this reviewer.",
+    "openFindings": 0
+  },
+  "preNormalizationReceipt": {
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../pre-normalization-snapshot/accepted-reviews/nature-cs-easy-04-round-1.json",
+    "sha256": "f37bb1cd329b3e2270a69c2cad0e16a37961def5f468614f3516bed99bc6762c"
+  }
+}

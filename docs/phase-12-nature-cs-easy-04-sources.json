@@ -1,0 +1,1277 @@
+{
+  "schemaVersion": 1,
+  "deckId": "nature-cs-easy-04",
+  "date": "2026-11-19",
+  "baselineRevision": "69b1a3a39bbe60d3789027da4db86faae88b3500",
+  "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+  "scope": {
+    "questions": 28,
+    "language": "cs",
+    "difficulty": "easy",
+    "previousDecks": 172,
+    "resultingDecks": 173,
+    "resultingQuestions": 4844,
+    "resultingEnglishDecks": 87,
+    "resultingCzechDecks": 86,
+    "previousPacksAndOrder": "Preserve exact bytes and positions.",
+    "phase12Cleared": false
+  },
+  "provenance": {
+    "originalPack": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/nature-cs-easy-04/nature-cs-easy-04.json",
+      "sha256": "579b0c9cc2da46114a87184fcf76e1ba73c37fc0c880e4acacf393286fd60abe"
+    },
+    "originalHandoff": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/nature-cs-easy-04/HANDOFF.json",
+      "sha256": "2e5adf0be9ea389aa88aaeca21ef18c085acd1ab7601f3e2b4518d2df51216f8"
+    },
+    "originalHoldRecords": [
+      {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/nature-cs-easy-04/HOLDS-AND-PRIORITY.json",
+        "sha256": "4b1cb66b9595ebb5a98a87fc406b366ba3780c09c066961a0d37c134cc05b8d8"
+      }
+    ],
+    "authorship": "Adopted existing draft, with original Czech replacement wording where factual/semantic conflicts or unfair ambiguity required it; not copied from commercial quizzes or television.",
+    "history": "Original packets, source captures and failed/partial holds remain immutable. Fresh review accepts actual current bytes, not historical lifecycle claims."
+  },
+  "duplicateScreening": {
+    "corpusManifestSha256": "b964ed1f81ab7d7b2281a5e4364767f4b7483b96f03a978bb205b99b07dca0a9",
+    "packInstances": 519,
+    "questionRows": 14532,
+    "scope": "Actual main, primary native/unpublished, retired, all accessible queue-named native files and shallow named packet pack/original/proposal directories. Duplicate historical instances retained; no blanket language exemption.",
+    "checks": [
+      "Normalized prompts",
+      "Canonical and full-alias intersections",
+      "Accepted forms inside other clues",
+      "Independent bilingual fact/semantic judgments",
+      "Four owned candidates compared to one another"
+    ],
+    "limitations": "Bounded actual-main/primary/retired/accessible named-staged review, not universal web originality or retirement of other proposals."
+  },
+  "entries": [
+    {
+      "id": "nature-cs-easy-04-01",
+      "answer": "Alpaka",
+      "questionSha256": "88d841e802cf951e79f466d350e6cfa62dd835c15a800072fbd05b149f76336e",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-01"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Alpaca",
+          "fetchedAt": "2026-10-31T01:28:19.864761+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "ab6c48f8b1ba2db7bb6aa56acc8e3fe4543587698f42e7af733605883489be85",
+          "sourceTextSha256": "38266d197bb53526d75f91ac743e434ec4a7501bd47dfbd39bd3ef194d021218",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-01-687e6315e6.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-01-ab6c48f8b1.txt",
+          "passage": "The alpaca (Lama pacos) is a domesticated species of South American camelid. Traditionally, alpacas were kept in herds that grazed on the level heights of the Andes of Southern Peru, Western Bolivia, Ecuador, and Northern Chile. More recently, alpacas may be found on farms and ranches worldwide, with thousands of animals born and raised annually. Alpacas are especially popular in North America, Europe, and Australia.\n\nThere are two modern breeds of alpaca, separated based on their respective region of endemism and fiber (wool) type: the Suri alpaca and the Huacaya alpaca. Both breeds produce a highly valued fiber, with Suri alpaca's fiber growing in straight \"locks,\" while Huacaya fiber has a \"crimped,\" wavy texture and grows in bundles. These breeds' fibers are used for making knitted and woven items, similar to sheep's wool.\n\nAlpacas are visually and genetically similar to, and often confused with a relative species, the llama; however, alpacas are visibly shorter and predominantly bred for their wool, while llamas have long been more highly prized as livestock guardians (in place of dogs), and as a pack animal (beast-of-burden), owing to their nimble mountain-climbing abilities. Both the alpaca and the llama are believed to have been domesticated and selectively bred from their wild counterparts — the smaller, fine-haired vicuña and the larger, stronger guanaco, respectively — at least 5,000 to 6,000 years ago. Nonetheless, all four South American camelids are closely related and can successfully crossbreed.\n\nIn 2001, the alpaca genus classification changed from Lama pacos to Vicugna pacos, following the presentation of a paper[3] on work by Miranda Kadwell et al. on alpaca DNA to the Royal Society showing the alpaca is descended from the vicuña, not the guanaco.",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "725542a6b5fba8855319e99cc4c697cbf3b662a44ac57a792a4bf1d8d470e64b"
+            },
+            {
+              "index": 1,
+              "sha256": "0076b8fc666b35026bc07a4d343e2463c55a0b0929442e9839f759d02361b04b"
+            },
+            {
+              "index": 2,
+              "sha256": "4dedfa258334250d266f621491f624771c5b8f800d38f0a4aa7b8330fd1e84cd"
+            },
+            {
+              "index": 6,
+              "sha256": "5f62905794a602d344cc17d68a611c926f506ce1f993e6f39b24a9f9908f1ec6"
+            }
+          ],
+          "authorReading": "Andean domesticated wool camelid; Lama pacos and Vicugna pacos are historical genus names in the actual taxonomy context.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-01.json",
+            "originalMetadataSha256": "d9056c2d3fc0b60706ae872adcf0a07079a4cc40ce3a099eb011c039c6084c3e",
+            "finalUrl": "https://en.wikipedia.org/wiki/Alpaca",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-02",
+      "answer": "Bělásek zelný",
+      "questionSha256": "952de016890e820fe5514bbf7b3994d3d9675c737106ac3e8ba6dfc4ee7780e1",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-02"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-02",
+        "before": {
+          "id": "nature-cs-easy-04-02",
+          "initial": "B",
+          "text": "Který mohutný severoamerický tur s hrbem nad plecemi je spojován s prériemi?",
+          "answer": "Bizon",
+          "aliases": ["bizon americký", "Bison bison"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/American_bison"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-02",
+          "initial": "B",
+          "text": "Který bělavý motýl s černými vrcholky předních křídel má housenky, které ve skupinách okusují zelí a další brukvovité rostliny?",
+          "answer": "Bělásek zelný",
+          "aliases": ["Bělásek", "Pieris brassicae"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://www.wildlifetrusts.org/wildlife-explorer/invertebrates/butterflies/large-white"
+          ]
+        },
+        "reason": "Replace actual same-fact Bison/Bizon proposal.",
+        "support": "Wildlife Trusts identifies Pieris brassicae, prominent black forewing tips and cabbage-family larval hosts. Wildlife Gardening Forum separately describes batch-laid eggs and groups of larvae on cabbages.",
+        "sourceAccess": "web_search explicit conservation organization passages; attempted direct Wildlife Trusts fetch returned 403"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-03",
+      "answer": "Cikáda",
+      "questionSha256": "70e8c4b436c93ca7c812f443417aeb54d3c973c852e3cf595c86a0bbf462238a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-03"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-03",
+        "before": {
+          "id": "nature-cs-easy-04-03",
+          "initial": "C",
+          "text": "Který hmyz je známý hlasitým cvrčivým zpěvem samců za teplých letních dnů?",
+          "answer": "Cikáda",
+          "aliases": ["cikády"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Cicada"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-03",
+          "initial": "C",
+          "text": "Který hmyz vydává za teplých letních dnů hlasitý zpěv rozkmitáváním blanitých orgánů na zadečku, nikoli třením předních křídel?",
+          "answer": "Cikáda",
+          "aliases": ["cikády"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Cicada"]
+        },
+        "reason": "Resolve actual Cikáda/Cvrček clue ambiguity using the abdominal tymbal discriminator rather than relying on warm weather alone.",
+        "support": "Original accepted Cicada contexts distinguish abdominal tymbals from cricket forewing stridulation.",
+        "sourceAccess": "Original immutable own28 evidence is retained; reviewers must inspect the exact sound-organ passage"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-04",
+      "answer": "Čejka",
+      "questionSha256": "c8a5f942a0d3af04d68fe8ad7b2e16668c568a1450fed547aae43cd35b98d153",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-04"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Northern_lapwing",
+          "fetchedAt": "2026-10-31T01:28:20.232284+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "01118e80d9dbff1db828b83ae5c2a19200672017e76d67c2c40098d8629443d5",
+          "sourceTextSha256": "b5da4db3a963a87c455b6c7e4775117e49a659060d11d4113a5984b8fb35a3ba",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-04-13a843ce81.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-04-01118e80d9.txt",
+          "passage": "The northern lapwing (Vanellus vanellus), also known as the peewit or pewit, tuit or tewit, green plover, or (in Ireland and Great Britain) pyewipe or just lapwing, is a bird in the lapwing subfamily. It is common through temperate Eurosiberia.\n\nThe northern lapwing is a 28–33 cm (11–13 in) long bird with a 67–87 cm (26–34 in) wingspan and a body mass of 128–330 g (4.5–11.6 oz).[10] It has rounded wings and a crest. It is also the shortest-legged of the lapwings. Its plumage is mainly black and white, but its back is tinted green. The male has a long crest and a black crown, throat and breast, which contrast with an otherwise white face. Females and young birds have shorter crests and less distinct markings on their heads, but their plumage is otherwise quite similar.\n\nIn winter, it forms huge flocks on open land, particularly arable land and mud-flats.\n\nNational surveys in England and Wales have shown a decline in the population between 1987 and 1998. Since 2009, the northern lapwing has had Red List conservation status in the United Kingdom.[13] Intensive agricultural techniques have had an adverse effect on the numbers of this species. In the lowlands, this includes the loss of rough grassland and its conversion into arable or improved grassland, loss of mixed farms, and switch from spring- to autumn-sown crops. In the uplands, losses may be due to increased grazing density. Natural England provides grant aid to help restore lapwing habitats as part of its Environmental Stewardship Scheme. The organisation suggests an option within this scheme called 'Fallow plots for ground-nesting birds'. Uncropped plots of at least 2 ha (4.9 acres) in size provide nesting habitat and are located in suitable arable fields, which provide additional foraging habitat. Locating the plots within 2 km (1.2 mi) of extensively grazed grassland will provide additional foraging habitat. The plots are cultivated in the spring to produce a rough fallow, which is maintained without the input of fertiliser or pesticides.[14] In addition to agricultural intensification and land-use change, predation of nests and chicks contributes to wader declines, including of lapwing. By radio-tagging lapwing chicks, and using automatic radio tracking systems, the timing of chick predation can be revealed, which provides additional insights into the importance of different predators. Lapwing chicks are predated both in the day and at night, with mammalian predators having the greatest impact.[15]",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "0ce7be05f000c25c672eb3f55a4d5ef4f6071050345de0074ecd3c942c4e0785"
+            },
+            {
+              "index": 3,
+              "sha256": "e373e898b2fd9596a8b31f8d0980d2bb44f56123941af3f661949dfc4ccc801b"
+            },
+            {
+              "index": 7,
+              "sha256": "aa2fc5b002840f772cae2e6a46fa62cd3413a7be5e8cf63c090f191c22ad8fba"
+            },
+            {
+              "index": 14,
+              "sha256": "28517a5b4530af73ff077420036ec67bbc624f831e51eba7948666fc2a4bfd78"
+            }
+          ],
+          "authorReading": "Vanellus vanellus crest, black/white green-tinted back and open agricultural/grassland habitat; sex/age crest variation read.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-04.json",
+            "originalMetadataSha256": "19b85239cde1d947639de98ac427bfedcfafa9b2d46b4788d6f02d3896ec433e",
+            "finalUrl": "https://en.wikipedia.org/wiki/Northern_lapwing",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-05",
+      "answer": "Dudek",
+      "questionSha256": "2acad5b779852ab6007daf2a8751ac00d2c182abf658dbf415fb9fe312b6bc85",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-05"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eurasian_hoopoe",
+          "fetchedAt": "2026-10-31T01:28:19.854958+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "9486e6e955df48b347d3ea36f821d58a6291935fd312f92900b5f18cd51a1f8e",
+          "sourceTextSha256": "e72d049458568111f9a9523d0d25ce6fc483f6e2f5026a1974365327792ceb13",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-05-5e60d0c947.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-05-9486e6e955.txt",
+          "passage": "The Eurasian hoopoe or common hoopoe (Upupa epops) is the most widespread species of hoopoe. It is a distinctive cinnamon coloured bird with black and white wings, a tall erectile crest, a broad white band across a black tail, and a long narrow downcurved bill. Its call is a soft \"oop-oop-oop\".",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "9323e760498c50ab79a619e754b326d1f25ff3890c5ccec0a843bea25298920d"
+            }
+          ],
+          "authorReading": "Eurasian hoopoe erectile crest, black/white wings and narrow downcurved bill; all species-name forms retained.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-05.json",
+            "originalMetadataSha256": "aa76d79cff4a88b28ed9df40a154e437d61be8a13bbaae715fe9c440b6b4b9c6",
+            "finalUrl": "https://en.wikipedia.org/wiki/Eurasian_hoopoe",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-06",
+      "answer": "Echinacea",
+      "questionSha256": "9858bb49b947661319304d6dfc1f8f3867d1aaa1401e85341f916613ddb69a92",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-06"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-06",
+        "before": {
+          "id": "nature-cs-easy-04-06",
+          "initial": "E",
+          "text": "Která okrasná rostlina severoamerického původu má růžovofialové květy s nápadně vystouplým terčem?",
+          "answer": "Echinacea",
+          "aliases": [
+            "třapatkovka nachová",
+            "třapatka nachová",
+            "Echinacea purpurea"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Echinacea_purpurea"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-06",
+          "initial": "E",
+          "text": "Která okrasná rostlina severoamerického původu má růžovofialové květy s nápadně vystouplým terčem?",
+          "answer": "Echinacea",
+          "aliases": [
+            "třapatkovka nachová",
+            "třapatka nachová",
+            "Echinacea purpurea",
+            "Třapatkovka"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Echinacea_purpurea"]
+        },
+        "reason": "Round-one NAT01: add the standard Czech genus name.",
+        "support": "The original species passage and independently inspected Czech reference search passage support the genus name.",
+        "sourceAccess": "Reviewer inspected original captured passage and Wikiwand search passage; direct request returned 403."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-07",
+      "answer": "Fuchsie",
+      "questionSha256": "950209bd5073e207937382c33cca69485aca686db84811ebdb58836b6e25db7a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-07"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fuchsia",
+          "fetchedAt": "2026-10-31T01:28:26.104022+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "02241c6c9463e98dfe462471dc5d255ad9eb50dea9163779863f8677a5cb7188",
+          "sourceTextSha256": "97be21d0e970956ca39d088d288e62556539d1912e4f47fd9253168f50003389",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-07-baba3d3411.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-07-02241c6c94.txt",
+          "passage": "Fuchsia (/ˈfjuːʃə/ ⓘ FEW-shə) is a genus of flowering plants that consists mostly of shrubs or small trees.\n\nThe flowers are very decorative; they have a pendulous teardrop shape and are displayed in profusion from late spring throughout the summer and early autumn in 12 weeks,[8] and all year in tropical species. They have four long, slender sepals and four shorter, broader petals; in many species, the sepals are bright red and the petals purple (colours that attract the hummingbirds that pollinate them), but the colours can vary from white to dark red, purple-blue, and orange or salmon.[8] A few have yellowish tones. The ovary is inferior.",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "ef7f89a0d2db8bc4dd0374d14dfb2adb7e9cde6a0c6d1de54db8a7a60a332975"
+            },
+            {
+              "index": 6,
+              "sha256": "1dd9c92cd7893454bbab19aafc5795abe0ee6db308bfb58cfa396294c4065804"
+            }
+          ],
+          "authorReading": "Fuchsia ornamental pendulous flowers and red/purple sepal/petal contrast; Czech fuksie spelling retained.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-07.json",
+            "originalMetadataSha256": "e996beee82f6b015de4469d2df3b319c50754cdc13e3fd53d6af414a0bad1856",
+            "finalUrl": "https://en.wikipedia.org/wiki/Fuchsia",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-08",
+      "answer": "Gibon",
+      "questionSha256": "907970ea22dbefd3e0aaa46f0fdebaab8a7adafc4d90ae9bae314da011f96f2a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-08"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gibbon",
+          "fetchedAt": "2026-10-31T01:28:26.113848+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "46c5c518e12493cd9da56e8642c6a567554d7ead06d19f590225a91dad4e7728",
+          "sourceTextSha256": "e19d3d1be44eb76b0f601fe0412f66cc68d949346bf8ee1944100f3ec6119de5",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-08-f8d1de63fb.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-08-46c5c518e1.txt",
+          "passage": "Gibbons (/ˈɡɪbənz/) are apes in the family Hylobatidae (/ˌhaɪləˈbætɪdiː/; hylobatids). The family historically contained one genus, but now is split into four extant genera and 20 species. Gibbons live in subtropical and tropical forests from eastern Bangladesh and Northeast India to Southeast Asia and Indonesia (including the islands of Sumatra, Borneo and Java).\n\nAlso called the lesser apes, gibbons differ from the great apes (chimpanzees, gorillas, orangutans and humans) in being smaller, exhibiting low sexual dimorphism, and not making nests.[5] Like all of the apes, gibbons are tailless. Unlike most of the great apes, gibbons frequently form long-term pair bonds. Their primary mode of locomotion, brachiation, involves swinging from branch to branch for distances up to 15 m (50 ft), at speeds as fast as 55 km/h (34 mph). They can also make leaps up to 8 m (26 ft), and walk bipedally with their arms raised for balance. They are the fastest of all tree-dwelling, nonflying mammals.[6]",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "e649c8b28dc081316bf6817adb57255626c2de4c48996ee171b7a2da5dc6c189"
+            },
+            {
+              "index": 1,
+              "sha256": "28b2e39e5d16d00bdcaa464d61bfc5fad2d7cf5d86c12a162c9038b8cf66ce5b"
+            }
+          ],
+          "authorReading": "Hylobatidae Asian tailless apes with brachiation; family name is coextensive with gibbons, not all apes.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-08.json",
+            "originalMetadataSha256": "bd3971ba0ac62863be2fdbee786c7a04b42b05d0dc43165c2e9c1a89fe855be8",
+            "finalUrl": "https://en.wikipedia.org/wiki/Gibbon",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-09",
+      "answer": "Heřmánek",
+      "questionSha256": "f7568a8dbd9b53c82dea3bf18fd95851e2ac2440d6afaad7e0d09695a5d0f137",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-09"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-09",
+        "before": {
+          "id": "nature-cs-easy-04-09",
+          "initial": "H",
+          "text": "Který mohutný africký savec s krátkýma nohama tráví velkou část dne ve vodě?",
+          "answer": "Hroch",
+          "aliases": ["hroch obojživelný", "Hippopotamus amphibius"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Hippopotamus"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-09",
+          "initial": "H",
+          "text": "Která voňavá léčivá bylina používaná na čaj má bílé jazykovité květy kolem žlutého středu a uvnitř duté kuželovité květní lůžko?",
+          "answer": "Heřmánek",
+          "aliases": [
+            "Heřmánek pravý",
+            "Matricaria chamomilla",
+            "Matricaria recutita",
+            "Chamomilla recutita",
+            "Heřmánek lékařský",
+            "Harmaníček",
+            "Harmoníček",
+            "Heřmánek malý",
+            "Heřmánek polní",
+            "Jahodníček",
+            "Kamila",
+            "Kamilka",
+            "Kamilky",
+            "Králíčky",
+            "Matečník",
+            "Marunka",
+            "Matčina bylina",
+            "Matrikaria",
+            "Ormánek",
+            "Panenská bylina",
+            "Rostlinný lékař",
+            "Rumánek",
+            "Urmánek",
+            "Voňavý rmen"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://botany.cz/cs/matricaria-recutita/",
+            "https://ceske-bylinky.cz/content/210-hermanek-pravy"
+          ]
+        },
+        "reason": "Replace same daytime-water Hippopotamus/Hroch proposal; hollow receptacle distinguishes true chamomile from lookalikes. Round-one NAT02: add the legitimate medicinal-chamomile Czech name. Second-round Nature09: add the attested contextual Czech folk names, including all names actually listed in the inspected source rather than only the four highlighted examples.",
+        "support": "The Czech herbarium's explicit Používané názvy list supplies these names for Matricaria recutita; BOTANY supports the species identity and hollow receptacle.",
+        "sourceAccess": "Author and reviewer two independently directly inspected the relevant source pages; the commercial herbarium is used only for names, not its medical claims."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-10",
+      "answer": "Choroš",
+      "questionSha256": "bfcf51491ead6ff19dd6fa817d53ce719972c5aa97333338947d6bab65fa792a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-10"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-10",
+        "before": {
+          "id": "nature-cs-easy-04-10",
+          "initial": "Ch",
+          "text": "Jak se nazývají velké hnědé mořské řasy tvořící podvodní porosty připomínající lesy?",
+          "answer": "Chaluhy",
+          "aliases": ["chaluha", "kelp", "kelpy"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Kelp"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-10",
+          "initial": "Ch",
+          "text": "Jakým společným názvem běžně označujeme skupinu dřevokazných hub, které na kmenech často tvoří tuhé konzolovité plodnice s póry na spodní straně?",
+          "answer": "Choroš",
+          "aliases": ["Choroše", "Chorošovitá houba"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Polypore"]
+        },
+        "reason": "Replace published same Kelp/Chaluhy underwater-forest fact and remove the Řasy clue giveaway entirely. Second-round Nature10: explicitly ask for the common group name, not a particular bracket-fungus species; preserve the legitimate generic forms.",
+        "support": "The original polypore reference supports the common morphological group; reviewer directly inspected named species showing why the former individual-fungus wording was ambiguous.",
+        "sourceAccess": "Original relevant support and independent reviewer species comparisons retained; no new direct generic-reference fetch claimed."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-11",
+      "answer": "Inzulin",
+      "questionSha256": "bd02bb52b634752f2e0ef3b3ef479bb2fcbcfe9897801d70768bc12eaa912403",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-11"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Insulin",
+          "fetchedAt": "2026-10-31T01:28:32.402197+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "0c42e8efa767c14ffff348b9866aedc0451e3ca4de57c1786d0614cda108170c",
+          "sourceTextSha256": "510224b78e05a86333116532e75e46f0a5d761d9c58d96ab5df3fff8e38518a3",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-11-1dd1f1e78e.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-11-0c42e8efa7.txt",
+          "passage": "Insulin (/ˈɪn.sjʊ.lɪn/ ⓘ;[5][6] from Latin insula 'island') is a peptide hormone produced by beta cells of the pancreatic islets encoded in humans by the insulin (INS) gene. It is the main anabolic hormone of the body.[7] It regulates the metabolism of carbohydrates, fats, and protein by promoting the absorption of glucose from the blood into cells of the liver, fat, and skeletal muscles.[8] In these tissues the absorbed glucose is converted into either glycogen, via glycogenesis, or fats (triglycerides), via lipogenesis; in the liver, glucose is converted into both.[8] Glucose production and secretion by the liver are strongly inhibited by high concentrations of insulin in the blood.[9] Circulating insulin also affects the synthesis of proteins in a wide variety of tissues. It is thus an anabolic hormone, promoting the conversion of small molecules in the blood into large molecules in the cells. Low insulin in the blood has the opposite effect, promoting widespread catabolism, especially of reserve body fat.\n\nBeta cells are sensitive to blood sugar levels so that they secrete insulin into the blood in response to high level of glucose, and inhibit secretion of insulin when glucose levels are low.[10] Insulin enhances glucose uptake and metabolism in the cells, thereby reducing blood sugar. Neighboring alpha cells, taking their cue from the beta cells,[10] secrete glucagon into the blood in the opposite manner: increased secretion when blood glucose is low, and decreased secretion when glucose concentrations are high. Glucagon increases blood glucose by stimulating glycogenolysis and gluconeogenesis in the liver.[8][10] The secretion of insulin and glucagon into the blood in response to the blood glucose concentration is the primary mechanism of glucose homeostasis.[10]",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "c3589c8cd0fb245f65d2bb2f61dda7ccefd9696cc336d77afef109a68b1e3baf"
+            },
+            {
+              "index": 1,
+              "sha256": "526ef8d894a02447a9ddfe0d5716874e9520f1d31390fe75515a00ae7627f4f6"
+            }
+          ],
+          "authorReading": "Pancreatic insulin promotes uptake and reduces blood glucose; contrasts glucagon, not any pancreas hormone.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-11.json",
+            "originalMetadataSha256": "87f667b60611e734f5648330f726ad73a1eb05ac71eca7df68da5f12b78c69d5",
+            "finalUrl": "https://en.wikipedia.org/wiki/Insulin",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-12",
+      "answer": "Ječmen",
+      "questionSha256": "7c80466e213c1a2dd1761afdb415bc03f03b4b7eac59ff4006b653f674789d4a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-12"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-12",
+        "before": {
+          "id": "nature-cs-easy-04-12",
+          "initial": "J",
+          "text": "Který voňavý keř má obvykle bílé nebo žluté květy a dal jméno oblíbené květinové vůni?",
+          "answer": "Jasmín",
+          "aliases": ["jasmíny", "Jasminum"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Jasmine"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-12",
+          "initial": "J",
+          "text": "Která obilnina mívá klasy s nápadně dlouhými osinami a její zrno je hlavní surovinou pro výrobu pivovarského sladu?",
+          "answer": "Ječmen",
+          "aliases": ["Ječmen setý", "Hordeum vulgare"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://www.britannica.com/plant/barley-cereal",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8073869/"
+          ]
+        },
+        "reason": "Replace same fragrant Jasminum proposal; prior Ječné kroupy asks a processed food, not botanical cereal identification.",
+        "support": "Britannica identifies Hordeum vulgare as a primary source of beer malt. Academic barley-awn review explains most cultivars are awned but short/awnless forms exist, hence qualified mívá.",
+        "sourceAccess": "web_search explicit Britannica and peer-reviewed PMC passages"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-13",
+      "answer": "Kopretina",
+      "questionSha256": "ad4549de2a728baaa3225f119bd7c2a8d7f4f7dd13119f2c2fc63ebf04190b17",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-13"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-13",
+        "before": {
+          "id": "nature-cs-easy-04-13",
+          "initial": "K",
+          "text": "Který běžný vodní pták má široký zobák a plovací blány a jeho samec se nazývá kačer?",
+          "answer": "Kachna",
+          "aliases": ["kachny"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Duck"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-13",
+          "initial": "K",
+          "text": "Která známá vyšší luční květina má velké úbory se žlutým středem a bílým lemem a lžícovité spodní listy se zubatým okrajem?",
+          "answer": "Kopretina",
+          "aliases": [
+            "Kopretina bílá",
+            "Leucanthemum vulgare",
+            "Kopretina luční",
+            "Husička",
+            "Svatojánské kvítko",
+            "Rmenec",
+            "Chrysanthemum leucanthemum",
+            "Leucanthemum vulgare agg."
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://www.wtwales.org/wildlife-explorer/wildflowers/oxeye-daisy",
+            "https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy",
+            "https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/"
+          ]
+        },
+        "reason": "Replace published same Duck/Kachna drake-name fact. Round-one NAT03: add the documented common meadow-daisy name. Second-round Nature13: distinguish daisy from scentless chamomile with spoon-shaped toothed basal leaves and accept the documented folk names/former scientific name.",
+        "support": "Ontario's identification guide explicitly contrasts spoon-shaped toothed daisy leaves with finely divided scentless-chamomile leaves; the Czech flora page lists the folk names and Chrysanthemum leucanthemum.",
+        "sourceAccess": "Author and reviewer two independently directly inspected the Ontario comparison and Czech flora name/morphology sections."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-14",
+      "answer": "Lilek",
+      "questionSha256": "3ddcf050d39c2d1fd758d26028397350a1faf5a486107ed7f7dd34e13ce979b0",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-14"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Eggplant",
+          "fetchedAt": "2026-10-31T01:28:32.367336+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "dc52fed072cb0ce7b5f89f8381fb7489b59c6de641f7c26f333258c58ceb0a85",
+          "sourceTextSha256": "0fbf6a1990c943a073ef398cbf814ad40922183765eb5ba32e802ff52b91fd5d",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-14-a8d08d6b47.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-14-dc52fed072.txt",
+          "passage": "Solanum melongena is a plant species in the nightshade family Solanaceae, grown worldwide for its edible fruit, typically used as a vegetable in cooking. It is known by a number of names, including eggplant, aubergine, and brinjal.\n\nMost commonly purple, the spongy, absorbent fruit is used in several cuisines. It is a berry by botanical definition. As a member of the genus Solanum, it is related to the tomato, chili pepper, and potato, although those are of the Americas region while the eggplant is of the Eurasia region. Like the tomato, its skin and seeds can be eaten, but it is usually eaten cooked. Eggplant is nutritionally low in macronutrient and micronutrient content, but the capability of the fruit to absorb oils and flavors into its flesh through cooking expands its use in the culinary arts.\n\nBotanically classified as a berry, the fruit contains numerous small, soft, edible seeds that taste bitter because they contain or are covered in nicotinoid alkaloids, like the related tobacco.[10] Some common cultivars have fruit that is egg-shaped, glossy, and purple with white flesh and a spongy, \"meaty\" texture. Some other cultivars are white and longer in shape. Wild eggplant fruits measure less than .mw-parser-output .frac{white-space:nowrap}.mw-parser-output .frac .num,.mw-parser-output .frac .den{font-size:80%;line-height:0;vertical-align:super}.mw-parser-output .frac .den{vertical-align:sub}.mw-parser-output .sr-only{border:0;clip:rect(0,0,0,0);clip-path:polygon(0px 0px,0px 0px,0px 0px);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}3 cm (1+1⁄4 in) in diameter.[8] The fruit flesh rapidly turns brown when in contact with the oxygen in the air.[11]",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "32ee2778bd107f8a16fcb37e9fbcf054bf678eb6f5d2c8ca181dddaf7ce73c96"
+            },
+            {
+              "index": 1,
+              "sha256": "a2fe57d5f3d39a544a35b8ff93134010f67382f899b6ca7c7298199faf371728"
+            },
+            {
+              "index": 5,
+              "sha256": "c7e4560dc4bae2e02bc1a5bc0c637914e16d9bcc72651e9a5cba853332f75687"
+            }
+          ],
+          "authorReading": "Solanum melongena common glossy purple cultivars with white spongy flesh; baklažán spelling normalization retains both original inputs.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-14.json",
+            "originalMetadataSha256": "a1d8b04cc1ea21a585849386e2eb2c163d5ea7511e16c238a878e6fc9f4ce628",
+            "finalUrl": "https://en.wikipedia.org/wiki/Eggplant",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-15",
+      "answer": "Mrkev",
+      "questionSha256": "1ba028f4b803974daf331254aa05cda2ad1cdb51c71ec552eccd9afe2d686188",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-15"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-15",
+        "before": {
+          "id": "nature-cs-easy-04-15",
+          "initial": "M",
+          "text": "Které malé oranžové peckovité ovoce má jemně sametovou slupku a často se prodává sušené?",
+          "answer": "Meruňka",
+          "aliases": ["meruňky", "meruňka obecná", "Prunus armeniaca"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Prunus_armeniaca"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-15",
+          "initial": "M",
+          "text": "Která běžná kořenová zelenina má jemně dělenou nať a obvykle oranžový kořen bohatý na beta-karoten?",
+          "answer": "Mrkev",
+          "aliases": [
+            "Mrkev obecná",
+            "Mrkev setá",
+            "Daucus carota",
+            "Daucus carota subsp. sativus",
+            "Karotka"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://www.britannica.com/plant/carrot",
+            "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:841063-1/general-information"
+          ]
+        },
+        "reason": "Replace same Apricot/Meruňka fruit identification; Taproot asks a root-system class, not the vegetable. Round-one NAT04: accept the common cultivated-carrot answer encompassed by the clue. Second-round Nature15: distinguish carrot from orange-fleshed sweet potato using the finely divided foliage, without treating another plant as a carrot synonym.",
+        "support": "Britannica explicitly describes the carrot's doubly compound, finely divided leaves; the existing source supports the cultivated orange edible root.",
+        "sourceAccess": "Author inspected the explicit Britannica search passage for the foliage; direct full-page access is not claimed. Reviewer directly inspected sweet-potato counterexamples."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-16",
+      "answer": "Nehet",
+      "questionSha256": "7e29c1d8a5e45f2791dbb61fb65600053c21b0eb628472aa843815f618636094",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-16"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nail_(anatomy)",
+          "fetchedAt": "2026-10-31T01:28:38.107857+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "bfb69d445027d7a226de3fccee3df1c1c0d22a6387dd537ca17d7e2dba7c4b56",
+          "sourceTextSha256": "87e2cb9efdc5896a0208afee036a01b1745ed63d2dadb5cfa579ba831507cd17",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-16-5fc0cd6653.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-16-bfb69d4450.txt",
+          "passage": "A nail is a protective plate characteristically found at the tip of the digits (fingers and toes) of almost all primates (except for marmosets), homologous to the claws in other tetrapod animals. Fingernails and toenails are made of a tough rigid protein called alpha-keratin, a polymer also found in the claws, hooves, and horns of vertebrates.[1]",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "57ed878810ea8e49d534ca740061ab80b0d8640552fb1b5133bc6a460e4b4690"
+            }
+          ],
+          "authorReading": "Primate digit protective plate made of alpha-keratin; nehet/nehty, not claw or nail bed.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-16.json",
+            "originalMetadataSha256": "ab1d66165d3745185f00b885501013c6f5034e0c81f6021182038534c7cab5e2",
+            "finalUrl": "https://en.wikipedia.org/wiki/Nail_%28anatomy%29",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-17",
+      "answer": "Ostružina",
+      "questionSha256": "ae06797019038489a2b396c19becd768166ac37fc649c0b9eec4bb86d631799b",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-17"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Blackberry",
+          "fetchedAt": "2026-10-31T01:28:38.594883+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "dbb7e9b4118a2f7191bcc097d3f7786037426464b0d8ecc52ac0b70ce719d00c",
+          "sourceTextSha256": "4138eb0a0fce18531cd94111b17fee85253f388d729d8e1717d87f13060166c5",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-17-fc5a26f1cb.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-17-dbb7e9b411.txt",
+          "passage": "The blackberry looks similar to its raspberry relatives. What distinguishes the blackberry is the connection between the berry and the torus (receptacle or stem). When a raspberry is picked, the torus remains on the vine. This is why there is a hollow core in the raspberry fruit. When a blackberry is picked, the torus stays with the fruit.[4]\n\nThe usually black fruit is not a berry in the botanical sense, as it is termed botanically as an aggregate fruit, composed of small drupelets. It is a widespread and well-known group of over 375 species, many of which are closely related apomictic microspecies native throughout Europe, northwestern Africa, temperate western and central Asia and North and South America.[7]",
+          "selectedParagraphs": [
+            {
+              "index": 3,
+              "sha256": "06412923e9e3e1ef6a4498cd9662b545dca756fe1ba0a347dc670e9343a80e7f"
+            },
+            {
+              "index": 8,
+              "sha256": "affc83077718a0a3fe5baea72488e8849029de77338968ef1c4d6f61d9d824df"
+            }
+          ],
+          "authorReading": "Black aggregate fruit retains the receptacle after picking, unlike hollow raspberries; no canonical-root hint.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-17.json",
+            "originalMetadataSha256": "53895b0d139ce6a15d073aeec3b05139e2c7c2100c6809136074a21231c348be",
+            "finalUrl": "https://en.wikipedia.org/wiki/Blackberry",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-18",
+      "answer": "Petržel",
+      "questionSha256": "768b52a23979d68b10bf8bf58087bf9fc58a61e30a1351e1e41840dc5963f910",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-18"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-18",
+        "before": {
+          "id": "nature-cs-easy-04-18",
+          "initial": "P",
+          "text": "Která kuchyňská bylinka má duté úzké listy a kulovitá květenství drobných fialových květů?",
+          "answer": "Pažitka",
+          "aliases": [
+            "pažitka pobřežní",
+            "šnytlík",
+            "šnytlík zahradní",
+            "Allium schoenoprasum"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Chives"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-18",
+          "initial": "P",
+          "text": "Která kuchyňská bylinka se pěstuje v hladkolisté i kadeřavé podobě a její nasekaná nať se často sype do polévky?",
+          "answer": "Petržel",
+          "aliases": [
+            "Petržel zahradní",
+            "Petroselinum crispum",
+            "Kudrnka",
+            "Petržel kadeřavá"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://www.britannica.com/plant/parsley"]
+        },
+        "reason": "Replace same hollow-leaf Chives/Pažitka proposal; existing Chervil is a distinct species even though its clue compares flat-leaf parsley. Round-one NAT05: accept names of the curly parsley form explicitly encompassed by the clue.",
+        "support": "Reviewer independently judged the curly-form names valid under the question's smooth/curly qualification.",
+        "sourceAccess": "Complete per-entry source access and semantic judgment remain in the first-round Nature report; no new direct access claimed."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-19",
+      "answer": "Racek",
+      "questionSha256": "07e533a66d2253576e288342db4ade56aa1b807983b60e285414378298b74ce8",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-19"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-19",
+        "before": {
+          "id": "nature-cs-easy-04-19",
+          "initial": "R",
+          "text": "Který běžný pobřežní pták má zpravidla bílé a šedé peří a často sbírá potravu u přístavů?",
+          "answer": "Racek",
+          "aliases": ["racci", "Larinae"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Gull"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-19",
+          "initial": "R",
+          "text": "Který běžný pobřežní pták má zpravidla bílé a šedé peří, silnější zobák s mírně hákovitou špičkou a často sbírá potravu u přístavů?",
+          "answer": "Racek",
+          "aliases": ["racci", "Larinae"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Gull",
+            "https://www.britannica.com/animal/gull"
+          ]
+        },
+        "reason": "Second-round Nature19: distinguish gulls from the fitting tern counterexample through the strong, slightly hooked bill rather than accepting a different bird as a synonym.",
+        "support": "Britannica explicitly describes gulls' strong, slightly hooked bill and gray/white plumage; the retained original source supports opportunistic harbor feeding.",
+        "sourceAccess": "Author inspected the explicit Britannica entry and summary search passages, not a full direct page; reviewer directly inspected tern counterexamples."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-20",
+      "answer": "Řebčík královský",
+      "questionSha256": "f4a03509b5576be0fac0adb3eddd1ee1ee270cdb27fe337a21b876b96255a726",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-20"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fritillaria_imperialis",
+          "fetchedAt": "2026-10-31T01:28:38.771316+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "2a56c6dde6849156f830faa6d60c958da42d2dfde15a7f76dab6b34065a554ce",
+          "sourceTextSha256": "1086046d27c903dbd526500df79751b429999b9cfe4fd0567d9cdb378a43015e",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-20-ede1da104d.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-20-2a56c6dde6.txt",
+          "passage": "Fritillaria imperialis, the crown imperial, imperial fritillary or Kaiser's crown, is a species of flowering plant in the lily family Liliaceae, native to a wide stretch of Asia including Turkey, Iran (e.g. Kurdistan),[2][3][4] Iraq, Afghanistan, Pakistan, Northern India, and the Himalayan foothills.[5] It is also widely cultivated as an ornamental and reportedly naturalized in Austria, Sicily, and Washington State, US.[6][5][7] The common names and the epithet \"imperialis\", literally \"of the emperor\", refer to the large circle of golden flowers, reminiscent of an emperor's crown.[8]\n\nFritillaria imperialis grows to about 1 m (3 ft) in height, and bears lance-shaped, glossy leaves at intervals along the stem. It bears a prominent whorl of downward facing flowers at the top of the stem, topped by a 'crown' of small leaves, hence the name. While the wild form is usually orange-red, various colours are found in cultivation, ranging from nearly a true scarlet through oranges to yellow. The pendulous flowers make a bold statement in the late spring garden; in the northern hemisphere, flowering takes place in late spring, accompanied by a distinctly foxy odour that repels mice, moles and other small animals.[8][9]\n\nF. imperialis is easy to grow in well-drained soil in a sunny site. The plant is drought tolerant, and bulbs should be planted in the early autumn. Note that bulbs do not like to be out in the air for long.",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "1e10a29637d9a8bee998bc78c04fc925223a8efed8f81c7397680112a6617446"
+            },
+            {
+              "index": 6,
+              "sha256": "8f3a0ee95bbb57b37e0023a9bedc6d7cf3ea0a2490deea619783c06bcf90607e"
+            },
+            {
+              "index": 10,
+              "sha256": "d1fb983e280376333b3d8efddd35caab8a691bdab98002b24495f2f60f9e2f1e"
+            }
+          ],
+          "authorReading": "Fritillaria imperialis ornamental bulb, downward orange/yellow flower whorl and crown of leaves; legitimate crown names retained.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-20.json",
+            "originalMetadataSha256": "32ea5f2af147c260747288260e00018ff0d1a12caddc74c0137f9c95ee6914da",
+            "finalUrl": "https://en.wikipedia.org/wiki/Fritillaria_imperialis",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-21",
+      "answer": "Sýkora koňadra",
+      "questionSha256": "dbc0848ef1f69524a5a192b428d08b244b96740cf886e81a1e802ba702bfbea9",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-21"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-21",
+        "before": {
+          "id": "nature-cs-easy-04-21",
+          "initial": "S",
+          "text": "Která drobná luční květina má žlutý střed a bílé jazykovité květy často s růžovými špičkami?",
+          "answer": "Sedmikráska",
+          "aliases": ["sedmikráska chudobka", "chudobka", "Bellis perennis"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Bellis_perennis"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-21",
+          "initial": "S",
+          "text": "Který běžný pták u krmítek má žluté břicho s černým podélným pruhem, černou hlavu a bílé tváře?",
+          "answer": "Sýkora koňadra",
+          "aliases": ["Sýkora", "Koňadra", "Parus major"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://www.rspb.org.uk/birds-and-wildlife/great-tit"]
+        },
+        "reason": "Replace same small lawn Daisy/Sedmikráska identification proposal.",
+        "support": "RSPB identification explicitly gives Parus major black cap/head, white cheeks, yellow belly with black central stripe and feeder/garden habits.",
+        "sourceAccess": "Direct web_fetch inspected identification and key-features sections"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-22",
+      "answer": "Šalvěj",
+      "questionSha256": "cb3eeab01f605b1abdb77d6235e9f32572944ce354be6449fd3a99f9f11183ff",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-22"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Salvia_officinalis",
+          "fetchedAt": "2026-10-31T01:28:44.334677+00:00",
+          "sourceQuality": "Wikipedia editable secondary encyclopedia: actual selected complete contexts read for the stated claim and names; unrelated article claims are not endorsed.",
+          "sourceBodySha256": "f0cbe2380231faf5a44867781f813745e821aac381861b76b4326dc0c4ec6e5f",
+          "sourceTextSha256": "467aaaaa22c091a9ccf4fa9bb25aaa811d5cfe6ef4e00be3e5412f8e2910fde0",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-22-3218672585.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-22-f0cbe23802.txt",
+          "passage": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family (Lamiaceae) and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of culinary use, and in modern times it has been used as an ornamental garden plant. The common name \"sage\" is also used for closely related species and cultivars.\n\nCultivars are quite variable in size, leaf and flower color, and foliage pattern, with many variegated leaf types. The Old World type grows to approximately 60 cm (2 ft) tall and wide, with lavender flowers most common, though they can also be white, pink, or purple. The plant flowers in late spring or summer. The leaves are oblong, ranging in size up to .mw-parser-output .frac{white-space:nowrap}.mw-parser-output .frac .num,.mw-parser-output .frac .den{font-size:80%;line-height:0;vertical-align:super}.mw-parser-output .frac .den{vertical-align:sub}.mw-parser-output .sr-only{border:0;clip:rect(0,0,0,0);clip-path:polygon(0px 0px,0px 0px,0px 0px);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}65 mm (2+1⁄2 in) long by 25 mm (1 in) wide. Leaves are grey-green, rugose on the upper side, and nearly white underneath due to the many short soft hairs. Modern cultivars include leaves with purple, rose, cream, and yellow in many variegated combinations.[2] The common sage gives its name to the grayish-green color sage, due to the distinctive color of its leaves.",
+          "selectedParagraphs": [
+            {
+              "index": 0,
+              "sha256": "8fc6faa235131e953ae72638740954d7ca36566ca4597eff94b47c1576828437"
+            },
+            {
+              "index": 1,
+              "sha256": "ee20c2733a53baef72461ddda27d3fd0c7839a891d5d31b9c2fefce7a8f6c8c0"
+            }
+          ],
+          "authorReading": "Salvia officinalis culinary herb and hairy gray-green leaves; bibliography tea substrings rejected as support.",
+          "provenance": {
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/nature/b04/sources/nature-cs-easy-04-22.json",
+            "originalMetadataSha256": "535adba09a13f25b74012369ec8b8ba56b7dc874b1e49ed101c8f044e7c9aeef",
+            "finalUrl": "https://en.wikipedia.org/wiki/Salvia_officinalis",
+            "retrievalTimestamp": "Actual retained HTTP timestamp, not current author judgment or freeze time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-23",
+      "answer": "Tuleň",
+      "questionSha256": "9c33c7c845212f73904ab52b39c952ac6c0e9e864c5576d096f158cc98eb87db",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-23"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-23",
+        "before": {
+          "id": "nature-cs-easy-04-23",
+          "initial": "T",
+          "text": "Který mořský savec s ploutvovitými končetinami nemá na rozdíl od lachtana viditelné vnější ušní boltce?",
+          "answer": "Tuleň",
+          "aliases": ["tuleni", "pravý tuleň", "praví tuleni", "Phocidae"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Earless_seal"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-23",
+          "initial": "T",
+          "text": "Který mořský savec s ploutvovitými končetinami nemá vnější ušní boltce a na souši se posouvá vlněním těla po břiše místo chůze po všech čtyřech ploutvích?",
+          "answer": "Tuleň",
+          "aliases": ["tuleni", "pravý tuleň", "praví tuleni", "Phocidae"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Earless_seal",
+            "https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety"
+          ]
+        },
+        "reason": "Second-round Nature23: distinguish true seals from the ear-flap-free walrus using terrestrial belly locomotion, preserving all true-seal forms.",
+        "support": "NOAA explicitly identifies phocids as earless/true seals and describes inchworm-like movement on their bellies; the taxonomic comparison distinguishes walruses and eared seals.",
+        "sourceAccess": "Author and reviewer two independently directly inspected NOAA's About Seals and Sea Lions family/locomotion paragraphs."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-24",
+      "answer": "Užovka červená",
+      "questionSha256": "03057561c499a089442408d16af8448c517b9f5c1088c379775f4c9eba28e2f4",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-24"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-24",
+        "before": {
+          "id": "nature-cs-easy-04-24",
+          "initial": "U",
+          "text": "Který severoamerický nejedovatý had chovaný v teráriích má často oranžové tělo s tmavě ohraničenými skvrnami?",
+          "answer": "Užovka červená",
+          "aliases": ["Pantherophis guttatus", "Elaphe guttata", "corn snake"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Corn_snake"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-24",
+          "initial": "U",
+          "text": "Který severoamerický nejedovatý had chovaný v teráriích má často oranžové tělo s tmavě ohraničenými skvrnami?",
+          "answer": "Užovka červená",
+          "aliases": [
+            "Pantherophis guttatus",
+            "Elaphe guttata",
+            "corn snake",
+            "Kukuřičný had"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Corn_snake"]
+        },
+        "reason": "Round-one NAT06: add the documented Czech corn-snake name; do not invent the less reliably attested Užovka kukuřičná.",
+        "support": "Reviewer directly inspected the Superzoo corn-snake page for the Czech name only, explicitly rejecting its erroneous South America range sentence.",
+        "sourceAccess": "Reviewer direct retailer access supports name only; geographic identification retains the original independent source."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-25",
+      "answer": "Vrabec domácí",
+      "questionSha256": "ba30f77f6d9f50b9ada56443f0c90b987d13db3b942cb4fc523b4b8d993c33f6",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-25"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-25",
+        "before": {
+          "id": "nature-cs-easy-04-25",
+          "initial": "V",
+          "text": "Který evropský stromový hlodavec má huňatý ocas a v zimě výrazné štětičky na uších?",
+          "answer": "Veverka",
+          "aliases": ["veverka obecná", "Sciurus vulgaris"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Squirrel",
+            "https://en.wikipedia.org/wiki/Red_squirrel"
+          ]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-25",
+          "initial": "V",
+          "text": "Který drobný pták žijící u lidských obydlí má samce s šedým temenem, kaštanovým týlem a černou náprsenkou?",
+          "answer": "Vrabec domácí",
+          "aliases": ["Vrabec", "Passer domesticus"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/house-sparrow"
+          ]
+        },
+        "reason": "Avoid genuine Squirrel/Veverka broad/subtype ambiguity by a different target rather than a blanket taxonomic waiver.",
+        "support": "RSPB identifies Passer domesticus males by chestnut brown head/back, grey cap and black bib and describes living alongside humans.",
+        "sourceAccess": "Direct web_fetch inspected identification, key features and habitat"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-26",
+      "answer": "Watusi",
+      "questionSha256": "c822e03250943946642562a24fc74372816cf9188b3a0d32f058106caf67bf5e",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-26"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-26",
+        "before": {
+          "id": "nature-cs-easy-04-26",
+          "initial": "W",
+          "text": "Který skot afrického původu, chovaný i v zoologických zahradách, proslul mimořádně dlouhými a mohutnými rohy?",
+          "answer": "Watusi",
+          "aliases": [
+            "ankole-watusi",
+            "ankolský skot",
+            "ankole watusi",
+            "Vahumský skot"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/Watusi",
+            "https://en.wikipedia.org/wiki/Ankole-Watusi"
+          ]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-26",
+          "initial": "W",
+          "text": "Který skot afrického původu, chovaný i v zoologických zahradách, proslul mimořádně dlouhými a mohutnými rohy?",
+          "answer": "Watusi",
+          "aliases": [
+            "ankole-watusi",
+            "ankolský skot",
+            "ankole watusi",
+            "Vahumský skot",
+            "Ankole"
+          ],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://cs.wikipedia.org/wiki/Watusi",
+            "https://en.wikipedia.org/wiki/Ankole-Watusi"
+          ]
+        },
+        "reason": "Round-one NAT07: accept the short name already encompassed by the accepted ankolský skot.",
+        "support": "Breed-conservation reference and captured Czech/English passages support the African long-horned cattle identification.",
+        "sourceAccess": "Reviewer directly inspected Livestock Conservancy and original captured relevant passages."
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-27",
+      "answer": "Zornice",
+      "questionSha256": "4c2370c8e2828a09d4e22447aee36ff2e52f5f0c751abf75a552b1d14c852bb4",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-27"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-27",
+        "before": {
+          "id": "nature-cs-easy-04-27",
+          "initial": "Z",
+          "text": "Jak se nazývá domácí skot s výrazným hrbem nad plecemi, chovaný zejména v teplých oblastech?",
+          "answer": "Zebu",
+          "aliases": ["Bos indicus", "Bos taurus indicus", "indický skot"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/Zebu"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-27",
+          "initial": "Z",
+          "text": "Jak se nazývá otvor uprostřed duhovky, který se při jasném světle zužuje a ve tmě rozšiřuje?",
+          "answer": "Zornice",
+          "aliases": ["Zřítelnice", "Pupila", "Pupilla"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6634360/"
+          ]
+        },
+        "reason": "Replace same Zebu shoulder-humped-cattle proposal; existing Iris asks the colored muscular structure, not its central aperture.",
+        "support": "NEI defines pupil as the iris-controlled aperture. Peer-reviewed pupillometry review explicitly states bright-light constriction and dark dilation.",
+        "sourceAccess": "Direct web_fetch inspected NEI anatomy; web_search explicit PMC review passage for light reflex"
+      }
+    },
+    {
+      "id": "nature-cs-easy-04-28",
+      "answer": "Žluna",
+      "questionSha256": "43519146397d824f29d009966fc5578975d6af5f1b9e9dcb030e74601db0c973",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/nature/batches/b04-owner-v3/sources.json",
+        "sha256": "9f667e3eb737ffcaa580456fb4e3e7f7752168153ba38c4b1fc6e87fa5a44f1c",
+        "entryId": "nature-cs-easy-04-28"
+      },
+      "revision": {
+        "id": "nature-cs-easy-04-28",
+        "before": {
+          "id": "nature-cs-easy-04-28",
+          "initial": "Ž",
+          "text": "Který evropský pták z čeledi datlovitých má převážně zelené peří a na zemi hledá zejména mravence?",
+          "answer": "Žluna",
+          "aliases": ["žluna zelená", "Picus viridis"],
+          "category": "nature",
+          "language": "cs",
+          "sources": ["https://en.wikipedia.org/wiki/European_green_woodpecker"]
+        },
+        "after": {
+          "id": "nature-cs-easy-04-28",
+          "initial": "Ž",
+          "text": "Který datlovitý pták hnízdící v Česku má převážně zelené peří, u obou pohlaví celé červené temeno a na zemi hledá zejména mravence?",
+          "answer": "Žluna",
+          "aliases": ["žluna zelená", "Picus viridis"],
+          "category": "nature",
+          "language": "cs",
+          "sources": [
+            "https://en.wikipedia.org/wiki/European_green_woodpecker",
+            "https://www.nasiptaci.info/zluna-zelena-2/"
+          ]
+        },
+        "reason": "Second-round Nature28 hold: distinguish the intended green woodpecker from the grey-headed woodpecker by the whole red crown in both sexes and from the Iberian species by explicit Czech breeding occurrence; retain all legitimate existing accepted forms.",
+        "support": "Czech bird reference explicitly contrasts both sexes' wholly red crown in Picus viridis with the male Picus canus red front half only, describes terrestrial ant feeding and breeding throughout much of the Czech Republic.",
+        "sourceAccess": "Author directly inspected the complete relevant Czech identification and feeding sections; reviewer two directly inspected the contrasting grey-headed species page."
+      }
+    }
+  ],
+  "reviewRecords": [
+    "../reviews/phase-12-nature-cs-easy-04-round-1.json",
+    "../reviews/phase-12-nature-cs-easy-04-round-2.json"
+  ],
+  "reviewRecordHashes": [
+    {
+      "path": "reviews/phase-12-nature-cs-easy-04-round-1.json",
+      "sha256": "163568c9993e53d7debd869ab2aec5b104d11c63c020d5eb656a58dda276a66d"
+    },
+    {
+      "path": "reviews/phase-12-nature-cs-easy-04-round-2.json",
+      "sha256": "ee581a7074e4d4fa39d3ed43759223b1459b683e3f9a7dda03b76d64c18a9e2e"
+    }
+  ],
+  "reviewCompletion": {
+    "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "independentRounds": 2,
+    "acceptedQuestionsPerRound": 28,
+    "openFindings": 0,
+    "continuity": "Two distinct non-author research reviewers completed all 28 entries and all relevant source, alias, wording, initial, difficulty and bilingual semantic judgments. Original failed/held snapshots remain preserved; both rounds explicitly accept every final question under this actual pack hash after narrow correction review."
+  },
+  "validation": {
+    "id": "nature-cs-easy-04",
+    "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+    "questions": 28,
+    "fixedCzechLabels": true,
+    "acceptedForms": 128,
+    "allFormsMatch": true,
+    "importExportRoundtrip": true
+  },
+  "normalizationContinuity": {
+    "proof": {
+      "id": "nature-cs-easy-04",
+      "beforePackSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+      "packSha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+      "acceptedAnswerSetExactlyUnchanged": true,
+      "changed": []
+    },
+    "history": "The first General exact-parent content gate exposed redundant normalization-equivalent alias storage. Three redundant strings across General/Science were removed without changing any accepted-answer set; both independent reviewers explicitly accepted the resulting final hashes. No tests or application code were changed.",
+    "preservedInitialFailedGate": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../general-cs-hard-05-content-gate-initial-failed.log",
+      "sha256": "96256ecf3450aec601876ca03b07440c061c70c307991cf6375b363f32cbd830"
+    }
+  },
+  "releasePolicy": {
+    "contentOnlyCommand": "NODE_OPTIONS=--max-old-space-size=2048 timeout 1200 npm run release:content -- 69b1a3a39bbe60d3789027da4db86faae88b3500",
+    "application": "No application/tool/test/dependency changes and no local app build/typecheck/coverage/browser suites.",
+    "deployment": "Unchanged existing GitHub Actions main deployment may build the application; verify its actual merge revision separately. No live browser/private-host check claimed."
+  },
+  "limitations": [
+    "Search-passage support is labeled as such; direct access failures are not represented as full-page inspection.",
+    "Historical capture/paperwork gaps are not reconstructed or relabeled as proven.",
+    "Bounded deck release is not Phase12 clearance; final quotas and cleanup remain open."
+  ]
+}

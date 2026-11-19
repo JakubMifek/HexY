@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Bounded four-draft release, 2026-11-19:** `nature-cs-easy-04` adds only
+its independently twice-reviewed 28 entries to `69b1a3a39bbe60d3789027da4db86faae88b3500`:
+**173 decks / 4,844 questions**, English 87 / Czech 86.
+All prior 172 pack bytes/positions and application inputs remain immutable.
+[Sources and both final-hash review receipts](docs/phase-12-nature-cs-easy-04-sources.json) retain original
+holds and fresh corrections honestly. Exact-parent content-only gate and existing
+automatic deployment are separate release steps. Historical automation and timezone
+work remain paused; this checkpoint does not clear Phase12 or its final cleanup.
+
 **Bounded four-draft release, 2026-11-19:** `geography-cs-hard-04` adds only
 its independently twice-reviewed 28 entries to `a816b826849042f70be41ee9cd5eee147fa32c4a`:
 **172 decks / 4,816 questions**, English 87 / Czech 85.

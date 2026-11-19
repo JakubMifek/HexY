@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 2,
+  "difficulty": "easy",
+  "id": "nature-cs-easy-04",
+  "title": "Příroda · Lehké 04",
+  "language": "cs",
+  "mode": "letters",
+  "authors": ["HexY contributors"],
+  "license": "CC BY 4.0",
+  "questions": [
+    {
+      "id": "nature-cs-easy-04-01",
+      "initial": "A",
+      "text": "Který jihoamerický příbuzný lamy se chová především pro jemnou vlnu?",
+      "answer": "Alpaka",
+      "aliases": ["lama alpaka", "Vicugna pacos", "Lama pacos"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Alpaca"]
+    },
+    {
+      "id": "nature-cs-easy-04-02",
+      "initial": "B",
+      "text": "Který bělavý motýl s černými vrcholky předních křídel má housenky, které ve skupinách okusují zelí a další brukvovité rostliny?",
+      "answer": "Bělásek zelný",
+      "aliases": ["Bělásek", "Pieris brassicae"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://www.wildlifetrusts.org/wildlife-explorer/invertebrates/butterflies/large-white"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-03",
+      "initial": "C",
+      "text": "Který hmyz vydává za teplých letních dnů hlasitý zpěv rozkmitáváním blanitých orgánů na zadečku, nikoli třením předních křídel?",
+      "answer": "Cikáda",
+      "aliases": ["cikády"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Cicada"]
+    },
+    {
+      "id": "nature-cs-easy-04-04",
+      "initial": "Č",
+      "text": "Který pták otevřených polí a luk má dlouhou úzkou chocholku, černobílé zbarvení a nazelenalý lesk hřbetu?",
+      "answer": "Čejka",
+      "aliases": ["čejka chocholatá", "Vanellus vanellus"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Northern_lapwing"]
+    },
+    {
+      "id": "nature-cs-easy-04-05",
+      "initial": "D",
+      "text": "Který pták má nápadnou vztyčitelnou chocholku, černobílá křídla a dlouhý zahnutý zobák?",
+      "answer": "Dudek",
+      "aliases": ["dudek chocholatý", "Upupa epops"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Eurasian_hoopoe"]
+    },
+    {
+      "id": "nature-cs-easy-04-06",
+      "initial": "E",
+      "text": "Která okrasná rostlina severoamerického původu má růžovofialové květy s nápadně vystouplým terčem?",
+      "answer": "Echinacea",
+      "aliases": [
+        "třapatkovka nachová",
+        "třapatka nachová",
+        "Echinacea purpurea",
+        "Třapatkovka"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Echinacea_purpurea"]
+    },
+    {
+      "id": "nature-cs-easy-04-07",
+      "initial": "F",
+      "text": "Která oblíbená okrasná rostlina má převislé květy často kombinující červenou a fialovou barvu?",
+      "answer": "Fuchsie",
+      "aliases": ["fuksie", "fuchsie zahradní"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Fuchsia"]
+    },
+    {
+      "id": "nature-cs-easy-04-08",
+      "initial": "G",
+      "text": "Který bezocasý asijský lidoop má velmi dlouhé paže a pohybuje se zavěšováním z větve na větev?",
+      "answer": "Gibon",
+      "aliases": ["giboni", "Hylobatidae"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Gibbon"]
+    },
+    {
+      "id": "nature-cs-easy-04-09",
+      "initial": "H",
+      "text": "Která voňavá léčivá bylina používaná na čaj má bílé jazykovité květy kolem žlutého středu a uvnitř duté kuželovité květní lůžko?",
+      "answer": "Heřmánek",
+      "aliases": [
+        "Heřmánek pravý",
+        "Matricaria chamomilla",
+        "Matricaria recutita",
+        "Chamomilla recutita",
+        "Heřmánek lékařský",
+        "Harmaníček",
+        "Harmoníček",
+        "Heřmánek malý",
+        "Heřmánek polní",
+        "Jahodníček",
+        "Kamila",
+        "Kamilka",
+        "Kamilky",
+        "Králíčky",
+        "Matečník",
+        "Marunka",
+        "Matčina bylina",
+        "Matrikaria",
+        "Ormánek",
+        "Panenská bylina",
+        "Rostlinný lékař",
+        "Rumánek",
+        "Urmánek",
+        "Voňavý rmen"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://botany.cz/cs/matricaria-recutita/",
+        "https://ceske-bylinky.cz/content/210-hermanek-pravy"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-10",
+      "initial": "Ch",
+      "text": "Jakým společným názvem běžně označujeme skupinu dřevokazných hub, které na kmenech často tvoří tuhé konzolovité plodnice s póry na spodní straně?",
+      "answer": "Choroš",
+      "aliases": ["Choroše", "Chorošovitá houba"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Polypore"]
+    },
+    {
+      "id": "nature-cs-easy-04-11",
+      "initial": "I",
+      "text": "Který hormon slinivky břišní pomáhá snižovat hladinu glukózy v krvi?",
+      "answer": "Inzulin",
+      "aliases": ["insulin"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Insulin"]
+    },
+    {
+      "id": "nature-cs-easy-04-12",
+      "initial": "J",
+      "text": "Která obilnina mívá klasy s nápadně dlouhými osinami a její zrno je hlavní surovinou pro výrobu pivovarského sladu?",
+      "answer": "Ječmen",
+      "aliases": ["Ječmen setý", "Hordeum vulgare"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://www.britannica.com/plant/barley-cereal",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8073869/"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-13",
+      "initial": "K",
+      "text": "Která známá vyšší luční květina má velké úbory se žlutým středem a bílým lemem a lžícovité spodní listy se zubatým okrajem?",
+      "answer": "Kopretina",
+      "aliases": [
+        "Kopretina bílá",
+        "Leucanthemum vulgare",
+        "Kopretina luční",
+        "Husička",
+        "Svatojánské kvítko",
+        "Rmenec",
+        "Chrysanthemum leucanthemum",
+        "Leucanthemum vulgare agg."
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://www.wtwales.org/wildlife-explorer/wildflowers/oxeye-daisy",
+        "https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy",
+        "https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-14",
+      "initial": "L",
+      "text": "Která kuchyňská plodina mívá lesklé tmavofialové plody s bílou houbovitou dužninou?",
+      "answer": "Lilek",
+      "aliases": ["lilek vejcoplodý", "baklažán", "Solanum melongena"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Eggplant"]
+    },
+    {
+      "id": "nature-cs-easy-04-15",
+      "initial": "M",
+      "text": "Která běžná kořenová zelenina má jemně dělenou nať a obvykle oranžový kořen bohatý na beta-karoten?",
+      "answer": "Mrkev",
+      "aliases": [
+        "Mrkev obecná",
+        "Mrkev setá",
+        "Daucus carota",
+        "Daucus carota subsp. sativus",
+        "Karotka"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://www.britannica.com/plant/carrot",
+        "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:841063-1/general-information"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-16",
+      "initial": "N",
+      "text": "Jak se nazývá tvrdá keratinová ploténka kryjící konec lidského prstu?",
+      "answer": "Nehet",
+      "aliases": ["nehty"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Nail_(anatomy)"]
+    },
+    {
+      "id": "nature-cs-easy-04-17",
+      "initial": "O",
+      "text": "Které černé ovoce připomíná malinu, ale po utržení není uvnitř duté?",
+      "answer": "Ostružina",
+      "aliases": ["ostružiny"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Blackberry"]
+    },
+    {
+      "id": "nature-cs-easy-04-18",
+      "initial": "P",
+      "text": "Která kuchyňská bylinka se pěstuje v hladkolisté i kadeřavé podobě a její nasekaná nať se často sype do polévky?",
+      "answer": "Petržel",
+      "aliases": [
+        "Petržel zahradní",
+        "Petroselinum crispum",
+        "Kudrnka",
+        "Petržel kadeřavá"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://www.britannica.com/plant/parsley"]
+    },
+    {
+      "id": "nature-cs-easy-04-19",
+      "initial": "R",
+      "text": "Který běžný pobřežní pták má zpravidla bílé a šedé peří, silnější zobák s mírně hákovitou špičkou a často sbírá potravu u přístavů?",
+      "answer": "Racek",
+      "aliases": ["racci", "Larinae"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gull",
+        "https://www.britannica.com/animal/gull"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-20",
+      "initial": "Ř",
+      "text": "Která zahradní cibulovina nese věnec převislých oranžových či žlutých květů a nad nimi chochol listů?",
+      "answer": "Řebčík královský",
+      "aliases": [
+        "řebčík",
+        "Fritillaria imperialis",
+        "koruna císařská",
+        "císařská koruna"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Fritillaria_imperialis"]
+    },
+    {
+      "id": "nature-cs-easy-04-21",
+      "initial": "S",
+      "text": "Který běžný pták u krmítek má žluté břicho s černým podélným pruhem, černou hlavu a bílé tváře?",
+      "answer": "Sýkora koňadra",
+      "aliases": ["Sýkora", "Koňadra", "Parus major"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://www.rspb.org.uk/birds-and-wildlife/great-tit"]
+    },
+    {
+      "id": "nature-cs-easy-04-22",
+      "initial": "Š",
+      "text": "Která aromatická bylinka má šedozelené plstnaté listy a používá se jako koření?",
+      "answer": "Šalvěj",
+      "aliases": ["šalvěj lékařská", "Salvia officinalis"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Salvia_officinalis"]
+    },
+    {
+      "id": "nature-cs-easy-04-23",
+      "initial": "T",
+      "text": "Který mořský savec s ploutvovitými končetinami nemá vnější ušní boltce a na souši se posouvá vlněním těla po břiše místo chůze po všech čtyřech ploutvích?",
+      "answer": "Tuleň",
+      "aliases": ["tuleni", "pravý tuleň", "praví tuleni", "Phocidae"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Earless_seal",
+        "https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-24",
+      "initial": "U",
+      "text": "Který severoamerický nejedovatý had chovaný v teráriích má často oranžové tělo s tmavě ohraničenými skvrnami?",
+      "answer": "Užovka červená",
+      "aliases": [
+        "Pantherophis guttatus",
+        "Elaphe guttata",
+        "corn snake",
+        "Kukuřičný had"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://en.wikipedia.org/wiki/Corn_snake"]
+    },
+    {
+      "id": "nature-cs-easy-04-25",
+      "initial": "V",
+      "text": "Který drobný pták žijící u lidských obydlí má samce s šedým temenem, kaštanovým týlem a černou náprsenkou?",
+      "answer": "Vrabec domácí",
+      "aliases": ["Vrabec", "Passer domesticus"],
+      "category": "nature",
+      "language": "cs",
+      "sources": ["https://www.rspb.org.uk/birds-and-wildlife/house-sparrow"]
+    },
+    {
+      "id": "nature-cs-easy-04-26",
+      "initial": "W",
+      "text": "Který skot afrického původu, chovaný i v zoologických zahradách, proslul mimořádně dlouhými a mohutnými rohy?",
+      "answer": "Watusi",
+      "aliases": [
+        "ankole-watusi",
+        "ankolský skot",
+        "ankole watusi",
+        "Vahumský skot",
+        "Ankole"
+      ],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://cs.wikipedia.org/wiki/Watusi",
+        "https://en.wikipedia.org/wiki/Ankole-Watusi"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-27",
+      "initial": "Z",
+      "text": "Jak se nazývá otvor uprostřed duhovky, který se při jasném světle zužuje a ve tmě rozšiřuje?",
+      "answer": "Zornice",
+      "aliases": ["Zřítelnice", "Pupila", "Pupilla"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6634360/"
+      ]
+    },
+    {
+      "id": "nature-cs-easy-04-28",
+      "initial": "Ž",
+      "text": "Který datlovitý pták hnízdící v Česku má převážně zelené peří, u obou pohlaví celé červené temeno a na zemi hledá zejména mravence?",
+      "answer": "Žluna",
+      "aliases": ["žluna zelená", "Picus viridis"],
+      "category": "nature",
+      "language": "cs",
+      "sources": [
+        "https://en.wikipedia.org/wiki/European_green_woodpecker",
+        "https://www.nasiptaci.info/zluna-zelena-2/"
+      ]
+    }
+  ]
+}
