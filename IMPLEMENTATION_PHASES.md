@@ -12,6 +12,15 @@ the approved phase-11 expansion requires 132 / 3,696, then phase 12 requires
 
 ## Execution and review loop
 
+**Bounded four-draft release, 2026-11-19:** `general-cs-hard-05` adds only
+its independently twice-reviewed 28 entries to `0b006c99edaaae6cdbd92c42fcd71c4c6172b001`:
+**170 decks / 4,760 questions**, English 87 / Czech 83.
+All prior 169 pack bytes/positions and application inputs remain immutable.
+[Sources and both final-hash review receipts](docs/phase-12-general-cs-hard-05-sources.json) retain original
+holds and fresh corrections honestly. Exact-parent content-only gate and existing
+automatic deployment are separate release steps. Historical automation and timezone
+work remain paused; this checkpoint does not clear Phase12 or its final cleanup.
+
 **Owner-scoped content expansion, 2026-11-18:** one new 28-question deck,
 `sports-en-hard-03`, follows draft/duplicate iteration, answer/initial validation
 and two independent content review rounds before merge. This bounded release

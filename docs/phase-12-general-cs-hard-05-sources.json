@@ -1,0 +1,1122 @@
+{
+  "schemaVersion": 1,
+  "deckId": "general-cs-hard-05",
+  "date": "2026-11-19",
+  "baselineRevision": "0b006c99edaaae6cdbd92c42fcd71c4c6172b001",
+  "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+  "scope": {
+    "questions": 28,
+    "language": "cs",
+    "difficulty": "hard",
+    "previousDecks": 169,
+    "resultingDecks": 170,
+    "resultingQuestions": 4760,
+    "resultingEnglishDecks": 87,
+    "resultingCzechDecks": 83,
+    "previousPacksAndOrder": "Preserve exact bytes and positions.",
+    "phase12Cleared": false
+  },
+  "provenance": {
+    "originalPack": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/general-cs-hard-05/general-cs-hard-05.json",
+      "sha256": "dbd53e6f3481599f6dad898f6f6e91458260be579d6163530db8610dcec5d095"
+    },
+    "originalHandoff": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/general-cs-hard-05/HANDOFF.json",
+      "sha256": "19f43423fa71bd7e9b522a0f7b629b316650b93e5e06024482c01a633705495d"
+    },
+    "originalHoldRecords": [
+      {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/general-cs-hard-05/HOLDS-AND-LIFECYCLE.json",
+        "sha256": "3118d91c719205fe3683fa26038cd5cd7f6031ec28d27984b5dd9979a6468a79"
+      },
+      {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/general-cs-hard-05/CURRENT-PAIR-PROPOSALS.json",
+        "sha256": "34c9f72cca736196a713863b4b3c29aeb4b088b8cbf041cab2c59f8b661cb403"
+      }
+    ],
+    "authorship": "Adopted existing draft, with original Czech replacement wording where factual/semantic conflicts or unfair ambiguity required it; not copied from commercial quizzes or television.",
+    "history": "Original packets, source captures and failed/partial holds remain immutable. Fresh review accepts actual current bytes, not historical lifecycle claims."
+  },
+  "duplicateScreening": {
+    "corpusManifestSha256": "b964ed1f81ab7d7b2281a5e4364767f4b7483b96f03a978bb205b99b07dca0a9",
+    "packInstances": 519,
+    "questionRows": 14532,
+    "scope": "Actual main, primary native/unpublished, retired, all accessible queue-named native files and shallow named packet pack/original/proposal directories. Duplicate historical instances retained; no blanket language exemption.",
+    "checks": [
+      "Normalized prompts",
+      "Canonical and full-alias intersections",
+      "Accepted forms inside other clues",
+      "Independent bilingual fact/semantic judgments",
+      "Four owned candidates compared to one another"
+    ],
+    "limitations": "Bounded actual-main/primary/retired/accessible named-staged review, not universal web originality or retirement of other proposals."
+  },
+  "entries": [
+    {
+      "id": "general-cs-hard-05-01",
+      "answer": "Ažura",
+      "questionSha256": "b722be1e1789b56195dc84726e117d411216c08160ec3093470292c3bb228872",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-01"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-01",
+        "before": {
+          "id": "general-cs-hard-05-01",
+          "text": "Jak se nazývá vyšívací technika, při níž se část nití tkaniny vytahuje a zbývající nitě se obšívají do průsvitného vzoru?",
+          "initial": "A",
+          "answer": "Ažura",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Ažurování", "Ažúr", "Tažená výšivka"],
+          "sources": ["https://en.wikipedia.org/wiki/Drawn_thread_work"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-01",
+          "text": "Jak se nazývá vyšívací technika, při níž se část nití tkaniny vytahuje a zbývající nitě se obšívají do průsvitného vzoru?",
+          "initial": "A",
+          "answer": "Ažura",
+          "language": "cs",
+          "category": "general",
+          "aliases": [
+            "Ažurování",
+            "Ažúr",
+            "Tažená výšivka",
+            "Ažurová výšivka",
+            "Mřížka",
+            "Mřížky"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Drawn_thread_work",
+            "https://vysivani-online.cz/azury-mrizky/",
+            "https://www.rucniprace.cz/azura-mrizka.php"
+          ]
+        },
+        "reason": "Second-round General01: preserve all original names and accept the documented Czech embroidery/mřížka names.",
+        "support": "Reviewer independently inspected both Czech embroidery references for the drawn-thread technique and equivalent contextual names.",
+        "sourceAccess": "Reviewer two directly inspected the introductory definition, basic technique and Co je ažura sections; full source report retained."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-02",
+      "answer": "Borgis",
+      "questionSha256": "c8cb3a0202d64a1595205287eef324a0a28570a04b05c62963d80284fa333e0e",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-02"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://encyklopedieknihy.cz/index.php?title=Borgis",
+          "fetchedAt": "2026-10-31T11:17:58.361Z",
+          "sourceQuality": "Petr Voit, Encyklopedie knihy (2006), hosted by Library of the Czech Academy of Sciences; specialist native book-history reference",
+          "sourceBodySha256": "6eecf437120028e127c282098c4ce8f06f7ef0f54ae3b5893ce33257a26869a8",
+          "sourceTextSha256": "c3daf94040ba986639454f89805f81e64ae228d0a1237e71e02662da45e37f46",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/6eecf437120028e127c282098c4ce8f06f7ef0f54ae3b5893ce33257a26869a8.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/c3daf94040ba986639454f89805f81e64ae228d0a1237e71e02662da45e37f46.txt",
+          "passage": "Borgis (též bourgeois, burgos z it. borghese = městský) písmový stupeň měřený dnes 9 typografickými body (3,38 mm). Část odborné literatury soudí, že název byl vytvořen dle rouenského tiskaře Jeana Le Bourgeois (činný 1488-1531?). Pravděpodobnější výklad se opírá o původní význam adjektiva a dovozuje, že tímto písmovým stupněm byla běžně tištěna levnější maloformátová literatura pro měšťanskou třídu (někteří badatelé původ stupně kladou do pařížské tiskárny Geoffroye Toryho). Název užil poprvé 1734 ve své škále již William Caslon st., zatímco Fournier a Didot tento stupeň pojmenovali termínem „gaillarde“ (dle pařížského tiskaře Guillauma Guillarda činného 1554-1568). V Rosenmüllerově vzorníku 1789 tento stupeň chybí. Od 19. století se borgis lije na desetibodovou písmovou kuželku garmondu, a sazba tak působí vzdušněji.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/native-borgis-book.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/native-borgis-book-extracted.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/native-borgis-book-metadata.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not later extraction or correction"
+          }
+        },
+        {
+          "url": "https://ssjc.ujc.cas.cz/search.php?heslo=borgis&sti=EMPTY&where=hesla&hsubstr=no",
+          "fetchedAt": "2026-10-31T11:10:33.520Z",
+          "sourceQuality": "Institute of the Czech Language, Czech Academy of Sciences; native institutional SSJČ historical dictionary",
+          "sourceBodySha256": "db1fcc6b9028983dcd54d03ba52fcee62b0794de946cae5f8c8244134b58ee21",
+          "sourceTextSha256": "af023c9428b5f88c0c953305c22200793d29c72579b648df877de9d322617984",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/db1fcc6b9028983dcd54d03ba52fcee62b0794de946cae5f8c8244134b58ee21.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/af023c9428b5f88c0c953305c22200793d29c72579b648df877de9d322617984.txt",
+          "passage": "Slovník spisovného jazyka českého | Nápověda | © Ústav pro jazyk český, v. v. i. 2011 Jen hesla Hesla i heslové stati Celá slova borgis, -u m. (6. j. -u) (z fr.) polygr. stupeň velikosti tiskařského písma (3, 38 mm) mezi petitem a garmondem; borgisový příd.: b-á sazba; b. podtitulek\n",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/native-borgis.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/native-borgis-extracted.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/native-borgis-metadata.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not later extraction or correction"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-03",
+      "answer": "Cicero",
+      "questionSha256": "12d810b5fcca7e447b0159275d0bc23eb0a81cf66d5abde350d65c58745af58a",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-03"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cicero_(typography)",
+          "fetchedAt": "2026-10-30T20:44:08.423Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "6e22cfbcd7df597a6803818280595433eaa7e8918a10e66415914c8b95680803",
+          "sourceTextSha256": "dde47bcdbf41e2b3299d5ef69865cc77899a853d6ce7ab27eee98e54bf90eec3",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/6e22cfbcd7df597a6803818280595433eaa7e8918a10e66415914c8b95680803.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/dde47bcdbf41e2b3299d5ef69865cc77899a853d6ce7ab27eee98e54bf90eec3.txt",
+          "passage": "A cicero (/ˈsɪsəroʊ/ SISS-ər-oh) is a unit of measure used in typography in Italy, France and other continental European countries, first used by Pannartz and Sweynheim in 1468 for the edition of Cicero's Epistulae ad Familiares.[1] The font size thus acquired the name cicero.\n\nIt is 1⁄6 of the historical French inch, and is divided into 12 points,[2] known in English as French points or Didot points. The unit of the cicero is similar to an English pica, although the French inch was slightly larger than the English inch. There are about 1.066 picas to a cicero; a pica is 4.23333333 mm and a cicero is 4.51165812456 mm.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/f4999a80179c2e69a270.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/f4999a80179c2e69a270.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/f4999a80179c2e69a270.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-04",
+      "answer": "Člunek",
+      "questionSha256": "22be5cffaedbd7e88c9f100393dc4c1b03ac34e3105f4258baeae8b5d0c49e23",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-04"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Shuttle_(weaving)",
+          "fetchedAt": "2026-10-30T20:44:11.553Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "fd913407123ec3f28de6e6e890798d971782b1d3b4b659ee681e9fa049afcc54",
+          "sourceTextSha256": "8e477c0bd1debb0257eb8b41678e33e2a94d8172b48de3e18fe17e01b2880a9a",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/fd913407123ec3f28de6e6e890798d971782b1d3b4b659ee681e9fa049afcc54.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/8e477c0bd1debb0257eb8b41678e33e2a94d8172b48de3e18fe17e01b2880a9a.txt",
+          "passage": "A shuttle is a tool designed to neatly and compactly store a holder that carries the thread of the weft yarn while weaving with a loom. Shuttles are thrown or passed back and forth through the shed, between the yarn threads of the warp in order to weave in the weft.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/4e1a3e18d68ab5c24c99.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/4e1a3e18d68ab5c24c99.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/4e1a3e18d68ab5c24c99.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-05",
+      "answer": "Duktus",
+      "questionSha256": "092506455a06c993fb31312bd1393012ebc19c11200f631a456d0a415749bfca",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-05"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ductus_(linguistics)",
+          "fetchedAt": "2026-10-30T20:50:00.060Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "2023157220f7833ca7e926b63be7dbbab00fb60efe0dd01379160f5733ba9c35",
+          "sourceTextSha256": "c8d5b16a9e024ae64e6f35741431f174a6eb2ab01e886db06bb86c3b3af90123",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/2023157220f7833ca7e926b63be7dbbab00fb60efe0dd01379160f5733ba9c35.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/c8d5b16a9e024ae64e6f35741431f174a6eb2ab01e886db06bb86c3b3af90123.txt",
+          "passage": "In linguistics, ductus is the qualities and characteristics of speaking or writing instantiated in the act of speaking or the flow of writing the text. For instance, in writing, ductus includes the direction, sequencing, and speed with which the strokes making up a character are drawn.\n\nUnlike rhythm, ductus is the performative quality that emerges by actuating the metrically arranged language in voice. It is then the specific style and character of the language as it exists within time. While rhythm is tied to tempo, ductus picks up various features of performative language, such as pitch and tone as well.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/269c21d5fcc91bdd6555.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/269c21d5fcc91bdd6555.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/269c21d5fcc91bdd6555.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-06",
+      "answer": "Enfiláda",
+      "questionSha256": "6459bc263b39bc0e0a0a64792960fd3ad411f1781b628608e611b77cb63fbcd1",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-06"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Enfilade_(architecture)",
+          "fetchedAt": "2026-10-30T20:44:15.024Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "c571423758f192962ebc5512399df439fdccbd91fe71e3316d0b2f92a787c299",
+          "sourceTextSha256": "168fc979dbba2848b0546c4ed9ec0e1475b8e37b6e3da1936065ae1a4ae43def",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/c571423758f192962ebc5512399df439fdccbd91fe71e3316d0b2f92a787c299.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/168fc979dbba2848b0546c4ed9ec0e1475b8e37b6e3da1936065ae1a4ae43def.txt",
+          "passage": "In architecture, an enfilade is a series of rooms formally aligned with each other. This was a common feature in grand European architecture from the Baroque era onward, though there are earlier examples, such as the Vatican stanze. The doors entering each room are aligned with the doors of the connecting rooms along a single axis, providing a vista through successive rooms. The enfilade may be used as a processional route and is a common arrangement in museums and art galleries, as it facilitates the movement of large numbers of people through a building.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/0b41dd6c1806bf7bd31d.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/0b41dd6c1806bf7bd31d.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/0b41dd6c1806bf7bd31d.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-07",
+      "answer": "Foliace",
+      "questionSha256": "d10e9f0d2a329f07e6955262637ca7938779a19bde18acbb25078907bd60745d",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-07"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-07",
+        "before": {
+          "id": "general-cs-hard-05-07",
+          "text": "Jak se nazývá zlatnická technika vytvářející jemné ornamenty z tenkých, často stáčených kovových drátků?",
+          "initial": "F",
+          "answer": "Filigrán",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Filigránová práce"],
+          "sources": ["https://en.wikipedia.org/wiki/Filigree"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-07",
+          "text": "Jak se v popisu rukopisů nazývá číslování jednotlivých listů, nikoli každé jejich strany?",
+          "initial": "F",
+          "answer": "Foliace",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Foliování", "Číslování listů"],
+          "sources": ["https://encyklopedieknihy.cz/index.php?title=Foliace"]
+        },
+        "reason": "Replace the same fine-wire metalwork fact as general-en-medium-05-07, without editing that published question.",
+        "support": "Specialist book-history encyclopedia explains manuscript foliation using the same leaf number plus r/recto and v/verso for its two sides, distinct from pagination.",
+        "sourceAccess": "Direct web_fetch inspected the definition and recto/verso discussion"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-08",
+      "answer": "Gnomonika",
+      "questionSha256": "f60d159713c1605afc080a3c762e93d16ef91ddfbf74cf87c2ea980118de3eb2",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-08"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-08",
+        "before": {
+          "id": "general-cs-hard-05-08",
+          "text": "Jak se nazývá ornamentální zdobení řadou vypouklých žlábkovaných či stáčených laloků, časté například na stříbrných nádobách?",
+          "initial": "G",
+          "answer": "Godronování",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Gadroon", "Godron", "Vývalek", "Gadrooning"],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Gadrooning",
+            "https://cs.wikipedia.org/wiki/Godron"
+          ]
+        },
+        "after": {
+          "id": "general-cs-hard-05-08",
+          "text": "Jak se nazývá nauka o navrhování a konstrukci slunečních hodin?",
+          "initial": "G",
+          "answer": "Gnomonika",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": [
+            "https://www.slunecni-hodiny.webzdarma.cz/osobnosti.html",
+            "https://pl.wikipedia.org/wiki/Gnomonika"
+          ]
+        },
+        "reason": "Replace the same gadrooning fact in the paused English Hard05 proposal. Exact-parent content gate found a normalization-equivalent redundant alias: Gnómonika and canonical Gnomonika are the identical production-normalized accepted form. Remove only redundant storage; Gnómonika remains accepted through the canonical answer.",
+        "support": "Production normalizeAnswer and acceptsAnswer prove identical accepted-answer sets before/after; factual support, prompt, canonical and source URLs are unchanged.",
+        "sourceAccess": "No new source judgment; this is a lossless representation correction, documented by normalization-equivalence.json."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-09",
+      "answer": "Heteronym",
+      "questionSha256": "7e296d6a4943dd8b49483db11e36b68de1cd43295d19b32c7a5caba4c5a783c9",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-09"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-09",
+        "before": {
+          "id": "general-cs-hard-05-09",
+          "text": "Jak se nazývá truhlářský spoj s vějířovitě rozšířenými čepy, které do sebe zapadají a brání vytažení?",
+          "initial": "H",
+          "answer": "Holubičí ocas",
+          "language": "cs",
+          "category": "general",
+          "aliases": [
+            "Rybinový spoj",
+            "Rybinové spojení",
+            "Rybinování",
+            "Spoj na rybinu",
+            "Spojení na rybinu"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dovetail_joint",
+            "https://ssjc.ujc.cas.cz/search.php?heslo=rybina&sti=EMPTY&where=hesla&hsubstr=no"
+          ]
+        },
+        "after": {
+          "id": "general-cs-hard-05-09",
+          "text": "Jak se v literatuře nazývá smyšlená autorská osobnost s vlastním životopisem a stylem, jaké vytvářel Fernando Pessoa, na rozdíl od pouhého krycího jména?",
+          "initial": "H",
+          "answer": "Heteronym",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Heteronymum"],
+          "sources": ["https://en.wikipedia.org/wiki/Heteronym_(literature)"]
+        },
+        "reason": "Replace the same dovetail-joint identification as general-en-hard-05-05.",
+        "support": "Literary heteronyms are imaginary author characters with biographies and distinct writing styles, unlike mere pseudonyms; Pessoa is the central example.",
+        "sourceAccess": "web_search explicit Wikipedia and linguagem.pt passages; no full-page fetch claimed"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-10",
+      "answer": "Chrematistika",
+      "questionSha256": "4768732cafed47e625f060f9af67d5372c7cd4d214a35923f426b378be2d171b",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-10"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-10",
+        "before": {
+          "id": "general-cs-hard-05-10",
+          "text": "Jak se nazývá středověká listina se stejným textem napsaným několikrát na jednom listu, který byl poté rozříznut přes společný nápis?",
+          "initial": "Ch",
+          "answer": "Chirograf",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Chirografická listina"],
+          "sources": ["https://en.wikipedia.org/wiki/Chirograph"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-10",
+          "text": "Jakým termínem označoval Aristotelés získávání peněžního bohatství, zejména když se hromadění peněz stává cílem samo o sobě?",
+          "initial": "Ch",
+          "answer": "Chrematistika",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Chrematistics"]
+        },
+        "reason": "Replace the same chirograph cut-document fact as general-en-hard-05-04. Exact-parent content gate requires unique normalized forms: Chrématistika is already accepted by canonical Chrematistika after diacritic normalization. Remove only the redundant stored spelling, not its accepted-answer behavior.",
+        "support": "Production normalizeAnswer and acceptsAnswer prove identical accepted-answer sets before/after; factual support, prompt, canonical and source URLs are unchanged.",
+        "sourceAccess": "No new source judgment; lossless representation correction documented by normalization-equivalence.json."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-11",
+      "answer": "Intonaco",
+      "questionSha256": "2c40b13e74a6ce48d8a2fb954752ef315c9e48966cdf9a78f7e2ecfbd21ace0e",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-11"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Intonaco",
+          "fetchedAt": "2026-10-30T20:44:18.710Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "a14c0335f59f84816bf91a2cc9438073de8689597626cab3f82749b924f9e1b6",
+          "sourceTextSha256": "f16ec2295082180b0aa22b36475ef87a915f204322d2606938932b27b44cd832",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/a14c0335f59f84816bf91a2cc9438073de8689597626cab3f82749b924f9e1b6.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/f16ec2295082180b0aa22b36475ef87a915f204322d2606938932b27b44cd832.txt",
+          "passage": "Intonaco is an Italian term for the final, very thin layer of plaster on which a fresco is painted. The plaster is painted while still wet, in order to allow the pigment to penetrate into the intonaco itself. An earlier layer, called arriccio, is laid slightly coarsely to provide a key for the intonaco, and must be allowed to dry, usually for some days, before the final very thin layer is applied and painted on.[1] In Italian the term intonaco is also used much more generally for normal plaster or mortar wall-coatings in buildings.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/44bd2b59c5b26143eab5.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/44bd2b59c5b26143eab5.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/44bd2b59c5b26143eab5.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-12",
+      "answer": "Jircha",
+      "questionSha256": "4e5460d13b317d44ce59428a7547a7640bb7c672bdc55a6ed18afe3d68e53ed6",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-12"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://cs.wikipedia.org/wiki/Jircha",
+          "fetchedAt": "2026-10-30T21:12:25.373Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "eceed43710e2105b077a108521609fbde62afbe28dbd516aabaa08fb682ecdc4",
+          "sourceTextSha256": "008354b1f6cb519f172a34052721d0a0b91107f8fb83e8c7f1f7847f813dbabc",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/eceed43710e2105b077a108521609fbde62afbe28dbd516aabaa08fb682ecdc4.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/008354b1f6cb519f172a34052721d0a0b91107f8fb83e8c7f1f7847f813dbabc.txt",
+          "passage": "jircha (bělouseň) – (od jirchářů, bělokožešníků) useň, hovězí surová kůže, podvalovaná a vyčiněná kamencem, na měkko. glazé – bílá rukavičkářská jircha, z kůzlečiny.\n\nglazé – bílá rukavičkářská jircha, z kůzlečiny.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/aa554a9f7b363e0ef189.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/aa554a9f7b363e0ef189.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/aa554a9f7b363e0ef189.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-13",
+      "answer": "Klauzura",
+      "questionSha256": "2813f526a6bedbcda023620c4c80e85c2f3d4db66502149ce37137bbd4d2fdd1",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-13"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Enclosed_religious_orders",
+          "fetchedAt": "2026-10-30T20:44:21.571Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "94f73369f82cd005b9fdcb957144955651bd16f3440b16d2957b5cd2e8c63d00",
+          "sourceTextSha256": "6756d7d8ec4181984ac35e2ca37f24b1a0e494009ceb53c9d7af5c97e8ba2152",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/94f73369f82cd005b9fdcb957144955651bd16f3440b16d2957b5cd2e8c63d00.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/6756d7d8ec4181984ac35e2ca37f24b1a0e494009ceb53c9d7af5c97e8ba2152.txt",
+          "passage": "Enclosed religious orders are religious orders whose members strictly separate themselves from the affairs of the external world. The term cloistered is synonymous with enclosed. In the Catholic Church, enclosure is regulated by the code of canon law, either the Latin code or the Oriental code, and also by the constitutions of the specific order.[1][2][3] It is practised with a variety of customs according to the nature and charism of the community in question. This separation may involve physical barriers such as walls and grilles (that is, a literal cloister), with entry restricted for other people and certain areas exclusively permitted to the members of the convent. Outsiders may only temporarily enter this area under certain conditions (for example, if they are candidates for the order, doctors or craftsmen). The intended purpose for such enclosure is to prevent distraction from prayer and the religious life and to keep an atmosphere of silence.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/83c95619eafc8f790445.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/83c95619eafc8f790445.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/83c95619eafc8f790445.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-14",
+      "answer": "Lustrum",
+      "questionSha256": "bd58c982dee34b2f5095c4a3ad88b6dc8baebf1c291480306317930722162130",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-14"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-14",
+        "before": {
+          "id": "general-cs-hard-05-14",
+          "text": "Jak se nazývá grafická technika, při níž kyselina vyhlubuje odkrytá místa kovové tiskové desky?",
+          "initial": "L",
+          "answer": "Lept",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Leptání"],
+          "sources": ["https://en.wikipedia.org/wiki/Etching"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-14",
+          "text": "Jaký latinský výraz označoval pětileté období mezi římskými censy a původně také očistný obřad po jejich dokončení?",
+          "initial": "L",
+          "answer": "Lustrum",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Pětiletí"],
+          "sources": ["https://en.wikipedia.org/wiki/Lustrum"]
+        },
+        "reason": "Replace the published Etching/Lept acid-printing fact in arts-en-02-06.",
+        "support": "Lustrum is both the purification following the Roman census and the five-year interval between censuses.",
+        "sourceAccess": "web_search explicit Wikipedia passage; Britannica separately supports the census/purification context"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-15",
+      "answer": "Mantila",
+      "questionSha256": "0f8594a36bc43246f60c8a9eea6ac9599e4b2b765fcb95bd7b5475db526f6bf5",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-15"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mantilla",
+          "fetchedAt": "2026-10-30T21:01:17.327Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "ad303a4e252a03e90a25c4845e6271547291d367a27cbf7a31a73898fe2ad11c",
+          "sourceTextSha256": "e835a857fdfad10e12517253343079957ac4a1b4b91902e83c3977f8f8b846bc",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/ad303a4e252a03e90a25c4845e6271547291d367a27cbf7a31a73898fe2ad11c.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/e835a857fdfad10e12517253343079957ac4a1b4b91902e83c3977f8f8b846bc.txt",
+          "passage": "A mantilla is a traditional female liturgical lace or silk veil or shawl worn over the head and shoulders, often over a high hair ornament called a peineta, particularly popular with women in Spain and Latin America.[1] Within Christendom, it is worn by Catholic and Plymouth Brethren women around the world, Mennonite women in Argentina, and without the peineta by Eastern Orthodox women in Russia. When worn by Eastern Orthodox women the mantilla is often white, and is worn with the ends crossed over the neck and draped over the opposite shoulder. The mantilla is worn as a Christian headcovering by women during church services, as well as during special occasions.[2][3] A smaller version of the mantilla is called a toquilla.[4]",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/c3a13d766a9fd3f4986e.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/c3a13d766a9fd3f4986e.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/c3a13d766a9fd3f4986e.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-16",
+      "answer": "Nankin",
+      "questionSha256": "fd1a2cf1c0016d28da51306e3a4d2541d100e572b078b67c64143b86b2ac2f37",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-16"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Nankeen",
+          "fetchedAt": "2026-10-30T20:44:28.073Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "7aed2d8919c1d924a769259aa87a25a4ec5021bdbe0d29f868d17800ed757c34",
+          "sourceTextSha256": "4f0dcf2f513358b27f3a83b492dd781a1ec7c216f9d8ecd6a73e59b8a544a59e",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/7aed2d8919c1d924a769259aa87a25a4ec5021bdbe0d29f868d17800ed757c34.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/4f0dcf2f513358b27f3a83b492dd781a1ec7c216f9d8ecd6a73e59b8a544a59e.txt",
+          "passage": "Nankeen (also called Nankeen cloth) is a kind of pale yellowish cloth originally made in Nanjing, China from a yellow variety of cotton, but subsequently manufactured from ordinary cotton that is then dyed.[1]",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/b0d1990ad46ca8cc2c51.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/b0d1990ad46ca8cc2c51.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/b0d1990ad46ca8cc2c51.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-17",
+      "answer": "Omofor",
+      "questionSha256": "a146e2a401744f3323cb17be5c6c955dee8bf694d8c321ee585da705ed74cec4",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-17"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Omophorion",
+          "fetchedAt": "2026-10-30T20:44:32.417Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "88bd7938b79a6620a52f66f377ed37770bfb39240f89f6c71ee76afb3d0f5ed6",
+          "sourceTextSha256": "6d5e25226b47e6a533235d2b0a467d23b86567d42b7122637c7f11aaea4ac791",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/88bd7938b79a6620a52f66f377ed37770bfb39240f89f6c71ee76afb3d0f5ed6.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/6d5e25226b47e6a533235d2b0a467d23b86567d42b7122637c7f11aaea4ac791.txt",
+          "passage": "In the Eastern Orthodox and Eastern Catholic liturgical tradition, the omophorion (Ancient Greek: ὠμοφόριον, meaning \"[something] borne on the shoulders\"; Slavonic: омофоръ, omofor) is the distinguishing vestment of a bishop and the symbol of his spiritual and ecclesiastical authority. Originally woven of wool, it is a band of brocade decorated with four crosses and an eight-pointed star; it is worn about the neck and shoulders.[1]\n\nBy symbolizing the lost sheep that is found and carried on the Good Shepherd's shoulders, it signifies the bishop's pastoral role as the icon of Christ. All Eastern Orthodox bishops wear the omophorion. Clergy and ecclesiastical institutions, including seminaries, subject to a bishop's authority are often said to be \"under his omophorion\" (see Ecclesiastical jurisdiction).\n\nThe omophorion has two forms: the ancient great omophorion, which passes around the neck, is folded in the front, and hangs down past the knees in both the front and the back, like a loosely worn long scarf; and the small omophorion which is much simpler, passing around the neck and hanging down in the front similar to an epitrachelion (stole), only wider and shorter, coming down a little past the waist. Because of the complexity of the great omophorion, and because of the dignity of the episcopal office, whenever the bishop puts on the omophorion or takes it off, he is assisted by two subdeacons.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/a31f6b7f01b912b3d655.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/a31f6b7f01b912b3d655.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/a31f6b7f01b912b3d655.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-18",
+      "answer": "Punc",
+      "questionSha256": "02176325b16c901cdf1d186b60afe478f46949e33d918707b636b4e1d0f7c253",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-18"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-18",
+        "before": {
+          "id": "general-cs-hard-05-18",
+          "text": "Jak se nazývá psací materiál vyrobený z upravené zvířecí kůže, nikoli z rostlinných vláken?",
+          "initial": "P",
+          "answer": "Pergamen",
+          "language": "cs",
+          "category": "general",
+          "aliases": [],
+          "sources": ["https://en.wikipedia.org/wiki/Parchment"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-18",
+          "text": "Jak se nazývá úřední značka, kterou nezávislá zkušebna potvrzuje ryzost zlatého či stříbrného výrobku, na rozdíl od pouhého vyraženého čísla?",
+          "initial": "P",
+          "answer": "Punc",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Puncovní značka", "Státní punc"],
+          "sources": ["https://www.puncovniurad.eu/identifikacni-znacky/"]
+        },
+        "reason": "Replace the broad prepared-animal-skin fact overlapping the actual Arts Vellum proposal; no unsupported alias deletion or subtype waiver. Round-one G01: replace the old redirecting source URL with the actual official supporting page; the target and legitimate aliases are unchanged.",
+        "support": "Official Assay Office identification-marks page explicitly defines a hallmark as an independent guarantee of declared fineness and distinguishes a fineness number alone.",
+        "sourceAccess": "Author and reviewer one independently directly inspected the official definition and fineness-number distinction."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-19",
+      "answer": "Rotulus",
+      "questionSha256": "41f6b487eb3a5c1e14f16edefe5c32d64f76cd87ed041b2f7ce448e2252d8e06",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-19"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-19",
+        "before": {
+          "id": "general-cs-hard-05-19",
+          "text": "Jak se nazývá doplňování nadpisů a dalších zvýrazněných slov červeným inkoustem do již napsaného rukopisu?",
+          "initial": "R",
+          "answer": "Rubrikace",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Rubrikování"],
+          "sources": ["https://en.wikipedia.org/wiki/Rubrication"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-19",
+          "text": "Jakým latinským termínem se označuje úzký rukopisný svitek odvíjený svisle, jehož řádky probíhají napříč pásem?",
+          "initial": "R",
+          "answer": "Rotulus",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Rotula"],
+          "sources": ["https://en.wikipedia.org/wiki/Rotulus"]
+        },
+        "reason": "Replace the same red-manuscript-headings fact as general-en-hard-05-19.",
+        "support": "Rotulus/rotula is a vertical roll, unwound vertically with writing parallel to its axle rather than successive columns along a horizontal scroll.",
+        "sourceAccess": "web_search explicit Wikiwand reproduction of reference definition; direct Wikipedia fetch not claimed"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-20",
+      "answer": "Řeholní profese",
+      "questionSha256": "c30d7565c70457f262033dde120b10f9093f8eccf433bafa6b69bebd34989316",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-20"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://provincie.minorite.cz/co-je-to-reholni-profese/",
+          "fetchedAt": "2026-10-31T09:40:16.221Z",
+          "sourceQuality": "Province of the Order of Friars Minor Conventual in the Czech Republic; institutional native religious-formation definition, not an academic dictionary",
+          "sourceBodySha256": "9e0aca69495d425ecbfbd71e2e83e204aec58712e8cbe9b662d98141c8d9079b",
+          "sourceTextSha256": "b664bf631fb8d688abb70b2e46b750a1c8a0abb73b6824caa3ac442a7aa0e71e",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/9e0aca69495d425ecbfbd71e2e83e204aec58712e8cbe9b662d98141c8d9079b.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/b664bf631fb8d688abb70b2e46b750a1c8a0abb73b6824caa3ac442a7aa0e71e.txt",
+          "passage": "Řeholní profese je veřejný závazek řeholníka zachovávat tři evangelijní rady: čistoty, poslušnosti, chudoby.\n",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/religious-profession-minorite.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/94ed72cd62a523c91cd4.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/94ed72cd62a523c91cd4.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        },
+        {
+          "url": "https://cs.wikipedia.org/wiki/%C5%98eholn%C3%AD_sliby",
+          "fetchedAt": "2026-10-31T09:38:17.555Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "adff87da4770325d2a1f6e159d298c9c6ab1c3dbf70c288c087d44357397bb19",
+          "sourceTextSha256": "371bb2426364ad849fac1e6c1848fd9934a397f9116ffb22f9c791257141d085",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/adff87da4770325d2a1f6e159d298c9c6ab1c3dbf70c288c087d44357397bb19.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/371bb2426364ad849fac1e6c1848fd9934a397f9116ffb22f9c791257141d085.txt",
+          "passage": "Řeholní sliby (lat. Professio religiosa) jsou sliby, které vykonávají členové řeholních společenství v římskokatolické, anglikánské a pravoslavné církvi. Z hlediska řeholníků se jedná o veřejné prohlášení, ve kterém vyjadřují souhlas s životem v chudobě, čistotě a poslušnosti. To se chápe jako svobodné osobní rozhodnutí v následování Krista životem v řeholním společenství. Že jsou řeholní sliby zároveň veřejné, je závazkem církevního práva. Jedním z důsledků těchto slibů je taktéž život v celibátu.\n\nBěhem 12. a 13. století žebravé řády jako dominikáni či františkáni, jejichž poslání vyžadovalo větší pohyblivost a flexibilitu, upustily od slibu setrvání v jednom klášteře a držely se slibů čistoty, chudoby a poslušnosti, stejně jako členové mnoha dalších řádů či kongregací založených ve stejné době. Sliby těchto tří tzv. evangelních rad jsou v dnešní církvi podmínkou, kterou stanovuje církevní právo.",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/religious-profession-native.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/4a809a3973650b59753e.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/4a809a3973650b59753e.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not extraction or freeze"
+          }
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Religious_profession",
+          "fetchedAt": "2026-10-31T09:38:29.067Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "432963033fc58ca1ed2f13c29c5e2dec828e54f063eda11facd75e775f6de694",
+          "sourceTextSha256": "78d6859240074b54be44da14cf4671213733c668980bb060e0dd63714269f111",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/432963033fc58ca1ed2f13c29c5e2dec828e54f063eda11facd75e775f6de694.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/78d6859240074b54be44da14cf4671213733c668980bb060e0dd63714269f111.txt",
+          "passage": "A religious profession is the solemn admission of men or women into consecrated life by means of the pronouncement of religious vows, typically the evangelical counsels. It is practiced in some Christian denominations, particularly Catholicism, Evangelical Lutheranism and Anglicanism, among other Christian traditions.\n\nThe community life, established under Schenoudi, the great disciple of St. Pachomius, added an explicit promise of fidelity to certain precepts. Benedict of Nursia added an express promise of stability, and obedience to the superior. These last promises denoted obligations created in addition to those implied by taking the habit. The first formula, which expressly mentions poverty and chastity, is that of the Constitutions of Narbonne, promulgated in 1260 by St. Bonaventure for the Friars Minor. Then the constitutions of the Minims and clerks regular expressly mention the three essential vows of the religious life, as well as those superadded on account of the special ends of their orders. This discipline is common to religious orders and congregations. Finally the regulations (Normæ) of 1901, published in explanation of the present practice of the Holy See, do not permit in new congregations any but the three essential vows of poverty, chastity, and obedience.[1]",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/religious-profession-english.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/cb1d2e6deedc6cdddd46.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/cb1d2e6deedc6cdddd46.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not extraction or freeze"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-21",
+      "answer": "Serifa",
+      "questionSha256": "c417ad4e86a3dc320c0010f7cf7529ec2e704780485f66d39fd7df71453c2c58",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-21"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-21",
+        "before": {
+          "id": "general-cs-hard-05-21",
+          "text": "Jak se nazývá drobný příčný tah zakončující hlavní tah písmene?",
+          "initial": "S",
+          "answer": "Serifa",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Patka", "Patka písma"],
+          "sources": ["https://en.wikipedia.org/wiki/Serif"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-21",
+          "text": "Jak se nazývá drobný příčný tah zakončující hlavní tah písmene?",
+          "initial": "S",
+          "answer": "Serifa",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Patka", "Patka písma", "Serif"],
+          "sources": ["https://en.wikipedia.org/wiki/Serif"]
+        },
+        "reason": "Round-one G02: additive legitimate Czech Serif alias; no existing form removed.",
+        "support": "Reviewer independently inspected Czech Serif reference explicitly naming Serif or patka for the small terminal stroke.",
+        "sourceAccess": "Reviewer one independently inspected Czech reference search passage; unchanged fact retains original captured source."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-22",
+      "answer": "Šeps",
+      "questionSha256": "ac913e4638f8308470b37ce5dad96e971d8c952d88b73c02f4066016221979e6",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-22"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-22",
+        "before": {
+          "id": "general-cs-hard-05-22",
+          "text": "Jak se nazývá podkladová vrstva nanášená na malířské plátno před vlastní malbou?",
+          "initial": "Š",
+          "answer": "Šeps",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Malířský šeps", "Gesso"],
+          "sources": ["https://en.wikipedia.org/wiki/Gesso"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-22",
+          "text": "Jak se nazývá podkladová vrstva nanášená na malířské plátno před vlastní malbou?",
+          "initial": "Š",
+          "answer": "Šeps",
+          "language": "cs",
+          "category": "general",
+          "aliases": [
+            "Malířský šeps",
+            "Gesso",
+            "Malířský podklad",
+            "Malířský základ",
+            "Podkladový nátěr"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Gesso",
+            "https://www.cojeco.cz/seps"
+          ]
+        },
+        "reason": "Second-round General22: retain the original names and accept the natural contextual ground/base-coat answers.",
+        "support": "Czech encyclopedia definition supports the preparatory painting ground and its contextual Czech descriptions.",
+        "sourceAccess": "Reviewer two directly inspected the CoJeCo definition and a separately labeled Czech reference search passage."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-23",
+      "answer": "Tironské noty",
+      "questionSha256": "dbc46255da5c1817e5c6a8a760b451e4096fd2f649bb3b7a39780896adb93694",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-23"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-23",
+        "before": {
+          "id": "general-cs-hard-05-23",
+          "text": "Jak se nazývá nástroj s malou nádržkou a hubičkou pro kreslení horkým voskem na látku při batikování?",
+          "initial": "T",
+          "answer": "Tjanting",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Canting"],
+          "sources": ["https://en.wikipedia.org/wiki/Canting"]
+        },
+        "after": {
+          "id": "general-cs-hard-05-23",
+          "text": "Jak se nazývá soustava latinských těsnopisných značek připisovaná osobnímu tajemníkovi Cicerona?",
+          "initial": "T",
+          "answer": "Tironské noty",
+          "language": "cs",
+          "category": "general",
+          "aliases": [
+            "Tironovy noty",
+            "Tironské značky",
+            "Notae Tironianae",
+            "Tironian notes"
+          ],
+          "sources": ["https://www.britannica.com/topic/Tironian-notes"]
+        },
+        "reason": "Replace the same wax batik spouted-tool fact as general-en-hard-05-22.",
+        "support": "Tironian notes are Latin shorthand traditionally credited to Marcus Tullius Tiro, Cicero's secretary.",
+        "sourceAccess": "web_search explicit Britannica and Czech/English Wikipedia passages (Czech via Wikiwand); no full direct page inspection"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-24",
+      "answer": "Umbo",
+      "questionSha256": "852cc9c8d4b495605a12ed35e9e27758add68894ba13bd31d745e581a5962756",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-24"
+      },
+      "revision": {
+        "id": "general-cs-hard-05-24",
+        "before": {
+          "id": "general-cs-hard-05-24",
+          "text": "Jak se odborně nazývá vystouplý kovový prvek uprostřed štítu, který odráží rány a uvnitř poskytuje místo pro upevnění držadla?",
+          "initial": "U",
+          "answer": "Umbo",
+          "language": "cs",
+          "category": "general",
+          "aliases": ["Puklice štítu", "Štítová puklice", "Puklice"],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Shield_boss",
+            "https://www.drakkaria.cz/keltsky-stit-pozdni-laten"
+          ]
+        },
+        "after": {
+          "id": "general-cs-hard-05-24",
+          "text": "Jak se odborně nazývá vystouplý kovový prvek uprostřed štítu, který odráží rány a uvnitř poskytuje místo pro upevnění držadla?",
+          "initial": "U",
+          "answer": "Umbo",
+          "language": "cs",
+          "category": "general",
+          "aliases": [
+            "Puklice štítu",
+            "Štítová puklice",
+            "Puklice",
+            "Shield boss"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Shield_boss",
+            "https://www.drakkaria.cz/keltsky-stit-pozdni-laten"
+          ]
+        },
+        "reason": "Second-round General24: accept the direct English equivalent without removing the legitimate Czech forms.",
+        "support": "Original shield-boss reference and independently inspected Czech-English dictionary search passage support the equivalent name.",
+        "sourceAccess": "Reviewer two inspected the original relevant capture and explicitly labeled dictionary search passage."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-25",
+      "answer": "Vlys",
+      "questionSha256": "9f352d216f4a7da0e5201285a3881bd6da86900ed3d66378a22f49dd340987a2",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-25"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Frieze",
+          "fetchedAt": "2026-10-30T20:44:41.440Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "0fed2cf47fdcf14d3a29624a8f15b34218030e2037d2e49492cdceaf1d68e757",
+          "sourceTextSha256": "bd37c8c3567d90fede5201d4da29907b0f4613c2672ebcd96bf3d11ef1c7d429",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/0fed2cf47fdcf14d3a29624a8f15b34218030e2037d2e49492cdceaf1d68e757.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/bd37c8c3567d90fede5201d4da29907b0f4613c2672ebcd96bf3d11ef1c7d429.txt",
+          "passage": "In classical architecture, the frieze /friːz/ is the wide central section of an entablature and may be plain in the Ionic or Corinthian orders, or decorated with bas-reliefs. Paterae are also usually used to decorate friezes. Even when neither columns nor pilasters are expressed, on an astylar wall it lies upon the architrave (\"main beam\") and is capped by the moldings of the cornice. A frieze can be found on many Greek and Roman buildings, the Parthenon Frieze being the most famous, and perhaps the most elaborate.[1][2]\n\nIn interiors, the frieze of a room is the section of wall above the picture rail and under the crown moldings or cornice. By extension, a frieze is a long stretch of painted, sculpted or even calligraphic decoration in such a position, normally above eye-level. Frieze decorations may depict scenes in a sequence of discrete panels. The material of which the frieze is made may be plasterwork, carved wood or other decorative medium.[3]",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/c47d5449362abbe4c5ce.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/c47d5449362abbe4c5ce.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/c47d5449362abbe4c5ce.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-26",
+      "answer": "Wagashi",
+      "questionSha256": "ea8090aab62dd08c6023ea4719e610f996e3346fab54390518ef5771d91f46fb",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-26"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Wagashi",
+          "fetchedAt": "2026-10-30T20:44:45.599Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "db0c5b7445c441de6847ed48b9b9158e3c617373f6da4f6e0a4e5582bb94cdea",
+          "sourceTextSha256": "0ec7ca9aa9624bc05cd636233ef13bdc19f3be025887291c5dec5daf23633a80",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/db0c5b7445c441de6847ed48b9b9158e3c617373f6da4f6e0a4e5582bb94cdea.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/0ec7ca9aa9624bc05cd636233ef13bdc19f3be025887291c5dec5daf23633a80.txt",
+          "passage": "Wagashi (和菓子, wa-gashi) is traditional Japanese confectionery, typically made using plant-based ingredients and with an emphasis on seasonality. Wagashi generally makes use of cooking methods that pre-date Western influence in Japan. It is often served with green tea.\n\nMost of today's wagashi was born during the Edo period (1603–1868). This was a period of peace, economic and cultural prosperity, and increased domestic self-sufficiency in sugar.[1][2][3] During the Edo period, a type of wagashi called nerikiri (練り切り) were made by kneading white bean paste, gyūhi, sugar, yams, and other ingredients, and formed into various colors and shapes based on seasonal flowers, animals, nature, events, customs, and other themes.[1][4]\n\nIn Japan, the word for sweets or confectionery, kashi (菓子), originally referred to fruits and nuts.[5] Fruits and nuts may be eaten as snacks between meals and served as \"sweets\" during a tea ceremony.[6] The word Wa means \"Japanese\", and kashi becomes gashi in compound words (rendaku), wagashi therefore means \"Japanese confectionery\".[6][7]",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/2f1874fb94617555c4b3.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/2f1874fb94617555c4b3.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/2f1874fb94617555c4b3.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-27",
+      "answer": "Záponka",
+      "questionSha256": "aac0b2014be46a770454896eb3834bf07b6b21a182ab1effc203c5d8de42144f",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-27"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Fibula_(brooch)",
+          "fetchedAt": "2026-10-30T20:44:46.733Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "ec4645e9d7abeebbd68f814ebfd7a9b33fca8d9b143b52f43f5e21e3509e5423",
+          "sourceTextSha256": "58958955a3536e31eaf4b3c5c17d16a6db7a245623dd0028e4a9478f0073c20a",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/ec4645e9d7abeebbd68f814ebfd7a9b33fca8d9b143b52f43f5e21e3509e5423.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/58958955a3536e31eaf4b3c5c17d16a6db7a245623dd0028e4a9478f0073c20a.txt",
+          "passage": "A fibula (/ˈfɪbjʊlə/, pl.: fibulae /ˈfɪbjʊli/) is a brooch or pin for fastening garments, typically at the right shoulder.[3] The fibula developed in a variety of shapes, but all were based on the safety-pin principle. Unlike most modern brooches, fibulae were not only decorative; they originally served a practical function: to fasten clothing for both sexes, such as dresses and cloaks.\n\nIn English, \"fibula\" is a word not used for modern jewellery, but by archaeologists, who also use \"brooch\", especially for types other than the ancient \"safety pin\" types, and for types from the British Isles. For Continental archaeologists, all metal jewellery clothes-fasteners are usually \"fibulae\".",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/4fde309f6b22c0009a52.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/4fde309f6b22c0009a52.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/4fde309f6b22c0009a52.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-cs-hard-05-28",
+      "answer": "Žakerie",
+      "questionSha256": "b79c99a62ddb81206f2be550fe711a7beb23d4a6687030533cfdd28156a7cdc6",
+      "originalSourceLedger": {
+        "path": "/home/jakubmifek/github/HexY/.artifacts/continuation/bundles/p12/general/batches/b06-v2/sources.json",
+        "sha256": "115909fec965fe9287f2519fc495eed996eb9d4c5804ef58bfb645a397a73952",
+        "entryId": "general-cs-hard-05-28"
+      },
+      "supportingEvidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Jacquerie",
+          "fetchedAt": "2026-10-30T20:44:47.829Z",
+          "sourceQuality": "Wikipedia public secondary encyclopedia; not primary institutional evidence",
+          "sourceBodySha256": "e60217bca1fe15e6945fc466726de5ec4ea8a66f22530f9c35f28be754f37f0b",
+          "sourceTextSha256": "d3c7c823db9a84fb9426711d53aa9a399e5bbd4e533057aa5b9393547619d74e",
+          "sourceBodyPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/e60217bca1fe15e6945fc466726de5ec4ea8a66f22530f9c35f28be754f37f0b.html",
+          "sourceTextPath": ".artifacts/continuation/bundles/p12/general/frozen-sources/d3c7c823db9a84fb9426711d53aa9a399e5bbd4e533057aa5b9393547619d74e.txt",
+          "passage": "The Jacquerie (French: [ʒakʁi]) was a popular revolt by peasants that took place in northern France in the early summer of 1358 during the Hundred Years' War.[1] The revolt was centred in the valley of the Oise north of Paris and was suppressed after over two months of violence.[2] This rebellion became known as \"the Jacquerie\" because the nobles derided peasants as \"Jacques\" or \"Jacques Bonhomme\" for their padded surplice, called a \"jacque\".[3] The aristocratic chronicler Jean Froissart and his source, the chronicle of Jean le Bel, referred to the leader of the revolt as Jacque Bonhomme (\"Jack Goodfellow\"), though in fact the Jacquerie's \"great captain\" was named Guillaume Cale. The word jacquerie became a synonym of peasant uprisings in general in both English and French.[4]",
+          "provenance": {
+            "reused": false,
+            "originalBodyPath": ".artifacts/continuation/bundles/p12/general/sources/ed2ab5d42a9f32ae5c13.html",
+            "originalTextPath": ".artifacts/continuation/bundles/p12/general/sources/ed2ab5d42a9f32ae5c13.txt",
+            "originalMetadataPath": ".artifacts/continuation/bundles/p12/general/sources/ed2ab5d42a9f32ae5c13.json",
+            "retrievalTimestamp": "Original actual HTTP retrieval, not the later extraction or freeze time"
+          }
+        }
+      ]
+    }
+  ],
+  "reviewRecords": [
+    "../reviews/phase-12-general-cs-hard-05-round-1.json",
+    "../reviews/phase-12-general-cs-hard-05-round-2.json"
+  ],
+  "reviewRecordHashes": [
+    {
+      "path": "reviews/phase-12-general-cs-hard-05-round-1.json",
+      "sha256": "34315499d58ea9d3fd79c101c34d35d8f69b173de28e10ee53fda5f0862cdb29"
+    },
+    {
+      "path": "reviews/phase-12-general-cs-hard-05-round-2.json",
+      "sha256": "7e2d2b61354d201f84d6a8d5d0d95556f01de1753540adf183700e7cb129d49e"
+    }
+  ],
+  "reviewCompletion": {
+    "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+    "independentRounds": 2,
+    "acceptedQuestionsPerRound": 28,
+    "openFindings": 0,
+    "continuity": "Two distinct non-author research reviewers completed all 28 entries and all relevant source, alias, wording, initial, difficulty and bilingual semantic judgments. Original failed/held snapshots remain preserved; both rounds explicitly accept every final question under this actual pack hash after narrow correction review."
+  },
+  "validation": {
+    "id": "general-cs-hard-05",
+    "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+    "questions": 28,
+    "fixedCzechLabels": true,
+    "acceptedForms": 87,
+    "allFormsMatch": true,
+    "importExportRoundtrip": true
+  },
+  "normalizationContinuity": {
+    "proof": {
+      "id": "general-cs-hard-05",
+      "beforePackSha256": "1e7a83717ca0d7c594e1777b4ffed8a15031fc325eb48c257d0e92a50dd1c1ba",
+      "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+      "acceptedAnswerSetExactlyUnchanged": true,
+      "changed": [
+        {
+          "id": "general-cs-hard-05-08",
+          "beforeAliases": ["Gnómonika"],
+          "afterAliases": [],
+          "allPriorFormsRemainAccepted": true
+        },
+        {
+          "id": "general-cs-hard-05-10",
+          "beforeAliases": ["Chrématistika"],
+          "afterAliases": [],
+          "allPriorFormsRemainAccepted": true
+        }
+      ]
+    },
+    "history": "The first General exact-parent content gate exposed redundant normalization-equivalent alias storage. Three redundant strings across General/Science were removed without changing any accepted-answer set; both independent reviewers explicitly accepted the resulting final hashes. No tests or application code were changed.",
+    "preservedInitialFailedGate": {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../general-cs-hard-05-content-gate-initial-failed.log",
+      "sha256": "96256ecf3450aec601876ca03b07440c061c70c307991cf6375b363f32cbd830"
+    }
+  },
+  "releasePolicy": {
+    "contentOnlyCommand": "NODE_OPTIONS=--max-old-space-size=2048 timeout 1200 npm run release:content -- 0b006c99edaaae6cdbd92c42fcd71c4c6172b001",
+    "application": "No application/tool/test/dependency changes and no local app build/typecheck/coverage/browser suites.",
+    "deployment": "Unchanged existing GitHub Actions main deployment may build the application; verify its actual merge revision separately. No live browser/private-host check claimed."
+  },
+  "limitations": [
+    "Search-passage support is labeled as such; direct access failures are not represented as full-page inspection.",
+    "Historical capture/paperwork gaps are not reconstructed or relabeled as proven.",
+    "Bounded deck release is not Phase12 clearance; final quotas and cleanup remain open."
+  ]
+}

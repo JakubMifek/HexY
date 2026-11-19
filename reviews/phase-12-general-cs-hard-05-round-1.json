@@ -1,0 +1,881 @@
+{
+  "schemaVersion": 1,
+  "deckId": "general-cs-hard-05",
+  "reviewRound": 1,
+  "reviewer": {
+    "name": "independent content-round-one",
+    "agentId": "0677afbc-3a84-46b8-a340-559142402ba3",
+    "role": "Independent non-author research reviewer"
+  },
+  "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+  "verdict": "ACCEPTED",
+  "openFindings": 0,
+  "wholeDeckDifficulty": "Hard",
+  "originalWholeDeckDifficulty": {
+    "verdict": "Hard",
+    "reason": "The deck is predominantly specialized terminology in book history, textiles, religious practice and material culture. A few accessible clues do not invalidate the whole-deck rating."
+  },
+  "readingKey": {
+    "G": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-snapshot/general-cs-hard-05-evidence.json",
+    "S": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-snapshot/science-cs-hard-03-evidence.json",
+    "id": "Two-digit suffix of the deck ID.",
+    "defaults": "For each ACCEPTED entry: supplied aliases are acceptable; Czech wording, initial and category are acceptable; no same-requested-fact collision was identified in the indexed corpus or the four candidates. HELD entries retain those judgments except as described in their finding.",
+    "sourceNotation": "G or S plus line range identifies the independently inspected cached relevant source passage and its source-capture pointer. URLs are independently inspected direct pages or search passages as explicitly labeled. Original evidence for replaced targets was not treated as support for their replacements."
+  },
+  "entries": [
+    {
+      "id": "general-cs-hard-05-01",
+      "questionSha256": "b722be1e1789b56195dc84726e117d411216c08160ec3093470292c3bb228872",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "01",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Drawn-thread embroidery removes and works remaining threads.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:6-51",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "entry": "01",
+        "verdict": "ACCEPTED",
+        "judgment": "Ažurová výšivka and Mřížka/Mřížky are supported contextual names for the described drawn-thread technique.",
+        "source": "Direct: https://www.rucniprace.cz/azura-mrizka.php and https://vysivani-online.cz/azury-mrizky/"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-02",
+      "questionSha256": "c8cb3a0202d64a1595205287eef324a0a28570a04b05c62963d80284fa333e0e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "02",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Borgis is nine Didot points, approximately 3.38 mm; historical names supported.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:52-115",
+            "access": "cached specialist passages"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-03",
+      "questionSha256": "12d810b5fcca7e447b0159275d0bc23eb0a81cf66d5abde350d65c58745af58a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "03",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Cicero is twelve Didot points.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:116-157",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-04",
+      "questionSha256": "22be5cffaedbd7e88c9f100393dc4c1b03ac34e3105f4258baeae8b5d0c49e23",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "04",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "A weaving shuttle carries weft through the shed.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:158-201",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-05",
+      "questionSha256": "092506455a06c993fb31312bd1393012ebc19c11200f631a456d0a415749bfca",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "05",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Ductus describes the execution and sequence of writing strokes.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:202-245",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-06",
+      "questionSha256": "6459bc263b39bc0e0a0a64792960fd3ad411f1781b628608e611b77cb63fbcd1",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "06",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "An enfilade aligns doorways through successive rooms.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:246-289",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-07",
+      "questionSha256": "d10e9f0d2a329f07e6955262637ca7938779a19bde18acbb25078907bd60745d",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "07",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Foliation numbers leaves rather than each side as a page.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://encyklopedieknihy.cz/index.php?title=Foliace",
+            "access": "direct specialist page"
+          },
+          {
+            "urlOrPath": "https://www.cai.cam.ac.uk/discover/library/online-exhibitions/print-and-material-book/foliation-and-pagination",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-08",
+      "questionSha256": "f60d159713c1605afc080a3c762e93d16ef91ddfbf74cf87c2ea980118de3eb2",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "08",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Gnomonics concerns sundial design and construction.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.slunecni-hodiny.webzdarma.cz/osobnosti.html",
+            "access": "direct Czech specialist page, usage"
+          },
+          {
+            "urlOrPath": "https://dbpedia.org/page/Gnomonics",
+            "access": "search passage, definition"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      },
+      "normalizationResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Only redundant normalized storage removed; the reviewer verified every prior form remains automatically accepted and accepted-answer sets are exactly equal."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-09",
+      "questionSha256": "7e296d6a4943dd8b49483db11e36b68de1cd43295d19b32c7a5caba4c5a783c9",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "09",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Pessoa's heteronyms have distinct biographies and literary styles.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.ebsco.com/research-starters/literature-and-writing/fernando-pessoa",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-10",
+      "questionSha256": "4768732cafed47e625f060f9af67d5372c7cd4d214a35923f426b378be2d171b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "10",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Aristotelian chrematistics concerns acquisition of wealth, especially accumulation as an end.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://en.wikipedia.org/wiki/Chrematistics",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      },
+      "normalizationResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Only redundant normalized storage removed; the reviewer verified every prior form remains automatically accepted and accepted-answer sets are exactly equal."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-11",
+      "questionSha256": "2c40b13e74a6ce48d8a2fb954752ef315c9e48966cdf9a78f7e2ecfbd21ace0e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "11",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Intonaco is the final fine plaster layer for fresco.",
+        "duplicates": "The existing fresco clue asks for the painting technique, not this plaster layer.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:560-603",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-12",
+      "questionSha256": "4e5460d13b317d44ce59428a7547a7640bb7c672bdc55a6ed18afe3d68e53ed6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "12",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Jircha is alum-tawed white leather; the supplied leather names remain acceptable.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:604-649",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-13",
+      "questionSha256": "2813f526a6bedbcda023620c4c80e85c2f3d4db66502149ce37137bbd4d2fdd1",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "13",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "Klauzura is the restricted enclosed part of a religious house.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:650-693",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-14",
+      "questionSha256": "bd58c982dee34b2f5095c4a3ad88b6dc8baebf1c291480306317930722162130",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "14",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Lustrum denotes the Roman purification and associated five-year interval.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://en.wikipedia.org/wiki/Lustrum",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-15",
+      "questionSha256": "0f8594a36bc43246f60c8a9eea6ac9599e4b2b765fcb95bd7b5475db526f6bf5",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "15",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "A mantilla is the traditional Spanish veil.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:752-795",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-16",
+      "questionSha256": "fd1a2cf1c0016d28da51306e3a4d2541d100e572b078b67c64143b86b2ac2f37",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "16",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Nankeen is a cotton fabric associated with Nanjing and naturally yellowish cotton.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:796-840",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-17",
+      "questionSha256": "a146e2a401744f3323cb17be5c6c955dee8bf694d8c321ee585da705ed74cec4",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "17",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "The omophorion is a bishop's liturgical shoulder vestment.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:841-885",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-18",
+      "questionSha256": "02176325b16c901cdf1d186b60afe478f46949e33d918707b636b4e1d0f7c253",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "18",
+        "verdict": "HELD",
+        "difficulty": "Medium",
+        "factSource": "The distinction between an independent hallmark and a fineness number is supported, but the candidate's source URL redirects away from the passage.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.puncovniurad.eu/identifikacni-znacky/",
+            "access": "direct official page"
+          },
+          {
+            "urlOrPath": "https://www.puncovniurad.cz/cz/zpravy.aspx?aid=132",
+            "access": "direct request; redirects to homepage"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "18",
+        "finding": "G01",
+        "verdict": "ACCEPTED",
+        "reason": "The replacement official source directly defines the independent hallmark and distinguishes a fineness number.",
+        "source": "Directly inspected https://www.puncovniurad.eu/identifikacni-znacky/"
+      },
+      "finalResolution": {
+        "entry": "18",
+        "finding": "G01",
+        "verdict": "ACCEPTED",
+        "reason": "The replacement official source directly defines the independent hallmark and distinguishes a fineness number.",
+        "source": "Directly inspected https://www.puncovniurad.eu/identifikacni-znacky/"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-19",
+      "questionSha256": "41f6b487eb3a5c1e14f16edefe5c32d64f76cd87ed041b2f7ce448e2252d8e06",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "19",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "A rotulus is a vertically unrolled written roll with lines across the strip.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://en.wikipedia.org/wiki/Rotulus",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-20",
+      "questionSha256": "c30d7565c70457f262033dde120b10f9093f8eccf433bafa6b69bebd34989316",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "20",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Religious profession publicly assumes the relevant vows; existing variants are legitimate.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1004-1087",
+            "access": "cached relevant passages"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-21",
+      "questionSha256": "c417ad4e86a3dc320c0010f7cf7529ec2e704780485f66d39fd7df71453c2c58",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "21",
+        "verdict": "HELD",
+        "difficulty": "Medium",
+        "factSource": "The described stroke is a serif, but the Czech form Serif is missing.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1088-1132",
+            "access": "cached relevant passage"
+          },
+          {
+            "urlOrPath": "https://www.wikiwand.com/cs/articles/Serif",
+            "access": "search passage; explicitly gives Serif or patka"
+          }
+        ]
+      },
+      "initialResolution": {
+        "entry": "21",
+        "finding": "G02",
+        "verdict": "ACCEPTED",
+        "reason": "Serif is added as a legitimate alias; existing aliases remain. Czech reference search passage inspected."
+      },
+      "finalResolution": {
+        "entry": "21",
+        "finding": "G02",
+        "verdict": "ACCEPTED",
+        "reason": "Serif is added as a legitimate alias; existing aliases remain. Czech reference search passage inspected."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-22",
+      "questionSha256": "ac913e4638f8308470b37ce5dad96e971d8c952d88b73c02f4066016221979e6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "22",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Šeps is a painting ground; gesso is an accepted related ground.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1133-1177",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "entry": "22",
+        "verdict": "ACCEPTED",
+        "judgment": "The added painting-ground and base-coat descriptions fit the clue.",
+        "source": "Direct: https://www.cojeco.cz/seps"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-23",
+      "questionSha256": "dbc46255da5c1817e5c6a8a760b451e4096fd2f649bb3b7a39780896adb93694",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "23",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Tironian notes are Latin shorthand attributed to Cicero's secretary.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "https://www.britannica.com/topic/Tironian-notes",
+            "access": "search passage"
+          },
+          {
+            "urlOrPath": "https://www.wikiwand.com/cs/articles/Tironsk%C3%A9_noty",
+            "access": "search passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-24",
+      "questionSha256": "852cc9c8d4b495605a12ed35e9e27758add68894ba13bd31d745e581a5962756",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "24",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "An umbo or shield boss projects over the grip.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1242-1305",
+            "access": "cached relevant passages"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "entry": "24",
+        "verdict": "ACCEPTED",
+        "judgment": "Shield boss is the English equivalent of umbo; the original shield-part fact is unchanged.",
+        "source": "Search passage: https://en.wikipedia.org/wiki/Shield_boss"
+      }
+    },
+    {
+      "id": "general-cs-hard-05-25",
+      "questionSha256": "9f352d216f4a7da0e5201285a3881bd6da86900ed3d66378a22f49dd340987a2",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "25",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "The frieze is the horizontal entablature member between architrave and cornice.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1306-1349",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-26",
+      "questionSha256": "ea8090aab62dd08c6023ea4719e610f996e3346fab54390518ef5771d91f46fb",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "26",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "Wagashi are traditional Japanese confections, often served with tea.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1350-1393",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-27",
+      "questionSha256": "aac0b2014be46a770454896eb3834bf07b6b21a182ab1effc203c5d8de42144f",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "27",
+        "verdict": "ACCEPTED",
+        "difficulty": "Medium",
+        "factSource": "A fibula or clothing clasp fastens garments; retain the legitimate existing forms.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1394-1441",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-28",
+      "questionSha256": "b79c99a62ddb81206f2be550fe711a7beb23d4a6687030533cfdd28156a7cdc6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "28",
+        "verdict": "ACCEPTED",
+        "difficulty": "Hard",
+        "factSource": "The Jacquerie was the 1358 northern French peasant uprising.",
+        "sourcesInspected": [
+          {
+            "urlOrPath": "G:1442-1485",
+            "access": "cached relevant passage"
+          }
+        ]
+      },
+      "initialResolution": null,
+      "finalResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Unchanged entry; first reviewer explicitly retained its prior judgments and rebound all 28 entries to this final pack hash."
+      }
+    }
+  ],
+  "originalSnapshot": {
+    "packSha256": "eb104f0c9774115adac5cb0a2191e2be22aa4221da3b0a0aba512dd2bd1a76ae",
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-snapshot/general-cs-hard-05.json",
+    "evidenceSha256": "8a10b17c70857432a04f3f6b6b4f0f59410367595263c5743bbe043f7578335d",
+    "note": "Original HELD dispositions are preserved in originalReview, not relabeled as original passes."
+  },
+  "finalHashRebinding": {
+    "id": "general-cs-hard-05",
+    "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+    "verdict": "ACCEPTED",
+    "entries": "01–28"
+  },
+  "earlierFinalHashRebinding": {
+    "id": "general-cs-hard-05",
+    "packSha256": "94997e895c4ddb356a2dcf5b984ed9e81cf957e9fa9fdde14b18efff93d99965",
+    "verdict": "ACCEPTED",
+    "acceptedEntries": "01–28",
+    "wholeDeckDifficulty": "Hard",
+    "affectedEntries": [
+      {
+        "entry": "18",
+        "finding": "G01",
+        "verdict": "ACCEPTED",
+        "reason": "The replacement official source directly defines the independent hallmark and distinguishes a fineness number.",
+        "source": "Directly inspected https://www.puncovniurad.eu/identifikacni-znacky/"
+      },
+      {
+        "entry": "21",
+        "finding": "G02",
+        "verdict": "ACCEPTED",
+        "reason": "Serif is added as a legitimate alias; existing aliases remain. Czech reference search passage inspected."
+      }
+    ]
+  },
+  "continuity": {
+    "initial": {
+      "originalReports": [
+        "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-general-science.json",
+        "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-geography-nature.json"
+      ],
+      "statement": "Prior accepted judgments for every unaffected entry are retained and bound to the final hashes below. All 17 previously held entries are now accepted. Each deck has 28 accepted entries, numbered 01–28.",
+      "integrity": "Final and snapshot packs have identical metadata, question counts and ID order. Only the 17 specified entries changed; prior aliases were preserved. Regenerated evidence hashes and all evidence question objects match the final packs."
+    },
+    "afterSecondRound": {
+      "priorReport": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-final.json",
+      "unchangedEntries": 94,
+      "statement": "My prior accepted judgments for all 94 unchanged entries are retained. The 18 changed entries were independently reviewed below. All 28 entries per deck are accepted and bound to the final hashes.",
+      "integrity": "Final pack hashes, evidence hashes and evidence question objects match freeze.json. Metadata, counts and ID order are unchanged. Only the specified 18 entries changed; aliases were retained except where the entire Geography target was replaced.",
+      "semanticReview": "The original semantic judgments remain applicable to unchanged targets. An independent bounded scan of 519 corpus instances and the four candidates found no other answer or clue mentioning the newly added names or replacement targets; the Geography replacements also resolve the exposed-answer conflicts.",
+      "difficulty": "Changed clues and aliases do not change the whole-deck ratings."
+    }
+  },
+  "sourceAccessLimitations": [
+    "Direct Wikipedia, Britannica and some other requests returned 403; accessible search passages or frozen relevant passages were used instead.",
+    "The old IUPAC URL had a transport failure; its indexed passage was accessible.",
+    "The MDPI Janus-particle page returned 403; an independently inspected search passage supports the particle and nanoparticle judgment.",
+    "Search passages are not represented as full-page direct inspection.",
+    "Geography and Nature are not dispositioned in this response.",
+    "The original reports distinguish direct pages, captured relevant passages and search passages. Some full pages returned 403; no direct access is claimed for those.",
+    "The Nature 24 retailer page supports the Czech name only, not its erroneous geographic-range statement.",
+    "The existing validation receipt was inspected; validation was not rerun.",
+    "Britannica pages and the shield-boss Wikipedia page returned 403; relevant search passages are labeled as such.",
+    "The Geological Society's anomalous southeastern-Iran sentence was not used for Zagros location.",
+    "The commercial chamomile herbarium was used for names, not medical claims.",
+    "The production validation receipt was not rerun by this reviewer."
+  ],
+  "integrationVerdict": "Conditional acceptance of the specified per-deck append-only contract. Actual future branches, exact-parent content gates, pushes and deployments remain coordinator responsibilities.",
+  "rawReportReceipts": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-partial-original.json",
+      "sha256": "05414ff076a5ad391b5a1c6d4ad393a414fbeb94d65760cfd9af6a9170853f0e"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-general-science.json",
+      "sha256": "edcf70e9c14a8dad328b65eb3cca96d8c504cf4d3dd3d83e170b7c3b11d0acba"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-geography-nature.json",
+      "sha256": "dfb8008f801659ea644b0257f7a964d3717756684c608ba46384ac3e80996a45"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-final.json",
+      "sha256": "a0b352e2f7b2c665ac914fad6275197444998f2faa6521b270d7e666492222f3"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-one-rebinding-after-two.json",
+      "sha256": "df5d24bc1906ebfd31fe6197f786e532de776e96597ba561ab21c63481915bd3"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-round-one.json",
+      "sha256": "66b6bc5321b1d09401f56b6961ace11522a068612f4e29327d7897d53013bbc3"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-equivalence.json",
+      "sha256": "8255d7f7ec05a74663c456753ec68e19e1f2522d011add0e952409b6222a6cbc"
+    }
+  ],
+  "preNormalizationFinalHashRebinding": {
+    "id": "general-cs-hard-05",
+    "sha256": "1e7a83717ca0d7c594e1777b4ffed8a15031fc325eb48c257d0e92a50dd1c1ba",
+    "verdict": "ACCEPTED",
+    "acceptedEntries": "01–28",
+    "wholeDeckDifficulty": "Hard",
+    "affectedEntries": [
+      {
+        "entry": "01",
+        "verdict": "ACCEPTED",
+        "judgment": "Ažurová výšivka and Mřížka/Mřížky are supported contextual names for the described drawn-thread technique.",
+        "source": "Direct: https://www.rucniprace.cz/azura-mrizka.php and https://vysivani-online.cz/azury-mrizky/"
+      },
+      {
+        "entry": "22",
+        "verdict": "ACCEPTED",
+        "judgment": "The added painting-ground and base-coat descriptions fit the clue.",
+        "source": "Direct: https://www.cojeco.cz/seps"
+      },
+      {
+        "entry": "24",
+        "verdict": "ACCEPTED",
+        "judgment": "Shield boss is the English equivalent of umbo; the original shield-part fact is unchanged.",
+        "source": "Search passage: https://en.wikipedia.org/wiki/Shield_boss"
+      }
+    ]
+  },
+  "normalizationProof": {
+    "id": "general-cs-hard-05",
+    "beforePackSha256": "1e7a83717ca0d7c594e1777b4ffed8a15031fc325eb48c257d0e92a50dd1c1ba",
+    "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+    "acceptedAnswerSetExactlyUnchanged": true,
+    "changed": [
+      {
+        "id": "general-cs-hard-05-08",
+        "beforeAliases": ["Gnómonika"],
+        "afterAliases": [],
+        "allPriorFormsRemainAccepted": true
+      },
+      {
+        "id": "general-cs-hard-05-10",
+        "beforeAliases": ["Chrématistika"],
+        "afterAliases": [],
+        "allPriorFormsRemainAccepted": true
+      }
+    ]
+  },
+  "normalizationReview": {
+    "round": 1,
+    "reviewerAgentId": "0677afbc-3a84-46b8-a340-559142402ba3",
+    "continuity": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/round-one-rebinding-after-two.json",
+    "normalization": "Inspected the three alias-array changes, production normalization and equivalence receipt. Each removed form normalizes to its retained canonical answer; accepted answer sets remain unchanged.",
+    "affectedEntries": {
+      "general-cs-hard-05-08": "ACCEPTED",
+      "general-cs-hard-05-10": "ACCEPTED",
+      "science-cs-hard-03-08": "ACCEPTED"
+    },
+    "decks": [
+      {
+        "id": "general-cs-hard-05",
+        "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "science-cs-hard-03",
+        "sha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "geography-cs-hard-04",
+        "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "nature-cs-easy-04",
+        "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      }
+    ],
+    "integrationVerdict": "Conditional on the append-only per-deck contract and successful exact-parent gates and deployment; no gate was rerun by this reviewer.",
+    "openFindings": 0
+  },
+  "preNormalizationReceipt": {
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../pre-normalization-snapshot/accepted-reviews/general-cs-hard-05-round-1.json",
+    "sha256": "83efbb6c1bf367cc6a46ec5934c4d57b9d713fcc6e5cf772436e8cabbc071f8b"
+  }
+}

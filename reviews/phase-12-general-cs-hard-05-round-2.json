@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "deckId": "general-cs-hard-05",
+  "reviewRound": 2,
+  "reviewer": {
+    "name": "Independent non-author, round 2",
+    "agentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "role": "Fresh independent non-author research reviewer"
+  },
+  "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+  "verdict": "ACCEPTED",
+  "openFindings": 0,
+  "wholeDeckDifficulty": "HARD",
+  "readingKey": {
+    "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "candidateLines": "Line range within the deck JSON.",
+    "evidenceLines": "Line range within the corresponding -evidence.json.",
+    "CACHED": "Personally read historical relevant passage in evidence projection; not fresh network access.",
+    "DIRECT": "Personally fetched and read the identified source section.",
+    "SEARCH": "Personally read the identified search passage, not the full page.",
+    "defaultsForAccepted": {
+      "fact": "Supported by the indicated source.",
+      "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+      "duplicate": "No same-fact collision identified in the accessible indexed scope.",
+      "wording": "Natural Czech; no material ambiguity or giveaway identified.",
+      "initial": "Canonical matches fixed Czech position, including Ch.",
+      "category": "Appropriate for the deck."
+    },
+    "heldOverrides": "Held entries retain the defaults except where explicitly overridden below."
+  },
+  "entries": [
+    {
+      "id": "general-cs-hard-05-01",
+      "questionSha256": "b722be1e1789b56195dc84726e117d411216c08160ec3093470292c3bb228872",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "01",
+        "verdict": "HELD",
+        "candidateLines": "11-20",
+        "evidenceLines": "6-51",
+        "source": "CACHED plus DIRECT G01",
+        "fact": "Supported.",
+        "aliases": "Missing Ažurová výšivka and contextual Mřížka/Mřížky."
+      },
+      "priorDelta": "ACCEPTED: embroidery names supported; candidates/general-cs-hard-05.json:12-31.",
+      "finalResolution": "ACCEPTED: embroidery names supported; candidates/general-cs-hard-05.json:12-31."
+    },
+    {
+      "id": "general-cs-hard-05-02",
+      "questionSha256": "c8cb3a0202d64a1595205287eef324a0a28570a04b05c62963d80284fa333e0e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "02",
+        "verdict": "ACCEPTED",
+        "candidateLines": "21-33",
+        "evidenceLines": "52-115",
+        "source": "CACHED plus DIRECT G02"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-03",
+      "questionSha256": "12d810b5fcca7e447b0159275d0bc23eb0a81cf66d5abde350d65c58745af58a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "03",
+        "verdict": "ACCEPTED",
+        "candidateLines": "34-43",
+        "evidenceLines": "116-157",
+        "source": "CACHED",
+        "duplicate": "Cicero the person elsewhere is not the typography-unit fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-04",
+      "questionSha256": "22be5cffaedbd7e88c9f100393dc4c1b03ac34e3105f4258baeae8b5d0c49e23",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "04",
+        "verdict": "ACCEPTED",
+        "candidateLines": "44-53",
+        "evidenceLines": "158-201",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-05",
+      "questionSha256": "092506455a06c993fb31312bd1393012ebc19c11200f631a456d0a415749bfca",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "05",
+        "verdict": "ACCEPTED",
+        "candidateLines": "54-63",
+        "evidenceLines": "202-245",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-06",
+      "questionSha256": "6459bc263b39bc0e0a0a64792960fd3ad411f1781b628608e611b77cb63fbcd1",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "06",
+        "verdict": "ACCEPTED",
+        "candidateLines": "64-73",
+        "evidenceLines": "246-289",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-07",
+      "questionSha256": "d10e9f0d2a329f07e6955262637ca7938779a19bde18acbb25078907bd60745d",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "07",
+        "verdict": "ACCEPTED",
+        "candidateLines": "74-83",
+        "evidenceLines": "290-349",
+        "source": "DIRECT G07",
+        "duplicate": "Foliation is not the replaced filigree fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-08",
+      "questionSha256": "f60d159713c1605afc080a3c762e93d16ef91ddfbf74cf87c2ea980118de3eb2",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "08",
+        "verdict": "ACCEPTED",
+        "candidateLines": "84-97",
+        "evidenceLines": "350-426",
+        "source": "SEARCH G08; DIRECT Czech context",
+        "duplicate": "Gnomonics is not the replaced gadrooning fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash.",
+      "normalizationResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Only redundant normalized storage removed; the reviewer verified every prior form remains automatically accepted and accepted-answer sets are exactly equal."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-09",
+      "questionSha256": "7e296d6a4943dd8b49483db11e36b68de1cd43295d19b32c7a5caba4c5a783c9",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "09",
+        "verdict": "ACCEPTED",
+        "candidateLines": "98-107",
+        "evidenceLines": "427-501",
+        "source": "DIRECT G09",
+        "duplicate": "Heteronym is not the replaced dovetail fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-10",
+      "questionSha256": "4768732cafed47e625f060f9af67d5372c7cd4d214a35923f426b378be2d171b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "10",
+        "verdict": "ACCEPTED",
+        "candidateLines": "108-117",
+        "evidenceLines": "502-559",
+        "source": "SEARCH G10",
+        "duplicate": "Chrematistics is not the replaced chirograph fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash.",
+      "normalizationResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Only redundant normalized storage removed; the reviewer verified every prior form remains automatically accepted and accepted-answer sets are exactly equal."
+      }
+    },
+    {
+      "id": "general-cs-hard-05-11",
+      "questionSha256": "2c40b13e74a6ce48d8a2fb954752ef315c9e48966cdf9a78f7e2ecfbd21ace0e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "11",
+        "verdict": "ACCEPTED",
+        "candidateLines": "118-127",
+        "evidenceLines": "560-603",
+        "source": "CACHED",
+        "duplicate": "Fresco in the clue is context; the answer is the plaster layer, not the fresco technique."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-12",
+      "questionSha256": "4e5460d13b317d44ce59428a7547a7640bb7c672bdc55a6ed18afe3d68e53ed6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "12",
+        "verdict": "ACCEPTED",
+        "candidateLines": "128-137",
+        "evidenceLines": "604-649",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-13",
+      "questionSha256": "2813f526a6bedbcda023620c4c80e85c2f3d4db66502149ce37137bbd4d2fdd1",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "13",
+        "verdict": "ACCEPTED",
+        "candidateLines": "138-147",
+        "evidenceLines": "650-693",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-14",
+      "questionSha256": "bd58c982dee34b2f5095c4a3ad88b6dc8baebf1c291480306317930722162130",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "14",
+        "verdict": "ACCEPTED",
+        "candidateLines": "148-157",
+        "evidenceLines": "694-751",
+        "source": "SEARCH G14",
+        "duplicate": "Lustrum is not the replaced etching fact."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-15",
+      "questionSha256": "0f8594a36bc43246f60c8a9eea6ac9599e4b2b765fcb95bd7b5475db526f6bf5",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "15",
+        "verdict": "ACCEPTED",
+        "candidateLines": "158-167",
+        "evidenceLines": "752-795",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-16",
+      "questionSha256": "fd1a2cf1c0016d28da51306e3a4d2541d100e572b078b67c64143b86b2ac2f37",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "16",
+        "verdict": "ACCEPTED",
+        "candidateLines": "168-177",
+        "evidenceLines": "796-840",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-17",
+      "questionSha256": "a146e2a401744f3323cb17be5c6c955dee8bf694d8c321ee585da705ed74cec4",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "17",
+        "verdict": "ACCEPTED",
+        "candidateLines": "178-187",
+        "evidenceLines": "841-885",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-18",
+      "questionSha256": "02176325b16c901cdf1d186b60afe478f46949e33d918707b636b4e1d0f7c253",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "18",
+        "verdict": "ACCEPTED",
+        "candidateLines": "188-197",
+        "evidenceLines": "886-945",
+        "source": "DIRECT G18",
+        "duplicate": "The hallmark target is distinct from replaced parchment/vellum."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-19",
+      "questionSha256": "41f6b487eb3a5c1e14f16edefe5c32d64f76cd87ed041b2f7ce448e2252d8e06",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "19",
+        "verdict": "ACCEPTED",
+        "candidateLines": "198-207",
+        "evidenceLines": "946-1003",
+        "source": "SEARCH G19",
+        "duplicate": "Vertical roll is distinct from replaced rubrication."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-20",
+      "questionSha256": "c30d7565c70457f262033dde120b10f9093f8eccf433bafa6b69bebd34989316",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "20",
+        "verdict": "ACCEPTED",
+        "candidateLines": "208-227",
+        "evidenceLines": "1004-1087",
+        "source": "CACHED plus DIRECT G20"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-21",
+      "questionSha256": "c417ad4e86a3dc320c0010f7cf7529ec2e704780485f66d39fd7df71453c2c58",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "21",
+        "verdict": "ACCEPTED",
+        "candidateLines": "228-237",
+        "evidenceLines": "1088-1144",
+        "source": "CACHED plus SEARCH G21"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-22",
+      "questionSha256": "ac913e4638f8308470b37ce5dad96e971d8c952d88b73c02f4066016221979e6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "22",
+        "verdict": "HELD",
+        "candidateLines": "238-247",
+        "evidenceLines": "1145-1189",
+        "source": "CACHED plus DIRECT G22",
+        "fact": "Supported.",
+        "aliases": "Missing natural contextual answers Malířský podklad, Malířský základ and Podkladový nátěr."
+      },
+      "priorDelta": "ACCEPTED: contextual painting-ground names supported; candidates/general-cs-hard-05.json:249-266.",
+      "finalResolution": "ACCEPTED: contextual painting-ground names supported; candidates/general-cs-hard-05.json:249-266."
+    },
+    {
+      "id": "general-cs-hard-05-23",
+      "questionSha256": "dbc46255da5c1817e5c6a8a760b451e4096fd2f649bb3b7a39780896adb93694",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "23",
+        "verdict": "ACCEPTED",
+        "candidateLines": "248-262",
+        "evidenceLines": "1190-1253",
+        "source": "SEARCH G23",
+        "duplicate": "Tironian shorthand is distinct from replaced canting tool."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-24",
+      "questionSha256": "852cc9c8d4b495605a12ed35e9e27758add68894ba13bd31d745e581a5962756",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "24",
+        "verdict": "HELD",
+        "candidateLines": "263-275",
+        "evidenceLines": "1254-1317",
+        "source": "CACHED plus SEARCH G24",
+        "fact": "Supported.",
+        "aliases": "Missing the directly equivalent English Shield boss."
+      },
+      "priorDelta": "ACCEPTED: Shield boss is the English equivalent; candidates/general-cs-hard-05.json:283-296.",
+      "finalResolution": "ACCEPTED: Shield boss is the English equivalent; candidates/general-cs-hard-05.json:283-296."
+    },
+    {
+      "id": "general-cs-hard-05-25",
+      "questionSha256": "9f352d216f4a7da0e5201285a3881bd6da86900ed3d66378a22f49dd340987a2",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "25",
+        "verdict": "ACCEPTED",
+        "candidateLines": "276-285",
+        "evidenceLines": "1318-1361",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-26",
+      "questionSha256": "ea8090aab62dd08c6023ea4719e610f996e3346fab54390518ef5771d91f46fb",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "26",
+        "verdict": "ACCEPTED",
+        "candidateLines": "286-295",
+        "evidenceLines": "1362-1405",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-27",
+      "questionSha256": "aac0b2014be46a770454896eb3834bf07b6b21a182ab1effc203c5d8de42144f",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "27",
+        "verdict": "ACCEPTED",
+        "candidateLines": "296-305",
+        "evidenceLines": "1406-1453",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "general-cs-hard-05-28",
+      "questionSha256": "b79c99a62ddb81206f2be550fe711a7beb23d4a6687030533cfdd28156a7cdc6",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "28",
+        "verdict": "ACCEPTED",
+        "candidateLines": "306-314",
+        "evidenceLines": "1454-1499",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    }
+  ],
+  "originalSnapshot": {
+    "packSha256": "94997e895c4ddb356a2dcf5b984ed9e81cf957e9fa9fdde14b18efff93d99965",
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/general-cs-hard-05.json",
+    "evidenceSha256": "235a7aa21688b869f1901d4de46c6e85482266b81491d274ba6b3ab7d88c332f",
+    "note": "Original HELD findings and subsequent held delta are preserved as history, not relabeled as original passes."
+  },
+  "originalReviewContext": {
+    "reviewer": "independent non-author, round 2",
+    "scope": "General and Geography only; 56 entries reviewed",
+    "readingKey": {
+      "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/candidates/",
+      "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/",
+      "candidateLines": "Line range within the deck JSON.",
+      "evidenceLines": "Line range within the corresponding -evidence.json.",
+      "CACHED": "Personally read historical relevant passage in evidence projection; not fresh network access.",
+      "DIRECT": "Personally fetched and read the identified source section.",
+      "SEARCH": "Personally read the identified search passage, not the full page.",
+      "defaultsForAccepted": {
+        "fact": "Supported by the indicated source.",
+        "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+        "duplicate": "No same-fact collision identified in the accessible indexed scope.",
+        "wording": "Natural Czech; no material ambiguity or giveaway identified.",
+        "initial": "Canonical matches fixed Czech position, including Ch.",
+        "category": "Appropriate for the deck."
+      },
+      "heldOverrides": "Held entries retain the defaults except where explicitly overridden below."
+    },
+    "requiredCorrections": [
+      {
+        "entry": "general-cs-hard-05-01",
+        "action": "Add Ažurová výšivka and Mřížka/Mřížky; retain existing forms.",
+        "source": "DIRECT G01"
+      },
+      {
+        "entry": "general-cs-hard-05-22",
+        "action": "Add the contextual Czech ground/base-coat forms identified above; retain existing forms.",
+        "source": "DIRECT G22"
+      },
+      {
+        "entry": "general-cs-hard-05-24",
+        "action": "Add Shield boss; retain existing forms.",
+        "source": "SEARCH G24 and original captured definition"
+      },
+      {
+        "entry": "geography-cs-hard-04-16",
+        "action": "Resolve the cross-clue giveaway, preferably by replacing the owned target; do not omit the legitimate Alluvial fan equivalent merely to conceal the collision.",
+        "otherClue": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/content/geography-en-hard-03.json:21-29",
+        "source": "DIRECT GEO16"
+      },
+      {
+        "entry": "geography-cs-hard-04-27",
+        "action": "Resolve the cross-clue giveaway, preferably by replacing the owned target; do not alter the published clue.",
+        "otherClue": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/content/geography-cs-hard-01.json:218-230"
+      }
+    ],
+    "sourcesInspected": {
+      "G01": [
+        "DIRECT https://vysivani-online.cz/azury-mrizky/ introductory definition and basic technique",
+        "DIRECT https://www.rucniprace.cz/azura-mrizka.php Co je ažura"
+      ],
+      "G02": ["DIRECT https://encyklopedieknihy.cz/index.php?title=Borgis"],
+      "G07": ["DIRECT https://encyklopedieknihy.cz/index.php?title=Foliace"],
+      "G08": [
+        "SEARCH https://dbpedia.org/page/Gnomonics definition",
+        "DIRECT https://www.slunecni-hodiny.webzdarma.cz/osobnosti.html context only"
+      ],
+      "G09": [
+        "DIRECT https://linguagem.pt/en/literatura/fernando-pessoa-e-os-heteronimos/ introduction and examples"
+      ],
+      "G10": [
+        "SEARCH https://era.ed.ac.uk/items/c8ca3092-8190-4ad1-be9e-5c45a3df765c abstract"
+      ],
+      "G14": [
+        "SEARCH https://en.wikipedia.org/wiki/Lustrum census and purification passage"
+      ],
+      "G18": [
+        "DIRECT https://www.puncovniurad.eu/identifikacni-znacky/ opening definition"
+      ],
+      "G19": ["SEARCH https://www.wikiwand.com/en/Rotulus definition"],
+      "G20": ["DIRECT https://provincie.minorite.cz/co-je-to-reholni-profese/"],
+      "G21": ["SEARCH https://cs.wikipedia.org/wiki/Serif"],
+      "G22": [
+        "DIRECT https://www.cojeco.cz/seps definition",
+        "SEARCH https://www.wikiwand.com/cs/%C5%A0eps"
+      ],
+      "G23": [
+        "SEARCH https://www.wikiwand.com/cs/articles/Tironsk%C3%A9_noty",
+        "SEARCH https://www.wikiwand.com/en/articles/Tironian_notae"
+      ],
+      "G24": [
+        "SEARCH https://cs.bab.la/slovnik/cesky-anglicky/%C5%A1t%C3%ADtov%C3%A1-puklice"
+      ],
+      "GEO06": ["DIRECT https://www.cojeco.cz/epigeneze"],
+      "GEO10": ["SEARCH http://slovnik.cmes.cz/heslo/1162"],
+      "GEO11": [
+        "DIRECT https://glossary.ametsoc.org/wiki/isotach/",
+        "DIRECT https://beliana.sav.sk/heslo/izotacha"
+      ],
+      "GEO13": [
+        "DIRECT https://nsidc.org/learn/cryosphere-glossary/cryoturbation"
+      ],
+      "GEO16": [
+        "DIRECT https://journals.muni.cz/gvms/article/view/4776 title and abstract",
+        "DIRECT https://geography.upol.cz/soubory/studium/e-ucebnice/Smolova-2010/lexikon/fluvialni/naplavovy_kuzel.html"
+      ],
+      "GEO18": ["SEARCH https://www.wikiwand.com/cs/articles/L%C3%A1va"],
+      "GEO23": [
+        "DIRECT https://geography.upol.cz/soubory/studium/e-ucebnice/Smolova-2010/lexikon/periglacialni/tor.html"
+      ],
+      "GEO25": ["DIRECT https://app.geology.cz/encyklopedie/term.pl?varva"],
+      "qualifierAddendum": "CACHED /home/jakubmifek/github/HexY/.artifacts/continuation/fresh38-authors/geography-cs-hard-04/SOURCE-QUALIFIER-ADDENDUM.json:4-42"
+    },
+    "scopeAndLimits": "Compared accessible indexed main, staged, unpublished and retired instances using bilingual concept leads and accepted-form checks in both directions, including the other frozen candidates. Index: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/corpus-manifest.json:1-9. Semantic comparison cannot prove absence of every possible paraphrase; inaccessible archives are not claimed. Replaced-target historical passages were not treated as evidence for replacements. Direct Britannica and Wikiwand fetches failed with 403; cited search passages are labeled SEARCH. The Czech meteorological dictionary direct request was unavailable.",
+    "integration": "Both decks remain held. Conditional future integration is one independently gated content-only PR per corrected deck on fresh actual main, preserving prior packs and order; no gate, merge or deployment was executed. Phase 12 is not cleared."
+  },
+  "deltaSourcesInspected": [
+    "DIRECT: https://saudipedia.com/en/deserts-of-saudi-arabia — Al-Nufud al-Kabir location, red sands and Dahna connection.",
+    "DIRECT: https://saudipedia.com/en/al-dahna-desert — Dahna connects Great al-Nafud to the Empty Quarter.",
+    "DIRECT: https://www.geolsoc.org.uk/science-and-policy/plate-tectonic-stories/zagros-ramge/ — Arabian–Eurasian convergence. Its anomalous southeastern-Iran sentence was not used for location.",
+    "SEARCH only: https://www.britannica.com/place/Zagros-Mountains — western-Iran location; direct fetch returned 403.",
+    "DIRECT: https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node64.html — three approximations.",
+    "DIRECT: https://physics.aps.org/articles/v7/51 — Efimov trimer scaling.",
+    "DIRECT: https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/ — publication history.",
+    "DIRECT: https://ceske-bylinky.cz/content/210-hermanek-pravy — folk-name list only.",
+    "DIRECT: https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/ and https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy — names and leaf comparison.",
+    "DIRECT: https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety — seal locomotion.",
+    "DIRECT: https://www.nasiptaci.info/zluna-zelena-2/ — green woodpecker identification, feeding and breeding.",
+    "Other prior DIRECT, SEARCH and CACHED source readings are preserved in round-two-general-geography.json and round-two-science-nature.json."
+  ],
+  "deltaContinuityAndLimits": "The actual diff changes only the 18 held entries; existing aliases are retained except those belonging to the two replaced Geography targets. The 29 mechanical nominations include unrelated generic overlaps, not identified same-fact duplicates. New-target comparison was bounded to the accessible 519-instance index and candidates; inaccessible archives were not reviewed. The production validation receipt was inspected, not independently rerun. No app checks, changes or deployment were performed.",
+  "finalHashRebinding": {
+    "id": "general-cs-hard-05",
+    "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+    "verdict": "ACCEPTED",
+    "entries": "01–28"
+  },
+  "continuity": "All 112 entries are accepted under these hashes, carrying forward the completed original and delta judgments in round-two-general-geography.json, round-two-science-nature.json and round-two-delta-first.json.",
+  "integrationVerdict": "Conditional on separate exact-parent content-only gates and deployment for each deck; no integration or Phase 12 clearance is claimed.",
+  "rawReportReceipts": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-partial-original.json",
+      "sha256": "e1c42bad1700fbc37faee65da230181f7470da35c69c2cd86f92e194e04b0f31"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-general-geography.json",
+      "sha256": "e4253a70957182609ea0d8c3063816376469ba051528d2661f3d90b8b6f4999c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-science-nature.json",
+      "sha256": "b6d0143f3deba41e4cfe3f76b81b3a18ca45d34da456ec6d51178c853480e283"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-delta-first.json",
+      "sha256": "c63a6a365c427b7f6c350ffaefda659fbea155e32782567441d02d1b9238cb6c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-final.json",
+      "sha256": "a5bfe3eefcbcacf73fc53238b990c02731aefdab6538ae2887fb5ff6ce67b391"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-round-two.json",
+      "sha256": "f47540fbecaf3995c26870aa63e2b3bb47704895d4583df81a54cbadaab0109a"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-equivalence.json",
+      "sha256": "8255d7f7ec05a74663c456753ec68e19e1f2522d011add0e952409b6222a6cbc"
+    }
+  ],
+  "preNormalizationFinalHashRebinding": {
+    "id": "general-cs-hard-05",
+    "sha256": "1e7a83717ca0d7c594e1777b4ffed8a15031fc325eb48c257d0e92a50dd1c1ba",
+    "verdict": "ACCEPTED",
+    "difficulty": "HARD"
+  },
+  "normalizationProof": {
+    "id": "general-cs-hard-05",
+    "beforePackSha256": "1e7a83717ca0d7c594e1777b4ffed8a15031fc325eb48c257d0e92a50dd1c1ba",
+    "packSha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+    "acceptedAnswerSetExactlyUnchanged": true,
+    "changed": [
+      {
+        "id": "general-cs-hard-05-08",
+        "beforeAliases": ["Gnómonika"],
+        "afterAliases": [],
+        "allPriorFormsRemainAccepted": true
+      },
+      {
+        "id": "general-cs-hard-05-10",
+        "beforeAliases": ["Chrématistika"],
+        "afterAliases": [],
+        "allPriorFormsRemainAccepted": true
+      }
+    ]
+  },
+  "normalizationReview": {
+    "reviewer": "Independent non-author, round 2",
+    "reviewerAgentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "decks": [
+      {
+        "id": "general-cs-hard-05",
+        "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "science-cs-hard-03",
+        "sha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "geography-cs-hard-04",
+        "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "nature-cs-easy-04",
+        "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      }
+    ],
+    "changedEntries": {
+      "general-cs-hard-05-08": "ACCEPTED",
+      "general-cs-hard-05-10": "ACCEPTED",
+      "science-cs-hard-03-08": "ACCEPTED"
+    },
+    "basis": "The only candidate changes remove three aliases equivalent to their canonicals under production normalization; the equivalence receipt reports unchanged accepted sets. Inspected /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/normalization-equivalence.json:1-60 and /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/domain/answers.js:64-79. No checks were rerun.",
+    "continuity": "All 112 prior judgments in round-two-final.json remain accepted under these hashes.",
+    "openFindings": [],
+    "integration": "Conditional on separate exact-parent content-only gates and deployment; no Phase 12 clearance claimed."
+  },
+  "preNormalizationReceipt": {
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../pre-normalization-snapshot/accepted-reviews/general-cs-hard-05-round-2.json",
+    "sha256": "347593a37511b3279560b0fbc5da9f62795d33f91515f637a48081d48c140470"
+  }
+}
