@@ -1,0 +1,891 @@
+{
+  "schemaVersion": 1,
+  "deckId": "science-cs-hard-03",
+  "reviewRound": 2,
+  "reviewer": {
+    "name": "Independent non-author, round 2",
+    "agentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "role": "Fresh independent non-author research reviewer"
+  },
+  "packSha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+  "verdict": "ACCEPTED",
+  "openFindings": 0,
+  "wholeDeckDifficulty": "HARD",
+  "readingKey": {
+    "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/",
+    "lineRanges": "Candidate and evidence ranges refer to the respective deck JSON and -evidence.json under these bases.",
+    "DIRECT": "Personally fetched and read the identified source section.",
+    "SEARCH": "Personally read the identified search passage, not the full page.",
+    "CACHED": "Personally read the relevant captured passage in the evidence projection.",
+    "defaults": {
+      "fact": "Supported by the cited evidence.",
+      "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+      "duplicate": "No same-fact collision or material cross-clue giveaway identified in the accessible indexed scope.",
+      "wording": "Natural Czech; no material ambiguity identified.",
+      "initial": "Canonical matches the fixed Czech position, including Ch.",
+      "category": "Appropriate for the deck."
+    },
+    "heldOverrides": "Defaults apply except where the entry or finding explicitly says otherwise. Historical passages for replaced targets were not used as evidence for their replacements."
+  },
+  "entries": [
+    {
+      "id": "science-cs-hard-03-01",
+      "questionSha256": "90c2bfbe07b2389a288c3999af32cb0ffc852f18947d6a714cd39bbfc216f06b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "01",
+        "verdict": "ACCEPTED",
+        "candidateLines": "11-20",
+        "evidenceLines": "6-150",
+        "source": "DIRECT S01",
+        "duplicate": "Anderson localization differs from the replaced Auger-effect predicate."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-02",
+      "questionSha256": "f47e4f3439d4dddd384fb360d0a821e6db507865a9efed4cf1ec80e42092e819",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "02",
+        "verdict": "HELD",
+        "candidateLines": "21-34",
+        "evidenceLines": "151-224",
+        "source": "SEARCH S02",
+        "aliases": "Missing the attested singular English Bloch oscillation."
+      },
+      "priorDelta": "ACCEPTED: singular English alias added; candidates/science-cs-hard-03.json:22-35.",
+      "finalResolution": "ACCEPTED: singular English alias added; candidates/science-cs-hard-03.json:22-35."
+    },
+    {
+      "id": "science-cs-hard-03-03",
+      "questionSha256": "468b030cb218a877f271d6ac2999ffdb57da464c073b010798c061306a93aca1",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "03",
+        "verdict": "HELD",
+        "candidateLines": "35-52",
+        "evidenceLines": "225-309",
+        "source": "DIRECT S03",
+        "fact": "The two-temperature estimate lacks necessary approximations.",
+        "aliases": "Also add the conventional English Clausius-Clapeyron equation and Clausius–Clapeyron equation."
+      },
+      "priorDelta": "ACCEPTED: all three integrated-equation approximations and English dash forms supplied; candidates/science-cs-hard-03.json:37-54.",
+      "finalResolution": "ACCEPTED: all three integrated-equation approximations and English dash forms supplied; candidates/science-cs-hard-03.json:37-54."
+    },
+    {
+      "id": "science-cs-hard-03-04",
+      "questionSha256": "e9a47635bd4be910fa598db6bebd489c1084e22eec025d846bfb43a8a5db6f3b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "04",
+        "verdict": "ACCEPTED",
+        "candidateLines": "53-66",
+        "evidenceLines": "310-375",
+        "source": "DIRECT S04",
+        "fact": "The per-port current condition supports Dvojbran."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-05",
+      "questionSha256": "e33c99a001522edee2af9094e927af3fc0b376d8078c5ec76eea86cd7de25db2",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "05",
+        "verdict": "HELD",
+        "candidateLines": "67-84",
+        "evidenceLines": "376-465",
+        "source": "SEARCH S05",
+        "aliases": "Missing conventional English Diels-Alder reaction and Diels–Alder reaction."
+      },
+      "priorDelta": "ACCEPTED: English dash variants added; candidates/science-cs-hard-03.json:71-89.",
+      "finalResolution": "ACCEPTED: English dash variants added; candidates/science-cs-hard-03.json:71-89."
+    },
+    {
+      "id": "science-cs-hard-03-06",
+      "questionSha256": "4d9c2661ceabea41237af610e9dcde12b68a400f23a724e5fabd1abe1d5f5ebe",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "06",
+        "verdict": "HELD",
+        "candidateLines": "85-94",
+        "evidenceLines": "466-539",
+        "source": "DIRECT S06",
+        "wording": "The stated three-body condition also describes Borromean states generally, not uniquely the Efimov family."
+      },
+      "priorDelta": "ACCEPTED: geometric scaling distinguishes the Efimov series; candidates/science-cs-hard-03.json:91-101.",
+      "finalResolution": "ACCEPTED: geometric scaling distinguishes the Efimov series; candidates/science-cs-hard-03.json:91-101."
+    },
+    {
+      "id": "science-cs-hard-03-07",
+      "questionSha256": "7037897cb202cb4b407c4cca3b9a33c186912353b0fbc562a6911483f7e415ab",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "07",
+        "verdict": "ACCEPTED",
+        "candidateLines": "95-110",
+        "evidenceLines": "540-615",
+        "source": "SEARCH S07; DIRECT S07b"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-08",
+      "questionSha256": "23803d235e6d3a1585a4b979ed9ab9203b1d7b7a72d12cb163d0083de03106db",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "08",
+        "verdict": "ACCEPTED",
+        "candidateLines": "111-125",
+        "evidenceLines": "616-696",
+        "source": "DIRECT S08"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash.",
+      "normalizationResolution": {
+        "verdict": "ACCEPTED",
+        "reason": "Only redundant normalized storage removed; the reviewer verified every prior form remains automatically accepted and accepted-answer sets are exactly equal."
+      }
+    },
+    {
+      "id": "science-cs-hard-03-09",
+      "questionSha256": "828f824ef2c0f552829ee1499c1c660409089dc3612c525ffaf62d48d79ddcc7",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "09",
+        "verdict": "ACCEPTED",
+        "candidateLines": "126-135",
+        "evidenceLines": "697-748",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-10",
+      "questionSha256": "44e41e59fc0003b4e43f6b1dd2cf8c2d971f6d7eaaba99873d6251636bcaaa50",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "10",
+        "verdict": "ACCEPTED",
+        "candidateLines": "136-148",
+        "evidenceLines": "749-825",
+        "source": "DIRECT S10",
+        "duplicate": "The unrelated sports clue using the word aktivita is not a chemical-activity giveaway."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-11",
+      "questionSha256": "6295b9bc21b0a74672defe0d3dfd3963c52a9a4d5f6bcb055332a4fd894ee53a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "11",
+        "verdict": "ACCEPTED",
+        "candidateLines": "149-158",
+        "evidenceLines": "826-897",
+        "source": "SEARCH S11"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-12",
+      "questionSha256": "6534d2df205c8b7248285b2090498da031c046a850a6dd98658c8cadb39a925b",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "12",
+        "verdict": "ACCEPTED",
+        "candidateLines": "159-172",
+        "evidenceLines": "898-1005",
+        "source": "SEARCH S12"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-13",
+      "questionSha256": "5bce162edac5c31296d8b769146582d56baf4de3bbf03810c01c3a012f463918",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "13",
+        "verdict": "ACCEPTED",
+        "candidateLines": "173-187",
+        "evidenceLines": "1006-1088",
+        "source": "SEARCH S13"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-14",
+      "questionSha256": "90e5ee03fb4b54d6c2d72e6d8e1116041ca294d997f26c40014d56b9701a9cea",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "14",
+        "verdict": "HELD",
+        "candidateLines": "188-206",
+        "evidenceLines": "1089-1168",
+        "source": "DIRECT S14",
+        "aliases": "The accepted English Tomonaga-Luttinger liquid is missing its conventional en-dash form Tomonaga–Luttinger liquid."
+      },
+      "priorDelta": "ACCEPTED: English en-dash form added; candidates/science-cs-hard-03.json:194-212.",
+      "finalResolution": "ACCEPTED: English en-dash form added; candidates/science-cs-hard-03.json:194-212."
+    },
+    {
+      "id": "science-cs-hard-03-15",
+      "questionSha256": "bba37cdb04edb4dbd670a7209ae0ad4a573aa2a7104e6937c092a0dd1303d824",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "15",
+        "verdict": "ACCEPTED",
+        "candidateLines": "207-218",
+        "evidenceLines": "1169-1238",
+        "source": "SEARCH S15"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-16",
+      "questionSha256": "1e7f7913369cb12d8b4ac396f7e29de908c18a9e51e389e372b3a88883e30f6e",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "16",
+        "verdict": "ACCEPTED",
+        "candidateLines": "219-230",
+        "evidenceLines": "1239-1339",
+        "source": "SEARCH S16",
+        "aliases": "Lewisova báze is valid in this electron-pair-donation context."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-17",
+      "questionSha256": "3c2fe0cb00e78cfed1c0fab9ac95ba2722bb42f902de8aa4dbea2d667acd9678",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "17",
+        "verdict": "ACCEPTED",
+        "candidateLines": "231-240",
+        "evidenceLines": "1340-1425",
+        "source": "SEARCH S17"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-18",
+      "questionSha256": "409fb4f26bde49773a2113c58d6d7709cb4bb6dac3a8a339c3e85c1ddb3548fb",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "18",
+        "verdict": "ACCEPTED",
+        "candidateLines": "241-252",
+        "evidenceLines": "1426-1504",
+        "source": "SEARCH S18"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-19",
+      "questionSha256": "94d37c754deeea4ba839ff4750db88109dfbc870f258ea4e33b99c73d663668a",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "19",
+        "verdict": "ACCEPTED",
+        "candidateLines": "253-268",
+        "evidenceLines": "1505-1596",
+        "source": "SEARCH S19"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-20",
+      "questionSha256": "36fc1635e3eea45218bdb2184f25c26eccf5b00d5f03ed6f257f9c42a7894e1c",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "20",
+        "verdict": "ACCEPTED",
+        "candidateLines": "269-281",
+        "evidenceLines": "1597-1675",
+        "source": "CACHED plus SEARCH S20",
+        "aliases": "Celkový řád reaction forms correctly identify the sum."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-21",
+      "questionSha256": "865166629276c7c4e33c509a3cceccb792b1e418167a7742c3224fe4d9fec5af",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "21",
+        "verdict": "ACCEPTED",
+        "candidateLines": "282-296",
+        "evidenceLines": "1676-1751",
+        "source": "DIRECT S21"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-22",
+      "questionSha256": "7e550cff85a6ca299baca7eef06793f58bf67bbbabf036919b336c8ab978c9ef",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "22",
+        "verdict": "ACCEPTED",
+        "candidateLines": "297-306",
+        "evidenceLines": "1752-1812",
+        "source": "CACHED",
+        "duplicate": "The screw-dislocation predicate is distinct from the displaced historical target."
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-23",
+      "questionSha256": "130521085bc89355b7550b77b78fdfdf197fcecdb2aac444aba593e6dee72e51",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "23",
+        "verdict": "ACCEPTED",
+        "candidateLines": "307-318",
+        "evidenceLines": "1813-1884",
+        "source": "SEARCH S23"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-24",
+      "questionSha256": "129dc6074eeff90d08b6dec2e26a78577220601f61951151be6c643ee1617fb5",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "24",
+        "verdict": "HELD",
+        "candidateLines": "319-351",
+        "evidenceLines": "1885-2013",
+        "source": "DIRECT S24; SEARCH S24b",
+        "fact": "Sources conflict on the experiment year; 1953 is securely the publication year, not an unqualified execution date."
+      },
+      "priorDelta": "ACCEPTED: 1953 now describes publication, not execution; candidates/science-cs-hard-03.json:326-355.",
+      "finalResolution": "ACCEPTED: 1953 now describes publication, not execution; candidates/science-cs-hard-03.json:326-355."
+    },
+    {
+      "id": "science-cs-hard-03-25",
+      "questionSha256": "10fd2a4226ab4a976ef3151f850c1982c197f919b11102a0613f4caaa707ee17",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "25",
+        "verdict": "ACCEPTED",
+        "candidateLines": "352-362",
+        "evidenceLines": "2014-2099",
+        "source": "DIRECT S25"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-26",
+      "questionSha256": "699dd66b5e57c58d9f33cd03be6960a10f416064e17870f5fb35a9c93e2ad5fb",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "26",
+        "verdict": "ACCEPTED",
+        "candidateLines": "363-377",
+        "evidenceLines": "2100-2173",
+        "source": "DIRECT S26"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-27",
+      "questionSha256": "1e52bc948d8a9ff8a684574296dff7e6c2bbc15997de80c7de2778982645c562",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "27",
+        "verdict": "ACCEPTED",
+        "candidateLines": "378-387",
+        "evidenceLines": "2174-2245",
+        "source": "SEARCH S27"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    },
+    {
+      "id": "science-cs-hard-03-28",
+      "questionSha256": "4f04d371c19ac31b7437d21a5c14112e6896cbdf8f7efcd365653d4f890f2337",
+      "verdict": "ACCEPTED",
+      "originalReview": {
+        "id": "28",
+        "verdict": "ACCEPTED",
+        "candidateLines": "388-409",
+        "evidenceLines": "2246-2310",
+        "source": "CACHED"
+      },
+      "priorDelta": null,
+      "finalResolution": "Unchanged entry accepted in the original full review and explicitly rebound to this final hash."
+    }
+  ],
+  "originalSnapshot": {
+    "packSha256": "e2bc890e1773d99332c7c421015baaa0496d1e4bf6e95bed9f059a6d65ca6bc1",
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-snapshot/science-cs-hard-03.json",
+    "evidenceSha256": "20ee130b8a009a174322d5ac040d35e01365914a409430551da31ab93d3acfe8",
+    "note": "Original HELD findings and subsequent held delta are preserved as history, not relabeled as original passes."
+  },
+  "originalReviewContext": {
+    "reviewer": "Independent non-author, round 2",
+    "scope": "Science and Nature only; all 56 entries reviewed",
+    "readingKey": {
+      "candidateBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/candidates/",
+      "evidenceBase": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/",
+      "lineRanges": "Candidate and evidence ranges refer to the respective deck JSON and -evidence.json under these bases.",
+      "DIRECT": "Personally fetched and read the identified source section.",
+      "SEARCH": "Personally read the identified search passage, not the full page.",
+      "CACHED": "Personally read the relevant captured passage in the evidence projection.",
+      "defaults": {
+        "fact": "Supported by the cited evidence.",
+        "aliases": "Supplied forms are reasonable; no consequential missing form identified.",
+        "duplicate": "No same-fact collision or material cross-clue giveaway identified in the accessible indexed scope.",
+        "wording": "Natural Czech; no material ambiguity identified.",
+        "initial": "Canonical matches the fixed Czech position, including Ch.",
+        "category": "Appropriate for the deck."
+      },
+      "heldOverrides": "Defaults apply except where the entry or finding explicitly says otherwise. Historical passages for replaced targets were not used as evidence for their replacements."
+    },
+    "findings": [
+      {
+        "entry": "science-cs-hard-03-02",
+        "required": "Add Bloch oscillation; retain the plural form.",
+        "evidence": "SEARCH S02; candidate lines 22-33."
+      },
+      {
+        "entry": "science-cs-hard-03-03",
+        "required": "Specify ideal vapor, negligible liquid volume and approximately constant vaporization enthalpy over the temperature interval; add the two English punctuation forms listed above.",
+        "evidence": "DIRECT S03; candidate lines 36-50. The author's pending wording is not part of the frozen candidate."
+      },
+      {
+        "entry": "science-cs-hard-03-05",
+        "required": "Add Diels-Alder reaction and Diels–Alder reaction; retain the Czech forms.",
+        "evidence": "SEARCH S05; candidate lines 68-81."
+      },
+      {
+        "entry": "science-cs-hard-03-06",
+        "required": "Distinguish the Efimov family, for example by its characteristic geometrically scaled sequence, or otherwise handle the broader Borromean answer fairly.",
+        "evidence": "DIRECT S06: APS describes Efimov trimers and their discrete scaling; the Rydberg-trimer paper describes Borromean states of a fundamentally different origin. Candidate lines 85-92."
+      },
+      {
+        "entry": "science-cs-hard-03-14",
+        "required": "Add Tomonaga–Luttinger liquid.",
+        "evidence": "DIRECT S14; candidate lines 188-203."
+      },
+      {
+        "entry": "science-cs-hard-03-24",
+        "required": "Change the date qualification to results published in 1953, or remove the execution-year assertion. Retain the legitimate existing name orders and punctuation forms.",
+        "evidence": "DIRECT S24: Linda Hall describes setup in fall 1952 and publication in May 1953; SEARCH S24b records Britannica's conflicting 1953 execution claim. Candidate lines 319-348."
+      },
+      {
+        "entry": "nature-cs-easy-04-09",
+        "required": "Add the attested contextual forms kamilka, rumánek, marunka and harmaníček.",
+        "evidence": "DIRECT N09; candidate lines 99-112."
+      },
+      {
+        "entry": "nature-cs-easy-04-10",
+        "required": "Make the requested generic grouping explicit enough to exclude specific identifications, or accept relevant specific forms including troudnatec kopytovitý/Fomes fomentarius and outkovka pestrá/Trametes versicolor.",
+        "evidence": "DIRECT N10; candidate lines 115-122."
+      },
+      {
+        "entry": "nature-cs-easy-04-13",
+        "required": "Add a distinguishing leaf or other reliable feature separating kopretina from heřmánkovec; add attested intended-plant folk forms husička, svatojánské kvítko and rmenec.",
+        "evidence": "DIRECT N13: Ontario compares leaf shapes; BOTANY gives heřmánkovec's overlapping 3–4.5 cm flower heads, and Pladias includes meadow habitat. NašeFlora attests the folk names. Candidate lines 148-157."
+      },
+      {
+        "entry": "nature-cs-easy-04-15",
+        "required": "Add a carrot-specific clue rather than treating sweet potato as a carrot synonym.",
+        "evidence": "DIRECT N15: Harvard and Frontiers describe orange, beta-carotene-rich sweet-potato storage roots. Candidate lines 169-185."
+      },
+      {
+        "entry": "nature-cs-easy-04-19",
+        "required": "Add a distinguishing gull behavior or morphology; do not make a tern an alias for racek.",
+        "evidence": "DIRECT N19: RSPB describes grey-and-white coastal terns; Valdez describes terns at a boat harbor catching food. Candidate lines 224-231."
+      },
+      {
+        "entry": "nature-cs-easy-04-23",
+        "required": "Distinguish true seals from walrus, for example using their land locomotion, without calling walrus a true seal.",
+        "evidence": "DIRECT N23: NOAA distinguishes pinniped families and true-seal locomotion; Biology Insights explicitly says walruses also lack external ear flaps. Candidate lines 269-276."
+      },
+      {
+        "entry": "nature-cs-easy-04-28",
+        "required": "Distinguish the intended species from other fitting European green woodpeckers, or fairly accept all fitting species names. A red crown alone distinguishes the grey-headed bird but also fits the Iberian bird.",
+        "evidence": "DIRECT N28; candidate lines 335-343. The author's pending wording is not part of the frozen candidate."
+      }
+    ],
+    "sourcesInspected": {
+      "S01": {
+        "access": "DIRECT",
+        "url": "https://journals.aps.org/prx/abstract/10.1103/y5kd-7prs"
+      },
+      "S02": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Bloch_oscillation"
+      },
+      "S03": {
+        "access": "DIRECT",
+        "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/23:_Phase_Equilibria/23.04:_The_Clausius-Clapeyron_Equation"
+      },
+      "S04": {
+        "access": "DIRECT",
+        "url": "https://www.engineeringdevotion.com/electric-circuits/chapter-19-two-port-networks.html"
+      },
+      "S05": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map:_Organic_Chemistry_(Wade)_Complete_and_Semesters_I_and_II/Map:_Organic_Chemistry_(Wade)/16:_Conjugated_Systems_Orbital_Symmetry_and_Ultraviolet_Spectroscopy/16.06:_The_Diels-Alder_(4__2)_Cycloaddition_Reaction"
+      },
+      "S06": {
+        "access": "DIRECT",
+        "urls": [
+          "https://physics.aps.org/articles/v7/51",
+          "https://ar5iv.labs.arxiv.org/html/1311.5373",
+          "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.013090"
+        ]
+      },
+      "S07": {
+        "access": "SEARCH",
+        "url": "https://ocw.mit.edu/courses/5-74-introductory-quantum-mechanics-ii-spring-2004/5f974b9793d98ad090ddd658764df01d_6.pdf"
+      },
+      "S07b": {
+        "access": "DIRECT",
+        "url": "https://ar5iv.labs.arxiv.org/html/1604.06916"
+      },
+      "S08": {
+        "access": "DIRECT",
+        "url": "https://phonopy.github.io/phonopy/gruneisen.html"
+      },
+      "S10": {
+        "access": "DIRECT",
+        "url": "https://www.wikiskripta.eu/w/Chemick%C3%A1_aktivita"
+      },
+      "S11": {
+        "access": "SEARCH",
+        "url": "https://www.news-medical.net/life-sciences/Overview-of-the-Isoelectric-Point.aspx"
+      },
+      "S12": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Janus_particles"
+      },
+      "S13": {
+        "access": "SEARCH",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4338838/"
+      },
+      "S14": {
+        "access": "DIRECT",
+        "url": "https://www.sp.phy.cam.ac.uk/research/phds-jobs/many-body-effects-in-one-dimensional-wires"
+      },
+      "S15": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/06%3A_Structures_and_Energetics_of_Metallic_and_Ionic_solids/6.13%3A_Lattice_Energy_-_Estimates_from_an_Electrostatic_Model/6.13E%3A_Madelung_Constants"
+      },
+      "S16": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Courses/University_of_California_Davis/Chem_4B%3A_General_Chemistry_for_Majors_II/03%3A_Chemical_Equilibria/3.06%3A_AcidBase_Equilibria/3.6.10%3A_Lewis_Bases_as_Nucleophilic_Reactants_in_Organic_Reactions"
+      },
+      "S17": {
+        "access": "SEARCH",
+        "url": "https://www.sciencedirect.com/topics/physics-and-astronomy/ostwald-ripening"
+      },
+      "S18": {
+        "access": "SEARCH",
+        "url": "https://bingweb.binghamton.edu/~suzuki/SolidStatePhysics/30-2_Pauli_paramagnetism.pdf"
+      },
+      "S19": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Rayleigh%E2%80%93Jeans_law"
+      },
+      "S20": {
+        "access": "SEARCH",
+        "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/03%3A_Rate_Laws/3.03%3A_The_Rate_Law/3.3.03%3A_Reaction_Order"
+      },
+      "S21": {
+        "access": "DIRECT",
+        "url": "https://ar5iv.labs.arxiv.org/html/2109.05082"
+      },
+      "S23": {
+        "access": "SEARCH",
+        "url": "https://scipp-legacy.pbsci.ucsc.edu/~haber/webpage/Thomas.pdf"
+      },
+      "S24": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/",
+          "https://edu.ceskatelevize.cz/video/5788-pokus-tvorba-aminokyselin"
+        ]
+      },
+      "S24b": {
+        "access": "SEARCH",
+        "url": "https://www.britannica.com/science/Miller-Urey-experiment"
+      },
+      "S25": {
+        "access": "DIRECT",
+        "url": "https://mathworld.wolfram.com/VirialTheorem.html"
+      },
+      "S26": {
+        "access": "DIRECT",
+        "url": "https://collaborate.princeton.edu/en/publications/transient-rod-climbing-in-a-viscoelastic-fluid/"
+      },
+      "S27": {
+        "access": "SEARCH",
+        "url": "https://en.wikipedia.org/wiki/Zitterbewegung"
+      },
+      "N02": {
+        "access": "DIRECT",
+        "url": "https://www.cropscience.bayer.cz/aktuality-a-zdroje/atlas-chorob-plevelu-skudcu/skudci/belasek-zelny"
+      },
+      "N03": {
+        "access": "DIRECT",
+        "url": "https://www.abicko.cz/clanek/precti-si-priroda/14163/cikady-zpevaci-s-bubinkem.html"
+      },
+      "N06": {
+        "access": "DIRECT",
+        "url": "https://pladias.cz/taxon/data/Echinacea%20purpurea"
+      },
+      "N09": {
+        "access": "DIRECT",
+        "urls": [
+          "https://botany.cz/cs/matricaria-recutita/",
+          "https://ceske-bylinky.cz/content/210-hermanek-pravy"
+        ]
+      },
+      "N10": {
+        "access": "DIRECT",
+        "urls": [
+          "https://botany.cz/cs/fomes-fomentarius/",
+          "https://botany.cz/cs/trametes-versicolor/"
+        ]
+      },
+      "N12": {
+        "access": "SEARCH",
+        "url": "https://www.britannica.com/plant/barley-cereal"
+      },
+      "N13": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy",
+          "https://botany.cz/cs/tripleurospermum-inodorum/",
+          "https://pladias.cz/taxon/data/Tripleurospermum%20inodorum",
+          "https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/"
+        ]
+      },
+      "N15": {
+        "access": "DIRECT",
+        "urls": [
+          "https://nutritionsource.hsph.harvard.edu/food-features/sweet-potatoes/",
+          "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1744016/full"
+        ]
+      },
+      "N18": {
+        "access": "SEARCH",
+        "url": "https://www.britannica.com/plant/parsley"
+      },
+      "N19": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.rspb.org.uk/birds-and-wildlife/common-tern",
+          "https://www.valdezalaska.org/discover/explore-the-region/wildlife/birds/arctic-terns/"
+        ]
+      },
+      "N21": {
+        "access": "DIRECT",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/great-tit"
+      },
+      "N23": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety",
+          "https://biologyinsights.com/are-walruses-seals-explaining-the-key-differences/"
+        ]
+      },
+      "N24": {
+        "access": "DIRECT",
+        "url": "https://www.superzoo.cz/uzovka-cervena-elaphe-guttata/",
+        "qualification": "Used for the Czech name only; its South America range claim is erroneous."
+      },
+      "N25": {
+        "access": "DIRECT",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/house-sparrow"
+      },
+      "N26": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.cschms.cz/index.php?page=pl_novinka&id=3504",
+          "https://www.zoodvorec.cz/lexikon/watusi_33.html"
+        ]
+      },
+      "N27": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+          "https://www.ncbi.nlm.nih.gov/sites/books/NBK381/"
+        ]
+      },
+      "N28": {
+        "access": "DIRECT",
+        "urls": [
+          "https://www.nasiptaci.info/zluna-seda-2/",
+          "https://www.nasiptaci.info/zluna-zelena-2/",
+          "https://www.birdforum.net/opus/Iberian_Green_Woodpecker"
+        ]
+      }
+    },
+    "originality": {
+      "scope": "Compared the 56 entries with the accessible indexed corpus and other candidates using accepted-form intersections, bidirectional clue checks and bilingual concept/predicate leads. The manifest identifies 519 pack instances and 14,532 rows: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/corpus-manifest.json:1-9.",
+      "result": "No additional same-fact collision identified in these two decks. Contextual overlaps were assessed rather than automatically treated as duplicates.",
+      "limit": "This is a bounded indexed comparison, not a claim about inaccessible archives or an exhaustive proof of originality."
+    },
+    "sourceLimits": [
+      "Wikipedia, Britannica, some plant sources and PMC were inaccessible directly; SEARCH and CACHED labels do not imply full-page access.",
+      "Springer S01 returned 406, Sigma S05 timed out, IUPAC S11 had a transport failure, MDPI S12 returned 403, and PMC S13 presented a browser check; alternative sources are identified above.",
+      "The relevant preserved evidence passages were read; original passages for replaced targets were treated as historical only.",
+      "No GitHub identity tool was available in this environment."
+    ],
+    "validationAndIntegration": {
+      "receipt": "The existing receipt reports 28 questions, fixed labels, matching accepted forms and roundtrip for each deck; it is not content approval: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/candidate-validation.json:20-36.",
+      "verdict": "Conditional only. Neither deck is approved while its holds remain. After corrections and independent binding to new hashes, the append-only, one-deck-per-PR contract is reasonable subject to the separate exact-parent gate and deployment workflow: /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/freeze.json:25-32.",
+      "notExecuted": "No app checks, tests, builds, installations, authorship, commits, merge, deployment or Phase 12 clearance."
+    }
+  },
+  "deltaSourcesInspected": [
+    "DIRECT: https://saudipedia.com/en/deserts-of-saudi-arabia — Al-Nufud al-Kabir location, red sands and Dahna connection.",
+    "DIRECT: https://saudipedia.com/en/al-dahna-desert — Dahna connects Great al-Nafud to the Empty Quarter.",
+    "DIRECT: https://www.geolsoc.org.uk/science-and-policy/plate-tectonic-stories/zagros-ramge/ — Arabian–Eurasian convergence. Its anomalous southeastern-Iran sentence was not used for location.",
+    "SEARCH only: https://www.britannica.com/place/Zagros-Mountains — western-Iran location; direct fetch returned 403.",
+    "DIRECT: https://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/node64.html — three approximations.",
+    "DIRECT: https://physics.aps.org/articles/v7/51 — Efimov trimer scaling.",
+    "DIRECT: https://www.lindahall.org/about/news/scientist-of-the-day/stanley-miller/ — publication history.",
+    "DIRECT: https://ceske-bylinky.cz/content/210-hermanek-pravy — folk-name list only.",
+    "DIRECT: https://naseflora.cz/kopretina-bila-leucanthemum-vulgare-agg/ and https://www.ontario.ca/document/weed-identification-guide-ontario-crops/ox-eye-daisy — names and leaf comparison.",
+    "DIRECT: https://www.fisheries.noaa.gov/feature-story/seal-sea-lion-week-2023-celebrating-science-and-safety — seal locomotion.",
+    "DIRECT: https://www.nasiptaci.info/zluna-zelena-2/ — green woodpecker identification, feeding and breeding.",
+    "Other prior DIRECT, SEARCH and CACHED source readings are preserved in round-two-general-geography.json and round-two-science-nature.json."
+  ],
+  "deltaContinuityAndLimits": "The actual diff changes only the 18 held entries; existing aliases are retained except those belonging to the two replaced Geography targets. The 29 mechanical nominations include unrelated generic overlaps, not identified same-fact duplicates. New-target comparison was bounded to the accessible 519-instance index and candidates; inaccessible archives were not reviewed. The production validation receipt was inspected, not independently rerun. No app checks, changes or deployment were performed.",
+  "finalHashRebinding": {
+    "id": "science-cs-hard-03",
+    "sha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+    "verdict": "ACCEPTED",
+    "entries": "01–28"
+  },
+  "continuity": "All 112 entries are accepted under these hashes, carrying forward the completed original and delta judgments in round-two-general-geography.json, round-two-science-nature.json and round-two-delta-first.json.",
+  "integrationVerdict": "Conditional on separate exact-parent content-only gates and deployment for each deck; no integration or Phase 12 clearance is claimed.",
+  "rawReportReceipts": [
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-partial-original.json",
+      "sha256": "e1c42bad1700fbc37faee65da230181f7470da35c69c2cd86f92e194e04b0f31"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-general-geography.json",
+      "sha256": "e4253a70957182609ea0d8c3063816376469ba051528d2661f3d90b8b6f4999c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-science-nature.json",
+      "sha256": "b6d0143f3deba41e4cfe3f76b81b3a18ca45d34da456ec6d51178c853480e283"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-delta-first.json",
+      "sha256": "c63a6a365c427b7f6c350ffaefda659fbea155e32782567441d02d1b9238cb6c"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../round-two-final.json",
+      "sha256": "a5bfe3eefcbcacf73fc53238b990c02731aefdab6538ae2887fb5ff6ce67b391"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-round-two.json",
+      "sha256": "f47540fbecaf3995c26870aa63e2b3bb47704895d4583df81a54cbadaab0109a"
+    },
+    {
+      "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../normalization-equivalence.json",
+      "sha256": "8255d7f7ec05a74663c456753ec68e19e1f2522d011add0e952409b6222a6cbc"
+    }
+  ],
+  "preNormalizationFinalHashRebinding": {
+    "id": "science-cs-hard-03",
+    "sha256": "4ead8c4bfd9f6e281a52e49d489b37818c1d7f19282bb3093fb660b3a271d63d",
+    "verdict": "ACCEPTED",
+    "difficulty": "HARD"
+  },
+  "normalizationProof": {
+    "id": "science-cs-hard-03",
+    "beforePackSha256": "4ead8c4bfd9f6e281a52e49d489b37818c1d7f19282bb3093fb660b3a271d63d",
+    "packSha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+    "acceptedAnswerSetExactlyUnchanged": true,
+    "changed": [
+      {
+        "id": "science-cs-hard-03-08",
+        "beforeAliases": [
+          "Gruneisenův parametr",
+          "Grüneisenův módový parametr",
+          "Módový Grüneisenův parametr"
+        ],
+        "afterAliases": [
+          "Grüneisenův módový parametr",
+          "Módový Grüneisenův parametr"
+        ],
+        "allPriorFormsRemainAccepted": true
+      }
+    ]
+  },
+  "normalizationReview": {
+    "reviewer": "Independent non-author, round 2",
+    "reviewerAgentId": "55c1b66a-5183-4889-87a7-19d88e7d5025",
+    "decks": [
+      {
+        "id": "general-cs-hard-05",
+        "sha256": "c43d73bf3e48db0965701c7c04b8c128752811f0c1bf086ceaf3596d27d8846d",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "science-cs-hard-03",
+        "sha256": "f899e63bc6119d78f958609e078b238ec47221c4f45c0e385bcbe5a19a184c91",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "geography-cs-hard-04",
+        "sha256": "94eda5db90a2bdec563f2160286b26ca31c1e89a584f12e4669bff7f40a29380",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      },
+      {
+        "id": "nature-cs-easy-04",
+        "sha256": "22ff218733845b5575941bbc58c57f073a677cfdb25e64c35192e8818737b955",
+        "verdict": "ACCEPTED",
+        "entries": "01–28"
+      }
+    ],
+    "changedEntries": {
+      "general-cs-hard-05-08": "ACCEPTED",
+      "general-cs-hard-05-10": "ACCEPTED",
+      "science-cs-hard-03-08": "ACCEPTED"
+    },
+    "basis": "The only candidate changes remove three aliases equivalent to their canonicals under production normalization; the equivalence receipt reports unchanged accepted sets. Inspected /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/normalization-equivalence.json:1-60 and /home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/src/domain/answers.js:64-79. No checks were rerun.",
+    "continuity": "All 112 prior judgments in round-two-final.json remain accepted under these hashes.",
+    "openFindings": [],
+    "integration": "Conditional on separate exact-parent content-only gates and deployment; no Phase 12 clearance claimed."
+  },
+  "preNormalizationReceipt": {
+    "path": "/home/jakubmifek/github/HexY/.artifacts/four-drafts-20261119/worktree/../pre-normalization-snapshot/accepted-reviews/science-cs-hard-03-round-2.json",
+    "sha256": "644615e363d5c56f6f33d0a095f8214699b2380bbad48ba9429854d0db4db258"
+  }
+}
